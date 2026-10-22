@@ -1,0 +1,39 @@
+# Operating configuration. Changing any value here is a strategy/risk change:
+# record it in experiments/registry.csv and docs/risk-policy.md.
+
+mode: paper            # The only accepted value. Anything else fails closed.
+
+virtual_portfolio:
+  starting_equity_inr: 1000000
+  currency: INR
+
+risk:
+  max_risk_per_position_pct: 0.5     # of current virtual equity
+  max_aggregate_open_risk_pct: 2.0   # sum of planned risk on open positions
+  max_new_candidates_per_day: 2      # a ceiling, never a quota
+  allow_leverage: false
+  allow_derivatives: false
+  allow_averaging_down: false
+  allow_stop_widening: false
+
+execution_model:
+  entry: next_session_open           # signals at close t, entry at open t+1
+  stop_gap_fill: session_open        # a gap through the stop fills at the open, not the stop
+  slippage_bps_per_side: 10          # conservative placeholder; sensitivity-tested at 2x
+  min_median_traded_value_inr: 50000000  # 20-day median turnover filter (5 crore)
+
+# Equity delivery (CNC) charges. Rates change; every value must be re-verified against
+# the broker's and NSE's current schedules before results are reported.
+costs:
+  verified: false
+  verified_on: null
+  source_note: "Placeholder rates from commonly published NSE delivery schedules; verify before Phase 7 results."
+  brokerage_pct: 0.0                 # many discount brokers charge 0 for delivery
+  brokerage_cap_inr: 0.0
+  stt_pct_buy: 0.1
+  stt_pct_sell: 0.1
+  exchange_txn_pct: 0.00297          # NSE cash market
+  sebi_fee_pct: 0.0001               # Rs 10 per crore
+  stamp_duty_pct_buy: 0.015
+  gst_pct: 18.0                      # on brokerage + exchange + SEBI fees
+  dp_charge_inr_per_sell: 15.34      # per scrip per sell day, incl. GST (broker-specific)
