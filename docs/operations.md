@@ -11,6 +11,9 @@ project owner (CLAUDE.md rule 1).
 ```
 - Run after NSE publishes the day's files: the bhavcopy and `ind_close_all` index file. Before they exist
   the freshness check says the data may be stale, and the report's status is DATA INSUFFICIENT.
+  Observed on 2026-10-23 (polling every 5 minutes): bhavcopy available by 16:36 IST, index file by
+  18:01 IST. So start a scheduled run after about 18:15 IST.
+- Real-day run 2026-10-23 (18:06 IST): NO TRADE, 4 setups all rejected (NIFTY 50 trend down), about 4 min.
 - A fresh container works: the command fetches the ~330 stock sessions and ~840 index sessions it needs
   (about 6 minutes from an empty `data/` folder, measured 2026-10-23).
 - Output: `reports/YYYY-MM-DD.md` (12 sections, validated before it is written) and records in
