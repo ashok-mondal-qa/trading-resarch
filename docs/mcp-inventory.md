@@ -38,6 +38,12 @@ unverified** · **evaluated, not configured** · **rejected**.
   `{"error":"Symbol not found: RELIANCE"}` while the others returned 22 bars. Recent dates returned
   consistently (8/8). Errors are retried and never read as "no bar". Client:
   `src/trading_research/data/nse_mcp.py`.
+- **`get_corporate_actions` (checked 2026-10-23 on the 20 most-traded stocks of 2026-10-22, 2021-10-25..2026-10-22):**
+  correct factors for HDFCBANK bonus 1:1 (2025-08-26), BAJFINANCE bonus 4:1 + split 2:1 (2025-06-16, combined
+  0.1), RELIANCE bonus 1:1 (2024-10-28) and others, all confirmed by the raw ex-date price drop.
+  **Incomplete:** KOTAKBANK's raw price fell 2132.6 → 426.0 open on 2026-01-14 (≈ 5:1 split) but the server
+  lists no action after mid-2025. Demerger (RELIANCE 2023-07-20) and rights (INDHOTEL 2021-11-11) come with
+  factor 1.0. The adjuster flags all three and uses only the bars after them; it never guesses a factor.
 - **Role:** cross-check and convenience queries. The primary store is the archive bhavcopy (see below),
   because files are hashable, re-downloadable and consistent.
 
@@ -72,5 +78,7 @@ NSE/BSE corporate announcement pages. Access path not yet confirmed.
 - **Loader:** `python -m trading_research.data.bhavcopy --start YYYY-MM-DD --end YYYY-MM-DD
   [--cross-check SYM,SYM]`. Raw zips → `data/raw/`, normalised parquet → `data/processed/`, provenance
   manifest per date → `data/manifests/nse_cm_bhavcopy/` (committed).
-- **Loaded so far:** 2026-10-01..22 (15 sessions; 2026-10-02 and 2026-10-20 had no file), 2023-10-20,
-  2024-07-05, 2024-07-08.
+- **Loaded so far (2026-10-23):** every weekday 2021-10-25..2026-10-22: 1,233 files, 71 weekdays with no
+  file (exchange holidays; list = `not_found` manifests). Weekend special sessions (e.g. Muhurat trading)
+  are not attempted yet. 217 rows were excluded, all series T0 (T+0 settlement segment), where high/low
+  do not bound open/close; no EQ rows were excluded.

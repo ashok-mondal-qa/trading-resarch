@@ -26,3 +26,21 @@ duplicated observations · known limitations · licence/terms note.
 - Never fill missing candles. A missing bar for a symbol excludes that symbol for that date.
 - Web-search snippets are never a substitute for market data.
 - Stale data (last bar older than the most recent completed NSE session) → `DATA INSUFFICIENT`.
+
+## Split/bonus adjustment (`src/trading_research/data/adjust.py`)
+- Corporate actions come from the NSE bhavcopy MCP `get_corporate_actions` (ex-date + `adjustmentFactor`),
+  cached with retrieval time in `data/raw/corporate_actions/`.
+- Backward, price-only: bars before an ex-date × factor, volume ÷ factor; same-day events multiply.
+  Dividends are not adjusted. Raw prices stay in the same file for simulated fills.
+- NSE's bhavcopy `PrvsClsgPric` is **not** adjusted on ex-dates (RELIANCE 2024-10-28 bonus: prev close
+  2655.7 = raw close of 2024-10-25), so it cannot be used as the check. Instead, each factor must agree
+  within 25% with the raw ex-date open ÷ previous close.
+- Any adjusted close-to-close move above 35% without a corporate action, or a price-changing event the
+  source reports with factor 1.0 (demerger, rights, scheme, capital reduction), is an error. Errors are
+  never patched: the series is usable only from `valid_from` (first bar after the last error); nothing usable
+  → `DATA INSUFFICIENT`. Per-symbol manifests: `data/manifests/adjusted/`.
+- Known gaps: symbol changes are not linked yet (ETERNAL has bars only from 2025-04-09; its earlier
+  history is under ZOMATO). A source with missing actions is caught by the jump check (KOTAKBANK 2026-01-14).
+- First run (2026-10-23, 20 most-traded EQ stocks of 2026-10-22 + RELIANCE/HDFCBANK/BAJFINANCE, 2021-10-25
+  ..2026-10-22): 17 ok, 3 partial (RELIANCE from 2023-07-21, INDHOTEL from 2021-11-12, KOTAKBANK from
+  2026-01-16).
