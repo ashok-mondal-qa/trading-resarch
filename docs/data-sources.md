@@ -54,3 +54,14 @@ duplicated observations · known limitations · licence/terms note.
 - Check over 2021-10-26..2026-10-22 (EQ): 229 renames confirmed, 15 unconfirmed (3 ISIN changed at the
   rename, 12 with one side missing from EQ data, e.g. listed in another series). ZOMATO → ETERNAL
   (2025-04-09) is confirmed; ETERNAL now has 1,233 bars, no issues.
+
+## Gate 1 data checks (`src/trading_research/data/quality.py`)
+- **Freshness:** the newest loaded session must be the most recent completed one (after 15:30 IST). A
+  weekday counts as a holiday only if its bhavcopy was confirmed absent by a fetch after 20:00 IST that day.
+- **Per symbol, over the last N sessions (default 260):** no missing session between first and last bar
+  (sessions = dates with an `ok` bhavcopy manifest), no zero/missing volume, no duplicate dates, no
+  non-positive prices, adjusted series usable for the whole window. Any failure → `DATA INSUFFICIENT`.
+- First run (2026-10-23 09:54 IST): fresh (latest session 2026-10-22). Over the last 260 sessions, 2,491
+  EQ symbols pass and 503 fail (mostly sessions missing from the EQ series, e.g. moves to BE or
+  suspensions). Of the 20 adjusted symbols, 19 pass; KOTAKBANK fails because its usable series starts
+  2026-01-16.
