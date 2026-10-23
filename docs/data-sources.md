@@ -1,6 +1,16 @@
 # Data sources and data-quality contract
 
-No dataset has been ingested yet (2026-10-22). See `docs/mcp-inventory.md` for provider status.
+Ingested (2026-10-23): NSE CM bhavcopy, 2026-10-01..22 plus three test dates, via
+`src/trading_research/data/bhavcopy.py`. Manifests: `data/manifests/nse_cm_bhavcopy/`. Provider status:
+`docs/mcp-inventory.md`.
+
+## Loader behaviour
+- Raw files kept byte-for-byte with SHA-256 in the manifest; prices stored **unadjusted**.
+- A date with no published file gets a `not_found` manifest and no bars (never filled).
+- Rows with duplicate symbol/series, missing or non-positive prices, or high/low not bounding open/close are
+  excluded and listed in the manifest's `excluded`; nothing is repaired.
+- A file whose trade date differs from the requested date fails closed (no manifest written).
+- `read_bars()` returns series EQ by default; other series need an explicit choice.
 
 ## Every dataset must carry a provenance manifest with
 provider and source URL · instrument and exchange · timeframe · first/last bar timestamp (IST) ·

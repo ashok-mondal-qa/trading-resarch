@@ -7,6 +7,8 @@ __pycache__/
 !.env.example
 data/*
 !data/README.md
+!data/manifests/
 *.parquet
 *.zip
 .claude/settings.local.json
+*.egg-info/
