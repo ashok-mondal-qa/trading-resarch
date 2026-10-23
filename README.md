@@ -17,7 +17,7 @@ Start with `CLAUDE.md`. Plan and audit: see the project doc "Swing-trading resea
 | 7 Backtesting | event-driven engine (next-open fills, gaps, costs, splits); baseline v0.2 **REJECTED** on train + 2025 validation, holdout unused (2026-10-23, `reports/backtests/EXP-0006-report.md`) |
 | 8 PA / SMC strategies | PA pullback and SMC sweep pre-registered and tested; both **REJECTED**, holdout unused (2026-10-23, `reports/backtests/EXP-0007-0008-report.md`) |
 | 9 Paper trading | paper broker (simulated fills, journal only), hash-chained journal, daily 12-section report with gates 1–9 (2026-10-23) |
-| 10 | not started |
+| 10 End-to-end | synthetic full-cycle test (signal → order → fill → exit), live-mode refusal, source scan for order code, report field checks; runbook `docs/operations.md` (2026-10-23) |
 
 ## Daily report (paper only)
 ```

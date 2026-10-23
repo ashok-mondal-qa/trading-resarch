@@ -66,7 +66,11 @@ def test_registry_status_lookup():
 
 
 def test_validator_flags_missing_sections_and_banned_phrases():
-    good = "\n".join(f"## {s}\ntext" for s in daily.SECTIONS) + "\n**NO TRADE**\n"
+    body = {daily.SECTIONS[9]: "- open planned risk ₹0 vs cap ₹20,000",
+            daily.SECTIONS[11]: "- Cost rates verified: no\n- Survivorship: point-in-time\n"
+                                "- Paper trading only, not investment advice."}
+    good = "\n".join(f"## {s}\n{body.get(s, 'text')}" for s in daily.SECTIONS[:11]) + "\n**NO TRADE**\n" \
+        + f"## {daily.SECTIONS[11]}\n{body[daily.SECTIONS[11]]}\n"
     assert daily.validate_report(good) == []
     bad = good.replace("## 7. Gate results", "") + "\nA high probability setup."
     problems = daily.validate_report(bad)

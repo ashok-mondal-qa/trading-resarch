@@ -215,20 +215,28 @@ def build_universe(day: date, root: Path, nifty: pd.Series, calendar: list, held
 
 
 # --------------------------------------------------------------------------------------------- gates
+def no_event_screen(symbol: str, day: date) -> tuple[bool, str]:
+    """Gate 7's event half. No source is wired yet, so it never passes (missing input is never a pass)."""
+    return False, ("liquidity floor met; **event screen not available** (results dates, filings not "
+                   "checked), so this gate cannot pass")
+
+
 def gap_risk(bars: pd.DataFrame) -> float:
     """5th percentile of open/previous-close - 1 over the window (an adverse overnight gap)."""
     gaps = (bars["open"] / bars["close"].shift(1) - 1).dropna()
     return float(np.percentile(gaps, 5)) if len(gaps) >= 20 else float("nan")
 
 
-def evaluate_candidates(day: date, u: Universe, reg: pd.DataFrame, broker, settings: dict) -> list[dict]:
+def evaluate_candidates(day: date, u: Universe, reg: pd.DataFrame, broker, settings: dict,
+                        event_screen: Callable = no_event_screen,
+                        status_of: Callable = registry_status, held: set[str] = frozenset()) -> list[dict]:
     ts = pd.Timestamp(day)
     trend = reg["trend"].get(ts, "unknown")
     equity, cash, open_risk = broker.equity(), broker.cash(), broker.open_planned_risk()
     risk_cfg = settings["risk"]
     out = []
     for sd in STRATEGIES:
-        strategy_status = registry_status(sd.experiment)
+        strategy_status = status_of(sd.experiment)
         for (name, symbol), f in u.features.items():
             if name != sd.name or ts not in f.index or not bool(f.loc[ts, "candidate"]):
                 continue
@@ -245,7 +253,9 @@ def evaluate_candidates(day: date, u: Universe, reg: pd.DataFrame, broker, setti
             plan, risk_note = None, ""
             full = equity * float(risk_cfg["max_risk_per_position_pct"]) / 100
             cap = equity * float(risk_cfg["max_aggregate_open_risk_pct"]) / 100
-            if cap - open_risk < full:
+            if symbol in held:
+                risk_note = "already held or ordered (one position per symbol, no averaging down)"
+            elif cap - open_risk < full:
                 risk_note = "aggregate cap: no room for a full 0.5% position"
             else:
                 try:
@@ -255,8 +265,7 @@ def evaluate_candidates(day: date, u: Universe, reg: pd.DataFrame, broker, setti
                 except SizingRejected as exc:
                     risk_note = f"sizer: {exc}"
             g[6] = (plan is not None, risk_note)
-            g[7] = (False, "liquidity floor met; **event screen not available** (results dates, filings "
-                           "not checked), so this gate cannot pass")
+            g[7] = event_screen(symbol, day)
             g[8] = (strategy_status.upper() == "ACCEPTED",
                     f"strategy {sd.experiment} status in registry: {strategy_status}")
             status = "TRADE CANDIDATE"
@@ -321,8 +330,8 @@ def render(ctx: dict) -> str:
     add(f"- {c['screened']} liquid EQ symbols screened (₹50 raw price floor, 20-day median traded value ≥ "
         f"₹5 crore); corporate actions fetched for {c['actions_fetched']}, unavailable for "
         f"{c['actions_failed']}")
-    add(f"- Strategies: " + "; ".join(f"{s.name} v{s.version} ({s.experiment}: {registry_status(s.experiment)})"
-                                     for s in STRATEGIES))
+    add("- Strategies: " + "; ".join(f"{s.name} v{s.version} ({s.experiment}: {c['status_of'](s.experiment)})"
+                                    for s in STRATEGIES))
     add(f"- Setups found at today's close: {len(c['candidates'])}")
     tc = [x for x in c["candidates"] if x["status"] == "TRADE CANDIDATE"]
     add(f"\n## {SECTIONS[4]}")
@@ -358,8 +367,9 @@ def render(ctx: dict) -> str:
     else:
         add("- No setups, so no gates were run.")
     add(f"\n## {SECTIONS[7]}")
-    add("- Auditor: no strategy has passed out-of-sample validation (EXP-0006/0007/0008 all REJECTED), so any "
-        "setup above is a research record, not a trade. The event screen is missing.")
+    accepted = [s.experiment for s in STRATEGIES if c["status_of"](s.experiment).upper() == "ACCEPTED"]
+    add(f"- Auditor: strategies accepted for paper trading: {', '.join(accepted) or 'none'}. A setup from a "
+        "strategy that is not accepted is a research record, not a trade.")
     add(f"- Risk manager: open planned risk ₹{c['open_risk']:,.0f} of the ₹{c['cap']:,.0f} cap (2%); gaps can "
         "lose more than planned risk.")
     add(f"\n## {SECTIONS[8]}")
@@ -388,8 +398,21 @@ def render(ctx: dict) -> str:
     return "\n".join(L) + "\n"
 
 
+CANDIDATE_FIELDS = ["(NSE, daily)", "Evidence:", "Entry condition:", "invalidation/stop", "target:", "Size:",
+                    "planned risk", "reward-to-risk", "est. costs", "Gap risk:", "Event risks:"]
+REQUIRED_LIMITATIONS = ["Cost rates verified:", "Survivorship:", "Paper trading only, not investment advice"]
+
+
 def validate_report(text: str) -> list[str]:
     problems = [f"missing section: {s}" for s in SECTIONS if f"## {s}" not in text]
+    details = text.split(f"## {SECTIONS[5]}")[-1].split(f"## {SECTIONS[6]}")[0]
+    for block in details.split("\n- **")[1:]:
+        symbol = block.split("**")[0]
+        problems += [f"{symbol}: missing field '{f}'" for f in CANDIDATE_FIELDS if f not in block]
+    limits = text.split(f"## {SECTIONS[11]}")[-1]
+    problems += [f"limitations missing: {x}" for x in REQUIRED_LIMITATIONS if x not in limits]
+    if "open planned risk" not in text.split(f"## {SECTIONS[9]}")[-1]:
+        problems.append("open positions section lacks aggregate planned risk vs the cap")
     lower = text.lower()
     problems += [f"banned phrase: {p}" for p in BANNED_PHRASES if p in lower]
     if not any(f"**{s}**" in text for s in STATUSES):
@@ -410,7 +433,8 @@ def latest_session(store: bhavcopy.Store, before: date) -> date | None:
 
 def run(day: date | None = None, root: Path = REPO_ROOT / "data", fetch: bool = True,
         now_utc: datetime | None = None, journal: Journal | None = None,
-        report_dir: Path = REPO_ROOT / "reports") -> dict:
+        report_dir: Path = REPO_ROOT / "reports", event_screen: Callable = no_event_screen,
+        status_of: Callable = registry_status, fetch_actions: Callable = corporate_actions.load_actions) -> dict:
     now = now_utc or datetime.now(timezone.utc)
     settings = load_settings()
     store = bhavcopy.Store(root=root)
@@ -440,7 +464,7 @@ def run(day: date | None = None, root: Path = REPO_ROOT / "data", fetch: bool = 
     candidates, u = [], Universe()
     broker_events = []
     if data_ok:
-        u = build_universe(target, root, nifty, calendar, held)
+        u = build_universe(target, root, nifty, calendar, held, fetch_actions)
         # paper broker: exits decided at the previous close, then today's open for pending orders
         prev = [d for d in calendar if d < target]
         exits_due = {}
@@ -463,7 +487,7 @@ def run(day: date | None = None, root: Path = REPO_ROOT / "data", fetch: bool = 
         for rec in broker.process_session(target.isoformat(), bars, exits_due, factors):
             broker_events.append(f"{rec['type']} {rec['data'].get('symbol')} "
                                  f"{rec['data'].get('reason') or rec['data'].get('action') or ''}".strip())
-        candidates = evaluate_candidates(target, u, reg, broker, settings)
+        candidates = evaluate_candidates(target, u, reg, broker, settings, event_screen, status_of, held)
 
     # journal: one record per setup per strategy and day (re-runs do not duplicate)
     j = broker.journal
@@ -506,6 +530,7 @@ def run(day: date | None = None, root: Path = REPO_ROOT / "data", fetch: bool = 
         "equity": equity, "open_risk": broker.open_planned_risk(),
         "cap": equity * float(settings["risk"]["max_aggregate_open_risk_pct"]) / 100,
         "broker_events": broker_events, "sources": sources, "costs_verified": settings["costs"]["verified"],
+        "status_of": status_of,
     }
     text = render(ctx)
     problems = validate_report(text)
