@@ -1,0 +1,37 @@
+{
+  "symbol": "AJMERA",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:12:46+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 1206,
+  "symbol_links": [
+    {
+      "old_symbol": "SHREE",
+      "new_symbol": "AJMERA",
+      "effective_date": "2009-06-23",
+      "status": "before loaded range"
+    }
+  ],
+  "valid_from": "2024-08-19",
+  "price_events_applied": [
+    {
+      "ex_date": "2026-01-14",
+      "factor": 0.2,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2024-08-02",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Demerger (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:44:08+00:00"
+}

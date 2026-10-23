@@ -1,0 +1,152 @@
+{
+  "experiment": "EXP-0006",
+  "split": "train",
+  "note": "robustness only; not used to choose values",
+  "generated_at_utc": "2026-10-23T08:24:53+00:00",
+  "variants": {
+    "breakout_lookback=15": {
+      "1x": {
+        "trades": 103,
+        "net_return": 0.023092191775913706,
+        "expectancy_r": -0.01891400430066543,
+        "expectancy_r_ci95": [
+          -0.3298418757648488,
+          0.35435161693189887
+        ],
+        "profit_factor": 0.9412256676973797,
+        "max_drawdown": -0.11472360825951011
+      },
+      "2x_costs": {
+        "trades": 98,
+        "net_return": -0.0784824206003617,
+        "expectancy_r": -0.17134486647886246,
+        "expectancy_r_ci95": [
+          -0.42215945820466183,
+          0.15272312445617006
+        ],
+        "profit_factor": 0.6939054460148255,
+        "max_drawdown": -0.11626675617827387
+      }
+    },
+    "breakout_lookback=30": {
+      "1x": {
+        "trades": 104,
+        "net_return": -0.05066945610889895,
+        "expectancy_r": -0.09580152316552958,
+        "expectancy_r_ci95": [
+          -0.37557107733707945,
+          0.21363457872617161
+        ],
+        "profit_factor": 0.8128385991781801,
+        "max_drawdown": -0.12299072046026505
+      },
+      "2x_costs": {
+        "trades": 92,
+        "net_return": -0.034159538620369245,
+        "expectancy_r": -0.15125152434057854,
+        "expectancy_r_ci95": [
+          -0.42772860948047303,
+          0.16717329452719396
+        ],
+        "profit_factor": 0.7245764778295098,
+        "max_drawdown": -0.13550823092340503
+      }
+    },
+    "stop_atr=1.5": {
+      "1x": {
+        "trades": 114,
+        "net_return": -0.006983890576381491,
+        "expectancy_r": -0.07396668218680337,
+        "expectancy_r_ci95": [
+          -0.36782490674371393,
+          0.2921533617627654
+        ],
+        "profit_factor": 0.8685925925785262,
+        "max_drawdown": -0.11672098945311671
+      },
+      "2x_costs": {
+        "trades": 106,
+        "net_return": -0.07669540826648369,
+        "expectancy_r": -0.14436177100993164,
+        "expectancy_r_ci95": [
+          -0.4192182836905937,
+          0.1928471647411034
+        ],
+        "profit_factor": 0.7615617403607305,
+        "max_drawdown": -0.14228434277780122
+      }
+    },
+    "stop_atr=2.5": {
+      "1x": {
+        "trades": 77,
+        "net_return": 0.1017909360244067,
+        "expectancy_r": 0.20557975205486573,
+        "expectancy_r_ci95": [
+          -0.09994669099747157,
+          0.5529784364649907
+        ],
+        "profit_factor": 1.4506939424195835,
+        "max_drawdown": -0.05814458558165725
+      },
+      "2x_costs": {
+        "trades": 76,
+        "net_return": 0.10403509058019522,
+        "expectancy_r": 0.21420019773979987,
+        "expectancy_r_ci95": [
+          -0.10442844974301335,
+          0.5648909697394301
+        ],
+        "profit_factor": 1.4922634882358845,
+        "max_drawdown": -0.057915302784648515
+      }
+    },
+    "volume_ratio_min=1.25": {
+      "1x": {
+        "trades": 96,
+        "net_return": 0.07910949620859586,
+        "expectancy_r": 0.17873947906250698,
+        "expectancy_r_ci95": [
+          -0.16326008333010295,
+          0.5728817119881588
+        ],
+        "profit_factor": 1.3227721236981036,
+        "max_drawdown": -0.04854895394344039
+      },
+      "2x_costs": {
+        "trades": 96,
+        "net_return": 0.01648375982885164,
+        "expectancy_r": 0.050847176180464006,
+        "expectancy_r_ci95": [
+          -0.22921129805610457,
+          0.37626984691645354
+        ],
+        "profit_factor": 1.0754733395406426,
+        "max_drawdown": -0.05482137188639291
+      }
+    },
+    "volume_ratio_min=2.0": {
+      "1x": {
+        "trades": 101,
+        "net_return": 0.08923653190964376,
+        "expectancy_r": 0.1787891229527461,
+        "expectancy_r_ci95": [
+          -0.14160766074652956,
+          0.5353970757684264
+        ],
+        "profit_factor": 1.325305989656223,
+        "max_drawdown": -0.09382319778451975
+      },
+      "2x_costs": {
+        "trades": 92,
+        "net_return": 0.14152680683120233,
+        "expectancy_r": 0.29689510506635386,
+        "expectancy_r_ci95": [
+          -0.018989461906968135,
+          0.6487053220978537
+        ],
+        "profit_factor": 1.6020354356419837,
+        "max_drawdown": -0.05865224088331067
+      }
+    }
+  }
+}

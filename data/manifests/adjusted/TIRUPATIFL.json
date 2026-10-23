@@ -1,0 +1,43 @@
+{
+  "symbol": "TIRUPATIFL",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:41:15+00:00",
+  "first_bar": "2022-01-04",
+  "last_bar": "2026-07-23",
+  "bars": 569,
+  "symbol_links": [
+    {
+      "old_symbol": "FORGE",
+      "new_symbol": "TIRUPATIFL",
+      "effective_date": "2018-01-15",
+      "status": "before loaded range"
+    }
+  ],
+  "valid_from": "2026-06-30",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2024-04-15",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +120.0% with no corporate action"
+    },
+    {
+      "date": "2025-08-11",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +58.2% with no corporate action"
+    },
+    {
+      "date": "2026-06-29",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +35.3% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:47:56+00:00"
+}

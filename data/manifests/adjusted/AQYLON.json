@@ -1,0 +1,37 @@
+{
+  "symbol": "AQYLON",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:13:37+00:00",
+  "first_bar": "2024-04-18",
+  "last_bar": "2026-10-22",
+  "bars": 223,
+  "symbol_links": [
+    {
+      "old_symbol": "SABTNL",
+      "new_symbol": "AQYLON",
+      "effective_date": "2026-02-11",
+      "status": "confirmed"
+    }
+  ],
+  "valid_from": "2025-01-14",
+  "price_events_applied": [
+    {
+      "ex_date": "2026-03-05",
+      "factor": 0.1,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2025-01-13",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +1060.6% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:44:22+00:00"
+}

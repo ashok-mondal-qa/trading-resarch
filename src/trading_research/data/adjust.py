@@ -156,18 +156,52 @@ def merge_action_records(records: list[dict]) -> dict:
     return merged
 
 
-def run(symbols: list[str], start: date, end: date, root: Path = REPO_ROOT / "data") -> list[dict]:
+def prefetch_actions(symbols: list[str], start: date, end: date, root: Path, workers: int) -> list[str]:
+    """Fetch (and cache) corporate actions for many tickers in parallel. Returns tickers that failed."""
+    from concurrent.futures import ThreadPoolExecutor
+
+    def one(ticker: str) -> str | None:
+        try:
+            corporate_actions.load_actions(ticker, start, end, root)
+            return None
+        except Exception as exc:  # recorded and reported; the symbol is then adjusted from cache only
+            return f"{ticker}: {exc}"
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        return [r for r in pool.map(one, symbols) if r]
+
+
+def run(symbols: list[str], start: date, end: date, root: Path = REPO_ROOT / "data",
+        workers: int = 1) -> list[dict]:
     store = bhavcopy.Store(root=root)
     raw = bhavcopy.read_bars(start, end, store, series=("EQ",))
     if not symbol_changes.raw_path(root).exists():
         symbol_changes.refresh_symbol_changes(root)
     changes = symbol_changes.load_symbol_changes(root)
+    if workers > 1:
+        tickers = set(symbols)
+        for symbol in symbols:
+            tickers.update(l["old_symbol"] for l in symbol_changes.predecessors(symbol, changes))
+        failed = prefetch_actions(sorted(tickers), start, end, root, workers)
+        if failed:
+            print(f"corporate actions failed for {len(failed)} tickers, e.g. {failed[:3]}")
+    raw = raw.sort_values(["symbol", "date"])
+    by_symbol = {s: g for s, g in raw.groupby("symbol")}
     manifests = []
     for symbol in symbols:
-        history = symbol_changes.join_history(symbol, raw, changes)
+        related = [symbol] + [l["old_symbol"] for l in symbol_changes.predecessors(symbol, changes)]
+        subset = pd.concat([by_symbol[t] for t in related if t in by_symbol] or [raw.iloc[:0]])
+        history = symbol_changes.join_history(symbol, subset, changes, calendar_start=raw["date"].min())
         tickers = [symbol] + [l["old_symbol"] for l in history.links if l["status"] == "confirmed"]
-        record = merge_action_records(
-            [corporate_actions.load_actions(t, start, end, root) for t in tickers])
+        try:
+            record = merge_action_records(
+                [corporate_actions.load_actions(t, start, end, root) for t in tickers])
+        except Exception as exc:
+            manifests.append({"symbol": symbol, "status": "DATA INSUFFICIENT", "bars": 0,
+                              "valid_from": None, "price_events_applied": [], "symbol_links": [],
+                              "issues": [{"date": None, "severity": "error",
+                                          "kind": "corporate actions unavailable", "detail": str(exc)}]})
+            continue
         result = build_adjusted(symbol, history.bars, record, history.links)
         out = root / "processed" / "adjusted" / f"{symbol}.parquet"
         out.parent.mkdir(parents=True, exist_ok=True)
@@ -184,9 +218,19 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--symbols", required=True)
     parser.add_argument("--start", required=True, type=date.fromisoformat)
     parser.add_argument("--end", required=True, type=date.fromisoformat)
+    parser.add_argument("--workers", type=int, default=1)
+    parser.add_argument("--quiet", action="store_true")
     args = parser.parse_args(argv)
-    symbols = [s.strip().upper() for s in args.symbols.split(",") if s.strip()]
-    for m in run(symbols, args.start, args.end):
+    if args.symbols.startswith("@"):
+        symbols = Path(args.symbols[1:]).read_text().split()
+    else:
+        symbols = [s.strip().upper() for s in args.symbols.split(",") if s.strip()]
+    results = run(symbols, args.start, args.end, workers=args.workers)
+    if args.quiet:
+        from collections import Counter
+        print(Counter(m["status"] for m in results))
+        return 0
+    for m in results:
         print(f"{m['symbol']:<12} {m['status']:<17} bars={m['bars']:<5} valid_from={m['valid_from']} "
               f"events={len(m['price_events_applied'])} issues={len(m['issues'])}")
         for link in m["symbol_links"]:

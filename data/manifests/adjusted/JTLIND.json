@@ -1,0 +1,35 @@
+{
+  "symbol": "JTLIND",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:26:34+00:00",
+  "first_bar": "2021-12-23",
+  "last_bar": "2026-10-22",
+  "bars": 1192,
+  "symbol_links": [
+    {
+      "old_symbol": "JTLINFRA",
+      "new_symbol": "JTLIND",
+      "effective_date": "2022-11-21",
+      "status": "confirmed"
+    }
+  ],
+  "valid_from": "2021-12-23",
+  "price_events_applied": [
+    {
+      "ex_date": "2023-09-07",
+      "factor": 0.5,
+      "purpose": "Bonus 1:1"
+    },
+    {
+      "ex_date": "2024-11-14",
+      "factor": 0.5,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share"
+    }
+  ],
+  "issues": [],
+  "generated_at_utc": "2026-10-23T05:45:51+00:00"
+}

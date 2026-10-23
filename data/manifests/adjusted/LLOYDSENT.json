@@ -1,0 +1,24 @@
+{
+  "symbol": "LLOYDSENT",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:28:43+00:00",
+  "first_bar": "2024-10-17",
+  "last_bar": "2026-10-22",
+  "bars": 497,
+  "symbol_links": [],
+  "valid_from": "2025-08-18",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2025-08-14",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 1:5 @ Premium Rs 38/- (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:46:01+00:00"
+}

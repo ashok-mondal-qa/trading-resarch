@@ -70,3 +70,12 @@ def test_missing_session_zero_volume_and_unusable_fail():
 def test_listing_date_is_not_a_gap():
     late = bars(SESSIONS[3:])
     assert quality.check_symbol_bars(late, SESSIONS).status == "ok"
+
+
+def test_gate1_series_flags_window_after_gap():
+    cal = pd.bdate_range("2026-01-01", periods=10)
+    dates = cal.delete(3)
+    vol = pd.Series(1000.0, index=dates)
+    ok = quality.gate1_series(dates, vol, list(cal), window=4)
+    # the gap at position 3 spoils the next 3 sessions that still see it in a 4-session window
+    assert ok.tolist() == [True, True, True, False, False, False, True, True, True]

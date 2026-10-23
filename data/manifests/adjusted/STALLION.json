@@ -1,0 +1,36 @@
+{
+  "symbol": "STALLION",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:39:17+00:00",
+  "first_bar": "2025-02-05",
+  "last_bar": "2026-08-10",
+  "bars": 247,
+  "symbol_links": [],
+  "valid_from": "2026-02-12",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2025-07-21",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +58.4% with no corporate action"
+    },
+    {
+      "date": "2026-01-19",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -42.3% with no corporate action"
+    },
+    {
+      "date": "2026-02-11",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 19:41 @ Premium Rs 89/- (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:47:51+00:00"
+}

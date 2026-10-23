@@ -1,5 +1,5 @@
 """Baseline strategy: trend + 20-day breakout, long only (spec:
-docs/strategy-specifications/baseline-trend-breakout.md, v0.1).
+docs/strategy-specifications/baseline-trend-breakout.md, v0.2).
 
 This module produces signals and exit conditions only. Fills, costs, sizing and the portfolio are the
 backtest engine's job (Phase 7). Every value at date t uses adjusted bars up to and including t; entry is
@@ -15,7 +15,7 @@ import pandas as pd
 
 from trading_research.indicators import core, regime
 
-SPEC_VERSION = "0.1"
+SPEC_VERSION = "0.2"
 
 
 @dataclass(frozen=True)
@@ -58,7 +58,9 @@ def stock_features(bars: pd.DataFrame, benchmark_close: pd.Series, p: Params = P
     f["breakout"] = close > f["prior_high"]
     f["volume_ok"] = f["volume_ratio"] >= p.volume_ratio_min
     f["rs_ok"] = f["rs"] > 0
-    f["liquid"] = (f["median_traded_value"] >= p.min_median_traded_value) & (close >= p.min_price)
+    # the price floor is about tradability, so it uses the raw (unadjusted) close when supplied
+    price = bars["raw_close"] if "raw_close" in bars else close
+    f["liquid"] = (f["median_traded_value"] >= p.min_median_traded_value) & (price >= p.min_price)
     f["stop_ok"] = f["stop_pct"] <= p.max_stop_pct
     inputs = ["sma_slow", "prior_high", "volume_ratio", "rs", "atr", "median_traded_value"]
     f["inputs_complete"] = f[inputs].notna().all(axis=1)

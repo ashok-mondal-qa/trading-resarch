@@ -1,0 +1,43 @@
+{
+  "symbol": "TEMBO",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:40:44+00:00",
+  "first_bar": "2022-01-04",
+  "last_bar": "2026-10-22",
+  "bars": 879,
+  "symbol_links": [
+    {
+      "old_symbol": "SAKETH",
+      "new_symbol": "TEMBO",
+      "effective_date": "2020-04-13",
+      "status": "before loaded range"
+    }
+  ],
+  "valid_from": "2025-08-26",
+  "price_events_applied": [
+    {
+      "ex_date": "2026-08-05",
+      "factor": 0.1,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2022-08-08",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 9:25 @ Premium Rs 90/- (source factor 1.0)"
+    },
+    {
+      "date": "2025-08-25",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +59.8% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:47:55+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "LEAPIND",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:28:23+00:00",
+  "first_bar": "2026-08-14",
+  "last_bar": "2026-10-22",
+  "bars": 47,
+  "symbol_links": [
+    {
+      "old_symbol": "LEAP",
+      "new_symbol": "LEAPIND",
+      "effective_date": "2026-08-21",
+      "status": "unconfirmed",
+      "reason": "no bars for one side in loaded data"
+    }
+  ],
+  "valid_from": "2026-08-14",
+  "price_events_applied": [],
+  "issues": [],
+  "generated_at_utc": "2026-10-23T05:46:00+00:00"
+}

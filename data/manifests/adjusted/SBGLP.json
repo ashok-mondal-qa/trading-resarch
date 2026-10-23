@@ -1,0 +1,23 @@
+{
+  "symbol": "SBGLP",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:36:58+00:00",
+  "first_bar": "2023-02-10",
+  "last_bar": "2026-10-22",
+  "bars": 802,
+  "symbol_links": [],
+  "valid_from": "2023-02-10",
+  "price_events_applied": [
+    {
+      "ex_date": "2024-04-18",
+      "factor": 0.1,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share"
+    }
+  ],
+  "issues": [],
+  "generated_at_utc": "2026-10-23T05:47:36+00:00"
+}

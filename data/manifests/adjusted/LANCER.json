@@ -1,0 +1,30 @@
+{
+  "symbol": "LANCER",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:28:21+00:00",
+  "first_bar": "2022-05-10",
+  "last_bar": "2026-10-22",
+  "bars": 288,
+  "symbol_links": [],
+  "valid_from": "2026-08-18",
+  "price_events_applied": [
+    {
+      "ex_date": "2022-12-16",
+      "factor": 0.5,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2026-08-17",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -92.6% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:45:59+00:00"
+}

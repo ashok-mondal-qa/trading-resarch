@@ -1,0 +1,37 @@
+{
+  "symbol": "LLOYDSENGG",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:28:42+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 1081,
+  "symbol_links": [
+    {
+      "old_symbol": "LSIL",
+      "new_symbol": "LLOYDSENGG",
+      "effective_date": "2023-10-16",
+      "status": "confirmed"
+    }
+  ],
+  "valid_from": "2025-04-29",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2023-12-14",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 1:17 @ Premium Rs 14.50/- (source factor 1.0)"
+    },
+    {
+      "date": "2025-04-28",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 9:34 @ Premium Rs 31/- (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:46:01+00:00"
+}

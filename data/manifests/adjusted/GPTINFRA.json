@@ -1,0 +1,41 @@
+{
+  "symbol": "GPTINFRA",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:21:31+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 969,
+  "symbol_links": [],
+  "valid_from": "2024-08-06",
+  "price_events_applied": [
+    {
+      "ex_date": "2022-11-11",
+      "factor": 0.5,
+      "purpose": "Bonus 1:1"
+    },
+    {
+      "ex_date": "2024-07-03",
+      "factor": 0.5,
+      "purpose": "Bonus 1:1"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2024-03-04",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +205.1% with no corporate action"
+    },
+    {
+      "date": "2024-08-05",
+      "severity": "error",
+      "kind": "factor inconsistent with prices",
+      "detail": "Bonus 1:1: factor 0.5, raw open/prev close 0.7306"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:45:10+00:00"
+}

@@ -1,0 +1,172 @@
+{
+  "experiment": "EXP-0006",
+  "strategy": "baseline-trend-breakout",
+  "spec_version": "0.2",
+  "split": "validation",
+  "range": [
+    "2025-01-01",
+    "2025-12-31"
+  ],
+  "params": {
+    "trend_fast": 50,
+    "trend_slow": 200,
+    "breakout_lookback": 20,
+    "volume_ratio_min": 1.5,
+    "volume_lookback": 20,
+    "rs_lookback": 63,
+    "atr_n": 14,
+    "stop_atr": 2.0,
+    "max_stop_pct": 0.1,
+    "min_price": 50.0,
+    "min_median_traded_value": 50000000.0,
+    "exit_low_lookback": 10,
+    "max_holding_sessions": 40,
+    "max_new_per_day": 2
+  },
+  "generated_at_utc": "2026-10-23T08:24:42+00:00",
+  "universe_symbols_loaded": 1494,
+  "universe_symbols_skipped": 296,
+  "costs_verified": false,
+  "regime_days": {
+    "up": 132,
+    "down": 70,
+    "range": 46
+  },
+  "runs": {
+    "baseline_1x": {
+      "trades": 30,
+      "open_at_end": 4,
+      "net_return": 0.03900103678089906,
+      "max_drawdown": -0.03900749259462022,
+      "win_rate": 0.3,
+      "expectancy_inr": -1396.610928060353,
+      "expectancy_r": -0.2773888382163673,
+      "expectancy_r_ci95": [
+        -0.6736133003433482,
+        0.16667480448702693
+      ],
+      "profit_factor": 0.560347082915593,
+      "avg_win_inr": 5933.36871803668,
+      "avg_loss_inr": -4538.030776387654,
+      "avg_sessions": 17.633333333333333,
+      "total_costs_inr": 4437.475355937294,
+      "worst_r": -1.5094067293549909,
+      "exit_reasons": {
+        "exit signal": 12,
+        "stop": 11,
+        "stop (gap)": 4,
+        "time stop": 3
+      },
+      "inconclusive_lt_30_trades": false,
+      "signals_after_regime_gate": 1579,
+      "candidates_taken": 257,
+      "entries_skipped": {
+        "aggregate cap: no room for a full position": 188
+      },
+      "by_volatility_regime": {
+        "high": {
+          "trades": 9,
+          "expectancy_r": -0.4020532774020887,
+          "sum_pnl_inr": -18295.006852388004
+        },
+        "low": {
+          "trades": 10,
+          "expectancy_r": -0.39765278269728077,
+          "sum_pnl_inr": -19554.808813551186
+        },
+        "normal": {
+          "trades": 11,
+          "expectancy_r": -0.06605980208176475,
+          "sum_pnl_inr": -4048.5121758714154
+        }
+      },
+      "by_liquidity_bucket": {
+        "5-20 crore/day": {
+          "trades": 9,
+          "expectancy_r": 0.4125057654623912,
+          "sum_pnl_inr": 17748.4830417863
+        },
+        "20-100 crore/day": {
+          "trades": 14,
+          "expectancy_r": -0.8106211015203552,
+          "sum_pnl_inr": -55509.43116207732
+        },
+        ">100 crore/day": {
+          "trades": 7,
+          "expectancy_r": -0.09793165919536675,
+          "sum_pnl_inr": -4137.379721519572
+        }
+      },
+      "same_day_entries": {
+        "days_with_two_entries": 7,
+        "both_lost": 2,
+        "both_won": 1,
+        "r_correlation": null
+      }
+    },
+    "baseline_2x_costs": {
+      "trades": 30,
+      "open_at_end": 4,
+      "net_return": 0.0281551432903,
+      "max_drawdown": -0.0420423242656216,
+      "win_rate": 0.3,
+      "expectancy_inr": -1509.3961948728875,
+      "expectancy_r": -0.30817906770527537,
+      "expectancy_r_ci95": [
+        -0.6803603338026645,
+        0.10831851895623539
+      ],
+      "profit_factor": 0.5197795985511204,
+      "avg_win_inr": 5445.7866003369245,
+      "avg_loss_inr": -4490.188821391379,
+      "avg_sessions": 17.633333333333333,
+      "total_costs_inr": 8404.047950864651,
+      "worst_r": -1.436561706379548,
+      "exit_reasons": {
+        "exit signal": 12,
+        "stop": 11,
+        "stop (gap)": 4,
+        "time stop": 3
+      },
+      "inconclusive_lt_30_trades": false,
+      "signals_after_regime_gate": 1579,
+      "candidates_taken": 257,
+      "entries_skipped": {
+        "aggregate cap: no room for a full position": 188
+      }
+    },
+    "ablation_no_volume_rs_1x": {
+      "trades": 33,
+      "open_at_end": 4,
+      "net_return": -0.0025621542894728178,
+      "max_drawdown": -0.07163089155991742,
+      "win_rate": 0.24242424242424243,
+      "expectancy_inr": -1429.7885756975043,
+      "expectancy_r": -0.29363891240392526,
+      "expectancy_r_ci95": [
+        -0.6845841258045644,
+        0.17259128445849112
+      ],
+      "profit_factor": 0.5672020535610325,
+      "avg_win_inr": 7729.446199401909,
+      "avg_loss_inr": -4360.743703729317,
+      "avg_sessions": 15.363636363636363,
+      "total_costs_inr": 4771.25324466753,
+      "worst_r": -1.4644698001469567,
+      "exit_reasons": {
+        "stop": 17,
+        "exit signal": 10,
+        "time stop": 4,
+        "stop (gap)": 2
+      },
+      "inconclusive_lt_30_trades": false,
+      "signals_after_regime_gate": 2563,
+      "candidates_taken": 261,
+      "entries_skipped": {
+        "aggregate cap: no room for a full position": 181,
+        "opened at/below stop": 1
+      }
+    }
+  },
+  "benchmark_nifty50_return": 0.10052268257036823
+}

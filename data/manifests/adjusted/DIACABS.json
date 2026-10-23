@@ -1,0 +1,30 @@
+{
+  "symbol": "DIACABS",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:18:21+00:00",
+  "first_bar": "2023-10-04",
+  "last_bar": "2026-08-03",
+  "bars": 345,
+  "symbol_links": [],
+  "valid_from": "2024-10-01",
+  "price_events_applied": [
+    {
+      "ex_date": "2024-12-03",
+      "factor": 0.1,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2024-09-30",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +3118.6% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:44:49+00:00"
+}

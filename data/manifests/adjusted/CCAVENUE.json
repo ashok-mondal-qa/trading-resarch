@@ -1,0 +1,49 @@
+{
+  "symbol": "CCAVENUE",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:16:27+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 1219,
+  "symbol_links": [
+    {
+      "old_symbol": "INFIBEAM",
+      "new_symbol": "CCAVENUE",
+      "effective_date": "2026-02-03",
+      "status": "confirmed"
+    }
+  ],
+  "valid_from": "2026-10-21",
+  "price_events_applied": [
+    {
+      "ex_date": "2022-03-14",
+      "factor": 0.5,
+      "purpose": "Bonus 1:1"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2024-09-11",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Demerger (source factor 1.0)"
+    },
+    {
+      "date": "2025-06-26",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 67:267 @ Premium Rs 9/- (source factor 1.0)"
+    },
+    {
+      "date": "2026-10-19",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +840.3% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:44:31+00:00"
+}

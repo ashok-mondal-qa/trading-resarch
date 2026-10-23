@@ -1,0 +1,17 @@
+{
+  "symbol": "KNACK",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:27:33+00:00",
+  "first_bar": "2026-07-08",
+  "last_bar": "2026-10-22",
+  "bars": 74,
+  "symbol_links": [],
+  "valid_from": "2026-07-08",
+  "price_events_applied": [],
+  "issues": [],
+  "generated_at_utc": "2026-10-23T05:45:58+00:00"
+}

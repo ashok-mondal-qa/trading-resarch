@@ -1,0 +1,24 @@
+{
+  "symbol": "BASML",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:15:02+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 1100,
+  "symbol_links": [],
+  "valid_from": "2025-05-02",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2025-04-30",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 10:43 @ Premium Rs 22/- (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:44:25+00:00"
+}

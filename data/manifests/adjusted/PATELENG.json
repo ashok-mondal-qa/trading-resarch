@@ -1,0 +1,36 @@
+{
+  "symbol": "PATELENG",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:33:38+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 1117,
+  "symbol_links": [],
+  "valid_from": "2025-12-05",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2023-02-06",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 1:2@ Premium Rs 11.60/- (source factor 1.0)"
+    },
+    {
+      "date": "2023-08-16",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +110.5% with no corporate action"
+    },
+    {
+      "date": "2025-12-04",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 7:40 @ Premium Rs 26/- (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:46:53+00:00"
+}

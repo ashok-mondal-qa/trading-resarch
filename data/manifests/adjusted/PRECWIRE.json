@@ -1,0 +1,28 @@
+{
+  "symbol": "PRECWIRE",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:34:31+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 1170,
+  "symbol_links": [],
+  "valid_from": "2021-10-25",
+  "price_events_applied": [
+    {
+      "ex_date": "2021-12-22",
+      "factor": 0.2,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share"
+    },
+    {
+      "ex_date": "2022-12-22",
+      "factor": 0.6667,
+      "purpose": "Bonus 1:2"
+    }
+  ],
+  "issues": [],
+  "generated_at_utc": "2026-10-23T05:47:00+00:00"
+}

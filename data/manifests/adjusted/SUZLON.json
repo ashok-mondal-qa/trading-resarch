@@ -1,0 +1,30 @@
+{
+  "symbol": "SUZLON",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:39:57+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 1097,
+  "symbol_links": [],
+  "valid_from": "2024-01-16",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2022-10-03",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 5:21 @ Premium Rs 3/- (source factor 1.0)"
+    },
+    {
+      "date": "2024-01-15",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +58.6% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:47:53+00:00"
+}

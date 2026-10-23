@@ -1,0 +1,37 @@
+{
+  "symbol": "PVP",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:34:45+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 761,
+  "symbol_links": [
+    {
+      "old_symbol": "SOFTSOLINT",
+      "new_symbol": "PVP",
+      "effective_date": "2008-06-23",
+      "status": "before loaded range"
+    }
+  ],
+  "valid_from": "2022-02-15",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2022-01-04",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +59.8% with no corporate action"
+    },
+    {
+      "date": "2022-02-14",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -40.6% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:47:07+00:00"
+}
