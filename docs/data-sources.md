@@ -39,8 +39,18 @@ duplicated observations · known limitations · licence/terms note.
   source reports with factor 1.0 (demerger, rights, scheme, capital reduction), is an error. Errors are
   never patched: the series is usable only from `valid_from` (first bar after the last error); nothing usable
   → `DATA INSUFFICIENT`. Per-symbol manifests: `data/manifests/adjusted/`.
-- Known gaps: symbol changes are not linked yet (ETERNAL has bars only from 2025-04-09; its earlier
-  history is under ZOMATO). A source with missing actions is caught by the jump check (KOTAKBANK 2026-01-14).
+- A source with missing actions is caught by the jump check (KOTAKBANK 2026-01-14).
 - First run (2026-10-23, 20 most-traded EQ stocks of 2026-10-22 + RELIANCE/HDFCBANK/BAJFINANCE, 2021-10-25
   ..2026-10-22): 17 ok, 3 partial (RELIANCE from 2023-07-21, INDHOTEL from 2021-11-12, KOTAKBANK from
   2026-01-16).
+
+## Symbol changes (`src/trading_research/data/symbols.py`)
+- Source: NSE's official `nsearchives.nseindia.com/content/equities/symbolchange.csv` (1,070 rows, retrieved
+  2026-10-23; manifest `data/manifests/reference/symbolchange.json`).
+- A rename is joined only when our bhavcopy confirms it: old ticker's last bar before the effective date,
+  new ticker's first bar on/after it, same ISIN on both sides. Otherwise it is reported `unconfirmed` and
+  history before it is not used. Renames before the loaded window are `before loaded range`.
+- The adjuster joins confirmed predecessors (bars keep `raw_symbol`) and merges their corporate actions.
+- Check over 2021-10-26..2026-10-22 (EQ): 229 renames confirmed, 15 unconfirmed (3 ISIN changed at the
+  rename, 12 with one side missing from EQ data, e.g. listed in another series). ZOMATO → ETERNAL
+  (2025-04-09) is confirmed; ETERNAL now has 1,233 bars, no issues.
