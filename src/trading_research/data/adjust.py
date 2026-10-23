@@ -26,7 +26,7 @@ from pathlib import Path
 import pandas as pd
 
 from trading_research.config import REPO_ROOT
-from trading_research.data import bhavcopy, corporate_actions
+from trading_research.data import bhavcopy, corporate_actions, symbols as symbol_changes
 
 ADJUSTER_VERSION = "0.1.0"
 FACTOR_TOLERANCE = 0.25
@@ -103,7 +103,8 @@ class AdjustedSeries:
     manifest: dict
 
 
-def build_adjusted(symbol: str, bars: pd.DataFrame, record: dict) -> AdjustedSeries:
+def build_adjusted(symbol: str, bars: pd.DataFrame, record: dict,
+                   symbol_links: list[dict] | None = None) -> AdjustedSeries:
     actions = corporate_actions.actions_frame(record)
     adjusted = adjust_prices(bars, actions)
     issues = verify_adjustment(adjusted, actions)
@@ -130,6 +131,7 @@ def build_adjusted(symbol: str, bars: pd.DataFrame, record: dict) -> AdjustedSer
         "first_bar": adjusted["date"].iloc[0].date().isoformat() if not adjusted.empty else None,
         "last_bar": adjusted["date"].iloc[-1].date().isoformat() if not adjusted.empty else None,
         "bars": int(len(adjusted)),
+        "symbol_links": symbol_links or [],
         "valid_from": valid_from.date().isoformat() if valid_from is not None else None,
         "price_events_applied": [
             {"ex_date": e.ex_date.date().isoformat(), "factor": e.factor, "purpose": e.purposes}
@@ -140,14 +142,33 @@ def build_adjusted(symbol: str, bars: pd.DataFrame, record: dict) -> AdjustedSer
     return AdjustedSeries(adjusted, manifest)
 
 
+def merge_action_records(records: list[dict]) -> dict:
+    """One action record across a company's tickers; the same ex-date + purpose counts once."""
+    merged, seen = dict(records[0]), set()
+    merged["actions"] = []
+    for rec in records:
+        for action in rec.get("actions", []):
+            key = (action.get("exDate"), action.get("purpose"))
+            if key not in seen:
+                seen.add(key)
+                merged["actions"].append(action)
+    merged["symbols"] = [r.get("symbol") for r in records]
+    return merged
+
+
 def run(symbols: list[str], start: date, end: date, root: Path = REPO_ROOT / "data") -> list[dict]:
     store = bhavcopy.Store(root=root)
     raw = bhavcopy.read_bars(start, end, store, series=("EQ",))
+    if not symbol_changes.raw_path(root).exists():
+        symbol_changes.refresh_symbol_changes(root)
+    changes = symbol_changes.load_symbol_changes(root)
     manifests = []
     for symbol in symbols:
-        bars = raw[raw["symbol"] == symbol]
-        record = corporate_actions.load_actions(symbol, start, end, root)
-        result = build_adjusted(symbol, bars, record)
+        history = symbol_changes.join_history(symbol, raw, changes)
+        tickers = [symbol] + [l["old_symbol"] for l in history.links if l["status"] == "confirmed"]
+        record = merge_action_records(
+            [corporate_actions.load_actions(t, start, end, root) for t in tickers])
+        result = build_adjusted(symbol, history.bars, record, history.links)
         out = root / "processed" / "adjusted" / f"{symbol}.parquet"
         out.parent.mkdir(parents=True, exist_ok=True)
         result.bars.to_parquet(out, index=False)
@@ -168,6 +189,9 @@ def main(argv: list[str] | None = None) -> int:
     for m in run(symbols, args.start, args.end):
         print(f"{m['symbol']:<12} {m['status']:<17} bars={m['bars']:<5} valid_from={m['valid_from']} "
               f"events={len(m['price_events_applied'])} issues={len(m['issues'])}")
+        for link in m["symbol_links"]:
+            print(f"    rename {link['old_symbol']} -> {link['new_symbol']} {link['effective_date']}: "
+                  f"{link['status']} {link.get('reason', '')}")
         for issue in m["issues"]:
             print(f"    {issue['date']} {issue['kind']}: {issue['detail']}")
     return 0
