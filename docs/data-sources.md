@@ -65,3 +65,8 @@ duplicated observations · known limitations · licence/terms note.
   EQ symbols pass and 503 fail (mostly sessions missing from the EQ series, e.g. moves to BE or
   suspensions). Of the 20 adjusted symbols, 19 pass; KOTAKBANK fails because its usable series starts
   2026-01-16.
+
+## Benchmark indices (`src/trading_research/data/indices.py`)
+NSE's daily index file, one per session, same provenance rules (raw + SHA-256, manifest per date, missing
+never filled, date mismatch fails closed). NIFTY 50 is the benchmark for regime (gate 2) and relative
+strength. Index values are as published (indices need no corporate-action adjustment).
