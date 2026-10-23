@@ -82,3 +82,16 @@ NSE/BSE corporate announcement pages. Access path not yet confirmed.
   file (exchange holidays; list = `not_found` manifests). Weekend special sessions (e.g. Muhurat trading)
   are not attempted yet. 217 rows were excluded, all series T0 (T+0 settlement segment), where high/low
   do not bound open/close; no EQ rows were excluded.
+
+## NSE archive daily index file — verified 2026-10-23
+- `nsearchives.nseindia.com/content/indices/ind_close_all_DDMMYYYY.csv`: OHLC, volume, turnover, P/E, P/B,
+  dividend yield for every NSE index (incl. NIFTY 50, NIFTY 500, India VIX) for one session.
+- Loader: `python -m trading_research.data.indices --start .. --end ..` → `data/manifests/nse_index_close/`.
+- Loaded 2026-10-23: one file for each of the 1,233 bhavcopy sessions 2021-10-25..2026-10-22, none extra.
+- Quirk: three files (2023-04-06, 04-10, 04-11) write dates month-first (`04-06-2023`). The loader accepts
+  them only when the month-first reading equals the date in the file name, and notes it in the manifest;
+  their daily change matches the file's own Change(%) column (+0.24%, +0.14%, +0.56%).
+- Cross-check: NIFTY 50 closes equal the bhavcopy MCP `get_index_history` on all 111 dates compared
+  (Oct–Dec 2024, Jul–Oct 2026). For Apr–Jun 2023 the MCP answered "No data" on 8 of 8 tries, so the
+  MCP index history does not cover (or reliably serve) 2023. Largest NIFTY 50 daily move in the series:
+  −5.93% on 2024-06-04.

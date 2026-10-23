@@ -1,0 +1,15 @@
+{
+  "dataset": "nse_index_close",
+  "provider": "NSE archive",
+  "source_url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_10042023.csv",
+  "trade_date": "2023-04-10",
+  "retrieved_at_utc": "2026-10-23T04:56:07+00:00",
+  "terms": "NSE data, published for educational and informational use only; not for commercial use or redistribution. Raw and processed files stay git-ignored. See NSE Terms of Use.",
+  "price_adjustment": "none (index values as published)",
+  "status": "ok",
+  "rows": 106,
+  "date_format_note": "file uses MM-DD-YYYY dates; read that way it matches the file name",
+  "raw_sha256": "575d1b73761842e3150c3e788fef14664ad725055aa5e2fe49e1abfe78bef9f4",
+  "first_bar_ist": "2023-04-10T15:30:00+05:30",
+  "last_bar_ist": "2023-04-10T15:30:00+05:30"
+}
