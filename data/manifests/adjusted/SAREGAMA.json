@@ -1,0 +1,37 @@
+{
+  "symbol": "SAREGAMA",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:36:44+00:00",
+  "first_bar": "2022-03-14",
+  "last_bar": "2026-10-22",
+  "bars": 1127,
+  "symbol_links": [
+    {
+      "old_symbol": "GRAMOPHONE",
+      "new_symbol": "SAREGAMA",
+      "effective_date": "2001-08-20",
+      "status": "before loaded range"
+    }
+  ],
+  "valid_from": "2023-08-10",
+  "price_events_applied": [
+    {
+      "ex_date": "2022-04-26",
+      "factor": 0.1,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2023-07-27",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Demerger (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:47:27+00:00"
+}

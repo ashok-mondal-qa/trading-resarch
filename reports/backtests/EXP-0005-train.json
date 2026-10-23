@@ -1,0 +1,140 @@
+{
+  "experiment": "EXP-0005",
+  "strategy": "baseline-trend-breakout",
+  "spec_version": "0.1",
+  "split": "train",
+  "range": [
+    "2022-08-15",
+    "2024-12-31"
+  ],
+  "params": {
+    "trend_fast": 50,
+    "trend_slow": 200,
+    "breakout_lookback": 20,
+    "volume_ratio_min": 1.5,
+    "volume_lookback": 20,
+    "rs_lookback": 63,
+    "atr_n": 14,
+    "stop_atr": 2.0,
+    "max_stop_pct": 0.1,
+    "min_price": 50.0,
+    "min_median_traded_value": 50000000.0,
+    "exit_low_lookback": 10,
+    "max_holding_sessions": 40,
+    "max_new_per_day": 2
+  },
+  "generated_at_utc": "2026-10-23T08:20:04+00:00",
+  "universe_symbols_loaded": 1328,
+  "universe_symbols_skipped": 309,
+  "costs_verified": false,
+  "regime_days": {
+    "up": 457,
+    "range": 100,
+    "down": 29
+  },
+  "runs": {
+    "baseline_1x": {
+      "trades": 258,
+      "open_at_end": 3,
+      "net_return": 0.07725091593106392,
+      "max_drawdown": -0.09987786327806925,
+      "win_rate": 0.3333333333333333,
+      "expectancy_inr": 131.20703696413014,
+      "expectancy_r": -0.02194882949831405,
+      "expectancy_r_ci95": [
+        -0.20973588509662794,
+        0.18602992599643592
+      ],
+      "profit_factor": 1.1091229538185678,
+      "avg_win_inr": 4000.755055844442,
+      "avg_loss_inr": -1803.5669724760255,
+      "avg_sessions": 18.550387596899224,
+      "total_costs_inr": 18467.389322128773,
+      "worst_r": -2.513917871732696,
+      "exit_reasons": {
+        "stop": 114,
+        "exit signal": 94,
+        "time stop": 41,
+        "stop (gap)": 9
+      },
+      "inconclusive_lt_30_trades": false,
+      "signals_after_regime_gate": 9364,
+      "candidates_taken": 892,
+      "entries_skipped": {
+        "sizing: risk budget or cash too small for one share": 283,
+        "sizing: aggregate open-risk cap already reached": 174
+      },
+      "by_volatility_regime": {
+        "unknown": {
+          "trades": 261,
+          "expectancy_r": 0.009294317317421695
+        }
+      }
+    },
+    "baseline_2x_costs": {
+      "trades": 228,
+      "open_at_end": 2,
+      "net_return": 0.013154612294284718,
+      "max_drawdown": -0.10334504577415915,
+      "win_rate": 0.2850877192982456,
+      "expectancy_inr": -82.39781192968799,
+      "expectancy_r": -0.1265596606647341,
+      "expectancy_r_ci95": [
+        -0.2964626082807537,
+        0.061526465338232944
+      ],
+      "profit_factor": 0.9364049589865173,
+      "avg_win_inr": 4255.764845178556,
+      "avg_loss_inr": -1812.3399758072092,
+      "avg_sessions": 18.67982456140351,
+      "total_costs_inr": 33403.72919493144,
+      "worst_r": -1.4927510923807235,
+      "exit_reasons": {
+        "stop": 97,
+        "exit signal": 88,
+        "time stop": 36,
+        "stop (gap)": 7
+      },
+      "inconclusive_lt_30_trades": false,
+      "signals_after_regime_gate": 9364,
+      "candidates_taken": 892,
+      "entries_skipped": {
+        "sizing: risk budget or cash too small for one share": 312,
+        "sizing: aggregate open-risk cap already reached": 180
+      }
+    },
+    "ablation_no_volume_rs_1x": {
+      "trades": 246,
+      "open_at_end": 3,
+      "net_return": -0.01887040885362301,
+      "max_drawdown": -0.06648228208848672,
+      "win_rate": 0.2967479674796748,
+      "expectancy_inr": -79.43059462191697,
+      "expectancy_r": -0.14848482385674552,
+      "expectancy_r_ci95": [
+        -0.3095477241526365,
+        0.03536908454048186
+      ],
+      "profit_factor": 0.9276180660613975,
+      "avg_win_inr": 3430.3550770911515,
+      "avg_loss_inr": -1560.4384214141364,
+      "avg_sessions": 17.841463414634145,
+      "total_costs_inr": 16828.58563242297,
+      "worst_r": -2.4781149058007523,
+      "exit_reasons": {
+        "stop": 102,
+        "exit signal": 102,
+        "time stop": 31,
+        "stop (gap)": 11
+      },
+      "inconclusive_lt_30_trades": false,
+      "signals_after_regime_gate": 13875,
+      "candidates_taken": 899,
+      "entries_skipped": {
+        "sizing: risk budget or cash too small for one share": 275,
+        "sizing: aggregate open-risk cap already reached": 144
+      }
+    }
+  },
+  "benchmark_nifty50_return": 0.3264778895106659
+}

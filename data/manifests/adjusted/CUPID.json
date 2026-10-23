@@ -1,0 +1,35 @@
+{
+  "symbol": "CUPID",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:17:38+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 1019,
+  "symbol_links": [],
+  "valid_from": "2024-10-29",
+  "price_events_applied": [
+    {
+      "ex_date": "2024-04-04",
+      "factor": 0.05,
+      "purpose": "Bonus 1:1 + Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share"
+    },
+    {
+      "ex_date": "2026-03-09",
+      "factor": 0.2,
+      "purpose": "Bonus 4:1"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2024-10-28",
+      "severity": "error",
+      "kind": "factor inconsistent with prices",
+      "detail": "Bonus 1:1 + Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share: factor 0.05, raw open/prev close 0.0751"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:44:47+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "MODISONLTD",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:30:38+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-09-10",
+  "bars": 959,
+  "symbol_links": [
+    {
+      "old_symbol": "MODISNME",
+      "new_symbol": "MODISONLTD",
+      "effective_date": "2022-08-16",
+      "status": "confirmed"
+    }
+  ],
+  "valid_from": "2026-09-01",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2026-08-31",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +59.5% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:46:10+00:00"
+}

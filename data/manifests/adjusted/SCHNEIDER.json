@@ -1,0 +1,30 @@
+{
+  "symbol": "SCHNEIDER",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:37:10+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 1061,
+  "symbol_links": [],
+  "valid_from": "2026-05-20",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2024-05-21",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +54.2% with no corporate action"
+    },
+    {
+      "date": "2026-05-19",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +36.1% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:47:37+00:00"
+}

@@ -1,0 +1,36 @@
+{
+  "symbol": "DOLPHIN",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:18:35+00:00",
+  "first_bar": "2023-09-04",
+  "last_bar": "2026-10-22",
+  "bars": 365,
+  "symbol_links": [],
+  "valid_from": "2025-06-10",
+  "price_events_applied": [
+    {
+      "ex_date": "2024-01-25",
+      "factor": 0.1,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2024-04-15",
+      "severity": "error",
+      "kind": "factor inconsistent with prices",
+      "detail": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share: factor 0.1, raw open/prev close 1.4500"
+    },
+    {
+      "date": "2025-06-09",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +77.5% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:44:49+00:00"
+}

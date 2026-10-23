@@ -1,0 +1,28 @@
+{
+  "symbol": "NAZARA",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:31:43+00:00",
+  "first_bar": "2022-01-04",
+  "last_bar": "2026-10-22",
+  "bars": 1184,
+  "symbol_links": [],
+  "valid_from": "2022-01-04",
+  "price_events_applied": [
+    {
+      "ex_date": "2022-06-24",
+      "factor": 0.5,
+      "purpose": "Bonus 1:1"
+    },
+    {
+      "ex_date": "2025-09-26",
+      "factor": 0.25,
+      "purpose": "Bonus 1:1 + Face Value Split (Sub-Division) - From Rs 4/- Per Share To Rs 2/- Per Share"
+    }
+  ],
+  "issues": [],
+  "generated_at_utc": "2026-10-23T05:46:42+00:00"
+}

@@ -1,7 +1,7 @@
-# Baseline: trend + 20-day breakout (long only) — spec v0.1
+# Baseline: trend + 20-day breakout (long only) — spec v0.2
 
-Status: **specified, not tested** (2026-10-23). No backtest has been run. Nothing here is evidence of an
-edge. Code: `src/trading_research/strategies/baseline_trend_breakout.py`. Registry: EXP-0005.
+Status: **REJECTED** (EXP-0006, 2026-10-23) by the acceptance rules below; the holdout was not run. See
+`reports/backtests/EXP-0006-report.md`. Code: `src/trading_research/strategies/baseline_trend_breakout.py`.
 
 ## Purpose
 The simple reference every later idea (price action, SMC) must beat on the same data, costs and splits.
@@ -40,7 +40,8 @@ over the following weeks for expectancy per trade to stay positive after costs, 
 - **Exit:** close below the lowest low of the previous 10 sessions → exit next open. Time stop: exit at
   the open after 40 sessions in the trade.
 - **Size:** `risk/sizing.py`, 0.5% planned risk per position, 2% aggregate; no averaging down, no
-  pyramiding, one position per symbol.
+  pyramiding, one position per symbol. (v0.2) A new position is opened only if the 2% cap still has room
+  for a full 0.5% budget; leftover room is not used for a smaller position.
 - **Costs:** `config/settings.yaml` cost model (rates still unverified) and 10 bps slippage per side;
   every result is also run at 2× costs.
 
@@ -86,3 +87,20 @@ all three must appear in the Phase 7 report.
 ## Changelog
 - **v0.1 (2026-10-23):** initial spec. Tests: feature and candidate no-lookahead tests. No results exist,
   so no earlier results are affected. A holdout evaluation is needed once Phase 7 runs.
+- **v0.1 clarification (2026-10-23, before any backtest run):** (a) the ₹50 price floor in gate 4 uses the
+  raw (unadjusted) close, because it is a tradability rule; on adjusted prices a stock that later split
+  would look cheaper in the past than it really traded. (b) For speed, only symbols that met the gate-4
+  liquidity and price rule on at least one day in the data (1,892 of 2,994 EQ symbols) were adjusted and
+  loaded. A symbol that never meets that rule can never signal, so this does not change which trades are
+  taken. Neither point changes a parameter, so the version stays 0.1. Tests: `tests/test_engine.py`,
+  full suite. No earlier results exist.
+- **v0.2 (2026-10-23):** what: a new position is opened only when the aggregate cap has room for a full
+  0.5% budget (engine rule, `backtesting/engine.py`). Why: the first train run (EXP-0005, v0.1) let the
+  2% cap fill with leftover slivers, so half its 258 trades risked under ₹400 (median planned risk ₹377
+  against a ₹5,000 budget) and up to 12 positions were open at once. Each sliver counted as a full trade in
+  per-trade statistics, which made those statistics misleading. This is an execution fix, not a parameter
+  search: no strategy rule or value changed, and the choice was made from the trade sizes, not from which
+  variant scored better. Old→new: 0.1→0.2. Tests: `tests/test_engine.py`
+  (`test_no_partial_position_in_leftover_cap_room`), full suite. Impact: EXP-0005's train result is kept as
+  a record but superseded; validation and holdout were never run on v0.1, so both remain unused for
+  v0.2 (EXP-0006).

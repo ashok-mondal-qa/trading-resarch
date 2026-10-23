@@ -1,0 +1,33 @@
+{
+  "symbol": "ROTO",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:35:53+00:00",
+  "first_bar": "2022-04-21",
+  "last_bar": "2026-10-22",
+  "bars": 1112,
+  "symbol_links": [],
+  "valid_from": "2022-04-21",
+  "price_events_applied": [
+    {
+      "ex_date": "2023-07-07",
+      "factor": 0.5,
+      "purpose": "Bonus 1:1"
+    },
+    {
+      "ex_date": "2024-11-08",
+      "factor": 0.5,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share"
+    },
+    {
+      "ex_date": "2025-07-11",
+      "factor": 0.3333,
+      "purpose": "Bonus 2:1"
+    }
+  ],
+  "issues": [],
+  "generated_at_utc": "2026-10-23T05:47:18+00:00"
+}

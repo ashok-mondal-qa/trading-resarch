@@ -1,0 +1,36 @@
+{
+  "symbol": "ONEPOINT",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:46:51+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 952,
+  "symbol_links": [],
+  "valid_from": "2023-11-21",
+  "price_events_applied": [
+    {
+      "ex_date": "2022-01-18",
+      "factor": 0.13334,
+      "purpose": "Bonus 1:2 + Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2022-01-04",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +40.0% with no corporate action"
+    },
+    {
+      "date": "2023-11-20",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +117.4% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:46:51+00:00"
+}

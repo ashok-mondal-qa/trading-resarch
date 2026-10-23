@@ -105,3 +105,18 @@ def check_symbol_bars(bars: pd.DataFrame, session_dates: list[date], window: int
     details.update({"window_sessions": int(len(calendar)), "first": calendar[0].date().isoformat() if len(
         calendar) else None, "last": calendar[-1].date().isoformat() if len(calendar) else None})
     return QualityResult("DATA INSUFFICIENT" if reasons else "ok", reasons, details)
+
+
+def gate1_series(dates: pd.DatetimeIndex, volume: pd.Series, session_dates: list, window: int = 260) -> pd.Series:
+    """Vectorised gate-1 bar checks for backtests: True at each of the symbol's dates when, over the last
+    `window` sessions since its first bar, no session is missing and no volume is zero or missing.
+    (`dates`/`volume` should already be restricted to usable adjusted bars.)"""
+    calendar = pd.DatetimeIndex(sorted(pd.to_datetime(session_dates)))
+    if len(dates) == 0:
+        return pd.Series(dtype=bool)
+    calendar = calendar[(calendar >= dates.min()) & (calendar <= dates.max())]
+    present = pd.Series(calendar.isin(dates), index=calendar)
+    vol = volume.reindex(calendar)
+    bad = (~present) | vol.isna() | (vol <= 0)
+    bad_recent = bad.astype(int).rolling(window, min_periods=1).sum()
+    return (bad_recent == 0).reindex(dates).fillna(False).astype(bool)

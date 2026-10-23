@@ -1,0 +1,24 @@
+{
+  "symbol": "BALAJITELE",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:14:46+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 1043,
+  "symbol_links": [],
+  "valid_from": "2025-09-09",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2025-09-08",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +42.3% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:44:25+00:00"
+}

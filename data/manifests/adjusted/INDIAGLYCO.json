@@ -1,0 +1,30 @@
+{
+  "symbol": "INDIAGLYCO",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:24:19+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 1223,
+  "symbol_links": [],
+  "valid_from": "2026-09-17",
+  "price_events_applied": [
+    {
+      "ex_date": "2025-08-12",
+      "factor": 0.5,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2026-09-02",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Demerger (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:45:21+00:00"
+}

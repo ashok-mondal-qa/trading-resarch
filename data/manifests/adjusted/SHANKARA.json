@@ -1,0 +1,24 @@
+{
+  "symbol": "SHANKARA",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:37:46+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 1150,
+  "symbol_links": [],
+  "valid_from": "2025-10-09",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2025-09-24",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Demerger (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:47:41+00:00"
+}

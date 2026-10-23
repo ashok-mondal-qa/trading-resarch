@@ -1,0 +1,23 @@
+{
+  "symbol": "PAVNAIND",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:33:43+00:00",
+  "first_bar": "2023-06-01",
+  "last_bar": "2026-10-22",
+  "bars": 656,
+  "symbol_links": [],
+  "valid_from": "2023-06-01",
+  "price_events_applied": [
+    {
+      "ex_date": "2025-09-01",
+      "factor": 0.1,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share"
+    }
+  ],
+  "issues": [],
+  "generated_at_utc": "2026-10-23T05:46:53+00:00"
+}

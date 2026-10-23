@@ -99,7 +99,8 @@ class SymbolHistory:
     links: list[dict]
 
 
-def join_history(symbol: str, raw: pd.DataFrame, changes: pd.DataFrame) -> SymbolHistory:
+def join_history(symbol: str, raw: pd.DataFrame, changes: pd.DataFrame,
+                 calendar_start: pd.Timestamp | None = None) -> SymbolHistory:
     """Bars of `symbol` plus confirmed predecessors, relabelled to `symbol` (original kept in raw_symbol)."""
     parts = [raw[raw["symbol"] == symbol].assign(raw_symbol=symbol)]
     links = []
@@ -110,7 +111,9 @@ def join_history(symbol: str, raw: pd.DataFrame, changes: pd.DataFrame) -> Symbo
         record = {"old_symbol": link["old_symbol"], "new_symbol": link["new_symbol"],
                   "effective_date": eff.date().isoformat()}
         reason = None
-        if old.empty and not raw.empty and eff <= raw["date"].min():
+        first_loaded = calendar_start if calendar_start is not None else (
+            raw["date"].min() if not raw.empty else None)
+        if old.empty and first_loaded is not None and eff <= first_loaded:
             record["status"] = "before loaded range"
             links.append(record)
             break

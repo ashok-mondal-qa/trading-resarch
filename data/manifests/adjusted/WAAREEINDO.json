@@ -1,0 +1,25 @@
+{
+  "symbol": "WAAREEINDO",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:43:23+00:00",
+  "first_bar": "2026-01-01",
+  "last_bar": "2026-10-22",
+  "bars": 116,
+  "symbol_links": [
+    {
+      "old_symbol": "INDOSOLAR",
+      "new_symbol": "WAAREEINDO",
+      "effective_date": "2025-06-17",
+      "status": "unconfirmed",
+      "reason": "no bars for one side in loaded data"
+    }
+  ],
+  "valid_from": "2026-01-01",
+  "price_events_applied": [],
+  "issues": [],
+  "generated_at_utc": "2026-10-23T05:48:08+00:00"
+}

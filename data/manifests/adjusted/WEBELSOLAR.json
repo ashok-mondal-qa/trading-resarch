@@ -1,0 +1,42 @@
+{
+  "symbol": "WEBELSOLAR",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:43:19+00:00",
+  "first_bar": "2021-10-25",
+  "last_bar": "2026-10-22",
+  "bars": 1012,
+  "symbol_links": [],
+  "valid_from": "2025-03-26",
+  "price_events_applied": [
+    {
+      "ex_date": "2025-11-14",
+      "factor": 0.1,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2022-06-21",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -43.1% with no corporate action"
+    },
+    {
+      "date": "2024-10-08",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +82.1% with no corporate action"
+    },
+    {
+      "date": "2025-03-25",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -39.0% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:48:09+00:00"
+}

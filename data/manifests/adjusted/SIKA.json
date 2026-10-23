@@ -1,0 +1,17 @@
+{
+  "symbol": "SIKA",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:38:13+00:00",
+  "first_bar": "2026-04-20",
+  "last_bar": "2026-10-22",
+  "bars": 128,
+  "symbol_links": [],
+  "valid_from": "2026-04-20",
+  "price_events_applied": [],
+  "issues": [],
+  "generated_at_utc": "2026-10-23T05:47:46+00:00"
+}

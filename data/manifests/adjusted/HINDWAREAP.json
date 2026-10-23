@@ -1,0 +1,31 @@
+{
+  "symbol": "HINDWAREAP",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-23T05:23:07+00:00",
+  "first_bar": "2021-11-29",
+  "last_bar": "2026-10-22",
+  "bars": 1210,
+  "symbol_links": [
+    {
+      "old_symbol": "SHIL",
+      "new_symbol": "HINDWAREAP",
+      "effective_date": "2022-06-21",
+      "status": "confirmed"
+    }
+  ],
+  "valid_from": "2024-10-28",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2024-10-25",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 119:758 @ Premium Rs 218/- (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-23T05:45:16+00:00"
+}
