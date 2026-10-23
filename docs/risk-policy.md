@@ -9,11 +9,11 @@ larger losses. Enforcement lives in `src/trading_research/config.py` and `src/tr
 | Mode | paper only | `config.validate_settings`, `paper_trading.guard`, `.claude/hooks/block_live_orders.py` |
 | Planned risk per position | ≤ 0.5% of virtual equity | `size_long_position` |
 | Aggregate open planned risk | ≤ 2% of virtual equity | `size_long_position` (headroom) |
-| New candidates per day | ≤ 2 (ceiling, not quota) | config validation; gate 9 (Phase 8) |
+| New candidates per day | ≤ 2 (ceiling, not quota) | config validation; gate 9 in `reporting/daily.py` |
 | Leverage / margin / derivatives | not allowed | config validation |
-| Averaging down | not allowed | config validation; journal check (Phase 9) |
-| Widening a stop | not allowed | config validation; journal check (Phase 9) |
-| Liquidity | 20-day median traded value ≥ ₹5 crore | gate 7 (Phase 8) |
+| Averaging down | not allowed | config validation; `PaperBroker.submit` refuses a second order or position in a symbol |
+| Widening a stop | not allowed | config validation; `PaperBroker.raise_stop` only raises |
+| Liquidity | 20-day median traded value ≥ ₹5 crore | strategy setup rule; gate 7 in `reporting/daily.py` |
 
 ## Planned risk definition
 `qty × [(entry − stop) + slippage on both legs] + round-trip charges at the stop`.
