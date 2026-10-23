@@ -82,3 +82,26 @@ def test_hook_blocks_hardcoded_secret():
 def test_hook_allows_normal_code():
     code, _ = run_hook({"file_path": "src/x.py", "content": "def atr(df):\n    return df"})
     assert code == 0
+
+
+def _hook_patterns():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("block_live_orders", HOOK)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module.LIVE_ORDER_PATTERNS
+
+
+def test_no_live_order_code_anywhere_in_src():
+    import re
+    src = Path(__file__).resolve().parents[1] / "src"
+    hits = [f"{path.name}: {pattern}" for path in src.rglob("*.py") for pattern in _hook_patterns()
+            if re.search(pattern, path.read_text(encoding="utf-8"))]
+    assert hits == []
+
+
+@pytest.mark.parametrize("module", ["simulator.py", "journal.py", "guard.py"])
+def test_paper_trading_modules_have_no_network_client(module):
+    text = (Path(__file__).resolve().parents[1] / "src" / "trading_research" / "paper_trading" / module).read_text()
+    for marker in ("urllib", "requests", "http.client", "socket", "kiteconnect", "websocket"):
+        assert marker not in text, f"{module} mentions {marker}"
