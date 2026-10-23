@@ -11,7 +11,7 @@ Start with `CLAUDE.md`. Plan and audit: see the project doc "Swing-trading resea
 | 1 Audit | done |
 | 2 Architecture | done (plan doc) |
 | 3 Instructions, docs, safety guard, risk sizing, cost model | in progress |
-| 4 NSE data integration | bhavcopy loader + MCP verified (2026-10-23); adjustment and longer history next |
+| 4 NSE data integration | 5y bhavcopy history, MCP verified, split/bonus adjustment (2026-10-23); symbol-change mapping next |
 | 5–10 | not started |
 
 ## Setup
