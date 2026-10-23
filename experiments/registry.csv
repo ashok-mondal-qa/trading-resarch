@@ -1,2 +1,3 @@
 experiment_id,date,strategy,version,hypothesis,data_range,split,params,costs_model,result_summary,status,notes
 EXP-0000,2026-10-22,none,0.0,"Infrastructure only: safety guard; risk sizing; cost model",n/a,n/a,n/a,placeholder (unverified),"29 unit tests pass on fixtures; no market data used",infrastructure,No trading results exist yet
+EXP-0001,2026-10-23,none,0.0,"Infrastructure only: NSE CM bhavcopy loader with provenance manifests; NSE MCP client and cross-check",2026-10-01..2026-10-22 plus 2023-10-20 2024-07-05 2024-07-08,n/a,n/a,n/a,"42 unit tests pass (synthetic fixtures); archive vs MCP OHLCV match for RELIANCE TCS HDFCBANK on all loaded sessions",infrastructure,No trading results; prices unadjusted

@@ -3,7 +3,7 @@
 Status values: **verified** (a real call returned data in this environment, with date) · **configured,
 unverified** · **evaluated, not configured** · **rejected**.
 
-## NSE `nse-bhavcopy` — configured, unverified
+## NSE `nse-bhavcopy` — verified 2026-10-23
 - **URL:** `https://mcp.nseindia.in/bhavcopy/cm/mcp` (streamable HTTP), listed in `.mcp.json`
 - **Official source:** https://www.nseindia.com/nse-mcp (opened 2026-10-22)
 - **Capabilities (per NSE page):** end-of-day equity OHLCV, market breadth, price performance, volume
@@ -17,15 +17,40 @@ unverified** · **evaluated, not configured** · **rejected**.
 - **Fallback:** NSE archive CM bhavcopy CSVs (nsearchives.nseindia.com), same terms.
 - **Verification procedure:** list tools; fetch one known date for one liquid symbol; compare OHLCV with
   the archive bhavcopy for the same date; record in this file with the date.
-- **Current blocker (2026-10-22):** the cloud environment's network policy returns 403 for
-  `mcp.nseindia.in`, `www.nseindia.com` and `nsearchives.nseindia.com`. Needs an allowlist change.
+- **Verification (2026-10-23, ~03:21–03:35 UTC, from the cloud environment with NSE hosts allowlisted):**
+  - `initialize` → server `nse-bhavcopy-redis-mcp` 1.0.0, protocol 2025-03-26; `tools/list` → 21 tools
+    (`get_stock_history`, `get_ltp_by_date`, `get_corporate_actions`, `get_market_breadth`,
+    `get_index_history`, `get_bulk_quote`, `get_top_by_volume`, ...).
+  - `get_stock_history RELIANCE endDate=2026-10-22` → 21 bars; the 2026-10-22 bar (O 1206.2 H 1208.0
+    L 1184.5 C 1184.5 V 14,957,042) equals the archive bhavcopy
+    `BhavCopy_NSE_CM_0_0_0_20261022_F_0000.csv.zip` row exactly.
+  - Loader cross-check (`--cross-check`): RELIANCE, TCS, HDFCBANK OHLCV match the archive on all 15 sessions
+    2026-10-01..22; RELIANCE/TCS match on 2023-10-20, 2024-07-05 and 2024-07-08. Results are stored in each
+    date's manifest under `cross_checks`.
+  - **Prices are unadjusted:** `get_ltp_by_date RELIANCE 2023-10-20` = 2299.1, same as the raw archive, i.e.
+    before the 1:1 bonus. `get_corporate_actions` returns ex-dates and `adjustmentFactor` (RELIANCE bonus
+    1:1 ex 2024-10-28 → 0.5) — candidate input for Phase 5 adjustment, to be cross-checked.
+  - History window starts ~5 years back (RELIANCE history starts 2021-10-25 as of 2026-10-23).
+  - `deliveryQty` and 52-week fields come back as 0 in history rows; do not use them.
+- **Reliability quirks (observed 2026-10-23):** (1) the servers are load-balanced without session affinity;
+  a `tools/call` often fails with `Session not found`, so the client re-initialises and retries.
+  (2) Some backends lack older history: 6 of 10 identical calls for RELIANCE ending 2023-10-20 returned
+  `{"error":"Symbol not found: RELIANCE"}` while the others returned 22 bars. Recent dates returned
+  consistently (8/8). Errors are retried and never read as "no bar". Client:
+  `src/trading_research/data/nse_mcp.py`.
+- **Role:** cross-check and convenience queries. The primary store is the archive bhavcopy (see below),
+  because files are hashable, re-downloadable and consistent.
 
-## NSE `nse-cm-market` — configured, unverified
+## NSE `nse-cm-market` — verified 2026-10-23
 - **URL:** `https://mcp.nseindia.in/cmmkt/mcp` (streamable HTTP), listed in `.mcp.json`
 - **Official source:** https://www.nseindia.com/nse-mcp
 - **Capabilities (per NSE page):** stock quotes, index data, gainers/losers, SME and equity listings, bond
   listings, a data-freshness status tool. 1–3 minutes behind real time.
-- **Auth / terms / blocker:** same as above.
+- **Auth / terms:** same as above.
+- **Verification (2026-10-23 ~03:22 UTC):** `initialize` → server `cm-market-mcp` 1.0.0; `tools/list` → 15
+  tools; `cm_get_data_status` → gainers/losers last crawled 2026-10-23T03:21Z, crawl interval 5 min,
+  cache TTL 15 min. Calls were before market open (09:15 IST), so live values were not judged.
+  Same session-affinity quirk as above.
 - **Use here:** freshness checks and context only. Not used for backtests (no history).
 
 ## Zerodha Kite Connect — evaluated, not configured
@@ -37,3 +62,15 @@ unverified** · **evaluated, not configured** · **rejected**.
 
 ## Exchange filings / corporate announcements — to evaluate (Phase 8)
 NSE/BSE corporate announcement pages. Access path not yet confirmed.
+
+## NSE archive CM bhavcopy files — verified 2026-10-23 (primary EOD store)
+- **Host:** `nsearchives.nseindia.com` (HTTP 200 with a browser-like User-Agent). `www.nseindia.com`
+  itself returns 403 to scripted requests (bot protection); it is not needed.
+- **Files:** UDiFF `/content/cm/BhavCopy_NSE_CM_0_0_0_YYYYMMDD_F_0000.csv.zip` from 2024-07-05;
+  legacy `/content/historical/EQUITIES/YYYY/MON/cmDDMONYYYYbhav.csv.zip` up to 2024-07-05 (both exist for
+  2024-07-05; legacy 404s from 2024-07-08; UDiFF 404s for 2023 dates). Non-trading days return 404.
+- **Loader:** `python -m trading_research.data.bhavcopy --start YYYY-MM-DD --end YYYY-MM-DD
+  [--cross-check SYM,SYM]`. Raw zips → `data/raw/`, normalised parquet → `data/processed/`, provenance
+  manifest per date → `data/manifests/nse_cm_bhavcopy/` (committed).
+- **Loaded so far:** 2026-10-01..22 (15 sessions; 2026-10-02 and 2026-10-20 had no file), 2023-10-20,
+  2024-07-05, 2024-07-08.
