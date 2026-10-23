@@ -32,15 +32,17 @@ def swings(bars: pd.DataFrame, k: int = 3) -> pd.DataFrame:
 def swing_state(bars: pd.DataFrame, k: int = 3) -> pd.DataFrame:
     """Per bar: last and previous confirmed swing high/low as known at that bar's close, and the
     structure label ('up': higher high and higher low; 'down': lower high and lower low; else 'none')."""
-    events = swings(bars, k).sort_values(["confirmed_at", "date"])
-    state = pd.DataFrame(index=bars.index, columns=["last_high", "prev_high", "last_low", "prev_low"],
-                         dtype=float)
-    last = {"high": [np.nan, np.nan], "low": [np.nan, np.nan]}  # [prev, last]
-    by_day = {d: g for d, g in events.groupby("confirmed_at")}
-    for date in bars.index:
-        for event in by_day.get(date, pd.DataFrame()).itertuples():
-            last[event.kind] = [last[event.kind][1], event.price]
-        state.loc[date] = [last["high"][1], last["high"][0], last["low"][1], last["low"][0]]
+    events = swings(bars, k).sort_values(["confirmed_at", "date"], kind="stable")
+    state = pd.DataFrame(index=bars.index, dtype=float)
+    for kind in ("high", "low"):
+        ev = events[events["kind"] == kind]
+        seq = pd.DataFrame({"confirmed_at": ev["confirmed_at"].to_numpy(), "last": ev["price"].to_numpy(),
+                            "prev": ev["price"].shift(1).to_numpy()})
+        per_day = seq.groupby("confirmed_at").last()  # several on one day: the latest in order wins
+        per_day = per_day.reindex(bars.index).ffill()
+        state[f"last_{kind}"] = per_day["last"].astype(float)
+        state[f"prev_{kind}"] = per_day["prev"].astype(float)
+    state = state[["last_high", "prev_high", "last_low", "prev_low"]]
     up = (state["last_high"] > state["prev_high"]) & (state["last_low"] > state["prev_low"])
     down = (state["last_high"] < state["prev_high"]) & (state["last_low"] < state["prev_low"])
     state["structure"] = np.select([up, down], ["up", "down"], default="none")
