@@ -1,6 +1,7 @@
 # Price-action pullback and SMC sweep (long only) — spec v0.1
 
-Status: **specified, not tested** (2026-10-23). Nothing here is evidence of an edge. Code:
+Status: **both REJECTED** (EXP-0007, EXP-0008, 2026-10-23); holdout not run. See
+`reports/backtests/EXP-0007-0008-report.md`. Nothing here is evidence of an edge. Code:
 `src/trading_research/strategies/pa_smc.py`, runner `src/trading_research/backtesting/run_phase8.py`.
 Registry: EXP-0007 (`pa_pullback`), EXP-0008 (`smc_sweep`).
 

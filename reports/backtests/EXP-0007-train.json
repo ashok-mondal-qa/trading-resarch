@@ -1,0 +1,204 @@
+{
+  "experiment": "EXP-0007",
+  "strategy": "pa_pullback",
+  "spec_version": "0.1",
+  "split": "train",
+  "range": [
+    "2022-08-15",
+    "2024-12-31"
+  ],
+  "params": {
+    "trend_slow": 200,
+    "swing_k": 3,
+    "ema_n": 20,
+    "stop_buffer_atr": 0.1,
+    "sweep_window": 5,
+    "body_atr": 1.5,
+    "rs_lookback": 63,
+    "atr_n": 14,
+    "max_stop_pct": 0.1,
+    "min_price": 50.0,
+    "min_median_traded_value": 50000000.0,
+    "volume_lookback": 20,
+    "exit_low_lookback": 10,
+    "max_holding_sessions": 40,
+    "max_new_per_day": 2
+  },
+  "generated_at_utc": "2026-10-23T09:39:01+00:00",
+  "universe_symbols_loaded": 1328,
+  "universe_symbols_skipped": 309,
+  "costs_verified": false,
+  "regime_days": {
+    "up": 457,
+    "range": 100,
+    "down": 29
+  },
+  "benchmark_nifty50_return": 0.3264778895106659,
+  "runs": {
+    "strategy_1x": {
+      "trades": 116,
+      "open_at_end": 0,
+      "net_return": 0.10221512087287343,
+      "max_drawdown": -0.09130350167894197,
+      "win_rate": 0.29310344827586204,
+      "expectancy_inr": 881.1648351109797,
+      "expectancy_r": 0.18382179115707264,
+      "expectancy_r_ci95": [
+        -0.1540222894436521,
+        0.5486642111724123
+      ],
+      "profit_factor": 1.3047610600768151,
+      "avg_win_inr": 12870.865171279864,
+      "avg_loss_inr": -4090.1743286663636,
+      "avg_sessions": 16.53448275862069,
+      "total_costs_inr": 27910.682972462844,
+      "worst_r": -1.1138234374356064,
+      "exit_reasons": {
+        "exit signal": 56,
+        "stop": 44,
+        "time stop": 14,
+        "stop (gap)": 2
+      },
+      "inconclusive_lt_30_trades": false,
+      "signals_after_regime_gate": 3481,
+      "candidates_taken": 830,
+      "entries_skipped": {
+        "aggregate cap: no room for a full position": 699,
+        "opened at/below stop": 3,
+        "no bar on entry day": 2
+      },
+      "by_volatility_regime": {
+        "unknown": {
+          "trades": 116,
+          "expectancy_r": 0.18382179115707264,
+          "sum_pnl_inr": 102215.12087287364
+        }
+      },
+      "by_liquidity_bucket": {
+        "5-20 crore/day": {
+          "trades": 45,
+          "expectancy_r": 0.2504636398116905,
+          "sum_pnl_inr": 55839.28925613762
+        },
+        "20-100 crore/day": {
+          "trades": 40,
+          "expectancy_r": -0.19908311751524616,
+          "sum_pnl_inr": -49270.7834978227
+        },
+        ">100 crore/day": {
+          "trades": 31,
+          "expectancy_r": 0.581154473654974,
+          "sum_pnl_inr": 95646.61511455869
+        }
+      },
+      "same_day_entries": {
+        "days_with_two_entries": 25,
+        "both_lost": 13,
+        "both_won": 3,
+        "r_correlation": 0.0014743755964984771
+      }
+    },
+    "strategy_2x_costs": {
+      "trades": 115,
+      "open_at_end": 0,
+      "net_return": 0.07794309455943593,
+      "max_drawdown": -0.09838621856796648,
+      "win_rate": 0.2956521739130435,
+      "expectancy_inr": 677.766039647266,
+      "expectancy_r": 0.14261319400261369,
+      "expectancy_r_ci95": [
+        -0.17447759635365137,
+        0.493979017951477
+      ],
+      "profit_factor": 1.2370611988028182,
+      "avg_win_inr": 11962.70619036834,
+      "avg_loss_inr": -4059.1224186800982,
+      "avg_sessions": 16.965217391304346,
+      "total_costs_inr": 51345.88812543952,
+      "worst_r": -1.0934876470163433,
+      "exit_reasons": {
+        "exit signal": 57,
+        "stop": 43,
+        "time stop": 14,
+        "stop (gap)": 1
+      },
+      "inconclusive_lt_30_trades": false,
+      "signals_after_regime_gate": 3481,
+      "candidates_taken": 830,
+      "entries_skipped": {
+        "aggregate cap: no room for a full position": 699,
+        "opened at/below stop": 3,
+        "no bar on entry day": 2,
+        "sizing: risk budget or cash too small for one share": 1
+      }
+    },
+    "ablation_1x": {
+      "trades": 125,
+      "open_at_end": 0,
+      "net_return": 0.1744037949586541,
+      "max_drawdown": -0.09525393125973347,
+      "win_rate": 0.288,
+      "expectancy_inr": 1395.2303596692345,
+      "expectancy_r": 0.285078269954952,
+      "expectancy_r_ci95": [
+        -0.1644030894101864,
+        0.8917413498441905
+      ],
+      "profit_factor": 1.4641617839856218,
+      "avg_win_inr": 15281.750911638794,
+      "avg_loss_inr": -4221.789189442048,
+      "avg_sessions": 15.888,
+      "total_costs_inr": 27753.17971805964,
+      "worst_r": -1.0681584306048644,
+      "exit_reasons": {
+        "exit signal": 57,
+        "stop": 53,
+        "time stop": 14,
+        "stop (gap)": 1
+      },
+      "inconclusive_lt_30_trades": false,
+      "signals_after_regime_gate": 13402,
+      "candidates_taken": 902,
+      "entries_skipped": {
+        "aggregate cap: no room for a full position": 749,
+        "opened at/below stop": 5,
+        "no bar on entry day": 2,
+        "sizing: risk budget or cash too small for one share": 1
+      }
+    },
+    "ablation_2x_costs": {
+      "trades": 123,
+      "open_at_end": 0,
+      "net_return": 0.08435079760998998,
+      "max_drawdown": -0.09912488245361939,
+      "win_rate": 0.2682926829268293,
+      "expectancy_inr": 685.7788423576445,
+      "expectancy_r": 0.15669382063415102,
+      "expectancy_r_ci95": [
+        -0.2535373361540269,
+        0.6738652963319433
+      ],
+      "profit_factor": 1.2314701213109156,
+      "avg_win_inr": 13598.912945778713,
+      "avg_loss_inr": -4049.036995563413,
+      "avg_sessions": 15.560975609756097,
+      "total_costs_inr": 47557.25441419204,
+      "worst_r": -1.0381752976640817,
+      "exit_reasons": {
+        "stop": 54,
+        "exit signal": 53,
+        "time stop": 15,
+        "stop (gap)": 1
+      },
+      "inconclusive_lt_30_trades": false,
+      "signals_after_regime_gate": 13402,
+      "candidates_taken": 902,
+      "entries_skipped": {
+        "aggregate cap: no room for a full position": 753,
+        "opened at/below stop": 5,
+        "no bar on entry day": 2,
+        "sizing: risk budget or cash too small for one share": 1
+      }
+    }
+  }
+}
