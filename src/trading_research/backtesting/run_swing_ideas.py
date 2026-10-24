@@ -66,6 +66,15 @@ def _manifest(root: Path, symbol: str) -> dict:
     return json.loads(path.read_text()) if path.exists() else {}
 
 
+def usable_as_of(adj: pd.DataFrame, manifest: dict, data_end: date) -> pd.Series:
+    """Point-in-time version of the adjuster's `usable` flag: only adjustment errors on or before data_end
+    cut the history. The adjuster marks bars usable after the LAST error in the whole file, so an error in
+    2025 would otherwise drop a stock's 2016-2022 bars, a choice made with knowledge of the future."""
+    errors = [pd.Timestamp(i["date"]) for i in manifest.get("issues", [])
+              if i.get("severity") == "error" and i.get("date") and pd.Timestamp(i["date"]) <= pd.Timestamp(data_end)]
+    return adj["date"] > max(errors) if errors else pd.Series(True, index=adj.index)
+
+
 def superseded_tickers(root: Path, symbols: list[str]) -> set[str]:
     """Old tickers whose history is already joined into a newer ticker (confirmed rename). Loading both
     would count the same company twice."""
@@ -90,12 +99,14 @@ def load_universe(root: Path, data_end: date, nifty: pd.Series, calendar: list, 
         if symbol in superseded:
             counts["superseded"] += 1
             continue
-        if _manifest(root, symbol).get("status") == "DATA INSUFFICIENT":
-            counts["insufficient"] += 1
-            continue
+        manifest = _manifest(root, symbol)
         adj = pd.read_parquet(path)
-        adj = adj[adj["date"] <= pd.Timestamp(data_end)]
+        adj = adj[adj["date"] <= pd.Timestamp(data_end)].copy()
         if adj.empty:
+            continue
+        adj["usable"] = usable_as_of(adj, manifest, data_end)
+        if not adj["usable"].any():
+            counts["insufficient"] += 1
             continue
         if str(adj["isin"].iloc[-1]).startswith("INF"):  # ETFs and other funds in the EQ series
             counts["etf"] += 1

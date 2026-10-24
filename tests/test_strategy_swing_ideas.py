@@ -5,7 +5,7 @@ import pandas as pd
 import pytest
 
 from trading_research.backtesting import metrics
-from trading_research.backtesting.run_swing_ideas import standalone, verdict
+from trading_research.backtesting.run_swing_ideas import standalone, usable_as_of, verdict
 from trading_research.config import load_settings
 from trading_research.indicators import core
 from trading_research.strategies import pa_smc, swing_ideas as si
@@ -128,3 +128,14 @@ def test_verdict_rules():
     assert not verdict({**good, "presample": _report(st=99)})["passed_presample_rules"]
     assert not verdict({**good, "validation": _report(se2=-0.01)})["passed_presample_rules"]
     assert not verdict({"presample": _report()})["passed_presample_rules"]  # train/validation required
+
+
+def test_usable_as_of_ignores_errors_after_the_split_end():
+    adj = pd.DataFrame({"date": pd.bdate_range("2020-01-01", periods=10)})
+    manifest = {"issues": [{"date": "2020-01-03", "severity": "error"}, {"date": "2020-01-10", "severity": "error"},
+                           {"date": "2020-01-08", "severity": "warning"}]}
+    early = usable_as_of(adj, manifest, pd.Timestamp("2020-01-02").date())
+    assert early.all()                                        # no error known by then
+    mid = usable_as_of(adj, manifest, pd.Timestamp("2020-01-09").date())
+    assert mid.tolist() == [False] * 3 + [True] * 7           # only the 2020-01-03 error counts
+    assert usable_as_of(adj, {}, pd.Timestamp("2020-01-09").date()).all()

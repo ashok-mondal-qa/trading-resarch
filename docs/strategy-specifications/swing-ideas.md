@@ -114,3 +114,14 @@ the portfolio rule. Not vetoes; all must appear in the report.
   bootstrap in `metrics`, index loader reads 2015 files with DD/MM/YYYY dates and the pre-November-2015
   name "CNX Nifty" for NIFTY 50. No earlier results are affected (earlier runs use data from 2021-10-25,
   where neither applies). A holdout evaluation is needed only if a strategy passes.
+- **v0.1 clarification (2026-10-24, after the price adjustment and before any backtest run):** the adjuster
+  marks a stock's bars usable only after its last adjustment error anywhere in 2015..2026. 160 of 2,125
+  stocks have their last error in 2025 or 2026, so their 2016–2022 history would have been dropped
+  because of something that happened later (look-ahead in the universe). The runner now cuts history
+  only at errors on or before the split's end (`run_swing_ideas.usable_as_of`, tested). Backward
+  adjustment scales all earlier bars by the same factor, so a later event does not change returns or
+  indicators before it. No rule or parameter changes, so the version stays 0.1. Earlier experiments
+  (EXP-0006..0008) used the adjuster's flag directly; with their 2021..2026 data, stocks whose last error
+  fell in 2025–2026 lost their train-period history. Their verdicts are not re-run here; this is noted as a
+  limitation of those results.
+
