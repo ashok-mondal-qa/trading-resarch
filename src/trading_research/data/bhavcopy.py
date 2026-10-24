@@ -133,8 +133,14 @@ def parse_bhavcopy(raw_zip: bytes, fmt: str) -> pd.DataFrame:
     out = df[list(mapping)].rename(columns=mapping)
     for col in ("symbol", "series", "isin"):
         out[col] = out[col].str.strip()
-    date_format = "%Y-%m-%d" if fmt == "udiff" else "%d-%b-%Y"
-    out["date"] = pd.to_datetime(out["date"].str.strip(), format=date_format)
+    if fmt == "udiff":
+        out["date"] = pd.to_datetime(out["date"].str.strip(), format="%Y-%m-%d")
+    else:
+        # A few legacy files (e.g. 2020-07-13) write a two-digit year ("13-Jul-20"); the trade-date check in
+        # validate_bars still has to match the requested date.
+        text = out["date"].str.strip()
+        four = pd.to_datetime(text, format="%d-%b-%Y", errors="coerce")
+        out["date"] = four if four.notna().all() else pd.to_datetime(text, format="%d-%b-%y")
     for col in PRICE_COLUMNS + ["traded_value"]:
         out[col] = pd.to_numeric(out[col].str.strip(), errors="coerce")
     for col in ("volume", "trades"):

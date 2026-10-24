@@ -86,6 +86,11 @@ def test_both_formats_normalise_to_same_schema():
     assert old.iloc[0].date.date() == LEGACY_DAY
 
 
+def test_legacy_two_digit_year_parsed():
+    old = bc.parse_bhavcopy(legacy_zip([legacy_row("TESTA", day="20-Oct-23")]), "legacy")
+    assert old.iloc[0].date.date() == LEGACY_DAY
+
+
 def test_load_day_writes_bars_raw_and_manifest(store):
     fetch = FakeFetch({"20261022": udiff_zip([udiff_row("TESTA"), udiff_row("TESTB", series="BE")])})
     manifest = bc.load_day(DAY, store, fetch)
