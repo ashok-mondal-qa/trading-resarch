@@ -1,24 +1,37 @@
 {
   "symbol": "GFLLIMITED",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:20:35+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-24T21:02:03+00:00",
+  "first_bar": "2015-01-01",
   "last_bar": "2026-10-22",
-  "bars": 1212,
+  "bars": 2867,
   "symbol_links": [
     {
       "old_symbol": "GUJFLUORO",
       "new_symbol": "GFLLIMITED",
       "effective_date": "2019-07-25",
-      "status": "before loaded range"
+      "status": "confirmed"
     }
   ],
-  "valid_from": "2021-10-25",
+  "valid_from": "2021-04-13",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:45:08+00:00"
+  "issues": [
+    {
+      "date": "2019-08-06",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Demerger (source factor 1.0)"
+    },
+    {
+      "date": "2021-03-26",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Demerger (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-24T21:31:23+00:00"
 }

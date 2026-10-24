@@ -1,17 +1,24 @@
 {
   "symbol": "SATIN",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:37:02+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-24T21:20:59+00:00",
+  "first_bar": "2015-09-10",
   "last_bar": "2026-10-22",
-  "bars": 1176,
+  "bars": 2684,
   "symbol_links": [],
-  "valid_from": "2021-10-25",
+  "valid_from": "2020-08-05",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:47:27+00:00"
+  "issues": [
+    {
+      "date": "2020-08-04",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 48:125 @ Premium Rs 50/- (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-24T21:34:26+00:00"
 }

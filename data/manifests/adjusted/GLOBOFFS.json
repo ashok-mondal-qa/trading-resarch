@@ -1,0 +1,24 @@
+{
+  "symbol": "GLOBOFFS",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-24T21:02:15+00:00",
+  "first_bar": "2015-01-01",
+  "last_bar": "2021-03-12",
+  "bars": 1268,
+  "symbol_links": [
+    {
+      "old_symbol": "GARWOFFS",
+      "new_symbol": "GLOBOFFS",
+      "effective_date": "2011-06-07",
+      "status": "before loaded range"
+    }
+  ],
+  "valid_from": "2015-01-01",
+  "price_events_applied": [],
+  "issues": [],
+  "generated_at_utc": "2026-10-24T21:31:24+00:00"
+}

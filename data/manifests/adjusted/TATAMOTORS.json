@@ -5,10 +5,10 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:40:20+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-24T21:25:12+00:00",
+  "first_bar": "2015-01-01",
   "last_bar": "2025-10-23",
-  "bars": 988,
+  "bars": 2669,
   "symbol_links": [
     {
       "old_symbol": "TELCO",
@@ -21,11 +21,17 @@
   "price_events_applied": [],
   "issues": [
     {
+      "date": "2019-10-29",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +35.9% with no corporate action"
+    },
+    {
       "date": "2025-10-14",
       "severity": "error",
       "kind": "unexplained jump",
       "detail": "adjusted close-to-close move -40.2% with no corporate action"
     }
   ],
-  "generated_at_utc": "2026-10-23T05:47:54+00:00"
+  "generated_at_utc": "2026-10-24T21:34:44+00:00"
 }

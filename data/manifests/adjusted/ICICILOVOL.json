@@ -5,20 +5,20 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:23:41+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-24T21:05:55+00:00",
+  "first_bar": "2017-07-11",
   "last_bar": "2023-12-19",
-  "bars": 534,
+  "bars": 1487,
   "symbol_links": [
     {
       "old_symbol": "LOWVOLIWIN",
       "new_symbol": "ICICILOVOL",
       "effective_date": "2018-04-10",
-      "status": "before loaded range"
+      "status": "confirmed"
     }
   ],
-  "valid_from": "2021-10-25",
+  "valid_from": "2017-07-11",
   "price_events_applied": [],
   "issues": [],
-  "generated_at_utc": "2026-10-23T05:45:19+00:00"
+  "generated_at_utc": "2026-10-24T21:31:47+00:00"
 }

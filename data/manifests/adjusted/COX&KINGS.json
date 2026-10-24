@@ -1,0 +1,17 @@
+{
+  "symbol": "COX&KINGS",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-24T20:58:27+00:00",
+  "first_bar": "2015-01-01",
+  "last_bar": "2019-12-24",
+  "bars": 1217,
+  "symbol_links": [],
+  "valid_from": "2015-01-01",
+  "price_events_applied": [],
+  "issues": [],
+  "generated_at_utc": "2026-10-24T21:30:54+00:00"
+}

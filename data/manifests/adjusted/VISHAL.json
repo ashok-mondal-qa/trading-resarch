@@ -1,0 +1,28 @@
+{
+  "symbol": "VISHAL",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-24T21:28:03+00:00",
+  "first_bar": "2019-08-21",
+  "last_bar": "2026-10-22",
+  "bars": 884,
+  "symbol_links": [],
+  "valid_from": "2019-08-21",
+  "price_events_applied": [
+    {
+      "ex_date": "2020-12-16",
+      "factor": 0.6667,
+      "purpose": "Bonus 1:2"
+    },
+    {
+      "ex_date": "2022-03-10",
+      "factor": 0.3333,
+      "purpose": "Bonus 2:1"
+    }
+  ],
+  "issues": [],
+  "generated_at_utc": "2026-10-24T21:35:16+00:00"
+}

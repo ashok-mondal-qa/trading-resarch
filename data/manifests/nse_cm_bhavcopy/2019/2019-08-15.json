@@ -1,0 +1,37 @@
+{
+  "dataset": "nse_cm_bhavcopy",
+  "loader_version": "0.1.0",
+  "status": "not_found",
+  "provider": "NSE (National Stock Exchange of India) archive",
+  "source_url": null,
+  "attempted_urls": [
+    "https://nsearchives.nseindia.com/content/historical/EQUITIES/2019/AUG/cm15AUG2019bhav.csv.zip"
+  ],
+  "file_format": null,
+  "raw_sha256": null,
+  "exchange": "NSE",
+  "segment": "CM (capital market)",
+  "instruments": "all securities in the CM bhavcopy for the date",
+  "timeframe": "1D",
+  "trade_date": "2019-08-15",
+  "first_bar_ist": null,
+  "last_bar_ist": null,
+  "retrieved_at_utc": "2026-10-24T20:06:36+00:00",
+  "price_adjustment": "none (raw, unadjusted)",
+  "corporate_actions_applied": [],
+  "rows_in_file": 0,
+  "rows_kept": 0,
+  "series_counts": {},
+  "duplicate_rows": 0,
+  "invalid_rows": 0,
+  "excluded": [],
+  "missing_note": "no file published for this date (holiday, non-trading day or not yet published); no bars were created",
+  "known_limitations": [
+    "Prices are raw (unadjusted) for splits, bonuses and dividends.",
+    "All CM series are kept (EQ, BE, SM, GS, ...); universe/series selection happens downstream.",
+    "No delivery quantity (that is in a separate NSE file).",
+    "Universe is the set of securities traded that day, not point-in-time index membership."
+  ],
+  "terms": "NSE data, published for educational and informational use only; not for commercial use or redistribution. Raw and processed files stay git-ignored. See NSE Terms of Use.",
+  "cross_checks": []
+}

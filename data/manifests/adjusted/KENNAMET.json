@@ -5,20 +5,21 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:27:04+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-24T21:09:01+00:00",
+  "first_bar": "2019-08-19",
   "last_bar": "2026-10-22",
-  "bars": 625,
+  "bars": 1164,
   "symbol_links": [
     {
       "old_symbol": "WIDIA",
       "new_symbol": "KENNAMET",
       "effective_date": "2019-08-19",
-      "status": "before loaded range"
+      "status": "unconfirmed",
+      "reason": "no bars for one side in loaded data"
     }
   ],
-  "valid_from": "2021-10-25",
+  "valid_from": "2019-08-19",
   "price_events_applied": [],
   "issues": [],
-  "generated_at_utc": "2026-10-23T05:45:57+00:00"
+  "generated_at_utc": "2026-10-24T21:31:59+00:00"
 }

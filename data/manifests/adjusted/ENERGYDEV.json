@@ -1,0 +1,36 @@
+{
+  "symbol": "ENERGYDEV",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-24T21:00:22+00:00",
+  "first_bar": "2015-01-01",
+  "last_bar": "2026-10-22",
+  "bars": 2316,
+  "symbol_links": [],
+  "valid_from": "2025-03-25",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2017-03-07",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -47.3% with no corporate action"
+    },
+    {
+      "date": "2022-03-29",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -52.0% with no corporate action"
+    },
+    {
+      "date": "2025-03-24",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -42.3% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-24T21:31:11+00:00"
+}

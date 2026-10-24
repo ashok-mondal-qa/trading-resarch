@@ -1,6 +1,7 @@
 # Displacement, short-term reversal and 12-1 momentum (long only) — spec v0.1
 
-Status: **pre-registered, not run** (written and committed before any backtest of these rules).
+Status: **all three REJECTED** (EXP-0011..0013, run 2026-10-24); holdout not run. See
+`reports/backtests/EXP-0011-0013-report.md`. The rules below were committed before any run (adfc773).
 Code: `src/trading_research/strategies/swing_ideas.py`, runner `src/trading_research/backtesting/run_swing_ideas.py`.
 Registry: EXP-0011 (`displacement`), EXP-0012 (`st_reversal`), EXP-0013 (`momentum_12_1`).
 Nothing here is evidence of an edge.

@@ -18,7 +18,7 @@ Start with `CLAUDE.md`. Plan and audit: see the project doc "Swing-trading resea
 | 8 PA / SMC strategies | PA pullback and SMC sweep pre-registered and tested; both **REJECTED**, holdout unused (2026-10-23, `reports/backtests/EXP-0007-0008-report.md`) |
 | 9 Paper trading | paper broker (simulated fills, journal only), hash-chained journal, daily 12-section report with gates 1–9 (2026-10-23) |
 | 10 End-to-end | synthetic full-cycle test (signal → order → fill → exit), live-mode refusal, source scan for order code, report field checks; runbook `docs/operations.md` (2026-10-23) |
-| 11 More swing ideas | displacement, short-term reversal, 12-1 momentum pre-registered with a never-evaluated 2016–2022 presample; holdout still sealed (2026-10-24, `docs/strategy-specifications/swing-ideas.md`) |
+| 11 More swing ideas | displacement, short-term reversal and 12-1 momentum pre-registered and tested on a never-evaluated 2016–2022 presample; all three **REJECTED**, holdout unused (2026-10-24, `reports/backtests/EXP-0011-0013-report.md`) |
 
 ## Daily report (paper only)
 ```

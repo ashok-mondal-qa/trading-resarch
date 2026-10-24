@@ -1,0 +1,48 @@
+{
+  "symbol": "YESBANK",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-24T21:29:19+00:00",
+  "first_bar": "2015-01-01",
+  "last_bar": "2026-10-22",
+  "bars": 2914,
+  "symbol_links": [],
+  "valid_from": "2020-03-18",
+  "price_events_applied": [
+    {
+      "ex_date": "2017-09-21",
+      "factor": 0.2,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2020-03-06",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -56.1% with no corporate action"
+    },
+    {
+      "date": "2020-03-11",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +35.5% with no corporate action"
+    },
+    {
+      "date": "2020-03-16",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +45.2% with no corporate action"
+    },
+    {
+      "date": "2020-03-17",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +58.1% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-24T21:35:25+00:00"
+}

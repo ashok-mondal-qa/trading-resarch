@@ -1,17 +1,24 @@
 {
   "symbol": "NITINSPIN",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:32:27+00:00",
-  "first_bar": "2021-11-04",
+  "actions_retrieved_at_utc": "2026-10-24T21:14:51+00:00",
+  "first_bar": "2015-01-01",
   "last_bar": "2026-10-22",
-  "bars": 1188,
+  "bars": 2758,
   "symbol_links": [],
-  "valid_from": "2021-11-04",
+  "valid_from": "2021-02-03",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:46:46+00:00"
+  "issues": [
+    {
+      "date": "2021-02-02",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +59.3% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-24T21:32:52+00:00"
 }

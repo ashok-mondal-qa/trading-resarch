@@ -1,24 +1,49 @@
 {
   "symbol": "OLECTRA",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:32:54+00:00",
-  "first_bar": "2022-01-04",
+  "actions_retrieved_at_utc": "2026-10-24T21:15:18+00:00",
+  "first_bar": "2015-01-01",
   "last_bar": "2026-10-22",
-  "bars": 1184,
+  "bars": 2627,
   "symbol_links": [
     {
       "old_symbol": "GOLDINFRA",
       "new_symbol": "OLECTRA",
       "effective_date": "2018-07-26",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "GOLDTELE",
+      "new_symbol": "GOLDINFRA",
+      "effective_date": "2008-02-29",
       "status": "before loaded range"
     }
   ],
-  "valid_from": "2022-01-04",
+  "valid_from": "2022-01-05",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:46:47+00:00"
+  "issues": [
+    {
+      "date": "2017-05-30",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +36.2% with no corporate action"
+    },
+    {
+      "date": "2017-11-14",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +42.5% with no corporate action"
+    },
+    {
+      "date": "2022-01-04",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +234.3% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-24T21:32:54+00:00"
 }

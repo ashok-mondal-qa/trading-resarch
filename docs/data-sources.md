@@ -70,3 +70,16 @@ duplicated observations · known limitations · licence/terms note.
 NSE's daily index file, one per session, same provenance rules (raw + SHA-256, manifest per date, missing
 never filled, date mismatch fails closed). NIFTY 50 is the benchmark for regime (gate 2) and relative
 strength. Index values are as published (indices need no corporate-action adjustment).
+
+## History extended to 2015 (2026-10-24)
+- Bhavcopy and index files 2015-01-01..2021-10-24 loaded with the same loader (2,905 sessions in total,
+  2015-01-01..2026-10-22). Legacy files with a two-digit year (e.g. 2020-07-13, "13-Jul-20") and index
+  files with DD/MM/YYYY dates (some 2015 files) are read only if the date still matches the file's date.
+  NIFTY 50 was called "CNX Nifty" before 2015-11-09; `read_index("Nifty 50")` reads both names.
+- Adjusted 2,125 EQ symbols (liquid on at least one day in 2015..2026; list from
+  `run_swing_ideas --list-symbols`): 1,587 ok, 537 partial, 1 DATA INSUFFICIENT. NSE MCP corporate actions
+  cover 2015 onward (checked RELIANCE 2017 bonus, INFY 2015 and 2018, HDFCBANK 2019 split).
+- The adjuster's `usable` flag cuts history at the last error anywhere in the file. Backtests must use
+  only errors known by their data end (`run_swing_ideas.usable_as_of`); otherwise a 2025 demerger would
+  remove a stock's 2016 bars.
+

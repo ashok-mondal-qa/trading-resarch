@@ -5,10 +5,10 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:38:17+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-24T21:22:21+00:00",
+  "first_bar": "2015-01-01",
   "last_bar": "2026-08-27",
-  "bars": 599,
+  "bars": 1910,
   "symbol_links": [
     {
       "old_symbol": "MEGASOFT",
@@ -20,6 +20,12 @@
   "valid_from": "2026-05-26",
   "price_events_applied": [],
   "issues": [
+    {
+      "date": "2021-07-12",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 2:3 (source factor 1.0)"
+    },
     {
       "date": "2022-03-29",
       "severity": "error",
@@ -51,5 +57,5 @@
       "detail": "adjusted close-to-close move +47.7% with no corporate action"
     }
   ],
-  "generated_at_utc": "2026-10-23T05:47:46+00:00"
+  "generated_at_utc": "2026-10-24T21:34:30+00:00"
 }

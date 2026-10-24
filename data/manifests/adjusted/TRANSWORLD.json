@@ -1,14 +1,14 @@
 {
   "symbol": "TRANSWORLD",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:41:37+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-24T21:26:32+00:00",
+  "first_bar": "2015-04-09",
   "last_bar": "2026-10-22",
-  "bars": 1150,
+  "bars": 2707,
   "symbol_links": [
     {
       "old_symbol": "SHREYAS",
@@ -23,8 +23,15 @@
       "status": "before loaded range"
     }
   ],
-  "valid_from": "2021-10-25",
+  "valid_from": "2020-11-11",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:47:59+00:00"
+  "issues": [
+    {
+      "date": "2020-11-10",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -38.9% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-24T21:35:12+00:00"
 }

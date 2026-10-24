@@ -1,17 +1,48 @@
 {
   "symbol": "OPTIEMUS",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:33:02+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-24T21:15:24+00:00",
+  "first_bar": "2017-08-08",
   "last_bar": "2026-10-22",
-  "bars": 1176,
+  "bars": 1786,
   "symbol_links": [],
-  "valid_from": "2021-10-25",
+  "valid_from": "2021-10-13",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:46:52+00:00"
+  "issues": [
+    {
+      "date": "2018-05-02",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +261.8% with no corporate action"
+    },
+    {
+      "date": "2018-10-31",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -61.9% with no corporate action"
+    },
+    {
+      "date": "2019-12-10",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -38.9% with no corporate action"
+    },
+    {
+      "date": "2020-08-18",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +48.1% with no corporate action"
+    },
+    {
+      "date": "2021-10-12",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +182.1% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-24T21:32:54+00:00"
 }

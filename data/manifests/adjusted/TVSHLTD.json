@@ -5,10 +5,10 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:41:56+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-24T21:26:54+00:00",
+  "first_bar": "2015-01-01",
   "last_bar": "2026-10-22",
-  "bars": 1199,
+  "bars": 2880,
   "symbol_links": [
     {
       "old_symbol": "SUNCLAYLTD",
@@ -44,5 +44,5 @@
       "detail": "Scheme Of Arrangement - Bonus Ncrps 46:1: factor 0.0213, raw open/prev close 0.9996"
     }
   ],
-  "generated_at_utc": "2026-10-23T05:48:05+00:00"
+  "generated_at_utc": "2026-10-24T21:35:13+00:00"
 }

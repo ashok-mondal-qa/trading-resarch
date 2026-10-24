@@ -1,0 +1,24 @@
+{
+  "symbol": "FAIRCHEM",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-24T21:00:59+00:00",
+  "first_bar": "2015-05-08",
+  "last_bar": "2020-10-13",
+  "bars": 1333,
+  "symbol_links": [
+    {
+      "old_symbol": "ADI",
+      "new_symbol": "FAIRCHEM",
+      "effective_date": "2017-01-19",
+      "status": "confirmed"
+    }
+  ],
+  "valid_from": "2015-05-08",
+  "price_events_applied": [],
+  "issues": [],
+  "generated_at_utc": "2026-10-24T21:31:18+00:00"
+}

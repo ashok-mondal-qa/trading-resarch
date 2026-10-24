@@ -1,14 +1,14 @@
 {
   "symbol": "ARVIND",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:13:50+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-24T20:54:11+00:00",
+  "first_bar": "2015-01-01",
   "last_bar": "2026-10-22",
-  "bars": 1233,
+  "bars": 2914,
   "symbol_links": [
     {
       "old_symbol": "ARVINDMILL",
@@ -17,8 +17,21 @@
       "status": "before loaded range"
     }
   ],
-  "valid_from": "2021-10-25",
+  "valid_from": "2018-11-29",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:44:22+00:00"
+  "issues": [
+    {
+      "date": "2015-05-28",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Scheme Of Arrangement (source factor 1.0)"
+    },
+    {
+      "date": "2018-11-28",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Demerger (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-24T21:30:14+00:00"
 }

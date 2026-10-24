@@ -1,0 +1,170 @@
+{
+  "experiment": "EXP-0011",
+  "strategy": "displacement",
+  "spec_version": "0.1",
+  "split": "validation",
+  "range": [
+    "2025-01-01",
+    "2025-12-31"
+  ],
+  "params": {
+    "trend_slow": 200,
+    "atr_n": 14,
+    "rs_lookback": 63,
+    "max_stop_pct": 0.1,
+    "min_price": 50.0,
+    "min_median_traded_value": 50000000.0,
+    "volume_lookback": 20,
+    "max_new_per_day": 2,
+    "displacement_max_holding": 40,
+    "rsi_n": 2,
+    "rsi_entry": 10.0,
+    "reversal_stop_atr": 2.5,
+    "reversal_exit_sma": 5,
+    "reversal_max_holding": 10,
+    "mom_lookback": 252,
+    "mom_skip": 21,
+    "mom_entry_pct": 0.9,
+    "mom_exit_pct": 0.8,
+    "mom_stop_atr": 2.5,
+    "mom_max_holding": 126
+  },
+  "max_holding_sessions": 40,
+  "generated_at_utc": "2026-10-24T21:39:15+00:00",
+  "universe": {
+    "loaded": 1559,
+    "insufficient": 1,
+    "short": 255,
+    "etf": 81,
+    "superseded": 129
+  },
+  "costs_verified": false,
+  "regime_days": {
+    "up": 132,
+    "down": 70,
+    "range": 46
+  },
+  "benchmark_nifty50_return": 0.10052268257036823,
+  "runs": {
+    "portfolio_1x": {
+      "trades": 23,
+      "open_at_end": 4,
+      "net_return": 0.02059947232995296,
+      "max_drawdown": -0.026156634389029487,
+      "win_rate": 0.4782608695652174,
+      "expectancy_inr": 822.6949572603277,
+      "expectancy_r": 0.16832310371044795,
+      "expectancy_r_ci95": [
+        -0.247278325399063,
+        0.639313008066714
+      ],
+      "profit_factor": 1.4707737680868258,
+      "avg_win_inr": 5374.123048035156,
+      "avg_loss_inr": -3349.4474592832653,
+      "avg_sessions": 23.043478260869566,
+      "total_costs_inr": 3707.3166179413624,
+      "worst_r": -0.988720944858917,
+      "exit_reasons": {
+        "exit signal": 15,
+        "time stop": 4,
+        "stop": 4
+      },
+      "inconclusive_lt_30_trades": true,
+      "signals_after_regime_gate": 484,
+      "entries_skipped": {
+        "aggregate cap: no room for a full position": 159
+      }
+    },
+    "standalone_1x": {
+      "trades": 362,
+      "open_at_end": 70,
+      "expectancy_r": -0.2709720851869579,
+      "median_r": -0.6818891790582875,
+      "win_rate": 0.27071823204419887,
+      "profit_factor": 0.5143819293544685,
+      "expectancy_r_ci95_month_clustered": [
+        -0.4963263091041555,
+        -0.015828827793573925
+      ],
+      "expectancy_r_ci98.3_month_clustered": [
+        -0.5372710025007176,
+        0.03219205414930389
+      ],
+      "entry_months": 8,
+      "avg_sessions": 17.883977900552487,
+      "worst_r": -1.4744544603369203,
+      "by_year": {
+        "2025": {
+          "trades": 362,
+          "expectancy_r": -0.2709720851869579
+        }
+      },
+      "exit_reasons": {
+        "exit signal": 183,
+        "stop": 136,
+        "time stop": 31,
+        "stop (gap)": 12
+      }
+    },
+    "portfolio_2x_costs": {
+      "trades": 23,
+      "open_at_end": 4,
+      "net_return": 0.008764009555500163,
+      "max_drawdown": -0.02781124685244707,
+      "win_rate": 0.4782608695652174,
+      "expectancy_inr": 491.2873054239812,
+      "expectancy_r": 0.10407883178869594,
+      "expectancy_r_ci95": [
+        -0.28213354471521845,
+        0.5413043548159143
+      ],
+      "profit_factor": 1.2776315924124946,
+      "avg_win_inr": 4727.23781797949,
+      "avg_loss_inr": -3391.667331085236,
+      "avg_sessions": 23.043478260869566,
+      "total_costs_inr": 6966.730423980754,
+      "worst_r": -0.9786885346196658,
+      "exit_reasons": {
+        "exit signal": 15,
+        "time stop": 4,
+        "stop": 4
+      },
+      "inconclusive_lt_30_trades": true,
+      "signals_after_regime_gate": 484,
+      "entries_skipped": {
+        "aggregate cap: no room for a full position": 159
+      }
+    },
+    "standalone_2x_costs": {
+      "trades": 362,
+      "open_at_end": 70,
+      "expectancy_r": -0.30799823341455884,
+      "median_r": -0.6898283962957017,
+      "win_rate": 0.2541436464088398,
+      "profit_factor": 0.44937371875276366,
+      "expectancy_r_ci95_month_clustered": [
+        -0.5163389737206526,
+        -0.07159120497919706
+      ],
+      "expectancy_r_ci98.3_month_clustered": [
+        -0.5543860437641591,
+        -0.02678591295853178
+      ],
+      "entry_months": 8,
+      "avg_sessions": 17.883977900552487,
+      "worst_r": -1.4180264285676079,
+      "by_year": {
+        "2025": {
+          "trades": 362,
+          "expectancy_r": -0.30799823341455884
+        }
+      },
+      "exit_reasons": {
+        "exit signal": 183,
+        "stop": 136,
+        "time stop": 31,
+        "stop (gap)": 12
+      }
+    }
+  }
+}

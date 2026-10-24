@@ -1,0 +1,30 @@
+{
+  "symbol": "NIPPOBATRY",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-24T21:14:48+00:00",
+  "first_bar": "2015-01-01",
+  "last_bar": "2026-10-22",
+  "bars": 2811,
+  "symbol_links": [],
+  "valid_from": "2023-12-27",
+  "price_events_applied": [
+    {
+      "ex_date": "2021-10-28",
+      "factor": 0.5,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2023-12-26",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +73.6% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-24T21:32:52+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "nse_index_close",
+  "provider": "NSE archive",
+  "source_url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_05012015.csv",
+  "trade_date": "2015-01-05",
+  "retrieved_at_utc": "2026-10-23T14:54:56+00:00",
+  "terms": "NSE data, published for educational and informational use only; not for commercial use or redistribution. Raw and processed files stay git-ignored. See NSE Terms of Use.",
+  "price_adjustment": "none (index values as published)",
+  "status": "ok",
+  "rows": 45,
+  "date_format_note": null,
+  "raw_sha256": "06c2ce5eef9474df36e91bbd4ac6830da77646ba9706ae18c539cf0fe96317ba",
+  "first_bar_ist": "2015-01-05T15:30:00+05:30",
+  "last_bar_ist": "2015-01-05T15:30:00+05:30"
+}

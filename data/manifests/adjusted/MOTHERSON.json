@@ -1,0 +1,57 @@
+{
+  "symbol": "MOTHERSON",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-24T21:13:30+00:00",
+  "first_bar": "2015-01-01",
+  "last_bar": "2026-10-22",
+  "bars": 2914,
+  "symbol_links": [
+    {
+      "old_symbol": "MOTHERSUMI",
+      "new_symbol": "MOTHERSON",
+      "effective_date": "2022-06-09",
+      "status": "confirmed"
+    }
+  ],
+  "valid_from": "2022-01-17",
+  "price_events_applied": [
+    {
+      "ex_date": "2015-07-23",
+      "factor": 0.6667,
+      "purpose": "Annual General Meeting / Dividend - Rs 3/- Per Share / Bonus - 1:2"
+    },
+    {
+      "ex_date": "2017-07-05",
+      "factor": 0.6667,
+      "purpose": "Bonus 1:2"
+    },
+    {
+      "ex_date": "2018-10-30",
+      "factor": 0.6667,
+      "purpose": "Bonus 1:2"
+    },
+    {
+      "ex_date": "2022-10-03",
+      "factor": 0.6667,
+      "purpose": "Bonus 1:2"
+    },
+    {
+      "ex_date": "2025-07-18",
+      "factor": 0.6667,
+      "purpose": "Bonus 1:2"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2022-01-14",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Demerger (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-24T21:32:40+00:00"
+}

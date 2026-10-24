@@ -5,10 +5,10 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:24:38+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-24T21:06:43+00:00",
+  "first_bar": "2015-01-01",
   "last_bar": "2026-10-22",
-  "bars": 627,
+  "bars": 2116,
   "symbol_links": [],
   "valid_from": "2025-09-16",
   "price_events_applied": [
@@ -19,6 +19,12 @@
     }
   ],
   "issues": [
+    {
+      "date": "2021-07-20",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +70.8% with no corporate action"
+    },
     {
       "date": "2024-12-09",
       "severity": "error",
@@ -32,5 +38,5 @@
       "detail": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share: factor 0.1, raw open/prev close 0.1829"
     }
   ],
-  "generated_at_utc": "2026-10-23T05:45:21+00:00"
+  "generated_at_utc": "2026-10-24T21:31:50+00:00"
 }

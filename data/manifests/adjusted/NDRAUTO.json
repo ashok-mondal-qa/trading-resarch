@@ -5,10 +5,10 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:31:59+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-24T21:14:27+00:00",
+  "first_bar": "2020-08-13",
   "last_bar": "2026-10-22",
-  "bars": 1071,
+  "bars": 1311,
   "symbol_links": [],
   "valid_from": "2024-02-20",
   "price_events_applied": [
@@ -31,5 +31,5 @@
       "detail": "Bonus 1:1: factor 0.5, raw open/prev close 1.0153"
     }
   ],
-  "generated_at_utc": "2026-10-23T05:46:42+00:00"
+  "generated_at_utc": "2026-10-24T21:32:51+00:00"
 }

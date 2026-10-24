@@ -1,0 +1,36 @@
+{
+  "symbol": "SINTEX",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-24T21:22:43+00:00",
+  "first_bar": "2015-01-01",
+  "last_bar": "2022-03-21",
+  "bars": 1463,
+  "symbol_links": [],
+  "valid_from": "2020-08-19",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2017-05-25",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Scheme Of Arrangement (source factor 1.0)"
+    },
+    {
+      "date": "2020-03-04",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -56.2% with no corporate action"
+    },
+    {
+      "date": "2020-08-18",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +39.3% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-24T21:34:30+00:00"
+}

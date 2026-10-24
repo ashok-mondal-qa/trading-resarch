@@ -5,16 +5,17 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:40:44+00:00",
-  "first_bar": "2022-01-04",
+  "actions_retrieved_at_utc": "2026-10-24T21:25:33+00:00",
+  "first_bar": "2021-04-23",
   "last_bar": "2026-10-22",
-  "bars": 879,
+  "bars": 974,
   "symbol_links": [
     {
       "old_symbol": "SAKETH",
       "new_symbol": "TEMBO",
       "effective_date": "2020-04-13",
-      "status": "before loaded range"
+      "status": "unconfirmed",
+      "reason": "no bars for one side in loaded data"
     }
   ],
   "valid_from": "2025-08-26",
@@ -39,5 +40,5 @@
       "detail": "adjusted close-to-close move +59.8% with no corporate action"
     }
   ],
-  "generated_at_utc": "2026-10-23T05:47:55+00:00"
+  "generated_at_utc": "2026-10-24T21:34:45+00:00"
 }

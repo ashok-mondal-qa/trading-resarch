@@ -1,0 +1,17 @@
+{
+  "symbol": "UPERGANGES",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-24T21:27:18+00:00",
+  "first_bar": "2015-01-02",
+  "last_bar": "2017-03-22",
+  "bars": 542,
+  "symbol_links": [],
+  "valid_from": "2015-01-02",
+  "price_events_applied": [],
+  "issues": [],
+  "generated_at_utc": "2026-10-24T21:35:14+00:00"
+}

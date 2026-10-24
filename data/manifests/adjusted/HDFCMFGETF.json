@@ -1,0 +1,24 @@
+{
+  "symbol": "HDFCMFGETF",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-24T21:04:48+00:00",
+  "first_bar": "2015-01-01",
+  "last_bar": "2023-06-15",
+  "bars": 2089,
+  "symbol_links": [],
+  "valid_from": "2021-02-18",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2021-02-17",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -99.0% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-24T21:31:42+00:00"
+}

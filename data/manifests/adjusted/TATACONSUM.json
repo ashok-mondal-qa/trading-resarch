@@ -5,15 +5,21 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:40:19+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-24T21:25:11+00:00",
+  "first_bar": "2015-01-01",
   "last_bar": "2026-10-22",
-  "bars": 1233,
+  "bars": 2914,
   "symbol_links": [
     {
       "old_symbol": "TATAGLOBAL",
       "new_symbol": "TATACONSUM",
       "effective_date": "2020-02-27",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "TATATEA",
+      "new_symbol": "TATAGLOBAL",
+      "effective_date": "2010-07-21",
       "status": "before loaded range"
     }
   ],
@@ -27,5 +33,5 @@
       "detail": "Rights 1:26 @ Premium Rs 817/- (source factor 1.0)"
     }
   ],
-  "generated_at_utc": "2026-10-23T05:47:54+00:00"
+  "generated_at_utc": "2026-10-24T21:34:44+00:00"
 }
