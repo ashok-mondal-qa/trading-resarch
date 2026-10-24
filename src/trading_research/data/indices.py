@@ -31,6 +31,11 @@ SOURCE_MAP = {
 }
 
 
+ALTERNATE_DATE_FORMATS = ("%m-%d-%Y", "%d/%m/%Y")
+# NSE renamed its indices on 2015-11-09 (e.g. "CNX Nifty" -> "Nifty 50"); older files use the old name.
+FORMER_NAMES = {"nifty 50": ("cnx nifty",)}
+
+
 def url_for(day: date) -> str:
     return f"{bhavcopy.ARCHIVE_HOST}/content/indices/ind_close_all_{day:%d%m%Y}.csv"
 
@@ -76,12 +81,16 @@ def load_day(day: date, root: Path = REPO_ROOT / "data", fetch=bhavcopy.http_fet
         frame, note = parse(raw), None
         dates = set(frame["date"].dt.date)
         if dates != {day}:
-            # Some 2023 files write MM-DD-YYYY (e.g. ind_close_all_06042023.csv says 04-06-2023).
-            # Accept only if reading it that way gives exactly the requested date.
-            swapped = parse(raw, "%m-%d-%Y")
-            if set(swapped["date"].dt.date) != {day}:
+            # Some files use another date layout: 2023 files with MM-DD-YYYY (ind_close_all_06042023.csv
+            # says 04-06-2023), some 2015 files with DD/MM/YYYY. Accept one only if reading the file that
+            # way gives exactly the requested date.
+            for fmt in ALTERNATE_DATE_FORMATS:
+                other = parse(raw, fmt)
+                if set(other["date"].dt.date) == {day}:
+                    frame, note = other, f"file uses {fmt} dates; read that way it matches the file name"
+                    break
+            else:
                 raise bhavcopy.BhavcopyError(f"index file dates {sorted(dates)} do not match {day}")
-            frame, note = swapped, "file uses MM-DD-YYYY dates; read that way it matches the file name"
         dupes = int(frame["index"].duplicated().sum())
         if dupes:
             raise bhavcopy.BhavcopyError(f"{dupes} duplicate index names in {url}")
@@ -113,7 +122,8 @@ def read_index(name: str, start: date, end: date, root: Path = REPO_ROOT / "data
         p = paths(root, day)
         if p["manifest"].exists() and json.loads(p["manifest"].read_text())["status"] == "ok":
             frame = pd.read_parquet(p["bars"])
-            frames.append(frame[frame["index"].str.lower() == name.lower()])
+            names = (name.lower(),) + FORMER_NAMES.get(name.lower(), ())
+            frames.append(frame[frame["index"].str.lower().isin(names)])
     if not frames:
         return pd.DataFrame(columns=COLUMNS).set_index("date")
     return pd.concat(frames).set_index("date").sort_index()

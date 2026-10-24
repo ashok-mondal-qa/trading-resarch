@@ -20,6 +20,22 @@ def bootstrap_ci(values: np.ndarray, n: int = 5000, alpha: float = 0.05, seed: i
     return float(np.quantile(means, alpha / 2)), float(np.quantile(means, 1 - alpha / 2))
 
 
+def cluster_bootstrap_ci(values: np.ndarray, clusters: np.ndarray, n: int = 5000, alpha: float = 0.05,
+                         seed: int = 0) -> tuple[float, float]:
+    """Bootstrap CI of the mean, resampling whole clusters (e.g. entry months) with replacement, so trades
+    that share a market move are not counted as independent evidence."""
+    values, clusters = np.asarray(values, dtype=float), np.asarray(clusters)
+    labels = np.unique(clusters)
+    if len(labels) < 2:
+        return (float("nan"), float("nan"))
+    sums = np.array([values[clusters == c].sum() for c in labels])
+    counts = np.array([(clusters == c).sum() for c in labels])
+    rng = np.random.default_rng(seed)
+    pick = rng.integers(0, len(labels), size=(n, len(labels)))
+    means = sums[pick].sum(axis=1) / counts[pick].sum(axis=1)
+    return float(np.quantile(means, alpha / 2)), float(np.quantile(means, 1 - alpha / 2))
+
+
 def summarize(trades: pd.DataFrame, equity: pd.Series, start_equity: float) -> dict:
     closed = trades[trades["reason"] != "open at end (marked)"] if len(trades) else trades
     out = {"trades": int(len(closed)), "open_at_end": int(len(trades) - len(closed))}

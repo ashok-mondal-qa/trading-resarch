@@ -46,3 +46,22 @@ def test_month_first_dates_accepted_only_when_they_match_the_file_date(tmp_path)
     other = csv(["Test Index A,10-21-2026,100,110,95,105,5,5.0,1000,10.5,20,3,1.2"])
     with pytest.raises(bhavcopy.BhavcopyError):
         indices.load_day(DAY, tmp_path / "x", fetch=lambda url: other)
+
+
+def test_slash_dates_accepted_only_when_they_match_the_file_date(tmp_path):
+    slashed = csv(["Test Index A,22/10/2026,100,110,95,105,5,5.0,1000,10.5,20,3,1.2"])
+    manifest = indices.load_day(DAY, tmp_path, fetch=lambda url: slashed)
+    assert manifest["status"] == "ok" and "%d/%m/%Y" in manifest["date_format_note"]
+    other = csv(["Test Index A,21/10/2026,100,110,95,105,5,5.0,1000,10.5,20,3,1.2"])
+    with pytest.raises(bhavcopy.BhavcopyError):
+        indices.load_day(DAY, tmp_path / "x", fetch=lambda url: other)
+
+
+def test_nifty_50_read_under_its_pre_november_2015_name(tmp_path):
+    old_day, new_day = date(2015, 11, 6), date(2015, 11, 9)
+    old = csv(["CNX Nifty,06-11-2015,100,110,95,105,5,5.0,1000,10.5,20,3,1.2"])
+    new = csv(["Nifty 50,09-11-2015,105,112,100,108,3,2.9,1000,10.5,20,3,1.2"])
+    indices.load_day(old_day, tmp_path, fetch=lambda url: old)
+    indices.load_day(new_day, tmp_path, fetch=lambda url: new)
+    nifty = indices.read_index("Nifty 50", old_day, new_day, tmp_path)
+    assert nifty["close"].tolist() == [105, 108]
