@@ -1,0 +1,345 @@
+{
+  "experiment": "EXP-0035",
+  "strategy": "bb_rsi",
+  "timeframe": "1h",
+  "spec_version": "0.1",
+  "params": {
+    "fee_pct": 0.1,
+    "gst_pct": 18.0,
+    "slip_bps": 3.0,
+    "min_stop_pct": 0.6,
+    "tax_pct": 31.2,
+    "orb_last_entry": "11:55",
+    "ema_fast": 9,
+    "ema_slow": 21,
+    "ema_trend": 200,
+    "ema_stop_bars": 10,
+    "bb_n": 20,
+    "bb_k": 2.0,
+    "rsi_n": 14,
+    "rsi_max": 30.0,
+    "atr_n": 14,
+    "atr_mult": 2.0,
+    "bb_max_bars": 48,
+    "st_n": 10,
+    "st_mult": 3.0
+  },
+  "generated_at_utc": "2026-10-25T06:19:24+00:00",
+  "1x": {
+    "dev": {
+      "trades": 65,
+      "expectancy_r": -0.29353197322278546,
+      "expectancy_r_after_tax": -0.38453688271870134,
+      "win_rate": 0.4461538461538462,
+      "profit_factor": 0.5021050104339218,
+      "mean_pnl_pct": -0.7752063112582057,
+      "sum_pnl_pct": -50.388410231783375,
+      "worst_r": -1.284055286248841,
+      "best_r": 1.579617363537495,
+      "worst_pnl_pct": -5.470629219747559,
+      "top5_share_of_net_profit": null,
+      "mean_hold_hours": 10.04871794871795,
+      "trades_per_month": 1.8055555555555556,
+      "median_stop_pct": 2.3679090729985015,
+      "exit_reasons": {
+        "stop": 34,
+        "signal": 31
+      },
+      "by_symbol": {
+        "BTCUSDT": {
+          "trades": 36,
+          "expectancy_r": -0.3859309332825721
+        },
+        "ETHUSDT": {
+          "trades": 29,
+          "expectancy_r": -0.17882981590718808
+        }
+      },
+      "illustrative_0p5pct_risk": {
+        "end_equity": 0.9088875416038219,
+        "cagr": -0.019619720016719633,
+        "max_drawdown": -0.09615384892700629,
+        "end_equity_after_tax": 0.8824996884485339,
+        "cagr_after_tax": -0.02559248100751954
+      },
+      "ci_0.9875": [
+        -0.6133520861512226,
+        -0.0012545161211193374
+      ]
+    },
+    "dev_a": {
+      "trades": 34,
+      "expectancy_r": -0.29930330149596723,
+      "expectancy_r_after_tax": -0.39041525102463187,
+      "win_rate": 0.4117647058823529,
+      "profit_factor": 0.47485631255118,
+      "mean_pnl_pct": -0.8676216855625027,
+      "sum_pnl_pct": -29.499137309125093,
+      "worst_r": -1.2716981854962464,
+      "best_r": 1.274148132526347,
+      "worst_pnl_pct": -5.470629219747559,
+      "top5_share_of_net_profit": null,
+      "mean_hold_hours": 10.571078431372552,
+      "trades_per_month": 1.7,
+      "median_stop_pct": 2.4732405582428227,
+      "exit_reasons": {
+        "stop": 18,
+        "signal": 16
+      },
+      "by_symbol": {
+        "BTCUSDT": {
+          "trades": 19,
+          "expectancy_r": -0.3019174049724472
+        },
+        "ETHUSDT": {
+          "trades": 15,
+          "expectancy_r": -0.2959921037590926
+        }
+      },
+      "illustrative_0p5pct_risk": {
+        "end_equity": 0.9501786651872675,
+        "cagr": -0.017822115743593492,
+        "max_drawdown": -0.06559950997637398,
+        "end_equity_after_tax": 0.9356306982605624,
+        "cagr_after_tax": -0.023140108575793517
+      }
+    },
+    "dev_b": {
+      "trades": 31,
+      "expectancy_r": -0.2872021293102635,
+      "expectancy_r_after_tax": -0.37808964006058404,
+      "win_rate": 0.4838709677419355,
+      "profit_factor": 0.5360973057038698,
+      "mean_pnl_pct": -0.6738475136341381,
+      "sum_pnl_pct": -20.889272922658282,
+      "worst_r": -1.284055286248841,
+      "best_r": 1.579617363537495,
+      "worst_pnl_pct": -5.095046091091761,
+      "top5_share_of_net_profit": null,
+      "mean_hold_hours": 9.475806451612904,
+      "trades_per_month": 1.9375,
+      "median_stop_pct": 2.351235136031015,
+      "exit_reasons": {
+        "stop": 16,
+        "signal": 15
+      },
+      "by_symbol": {
+        "BTCUSDT": {
+          "trades": 17,
+          "expectancy_r": -0.4798284060997708
+        },
+        "ETHUSDT": {
+          "trades": 14,
+          "expectancy_r": -0.05329879320871904
+        }
+      },
+      "illustrative_0p5pct_risk": {
+        "end_equity": 0.9565438321272897,
+        "cagr": -0.022596518896483286,
+        "max_drawdown": -0.047250791298622086,
+        "end_equity_after_tax": 0.943213695413367,
+        "cagr_after_tax": -0.0296274455102441
+      }
+    },
+    "validation": {
+      "trades": 36,
+      "expectancy_r": -0.2981189557969174,
+      "expectancy_r_after_tax": -0.39998455702793656,
+      "win_rate": 0.4166666666666667,
+      "profit_factor": 0.6213601493556294,
+      "mean_pnl_pct": -0.2997422485951619,
+      "sum_pnl_pct": -10.790720949425829,
+      "worst_r": -1.3090166464203006,
+      "best_r": 1.6096457843865104,
+      "worst_pnl_pct": -2.3086699082994544,
+      "top5_share_of_net_profit": null,
+      "mean_hold_hours": 9.425925925925926,
+      "trades_per_month": 2.0,
+      "median_stop_pct": 1.3673033388523719,
+      "exit_reasons": {
+        "signal": 18,
+        "stop": 18
+      },
+      "by_symbol": {
+        "BTCUSDT": {
+          "trades": 20,
+          "expectancy_r": -0.352878653149885
+        },
+        "ETHUSDT": {
+          "trades": 16,
+          "expectancy_r": -0.22966933410570783
+        }
+      },
+      "illustrative_0p5pct_risk": {
+        "end_equity": 0.9491260206144365,
+        "cagr": -0.02691450859000899,
+        "max_drawdown": -0.0609389226226994,
+        "end_equity_after_tax": 0.9323028105955111,
+        "cagr_after_tax": -0.03596556027149733
+      }
+    }
+  },
+  "2x": {
+    "dev": {
+      "trades": 65,
+      "expectancy_r": -0.4161437376134041,
+      "expectancy_r_after_tax": -0.4896217316183286,
+      "win_rate": 0.36923076923076925,
+      "profit_factor": 0.3805229576920178,
+      "mean_pnl_pct": -1.0700867100443585,
+      "sum_pnl_pct": -69.55563615288331,
+      "worst_r": -1.5503899054786934,
+      "best_r": 1.4329598057535786,
+      "worst_pnl_pct": -5.757149391830952,
+      "top5_share_of_net_profit": null,
+      "mean_hold_hours": 10.04871794871795,
+      "trades_per_month": 1.8055555555555556,
+      "median_stop_pct": 2.397181137038185,
+      "exit_reasons": {
+        "stop": 34,
+        "signal": 31
+      },
+      "by_symbol": {
+        "BTCUSDT": {
+          "trades": 36,
+          "expectancy_r": -0.5181628147779251
+        },
+        "ETHUSDT": {
+          "trades": 29,
+          "expectancy_r": -0.2894993659608952
+        }
+      },
+      "illustrative_0p5pct_risk": {
+        "end_equity": 0.8730609505089352,
+        "cagr": -0.0277632797209012,
+        "max_drawdown": -0.1312783489585514,
+        "end_equity_after_tax": 0.8525300723545913,
+        "cagr_after_tax": -0.03255015037656506
+      }
+    },
+    "dev_a": {
+      "trades": 34,
+      "expectancy_r": -0.41658260588362017,
+      "expectancy_r_after_tax": -0.4920238499316701,
+      "win_rate": 0.35294117647058826,
+      "profit_factor": 0.364861384322507,
+      "mean_pnl_pct": -1.1623375382587573,
+      "sum_pnl_pct": -39.51947630079775,
+      "worst_r": -1.527158268646269,
+      "best_r": 1.1484445285603524,
+      "worst_pnl_pct": -5.757149391830952,
+      "top5_share_of_net_profit": null,
+      "mean_hold_hours": 10.571078431372552,
+      "trades_per_month": 1.7,
+      "median_stop_pct": 2.5024810417852206,
+      "exit_reasons": {
+        "stop": 18,
+        "signal": 16
+      },
+      "by_symbol": {
+        "BTCUSDT": {
+          "trades": 19,
+          "expectancy_r": -0.4331876452896478
+        },
+        "ETHUSDT": {
+          "trades": 15,
+          "expectancy_r": -0.39554955596931846
+        }
+      },
+      "illustrative_0p5pct_risk": {
+        "end_equity": 0.9312374389910214,
+        "cagr": -0.02475658569255912,
+        "max_drawdown": -0.07801416590188592,
+        "end_equity_after_tax": 0.9194112742091891,
+        "cagr_after_tax": -0.02913266856513963
+      }
+    },
+    "dev_b": {
+      "trades": 31,
+      "expectancy_r": -0.41566239822026374,
+      "expectancy_r_after_tax": -0.4869871502424059,
+      "win_rate": 0.3870967741935484,
+      "profit_factor": 0.39998965966128064,
+      "mean_pnl_pct": -0.9689083823253403,
+      "sum_pnl_pct": -30.036159852085547,
+      "worst_r": -1.5503899054786934,
+      "best_r": 1.4329598057535786,
+      "worst_pnl_pct": -5.382234991032581,
+      "top5_share_of_net_profit": null,
+      "mean_hold_hours": 9.475806451612904,
+      "trades_per_month": 1.9375,
+      "median_stop_pct": 2.380512199252269,
+      "exit_reasons": {
+        "stop": 16,
+        "signal": 15
+      },
+      "by_symbol": {
+        "BTCUSDT": {
+          "trades": 17,
+          "expectancy_r": -0.6131350630295289
+        },
+        "ETHUSDT": {
+          "trades": 14,
+          "expectancy_r": -0.17587416238044168
+        }
+      },
+      "illustrative_0p5pct_risk": {
+        "end_equity": 0.9375277603259601,
+        "cagr": -0.03264114003307106,
+        "max_drawdown": -0.06596608439135965,
+        "end_equity_after_tax": 0.9272564914845925,
+        "cagr_after_tax": -0.03810776605668231
+      }
+    },
+    "validation": {
+      "trades": 36,
+      "expectancy_r": -0.5115712681871963,
+      "expectancy_r_after_tax": -0.5848678360695168,
+      "win_rate": 0.4166666666666667,
+      "profit_factor": 0.38167638145921773,
+      "mean_pnl_pct": -0.5954692137993692,
+      "sum_pnl_pct": -21.43689169677729,
+      "worst_r": -1.5971270439038812,
+      "best_r": 1.3369719218708114,
+      "worst_pnl_pct": -2.6008199665898797,
+      "top5_share_of_net_profit": null,
+      "mean_hold_hours": 9.425925925925926,
+      "trades_per_month": 2.0,
+      "median_stop_pct": 1.3968754046112495,
+      "exit_reasons": {
+        "signal": 18,
+        "stop": 18
+      },
+      "by_symbol": {
+        "BTCUSDT": {
+          "trades": 20,
+          "expectancy_r": -0.5891842669452407
+        },
+        "ETHUSDT": {
+          "trades": 16,
+          "expectancy_r": -0.4145550197396408
+        }
+      },
+      "illustrative_0p5pct_risk": {
+        "end_equity": 0.9135354470272593,
+        "cagr": -0.04615510621891772,
+        "max_drawdown": -0.09385788788379901,
+        "end_equity_after_tax": 0.9017009902540142,
+        "cagr_after_tax": -0.05263194984114061
+      }
+    }
+  },
+  "verdict": {
+    "checks": {
+      "dev >= 200 trades": false,
+      "dev 2x: expectancy > 0": false,
+      "dev 2x: profit factor >= 1.1": false,
+      "dev 1x: 98.75% interval lower bound > 0": false,
+      "dev 1x: after-tax expectancy > 0": false,
+      "dev_a 2x: expectancy > 0": false,
+      "dev_b 2x: expectancy > 0": false,
+      "validation 2x: expectancy > 0": false
+    },
+    "status": "REJECTED"
+  }
+}

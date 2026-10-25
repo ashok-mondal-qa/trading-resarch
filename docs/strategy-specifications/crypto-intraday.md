@@ -1,6 +1,7 @@
 # Crypto intraday: four popular day-trading rules on BTC and ETH (research only) — spec v0.1
 
-Status: **pre-registered, not run** (written and committed before any intraday backtest).
+Status: **REJECTED, all four** (2026-10-25; `reports/backtests/EXP-0033-0036-report.md`). Rules were committed
+before any intraday backtest (42003de).
 Code: `src/trading_research/strategies/intraday.py`, runner `src/trading_research/backtesting/run_intraday.py`,
 data `src/trading_research/data/binance_intraday.py`. Registry: EXP-0033..0036.
 
@@ -69,3 +70,4 @@ daily resolution in Phase 14. Not a veto.
 
 ## Changelog
 - **v0.1 (2026-10-25):** initial spec, before any intraday run.
+- **v0.1 result (2026-10-25):** run once, no changes; all four REJECTED.
