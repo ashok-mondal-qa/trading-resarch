@@ -35,6 +35,8 @@ SPLITS = {
     "dev_b": ("2021-01-01", "2023-12-31"),
     "validation": ("2024-01-01", "2024-12-31"),
 }
+# Descriptive only (spec "Market comparison"): the window both markets share; portfolio runs, no verdict.
+DESCRIPTIVE_SPLITS = {"common": ("2018-04-01", "2024-12-31")}
 HOLDOUT = ("2025-01-01", "2026-09-30")       # sealed: never loaded by this runner
 SIGN_SPLITS = ("dev_a", "dev_b", "validation")
 STRATEGIES = social.STRATEGIES + ("momentum_weekly",)
@@ -181,9 +183,11 @@ def all_trades_expectancy(t: pd.DataFrame) -> float | None:
 
 
 def run_split(split: str, strategies=STRATEGIES, root: Path = REPO_ROOT / "data") -> dict:
-    if split not in SPLITS:
+    ranges = {**SPLITS, **DESCRIPTIVE_SPLITS}
+    if split not in ranges:
         raise SystemExit(f"unknown split {split!r}; the {HOLDOUT[0]}..{HOLDOUT[1]} holdout is sealed")
-    start, end = SPLITS[split]
+    start, end = ranges[split]
+    portfolio_only = split in DESCRIPTIVE_SPLITS
     settings = crypto_settings()
     frames, signals, counts, btc, calendar = load_universe(root, date.fromisoformat(end), strategies)
     reg = regime.regime(btc)
@@ -211,6 +215,12 @@ def run_split(split: str, strategies=STRATEGIES, root: Path = REPO_ROOT / "data"
                             "entries_skipped": res.skipped["reason"].value_counts().to_dict()
                             if len(res.skipped) else {}})
             report["runs"][f"portfolio_{label}"] = summary
+            if portfolio_only:
+                if label == "1x":
+                    REPORT_DIR.mkdir(parents=True, exist_ok=True)
+                    res.trades.to_csv(REPORT_DIR / f"{exp}-{split}-trades.csv", index=False)
+                    res.equity.to_csv(REPORT_DIR / f"{exp}-{split}-equity.csv")
+                continue
             alone = standalone(frames[strategy], signals[strategy], reg["trend"], split_calendar, settings, hold, mult)
             report["runs"][f"standalone_{label}"] = {**standalone_summary(alone, ALPHA),
                                                      "expectancy_r_all_incl_open": all_trades_expectancy(alone)}
@@ -247,7 +257,7 @@ def verdict(reports: dict[str, dict]) -> dict:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--split", choices=list(SPLITS))
+    parser.add_argument("--split", choices=list(SPLITS) + list(DESCRIPTIVE_SPLITS))
     parser.add_argument("--strategy", choices=list(STRATEGIES))
     parser.add_argument("--verdict", action="store_true")
     args = parser.parse_args(argv)

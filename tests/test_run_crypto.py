@@ -48,7 +48,7 @@ def test_crypto_costs_are_fee_plus_gst_only():
 def test_holdout_is_not_reachable():
     with pytest.raises(SystemExit):
         rc.run_split("holdout")
-    assert all(end < rc.HOLDOUT[0] for _, end in rc.SPLITS.values())
+    assert all(end < rc.HOLDOUT[0] for _, end in {**rc.SPLITS, **rc.DESCRIPTIVE_SPLITS}.values())
 
 
 def _report(pt=40, pe=0.2, ppf=1.3, st=400, ci=(0.05, 0.3), se2=0.1, se2_all=0.1):
