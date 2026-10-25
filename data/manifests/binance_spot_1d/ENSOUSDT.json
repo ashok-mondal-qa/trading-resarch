@@ -1,0 +1,73 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ENSOUSDT/1d/",
+  "instrument": "ENSOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-10-14",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:32:06+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 352,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ENSOUSDT-1d-2025-10.zip",
+      "sha256": "06583e59b1a8cf62ce3b91b664f5a91ae68789f2b5b40f15fa1ae17b16f3ec14"
+    },
+    {
+      "file": "ENSOUSDT-1d-2025-11.zip",
+      "sha256": "9c1b7c92faf7e5079260471e3f1f3cb6559546f5469587a8727c3f59e5376c99"
+    },
+    {
+      "file": "ENSOUSDT-1d-2025-12.zip",
+      "sha256": "60638b3ae3ffd24de7bd44d5debd6e70a66880d1c706366012f78b8115f8625c"
+    },
+    {
+      "file": "ENSOUSDT-1d-2026-01.zip",
+      "sha256": "708de855eeca2b07636a8f366ed72aee5c035489f626efb12b86a84cb0c212fd"
+    },
+    {
+      "file": "ENSOUSDT-1d-2026-02.zip",
+      "sha256": "208e8bed0a2c5848a90ee555b4da33c9384883d24171b24fbecfb79630311796"
+    },
+    {
+      "file": "ENSOUSDT-1d-2026-03.zip",
+      "sha256": "b7a610ffb8d53029817d03714f2f8eb02f1ab98c8ffe240841de24c381895798"
+    },
+    {
+      "file": "ENSOUSDT-1d-2026-04.zip",
+      "sha256": "4d735ee5853580c38aa73bf702ac0ab5a4a29c12b77c5565f4072ceb5fe2c545"
+    },
+    {
+      "file": "ENSOUSDT-1d-2026-05.zip",
+      "sha256": "dd6f2dcdf3122a4be356b354c1e9a2903f657820642a7d6cc7ae6a192df7576e"
+    },
+    {
+      "file": "ENSOUSDT-1d-2026-06.zip",
+      "sha256": "e3ba80e85ac7480521f4b7c69c800feca1e8b0d5bbe67ebe77958130716e38de"
+    },
+    {
+      "file": "ENSOUSDT-1d-2026-07.zip",
+      "sha256": "0d84abe97dc591ae20a12b195c4adb0b4f265bc5497151cd5aa50e77579c3fc8"
+    },
+    {
+      "file": "ENSOUSDT-1d-2026-08.zip",
+      "sha256": "8c53a5e20b4c3bca93fae95016cf4e67d77fd39bcdc5b3c9168f9e01e70b91d8"
+    },
+    {
+      "file": "ENSOUSDT-1d-2026-09.zip",
+      "sha256": "dc3344753482511ba16df67ff061cb2af86ac0693223b119fa53510be99f381c"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/VICUSDT/1d/",
+  "instrument": "VICUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-11-24",
+  "last_bar": "2026-08-17",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:29+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 998,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "VICUSDT-1d-2023-11.zip",
+      "sha256": "d2a9c0fa3c61f0ff293d76503bf73412f292001652d5a9354101bec2df2cca88"
+    },
+    {
+      "file": "VICUSDT-1d-2023-12.zip",
+      "sha256": "e02ad90c4e4315758aa1b7cc7745303810a2ffebc010c5d78c5a58e7674fbf13"
+    },
+    {
+      "file": "VICUSDT-1d-2024-01.zip",
+      "sha256": "459ed3d51a586fc5fa5fe5d247bb331c928e0b5aaafa11daab74878f421270e5"
+    },
+    {
+      "file": "VICUSDT-1d-2024-02.zip",
+      "sha256": "0055501338cd00f06b47ea420ef8af0aa472232eedbe33094319a3176cbe2c26"
+    },
+    {
+      "file": "VICUSDT-1d-2024-03.zip",
+      "sha256": "135a6158c8d6f54c8e097a8122b710333be5b15284b8de7f947bd12246a45512"
+    },
+    {
+      "file": "VICUSDT-1d-2024-04.zip",
+      "sha256": "963bfa318a3b5122fdfbc90a52a73157b7cd39a8d65f15da22e44c4a0bc9ef87"
+    },
+    {
+      "file": "VICUSDT-1d-2024-05.zip",
+      "sha256": "9e3f0ead704c4bfc36b91a9d3ecbeadb4ad37cbf807535f305f17a8aba8c76a9"
+    },
+    {
+      "file": "VICUSDT-1d-2024-06.zip",
+      "sha256": "2b6ed8004522527e025917279c9ce634f62d98782cbec25d0879567dbf5c3649"
+    },
+    {
+      "file": "VICUSDT-1d-2024-07.zip",
+      "sha256": "93898ecbb3deb1a60037abb5adbf04cd3cbd72f513403735b3ad74311a204316"
+    },
+    {
+      "file": "VICUSDT-1d-2024-08.zip",
+      "sha256": "fef4b3f9a37fb30e43888fdb9ec799ca63c7022d45eb73ef598299f97f18fc94"
+    },
+    {
+      "file": "VICUSDT-1d-2024-09.zip",
+      "sha256": "ae9031b83670d6b44909f441764a7ccfe77985329651cfa18d00243f80030b54"
+    },
+    {
+      "file": "VICUSDT-1d-2024-10.zip",
+      "sha256": "4f07b5c86b12596d2bb312c8ffc4cfdf5b991d0643a285bda60d238ef4fef1cd"
+    },
+    {
+      "file": "VICUSDT-1d-2024-11.zip",
+      "sha256": "91ad183bbccdd3d10090f4fadb4f515fb1eeec8c40fe2e99e90e7eb6c64514f4"
+    },
+    {
+      "file": "VICUSDT-1d-2024-12.zip",
+      "sha256": "8a7157f752375abbf3c950d552b27495d387ceb47361774fb31b4b7650979f10"
+    },
+    {
+      "file": "VICUSDT-1d-2025-01.zip",
+      "sha256": "086a2f17ca163ce813cc1e1011c23384c6c9d581cb66174800fc5acc7ce67768"
+    },
+    {
+      "file": "VICUSDT-1d-2025-02.zip",
+      "sha256": "c3dfb5ae3aac82953b4fc64bc91fcc379d11e8880652997f2a0a4874160e4cea"
+    },
+    {
+      "file": "VICUSDT-1d-2025-03.zip",
+      "sha256": "264faef1d03f3846f1a3c7b4ab55ad799a8d83cb5548de8ef525ef8a761ce815"
+    },
+    {
+      "file": "VICUSDT-1d-2025-04.zip",
+      "sha256": "15be1a5c8bf258dda26d195a53e5e08cc5f3d559c099b127a52f44158ed4e6db"
+    },
+    {
+      "file": "VICUSDT-1d-2025-05.zip",
+      "sha256": "3274cb3f1c22510104e31f55c24aff3ac55cc267b1002eb70c3deb85c88a36df"
+    },
+    {
+      "file": "VICUSDT-1d-2025-06.zip",
+      "sha256": "6c21ca26b178b699801779711175395fff42679b0c731850bace883e591b401d"
+    },
+    {
+      "file": "VICUSDT-1d-2025-07.zip",
+      "sha256": "a9615d1a081fee3a896cf186e7a1a0b05200765a78739ebb0c5a333ade4956ec"
+    },
+    {
+      "file": "VICUSDT-1d-2025-08.zip",
+      "sha256": "ddeba67bbd42d14c961b6aa6acc83903fc1f664ec2645d2fa71e9557b1e66dd4"
+    },
+    {
+      "file": "VICUSDT-1d-2025-09.zip",
+      "sha256": "3d3f7cdbb307e717448845ed55411a0fc6f486bfcebfe62f8d1961e6421aca69"
+    },
+    {
+      "file": "VICUSDT-1d-2025-10.zip",
+      "sha256": "6dd9f68d6452a599b587d19ce723c5c783d0322858c48fade927b6ea9f54c461"
+    },
+    {
+      "file": "VICUSDT-1d-2025-11.zip",
+      "sha256": "164921d7cefba15888f7737269bf26d27552d8c6a0e0437d54c21cc38adabfa0"
+    },
+    {
+      "file": "VICUSDT-1d-2025-12.zip",
+      "sha256": "4997c1faf47f37a106c970270bb1afbe49ee1ff87bd4691db09a94b3113a2373"
+    },
+    {
+      "file": "VICUSDT-1d-2026-01.zip",
+      "sha256": "2d42842a655a720ef2441423065554f0f8a510b39406de89b062403a7ef4a8de"
+    },
+    {
+      "file": "VICUSDT-1d-2026-02.zip",
+      "sha256": "9cb768152988d9074ee799473a7eb94f8e66e9fa96ca93782f4039ce393bd576"
+    },
+    {
+      "file": "VICUSDT-1d-2026-03.zip",
+      "sha256": "b26fcb7c2fc36a54f51af4cc7f3cd95afdc18dec27ec42199bc6fd5350915e78"
+    },
+    {
+      "file": "VICUSDT-1d-2026-04.zip",
+      "sha256": "d68b2b970bf6934ca140c5a6a170d589ca5e6e60a4a6a7977106e44501f46ccd"
+    },
+    {
+      "file": "VICUSDT-1d-2026-05.zip",
+      "sha256": "796f3168e6bc98d69ede055718acb0d4d6b256390aa9b7bbeae900b81e158886"
+    },
+    {
+      "file": "VICUSDT-1d-2026-06.zip",
+      "sha256": "df13484029814bb6bd4f5be4c03ed36f048d70304271871dea5707b0f5d74a23"
+    },
+    {
+      "file": "VICUSDT-1d-2026-07.zip",
+      "sha256": "dee529b55d21137399452bdbb5bc16694000e4e63122f94f5e88f39e18d1cbaa"
+    },
+    {
+      "file": "VICUSDT-1d-2026-08.zip",
+      "sha256": "615dd86f707ef06c94751b971c581ecebd45f98cf275c043989f871dfff76bd0"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ERNUSDT/1d/",
+  "instrument": "ERNUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-06-22",
+  "last_bar": "2025-03-10",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:32:49+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1358,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ERNUSDT-1d-2021-06.zip",
+      "sha256": "6b9803106a7c2300ccd82d21c2dae9240f201a4d522b86ce45affb27d4fe58d7"
+    },
+    {
+      "file": "ERNUSDT-1d-2021-07.zip",
+      "sha256": "ff8700dbac0ba07bb5bc960337be67e0f7fa7a05becbc024d4d7b44c06365e6d"
+    },
+    {
+      "file": "ERNUSDT-1d-2021-08.zip",
+      "sha256": "40e71eba5de3860599ac2a26fade0aca70a42fb7d835800f1a899437fe58c80a"
+    },
+    {
+      "file": "ERNUSDT-1d-2021-09.zip",
+      "sha256": "e860c0f452864e3983da4f2f870d17f6f15e259cff6210fba842c3ae3510c01f"
+    },
+    {
+      "file": "ERNUSDT-1d-2021-10.zip",
+      "sha256": "4b7f784a224c63606f9842ddb08d816d2bb2bc4c0517a4c312b6b84a5aeaf20a"
+    },
+    {
+      "file": "ERNUSDT-1d-2021-11.zip",
+      "sha256": "f6d560eed64b269abf9fce009078f92056c712d906869e722494a365343092dc"
+    },
+    {
+      "file": "ERNUSDT-1d-2021-12.zip",
+      "sha256": "02cba900e1e55853415fe85af99aa311fec0bdb9e5d1eecd0e27fd49d930c56c"
+    },
+    {
+      "file": "ERNUSDT-1d-2022-01.zip",
+      "sha256": "0a0b7bbb23d0e1c82b577d14fd1f4a5489412ebd1d633249bae30fa6d6c590a9"
+    },
+    {
+      "file": "ERNUSDT-1d-2022-02.zip",
+      "sha256": "cd81169bbcc2ac8dd9b770280f3cb20e2f73860cae379afbc6f65907c69b2ed6"
+    },
+    {
+      "file": "ERNUSDT-1d-2022-03.zip",
+      "sha256": "ffde5a23fbf24f8fce13856074cc05f1f6a70e026b469a40e072fc0d989d7ed3"
+    },
+    {
+      "file": "ERNUSDT-1d-2022-04.zip",
+      "sha256": "ae6b22135167f3011b430f9d2efaefb54e68251fcb5e37739405b93058114811"
+    },
+    {
+      "file": "ERNUSDT-1d-2022-05.zip",
+      "sha256": "9feb306e3fe916c6868c2cda2432c360b38a4501d38b6df4d128b4d0404bf7ee"
+    },
+    {
+      "file": "ERNUSDT-1d-2022-06.zip",
+      "sha256": "6b2b39b37e5fcf303ec2052235adafb0b6a1e6492bcd8682c87c13bdf537e095"
+    },
+    {
+      "file": "ERNUSDT-1d-2022-07.zip",
+      "sha256": "a66d55cbd8c151368dc4855298b9d93db2d09cff10d7114e4ace332ad0631cd8"
+    },
+    {
+      "file": "ERNUSDT-1d-2022-08.zip",
+      "sha256": "d0be8a5baad288e8259cfc892c267f0a6709613187a5ec0b41dc0925c22e71fd"
+    },
+    {
+      "file": "ERNUSDT-1d-2022-09.zip",
+      "sha256": "361eb56f3f4caa3d6a10f3135a10179c32c133c562a1cc56f477d361c55bdcdf"
+    },
+    {
+      "file": "ERNUSDT-1d-2022-10.zip",
+      "sha256": "dc7fdda96e701f3cf4ee3041970002069a9920b34135454b154eb406166dbdea"
+    },
+    {
+      "file": "ERNUSDT-1d-2022-11.zip",
+      "sha256": "4fa8f7cc75b779db5b31b8932e625c962e8bfd7a42788e9fefe03c6de771fe71"
+    },
+    {
+      "file": "ERNUSDT-1d-2022-12.zip",
+      "sha256": "6cd16db9cb2955510721390261434760e4e5dde15faa3c76c18acec2b0358079"
+    },
+    {
+      "file": "ERNUSDT-1d-2023-01.zip",
+      "sha256": "98469a7bdc2ea6dea697ef74f3d9717066f1bf9cfb5de938584bdcc75cab5b27"
+    },
+    {
+      "file": "ERNUSDT-1d-2023-02.zip",
+      "sha256": "8474b7cb94de690a05f040ef15b7f077a6937781e6ae92b372ff86c1c0174a47"
+    },
+    {
+      "file": "ERNUSDT-1d-2023-03.zip",
+      "sha256": "3b55808fcd6bc1922c9c26773588d4748d7a2c44fdb03e4f8459ca399a510c2c"
+    },
+    {
+      "file": "ERNUSDT-1d-2023-04.zip",
+      "sha256": "d20529ad387ed528d28938ce0d873d346834a00df0c0bed670591d032aaec61d"
+    },
+    {
+      "file": "ERNUSDT-1d-2023-05.zip",
+      "sha256": "ba26c5f414fbad9c53421ef213196e8fac6ba1462465b14a4ae70bdfba0bb489"
+    },
+    {
+      "file": "ERNUSDT-1d-2023-06.zip",
+      "sha256": "4ca201281efd14db5328a7ee3db9a4c9776dcd0333465c432b4a71579c104d4b"
+    },
+    {
+      "file": "ERNUSDT-1d-2023-07.zip",
+      "sha256": "df84081e3c9eeaa8fd3d49c598f93f9b91c5b5f8953d83853badcfae0f1b1d74"
+    },
+    {
+      "file": "ERNUSDT-1d-2023-08.zip",
+      "sha256": "9e77758ceb0c8f2f246bb819f6f8b09b139b1460447ad7e7d33aa08e60998a27"
+    },
+    {
+      "file": "ERNUSDT-1d-2023-09.zip",
+      "sha256": "c6f91c1e267bc884031a2d52ffb9b361906e651eac930a2bcd59959594ab0205"
+    },
+    {
+      "file": "ERNUSDT-1d-2023-10.zip",
+      "sha256": "bad6b26aa27e452b4d052df6fd5ad1e1c8dc87e8d1c9693662c46ad39f0c8aa0"
+    },
+    {
+      "file": "ERNUSDT-1d-2023-11.zip",
+      "sha256": "61e2429a0f5ee0a635487d511ad20542eea7daee196171421f415b6d2b2345ff"
+    },
+    {
+      "file": "ERNUSDT-1d-2023-12.zip",
+      "sha256": "53eab239898c5ef0ade5aa78f19e79fe1627e61088f30b4beffecdbf96e01de1"
+    },
+    {
+      "file": "ERNUSDT-1d-2024-01.zip",
+      "sha256": "fd3fcb51332796e047e48d7fbdf674909e4b58d3646457f294123dbba45c0013"
+    },
+    {
+      "file": "ERNUSDT-1d-2024-02.zip",
+      "sha256": "d6a778456a944ebb1bef6073c7d90c8f351282d6aae150f37b13104134dd3ef6"
+    },
+    {
+      "file": "ERNUSDT-1d-2024-03.zip",
+      "sha256": "734445f2521c52b132e534c0baa11d72a5cd1feb583ea282b99a607b20ec7e36"
+    },
+    {
+      "file": "ERNUSDT-1d-2024-04.zip",
+      "sha256": "454e42bc713d71e04790e4de9a0096953ea7f918e84307af2d02d6f603058baa"
+    },
+    {
+      "file": "ERNUSDT-1d-2024-05.zip",
+      "sha256": "6d047f19a798a2373d0a9438f0d19c51e35da5b9ea8e03f70c68ff3d403556f5"
+    },
+    {
+      "file": "ERNUSDT-1d-2024-06.zip",
+      "sha256": "08a5b56e4ab9b3863428b8994b242bf9bdeafd8af18a91f934d492ae4925155a"
+    },
+    {
+      "file": "ERNUSDT-1d-2024-07.zip",
+      "sha256": "0ab7e4630e00c315d994a9cadfad998c83ba9911d2fadd4985a370db3f352e51"
+    },
+    {
+      "file": "ERNUSDT-1d-2024-08.zip",
+      "sha256": "654fb7aee3b08271bc6faacdd9947597e11f0921723672184530beb58bb2c8b9"
+    },
+    {
+      "file": "ERNUSDT-1d-2024-09.zip",
+      "sha256": "1dc2fee9ca2644deb343314ad3645c8119116237fdb07cf835f5c1e88880e3a4"
+    },
+    {
+      "file": "ERNUSDT-1d-2024-10.zip",
+      "sha256": "ac727cafa92dd79174b257c8a825dcdc1a3ce069d7e295ddb4cff5028f52ae99"
+    },
+    {
+      "file": "ERNUSDT-1d-2024-11.zip",
+      "sha256": "19f8ee3895f488a6fb0fdeb4d4b9b56792054cc5b02ec46e9493c61e6737e2d0"
+    },
+    {
+      "file": "ERNUSDT-1d-2024-12.zip",
+      "sha256": "2a5729a9a51aeaf0d7866bc7501d583a90f33a045f5a6a3c7638fe6c8cbbc66a"
+    },
+    {
+      "file": "ERNUSDT-1d-2025-01.zip",
+      "sha256": "04d24da9952e1f6cfae5a5c9b4780dc7ac63faf1646b8f58f9e5ffd263a94b1c"
+    },
+    {
+      "file": "ERNUSDT-1d-2025-02.zip",
+      "sha256": "642f35eca09e6c823e524359a70ec19b760670982f2fa10e09ccf912ccf9243c"
+    },
+    {
+      "file": "ERNUSDT-1d-2025-03.zip",
+      "sha256": "1b88df8a481a19233cf8218cd1547eb7a18f43e897d7d37125748e70abe26786"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

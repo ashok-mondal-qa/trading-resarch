@@ -1,0 +1,65 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/STRATUSDT/1d/",
+  "instrument": "STRATUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-02-19",
+  "last_bar": "2020-11-12",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:45:50+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 268,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "STRATUSDT-1d-2020-02.zip",
+      "sha256": "6879807312c46f2cf81cbf700a028597cb687b45faf6d2258cf904601a9855ad"
+    },
+    {
+      "file": "STRATUSDT-1d-2020-03.zip",
+      "sha256": "45202a80eb4109a8b14988acb4565b00e4ef2f27fbf94acd36be2c574eb51546"
+    },
+    {
+      "file": "STRATUSDT-1d-2020-04.zip",
+      "sha256": "be40347194fc4b8dd8392009a5254ad5924ca43a6357d66e1758586d53b7622d"
+    },
+    {
+      "file": "STRATUSDT-1d-2020-05.zip",
+      "sha256": "7449a6010c340bef447daa313c827499f52b1fd2e4466fc2c681fbfd81dac4d8"
+    },
+    {
+      "file": "STRATUSDT-1d-2020-06.zip",
+      "sha256": "7e00edaf94c37d714c9bf5ecb728c883369b7b6f1aa3401916863d777c523b4e"
+    },
+    {
+      "file": "STRATUSDT-1d-2020-07.zip",
+      "sha256": "edfa78274735ff0055b53393468dff7a31a5a41a2468ed07d0507a63f6cb5353"
+    },
+    {
+      "file": "STRATUSDT-1d-2020-08.zip",
+      "sha256": "26a54b9a997344d419d9d895cf81bee76e0604187efd66fd0f7e7540cdc1265a"
+    },
+    {
+      "file": "STRATUSDT-1d-2020-09.zip",
+      "sha256": "5ed167b9ca4f9b1befdef4e07fe0e54e4baf1ca280f8fbeedec12f2c2fcbda10"
+    },
+    {
+      "file": "STRATUSDT-1d-2020-10.zip",
+      "sha256": "3e1bd23b413c226b0d884a24703886476841a4492fad5176c40583009ec2e5fc"
+    },
+    {
+      "file": "STRATUSDT-1d-2020-11.zip",
+      "sha256": "cfa2e1b4a5f6b9fbab4fcb6c4f39dfeb5b84dce78c9326c18ad46a65cf84bef3"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

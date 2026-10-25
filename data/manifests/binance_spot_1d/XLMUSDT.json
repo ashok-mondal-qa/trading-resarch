@@ -1,0 +1,429 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/XLMUSDT/1d/",
+  "instrument": "XLMUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2018-05-31",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:50:22+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 3045,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "XLMUSDT-1d-2018-05.zip",
+      "sha256": "27f25020e1a44e71e0dab0fcf9ab7da4d2b117212aea7cbb8c47cdf9c06dbd66"
+    },
+    {
+      "file": "XLMUSDT-1d-2018-06.zip",
+      "sha256": "34982e1da4f9afc9c1aeb38816d29014cf951071caa9bd8166498c273ee6255b"
+    },
+    {
+      "file": "XLMUSDT-1d-2018-07.zip",
+      "sha256": "ed01a613dfd214d544e3aa4808a7d88de7c9fe1a7403d1af826ddd9e662a6bf4"
+    },
+    {
+      "file": "XLMUSDT-1d-2018-08.zip",
+      "sha256": "7ba2a38d4bd1519edf86adccc50c0d805e39ff3d897641810075907e4c2ab0d8"
+    },
+    {
+      "file": "XLMUSDT-1d-2018-09.zip",
+      "sha256": "9db15817cbc72747b586f6ce13bdb9aa736d5196da83fb6c704c7ff3c26293ba"
+    },
+    {
+      "file": "XLMUSDT-1d-2018-10.zip",
+      "sha256": "d55ceba1069e16bb5b712aaba3d351317d1b201393e213e2d18766880a015138"
+    },
+    {
+      "file": "XLMUSDT-1d-2018-11.zip",
+      "sha256": "b491416dacd1f51c65a296429cc47e9850f9a5dd8eaa6d1a1b686b54dc0df970"
+    },
+    {
+      "file": "XLMUSDT-1d-2018-12.zip",
+      "sha256": "7866b1114ef8b6a97208016903fa6355b1d09e27f8b0e8f7e6543d8863117094"
+    },
+    {
+      "file": "XLMUSDT-1d-2019-01.zip",
+      "sha256": "60bb8d8a765c917ae77e9b753e71962d9ec6ebca3dd1334fccf1d6cb14ea57e8"
+    },
+    {
+      "file": "XLMUSDT-1d-2019-02.zip",
+      "sha256": "9acc5e820f3f801f055700829543023cf843d98a879037060f385feae971b801"
+    },
+    {
+      "file": "XLMUSDT-1d-2019-03.zip",
+      "sha256": "fd3a4208eeb905c0f39966cbcda8704c9469de1ea91a0c8c43dff715f5ab0c9b"
+    },
+    {
+      "file": "XLMUSDT-1d-2019-04.zip",
+      "sha256": "a817b5d3ce4f062c26f1b894b2761179692048d57584c5afdfc86d50087f8e75"
+    },
+    {
+      "file": "XLMUSDT-1d-2019-05.zip",
+      "sha256": "c48356e7c46fde853795467fbdaaba36fa459491485b63077cc77d9b4c438ded"
+    },
+    {
+      "file": "XLMUSDT-1d-2019-06.zip",
+      "sha256": "2509ddd3d900eb33109cb45a85448f4717eac7b3063c12fbcbe720d039a9177b"
+    },
+    {
+      "file": "XLMUSDT-1d-2019-07.zip",
+      "sha256": "f9c111977fbf6a8f82802272712808e84f08a60644162804df45495c0d33bee0"
+    },
+    {
+      "file": "XLMUSDT-1d-2019-08.zip",
+      "sha256": "6ac1a293b03d0df1cc21f35ed49dc528d22c85a93a539db81bd0c58b8d901a14"
+    },
+    {
+      "file": "XLMUSDT-1d-2019-09.zip",
+      "sha256": "43ec18c38db69e72bb51cfafd86a3d325ffdb372e08262c0c313992b50228eb5"
+    },
+    {
+      "file": "XLMUSDT-1d-2019-10.zip",
+      "sha256": "2f9e487123c72f8360b29449686c08193cd41dc540c46d3f13f456d3bda786af"
+    },
+    {
+      "file": "XLMUSDT-1d-2019-11.zip",
+      "sha256": "e9e591e414495267409bf3048ed3331ab09dd097ab4b70997f26cc7a2264e887"
+    },
+    {
+      "file": "XLMUSDT-1d-2019-12.zip",
+      "sha256": "8e367d9de3694a2fb3d298dfdd1f13a5cda4a5c876fff4e5a0d7d07c0c0d984b"
+    },
+    {
+      "file": "XLMUSDT-1d-2020-01.zip",
+      "sha256": "f85420739918b2d80110361d21bc4c8aecdd991df3c7e90002a91c87a05aabcb"
+    },
+    {
+      "file": "XLMUSDT-1d-2020-02.zip",
+      "sha256": "350ccf4add4ee2c2556efa5ed3e6c1eb58d2805377cbd22d84ff1a430e6361c0"
+    },
+    {
+      "file": "XLMUSDT-1d-2020-03.zip",
+      "sha256": "0839abbd3f6e172a114796b5419d676d7a11ac81cddaf6bc15aea2cb3b272ea1"
+    },
+    {
+      "file": "XLMUSDT-1d-2020-04.zip",
+      "sha256": "e10a1994f9b74608fc7e45e7c51d47d9107f3022df0d5709c44f11361c21b5d4"
+    },
+    {
+      "file": "XLMUSDT-1d-2020-05.zip",
+      "sha256": "195cad2240b1e0827d98e8d6d8e0611117aea845b59405c4bec2bb6345289a9c"
+    },
+    {
+      "file": "XLMUSDT-1d-2020-06.zip",
+      "sha256": "1c498fb840a3546bcd5336ac0474f9135b73e5147bdb177803641832c0b2471b"
+    },
+    {
+      "file": "XLMUSDT-1d-2020-07.zip",
+      "sha256": "37191135f5e362ea95990c0e3371a0d8094dc555ada65e07e46bd649fda08576"
+    },
+    {
+      "file": "XLMUSDT-1d-2020-08.zip",
+      "sha256": "00d38f149a2a515cfff94f3617d4530aa06e0ed977141a2988a64c090ac082fc"
+    },
+    {
+      "file": "XLMUSDT-1d-2020-09.zip",
+      "sha256": "b6388593719af7b7536497d8bc751255bacf154bcf3c521ec661afcf49023176"
+    },
+    {
+      "file": "XLMUSDT-1d-2020-10.zip",
+      "sha256": "88b7ab786dcfc812bf51c6cbbe2c60076809ecbf7bffaffa6fc88986919e8c51"
+    },
+    {
+      "file": "XLMUSDT-1d-2020-11.zip",
+      "sha256": "141f7fcebad52ea7b06143b7fa92ed642d1444f6724b2a137b3afb2a7c52aaf4"
+    },
+    {
+      "file": "XLMUSDT-1d-2020-12.zip",
+      "sha256": "2e6c9930389af988ea1b432dfcbf31cbeed54314895ef11d7d095f2cb44063d7"
+    },
+    {
+      "file": "XLMUSDT-1d-2021-01.zip",
+      "sha256": "6471dd580e9e31b42a0d5d453ab201ef69d5f186a9d6057d44616d4f27be180e"
+    },
+    {
+      "file": "XLMUSDT-1d-2021-02.zip",
+      "sha256": "2d48f77dd472cd72a33d2645fb2ec49daaf18a4dc06964581285eb2d78502d1b"
+    },
+    {
+      "file": "XLMUSDT-1d-2021-03.zip",
+      "sha256": "ad7efd456150a20b52d392b6886eabb3395c504e39ff021e98dd6f2de62218b6"
+    },
+    {
+      "file": "XLMUSDT-1d-2021-04.zip",
+      "sha256": "15b878c3d207f1b71f5146d5f0debe1f3282ab2425d8abe2f37322cdbcbc2d54"
+    },
+    {
+      "file": "XLMUSDT-1d-2021-05.zip",
+      "sha256": "6e0af067bd6217b694e749f328af0c356ff06dc09648e91a2c8d1ab72258b20d"
+    },
+    {
+      "file": "XLMUSDT-1d-2021-06.zip",
+      "sha256": "aae7e28d96b1aed3ca50a60c775ad3e01320066dea74bacb4891c3c27749e110"
+    },
+    {
+      "file": "XLMUSDT-1d-2021-07.zip",
+      "sha256": "cac6df62890e1a1e82955581bd5a4cffbe67a844bb5b259df2c5778dc942769d"
+    },
+    {
+      "file": "XLMUSDT-1d-2021-08.zip",
+      "sha256": "73c333fe47f9b0aa6490a691809110a7e6c51f274e9807b418c9c0ea8433539f"
+    },
+    {
+      "file": "XLMUSDT-1d-2021-09.zip",
+      "sha256": "c22c0126b26192fce604f4a6bdc76a124abd2bb46e65bce1d21c4ec93fb598ca"
+    },
+    {
+      "file": "XLMUSDT-1d-2021-10.zip",
+      "sha256": "00cb7568e71eeaa460e5b6460b0281014457ea169d53f139481629ec1e3626d5"
+    },
+    {
+      "file": "XLMUSDT-1d-2021-11.zip",
+      "sha256": "0556a7ba41f6e4c2a2f02427acee9d87d309e19c40916acb33a4ff541760c573"
+    },
+    {
+      "file": "XLMUSDT-1d-2021-12.zip",
+      "sha256": "d8af442003130f132211311d69eb451fc73cb6f128eb2ceb6d19eab97e51a9a2"
+    },
+    {
+      "file": "XLMUSDT-1d-2022-01.zip",
+      "sha256": "caa04223f3116ae25fdd6462d96bc5e06d81966f4f7d30270722067320298b4e"
+    },
+    {
+      "file": "XLMUSDT-1d-2022-02.zip",
+      "sha256": "b9a067da631cd118517b9a224f1bcc99d6bb5f4379048d50cdcdff1fb3ba14e4"
+    },
+    {
+      "file": "XLMUSDT-1d-2022-03.zip",
+      "sha256": "eadf4d1476b074ccd2c2f84b4039e28d37081e1d51358da084a2126410c64d74"
+    },
+    {
+      "file": "XLMUSDT-1d-2022-04.zip",
+      "sha256": "44267aac57cbb298ecc4432cb1e79367858d325d7124af641429dcdf73024e71"
+    },
+    {
+      "file": "XLMUSDT-1d-2022-05.zip",
+      "sha256": "6dce3bf321ad4a9e5c19511a265d75c82be4cdc0dc74e4e7477cdd6dc85dcf3c"
+    },
+    {
+      "file": "XLMUSDT-1d-2022-06.zip",
+      "sha256": "95fa96d21e6cf5a471f60b93563dd935592b1078f7ea3af86ef41fe182280cca"
+    },
+    {
+      "file": "XLMUSDT-1d-2022-07.zip",
+      "sha256": "9cc795d751586aec7e53c4a834f99f06f1dfa345a9b92ab02d9379310f509172"
+    },
+    {
+      "file": "XLMUSDT-1d-2022-08.zip",
+      "sha256": "b64c2bff243670637180674a8f2a8df2d694d1800419f50ad4d837173931f2af"
+    },
+    {
+      "file": "XLMUSDT-1d-2022-09.zip",
+      "sha256": "a38fa67e7bd770e726df3e638c2b554891f6dfdeae64360690a67ca45ad4076d"
+    },
+    {
+      "file": "XLMUSDT-1d-2022-10.zip",
+      "sha256": "633f79623c68982a96ed29b2cf5ff75060a3d41421bcb80d507a760fb17cb771"
+    },
+    {
+      "file": "XLMUSDT-1d-2022-11.zip",
+      "sha256": "741449986c27d3870c218f534f5db60531e247f3382c3b0fe6975aa1d80958ef"
+    },
+    {
+      "file": "XLMUSDT-1d-2022-12.zip",
+      "sha256": "e10b78aa0e5e0a0ad52dc49d796ace429683287d3d97f5718f2d560c909f6eb5"
+    },
+    {
+      "file": "XLMUSDT-1d-2023-01.zip",
+      "sha256": "1bfb9f4073941ef161ccf737a6093223a831625760b0b2cb08f3ed7b7d156870"
+    },
+    {
+      "file": "XLMUSDT-1d-2023-02.zip",
+      "sha256": "bbebb6a7f54f34847f60b01c1139c822ab3c38fb2147da28b0afdb816008e306"
+    },
+    {
+      "file": "XLMUSDT-1d-2023-03.zip",
+      "sha256": "ceafedb0796079ef9b28acfd1adeccbc8526c215b097a3f21b8605cd07ec14e9"
+    },
+    {
+      "file": "XLMUSDT-1d-2023-04.zip",
+      "sha256": "01126f53a7806fc12aeb9f5d8f976abc31f4bb923c0550168aba9f12c8f39b89"
+    },
+    {
+      "file": "XLMUSDT-1d-2023-05.zip",
+      "sha256": "5747684c9e5a2c4a9888c59150fafe008f176d4bbc94cb9df1a5d4045a3416da"
+    },
+    {
+      "file": "XLMUSDT-1d-2023-06.zip",
+      "sha256": "9c1d20742ea012d0dab9cfc1fc7a62a3ae0edbb3d511e3bcebf25032a0cd5308"
+    },
+    {
+      "file": "XLMUSDT-1d-2023-07.zip",
+      "sha256": "3e32b198ea1efcbcdd88a9b84e3d9738e9c1c47cd27e132fbcb5148ea8a4abfe"
+    },
+    {
+      "file": "XLMUSDT-1d-2023-08.zip",
+      "sha256": "a615ae5912ad34eb89e6dce458fea04bf0b0160f2cfc506e528a777ea0fabf00"
+    },
+    {
+      "file": "XLMUSDT-1d-2023-09.zip",
+      "sha256": "b29193e37be7bb30f89f6bc043e79d3964e56e1d61787dd8c450682cd37ca222"
+    },
+    {
+      "file": "XLMUSDT-1d-2023-10.zip",
+      "sha256": "0f9c1d10a067e7a98cbf313ba8139215d7cc79925e63d27d384d5dcbf30e3c22"
+    },
+    {
+      "file": "XLMUSDT-1d-2023-11.zip",
+      "sha256": "96ad4e5895bc837fdd856e6896e83988d6bf7e04204ace00bb92d658eb142032"
+    },
+    {
+      "file": "XLMUSDT-1d-2023-12.zip",
+      "sha256": "ddaaf5d3e98ea7503f9a286f1a2709f8fd694e571f913d3354f904fd378fdf65"
+    },
+    {
+      "file": "XLMUSDT-1d-2024-01.zip",
+      "sha256": "53861387cd99d37ab3581a73472b77460aa67a2a23e5f53052f0641fc69a1128"
+    },
+    {
+      "file": "XLMUSDT-1d-2024-02.zip",
+      "sha256": "74338a4ee5627815c13f670ad01eea7671ed513d71d2bfff35138cd854c5b1ce"
+    },
+    {
+      "file": "XLMUSDT-1d-2024-03.zip",
+      "sha256": "b5a81827621b49cc73096a31d2844010d3f6caf88e066b54e77553d7339ca711"
+    },
+    {
+      "file": "XLMUSDT-1d-2024-04.zip",
+      "sha256": "d96356dc0e9bb499775a26f4ae40f750895be4c2e62841662dad9278be1d109b"
+    },
+    {
+      "file": "XLMUSDT-1d-2024-05.zip",
+      "sha256": "d6ad4a81c3c90627e863a280e106dc64d823eb3add98aa6a8411b06506b551cc"
+    },
+    {
+      "file": "XLMUSDT-1d-2024-06.zip",
+      "sha256": "948eb6855ea3b46d40eab83664243f5139d4279e4aedb462c2dc1f93701e2f3d"
+    },
+    {
+      "file": "XLMUSDT-1d-2024-07.zip",
+      "sha256": "c10bcd9f0a68495ebd6c00ab6bad353e9e9a5b872c713d3d8741c86b52b8ccf3"
+    },
+    {
+      "file": "XLMUSDT-1d-2024-08.zip",
+      "sha256": "b86c2f7a70650764c6d93eb8dde166e8e28a800f4fa95defbaa41067a3a23b99"
+    },
+    {
+      "file": "XLMUSDT-1d-2024-09.zip",
+      "sha256": "6a634cd55f2bd756ecca7a9d07ba1e03809dfac93e21e1629bd4348d53af6d7a"
+    },
+    {
+      "file": "XLMUSDT-1d-2024-10.zip",
+      "sha256": "12fa1aee1fea5d538d8da9d01359551705124018436c0b0660d323962c057817"
+    },
+    {
+      "file": "XLMUSDT-1d-2024-11.zip",
+      "sha256": "f5d443fb5ea279c302d2ed275f1959c7d635e58e9b34dfcf99a574ddcd1504b0"
+    },
+    {
+      "file": "XLMUSDT-1d-2024-12.zip",
+      "sha256": "35a99ea86cd13333248f0ce8865eac8a13186cc36915e6fcc6d828c155a4e558"
+    },
+    {
+      "file": "XLMUSDT-1d-2025-01.zip",
+      "sha256": "ae12e63a99fb053a54ffda556b8ec6d0943d329c3391aa74b6fa355f4d8aa42b"
+    },
+    {
+      "file": "XLMUSDT-1d-2025-02.zip",
+      "sha256": "2d7f22218b6d5252053f068d31f4d0401cf50699a01a70c05dc6673cc6101a29"
+    },
+    {
+      "file": "XLMUSDT-1d-2025-03.zip",
+      "sha256": "acae17c44f12204fe95c0b4ad34e3115bfa34a515fe50bb3468740c9a9fcc4bb"
+    },
+    {
+      "file": "XLMUSDT-1d-2025-04.zip",
+      "sha256": "3102a4fc047e6ab46ae8dbad80ea169529980f2bf870f7fbe809c5c9c27b8b63"
+    },
+    {
+      "file": "XLMUSDT-1d-2025-05.zip",
+      "sha256": "3a63def8e3c30980f41994110ee29792a956b4f5a45e15ec0e1aa6cd2aba8578"
+    },
+    {
+      "file": "XLMUSDT-1d-2025-06.zip",
+      "sha256": "8b04f326451ad98c2169d4eca0c7d6df0032cf3a85675994077b1ee6f0381d51"
+    },
+    {
+      "file": "XLMUSDT-1d-2025-07.zip",
+      "sha256": "55c757859fc5e6de176ad40fccb3380cc7dabc0735eec84184bac5a7c5e00c05"
+    },
+    {
+      "file": "XLMUSDT-1d-2025-08.zip",
+      "sha256": "c69ffdccebe828be98ab64debf590d5e087160399769f4e0aa79daa26f8ce5fd"
+    },
+    {
+      "file": "XLMUSDT-1d-2025-09.zip",
+      "sha256": "01acd1ce892439b16ebdf1d55b1937e6033bb803a9207d5097fc883f098134e6"
+    },
+    {
+      "file": "XLMUSDT-1d-2025-10.zip",
+      "sha256": "049d9ea27229c8b4d2a3e07dcf1bec1c8424a5539e4ff903276e5c85d71dac32"
+    },
+    {
+      "file": "XLMUSDT-1d-2025-11.zip",
+      "sha256": "53ac007abe624c0aa1e240aeaa9b08d77fdb9d7da392b697bb495e280b60020a"
+    },
+    {
+      "file": "XLMUSDT-1d-2025-12.zip",
+      "sha256": "acee0a6cc06195fffc1c41feb52bd3efa2239766b106fd4b832bf43584f09f77"
+    },
+    {
+      "file": "XLMUSDT-1d-2026-01.zip",
+      "sha256": "bb1d2cfd58179e7c1287f1acb7bbdff9709abd9decd0bec3db18ebf4d1ff092a"
+    },
+    {
+      "file": "XLMUSDT-1d-2026-02.zip",
+      "sha256": "5743396d46a3696eee8f9b59d71aa0c379805123539b7a6fe8004dffe22cc0fd"
+    },
+    {
+      "file": "XLMUSDT-1d-2026-03.zip",
+      "sha256": "78a4e33b4766b204d2d1c7841c53b7ba9f0afec643bf55c7904ade2a2009bb9c"
+    },
+    {
+      "file": "XLMUSDT-1d-2026-04.zip",
+      "sha256": "7c18134cdc995887d36196a0d0ebb74cf91f621f2aee0114aa57a3765fa499ed"
+    },
+    {
+      "file": "XLMUSDT-1d-2026-05.zip",
+      "sha256": "e20054c23b93b3da8387dd532dbbbd0881e7b51962c47eaf4bb5bf3d939bc787"
+    },
+    {
+      "file": "XLMUSDT-1d-2026-06.zip",
+      "sha256": "91591c1e49b087a3e764b97600c52ee74993fbc231e080418378316e1c133f48"
+    },
+    {
+      "file": "XLMUSDT-1d-2026-07.zip",
+      "sha256": "1aab24eb8ccbf88ad2835b851ad9e421b90d4e2a5436aa6ad567f1134ed08bae"
+    },
+    {
+      "file": "XLMUSDT-1d-2026-08.zip",
+      "sha256": "b193a4157660ec7a3c37f79479d62d9a48ae264a1d1bdd2788c70811905d71ce"
+    },
+    {
+      "file": "XLMUSDT-1d-2026-09.zip",
+      "sha256": "a9ecd685563029315c59ed9af562a119d096b8e8f457db42d9e8377040ddd8eb"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

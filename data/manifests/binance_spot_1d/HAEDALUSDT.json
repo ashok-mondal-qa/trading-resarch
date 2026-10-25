@@ -1,0 +1,93 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/HAEDALUSDT/1d/",
+  "instrument": "HAEDALUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-05-21",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:34:44+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 498,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "HAEDALUSDT-1d-2025-05.zip",
+      "sha256": "bf6545d354d1fab3caa61f99c886da2167b023be96b6289e82788963e72fb1fd"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2025-06.zip",
+      "sha256": "7054260d60ec4a46bd5381a74417876bfec446157986a8ec436fa414707b2345"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2025-07.zip",
+      "sha256": "d9536ff9b13b079b90d909905679570b294bae30f09a08cf56b2fa223e002aa8"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2025-08.zip",
+      "sha256": "1407631a782fefbb1101597008ad0b9c825449f3a3350e208158fd0ef165e093"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2025-09.zip",
+      "sha256": "2f34a7fc185751256183cf1f1a0d3333d6511fd595661b690d32065d62a16a7f"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2025-10.zip",
+      "sha256": "c0f295074b06134e32446011a728be32b3cc45f4b38a56d4b1c8ffcdd324cc9d"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2025-11.zip",
+      "sha256": "781af99248b6b8642dc54781eb0fe2a575fa7170ccfb2a6ce4d1add8b97ecaac"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2025-12.zip",
+      "sha256": "fb463af3ca2599c30d62e6fbffe0c99fe6ada5af4760e9a7ad3ae7f99d80fa01"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2026-01.zip",
+      "sha256": "9f2ddf5250054a2063d6e76bf49a238c54ad15530d5dd879e951b99d89e5f79a"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2026-02.zip",
+      "sha256": "0c92f701863c357bff536c3aa2c53cf9e2cef6feb76cb9a67a702a7cf4f9f781"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2026-03.zip",
+      "sha256": "0125c70cb8b7f09500fefc8d76ce8f0716886bc768af93b6334023ebc9e2bb99"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2026-04.zip",
+      "sha256": "745bc96271042eb5e0fd4fddb2c89e221c4028e6573722eb38479f218ccd5242"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2026-05.zip",
+      "sha256": "1c014d5837a3179452ae8aabbfc01d792ea8813c48acb5ab4e4db9018d6ad74a"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2026-06.zip",
+      "sha256": "3fd8e013cc050936f2fa9debec8e5e0e0c18a316bee898264f42ca194664b979"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2026-07.zip",
+      "sha256": "3d561873790c6d930ceb245a536f29f8e431bfffdaaa489ecf2570861e5f9e99"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2026-08.zip",
+      "sha256": "50bee192b8ed322439ab821c22afce3ea103360bb1310786e2a49195145a17a8"
+    },
+    {
+      "file": "HAEDALUSDT-1d-2026-09.zip",
+      "sha256": "f324e47d89ea3ba3142f84f1efe135422ddf374168cb8609ef2d8369a40d504a"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

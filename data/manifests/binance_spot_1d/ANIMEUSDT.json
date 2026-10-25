@@ -1,0 +1,109 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ANIMEUSDT/1d/",
+  "instrument": "ANIMEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-01-23",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:25:37+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 616,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ANIMEUSDT-1d-2025-01.zip",
+      "sha256": "9c24ed4d903086f14b974deea1dd060f336f76838e99584f5affca9a6bf47fb8"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2025-02.zip",
+      "sha256": "95992858dc68ba5e038f22904eaa7f0d3ba9af34df5fdf7ae56d1170bd22330f"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2025-03.zip",
+      "sha256": "0c145153220630f9ae25543a187987d436e216954d8e4ce28ac990251c8cef2f"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2025-04.zip",
+      "sha256": "4cdf06a991cfb59da8fc7724ec8e77e9d4de24dc47a547ff31a2bb60235589ba"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2025-05.zip",
+      "sha256": "3c54517917a82fbe8f215dd47160b8d5afe806e58ff6a34c5173246d557e9e05"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2025-06.zip",
+      "sha256": "724c480bbb19fe9f3b00d19f789e87b8221c45fbcf825b4898e0d1c0a5d9247b"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2025-07.zip",
+      "sha256": "37fa6dfb9c157003ac97f6ea71f86f474ae1373fbe81eab26781a7f5870a7a17"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2025-08.zip",
+      "sha256": "d4cc242ea4ddb4fa1a7a45b4804cc5485998f5e926ec693c0fc0e7b7d4c8f618"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2025-09.zip",
+      "sha256": "fdc3a148c9528f4255cfe16f9cf78a9740fec0e916ca983f5bdee12b9b15b1ca"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2025-10.zip",
+      "sha256": "8a62588f2f2995522b340f848983c4a7ad8865e60e45fa47c28c519b193a58b0"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2025-11.zip",
+      "sha256": "3716b9e93abfb925304c742d6cc77931307d95102556c97c32bda0feea7d2733"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2025-12.zip",
+      "sha256": "34a9330689c910fd8f3351f6ccd00589528ccdfaa81de6821bdca73803a22640"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2026-01.zip",
+      "sha256": "87ee9c51a102c6eb50cef1a1e9edc40e86674c90a72b2d10ce0fae1ac8b30149"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2026-02.zip",
+      "sha256": "73418adf729291b00b9d32a630fd7332fb709d4a361c6763de113cdc20c8b36d"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2026-03.zip",
+      "sha256": "1bc94ddc8e72fde355c6659af4c532f45dfde83346d8a688811413abe3c4687a"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2026-04.zip",
+      "sha256": "e5ae1689883fd82893cb2987af30feaa72826cb06c2bf9fa93d26ce2de43bd3e"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2026-05.zip",
+      "sha256": "5a79d2d30e966e0acba7230ea4a67becbacea954a44ec29c8636c4c534fbbd14"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2026-06.zip",
+      "sha256": "7be5dcf9d2a56831e11ec32e3eea9136cc7012dc6bdee20df13c2e7e5d3b74e8"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2026-07.zip",
+      "sha256": "8507f5ed044d29a4254c16071bfbca876e4c543a26753fc81160b84aa6e0bf8c"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2026-08.zip",
+      "sha256": "220e020be3319cec9d0a3c74a1a31be4e608a8150b550032f8471a15d1fd7b58"
+    },
+    {
+      "file": "ANIMEUSDT-1d-2026-09.zip",
+      "sha256": "1929b75842cb7f18ad069e73a7703812145754525083761325ab99a698ff1119"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

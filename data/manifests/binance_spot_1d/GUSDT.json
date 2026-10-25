@@ -1,0 +1,133 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/GUSDT/1d/",
+  "instrument": "GUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-07-19",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:34:50+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 804,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "GUSDT-1d-2024-07.zip",
+      "sha256": "b45da5e7d8cfc7d113e84309678f25c63083c612dd5018e92a7cf2e3de8f00c4"
+    },
+    {
+      "file": "GUSDT-1d-2024-08.zip",
+      "sha256": "b7ba4d948cee57b8168e230001b888bae12e117fbee00b2ac3931d1d5175c670"
+    },
+    {
+      "file": "GUSDT-1d-2024-09.zip",
+      "sha256": "c7273542a0a20adad9df1b9743f9a1266e55af93bf49bb496faff118594d8e90"
+    },
+    {
+      "file": "GUSDT-1d-2024-10.zip",
+      "sha256": "27daa8d1c986c3d5925cafb406ef98ff7c3ca989288d69fa3b27b8959fd17576"
+    },
+    {
+      "file": "GUSDT-1d-2024-11.zip",
+      "sha256": "3f0fb38b9dc49ca9fc806edbd422bf9874ba1827e767e28c46ee9323f1b3dc8c"
+    },
+    {
+      "file": "GUSDT-1d-2024-12.zip",
+      "sha256": "062af3ef2f40c35b8e61f1314fb2a1b5647470d5d985650d4ac8b4ec5213fb17"
+    },
+    {
+      "file": "GUSDT-1d-2025-01.zip",
+      "sha256": "44c5767ec7a348ae458638c2a54b77e59db3d7a4d7dd44a7d6f1dd7bfb53f1c8"
+    },
+    {
+      "file": "GUSDT-1d-2025-02.zip",
+      "sha256": "f515083b50733112ffbdc7ed28fb97c60f245d5bea6a550bec9755fb83dcc0d9"
+    },
+    {
+      "file": "GUSDT-1d-2025-03.zip",
+      "sha256": "98c53f099f08cdcb239e084af349505ba06f9c18e6a58c73f4bef07e6697e236"
+    },
+    {
+      "file": "GUSDT-1d-2025-04.zip",
+      "sha256": "63db80f6775587b1d35115d01f55e8b5114b2bcdfa6b97d013cfe960ce647a40"
+    },
+    {
+      "file": "GUSDT-1d-2025-05.zip",
+      "sha256": "55433fba503fa5fd576142cb6dd89e5aaa891f5357b9233740daa9a1dec4941f"
+    },
+    {
+      "file": "GUSDT-1d-2025-06.zip",
+      "sha256": "7bdfb1d8c4e889c2ee4b5a0dae737c119ffca1c5dfd4f222d27d9c030e11e021"
+    },
+    {
+      "file": "GUSDT-1d-2025-07.zip",
+      "sha256": "c57d6107c32bf8c17b42962e20a3b18c22fd04f3b4e2094dd52531d42e6fc631"
+    },
+    {
+      "file": "GUSDT-1d-2025-08.zip",
+      "sha256": "a409811586f8c6570ccd8ba3bf84614651065391186d7639b96f9df4ffc26a8a"
+    },
+    {
+      "file": "GUSDT-1d-2025-09.zip",
+      "sha256": "8c66f34ce91a7aecbbf9742bb97b134f366ec92d97459bfcf0343470af5a98ad"
+    },
+    {
+      "file": "GUSDT-1d-2025-10.zip",
+      "sha256": "532c5076cf147793141aeb2fa1c3b3f477bb83a90e2d1d2d2f11c26658641255"
+    },
+    {
+      "file": "GUSDT-1d-2025-11.zip",
+      "sha256": "877fddeb0b56e7faaf886725d8e50d43725271d7697415e96a74d257e3315f35"
+    },
+    {
+      "file": "GUSDT-1d-2025-12.zip",
+      "sha256": "7547d69011d538850b4cfb47d6dbf65be5fe62fd735a165b9a5eab635c97e19a"
+    },
+    {
+      "file": "GUSDT-1d-2026-01.zip",
+      "sha256": "aacec00a0d6332930d6aa34aff8cbd29a6a61597b7e43ccb76648295811fa63b"
+    },
+    {
+      "file": "GUSDT-1d-2026-02.zip",
+      "sha256": "c043a911ab19c01ae179c7b659cbca2e8bf4052c0e915282596f09b09c6d483d"
+    },
+    {
+      "file": "GUSDT-1d-2026-03.zip",
+      "sha256": "a778cebab96e6c5ecca871f85ca1d1f1c33b9f94b950b93a85e33910bc72542b"
+    },
+    {
+      "file": "GUSDT-1d-2026-04.zip",
+      "sha256": "88f40f3ee922cea4ad2f2b3fb32dfd4b52bf70ce86a29c3bec7d201670eeb58b"
+    },
+    {
+      "file": "GUSDT-1d-2026-05.zip",
+      "sha256": "38fc0fcaee20b0c9ac584618bd173d485e2cea37d1baba05cdd5533ac70a1c03"
+    },
+    {
+      "file": "GUSDT-1d-2026-06.zip",
+      "sha256": "dba675b0a7181985bafd5584cc60addd53ac7e8312e6484ee91b6d625470e053"
+    },
+    {
+      "file": "GUSDT-1d-2026-07.zip",
+      "sha256": "8270107bb53b4a7fad2eae7ee273c58f61ab766fdfd0bacb964c2480f7c302b4"
+    },
+    {
+      "file": "GUSDT-1d-2026-08.zip",
+      "sha256": "b1bec91acbcd74832dd36c5be377e7a816be1ad49af67725d67e7b6f28120d67"
+    },
+    {
+      "file": "GUSDT-1d-2026-09.zip",
+      "sha256": "14d641599a008ab939c0e0b4729c6095b71b15d1b22031a2f58cab287590520b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

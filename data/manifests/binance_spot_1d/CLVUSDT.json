@@ -1,0 +1,201 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/CLVUSDT/1d/",
+  "instrument": "CLVUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-07-29",
+  "last_bar": "2025-02-24",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:29:52+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1307,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "CLVUSDT-1d-2021-07.zip",
+      "sha256": "71a428b50bf818a9577392c271ea1375ea57d051f4097dfbe9606dfd57ce94b0"
+    },
+    {
+      "file": "CLVUSDT-1d-2021-08.zip",
+      "sha256": "a23049b86bf1b22691c0bbbfa247536faccb292a0681b08ade6a112528aaac10"
+    },
+    {
+      "file": "CLVUSDT-1d-2021-09.zip",
+      "sha256": "92716503dcc00fc21b7cd38dcafa0310bd25e98120c722be9c94847e4c0fff18"
+    },
+    {
+      "file": "CLVUSDT-1d-2021-10.zip",
+      "sha256": "9b9e24a811755c0ea041ef5d205f78995e9213fabcfd668984ff1c456a07b032"
+    },
+    {
+      "file": "CLVUSDT-1d-2021-11.zip",
+      "sha256": "244e91ca1a915748979692dedfff244d3f1f134f730bced32fe08e90a03f817d"
+    },
+    {
+      "file": "CLVUSDT-1d-2021-12.zip",
+      "sha256": "2840c14beebdd4f9cabd0f31ceb887e2c9e595ea9fa4459b48aebbb2f248a647"
+    },
+    {
+      "file": "CLVUSDT-1d-2022-01.zip",
+      "sha256": "39e768c1de5b02bbeb2af0f61f2619ec17cf9db863531841ea3794ba6a81dae0"
+    },
+    {
+      "file": "CLVUSDT-1d-2022-02.zip",
+      "sha256": "81fdd85d876f660031ec02cdd87601b36d5f6b9adf441d56bf6ffda9094351f2"
+    },
+    {
+      "file": "CLVUSDT-1d-2022-03.zip",
+      "sha256": "347e1206800b6de635451d69840aa7e18decaec8ef037eab249c57c650d5d64e"
+    },
+    {
+      "file": "CLVUSDT-1d-2022-04.zip",
+      "sha256": "fe1b95ad22cea86d196faa0088c6fb69e23f70269b59970066474896af9720d4"
+    },
+    {
+      "file": "CLVUSDT-1d-2022-05.zip",
+      "sha256": "95836b869374c1b84ab0e3c9200ae99d34e1fc63d6aca1b6b50f4585ff02e983"
+    },
+    {
+      "file": "CLVUSDT-1d-2022-06.zip",
+      "sha256": "08d7ceddca7f04922862c84c6c06dc1bd28271daed1a1e13d87c83e3feea41f8"
+    },
+    {
+      "file": "CLVUSDT-1d-2022-07.zip",
+      "sha256": "74f9ff5f47e73d7cff24f404a0987c53c3c17e9ab1f876535fefb55ace22133d"
+    },
+    {
+      "file": "CLVUSDT-1d-2022-08.zip",
+      "sha256": "a95c75a3f1494eee1e789e97bf0356df93fa393bf7b072e06428285b26c5fc79"
+    },
+    {
+      "file": "CLVUSDT-1d-2022-09.zip",
+      "sha256": "73834ede85c4c79e816f8571b3377a3c26516dd79d3d2963cc11d093c91c4c58"
+    },
+    {
+      "file": "CLVUSDT-1d-2022-10.zip",
+      "sha256": "0460721e2b94e7dfa57d31d12cd3fd42d9479e79e2c43477c6a82c05a3f966c3"
+    },
+    {
+      "file": "CLVUSDT-1d-2022-11.zip",
+      "sha256": "146790e18708ea9df240cc0dbe3a44add620a91005a4fc0923c0e65fb2441ac4"
+    },
+    {
+      "file": "CLVUSDT-1d-2022-12.zip",
+      "sha256": "9aaee900341343b86e8a7c0a326b54be66611f95c3e5a5f5ee360de206b77242"
+    },
+    {
+      "file": "CLVUSDT-1d-2023-01.zip",
+      "sha256": "ba8f52f425e21791e22d095b75d45a4234a5fd2bf907165cc23e192898dfd13e"
+    },
+    {
+      "file": "CLVUSDT-1d-2023-02.zip",
+      "sha256": "d3bd2ad1b200f21988f76edb6bbabfd3e63dc7456a8054bed5894cfa1e96d403"
+    },
+    {
+      "file": "CLVUSDT-1d-2023-03.zip",
+      "sha256": "de230bc1d677d0f8a2f43ac10d5d56a9d2dd958b6bb3969662c9e3bcc43b515d"
+    },
+    {
+      "file": "CLVUSDT-1d-2023-04.zip",
+      "sha256": "9392274164e19b37d892d0374f62628a0f2811c0c64aa73aec494fa1be82793b"
+    },
+    {
+      "file": "CLVUSDT-1d-2023-05.zip",
+      "sha256": "ae4e16c15916181d54678a4a9ee1c7ee12ad64202aff8a72afb875d72f903eb8"
+    },
+    {
+      "file": "CLVUSDT-1d-2023-06.zip",
+      "sha256": "6b42245dd614c335b35bddb991e2bebbe293b4d262850882a5f368ede926a0a6"
+    },
+    {
+      "file": "CLVUSDT-1d-2023-07.zip",
+      "sha256": "6542e86fb8c2931c2e25f2f7aed5290c4cde6851552c8c9200aed062ecb180ac"
+    },
+    {
+      "file": "CLVUSDT-1d-2023-08.zip",
+      "sha256": "efce4c9e9e44a77859650e0552c1cf5c8a6ebab30837d907b434c2d73851d932"
+    },
+    {
+      "file": "CLVUSDT-1d-2023-09.zip",
+      "sha256": "0c62b80571c439848cf34591e3e0505f1e41299861ef1a4c9c99b8512484cf8a"
+    },
+    {
+      "file": "CLVUSDT-1d-2023-10.zip",
+      "sha256": "e36c4d893b62952659ee11a92dfe880889889721599c0209100354a2bfe51753"
+    },
+    {
+      "file": "CLVUSDT-1d-2023-11.zip",
+      "sha256": "032b9d09be95a5f0a3c41ed605e5ec3bee7850f46a95876c5e9a6c96cd94f548"
+    },
+    {
+      "file": "CLVUSDT-1d-2023-12.zip",
+      "sha256": "175364b893571ff6c7dbcec427e1bbbb9ee50f6d93fdd25994aa265e547eecc2"
+    },
+    {
+      "file": "CLVUSDT-1d-2024-01.zip",
+      "sha256": "c54105f3fbbb26cb264a15005eee751afa92a221d9a5766758fa3276eb84ef06"
+    },
+    {
+      "file": "CLVUSDT-1d-2024-02.zip",
+      "sha256": "c4f1dbbe0e5b2933820a86905e69f7590370ea9faffcddbef884123d78597ff5"
+    },
+    {
+      "file": "CLVUSDT-1d-2024-03.zip",
+      "sha256": "a319af4702e7d747a7b2d8cd76d3225129870abbe431fb0e079bbc6914f1315f"
+    },
+    {
+      "file": "CLVUSDT-1d-2024-04.zip",
+      "sha256": "c1861445028e61f1f398914cbd5c305c7aa8ae18d148df81dc69420889b73803"
+    },
+    {
+      "file": "CLVUSDT-1d-2024-05.zip",
+      "sha256": "4b6bd5297f4251a8b015df4051495416be5aea5d01ba33603395c89a215a850f"
+    },
+    {
+      "file": "CLVUSDT-1d-2024-06.zip",
+      "sha256": "f9992c88975f2b5ede9a6e753d57601f72e7a8e48e1e609a0eb6f8e281adb412"
+    },
+    {
+      "file": "CLVUSDT-1d-2024-07.zip",
+      "sha256": "dff1458a0ceaf42854b4588e44547d589b93a73c162b5b30ae2ae67628639556"
+    },
+    {
+      "file": "CLVUSDT-1d-2024-08.zip",
+      "sha256": "dbfc908fccb96fe970ef573d969f90abc944eaff06638d9f3f2dcb7f6795b339"
+    },
+    {
+      "file": "CLVUSDT-1d-2024-09.zip",
+      "sha256": "4f8df10f9af305d190aadf19678ac24338b3462e267132243b5487cd1ed71ac5"
+    },
+    {
+      "file": "CLVUSDT-1d-2024-10.zip",
+      "sha256": "91eea7f57af45c76818f775f9b74f771965ea963586b417b9a35c9733bcf51e0"
+    },
+    {
+      "file": "CLVUSDT-1d-2024-11.zip",
+      "sha256": "f5aabd32bd04562e34235bf1a28738478713cbaceb764acf305fbef9c4da4c87"
+    },
+    {
+      "file": "CLVUSDT-1d-2024-12.zip",
+      "sha256": "4907bd9d4c77fa1af03abf24ceb1d5f1846b4f844e3742b39910c556976791df"
+    },
+    {
+      "file": "CLVUSDT-1d-2025-01.zip",
+      "sha256": "d8540a7fed7339943ff9dd569315124bc47c310e1a53b4fb65ab15a36951acae"
+    },
+    {
+      "file": "CLVUSDT-1d-2025-02.zip",
+      "sha256": "bd5bf44f442dc61c2134ac3a70c1ea5665c57f52d16b0987c62f24c3266a81df"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/DODOUSDT/1d/",
+  "instrument": "DODOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-02-19",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:31:55+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2050,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "DODOUSDT-1d-2021-02.zip",
+      "sha256": "21f931f632f41b2ab3c56e105897fbd64ec5f7a5ba58232ec84bae5a766527e9"
+    },
+    {
+      "file": "DODOUSDT-1d-2021-03.zip",
+      "sha256": "ddebf25c5e6a777b146a61dd82fc8f3728d07bf302949bb1301257f01c7f7ab7"
+    },
+    {
+      "file": "DODOUSDT-1d-2021-04.zip",
+      "sha256": "d84dbd423029609fbbd6925fc397ee0b5c1468f3a0443d28974dc568c6e11443"
+    },
+    {
+      "file": "DODOUSDT-1d-2021-05.zip",
+      "sha256": "ca6911c52dd12808862950e52a86e686ea7889ef1a016a845b27c485a49e3d4d"
+    },
+    {
+      "file": "DODOUSDT-1d-2021-06.zip",
+      "sha256": "193fc3f08915d5b090a6df1315917b1e61608354502549cb68c0f8dc2e37e1e1"
+    },
+    {
+      "file": "DODOUSDT-1d-2021-07.zip",
+      "sha256": "7b564f24f9236fbdf0b5a0bfa5eceef34df5d000b3b492e86e930280adf68237"
+    },
+    {
+      "file": "DODOUSDT-1d-2021-08.zip",
+      "sha256": "6d800324fa10920ea1fdc2593e354997d1a0eeb58fe020850525bf05d54c7787"
+    },
+    {
+      "file": "DODOUSDT-1d-2021-09.zip",
+      "sha256": "6b57dded222925247ad273877cf4831db457da949f01ff92b77261a34efbfae6"
+    },
+    {
+      "file": "DODOUSDT-1d-2021-10.zip",
+      "sha256": "1adbfd50228fcbce7d0e9f394f5ce8236384d8408adeaa3383b69c455acb5782"
+    },
+    {
+      "file": "DODOUSDT-1d-2021-11.zip",
+      "sha256": "9a37a1a0eb0acfd542db6b07975970a245c7f50f8133729a3ce75ba8e7f6c22c"
+    },
+    {
+      "file": "DODOUSDT-1d-2021-12.zip",
+      "sha256": "983115c8a48ae972454c82b2106a4a09a70d56249b1f7d492ea1dede3050c6c2"
+    },
+    {
+      "file": "DODOUSDT-1d-2022-01.zip",
+      "sha256": "124eb1fab59bd4209a5f1adff6554cf04cd0c810fde63ec36c555fd36f8aa4f3"
+    },
+    {
+      "file": "DODOUSDT-1d-2022-02.zip",
+      "sha256": "adaa5e2bbb66afee94b73c35de173967c2018df1252e1fcbc0ad76e7cceee31b"
+    },
+    {
+      "file": "DODOUSDT-1d-2022-03.zip",
+      "sha256": "fa16f711da141508079489e72302c1da369aafb8f3d8c839ad473516a6e7cd54"
+    },
+    {
+      "file": "DODOUSDT-1d-2022-04.zip",
+      "sha256": "31bc5836f89162b9e048cd04db6e3ff61c79f5b4b564422d29c911222efe4830"
+    },
+    {
+      "file": "DODOUSDT-1d-2022-05.zip",
+      "sha256": "8851e99cd13f8f41dc794926452045ade05eb370156c5d30d166d68645496a0a"
+    },
+    {
+      "file": "DODOUSDT-1d-2022-06.zip",
+      "sha256": "ff47157eef6d921d15111841b7073954a2df3fa16b0d9b3b8e19553164525f9b"
+    },
+    {
+      "file": "DODOUSDT-1d-2022-07.zip",
+      "sha256": "fbee7dae073655bf72fe74ee7ab50a32d6196b6dc7ec992fcde71e85244cb68b"
+    },
+    {
+      "file": "DODOUSDT-1d-2022-08.zip",
+      "sha256": "fa61cad84dbbfa411142fa30e517103b02a179e9ddf79e73a7ea047f04281d9c"
+    },
+    {
+      "file": "DODOUSDT-1d-2022-09.zip",
+      "sha256": "0f5fd1e8b4e50e974c17d533d6f3f045aa0ef1b975bd9b0dcd360c25f4da36b0"
+    },
+    {
+      "file": "DODOUSDT-1d-2022-10.zip",
+      "sha256": "8ba3e89d6165851bc6dc689b21333f90bfbd11bdabb087874cd0944643be706c"
+    },
+    {
+      "file": "DODOUSDT-1d-2022-11.zip",
+      "sha256": "9b6107a4ca0ff0214050935f3008f259816f4bfc363534ed93399e70cab5093b"
+    },
+    {
+      "file": "DODOUSDT-1d-2022-12.zip",
+      "sha256": "077c8e89d698e41d273b38d0a441c77ac740b6659dda046465dd5f03e8a7e3f9"
+    },
+    {
+      "file": "DODOUSDT-1d-2023-01.zip",
+      "sha256": "595eba16033d8f1dcdeab56e48cec98a7946e8bd030a062cc7e229cc627faff0"
+    },
+    {
+      "file": "DODOUSDT-1d-2023-02.zip",
+      "sha256": "b008ac888727c52ad5b558b37e4ed09d3392ec6754294d2ee9f5926180c0590a"
+    },
+    {
+      "file": "DODOUSDT-1d-2023-03.zip",
+      "sha256": "b4004e62adc5b3af8afc8a2178feffda834a848dafe47fa25ebc45c8cba01c16"
+    },
+    {
+      "file": "DODOUSDT-1d-2023-04.zip",
+      "sha256": "e94d8e5042652c471a616d9b589b39791e5b691d916e0e3a9917ee8110713ba5"
+    },
+    {
+      "file": "DODOUSDT-1d-2023-05.zip",
+      "sha256": "de6b557489022c0b43df2a13d4b686408534eb248de4d22680bf05cb9abf0220"
+    },
+    {
+      "file": "DODOUSDT-1d-2023-06.zip",
+      "sha256": "3ffa0177031e10153c3d35187947e5995a8dc7ea34f4def2f92c0e5a8da29f81"
+    },
+    {
+      "file": "DODOUSDT-1d-2023-07.zip",
+      "sha256": "7fd618cca6582b952c30743851b63a7e27a2d35c7b436f6797714aecbc920469"
+    },
+    {
+      "file": "DODOUSDT-1d-2023-08.zip",
+      "sha256": "389438abfd91271c15e6bbab419f2fa5efc1d074b0264381e4d65974ba4183d1"
+    },
+    {
+      "file": "DODOUSDT-1d-2023-09.zip",
+      "sha256": "8883e295673875ca031dbe01ac32482d5bd942fbc4c66b6637a3432c651cd960"
+    },
+    {
+      "file": "DODOUSDT-1d-2023-10.zip",
+      "sha256": "0d5fedfa6a7d7d1a5c879263e8690eeeb2475e0223813371960f1da876f71e26"
+    },
+    {
+      "file": "DODOUSDT-1d-2023-11.zip",
+      "sha256": "5eab3767a1f0fee1c05f7a8e02d31324efb31a26cbfa6ba14fbaa6de373058e2"
+    },
+    {
+      "file": "DODOUSDT-1d-2023-12.zip",
+      "sha256": "c2fef555bef864096a5146d05f5b5850bbf85d714a81f2755e9f91fe1ac86f2c"
+    },
+    {
+      "file": "DODOUSDT-1d-2024-01.zip",
+      "sha256": "a3464ace60c082a54b4a808e5a341486709c8b28b11cd2508a3feff12379fb65"
+    },
+    {
+      "file": "DODOUSDT-1d-2024-02.zip",
+      "sha256": "2b1d44e29c1bf441682af6be81062ed07be8793897d0ffe79bfe52b7d28cad6e"
+    },
+    {
+      "file": "DODOUSDT-1d-2024-03.zip",
+      "sha256": "38255c9e5b65a4142a9841d0015b902448526dca1c157a8066e3a33421d9d5ab"
+    },
+    {
+      "file": "DODOUSDT-1d-2024-04.zip",
+      "sha256": "e061c1711dbf8b4813eef7c12df35e1e23a722baad4ad37225c600387eb972b3"
+    },
+    {
+      "file": "DODOUSDT-1d-2024-05.zip",
+      "sha256": "2698644fee4b9d1284c2f7c71e80e9ec0283b8fc5b2c972193a0e63c5e3859ca"
+    },
+    {
+      "file": "DODOUSDT-1d-2024-06.zip",
+      "sha256": "75157553d6e609fc7b313d62fee5ebf48e48560e8b65ef3e4462251072ebdf0c"
+    },
+    {
+      "file": "DODOUSDT-1d-2024-07.zip",
+      "sha256": "d962a7197aebd0508669019d0fb1e78791fe97a8bd1b9b96b675f804679f5cb8"
+    },
+    {
+      "file": "DODOUSDT-1d-2024-08.zip",
+      "sha256": "410535a6af14503dee0f91bd310213b741d5b621e4ee7fb19ce8f3f8f6dd7fc2"
+    },
+    {
+      "file": "DODOUSDT-1d-2024-09.zip",
+      "sha256": "82ad8ee17a620daeb36af8920fb0ea7cadc61cd083b4a65f1e78a8069f4de299"
+    },
+    {
+      "file": "DODOUSDT-1d-2024-10.zip",
+      "sha256": "a85f64bcc5918330d5574d61addbb8a43d7a71b86fcb5356542d7f968f884cbe"
+    },
+    {
+      "file": "DODOUSDT-1d-2024-11.zip",
+      "sha256": "69f63e58ebcbef605c6826f2bfcb699c8c53e5ce1d995907572ceb94c4aabd13"
+    },
+    {
+      "file": "DODOUSDT-1d-2024-12.zip",
+      "sha256": "12707be8f6f8ebb8295269f667e9cca6d6713346284aca4351b0c61bf3e81b0b"
+    },
+    {
+      "file": "DODOUSDT-1d-2025-01.zip",
+      "sha256": "9f3763decad05b82fabce96b56db765968be4b671dc64a74121138db708c1a70"
+    },
+    {
+      "file": "DODOUSDT-1d-2025-02.zip",
+      "sha256": "2f2547a9084848958214d474ec05637042f56e6590fa5904d2a96353dc98e4ee"
+    },
+    {
+      "file": "DODOUSDT-1d-2025-03.zip",
+      "sha256": "178c0384cf2600f6012500c66280fb87c9b6279b24d58ed8474cc0976db10712"
+    },
+    {
+      "file": "DODOUSDT-1d-2025-04.zip",
+      "sha256": "3526c08e60040e39a7c2ca383dbc94fef4a9fc709a16bc680a5f3f2e068ed327"
+    },
+    {
+      "file": "DODOUSDT-1d-2025-05.zip",
+      "sha256": "aec3398fa84dfdfcee45af189b7133f34c7ac8dfb228bed2065ad0fbdbc00c57"
+    },
+    {
+      "file": "DODOUSDT-1d-2025-06.zip",
+      "sha256": "306a0153c55a3c82cae3945e840973a8cc74d63f7a92f946ac8002af3e213535"
+    },
+    {
+      "file": "DODOUSDT-1d-2025-07.zip",
+      "sha256": "c7221d696038a176b7544dc837713cf8f60c857214bfafe0d52e59ec8b930500"
+    },
+    {
+      "file": "DODOUSDT-1d-2025-08.zip",
+      "sha256": "b5242300b77925794799afe10a8ef625964cc14815240ab23c03c28200177200"
+    },
+    {
+      "file": "DODOUSDT-1d-2025-09.zip",
+      "sha256": "3218d938aea7454397ce71a4cf0d16a31e06aaffa169b3167fb654aea3e9fd57"
+    },
+    {
+      "file": "DODOUSDT-1d-2025-10.zip",
+      "sha256": "854108cea460030c61fcd6e6c8e50770e0596575eabeeea4c8ce9a144d451071"
+    },
+    {
+      "file": "DODOUSDT-1d-2025-11.zip",
+      "sha256": "35f1bd27d7b9387bdb882aa78cf65395112340e7df516778223961d3596a59c9"
+    },
+    {
+      "file": "DODOUSDT-1d-2025-12.zip",
+      "sha256": "2465b5bcecbd5076753fc3d783072edaf1d201e5977a7418f2d8d411c2610eb1"
+    },
+    {
+      "file": "DODOUSDT-1d-2026-01.zip",
+      "sha256": "742720d1f554db5be2cce326797504e0276d3eadafc86d612beca2414008085a"
+    },
+    {
+      "file": "DODOUSDT-1d-2026-02.zip",
+      "sha256": "698eefaf5d90953367909c0fcccd49affb18fb71815651f1d3ed2445c8db3157"
+    },
+    {
+      "file": "DODOUSDT-1d-2026-03.zip",
+      "sha256": "a3695fcda3405459c9401b914151c19ebf7876b4d1156c757377e9b5831ae3fe"
+    },
+    {
+      "file": "DODOUSDT-1d-2026-04.zip",
+      "sha256": "d5f2c56f020318a5d7fcd52a1f93720c38de2e5510239f147bd99d0b0595481d"
+    },
+    {
+      "file": "DODOUSDT-1d-2026-05.zip",
+      "sha256": "ffe2f901e6b6a27724db51d9fa3e31f37b7841fe657db51b8845337c867cacb3"
+    },
+    {
+      "file": "DODOUSDT-1d-2026-06.zip",
+      "sha256": "26dbd33f63997d37ad12bec035bc6af09100af13f7dd475fac5df28dae29bb1b"
+    },
+    {
+      "file": "DODOUSDT-1d-2026-07.zip",
+      "sha256": "fa303c506a1b03caac7c174f6cd95c61f64fcdfff71cf7ace0243b54bafd58aa"
+    },
+    {
+      "file": "DODOUSDT-1d-2026-08.zip",
+      "sha256": "be693c7d30d2e349789ff7002ec4027ff05cc58e45848d4e8d6c7bc31baf2bc7"
+    },
+    {
+      "file": "DODOUSDT-1d-2026-09.zip",
+      "sha256": "7a0ae65f334d33493750177d79dcdbc8f7c99a0b3dcf92811a9623cd390dab54"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

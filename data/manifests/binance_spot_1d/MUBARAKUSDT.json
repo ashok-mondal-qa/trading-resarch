@@ -1,0 +1,101 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MUBARAKUSDT/1d/",
+  "instrument": "MUBARAKUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-03-27",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:56+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 553,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MUBARAKUSDT-1d-2025-03.zip",
+      "sha256": "f8244eeb16345d5b70ffaaf618508d1a2c414b21adb6192d662f8e4ebd6e51bd"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2025-04.zip",
+      "sha256": "fe9c96c73543885a54d3a0e3d9b079bbd04f41d6ffed89e0234fb4773fd0e83d"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2025-05.zip",
+      "sha256": "7b1fa64777be9ec151c94d977f4c333e8b522c99b85bb50cc4440030c19cae1f"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2025-06.zip",
+      "sha256": "94565644c2f5018b96834afdba5f40b2a937a3d722685b2c40386ce5d7851b25"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2025-07.zip",
+      "sha256": "b2f64dd6a2ca50ca2f823ae4db8f5c6aa2267936c78c0072fa0ccbdfbd06dcf1"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2025-08.zip",
+      "sha256": "0df0a1f4c5d02006abde7533db7fbfaff035ac2832acc4ac27cb463cb0d6dc3a"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2025-09.zip",
+      "sha256": "d4f579858296480638223103777942e603cef1e071879a5c09494a8bbab8640c"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2025-10.zip",
+      "sha256": "a6b49472db77ff1acddfef10af31c47ffe4116ad249fd9f7586ed6c1f23abe14"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2025-11.zip",
+      "sha256": "14858fc1b0c2a7ef98c07b4295bb9b0477739ffa0daaea1fbbb4aa05dd53e401"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2025-12.zip",
+      "sha256": "4aebe3ac523fae5bc1940a8c0396db86a4c28995ab603a44b106da8bf456ed8e"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2026-01.zip",
+      "sha256": "21320f66b9071fbe9ce44b4dcb3a09c240933f0a1264d91dd8d2e77a3b9eadd8"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2026-02.zip",
+      "sha256": "1929454c9bfdea5a7962fc2941e26e0eeba347941bdb45375a92e66a79bac4b2"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2026-03.zip",
+      "sha256": "b71b5960e26073b49e0dfbfa384e11313ae85329a4c2ae6afff218984d62d558"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2026-04.zip",
+      "sha256": "1850d370ee46866e71d589df480a366087dac0d2fca039f1e9b0470bbae164bc"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2026-05.zip",
+      "sha256": "f5c244345b057d9a995fdeed7c0e3f6681aa15f0dfb4bf193c749f09c354469a"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2026-06.zip",
+      "sha256": "f8489d280742adc373bf824600ed7c44e16f1c5aaffeb5c9a5cccd54e7372ec2"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2026-07.zip",
+      "sha256": "9044507ced96fad63105b10d0f74be254e3e4590eaa79dcdfa0d9ae14ac94cd0"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2026-08.zip",
+      "sha256": "85fef544a9ff98edc840031285a90a44213ae0ec1f6149cf9fa7ec0876b35930"
+    },
+    {
+      "file": "MUBARAKUSDT-1d-2026-09.zip",
+      "sha256": "05dad2c3496fa7f78ede575d557d4c9765cc8918a18c44907186fd8109f1a30f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

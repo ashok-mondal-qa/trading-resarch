@@ -1,0 +1,161 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PIVXUSDT/1d/",
+  "instrument": "PIVXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-11-16",
+  "last_bar": "2026-08-17",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:23+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1006,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PIVXUSDT-1d-2023-11.zip",
+      "sha256": "28d686dea7ca0e04e58a289c3159af080069378bef97e22e75f5bb65d0ae96e7"
+    },
+    {
+      "file": "PIVXUSDT-1d-2023-12.zip",
+      "sha256": "b61a14a2a2c54fd7bc253ccf39af8f168f8705c62c8d04a6f7b9b0e286d76646"
+    },
+    {
+      "file": "PIVXUSDT-1d-2024-01.zip",
+      "sha256": "e9812abacbef9adcc27f98707b5dd9c5dc8a201d6dbbaf219b1ec346326c3ba4"
+    },
+    {
+      "file": "PIVXUSDT-1d-2024-02.zip",
+      "sha256": "afff83dbebb69b710846003dfad90a8459d0cd2f2421124105a52b801e8fe41b"
+    },
+    {
+      "file": "PIVXUSDT-1d-2024-03.zip",
+      "sha256": "a34db18507f79dd4fc7aa64c9e43ae8ddfda35de0a98c36706ff3bbb917b9263"
+    },
+    {
+      "file": "PIVXUSDT-1d-2024-04.zip",
+      "sha256": "b5838c530e849e891a8cd4bfa7588375cad8223d94218c4a4d6d279a5d685fcd"
+    },
+    {
+      "file": "PIVXUSDT-1d-2024-05.zip",
+      "sha256": "3aa403f532f1d0f0957d2429e8f2307128d64599ca88dd32873d9030bb221795"
+    },
+    {
+      "file": "PIVXUSDT-1d-2024-06.zip",
+      "sha256": "27a81fae97c7533ea3c94e35c1956298ce331d68b85ab4fceee868ebf624007d"
+    },
+    {
+      "file": "PIVXUSDT-1d-2024-07.zip",
+      "sha256": "8c8b2f6d72b20c21096159f0a7f6c4d408153142a11a63d47f7fbaa39ee9c58c"
+    },
+    {
+      "file": "PIVXUSDT-1d-2024-08.zip",
+      "sha256": "db580408349da8a10fc4a42f397d0ccfc5eaf8647b1c5192ee1e7cdd41df6126"
+    },
+    {
+      "file": "PIVXUSDT-1d-2024-09.zip",
+      "sha256": "6e9779643c43e1d145a7c98e38f467b5c6450f9b10a446a64ea9b27deb7ce66d"
+    },
+    {
+      "file": "PIVXUSDT-1d-2024-10.zip",
+      "sha256": "92380695f1e8d328ea6fafb09c29382a4cdcc4acaf8dac510d83be8343c9806d"
+    },
+    {
+      "file": "PIVXUSDT-1d-2024-11.zip",
+      "sha256": "7217961b4d083a44ec3dbe93e41a352345cf220e71efdc4757cb38157c198588"
+    },
+    {
+      "file": "PIVXUSDT-1d-2024-12.zip",
+      "sha256": "a4444522207fd43f52ee0306a5f5aec6b022eb9d06ff026b7f6726ecf84fa1ad"
+    },
+    {
+      "file": "PIVXUSDT-1d-2025-01.zip",
+      "sha256": "f19aee68883a2f32557636bf1453076f1b28ab34a85320b47d1f024be765883e"
+    },
+    {
+      "file": "PIVXUSDT-1d-2025-02.zip",
+      "sha256": "84f2830a8283d2369d0b6b26f1cd625d1819c5232b4dfc15cf9c4956530dd2f2"
+    },
+    {
+      "file": "PIVXUSDT-1d-2025-03.zip",
+      "sha256": "2cc7097249cc769c248ffd8ffb903c973d5887766129c7b9792277889f3ef0a3"
+    },
+    {
+      "file": "PIVXUSDT-1d-2025-04.zip",
+      "sha256": "29a4b5f42451f54c291110588abe4dcb4f94c013fd35e05d30b13017c552966c"
+    },
+    {
+      "file": "PIVXUSDT-1d-2025-05.zip",
+      "sha256": "2d9e992e8271fd2a79649c50bcf8267671a2de48050239f2f84900de0e756ec6"
+    },
+    {
+      "file": "PIVXUSDT-1d-2025-06.zip",
+      "sha256": "c692a441889410587f66bdd4411f3c064264a358f6e2d54f0192b6fdfb49ed3f"
+    },
+    {
+      "file": "PIVXUSDT-1d-2025-07.zip",
+      "sha256": "f586123868b074943c069da7f1be9fe9408fa8435959b9d0f35280bacbf4b64b"
+    },
+    {
+      "file": "PIVXUSDT-1d-2025-08.zip",
+      "sha256": "efac7ddf393cb90db3112155b2614a9c674f79c2ca11c00cd0ddc9e5fee5d5e4"
+    },
+    {
+      "file": "PIVXUSDT-1d-2025-09.zip",
+      "sha256": "861a5f4f74e9d7ec7c8e82bb958e97778f2de3fa0c18d4b78e689c54662a6b6e"
+    },
+    {
+      "file": "PIVXUSDT-1d-2025-10.zip",
+      "sha256": "592d8266d3606312991d8b5fa6d786168634db4308b61f6ecd987af1ad42875b"
+    },
+    {
+      "file": "PIVXUSDT-1d-2025-11.zip",
+      "sha256": "8d60ce3c6a49866472f144322c8661ea531205dd9a43efc70f07ef7e78ee13a8"
+    },
+    {
+      "file": "PIVXUSDT-1d-2025-12.zip",
+      "sha256": "7be1d40c2f09b5aa1542e96955435027367e610eb4f74b762d90fb0b7a6be6c2"
+    },
+    {
+      "file": "PIVXUSDT-1d-2026-01.zip",
+      "sha256": "1e92d3ed26f4879429136c90b1e490a93bcdf51f7ee22d8427340c962c58159b"
+    },
+    {
+      "file": "PIVXUSDT-1d-2026-02.zip",
+      "sha256": "dac9fe390259e6413ba77f936933f2219a86f629e325a251a1302471ea7c440e"
+    },
+    {
+      "file": "PIVXUSDT-1d-2026-03.zip",
+      "sha256": "84f5706bb76cc7bf65983a643790a8a1b588c1dfbbd1ec9c55f48683c6090c87"
+    },
+    {
+      "file": "PIVXUSDT-1d-2026-04.zip",
+      "sha256": "ba919ca2116c0ebb7bc2beb79d86b911b4cc9dddc59a8ff4f4d41ac284ef14e1"
+    },
+    {
+      "file": "PIVXUSDT-1d-2026-05.zip",
+      "sha256": "97003ea950cd7cc2ced40f4d40a7adc2f9c4867b54cef507eeb6bb325aa1bcab"
+    },
+    {
+      "file": "PIVXUSDT-1d-2026-06.zip",
+      "sha256": "ceeb5206bb17ee68ee2f486932f99fbcb224875acc33651a1df6e9a2e1af1e96"
+    },
+    {
+      "file": "PIVXUSDT-1d-2026-07.zip",
+      "sha256": "7975d126ae2478600ab4a325a4bb5028659c0747f314ed8443ea70222bbe49ca"
+    },
+    {
+      "file": "PIVXUSDT-1d-2026-08.zip",
+      "sha256": "952708888badeab7c960bfe3d5a8f6418b447645e0f15636a8dda28b37889eeb"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/HIGHUSDT/1d/",
+  "instrument": "HIGHUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-12-17",
+  "last_bar": "2026-06-19",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:35:31+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1646,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "HIGHUSDT-1d-2021-12.zip",
+      "sha256": "7d3397fa93aa9dc4c3d3da4b1f6bd240bb36269b06c2551e7042f801802752cd"
+    },
+    {
+      "file": "HIGHUSDT-1d-2022-01.zip",
+      "sha256": "169ce05cf1d5d7bffa04c1971317f351276d25fbc4675e6c46b19370aad7c70a"
+    },
+    {
+      "file": "HIGHUSDT-1d-2022-02.zip",
+      "sha256": "7742a9fb220e645e3d51a88642b76158f97eafc001ca7aa53a059da2253102a8"
+    },
+    {
+      "file": "HIGHUSDT-1d-2022-03.zip",
+      "sha256": "c474a6427f16b5f7cfe8207321ae0ec4ed8123b0dc06be863e7d9243a92f4fc1"
+    },
+    {
+      "file": "HIGHUSDT-1d-2022-04.zip",
+      "sha256": "39e3570091006521660ba65411830f032d4065dad66adcf1c582318dc4ff77ab"
+    },
+    {
+      "file": "HIGHUSDT-1d-2022-05.zip",
+      "sha256": "820a0e11c064720e17a40a3fd1bb0441edf4b56bde35ad382e41084d52c69337"
+    },
+    {
+      "file": "HIGHUSDT-1d-2022-06.zip",
+      "sha256": "3c5b4df5e5d8a6470b61b204d75c3b4481c338ff7c20a54a57965bf91045d5c2"
+    },
+    {
+      "file": "HIGHUSDT-1d-2022-07.zip",
+      "sha256": "c590c27c2509f099183901236fa8c9b231bc1dd13edfb6e9065dd38c9d3a9235"
+    },
+    {
+      "file": "HIGHUSDT-1d-2022-08.zip",
+      "sha256": "744c311da353f2505a1de579fc52550af1f25104aa273263d9aae23bec4d2832"
+    },
+    {
+      "file": "HIGHUSDT-1d-2022-09.zip",
+      "sha256": "3eaa4f44fc02f58c9850734ccf6a9ab016711c40a1d0dbf13ac58a1b7d15794c"
+    },
+    {
+      "file": "HIGHUSDT-1d-2022-10.zip",
+      "sha256": "4d232eadcb73caafd6fb1e40e8b20c17aa3edd252bc56edd92446bb0d27c7edb"
+    },
+    {
+      "file": "HIGHUSDT-1d-2022-11.zip",
+      "sha256": "cfa055151fe6e3c56c95bc397f155098827b79dde923be70dfcd8c85e049508d"
+    },
+    {
+      "file": "HIGHUSDT-1d-2022-12.zip",
+      "sha256": "ce57baa449a1f3bb15985b5bd154450fed16d233c509f58b02d32b3aaf1cdbda"
+    },
+    {
+      "file": "HIGHUSDT-1d-2023-01.zip",
+      "sha256": "73e33abfc6345975cef8a0943774c670667b0ef68fd170034f530fa8ce5f017f"
+    },
+    {
+      "file": "HIGHUSDT-1d-2023-02.zip",
+      "sha256": "a4a5605c63b0a9f88e6ee6b09d6154e2ee8be69a80d5f55addffbfa698794926"
+    },
+    {
+      "file": "HIGHUSDT-1d-2023-03.zip",
+      "sha256": "42ca2cef1c887a4f3efd231a18b5021630841d1c8325fa24cf4b4fae6a461113"
+    },
+    {
+      "file": "HIGHUSDT-1d-2023-04.zip",
+      "sha256": "6c35a07c586b9ce0d5038d1a9a5e1f5c4414df174aebf074e30d61555fbb31df"
+    },
+    {
+      "file": "HIGHUSDT-1d-2023-05.zip",
+      "sha256": "d3e89ef257418b8a6e0efa4255fe58cb3aa7f394f6aab89ea1d674ed88ff2150"
+    },
+    {
+      "file": "HIGHUSDT-1d-2023-06.zip",
+      "sha256": "8ebd69e0264994d1866c065984f3820c53c6d342abc848548822cc2c7a85710c"
+    },
+    {
+      "file": "HIGHUSDT-1d-2023-07.zip",
+      "sha256": "96b51fb1c7784b51fb0294e1aff18ac74689672d00ebbf83c8110bb9760ca38d"
+    },
+    {
+      "file": "HIGHUSDT-1d-2023-08.zip",
+      "sha256": "44106c30cb7e256c4e9110887118b9a8c811c302fc0bdafdee317be3f2b949cb"
+    },
+    {
+      "file": "HIGHUSDT-1d-2023-09.zip",
+      "sha256": "15d717e7251470c915921f02d8249b94e2dfbfeecd6a7ead1285eb686a72c3a2"
+    },
+    {
+      "file": "HIGHUSDT-1d-2023-10.zip",
+      "sha256": "7a5a7f2321e26c214da751430950e83062fcf50ac731fb59daa69b84b5fa2685"
+    },
+    {
+      "file": "HIGHUSDT-1d-2023-11.zip",
+      "sha256": "d3710ba2fe3fe4cf6bea725476d9359122a830fd29328a200568a639d703971e"
+    },
+    {
+      "file": "HIGHUSDT-1d-2023-12.zip",
+      "sha256": "1a3187215cb5e60999ce67879a50184956eb18ed2007a541fe11ed7b7e6d66e3"
+    },
+    {
+      "file": "HIGHUSDT-1d-2024-01.zip",
+      "sha256": "6c1aff1bc82085bb75d3d0a0cf03cd4de37e7b7094e010f0267a0ef5293c8d34"
+    },
+    {
+      "file": "HIGHUSDT-1d-2024-02.zip",
+      "sha256": "3ffafde243d1023afadea661d0c8c9141e28014a816e8722ee98540d7fa84852"
+    },
+    {
+      "file": "HIGHUSDT-1d-2024-03.zip",
+      "sha256": "6a9f808da4a13028b3adb08d605e51495dec93ab21646f461a21ea361d417531"
+    },
+    {
+      "file": "HIGHUSDT-1d-2024-04.zip",
+      "sha256": "30a4effd116850e63a0901d7c57353da72276980f425e592768833171211f8dc"
+    },
+    {
+      "file": "HIGHUSDT-1d-2024-05.zip",
+      "sha256": "5d60845033ac5fb036546b84f5becdd13e1b58547404530384c89e6e485a3152"
+    },
+    {
+      "file": "HIGHUSDT-1d-2024-06.zip",
+      "sha256": "398e938e3dba3f82b930d745e31189d0a3d89fa741f328a58cacefdfd9085744"
+    },
+    {
+      "file": "HIGHUSDT-1d-2024-07.zip",
+      "sha256": "7225bab2c361b48d1d05a8d98c03dd9971f04aa80652998ca683d6e636eeba01"
+    },
+    {
+      "file": "HIGHUSDT-1d-2024-08.zip",
+      "sha256": "61c03cdf781ede406bad52094fca0822d7e3f4e60e9c41913c2dca1cf48eb86a"
+    },
+    {
+      "file": "HIGHUSDT-1d-2024-09.zip",
+      "sha256": "9d220fb2dc5a827516521561f1061e41ad3842433ceca5416bbab61c7d7a7cce"
+    },
+    {
+      "file": "HIGHUSDT-1d-2024-10.zip",
+      "sha256": "c94ed45ce44836964e11c76d4ac6f308cee3319dc2ad8cf261b3bae98f9fd02f"
+    },
+    {
+      "file": "HIGHUSDT-1d-2024-11.zip",
+      "sha256": "eb6f61d834173c5b43e663edcbdd7b917a2875c47db2943d753ace6ba92a4977"
+    },
+    {
+      "file": "HIGHUSDT-1d-2024-12.zip",
+      "sha256": "e403d3ad85db8010b1de2078c9cd92154ac15cabfe8c93de4fa70b6ca08a200a"
+    },
+    {
+      "file": "HIGHUSDT-1d-2025-01.zip",
+      "sha256": "85811d152e3b80f0724ca267c3e899dd935df5866bcc0aef3e3c97f192d81d54"
+    },
+    {
+      "file": "HIGHUSDT-1d-2025-02.zip",
+      "sha256": "5ebb65c828f809e1a739e5d343645d2b915e7c11ca91a863836008a51fb24b37"
+    },
+    {
+      "file": "HIGHUSDT-1d-2025-03.zip",
+      "sha256": "6b4a7d808c7e990c140e3793d3c28372b1c61ee44a7acee67b890cb920787432"
+    },
+    {
+      "file": "HIGHUSDT-1d-2025-04.zip",
+      "sha256": "04c80a0c4eb575ae3d6eb77fb983b40cb48dfc3446c668fad54da054f65ea1a0"
+    },
+    {
+      "file": "HIGHUSDT-1d-2025-05.zip",
+      "sha256": "3aa769496ced873a177fe7dcc14178cd6a02e5bbb85f45af6f974bbf130dbf6b"
+    },
+    {
+      "file": "HIGHUSDT-1d-2025-06.zip",
+      "sha256": "10e729e4f0760262890058285b6370fb04bcb256062ed2a0bb87c439098296c9"
+    },
+    {
+      "file": "HIGHUSDT-1d-2025-07.zip",
+      "sha256": "cf01d2251971698f23c44b4a3c6eddfbfe5c9dcd5f2b2ad154b192f1ce85553c"
+    },
+    {
+      "file": "HIGHUSDT-1d-2025-08.zip",
+      "sha256": "3f81b3c20fedd4d2a14378a8d7a077d12c27ee79a1a0a33ebcef1265ea40039c"
+    },
+    {
+      "file": "HIGHUSDT-1d-2025-09.zip",
+      "sha256": "473b8056b1a45d1cb508261c3fef3fc18f855ad1b337c3072059c72ce33567e7"
+    },
+    {
+      "file": "HIGHUSDT-1d-2025-10.zip",
+      "sha256": "a4f533e0b59184d3109dc1e803b2cba1d0b6469cb515dcd0e0f4078e14ab8804"
+    },
+    {
+      "file": "HIGHUSDT-1d-2025-11.zip",
+      "sha256": "52af7aa437d2fadd32904c9e383e25c50464ecada652adfb6a3ef2c37e7dafdf"
+    },
+    {
+      "file": "HIGHUSDT-1d-2025-12.zip",
+      "sha256": "a52a4f9d685d1bf5206a12db9820ca5ec5ca482acfe1e434d5b442504c9f4907"
+    },
+    {
+      "file": "HIGHUSDT-1d-2026-01.zip",
+      "sha256": "bb8f45ac987de98fb85fa182a9ad5ced1f0163a9ded2de2cf325ec71403d7693"
+    },
+    {
+      "file": "HIGHUSDT-1d-2026-02.zip",
+      "sha256": "22d14794a4edcdb34c845652711457118e80e9bacf7048aa521aae7fd2f8cccf"
+    },
+    {
+      "file": "HIGHUSDT-1d-2026-03.zip",
+      "sha256": "1a8d2cb985901d5581d5dec3661693a736463fb188c9fc7d9f37a584bfc4ecf1"
+    },
+    {
+      "file": "HIGHUSDT-1d-2026-04.zip",
+      "sha256": "31d0ed51a88d3107990514976997fc0d98629b45bcabce4b1f22365f55a59b1a"
+    },
+    {
+      "file": "HIGHUSDT-1d-2026-05.zip",
+      "sha256": "6eb83df80f72800686aa26379affb64a51b2de71075099cdc10b277ed750cb2d"
+    },
+    {
+      "file": "HIGHUSDT-1d-2026-06.zip",
+      "sha256": "73810d2932b09b6fcc1d69f188c5bfbbcb6df8b5f1ff8f9b2507f4f9f5db3ab7"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

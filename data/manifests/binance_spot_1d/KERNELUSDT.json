@@ -1,0 +1,97 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/KERNELUSDT/1d/",
+  "instrument": "KERNELUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-04-14",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:36:56+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 535,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "KERNELUSDT-1d-2025-04.zip",
+      "sha256": "7b8cbcc3e6ddd51b54be2f262d7bf73093a1ee27cf0dda93465375f024c76ee8"
+    },
+    {
+      "file": "KERNELUSDT-1d-2025-05.zip",
+      "sha256": "72481c8a5dede76aaec41be0a36ff515c895bcea9dab8ff64a96dbbae284d451"
+    },
+    {
+      "file": "KERNELUSDT-1d-2025-06.zip",
+      "sha256": "5aa384ec479562c801590b2f706e384f617013b285f093f461300bca5dd9a1b2"
+    },
+    {
+      "file": "KERNELUSDT-1d-2025-07.zip",
+      "sha256": "a275fa044b4c0e3a66db8e5552075ff61489fa436b67eff56f55b81fee13a5da"
+    },
+    {
+      "file": "KERNELUSDT-1d-2025-08.zip",
+      "sha256": "cb75ea68abdfafb70403f2b493450ea95ad9cb7e2105b7c136743cc78b8f51a3"
+    },
+    {
+      "file": "KERNELUSDT-1d-2025-09.zip",
+      "sha256": "43fee24cbfc046a7151895658a7fd682811e9019d29f9d2ddeef002070605960"
+    },
+    {
+      "file": "KERNELUSDT-1d-2025-10.zip",
+      "sha256": "94ce985050e23dc95da23809cade9b4a906846d71a15c3380d87d95f89585dab"
+    },
+    {
+      "file": "KERNELUSDT-1d-2025-11.zip",
+      "sha256": "05866268136c09105b21491aa8df4fae4c311d8973f09eb635f90890f9696c5e"
+    },
+    {
+      "file": "KERNELUSDT-1d-2025-12.zip",
+      "sha256": "6748e3acb008872743d309f595064b7bceaa651df4c3682970a7949f7c2aaa6a"
+    },
+    {
+      "file": "KERNELUSDT-1d-2026-01.zip",
+      "sha256": "9e4e5086e1f8d4c8e2d74f76d5e0fa7fdddae7a9bf1ba2440f238ee108b86b7d"
+    },
+    {
+      "file": "KERNELUSDT-1d-2026-02.zip",
+      "sha256": "6beb99bad9a2e6dd72bb7992efa5d021580c8669ae8000ee5d3be71e8a9a9804"
+    },
+    {
+      "file": "KERNELUSDT-1d-2026-03.zip",
+      "sha256": "4f550aeb918347936aae226b6a1e6d4d7725718c29b1e4f0d0efe460a22ccb36"
+    },
+    {
+      "file": "KERNELUSDT-1d-2026-04.zip",
+      "sha256": "3ecf0b04b27ac9af081b77d18473429b64eac1d5810f5e6fafc40e089404fc48"
+    },
+    {
+      "file": "KERNELUSDT-1d-2026-05.zip",
+      "sha256": "0558d24e33b66473c753164b499f0624eacad2bea6711eedcade2e4601a30c04"
+    },
+    {
+      "file": "KERNELUSDT-1d-2026-06.zip",
+      "sha256": "ddb74bf3fb3535052adf2fcc960b53126df41c68f622d0f6945dc3c84e5cdd81"
+    },
+    {
+      "file": "KERNELUSDT-1d-2026-07.zip",
+      "sha256": "87c4beaf608d0e68a06945c0c2575a5c3aeedc4f3c84a7a4a58416934f01cb46"
+    },
+    {
+      "file": "KERNELUSDT-1d-2026-08.zip",
+      "sha256": "03ab864cf382b6486b42e6237990882805a7cac0219d117ceebbf16c779f153b"
+    },
+    {
+      "file": "KERNELUSDT-1d-2026-09.zip",
+      "sha256": "65d5aa2695cecbfc0e2c6491b9f9f6260b772b996d0413b10ae5a68accb4af2d"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

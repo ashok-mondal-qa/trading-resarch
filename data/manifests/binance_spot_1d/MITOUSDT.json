@@ -1,0 +1,81 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MITOUSDT/1d/",
+  "instrument": "MITOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-08-29",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:32+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 398,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MITOUSDT-1d-2025-08.zip",
+      "sha256": "3842fa10252b5b9fd57259aa163431f20b9279b8b037e35e7f60a45981bfb637"
+    },
+    {
+      "file": "MITOUSDT-1d-2025-09.zip",
+      "sha256": "9d7ea8fd93daa85790f400c0576a3ab5e9119678e07264bfe34d0c2d27044669"
+    },
+    {
+      "file": "MITOUSDT-1d-2025-10.zip",
+      "sha256": "be0f427491fffffdea3d980e55e0614cfc4de29a178169d4316940339c938c91"
+    },
+    {
+      "file": "MITOUSDT-1d-2025-11.zip",
+      "sha256": "3bb63df4547290441dbfc2e64e5b4a067c27d21ecb3808363d48c0bd25ac59e9"
+    },
+    {
+      "file": "MITOUSDT-1d-2025-12.zip",
+      "sha256": "4ff99bbefde9d221ab746fc4f6ca0f68dec09161037903f6b29966310bd24cea"
+    },
+    {
+      "file": "MITOUSDT-1d-2026-01.zip",
+      "sha256": "06ce70d40c240ad0ebeb232a9d7f429ec05fc1a12d448f840a8dc64e1d1d1dbe"
+    },
+    {
+      "file": "MITOUSDT-1d-2026-02.zip",
+      "sha256": "d6247802bb1a626f7c950e5e97cdb9c2a79a0a68d5a883ff66a0818cc445fd3d"
+    },
+    {
+      "file": "MITOUSDT-1d-2026-03.zip",
+      "sha256": "7dc7c5731b9a3c185d306b8d6e54272dbd1405f86218e3e2df111978f69d0e2b"
+    },
+    {
+      "file": "MITOUSDT-1d-2026-04.zip",
+      "sha256": "378d8049d0704e8504d1ddef9e39ab31e14fdc78dd2a7b02acd0a7c245622836"
+    },
+    {
+      "file": "MITOUSDT-1d-2026-05.zip",
+      "sha256": "c346cdf4ca41e9658f8997f575f3319fdadecceb5ba0787e2dcb1cd3a3f0b0da"
+    },
+    {
+      "file": "MITOUSDT-1d-2026-06.zip",
+      "sha256": "a390fbaf82665270cd4b05bf978bbaa60449acb3b434c35c0d2044d4b5df20d9"
+    },
+    {
+      "file": "MITOUSDT-1d-2026-07.zip",
+      "sha256": "78179ed299f6ee24bb47fc607fefcdabac6245769e5c365d01b495cbbbbd50c2"
+    },
+    {
+      "file": "MITOUSDT-1d-2026-08.zip",
+      "sha256": "d87189107bdf533eb92c51616647a2516891cb367d363045190a591dbaf1bafe"
+    },
+    {
+      "file": "MITOUSDT-1d-2026-09.zip",
+      "sha256": "66623758e285d8d78bc06e40a47b8c66c4bb147a20e7ac8f374c17ccea54a8c0"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

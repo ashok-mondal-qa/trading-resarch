@@ -90,3 +90,16 @@ strength. Index values are as published (indices need no corporate-action adjust
 - An index name listed twice in one file is excluded (manifest `excluded_duplicate_names`), never picked.
 - 11 sessions between 2013-10 and 2016-01 have no index file (404 on re-check); they stay missing.
 
+## Binance spot daily candles (`src/trading_research/data/binance.py`, 2026-10-25)
+- Source: Binance's official public archive `data.binance.vision`, `data/spot/monthly/klines/<PAIR>/1d/`, one
+  zip per pair and month with a published SHA-256 `.CHECKSUM`; the S3 bucket listing
+  (`s3-ap-northeast-1.amazonaws.com/data.binance.vision`) includes pairs Binance has delisted.
+  `api.binance.com` is geo-blocked from this environment (HTTP 451) and is not used.
+- Every USDT pair in the listing (677, 2026-10-25), minus stablecoins, fiat, gold tokens, wrapped/staked
+  copies and leveraged tokens. Raw zips kept, checksums verified (a mismatch drops that month), per-pair
+  manifest in `data/manifests/binance_spot_1d/` with missing days and excluded rows. Nothing is filled.
+- Bars are UTC days (open 00:00 UTC = 05:30 IST), prices in USDT as traded; no adjustment needed.
+  Timestamps are milliseconds before 2025 and microseconds from 2025-01-01; both are read.
+- Known issues: some pairs have gaps (exchange suspensions, delist and relist); LUNAUSDT is a reused ticker
+  (Terra Classic until 2022-05-13, Terra 2.0 from 2022-05-31). The crypto runner splits every series at a
+  missing day so pieces never join. Volumes include wash trading; one exchange only.

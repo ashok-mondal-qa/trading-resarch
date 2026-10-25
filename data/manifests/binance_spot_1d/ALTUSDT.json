@@ -1,0 +1,157 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ALTUSDT/1d/",
+  "instrument": "ALTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-01-25",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:25:30+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 980,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ALTUSDT-1d-2024-01.zip",
+      "sha256": "40d82129d44a05d2fd6eb814d37491e0901354f906683b4db3f6e0c8fd9a314a"
+    },
+    {
+      "file": "ALTUSDT-1d-2024-02.zip",
+      "sha256": "fcadf731fedc19a3b350b660e811cda88643a015a39ef2d259e97d227ee6cf4b"
+    },
+    {
+      "file": "ALTUSDT-1d-2024-03.zip",
+      "sha256": "0f5eaa7203dcb7e3bfbe93b7dc13486ef4ccaa583d13553711a75fbf5084fbe9"
+    },
+    {
+      "file": "ALTUSDT-1d-2024-04.zip",
+      "sha256": "fa8b6cf3f0ed68ec664679966b49f25a5f0f7af833b8592a4a35b0e8d5e289da"
+    },
+    {
+      "file": "ALTUSDT-1d-2024-05.zip",
+      "sha256": "393aaf6eca5b57df95aa06269bc3890ce3caae69ed96aa77c496f1471494b31d"
+    },
+    {
+      "file": "ALTUSDT-1d-2024-06.zip",
+      "sha256": "7f3bb8cf95c3e0980e6e9f2f18aee7ab24121bc070148b75a200f47082ac5070"
+    },
+    {
+      "file": "ALTUSDT-1d-2024-07.zip",
+      "sha256": "66c302636ce3145225eb68220998913904de277fce0bd523c1bfc31f544398a3"
+    },
+    {
+      "file": "ALTUSDT-1d-2024-08.zip",
+      "sha256": "5681832f64233685dcbe6c5221a6e5212b9fc42e0ad52058ccef6831116611ce"
+    },
+    {
+      "file": "ALTUSDT-1d-2024-09.zip",
+      "sha256": "96919e9a20e71de4e3bea777c9d31c9749b9b06074a8c7354f571cc008825499"
+    },
+    {
+      "file": "ALTUSDT-1d-2024-10.zip",
+      "sha256": "7cbec50993c80b581241eef0705d054d74ca47b21734fe5ca9c1766bef12e3c8"
+    },
+    {
+      "file": "ALTUSDT-1d-2024-11.zip",
+      "sha256": "3ace6a498697dd74a88143bc93ffbd23a62f71b0d66b63d4326c0fd454ad10bc"
+    },
+    {
+      "file": "ALTUSDT-1d-2024-12.zip",
+      "sha256": "f5be9dcf1a3e581b379f96c9e8b9f75dfc31d3d1496fa1e09e9471dc5990b648"
+    },
+    {
+      "file": "ALTUSDT-1d-2025-01.zip",
+      "sha256": "843f0849157f809de125a0dbf18c55b0393953042f51177eb8be7bf1e51ccd28"
+    },
+    {
+      "file": "ALTUSDT-1d-2025-02.zip",
+      "sha256": "99ba23a3e110321b0f0b4845a6e1195fdec9d3c6aac87b51922daef87722f642"
+    },
+    {
+      "file": "ALTUSDT-1d-2025-03.zip",
+      "sha256": "12c6470f6470627e0d6fa00e45e1fc57dabb4fcd78d3d1dcfef148aa78e90394"
+    },
+    {
+      "file": "ALTUSDT-1d-2025-04.zip",
+      "sha256": "0ba598a7093b9e4ca8101dadac414ae86b75f406c3eb47cd2b7d2f6043d61f19"
+    },
+    {
+      "file": "ALTUSDT-1d-2025-05.zip",
+      "sha256": "6279c3c87131edc5d660058fd9ba39b1d2b905473128df1b0d1a7021c459a129"
+    },
+    {
+      "file": "ALTUSDT-1d-2025-06.zip",
+      "sha256": "e3bd0f97d77756d9b47c5d1cc56e6b8fef5605196ff795f835a061aa731f1d55"
+    },
+    {
+      "file": "ALTUSDT-1d-2025-07.zip",
+      "sha256": "b4cbf0b791f78c568018f0e032ad23d6c8b27ff307f1465bdbb9d8e277ed0d2f"
+    },
+    {
+      "file": "ALTUSDT-1d-2025-08.zip",
+      "sha256": "1171e33af8fa4e64a3e9c505930bac999b84780f88d910bdf8e11ffcc8fcfae6"
+    },
+    {
+      "file": "ALTUSDT-1d-2025-09.zip",
+      "sha256": "7b34fc64cad5f8e0da4df66702c16e63de37c7b43713be4700328adcec82b9b2"
+    },
+    {
+      "file": "ALTUSDT-1d-2025-10.zip",
+      "sha256": "5cca7c9a7f34d729b5938a56053b231bf6655823c47bf7be1429a506685d9812"
+    },
+    {
+      "file": "ALTUSDT-1d-2025-11.zip",
+      "sha256": "2f20e45b64847d38f05a47aeac396262c9c2f1f10124fd710b17e636e7fa875f"
+    },
+    {
+      "file": "ALTUSDT-1d-2025-12.zip",
+      "sha256": "b30420649597e70b8bfc5cb417347c8be1e20c8d9400c32b674dbdacb0d6b5bd"
+    },
+    {
+      "file": "ALTUSDT-1d-2026-01.zip",
+      "sha256": "990aade7d440d87687bd4e9fd6bdebd92367c4e32f080b168ca0ba7f5301c149"
+    },
+    {
+      "file": "ALTUSDT-1d-2026-02.zip",
+      "sha256": "de5619547d4bdf5b1ede7aa69b2f160c995d8720c43c601f05c3c6895b5621ee"
+    },
+    {
+      "file": "ALTUSDT-1d-2026-03.zip",
+      "sha256": "1233bb281ffcc0388ab44f9b42ac1ee35dac81bc5e14f773bcebb8f360b803d5"
+    },
+    {
+      "file": "ALTUSDT-1d-2026-04.zip",
+      "sha256": "76f07fdc88a88115023388445c661508bc5fde234ab98363cb106c4caeca4c6c"
+    },
+    {
+      "file": "ALTUSDT-1d-2026-05.zip",
+      "sha256": "7c61172a1868f287d761eed954e38f6465a17bbc6790e02f1da6ee6d77500b0b"
+    },
+    {
+      "file": "ALTUSDT-1d-2026-06.zip",
+      "sha256": "7a1861a01e5eced709cbb809ee2a8211796e1149aec95958808146ba23eff870"
+    },
+    {
+      "file": "ALTUSDT-1d-2026-07.zip",
+      "sha256": "dadbbffc3169d6a8867e3585d8c96cae831d1cada731fc3ca9319c61b5450e02"
+    },
+    {
+      "file": "ALTUSDT-1d-2026-08.zip",
+      "sha256": "ee47402c32b02783c6201254045cb8821c7c2c9d8bc63a0a94315a882dfe144e"
+    },
+    {
+      "file": "ALTUSDT-1d-2026-09.zip",
+      "sha256": "1e3691ab785d5daa31fdeaa739d7b74d7d175ee6ea01bdc3a9f8107e6ae5662b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

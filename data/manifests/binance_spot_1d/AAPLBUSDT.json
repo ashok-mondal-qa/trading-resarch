@@ -1,0 +1,37 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/AAPLBUSDT/1d/",
+  "instrument": "AAPLBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-07-29",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:24:06+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 64,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "AAPLBUSDT-1d-2026-07.zip",
+      "sha256": "c26fca614603760304146ed2f069f76ef012f8b848387a803677b5d877b0e43a"
+    },
+    {
+      "file": "AAPLBUSDT-1d-2026-08.zip",
+      "sha256": "d525c5c982b643975aa8161b6a8fc3b769bce5facb45d65305452301fc5813bb"
+    },
+    {
+      "file": "AAPLBUSDT-1d-2026-09.zip",
+      "sha256": "c7f50794695e295168f7c7c4d8954249993e1eaebd4b70a79934c204abd827e3"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

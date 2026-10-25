@@ -1,0 +1,125 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/CATIUSDT/1d/",
+  "instrument": "CATIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-09-20",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:29:03+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 741,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "CATIUSDT-1d-2024-09.zip",
+      "sha256": "d0efe422435ea77f9c0594a2cf49f8a279de6c687654807d2c7ed7753f2e4056"
+    },
+    {
+      "file": "CATIUSDT-1d-2024-10.zip",
+      "sha256": "adfc00589564d3d001050e25d290c72236def380c799651b3de832677746ed01"
+    },
+    {
+      "file": "CATIUSDT-1d-2024-11.zip",
+      "sha256": "c16353c9a12a080b93dda7b9f00b80bc8707eb75960fbc510706e35fb98e9aae"
+    },
+    {
+      "file": "CATIUSDT-1d-2024-12.zip",
+      "sha256": "eb3d972e67a2529fb66d04dd0294112a432e6b4ed7aeaa24f9d15d630285672d"
+    },
+    {
+      "file": "CATIUSDT-1d-2025-01.zip",
+      "sha256": "d13b321f7edabbb62eb63820531843c7d5ac1391b3cebba79a4e92c126c92b70"
+    },
+    {
+      "file": "CATIUSDT-1d-2025-02.zip",
+      "sha256": "0b5b783f7ed9afe82ef3c7af04cf31097aafa3d4ad07ce2193b291574cd5fbd6"
+    },
+    {
+      "file": "CATIUSDT-1d-2025-03.zip",
+      "sha256": "04f1371460d4f6982a66de71035b6b96a3e2fb5e53455238bb32e065666195d2"
+    },
+    {
+      "file": "CATIUSDT-1d-2025-04.zip",
+      "sha256": "9539d0c41339f181f09d18f6eff61c9c9b811b05aec294061c91e559a86a001f"
+    },
+    {
+      "file": "CATIUSDT-1d-2025-05.zip",
+      "sha256": "f6e05042ab87e6b91315f8c5b58094b29f70044e81b39593724097c981352b52"
+    },
+    {
+      "file": "CATIUSDT-1d-2025-06.zip",
+      "sha256": "c8f1d2e4e6056d8fd41f68bc2a587658f1a6850273f4b4f5765fd73a47c2eb24"
+    },
+    {
+      "file": "CATIUSDT-1d-2025-07.zip",
+      "sha256": "d6a8a0265d2c8f1b9f4cff07e4df4e2d0c7f8a7f6d95847c8c933c3d162fdbad"
+    },
+    {
+      "file": "CATIUSDT-1d-2025-08.zip",
+      "sha256": "b2ad770c1a41729f8fd8746400bf9d88be6ac87970affb4d9e5dc83ad2a1882f"
+    },
+    {
+      "file": "CATIUSDT-1d-2025-09.zip",
+      "sha256": "9781f249ef8f9a6ca73df4c2f58009f236ea15b1349ad57c4d0da1c2a6d4e099"
+    },
+    {
+      "file": "CATIUSDT-1d-2025-10.zip",
+      "sha256": "9726964aa84a8a496ae07d77ecde7deb001d0d2413efb2b2a991400eaf7d64f1"
+    },
+    {
+      "file": "CATIUSDT-1d-2025-11.zip",
+      "sha256": "38560d61bb6bacee96d535b66d3c08c3a9f017b1dcb075190ef5e1e23e85125e"
+    },
+    {
+      "file": "CATIUSDT-1d-2025-12.zip",
+      "sha256": "5fedbd2f3445dc3e6c03881018c1e7be61b46fdb24a911343854e1ab5ab2c98e"
+    },
+    {
+      "file": "CATIUSDT-1d-2026-01.zip",
+      "sha256": "2bb188824a7782094648df43410228e018a473560aca9850939be3e3b77861ef"
+    },
+    {
+      "file": "CATIUSDT-1d-2026-02.zip",
+      "sha256": "962d9c1f7e9dbafbbced4fbb678fa2bca5126d2d47eb208793dc471105bd5947"
+    },
+    {
+      "file": "CATIUSDT-1d-2026-03.zip",
+      "sha256": "48c863acf21810f64476fddc23f501c876dc5d2e1cba24a546021cd98e3b81db"
+    },
+    {
+      "file": "CATIUSDT-1d-2026-04.zip",
+      "sha256": "8f47ed20edfc3f013153962aa2556d8f7726931ba406a126e1ff876e65ff17e2"
+    },
+    {
+      "file": "CATIUSDT-1d-2026-05.zip",
+      "sha256": "8ae46c5645110bdc8e02bc0d633f6643699308af70c17af9f6bebed8dc534f6e"
+    },
+    {
+      "file": "CATIUSDT-1d-2026-06.zip",
+      "sha256": "93df4a76db8a4cb0eb663a013b16c9ea7dcec17b11b4f48d966d85426889d049"
+    },
+    {
+      "file": "CATIUSDT-1d-2026-07.zip",
+      "sha256": "bb38d56d0680a80448f00e63338fb22a53753a599ddbe8db0ffa44608c7dab7f"
+    },
+    {
+      "file": "CATIUSDT-1d-2026-08.zip",
+      "sha256": "499a257872846c334a811aafcf4c81dda13bbb0f9642440fa39d0625fa86b06b"
+    },
+    {
+      "file": "CATIUSDT-1d-2026-09.zip",
+      "sha256": "94220cc5bf3594ef1c8b908fc5a1995dd5f28f030cb503f262b7d980318c5e7a"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

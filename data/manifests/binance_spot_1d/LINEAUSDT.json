@@ -1,0 +1,77 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/LINEAUSDT/1d/",
+  "instrument": "LINEAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-09-10",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:37:31+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 386,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "LINEAUSDT-1d-2025-09.zip",
+      "sha256": "a455c30c78b7ad2c627f54eb54ecbac4264dc2de7e6d47f03c18def3c6343164"
+    },
+    {
+      "file": "LINEAUSDT-1d-2025-10.zip",
+      "sha256": "57910dcfb49595062c763f8dda20f50d4e9011df0f6b2339d2ba72216d652eb0"
+    },
+    {
+      "file": "LINEAUSDT-1d-2025-11.zip",
+      "sha256": "158032ca1e337b58c08339c27aa38519d458728d9981e05d3e61df06a1651c43"
+    },
+    {
+      "file": "LINEAUSDT-1d-2025-12.zip",
+      "sha256": "8c509349c9a27df6c221f32a54187c2890f596aca17ce7f0f92d5cb70e74f333"
+    },
+    {
+      "file": "LINEAUSDT-1d-2026-01.zip",
+      "sha256": "a736348849479545f4ab36e0c0da6f2de11270019c7b9cde6cda07ab92186fa8"
+    },
+    {
+      "file": "LINEAUSDT-1d-2026-02.zip",
+      "sha256": "9f1b40d03f6a9f000d8899a668dded7a6bfb77426e94aee9aadbb67257ddaf7f"
+    },
+    {
+      "file": "LINEAUSDT-1d-2026-03.zip",
+      "sha256": "1ff87afa178709ba6749e2812ef7afe350e5a3494f7524192e0bcbafcace7fb0"
+    },
+    {
+      "file": "LINEAUSDT-1d-2026-04.zip",
+      "sha256": "0bf6a9917c60fd8899c614c5c42635f083f3d62e66749828993429bdc9b97776"
+    },
+    {
+      "file": "LINEAUSDT-1d-2026-05.zip",
+      "sha256": "4b3dfca3d0d1bb481622f88b8b42a6391bfd63f35d415c1cc9b674ea39c88c03"
+    },
+    {
+      "file": "LINEAUSDT-1d-2026-06.zip",
+      "sha256": "443cbc19c279e2cad2de052921d5963fceb3b4e476091e28218495ba33c30a0e"
+    },
+    {
+      "file": "LINEAUSDT-1d-2026-07.zip",
+      "sha256": "dd79744fe5e0d714b7e7208ca8a2ac89560f1da47f7a738c617457d44a81ab33"
+    },
+    {
+      "file": "LINEAUSDT-1d-2026-08.zip",
+      "sha256": "31007b1bec413b518f5051a691b1769f58eae057c7c6514e7c2d4a2181fd6447"
+    },
+    {
+      "file": "LINEAUSDT-1d-2026-09.zip",
+      "sha256": "e5983427f93b1f398243b7d4c9b675848be6483ed438ec5a82ac5d54a6c17112"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

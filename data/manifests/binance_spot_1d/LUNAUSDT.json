@@ -1,0 +1,339 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/LUNAUSDT/1d/",
+  "instrument": "LUNAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-08-21",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:38:31+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2215,
+  "missing_days": [
+    "2022-05-14",
+    "2022-05-15",
+    "2022-05-16",
+    "2022-05-17",
+    "2022-05-18",
+    "2022-05-19",
+    "2022-05-20",
+    "2022-05-21",
+    "2022-05-22",
+    "2022-05-23",
+    "2022-05-24",
+    "2022-05-25",
+    "2022-05-26",
+    "2022-05-27",
+    "2022-05-28",
+    "2022-05-29",
+    "2022-05-30"
+  ],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "LUNAUSDT-1d-2020-08.zip",
+      "sha256": "ccaed62ba3e494f8a61da48b99260ad9bc596ea26701f0e8cb1f32fee5f2c548"
+    },
+    {
+      "file": "LUNAUSDT-1d-2020-09.zip",
+      "sha256": "beb894ced14c214072868df677a27c0eb8aef5988c6c8329f1e1a3b02038dd20"
+    },
+    {
+      "file": "LUNAUSDT-1d-2020-10.zip",
+      "sha256": "6e245cd902d8ef5b49185414e606401f64fbab63e4ae23e14ac8b796f276012f"
+    },
+    {
+      "file": "LUNAUSDT-1d-2020-11.zip",
+      "sha256": "82313830bf90ddd59f1310a6bac9b09c59337d1a6443c2e5774885b4a2e247fc"
+    },
+    {
+      "file": "LUNAUSDT-1d-2020-12.zip",
+      "sha256": "1bc6d5393e12dc70f2a6715710783b1452fba455f7f81d1cce579a793e8bc2ed"
+    },
+    {
+      "file": "LUNAUSDT-1d-2021-01.zip",
+      "sha256": "e4eb350b042db2d3e24b1670150eaf084713b0fa4ea43af9e1a488654d813d6f"
+    },
+    {
+      "file": "LUNAUSDT-1d-2021-02.zip",
+      "sha256": "1ecf7397ebaf98d834dd4276ad7a00080c81be6c66babc34f21b620b02a888ff"
+    },
+    {
+      "file": "LUNAUSDT-1d-2021-03.zip",
+      "sha256": "db19dda4b06ec8f4a1ee9f40d39976b073bd762703359eb9b3d872881982bec8"
+    },
+    {
+      "file": "LUNAUSDT-1d-2021-04.zip",
+      "sha256": "3c4e0d2e758ff2e0c50e4b3dec7d47d1b389855443d1754db1a5dad385864e53"
+    },
+    {
+      "file": "LUNAUSDT-1d-2021-05.zip",
+      "sha256": "a4c82b11ae3ac26f34be89c7373527d17e6b849597af75c9ff50e702e3eed2a8"
+    },
+    {
+      "file": "LUNAUSDT-1d-2021-06.zip",
+      "sha256": "f9ab636f3bc2793ad7e6bfd64e5e2ead370f0525f3a9f98976fcf1123a36f055"
+    },
+    {
+      "file": "LUNAUSDT-1d-2021-07.zip",
+      "sha256": "9c92aeaee67bf3bd5d92fea329998eff100024a9fb29883f9a0ec003b28a8d2b"
+    },
+    {
+      "file": "LUNAUSDT-1d-2021-08.zip",
+      "sha256": "0beefc2836f31cf653593ab2dcf2e8301de433dddbe6de3dedb13d5d351df4ab"
+    },
+    {
+      "file": "LUNAUSDT-1d-2021-09.zip",
+      "sha256": "97c01663cd889f5e17576c2808abfa27af5b44a038e739ad4b22dec25f5594be"
+    },
+    {
+      "file": "LUNAUSDT-1d-2021-10.zip",
+      "sha256": "d4a0d8fb1b534f7ffade0f51f2637947440453e185ea17eca7072dae0081d95b"
+    },
+    {
+      "file": "LUNAUSDT-1d-2021-11.zip",
+      "sha256": "1e2a6ba6ea46ded7b0aafc626cdb30590eeb6f521bab9cc2ddc48191eb7fbfea"
+    },
+    {
+      "file": "LUNAUSDT-1d-2021-12.zip",
+      "sha256": "08e17fc0e46ae645ed5517d7015e6db047ac70f5f45db5ce19ffc06fbaa5c908"
+    },
+    {
+      "file": "LUNAUSDT-1d-2022-01.zip",
+      "sha256": "3a784bf950fbacebb793ed5e575953bd18aee1902b4b5627b770ef0e7c4332b3"
+    },
+    {
+      "file": "LUNAUSDT-1d-2022-02.zip",
+      "sha256": "6bd1c071fe368ad8262fdc3894ec2f6e2ec1b1e27a63878170d58287018398dd"
+    },
+    {
+      "file": "LUNAUSDT-1d-2022-03.zip",
+      "sha256": "f885f57c63f04d0f3e8d7c6b6e3fedb0f321f4f0fb6227e12f3493041aa1d4b5"
+    },
+    {
+      "file": "LUNAUSDT-1d-2022-04.zip",
+      "sha256": "dc79e0d826b6e087ef9043320d3374234376e3206f8e7961fdd7e9489bbc0b1b"
+    },
+    {
+      "file": "LUNAUSDT-1d-2022-05.zip",
+      "sha256": "bb63b3c8f27a7c71b10a715f31b13aac8e8d6ed73c1f198d851305671d154bb9"
+    },
+    {
+      "file": "LUNAUSDT-1d-2022-06.zip",
+      "sha256": "7d36dccea04f496c11281fddcc517f07b61046b0742c972c7f1fcf64b39e9afa"
+    },
+    {
+      "file": "LUNAUSDT-1d-2022-07.zip",
+      "sha256": "35d8da315311e5d9ba1646c5edf944267037d1e325280fad5d4edad29bfcd83a"
+    },
+    {
+      "file": "LUNAUSDT-1d-2022-08.zip",
+      "sha256": "3cf60a767b2be9da019afc3991d3b1d4dce3ca57fdd2590a08fae62985c6b024"
+    },
+    {
+      "file": "LUNAUSDT-1d-2022-09.zip",
+      "sha256": "4740f9a3347ac7adce734dd5772272b8aa67777a5bba2fc5ad4dd09dba086f2b"
+    },
+    {
+      "file": "LUNAUSDT-1d-2022-10.zip",
+      "sha256": "b4ebb9f5db8d18328a65f489147260286e34811dd2f08e93eca80ad162ce2a07"
+    },
+    {
+      "file": "LUNAUSDT-1d-2022-11.zip",
+      "sha256": "86d20f8f364bffee939fe3494d937c35cd2b97159814416d27a3c70ae9ffafff"
+    },
+    {
+      "file": "LUNAUSDT-1d-2022-12.zip",
+      "sha256": "c7ec589cd54b33d5f11597f5aace4b12fa9e78d328e7664962cbc709728d9721"
+    },
+    {
+      "file": "LUNAUSDT-1d-2023-01.zip",
+      "sha256": "331bdaf317f04ed77e5b85c962d5cf5722c46833b14f449abb4e8f35a2bc1a8b"
+    },
+    {
+      "file": "LUNAUSDT-1d-2023-02.zip",
+      "sha256": "5efb33ecb15c81eeded6653b69a1ad16873eb03011e246dd9e5217f3120aebeb"
+    },
+    {
+      "file": "LUNAUSDT-1d-2023-03.zip",
+      "sha256": "0a147b3dcc25cb9284021bf286c8b07db451b785be74d0b51b427746295b3937"
+    },
+    {
+      "file": "LUNAUSDT-1d-2023-04.zip",
+      "sha256": "9a89cb31a2b060b4813065540e222e5726d1387008c2ca0cc5027fbc2015b41b"
+    },
+    {
+      "file": "LUNAUSDT-1d-2023-05.zip",
+      "sha256": "9f0265c871ed3fd95b1dd60fa3bfe48d993b035d7099c9e43e25b18fd0f136db"
+    },
+    {
+      "file": "LUNAUSDT-1d-2023-06.zip",
+      "sha256": "5d316fbbdf768ac02df060646633fa28b0c051534b1e23f41ae6fbdba14399df"
+    },
+    {
+      "file": "LUNAUSDT-1d-2023-07.zip",
+      "sha256": "4cd6916186906d1fe775ee8678c6908c0b7e6556953083e7a1df855007e30523"
+    },
+    {
+      "file": "LUNAUSDT-1d-2023-08.zip",
+      "sha256": "db6a290e7403fc03f22ff2fafb435c6fc49bb9f99ff2972db510e9a49c6f81e1"
+    },
+    {
+      "file": "LUNAUSDT-1d-2023-09.zip",
+      "sha256": "d49ca2437c08686fd5392bd5584888c710f44953a824f0f836ae7fe5c7a5a000"
+    },
+    {
+      "file": "LUNAUSDT-1d-2023-10.zip",
+      "sha256": "8c41abc8e11343986e48737c48d2aa5d6450c3f873048636555d4a13e1775c99"
+    },
+    {
+      "file": "LUNAUSDT-1d-2023-11.zip",
+      "sha256": "04d84015aa960c119fc9d9fe47f77eab1c2264a0564b3ba708055abfc44bc330"
+    },
+    {
+      "file": "LUNAUSDT-1d-2023-12.zip",
+      "sha256": "fe3c1aed4b9fb0dd51b1a802178cb0919d86eda7f9c5c565afafce8f541b0d5e"
+    },
+    {
+      "file": "LUNAUSDT-1d-2024-01.zip",
+      "sha256": "01999b061ee66f8cef2f7014b565d888bddd723b2f3ca9de8683f4d22a92a975"
+    },
+    {
+      "file": "LUNAUSDT-1d-2024-02.zip",
+      "sha256": "befbb63d033b98981b62ea1cdbdcd723ccdcbdf5abd6a3edc2456879d868fda1"
+    },
+    {
+      "file": "LUNAUSDT-1d-2024-03.zip",
+      "sha256": "ed7143e4ec26941c61f635df224b377bb212f23915b011307c405f3562f01dab"
+    },
+    {
+      "file": "LUNAUSDT-1d-2024-04.zip",
+      "sha256": "89b0a5c3b243c8c74708b42ee5512254a867241b2cc32807de9c4f3c1dc9e2de"
+    },
+    {
+      "file": "LUNAUSDT-1d-2024-05.zip",
+      "sha256": "18dc68f08698645132e7b01dbc5709f168a0084dcd0c78deaf09cb10687c1b96"
+    },
+    {
+      "file": "LUNAUSDT-1d-2024-06.zip",
+      "sha256": "053acf50c35cc09d0a01562e42aae6ff73409470129307c82f1016fbb62d3794"
+    },
+    {
+      "file": "LUNAUSDT-1d-2024-07.zip",
+      "sha256": "443e6dbd91872b6c9fad9ec92c10ff825c7c050132a13de42a59870dab2c2cc1"
+    },
+    {
+      "file": "LUNAUSDT-1d-2024-08.zip",
+      "sha256": "631ccabb7e3e2823d9f962d1470737be83252bba0bfe61ce43f2b6b6cf036346"
+    },
+    {
+      "file": "LUNAUSDT-1d-2024-09.zip",
+      "sha256": "0043fb37e6a65b7763f383beeb29f27f466b5af33138b68110b690c11e1c2286"
+    },
+    {
+      "file": "LUNAUSDT-1d-2024-10.zip",
+      "sha256": "3991ae5b8d2cdf7ffecb00668424d856160d64f459747890857587a9fa89bd9c"
+    },
+    {
+      "file": "LUNAUSDT-1d-2024-11.zip",
+      "sha256": "2496a0eea6936d7da8bf356e860a293bd2bd0e029722ad3aa12e6d372313b6fb"
+    },
+    {
+      "file": "LUNAUSDT-1d-2024-12.zip",
+      "sha256": "24b31f7870b012c082d60b77fbdfbc6aef038d3d9163ad887120170d5e267e98"
+    },
+    {
+      "file": "LUNAUSDT-1d-2025-01.zip",
+      "sha256": "0dd2c02084736208e429b1f33e035c6a9a09cec55d1cacdbc75ce606ade8bd20"
+    },
+    {
+      "file": "LUNAUSDT-1d-2025-02.zip",
+      "sha256": "ea597c0df21f3a74acb051a6d94109cf02d0139676187f5477847e7d66044b70"
+    },
+    {
+      "file": "LUNAUSDT-1d-2025-03.zip",
+      "sha256": "e376dc709b111c056decb625136713b0cbfc172c00d8fb0fffce92691ffeacff"
+    },
+    {
+      "file": "LUNAUSDT-1d-2025-04.zip",
+      "sha256": "68562094e6db2c195e31433db9ef508989a8a62a4190837e00c09723d36f04ec"
+    },
+    {
+      "file": "LUNAUSDT-1d-2025-05.zip",
+      "sha256": "6206470fd25498078412b0673083901608b9ee612633cb493dfecfdfb06494bf"
+    },
+    {
+      "file": "LUNAUSDT-1d-2025-06.zip",
+      "sha256": "250ceafffbad0f5f3e1e9bfaf14f88c97fab09807d3bd6b2722d38695cdc582c"
+    },
+    {
+      "file": "LUNAUSDT-1d-2025-07.zip",
+      "sha256": "ce0316aa401f20fb756705518cee5e7b7fea90a81ba98fc91e753abc4dd80e8f"
+    },
+    {
+      "file": "LUNAUSDT-1d-2025-08.zip",
+      "sha256": "2e93124c2bd8c97c4188b0def3ca62f02508a2f43e7f8b0bd0efd86135ef3e85"
+    },
+    {
+      "file": "LUNAUSDT-1d-2025-09.zip",
+      "sha256": "66ccce778b9841c33f10384481c406749f42d1951f87ff0227ba5526a7f9e206"
+    },
+    {
+      "file": "LUNAUSDT-1d-2025-10.zip",
+      "sha256": "125d0878d7c8f9ebbae3a914f825d083f8e45b435a2bb4ee15db23033ea09e29"
+    },
+    {
+      "file": "LUNAUSDT-1d-2025-11.zip",
+      "sha256": "6d6dc707ee418ee4bba5c455b7d3a2cb1f3af0b5fc0df5e6dc914f8b60323b94"
+    },
+    {
+      "file": "LUNAUSDT-1d-2025-12.zip",
+      "sha256": "3544f27c1f94fed210b3efb45d57ddd423a7377d21c4090041485599459880d7"
+    },
+    {
+      "file": "LUNAUSDT-1d-2026-01.zip",
+      "sha256": "4d7382e8886452e04a852504db250ff7f274b9ff568194d31315081b9bf3e277"
+    },
+    {
+      "file": "LUNAUSDT-1d-2026-02.zip",
+      "sha256": "217ab2591e711a177387ea03a728ab65a642ae3df197903b7a623427f79a2784"
+    },
+    {
+      "file": "LUNAUSDT-1d-2026-03.zip",
+      "sha256": "e67d3516264cf5c167ce4ae327452aa546e69e77762ce4594d59040f2b20f64e"
+    },
+    {
+      "file": "LUNAUSDT-1d-2026-04.zip",
+      "sha256": "75d7b34ba6ea5d4249f56f85b7370ff7e00c2f921d7b6979a2c383eb2f1d3045"
+    },
+    {
+      "file": "LUNAUSDT-1d-2026-05.zip",
+      "sha256": "41f4548e75ae608e21f7931fb0c1d462fc6ba148781bf8bed187f20c8184594d"
+    },
+    {
+      "file": "LUNAUSDT-1d-2026-06.zip",
+      "sha256": "7f8ed777a4814f4b3b22175f0e1738dddb50bc5f434307f2bc5bb11668b601ab"
+    },
+    {
+      "file": "LUNAUSDT-1d-2026-07.zip",
+      "sha256": "7a5c21c46a0bd34657fc413756d905634502a56517501cb440f4b8604249cb45"
+    },
+    {
+      "file": "LUNAUSDT-1d-2026-08.zip",
+      "sha256": "27c37527c2266709f449e2f0254fc5dec31aa7ec9db0241095cdaaac142396ad"
+    },
+    {
+      "file": "LUNAUSDT-1d-2026-09.zip",
+      "sha256": "22ba3ac011b8ba785a5896b770b3ddddea8503417e2a53517c166b9debb4422c"
+    }
+  ],
+  "status": "partial",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

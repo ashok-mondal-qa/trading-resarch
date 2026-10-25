@@ -1,0 +1,197 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/GASUSDT/1d/",
+  "instrument": "GASUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-03-17",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:34:14+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1294,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "GASUSDT-1d-2023-03.zip",
+      "sha256": "b7298483708e6a9b38a2b48957e7383021bf2c69acf775d3a128e934dd4a1f7b"
+    },
+    {
+      "file": "GASUSDT-1d-2023-04.zip",
+      "sha256": "a57e2bf3aa9bc373734b2e9b1ec99c2d8a6bed707e830a70d04f6c9b37e8965e"
+    },
+    {
+      "file": "GASUSDT-1d-2023-05.zip",
+      "sha256": "0efde65124af4e2473c4a95b8bd98b56d8dca5d2c4b6abd09d9f295cd231955d"
+    },
+    {
+      "file": "GASUSDT-1d-2023-06.zip",
+      "sha256": "b6dcd2826b3f60b3023051c26937b60ee1f9767a8c60df2ecf7c8453b67b0cd2"
+    },
+    {
+      "file": "GASUSDT-1d-2023-07.zip",
+      "sha256": "4e045ea67ee3edca36cc1987df6893d9c470a9ff9368d7b0da5b1ae7cdd9c9d3"
+    },
+    {
+      "file": "GASUSDT-1d-2023-08.zip",
+      "sha256": "d6fc3b9448f8881b512d06a0e6854d90d6d300ba46297d92c2416882a915d423"
+    },
+    {
+      "file": "GASUSDT-1d-2023-09.zip",
+      "sha256": "b295cd980a7ee08e3f1d2303e94bb6550689b15395b7fd7b7f4b95581b7aad3a"
+    },
+    {
+      "file": "GASUSDT-1d-2023-10.zip",
+      "sha256": "7972a79c5c209820a3d588237a04b86362ae770e1c82e9c52d83f25772791a44"
+    },
+    {
+      "file": "GASUSDT-1d-2023-11.zip",
+      "sha256": "0aac776794401c3c6ab47acbf3adab6c9ecf6bc58f9ba0a8fe155b387008d610"
+    },
+    {
+      "file": "GASUSDT-1d-2023-12.zip",
+      "sha256": "189479f77ba072f75962309f1e9362fa98b03002a88e2de55d07d4940e633951"
+    },
+    {
+      "file": "GASUSDT-1d-2024-01.zip",
+      "sha256": "f171f7140daa7cddd5aab9dc87eebeb8308613317065d13652120b6a6d036c66"
+    },
+    {
+      "file": "GASUSDT-1d-2024-02.zip",
+      "sha256": "2b4a2b743f5370a76c06dca80432bc100dd18978cbbfdeecf2716b758424c0ed"
+    },
+    {
+      "file": "GASUSDT-1d-2024-03.zip",
+      "sha256": "831f38ce4c8524e68e57a8901de4c5fd9bf8f9cac417882dfcc841168f4bf943"
+    },
+    {
+      "file": "GASUSDT-1d-2024-04.zip",
+      "sha256": "cabf94226bb33d814ea150b430510cb27961249cf74a962994fc35baf9d63d03"
+    },
+    {
+      "file": "GASUSDT-1d-2024-05.zip",
+      "sha256": "9a64fa695f2ef648f28806c5fa38b874f39d8b1ed42c7da0fb4e4a2dc51e615a"
+    },
+    {
+      "file": "GASUSDT-1d-2024-06.zip",
+      "sha256": "4c4199769e3746f2496399027da6c2bb4264a2695a2ae955fad857989277fe1f"
+    },
+    {
+      "file": "GASUSDT-1d-2024-07.zip",
+      "sha256": "c4f9f5d99b8e3c29c13224f59d08d91ef494d95c1b814f7e925877ed071c6692"
+    },
+    {
+      "file": "GASUSDT-1d-2024-08.zip",
+      "sha256": "e4b98ef255403f1e394a078b0b56f8a80760bc79f760b2b4d6a4c015f9b91f9b"
+    },
+    {
+      "file": "GASUSDT-1d-2024-09.zip",
+      "sha256": "ff1e343f58906c014489f0d5cbf41008a1f58249c37415391bd402ea26065df9"
+    },
+    {
+      "file": "GASUSDT-1d-2024-10.zip",
+      "sha256": "95ee5a7860b4bd42a6eb941dc4271491b8bd923944268b1d482d79c29b7d87c8"
+    },
+    {
+      "file": "GASUSDT-1d-2024-11.zip",
+      "sha256": "a3e0008e3637cf4d2187d6202a1e94c635ef542f53661388920fe2558b98a179"
+    },
+    {
+      "file": "GASUSDT-1d-2024-12.zip",
+      "sha256": "5c452247f45d12f49512f05192ea4be8613958151bd4148c88436c092daf80d6"
+    },
+    {
+      "file": "GASUSDT-1d-2025-01.zip",
+      "sha256": "083b4438161db104c17254f89c568677cd11ebf658dc2ca7a93e49b60e3feb59"
+    },
+    {
+      "file": "GASUSDT-1d-2025-02.zip",
+      "sha256": "a698b8c13d6cc8bef4aedf688d2967c6a01092b168d523101dfe5afc824fb753"
+    },
+    {
+      "file": "GASUSDT-1d-2025-03.zip",
+      "sha256": "cd6ac26f491ddbc7e5b46804d178c61e73083f141c1742a6293fa97d61f0ccc8"
+    },
+    {
+      "file": "GASUSDT-1d-2025-04.zip",
+      "sha256": "00a979037c9536a6649c777dd7ad7f4cde3c35323263edb11f78edafefb39afd"
+    },
+    {
+      "file": "GASUSDT-1d-2025-05.zip",
+      "sha256": "4f23e15d3f6b85d9ce26cd94ccb6451aabb224679aae5577fa5ffc9803db2d23"
+    },
+    {
+      "file": "GASUSDT-1d-2025-06.zip",
+      "sha256": "3c44226b6ce4b7edcf44ad37afdd3e1abfd4d5fd658d411fdcff03b78a0c0694"
+    },
+    {
+      "file": "GASUSDT-1d-2025-07.zip",
+      "sha256": "026620b49236f77e0f6c8d77c2165a1e506adb7fc5d3926cbd6335cb17d7d314"
+    },
+    {
+      "file": "GASUSDT-1d-2025-08.zip",
+      "sha256": "0e4a7f966d3e4c51d60579411c333423cc5ea9c193f9db9aeec1b6b859281592"
+    },
+    {
+      "file": "GASUSDT-1d-2025-09.zip",
+      "sha256": "d6cba030e068be2f52d44c28ec9488cee8f42f1b47214d02fe3cb0c2963daed3"
+    },
+    {
+      "file": "GASUSDT-1d-2025-10.zip",
+      "sha256": "497781fcdeff0d214bff4ea02bebd9101a1035b454ac9a74a3a826b9192eeccc"
+    },
+    {
+      "file": "GASUSDT-1d-2025-11.zip",
+      "sha256": "c3683d1df48f6b3da8b3dc93e4204ec5987a88f4391fa2aacc95587615352182"
+    },
+    {
+      "file": "GASUSDT-1d-2025-12.zip",
+      "sha256": "ebb9e3e449960cc6349d8ac7a13c2097e4d8f31c84169b2ac22ff4e3b71110fb"
+    },
+    {
+      "file": "GASUSDT-1d-2026-01.zip",
+      "sha256": "55a913648e9c12e6c3ce22065a25be7e424d30538569be292c06c29de3dbcee1"
+    },
+    {
+      "file": "GASUSDT-1d-2026-02.zip",
+      "sha256": "a936ac2b24b11fff3033e3395a7f15a5d0b3a8f63891ebfc8728f598dc4a8706"
+    },
+    {
+      "file": "GASUSDT-1d-2026-03.zip",
+      "sha256": "5c31e724ffb23298b2aa994631f2e5a74e25ecb3daa5b8515433a8589f2893be"
+    },
+    {
+      "file": "GASUSDT-1d-2026-04.zip",
+      "sha256": "108b489cec6a8e05de6f280da91ea6d1021d5d92cb5a0edd6310eae793b7949c"
+    },
+    {
+      "file": "GASUSDT-1d-2026-05.zip",
+      "sha256": "4b14bc04a2e852ce8aecfa1cd6f45039131f11c7811c659d224438d8e8f82f01"
+    },
+    {
+      "file": "GASUSDT-1d-2026-06.zip",
+      "sha256": "fa16497041020aa15d761ed500cddda331248d910e640796eb7293e237a980c1"
+    },
+    {
+      "file": "GASUSDT-1d-2026-07.zip",
+      "sha256": "efe1e48468874367c5ccef4fe1c70e32cdb7776653cbe3623db328b778cbb8d8"
+    },
+    {
+      "file": "GASUSDT-1d-2026-08.zip",
+      "sha256": "adb7e95ad8d2bd81308b1d97d5c1c1cc8ab681a3d523e5829c4285d535373237"
+    },
+    {
+      "file": "GASUSDT-1d-2026-09.zip",
+      "sha256": "7e88c98ce87f4b76dc3cdc2c0d6cfad0c2fb8f02a93f19eccf4feeb67590c223"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

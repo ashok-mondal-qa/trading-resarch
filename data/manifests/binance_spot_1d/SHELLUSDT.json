@@ -1,0 +1,105 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SHELLUSDT/1d/",
+  "instrument": "SHELLUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-02-27",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:45:01+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 581,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SHELLUSDT-1d-2025-02.zip",
+      "sha256": "49935a2494b2a2743586c59b55c2230eedff68ddaad92668a6ad878d77cdad83"
+    },
+    {
+      "file": "SHELLUSDT-1d-2025-03.zip",
+      "sha256": "015303dab87ddcf54b103542c3a90da9aabbfb00711c4941611ad5052c7f221b"
+    },
+    {
+      "file": "SHELLUSDT-1d-2025-04.zip",
+      "sha256": "df4f4f0a3ac02bb31408894b19e76e020efa486bfd1bccf1aaf79f33100c23e0"
+    },
+    {
+      "file": "SHELLUSDT-1d-2025-05.zip",
+      "sha256": "949abba9c91fe160eb86a42f7039bf3e9100ac895a30a7d5b095804a426b0382"
+    },
+    {
+      "file": "SHELLUSDT-1d-2025-06.zip",
+      "sha256": "033f12557219c121e7c032d2d23ad5e6182a423fb34d92cab4cc9abde4631f0d"
+    },
+    {
+      "file": "SHELLUSDT-1d-2025-07.zip",
+      "sha256": "1fc428690d80466543e4360f605d8a65b46811cbb68d67ae686e857978bbe8d0"
+    },
+    {
+      "file": "SHELLUSDT-1d-2025-08.zip",
+      "sha256": "0a25f2d9e7c589564bfb306825faa1c9f3ff1a2c1d09008196b2affef5e82293"
+    },
+    {
+      "file": "SHELLUSDT-1d-2025-09.zip",
+      "sha256": "dfd92bcc8e92f3775b70b9ead84c290f15690d3cfe3183529b2b1f1bcee94a6a"
+    },
+    {
+      "file": "SHELLUSDT-1d-2025-10.zip",
+      "sha256": "dec9df82d97b7f581751b34fdf167f4fbd8ca635aa1465bc69a2ba7c09002fec"
+    },
+    {
+      "file": "SHELLUSDT-1d-2025-11.zip",
+      "sha256": "9fa9a40565734a90f3e695fa4783e5a4f5a97f039fe00d9884bc45edc8ede7c9"
+    },
+    {
+      "file": "SHELLUSDT-1d-2025-12.zip",
+      "sha256": "8755227bcc72dc4fb90c1f7b4b9245688b69de1d92e6604862cc7859e73a7a0d"
+    },
+    {
+      "file": "SHELLUSDT-1d-2026-01.zip",
+      "sha256": "140cd4a22b42e201ad44ae89bbdb4e2a9a0c63d7f8bf8af8b935117b056a5f4b"
+    },
+    {
+      "file": "SHELLUSDT-1d-2026-02.zip",
+      "sha256": "83c6fc88758c6be2ba91c105175c4b2477cae4c7ec2b4e838981ed2e743b9eb8"
+    },
+    {
+      "file": "SHELLUSDT-1d-2026-03.zip",
+      "sha256": "92efb4318a6ea67ec73740c077ff48ca2980d1a19920a231648f74f62529c0a0"
+    },
+    {
+      "file": "SHELLUSDT-1d-2026-04.zip",
+      "sha256": "13a42ca7a22eaad879023d72bf7d377a016944af81b8c7bb8f875cf160f3cbbb"
+    },
+    {
+      "file": "SHELLUSDT-1d-2026-05.zip",
+      "sha256": "272dda9099e5bb82d4581282ddae33aa04e97c583f0e1ce965095ede82abc2a6"
+    },
+    {
+      "file": "SHELLUSDT-1d-2026-06.zip",
+      "sha256": "ad0a436d9a7693d4a5497c071ce3b47760b2b02f2db1c2379ec6a8dd16ebd394"
+    },
+    {
+      "file": "SHELLUSDT-1d-2026-07.zip",
+      "sha256": "bde2322f7d2626c09f09d15e4cf224e3b0e964cc8ac07472fc182b8e9809eb21"
+    },
+    {
+      "file": "SHELLUSDT-1d-2026-08.zip",
+      "sha256": "78069ec5c66bd280e801ce48d2a58cf4b3ff397c38444517bedb6637bdac49c3"
+    },
+    {
+      "file": "SHELLUSDT-1d-2026-09.zip",
+      "sha256": "adf35f4add877ed4879b784bfc6643f5096a27b34dbf8368e37872ef09f4c9ea"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

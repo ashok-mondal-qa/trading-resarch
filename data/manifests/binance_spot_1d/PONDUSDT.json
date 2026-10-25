@@ -1,0 +1,285 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PONDUSDT/1d/",
+  "instrument": "PONDUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-03-09",
+  "last_bar": "2026-07-10",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:43:09+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1950,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PONDUSDT-1d-2021-03.zip",
+      "sha256": "42095ec9f1beed94fd04f6b9779b2e301b7ad414d31ddabaeca6b6057c8071c2"
+    },
+    {
+      "file": "PONDUSDT-1d-2021-04.zip",
+      "sha256": "2677203977232250eab3fa75cc841228b63ae0ae58e4dd9b8399243e533f8a91"
+    },
+    {
+      "file": "PONDUSDT-1d-2021-05.zip",
+      "sha256": "4cf566b73db07df8800a77a173bc25654c5640a4742c838b3260c33deaa82bfd"
+    },
+    {
+      "file": "PONDUSDT-1d-2021-06.zip",
+      "sha256": "0f10930aea1bc2dbd438f2f393062237601461fcf079693cfc19ddceb1546f7d"
+    },
+    {
+      "file": "PONDUSDT-1d-2021-07.zip",
+      "sha256": "13d092b55274483a7d4234b44df0661fcba0c6286b645b106eb2f7904e0a203f"
+    },
+    {
+      "file": "PONDUSDT-1d-2021-08.zip",
+      "sha256": "c0484bac639ffe52292f998703cdf24bdb3d5e83d28c8eebe146581157df4f9b"
+    },
+    {
+      "file": "PONDUSDT-1d-2021-09.zip",
+      "sha256": "38c09a31b19c664de0bc29c1c9030670be23b72acf23893dfb7ad0e616966fd2"
+    },
+    {
+      "file": "PONDUSDT-1d-2021-10.zip",
+      "sha256": "c9614c76ea0f4a5bf1c80c22b6cb67b97323d1babe4450a351f7ab067ffa30ed"
+    },
+    {
+      "file": "PONDUSDT-1d-2021-11.zip",
+      "sha256": "94d2efc2af53e718a0f2d02b33a10b477ca3fe5290baf963883a68bd0480a291"
+    },
+    {
+      "file": "PONDUSDT-1d-2021-12.zip",
+      "sha256": "27d1cef12e8a4de8ae7caa35234e79cd7872fd3b673c65d2a6ea190b336b0853"
+    },
+    {
+      "file": "PONDUSDT-1d-2022-01.zip",
+      "sha256": "1493af8f992681e30a40f22ada142240fcdf1a8388a0ce430e00479e3bd49c59"
+    },
+    {
+      "file": "PONDUSDT-1d-2022-02.zip",
+      "sha256": "b5ff229519595ce85e99118df9bc2323aa2a089933c8420e2d0206d0b5cce030"
+    },
+    {
+      "file": "PONDUSDT-1d-2022-03.zip",
+      "sha256": "b8b49e10c62e10c26f50a0a905be8c056e5b72dc7086777c1b7eea8cc804e43e"
+    },
+    {
+      "file": "PONDUSDT-1d-2022-04.zip",
+      "sha256": "da93abd882679dbc47c690340cf7c2b9918f68de06761045e64162833f68a009"
+    },
+    {
+      "file": "PONDUSDT-1d-2022-05.zip",
+      "sha256": "042c1b516f02e1fb1084d05b2dbef40d6645aeada08e1e96fa31dbcd3c452d5e"
+    },
+    {
+      "file": "PONDUSDT-1d-2022-06.zip",
+      "sha256": "211c68d440a587d6999611735c443f3fa7e95200e9749663d721675388077d66"
+    },
+    {
+      "file": "PONDUSDT-1d-2022-07.zip",
+      "sha256": "3886e6b00ffcf07582362904ae9d61caca362acb02f2effd0782813bf8865437"
+    },
+    {
+      "file": "PONDUSDT-1d-2022-08.zip",
+      "sha256": "11e80a127cc4cbb4fe0ba7a3a3f2387dbc6b976fa5509c56bef9e0ec66a801b7"
+    },
+    {
+      "file": "PONDUSDT-1d-2022-09.zip",
+      "sha256": "585ea5d32cb39db85562a0e44a9ad64e9d907d5e250ab0d126ac65bde37cebfd"
+    },
+    {
+      "file": "PONDUSDT-1d-2022-10.zip",
+      "sha256": "960caca1d4e3fdb5a2f5727eb659b1bac3e7c855e760903cd13c5bdd83cde3fe"
+    },
+    {
+      "file": "PONDUSDT-1d-2022-11.zip",
+      "sha256": "b49deea3bc6057299c023127e4bba6817b37b92d8541e5b8ab8714af9cb9a026"
+    },
+    {
+      "file": "PONDUSDT-1d-2022-12.zip",
+      "sha256": "fc3db059f21193a87fa29ec869874ec0bf66c4f6244136999dcc81cb0fd7dda8"
+    },
+    {
+      "file": "PONDUSDT-1d-2023-01.zip",
+      "sha256": "0f657bc250ce85ffaa31617a62383f3fd49de4c790307baffc490f69ca50a31a"
+    },
+    {
+      "file": "PONDUSDT-1d-2023-02.zip",
+      "sha256": "2014bc5761700daf00b75671721c1fd8443858f78628dcf25dc3012981ebdd7e"
+    },
+    {
+      "file": "PONDUSDT-1d-2023-03.zip",
+      "sha256": "a8980c105cc571b27354c10575c75c9b5d3eadad81762754695f112be2d6da9f"
+    },
+    {
+      "file": "PONDUSDT-1d-2023-04.zip",
+      "sha256": "d3f55c8e28e516566cda507c3ad9878230b1dd32b1ed50ac6e893b8a704629cb"
+    },
+    {
+      "file": "PONDUSDT-1d-2023-05.zip",
+      "sha256": "2ea9678be488af9dc43ff1d45ccdb1c4afdb15c72904d7b2dc2eefc388e0854a"
+    },
+    {
+      "file": "PONDUSDT-1d-2023-06.zip",
+      "sha256": "8a28e9fd304b4ee2c314ad4638f1ef788582388a5c36dfb83f69328409fee068"
+    },
+    {
+      "file": "PONDUSDT-1d-2023-07.zip",
+      "sha256": "20e70e12a12c919be9e2082a20f030f53eeee1fd7f42c28da9ffb5926914babe"
+    },
+    {
+      "file": "PONDUSDT-1d-2023-08.zip",
+      "sha256": "d9714d178dadb53e8d38d77b4cc0c1d4ac131cbc608606786af09bbffa4ec95b"
+    },
+    {
+      "file": "PONDUSDT-1d-2023-09.zip",
+      "sha256": "f7ed1b3bb721610454cb43ecc6798bd97b5e26d766e1477cd343344786d5529a"
+    },
+    {
+      "file": "PONDUSDT-1d-2023-10.zip",
+      "sha256": "3611afe599774fb7cd4c7203b17666915a73b948f6f67b7ba2726c7fe42f3217"
+    },
+    {
+      "file": "PONDUSDT-1d-2023-11.zip",
+      "sha256": "a7f9e2cd04221632d12988bb6deb58cb87a36ca1c2c8c22720e030b3961fa2fd"
+    },
+    {
+      "file": "PONDUSDT-1d-2023-12.zip",
+      "sha256": "e56d79d788108fd9c723ea87a0d159dfa63b217dbb9c85c508d23b37f5075735"
+    },
+    {
+      "file": "PONDUSDT-1d-2024-01.zip",
+      "sha256": "7a38452035170629323c120ef5aa920227b0ece121c4c3843895c58974cbe1b7"
+    },
+    {
+      "file": "PONDUSDT-1d-2024-02.zip",
+      "sha256": "2e3778518c4352f51e5394f76b94e9829e6977ac3eeac464e8a1a59d3428db4f"
+    },
+    {
+      "file": "PONDUSDT-1d-2024-03.zip",
+      "sha256": "6e480ff1af7c1f5d2ed82caa5d56b6b3bb77b1d8148b5ea5b62a1e1a46c49d4f"
+    },
+    {
+      "file": "PONDUSDT-1d-2024-04.zip",
+      "sha256": "add94a81070c640f62bbb67daf11a07c329b280663686048bb451856d9a49351"
+    },
+    {
+      "file": "PONDUSDT-1d-2024-05.zip",
+      "sha256": "4799f837725cb64034bbb2c93e3c0f819cf82bcc8ca76bc4ddb68a689cf2c483"
+    },
+    {
+      "file": "PONDUSDT-1d-2024-06.zip",
+      "sha256": "7c6fb91eb30fdfa54f58d6c9a4821123e37406f1250a161e1d42ca3c20a19685"
+    },
+    {
+      "file": "PONDUSDT-1d-2024-07.zip",
+      "sha256": "4afba4b88ebbd6ae93921a245ac476e43ede09be3914e1f25f41f5f5c90b5ccf"
+    },
+    {
+      "file": "PONDUSDT-1d-2024-08.zip",
+      "sha256": "1315f76cb7b0ff4c4eb63bc1775bfe26f5316267da5ad200fa77dba950ae6a10"
+    },
+    {
+      "file": "PONDUSDT-1d-2024-09.zip",
+      "sha256": "6081c2412bf5e7fc8c8aa47df9b9c87cdea0dd109b4a2a59ff5e9d7657127878"
+    },
+    {
+      "file": "PONDUSDT-1d-2024-10.zip",
+      "sha256": "d8156e38e168a8c6bfb390c254cd174069f2decd6def2f56758c0a98c86b312f"
+    },
+    {
+      "file": "PONDUSDT-1d-2024-11.zip",
+      "sha256": "6bd3453a13b76a9ba0510e3a1a20c02b471a5a1c3e9194c0c09a4d2526b2629a"
+    },
+    {
+      "file": "PONDUSDT-1d-2024-12.zip",
+      "sha256": "e57b873ed7f67b7e9ca0b3944b0caf3c9441f6e33e58031a8b19f91463dbd475"
+    },
+    {
+      "file": "PONDUSDT-1d-2025-01.zip",
+      "sha256": "7e9c6ac2a553438da8f1147620720eb64ba1b2574a057c676022931f144ac011"
+    },
+    {
+      "file": "PONDUSDT-1d-2025-02.zip",
+      "sha256": "19cdbe5b0a9eebd9b7fd024dc02b54318ba0cff636fa3c17452cd1bdb3fcc6e8"
+    },
+    {
+      "file": "PONDUSDT-1d-2025-03.zip",
+      "sha256": "2c8f555524a8def2e5d00fac4b9a69e5d3a60c65fc9928e1f8cde2d946e92040"
+    },
+    {
+      "file": "PONDUSDT-1d-2025-04.zip",
+      "sha256": "089e7b1f87df731e09f6f0bf799e15e4399cb419db4b6e5b89b4a6797c4a7cb5"
+    },
+    {
+      "file": "PONDUSDT-1d-2025-05.zip",
+      "sha256": "d3a4d9f27ccbdc4c4eab5f929782a364aa24c58fff668de88641068c42c5337d"
+    },
+    {
+      "file": "PONDUSDT-1d-2025-06.zip",
+      "sha256": "69cf8f90203855e96947ab3499e8251e10dd73946214b829471424e231453fa8"
+    },
+    {
+      "file": "PONDUSDT-1d-2025-07.zip",
+      "sha256": "1e44a03d255e3fd68c36ae0efdb849b97e280ed219c87ca079fe882389f9b41d"
+    },
+    {
+      "file": "PONDUSDT-1d-2025-08.zip",
+      "sha256": "272f8ae6895f5e83aaa6fa28b7c1395b43e80988f389958cc01a05767b8283f7"
+    },
+    {
+      "file": "PONDUSDT-1d-2025-09.zip",
+      "sha256": "011e5f402106f754f693b5018dbe0e874113db4a0192637051317c1d37b62207"
+    },
+    {
+      "file": "PONDUSDT-1d-2025-10.zip",
+      "sha256": "bf7a383d2860dcf4bcddccd9a2b94d2d4c19b12ec5e7b1ed9451ac5fd8be262b"
+    },
+    {
+      "file": "PONDUSDT-1d-2025-11.zip",
+      "sha256": "8c4c2831278bb2c44fd19b85f0fb53cb6718dade0da658fb12da760baa2502ca"
+    },
+    {
+      "file": "PONDUSDT-1d-2025-12.zip",
+      "sha256": "f84a328a7ca9bf3757df8aaa8a96df70e74bf161b8cc0da4631a5b8f9e5fe28d"
+    },
+    {
+      "file": "PONDUSDT-1d-2026-01.zip",
+      "sha256": "83931b73099bb7e7c003c4e2c1a2e8427f3642895b4ddc760f865da834e8dcc1"
+    },
+    {
+      "file": "PONDUSDT-1d-2026-02.zip",
+      "sha256": "6f691487b46aa3fcf2fef4e1cb3a1ec7be96588f00d26efd9683e4ad5b25fadb"
+    },
+    {
+      "file": "PONDUSDT-1d-2026-03.zip",
+      "sha256": "04cfd0f327332630c320e8c78a4ec5567d4947e08fda56086672311f6ec5327d"
+    },
+    {
+      "file": "PONDUSDT-1d-2026-04.zip",
+      "sha256": "1fdc6c0fd159facbfab21a02df62f854f7e7aa4f8e65e20c4389b55adaea1e02"
+    },
+    {
+      "file": "PONDUSDT-1d-2026-05.zip",
+      "sha256": "1c79d7980b5dd88586e8c181092f5351e455e9b1738647ab4de1b6a72491f52f"
+    },
+    {
+      "file": "PONDUSDT-1d-2026-06.zip",
+      "sha256": "9f972b96c494cbd99b271713e1a5471888e49b207247b1aa8439ccc1c870243f"
+    },
+    {
+      "file": "PONDUSDT-1d-2026-07.zip",
+      "sha256": "4106d9f4ef4129ebfb0537bc380543fdd9b15fe4b8aef3b43f04022c26da37f8"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

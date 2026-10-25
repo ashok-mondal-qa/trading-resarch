@@ -1,0 +1,317 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/RUNEUSDT/1d/",
+  "instrument": "RUNEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-09-04",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:44:50+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2218,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "RUNEUSDT-1d-2020-09.zip",
+      "sha256": "d3b505f1fd93f551a9d0defcf846acfb59b0e6662123686c8eb5c7f0ca268a9e"
+    },
+    {
+      "file": "RUNEUSDT-1d-2020-10.zip",
+      "sha256": "8c64f81109ef6b547ea4acbcd2b8ebd475914b4611c2398128139f634099c7b2"
+    },
+    {
+      "file": "RUNEUSDT-1d-2020-11.zip",
+      "sha256": "a9a8d73928b0effb6381512216d71dae3dcc47d6bdb6d40defe460b82656a4b6"
+    },
+    {
+      "file": "RUNEUSDT-1d-2020-12.zip",
+      "sha256": "a4ea80b77b7770ee51d1b67b0c42a8720f7c03d185b496f789c6fa9156d4c471"
+    },
+    {
+      "file": "RUNEUSDT-1d-2021-01.zip",
+      "sha256": "5f57deddd2cfa689c705a759473c3c5c4e11bf5caf0fca2a86b1cc3e42021605"
+    },
+    {
+      "file": "RUNEUSDT-1d-2021-02.zip",
+      "sha256": "1ec94a244637c249a229f8045b5fdc83919341f98b86258e9936105e155cf6e4"
+    },
+    {
+      "file": "RUNEUSDT-1d-2021-03.zip",
+      "sha256": "bd0636699043ec68f7c3ee111c5e3eb5967e07f6fd7f537522b144a28d1fa1a2"
+    },
+    {
+      "file": "RUNEUSDT-1d-2021-04.zip",
+      "sha256": "49c8246aa332c13cce0a697bd27c1997ebf5b77a87b2c40adf51db9391a5f08f"
+    },
+    {
+      "file": "RUNEUSDT-1d-2021-05.zip",
+      "sha256": "0bb28471bdc225c24f3bef3e6073f3c20d9e01d3722c4106da25e1b27ac682bd"
+    },
+    {
+      "file": "RUNEUSDT-1d-2021-06.zip",
+      "sha256": "0ed61a9cf7f8236611bd8ad7c41cdccf9f1a19268f861b0995d0f386999d771f"
+    },
+    {
+      "file": "RUNEUSDT-1d-2021-07.zip",
+      "sha256": "7ff64511c0c3b1b00d6328dfb0a36938e09b7ec4fb6354a709a8ab8810d5a362"
+    },
+    {
+      "file": "RUNEUSDT-1d-2021-08.zip",
+      "sha256": "f5a952e55238a54886cc5133394b1c5d09f3bb6d0164571be0c244c0a32d6a1e"
+    },
+    {
+      "file": "RUNEUSDT-1d-2021-09.zip",
+      "sha256": "9dc0e14a3d4836c43fb4ccfdc960f6ab4b9752b17bddea8efc5789d09b57c188"
+    },
+    {
+      "file": "RUNEUSDT-1d-2021-10.zip",
+      "sha256": "f5cb3b08ea002098cdb4254eae3b84d0a73d63f92e62f0ee594f77bd90b3fb29"
+    },
+    {
+      "file": "RUNEUSDT-1d-2021-11.zip",
+      "sha256": "b99a91505adc7da54e5f88f1129498f7b001fd44f07d5ebd29342fc4c7529f18"
+    },
+    {
+      "file": "RUNEUSDT-1d-2021-12.zip",
+      "sha256": "90308481ff99bd3808a274e2964e18b555987371a223fd6534ed3e30932b87cd"
+    },
+    {
+      "file": "RUNEUSDT-1d-2022-01.zip",
+      "sha256": "8a3b92cbaeec8856571c7cf173294a189867b0bf725d225ff1d5ab71cec35b9e"
+    },
+    {
+      "file": "RUNEUSDT-1d-2022-02.zip",
+      "sha256": "e5928fcac460779a483bfeed39e39757373b68ed6ea1b6bba4441194d7d3ef7f"
+    },
+    {
+      "file": "RUNEUSDT-1d-2022-03.zip",
+      "sha256": "c4737c20a24fc98186d99fab4686f80f870956ccad1fc65bba5ea18ba1498f3b"
+    },
+    {
+      "file": "RUNEUSDT-1d-2022-04.zip",
+      "sha256": "1086194768abfbe02cb51d158924a2062cb98f77f2f391b987df07d0f0b69b5d"
+    },
+    {
+      "file": "RUNEUSDT-1d-2022-05.zip",
+      "sha256": "bbe98c3d9a5e297caaa1e5d471d232603da77086c24ce4fcb5ca214e9f108af8"
+    },
+    {
+      "file": "RUNEUSDT-1d-2022-06.zip",
+      "sha256": "2257abeafeffe7bbee7c0612d45ee48ad741bd53832c54e723c2a061774f59d0"
+    },
+    {
+      "file": "RUNEUSDT-1d-2022-07.zip",
+      "sha256": "afa3d94c286064f702c592404ca6d8ebf272586af6f2b5cf775e27ee1a6b9c02"
+    },
+    {
+      "file": "RUNEUSDT-1d-2022-08.zip",
+      "sha256": "038683899a05ac90575bffa6c477f76df64ac65b8515a1caa969ff077c6e61d0"
+    },
+    {
+      "file": "RUNEUSDT-1d-2022-09.zip",
+      "sha256": "bd8fb78682c7a1b1b84ab799f9d689082f0ab55ac6f24e11d044ff2dc560d9d4"
+    },
+    {
+      "file": "RUNEUSDT-1d-2022-10.zip",
+      "sha256": "0e915f53d998f90ef3ecc1af0500f442c52a53656ff4cdf0bea62b231313add3"
+    },
+    {
+      "file": "RUNEUSDT-1d-2022-11.zip",
+      "sha256": "5e9947342557728c148d4745399c64260e6737b89d82404e62bfd4dde8b58bf4"
+    },
+    {
+      "file": "RUNEUSDT-1d-2022-12.zip",
+      "sha256": "88f7eb5b257e9f87f82b2894193db603121c9f6ecdf1541b85b298c698e54431"
+    },
+    {
+      "file": "RUNEUSDT-1d-2023-01.zip",
+      "sha256": "f1bc413c85205931dd9b48b6459544cd7b700709a430edcbeda06b6786b1e24e"
+    },
+    {
+      "file": "RUNEUSDT-1d-2023-02.zip",
+      "sha256": "2b3f543b1028af19673a22f43528e2bf5d04b2c8f47a638bc406fd26f0cc133c"
+    },
+    {
+      "file": "RUNEUSDT-1d-2023-03.zip",
+      "sha256": "f003ef57a83dbcc4275f3c9027d6eb4815f7c5136488271e9f4cef947ab5ddef"
+    },
+    {
+      "file": "RUNEUSDT-1d-2023-04.zip",
+      "sha256": "86d9cf1b82aacb48a9c9506d8f1340aa31bd1f578bde1b286a28650d7b7caff1"
+    },
+    {
+      "file": "RUNEUSDT-1d-2023-05.zip",
+      "sha256": "48f00acb903795141f7a423d3768aee776d1976fc203cee10f34ecb069b3d313"
+    },
+    {
+      "file": "RUNEUSDT-1d-2023-06.zip",
+      "sha256": "ab58fa4d48e4a59f379e0386af69b3035602f9f9a014a5191341e3ffd6b4b600"
+    },
+    {
+      "file": "RUNEUSDT-1d-2023-07.zip",
+      "sha256": "aeb5f038367132da461063bb24a33bdca272b6beb7f75788f33d6be770ac7d0f"
+    },
+    {
+      "file": "RUNEUSDT-1d-2023-08.zip",
+      "sha256": "88041a76dcb9abc28e903b049554d606cef63038486f104a32bfd70774a665e0"
+    },
+    {
+      "file": "RUNEUSDT-1d-2023-09.zip",
+      "sha256": "46f8f4fb762b08dc72fe3edb0140032dd6c5a7d251d6a668074f33f51052f328"
+    },
+    {
+      "file": "RUNEUSDT-1d-2023-10.zip",
+      "sha256": "1a7835fd8b6a3731a7b22ab46dd6b402bd4f7e879ff5e8b9321b8d89cf974113"
+    },
+    {
+      "file": "RUNEUSDT-1d-2023-11.zip",
+      "sha256": "e0b5773a5d10379ae912cba4a8a79a8e1731998a3a422169814f3d495bf921b1"
+    },
+    {
+      "file": "RUNEUSDT-1d-2023-12.zip",
+      "sha256": "bc4d4f564c2ba7d7aca7466e4cbf0b617def39cc92af77bff8347fd66209ef92"
+    },
+    {
+      "file": "RUNEUSDT-1d-2024-01.zip",
+      "sha256": "0cbf2d135ec5fd11d67b18f6bb03fa3ccfb4af6fc7cf8ce6555a6b034fa549b0"
+    },
+    {
+      "file": "RUNEUSDT-1d-2024-02.zip",
+      "sha256": "32cad2bee8b9739efc5bb0b570d1b7c5d8d48f856b39934989e6eaf517ffdd83"
+    },
+    {
+      "file": "RUNEUSDT-1d-2024-03.zip",
+      "sha256": "d48b463c7120b1a3a4657c9fc625a0e5ac15368582b81acc2a9b353797f831c1"
+    },
+    {
+      "file": "RUNEUSDT-1d-2024-04.zip",
+      "sha256": "6e46ff3fd92326589811ae21b9b20e29c7aba5d58065f22a53acad26a01bc115"
+    },
+    {
+      "file": "RUNEUSDT-1d-2024-05.zip",
+      "sha256": "f73d7ab9d1c8b3025fbd865df3fc8e654b484a2ba25101bb51f83ed1eb537ce7"
+    },
+    {
+      "file": "RUNEUSDT-1d-2024-06.zip",
+      "sha256": "b00d468087b4ff821f90117555c7b292b3db5c0e989f5bcb43faee77695c4ae3"
+    },
+    {
+      "file": "RUNEUSDT-1d-2024-07.zip",
+      "sha256": "d02dfcea1818d0fa894881d47c3a2ed1891035f58406430fe1c69f8385b8ac8c"
+    },
+    {
+      "file": "RUNEUSDT-1d-2024-08.zip",
+      "sha256": "2c50f0867481c397fd88cc53688864dad2301fd6360d5eab5a043f1793f2c7fa"
+    },
+    {
+      "file": "RUNEUSDT-1d-2024-09.zip",
+      "sha256": "5cead2889a969912bbea8a6693d30a94a736b16f91a1d079f998a0eccf802b60"
+    },
+    {
+      "file": "RUNEUSDT-1d-2024-10.zip",
+      "sha256": "492be6930acc90ba8e47ec0bc2a082e61a66682669d927f149070ced688571ca"
+    },
+    {
+      "file": "RUNEUSDT-1d-2024-11.zip",
+      "sha256": "a5cbef9f77d00fc1831ce317e5043d99aabe6f4f2e5aded11cea400a3141386a"
+    },
+    {
+      "file": "RUNEUSDT-1d-2024-12.zip",
+      "sha256": "b9b75956fbb51c0fa3a69e1d59e5616d881cfd82c238aadc711831162baec065"
+    },
+    {
+      "file": "RUNEUSDT-1d-2025-01.zip",
+      "sha256": "7d71bde707d0014b8f8a8840f8ba87acc2f553af19b8b4adb8fb119c2c280117"
+    },
+    {
+      "file": "RUNEUSDT-1d-2025-02.zip",
+      "sha256": "5b1a490a62f238820371d69d61f9996890a8dbe59350c7f44b5563733437e189"
+    },
+    {
+      "file": "RUNEUSDT-1d-2025-03.zip",
+      "sha256": "b4e3673193fb74d121ff7269d5b9b1ed387260df7573b5a8c67ebf40e478eb62"
+    },
+    {
+      "file": "RUNEUSDT-1d-2025-04.zip",
+      "sha256": "309628b93b5e3bdca6df55686add0a823b1a490dbe1ca83471ba38373e1d6094"
+    },
+    {
+      "file": "RUNEUSDT-1d-2025-05.zip",
+      "sha256": "9da41fd407aac4b483ab29385de2480f703afc493eacb1230da16b226c5b7a78"
+    },
+    {
+      "file": "RUNEUSDT-1d-2025-06.zip",
+      "sha256": "908fb337a4a9c5a53e71a572e89686ee04653649d8dc147bb8b24b9af34c15f4"
+    },
+    {
+      "file": "RUNEUSDT-1d-2025-07.zip",
+      "sha256": "ad365d05d704d20c17151c9aecb1cc55174b643bc179aca399131ef4b6b138f9"
+    },
+    {
+      "file": "RUNEUSDT-1d-2025-08.zip",
+      "sha256": "9f8c64fe0b2f4a9ce9f263b76cd5bab41d62518537de3dc34634ee86d426a309"
+    },
+    {
+      "file": "RUNEUSDT-1d-2025-09.zip",
+      "sha256": "384a8857e24195be2bc5615b53e2a3258f55907889de97c062d8c0683c53fb57"
+    },
+    {
+      "file": "RUNEUSDT-1d-2025-10.zip",
+      "sha256": "3baad2e74261f56f4cf8242a24e850976bd3c00960eda185bba59a627157d379"
+    },
+    {
+      "file": "RUNEUSDT-1d-2025-11.zip",
+      "sha256": "3bd5a8443cd780579b7c6460c4163124f7cbc5604a1a87ed671ea365b280a00d"
+    },
+    {
+      "file": "RUNEUSDT-1d-2025-12.zip",
+      "sha256": "62aac9c277f90f5727757706f04f583467b1611cc50a4217fc22cc1539890451"
+    },
+    {
+      "file": "RUNEUSDT-1d-2026-01.zip",
+      "sha256": "db4a0f8907110b14e11e1ce6bd26cc938bde0459ab87de2e7707350ff43ce5b6"
+    },
+    {
+      "file": "RUNEUSDT-1d-2026-02.zip",
+      "sha256": "5852e54f707ae0756bc301d6cb1d05a701cf5528cf12aa7126395f82f59834fc"
+    },
+    {
+      "file": "RUNEUSDT-1d-2026-03.zip",
+      "sha256": "2e6633b489581ad90ad28f70e57a97bb5effdffda7bb13a3a9238f83d9e57863"
+    },
+    {
+      "file": "RUNEUSDT-1d-2026-04.zip",
+      "sha256": "0ae7118a7c1d5f05154ad2f9397acb2388c56b60bcf816154fb046eb0a91215b"
+    },
+    {
+      "file": "RUNEUSDT-1d-2026-05.zip",
+      "sha256": "3a181b606707bf43d433b518408c2341dba8d2ea8bbed4e7dc28e46043085d64"
+    },
+    {
+      "file": "RUNEUSDT-1d-2026-06.zip",
+      "sha256": "d544e8fe2d4aa5c963878bedab8078bce4b881322c03a8f8e9a3bcf5f1cac560"
+    },
+    {
+      "file": "RUNEUSDT-1d-2026-07.zip",
+      "sha256": "623a9b1767f2df5cc3f623713bef32c76d22971981fc5806aa27391ab1c11e38"
+    },
+    {
+      "file": "RUNEUSDT-1d-2026-08.zip",
+      "sha256": "5f202e56af8c0494ab66a10912f9cfb2db397d61ec8fa1d5b61a4cb7a859106d"
+    },
+    {
+      "file": "RUNEUSDT-1d-2026-09.zip",
+      "sha256": "7d9be28ba97d7014f8f84c3799e6b3b6c7ead999020838169c4d57c59e7ecd88"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

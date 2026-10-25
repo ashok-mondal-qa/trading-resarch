@@ -121,3 +121,24 @@ def test_metrics_summary():
     assert s["win_rate"] == 0.5 and s["profit_factor"] == pytest.approx(3.0)
     assert s["expectancy_r"] == pytest.approx(0.5) and s["max_drawdown"] == pytest.approx(99 / 110 - 1)
     assert s["inconclusive_lt_30_trades"]
+
+
+def test_profit_target_fills_at_target_or_gap_open(settings):
+    f = frame(opens=[100, 101, 102, 104, 99, 99], highs=[101, 103, 106, 105, 100, 100],
+              lows=[99, 100, 101, 103, 98, 98], closes=[100, 102, 105, 104, 99, 99])
+    f["target"] = 105.0
+    t = run({"A": f}, {DATES[0]: ["A"]}, settings).trades.iloc[0]
+    assert t["exit_date"] == DATES[2] and t["exit"] == 105 and t["reason"] == "target"
+    g = f.copy()
+    g["open"] = [100, 101, 108, 104, 99, 99]
+    g["high"] = [101, 103, 109, 105, 100, 100]
+    t = run({"A": g}, {DATES[0]: ["A"]}, settings).trades.iloc[0]
+    assert t["exit"] == 108 and t["reason"] == "target (gap)"   # gap above the target fills at the open
+
+
+def test_stop_checked_before_target_on_the_same_day(settings):
+    f = frame(opens=[100, 101, 100, 100, 100, 100], highs=[101, 102, 106, 101, 101, 101],
+              lows=[99, 100, 94, 99, 99, 99], closes=[100, 101, 100, 100, 100, 100])
+    f["target"] = 105.0
+    t = run({"A": f}, {DATES[0]: ["A"]}, settings).trades.iloc[0]
+    assert t["reason"] == "stop" and t["exit"] == 95

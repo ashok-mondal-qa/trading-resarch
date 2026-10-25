@@ -1,0 +1,437 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/QTUMUSDT/1d/",
+  "instrument": "QTUMUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2018-03-19",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:44:13+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 3118,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "QTUMUSDT-1d-2018-03.zip",
+      "sha256": "02c5aaed3ffb55af2321ab9ac1b0856d275fe679e8735764e1a0dd06e66772b9"
+    },
+    {
+      "file": "QTUMUSDT-1d-2018-04.zip",
+      "sha256": "e3e8ec07342c424771d14600730e43cd6e55d8045325b4239f0174bd7c680a13"
+    },
+    {
+      "file": "QTUMUSDT-1d-2018-05.zip",
+      "sha256": "31c6947babeecec9c5eb32055201220f5b537caf494ca2d1ed8c47a103885a78"
+    },
+    {
+      "file": "QTUMUSDT-1d-2018-06.zip",
+      "sha256": "29a2b7cd540541e89a9dddbd875e2a2dd7a98db8ae7d01fa85fff8e997480862"
+    },
+    {
+      "file": "QTUMUSDT-1d-2018-07.zip",
+      "sha256": "10da04a83880347a8ceb2bd6e4838b779d7498f585e6651a57b11ad3448abb32"
+    },
+    {
+      "file": "QTUMUSDT-1d-2018-08.zip",
+      "sha256": "01ae3296cf9406f5439350155a66cb8cbfed70b144e995195e26bd829fd065f0"
+    },
+    {
+      "file": "QTUMUSDT-1d-2018-09.zip",
+      "sha256": "862fde40f1797b21df3fb27e3329aeef4d32f922125e8153758be98711534cd6"
+    },
+    {
+      "file": "QTUMUSDT-1d-2018-10.zip",
+      "sha256": "8972e1c3b0c9b3e3f83a1fa57ebf04856a0a84164a3e544df3b7a43bdb5cda46"
+    },
+    {
+      "file": "QTUMUSDT-1d-2018-11.zip",
+      "sha256": "07bca3d407085be9b0d948d424f9f695f4eef267d785a48708f6964ea51ef767"
+    },
+    {
+      "file": "QTUMUSDT-1d-2018-12.zip",
+      "sha256": "95936e5ef0a307b53fe316380a2df45220f949a3a1e6b06ef229bd7abf1a4971"
+    },
+    {
+      "file": "QTUMUSDT-1d-2019-01.zip",
+      "sha256": "5c530169a68179896a5a82b85ddccf7c93c9672cc9de736ac06eae17cb425048"
+    },
+    {
+      "file": "QTUMUSDT-1d-2019-02.zip",
+      "sha256": "566c58abb5ffad9f6a5dbd07a846fab49d803e93899d60586e62da663d5f4a32"
+    },
+    {
+      "file": "QTUMUSDT-1d-2019-03.zip",
+      "sha256": "4bb985a8c5942800250bb994475d8a5077f721e53ada8b31681330b4af558e89"
+    },
+    {
+      "file": "QTUMUSDT-1d-2019-04.zip",
+      "sha256": "908f04c29393e12fd9667eaa9f6ed6b08161768a1d25ca3160a805e906bd315d"
+    },
+    {
+      "file": "QTUMUSDT-1d-2019-05.zip",
+      "sha256": "d521b14b3b372ecc82af5672d910614b66bbe51ebdb724335fb89964963bb1a0"
+    },
+    {
+      "file": "QTUMUSDT-1d-2019-06.zip",
+      "sha256": "571282bb3fff81813cb30477404e2bd3a10c77fe45453f07810d31ecab2f1932"
+    },
+    {
+      "file": "QTUMUSDT-1d-2019-07.zip",
+      "sha256": "990a82c85c431bebee04d8d8145496f82af744577860d9169414cc303dd826e7"
+    },
+    {
+      "file": "QTUMUSDT-1d-2019-08.zip",
+      "sha256": "350d21be0f5a7448d69d45366b5f7dffc0b46fd8acddbdd56812f88b57a15467"
+    },
+    {
+      "file": "QTUMUSDT-1d-2019-09.zip",
+      "sha256": "699982cd688aa5af91ea5e0115840c1d760d5482fee12466843a04d8481b4a93"
+    },
+    {
+      "file": "QTUMUSDT-1d-2019-10.zip",
+      "sha256": "ed17a6764f1ccc9f142f18bebfeca4b29978ee6f5c4696c94d3c17eb1fa0a0fb"
+    },
+    {
+      "file": "QTUMUSDT-1d-2019-11.zip",
+      "sha256": "b4e35705cb2abcbfef15ba89fb40d9c082031f6e3f6459091d9cef095e9e0535"
+    },
+    {
+      "file": "QTUMUSDT-1d-2019-12.zip",
+      "sha256": "840c0a22586e9dfc16dd2afa07f2eae9a5e16d34c2fc34fc088b7ab438725ae2"
+    },
+    {
+      "file": "QTUMUSDT-1d-2020-01.zip",
+      "sha256": "0a47419fd444f73a884acd7ce7775de1921225d9ddc59cfb046050cd8564b9b9"
+    },
+    {
+      "file": "QTUMUSDT-1d-2020-02.zip",
+      "sha256": "e3b03431d7efdbb9ce664307c6e529f9b53614e464068f5c9269c7ed6c56c6ee"
+    },
+    {
+      "file": "QTUMUSDT-1d-2020-03.zip",
+      "sha256": "cdf0faca30bced0f29997087ed4a8aec8b3b19373f7a9d9ab2ea90c6435ca246"
+    },
+    {
+      "file": "QTUMUSDT-1d-2020-04.zip",
+      "sha256": "ed1fb94ed433d47631b7880d6bb4127d8e5fe71f966bdc30880078833237a45e"
+    },
+    {
+      "file": "QTUMUSDT-1d-2020-05.zip",
+      "sha256": "b58cf35d8ed3b179cb1454680d312d9a91cce2b14dd9f7a0d0032285c994c809"
+    },
+    {
+      "file": "QTUMUSDT-1d-2020-06.zip",
+      "sha256": "fed7d8d8b3fd4170ea2b8393a644fa443474a04e6f3c31d135b19e08f9340701"
+    },
+    {
+      "file": "QTUMUSDT-1d-2020-07.zip",
+      "sha256": "170f87af91dbad0181ae5ee8db1119c5f6a5a04829d9331fd08331bf3d9f943b"
+    },
+    {
+      "file": "QTUMUSDT-1d-2020-08.zip",
+      "sha256": "e47235772f53be3deec7be4ae41f582d412ef8ce84fa9c03bf9ea4769a15e3fc"
+    },
+    {
+      "file": "QTUMUSDT-1d-2020-09.zip",
+      "sha256": "1e6de08dbb6bcd375f17cc26240bd8bfbc8ec3cacfbe3cc2fd0bbd6bd5de63f1"
+    },
+    {
+      "file": "QTUMUSDT-1d-2020-10.zip",
+      "sha256": "7de106d1fb534743ac015d6141b4fcdd038a8f3ea796b57c336272f98d78521c"
+    },
+    {
+      "file": "QTUMUSDT-1d-2020-11.zip",
+      "sha256": "fe2812275e3b2d9f58f53aa31778935f7729329188dec0ffaa2a9f387003c049"
+    },
+    {
+      "file": "QTUMUSDT-1d-2020-12.zip",
+      "sha256": "b9b631fb21dd070a1e4a783367cf3f87eb15a534a1e75f88405682e8b656a787"
+    },
+    {
+      "file": "QTUMUSDT-1d-2021-01.zip",
+      "sha256": "79c960ffe7dbba7b9cfe121df1577be33c7bf2d9d1b1f4f60ed2a7e30260b2c1"
+    },
+    {
+      "file": "QTUMUSDT-1d-2021-02.zip",
+      "sha256": "00bd1e71c36b7b8b6ad7ff099adcc56e3104a1a248f3c530c4bda51557a1cc41"
+    },
+    {
+      "file": "QTUMUSDT-1d-2021-03.zip",
+      "sha256": "f10db8b2b33f0ebf259996d1fa786462352fa3da47b8a918e11d0caeb79b0c73"
+    },
+    {
+      "file": "QTUMUSDT-1d-2021-04.zip",
+      "sha256": "2b93827ca70c43153213b7e69a04922d752b049616769c8e53b30341cbfeaee6"
+    },
+    {
+      "file": "QTUMUSDT-1d-2021-05.zip",
+      "sha256": "095f796bb1d7365bd6aeb8bbd3f4016c2e93cdb1a5080ef1d0d4dd7716cafabd"
+    },
+    {
+      "file": "QTUMUSDT-1d-2021-06.zip",
+      "sha256": "5ed72ddb0aad3f38125a494b834a3cc10890c580611f985b19dcb789f8c45016"
+    },
+    {
+      "file": "QTUMUSDT-1d-2021-07.zip",
+      "sha256": "4a9c986e184441659d29f2d9b81430517a1e758c12892598f02babc4521e22df"
+    },
+    {
+      "file": "QTUMUSDT-1d-2021-08.zip",
+      "sha256": "b53746c1c184a72c157ea8210a79ecef2dd6a20964fb282ed4147ab3e391375a"
+    },
+    {
+      "file": "QTUMUSDT-1d-2021-09.zip",
+      "sha256": "27184f380a62ac2cdbd252b354273b349fd5f75ffb1b76456ef4bb6f2908e2f8"
+    },
+    {
+      "file": "QTUMUSDT-1d-2021-10.zip",
+      "sha256": "54ec3e1f05e0cca9d9aa0cda71476adaac2917ad30c1d605a55b2304060fd5d4"
+    },
+    {
+      "file": "QTUMUSDT-1d-2021-11.zip",
+      "sha256": "fd962dcdd06e3170fef5b43436c5697814319e694b43f93388aadd8ee9e29fed"
+    },
+    {
+      "file": "QTUMUSDT-1d-2021-12.zip",
+      "sha256": "820efa06a06c4039752d03e8a14e07ec4ddf741a4f1363c2722d48d962630d84"
+    },
+    {
+      "file": "QTUMUSDT-1d-2022-01.zip",
+      "sha256": "5122972a70ac396689b865bb753fe246ca3b1bc616eaea13cc39756e9dc03186"
+    },
+    {
+      "file": "QTUMUSDT-1d-2022-02.zip",
+      "sha256": "9f38e05f0280b253127aafac1994d33c29bf5ec2c9b9e73f55d2a75374624f7a"
+    },
+    {
+      "file": "QTUMUSDT-1d-2022-03.zip",
+      "sha256": "5137f9dc44f27765d81dbfefc16cf2ee64075c8c7d4afd67c6387186ec8bb874"
+    },
+    {
+      "file": "QTUMUSDT-1d-2022-04.zip",
+      "sha256": "031e368a34443fa284d7c992e6fc8893eeda807fa0afe70f6f70fdd3c27b9ac7"
+    },
+    {
+      "file": "QTUMUSDT-1d-2022-05.zip",
+      "sha256": "774124d11d3030f1edf972b4c10970423959376d5c081478c4026c4f785b7564"
+    },
+    {
+      "file": "QTUMUSDT-1d-2022-06.zip",
+      "sha256": "01fda9eda35636a7d83fa2271654d01cccf71bb0eb4dfc13d3113b60e26b9290"
+    },
+    {
+      "file": "QTUMUSDT-1d-2022-07.zip",
+      "sha256": "307153eee941435e9156c21d4a464bbd4afb434508bcb6e0060c285e0b6a5bd2"
+    },
+    {
+      "file": "QTUMUSDT-1d-2022-08.zip",
+      "sha256": "44829fb85e8cc7c49d4be1c513e826cee67efef7965dba959c220a4759340336"
+    },
+    {
+      "file": "QTUMUSDT-1d-2022-09.zip",
+      "sha256": "2abdedcbdba6042dd2bcb437e04564829820a7749adcfec2804feb0c80f37856"
+    },
+    {
+      "file": "QTUMUSDT-1d-2022-10.zip",
+      "sha256": "b9c15d0f4db718a7f5842323c9e387723b45eb89f6b3b44668d7121e237800da"
+    },
+    {
+      "file": "QTUMUSDT-1d-2022-11.zip",
+      "sha256": "c9c8c3e6ee474a5c7bdd6abcdc4c95550e99e7ef8cb3c075df1f396c40d23a7a"
+    },
+    {
+      "file": "QTUMUSDT-1d-2022-12.zip",
+      "sha256": "4a47ab0f7f7686811d347c2ade718172caba0c8652476fc9895d88bd03c70e2c"
+    },
+    {
+      "file": "QTUMUSDT-1d-2023-01.zip",
+      "sha256": "2430840bf56b3ba5f633c6ceb64a41e791e8ab3e272617c97766ef704b90a5a4"
+    },
+    {
+      "file": "QTUMUSDT-1d-2023-02.zip",
+      "sha256": "ff5f36fc62ae0612bc050e4a3236eab200b7d7e3d8576aabc94b07adef48f46c"
+    },
+    {
+      "file": "QTUMUSDT-1d-2023-03.zip",
+      "sha256": "02081cc49549b2ed3bd995797bd997a3a007eef359a09f8099cd73c3dd071777"
+    },
+    {
+      "file": "QTUMUSDT-1d-2023-04.zip",
+      "sha256": "89c42f4f68e7fa778668d08e7a77f78ee869b2e608e0116383181cfa06f8b255"
+    },
+    {
+      "file": "QTUMUSDT-1d-2023-05.zip",
+      "sha256": "e69a13c01ba5b90cd7ee39852ef5787e57856ff6fb47d5d281be221e4031990d"
+    },
+    {
+      "file": "QTUMUSDT-1d-2023-06.zip",
+      "sha256": "c0534b78bbccf0635f6c4299c759bf3981875d65400e190fa4931052c1259a55"
+    },
+    {
+      "file": "QTUMUSDT-1d-2023-07.zip",
+      "sha256": "db44ac84ec203269745a8222eccf4759033af5711e52a3d159b3a73b760c7691"
+    },
+    {
+      "file": "QTUMUSDT-1d-2023-08.zip",
+      "sha256": "480672b6e518f322eeab9f8a9147b1ecfe7b5abd16352948083a40e629e4122d"
+    },
+    {
+      "file": "QTUMUSDT-1d-2023-09.zip",
+      "sha256": "e2858b8a22ff3aaaa7a99da5bb7720fdb3e421f6c58e6e3cc631811da250ad18"
+    },
+    {
+      "file": "QTUMUSDT-1d-2023-10.zip",
+      "sha256": "43f96cccc75e22fa46da4fc0c0244c32b2d4e13a7aa6d7f70ab069e6ba19befa"
+    },
+    {
+      "file": "QTUMUSDT-1d-2023-11.zip",
+      "sha256": "a7abddeef169fa98cfdac691850338328007e91031fa9fcfd053e897cdd5467b"
+    },
+    {
+      "file": "QTUMUSDT-1d-2023-12.zip",
+      "sha256": "5875c9847dd7be015dc80588cf940d60eeffd988487ef2248c42d3f9b60039a2"
+    },
+    {
+      "file": "QTUMUSDT-1d-2024-01.zip",
+      "sha256": "958454a3a1e252de3d5a4db4ca18860489ed4bc45ebfd67bfa752f8585b22fdd"
+    },
+    {
+      "file": "QTUMUSDT-1d-2024-02.zip",
+      "sha256": "3c14d2c830865762381d5ec3b04319bf9e56a2613dd027314405e16b7ce96054"
+    },
+    {
+      "file": "QTUMUSDT-1d-2024-03.zip",
+      "sha256": "08a64095ce469c5acab781f024a451af93438f9bbb63a0651c972b484afdbac2"
+    },
+    {
+      "file": "QTUMUSDT-1d-2024-04.zip",
+      "sha256": "1446b4b2216d93cc8a5e3b32b32af3ae5976ef36bd62e3adfcb963f150f69cc4"
+    },
+    {
+      "file": "QTUMUSDT-1d-2024-05.zip",
+      "sha256": "ed09670e6f9146b54cce811162ee1142438151398b1cb1d5d02a5265f8828076"
+    },
+    {
+      "file": "QTUMUSDT-1d-2024-06.zip",
+      "sha256": "f9c77e8f025ec4ea8adc9a320fc243eded3555f20a29712913111b4ee6d844fd"
+    },
+    {
+      "file": "QTUMUSDT-1d-2024-07.zip",
+      "sha256": "4d99b8812f5aa3bd2cf577e082704f9b97bb8c9b0043d7d39a230c4a55af0ff9"
+    },
+    {
+      "file": "QTUMUSDT-1d-2024-08.zip",
+      "sha256": "7bc341b197e2f4fe70159ba47957d3e29ca4e99bc47ea1e20f79038d66aa7043"
+    },
+    {
+      "file": "QTUMUSDT-1d-2024-09.zip",
+      "sha256": "54dadcc3c494749332637feb7417ee0ed4e55e3255c764720ca299d7d228c803"
+    },
+    {
+      "file": "QTUMUSDT-1d-2024-10.zip",
+      "sha256": "e591dcf8879f510af4379f8fc5ea9955cd28b96cb8818d0e8c9f2c3081fd1917"
+    },
+    {
+      "file": "QTUMUSDT-1d-2024-11.zip",
+      "sha256": "47c9ddfc362f82a9471dd8385ab09609895dbb1b2214ec4b61633c28caa72280"
+    },
+    {
+      "file": "QTUMUSDT-1d-2024-12.zip",
+      "sha256": "e9569c5893468c0ac1182fb78027ba4de1a8f761f783c187343e4c27256f9cb0"
+    },
+    {
+      "file": "QTUMUSDT-1d-2025-01.zip",
+      "sha256": "3e6818471a4718a7a96e1b321c37937e548c8b8d58d3a43734235b35f2496225"
+    },
+    {
+      "file": "QTUMUSDT-1d-2025-02.zip",
+      "sha256": "8dd4d88a63da2e261229bf18583e39dbd2d2191d3289b723c59f4f6ef2a66bbf"
+    },
+    {
+      "file": "QTUMUSDT-1d-2025-03.zip",
+      "sha256": "dde0c34e95ef17431012afacab07dd02a99bf82ca9eb59766b7a312f51fdaee4"
+    },
+    {
+      "file": "QTUMUSDT-1d-2025-04.zip",
+      "sha256": "6648463e824f95378470fcd9c500e0cdeceefa57ec95f3d507482cd6f39276b8"
+    },
+    {
+      "file": "QTUMUSDT-1d-2025-05.zip",
+      "sha256": "f317b856c6ce86870305ec7a662fcb75a42ee4254ada5f724c91cde6a7a37950"
+    },
+    {
+      "file": "QTUMUSDT-1d-2025-06.zip",
+      "sha256": "2e1cbb6f155696e5e0a889548afb59bd042c1cb14f27f3933b109cce3afc114a"
+    },
+    {
+      "file": "QTUMUSDT-1d-2025-07.zip",
+      "sha256": "e743492d2a2c936df56167e278d5fb8c91390264ef19d7af0f42ab90ce1c0911"
+    },
+    {
+      "file": "QTUMUSDT-1d-2025-08.zip",
+      "sha256": "095aed9f23b4b0faf4de1a9ea34a6638803730965786e1c57325c532fe1e46db"
+    },
+    {
+      "file": "QTUMUSDT-1d-2025-09.zip",
+      "sha256": "7067082333160514c767a36c1f65ec53271d94d32aeb3c41f3923c762091f973"
+    },
+    {
+      "file": "QTUMUSDT-1d-2025-10.zip",
+      "sha256": "d9b900882d9518bfa59c14de0f4d72c33e3a68991b7f0ae8a999ca9043e4be5c"
+    },
+    {
+      "file": "QTUMUSDT-1d-2025-11.zip",
+      "sha256": "18cf1ffeac5c8778368096d07e684fd9822336b01d33d9c81d5edc5e2489d2b4"
+    },
+    {
+      "file": "QTUMUSDT-1d-2025-12.zip",
+      "sha256": "995c6431fd89ef49adbc8d4903dd7878b736f480cac27c5cb9ab7533947bfe32"
+    },
+    {
+      "file": "QTUMUSDT-1d-2026-01.zip",
+      "sha256": "89ace262e2f15b91c1e077487c6a486565748dd2a6b28d31b87cba412d5c4e08"
+    },
+    {
+      "file": "QTUMUSDT-1d-2026-02.zip",
+      "sha256": "c8ea95977b21e358a1fc7af04daea7d5266be0c66ae0a0a561fbf00ee9919a60"
+    },
+    {
+      "file": "QTUMUSDT-1d-2026-03.zip",
+      "sha256": "01dfffbe164fd2fa3498f8f489429c982e30c8248666a469e11bbfcce5767e17"
+    },
+    {
+      "file": "QTUMUSDT-1d-2026-04.zip",
+      "sha256": "c68fd867dbe8e1a2bfc85a7e2a46c9a928bae9b0f16d2e834fa3bb736319fe37"
+    },
+    {
+      "file": "QTUMUSDT-1d-2026-05.zip",
+      "sha256": "7a3ac84181f18d0dcf0789719d0dc0bac75df8098ecd687caece6718fad913e5"
+    },
+    {
+      "file": "QTUMUSDT-1d-2026-06.zip",
+      "sha256": "dd9e87310b5548df50646b0e6464d43808f5954ace08af576bb66acc9d8c06ed"
+    },
+    {
+      "file": "QTUMUSDT-1d-2026-07.zip",
+      "sha256": "76194c6a869e79c782da2d7f103db37fab8aa16524147f94469c35ca038f817b"
+    },
+    {
+      "file": "QTUMUSDT-1d-2026-08.zip",
+      "sha256": "69100562270cfb52de52c18d6bf25fa0df48fd9e7c2c1026bf6195b503aa6341"
+    },
+    {
+      "file": "QTUMUSDT-1d-2026-09.zip",
+      "sha256": "8da6bdbe5416fb0e6752993c7a6ac8d6b81dc3dcd7c71c63d1dffc8755e9f299"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

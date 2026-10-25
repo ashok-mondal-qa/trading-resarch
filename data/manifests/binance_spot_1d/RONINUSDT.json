@@ -1,0 +1,153 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/RONINUSDT/1d/",
+  "instrument": "RONINUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-02-05",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:44:17+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 969,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "RONINUSDT-1d-2024-02.zip",
+      "sha256": "5a181454f48b556d8a6cb1d979e11d0f00addb44f6cd54c9649b2273ea2ff50a"
+    },
+    {
+      "file": "RONINUSDT-1d-2024-03.zip",
+      "sha256": "9b96ee9291f494003e3f05ac301d2280ef2f207b23997fb2d2df86092b56bef2"
+    },
+    {
+      "file": "RONINUSDT-1d-2024-04.zip",
+      "sha256": "20cec41ee4acc2a52f379a6b94aaad820a1c21c174875097c10e26423892a471"
+    },
+    {
+      "file": "RONINUSDT-1d-2024-05.zip",
+      "sha256": "83331d00a81d3e592f13517212fdebb3118ffcf3e068eff00da92043f46ff59c"
+    },
+    {
+      "file": "RONINUSDT-1d-2024-06.zip",
+      "sha256": "73e9664fd3968be1767b994c36734875f71e56ba4ee9d719dc39481f53171a4e"
+    },
+    {
+      "file": "RONINUSDT-1d-2024-07.zip",
+      "sha256": "89cdd0aabf83d905078be6fe398149a96f5f6721781696c88ad85c0d297d4dc3"
+    },
+    {
+      "file": "RONINUSDT-1d-2024-08.zip",
+      "sha256": "6427550e5d8562e29bacb4f9ef5b6c5400015a1c1dd9a53675fafd9501d915cf"
+    },
+    {
+      "file": "RONINUSDT-1d-2024-09.zip",
+      "sha256": "c730447b4777ac68eb9e751d2c065416554b53037ea472fc17a77b3435977cc5"
+    },
+    {
+      "file": "RONINUSDT-1d-2024-10.zip",
+      "sha256": "65b47676e9421fbb0dfbcb2daacfcab692483c0053fda751035a6103a4c936ca"
+    },
+    {
+      "file": "RONINUSDT-1d-2024-11.zip",
+      "sha256": "a626109d0fa3b9a4057e1dc3dc6e9c1fe1161fd207503d48913ecdc1a12f269f"
+    },
+    {
+      "file": "RONINUSDT-1d-2024-12.zip",
+      "sha256": "2a3c7f24700899eae88085862890dcc369ebdcb5ad0c5f3e6c15730c8211d804"
+    },
+    {
+      "file": "RONINUSDT-1d-2025-01.zip",
+      "sha256": "51454685977042095418c7706a0d57982a569f5f49c843ca9b9de61457fa4f40"
+    },
+    {
+      "file": "RONINUSDT-1d-2025-02.zip",
+      "sha256": "4d1935f6927517642223e406502481671da18720f537535d15dbabfcdeaa1f47"
+    },
+    {
+      "file": "RONINUSDT-1d-2025-03.zip",
+      "sha256": "d0a71e920b79b5753f4322f1baaa71d8b5c1e8d96db6fa4cf6ff096deb44ddb7"
+    },
+    {
+      "file": "RONINUSDT-1d-2025-04.zip",
+      "sha256": "fc7b27fe7ea0294c31e983c14d0ff40c2c9621097bd6f66d84b741999f6c3ed5"
+    },
+    {
+      "file": "RONINUSDT-1d-2025-05.zip",
+      "sha256": "039757987af99d66b046849ea25ffc28eccbe52bd618da99dad3b02e6ee6da4d"
+    },
+    {
+      "file": "RONINUSDT-1d-2025-06.zip",
+      "sha256": "c3466f18edeb13c22a65a32aca71966e51f764404c2ad0a786160a4327a6063e"
+    },
+    {
+      "file": "RONINUSDT-1d-2025-07.zip",
+      "sha256": "6af2c89bd50ac665ce3ba0d7f29593af09285c0df2a93283b7d3ef8660997987"
+    },
+    {
+      "file": "RONINUSDT-1d-2025-08.zip",
+      "sha256": "91677ea2d4737a43100af416aa54a25b5b5018e7b95167c57041e024bfdba2c0"
+    },
+    {
+      "file": "RONINUSDT-1d-2025-09.zip",
+      "sha256": "504bbe16997ca5a4bd0963ef613c1f7320e243722d51024a15532eab45cd0d2e"
+    },
+    {
+      "file": "RONINUSDT-1d-2025-10.zip",
+      "sha256": "717b8758728a25fe8f1c20424297df262be3013c30da9c585efcfc89343d3707"
+    },
+    {
+      "file": "RONINUSDT-1d-2025-11.zip",
+      "sha256": "c003b5c90b1ea0e78b5189201025823ab5dc3173e5dd5a135082382545904165"
+    },
+    {
+      "file": "RONINUSDT-1d-2025-12.zip",
+      "sha256": "679b630f457ab4e6d5bdd1f882fbe651e06bc0d5826d5ddf03defaf0635e8997"
+    },
+    {
+      "file": "RONINUSDT-1d-2026-01.zip",
+      "sha256": "fefa7e9c9d6005d9873155973ab8f30e068bad143453dbbe96df1d63c711fcc9"
+    },
+    {
+      "file": "RONINUSDT-1d-2026-02.zip",
+      "sha256": "56ac32e16dd9568e813f1ac7a9bbbf499e854562a4f70b97b8e0f6a60512aaf0"
+    },
+    {
+      "file": "RONINUSDT-1d-2026-03.zip",
+      "sha256": "69bd70f50e7d56541cbda69a8dd44b1b324d1397880e402a5ebb2aec1f509e3d"
+    },
+    {
+      "file": "RONINUSDT-1d-2026-04.zip",
+      "sha256": "6ade7b625603f1f4278fdc235065e0775be2bd074065f69e76fd7cf792e6b562"
+    },
+    {
+      "file": "RONINUSDT-1d-2026-05.zip",
+      "sha256": "534bea0ff3e363ccfea42cddba3d49ae7bd0cf4b4177fca55fafef25fe58dfce"
+    },
+    {
+      "file": "RONINUSDT-1d-2026-06.zip",
+      "sha256": "6395045286a413b809fec937775349bfd5654d644c9f4f67ee972ad6024d7de4"
+    },
+    {
+      "file": "RONINUSDT-1d-2026-07.zip",
+      "sha256": "06ee0aea4ee7448596d53f3f0d421207112921f71546bc5e8efb302cdbcdb0e9"
+    },
+    {
+      "file": "RONINUSDT-1d-2026-08.zip",
+      "sha256": "44f409d59945779939ef64e8725e70f66f7bacc4bb633f4df94541449f71936c"
+    },
+    {
+      "file": "RONINUSDT-1d-2026-09.zip",
+      "sha256": "eb6e20fae10d63d204efe32406048da4838ffa285b18f627381d233b49fe9378"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

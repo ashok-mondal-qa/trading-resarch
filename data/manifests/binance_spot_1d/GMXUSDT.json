@@ -1,0 +1,217 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/GMXUSDT/1d/",
+  "instrument": "GMXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-10-05",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:34:38+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1457,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "GMXUSDT-1d-2022-10.zip",
+      "sha256": "da729961521c24667e07bc1114eb08a26a6182f212dc84b886be8c2b579b43f2"
+    },
+    {
+      "file": "GMXUSDT-1d-2022-11.zip",
+      "sha256": "e3938bb86fe2b4f45f0915c1dee25ee60fccc347d333079f65962c3d8a5e71b4"
+    },
+    {
+      "file": "GMXUSDT-1d-2022-12.zip",
+      "sha256": "67f56514746e7a8513c0c00c4bc3eb7f74ef050acb6047b6a157e3078d5d862e"
+    },
+    {
+      "file": "GMXUSDT-1d-2023-01.zip",
+      "sha256": "8ea3fed140fda261405350b0974c7cdddee352c03350ca3607cecec928c17c2b"
+    },
+    {
+      "file": "GMXUSDT-1d-2023-02.zip",
+      "sha256": "66d1f32d77b40c7a79415ab30e11d87ac53fceba5ad14dbb0a6cc621d5669ba0"
+    },
+    {
+      "file": "GMXUSDT-1d-2023-03.zip",
+      "sha256": "064bb3ccacf38270673294db0363d18ab1474516faf0b230b00859e8e9564d23"
+    },
+    {
+      "file": "GMXUSDT-1d-2023-04.zip",
+      "sha256": "912bac51fd4c597d9a91c1849cab69e4ded35adbb0472a994122f5764ad31a95"
+    },
+    {
+      "file": "GMXUSDT-1d-2023-05.zip",
+      "sha256": "84b086b0ef246e8c71cd410bbd7372cd8bc9961b3a0b9e1875e2dc3b2228a018"
+    },
+    {
+      "file": "GMXUSDT-1d-2023-06.zip",
+      "sha256": "3ed6784b2e5a1d3964ba544608472fe012a6668f08ce4c1862ccfa7b3c6d90f0"
+    },
+    {
+      "file": "GMXUSDT-1d-2023-07.zip",
+      "sha256": "a3c69c9a1ee674e8cc35403bff1c1016529652cbdd1c73f4beb953d95c3fbe2f"
+    },
+    {
+      "file": "GMXUSDT-1d-2023-08.zip",
+      "sha256": "564976ca140216407d266d1e4aeeaefeca0f41799b5ac3f98d098740965a9d4c"
+    },
+    {
+      "file": "GMXUSDT-1d-2023-09.zip",
+      "sha256": "571adde4c34087d23094ceab08d3399587e186f3c59dfdd9a58e434314f3fad6"
+    },
+    {
+      "file": "GMXUSDT-1d-2023-10.zip",
+      "sha256": "0b70f85e0b28916fc11c21e49a969f40bbd4df5da4e869739eb881a593cb348d"
+    },
+    {
+      "file": "GMXUSDT-1d-2023-11.zip",
+      "sha256": "af8f4e0c193b5c556400719f873d0f141d70708f76987d2dc957bf767264007e"
+    },
+    {
+      "file": "GMXUSDT-1d-2023-12.zip",
+      "sha256": "ccb54cca64c912941a2dbe5d003ba01b1209f780fa17f906b3da317293dae579"
+    },
+    {
+      "file": "GMXUSDT-1d-2024-01.zip",
+      "sha256": "533ea4f6a96a98fe6dbe0aab69bedef0aa7379805ab9362b45d2d6f70bcd35ff"
+    },
+    {
+      "file": "GMXUSDT-1d-2024-02.zip",
+      "sha256": "db8c611d2351ff9f9830938cf6a00768db30ad23cdd2e248b208187e564b474e"
+    },
+    {
+      "file": "GMXUSDT-1d-2024-03.zip",
+      "sha256": "6ee26be32e508d206d8b8f0aaf076dea892981987ef770ddec43a2f95d392a3e"
+    },
+    {
+      "file": "GMXUSDT-1d-2024-04.zip",
+      "sha256": "58a340b7bfb3790c0e73c6e8b80cce91ba800ebbb0802340fd87fbf96fa3db09"
+    },
+    {
+      "file": "GMXUSDT-1d-2024-05.zip",
+      "sha256": "12c54331e5bc021dceda766004f6d8942ee2c2faa4b87b9528da6e1b6335151f"
+    },
+    {
+      "file": "GMXUSDT-1d-2024-06.zip",
+      "sha256": "cd20e1a940c3e84569084c6399f0905a8a17011ccc1b25d434d518991aa29f50"
+    },
+    {
+      "file": "GMXUSDT-1d-2024-07.zip",
+      "sha256": "711761060e480f574815701a732b10532c6dc504f2d3c51a0baac4d8efdc755c"
+    },
+    {
+      "file": "GMXUSDT-1d-2024-08.zip",
+      "sha256": "fbd25291115e7e246e0bae0061b0573b15cf0792c35545baa4a26024561197e4"
+    },
+    {
+      "file": "GMXUSDT-1d-2024-09.zip",
+      "sha256": "8878563f48d78a6042aeb6facbddf24d3a5e355fe22cacb3b17a764b48c44e6a"
+    },
+    {
+      "file": "GMXUSDT-1d-2024-10.zip",
+      "sha256": "3837af221670ec107ebf0b4a2173f8954e28b6e9c5e8de13c5edf110d292fd34"
+    },
+    {
+      "file": "GMXUSDT-1d-2024-11.zip",
+      "sha256": "ba2d116a81f366055aee8f3279c127275b75a1b91934a85ebee4b5056ed66c2f"
+    },
+    {
+      "file": "GMXUSDT-1d-2024-12.zip",
+      "sha256": "3da288a7280a8ff209230209df1d715736829ca003edc3b60d9e6e9f92f13c44"
+    },
+    {
+      "file": "GMXUSDT-1d-2025-01.zip",
+      "sha256": "ff70bfb1831944f56c0a97a0c6f8cc09f6c24659774aa1f7a728484849254f84"
+    },
+    {
+      "file": "GMXUSDT-1d-2025-02.zip",
+      "sha256": "625380cf4122b7b7407e3179cb44c5d69df92d915f9cae303f1e46563e81b49e"
+    },
+    {
+      "file": "GMXUSDT-1d-2025-03.zip",
+      "sha256": "417f98d199537e5a4e303eb8749e812041c0454e9512df9d0940e98d21d92b09"
+    },
+    {
+      "file": "GMXUSDT-1d-2025-04.zip",
+      "sha256": "cc65da88625681d34e95a7dd592d56a20e1f3dcf8365227d04a4c11da38c45f6"
+    },
+    {
+      "file": "GMXUSDT-1d-2025-05.zip",
+      "sha256": "5e77a23d3fb43b3743cd54f228850e079c39d1292c60c1ab41df49a033910808"
+    },
+    {
+      "file": "GMXUSDT-1d-2025-06.zip",
+      "sha256": "e6c53a4bfa4e7c1a654eb1848e193d5073ea1f33dc271c44e12d1d96e016f2bb"
+    },
+    {
+      "file": "GMXUSDT-1d-2025-07.zip",
+      "sha256": "a37e19fc6ae1e5b6569db20724b1502210eef2c22266fba4860499b12182a4c5"
+    },
+    {
+      "file": "GMXUSDT-1d-2025-08.zip",
+      "sha256": "4ced409b84885fafe420bce57ebdda21e72fb2d484698856c47f120ad85183a1"
+    },
+    {
+      "file": "GMXUSDT-1d-2025-09.zip",
+      "sha256": "b88f1def706e69b438f914183e76d90ef8c0f07448c2798a5ddf13458faeb867"
+    },
+    {
+      "file": "GMXUSDT-1d-2025-10.zip",
+      "sha256": "49d191f3eaffff8cc5f17cf043560f894214c4b26425176d39cea4beb9395d2d"
+    },
+    {
+      "file": "GMXUSDT-1d-2025-11.zip",
+      "sha256": "ddb7ea8f329975087bdade44f81a36ed2716759f5b3e87888a727d98248407d9"
+    },
+    {
+      "file": "GMXUSDT-1d-2025-12.zip",
+      "sha256": "02a1c3d030b7a5ddf996774813b33e16366ca329210e4f0f7e93d9148811172d"
+    },
+    {
+      "file": "GMXUSDT-1d-2026-01.zip",
+      "sha256": "27cd208eced10150bb9f77c2971b713c1f8058a9dbd201884a18dd569a4a49c5"
+    },
+    {
+      "file": "GMXUSDT-1d-2026-02.zip",
+      "sha256": "6564d05dabc0ed8b1f23f262cd317cc50947c622a0acd20ac8062a91556767fd"
+    },
+    {
+      "file": "GMXUSDT-1d-2026-03.zip",
+      "sha256": "319464d7ca5b1be0bdf85f2fe87cb80f19f372a73e9565dad5141b73fcb3544e"
+    },
+    {
+      "file": "GMXUSDT-1d-2026-04.zip",
+      "sha256": "f1bde6b938e0fd985366ebaf495fdda125cd7410201f6b5579072d429b3cf547"
+    },
+    {
+      "file": "GMXUSDT-1d-2026-05.zip",
+      "sha256": "8c97e107d6204bd923d43c79d86561dd8291f69fc72669cd0c2e31ba0f1d8268"
+    },
+    {
+      "file": "GMXUSDT-1d-2026-06.zip",
+      "sha256": "b109f441c308edd44304ef878dc350669496f23c6263d5827b4022288a0edf54"
+    },
+    {
+      "file": "GMXUSDT-1d-2026-07.zip",
+      "sha256": "856af463c58895b48424c5929be42c6f8e6dcd7cae4dc9d272ff27aa97866688"
+    },
+    {
+      "file": "GMXUSDT-1d-2026-08.zip",
+      "sha256": "a553d726f0fe54aa661a64c3e5203eb1aeefd70b784b408eee8b04f94c2a3026"
+    },
+    {
+      "file": "GMXUSDT-1d-2026-09.zip",
+      "sha256": "6c5dc7796849b23d326ed5cbdbc708f4cefcb48337e8251b953e77c42c027257"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

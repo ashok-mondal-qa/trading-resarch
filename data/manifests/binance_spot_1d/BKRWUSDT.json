@@ -1,0 +1,33 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BKRWUSDT/1d/",
+  "instrument": "BKRWUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-07-06",
+  "last_bar": "2020-08-07",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:27:53+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 33,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BKRWUSDT-1d-2020-07.zip",
+      "sha256": "ae31ec00bde2b6f7edd231f4e71dc10ef9be6c9e810727bf1cbe9022a93967cb"
+    },
+    {
+      "file": "BKRWUSDT-1d-2020-08.zip",
+      "sha256": "883050e1b247715d479eb0844814254f9146ad6771ea7ea19b988a332ffbf4fd"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

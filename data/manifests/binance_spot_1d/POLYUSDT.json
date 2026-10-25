@@ -1,0 +1,81 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/POLYUSDT/1d/",
+  "instrument": "POLYUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-09-09",
+  "last_bar": "2022-10-10",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:31+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 397,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "POLYUSDT-1d-2021-09.zip",
+      "sha256": "3e99b091ce8432cff7d8927f8eddec6fcb8714ba1892b5b4bcea9f9b08ed64b3"
+    },
+    {
+      "file": "POLYUSDT-1d-2021-10.zip",
+      "sha256": "a286bb1a2e8215d7bf288b3d0692eb4521974ad00b39e239ad3226964e255b93"
+    },
+    {
+      "file": "POLYUSDT-1d-2021-11.zip",
+      "sha256": "8d89fbd09b578f0d66b7cdf7cc20b27fe0e5acea3b51e07578f81b78a6a2b4aa"
+    },
+    {
+      "file": "POLYUSDT-1d-2021-12.zip",
+      "sha256": "cec90eeb6ca543d5568d776310ce3fe487e39fe2bf7f0ebd08fdd6f43cdd8dd0"
+    },
+    {
+      "file": "POLYUSDT-1d-2022-01.zip",
+      "sha256": "cc5e174a8fbae04487c5698adac6afd23375695288ebc46289b6e91e327c2d83"
+    },
+    {
+      "file": "POLYUSDT-1d-2022-02.zip",
+      "sha256": "fe4a478dd7290a39bcd09f00e6de82cdc5cf40eb9b0761fdae8050de54457e1b"
+    },
+    {
+      "file": "POLYUSDT-1d-2022-03.zip",
+      "sha256": "d1b7335ae7dc9c122ef72f92d80f4e6c429903b63f5e423a754bae31165556a4"
+    },
+    {
+      "file": "POLYUSDT-1d-2022-04.zip",
+      "sha256": "59a522aac9e77d48f3fc1671521460c530cf84fdd2232825a379ae72b9179932"
+    },
+    {
+      "file": "POLYUSDT-1d-2022-05.zip",
+      "sha256": "9bc2cccbed2e24dafa3868757891091e59b62dc016e5b0cb746ff2d0406dff56"
+    },
+    {
+      "file": "POLYUSDT-1d-2022-06.zip",
+      "sha256": "f6f0adafc6bdaf68a955176a86207aed5a233daadb476cbfb02be968ba29d1f7"
+    },
+    {
+      "file": "POLYUSDT-1d-2022-07.zip",
+      "sha256": "a910f0da9ee5d04775af257d294986c5defc553d1a2f15dba9f6e2f6a2c40a5d"
+    },
+    {
+      "file": "POLYUSDT-1d-2022-08.zip",
+      "sha256": "f9e183153d9b721adb846e9da84d38f411370d068009d9a80a7f1500a9e8566c"
+    },
+    {
+      "file": "POLYUSDT-1d-2022-09.zip",
+      "sha256": "3e543eddd9dbe528f2b34c23f2e59382c2717c671ba1ea3c60ab9a575b4e5fd2"
+    },
+    {
+      "file": "POLYUSDT-1d-2022-10.zip",
+      "sha256": "901f44be18e1d513f46cffa56ae5f2c9992bd85af832a0373ea513363dcc09f0"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

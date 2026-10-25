@@ -42,6 +42,7 @@ PER_BAR = {
     "vol_percentile": lambda b: core.rolling_percentile(core.realized_vol(b["close"], 20), 100),
     "roc": lambda b: core.roc(b["close"], 20),
     "rsi": lambda b: core.rsi(b["close"], 2),
+    "supertrend": lambda b: core.supertrend(b, 10, 3.0),
     "distance_from_high": lambda b: core.distance_from_high(b, 100),
     "relative_strength": lambda b: core.relative_strength(b["close"], BENCH, 20),
     "median_traded_value": lambda b: core.median_traded_value(b["traded_value"], 20),
@@ -121,6 +122,17 @@ def test_wilder_rsi_hand_computed():
     assert r.iloc[3] == pytest.approx(100 - 100 / 6) and r.iloc[4] == pytest.approx(100 - 100 / 6)
     assert r.iloc[5] == pytest.approx(100 - 100 / (1 + 0.3125 / 0.5625))
     assert core.rsi(pd.Series([1.0, 2, 3, 4]), 2).iloc[-1] == 100
+
+
+def test_supertrend_flips_on_band_cross():
+    # flat bars (range 2, ATR 2) then a collapse: the lower band (hl2 - 3 x ATR = 94) is broken on day 13
+    highs = [101.0] * 12 + [101, 90, 89]
+    lows = [99.0] * 12 + [99, 88, 87]
+    closes = [100.0] * 12 + [100, 89, 88]
+    st = core.supertrend(hand_bars(highs, lows, closes), n=10, mult=3.0)
+    assert st["direction"].iloc[:9].isna().all() and (st["direction"].iloc[9:13] == 1).all()
+    assert st["line"].iloc[12] == pytest.approx(94)
+    assert st["direction"].iloc[13] == -1 and st["line"].iloc[13] > closes[13]
 
 
 def test_volume_ratio_excludes_today_from_median():

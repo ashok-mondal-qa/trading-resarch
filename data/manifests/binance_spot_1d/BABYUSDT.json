@@ -1,0 +1,97 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BABYUSDT/1d/",
+  "instrument": "BABYUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-04-10",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:27:09+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 539,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BABYUSDT-1d-2025-04.zip",
+      "sha256": "570955d0c3cb374ff9772f52dffd513931673b4ed5ecbc67bb3acf2d45fffbd3"
+    },
+    {
+      "file": "BABYUSDT-1d-2025-05.zip",
+      "sha256": "e32fbac7594d68e1b92f9d8979ad384057c2bafd09880775bd1ea8e8971c4a52"
+    },
+    {
+      "file": "BABYUSDT-1d-2025-06.zip",
+      "sha256": "b60f8d75ba3fa472150337c12e37dab631d31d393e49b35cfa53af13c6d7a885"
+    },
+    {
+      "file": "BABYUSDT-1d-2025-07.zip",
+      "sha256": "2b70eda5bb56ac5994b0f355fb495338de8335b747eac90144c78d5ebeee2952"
+    },
+    {
+      "file": "BABYUSDT-1d-2025-08.zip",
+      "sha256": "5adb703a843341049331641eb9df5ae942f938a2e7313c1579ad9f81d3a91b2f"
+    },
+    {
+      "file": "BABYUSDT-1d-2025-09.zip",
+      "sha256": "9c5ad46efbef250a468e599a5d555de5f4544d3654480ae418f12596d6549851"
+    },
+    {
+      "file": "BABYUSDT-1d-2025-10.zip",
+      "sha256": "4a1b17dd79d826d6badb67bbb16e9112708e29a197eeb331954804a9900426da"
+    },
+    {
+      "file": "BABYUSDT-1d-2025-11.zip",
+      "sha256": "33559b4a868e14427641f63cf0406860f1713bb4fc2e61ca7ee2b386d37fd7bb"
+    },
+    {
+      "file": "BABYUSDT-1d-2025-12.zip",
+      "sha256": "d914ebb976440ef79b6ed0788f0ab429c690aec65bb63b66bb1ba046a309e8c7"
+    },
+    {
+      "file": "BABYUSDT-1d-2026-01.zip",
+      "sha256": "f566a0a3fe92f37b81748c01f62890250c87fc9ea66d0478295079a6b01cc54e"
+    },
+    {
+      "file": "BABYUSDT-1d-2026-02.zip",
+      "sha256": "6960846aefab651665842a0a7acc716e13d0c1f470783e698d1e906f0385e2dc"
+    },
+    {
+      "file": "BABYUSDT-1d-2026-03.zip",
+      "sha256": "c40a895cafe88f0b80fd7299401928892ccd5a59d012ce1f11716548237f5904"
+    },
+    {
+      "file": "BABYUSDT-1d-2026-04.zip",
+      "sha256": "1a7aa92a4a20899f085cbaaf2e30bb714d3f028ce48a2402540e364821d28cd7"
+    },
+    {
+      "file": "BABYUSDT-1d-2026-05.zip",
+      "sha256": "0556616d94bdf6f3e13c6c92c7c9eac3e46e083f40a9f8e19feeef4e447bdd7b"
+    },
+    {
+      "file": "BABYUSDT-1d-2026-06.zip",
+      "sha256": "0648553578ef718edaea3621e9c2945e4f7a7429e694ca0c3e581855741621c6"
+    },
+    {
+      "file": "BABYUSDT-1d-2026-07.zip",
+      "sha256": "ab3649f3eace1cae7963aae80b317a5767c40ddf9fdd4507223fbcb0e28edd17"
+    },
+    {
+      "file": "BABYUSDT-1d-2026-08.zip",
+      "sha256": "9a8ffb3f54cccc6893635910d17625b16e14216b9fe5ef5ae52f367b9e92352b"
+    },
+    {
+      "file": "BABYUSDT-1d-2026-09.zip",
+      "sha256": "1d50bc6eb20faf82364f5f0b29ca56db4d342481fcabd66a89340b21c1dddb83"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

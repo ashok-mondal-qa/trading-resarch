@@ -1,0 +1,113 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/VANAUSDT/1d/",
+  "instrument": "VANAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-12-16",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:05+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 654,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "VANAUSDT-1d-2024-12.zip",
+      "sha256": "98ec23411cf2b8e7ebf69ec1b544af74d5070c705bd9d3d9bb878861bac9fb99"
+    },
+    {
+      "file": "VANAUSDT-1d-2025-01.zip",
+      "sha256": "072d28d117f35066b944f045a86c5b0f367b1c9184daf1dca454da636de4dd2f"
+    },
+    {
+      "file": "VANAUSDT-1d-2025-02.zip",
+      "sha256": "65b7bfca8a1ba8a26f3bee93d959a44f9f6a995586c261be2bf855c510501e1f"
+    },
+    {
+      "file": "VANAUSDT-1d-2025-03.zip",
+      "sha256": "62cd8a321fdd551cf3106a1e62f8f7b967c566b820c32055e035d5b118229330"
+    },
+    {
+      "file": "VANAUSDT-1d-2025-04.zip",
+      "sha256": "62170bd0f17ed7cfd39ea6d5d095c5feae13de755ad8677180d439c368a9e16a"
+    },
+    {
+      "file": "VANAUSDT-1d-2025-05.zip",
+      "sha256": "3157841db5fc052b2caa214f7c4879f98184ee75ff4d60ac830514089ec38ebf"
+    },
+    {
+      "file": "VANAUSDT-1d-2025-06.zip",
+      "sha256": "70e0e5c872fba9ae9cd1b7eeb9531cb64295013c433e2c45481497b39993aac6"
+    },
+    {
+      "file": "VANAUSDT-1d-2025-07.zip",
+      "sha256": "824daf4643f1b9be0c7462fefc8092970a23ac857f480638265051ca4f1c6203"
+    },
+    {
+      "file": "VANAUSDT-1d-2025-08.zip",
+      "sha256": "1b2b91e3ca88c43b2cb28992223465e98ac5d44608bfb788e033dc82e3a61446"
+    },
+    {
+      "file": "VANAUSDT-1d-2025-09.zip",
+      "sha256": "c7f8b007e73a4c6b23424f600c489f25b55627a834f79f5c7564821321e28332"
+    },
+    {
+      "file": "VANAUSDT-1d-2025-10.zip",
+      "sha256": "0c386110fe7ca1091bd807da630dbf6a61a565ec36e0f23d39f179e23913e087"
+    },
+    {
+      "file": "VANAUSDT-1d-2025-11.zip",
+      "sha256": "621c0961fb1d9e40b1f40acab7c3f4473bcf654d2b152034ce12bfb35b5b6795"
+    },
+    {
+      "file": "VANAUSDT-1d-2025-12.zip",
+      "sha256": "97d93e16de644182cf8fee5fb8f2217905da1dd76d5f16aa4b828445a15a75c4"
+    },
+    {
+      "file": "VANAUSDT-1d-2026-01.zip",
+      "sha256": "7c37bb60c8042866318f02f86ecf33de48c311e6d4e5477ebcd12029d35f29e7"
+    },
+    {
+      "file": "VANAUSDT-1d-2026-02.zip",
+      "sha256": "774127f2fc7ec46c2246853c2ce6e0317f6a752cdf9a5a855345f7f4129dc91b"
+    },
+    {
+      "file": "VANAUSDT-1d-2026-03.zip",
+      "sha256": "fff63d63f7f830a235072351b4b24d35cd34c84c9b1754711d7bcbcf6bba749b"
+    },
+    {
+      "file": "VANAUSDT-1d-2026-04.zip",
+      "sha256": "bd35373474aa1600808dc88c44ae3adc07424f1fe24147dd4b675996d1a20c5e"
+    },
+    {
+      "file": "VANAUSDT-1d-2026-05.zip",
+      "sha256": "4b02d35d94b9dca45fae257408e25d3b18c9904e06c420f5cbdccf8361209828"
+    },
+    {
+      "file": "VANAUSDT-1d-2026-06.zip",
+      "sha256": "8bf43366753fe4c9eb06e6a6b7fd6cb35feb9c14f1986bd60844597e8837eb47"
+    },
+    {
+      "file": "VANAUSDT-1d-2026-07.zip",
+      "sha256": "725aa63ffea68882558d8bdb60205eade5ed100313e42b3bcd3ef975ff8369bd"
+    },
+    {
+      "file": "VANAUSDT-1d-2026-08.zip",
+      "sha256": "cf7eaebeaf627ef9fca381371155936ba21e69ebd0b9aa38f14ea42761b2c24f"
+    },
+    {
+      "file": "VANAUSDT-1d-2026-09.zip",
+      "sha256": "d3cae32676ff4ee1f35227e4a3c40e900dd5c6205988f89ab6466dbc55f6271d"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

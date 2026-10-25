@@ -1,0 +1,217 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BURGERUSDT/1d/",
+  "instrument": "BURGERUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-04-30",
+  "last_bar": "2025-03-28",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:29:11+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1429,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BURGERUSDT-1d-2021-04.zip",
+      "sha256": "07b8abc13669e17e97c66e69131ab5a761ac819cfea84473a9cf00b044285b97"
+    },
+    {
+      "file": "BURGERUSDT-1d-2021-05.zip",
+      "sha256": "2a7bf45325fd0f3a33c6d22f37163f6448e3194c402448e98ebc879d826b6665"
+    },
+    {
+      "file": "BURGERUSDT-1d-2021-06.zip",
+      "sha256": "99f217c5d7cd9ab5231bab68ac33ba4a78f7c129f374629c85d0a4e203d89373"
+    },
+    {
+      "file": "BURGERUSDT-1d-2021-07.zip",
+      "sha256": "9be9a1f94c96f6687e825dfd77fec064e461be5050042bd7adbe3d4be21b205e"
+    },
+    {
+      "file": "BURGERUSDT-1d-2021-08.zip",
+      "sha256": "7eb33698d2b780cdcbcffb18f582c1858595e78c37e8367a10b4ef66cf68eb49"
+    },
+    {
+      "file": "BURGERUSDT-1d-2021-09.zip",
+      "sha256": "ed5a7fba3d3a3c5bb6cf48e706d9a9437ca2ebe8f6188aca40b5a248c51e6ddd"
+    },
+    {
+      "file": "BURGERUSDT-1d-2021-10.zip",
+      "sha256": "4c3293a21bffd41e8cb34177b00a1224059703984fb51bf7a840c3c2a83539ea"
+    },
+    {
+      "file": "BURGERUSDT-1d-2021-11.zip",
+      "sha256": "2995a92a2b50166016904a346b73ea98a3008cbc174b13c06f1cbb80c2a0af64"
+    },
+    {
+      "file": "BURGERUSDT-1d-2021-12.zip",
+      "sha256": "f30957886f4fcc06d1a327e6ee37e3412d91b32a3b537366c2907078a28cd437"
+    },
+    {
+      "file": "BURGERUSDT-1d-2022-01.zip",
+      "sha256": "9fb61f24179c0443bf69821b0903ccf3f9a889168a36060cb0943820d40db321"
+    },
+    {
+      "file": "BURGERUSDT-1d-2022-02.zip",
+      "sha256": "bd5a453f32e26e2c9b3b38464609d2793de92f84961219699e24126f7331c59b"
+    },
+    {
+      "file": "BURGERUSDT-1d-2022-03.zip",
+      "sha256": "dd631d0f2abbc37a8696b5f3e936ddc9590079730c89e65ad77ba479a61bdb58"
+    },
+    {
+      "file": "BURGERUSDT-1d-2022-04.zip",
+      "sha256": "8b8909438de9fa632285e889e6e0e6beeff848411778c4389eb7d8a1e5685f77"
+    },
+    {
+      "file": "BURGERUSDT-1d-2022-05.zip",
+      "sha256": "329f916e0e5255170dc6780e088b75a939dfbcabc725deabd6839b1e5be30866"
+    },
+    {
+      "file": "BURGERUSDT-1d-2022-06.zip",
+      "sha256": "3583b2dc67d53d173cffe55c7ef17d999bdc2c55e61d4adf22914e21a8db4b59"
+    },
+    {
+      "file": "BURGERUSDT-1d-2022-07.zip",
+      "sha256": "905d4edfb18bc7a6c2779a142bf24811b7d880ba1e8ed462a71377db8c0ffd1f"
+    },
+    {
+      "file": "BURGERUSDT-1d-2022-08.zip",
+      "sha256": "0957d56fc558fe78ad52ec77db371f957f670f33ef1990edce6c8ff27c24bab3"
+    },
+    {
+      "file": "BURGERUSDT-1d-2022-09.zip",
+      "sha256": "997a74694de1db48fa36fc41e2f5a9a7625b49d63ab110bdd76860fc9896a41b"
+    },
+    {
+      "file": "BURGERUSDT-1d-2022-10.zip",
+      "sha256": "000968934a134365a7eec2fced1d170d53a9c4fcb68ef488b25776262a3f5acc"
+    },
+    {
+      "file": "BURGERUSDT-1d-2022-11.zip",
+      "sha256": "44b85bdb151e83b29f5638e0b0340a403eba94426e653d7b4b0e957e756f8918"
+    },
+    {
+      "file": "BURGERUSDT-1d-2022-12.zip",
+      "sha256": "6f47aa7ed832b7c5dad017fa839ada1bb2e72cdf6f2fad55334d6fba65c5017d"
+    },
+    {
+      "file": "BURGERUSDT-1d-2023-01.zip",
+      "sha256": "6d253634658f603cc161e6d0d9de3e9d5200959323708a3eb91fb48a165eb280"
+    },
+    {
+      "file": "BURGERUSDT-1d-2023-02.zip",
+      "sha256": "2b04a7228c29193e5c252edb100087536dece3143343351a7dcc49e3e750fc0d"
+    },
+    {
+      "file": "BURGERUSDT-1d-2023-03.zip",
+      "sha256": "69fa47008001476650735563667934cafd92c64599c6ad32f3a3107c7416a8f2"
+    },
+    {
+      "file": "BURGERUSDT-1d-2023-04.zip",
+      "sha256": "cf8414b41095b0308744a8facc8c5476cc9967bfdea586336eb8b0795b36e7f7"
+    },
+    {
+      "file": "BURGERUSDT-1d-2023-05.zip",
+      "sha256": "315d75754f734d7d724b5cc774a142d3dfc9e111ca600c18b74627c61c61c26d"
+    },
+    {
+      "file": "BURGERUSDT-1d-2023-06.zip",
+      "sha256": "1a8ad028a82e56d8baedef051da4bf4a54e665a17e498e1d666854d36441a2e0"
+    },
+    {
+      "file": "BURGERUSDT-1d-2023-07.zip",
+      "sha256": "c0813a5808ad794044fcc1573fd570ae0234dc748e58b5288d5a583386975411"
+    },
+    {
+      "file": "BURGERUSDT-1d-2023-08.zip",
+      "sha256": "7e94effa3c7b05b4e76ca5e4454c7a22015da975d1880b5ed0ce4729ca83ba9b"
+    },
+    {
+      "file": "BURGERUSDT-1d-2023-09.zip",
+      "sha256": "518d893e23090b98664e4701f419b060cef414fb6df7ba45f735977a815e0575"
+    },
+    {
+      "file": "BURGERUSDT-1d-2023-10.zip",
+      "sha256": "29811fa7dcf3c0ecc055b0b452aeca0ddc783a26725defa7cd4ef18ac194945d"
+    },
+    {
+      "file": "BURGERUSDT-1d-2023-11.zip",
+      "sha256": "5bcca6876287e1574f6d66146640c57095e3f5d8cc66b95505f69039f255d857"
+    },
+    {
+      "file": "BURGERUSDT-1d-2023-12.zip",
+      "sha256": "aaa9df8bb84aa3c8ea851d5fa812298a111bd86e4083bf5fc1b2dcbc90bced52"
+    },
+    {
+      "file": "BURGERUSDT-1d-2024-01.zip",
+      "sha256": "b3dddeace085625a8078bd3e40738a109845791ba69a4df008a052e95221fa1b"
+    },
+    {
+      "file": "BURGERUSDT-1d-2024-02.zip",
+      "sha256": "43d23bded37715fcb2224dd864a41117ce1657ca2ce579d19e71d06a030e0f74"
+    },
+    {
+      "file": "BURGERUSDT-1d-2024-03.zip",
+      "sha256": "2e12991f3200844a6d03a5dee9ea77172d9d045e1a665bbe67d2a6a4b7db24d0"
+    },
+    {
+      "file": "BURGERUSDT-1d-2024-04.zip",
+      "sha256": "d24f416072cd7adf5e55697c25d187f7e436bfe97119a4b4c213a09acf8573ef"
+    },
+    {
+      "file": "BURGERUSDT-1d-2024-05.zip",
+      "sha256": "5ee31a197a59d270e7424994949b7d7548d4b4ae7840fb7ced2b679b0407a384"
+    },
+    {
+      "file": "BURGERUSDT-1d-2024-06.zip",
+      "sha256": "fc5eb9811323b82498c947399be7609f59201d458ec368d9788a8f7d98ad8184"
+    },
+    {
+      "file": "BURGERUSDT-1d-2024-07.zip",
+      "sha256": "3eb905ca20d436b18eb6faf901f823d81f96e646407db8d732285a44c3356cb2"
+    },
+    {
+      "file": "BURGERUSDT-1d-2024-08.zip",
+      "sha256": "c28ba9bbd94ef5ba7255727a82917a935435c0ac343d6a18ee5ece830d881a50"
+    },
+    {
+      "file": "BURGERUSDT-1d-2024-09.zip",
+      "sha256": "b86a8efa45df66fc08a02ed01288eb154a3a9dd445ec6ac2f11dde1e159c7f28"
+    },
+    {
+      "file": "BURGERUSDT-1d-2024-10.zip",
+      "sha256": "f505dc869f76f35689a8234d547f558df344c10fda0880630d65ca3d7ab81c1e"
+    },
+    {
+      "file": "BURGERUSDT-1d-2024-11.zip",
+      "sha256": "e24dd3c48653ce14b976774fbac7135a84594b5a1560b60349c5126b849fc6b8"
+    },
+    {
+      "file": "BURGERUSDT-1d-2024-12.zip",
+      "sha256": "386b4b43f17ef42a4a978ed81f280d16d72b53d555ad428b05e41b86a6d93e12"
+    },
+    {
+      "file": "BURGERUSDT-1d-2025-01.zip",
+      "sha256": "a47959cf92fe142707e561f49bf6e791f3d225dd8543f84d425c4809273ba252"
+    },
+    {
+      "file": "BURGERUSDT-1d-2025-02.zip",
+      "sha256": "388e2aed23581f56ef38885f9bd363754b2a3aecd6866ac153be17534193cc06"
+    },
+    {
+      "file": "BURGERUSDT-1d-2025-03.zip",
+      "sha256": "236f3d752967c593a2f72d3214ebae69422972435bbdb30b327bb58f08dd1a8b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

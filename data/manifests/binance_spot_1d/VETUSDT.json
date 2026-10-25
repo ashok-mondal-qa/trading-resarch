@@ -1,0 +1,421 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/VETUSDT/1d/",
+  "instrument": "VETUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2018-07-25",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:49:09+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2990,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "VETUSDT-1d-2018-07.zip",
+      "sha256": "86a80e3066c10ba04cb602f9947fca2ebcc0acd09cb211d95c9ef3c0d31b5c70"
+    },
+    {
+      "file": "VETUSDT-1d-2018-08.zip",
+      "sha256": "250ecbd60a96e69eac30de408a824e3884c50b974ddfb5a803958049f0bc9085"
+    },
+    {
+      "file": "VETUSDT-1d-2018-09.zip",
+      "sha256": "8dd513fd384744965c75b7c73d171f7ef85a873c1b34fe40a8caff5ede91a2d6"
+    },
+    {
+      "file": "VETUSDT-1d-2018-10.zip",
+      "sha256": "46df6b35533ca5db8a43e44c2c726d823024ba17819f3fbac993a4c5db24a04a"
+    },
+    {
+      "file": "VETUSDT-1d-2018-11.zip",
+      "sha256": "1d19353813e799a2bd8ec451288d8ebfb48078182af6e3fe90b883d46757884e"
+    },
+    {
+      "file": "VETUSDT-1d-2018-12.zip",
+      "sha256": "80cd4fb207558a62adf80b87ec6b0a079b4bf2b270317777e8d99e5ff5a2a07d"
+    },
+    {
+      "file": "VETUSDT-1d-2019-01.zip",
+      "sha256": "485ddbcdf834af69ed789b40ce841399479a21519457bbceef3567b1b38d9958"
+    },
+    {
+      "file": "VETUSDT-1d-2019-02.zip",
+      "sha256": "fc95db13724ca213c5d5b32c47cc14ff490f4ba113c870b680fa403a0238e257"
+    },
+    {
+      "file": "VETUSDT-1d-2019-03.zip",
+      "sha256": "d2c752feba78a246610affe962ce1b007ebcff5723d40c8d53a2fd78638824fb"
+    },
+    {
+      "file": "VETUSDT-1d-2019-04.zip",
+      "sha256": "6b304f9d0f80440a0136051fbe8e0726cfae60ad4b3ad48b2c41946e5990a16b"
+    },
+    {
+      "file": "VETUSDT-1d-2019-05.zip",
+      "sha256": "07c5487ebc3992925b2bff2c386494487058f406bddcc4cfbe0eb3a1afc56206"
+    },
+    {
+      "file": "VETUSDT-1d-2019-06.zip",
+      "sha256": "b13fa89056baa60eba120fe216964c21c7531d9f96c8ad38a6e4595f8a567e5f"
+    },
+    {
+      "file": "VETUSDT-1d-2019-07.zip",
+      "sha256": "91661ea90d14ddbfcc67ce5bce3e6983f9bedbb10fc33d2bffd2e05acbdd6542"
+    },
+    {
+      "file": "VETUSDT-1d-2019-08.zip",
+      "sha256": "f07a2465f345ff506594a4e0b83f931428132121e34699a0004aa38947affff1"
+    },
+    {
+      "file": "VETUSDT-1d-2019-09.zip",
+      "sha256": "206f13bd246ebc9a6b0dab4a1ded1b6d51eef1d3111aafdb799e097aada8f8ba"
+    },
+    {
+      "file": "VETUSDT-1d-2019-10.zip",
+      "sha256": "fd623f8552beaba291d470c68d773367681b96a3316ad4fb46b22f79cb7bab74"
+    },
+    {
+      "file": "VETUSDT-1d-2019-11.zip",
+      "sha256": "7a2bc968e5fdaafd39349ef0864191c523f5b679dceb3b1724d7354c3aafdfe2"
+    },
+    {
+      "file": "VETUSDT-1d-2019-12.zip",
+      "sha256": "1e6982a82579994f106e76dde7bdf41cc9e589f26100844753ee960e5f2427fe"
+    },
+    {
+      "file": "VETUSDT-1d-2020-01.zip",
+      "sha256": "f0f324261b53fbd9114f700399e0cc260eae29534c9a4a9043ee02cbadd24889"
+    },
+    {
+      "file": "VETUSDT-1d-2020-02.zip",
+      "sha256": "6e5ffa6510182b138a81e5afe3e1302d06ba03a1ddc07021e584624649c73f6e"
+    },
+    {
+      "file": "VETUSDT-1d-2020-03.zip",
+      "sha256": "01ff058ea5b5949ff0554e8105c1fd4420822b0aeec39385015f54d9b5cfc039"
+    },
+    {
+      "file": "VETUSDT-1d-2020-04.zip",
+      "sha256": "255a948076561b3c497036613e92004a48ade6c66d90997d0c74beb6e9eb1cd0"
+    },
+    {
+      "file": "VETUSDT-1d-2020-05.zip",
+      "sha256": "4fb32d072e3183e0834955cbda34a5417515f290bcf1c6d629f70bfbfb705102"
+    },
+    {
+      "file": "VETUSDT-1d-2020-06.zip",
+      "sha256": "509aba82b13e89a6d7e44db8f0c6082bcc8ea764edf31036b52b6c7268059296"
+    },
+    {
+      "file": "VETUSDT-1d-2020-07.zip",
+      "sha256": "f34388c41bd6b0ef7bc20515318a00a230fdff09942e96a039051dd3ccba07d8"
+    },
+    {
+      "file": "VETUSDT-1d-2020-08.zip",
+      "sha256": "9869ada978d5b30b2521ee7920084137ecd1c89a50540fa8efc3daf666e10fc0"
+    },
+    {
+      "file": "VETUSDT-1d-2020-09.zip",
+      "sha256": "cd73d8520be80a893292980548a02b43b95c891f75b78dd7d613fa605423c99e"
+    },
+    {
+      "file": "VETUSDT-1d-2020-10.zip",
+      "sha256": "153277744c737e8bff7986797abab01c26575f06782b1833630783e812cd7398"
+    },
+    {
+      "file": "VETUSDT-1d-2020-11.zip",
+      "sha256": "fbc0b3f0adfb295bdcff67c6c6467fe9b9f8e039a1d314a7d7a3d4d6535ce2ce"
+    },
+    {
+      "file": "VETUSDT-1d-2020-12.zip",
+      "sha256": "69dcf2776462e1f6730b993a05a9798f1ef45bc7d4c92007aad2cb4d94ce4dbf"
+    },
+    {
+      "file": "VETUSDT-1d-2021-01.zip",
+      "sha256": "7dad4925e8e1909a74a12197c5278adfcb7167d10fe9fd25f4058678e9e12c2b"
+    },
+    {
+      "file": "VETUSDT-1d-2021-02.zip",
+      "sha256": "fa0232216d52a6955bbae1122fbebd5d629419ffa4ffcb5834d3ad959f1eeeb2"
+    },
+    {
+      "file": "VETUSDT-1d-2021-03.zip",
+      "sha256": "b8bcc00ab1cc50dc1640497383c375e066f022309acb438e8eb22f62d23d4781"
+    },
+    {
+      "file": "VETUSDT-1d-2021-04.zip",
+      "sha256": "8c56ab9992f2bc1b39023a489f0744fa4607cf5cb5a31dc5b74b781de05f8de2"
+    },
+    {
+      "file": "VETUSDT-1d-2021-05.zip",
+      "sha256": "eba3552492361c99496fa108de2d1e498490acb50af9659887ca9c07db59c1c3"
+    },
+    {
+      "file": "VETUSDT-1d-2021-06.zip",
+      "sha256": "dc1d2fb3e8209da90b7f5472e124932009bfab03d2e82459ab34a2eaf43e54d1"
+    },
+    {
+      "file": "VETUSDT-1d-2021-07.zip",
+      "sha256": "ad70ce18cbfea5ec6e3acb48164ba300d344c85d27befdf4f24880586c19bdb9"
+    },
+    {
+      "file": "VETUSDT-1d-2021-08.zip",
+      "sha256": "dabad5673790940cc1f27742e16de560bb671f0f3dde02a124e87715003625dc"
+    },
+    {
+      "file": "VETUSDT-1d-2021-09.zip",
+      "sha256": "5a3b0a2c21ff8affc516528141aa3338fb0e04bfe7ce5a1254ae95aa756f697e"
+    },
+    {
+      "file": "VETUSDT-1d-2021-10.zip",
+      "sha256": "7076f89dfbaa150631593f5223a7276eb02b099b5eec943e69c3b9482b6bce82"
+    },
+    {
+      "file": "VETUSDT-1d-2021-11.zip",
+      "sha256": "39263c19f01ddcd1b38d644cf866bdd1927e203f37f00ce2c980fdd86814f34f"
+    },
+    {
+      "file": "VETUSDT-1d-2021-12.zip",
+      "sha256": "b3ecb57c7eb92ae1a9a48debd2fee04f6fbdf5fc8be85501353e4f83fd82accf"
+    },
+    {
+      "file": "VETUSDT-1d-2022-01.zip",
+      "sha256": "c4c377c998fae77f962ef9be0b3e40fb60c7f41a35a88dd5362b3f478591f078"
+    },
+    {
+      "file": "VETUSDT-1d-2022-02.zip",
+      "sha256": "558cebfdb524231f87d1c4c3929ac3fe823d910e079df903d5652f6efd724e44"
+    },
+    {
+      "file": "VETUSDT-1d-2022-03.zip",
+      "sha256": "6d571eb638e685a66d06a0e438bb9d6086b0cb3c462ef2680a0ef0f77d91ac94"
+    },
+    {
+      "file": "VETUSDT-1d-2022-04.zip",
+      "sha256": "e87b4a9416d415595b669b0d88390b5ba5af3ef79d9df2de215a4022da3d9c91"
+    },
+    {
+      "file": "VETUSDT-1d-2022-05.zip",
+      "sha256": "34efc60bb432f534e96abc223beb70a992c3b6f3aff54577340f6e5e7fdf08b9"
+    },
+    {
+      "file": "VETUSDT-1d-2022-06.zip",
+      "sha256": "80c34eca5fba73ba2171ca74303142841a863d978522ebb89c3588a69fffa15b"
+    },
+    {
+      "file": "VETUSDT-1d-2022-07.zip",
+      "sha256": "552e001fc9dc7ce61dab28084d10f4efec45bbae74e451515a17e9ebac320d70"
+    },
+    {
+      "file": "VETUSDT-1d-2022-08.zip",
+      "sha256": "912ac6cd4955d9945984baaf04aedfa198cf522d4012ed4538f90691447045ab"
+    },
+    {
+      "file": "VETUSDT-1d-2022-09.zip",
+      "sha256": "43b18ff41f0fb91eea0d0fa17b4444ab6fcace5bc424c4cec0ace43ff075830a"
+    },
+    {
+      "file": "VETUSDT-1d-2022-10.zip",
+      "sha256": "5129a7af7ba238178165f5b15b20177e5ff5e7e0d7da35b8bbf3de4808651dda"
+    },
+    {
+      "file": "VETUSDT-1d-2022-11.zip",
+      "sha256": "a984f34825486c73eb78ba5b3a3d9c43af4f2160e815885114244feefe1d70d1"
+    },
+    {
+      "file": "VETUSDT-1d-2022-12.zip",
+      "sha256": "dee078a0824b496f2b3e5c9960826a89f6df0e3a58debc9f2d06a7f6ae962f9b"
+    },
+    {
+      "file": "VETUSDT-1d-2023-01.zip",
+      "sha256": "f54f5faba508f1c0377060cea9716db4ac238dd6b154d54524aea09a3a0ab6b6"
+    },
+    {
+      "file": "VETUSDT-1d-2023-02.zip",
+      "sha256": "1ef0ebc92b9111ab4dcaaf571047035d31566da48e191faf097ed4414e771cbf"
+    },
+    {
+      "file": "VETUSDT-1d-2023-03.zip",
+      "sha256": "77732ce40cf991c551b1605b628f34002e5c391c6077908fcf30292ea7c1f318"
+    },
+    {
+      "file": "VETUSDT-1d-2023-04.zip",
+      "sha256": "98a2fe06a4915df4b3fac3b57f26201ea5208fe36f8d5856785785a067c0ffb3"
+    },
+    {
+      "file": "VETUSDT-1d-2023-05.zip",
+      "sha256": "ffb563551db221b5a2242cc68cda87bb50a3732fffe025da4f9ced1730cef4b2"
+    },
+    {
+      "file": "VETUSDT-1d-2023-06.zip",
+      "sha256": "1cd1e30ad12d2c397d3a5c2939577b2cebafc68c951e4ff409990dd29b32d686"
+    },
+    {
+      "file": "VETUSDT-1d-2023-07.zip",
+      "sha256": "b3a63ed2b5ada558800a97f13e28c9aac6d2b360931f7e0187d4db5026ac2790"
+    },
+    {
+      "file": "VETUSDT-1d-2023-08.zip",
+      "sha256": "6b24e81c54fd9091f7a00f414d027389261036693849fa5134542c9e2ec27a2a"
+    },
+    {
+      "file": "VETUSDT-1d-2023-09.zip",
+      "sha256": "3a811047425c2edb2e46ee4e7c7242eccb601bb39f3a45d15bebfaa4efec202d"
+    },
+    {
+      "file": "VETUSDT-1d-2023-10.zip",
+      "sha256": "e28cab2bd3564f4ad04b18e9914ec1c55512f76b167a77c5c4af5fc1b141d00e"
+    },
+    {
+      "file": "VETUSDT-1d-2023-11.zip",
+      "sha256": "fb13df2ca35c2ef788298d7ad8cef0bf3de8306cae3c3b870f50202e8753e56a"
+    },
+    {
+      "file": "VETUSDT-1d-2023-12.zip",
+      "sha256": "fc35feecf7558981b01b5dd301f28117408d1c743d5996510136d57bc9ed123f"
+    },
+    {
+      "file": "VETUSDT-1d-2024-01.zip",
+      "sha256": "020fbf94f165f305c8115576eefabcf464b7b5b5f546fe2387994a9d76ed962a"
+    },
+    {
+      "file": "VETUSDT-1d-2024-02.zip",
+      "sha256": "c044739621630e6a1caf19b9b9ed9f73746efbf0afbd9b5d616241583b73dfb4"
+    },
+    {
+      "file": "VETUSDT-1d-2024-03.zip",
+      "sha256": "1f9c97564108c0bcca719d3cdcfed5d670a8af187864c31e3055877987f3a7cb"
+    },
+    {
+      "file": "VETUSDT-1d-2024-04.zip",
+      "sha256": "a30590384b49ed936d8376e98321bdf7be3c1adad3df8ad93f9c8892c60c99dc"
+    },
+    {
+      "file": "VETUSDT-1d-2024-05.zip",
+      "sha256": "a1691fbb6bc6ab8cbd3910762e19b158dfa4de2909491ce732dd822a9beeb99a"
+    },
+    {
+      "file": "VETUSDT-1d-2024-06.zip",
+      "sha256": "e699b6abcd02812b705f1e20e623bfe32aa5163d518551e585278bdbbe475ec0"
+    },
+    {
+      "file": "VETUSDT-1d-2024-07.zip",
+      "sha256": "3b55ec6a0f49817a1363d73d491b7d71b8473855b87cea6183f564567c80f064"
+    },
+    {
+      "file": "VETUSDT-1d-2024-08.zip",
+      "sha256": "529859bd1ca3dd310e39586b531bf6c98ddfd90707fd3326de25d647819fd3f6"
+    },
+    {
+      "file": "VETUSDT-1d-2024-09.zip",
+      "sha256": "9a4a48b5e08fa0979e78f1d034a5e7a60b684d86793df83afbda30b7c2cc5fe2"
+    },
+    {
+      "file": "VETUSDT-1d-2024-10.zip",
+      "sha256": "503b582711e4768ec90aa02e4f0c815e0d58c3d16522efdebff897b850565255"
+    },
+    {
+      "file": "VETUSDT-1d-2024-11.zip",
+      "sha256": "821391e8ba12a1bcdcf583fab782364b880099798e2c570b24963f232d7ef85c"
+    },
+    {
+      "file": "VETUSDT-1d-2024-12.zip",
+      "sha256": "5379ce83015e04e6ca308e0bfb4e7083cbb2d815800733ae1644900d6f821a9d"
+    },
+    {
+      "file": "VETUSDT-1d-2025-01.zip",
+      "sha256": "d5fec9a46855fa8ff75df6dfb4c0f7910b9bdcf6bf79d834dc2ce3fb7ff9ced3"
+    },
+    {
+      "file": "VETUSDT-1d-2025-02.zip",
+      "sha256": "19d5e97ffdad2b914d9283e1d55694ace5e665b635402fbd43db3610eda73f26"
+    },
+    {
+      "file": "VETUSDT-1d-2025-03.zip",
+      "sha256": "4f90888b669fa7d39282bd9ab6b9d9227f0bb7167e11f2483324952fcbb07b0b"
+    },
+    {
+      "file": "VETUSDT-1d-2025-04.zip",
+      "sha256": "6c4bfbc48d45e6e2311ecdd533dfdfd95d76aaf3f439d3dddaa7cf7af54e5faf"
+    },
+    {
+      "file": "VETUSDT-1d-2025-05.zip",
+      "sha256": "18ffe444624f3992d34e774fd495507734461c07795a2a3319168e4d912f927a"
+    },
+    {
+      "file": "VETUSDT-1d-2025-06.zip",
+      "sha256": "34703563aaaa62815297e5c0a4c7e3b23f2586bb35701ccf6b4d1086c470343e"
+    },
+    {
+      "file": "VETUSDT-1d-2025-07.zip",
+      "sha256": "d5507611562dd16afbd775625d23d5f83f4b69cac06855dca5df2e24aa33a254"
+    },
+    {
+      "file": "VETUSDT-1d-2025-08.zip",
+      "sha256": "7022fc2d892f4d67aab2cc33f5d175b193467c35526b52e1b57513bc386b7f08"
+    },
+    {
+      "file": "VETUSDT-1d-2025-09.zip",
+      "sha256": "e64cfdee89d6e625741ffa5376514f07dc185b13c53f8c52b2ee9ea2c2b59d66"
+    },
+    {
+      "file": "VETUSDT-1d-2025-10.zip",
+      "sha256": "ec4a26b1e66a4a6a32bf8c98b0c36480e6ac84746fb0651f1f4c3af378a32b47"
+    },
+    {
+      "file": "VETUSDT-1d-2025-11.zip",
+      "sha256": "2a33d6b1d2636054d2d0a0aa2686edf8f545024737df7c78e9136c518db02a92"
+    },
+    {
+      "file": "VETUSDT-1d-2025-12.zip",
+      "sha256": "b60a0954020f9bc442992ddddd1f0296ce25c6236bbd44ad6dd68b7b044d1b2f"
+    },
+    {
+      "file": "VETUSDT-1d-2026-01.zip",
+      "sha256": "dd5e531af697604074d65468fb6b1037f4b4ddb4d93c7b174aa0df3024cc26a7"
+    },
+    {
+      "file": "VETUSDT-1d-2026-02.zip",
+      "sha256": "ce31a3498c5e9e7a1ec7dfe76f8d2d1383e92ec92e4ab47629352d01cf623190"
+    },
+    {
+      "file": "VETUSDT-1d-2026-03.zip",
+      "sha256": "8c3003cdfbc4f2eb5154527eb56c1fd3eed7a145be5dfd10f8a499c56667e5c5"
+    },
+    {
+      "file": "VETUSDT-1d-2026-04.zip",
+      "sha256": "7f481d655b3bd771f6ae9033df8b287e84f9fd89d5668319bd0172abbfdda827"
+    },
+    {
+      "file": "VETUSDT-1d-2026-05.zip",
+      "sha256": "f30ed21869166d282466e789bb8d9451c5afcdfa1c1b260a39968abca62a3b72"
+    },
+    {
+      "file": "VETUSDT-1d-2026-06.zip",
+      "sha256": "07b5116340b85d63c25414e19b186578676f412feb98d173829e88a94bcc4a82"
+    },
+    {
+      "file": "VETUSDT-1d-2026-07.zip",
+      "sha256": "22572f8169dbfada6b7a0cfa8fbc96d8d292ffe36d746410ba87f5068856cbcb"
+    },
+    {
+      "file": "VETUSDT-1d-2026-08.zip",
+      "sha256": "e88b17203eca49838e07a28ac6ea3d4c2d8f6f6264d13d01f9ba067afc730b33"
+    },
+    {
+      "file": "VETUSDT-1d-2026-09.zip",
+      "sha256": "a09a004882f5ef0d4796c88ca09958c18f025af77ad7d190cf02f2084cd3dd4f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

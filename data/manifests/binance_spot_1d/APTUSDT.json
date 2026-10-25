@@ -1,0 +1,217 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/APTUSDT/1d/",
+  "instrument": "APTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-10-19",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:26:09+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1443,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "APTUSDT-1d-2022-10.zip",
+      "sha256": "2a74c851b65bca6c2bb24e830dd87650a920b950c3aa9ddbfe61dc7fa4e5e971"
+    },
+    {
+      "file": "APTUSDT-1d-2022-11.zip",
+      "sha256": "77f2263af41b0596c10d0498187d0cb8d044ccadca8a86ec5d26c66bd1116feb"
+    },
+    {
+      "file": "APTUSDT-1d-2022-12.zip",
+      "sha256": "5feadadd42bf20c48c3393efcb0d9bcde00bba7d444aeb92b00aa8ccb4447eca"
+    },
+    {
+      "file": "APTUSDT-1d-2023-01.zip",
+      "sha256": "27db5a34a5667bcaf83f721909b93d818dfc453dd18e1aa0342973e1078cbfa2"
+    },
+    {
+      "file": "APTUSDT-1d-2023-02.zip",
+      "sha256": "884dd28b5e3294fe86c30ebdb9b0f65afceb35e2d9a4df3cffbc3e1359840d38"
+    },
+    {
+      "file": "APTUSDT-1d-2023-03.zip",
+      "sha256": "fc6b3a1e516c02be590c5a21288c39c196309cd1c9b02a2e32408ef11d99abe4"
+    },
+    {
+      "file": "APTUSDT-1d-2023-04.zip",
+      "sha256": "80079d1db88985a8a8d13f97efed659e08510202df370a50faeb6d1b5e6b4e17"
+    },
+    {
+      "file": "APTUSDT-1d-2023-05.zip",
+      "sha256": "4ce3c37aa444f908105a8ce978a85c792127d34c9495284259c03612a32612ea"
+    },
+    {
+      "file": "APTUSDT-1d-2023-06.zip",
+      "sha256": "9734880512eb1c21f3585ff8fc49ae97ff08a7fd3fee8d6bc4104757c178f0ff"
+    },
+    {
+      "file": "APTUSDT-1d-2023-07.zip",
+      "sha256": "029af4edad4ae827ef320284c7af5496d08a8169d0a9ad55327a9d283c53bf37"
+    },
+    {
+      "file": "APTUSDT-1d-2023-08.zip",
+      "sha256": "088f789a684f87009a780f25a7d15cd0ebe5acaf4432fb11fe9e7435325977f8"
+    },
+    {
+      "file": "APTUSDT-1d-2023-09.zip",
+      "sha256": "3ee7fe4f88859b0561a31365865dd6e1487542bb88b787485371a43af77f0949"
+    },
+    {
+      "file": "APTUSDT-1d-2023-10.zip",
+      "sha256": "1c456d37d6c5f8f0d0f4dc63f50ad90bb2f034c5d37a76c6e26df63c26a3dd92"
+    },
+    {
+      "file": "APTUSDT-1d-2023-11.zip",
+      "sha256": "1ee28f9d5988815cdd83bc679c0e41c6381ae55718bfd5b0f98d4a28b6fb52da"
+    },
+    {
+      "file": "APTUSDT-1d-2023-12.zip",
+      "sha256": "d4d7c32eeece8a90629cee8c4079fdc2123b599819672acd9ced866abf2971ef"
+    },
+    {
+      "file": "APTUSDT-1d-2024-01.zip",
+      "sha256": "a258e1c52e2b325a91dd20ade7e8c9ee42afcf9f955bdf93289a7babcebfdf74"
+    },
+    {
+      "file": "APTUSDT-1d-2024-02.zip",
+      "sha256": "8881149d5b60ca0797f20e0b52f84203157cd180323af0892dd0e2aac896f524"
+    },
+    {
+      "file": "APTUSDT-1d-2024-03.zip",
+      "sha256": "dc99e966de77b5a47f642bf4152099a937a134553159180fbf65912c11f7edd4"
+    },
+    {
+      "file": "APTUSDT-1d-2024-04.zip",
+      "sha256": "c276e2c7b00fa66371333dcb043abd2432dcde2e270bb1ecb798c970c6f29ccf"
+    },
+    {
+      "file": "APTUSDT-1d-2024-05.zip",
+      "sha256": "7bd59c74fae1e72142b3130f5ff751c4e26213d2ac7508b92e1cfee6fd03f01e"
+    },
+    {
+      "file": "APTUSDT-1d-2024-06.zip",
+      "sha256": "300c0fd636f7412100bf70a6f4d5ff797b1dd831d439f8b9ca4c3132061713be"
+    },
+    {
+      "file": "APTUSDT-1d-2024-07.zip",
+      "sha256": "6f923f506b84a2e667ac12d444b71cda06aab3d078785adcad6e91321c76d110"
+    },
+    {
+      "file": "APTUSDT-1d-2024-08.zip",
+      "sha256": "76f80989f0d03e146c34890f192b30d4a5e03518fd92e4c2d616d34906f97e60"
+    },
+    {
+      "file": "APTUSDT-1d-2024-09.zip",
+      "sha256": "f316d72c485aa41f39deef4adff330ced614de2779238e748103bb93001ca65b"
+    },
+    {
+      "file": "APTUSDT-1d-2024-10.zip",
+      "sha256": "24a969bee304df0c8900c3e7e62dc283707d79f345acfcfe6909d010bbd64eb8"
+    },
+    {
+      "file": "APTUSDT-1d-2024-11.zip",
+      "sha256": "067ac9930047309a9e9d17028e116e4b98716bf9c67699e1d7680b82f43c4646"
+    },
+    {
+      "file": "APTUSDT-1d-2024-12.zip",
+      "sha256": "7b1e9e42ef1fa5d637270b8348a2dfa777dbebb83cb0847c53a3a1adb587d494"
+    },
+    {
+      "file": "APTUSDT-1d-2025-01.zip",
+      "sha256": "0b194b2f78770722f569db6686c9dcdc7a98babd382f3fee7cb744ecee678a41"
+    },
+    {
+      "file": "APTUSDT-1d-2025-02.zip",
+      "sha256": "aea694f645fc7005dd30f8f0e99377dabca58e6e5bb6337a7a8edc3ee2a84ac3"
+    },
+    {
+      "file": "APTUSDT-1d-2025-03.zip",
+      "sha256": "bd06828f774dd93350cb55e9c3b824360d9bc85127f0bf63ea6d104d66f48c86"
+    },
+    {
+      "file": "APTUSDT-1d-2025-04.zip",
+      "sha256": "f49431f912575e1c7f1a2eee59047a64d2c50ca9a9c9f722401b191e525c1dbd"
+    },
+    {
+      "file": "APTUSDT-1d-2025-05.zip",
+      "sha256": "926163465ef116c873422e194cb5020a76b8a8041f9b5036a345e451690a4190"
+    },
+    {
+      "file": "APTUSDT-1d-2025-06.zip",
+      "sha256": "98b47421c14ba0dc1bdf6aeada6b12b15a2276af46ceff277f508f39680a87bc"
+    },
+    {
+      "file": "APTUSDT-1d-2025-07.zip",
+      "sha256": "f914f83851c7aae1035bc802cb213ab160f6237d8f95d4e70482b5f3590a6068"
+    },
+    {
+      "file": "APTUSDT-1d-2025-08.zip",
+      "sha256": "7e67ac2a013fc18cba3a7eb749d7861e6901485f4202d7f793b354dc8d9610d0"
+    },
+    {
+      "file": "APTUSDT-1d-2025-09.zip",
+      "sha256": "7b6b657ed58271591816d279ed653005e4200256a48e93afa9ed763ced4bba29"
+    },
+    {
+      "file": "APTUSDT-1d-2025-10.zip",
+      "sha256": "0083c1d158409cb8f6d175cd7af07cee9da621ea453866f06d1136a6c180afb5"
+    },
+    {
+      "file": "APTUSDT-1d-2025-11.zip",
+      "sha256": "b2922cf1d514f68851c36d1b064d8c96616024177ec8176388dea562df7abfe8"
+    },
+    {
+      "file": "APTUSDT-1d-2025-12.zip",
+      "sha256": "fff07cb2011fb5c38acbc6741841e563410a4f0dc128356b8f0ef5d619328c4b"
+    },
+    {
+      "file": "APTUSDT-1d-2026-01.zip",
+      "sha256": "c11ab29c4b0c2539a829ea4d566e89f1a925f7065dc53b92c3a67caf26e02fe6"
+    },
+    {
+      "file": "APTUSDT-1d-2026-02.zip",
+      "sha256": "b28070a0f599741f715a648ef41e69ed999a1249b4daf80a5a8227fc0fe98cc6"
+    },
+    {
+      "file": "APTUSDT-1d-2026-03.zip",
+      "sha256": "602444428ea67442a2cd7881e3fb24a346e200428561f18b0d7c59b59406688f"
+    },
+    {
+      "file": "APTUSDT-1d-2026-04.zip",
+      "sha256": "e29b7c482612bf466bdadd2958015a36d89a92f3ebaa598f172c64575c7e39be"
+    },
+    {
+      "file": "APTUSDT-1d-2026-05.zip",
+      "sha256": "eabd1ee188c25be89b8a45b861973c24bd90b647c53061f0b70ebcb22d2dff36"
+    },
+    {
+      "file": "APTUSDT-1d-2026-06.zip",
+      "sha256": "e3e57cfa02c26b25c65d9df7b465cdb6164db956ac18136e3aa601240e5575aa"
+    },
+    {
+      "file": "APTUSDT-1d-2026-07.zip",
+      "sha256": "ef20b8edc992c5b90035f57916d4a7ad8df6c3d7965e8b81d3086ec7b5ed310a"
+    },
+    {
+      "file": "APTUSDT-1d-2026-08.zip",
+      "sha256": "7b93c2d890d43a3bb7decb0be2d61e0a82599722ba172cb3c4bddf972b54c043"
+    },
+    {
+      "file": "APTUSDT-1d-2026-09.zip",
+      "sha256": "43126b64a5946b0440e1ac7d73e240c88e7aae017c6b5e5bd4c1ed4ac193e47e"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

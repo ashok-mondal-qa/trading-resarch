@@ -1,0 +1,97 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/OMNIUSDT/1d/",
+  "instrument": "OMNIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-04-17",
+  "last_bar": "2025-09-29",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:56+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 531,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "OMNIUSDT-1d-2024-04.zip",
+      "sha256": "8da18f72481ecf771ade0220df0ab5d2249af92ab5b0361e2874bb2e89432b0b"
+    },
+    {
+      "file": "OMNIUSDT-1d-2024-05.zip",
+      "sha256": "f9d032dc48a9c95ef3b54273c29c255188d0cc1786597683de1f5f042a5c1e29"
+    },
+    {
+      "file": "OMNIUSDT-1d-2024-06.zip",
+      "sha256": "b6b76ef17473a1762b8981b7d983ef66c289735d0b30a4070350e2b74993a664"
+    },
+    {
+      "file": "OMNIUSDT-1d-2024-07.zip",
+      "sha256": "2ea874f9e78d896ab672110dc80660896608ca78c84050f4d48735d79f0f36af"
+    },
+    {
+      "file": "OMNIUSDT-1d-2024-08.zip",
+      "sha256": "c2b7186ec019208a47cdd61eb3bdaa3fc6418f2ab1ea6a3cfee26ad8d8b9f922"
+    },
+    {
+      "file": "OMNIUSDT-1d-2024-09.zip",
+      "sha256": "f31347dd9872769cc9b41e9ba0d296e7e1b5a71feddc2d9583399cbc5787062e"
+    },
+    {
+      "file": "OMNIUSDT-1d-2024-10.zip",
+      "sha256": "395ee724bd1b659dc596ecc20233cc7a02c53b8903ab243f42bb0c76fb8f300d"
+    },
+    {
+      "file": "OMNIUSDT-1d-2024-11.zip",
+      "sha256": "8de7b3746da524fb962f52990557b61aa4c8834744e1b099f2172dd2757f30b9"
+    },
+    {
+      "file": "OMNIUSDT-1d-2024-12.zip",
+      "sha256": "a063a83135294e55cb7ede8b58a324376d296f48684eb022a5bb1226aa47ae9e"
+    },
+    {
+      "file": "OMNIUSDT-1d-2025-01.zip",
+      "sha256": "b1b4b7e9d5030390a11f49af79bd7cdf715e1c30f104a814ab6719c4e9dee41c"
+    },
+    {
+      "file": "OMNIUSDT-1d-2025-02.zip",
+      "sha256": "764b90a9d3d9b1d4a5a5124e0d1648f46fa7495d8d258532bf2a96a26dd2d46d"
+    },
+    {
+      "file": "OMNIUSDT-1d-2025-03.zip",
+      "sha256": "e325021d43c6d90b3ac28909f94424ca47a1c698d25a9ac906ca004e4c944bf0"
+    },
+    {
+      "file": "OMNIUSDT-1d-2025-04.zip",
+      "sha256": "f0dc3f1e1c63bfa504edf263a927e309465efbf971356a6fd0404847b1384eb4"
+    },
+    {
+      "file": "OMNIUSDT-1d-2025-05.zip",
+      "sha256": "7ef969e3f8680476eb5118575b8c01ec0561b6cdd37b037f786c36c3f3bebf8e"
+    },
+    {
+      "file": "OMNIUSDT-1d-2025-06.zip",
+      "sha256": "8852b251c583ee24e5eaa3dedb9a33fb75fa14ff55932fd002e58e4e771343e0"
+    },
+    {
+      "file": "OMNIUSDT-1d-2025-07.zip",
+      "sha256": "85efd924e3e886578d1c5f258615e905632ca3f7855658ed7186f782d10639b9"
+    },
+    {
+      "file": "OMNIUSDT-1d-2025-08.zip",
+      "sha256": "fa1eb799579bab506e5f53fe1898196701437ff6dbbd03cb97f8bb4b3a3a99c0"
+    },
+    {
+      "file": "OMNIUSDT-1d-2025-09.zip",
+      "sha256": "c3681f061067cd139f8375f534ece17a793aa9475b97a9f2c1b11422a64e2c94"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

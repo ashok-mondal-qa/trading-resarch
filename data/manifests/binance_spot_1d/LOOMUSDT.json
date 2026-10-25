@@ -1,0 +1,97 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/LOOMUSDT/1d/",
+  "instrument": "LOOMUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-03-24",
+  "last_bar": "2024-08-26",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:37:53+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 522,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "LOOMUSDT-1d-2023-03.zip",
+      "sha256": "fb6020c0114577571bc7a365f86fe0479467cf48acf315500e6ae655507dae25"
+    },
+    {
+      "file": "LOOMUSDT-1d-2023-04.zip",
+      "sha256": "b78e76921750fb1d509fe2f32e1b6092fe68ef14cdeebe127c16f563e67bd268"
+    },
+    {
+      "file": "LOOMUSDT-1d-2023-05.zip",
+      "sha256": "13be123ee71341e78d2344a09530e41499ddd88db9c75198a9c6fb2681c8eb6a"
+    },
+    {
+      "file": "LOOMUSDT-1d-2023-06.zip",
+      "sha256": "1954fc3369f13963cc59d150f2389466dfc64980c3d1d66377bf9d833ddff242"
+    },
+    {
+      "file": "LOOMUSDT-1d-2023-07.zip",
+      "sha256": "7929875401d757d037aaded088af8111060a9d529e839c25023c90d4359ed4e6"
+    },
+    {
+      "file": "LOOMUSDT-1d-2023-08.zip",
+      "sha256": "1cb00a7564fa97e495555bbbeee50876ad960558786986a06cc697583f69a994"
+    },
+    {
+      "file": "LOOMUSDT-1d-2023-09.zip",
+      "sha256": "c1a7892b013c7480802831591ad90c215982533a029fcba9b66aea6a2dde7cfd"
+    },
+    {
+      "file": "LOOMUSDT-1d-2023-10.zip",
+      "sha256": "ae6835b7a9c2559cdca369589674006b6df4be65a3c4cf35d6b10ad68c9f45b4"
+    },
+    {
+      "file": "LOOMUSDT-1d-2023-11.zip",
+      "sha256": "ecb60740e8707cb59d8c025967d1310a28bede43cd1e8b53caa5ebdbf7551727"
+    },
+    {
+      "file": "LOOMUSDT-1d-2023-12.zip",
+      "sha256": "1d190068391903b7ed4c95879783cbbf4fd8dd5c78b2940b7b2dcc6b3435c0e3"
+    },
+    {
+      "file": "LOOMUSDT-1d-2024-01.zip",
+      "sha256": "3dce40e95f5108fb70b5178f9a8ca6f3f004b10d3f8b04e5e0f84e316657ef8d"
+    },
+    {
+      "file": "LOOMUSDT-1d-2024-02.zip",
+      "sha256": "9e35e11752e685fb629bf8ec83fb43e23fa733f39b22bfb3720fa1d5ba8c3786"
+    },
+    {
+      "file": "LOOMUSDT-1d-2024-03.zip",
+      "sha256": "aa33b60482ced46a1c80303ec131e2eca5b4ff294b7ac33b5062d0839cd6ef57"
+    },
+    {
+      "file": "LOOMUSDT-1d-2024-04.zip",
+      "sha256": "b39ebc554bfe28a0f093a091218b156aca2bfe9a659eee6828b596653d2ec0e3"
+    },
+    {
+      "file": "LOOMUSDT-1d-2024-05.zip",
+      "sha256": "3d4ac0f43148bfd8328cf055ad13088f436d5a3dc50588234a30fd407ee0796b"
+    },
+    {
+      "file": "LOOMUSDT-1d-2024-06.zip",
+      "sha256": "0e286b010c11fa4c2bd809e196b89fd44930da4503b4a257e30469d26b195188"
+    },
+    {
+      "file": "LOOMUSDT-1d-2024-07.zip",
+      "sha256": "6680c48c3f7ea6c6b71dba5f124b84b84d4a4f933737826dc22bb825305a97d4"
+    },
+    {
+      "file": "LOOMUSDT-1d-2024-08.zip",
+      "sha256": "55d7a7f64f65384b2f46f60c251a03ad9be5e00336426aaac980e4f2cf5ab3b6"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

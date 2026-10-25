@@ -1,0 +1,37 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/KORUBUSDT/1d/",
+  "instrument": "KORUBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-07-22",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:36:59+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 71,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "KORUBUSDT-1d-2026-07.zip",
+      "sha256": "6d861176bac53f5463cd520c52dfe06cbb93f2527855ceb0f963c6ccd865086e"
+    },
+    {
+      "file": "KORUBUSDT-1d-2026-08.zip",
+      "sha256": "68f984dd64360137e35dba347dec6d2fc7dfdc66600b848b9d695dd68311d6d8"
+    },
+    {
+      "file": "KORUBUSDT-1d-2026-09.zip",
+      "sha256": "136baef3b4f6c2008b6f0a64eec724e2ed90861d094098521e614b5eb1d29659"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

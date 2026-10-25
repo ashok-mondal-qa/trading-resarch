@@ -1,0 +1,113 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/COMBOUSDT/1d/",
+  "instrument": "COMBOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-06-02",
+  "last_bar": "2025-03-28",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:29:44+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 666,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "COMBOUSDT-1d-2023-06.zip",
+      "sha256": "86c31d3dc4db69d4289d195805e5a8c16a7002668dcd76ceb238d59418ef9156"
+    },
+    {
+      "file": "COMBOUSDT-1d-2023-07.zip",
+      "sha256": "e382c9bcf5ddd3d42cfe707acd67848a1a4b5a861d9c5a412fbb9c31ec11f5e5"
+    },
+    {
+      "file": "COMBOUSDT-1d-2023-08.zip",
+      "sha256": "2274485df2e59b6c0675c31c407f700a444dc6b5988448ae4ae13b774d4f0ba9"
+    },
+    {
+      "file": "COMBOUSDT-1d-2023-09.zip",
+      "sha256": "40b6c8b5a86e2f84db96cfc8b1dba536209cd008a10b3753d95856d2c7b71514"
+    },
+    {
+      "file": "COMBOUSDT-1d-2023-10.zip",
+      "sha256": "c7490dd83c6d3a016a22b6ce3bb50dd21348d53bdfe4d3c0972148d09c0856b8"
+    },
+    {
+      "file": "COMBOUSDT-1d-2023-11.zip",
+      "sha256": "3e8bd7af89bc85123a5b107cc1a1410848dcf11fb0d319de95057fa924184dcd"
+    },
+    {
+      "file": "COMBOUSDT-1d-2023-12.zip",
+      "sha256": "95ec281ef727406050e06b70d3c8f881d6497b9f476421e1f6c4dcba214fd3f8"
+    },
+    {
+      "file": "COMBOUSDT-1d-2024-01.zip",
+      "sha256": "36780cdefef5078569c80567e1fffd95a6864228bdc5477192afbfd6df8a93f6"
+    },
+    {
+      "file": "COMBOUSDT-1d-2024-02.zip",
+      "sha256": "d18efc7577c20d05e3dde974cc0ec8f50e5d85095b092305e95c27c0c7864c06"
+    },
+    {
+      "file": "COMBOUSDT-1d-2024-03.zip",
+      "sha256": "7374ff4f4446ff3b23b99a7e3bacb9226d105d580a9a6753968610a64fd0f622"
+    },
+    {
+      "file": "COMBOUSDT-1d-2024-04.zip",
+      "sha256": "98a0b2d22bf340d3371426e082400b4b87d1042449aa20ef536a96403d3a1253"
+    },
+    {
+      "file": "COMBOUSDT-1d-2024-05.zip",
+      "sha256": "56f2874ff4e75a541f0bba5bed19d02b60e002e593135f771c4fe35283655ccd"
+    },
+    {
+      "file": "COMBOUSDT-1d-2024-06.zip",
+      "sha256": "f7c29f47a73a2dcfd30affad94741b540f459d421cd7b66bace91d83a4a488fe"
+    },
+    {
+      "file": "COMBOUSDT-1d-2024-07.zip",
+      "sha256": "5ac360a1c587ea48951167e1f74b453e8b47b987ad1581d42ad9933cd54239b3"
+    },
+    {
+      "file": "COMBOUSDT-1d-2024-08.zip",
+      "sha256": "d563876d4d1f40934e53fd68d9ff0e6bb5afc87a355d0518a407e76cfb4a7a53"
+    },
+    {
+      "file": "COMBOUSDT-1d-2024-09.zip",
+      "sha256": "f0c7d17ad8ede43cbed42086f96a321afbf1f9dd6709fc87dd3456d25b56a589"
+    },
+    {
+      "file": "COMBOUSDT-1d-2024-10.zip",
+      "sha256": "879f1411463e354be0b2fdb2fdd7863727a2c7d839983714d2215b8f83780b36"
+    },
+    {
+      "file": "COMBOUSDT-1d-2024-11.zip",
+      "sha256": "413b0ba48f0396fa682010c9444de559b89f7c7a8bc3c8b8866c3bba4c25fa17"
+    },
+    {
+      "file": "COMBOUSDT-1d-2024-12.zip",
+      "sha256": "3d251ff9ec3a92f3192179f719338358ee6e482c3e434bb6d3df3ad8b4ceb5fd"
+    },
+    {
+      "file": "COMBOUSDT-1d-2025-01.zip",
+      "sha256": "d3a67a81403b0a345750159d4d33ced7562977e8ee65d9b33f209a74b801661a"
+    },
+    {
+      "file": "COMBOUSDT-1d-2025-02.zip",
+      "sha256": "641d1d2b8c6cbcd8143710407ef9310ac94d8683356d382c33a5e065205355e0"
+    },
+    {
+      "file": "COMBOUSDT-1d-2025-03.zip",
+      "sha256": "655856c0d16d3f8f63ba8a23b0ae924158f4efa6b9d469baf2e3bede3a4c3c95"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/TRUMPUSDT/1d/",
+  "instrument": "TRUMPUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-01-19",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:47:19+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 620,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "TRUMPUSDT-1d-2025-01.zip",
+      "sha256": "bce08689d385ff72914858d5be18dc5996747733761e7d27761b7060a2017364"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2025-02.zip",
+      "sha256": "de858a93371c632aa13b84b65d24104a1a658e77a50652230a9adc2560662775"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2025-03.zip",
+      "sha256": "4f956bcbb09106860054fe43237fa973fc361605cad7f5960038a67a3b4a7e02"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2025-04.zip",
+      "sha256": "771dbced348800ec65ad9d61cb62fa60e5bac150de5955cadb4bfebf9520bf35"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2025-05.zip",
+      "sha256": "17784d9b2a80362f58ce40e54b5924ca6e3a8694828d0cd1ccf10c9e41381681"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2025-06.zip",
+      "sha256": "944c8d30949047c2b85ba95401e27842777b85f9afa3db8c3a28eb235ad1104e"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2025-07.zip",
+      "sha256": "86ace607989e9350b3c778addff8c6ce678abcb7f85c397c3899f1ed90a24431"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2025-08.zip",
+      "sha256": "31c0fe69f443ac54e79221268c0a615a1a34bf56b36997f9a2e0a9841c147638"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2025-09.zip",
+      "sha256": "b2fd6e8a55a4f41ef31e62d612da5aa1d85de548ead0177582350fbfe773910f"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2025-10.zip",
+      "sha256": "0ce9eec86786606e359e5c5530d094b1517af3d2227ec4ba3ef87dda78af5bde"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2025-11.zip",
+      "sha256": "1c445d26a578c1020846a169cd8a97970ec75720dc50227fb340c73500872d00"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2025-12.zip",
+      "sha256": "c86ac744dd88a786d3cae6d7478a48b3f632b9120c6fb3931f8ca1c23042e85a"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2026-01.zip",
+      "sha256": "0798b28831e78aab2fe2516801ce7920f2607334cacf8f112beefa00e58c01d7"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2026-02.zip",
+      "sha256": "01c7795bcd97f6bf8aef17dcc9b15f92532b92c49d1333440d47511a1500a789"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2026-03.zip",
+      "sha256": "8df8680c8d46929cd3912f638d3dd60094c893dae716a9a5470fd98096b6ee6c"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2026-04.zip",
+      "sha256": "4f25fd09c1395ba6a6983ae49380297cb2e2a8a527368d3dde0550d6e3aa4579"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2026-05.zip",
+      "sha256": "a1779d5b7d37092d312546bf8fb21030491d0f969a5e5de10a67bc149977aa8d"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2026-06.zip",
+      "sha256": "be1ead79855440c673dd358c3e287b765d7be87b9421f71888d1e62d27ce3e93"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2026-07.zip",
+      "sha256": "8d8d7dc2355d72b689a8240ea12962b00dc7e819b9ef94aeacec553099601369"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2026-08.zip",
+      "sha256": "ff4ba4346a1051a7bd0357eba4fd4794132fd40d63b1e6409a012d3086752f82"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2026-09.zip",
+      "sha256": "511775ccd9c5d0f45537bcb6397794dba74a170c295562c12ba14d19d820fe6d"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PORTOUSDT/1d/",
+  "instrument": "PORTOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-11-16",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:43:03+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1780,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PORTOUSDT-1d-2021-11.zip",
+      "sha256": "d323eaaeda8d6f784cb110e844654a1a00c53fa3f83e496cd6c6bf40a5051dfa"
+    },
+    {
+      "file": "PORTOUSDT-1d-2021-12.zip",
+      "sha256": "f1be62334e4a0b4c9b4154d78c0a9129524e8bfe2a4651d655ea97c800e2403c"
+    },
+    {
+      "file": "PORTOUSDT-1d-2022-01.zip",
+      "sha256": "54da98884aa05eb1a55711aa1691d9e11560e4db43880ebc6dea70ecb726619c"
+    },
+    {
+      "file": "PORTOUSDT-1d-2022-02.zip",
+      "sha256": "c2db96e401b8d686f1b013e1179895c7ac72451107d42d81dfa4d7c2144a4e54"
+    },
+    {
+      "file": "PORTOUSDT-1d-2022-03.zip",
+      "sha256": "79eb52d949d17a305ac8732b864d032bdfc20baddf2f571a6676c7c32051108b"
+    },
+    {
+      "file": "PORTOUSDT-1d-2022-04.zip",
+      "sha256": "8c46417b7048085bdf9ec0c1b72b7118053b791c366957bec31f42364ad2c221"
+    },
+    {
+      "file": "PORTOUSDT-1d-2022-05.zip",
+      "sha256": "d1011599da57634e45f69e6a1fd58632a75632a0e6d4696a00b257cb17f1ed9f"
+    },
+    {
+      "file": "PORTOUSDT-1d-2022-06.zip",
+      "sha256": "db8bfe234b69619897631a817cd88315d21a058f5b1503dfadb95c9cdbfc32a6"
+    },
+    {
+      "file": "PORTOUSDT-1d-2022-07.zip",
+      "sha256": "aa7d58248d28618a9fb4966214a8a781907ff5db09e630642f4d6808dd93508b"
+    },
+    {
+      "file": "PORTOUSDT-1d-2022-08.zip",
+      "sha256": "572b674171da710a2bf9016b1c22d4bd8524b944dd8d83083be33169227686bb"
+    },
+    {
+      "file": "PORTOUSDT-1d-2022-09.zip",
+      "sha256": "fbb835226862735c993e4986b20ecd2b1cd77ade7cafb1e78fd26c8dc04a4bf3"
+    },
+    {
+      "file": "PORTOUSDT-1d-2022-10.zip",
+      "sha256": "8c4e97bd4b438942f6f0ba7ce76a43bd24ac0b0b693d3955e7a984c096e2913b"
+    },
+    {
+      "file": "PORTOUSDT-1d-2022-11.zip",
+      "sha256": "f3238c3036a21a2fdd471ccb9cc7b62bfd483760810e0282f83a5630a826e792"
+    },
+    {
+      "file": "PORTOUSDT-1d-2022-12.zip",
+      "sha256": "dee2454143982ad15925cbff8ef0703a2cda0db0fdeb1365e717c06c5c5832b2"
+    },
+    {
+      "file": "PORTOUSDT-1d-2023-01.zip",
+      "sha256": "88a3f11078fe9e2f15811c05912d2d0cf5faf4fcf96431c47744b0d025b8cbac"
+    },
+    {
+      "file": "PORTOUSDT-1d-2023-02.zip",
+      "sha256": "9c68b3dc88aec6da13bfb0193c2cc89feb3fc903a0b35716184cb104539d3952"
+    },
+    {
+      "file": "PORTOUSDT-1d-2023-03.zip",
+      "sha256": "00108131c88f0f06f6e370e0f9eedd2a3352b54470e90abd1be9fa98deba7830"
+    },
+    {
+      "file": "PORTOUSDT-1d-2023-04.zip",
+      "sha256": "01fd90546e63ea11d442f2c7e1a5e7dae74363d688bc8ab1e2e5dac7b68b4317"
+    },
+    {
+      "file": "PORTOUSDT-1d-2023-05.zip",
+      "sha256": "69d081b19000e1b5110e9be67b728c47c4d5f690d5b4b577c89da22b08804bdc"
+    },
+    {
+      "file": "PORTOUSDT-1d-2023-06.zip",
+      "sha256": "5bc6e15ae772527d595e8d36c89e7dc85877777b9963d78486417db7be954cad"
+    },
+    {
+      "file": "PORTOUSDT-1d-2023-07.zip",
+      "sha256": "d4937a39a7c6b54e1627d0f5050d43ee265edab84e9bb9d4bc6b78d5e2178810"
+    },
+    {
+      "file": "PORTOUSDT-1d-2023-08.zip",
+      "sha256": "207f09fdbeaf1fee335249006b2469615b7d347109c5e07ca2c155e64054f3f4"
+    },
+    {
+      "file": "PORTOUSDT-1d-2023-09.zip",
+      "sha256": "d138a0e08046288758035ba19cd5cad560e05db2ea88720bb691d7b538c6720a"
+    },
+    {
+      "file": "PORTOUSDT-1d-2023-10.zip",
+      "sha256": "ce9670d3a058f9d2290ac071977ef3b347edd150cdef25e43f4a03e2d9f01d85"
+    },
+    {
+      "file": "PORTOUSDT-1d-2023-11.zip",
+      "sha256": "ed9b5ef5eaed359a77b2b2c28ecce27eb8fcb3f49d2feff8dc1f63bde782fdd1"
+    },
+    {
+      "file": "PORTOUSDT-1d-2023-12.zip",
+      "sha256": "05ec7d4d3f02634459d50b1619850de1956e83c35c13276a01875aeeeb95ec93"
+    },
+    {
+      "file": "PORTOUSDT-1d-2024-01.zip",
+      "sha256": "a50546b0291379ef7a9d820160ffeac64c362b8122a3a3962abf77cf5fd7e984"
+    },
+    {
+      "file": "PORTOUSDT-1d-2024-02.zip",
+      "sha256": "a55545fd87abd35096dea5ddeb2a8bb04ffaec1c6b5aa01e9aa942f71d771483"
+    },
+    {
+      "file": "PORTOUSDT-1d-2024-03.zip",
+      "sha256": "31088bd346007d225dbd9307a5853c90735656a70fce78feccf5796516c710a4"
+    },
+    {
+      "file": "PORTOUSDT-1d-2024-04.zip",
+      "sha256": "4eacfa5341a3ee2f13851d7c67c39ef5f7f9a23fa73d99262266d3208dd581cb"
+    },
+    {
+      "file": "PORTOUSDT-1d-2024-05.zip",
+      "sha256": "651dbf971fe4eb83d7ccaf76c018a8c4ce72c186078d41d1e888957cb7376f1e"
+    },
+    {
+      "file": "PORTOUSDT-1d-2024-06.zip",
+      "sha256": "b44858d58f8a8ba14d9fdf339ef15cce4e06e3ba8e16e0738702d3874c7e7da8"
+    },
+    {
+      "file": "PORTOUSDT-1d-2024-07.zip",
+      "sha256": "1471b286df0403ea4b3db7840920673ac447618711efe7dcbfa0ccec996615d1"
+    },
+    {
+      "file": "PORTOUSDT-1d-2024-08.zip",
+      "sha256": "8df8ff301a749314ccdc68717af950cb4ef47c3695f2c23dad789569598590c5"
+    },
+    {
+      "file": "PORTOUSDT-1d-2024-09.zip",
+      "sha256": "f536dcba1ae5cefe72ce04d7b95966e2a20778907b0ff3e712990d6e5052d32d"
+    },
+    {
+      "file": "PORTOUSDT-1d-2024-10.zip",
+      "sha256": "bed34ba6d3f55e4ade7aaf3da18ac754fa7b767a52b12d479f84884e6aa361d5"
+    },
+    {
+      "file": "PORTOUSDT-1d-2024-11.zip",
+      "sha256": "cffb041589bd871724af3a84e6a17e6ebabff93c98fc3da2ddaf8cb4102ae13f"
+    },
+    {
+      "file": "PORTOUSDT-1d-2024-12.zip",
+      "sha256": "94012e7665ebbc672926450be85e195808208590f1939a77afe9f557b3ea5ae8"
+    },
+    {
+      "file": "PORTOUSDT-1d-2025-01.zip",
+      "sha256": "ef9c00e2539a579cf33b1bf550b2d38243485f890f5cdbf441470059890e83a8"
+    },
+    {
+      "file": "PORTOUSDT-1d-2025-02.zip",
+      "sha256": "154fd7a506f736b322f5de8cc9af545ce634ef7948981766dc2674d4a5507510"
+    },
+    {
+      "file": "PORTOUSDT-1d-2025-03.zip",
+      "sha256": "4d0b525d44a69482fa47bb5f8baa0f43ca661a7b6dcadeeb286138e0a0d51840"
+    },
+    {
+      "file": "PORTOUSDT-1d-2025-04.zip",
+      "sha256": "f22f0d172be87e376ee48d98abb6298ac3bea9f41cb75ed23f24038ca5aa356e"
+    },
+    {
+      "file": "PORTOUSDT-1d-2025-05.zip",
+      "sha256": "7727b345cf4758a2b5d07b1e46260e0dfe05e8ed088c1040df514f372c0b38ce"
+    },
+    {
+      "file": "PORTOUSDT-1d-2025-06.zip",
+      "sha256": "a58a6af33ee9080cebc6c8944e27087a08290d809c1bae1040a1e4746361f4fe"
+    },
+    {
+      "file": "PORTOUSDT-1d-2025-07.zip",
+      "sha256": "7002249bc1b46eb778c3781bd7481d0df2cfe336ae872cb80c204273c342e82f"
+    },
+    {
+      "file": "PORTOUSDT-1d-2025-08.zip",
+      "sha256": "591930177fc9c6ebf9cde39938f3da166c117e072eb6690469af5399ed5056d2"
+    },
+    {
+      "file": "PORTOUSDT-1d-2025-09.zip",
+      "sha256": "9fdc4f014726fab4793ceb90339b3217026e6f754cf8bcfb319285e2ecc9f6af"
+    },
+    {
+      "file": "PORTOUSDT-1d-2025-10.zip",
+      "sha256": "db9ce85bb314670cecd2801910b084af4e75b9f7a79054931fab50008737066e"
+    },
+    {
+      "file": "PORTOUSDT-1d-2025-11.zip",
+      "sha256": "c60662e6c5ebc654b1501427b9e8932ba7f176383245e63f469abb6020d4e07b"
+    },
+    {
+      "file": "PORTOUSDT-1d-2025-12.zip",
+      "sha256": "47c371289fb790831919f2cfc9fac404f65667138288c898c0598cf47df159e6"
+    },
+    {
+      "file": "PORTOUSDT-1d-2026-01.zip",
+      "sha256": "5a73906731e0e50ea1fbb797266c0b5d057410cb1190fba4ebacfd47e29971a7"
+    },
+    {
+      "file": "PORTOUSDT-1d-2026-02.zip",
+      "sha256": "1240f9cec2cffddaac990c97ce34b95d4b491671befd39128b9899581a046a1d"
+    },
+    {
+      "file": "PORTOUSDT-1d-2026-03.zip",
+      "sha256": "78b786eea2ae7b2cd0d76be166c4b4e5ee9518a7aaab386b0711f91d56c9d676"
+    },
+    {
+      "file": "PORTOUSDT-1d-2026-04.zip",
+      "sha256": "6b9790ef5fb62c5331784d01ac9f248b1590861de6f3919caf7bd4332f590551"
+    },
+    {
+      "file": "PORTOUSDT-1d-2026-05.zip",
+      "sha256": "8e44ddc0a07143b493619fdf410b3baec9e1bb755546f29017a21c07c1c181e0"
+    },
+    {
+      "file": "PORTOUSDT-1d-2026-06.zip",
+      "sha256": "2013b80319db4ac38fc9b600a837a9f60235904a86b15631b780d5d2600d08aa"
+    },
+    {
+      "file": "PORTOUSDT-1d-2026-07.zip",
+      "sha256": "8e2bf207afaed71e558dbff8ba7dc69df81ec735cd9e062346af4f3c2f288fa4"
+    },
+    {
+      "file": "PORTOUSDT-1d-2026-08.zip",
+      "sha256": "faf14974e1199d13f3c689d3771dbbfd98ffb9f349f80baea376fc73761aaaf2"
+    },
+    {
+      "file": "PORTOUSDT-1d-2026-09.zip",
+      "sha256": "534f4d38ea4504283ecec21af6e4412454cfa05e76f248a3f2d9bd84229f263e"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

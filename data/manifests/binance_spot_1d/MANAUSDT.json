@@ -1,0 +1,321 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MANAUSDT/1d/",
+  "instrument": "MANAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-08-06",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:12+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2247,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MANAUSDT-1d-2020-08.zip",
+      "sha256": "685ea6dda12474cc33c5e6fefcb345c9a31a05678d4224b618506f85b6292998"
+    },
+    {
+      "file": "MANAUSDT-1d-2020-09.zip",
+      "sha256": "693c8e10a7fe36b50ceba61f2fd351b6414669417fa52445ef48586f80521900"
+    },
+    {
+      "file": "MANAUSDT-1d-2020-10.zip",
+      "sha256": "ec2581bfc9291e2d46099d789e14e75a4caf0d5f923c8f2fdcc1343363469f64"
+    },
+    {
+      "file": "MANAUSDT-1d-2020-11.zip",
+      "sha256": "cd0eaf86d09220b19554f2c9bcae31d6dd85351f80c291232dcaa17eda2dfe64"
+    },
+    {
+      "file": "MANAUSDT-1d-2020-12.zip",
+      "sha256": "ad4af2935186c93171fa885905affbf556b09672d3ac0dd54dacd83af2066eb9"
+    },
+    {
+      "file": "MANAUSDT-1d-2021-01.zip",
+      "sha256": "5a6be8a930171c171c0ae6bfc0f9579848c7dbf37370ebb8f74b4768ab455547"
+    },
+    {
+      "file": "MANAUSDT-1d-2021-02.zip",
+      "sha256": "5ee74feb4337c07317c1c2eb86a53b1ba620c859c7c2cf05b4314eb3d31d785e"
+    },
+    {
+      "file": "MANAUSDT-1d-2021-03.zip",
+      "sha256": "fff1f1b3ca9daf337a0a12ed57f61c8cdd00786e2c63704fb0238d88b9fd54b7"
+    },
+    {
+      "file": "MANAUSDT-1d-2021-04.zip",
+      "sha256": "fe3181eb1dbc1393d4bd755761f315a6826a6d5e2708e695ef57afc6f7248abf"
+    },
+    {
+      "file": "MANAUSDT-1d-2021-05.zip",
+      "sha256": "cdee45b0987b9ca9abf7648d38cd455deddc29a228ee4593cabd8066c7eff30e"
+    },
+    {
+      "file": "MANAUSDT-1d-2021-06.zip",
+      "sha256": "1b6314a19c02a7ee3cde43848e2f9c4f31d08c2c29e24b5c2d5b7e5cb7695e71"
+    },
+    {
+      "file": "MANAUSDT-1d-2021-07.zip",
+      "sha256": "905e617d67f19f3d60d058d484d209f09120c88ba2175462f169d35ed9dd82d8"
+    },
+    {
+      "file": "MANAUSDT-1d-2021-08.zip",
+      "sha256": "f3156c617e7118fded3d4f1b44f9799aad18fcf5e1131a5d7fc7f16d30153b27"
+    },
+    {
+      "file": "MANAUSDT-1d-2021-09.zip",
+      "sha256": "8d5cce9df814fd38c2b5e6635a2c90737bf001ea082cef2864b25c1e26939c9f"
+    },
+    {
+      "file": "MANAUSDT-1d-2021-10.zip",
+      "sha256": "68181e7b9aee7d58d2dc5c436d23941dd8156eaa33fb1c824e0b4bb0a0dfae6c"
+    },
+    {
+      "file": "MANAUSDT-1d-2021-11.zip",
+      "sha256": "c6ed465b7ccc00fd28e9c9f8d5c5734e7309b0448305c5bc616698dd2f19e6d1"
+    },
+    {
+      "file": "MANAUSDT-1d-2021-12.zip",
+      "sha256": "d829f940eaa0d80e24672879892f4db7b75ef675209e04dd7c08e2a540269389"
+    },
+    {
+      "file": "MANAUSDT-1d-2022-01.zip",
+      "sha256": "74c6f5526837e235cb60928f5927457d83a8e2388503259be6d349a3e4c787d0"
+    },
+    {
+      "file": "MANAUSDT-1d-2022-02.zip",
+      "sha256": "ed5b3489aa40f3adf7ab2fa7af6e0942d00f60dae64f0d6a67fc90ca98b0f179"
+    },
+    {
+      "file": "MANAUSDT-1d-2022-03.zip",
+      "sha256": "9b74232fe1eadc16ed58b351ce3cd146f01051e20e67e6135290cd5cb0d19f14"
+    },
+    {
+      "file": "MANAUSDT-1d-2022-04.zip",
+      "sha256": "c7891ce9fb1daf70b1c8de1c2aa70f7b9331f67f66d1515dd63e18134127e6fc"
+    },
+    {
+      "file": "MANAUSDT-1d-2022-05.zip",
+      "sha256": "3e23feaff7914d6132d227c429d86d4b6ac12074dd405a2bb800849f0da44b5b"
+    },
+    {
+      "file": "MANAUSDT-1d-2022-06.zip",
+      "sha256": "acbb1c4e718c99d2148e1c421fd1e53a811202a7c370a58fb8dcd5082493dea9"
+    },
+    {
+      "file": "MANAUSDT-1d-2022-07.zip",
+      "sha256": "5a2ea5355f2336ad7fa6c72d4290d9b4b07729f6cc9fb8fe031139fc5b4065de"
+    },
+    {
+      "file": "MANAUSDT-1d-2022-08.zip",
+      "sha256": "d6bd5429a745232bf98347d5c6622f7162d07fd1fad4c998835cfc462466f8f4"
+    },
+    {
+      "file": "MANAUSDT-1d-2022-09.zip",
+      "sha256": "4a3cbfc939079be40c5a913b6c9c436dc36beabce4bc370dadce72f846fbfdd0"
+    },
+    {
+      "file": "MANAUSDT-1d-2022-10.zip",
+      "sha256": "d08d157ac97132b9c64088d9dedd95481bc8173d7f4ed1af41ce465b560036df"
+    },
+    {
+      "file": "MANAUSDT-1d-2022-11.zip",
+      "sha256": "b9780835659062e09b87881f36836b660f8f213f9b5d16e2d2c8cfbd12418251"
+    },
+    {
+      "file": "MANAUSDT-1d-2022-12.zip",
+      "sha256": "d52a87fb49163ce562f4af3f88ad024d0df3361d9073a41167fe0dbfe67910d1"
+    },
+    {
+      "file": "MANAUSDT-1d-2023-01.zip",
+      "sha256": "87eb93b2ac25ddc96c634ffe99e17a5566240dfe40ed202ace21f2cd6d409ed3"
+    },
+    {
+      "file": "MANAUSDT-1d-2023-02.zip",
+      "sha256": "01650b2737cdd1064d264e04af43acd2408ca396da2edd6dac9eeed0267b6c55"
+    },
+    {
+      "file": "MANAUSDT-1d-2023-03.zip",
+      "sha256": "57583d4e64d213f6075d5677803651dd55eb3ae0dddfbeebdc832ebbbcd8dad4"
+    },
+    {
+      "file": "MANAUSDT-1d-2023-04.zip",
+      "sha256": "5e996d0c46b2326aee6ba28bc1a789b3312277a739d6654f7026b2a6daf799e1"
+    },
+    {
+      "file": "MANAUSDT-1d-2023-05.zip",
+      "sha256": "6d26b79c0f913085004a6ffc5b79340bd9dd1f23ce5de2ee96c9241284ea1fe4"
+    },
+    {
+      "file": "MANAUSDT-1d-2023-06.zip",
+      "sha256": "cab8604b5b4cb74485ba9699d269274f2621ec93e2edc80945d90ba408437fdc"
+    },
+    {
+      "file": "MANAUSDT-1d-2023-07.zip",
+      "sha256": "ca5f077affd3f022bd1a0ad7f6fa67ecc325d9a2472b450c72bd35a76fbe873c"
+    },
+    {
+      "file": "MANAUSDT-1d-2023-08.zip",
+      "sha256": "fe6cee7d6bf2848671b5dc267dc8881b582a76f6078baec1c89d69ddb7f85fec"
+    },
+    {
+      "file": "MANAUSDT-1d-2023-09.zip",
+      "sha256": "d99659fae5b4e843e4b13b31252845974ed14aa57df878ed9bb2cdf7a80a8210"
+    },
+    {
+      "file": "MANAUSDT-1d-2023-10.zip",
+      "sha256": "687133c85c3312a8d1643986b26247197e3effa607a59de6abf4fd9f986a2094"
+    },
+    {
+      "file": "MANAUSDT-1d-2023-11.zip",
+      "sha256": "9a5f751ce21ca53a31035ef3bd5735351dd43ff4eae52018e465b483b995da8b"
+    },
+    {
+      "file": "MANAUSDT-1d-2023-12.zip",
+      "sha256": "052778afca6be85195094281662c65547b398e2879fd2200bd89d9265e45915a"
+    },
+    {
+      "file": "MANAUSDT-1d-2024-01.zip",
+      "sha256": "235ad4eae2a0f56d9802c7c98897a69ac357399c0761baa9e5775f50c889e229"
+    },
+    {
+      "file": "MANAUSDT-1d-2024-02.zip",
+      "sha256": "331b9ba25473943478b1ae2633014eb102f1f99101855d9fa80bee599ea26a6a"
+    },
+    {
+      "file": "MANAUSDT-1d-2024-03.zip",
+      "sha256": "1636e08353db01f05c464668cc01e1441838fcb713fe41a60be67fb67cdd0e45"
+    },
+    {
+      "file": "MANAUSDT-1d-2024-04.zip",
+      "sha256": "fa2f4c5095841fb740ff615fccff5d9d7ad29c45d8d9016e5daa9796074aa65f"
+    },
+    {
+      "file": "MANAUSDT-1d-2024-05.zip",
+      "sha256": "c412c38f5346813e68f982318bd426b48e41cae4481250fc38884798308b46b1"
+    },
+    {
+      "file": "MANAUSDT-1d-2024-06.zip",
+      "sha256": "e94b3ab81ff56147311b26cdd21cdbd56f864f8326a74fc2dffb06ef5a9f94f4"
+    },
+    {
+      "file": "MANAUSDT-1d-2024-07.zip",
+      "sha256": "b12d25adfeef3f0c79c5ea0e313607b82f663c6fa8918f1d68547ca60a866acb"
+    },
+    {
+      "file": "MANAUSDT-1d-2024-08.zip",
+      "sha256": "063a1088f2a1ab0d4f7eb62dc7a02439269c947852526fb54d993176b8ba8d75"
+    },
+    {
+      "file": "MANAUSDT-1d-2024-09.zip",
+      "sha256": "91cf198ee1aa1cde2dc325f1ce01bcda3355b01b2630d9b301eb8b3e2ed47c4c"
+    },
+    {
+      "file": "MANAUSDT-1d-2024-10.zip",
+      "sha256": "72cb85404a4f60645e19018e78071cedc4ad24bc2ff7d2e53fc651ad06874be6"
+    },
+    {
+      "file": "MANAUSDT-1d-2024-11.zip",
+      "sha256": "c230c7223c71884572a9977a189be5270ad7c5685d08231bb19bc12d2c8a55dc"
+    },
+    {
+      "file": "MANAUSDT-1d-2024-12.zip",
+      "sha256": "28f7276eaf08ddffa75ff000dda6557b6144fde1c1489b04f1340c0c53dd805a"
+    },
+    {
+      "file": "MANAUSDT-1d-2025-01.zip",
+      "sha256": "55429f991c7a3eeb128416ce412b7d098ad2627f37cf4e0e019ad4d7b02b1ed2"
+    },
+    {
+      "file": "MANAUSDT-1d-2025-02.zip",
+      "sha256": "92b45b74879bffbef8e899410c07751d56e975ce2b49974f1067755d3f48e197"
+    },
+    {
+      "file": "MANAUSDT-1d-2025-03.zip",
+      "sha256": "fb0bf66d596fa2d68a7ed6842e0da8f4ef0a8aa74ff6107ca992d76c543a58d5"
+    },
+    {
+      "file": "MANAUSDT-1d-2025-04.zip",
+      "sha256": "7854c5be25cf9232e6bb6cc3912356814ad41e43473c01432ad4286093f172d5"
+    },
+    {
+      "file": "MANAUSDT-1d-2025-05.zip",
+      "sha256": "51fae2622bd8657ec377eaaa88007c52c925638e3bc89a7815c64ea3f800d9cf"
+    },
+    {
+      "file": "MANAUSDT-1d-2025-06.zip",
+      "sha256": "421ab568e669f01ac3456e81b4eb3e816f2bc06a710cf2cc1449dc8ab1410d7f"
+    },
+    {
+      "file": "MANAUSDT-1d-2025-07.zip",
+      "sha256": "9754fe42f5e510c891894ed7acf1136c4e04b28454d81a9c06ed2ea6228a1c71"
+    },
+    {
+      "file": "MANAUSDT-1d-2025-08.zip",
+      "sha256": "97904275a6aa5c70b99d144a73e8661f065dc56d77bd2f3eee8713c7edf5d779"
+    },
+    {
+      "file": "MANAUSDT-1d-2025-09.zip",
+      "sha256": "7634a58fa06be6155a08891563a80c0138f61ae15ad27a8c2262704c774b9be1"
+    },
+    {
+      "file": "MANAUSDT-1d-2025-10.zip",
+      "sha256": "87fe74a43c461b7f8d42b69febd798146b2229056955cc0c677a3b4f70798fbc"
+    },
+    {
+      "file": "MANAUSDT-1d-2025-11.zip",
+      "sha256": "6801441b9d5950a015c9528c12532c9db867aca5ece65e59347a07d437632c2a"
+    },
+    {
+      "file": "MANAUSDT-1d-2025-12.zip",
+      "sha256": "975bd3ef8cd3e98c6cfc1b343f6726544c6f657b35d47c2733c60f7670bd5422"
+    },
+    {
+      "file": "MANAUSDT-1d-2026-01.zip",
+      "sha256": "3394638202b4ec41bdffc07edeb021830c17d59bcb4a9e10043e71328aeb2ffb"
+    },
+    {
+      "file": "MANAUSDT-1d-2026-02.zip",
+      "sha256": "33bd0240469a6dca2c73f7e2b05240c3bbb0b031526e40122bed31bcb5d0c529"
+    },
+    {
+      "file": "MANAUSDT-1d-2026-03.zip",
+      "sha256": "dbc27be25a4b9338ec2ce0fd775dd6a79a7a32423f1bd94705f63f828555fde3"
+    },
+    {
+      "file": "MANAUSDT-1d-2026-04.zip",
+      "sha256": "9679f4dc560d31b213ab6ac45603c691c44cb7fbeb6aa663b65d43ed9319e5f0"
+    },
+    {
+      "file": "MANAUSDT-1d-2026-05.zip",
+      "sha256": "743cf42023d34fd16bf25fad2514ea3327893aff42c145afa21822f6fd1f2ec8"
+    },
+    {
+      "file": "MANAUSDT-1d-2026-06.zip",
+      "sha256": "270b9ebd67b07525700896c77e8d4acb2d49b5087764a289296d674f8d5c01a2"
+    },
+    {
+      "file": "MANAUSDT-1d-2026-07.zip",
+      "sha256": "5f0f885a05df801d913335cb55e62cafe3269f1f1c8800649f75ab262c52dc2d"
+    },
+    {
+      "file": "MANAUSDT-1d-2026-08.zip",
+      "sha256": "6f7da7e8f22b1875c29d4e3bf4491ec4009acfa7c3592e1ca9e3d46f3a6c8948"
+    },
+    {
+      "file": "MANAUSDT-1d-2026-09.zip",
+      "sha256": "561b7824c17c4d4711fab1a0fd3188e6d1d24434248442ee881f2e39b4b51854"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

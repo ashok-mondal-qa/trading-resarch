@@ -1,0 +1,105 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/KAITOUSDT/1d/",
+  "instrument": "KAITOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-02-20",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:36:42+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 588,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "KAITOUSDT-1d-2025-02.zip",
+      "sha256": "a8725023ac3a6c2b88c4f82dcd07c62c98f3dbbc340b64bf5eea23c883357ff6"
+    },
+    {
+      "file": "KAITOUSDT-1d-2025-03.zip",
+      "sha256": "4e0553238ab1fda731d8ce130008287ffba67f4eb5cfc494f3be10645583aef8"
+    },
+    {
+      "file": "KAITOUSDT-1d-2025-04.zip",
+      "sha256": "9919be4412b5f863e18c1085797813f9c1bd4b8d158503484fd943ec41e5a089"
+    },
+    {
+      "file": "KAITOUSDT-1d-2025-05.zip",
+      "sha256": "a35b17c1808610afd75ca91ebbc9b3bcee65204dd7c2db61103ffe03ae5f3a41"
+    },
+    {
+      "file": "KAITOUSDT-1d-2025-06.zip",
+      "sha256": "76189a344654b6602566c86ae51791059fec293e1fa0d3b44c1434a5a8457734"
+    },
+    {
+      "file": "KAITOUSDT-1d-2025-07.zip",
+      "sha256": "ba7c27d679ccbbf5aac152fb149a2f638c549f12c52d1fa1c471fe8593ec144c"
+    },
+    {
+      "file": "KAITOUSDT-1d-2025-08.zip",
+      "sha256": "c48b7cc4564f504b8dab0a3036f8533f8a6e0cd36829f20978ee856121be7dd9"
+    },
+    {
+      "file": "KAITOUSDT-1d-2025-09.zip",
+      "sha256": "f3c760546ccc4cb359a173c1e6e606ef5e43341d43070d9aa74b6dbc0e8eda3b"
+    },
+    {
+      "file": "KAITOUSDT-1d-2025-10.zip",
+      "sha256": "1483580dce983697cab0d26b30788e4b01e8db39be3c4a59a99e3b6d9c690372"
+    },
+    {
+      "file": "KAITOUSDT-1d-2025-11.zip",
+      "sha256": "af439d0c6e68392b91cd983e6d851084833ca5e6084c947a380f768e80c45437"
+    },
+    {
+      "file": "KAITOUSDT-1d-2025-12.zip",
+      "sha256": "024c5e50b2cf6be63385afaaa62970fcac70a7cd5b2082df42756157198917d7"
+    },
+    {
+      "file": "KAITOUSDT-1d-2026-01.zip",
+      "sha256": "b621b2afdcf1f5372aa888ee16aaf535b366921b3e02e73d7ce2013605c11855"
+    },
+    {
+      "file": "KAITOUSDT-1d-2026-02.zip",
+      "sha256": "bec2135c3a0cbfb119693e2a6f96e557c044bcd31158a2f8ac8edfcbfac14826"
+    },
+    {
+      "file": "KAITOUSDT-1d-2026-03.zip",
+      "sha256": "aeab22a2f627ff3c730d385002cad88ca69c8dd8239e24a02ca5b383ba4603e0"
+    },
+    {
+      "file": "KAITOUSDT-1d-2026-04.zip",
+      "sha256": "fbb4c4b23c00ae6ef63a694e6b7111b5c32da13e53a941929bb8d174fcb8c1f3"
+    },
+    {
+      "file": "KAITOUSDT-1d-2026-05.zip",
+      "sha256": "34f79bd70991fc097caf0e68bc8d33a57fd094a5a1a912d78408dba21a8a4950"
+    },
+    {
+      "file": "KAITOUSDT-1d-2026-06.zip",
+      "sha256": "2487e5867d8da013e1de7d1dd888ef2787a1bf465010ac0a0a5818e0fd612a10"
+    },
+    {
+      "file": "KAITOUSDT-1d-2026-07.zip",
+      "sha256": "aee60eed771ab50454d2a967db80c36533695df14bdb7fb79debb4760f973e97"
+    },
+    {
+      "file": "KAITOUSDT-1d-2026-08.zip",
+      "sha256": "736af5c2232a885ba1599833c1ff8f62308311e6dc6ca10ac0cc6b2694ecf176"
+    },
+    {
+      "file": "KAITOUSDT-1d-2026-09.zip",
+      "sha256": "54fc8e96fd5e1b1872407a48513eb7fe96b3e056a1b704593045b3326e4bc6f1"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

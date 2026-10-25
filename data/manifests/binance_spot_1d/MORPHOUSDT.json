@@ -1,0 +1,73 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MORPHOUSDT/1d/",
+  "instrument": "MORPHOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-10-03",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:35+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 363,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MORPHOUSDT-1d-2025-10.zip",
+      "sha256": "13cbc0d69b9ab30c2f2af612effd818f2129be31cca5baa2b94c72c09d8e98e8"
+    },
+    {
+      "file": "MORPHOUSDT-1d-2025-11.zip",
+      "sha256": "c95e4bd4c8498ede39eb44d465b9123cbdb7c18328b873ab7e0c66eb6f52d561"
+    },
+    {
+      "file": "MORPHOUSDT-1d-2025-12.zip",
+      "sha256": "9f883ab0c72f7af9b3354cbdbbc151ea0b57f80ad4818a008b0d240dfc53f052"
+    },
+    {
+      "file": "MORPHOUSDT-1d-2026-01.zip",
+      "sha256": "03b46aec2e234e11c643528dbc1071b7ff5b039ebebfdc3610c780dbad14533f"
+    },
+    {
+      "file": "MORPHOUSDT-1d-2026-02.zip",
+      "sha256": "17486c939f912b49177512cfde58299d955317436aba496e65afce6f966adde0"
+    },
+    {
+      "file": "MORPHOUSDT-1d-2026-03.zip",
+      "sha256": "839d536577f5a27055e29e11c9eca20f4fcac0f1d2b0e02a2a295102dc0d03c1"
+    },
+    {
+      "file": "MORPHOUSDT-1d-2026-04.zip",
+      "sha256": "63b2eb505189cc926733e1ac0d3f1b08631309cee9e81eebcc2996e612707a30"
+    },
+    {
+      "file": "MORPHOUSDT-1d-2026-05.zip",
+      "sha256": "144acb4f2fc46e4f7b78f67e106f158e07afbf09b1a3946e4c00968a1079ff9b"
+    },
+    {
+      "file": "MORPHOUSDT-1d-2026-06.zip",
+      "sha256": "d1b558700cae326a8b6bd069d9e3b93c0cea468feef82617f5546ccb71406563"
+    },
+    {
+      "file": "MORPHOUSDT-1d-2026-07.zip",
+      "sha256": "9cc4dc09b981a600b1384e3b678abddac86800a288e87dc13834dee5be3aeb8b"
+    },
+    {
+      "file": "MORPHOUSDT-1d-2026-08.zip",
+      "sha256": "dae70298f70997705555976154fd124e6365ef27cdadec98513de3888b5aa7fc"
+    },
+    {
+      "file": "MORPHOUSDT-1d-2026-09.zip",
+      "sha256": "27141084e700a9cec8240c62c9d4f374e37083710e228ec6bb91f2c030b112e2"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

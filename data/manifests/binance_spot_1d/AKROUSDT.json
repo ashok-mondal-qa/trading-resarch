@@ -1,0 +1,225 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/AKROUSDT/1d/",
+  "instrument": "AKROUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-11-02",
+  "last_bar": "2024-12-25",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:25:20+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1515,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "AKROUSDT-1d-2020-11.zip",
+      "sha256": "c4f11a68f9b6ee48431e7a8fffffc066f748747612d9ade2a985ba957d7c3e50"
+    },
+    {
+      "file": "AKROUSDT-1d-2020-12.zip",
+      "sha256": "5b979f886e47ef687629fd006d023d9a19cbd38a047685a34d98ab8ddd2f9291"
+    },
+    {
+      "file": "AKROUSDT-1d-2021-01.zip",
+      "sha256": "38f1e4e5c2977d65bceb9aacad4730276fcaf294ede84f3ce138b73e8ca50241"
+    },
+    {
+      "file": "AKROUSDT-1d-2021-02.zip",
+      "sha256": "449c5ca13cd411b05a1fa5703d94a192c921ac585a72725ed088b88c921d6bf4"
+    },
+    {
+      "file": "AKROUSDT-1d-2021-03.zip",
+      "sha256": "2eeea73b27e3fafc4e1ae03961d22ef1687271eb296458b86f9e3a29ba0a7fd4"
+    },
+    {
+      "file": "AKROUSDT-1d-2021-04.zip",
+      "sha256": "496dcfe8085c4a6aa4ca9f46d63338ef5765b66bb645dafac2c3021f50b731fa"
+    },
+    {
+      "file": "AKROUSDT-1d-2021-05.zip",
+      "sha256": "9750fab93d166d08b93cd3cb0b50ed0c5711cda56084042c0d080dd843f51d20"
+    },
+    {
+      "file": "AKROUSDT-1d-2021-06.zip",
+      "sha256": "f7c601e0b07dc85f355aef1b40bf5e1748b819ccdaaf3ee3dd0571f70e2626bc"
+    },
+    {
+      "file": "AKROUSDT-1d-2021-07.zip",
+      "sha256": "4143f9a6e00184bb2c8d51c5f50cdb74b3f8ecc4a1656223c1514bc7ca0fd0e0"
+    },
+    {
+      "file": "AKROUSDT-1d-2021-08.zip",
+      "sha256": "5b9982c1d7156fd78ce93448cc6865f58e18cafea002b12c08dc515452d470dd"
+    },
+    {
+      "file": "AKROUSDT-1d-2021-09.zip",
+      "sha256": "249248d67d5eec7d6823eee5ddb76c805e4e88b8b1c8303446009b31e5a1e353"
+    },
+    {
+      "file": "AKROUSDT-1d-2021-10.zip",
+      "sha256": "e971bf8c6d8aa10f5d6fed0df680531f05f90c0a1e9f4228914f835ae46d67ca"
+    },
+    {
+      "file": "AKROUSDT-1d-2021-11.zip",
+      "sha256": "3e0e06a333094cda1557a71500d6f2b072d329f357b82c3f22622ada4901adfb"
+    },
+    {
+      "file": "AKROUSDT-1d-2021-12.zip",
+      "sha256": "fff2e05fe2405687f6842a06b3e568af7ee58d4cbf4e2179dc483d19ec0600c0"
+    },
+    {
+      "file": "AKROUSDT-1d-2022-01.zip",
+      "sha256": "b66b72925930b821b626af2459be2b4cf41697dd00bd1af65c6a6d58f7b6c5cb"
+    },
+    {
+      "file": "AKROUSDT-1d-2022-02.zip",
+      "sha256": "a23495f16ae4559b0018e5c7f044b8450bf0e9ebc08e80a9f59d4b83453ee23c"
+    },
+    {
+      "file": "AKROUSDT-1d-2022-03.zip",
+      "sha256": "9c943d06a7529015c5fcdabfe85aaa38d51e380d4fd29bd8a9caf9163c569246"
+    },
+    {
+      "file": "AKROUSDT-1d-2022-04.zip",
+      "sha256": "f69df045aef37e0d3517b307b484892db85bd20aba0b7c23a1c8bf2b1a788ee9"
+    },
+    {
+      "file": "AKROUSDT-1d-2022-05.zip",
+      "sha256": "061ce688691db828f39efe3079400c605c5a50a4e3aab6f11c35ff8962c73e6e"
+    },
+    {
+      "file": "AKROUSDT-1d-2022-06.zip",
+      "sha256": "e9592e41918dc4ccdd43a1d61c416b132d52850a3b8251e4d3485d469f37ce05"
+    },
+    {
+      "file": "AKROUSDT-1d-2022-07.zip",
+      "sha256": "8ba53c6230d24635c892630ba5b9a152e13f65190b5fd5751ec8316a67410313"
+    },
+    {
+      "file": "AKROUSDT-1d-2022-08.zip",
+      "sha256": "63eab387e662eba3917b9436e36b6a8cb2351de0663c33c25faa0ae01ab1a9fd"
+    },
+    {
+      "file": "AKROUSDT-1d-2022-09.zip",
+      "sha256": "add99221473dbd545f668242d62d061d8dd3b1cea75240da326032722787d98a"
+    },
+    {
+      "file": "AKROUSDT-1d-2022-10.zip",
+      "sha256": "2c6ecbf248a74a3ec84e5a746fb39d645d273f550835d6550c2a122b7eedbea0"
+    },
+    {
+      "file": "AKROUSDT-1d-2022-11.zip",
+      "sha256": "491217422e5c5c761f1633c0d198e5cd2ad9e4173f7ef25035727297c7794a90"
+    },
+    {
+      "file": "AKROUSDT-1d-2022-12.zip",
+      "sha256": "c879095bad6bde98e318f88386854734a3fcb3429c5fdd3d6c356a09f4969fe2"
+    },
+    {
+      "file": "AKROUSDT-1d-2023-01.zip",
+      "sha256": "80fa2b1cb5b1b920bea3d498be560ab4174b9020b5a690b2e8dedff297f3c23c"
+    },
+    {
+      "file": "AKROUSDT-1d-2023-02.zip",
+      "sha256": "1251ff849071b6f521780ea51671c9ab28113e0fccf2e55416bd67525cf0d0d9"
+    },
+    {
+      "file": "AKROUSDT-1d-2023-03.zip",
+      "sha256": "dbc563bc49d65ef94a0c9697e8e5f0dee7179caf9edc22fb0e431c760e588a37"
+    },
+    {
+      "file": "AKROUSDT-1d-2023-04.zip",
+      "sha256": "11e547a3bdc60070f6d3697ea029e26975e7e01f916c0f6532eba8c963e990a6"
+    },
+    {
+      "file": "AKROUSDT-1d-2023-05.zip",
+      "sha256": "4b2d6d508dc0420d91b6bde48b37a5ad186fca5934d912efd826bbb893089f51"
+    },
+    {
+      "file": "AKROUSDT-1d-2023-06.zip",
+      "sha256": "2851d8633825446998eac54821b53f97fa1d3314d267d218a52cb311a15a45a6"
+    },
+    {
+      "file": "AKROUSDT-1d-2023-07.zip",
+      "sha256": "c9e667fe9fc5cc94efc697d0c9db1ac872f34550bca9ab2f0cc411447fcc190f"
+    },
+    {
+      "file": "AKROUSDT-1d-2023-08.zip",
+      "sha256": "03fb2d47b9cbccbb4cade6bc6a06eb016387cdf542933784234a9b86c6c9e126"
+    },
+    {
+      "file": "AKROUSDT-1d-2023-09.zip",
+      "sha256": "88358bca76ce150e0c09051b39b46c96cfd64065343fde90cfd3820c38f8a139"
+    },
+    {
+      "file": "AKROUSDT-1d-2023-10.zip",
+      "sha256": "a9c52f0185fcf3d54119e9d1d8e103638822edc0934bab9ac051e55f6e58b105"
+    },
+    {
+      "file": "AKROUSDT-1d-2023-11.zip",
+      "sha256": "f6b9d01e03f6786a4267693fb4077ba905a01b10c2815085e822d98e819789e6"
+    },
+    {
+      "file": "AKROUSDT-1d-2023-12.zip",
+      "sha256": "a65dedde6dff978cc094e795f43a93569bcceaf02566d6f8ce99f9f295855e9b"
+    },
+    {
+      "file": "AKROUSDT-1d-2024-01.zip",
+      "sha256": "07d30c89eb2c9f01e4f1167bdaa67c56d541ad165e9af495b44470bcf4417212"
+    },
+    {
+      "file": "AKROUSDT-1d-2024-02.zip",
+      "sha256": "df7490113cfc7095c24d02565ec6248cf59419c0ef8f84508753ade6e5374635"
+    },
+    {
+      "file": "AKROUSDT-1d-2024-03.zip",
+      "sha256": "7368cc263939ef1b0049085332001eb93f1d5ab4e87f3f557f53e5d7e245e5e0"
+    },
+    {
+      "file": "AKROUSDT-1d-2024-04.zip",
+      "sha256": "cc3e87d4f9de1265889350d1c9c22ac4334e982b056eabc0841cdf22a818603c"
+    },
+    {
+      "file": "AKROUSDT-1d-2024-05.zip",
+      "sha256": "d388ec8ed2dbc629aed840224681cdba3f6ce1d87aabebe3e5a9e7ba5f15ad47"
+    },
+    {
+      "file": "AKROUSDT-1d-2024-06.zip",
+      "sha256": "79d4be6dedb719db93f5675e19f57b15599cd9c8e49f6ba48256b14dbf11ed4a"
+    },
+    {
+      "file": "AKROUSDT-1d-2024-07.zip",
+      "sha256": "1a48468489def06fa8c25f2271582dac4da81b24236d828b407fc50131203220"
+    },
+    {
+      "file": "AKROUSDT-1d-2024-08.zip",
+      "sha256": "e510df9117802141d60ce52c7321f9b75bdf757688b72373bdf9521bc1492451"
+    },
+    {
+      "file": "AKROUSDT-1d-2024-09.zip",
+      "sha256": "3bdcc97f0090a50b0b778ed3772cc4debbf98a8380c63718e04b4784db241973"
+    },
+    {
+      "file": "AKROUSDT-1d-2024-10.zip",
+      "sha256": "4892dc67b401d3495701cf1e06dc184e05e503bd4e854914336b8a0bec303649"
+    },
+    {
+      "file": "AKROUSDT-1d-2024-11.zip",
+      "sha256": "cdc4f9c12559c11c1e1cc2f4a2ae54727b317daefa73d02e7af1ae684d73adce"
+    },
+    {
+      "file": "AKROUSDT-1d-2024-12.zip",
+      "sha256": "fb3ab3e6cb31b3376c614bf719311ecbbd49e3edbb74ae24dc183f91f221876d"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/GRAMUSDT/1d/",
+  "instrument": "GRAMUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-07-02",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:34:23+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 91,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "GRAMUSDT-1d-2026-07.zip",
+      "sha256": "f1f567ffaae709dddd2d34f6fd9a260605df0760b70b4c29d1dc1392e2654b1e"
+    },
+    {
+      "file": "GRAMUSDT-1d-2026-08.zip",
+      "sha256": "a0eb97b3919d32a59acdc57d1673426cf05331b89d860d800230f1da51fd4513"
+    },
+    {
+      "file": "GRAMUSDT-1d-2026-09.zip",
+      "sha256": "afa3fdad6e26c7e014741ffa239660e540b103c7e9208abec3d39240be404bce"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

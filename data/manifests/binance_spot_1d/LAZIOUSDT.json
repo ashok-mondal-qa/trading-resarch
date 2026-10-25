@@ -1,0 +1,265 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/LAZIOUSDT/1d/",
+  "instrument": "LAZIOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-10-21",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:37:58+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1806,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "LAZIOUSDT-1d-2021-10.zip",
+      "sha256": "813228a910efcaa8b012519fb3b737125655e3e815455ccb614455533376ac6a"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2021-11.zip",
+      "sha256": "8bec6631fd400ce58596295be083520ec8c0e74cbb3f87f741e9d152495a3b5b"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2021-12.zip",
+      "sha256": "8f6087cd95a2ece9632d2c15eb1aaed84dadc76428027f144dbe6b532b413193"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2022-01.zip",
+      "sha256": "e02eb9f44a5aeea4c2c3372cfde1475212bead6bc06fef9cbd032e7caa85b026"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2022-02.zip",
+      "sha256": "6d3594dc4ca5c7a2921aba8980be1a245e65e689608ce34bb902a8f64764eede"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2022-03.zip",
+      "sha256": "c32fc5fd860e14c291ad3f2caec9c9a702bfdee58ad29f2cdc435db2a49f0f9b"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2022-04.zip",
+      "sha256": "0ecfa3c8510321607b9fbbf7626a232a03790f1bd1f7650ccfb53acd7aad3104"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2022-05.zip",
+      "sha256": "1a60532b70b44a9d98444c12995d7d3648828b56ab8ad74dc06c475ff3a807a2"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2022-06.zip",
+      "sha256": "2da51a4a8d7d2e01eaf65a4192e2218ac05634b2168bee33683d60a13227f26e"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2022-07.zip",
+      "sha256": "d589bb440c50c6a56b7f7884a49f09a238c28efff7ba9ea6f43d1fc53ca01a10"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2022-08.zip",
+      "sha256": "d645238583069f160671149041f8037365c61843e06832ee48c2e3f74404c745"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2022-09.zip",
+      "sha256": "b8655b3cda1f1c72258276461872baafc233da4ed40892aefde7a5eadbf89132"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2022-10.zip",
+      "sha256": "e1584f1b6428f175360170aa9c3d9e1310f30e9589a930bd99f665c3151c877b"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2022-11.zip",
+      "sha256": "05b112be3d00683a12c8595adae8847c0d79e24f43beed503be31cfff64a81ef"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2022-12.zip",
+      "sha256": "007272757aaf04753dbb723b2b338e683ce279752367950ffee0ce7804b944c9"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2023-01.zip",
+      "sha256": "289546856ae9c25af77992ad666b77afd7119f6e2c580ff190212064e4c185ec"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2023-02.zip",
+      "sha256": "2fa6f385544fa2070582e0278f624045ba3c562eb299e66a8fde7fc0171f8360"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2023-03.zip",
+      "sha256": "bcfc4f56b68c4a3b668bcad90c44e117754b578b65b82b891196e1dae8c73680"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2023-04.zip",
+      "sha256": "9bf79bcbe7c4be8cea5de5109f94ed64e267bfa51743dc11d0a222eb53a34c90"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2023-05.zip",
+      "sha256": "3e3b32dee35a7d571a5d594b06e4ce7f22628f53aceed902b34d6ecb1f71e9bd"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2023-06.zip",
+      "sha256": "8cdf8b74a531241aaf42d2812ca88d07f0a0d926998c96116f921d6eb7390622"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2023-07.zip",
+      "sha256": "db08a7d53cb4d93bfcc14d874d8524f1118be43a867f31ee67e3ace1ac55562c"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2023-08.zip",
+      "sha256": "63870c7d1acd975c661efac02db982a2ddfe98d37de27129b36c584e5ba75ddd"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2023-09.zip",
+      "sha256": "ad107b3075c6fceb1d09758e1c01bb43c072aa966c7813e7de9104ed78208400"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2023-10.zip",
+      "sha256": "b9b4dde66cf5c64d9d621a359df85cdb774f15eb0126a6b06ba9c3c7c69ff605"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2023-11.zip",
+      "sha256": "676b8e322776b203d42407a92d185b6d2c594d630da45092f82226edfcc1425a"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2023-12.zip",
+      "sha256": "f2582ed9de40cf4aec2cfcc28a4b4318e515665e52e4b576ea28f910cd5e403c"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2024-01.zip",
+      "sha256": "b74883212a0039314a36b613fa215146a530480062a461cb668577a8dfb6da2c"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2024-02.zip",
+      "sha256": "c5a9824a3ffe0619004263ad263ace30c5dc6b32f2f352fb968d80fdc578cfbe"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2024-03.zip",
+      "sha256": "fd6a0455d8b57839cbe7c826eca32c6b930633c06d953cc84b1bee6494a895ac"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2024-04.zip",
+      "sha256": "b4e6dfc35f094bcb41fb566787ec4820a818a55b0ea9870bd200c12378158e88"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2024-05.zip",
+      "sha256": "4399a78fb1856569a9ff72740ed054473b34a2de264c20f00040c7d31e47d09c"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2024-06.zip",
+      "sha256": "2da39b0c22fb32931beb8f4f6ec8f3f84cabcad5a1e8c7d52821991a042f3b17"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2024-07.zip",
+      "sha256": "8137c5a4a896e9e9c02a766617f9d604c3e26ed1b9ee8a2b71a80b6d494ddda4"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2024-08.zip",
+      "sha256": "f7ec0dedf6b655a926f19a55aa7f7b04bd5dd342e31804a9af0db9f69a35ff5b"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2024-09.zip",
+      "sha256": "33cabeaee0d606c5043caffee234d83470feaf1b26c03a85ca87875471bbf671"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2024-10.zip",
+      "sha256": "347de1da26dab7719158d6e5ae2cba07640fb2689cda29e58e94078f6965d1f9"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2024-11.zip",
+      "sha256": "358b3e03d3c203dd33770131654ed4b33ca58a8f0e16be686d0d6b9e683ab8dc"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2024-12.zip",
+      "sha256": "bf429605df655a36bf215124cb2500642f416202394f469919d0838c6c80b6d9"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2025-01.zip",
+      "sha256": "080878d800b55f74fbe4ac835fdc82a733fcde480631149b75ae825af39b5018"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2025-02.zip",
+      "sha256": "0df49bbd405cd51358d81ab8ab725a9dc3afc5ce35aabb7a4c2a7ea117c98314"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2025-03.zip",
+      "sha256": "2bf8afb4d606a7bc7ff3965081186c5581bbea7dfd5eacaa22ff484ba6cc2b28"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2025-04.zip",
+      "sha256": "4baec128f745749883085cf82ecfbdebfc502dfcfe9e9c09ac31934cacfe1da6"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2025-05.zip",
+      "sha256": "ca602d4fc4186a430d9a5adfd7587128315be57eacd32a3ba53f964298baaa39"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2025-06.zip",
+      "sha256": "8de503b00cd596d894e07d6884f2b93b71eb03622a3cb54923d6531a18370182"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2025-07.zip",
+      "sha256": "293ba16a35adca1fdc8c085f36b1e3959f7037e05aa68f5c7032a292da6c4869"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2025-08.zip",
+      "sha256": "98f6d2b3acd311108e1bc9b9cfe3d83edef19a20e14faa322a4b156757a9d922"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2025-09.zip",
+      "sha256": "dfe2b48ff8e24d2da4d32b82cb989b9172308914e046b5c7fbeaba6a3fd8a0b2"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2025-10.zip",
+      "sha256": "43e71dd6605539b390f5176db98a752f0e5898b520ff155723ec63ae73febbed"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2025-11.zip",
+      "sha256": "f6ec67386e4d31e8319cdf0433a36c467efd8ba78d5d03d82fc26aa29699c7e9"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2025-12.zip",
+      "sha256": "35c286a71ac7b59165992bdb21fa2ec942d1359c81ee3e7a3f4e81afcd07ccf0"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2026-01.zip",
+      "sha256": "2d04326c7f5f2297f91699e074b032599ffdf9ebd5b8f946c10aa96335ecd287"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2026-02.zip",
+      "sha256": "16866c9fddb8a2508cc757203af803536dc2c51eff0f348aeead444bde8f192e"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2026-03.zip",
+      "sha256": "760562fccec94c4fd5dd8186d4235353c953fab968d531b9c7957953df9ab10f"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2026-04.zip",
+      "sha256": "96f7702313254f75fff7fec4bc79cb2e6e2d54b14a8fbc8468ce7775b7755209"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2026-05.zip",
+      "sha256": "6208b8ddcee7d6f331e89a68d714136802e70b121eda2380b8e9e87da3082bb5"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2026-06.zip",
+      "sha256": "4b4ad12233ba31d33e32dd2ba36bd34f51980f49b3477d747bf7c5b9e70c3ba6"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2026-07.zip",
+      "sha256": "dd7c4395e2b1e7a9587193ab25b551a85bf1cafced2a7d854bc12a1e9ffc4d3d"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2026-08.zip",
+      "sha256": "12b577bb220083a597c8f7121521bc2cfdecf07ba8713000b9e095b81fa1e7e9"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2026-09.zip",
+      "sha256": "ea1ad8ee367efc3d7a6ad6f0513270be24d6a4f6759f0803f73e1e69b081b627"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

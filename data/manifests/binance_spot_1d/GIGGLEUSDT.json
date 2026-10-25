@@ -1,0 +1,73 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/GIGGLEUSDT/1d/",
+  "instrument": "GIGGLEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-10-25",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:34:02+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 341,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "GIGGLEUSDT-1d-2025-10.zip",
+      "sha256": "5f9ec333bbdf06797c52b82a2dcbd6e414dd4fcd087913d81764345e9f8cf40f"
+    },
+    {
+      "file": "GIGGLEUSDT-1d-2025-11.zip",
+      "sha256": "38bc5f9ff1899c5b45baaac539d6d7c5c1b022d1025605863f41303851fde8b8"
+    },
+    {
+      "file": "GIGGLEUSDT-1d-2025-12.zip",
+      "sha256": "32b0aced6ff40bf88aaa6436bcdc1d926a39f399181df99d8c45504b74dcfea6"
+    },
+    {
+      "file": "GIGGLEUSDT-1d-2026-01.zip",
+      "sha256": "d3a71507e5d7d1d67e5c11b99d53b96e990855b336c0725a689d6c16778cb140"
+    },
+    {
+      "file": "GIGGLEUSDT-1d-2026-02.zip",
+      "sha256": "3aab3f90758ad3b798704de5af3a3d4fe1834389fc171b1ac97ca8294d73b5e8"
+    },
+    {
+      "file": "GIGGLEUSDT-1d-2026-03.zip",
+      "sha256": "44460a5b3aaf270c953e4763e6eacdb6bb6b52d947860ee39842553fcbe33837"
+    },
+    {
+      "file": "GIGGLEUSDT-1d-2026-04.zip",
+      "sha256": "f6cfe449316b081e7fe613ea71804c6d3675ae68d5e1c69bd4dd19007b329aab"
+    },
+    {
+      "file": "GIGGLEUSDT-1d-2026-05.zip",
+      "sha256": "7135a360ff56ba1797dae829a220d1e6b6f27924392ec8cdb35b66eee0a4316b"
+    },
+    {
+      "file": "GIGGLEUSDT-1d-2026-06.zip",
+      "sha256": "68590bb8275bd51544ac754aadfdcd5733348624415d2287f57d5da5bc08cdf2"
+    },
+    {
+      "file": "GIGGLEUSDT-1d-2026-07.zip",
+      "sha256": "87f2de2fc99c4f843a923b14bd92d7a2d4516f6c4c0a6004b3f05af2277f1eed"
+    },
+    {
+      "file": "GIGGLEUSDT-1d-2026-08.zip",
+      "sha256": "94dab67d8f7bbab57861765b791362b6b57647fc2e88bb504adac7aad06bb9db"
+    },
+    {
+      "file": "GIGGLEUSDT-1d-2026-09.zip",
+      "sha256": "9584d5b0d2af0987a71767493dd4714a6c00f52ec03b69c9213fa2c5f1f7a16b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

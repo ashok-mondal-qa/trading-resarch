@@ -1,0 +1,77 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/HEMIUSDT/1d/",
+  "instrument": "HEMIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-09-23",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:34:54+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 373,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "HEMIUSDT-1d-2025-09.zip",
+      "sha256": "9c0af6232a438df476132c08afbe8fe20a0b14c92f8e0f133a0e8f5ef890bfc1"
+    },
+    {
+      "file": "HEMIUSDT-1d-2025-10.zip",
+      "sha256": "e0e2fc0f1a5c61901b09402202893aceca22df35ca8d4a612f3235f2b76ae936"
+    },
+    {
+      "file": "HEMIUSDT-1d-2025-11.zip",
+      "sha256": "0248c872b352042d7a6f9aaa9be34a547dfd9443d0b35b3a3aa9997e57872948"
+    },
+    {
+      "file": "HEMIUSDT-1d-2025-12.zip",
+      "sha256": "e54f2908f7d3c242332cc018227c7936c44639812aa6951781ac4aecbec4f9bc"
+    },
+    {
+      "file": "HEMIUSDT-1d-2026-01.zip",
+      "sha256": "24e4e15520eceef18b132ac0cb9819b60b133084872091b0ce611e88b69cda1a"
+    },
+    {
+      "file": "HEMIUSDT-1d-2026-02.zip",
+      "sha256": "98a2a555fb033dbba57411948093a0e57b903a05789cc25438e344613eb7ce87"
+    },
+    {
+      "file": "HEMIUSDT-1d-2026-03.zip",
+      "sha256": "f001ce459ed71e1ca77d7d5a494c5ca42235e1c7d09f69280953c162e1964ef1"
+    },
+    {
+      "file": "HEMIUSDT-1d-2026-04.zip",
+      "sha256": "1c046e4acc36e24ff6709b386bfcbcefef2731e53af84174fd0b9f49339c1740"
+    },
+    {
+      "file": "HEMIUSDT-1d-2026-05.zip",
+      "sha256": "5e493b475ada18d5f7420dae4cc550baae565c9ae11bfe29e12ef7e245849db1"
+    },
+    {
+      "file": "HEMIUSDT-1d-2026-06.zip",
+      "sha256": "71007729766da33249e2613cce5b41890a912824578c5906a7bd02e15b303972"
+    },
+    {
+      "file": "HEMIUSDT-1d-2026-07.zip",
+      "sha256": "5e836f236c4669f6012b561679f7687890fba2aba0109f3e42cee8b3f32fbcae"
+    },
+    {
+      "file": "HEMIUSDT-1d-2026-08.zip",
+      "sha256": "3b5298b2cf5ecd11a96e8ecdb2880cb369f8d372cd02e33089444ce08b10e78b"
+    },
+    {
+      "file": "HEMIUSDT-1d-2026-09.zip",
+      "sha256": "ad743dfe90e701efee2059eb57aff78b68ad64173419089087a4d5a4f62f0f8f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

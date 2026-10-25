@@ -1,0 +1,305 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/JUVUSDT/1d/",
+  "instrument": "JUVUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-12-21",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:37:16+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2110,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "JUVUSDT-1d-2020-12.zip",
+      "sha256": "7364b8a350348ca35b287c69e07c0ccb237456376416e25f418a20dbf7173da3"
+    },
+    {
+      "file": "JUVUSDT-1d-2021-01.zip",
+      "sha256": "e31f4fe53d3dd9da5be295b9e0ed5fe95e59c1d357ccdf61cf8d3b7b2147355d"
+    },
+    {
+      "file": "JUVUSDT-1d-2021-02.zip",
+      "sha256": "24da4f099eeaad70d5f329ebd5cc5256f9914767f268deb5d1da5f5cf663cb56"
+    },
+    {
+      "file": "JUVUSDT-1d-2021-03.zip",
+      "sha256": "d7e5871a72f232af6eb7a4d0c1c2982fd812b114af17c4c5bbd6ff5cf613c56a"
+    },
+    {
+      "file": "JUVUSDT-1d-2021-04.zip",
+      "sha256": "16f87a3700026de9fdc990d435b6f32ddf16726135292397285646f0a234a96c"
+    },
+    {
+      "file": "JUVUSDT-1d-2021-05.zip",
+      "sha256": "982ebed70dec416052078d6029549212538f1608175331f627a4f56cfa222424"
+    },
+    {
+      "file": "JUVUSDT-1d-2021-06.zip",
+      "sha256": "02648d58d7e960cfc0b705029f48a6832d321234bb2a575c91436fbd8d07336c"
+    },
+    {
+      "file": "JUVUSDT-1d-2021-07.zip",
+      "sha256": "f24f62a77491cf98cfbc380b6a08bccd06aec83c157d6d591ace7995e3c7390d"
+    },
+    {
+      "file": "JUVUSDT-1d-2021-08.zip",
+      "sha256": "eccaeafb850f34595e5467c020e5e3c9b052b46bec636d5e5d6c6b0fb9909576"
+    },
+    {
+      "file": "JUVUSDT-1d-2021-09.zip",
+      "sha256": "97620c8757f69d476dadf8be4ce4f2a606820ad3dc8c3852c9873b8951023625"
+    },
+    {
+      "file": "JUVUSDT-1d-2021-10.zip",
+      "sha256": "090e4274a7f9bb2c1bc5ddb47f431a4c127279a1fa1a6d5f8706c797d50ac098"
+    },
+    {
+      "file": "JUVUSDT-1d-2021-11.zip",
+      "sha256": "f6a6250a2e6bea8f6ba7b9695be61db16e3b78f34340afffc76325a3ec8f47d2"
+    },
+    {
+      "file": "JUVUSDT-1d-2021-12.zip",
+      "sha256": "f333c9ca1c2ad6e6253320f243ae6b833ddfba07532f56f6a7210873cbd426ab"
+    },
+    {
+      "file": "JUVUSDT-1d-2022-01.zip",
+      "sha256": "3c1e01d8ff8df24de127354734489a09025c7936716e72f3b8110338ebf3597c"
+    },
+    {
+      "file": "JUVUSDT-1d-2022-02.zip",
+      "sha256": "7f9120cc5cd26b6eed484f1a32d279ea828c9b14c53cafca57904929d72955ce"
+    },
+    {
+      "file": "JUVUSDT-1d-2022-03.zip",
+      "sha256": "8903651e781fabe7102bacc65f0161f65a98c02c4751b4fe87689f73c44ce6bb"
+    },
+    {
+      "file": "JUVUSDT-1d-2022-04.zip",
+      "sha256": "b9ab78664a36d994a307ffdc95bce8890fe7e6873c769d9572e5b91e58b3be39"
+    },
+    {
+      "file": "JUVUSDT-1d-2022-05.zip",
+      "sha256": "3f1ccfc95ad0041ef17a804c5fa75f45e3d65017be014549c397dcff3e1ad5e0"
+    },
+    {
+      "file": "JUVUSDT-1d-2022-06.zip",
+      "sha256": "ba9e91f011f1cd442fe45b55b736962922b0fdaf30119dcc130eb44af08ed035"
+    },
+    {
+      "file": "JUVUSDT-1d-2022-07.zip",
+      "sha256": "e98e960d105c90d40ac02bcf0569e5fbb1ec58f458d891f1d8f5dec11beb9e12"
+    },
+    {
+      "file": "JUVUSDT-1d-2022-08.zip",
+      "sha256": "0bd8ac0914f05b0b9f75f9d6a7f5c6e52a641dc55aa9b09084d2fca655d9fe05"
+    },
+    {
+      "file": "JUVUSDT-1d-2022-09.zip",
+      "sha256": "e511ba79af173c7525fae0738623b05c77b84cd676c97c1192fbfb443c75ab3d"
+    },
+    {
+      "file": "JUVUSDT-1d-2022-10.zip",
+      "sha256": "f5d36e953d6e694b99fa9e82ce818092562fdb2f32c01c51efec01c8eff33b69"
+    },
+    {
+      "file": "JUVUSDT-1d-2022-11.zip",
+      "sha256": "9efecf99e1126bedbb597a35b8f26fd40e68cc4569c0c63da4a8f02fe52db325"
+    },
+    {
+      "file": "JUVUSDT-1d-2022-12.zip",
+      "sha256": "f96dc719ae0226e3d8c52753a0f529f6725d6662014cf5bef6caf41604d5760e"
+    },
+    {
+      "file": "JUVUSDT-1d-2023-01.zip",
+      "sha256": "99b47ef764944834635c7e091991e995c3f77aab1137cc0f4d35101deafb2e4d"
+    },
+    {
+      "file": "JUVUSDT-1d-2023-02.zip",
+      "sha256": "e9e662b7fa61ad3ad60a41dec17a0c671f04c754ff702e71af4721c74a940bb2"
+    },
+    {
+      "file": "JUVUSDT-1d-2023-03.zip",
+      "sha256": "22a10c0755e1c1b07354f409ada9160df5aedfccb5e2a2d8433d8ca498e4ccf1"
+    },
+    {
+      "file": "JUVUSDT-1d-2023-04.zip",
+      "sha256": "eae0bf9f1eef29f6def767929b97ab4204d4bbb0cd6ce78a0dc1fb0503741ba5"
+    },
+    {
+      "file": "JUVUSDT-1d-2023-05.zip",
+      "sha256": "6122486d1cc159a9fb6409c2f9340a8eca01a9561601c543d006b0f379adeb8d"
+    },
+    {
+      "file": "JUVUSDT-1d-2023-06.zip",
+      "sha256": "3b20827f64969182a41a8a63910ef606ee9451ef8fdacd6b48304cd701d12483"
+    },
+    {
+      "file": "JUVUSDT-1d-2023-07.zip",
+      "sha256": "5b72be5ab6f72ecae8842df3f6ecde691cf408f1d8a412ab15851a71890608b0"
+    },
+    {
+      "file": "JUVUSDT-1d-2023-08.zip",
+      "sha256": "ba450bb102c4aa45afd28dbdcbadd1bd9e36942d6d1c767797d2102f22701d8d"
+    },
+    {
+      "file": "JUVUSDT-1d-2023-09.zip",
+      "sha256": "f46129d80c02b24dba4474560ba20d5deef4a8ceec8ca3224d064bdd3c5ccdd8"
+    },
+    {
+      "file": "JUVUSDT-1d-2023-10.zip",
+      "sha256": "88659a9e9cea5bff4897a9cfeff3e1f0eee1d0eb44324dea860a6028fc7fe961"
+    },
+    {
+      "file": "JUVUSDT-1d-2023-11.zip",
+      "sha256": "ffb26f694eca1ab14d04abdb28e07867ee496e399a54f52767b9e70d81fa9119"
+    },
+    {
+      "file": "JUVUSDT-1d-2023-12.zip",
+      "sha256": "1d2e0763fa3bbfab4e0e1030e29f6d3a3f985ac90e2f524bbd77ca6cb08358e9"
+    },
+    {
+      "file": "JUVUSDT-1d-2024-01.zip",
+      "sha256": "0b409f1687de1ee2c7ad0d35a2c454e0f3245c463c8d3c40d70424d9d4d36bee"
+    },
+    {
+      "file": "JUVUSDT-1d-2024-02.zip",
+      "sha256": "6285a06e8b63b6a9cc2dd7e986a4755369d1a1760ccfe2e0a40ef7e0027b3e9a"
+    },
+    {
+      "file": "JUVUSDT-1d-2024-03.zip",
+      "sha256": "94582a66e4da32712f056979c2d2775c83a4517416b27bb99fafa9e2b5195d66"
+    },
+    {
+      "file": "JUVUSDT-1d-2024-04.zip",
+      "sha256": "2eded1d192a4e6d68c55e935de22179f6c2e137155aa880882f89748fc88d457"
+    },
+    {
+      "file": "JUVUSDT-1d-2024-05.zip",
+      "sha256": "8ed856c48480893c0d6958f212c7729393f43af93b755024b79a453860179918"
+    },
+    {
+      "file": "JUVUSDT-1d-2024-06.zip",
+      "sha256": "c6c1f86ce590d0ce13d4406b2e7dc497a5594765302066b2709926a7d527bb18"
+    },
+    {
+      "file": "JUVUSDT-1d-2024-07.zip",
+      "sha256": "93ff8e4f52d713bbfc8df7a16a7a3f3f27608f08e4ce636a5bc2e62cb6385be2"
+    },
+    {
+      "file": "JUVUSDT-1d-2024-08.zip",
+      "sha256": "ce5e948aa116c9fb0c1524058c10f0b35ceb84c796aec3ae8a1112e875e1c4bd"
+    },
+    {
+      "file": "JUVUSDT-1d-2024-09.zip",
+      "sha256": "982767abaf50a955c3c055a9649e4620cf9adbe06118153174171fef7a3ae9d3"
+    },
+    {
+      "file": "JUVUSDT-1d-2024-10.zip",
+      "sha256": "926a39418b8772d0863a9d2c7ac3e4d8474c55b0e2dd5a18c3cd8d1a88a9e020"
+    },
+    {
+      "file": "JUVUSDT-1d-2024-11.zip",
+      "sha256": "8df70af2f7fa00a21c56c7f611abea802af302b84546e35b0537253d2a0f87dd"
+    },
+    {
+      "file": "JUVUSDT-1d-2024-12.zip",
+      "sha256": "1a4c63119cee647a01c0b5456c83d618067651ac108547b9e045edb063f28b26"
+    },
+    {
+      "file": "JUVUSDT-1d-2025-01.zip",
+      "sha256": "b767cbc94cbaa93810aac2dddfc182a25ae2a0b57dbd174c6a13c4dd2fe55325"
+    },
+    {
+      "file": "JUVUSDT-1d-2025-02.zip",
+      "sha256": "4ca9c586f2af29925e4339e1db76dff5482ee27ecc56a755e9b6c47918e0d8db"
+    },
+    {
+      "file": "JUVUSDT-1d-2025-03.zip",
+      "sha256": "523f1f5ad3f2a7d44d5e507150574fec78f8c468e6906e51e02929608431dd5c"
+    },
+    {
+      "file": "JUVUSDT-1d-2025-04.zip",
+      "sha256": "bcc4e321c4ed11e32a9a4670107355ee9b41e5f2acf3319299e0fc83c81de2bd"
+    },
+    {
+      "file": "JUVUSDT-1d-2025-05.zip",
+      "sha256": "745a9cc80d81ddab95664dd44b86421bb6cd1128f5a52eb040c49d637da349e2"
+    },
+    {
+      "file": "JUVUSDT-1d-2025-06.zip",
+      "sha256": "eefa61b9df3dffabf961a3aceec437b320767e0947e2253f8037963bb396a41f"
+    },
+    {
+      "file": "JUVUSDT-1d-2025-07.zip",
+      "sha256": "f3bf4bf2e0f6f9f733453f5a0f43ed42ac4f56deebddbb09d83843dd3593d549"
+    },
+    {
+      "file": "JUVUSDT-1d-2025-08.zip",
+      "sha256": "61f1481f6ca6c5fc4445b790e5496e92b932263508948b64323d9a386e774fab"
+    },
+    {
+      "file": "JUVUSDT-1d-2025-09.zip",
+      "sha256": "c8ee2af0b94218eb46979066ee196f4cf50a121850dfeff419816bc4b504be56"
+    },
+    {
+      "file": "JUVUSDT-1d-2025-10.zip",
+      "sha256": "bf363a942268e7860abb4df9186ea86f7b7eb9251f4ecb0a0a2e1312af45611e"
+    },
+    {
+      "file": "JUVUSDT-1d-2025-11.zip",
+      "sha256": "a3d351135c65610c83ad476b784f73ee683bfc312cc82b6d253edd45932b2529"
+    },
+    {
+      "file": "JUVUSDT-1d-2025-12.zip",
+      "sha256": "795a66569aacd53f24055a60f8217db1140079e2899604ec843498c40751cbaa"
+    },
+    {
+      "file": "JUVUSDT-1d-2026-01.zip",
+      "sha256": "d91c79b829913e8711db5ad9d81945b6d2ee2f433c8c3f482fc675535fb9782c"
+    },
+    {
+      "file": "JUVUSDT-1d-2026-02.zip",
+      "sha256": "f0ca61eb5e63cc28f81a752f9150d34c79e163006aeafe7a9252e3fc3fbd04ee"
+    },
+    {
+      "file": "JUVUSDT-1d-2026-03.zip",
+      "sha256": "db3e4edea4df34fa0eeed7a56f00abfcde869833b11345473cd9d531c1152686"
+    },
+    {
+      "file": "JUVUSDT-1d-2026-04.zip",
+      "sha256": "3c7526b1ece800a3b81a7cc30903be491b3d7b2fa40d8bf2add6ff42c831e6a6"
+    },
+    {
+      "file": "JUVUSDT-1d-2026-05.zip",
+      "sha256": "cb687d7580ee8d970ae87f8e5659a095819c33a4914477aa41b5d67dc6f5e3bc"
+    },
+    {
+      "file": "JUVUSDT-1d-2026-06.zip",
+      "sha256": "346be7fef26ff2920b4819e86b6ae6a1ca0d12b9813c367cd523913ef4e490f7"
+    },
+    {
+      "file": "JUVUSDT-1d-2026-07.zip",
+      "sha256": "a7094ee63b6cc405ad582a3f34f5f7ec195f33abe059d6a03461bc8e9e2fc32a"
+    },
+    {
+      "file": "JUVUSDT-1d-2026-08.zip",
+      "sha256": "7e2d4bae380a899e2fab3f3a87c82be345e48cd3a1852d79ad2e95b9f62fd2b2"
+    },
+    {
+      "file": "JUVUSDT-1d-2026-09.zip",
+      "sha256": "6424c6918903c9742639b8bf1789a4fab89a4f553cf2c6d31aebbe3cfeeef8fd"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

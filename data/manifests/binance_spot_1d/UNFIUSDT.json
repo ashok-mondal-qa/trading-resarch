@@ -1,0 +1,221 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/UNFIUSDT/1d/",
+  "instrument": "UNFIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-11-19",
+  "last_bar": "2024-11-06",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:08+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1449,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "UNFIUSDT-1d-2020-11.zip",
+      "sha256": "c76b2833d0cce4f4b27402cd53a62b5bc8894ed3944314dec19972724963a090"
+    },
+    {
+      "file": "UNFIUSDT-1d-2020-12.zip",
+      "sha256": "869cbabfd62f796c21bf017428e9af9b13b38f8d2fe25bf5b6e2c5905f6bfc2a"
+    },
+    {
+      "file": "UNFIUSDT-1d-2021-01.zip",
+      "sha256": "f2ba18383ccf243a8a552a2e7b9120856657cfa88494e784ff7e54f3314fb64f"
+    },
+    {
+      "file": "UNFIUSDT-1d-2021-02.zip",
+      "sha256": "956625696c63080081c38e9020519e6aa837f6c364486f4872b75251f73277a0"
+    },
+    {
+      "file": "UNFIUSDT-1d-2021-03.zip",
+      "sha256": "3c01ce5ca7bdad0898856a6b05fec4ea50c96b291068b8b7c605206a37acaabf"
+    },
+    {
+      "file": "UNFIUSDT-1d-2021-04.zip",
+      "sha256": "29a2ee2f657b87bdb51cc767ad85844c3b5dfbe8069d1e9bb13bbb83122bc959"
+    },
+    {
+      "file": "UNFIUSDT-1d-2021-05.zip",
+      "sha256": "0f57881b279085c1509891fc4b601aaa8bde3587c1f9d76c321d2edf8fe146c3"
+    },
+    {
+      "file": "UNFIUSDT-1d-2021-06.zip",
+      "sha256": "6b17b92aa8f632f1eaf2708e83de7c33c110bc93a266085b95bb774cd2e87b67"
+    },
+    {
+      "file": "UNFIUSDT-1d-2021-07.zip",
+      "sha256": "ba15b6c43128232ca869f1de4eb2165c661da5ee001815d86f13edab43c43d6e"
+    },
+    {
+      "file": "UNFIUSDT-1d-2021-08.zip",
+      "sha256": "aa04dbb66b3ca2cc0b028183c92d310d703bf983a8394aebfddc09c1b795d65f"
+    },
+    {
+      "file": "UNFIUSDT-1d-2021-09.zip",
+      "sha256": "93eb6376633ba7ddeda97e8e5020b4def1366cf66c8ffeef5092d0f56c6a33e7"
+    },
+    {
+      "file": "UNFIUSDT-1d-2021-10.zip",
+      "sha256": "acaaab72567debd415338774b047bf1c1f61fde58945f9a16f9b38433a67b9ce"
+    },
+    {
+      "file": "UNFIUSDT-1d-2021-11.zip",
+      "sha256": "09f0ab1abf04533c43db6105d4f88a7f8f4159cadd5938ca6ce180096e0988ea"
+    },
+    {
+      "file": "UNFIUSDT-1d-2021-12.zip",
+      "sha256": "0c9eeab7d12f90cdc9603b8caea03b59fa4dae75e9dcaf6f8b38bc24b05a2b26"
+    },
+    {
+      "file": "UNFIUSDT-1d-2022-01.zip",
+      "sha256": "f7ec3c0c3ddd8a833d991a8dd3e9f948a44e35b48ae2910ee804b54ede5dea1b"
+    },
+    {
+      "file": "UNFIUSDT-1d-2022-02.zip",
+      "sha256": "5ddbc22c70adf8d65c57acdf1c7bc697af00dd5c1f71233cc1e3668d7d7c5506"
+    },
+    {
+      "file": "UNFIUSDT-1d-2022-03.zip",
+      "sha256": "109d912eb836d844f7e7a1b41f6fb3f21556a95f416bbc1a17c649f98ce04f3f"
+    },
+    {
+      "file": "UNFIUSDT-1d-2022-04.zip",
+      "sha256": "7b4a54a9d58223d6f6a670b6496ce53baf5334e64e8861aeb7cfc1d6a3369a8a"
+    },
+    {
+      "file": "UNFIUSDT-1d-2022-05.zip",
+      "sha256": "1a0832a9a55cf21681a7a81c325c77f5b664336fefe85e28103d06003df80553"
+    },
+    {
+      "file": "UNFIUSDT-1d-2022-06.zip",
+      "sha256": "1fb4056fd586aaf7b8a1a4f19d3b381a68523e8066c4218bab5a4c3438924d85"
+    },
+    {
+      "file": "UNFIUSDT-1d-2022-07.zip",
+      "sha256": "cfd844265f4e616d5de6da0ec43e085064b6ecf10a05aca7c7430f5ae780c4f2"
+    },
+    {
+      "file": "UNFIUSDT-1d-2022-08.zip",
+      "sha256": "247d5ca4069985f45f5c847f0a1a86531e12d71c36fdd9df9d2a16c591a75736"
+    },
+    {
+      "file": "UNFIUSDT-1d-2022-09.zip",
+      "sha256": "45531ad1bd8563c6f969632b4f6d03af883955c50cb04bc01095a06a2d40a879"
+    },
+    {
+      "file": "UNFIUSDT-1d-2022-10.zip",
+      "sha256": "5e73b08e20260a0ed800c1cae0b3a68ca5fb4397fea1452e3e5ebbf3b043fa8f"
+    },
+    {
+      "file": "UNFIUSDT-1d-2022-11.zip",
+      "sha256": "c45ab3355887786a5aca6a932ecd1bf7bba44ab7f4bb92704351c7a477c744ea"
+    },
+    {
+      "file": "UNFIUSDT-1d-2022-12.zip",
+      "sha256": "75df4b59617aec7c5becf01e3e8095c03fd4c27e8a87ee581ed7e2ca1f9e5ddb"
+    },
+    {
+      "file": "UNFIUSDT-1d-2023-01.zip",
+      "sha256": "90f5d1ddd1b59ee2f240f76e7dedaf9beead3236900dd4a057d7ee82c20798fb"
+    },
+    {
+      "file": "UNFIUSDT-1d-2023-02.zip",
+      "sha256": "ca8ec2d845b58a26929d7e3d1866a33a606955111d6e5d090b83111f454410ed"
+    },
+    {
+      "file": "UNFIUSDT-1d-2023-03.zip",
+      "sha256": "ee69b8b9cbe9ec32756fa73973bf2fac25aa3343eccc379c49b2319c13027558"
+    },
+    {
+      "file": "UNFIUSDT-1d-2023-04.zip",
+      "sha256": "b99234cb4226ef871b2c9ecf8b6e12bb32aef8d7d6e07b992f896a2ae5ae428a"
+    },
+    {
+      "file": "UNFIUSDT-1d-2023-05.zip",
+      "sha256": "f69a33895a8421e820b33cf492c2d66ff35a616a0d5ea27d9ad95044effa3cd8"
+    },
+    {
+      "file": "UNFIUSDT-1d-2023-06.zip",
+      "sha256": "0d7f5848839744b871c2a559af4910f829d202746d0e34812f081e296f4af41b"
+    },
+    {
+      "file": "UNFIUSDT-1d-2023-07.zip",
+      "sha256": "93492e737a1c707f59508cd038717040e4fce0108ad618a92a4c66f0952d06b8"
+    },
+    {
+      "file": "UNFIUSDT-1d-2023-08.zip",
+      "sha256": "39af20c5089b066b6927ec912bc6f3a915e65a1afdb56ccbff98320a780890be"
+    },
+    {
+      "file": "UNFIUSDT-1d-2023-09.zip",
+      "sha256": "6f9a14759b68e96bf86af8e31f82595f3dff88b40a1b5880c7a223fa9fbda20c"
+    },
+    {
+      "file": "UNFIUSDT-1d-2023-10.zip",
+      "sha256": "4a85908cb237d61da3af73a87a527acacf98495cf08c61a2730baee2cc70ebaa"
+    },
+    {
+      "file": "UNFIUSDT-1d-2023-11.zip",
+      "sha256": "b742e0b0ca9ab43d94da0833e3619f5274046a3820ec1cc90ab6a83ec683b84c"
+    },
+    {
+      "file": "UNFIUSDT-1d-2023-12.zip",
+      "sha256": "bab84ad44b6b398e86f463ace35720ad6b6ec6b1ccefdcf39fd77e4963bd2273"
+    },
+    {
+      "file": "UNFIUSDT-1d-2024-01.zip",
+      "sha256": "2f39c242326d5b194a949e04a15acd24ca41858c5f876d2c214316615ec4855f"
+    },
+    {
+      "file": "UNFIUSDT-1d-2024-02.zip",
+      "sha256": "900fa8556c7e3faea4781fe4bbee20ea99005b2a3fd95fca5193783bb475ccd0"
+    },
+    {
+      "file": "UNFIUSDT-1d-2024-03.zip",
+      "sha256": "63d906c422292d8315e41f22070036a95cf96816e6e015e35b0e608e31716884"
+    },
+    {
+      "file": "UNFIUSDT-1d-2024-04.zip",
+      "sha256": "b8e830309b02b97d2480166fac45409c7989438fb88995c5bec3d05170d22d8b"
+    },
+    {
+      "file": "UNFIUSDT-1d-2024-05.zip",
+      "sha256": "5a22efeeabfef46c48014a0ddc91fd24d4bdf851292aedf9739a38eb4dcef2f1"
+    },
+    {
+      "file": "UNFIUSDT-1d-2024-06.zip",
+      "sha256": "05b9a2770b825af1124b7d127c62ed71b80cee59a285f0ae42969f30438b4356"
+    },
+    {
+      "file": "UNFIUSDT-1d-2024-07.zip",
+      "sha256": "5c22c29da4b2c805844174b686f4f24212eac00e04449264192c2e4c604010c3"
+    },
+    {
+      "file": "UNFIUSDT-1d-2024-08.zip",
+      "sha256": "2c2fcf58621d966c136989e9a5a222503c998a8c6e195b3e7d0d5d4582eaba69"
+    },
+    {
+      "file": "UNFIUSDT-1d-2024-09.zip",
+      "sha256": "01e5fa8d58e8a8bb8543f50620116c10f1ff83d2877fb8bfe728e308f85378ce"
+    },
+    {
+      "file": "UNFIUSDT-1d-2024-10.zip",
+      "sha256": "376dfb65dfa6c761764d4b2c2412b9d33e1ee5ce9f05c90df946882be2b1c48d"
+    },
+    {
+      "file": "UNFIUSDT-1d-2024-11.zip",
+      "sha256": "09886d48473f74813b9300e4eb7a0386d0786b92447df119ac7e94d002856ef9"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

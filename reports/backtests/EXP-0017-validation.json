@@ -1,0 +1,185 @@
+{
+  "experiment": "EXP-0017",
+  "strategy": "supertrend",
+  "spec_version": "0.1",
+  "split": "validation",
+  "range": [
+    "2025-01-01",
+    "2025-12-31"
+  ],
+  "params": {
+    "atr_n": 14,
+    "rs_lookback": 63,
+    "max_stop_pct": 0.1,
+    "min_price": 50.0,
+    "min_median_traded_value": 50000000.0,
+    "volume_lookback": 20,
+    "max_new_per_day": 2,
+    "mv_rs_min": 0.7,
+    "mv_breakout_n": 20,
+    "mv_volume_ratio": 1.5,
+    "mv_stop_pct": 0.08,
+    "st_n": 10,
+    "st_mult": 3.0,
+    "ma44_n": 44,
+    "ma44_rising": 5,
+    "ma44_target_r": 2.0,
+    "turtle_entry_n": 55,
+    "turtle_exit_n": 20,
+    "turtle_atr_n": 20,
+    "turtle_stop_atr": 2.0,
+    "gc_fast": 50,
+    "gc_slow": 200,
+    "gc_stop_pct": 0.1
+  },
+  "max_holding_sessions": 126,
+  "generated_at_utc": "2026-10-25T04:19:54+00:00",
+  "universe": {
+    "loaded": 1614,
+    "insufficient": 1,
+    "short": 258,
+    "etf": 82,
+    "superseded": 151
+  },
+  "costs_verified": false,
+  "regime_days": {
+    "up": 132,
+    "down": 70,
+    "range": 46
+  },
+  "benchmark_nifty50_return": 0.10052268257036823,
+  "benchmark_nifty50": {
+    "cagr": 0.10222421953101102,
+    "ann_vol": 0.11857903893365891,
+    "sharpe_rf0": 0.8832227453728332,
+    "years": 0.9841269841269841
+  },
+  "runs": {
+    "portfolio_1x": {
+      "trades": 15,
+      "open_at_end": 4,
+      "net_return": 0.014847246109732426,
+      "max_drawdown": -0.037196595478625416,
+      "win_rate": 0.26666666666666666,
+      "expectancy_inr": -1357.9313674787122,
+      "expectancy_r": -0.28389363682809515,
+      "expectancy_r_ci95": [
+        -0.7287474499875956,
+        0.24351745330090488
+      ],
+      "profit_factor": 0.5246956374816939,
+      "avg_win_inr": 5621.403257856089,
+      "avg_loss_inr": -3895.871231236822,
+      "avg_sessions": 29.4,
+      "total_costs_inr": 2047.5788969748144,
+      "worst_r": -0.9903817964636092,
+      "exit_reasons": {
+        "exit signal": 10,
+        "stop": 5
+      },
+      "inconclusive_lt_30_trades": true,
+      "cagr": 0.015088515510520484,
+      "ann_vol": 0.03011703039309085,
+      "sharpe_rf0": 0.5142758033854694,
+      "years": 0.9841269841269841,
+      "signals_after_regime_gate": 381,
+      "entries_skipped": {
+        "aggregate cap: no room for a full position": 173
+      }
+    },
+    "standalone_1x": {
+      "trades": 245,
+      "open_at_end": 121,
+      "expectancy_r": -0.3336971265741337,
+      "median_r": -0.6871955694657959,
+      "win_rate": 0.2,
+      "profit_factor": 0.42947674936544755,
+      "expectancy_r_ci95_month_clustered": [
+        -0.5697251322034722,
+        -0.07569657496072286
+      ],
+      "expectancy_r_ci99.7_month_clustered": [
+        -0.6875003185152613,
+        0.08168850055060553
+      ],
+      "entry_months": 8,
+      "avg_sessions": 26.571428571428573,
+      "worst_r": -1.3928786336776122,
+      "by_year": {
+        "2025": {
+          "trades": 245,
+          "expectancy_r": -0.3336971265741337
+        }
+      },
+      "exit_reasons": {
+        "exit signal": 168,
+        "stop": 71,
+        "stop (gap)": 4,
+        "time stop": 2
+      }
+    },
+    "portfolio_2x_costs": {
+      "trades": 15,
+      "open_at_end": 4,
+      "net_return": 0.010131476311412646,
+      "max_drawdown": -0.036007051770943654,
+      "win_rate": 0.26666666666666666,
+      "expectancy_inr": -1470.6258577515275,
+      "expectancy_r": -0.3165285622966262,
+      "expectancy_r_ci95": [
+        -0.7329679015424391,
+        0.1749270692631464
+      ],
+      "profit_factor": 0.4740933550105102,
+      "avg_win_inr": 4971.514099811608,
+      "avg_loss_inr": -3813.2222059563037,
+      "avg_sessions": 29.4,
+      "total_costs_inr": 3843.0323706917443,
+      "worst_r": -0.9816759202317223,
+      "exit_reasons": {
+        "exit signal": 10,
+        "stop": 5
+      },
+      "inconclusive_lt_30_trades": true,
+      "cagr": 0.010295725587182059,
+      "ann_vol": 0.028296170315477924,
+      "sharpe_rf0": 0.3775564704095329,
+      "years": 0.9841269841269841,
+      "signals_after_regime_gate": 381,
+      "entries_skipped": {
+        "aggregate cap: no room for a full position": 173
+      }
+    },
+    "standalone_2x_costs": {
+      "trades": 245,
+      "open_at_end": 121,
+      "expectancy_r": -0.36264909710156557,
+      "median_r": -0.6966966110423864,
+      "win_rate": 0.18775510204081633,
+      "profit_factor": 0.39190413962772175,
+      "expectancy_r_ci95_month_clustered": [
+        -0.5839770358044603,
+        -0.11976992285019882
+      ],
+      "expectancy_r_ci99.7_month_clustered": [
+        -0.6945834305217291,
+        0.029753970004931334
+      ],
+      "entry_months": 8,
+      "avg_sessions": 26.571428571428573,
+      "worst_r": -1.351095684946096,
+      "by_year": {
+        "2025": {
+          "trades": 245,
+          "expectancy_r": -0.36264909710156557
+        }
+      },
+      "exit_reasons": {
+        "exit signal": 168,
+        "stop": 71,
+        "stop (gap)": 4,
+        "time stop": 2
+      }
+    }
+  }
+}

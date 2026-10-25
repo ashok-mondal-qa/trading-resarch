@@ -1,0 +1,117 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MULTIUSDT/1d/",
+  "instrument": "MULTIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-04-06",
+  "last_bar": "2024-02-20",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:59+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 686,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MULTIUSDT-1d-2022-04.zip",
+      "sha256": "ad1ca272138f351783a6206afe47e537685be08833f58b085c10b3f5257859cf"
+    },
+    {
+      "file": "MULTIUSDT-1d-2022-05.zip",
+      "sha256": "3f744265fa01713fbf00d0beb6cd2823964b96096148207eee7ce5a77a7833cc"
+    },
+    {
+      "file": "MULTIUSDT-1d-2022-06.zip",
+      "sha256": "8bb4ea96e65ded5c1de40ab9d782e477423326e183b62160ad43b5ed10da4d74"
+    },
+    {
+      "file": "MULTIUSDT-1d-2022-07.zip",
+      "sha256": "da0f467ca4a3397af33ac0d2fefd5a07904ad0aea249e394bda57f37e57819eb"
+    },
+    {
+      "file": "MULTIUSDT-1d-2022-08.zip",
+      "sha256": "129e1390f1c02168559aff267bc35ee57e20e816b9eac49e1ae7253fc0dbfba2"
+    },
+    {
+      "file": "MULTIUSDT-1d-2022-09.zip",
+      "sha256": "8668f7832b8c2dd94657a079f21c279fa1660ccbca405021d553b125c04c5b0b"
+    },
+    {
+      "file": "MULTIUSDT-1d-2022-10.zip",
+      "sha256": "713984f3d190884d0fcb477ea44ba387ca09faf181e06dc329de01db888ed5ff"
+    },
+    {
+      "file": "MULTIUSDT-1d-2022-11.zip",
+      "sha256": "45a5c8a375ebfdc59e7093b0081116dfca435e9c91111d1dfb83955a6f82bd74"
+    },
+    {
+      "file": "MULTIUSDT-1d-2022-12.zip",
+      "sha256": "a39adcd3d50c9f54cc9d28f0e169742a644aa74ec9c9f9c6cac837e00faadff9"
+    },
+    {
+      "file": "MULTIUSDT-1d-2023-01.zip",
+      "sha256": "f69b525a55677bfb27e400bf65f00e5167834dc0989229f86aea93ae7a83ce96"
+    },
+    {
+      "file": "MULTIUSDT-1d-2023-02.zip",
+      "sha256": "b147d1c15c7545f00fe6cabc86f3d9edcab2ab230c0cbd3e8b951005513aaf64"
+    },
+    {
+      "file": "MULTIUSDT-1d-2023-03.zip",
+      "sha256": "0ab3fac0e2dfd408eaac79b202c4069fabbedfda210822ad0c75652b4acafbf0"
+    },
+    {
+      "file": "MULTIUSDT-1d-2023-04.zip",
+      "sha256": "b1ad8592bf69b17a0620efa09ad946a9f16a777d4b6b8d21b186441b81976b2a"
+    },
+    {
+      "file": "MULTIUSDT-1d-2023-05.zip",
+      "sha256": "62b2bd61aa37c589d8e87280b43830e400c470f1a620f9c9ae5f1084f83b7a1e"
+    },
+    {
+      "file": "MULTIUSDT-1d-2023-06.zip",
+      "sha256": "f9c82802d78e792ec3d263899eba7c1d832b5070e300ea6315b3821ce9a13e29"
+    },
+    {
+      "file": "MULTIUSDT-1d-2023-07.zip",
+      "sha256": "6aa1fb5583ceb87680b8bd70888cff565938136a5b01af6cc25df55048c01550"
+    },
+    {
+      "file": "MULTIUSDT-1d-2023-08.zip",
+      "sha256": "81ab677b4397c21d6457841d6e48bbb097894d0bc5e408fcaf105c2e5ae062e8"
+    },
+    {
+      "file": "MULTIUSDT-1d-2023-09.zip",
+      "sha256": "4e2b3af8e1ad5c65a15ad87de744fa18769fc608be050fcec7192d12e47ad584"
+    },
+    {
+      "file": "MULTIUSDT-1d-2023-10.zip",
+      "sha256": "de6bd6e40df346bf3242f3a26b2ab63281bc5d9d6dc1df9ea41576cab822ac4c"
+    },
+    {
+      "file": "MULTIUSDT-1d-2023-11.zip",
+      "sha256": "e3cff5d87ada50d4449e4ef288b6b2a402f1a044811414a4c49ba7563f295b45"
+    },
+    {
+      "file": "MULTIUSDT-1d-2023-12.zip",
+      "sha256": "2b143884b5a39eb343db962fb03b57844c1de156b4f209ced2de4cea8d79e70e"
+    },
+    {
+      "file": "MULTIUSDT-1d-2024-01.zip",
+      "sha256": "f7d7e4de5be52ae0af7b8731d8c53d0e7e9dc804a0b077cfeab5aaf2cd7e57fe"
+    },
+    {
+      "file": "MULTIUSDT-1d-2024-02.zip",
+      "sha256": "5e7a72f297857639b326af6e96457077d060c1afd4317774329a7fb88c7aa2c8"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ARPAUSDT/1d/",
+  "instrument": "ARPAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-11-06",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:26:50+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2521,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ARPAUSDT-1d-2019-11.zip",
+      "sha256": "a4316e44278af079f34ed8d580600eeb19840d30c26bde4175639a37c06aa9ce"
+    },
+    {
+      "file": "ARPAUSDT-1d-2019-12.zip",
+      "sha256": "c1a203a76efc1eeaf38f58d86920fb2a5a02deff9c0a1e70137bd14bd4f0e8bb"
+    },
+    {
+      "file": "ARPAUSDT-1d-2020-01.zip",
+      "sha256": "84797a1f13b3323f5d1451e1a30b05495a43a549516446226721ad4749c849e3"
+    },
+    {
+      "file": "ARPAUSDT-1d-2020-02.zip",
+      "sha256": "2eca9503b35216e4f1554be793a0cc330828ecf80389adca2b8cfbc8527e4edf"
+    },
+    {
+      "file": "ARPAUSDT-1d-2020-03.zip",
+      "sha256": "9e618ce6d8d65ddde836144188bb139c5473798634aa1b67b28a9f3b811ea3a8"
+    },
+    {
+      "file": "ARPAUSDT-1d-2020-04.zip",
+      "sha256": "9df29fa0876c33f9864cf98edcab33aae5430a561b1614ba299215177361b9c6"
+    },
+    {
+      "file": "ARPAUSDT-1d-2020-05.zip",
+      "sha256": "d64d0173824aeb7429fa773d3b0577f4266136449528f853f3c1edec65f4e09a"
+    },
+    {
+      "file": "ARPAUSDT-1d-2020-06.zip",
+      "sha256": "ac4a75e15223002c17368a308439b34f75d5c0ed1fcb91c57cd213e1ff6d145a"
+    },
+    {
+      "file": "ARPAUSDT-1d-2020-07.zip",
+      "sha256": "2f1dc33feab95f771fce11e2daa1aedc0128e4ed007fded03647556f5ea795fc"
+    },
+    {
+      "file": "ARPAUSDT-1d-2020-08.zip",
+      "sha256": "03ca2a2c91c92709722de1e1b712a3db3c3df24f0e4a563f43a1995387f8c584"
+    },
+    {
+      "file": "ARPAUSDT-1d-2020-09.zip",
+      "sha256": "3662227b2def939dab87952f27c39204e405955712ba9042636e0144b3530903"
+    },
+    {
+      "file": "ARPAUSDT-1d-2020-10.zip",
+      "sha256": "cac927159975d6166bd85ae84343866a6b0c36fd1cf6da5391fccfb964ca1654"
+    },
+    {
+      "file": "ARPAUSDT-1d-2020-11.zip",
+      "sha256": "75e79fb82cdc694f3cc9a900101e3a8eb5781ba25e3fb46b4ede8d62197184db"
+    },
+    {
+      "file": "ARPAUSDT-1d-2020-12.zip",
+      "sha256": "9d1938b1ca3ddd027109118c71deb23bd6ef2fbb4c4eb953230d0f97463c6033"
+    },
+    {
+      "file": "ARPAUSDT-1d-2021-01.zip",
+      "sha256": "ce0ed763980550b9b1122a24edf523cac2ef2fc0bbc2a70fc5a53a9f906f3e04"
+    },
+    {
+      "file": "ARPAUSDT-1d-2021-02.zip",
+      "sha256": "eb8b476173bd43a845856926bdf947aa67a063469ddb15862a05264989849198"
+    },
+    {
+      "file": "ARPAUSDT-1d-2021-03.zip",
+      "sha256": "0c0bd30fde6a02e30cd44d767cc3b65c168766d2dee0e7be74e965b50f173cfa"
+    },
+    {
+      "file": "ARPAUSDT-1d-2021-04.zip",
+      "sha256": "0362eacdbb7be9b6e4eec0eaeae8617dd23d4dd8f42877aaec066ec0482ca1e6"
+    },
+    {
+      "file": "ARPAUSDT-1d-2021-05.zip",
+      "sha256": "69cf78c31464e4fe6d2e1c69bec43013886927ed2183ab1b848bce4d98e4f627"
+    },
+    {
+      "file": "ARPAUSDT-1d-2021-06.zip",
+      "sha256": "739c2582795ea81e262030a8daf84f6740999e5a3c0dc0a99fe96e1cbd100736"
+    },
+    {
+      "file": "ARPAUSDT-1d-2021-07.zip",
+      "sha256": "f26200ec6e08e13cdb6ff02665ca7a9386a8c79ec78799ab0722dffaab662032"
+    },
+    {
+      "file": "ARPAUSDT-1d-2021-08.zip",
+      "sha256": "68e4202ce34a90f1e1d695b2317544bc4e9a1f64f2cb93157d11464e1ca39a6a"
+    },
+    {
+      "file": "ARPAUSDT-1d-2021-09.zip",
+      "sha256": "970b6f46af92b618e6f714758ebcb6af6f6ae5dfd2254fd8acba8f7b458c1c4c"
+    },
+    {
+      "file": "ARPAUSDT-1d-2021-10.zip",
+      "sha256": "78f3edd67a70e8bd666eef6718441b35140462a2965080ebead7de4003f2e339"
+    },
+    {
+      "file": "ARPAUSDT-1d-2021-11.zip",
+      "sha256": "6697f8d1167b073fec9830f7e8f267877166325f63ecd798713a03507a81fe76"
+    },
+    {
+      "file": "ARPAUSDT-1d-2021-12.zip",
+      "sha256": "5300b00ed8727560511333f878f6b3f3fe9d2d97135438b1972b7837db76da58"
+    },
+    {
+      "file": "ARPAUSDT-1d-2022-01.zip",
+      "sha256": "061e4594bb002400ce4fda39da04cf7beb2eccedd10dff2b2e21d783fc34c030"
+    },
+    {
+      "file": "ARPAUSDT-1d-2022-02.zip",
+      "sha256": "b0819595f15447e757766d8945878942ab72d3c11aa1a1e86cb7fbbdcb9a7042"
+    },
+    {
+      "file": "ARPAUSDT-1d-2022-03.zip",
+      "sha256": "fd03a7e195cfef5e53a5de79d20a65cbdefe0dd9d47795a19321b3f06dc3bda9"
+    },
+    {
+      "file": "ARPAUSDT-1d-2022-04.zip",
+      "sha256": "0f95fdb4f763ea7c456b29371a7a4a7eb2e673e8ef675f4cbca2d3cbab1940bf"
+    },
+    {
+      "file": "ARPAUSDT-1d-2022-05.zip",
+      "sha256": "440be762e0963eae9e7ddfa0d0915d98ca948a00c31a3f4151bf2f21876e8a35"
+    },
+    {
+      "file": "ARPAUSDT-1d-2022-06.zip",
+      "sha256": "20cb75428ee49a6bd50ee39bb1c35d66cec812e4a481ee584095635bf71f9d2f"
+    },
+    {
+      "file": "ARPAUSDT-1d-2022-07.zip",
+      "sha256": "774b27eb5c53ee16eff433bd6d5480b7de8458e202a4d12e8332895ad45e2cce"
+    },
+    {
+      "file": "ARPAUSDT-1d-2022-08.zip",
+      "sha256": "4721030fe9df74e29cdf80f695b8f9ec330bf7b9c11dc6f7c94578ad8f018c63"
+    },
+    {
+      "file": "ARPAUSDT-1d-2022-09.zip",
+      "sha256": "0e2c3c9aab108403d371a79074698460f05c813f5f36da3dd852fccfeb4684f8"
+    },
+    {
+      "file": "ARPAUSDT-1d-2022-10.zip",
+      "sha256": "1fcecd611579f5a9f2740978aeba13d6895d7f920550b28f126653156013686d"
+    },
+    {
+      "file": "ARPAUSDT-1d-2022-11.zip",
+      "sha256": "71ebe07993bd143f6ba59f425c25360fc97a0dd636ea492ca1b5511b16465a5f"
+    },
+    {
+      "file": "ARPAUSDT-1d-2022-12.zip",
+      "sha256": "4979e8a6f07635819de814ff9dbdde524e37dbbe16dac9f293a9c64576ad80ec"
+    },
+    {
+      "file": "ARPAUSDT-1d-2023-01.zip",
+      "sha256": "77141ad8bcb838ca5921a0be6b87d3aec63d6e3c511f440de1a1ab645fa26031"
+    },
+    {
+      "file": "ARPAUSDT-1d-2023-02.zip",
+      "sha256": "629a78942e80555a9c29ef0ef7836d43b652360970c13fd9cb5e58a79e5ca96a"
+    },
+    {
+      "file": "ARPAUSDT-1d-2023-03.zip",
+      "sha256": "42855adc629c41b014fe2802aa7bfe8c3136d33dd9a3fc63c98036609e01fa5f"
+    },
+    {
+      "file": "ARPAUSDT-1d-2023-04.zip",
+      "sha256": "ee2281141c701c25b88b08c2c4cbb3ac197d2adc2d681a7f03e6630a534f77d0"
+    },
+    {
+      "file": "ARPAUSDT-1d-2023-05.zip",
+      "sha256": "5dacfd4fd75d8e3b341a97136435b7531f14c997a11ca6dfb3e916039968774d"
+    },
+    {
+      "file": "ARPAUSDT-1d-2023-06.zip",
+      "sha256": "8fee61f91da505b81c53b1074751bbd6b602ad728b3b573fe269061762a3f235"
+    },
+    {
+      "file": "ARPAUSDT-1d-2023-07.zip",
+      "sha256": "f01e2616cdb311bc2b4c27c36016dc890e2f7e9a83fc524179bafbbab34ec044"
+    },
+    {
+      "file": "ARPAUSDT-1d-2023-08.zip",
+      "sha256": "b7545a569a8fce7c4cc4f4c47aaba6e8bf34a3262694683746de79285bc8121b"
+    },
+    {
+      "file": "ARPAUSDT-1d-2023-09.zip",
+      "sha256": "41cdcbcc36ad7f98a2291a96faf057fa911c82e03b3ad15cb13ce96c60bef2a1"
+    },
+    {
+      "file": "ARPAUSDT-1d-2023-10.zip",
+      "sha256": "ef955590d2f5e0f6e43364c319746e8e8d83b51a7505bf8ec97f5439e994f14e"
+    },
+    {
+      "file": "ARPAUSDT-1d-2023-11.zip",
+      "sha256": "c4e4008754065e702b9c1a01f3c4b25ed24f3eca2326d5df4cd07464d1738b47"
+    },
+    {
+      "file": "ARPAUSDT-1d-2023-12.zip",
+      "sha256": "11eb74755447d1d56a956a35463a3ffc732dbae18b85a377f24a932519f9ac40"
+    },
+    {
+      "file": "ARPAUSDT-1d-2024-01.zip",
+      "sha256": "4d49f96c00cb7a4edea54fe31e0b9b01c9e21b30dcbcc205fd7e7470a518f89e"
+    },
+    {
+      "file": "ARPAUSDT-1d-2024-02.zip",
+      "sha256": "0a08892e5ad598383f264690da153fad347710de27a8b50c5c2b8d75e1a2f900"
+    },
+    {
+      "file": "ARPAUSDT-1d-2024-03.zip",
+      "sha256": "8fd696be2fe919da6a246507467c1928943d66fdb0483e6485c8e475c667748b"
+    },
+    {
+      "file": "ARPAUSDT-1d-2024-04.zip",
+      "sha256": "43a21b3999b960a871b4142930a41bc3660d1649e05a46b4954f5e4ee3685e57"
+    },
+    {
+      "file": "ARPAUSDT-1d-2024-05.zip",
+      "sha256": "6cd3308b0a6faaccdc561c5f3008039deab87e7dd8b21c5f81d22d405d9ae436"
+    },
+    {
+      "file": "ARPAUSDT-1d-2024-06.zip",
+      "sha256": "9d52a3e460aa6db8c10ae04b13b4a51ff32a74bc8989fff4dc97305bdb5c0576"
+    },
+    {
+      "file": "ARPAUSDT-1d-2024-07.zip",
+      "sha256": "8aa4e7938c7345a5c6e83a831ec3ef9a191e09464aafe2f9441720b701262f30"
+    },
+    {
+      "file": "ARPAUSDT-1d-2024-08.zip",
+      "sha256": "a4ee6b26260757b77b53d5b20fd90af9f6e6585291574d06f19abad0bfa22e3e"
+    },
+    {
+      "file": "ARPAUSDT-1d-2024-09.zip",
+      "sha256": "e6289fd73b0db9f95378cff8576d7703e686ac3fe6d526845d1876b2b20992b1"
+    },
+    {
+      "file": "ARPAUSDT-1d-2024-10.zip",
+      "sha256": "ed18c22796c51999b03f26b349072dc4f1f571d2c5f360b5d3d418711fa86597"
+    },
+    {
+      "file": "ARPAUSDT-1d-2024-11.zip",
+      "sha256": "2a3980ad385f7fa9211bcbdd13b71b6159a81912a2d73b7073f968a6a05b1beb"
+    },
+    {
+      "file": "ARPAUSDT-1d-2024-12.zip",
+      "sha256": "8692dbc7b9eae46f74a62a67827dfcc80aa5f8b96e95d4edf34c477816bb0b98"
+    },
+    {
+      "file": "ARPAUSDT-1d-2025-01.zip",
+      "sha256": "c7cce8abc77b84a3be6bf4ea3e3540ed0b26fde415282d8f6de50d1478ba67ea"
+    },
+    {
+      "file": "ARPAUSDT-1d-2025-02.zip",
+      "sha256": "612d74e09e875e310abd2d3bba15f87d3ae5d88c6c4e1e661d66fc4fa6baa5eb"
+    },
+    {
+      "file": "ARPAUSDT-1d-2025-03.zip",
+      "sha256": "c2da639171b0f31159afd4481dee82072fb991ff93d9e9a20bfda1cc78e5d97c"
+    },
+    {
+      "file": "ARPAUSDT-1d-2025-04.zip",
+      "sha256": "ac4fa8ef637df0a6a3156cb4ef5d96d1fc89d65c1f5bf34b32b5894c68ea3c8e"
+    },
+    {
+      "file": "ARPAUSDT-1d-2025-05.zip",
+      "sha256": "2f9c502a5446b5750eec70c14a549c838542d3a653aa17b1a75e444b90880cce"
+    },
+    {
+      "file": "ARPAUSDT-1d-2025-06.zip",
+      "sha256": "ddbd146e2ac1d7efe1fd034b853b857293159785906bbeac77c7ab05110b8eab"
+    },
+    {
+      "file": "ARPAUSDT-1d-2025-07.zip",
+      "sha256": "e46743311ea008d910367b47e55affa3e3343e5f13478e4525bd1669e59ca24e"
+    },
+    {
+      "file": "ARPAUSDT-1d-2025-08.zip",
+      "sha256": "f983f31658c56f2c88c9446ab576dce2b72ce0fcaef63a0a1929967996029895"
+    },
+    {
+      "file": "ARPAUSDT-1d-2025-09.zip",
+      "sha256": "a54fe3552cfab7549c4d008c73598d85ea16169c5b4c57045c60e1bdab60a6bb"
+    },
+    {
+      "file": "ARPAUSDT-1d-2025-10.zip",
+      "sha256": "7fe769cd1aad648459c152718cb8f266f1f15ca3c2849e9e11b2aee4fa8a5423"
+    },
+    {
+      "file": "ARPAUSDT-1d-2025-11.zip",
+      "sha256": "7387575b32b18b6f53d7b4e5f07f64b37131e241272fae0fd249da670a7aec44"
+    },
+    {
+      "file": "ARPAUSDT-1d-2025-12.zip",
+      "sha256": "b4dad8a491e100593f3a681493093d45b5d5526ad04920f3aee94d27893f6dff"
+    },
+    {
+      "file": "ARPAUSDT-1d-2026-01.zip",
+      "sha256": "008a771553b47fd72c5209173eba912c0ee13c54f924a69564793a45749a9cff"
+    },
+    {
+      "file": "ARPAUSDT-1d-2026-02.zip",
+      "sha256": "410ce64c109dc7b9e97a77f473e08db6ae6947ceac89197c0c3a1f29faa02eac"
+    },
+    {
+      "file": "ARPAUSDT-1d-2026-03.zip",
+      "sha256": "3d7031ebd046d6ad79222ad09321e6bbfcbc8330016ce2a48fc7736a8920a396"
+    },
+    {
+      "file": "ARPAUSDT-1d-2026-04.zip",
+      "sha256": "308b03bd0a486fc66867d5642b20899f58eadbef034f9e3c017c78a45306c70c"
+    },
+    {
+      "file": "ARPAUSDT-1d-2026-05.zip",
+      "sha256": "3942eb3f34a05781d0640b704f2649f7a655204bd918a2e1f37431bbd233f66e"
+    },
+    {
+      "file": "ARPAUSDT-1d-2026-06.zip",
+      "sha256": "dd3c9398c333a4d0fdace2027d7ea7fbbffa4c3f254735000c046f989d79d1c6"
+    },
+    {
+      "file": "ARPAUSDT-1d-2026-07.zip",
+      "sha256": "ae51136a340f7ec452828d06b008d91fd1ab4a7bc18d2421a4436ce70b4b3667"
+    },
+    {
+      "file": "ARPAUSDT-1d-2026-08.zip",
+      "sha256": "d685353b8a7bf9b749a5d57aeba0790e40915361ed38b13c70f939bf1bf5fc99"
+    },
+    {
+      "file": "ARPAUSDT-1d-2026-09.zip",
+      "sha256": "30c1a6b737599c2aa8d29ffbd7e797d888f31e0314f94a3bd32febdd3eef3943"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

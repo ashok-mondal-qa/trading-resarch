@@ -1,0 +1,163 @@
+{
+  "experiment": "EXP-0026",
+  "strategy": "momentum_weekly",
+  "spec_version": "0.1",
+  "split": "dev_a",
+  "range": [
+    "2018-04-01",
+    "2020-12-31"
+  ],
+  "market": "Binance spot USDT pairs",
+  "max_holding_bars": 126,
+  "generated_at_utc": "2026-10-25T05:17:50+00:00",
+  "universe": {
+    "pairs": 674,
+    "instruments": 110,
+    "delisted_pieces": 7,
+    "short_pieces_or_empty": 564
+  },
+  "costs": {
+    "verified": false,
+    "source_note": "Binance spot base fee 0.10% + 18% GST; unverified",
+    "brokerage_pct": 0.1,
+    "brokerage_cap_inr": 0.0,
+    "stt_pct_buy": 0.0,
+    "stt_pct_sell": 0.0,
+    "exchange_txn_pct": 0.0,
+    "sebi_fee_pct": 0.0,
+    "stamp_duty_pct_buy": 0.0,
+    "gst_pct": 18.0,
+    "dp_charge_inr_per_sell": 0.0
+  },
+  "regime_days": {
+    "down": 403,
+    "up": 382,
+    "range": 221
+  },
+  "benchmark_btc_return": 3.2453526414903253,
+  "benchmark_btc": {
+    "cagr": 0.6897466604375766,
+    "ann_vol": 0.7099097408967527,
+    "sharpe_rf0": 1.1074529711600436,
+    "max_drawdown": -0.6743998377939984,
+    "years": 2.756164383561644
+  },
+  "runs": {
+    "portfolio_1x": {
+      "trades": 1,
+      "open_at_end": 0,
+      "net_return": -0.00494691972857908,
+      "max_drawdown": -0.010696012414717626,
+      "win_rate": 0.0,
+      "expectancy_inr": -4946919.728578966,
+      "expectancy_r": -0.9895203906474355,
+      "expectancy_r_ci95": [
+        NaN,
+        NaN
+      ],
+      "profit_factor": 0.0,
+      "avg_win_inr": 0.0,
+      "avg_loss_inr": -4946919.728578966,
+      "avg_sessions": 25.0,
+      "total_costs_inr": 117811.56531577144,
+      "worst_r": -0.9895203906474355,
+      "exit_reasons": {
+        "stop": 1
+      },
+      "inconclusive_lt_30_trades": true,
+      "cagr": -0.001797692973855347,
+      "ann_vol": 0.004832996283646895,
+      "sharpe_rf0": -0.3702512080652588,
+      "years": 2.756164383561644,
+      "signals_after_regime_gate": 3,
+      "entries_skipped": {}
+    },
+    "standalone_1x": {
+      "trades": 1,
+      "open_at_end": 0,
+      "expectancy_r": -0.9895203906474355,
+      "median_r": -0.9895203906474355,
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "expectancy_r_ci95_month_clustered": [
+        NaN,
+        NaN
+      ],
+      "expectancy_r_ci99.2_month_clustered": [
+        NaN,
+        NaN
+      ],
+      "entry_months": 1,
+      "avg_sessions": 25.0,
+      "worst_r": -0.9895203906474355,
+      "by_year": {
+        "2020": {
+          "trades": 1,
+          "expectancy_r": -0.9895203906474355
+        }
+      },
+      "exit_reasons": {
+        "stop": 1
+      },
+      "expectancy_r_all_incl_open": -0.9895203906474355
+    },
+    "portfolio_2x_costs": {
+      "trades": 1,
+      "open_at_end": 0,
+      "net_return": -0.004900154427885495,
+      "max_drawdown": -0.010195874645145153,
+      "win_rate": 0.0,
+      "expectancy_inr": -4900154.42788549,
+      "expectancy_r": -0.9802032636876206,
+      "expectancy_r_ci95": [
+        NaN,
+        NaN
+      ],
+      "profit_factor": 0.0,
+      "avg_win_inr": 0.0,
+      "avg_loss_inr": -4900154.42788549,
+      "avg_sessions": 25.0,
+      "total_costs_inr": 255892.8802646473,
+      "worst_r": -0.9802032636876206,
+      "exit_reasons": {
+        "stop": 1
+      },
+      "inconclusive_lt_30_trades": true,
+      "cagr": -0.0017806719988823216,
+      "ann_vol": 0.004580975123037376,
+      "sharpe_rf0": -0.38715344594321355,
+      "years": 2.756164383561644,
+      "signals_after_regime_gate": 3,
+      "entries_skipped": {}
+    },
+    "standalone_2x_costs": {
+      "trades": 1,
+      "open_at_end": 0,
+      "expectancy_r": -0.9802032636876206,
+      "median_r": -0.9802032636876206,
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "expectancy_r_ci95_month_clustered": [
+        NaN,
+        NaN
+      ],
+      "expectancy_r_ci99.2_month_clustered": [
+        NaN,
+        NaN
+      ],
+      "entry_months": 1,
+      "avg_sessions": 25.0,
+      "worst_r": -0.9802032636876206,
+      "by_year": {
+        "2020": {
+          "trades": 1,
+          "expectancy_r": -0.9802032636876206
+        }
+      },
+      "exit_reasons": {
+        "stop": 1
+      },
+      "expectancy_r_all_incl_open": -0.9802032636876206
+    }
+  }
+}

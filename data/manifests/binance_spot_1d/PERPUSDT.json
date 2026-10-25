@@ -1,0 +1,253 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PERPUSDT/1d/",
+  "instrument": "PERPUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-03-19",
+  "last_bar": "2025-11-12",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:31+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1700,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PERPUSDT-1d-2021-03.zip",
+      "sha256": "b143ca7304c3ba444af17a8c8275c3dc9a3f8932a2ebf2195388ef5bd5f2384e"
+    },
+    {
+      "file": "PERPUSDT-1d-2021-04.zip",
+      "sha256": "7b0cf161e8b674b6bed43375054c2ab8d29be8bd8c1f87719d54409ee70a38bd"
+    },
+    {
+      "file": "PERPUSDT-1d-2021-05.zip",
+      "sha256": "5a7d11517eb7a05f55d04b81245737d18f6a90b075a16443cc1b21d19c7c686d"
+    },
+    {
+      "file": "PERPUSDT-1d-2021-06.zip",
+      "sha256": "69a22dd11ad662ffd4460256964e4c7b78cfac173316ba35bb84b4b7c121d488"
+    },
+    {
+      "file": "PERPUSDT-1d-2021-07.zip",
+      "sha256": "9a7a86728e4b81380ee670291dc571fac4adea548256b870b87c143961583d55"
+    },
+    {
+      "file": "PERPUSDT-1d-2021-08.zip",
+      "sha256": "2e8ec6e138907ddac19b2a536c6506d627e9a47ad646b98faad640991c445179"
+    },
+    {
+      "file": "PERPUSDT-1d-2021-09.zip",
+      "sha256": "d7cdc807ee9d53c8f5186cd3c2e8090911c36854da31ac42d34d22b9810fbb20"
+    },
+    {
+      "file": "PERPUSDT-1d-2021-10.zip",
+      "sha256": "07ef4bd75daa2dff2088a090f6384290fe536763ba5fd8b55cdd5d6cd788ef7d"
+    },
+    {
+      "file": "PERPUSDT-1d-2021-11.zip",
+      "sha256": "5c18cebed6b809b1eb5de299855af900b1f61b88291253aa650245b5b420394a"
+    },
+    {
+      "file": "PERPUSDT-1d-2021-12.zip",
+      "sha256": "8789f088afcc2ef61a41e85f0150966a0269f2d0e7f188911b10c1891ef2918c"
+    },
+    {
+      "file": "PERPUSDT-1d-2022-01.zip",
+      "sha256": "b3decbbdc7741b8567357e162d15ba3e0bf9c5f9f8c3c00a8849419492141a36"
+    },
+    {
+      "file": "PERPUSDT-1d-2022-02.zip",
+      "sha256": "8f2ca5e214be237f95aee4af5ec386a7a99957699e0dd20636d12de68c2b4a8d"
+    },
+    {
+      "file": "PERPUSDT-1d-2022-03.zip",
+      "sha256": "1ca2592a9a72c33eda99caf7ab5f35369bd3e06adc314065a6861c5a8c098cf8"
+    },
+    {
+      "file": "PERPUSDT-1d-2022-04.zip",
+      "sha256": "68a1c208e27078cea59abe5ab2c30d3392a8d2aa719ecc7881e59bf0ddea096b"
+    },
+    {
+      "file": "PERPUSDT-1d-2022-05.zip",
+      "sha256": "894d23d898d804a27308943c5111ffa1833d80573078b60915d5bfa4e779ff2e"
+    },
+    {
+      "file": "PERPUSDT-1d-2022-06.zip",
+      "sha256": "58aa6bdc044a7e18c380d5c2582994f0f9a80d7852ac34687ce222aa9f8c8f05"
+    },
+    {
+      "file": "PERPUSDT-1d-2022-07.zip",
+      "sha256": "a02c5a57337953a618d71363b7e0ea212b21939291817a6fcea7aacfbed8ae7d"
+    },
+    {
+      "file": "PERPUSDT-1d-2022-08.zip",
+      "sha256": "d6b8158f5216a4c869b0bd3e9f74ea038ee3f3b733a7c01f33f2468c0a1180f9"
+    },
+    {
+      "file": "PERPUSDT-1d-2022-09.zip",
+      "sha256": "96b87772973c37e0fa80eb4bf40a0a160f8113c5dac9bb572c56b103cde2aa07"
+    },
+    {
+      "file": "PERPUSDT-1d-2022-10.zip",
+      "sha256": "0ffed154906ac5747fc808a0e353360724abe61269e8574c6c14ff222f3ef44c"
+    },
+    {
+      "file": "PERPUSDT-1d-2022-11.zip",
+      "sha256": "026c88409687236dd023e4fa742ed0e83964b3025b80806337a1ab4480de7c8a"
+    },
+    {
+      "file": "PERPUSDT-1d-2022-12.zip",
+      "sha256": "c75db4c2afb4dad8f76ec4a0b12c1cb5f00234859d96cc13200e23c195aefea7"
+    },
+    {
+      "file": "PERPUSDT-1d-2023-01.zip",
+      "sha256": "75c1239aec42613c3d12d81d8e843302ac3256c9f69a68c27e9c9fda450783d9"
+    },
+    {
+      "file": "PERPUSDT-1d-2023-02.zip",
+      "sha256": "765984e647de703a73d79fa153d4ec3b54b48462fa72800c4da6db3e6fefb481"
+    },
+    {
+      "file": "PERPUSDT-1d-2023-03.zip",
+      "sha256": "55af929d2977475aa54c40ef0fae879861fdf4a2a8a8194af16d563931867bad"
+    },
+    {
+      "file": "PERPUSDT-1d-2023-04.zip",
+      "sha256": "c0c3ec39eb8839d8279840dcf1363e28d36b7c303938a07f457e93bcd5a3ecd6"
+    },
+    {
+      "file": "PERPUSDT-1d-2023-05.zip",
+      "sha256": "74d02d3c9be7c35836f57151b6f5a2a832a5525d2c78c65aaffc6b65a808baf5"
+    },
+    {
+      "file": "PERPUSDT-1d-2023-06.zip",
+      "sha256": "ff868c5933cb8658f08a2065fe98c64f77ee7606a9c704fe3f939b6f4ffdd25f"
+    },
+    {
+      "file": "PERPUSDT-1d-2023-07.zip",
+      "sha256": "899a67345b5f231217cbdcf0954978a906962c2cc404fedc6d91bee43546d3b0"
+    },
+    {
+      "file": "PERPUSDT-1d-2023-08.zip",
+      "sha256": "e12c7a8cdc3c1af7ea271671de2a423b9ed5b1bfc5905963b838a189ed0ec486"
+    },
+    {
+      "file": "PERPUSDT-1d-2023-09.zip",
+      "sha256": "0a458faa415c7179bcf3f3772b3390ae21e94f7f6dfef4822b3295f4de86d19c"
+    },
+    {
+      "file": "PERPUSDT-1d-2023-10.zip",
+      "sha256": "5bb8d84e94b6073fd7b2c4f164369401e464b2c0d7935a65801cf6d94a1dd86d"
+    },
+    {
+      "file": "PERPUSDT-1d-2023-11.zip",
+      "sha256": "84328ca82d45a7b0f32caa3df4bf890acae44853e4b930c5d9551d8a0ba6bc87"
+    },
+    {
+      "file": "PERPUSDT-1d-2023-12.zip",
+      "sha256": "7eaa51f088c3c55263970c1e0a6bbc849cbd484367be2dffe09f174fd241402c"
+    },
+    {
+      "file": "PERPUSDT-1d-2024-01.zip",
+      "sha256": "591846ba3807bf4ce9eba680bbb5da736733b32259a4084c83ae69ce43b49992"
+    },
+    {
+      "file": "PERPUSDT-1d-2024-02.zip",
+      "sha256": "41a06fe9401a50ff48a08d7f9fb01082bdb9e5719c055c33a3554f0d047192c4"
+    },
+    {
+      "file": "PERPUSDT-1d-2024-03.zip",
+      "sha256": "18e61cb4ccbd75ae937e18eb2b40058005c50ac55bc544effa24287b9d9c8046"
+    },
+    {
+      "file": "PERPUSDT-1d-2024-04.zip",
+      "sha256": "0513d0b95b49073cbdd7ecf11f1f411bb690f21556a593b34bc09b7986e6cdcc"
+    },
+    {
+      "file": "PERPUSDT-1d-2024-05.zip",
+      "sha256": "7fee6f219126be0c4fd6a6077ddb2c11cdd2f146ceabde059801346a669b4421"
+    },
+    {
+      "file": "PERPUSDT-1d-2024-06.zip",
+      "sha256": "b3951321e94f5aaaf44d39fdcc5917a29b5b22c0e42cccbfced2d77fa5b60a2b"
+    },
+    {
+      "file": "PERPUSDT-1d-2024-07.zip",
+      "sha256": "cfd671d85f279a727cc1bc36001f7e3b73d561b268e5bbcaa98ce4b50e0fcdc1"
+    },
+    {
+      "file": "PERPUSDT-1d-2024-08.zip",
+      "sha256": "47377d9653d6eeff1de9ecffe03738e993c2969a989b4c0dcbe4b3becb9aa001"
+    },
+    {
+      "file": "PERPUSDT-1d-2024-09.zip",
+      "sha256": "682b9021a39e7edba9d78d3e69b93ecdae927f72156c3eb22ad938901f5eeed0"
+    },
+    {
+      "file": "PERPUSDT-1d-2024-10.zip",
+      "sha256": "be01da03e05ea570167364b9d5ef0066de21f6634988d0dfe867836429ce18a0"
+    },
+    {
+      "file": "PERPUSDT-1d-2024-11.zip",
+      "sha256": "35aff1f2b61cae5c3617bce03f29c90478730d674d7755549e52ee3c6cfb61c6"
+    },
+    {
+      "file": "PERPUSDT-1d-2024-12.zip",
+      "sha256": "234f109b3fc4ed9f144c2c5c57af4f87c7ffad5d42772b3eec73fc244b6dba34"
+    },
+    {
+      "file": "PERPUSDT-1d-2025-01.zip",
+      "sha256": "b34727050bcc484db784aa818f7f81dc2787856121f6c36cb07a39497ff9a913"
+    },
+    {
+      "file": "PERPUSDT-1d-2025-02.zip",
+      "sha256": "440cc7191be718b0b29aed76d9d9787e6635ebcf0464440071984d7fc04356a3"
+    },
+    {
+      "file": "PERPUSDT-1d-2025-03.zip",
+      "sha256": "33198ad531ee871ac595f5ece46aa0161b64f44b768765bd85b1e73016d00f65"
+    },
+    {
+      "file": "PERPUSDT-1d-2025-04.zip",
+      "sha256": "981a4a11d6d7c44d02d94067cbfc2209c41d39edeacc40676e932d76c49ae30d"
+    },
+    {
+      "file": "PERPUSDT-1d-2025-05.zip",
+      "sha256": "52e2ca54878e611829bbc073b68a6730307019cafbdca0e58eb3e8396b449d5f"
+    },
+    {
+      "file": "PERPUSDT-1d-2025-06.zip",
+      "sha256": "734a13c1cbda048f0bde35f4b0a5555a022eb4056b81d3e8fb1e1d4c10415eae"
+    },
+    {
+      "file": "PERPUSDT-1d-2025-07.zip",
+      "sha256": "5bdb2a8fe1f0ed8f2c5c79454687250a135c39319a09b28ef60490fc0faba3d2"
+    },
+    {
+      "file": "PERPUSDT-1d-2025-08.zip",
+      "sha256": "7aad4aef0de103117936bbcadcc1e1f231f88f93e3c4abe7d6c425821435d344"
+    },
+    {
+      "file": "PERPUSDT-1d-2025-09.zip",
+      "sha256": "ba6eb716f17a8df8a1979a67350be645ef9032d098263ceafa2ef54a9f751aa9"
+    },
+    {
+      "file": "PERPUSDT-1d-2025-10.zip",
+      "sha256": "12277a2adb10cdbfb7685ad8bf8f804e10b70330e7faef71451ecc30832bb6da"
+    },
+    {
+      "file": "PERPUSDT-1d-2025-11.zip",
+      "sha256": "8ab78409af6b69b24ff97abb9bc396d02254b3da4e2f5dbbafdcce34d9c1be8b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

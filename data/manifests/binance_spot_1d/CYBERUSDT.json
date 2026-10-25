@@ -1,0 +1,177 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/CYBERUSDT/1d/",
+  "instrument": "CYBERUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-08-15",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:30:39+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1143,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "CYBERUSDT-1d-2023-08.zip",
+      "sha256": "f6a9bfe934bb41ac5767e92ec01c23d6fb58226aa494c96cd3a0c2aacafbdce1"
+    },
+    {
+      "file": "CYBERUSDT-1d-2023-09.zip",
+      "sha256": "4c65f5c338e2ebe4d2b438fafe23f75459bfb1f03c74b943db1c5f7f83c3c594"
+    },
+    {
+      "file": "CYBERUSDT-1d-2023-10.zip",
+      "sha256": "82159791855017b4f2fa0e042fcb50b491eaa73dd934c542ad309e7c9b73cea1"
+    },
+    {
+      "file": "CYBERUSDT-1d-2023-11.zip",
+      "sha256": "f43357eabb98fb6ad880f26c65d04f29349a6039ef0f18f2ebad3a225daac9e2"
+    },
+    {
+      "file": "CYBERUSDT-1d-2023-12.zip",
+      "sha256": "d4258290b9982b9b64c2a94af3b12fe61785219a3653301fb89fb5dfaccca977"
+    },
+    {
+      "file": "CYBERUSDT-1d-2024-01.zip",
+      "sha256": "d28ed3276f7f4575f95f42c1ba72be804eb5dd6bcaf35034c2d19047c5f24c79"
+    },
+    {
+      "file": "CYBERUSDT-1d-2024-02.zip",
+      "sha256": "e457ff81e97483f28245f1d2426cad088aa0ff1763a420ef2633e69b56a56933"
+    },
+    {
+      "file": "CYBERUSDT-1d-2024-03.zip",
+      "sha256": "bffe87101bacabb39ad0f5add15dddb32f5c8fa0dd321c0ae3a7c23766dfdb19"
+    },
+    {
+      "file": "CYBERUSDT-1d-2024-04.zip",
+      "sha256": "f3398605a15527c61aadd4806778b7bf2d42990af5f7e86cac4451b779609c44"
+    },
+    {
+      "file": "CYBERUSDT-1d-2024-05.zip",
+      "sha256": "b8a61605f28842770e593142ff381801fcc4bdb609cbc44c2a88d05663f263ff"
+    },
+    {
+      "file": "CYBERUSDT-1d-2024-06.zip",
+      "sha256": "5776edf583c75f963673b144de84ba7f5ea70f12ca7947c27b85806b2ac88742"
+    },
+    {
+      "file": "CYBERUSDT-1d-2024-07.zip",
+      "sha256": "7ca6ca64774ceaa18e4085ef02003e7868dff15c20a8177b3b4c3de5d8e92c32"
+    },
+    {
+      "file": "CYBERUSDT-1d-2024-08.zip",
+      "sha256": "c9d38ff5160d2fd3f3465eb7fb3d0a0527d7fa266dfe31fbb6d20c16f434b151"
+    },
+    {
+      "file": "CYBERUSDT-1d-2024-09.zip",
+      "sha256": "087d269e7aa7187a84207bd03cc7f27b8d5141727ea3c9079162b340fbc08144"
+    },
+    {
+      "file": "CYBERUSDT-1d-2024-10.zip",
+      "sha256": "18bedadace543e0f653e64ba45958c34de7d34db28946f9a87cd50b3eca6f475"
+    },
+    {
+      "file": "CYBERUSDT-1d-2024-11.zip",
+      "sha256": "75e502c6d6df0306fdf5999874b69ba4a8036f46521f40e2fa47e51cfa8a50d0"
+    },
+    {
+      "file": "CYBERUSDT-1d-2024-12.zip",
+      "sha256": "0e85d1827077d419cc4be8dd2eeeafe766a5a2e24718fbf6273259417c8e848c"
+    },
+    {
+      "file": "CYBERUSDT-1d-2025-01.zip",
+      "sha256": "f832f6c17d58138516dd656b6d0b786c0f16c66c20aa379d0c22db66505e20bb"
+    },
+    {
+      "file": "CYBERUSDT-1d-2025-02.zip",
+      "sha256": "d987327cb65c62b349e8fb57c49281c297cf69a7db5d22818676c6a91b581f39"
+    },
+    {
+      "file": "CYBERUSDT-1d-2025-03.zip",
+      "sha256": "ee98d56c1baad7dfa4ee80df57054a42b150647eb382bcf7d327254dcd683501"
+    },
+    {
+      "file": "CYBERUSDT-1d-2025-04.zip",
+      "sha256": "1a9fd018f16960f5045e3cdb136efebe19829b29a10f4b52978036477313af5c"
+    },
+    {
+      "file": "CYBERUSDT-1d-2025-05.zip",
+      "sha256": "5d4754e0ca801f9f58e6512989149b7aa5b02ad21bda86bf925e32a43f441d6c"
+    },
+    {
+      "file": "CYBERUSDT-1d-2025-06.zip",
+      "sha256": "5d0f73f27c1814e2ee71d3315a508e71de1c2de5d627243e45aed200cc43968a"
+    },
+    {
+      "file": "CYBERUSDT-1d-2025-07.zip",
+      "sha256": "d79900ed8fab5692d9ac90b0a04101549586fafab367897b62869fd1cde04b27"
+    },
+    {
+      "file": "CYBERUSDT-1d-2025-08.zip",
+      "sha256": "1c7c0c9cfaf85195c30aec356d2f821deabc3e39833c8cada61663f138e525aa"
+    },
+    {
+      "file": "CYBERUSDT-1d-2025-09.zip",
+      "sha256": "b6336709ad7528e859813ea4beaae8fd45cc99c96ec11ff72feffc5135dbae07"
+    },
+    {
+      "file": "CYBERUSDT-1d-2025-10.zip",
+      "sha256": "d3ac4109f3f0901acaeee838abd80d8626607263b35a2682647912429e181656"
+    },
+    {
+      "file": "CYBERUSDT-1d-2025-11.zip",
+      "sha256": "a9b20c47289303c8d94744b4badccc727d2509a9acb2f3bc920b3bb06b22dc29"
+    },
+    {
+      "file": "CYBERUSDT-1d-2025-12.zip",
+      "sha256": "5388151a6b5c5ce20858f49e4ea1c4829f6fdc19c7815123db149bfaf6b1b3a9"
+    },
+    {
+      "file": "CYBERUSDT-1d-2026-01.zip",
+      "sha256": "fc9f6d4e63be0a98f357d2cdcd837c6469b48e9a2784e07a758137d9b33f61ad"
+    },
+    {
+      "file": "CYBERUSDT-1d-2026-02.zip",
+      "sha256": "d1b833cc3cfc5bbfcc5e19171d422c0bb4171f0f649517e09f1a7a311562f99f"
+    },
+    {
+      "file": "CYBERUSDT-1d-2026-03.zip",
+      "sha256": "77d84291fb246c5d8494f753f4ac87c15202dc6c3255459166f1096f60dbbccd"
+    },
+    {
+      "file": "CYBERUSDT-1d-2026-04.zip",
+      "sha256": "09cb5f0f5f52e6b3861259c3b645396970e7ecbcca28cdac7467c027f38aae19"
+    },
+    {
+      "file": "CYBERUSDT-1d-2026-05.zip",
+      "sha256": "7d3f58f8e60b412defa07a3a8535fe7267440903e2032fc3c57989ff091669de"
+    },
+    {
+      "file": "CYBERUSDT-1d-2026-06.zip",
+      "sha256": "e5735f565296f2772372075247f5b53612d7204fc0e778de2d076729bacffd47"
+    },
+    {
+      "file": "CYBERUSDT-1d-2026-07.zip",
+      "sha256": "270869e68e3d2fbb4ba9b1725dcc52a21cd56e54b78df8e7c3810e165a98588e"
+    },
+    {
+      "file": "CYBERUSDT-1d-2026-08.zip",
+      "sha256": "df50562196cc85324d38e74c24549cf507ccbff3eb16c13fcf33fc5091eb9641"
+    },
+    {
+      "file": "CYBERUSDT-1d-2026-09.zip",
+      "sha256": "3f94fc85e9dcc24e808d8994e3e111d201d48d4adb65e50a544487681c21b76e"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

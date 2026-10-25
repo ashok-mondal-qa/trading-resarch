@@ -1,0 +1,253 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/XNOUSDT/1d/",
+  "instrument": "XNOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-01-28",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:49:59+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1707,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "XNOUSDT-1d-2022-01.zip",
+      "sha256": "473e71852cdab38342a769ffaa9f6bdff5aa61effe43ba5d3d24b8efaca3737c"
+    },
+    {
+      "file": "XNOUSDT-1d-2022-02.zip",
+      "sha256": "ba518d9ebde6479702d3b042dfcda1af7a2df1a266c2956e45053d46328924a1"
+    },
+    {
+      "file": "XNOUSDT-1d-2022-03.zip",
+      "sha256": "641afbfa89861cd83b50c76dc47d9b3939b0ab7b89dd7df6a53fa305a88f06b5"
+    },
+    {
+      "file": "XNOUSDT-1d-2022-04.zip",
+      "sha256": "957cac2fb6eee8317c3bd80d1be7cc98067bb12336e21000a113654c41d678f4"
+    },
+    {
+      "file": "XNOUSDT-1d-2022-05.zip",
+      "sha256": "dc26f6a800d50bb9a6111a3144516ec5144ba16d36f1136562ddca6f711ac209"
+    },
+    {
+      "file": "XNOUSDT-1d-2022-06.zip",
+      "sha256": "8572ce839cdeb04e3a392ee963aef28fa4a04626ff35a8a06a3c4f3c6502a0bc"
+    },
+    {
+      "file": "XNOUSDT-1d-2022-07.zip",
+      "sha256": "dd66354b3dea13b9ee4dd08b91a3038ffc983e3aa44015c04f1a9ed8d94a2540"
+    },
+    {
+      "file": "XNOUSDT-1d-2022-08.zip",
+      "sha256": "4a13b3bdb9c82c173e3b1399c6a7faa2ec4211d92d63961dbf9e1fa43026d0c0"
+    },
+    {
+      "file": "XNOUSDT-1d-2022-09.zip",
+      "sha256": "9d5dfef2623ddd16c5bf55a924796c34db3fac596c73854cb02c666d2009e6ad"
+    },
+    {
+      "file": "XNOUSDT-1d-2022-10.zip",
+      "sha256": "7e122fd6ccea7aea140c09ab265f662ecd06b330235a215be493f308c9423c78"
+    },
+    {
+      "file": "XNOUSDT-1d-2022-11.zip",
+      "sha256": "a1d74708aeb03b67f6b5d312efae8340e1b9a0b42f6e2f2765301169a07c33a8"
+    },
+    {
+      "file": "XNOUSDT-1d-2022-12.zip",
+      "sha256": "3531f1a38e764d5071b49b990b2958ac52c2e5496bfcd5a14741956cf11bbbd2"
+    },
+    {
+      "file": "XNOUSDT-1d-2023-01.zip",
+      "sha256": "3cde3d136104ff52aaf7c84072c988be9c21e256cbf67ad1573e1d82f919aed3"
+    },
+    {
+      "file": "XNOUSDT-1d-2023-02.zip",
+      "sha256": "19bf3d8ec76c42e14ea33e643a41cfcdf6c5a88a8503c5c2d1bc5887fbec858b"
+    },
+    {
+      "file": "XNOUSDT-1d-2023-03.zip",
+      "sha256": "ccc8053210a08e5ac76d41e345e43cc7ee1ea087901bf8f53a536d7c6a00921e"
+    },
+    {
+      "file": "XNOUSDT-1d-2023-04.zip",
+      "sha256": "7df527d3a8b5616f58154b5f081dbc49260173ea2668089d9fedb5aed72156d4"
+    },
+    {
+      "file": "XNOUSDT-1d-2023-05.zip",
+      "sha256": "8557246ebac176aaccc1b6b15ef0bf46442e24b823a210417be34f24c7001cb6"
+    },
+    {
+      "file": "XNOUSDT-1d-2023-06.zip",
+      "sha256": "0339a78cd60930c5b121dfc9342999bd16a0b27937845444bf965bafb683d86d"
+    },
+    {
+      "file": "XNOUSDT-1d-2023-07.zip",
+      "sha256": "37f8869844edebf260b97efe1c9c4ec7b82e45857adf3088bc54b16a2e703ceb"
+    },
+    {
+      "file": "XNOUSDT-1d-2023-08.zip",
+      "sha256": "b4aad8ca43377c4e14ead6f4e351076876dd514897679c616e581e8264d885df"
+    },
+    {
+      "file": "XNOUSDT-1d-2023-09.zip",
+      "sha256": "c7c98e5046c8bf608d6dfffce10dc992988cea8ee37df2eb2188e01de87c9521"
+    },
+    {
+      "file": "XNOUSDT-1d-2023-10.zip",
+      "sha256": "9c7ab998aeda2ca997aee8356e38d33cebb090c07a1499bcc27d92d8ea5e875b"
+    },
+    {
+      "file": "XNOUSDT-1d-2023-11.zip",
+      "sha256": "9bcfb9114ba34295acacbc2f55dee7a69aa3f06fb834fec18e4274d327707b96"
+    },
+    {
+      "file": "XNOUSDT-1d-2023-12.zip",
+      "sha256": "2e45c4760d1270e3d54be482f8e38f5df88e05bc289251813530c472feb82b0f"
+    },
+    {
+      "file": "XNOUSDT-1d-2024-01.zip",
+      "sha256": "1d4d37c234f5297989aefb3c8f9b05f95d7941d39928544323a367dbbc9097e2"
+    },
+    {
+      "file": "XNOUSDT-1d-2024-02.zip",
+      "sha256": "1897347c55f5f1d0902ae6f3ebe22411e3fa17b07ece797f84761ee7a7898b87"
+    },
+    {
+      "file": "XNOUSDT-1d-2024-03.zip",
+      "sha256": "ba6f315a6dc5517adc5d8f18e250a24f5ff42cca396ba27101d753290a1f4b18"
+    },
+    {
+      "file": "XNOUSDT-1d-2024-04.zip",
+      "sha256": "7daec208d01c5ceeb7628e3fd503e23a6a36bb0c981ff8d18502e0f5a0331d4a"
+    },
+    {
+      "file": "XNOUSDT-1d-2024-05.zip",
+      "sha256": "a3ad0ca424cae71e8366159eb63d838f217f4b38827decd438fd0a789491e3a8"
+    },
+    {
+      "file": "XNOUSDT-1d-2024-06.zip",
+      "sha256": "0c56017b7418146cc0e7daf3148b9dd78da04d8a389882d5918f9b6d41925e68"
+    },
+    {
+      "file": "XNOUSDT-1d-2024-07.zip",
+      "sha256": "7a17021b926e2f5cc790b196f7c0f3f3c5ab3f92c6ae80ba19ac5153956041ea"
+    },
+    {
+      "file": "XNOUSDT-1d-2024-08.zip",
+      "sha256": "e1c18382933d48af467474f91a75c8a6eedfb8b22b74b27d32d919b8478411c8"
+    },
+    {
+      "file": "XNOUSDT-1d-2024-09.zip",
+      "sha256": "e3cd8c612bf6e0af36149cc69491c51626f1dac846dee500c479300b73fb5f32"
+    },
+    {
+      "file": "XNOUSDT-1d-2024-10.zip",
+      "sha256": "fa23bbd6ca195d9fd7428b65c9ea65109ac34da98899a31330a589fb5e3cbd33"
+    },
+    {
+      "file": "XNOUSDT-1d-2024-11.zip",
+      "sha256": "2940727b0e31d86b49c090be1d389b2e43096f98c76918e24e72ed5712e6d852"
+    },
+    {
+      "file": "XNOUSDT-1d-2024-12.zip",
+      "sha256": "d356ba394e56878fd6d6e42c9a82ff23b1153a1d99b167bc2aff82038e7cfb3c"
+    },
+    {
+      "file": "XNOUSDT-1d-2025-01.zip",
+      "sha256": "968bec924baa0786ddb26ab21462ca37d2d783981c25207997950e508ccdbb81"
+    },
+    {
+      "file": "XNOUSDT-1d-2025-02.zip",
+      "sha256": "6df8de2bf70a42c6f49067a95246add167ddf02bb38aab33c45c639be71fddff"
+    },
+    {
+      "file": "XNOUSDT-1d-2025-03.zip",
+      "sha256": "3742fa60539c702685febfce8b6b24a1acbccfa7b53e1ef7a3dbadb85afb8b59"
+    },
+    {
+      "file": "XNOUSDT-1d-2025-04.zip",
+      "sha256": "0bfdb566e66112c78b4e3ba46c51b4e0cb09d674f0b83289acb93e10bc2780ea"
+    },
+    {
+      "file": "XNOUSDT-1d-2025-05.zip",
+      "sha256": "313e82ced41714f8ddcc0869ab9310b325a3c8ea8214eee36e72dcfe1a14c0ef"
+    },
+    {
+      "file": "XNOUSDT-1d-2025-06.zip",
+      "sha256": "924c6d73aada7b7c34e3c7072e1b996bcc858fda49bc297237fd84a90e3683e9"
+    },
+    {
+      "file": "XNOUSDT-1d-2025-07.zip",
+      "sha256": "4e1e523fad13a3c9aa8ef20bf5c162ac79b41fdaa8b23e234169d7d39b0b2758"
+    },
+    {
+      "file": "XNOUSDT-1d-2025-08.zip",
+      "sha256": "cc21d8e7d0a82de767ba8d23c9ab49aa23ca22ae4e02a4558d9127065ddb4ce6"
+    },
+    {
+      "file": "XNOUSDT-1d-2025-09.zip",
+      "sha256": "f41db0c9357f819a8f2b45af6b29f433e09b34ef32f8551b7a0a044b52ee3f2a"
+    },
+    {
+      "file": "XNOUSDT-1d-2025-10.zip",
+      "sha256": "5a86fc31861870adac6f4788a358cb4edc10a3e2b5ba93fc9af0beba5b85d374"
+    },
+    {
+      "file": "XNOUSDT-1d-2025-11.zip",
+      "sha256": "c583c2dd0e38444bf6059160a80b5d3cacd2d528af2698169f80ff239db220ac"
+    },
+    {
+      "file": "XNOUSDT-1d-2025-12.zip",
+      "sha256": "a4380af9746dc4b5650dbda31f645b6a42276b230314c1875df3342824e6bda3"
+    },
+    {
+      "file": "XNOUSDT-1d-2026-01.zip",
+      "sha256": "053926f81b395687166dc75ba50a73c9d300faf63d8b009018f2b3ae35ff976c"
+    },
+    {
+      "file": "XNOUSDT-1d-2026-02.zip",
+      "sha256": "2bfaa81aa01700c4a1341b8a5019c4aabe5c489c2b5d293ac728388936411d10"
+    },
+    {
+      "file": "XNOUSDT-1d-2026-03.zip",
+      "sha256": "c77b3ba65c945ba58a76a113d8727c5cf93451387ead5442d24e92d767056a61"
+    },
+    {
+      "file": "XNOUSDT-1d-2026-04.zip",
+      "sha256": "afd436f05f4e44bef863c459c5009d2e05397d4cb228a02734a8de3629b07a9a"
+    },
+    {
+      "file": "XNOUSDT-1d-2026-05.zip",
+      "sha256": "b75df3fed2aa5001f9daab091bdca31158987828b486bfc026886c398aba854c"
+    },
+    {
+      "file": "XNOUSDT-1d-2026-06.zip",
+      "sha256": "7e7842ab09c4dbf20afd44fa5a34ad6f1413ffc05dd013df9c0b08aeeb4e14c8"
+    },
+    {
+      "file": "XNOUSDT-1d-2026-07.zip",
+      "sha256": "c9e877187f78c02a6c4002570a7b30512f9902155e6bb180a8293821e4f6356f"
+    },
+    {
+      "file": "XNOUSDT-1d-2026-08.zip",
+      "sha256": "5bbd98f4bfa24764b3290a193d228690a9fc7ddf0670c1886f2b52fd3222e474"
+    },
+    {
+      "file": "XNOUSDT-1d-2026-09.zip",
+      "sha256": "db6396e90be70bd84fd8cccb80118d8ec8a98d222c36ce5d493fba803f2f0d57"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

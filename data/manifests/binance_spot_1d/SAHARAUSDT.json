@@ -1,0 +1,89 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SAHARAUSDT/1d/",
+  "instrument": "SAHARAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-06-26",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:44:26+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 462,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SAHARAUSDT-1d-2025-06.zip",
+      "sha256": "e43c575664ca6693e7f5eabb968d92c1d51f05dc3296aa2d1cb597b241772dec"
+    },
+    {
+      "file": "SAHARAUSDT-1d-2025-07.zip",
+      "sha256": "4e26d6138c3884f4779797b3d47c5657124e55718c005cc71a83fd39216517ae"
+    },
+    {
+      "file": "SAHARAUSDT-1d-2025-08.zip",
+      "sha256": "be49b41e8d9ffff8fd6ae577e6630498c5fb63f6239ce645ed070a5218651816"
+    },
+    {
+      "file": "SAHARAUSDT-1d-2025-09.zip",
+      "sha256": "13cc13fab0da037466189280b5bf047556eda10bef8fea726ec5c8c6a2595715"
+    },
+    {
+      "file": "SAHARAUSDT-1d-2025-10.zip",
+      "sha256": "572022100d57e20a4c4eece1d5feaf48cc3321850b8133a8b0dd9abcdcad583f"
+    },
+    {
+      "file": "SAHARAUSDT-1d-2025-11.zip",
+      "sha256": "e75f8ab08d338d08007528b0401c7d80953a406cd01c213a48c6a7f1d3be8acb"
+    },
+    {
+      "file": "SAHARAUSDT-1d-2025-12.zip",
+      "sha256": "76536087a0348ec085bf9d842b6563126fafa7ac79cdf8b20676ac41d97eb900"
+    },
+    {
+      "file": "SAHARAUSDT-1d-2026-01.zip",
+      "sha256": "5423bef24db0e6b1ced58b3ff75a087475bd5feee18be12b74f684e044ec42bd"
+    },
+    {
+      "file": "SAHARAUSDT-1d-2026-02.zip",
+      "sha256": "42a746067b32900e6ec69a19fd8a72edcc71f8c267a8c33dbfea138e9c13d2bf"
+    },
+    {
+      "file": "SAHARAUSDT-1d-2026-03.zip",
+      "sha256": "aede8ca8b907de5669b6d3b5d0769593b07d9cc9fda0c0ae68ef502c24ef0869"
+    },
+    {
+      "file": "SAHARAUSDT-1d-2026-04.zip",
+      "sha256": "4520eefd9ee5d2116cef4a7ee4d15a8d5dfb2b2c7ebc66341f05f6dba8f01dd1"
+    },
+    {
+      "file": "SAHARAUSDT-1d-2026-05.zip",
+      "sha256": "e7c1ae516ae5619456ae5a97d389c12f2bf25c3e89a6408e96d457e51c9f4218"
+    },
+    {
+      "file": "SAHARAUSDT-1d-2026-06.zip",
+      "sha256": "16d345a8806d40663df35b529f6f66cef39b91a402eb37bea6a5486d905ab6fe"
+    },
+    {
+      "file": "SAHARAUSDT-1d-2026-07.zip",
+      "sha256": "056bef113f8614496fcbfdd1504aea0b133e62db5e88d4fa2e5a54ea8c26ed39"
+    },
+    {
+      "file": "SAHARAUSDT-1d-2026-08.zip",
+      "sha256": "3f1b6f5d9c96d5c90dc0ddda6f4585be332d72ed24e05eaa39bfdb7fef1af14c"
+    },
+    {
+      "file": "SAHARAUSDT-1d-2026-09.zip",
+      "sha256": "7e8d7f861feb55b36520b13bb2aa6368d94cc8d0c6c537855fe1bec34f5a4c60"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

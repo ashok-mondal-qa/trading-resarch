@@ -1,0 +1,321 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SUNUSDT/1d/",
+  "instrument": "SUNUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-09-21",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:46:51+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2198,
+  "missing_days": [
+    "2021-06-15",
+    "2021-06-16",
+    "2021-06-17"
+  ],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SUNUSDT-1d-2020-09.zip",
+      "sha256": "1d656bc6199f3fd8d7d6729f54aa34f2f896f17921990c6eaa7487596eeb3133"
+    },
+    {
+      "file": "SUNUSDT-1d-2020-10.zip",
+      "sha256": "f57fac5b044315b0c6fb3ea2cb7d8c0713d5f6a757532c1e54a129b088adec1e"
+    },
+    {
+      "file": "SUNUSDT-1d-2020-11.zip",
+      "sha256": "d39116e182927d3a804111415833937d1e92d95936a3ef3d30b32b58c2798824"
+    },
+    {
+      "file": "SUNUSDT-1d-2020-12.zip",
+      "sha256": "30d556bdbc438fd00216a3464ef04d71024c43fe2196171cc309da1a8e048f02"
+    },
+    {
+      "file": "SUNUSDT-1d-2021-01.zip",
+      "sha256": "b86949961c0261b5b7939206b30b912b3c5b1da971d0bb9a73cfcb332be69f64"
+    },
+    {
+      "file": "SUNUSDT-1d-2021-02.zip",
+      "sha256": "2b2d24ecdd5b146e3abfed9abb506705b079bcf45c18f3870e26b2ea449e1efc"
+    },
+    {
+      "file": "SUNUSDT-1d-2021-03.zip",
+      "sha256": "5c80945cd9295b9ca51bb79e6abc938a6b1e94e73774521a52061439967e537c"
+    },
+    {
+      "file": "SUNUSDT-1d-2021-04.zip",
+      "sha256": "49507d392d76f07c45ff1ff54a18680b505373fb068edaf74b727761538fafc6"
+    },
+    {
+      "file": "SUNUSDT-1d-2021-05.zip",
+      "sha256": "57fceacb044a6c152fd7eb407bd2f334f234872ebc04376432828449c717703d"
+    },
+    {
+      "file": "SUNUSDT-1d-2021-06.zip",
+      "sha256": "93f12bd39d3742737d6eee346c789ac0dd901e6487df6658a5f66de1b16978fc"
+    },
+    {
+      "file": "SUNUSDT-1d-2021-07.zip",
+      "sha256": "58725b54504ed41b09cb88ac2c9f1318454eac54cdf2bd797b7baf947d63b78a"
+    },
+    {
+      "file": "SUNUSDT-1d-2021-08.zip",
+      "sha256": "bf6a7b99dca155157dc9cc4f4a6ef0f69c644e2d984b38d2a9093ef13a0ba750"
+    },
+    {
+      "file": "SUNUSDT-1d-2021-09.zip",
+      "sha256": "c7ab0748946fa34f1ff876196527304da45b0269a551d7b1e880ac1fc50c098f"
+    },
+    {
+      "file": "SUNUSDT-1d-2021-10.zip",
+      "sha256": "5ad1d209b8ead5e30df2c20d6b86c2e002134772f13e27764823999c19d39bfa"
+    },
+    {
+      "file": "SUNUSDT-1d-2021-11.zip",
+      "sha256": "85a9c84118fb487598286cd9ac05f50cd2306508a1bd5bdeda50002460e7e07b"
+    },
+    {
+      "file": "SUNUSDT-1d-2021-12.zip",
+      "sha256": "7f1a5c22ccba7ff476eccb54a851a1909cb5cb7f9e25c86cfd81229e521b1e18"
+    },
+    {
+      "file": "SUNUSDT-1d-2022-01.zip",
+      "sha256": "aa06401613a59810c03745e2cc4c71b1875c91982c41acdc68586d9c3e726a65"
+    },
+    {
+      "file": "SUNUSDT-1d-2022-02.zip",
+      "sha256": "991c097c17ff1594110cc5a3fde75296b4472ee11d3a78fed35faf7788fc72cf"
+    },
+    {
+      "file": "SUNUSDT-1d-2022-03.zip",
+      "sha256": "30c151daceb70691c83aa36869a95561ad06e2d9bc3bed4258696630ab2c1aa8"
+    },
+    {
+      "file": "SUNUSDT-1d-2022-04.zip",
+      "sha256": "f25a5154485df3b9135d42d77c7c303c207f81a60f570f4564832bccf7a2cb06"
+    },
+    {
+      "file": "SUNUSDT-1d-2022-05.zip",
+      "sha256": "dd0e2f9608ce1742bf7a24ac09a32b1275d891f24c48c2fe9f24ff8760176ef2"
+    },
+    {
+      "file": "SUNUSDT-1d-2022-06.zip",
+      "sha256": "53773fc760582ab7f897da4f96f7f8b97b29ef5a29b375d19d14d422fef5a496"
+    },
+    {
+      "file": "SUNUSDT-1d-2022-07.zip",
+      "sha256": "7dd8219fa5e275102af4f3e8649b6c6ca9b888e29b14a8d3a1e704e51ae4a8dc"
+    },
+    {
+      "file": "SUNUSDT-1d-2022-08.zip",
+      "sha256": "3ae6e2feb8024ce0a95bf719cb415e6a7830fa95052e847de488c5fcdd9e3136"
+    },
+    {
+      "file": "SUNUSDT-1d-2022-09.zip",
+      "sha256": "7d582983b8b01abdfc86f9627c7392bd6a4bb62741c4e5fe5a04a682ddafd6a8"
+    },
+    {
+      "file": "SUNUSDT-1d-2022-10.zip",
+      "sha256": "15199d4e159c04e236920924d765b4e1877de9642dc05223888208794efb5319"
+    },
+    {
+      "file": "SUNUSDT-1d-2022-11.zip",
+      "sha256": "bb51777787e46d2c32a4ac4fe9d3b2984b7b27e13e167e939d8a5229cb468385"
+    },
+    {
+      "file": "SUNUSDT-1d-2022-12.zip",
+      "sha256": "79a3fcecfc121d6808264af3a15f9f07dc8369a2884e9c16664d23d1b3376d7c"
+    },
+    {
+      "file": "SUNUSDT-1d-2023-01.zip",
+      "sha256": "bd314fe93b01da364dc9781bf1bfcc049421210364badf27f8c14548ed004829"
+    },
+    {
+      "file": "SUNUSDT-1d-2023-02.zip",
+      "sha256": "3c5c237d94057fb280c2c493c8b258baa48838b10bb1b772a031fd3a21b62e2f"
+    },
+    {
+      "file": "SUNUSDT-1d-2023-03.zip",
+      "sha256": "44e4c4a3d0e0215fbfa36e1d38db0c235a5127ee52bc793c12ad5c0d501fb03a"
+    },
+    {
+      "file": "SUNUSDT-1d-2023-04.zip",
+      "sha256": "4424be6cd95e4cb94ca36230d4ceecaead3404eab663acc761dae3996b494018"
+    },
+    {
+      "file": "SUNUSDT-1d-2023-05.zip",
+      "sha256": "fa003fa1714c395c4bffa2427244ba5fff005f4f539167fcc5a499f402fb7a59"
+    },
+    {
+      "file": "SUNUSDT-1d-2023-06.zip",
+      "sha256": "f50afdf80abdd138055777ea9661fcef78c99ca00b18eb3ce248a78a37385ab4"
+    },
+    {
+      "file": "SUNUSDT-1d-2023-07.zip",
+      "sha256": "de825fe2297b6e90c278d4f1b6f1ff1b64aab9c604b05b4553680a4d21e16d5e"
+    },
+    {
+      "file": "SUNUSDT-1d-2023-08.zip",
+      "sha256": "d528c105889166863a2646d6905f8532404c4a43ac2420269f3fa794d294a2dc"
+    },
+    {
+      "file": "SUNUSDT-1d-2023-09.zip",
+      "sha256": "0a93189c48ac3bf4d26a75d0627c4ffa667ee9fbf9da966a194a9ea3aa727d29"
+    },
+    {
+      "file": "SUNUSDT-1d-2023-10.zip",
+      "sha256": "03a1cb6b19f00c88d7264d3a3b0767450ed4602d2f95acbd6e87a7f5af3ab557"
+    },
+    {
+      "file": "SUNUSDT-1d-2023-11.zip",
+      "sha256": "72c0c52e967b7d74683deb938c60af665ac77320dd3d395bf9939470f4762ed7"
+    },
+    {
+      "file": "SUNUSDT-1d-2023-12.zip",
+      "sha256": "4124f626d5e503df083ab2d227460f1cd8c11a4cfac783c16f54b5a82e6785bb"
+    },
+    {
+      "file": "SUNUSDT-1d-2024-01.zip",
+      "sha256": "cc78c8154adad16283b5ed818cc5a24c697695ffdae322b16fb015a289ab75f7"
+    },
+    {
+      "file": "SUNUSDT-1d-2024-02.zip",
+      "sha256": "4627b940ccac6df72ec74d5bc2c90aad55569f7f8ac3f4a3c5c1198f78d9681a"
+    },
+    {
+      "file": "SUNUSDT-1d-2024-03.zip",
+      "sha256": "8d593ec605830f1a16a4cf30b7601389240d3c6e15993370f40e23042e531eb4"
+    },
+    {
+      "file": "SUNUSDT-1d-2024-04.zip",
+      "sha256": "d417c7c950a717526bbef8af9969753854d137ad20f2ca6a184c388d8c19b159"
+    },
+    {
+      "file": "SUNUSDT-1d-2024-05.zip",
+      "sha256": "7a21028eaa58778c9d835838faca77fecb1f8ece88af7b941deb053941f2907d"
+    },
+    {
+      "file": "SUNUSDT-1d-2024-06.zip",
+      "sha256": "5382ec953f020d4399eeb7def747ac6c9d621ef6490fc8b8870e29f45bae75c3"
+    },
+    {
+      "file": "SUNUSDT-1d-2024-07.zip",
+      "sha256": "f84f1d24c27ce627fda9a2249c79c2d5da3d724d5d964c024d0b36a14a9f188c"
+    },
+    {
+      "file": "SUNUSDT-1d-2024-08.zip",
+      "sha256": "3494580b8d9a1705b3ba063f6217f8c94d9beadec7a85b9cafef910733925134"
+    },
+    {
+      "file": "SUNUSDT-1d-2024-09.zip",
+      "sha256": "5991affb76d0f30165f33b92221c05881025d43e1cacdc2d951cbfa2b4f2fb13"
+    },
+    {
+      "file": "SUNUSDT-1d-2024-10.zip",
+      "sha256": "900383f896f93188ae0070ae21e75daf975278e0474b6b6485655418cd7fe3be"
+    },
+    {
+      "file": "SUNUSDT-1d-2024-11.zip",
+      "sha256": "fb2c29e555280bdfb949396a2c9d75671f80572919016d8e0f082246e9704558"
+    },
+    {
+      "file": "SUNUSDT-1d-2024-12.zip",
+      "sha256": "983354b749767d29ca7aaf0249f476102dea9e71156af85b5e420801ae38e4d7"
+    },
+    {
+      "file": "SUNUSDT-1d-2025-01.zip",
+      "sha256": "0ef1f2c26929e329ffcd88bd8b0eb8b96b459a009b45e8ba6551a20a7fa03f82"
+    },
+    {
+      "file": "SUNUSDT-1d-2025-02.zip",
+      "sha256": "fa5ffa67936fceab1d30a2bebc49bf2a5c348a901559001f74f5f5e612d4aa3f"
+    },
+    {
+      "file": "SUNUSDT-1d-2025-03.zip",
+      "sha256": "d8ba65cdb09d809cb8d3730a74f2e7e7bb6dfa6a70274d98b614e4ebab7f0099"
+    },
+    {
+      "file": "SUNUSDT-1d-2025-04.zip",
+      "sha256": "4873598e55e66a46d70720138187e123ea3c2b7945bdc6f142bce5945495b1f8"
+    },
+    {
+      "file": "SUNUSDT-1d-2025-05.zip",
+      "sha256": "0e28bf1dfbb6a1b509ce4faa2a98e17ac805e0b94fe805d002a16005331b8f4f"
+    },
+    {
+      "file": "SUNUSDT-1d-2025-06.zip",
+      "sha256": "75cdb08a34d8194494c71fc1a03c831045df804238857fbf4edd85ad142fb584"
+    },
+    {
+      "file": "SUNUSDT-1d-2025-07.zip",
+      "sha256": "5c18382c50f1a8576a767e295e00a82dfc2109680d6dff60fd6170fba6ed24aa"
+    },
+    {
+      "file": "SUNUSDT-1d-2025-08.zip",
+      "sha256": "ad18948a482bd936856d5fe6430c3ca9026fdefcdc8b95b9cffaa77d2e1c10dc"
+    },
+    {
+      "file": "SUNUSDT-1d-2025-09.zip",
+      "sha256": "ea7546d266a9467d020915af325ba908fcc3f716fc0e3f1c1ec6430e1908411c"
+    },
+    {
+      "file": "SUNUSDT-1d-2025-10.zip",
+      "sha256": "a5af160dd8e62b186bf91c3ab8bd195380a5dc7c7cdf1a296e2083885870f08a"
+    },
+    {
+      "file": "SUNUSDT-1d-2025-11.zip",
+      "sha256": "4fa0dcc9799cf54201beac40989b922bbb6cf09b4b7719cee6944b3cd0c3ef5c"
+    },
+    {
+      "file": "SUNUSDT-1d-2025-12.zip",
+      "sha256": "2ce2de980c5c1f87520c160202978a8a7d5a9c0e728b17b03aeafd3b3ecc4cc9"
+    },
+    {
+      "file": "SUNUSDT-1d-2026-01.zip",
+      "sha256": "a77c8781f4f6116f4c3803edbd3ca2434a5bc7c277b98ed9a2bfb9c6d801da91"
+    },
+    {
+      "file": "SUNUSDT-1d-2026-02.zip",
+      "sha256": "e66d6c9172d7e8f0d2556235970165e92aedb05957953f0f7989bdfb78f38cea"
+    },
+    {
+      "file": "SUNUSDT-1d-2026-03.zip",
+      "sha256": "e4e500d383e5210803aa4b6445c25e1459ed6c81753695358aa4a56a4ef744c7"
+    },
+    {
+      "file": "SUNUSDT-1d-2026-04.zip",
+      "sha256": "96d7b39485450d95a3fb8af1f53d663bd856edff4eb0aa23e036be9b9369ff8f"
+    },
+    {
+      "file": "SUNUSDT-1d-2026-05.zip",
+      "sha256": "5639f9023fc7a9e327c3babe71ffcfbe1465c820d6b8cd3ba59ba511b810d600"
+    },
+    {
+      "file": "SUNUSDT-1d-2026-06.zip",
+      "sha256": "8ad6924b32b3973af5b1b03b3e4fa21230e36d197629c247f013b5c448f96c1d"
+    },
+    {
+      "file": "SUNUSDT-1d-2026-07.zip",
+      "sha256": "78ff51cdcf50230ca916d96958cf1e14d62e94e66f85a29ad1ea64ad3935e465"
+    },
+    {
+      "file": "SUNUSDT-1d-2026-08.zip",
+      "sha256": "30329f82350db0b6b8640680f5b4c90ed2ab114efbb0a049a35a4afa0c945efb"
+    },
+    {
+      "file": "SUNUSDT-1d-2026-09.zip",
+      "sha256": "9946d5914723bb55abcac7890c8616146fe6b7dd5c10463c418694e5412009be"
+    }
+  ],
+  "status": "partial",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

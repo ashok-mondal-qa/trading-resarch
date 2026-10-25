@@ -1,0 +1,249 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ASTRUSDT/1d/",
+  "instrument": "ASTRUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-02-28",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:26:43+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1676,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ASTRUSDT-1d-2022-02.zip",
+      "sha256": "cc740473aaa7a841f948ca3c4d579b7efa9b60bfdef929246a45e0b9aaff8cfa"
+    },
+    {
+      "file": "ASTRUSDT-1d-2022-03.zip",
+      "sha256": "0a35bb1009f2737fcabf340ca468055204f15ee309e75af0236fdb5649ff4a44"
+    },
+    {
+      "file": "ASTRUSDT-1d-2022-04.zip",
+      "sha256": "416096aa849fb6ddcdd6283aac021b41990872a6f4748bf5672786f075619bbd"
+    },
+    {
+      "file": "ASTRUSDT-1d-2022-05.zip",
+      "sha256": "356cf407af9759b3d9741e18e012a9ccda90cab172aea17878a876a0b58c436f"
+    },
+    {
+      "file": "ASTRUSDT-1d-2022-06.zip",
+      "sha256": "4e742415fe47e3afb8aac62981296300e7b5445cd5ed0a8f7a6bae6be78ddb08"
+    },
+    {
+      "file": "ASTRUSDT-1d-2022-07.zip",
+      "sha256": "cc52e9f44ebfb7599b13d9f5e20609eb71795d7769f2dec4eaeb80a332cd930e"
+    },
+    {
+      "file": "ASTRUSDT-1d-2022-08.zip",
+      "sha256": "09e64af76be37f02ed99305a8736d4738f3dbbb81fc18274f07bb693ca4d7c0a"
+    },
+    {
+      "file": "ASTRUSDT-1d-2022-09.zip",
+      "sha256": "cc5356b93ee4df0607e1804fbf5fa19267a2dbba315f7050353954d03bbda5d2"
+    },
+    {
+      "file": "ASTRUSDT-1d-2022-10.zip",
+      "sha256": "d40993b5411f5a766529927d73c51ce444626ae2137e54b94e8a5ab97028bc16"
+    },
+    {
+      "file": "ASTRUSDT-1d-2022-11.zip",
+      "sha256": "4e01540e6f9ce77af357f5d76522f098929e37151f3159ed9953ef88f908babb"
+    },
+    {
+      "file": "ASTRUSDT-1d-2022-12.zip",
+      "sha256": "f0087133a86bbf752c01b5bc3dc273e27d00635a6f87efee8dde7db4a6e3cba0"
+    },
+    {
+      "file": "ASTRUSDT-1d-2023-01.zip",
+      "sha256": "4bde50b37b9e3e90f7881a2b3971c3276af88e406cbdae659658dd901407fab5"
+    },
+    {
+      "file": "ASTRUSDT-1d-2023-02.zip",
+      "sha256": "b4873e9224f03214df6b49c46bc27bbae0bdcc70a6462694fb5f8f7861d7d2f0"
+    },
+    {
+      "file": "ASTRUSDT-1d-2023-03.zip",
+      "sha256": "aab49985dcc093ce2ff751ad3215ddeea1ba274a4ee83647f3feb7410d11c97c"
+    },
+    {
+      "file": "ASTRUSDT-1d-2023-04.zip",
+      "sha256": "8af5e85a026c1f7f1dcfd20b802889fce33977afeee6b480c2e65eeb305037fa"
+    },
+    {
+      "file": "ASTRUSDT-1d-2023-05.zip",
+      "sha256": "a08fb5b6645d9b4ed3e68b0f9ab11a19880b0b583b7dec5c308eb3ea585068bf"
+    },
+    {
+      "file": "ASTRUSDT-1d-2023-06.zip",
+      "sha256": "eb0ee6fe7ffabb574fd4dc92a5d40f807b6ce24143be9fe1e77119a5e48cf777"
+    },
+    {
+      "file": "ASTRUSDT-1d-2023-07.zip",
+      "sha256": "fff5dffb58a8bfbdd375c0c11b9351048a5744967f57523860eae91b0ccfe132"
+    },
+    {
+      "file": "ASTRUSDT-1d-2023-08.zip",
+      "sha256": "c1f3df3e5a30dec0860431fa32ebb82e0aed6eb055e2e1103703917120bcb837"
+    },
+    {
+      "file": "ASTRUSDT-1d-2023-09.zip",
+      "sha256": "2e4c836c8117fca71cd282c7ace10ebfa3e512a96bf124f74897242d5d8ff674"
+    },
+    {
+      "file": "ASTRUSDT-1d-2023-10.zip",
+      "sha256": "ac596dbe50aec133e0343fe0b18b597474abeae64fdc5d31536899d5f0adf5a8"
+    },
+    {
+      "file": "ASTRUSDT-1d-2023-11.zip",
+      "sha256": "a8f0063a40196c89e4320ef4c436176234cb8c43f8979138d758b52e60a9a2a8"
+    },
+    {
+      "file": "ASTRUSDT-1d-2023-12.zip",
+      "sha256": "733ccadc07948c7a2fcd1c4a5031a11f63fb4cac070ccd783fac454e9b6fb369"
+    },
+    {
+      "file": "ASTRUSDT-1d-2024-01.zip",
+      "sha256": "428fbb1ae1583d3b5597cdf89b4f216720804574ef5ac9e1b36bac0b6cfd1a15"
+    },
+    {
+      "file": "ASTRUSDT-1d-2024-02.zip",
+      "sha256": "33a9239643141d71545de84683a2492c7d00afc8d487f21284040a0005c7c23c"
+    },
+    {
+      "file": "ASTRUSDT-1d-2024-03.zip",
+      "sha256": "cae4a259227bb7b893fa320254c39b5c5b6275e455ce7971efafae3deecc1ac1"
+    },
+    {
+      "file": "ASTRUSDT-1d-2024-04.zip",
+      "sha256": "011342f283717e34a86d5a1c591a941f76fb2119ab1965e57ee3d91b1264ccf0"
+    },
+    {
+      "file": "ASTRUSDT-1d-2024-05.zip",
+      "sha256": "515f6ddfc0c87af83437f362cd9dc22026a48f9c8a42d22630caa8d081909d60"
+    },
+    {
+      "file": "ASTRUSDT-1d-2024-06.zip",
+      "sha256": "7cbb4c02db89bc2bcd1d81c84a6b2360dd725d9a3b30b6da78d7e8fb503f386c"
+    },
+    {
+      "file": "ASTRUSDT-1d-2024-07.zip",
+      "sha256": "f23f7a977fbb1a740248c96515a92a4f67436aa4405cd578e2cb6f88b3529883"
+    },
+    {
+      "file": "ASTRUSDT-1d-2024-08.zip",
+      "sha256": "76399939ec0cdbb5bebf735bbd126e6f596a27d09dd4e1d2c9b54a2fcdbb7927"
+    },
+    {
+      "file": "ASTRUSDT-1d-2024-09.zip",
+      "sha256": "725107907d33458fbf3f462d09d87d0b4f95e52b902ffcad51224890c04ce4ee"
+    },
+    {
+      "file": "ASTRUSDT-1d-2024-10.zip",
+      "sha256": "618a6fc9ab692d09f0a596d7992eec46afa747982cfdd3456f61e8dc386037f3"
+    },
+    {
+      "file": "ASTRUSDT-1d-2024-11.zip",
+      "sha256": "090bbf011bda182c82fc352369fb73f45b55035278a069cd1ddb43a803d2f628"
+    },
+    {
+      "file": "ASTRUSDT-1d-2024-12.zip",
+      "sha256": "41fcbbcb1100d751e243b12c90828dde1e3bcfdcca07d3b6f40b9ec69db9c1ce"
+    },
+    {
+      "file": "ASTRUSDT-1d-2025-01.zip",
+      "sha256": "3187581eaefe4205e1410d1406a9e7d7e27e8cc676c3f480db368eb78887f0be"
+    },
+    {
+      "file": "ASTRUSDT-1d-2025-02.zip",
+      "sha256": "e0b84acd3021535ab07cd1966855a21605004327b6acaf7f59b8700f039cd4eb"
+    },
+    {
+      "file": "ASTRUSDT-1d-2025-03.zip",
+      "sha256": "12dbf5f92ababa437606a95ec7c8de3674bbdc76eff4ad1bf314333f7e673a97"
+    },
+    {
+      "file": "ASTRUSDT-1d-2025-04.zip",
+      "sha256": "268765085dc99805001e2835a016958803a8eb35743c50e2f6a40b536da0c785"
+    },
+    {
+      "file": "ASTRUSDT-1d-2025-05.zip",
+      "sha256": "6a2b6d555dd25e61f3c247f4f0282ae70370dd4b3e28b94efb005c4be40856a2"
+    },
+    {
+      "file": "ASTRUSDT-1d-2025-06.zip",
+      "sha256": "6f8c255f8ab8adc07208a68bc946804402d59c7f0207ba771232e2ed9e25a545"
+    },
+    {
+      "file": "ASTRUSDT-1d-2025-07.zip",
+      "sha256": "9c1ad3567526638359bd3c4387f44fcc16cdd1b6c20c1afce0218369045d4df0"
+    },
+    {
+      "file": "ASTRUSDT-1d-2025-08.zip",
+      "sha256": "2e2ce099fe57848421a6516e0ce0f0c0dde368c45bb82c8952d9743dad5eca67"
+    },
+    {
+      "file": "ASTRUSDT-1d-2025-09.zip",
+      "sha256": "c27153a82f957ed670e0a12ae8b70e33327d9912b9b56a857215b158b6a1069f"
+    },
+    {
+      "file": "ASTRUSDT-1d-2025-10.zip",
+      "sha256": "a62f909b7f29f1847525ce4913d6276d16b408f968f8ee591582992e38516cb5"
+    },
+    {
+      "file": "ASTRUSDT-1d-2025-11.zip",
+      "sha256": "05d9b31e311ed24ee575a885e759384302e6e71278da025af24872a2653425ab"
+    },
+    {
+      "file": "ASTRUSDT-1d-2025-12.zip",
+      "sha256": "4a8c19e2fadb711f8de4ad4c49182d0944ca49cbe6f607cc5e26d71a30566f58"
+    },
+    {
+      "file": "ASTRUSDT-1d-2026-01.zip",
+      "sha256": "9b66ab925420f71df7706d105040ba63ba0d2bb7b8230b36c523a8278b82603d"
+    },
+    {
+      "file": "ASTRUSDT-1d-2026-02.zip",
+      "sha256": "93eea43f2cb45425b69789282093932556c6843ce8b171e3f6d9c7d44c5f38cf"
+    },
+    {
+      "file": "ASTRUSDT-1d-2026-03.zip",
+      "sha256": "244592f482a894824de7d3a6554f6dc1d1d3700b9e4421b68355890d4f3358a3"
+    },
+    {
+      "file": "ASTRUSDT-1d-2026-04.zip",
+      "sha256": "a35920886ca5b939f1c15f4ef85b0e7bbaac1c8ac52a5ee266b995cefc79053c"
+    },
+    {
+      "file": "ASTRUSDT-1d-2026-05.zip",
+      "sha256": "0f052aa2a7f92efb6122a7c7bed708e22c0c1a3d24c27b8c0f13bf54306f0745"
+    },
+    {
+      "file": "ASTRUSDT-1d-2026-06.zip",
+      "sha256": "f51b01594af0ac0fc070d27600b6e85dbae4322aa3149cc5451d8e968feadded"
+    },
+    {
+      "file": "ASTRUSDT-1d-2026-07.zip",
+      "sha256": "5d6a2a64af081007051beaf22e61e17d6be2747759dfbd8e862195cd95194e27"
+    },
+    {
+      "file": "ASTRUSDT-1d-2026-08.zip",
+      "sha256": "d70676aa01c0d75883a116b5604204185338af5af0348c0bd5e1e7e61fa915cc"
+    },
+    {
+      "file": "ASTRUSDT-1d-2026-09.zip",
+      "sha256": "c598d375162a9f10aa2ebd3aff96ac5eb2c2eaaa0e56a1206b07b10c2b185726"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

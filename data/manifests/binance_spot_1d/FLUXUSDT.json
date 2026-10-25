@@ -1,0 +1,257 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/FLUXUSDT/1d/",
+  "instrument": "FLUXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-12-10",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:33:57+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1756,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "FLUXUSDT-1d-2021-12.zip",
+      "sha256": "c8ed8e13deff6e3f85024336c194d87d50a73ac93ceadf5da34646db8c6f15ec"
+    },
+    {
+      "file": "FLUXUSDT-1d-2022-01.zip",
+      "sha256": "0f096aacf9bbb797f9e6bae6a1e068e54f99d6d85572ca42c7f3f513840bda80"
+    },
+    {
+      "file": "FLUXUSDT-1d-2022-02.zip",
+      "sha256": "14683c94d70bb57a8b00394c8a00d19a54fc4e32e1e45519c79f7a0237f1e20f"
+    },
+    {
+      "file": "FLUXUSDT-1d-2022-03.zip",
+      "sha256": "b04190d64a7d181d7517420faf6862dc5b8cd8ad5b2a23594ec8f057686a0862"
+    },
+    {
+      "file": "FLUXUSDT-1d-2022-04.zip",
+      "sha256": "5bf5fe2077c1bace865baf9ee96f1d84cf01b9d1b92f87dd90cbd7519d006c49"
+    },
+    {
+      "file": "FLUXUSDT-1d-2022-05.zip",
+      "sha256": "ede514023614e6e6d0d99e4edf92e8b7f0e6670cdd286a80d826b0823b9e6345"
+    },
+    {
+      "file": "FLUXUSDT-1d-2022-06.zip",
+      "sha256": "3182c41d8162cce153ac7197a47708a777dc0c55e185889bbbb30215f7abe64b"
+    },
+    {
+      "file": "FLUXUSDT-1d-2022-07.zip",
+      "sha256": "f8b99035fe03d0879bb3e3376fff0601283726f235d14a64b8c9201659fa44b3"
+    },
+    {
+      "file": "FLUXUSDT-1d-2022-08.zip",
+      "sha256": "e29f509f03f4d84817302373fc5ef998f02ce51c18e618f5ca1a5366cdf04f6a"
+    },
+    {
+      "file": "FLUXUSDT-1d-2022-09.zip",
+      "sha256": "c14b8c3ea1d2711991af3ddbdb91b804f71118ad5dfb0f9bdf3f9333b0faf794"
+    },
+    {
+      "file": "FLUXUSDT-1d-2022-10.zip",
+      "sha256": "fe7f94fdb93cd87d1e391e7908820c9e514e6db67d43caf2f000e8c84c03b307"
+    },
+    {
+      "file": "FLUXUSDT-1d-2022-11.zip",
+      "sha256": "a755a85f21a6813fff3bb4950bffec59d6f0ac06a35580c9e80128b9dee7b93e"
+    },
+    {
+      "file": "FLUXUSDT-1d-2022-12.zip",
+      "sha256": "32c066dc3353e093a0e42f21b7566371c7f502064799caed6f70fdf5ebe248d5"
+    },
+    {
+      "file": "FLUXUSDT-1d-2023-01.zip",
+      "sha256": "1d66d0fbc5a579da308b2c99319c4f217439ec00f9171cacb1aca419868583ca"
+    },
+    {
+      "file": "FLUXUSDT-1d-2023-02.zip",
+      "sha256": "5334dc8d2ddfdd2aa5dac63ddfdda028b71477c7cba2351f8c500881594a6f6b"
+    },
+    {
+      "file": "FLUXUSDT-1d-2023-03.zip",
+      "sha256": "31ba0c0ea3583ee4fd580ee36f9a0109604ccbc5bcf427fdda61efe9e4216a04"
+    },
+    {
+      "file": "FLUXUSDT-1d-2023-04.zip",
+      "sha256": "5602fba9f1b5d78bbbec48fccde9f18cb4cbf77f5fcb80ffb489e0b64cfd0b81"
+    },
+    {
+      "file": "FLUXUSDT-1d-2023-05.zip",
+      "sha256": "574123b267dcc978cf14b750202534b6e0deecab0cf83f1cf62e352abd9e42a8"
+    },
+    {
+      "file": "FLUXUSDT-1d-2023-06.zip",
+      "sha256": "9a77bc5e848df8aff141d74ed581b66e28b13f5cf8ab4e43f1ee5d6db4a4e9ab"
+    },
+    {
+      "file": "FLUXUSDT-1d-2023-07.zip",
+      "sha256": "beda412ffe214c9e4d706b70db66ab56e98f0d605556834b1c01bff99f53e1d5"
+    },
+    {
+      "file": "FLUXUSDT-1d-2023-08.zip",
+      "sha256": "6687c18affb0a97f403cc5c87e88f6e0c3dee36783ca9f67e4830092154d447d"
+    },
+    {
+      "file": "FLUXUSDT-1d-2023-09.zip",
+      "sha256": "6bc580e21539bd72bb0f6e087f657aea24fc381de1e519633f4589107d19f80f"
+    },
+    {
+      "file": "FLUXUSDT-1d-2023-10.zip",
+      "sha256": "9f13e42c5ee62a6edca4283db5ef8ea424fbdedd411fbe84b6e44644cbde3376"
+    },
+    {
+      "file": "FLUXUSDT-1d-2023-11.zip",
+      "sha256": "d226a2468617b87e1a55320d76f4605bf0b96d0476ad1d6f1fff2e32f7a6b3b8"
+    },
+    {
+      "file": "FLUXUSDT-1d-2023-12.zip",
+      "sha256": "8c0878383c32f0b2248583916863f69631c8833430112a7bd4da8ac8f048c87a"
+    },
+    {
+      "file": "FLUXUSDT-1d-2024-01.zip",
+      "sha256": "6c663fc21ec634aa5aefd0dffc6a61d998b2aafec4f46b58fdc973d0ab4ce261"
+    },
+    {
+      "file": "FLUXUSDT-1d-2024-02.zip",
+      "sha256": "e815be3ac23c8afa2b7ca0e5d39e20f57b0bb08154fcc93b7a8e50b01a9185fc"
+    },
+    {
+      "file": "FLUXUSDT-1d-2024-03.zip",
+      "sha256": "4d7df206f51c7daca00db71f25d5825d91977068593776d84d7ec4a71f67e646"
+    },
+    {
+      "file": "FLUXUSDT-1d-2024-04.zip",
+      "sha256": "5253ac73dc6c2b4f7fd69d4987322f47bbed582c86cc11674aacc5ae6b155fa7"
+    },
+    {
+      "file": "FLUXUSDT-1d-2024-05.zip",
+      "sha256": "ebc2c413f237a6087342f3274cc6a46977756ef06f3e3089a6abb7a8e3c26d0a"
+    },
+    {
+      "file": "FLUXUSDT-1d-2024-06.zip",
+      "sha256": "077df6a46c97f0da790e1d393b06987aeb89566877b21482fbb1e14acc3aba37"
+    },
+    {
+      "file": "FLUXUSDT-1d-2024-07.zip",
+      "sha256": "d321a5032fc33723725789fd504a01d61fb4ccc13085beabe3f11a6cb4c828b9"
+    },
+    {
+      "file": "FLUXUSDT-1d-2024-08.zip",
+      "sha256": "dd87260e6b7dc95a3de5d088671b8b3f2468b1da73a3401a4864a1dd842ac7af"
+    },
+    {
+      "file": "FLUXUSDT-1d-2024-09.zip",
+      "sha256": "483a0f351e7797ecd9c3b6422e3941a7f2559f2c79752f1500b6c2f356d8c841"
+    },
+    {
+      "file": "FLUXUSDT-1d-2024-10.zip",
+      "sha256": "680edb5392bb6230218ac05b2a2f31a725c5b00acac6e1a216f3990d0fcdd50e"
+    },
+    {
+      "file": "FLUXUSDT-1d-2024-11.zip",
+      "sha256": "a44a58ffe2ccde7e87d326820855553cbb3cdd9e4f17903c5a450ad671eb1c17"
+    },
+    {
+      "file": "FLUXUSDT-1d-2024-12.zip",
+      "sha256": "e6f6cb8b7e7b38ad76176064cb91a1b924e0fc332a6ea5f9ce7da4e4b89acd98"
+    },
+    {
+      "file": "FLUXUSDT-1d-2025-01.zip",
+      "sha256": "4158f5839fa11c6a0838d8e4e16f072f9911875c300874fed4fef33d251b9418"
+    },
+    {
+      "file": "FLUXUSDT-1d-2025-02.zip",
+      "sha256": "511fb2cf72fdb15ac6208ac9a6f4e90ecd0585d31056ff217d742a2615fdab09"
+    },
+    {
+      "file": "FLUXUSDT-1d-2025-03.zip",
+      "sha256": "c49a345d359ee5729680af668058ee2adc36cf7200ed7ba85141bde8f387dadf"
+    },
+    {
+      "file": "FLUXUSDT-1d-2025-04.zip",
+      "sha256": "367fa0c5c44af55aaba19c9728185b396f45429fa201dd5183de84be06169b44"
+    },
+    {
+      "file": "FLUXUSDT-1d-2025-05.zip",
+      "sha256": "d2a0d9b0545bfc62d9699dd336a5604a6d860665f9a99014659428bd4e4b18a6"
+    },
+    {
+      "file": "FLUXUSDT-1d-2025-06.zip",
+      "sha256": "9facd65bedc095fc74f65844e1c692ce84eeb450940fbe8411103b0f0ab1c0ca"
+    },
+    {
+      "file": "FLUXUSDT-1d-2025-07.zip",
+      "sha256": "8aa0e03a96b9180d5b5c5695040743dc3e07932434feca5c21d59a5871c4106a"
+    },
+    {
+      "file": "FLUXUSDT-1d-2025-08.zip",
+      "sha256": "fd7ceee595cc06ba01bf15257f71c896f34980871d67bda73c7091de2fdd29cd"
+    },
+    {
+      "file": "FLUXUSDT-1d-2025-09.zip",
+      "sha256": "226c1fd22d593cc1032bc409acc388185ba97e8078f2503b41b929c431117750"
+    },
+    {
+      "file": "FLUXUSDT-1d-2025-10.zip",
+      "sha256": "21b19f4a3efe5447b0d02ad548c1763b4a23d477630d02dbadbc57cdc14b6f65"
+    },
+    {
+      "file": "FLUXUSDT-1d-2025-11.zip",
+      "sha256": "d74a2ae86e8234e0eedeca68e18db8443955f17229b7f0b230cdb96ddfe88608"
+    },
+    {
+      "file": "FLUXUSDT-1d-2025-12.zip",
+      "sha256": "d119cd9a3889f7d1ca9af6fa07cc0877470e22487d8d3804c9d22735b5a0ba9f"
+    },
+    {
+      "file": "FLUXUSDT-1d-2026-01.zip",
+      "sha256": "d04b82466a2b328ec7be1414846df91e6da941e1a543692183b2bbf7890c32ab"
+    },
+    {
+      "file": "FLUXUSDT-1d-2026-02.zip",
+      "sha256": "105e4e6bcc19f27c8019b1b358bf297674604cbcade44b90b3fc7dab0bbecebb"
+    },
+    {
+      "file": "FLUXUSDT-1d-2026-03.zip",
+      "sha256": "16fac2de1564a145873c65f45b9e2e954780c20a59a8262d66c460d667e0d650"
+    },
+    {
+      "file": "FLUXUSDT-1d-2026-04.zip",
+      "sha256": "4f47002bff2a2930c1e1c54eeecae45211fb8a4bcb5639839a1ab544f06520dc"
+    },
+    {
+      "file": "FLUXUSDT-1d-2026-05.zip",
+      "sha256": "4464aa8ad372056693e60a2cc4d4da721d959eae2a0be3fcbc73be5aae33c5f1"
+    },
+    {
+      "file": "FLUXUSDT-1d-2026-06.zip",
+      "sha256": "e4c20ad730304171f5c3f74c5944a68cdf12a690a9502be34c754214c68aa89b"
+    },
+    {
+      "file": "FLUXUSDT-1d-2026-07.zip",
+      "sha256": "b53e205110a1b2752722c073e709faa1624604dd5ff3790638a34ee20de1f257"
+    },
+    {
+      "file": "FLUXUSDT-1d-2026-08.zip",
+      "sha256": "5634c8f400a9cc74615ce3681c7aee9bae4bdac303fa2ed06fd49f148f8d7a7f"
+    },
+    {
+      "file": "FLUXUSDT-1d-2026-09.zip",
+      "sha256": "b9671855185f58e1799aa6bcb2b8c4334bc9dc6b5e187f29b258e37cbc381a04"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

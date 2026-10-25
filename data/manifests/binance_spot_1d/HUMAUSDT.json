@@ -1,0 +1,93 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/HUMAUSDT/1d/",
+  "instrument": "HUMAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-05-26",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:35:25+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 493,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "HUMAUSDT-1d-2025-05.zip",
+      "sha256": "254311a71b6b3180ccdf02be65eef14963f0dfd397e81b3b11fc4b642581adb2"
+    },
+    {
+      "file": "HUMAUSDT-1d-2025-06.zip",
+      "sha256": "70f8476a9eb891c7b257295a180d2ed22a773133eeeebf202d445200ca59f334"
+    },
+    {
+      "file": "HUMAUSDT-1d-2025-07.zip",
+      "sha256": "27660ac9ae435fc1629b04a1eb7eaf1716360978eb40150be3520fbdca535cba"
+    },
+    {
+      "file": "HUMAUSDT-1d-2025-08.zip",
+      "sha256": "b56d47773dd86686591c5d495f2dbd01a1d20ddf9bfc0efae114c32a79e7097f"
+    },
+    {
+      "file": "HUMAUSDT-1d-2025-09.zip",
+      "sha256": "ab0a138575e4fe7270292b63febad00c2d482af351fd876efe5c9c15c74aee7c"
+    },
+    {
+      "file": "HUMAUSDT-1d-2025-10.zip",
+      "sha256": "e5af01754c528aeaf709f85a17296dd39cc7b83f670a9320071ef3f9cfeba0a5"
+    },
+    {
+      "file": "HUMAUSDT-1d-2025-11.zip",
+      "sha256": "3f697a730d843370c6eb51b4fc6567f73b1af4c7f78c7d41f035fdb59a27506d"
+    },
+    {
+      "file": "HUMAUSDT-1d-2025-12.zip",
+      "sha256": "5d4b81b500d5a392eee4689717f41579a6fbdec1ae9c2f797d510795756b6ab6"
+    },
+    {
+      "file": "HUMAUSDT-1d-2026-01.zip",
+      "sha256": "b680f5c9995946b7a92df5d740e13d0a7a0d9ad0abdb587627ca60756772f618"
+    },
+    {
+      "file": "HUMAUSDT-1d-2026-02.zip",
+      "sha256": "d96c1ac8de93dea998234f86d3351472d03cfee4ade8454705b29e4be8db1a0e"
+    },
+    {
+      "file": "HUMAUSDT-1d-2026-03.zip",
+      "sha256": "96ca510099739433b489a3e56e16a51a48053d18d1ad620901620215e5250a57"
+    },
+    {
+      "file": "HUMAUSDT-1d-2026-04.zip",
+      "sha256": "19b7873ee3fccc1c6c5831d082a7f64a6e3f89669020d446e2b27050f4198173"
+    },
+    {
+      "file": "HUMAUSDT-1d-2026-05.zip",
+      "sha256": "a77ac2b00e4489916b91eb4ec4d467f623524ff34fdfedd0823d235d64e1d21f"
+    },
+    {
+      "file": "HUMAUSDT-1d-2026-06.zip",
+      "sha256": "5cae43f549a9f39405e81bc4a3ac3d9d34ed5ee2f79399c2cfb282d0cc6be128"
+    },
+    {
+      "file": "HUMAUSDT-1d-2026-07.zip",
+      "sha256": "50e40e499e6eccdf239ea2a2af811054bb796a4269c25bdd72464ec1dcb0f7ee"
+    },
+    {
+      "file": "HUMAUSDT-1d-2026-08.zip",
+      "sha256": "2ffbef15001e8c8765c8930126716141755b78d48c835807313d26435f3044d5"
+    },
+    {
+      "file": "HUMAUSDT-1d-2026-09.zip",
+      "sha256": "89a6a2fffe7c38f73a1b5db08e1dbe312f361dcfa47ca4c709365e268fd0c1f0"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

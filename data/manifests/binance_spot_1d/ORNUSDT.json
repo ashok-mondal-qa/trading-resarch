@@ -1,0 +1,225 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ORNUSDT/1d/",
+  "instrument": "ORNUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-09-30",
+  "last_bar": "2024-10-15",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:41:57+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1477,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ORNUSDT-1d-2020-09.zip",
+      "sha256": "9e9e590438b9babab067dd73ae13fdf02203c1a7b085413b783dfeed591e95e5"
+    },
+    {
+      "file": "ORNUSDT-1d-2020-10.zip",
+      "sha256": "6b2b62ea1b123bda1eb89c9b08301320d0c2a88445af52b0ad60477018aeabc1"
+    },
+    {
+      "file": "ORNUSDT-1d-2020-11.zip",
+      "sha256": "6098da9847949cb954f397997153afdb1919e4b8ca600ff24468e2ee31c43274"
+    },
+    {
+      "file": "ORNUSDT-1d-2020-12.zip",
+      "sha256": "a3da8036b2a2fe30f381923713cb291d3e82a653d1d0a12341d4ece55092c518"
+    },
+    {
+      "file": "ORNUSDT-1d-2021-01.zip",
+      "sha256": "dfe1c813f1013310925006ceb54a61c2c6157be160494df58dffd424e0f7739c"
+    },
+    {
+      "file": "ORNUSDT-1d-2021-02.zip",
+      "sha256": "a45ce7d39c16db9aa0e37250abc6196c84d1af1fcc9c939900f1fedf7f70a05f"
+    },
+    {
+      "file": "ORNUSDT-1d-2021-03.zip",
+      "sha256": "043d5b78f4aadedeb514a82712f36bc4a505b34483b95b67248c772d538945fc"
+    },
+    {
+      "file": "ORNUSDT-1d-2021-04.zip",
+      "sha256": "e3306349ee914ecac20f9df9e5ea27cd4a63d44938b31c1aa3871a198bacfd0a"
+    },
+    {
+      "file": "ORNUSDT-1d-2021-05.zip",
+      "sha256": "de596603710fe5e631fa8eab1f3884ab5c1974222082e74dda7f36b68b113a70"
+    },
+    {
+      "file": "ORNUSDT-1d-2021-06.zip",
+      "sha256": "00cacf9e23ee2751028ceffa3b0b821452d7435ec7468d0b8fc47181aee1bc78"
+    },
+    {
+      "file": "ORNUSDT-1d-2021-07.zip",
+      "sha256": "e4678c9db150d3a0374e57e227f43bbac83ee816963d47c4e21fe5fd5597f38b"
+    },
+    {
+      "file": "ORNUSDT-1d-2021-08.zip",
+      "sha256": "4cc7016d41fd0a4713b78e3583a00362e01395d7c97fb6a6d674fed7051d4606"
+    },
+    {
+      "file": "ORNUSDT-1d-2021-09.zip",
+      "sha256": "8d4c788a8e44110d23c56db1d108e04338b857163e630c908d058f66d1d23abc"
+    },
+    {
+      "file": "ORNUSDT-1d-2021-10.zip",
+      "sha256": "b4cdcad39ba6c94607cd1ae05806d71027a839800c835cfea43942404d3c2489"
+    },
+    {
+      "file": "ORNUSDT-1d-2021-11.zip",
+      "sha256": "dfe18640fafdf9cbd63257c2814232c0e62b97761e92cc8ae423b5ba8ab8c7c6"
+    },
+    {
+      "file": "ORNUSDT-1d-2021-12.zip",
+      "sha256": "24f4ab136eb58401bcf27b29512788e16b79353bae14caf175f79b721f1fef88"
+    },
+    {
+      "file": "ORNUSDT-1d-2022-01.zip",
+      "sha256": "12b55394b88990a50e73b23af52052c2084bb4f367c4515b91a7fdc8e0691bcc"
+    },
+    {
+      "file": "ORNUSDT-1d-2022-02.zip",
+      "sha256": "7a70ad7eda4a6656bd31d1f0c7974cf92f5349959e0bf6a8be7e5d05c04cc276"
+    },
+    {
+      "file": "ORNUSDT-1d-2022-03.zip",
+      "sha256": "b92c85a0f6dac88cda3bbbf18372fe6a344c98d52681916d929f38efa5ee69af"
+    },
+    {
+      "file": "ORNUSDT-1d-2022-04.zip",
+      "sha256": "d7df9ee4eb15c6afa0790e491e8b16a7716513ee1e573626cab9f43bb0cbb45b"
+    },
+    {
+      "file": "ORNUSDT-1d-2022-05.zip",
+      "sha256": "5ee6dc0440fe4708c28c506ad79f43d818ec9ad3a13ae7cbc8d78f24abdc0f31"
+    },
+    {
+      "file": "ORNUSDT-1d-2022-06.zip",
+      "sha256": "0001c795e0d9577e85956d5948a2635606cb849aae742b10baad81dcf071b222"
+    },
+    {
+      "file": "ORNUSDT-1d-2022-07.zip",
+      "sha256": "1dee61f158401e54f5ef01b6d0d6a671ba03f3cd2b8afd38d9fa99aa6092688d"
+    },
+    {
+      "file": "ORNUSDT-1d-2022-08.zip",
+      "sha256": "3fe7c19aa2d75dfdcbc8deea6421047f504d0148fa55b805cd04e962902bd186"
+    },
+    {
+      "file": "ORNUSDT-1d-2022-09.zip",
+      "sha256": "4ff1c5d97df7ffc09d0bff1389e807f95159b5548fa06a270b3bea0a3ec1ac72"
+    },
+    {
+      "file": "ORNUSDT-1d-2022-10.zip",
+      "sha256": "17b3e4a1beb08fb7cbc8a7c6b0be7abd02dda34a67dc93ebcf4b305405377bfd"
+    },
+    {
+      "file": "ORNUSDT-1d-2022-11.zip",
+      "sha256": "e06d5fab5f4434af2c8c85233c48fb8518f88bca2f2ffae8934d40af7a42859c"
+    },
+    {
+      "file": "ORNUSDT-1d-2022-12.zip",
+      "sha256": "f0639d0c198a1a95f98bfb4564338dbdce2c66761c93bfd64a50f52f6302c0b4"
+    },
+    {
+      "file": "ORNUSDT-1d-2023-01.zip",
+      "sha256": "ba127797b850b1a427b43f67b9434471604703cdfbee6ea4012a031968e228ac"
+    },
+    {
+      "file": "ORNUSDT-1d-2023-02.zip",
+      "sha256": "051f8c3618eb49619bcd2015e44cccf1dd9d3cd9a76bc6c2dfed14505044066c"
+    },
+    {
+      "file": "ORNUSDT-1d-2023-03.zip",
+      "sha256": "05e7040ec63d9b01ad6de159dc21bf6f8a5b8487ac71354c6aae756dd4bec956"
+    },
+    {
+      "file": "ORNUSDT-1d-2023-04.zip",
+      "sha256": "11adbd87fb876ccde69dd0f3d5106767df13095d2bc4f74021886645a0af1588"
+    },
+    {
+      "file": "ORNUSDT-1d-2023-05.zip",
+      "sha256": "a2f7f426dc735180e3804644df07d68a21bd8a508c78efe32365ca4db02e1df7"
+    },
+    {
+      "file": "ORNUSDT-1d-2023-06.zip",
+      "sha256": "02b83dc7d4901504d48445af195529ce6fb9d8e17977984051fa146e52a7bb28"
+    },
+    {
+      "file": "ORNUSDT-1d-2023-07.zip",
+      "sha256": "5b873967100aeae69d13d93789cb734ccd5ce712d348e61d467d2553304b0623"
+    },
+    {
+      "file": "ORNUSDT-1d-2023-08.zip",
+      "sha256": "4bf5df62109373aa430f6d1196f2258e4285a481a922010ac3dc4327e3b3825e"
+    },
+    {
+      "file": "ORNUSDT-1d-2023-09.zip",
+      "sha256": "a81d143ce4f90bf7a266fc6efa186474f7d69fdc7f781117c6e49b4e17c9bf63"
+    },
+    {
+      "file": "ORNUSDT-1d-2023-10.zip",
+      "sha256": "4a96580d24b548d8cbfae908f4ae761d996d3b0cb75a4ebd649f9d9267d44f8a"
+    },
+    {
+      "file": "ORNUSDT-1d-2023-11.zip",
+      "sha256": "3f3987b5ec909ad59f6f3288cfa22d66f71ba931240e648a130a9dc17d26c007"
+    },
+    {
+      "file": "ORNUSDT-1d-2023-12.zip",
+      "sha256": "c4478866bf514d71bb16b116fc06cb5b2d2994bd77077a0aa0953c50e1c4c8bd"
+    },
+    {
+      "file": "ORNUSDT-1d-2024-01.zip",
+      "sha256": "1c4add25334ad7a7b36e0de5efe7d6b967c6be10939e51bcd7520fb2581952b2"
+    },
+    {
+      "file": "ORNUSDT-1d-2024-02.zip",
+      "sha256": "28a5821b98d35f130a9df01c8a59b9f102f9fd4a35990d19bbb974ab883afbe1"
+    },
+    {
+      "file": "ORNUSDT-1d-2024-03.zip",
+      "sha256": "2b7833d3bc640b6442be41ce8916ee2c75f8c9bd3484acd3e6636b43f840c164"
+    },
+    {
+      "file": "ORNUSDT-1d-2024-04.zip",
+      "sha256": "d606931c8a43c4a08915ed1fdceb6cf9a5d39b71fc6b7be04acc33031e48d21f"
+    },
+    {
+      "file": "ORNUSDT-1d-2024-05.zip",
+      "sha256": "ddceb7e9c45e7887057d2cabcdea2cb82919ea3825caecde8828919f9dec1814"
+    },
+    {
+      "file": "ORNUSDT-1d-2024-06.zip",
+      "sha256": "9074afc4eee98a0cf9cc50b9b5b8489eb2b58a55e0a02847135445f507b05de5"
+    },
+    {
+      "file": "ORNUSDT-1d-2024-07.zip",
+      "sha256": "b959aa58d0b1d73bcbaf94601188cdd5bdf89fe59b101dfa1d69c6d8c217736f"
+    },
+    {
+      "file": "ORNUSDT-1d-2024-08.zip",
+      "sha256": "8f0241582fc31a758d96e895dc3194cceeae0b30a931a8d25b273f1cf23cbda5"
+    },
+    {
+      "file": "ORNUSDT-1d-2024-09.zip",
+      "sha256": "c329fae3d35498f936e7640120713ff710d557e4561ea821cf0629fe8c1a4faf"
+    },
+    {
+      "file": "ORNUSDT-1d-2024-10.zip",
+      "sha256": "bcea944eb808f4febcb9c83cb41b6387664fd326aa7ad0770ac7e6a1aff2f6eb"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

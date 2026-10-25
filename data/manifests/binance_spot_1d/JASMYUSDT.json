@@ -1,0 +1,261 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/JASMYUSDT/1d/",
+  "instrument": "JASMYUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-11-22",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:36:48+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1774,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "JASMYUSDT-1d-2021-11.zip",
+      "sha256": "7d388ccfdcc055a2963281c66ddf43371e5e2f0069a95d3dc595e4180617b762"
+    },
+    {
+      "file": "JASMYUSDT-1d-2021-12.zip",
+      "sha256": "72dc705443633e08f2827b2b825a9cd32f2db76d3ffefa20353f7a911d7c63d2"
+    },
+    {
+      "file": "JASMYUSDT-1d-2022-01.zip",
+      "sha256": "097f46496c0c6c9453d6237cf7e1f47b43f5d8d1738751468fae625d9fa9cc72"
+    },
+    {
+      "file": "JASMYUSDT-1d-2022-02.zip",
+      "sha256": "f0b8fa6e4d9af0dbaa315552ae893d1fc44eff4175b49bd7e25555c832bd6a81"
+    },
+    {
+      "file": "JASMYUSDT-1d-2022-03.zip",
+      "sha256": "8d2d7c7fc15a1aac61b20b87deef9e488518ecdfa0df997e7969d64e4e98c20e"
+    },
+    {
+      "file": "JASMYUSDT-1d-2022-04.zip",
+      "sha256": "12be36124815ff4ffaf1d0a93945f4323c3e32ad1a3697dd0c85ed7fd1551116"
+    },
+    {
+      "file": "JASMYUSDT-1d-2022-05.zip",
+      "sha256": "dd553fde513470a741bed55f4e49c795bc6f36273f94dc38ef62d7854be498c1"
+    },
+    {
+      "file": "JASMYUSDT-1d-2022-06.zip",
+      "sha256": "98695dd73b0b43104d7a08fd59b4de2b2304f8f36a9b48174ca6d0eaa572e370"
+    },
+    {
+      "file": "JASMYUSDT-1d-2022-07.zip",
+      "sha256": "7febc741bf21f64d0350b681974c1f6a7fca2f827ca056e2e7dbeb04cddbb3f3"
+    },
+    {
+      "file": "JASMYUSDT-1d-2022-08.zip",
+      "sha256": "9e731a3be620f0135b969a23391f60e804dc69b6de283c66f4756e5aad3157ff"
+    },
+    {
+      "file": "JASMYUSDT-1d-2022-09.zip",
+      "sha256": "aa44d9471a32c22d4031094eb05bd64cdb9f1ccfdc57c870ab9f688603228937"
+    },
+    {
+      "file": "JASMYUSDT-1d-2022-10.zip",
+      "sha256": "d7ac67623eb8d41ec54b149e123c70e791b7230a8cddb68c6643682ad8c9a140"
+    },
+    {
+      "file": "JASMYUSDT-1d-2022-11.zip",
+      "sha256": "25f1fd830835dfacc0a080d991c5c9dbd0255e995d8495a5273bcd5072563af8"
+    },
+    {
+      "file": "JASMYUSDT-1d-2022-12.zip",
+      "sha256": "78184cf527d77d889851a48bdfd7e092315ae5f02adf82f137e4ac64013657ba"
+    },
+    {
+      "file": "JASMYUSDT-1d-2023-01.zip",
+      "sha256": "ed10c56e57ea5fdabcc5df6030fdf77037637bae3d680f301d7909b5c3a47baf"
+    },
+    {
+      "file": "JASMYUSDT-1d-2023-02.zip",
+      "sha256": "07c24728c102659119fdd85593577cb5f8eddb455d614f588fb6ca0b113f0337"
+    },
+    {
+      "file": "JASMYUSDT-1d-2023-03.zip",
+      "sha256": "845c0bedd9ab416e30e6581532be46278f9b076e7af5de844901fc3e3e26cf52"
+    },
+    {
+      "file": "JASMYUSDT-1d-2023-04.zip",
+      "sha256": "aa026b6d18925d9b04f8df0e777a1ed4afb574804f2bbe6a091dfe873e411371"
+    },
+    {
+      "file": "JASMYUSDT-1d-2023-05.zip",
+      "sha256": "306f281001e0d52018726292f97eaf2cffe7d79d31816f48ab57bbf75146cdb6"
+    },
+    {
+      "file": "JASMYUSDT-1d-2023-06.zip",
+      "sha256": "dac8d4eaa932dd40d14d964ed18f8e711416b2e7a35b2bf5369ae93fbccf10c9"
+    },
+    {
+      "file": "JASMYUSDT-1d-2023-07.zip",
+      "sha256": "e0b42908b35e2a023b72fec35c1bb55f1bc8c39dc9b4ca83210c453f8c49652e"
+    },
+    {
+      "file": "JASMYUSDT-1d-2023-08.zip",
+      "sha256": "7596134bf58d00a8b37b4cfb9b9764f547ec404d5c97a0aaa52f306e20fd02d4"
+    },
+    {
+      "file": "JASMYUSDT-1d-2023-09.zip",
+      "sha256": "601847b6845a21c6f8a33cf6a02a9840c6a8337fed93f19f3846a7aa4dd7e6f9"
+    },
+    {
+      "file": "JASMYUSDT-1d-2023-10.zip",
+      "sha256": "1694aabe6615765708847fedd1a59155eca174f7a64e8368cc6e99f9eb478b79"
+    },
+    {
+      "file": "JASMYUSDT-1d-2023-11.zip",
+      "sha256": "ddc96197c91269a0c04f341a16b1714c30d9cbfa2a930d4ef1fb4b06d6d88821"
+    },
+    {
+      "file": "JASMYUSDT-1d-2023-12.zip",
+      "sha256": "dca141c9fe580b3a1899648ffb2cadcc15a0b11da7693cb91882eb935ca3a790"
+    },
+    {
+      "file": "JASMYUSDT-1d-2024-01.zip",
+      "sha256": "4eef52f4fea51ab40c7656ff876af3c50cf94c605598661b0cba37336a6ba6f4"
+    },
+    {
+      "file": "JASMYUSDT-1d-2024-02.zip",
+      "sha256": "8ab300e9423eddc389e0fe566bc99640af95e0deee27efcde11186d804f6fc66"
+    },
+    {
+      "file": "JASMYUSDT-1d-2024-03.zip",
+      "sha256": "bd2a6e1e5e248d88969984361affacc7a57b80f0f61aecb64c5aa2b7bafced62"
+    },
+    {
+      "file": "JASMYUSDT-1d-2024-04.zip",
+      "sha256": "3240965817a6421751ed5b8cc4955ca415c9dc80a884e114dce0811401f422ed"
+    },
+    {
+      "file": "JASMYUSDT-1d-2024-05.zip",
+      "sha256": "4f23917c405aa85ce5e1a3772c3b3c9da24bf8cc9979f5f3d356bd441856ba62"
+    },
+    {
+      "file": "JASMYUSDT-1d-2024-06.zip",
+      "sha256": "6949e510c2e8cdb19e2e2510ebbf411a0b92d284e368f582fb6ca47bbeab6675"
+    },
+    {
+      "file": "JASMYUSDT-1d-2024-07.zip",
+      "sha256": "6da0334d02ba58ef0da617dee060cab0cf88a5f622490a1b2287ef348b083f98"
+    },
+    {
+      "file": "JASMYUSDT-1d-2024-08.zip",
+      "sha256": "a212e4121220745040b0997ce0afbd9c2e4694298f5c35783d414a4d5428b6fc"
+    },
+    {
+      "file": "JASMYUSDT-1d-2024-09.zip",
+      "sha256": "27ebe5823ac64652d330f0bcaf3c90979e9df8fc5cd2d88f986e1fa2304571c6"
+    },
+    {
+      "file": "JASMYUSDT-1d-2024-10.zip",
+      "sha256": "acccdf381e0d0e381d5b36c48df697493b315e3894f7bbf8452c91b2b8d07a07"
+    },
+    {
+      "file": "JASMYUSDT-1d-2024-11.zip",
+      "sha256": "a4464609bacb9759f5e1fec8967ed97cd10d2e336fa9e124119e8543c808c17d"
+    },
+    {
+      "file": "JASMYUSDT-1d-2024-12.zip",
+      "sha256": "fe5679b751b1f6e69262fae9bcb6ddc6c35d016abe0d97e13f003a10c41e08fc"
+    },
+    {
+      "file": "JASMYUSDT-1d-2025-01.zip",
+      "sha256": "0d121eeea4e0b5d8295644fbad8e4f725efe0114e0e6d54ae3a30e2cefebabbd"
+    },
+    {
+      "file": "JASMYUSDT-1d-2025-02.zip",
+      "sha256": "f326cda49280225cabb501306194aa69f0244e59bf79001829539da83b7d3092"
+    },
+    {
+      "file": "JASMYUSDT-1d-2025-03.zip",
+      "sha256": "74478dcff8f84c926436fe3e870ba30ee7155c2ae12bc527101c7b75b9871d4b"
+    },
+    {
+      "file": "JASMYUSDT-1d-2025-04.zip",
+      "sha256": "a33edfba22c7206ae782bfba2f48bd3fa2031b414259ba85910417a5ab9905f5"
+    },
+    {
+      "file": "JASMYUSDT-1d-2025-05.zip",
+      "sha256": "ab1780f9c86ebbedd41f969158daf5a36347050938fd165f21e34761491682bf"
+    },
+    {
+      "file": "JASMYUSDT-1d-2025-06.zip",
+      "sha256": "3e0beafa4521cfbe65c12d999e8b8d634274eb5ddba5c2ff67cbc2643fbea154"
+    },
+    {
+      "file": "JASMYUSDT-1d-2025-07.zip",
+      "sha256": "394e23c75776036eaed46e1528f96972dfdbe853a65fb1dafb226718cd135217"
+    },
+    {
+      "file": "JASMYUSDT-1d-2025-08.zip",
+      "sha256": "c2543fafd7238d14cb1497c98cf039440158733873da1e0513994a1e6b21e1a2"
+    },
+    {
+      "file": "JASMYUSDT-1d-2025-09.zip",
+      "sha256": "efd7d64006e212f88d178e1b028c9224ee38b4488fe47d26589661432d27f38c"
+    },
+    {
+      "file": "JASMYUSDT-1d-2025-10.zip",
+      "sha256": "70fb01b788e83896f1f024b1fa2626e534083593b5bef0c11be8e5c7589eebd0"
+    },
+    {
+      "file": "JASMYUSDT-1d-2025-11.zip",
+      "sha256": "f6b21077e17b9d774f2600e2a1e2658a3b43e3664f55171dab1f05e622009b0e"
+    },
+    {
+      "file": "JASMYUSDT-1d-2025-12.zip",
+      "sha256": "9698b5f1ee7abcbdd83442f0bf37b74554962848bd6ea1b6de16168a1b9856b4"
+    },
+    {
+      "file": "JASMYUSDT-1d-2026-01.zip",
+      "sha256": "ac42007f9ba743c8855c834d491b04220b6f80add036114ce8914a3a7e324d3d"
+    },
+    {
+      "file": "JASMYUSDT-1d-2026-02.zip",
+      "sha256": "37cc8f5d9d71ebd5ce48ff445ed1ad38637891d391974c980f21ae7291c5d6f7"
+    },
+    {
+      "file": "JASMYUSDT-1d-2026-03.zip",
+      "sha256": "9ccf239d73b0c0d6453de9b8891cfb61957a951a1f6f3c1bec4a2b2e9a7f825e"
+    },
+    {
+      "file": "JASMYUSDT-1d-2026-04.zip",
+      "sha256": "137662d63f46e5dfc1de5d9e379c90a91248c2bdf5ef682ea863fe6b26bf1fe7"
+    },
+    {
+      "file": "JASMYUSDT-1d-2026-05.zip",
+      "sha256": "f1ec9423755d6ffb32bd81c45c000496ac4bf9e9036d72c7ca54fc041c2e08e7"
+    },
+    {
+      "file": "JASMYUSDT-1d-2026-06.zip",
+      "sha256": "ff2ec72d6c2c8d91562b3bbd755bda8054e17451d65ba03c63febbce4bc50251"
+    },
+    {
+      "file": "JASMYUSDT-1d-2026-07.zip",
+      "sha256": "75224312a6c6ad5403b238ccfb873a473d7a5211d32250817cb66fe09ddb6148"
+    },
+    {
+      "file": "JASMYUSDT-1d-2026-08.zip",
+      "sha256": "c43f8b61a7134e67cf881cd15d495e158b1848d87292f2d0c0e2839e2abac676"
+    },
+    {
+      "file": "JASMYUSDT-1d-2026-09.zip",
+      "sha256": "6b5b5c1a15006ee4abddba4dc1949c2004985a68de71f5a5fbd4ee0ef70ce2c4"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

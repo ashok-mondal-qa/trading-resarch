@@ -1,0 +1,157 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/VANRYUSDT/1d/",
+  "instrument": "VANRYUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-12-01",
+  "last_bar": "2026-08-17",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:14+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 991,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "VANRYUSDT-1d-2023-12.zip",
+      "sha256": "6f2102e2f379d218ec53022892c0a938a549a7a2478d5482b3ddb7354f3bfc54"
+    },
+    {
+      "file": "VANRYUSDT-1d-2024-01.zip",
+      "sha256": "efa82fd359884154acc8601e24f9b98dd9204e4b91a5e6039fc29aec13e9333c"
+    },
+    {
+      "file": "VANRYUSDT-1d-2024-02.zip",
+      "sha256": "0655f45c41e6e30e27e59e88f46432e034cb8d7b64c5dc942885e2f6fce73b71"
+    },
+    {
+      "file": "VANRYUSDT-1d-2024-03.zip",
+      "sha256": "7229cbb9144504efedf4a657c7014e4e09c273d03b338f68c1bc4247b3df29fb"
+    },
+    {
+      "file": "VANRYUSDT-1d-2024-04.zip",
+      "sha256": "6f96dabcb9946cdcae2f94ebbf1193a7d0601ff23bb5b45d9b3fac0ffae956cc"
+    },
+    {
+      "file": "VANRYUSDT-1d-2024-05.zip",
+      "sha256": "cb68889317b34c4f2505e68b7e3d4b92910205beb3f6d280711b496a3e2c429f"
+    },
+    {
+      "file": "VANRYUSDT-1d-2024-06.zip",
+      "sha256": "75c89f1d5b31d9b13f5d3794abc0a526efaf72268a3ebf0533d9586e2cb57a4d"
+    },
+    {
+      "file": "VANRYUSDT-1d-2024-07.zip",
+      "sha256": "1b65ca4008da6c42c79f1daf0d357edeb781d580c2c9e7fcfee23a8a20c17feb"
+    },
+    {
+      "file": "VANRYUSDT-1d-2024-08.zip",
+      "sha256": "5bb0286a27c8222826f7b7e49e891c32bd9e6a9746ccdcaafae6d1a1bfb06496"
+    },
+    {
+      "file": "VANRYUSDT-1d-2024-09.zip",
+      "sha256": "7e0c47673bf04712e71279b9cdf5b385aa2478e278e53bd9e17515b74931a5d1"
+    },
+    {
+      "file": "VANRYUSDT-1d-2024-10.zip",
+      "sha256": "27f8da131613bc27ed2365d4e331dc3d0d9d46a2c34e3bf6dc308d39f426d638"
+    },
+    {
+      "file": "VANRYUSDT-1d-2024-11.zip",
+      "sha256": "f7ed8b9da4b796363d8c2fddaa30df0b872e5ea1e17924858386b0e0df643fd8"
+    },
+    {
+      "file": "VANRYUSDT-1d-2024-12.zip",
+      "sha256": "469039f36c968897724ea05025836851dc73bb70463289212f75880c34cfdec9"
+    },
+    {
+      "file": "VANRYUSDT-1d-2025-01.zip",
+      "sha256": "0208a10f31d8d086f091197ebe2a82b8810201d4dd2312336337137cf5f290c6"
+    },
+    {
+      "file": "VANRYUSDT-1d-2025-02.zip",
+      "sha256": "69b1a0cc1c259a63c11d37cc033f854da11e6fd0d4697da1933ad85dec1f72e5"
+    },
+    {
+      "file": "VANRYUSDT-1d-2025-03.zip",
+      "sha256": "f84ad2400d3ef85ed62ccd92d0c627377e7da2959888be74ab980373ff796959"
+    },
+    {
+      "file": "VANRYUSDT-1d-2025-04.zip",
+      "sha256": "52c67cc1d9ac8ffd85d74506ff5d5ca3c393afa4c21dede19d9ac69f6309d880"
+    },
+    {
+      "file": "VANRYUSDT-1d-2025-05.zip",
+      "sha256": "9637b7247d19a6be5827fa39456085252fe802cc289359ac71c330f7638743e5"
+    },
+    {
+      "file": "VANRYUSDT-1d-2025-06.zip",
+      "sha256": "bcc8089934d1f7a6928f85ae5129d861ffc770fcbb9da6c07b6a2022cb137c59"
+    },
+    {
+      "file": "VANRYUSDT-1d-2025-07.zip",
+      "sha256": "2cd7d39c9c9f3f1f5b8c1714476679e3dd99fad5a0cbd4c39b1afe2097ecdfbf"
+    },
+    {
+      "file": "VANRYUSDT-1d-2025-08.zip",
+      "sha256": "fb0f84345f33e996583e9f447f5a50f18e4c7b64df285b6e46620aa0691f0f08"
+    },
+    {
+      "file": "VANRYUSDT-1d-2025-09.zip",
+      "sha256": "8fd9e11bc219c0c93d2eeeb7c403a17fda164b4e07ec19aa56abed1422611480"
+    },
+    {
+      "file": "VANRYUSDT-1d-2025-10.zip",
+      "sha256": "73d3db130a746aedc602103d960a82716820c2e4dbbd0078d2672652e693e068"
+    },
+    {
+      "file": "VANRYUSDT-1d-2025-11.zip",
+      "sha256": "e89c12a8fcf570a9d97b568a12c694ea7c3000097bd76615727cf68198e56678"
+    },
+    {
+      "file": "VANRYUSDT-1d-2025-12.zip",
+      "sha256": "a036cdd509c74cf3615863d3c485d5b54f2542cc67c7c1f4cc0c612902953ee5"
+    },
+    {
+      "file": "VANRYUSDT-1d-2026-01.zip",
+      "sha256": "f985fa4ee78dc032d7c9a2c8943b3c087342d8aae2aecec5e71644c9b26396c8"
+    },
+    {
+      "file": "VANRYUSDT-1d-2026-02.zip",
+      "sha256": "cce927661b563665ede8f83ff881ddc6890adbd4ebd92779213281a923c14685"
+    },
+    {
+      "file": "VANRYUSDT-1d-2026-03.zip",
+      "sha256": "cfbf692a5d763c87cf5005cf412906a01bad09e966b1674a28461f9235416317"
+    },
+    {
+      "file": "VANRYUSDT-1d-2026-04.zip",
+      "sha256": "ac479c2350fa7b1569a590ca8d960b69b83e57e09fa8219fc54124d911f5decd"
+    },
+    {
+      "file": "VANRYUSDT-1d-2026-05.zip",
+      "sha256": "599b2ec78dd2a169b5327f956d08ab6ff000355c40c76a5b4e483d205cbcd7b5"
+    },
+    {
+      "file": "VANRYUSDT-1d-2026-06.zip",
+      "sha256": "ecdb4e6e904a8f2d0243c6d8136e5fadb701a7054016da203d480c24e3d1e735"
+    },
+    {
+      "file": "VANRYUSDT-1d-2026-07.zip",
+      "sha256": "abf2324e7e2ca0264a63dfb87e0af9cd5b9f1e9b2cc226777b8d4d745a8de386"
+    },
+    {
+      "file": "VANRYUSDT-1d-2026-08.zip",
+      "sha256": "fafd7ae2999b87c7f2f9a1548d4eae25e9a7cc7e641df985fce6dc895cd4cb6b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

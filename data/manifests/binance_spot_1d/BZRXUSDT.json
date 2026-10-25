@@ -1,0 +1,93 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BZRXUSDT/1d/",
+  "instrument": "BZRXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-08-31",
+  "last_bar": "2021-12-20",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:28:51+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 477,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BZRXUSDT-1d-2020-08.zip",
+      "sha256": "af1e0fc1bed150eba7315b7ef17207b69bc7e374e505a17f3341935d074f958a"
+    },
+    {
+      "file": "BZRXUSDT-1d-2020-09.zip",
+      "sha256": "c0eb1340bab4d128af99e849322f2d4080a29f43e3ba33af435101299c07a321"
+    },
+    {
+      "file": "BZRXUSDT-1d-2020-10.zip",
+      "sha256": "8881f53ed68498423a8be93c9e32378ec999e6fc110c5b072eb1ed584f713037"
+    },
+    {
+      "file": "BZRXUSDT-1d-2020-11.zip",
+      "sha256": "5b5f37b9ba8207e1caff28b8c9866d8f97d60730cdb9671af3ab1120f054f6d3"
+    },
+    {
+      "file": "BZRXUSDT-1d-2020-12.zip",
+      "sha256": "9b108d01750e5d8d62e9346950a9354f8e2b01ebb852cce951001aac17ec2f4e"
+    },
+    {
+      "file": "BZRXUSDT-1d-2021-01.zip",
+      "sha256": "eb6d00b3bfb5238a26f963a8207df1859b565c9b3e82b1f9fdc35ea9f4d719b2"
+    },
+    {
+      "file": "BZRXUSDT-1d-2021-02.zip",
+      "sha256": "cdc9e177111ef283609215d335395e058bd0a3f900a7dff10226fe80d9f994c6"
+    },
+    {
+      "file": "BZRXUSDT-1d-2021-03.zip",
+      "sha256": "8aa518a130be2991359509a90ee752282f435ac49c3ef08d0491969434dda125"
+    },
+    {
+      "file": "BZRXUSDT-1d-2021-04.zip",
+      "sha256": "7300bbd5655a8a0498dff2e66873cc0470844f6a02baaba5771451528e8e3a2d"
+    },
+    {
+      "file": "BZRXUSDT-1d-2021-05.zip",
+      "sha256": "0f519f0c6cba04bab2f032d4cdd4cca9533a955e16f3a018101bc5a78a8b4752"
+    },
+    {
+      "file": "BZRXUSDT-1d-2021-06.zip",
+      "sha256": "700b7670ba48ac033735fa856e8412c7d9d2d538072e7624fe5a14b605f64ea0"
+    },
+    {
+      "file": "BZRXUSDT-1d-2021-07.zip",
+      "sha256": "1bc6ad9860b4a4aaec7842fbd48fa6e9bec8e67e41b6ffdc1749b6d022191f42"
+    },
+    {
+      "file": "BZRXUSDT-1d-2021-08.zip",
+      "sha256": "2f9cc23b1162fd3013e8afca19c280d31857e5e9dd015c808fc70c347396b9b6"
+    },
+    {
+      "file": "BZRXUSDT-1d-2021-09.zip",
+      "sha256": "bd2e2fbbcd80c5858271ad095a5a4e5312a363d9934ce327b9f7385838fcd04a"
+    },
+    {
+      "file": "BZRXUSDT-1d-2021-10.zip",
+      "sha256": "c3d306f468e7b1e8bc23f6907e8183c2dac998cf7fd1ea3533804c39e73d133a"
+    },
+    {
+      "file": "BZRXUSDT-1d-2021-11.zip",
+      "sha256": "1ad97a32364ab9a923416605809a3c32f288069bbf91bcd321588532dfd179df"
+    },
+    {
+      "file": "BZRXUSDT-1d-2021-12.zip",
+      "sha256": "a03e414ddc73cedb14e0e77a316ea60fa8a62e60548e4707ed7bea165a06a433"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

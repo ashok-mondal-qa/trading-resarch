@@ -1,0 +1,53 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/NIGHTUSDT/1d/",
+  "instrument": "NIGHTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-03-11",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:12+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 204,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "NIGHTUSDT-1d-2026-03.zip",
+      "sha256": "de3a20e0cd6d3f156e170586d85af5ec397910321dd261a292e05d183f88bdde"
+    },
+    {
+      "file": "NIGHTUSDT-1d-2026-04.zip",
+      "sha256": "54b2a3a27f0201dd1a06bdf20527a11088ea5666b9183aa66a200e99cdda5a4a"
+    },
+    {
+      "file": "NIGHTUSDT-1d-2026-05.zip",
+      "sha256": "00841594297ab44267d9c333d29d5e822fffe2c7ae7cd4f05b664d8201535da8"
+    },
+    {
+      "file": "NIGHTUSDT-1d-2026-06.zip",
+      "sha256": "7293f64f9944adfde523d6fff67622cc409e39809628bf28b3615dab0d8ba876"
+    },
+    {
+      "file": "NIGHTUSDT-1d-2026-07.zip",
+      "sha256": "0f302668c4b629b20413b739239595561e0baef9f066b201b84c3f91d35eb89e"
+    },
+    {
+      "file": "NIGHTUSDT-1d-2026-08.zip",
+      "sha256": "4eea5d7c786d0905b71f17cb7847753cca4d2251653958d4230ec7fc1ff77832"
+    },
+    {
+      "file": "NIGHTUSDT-1d-2026-09.zip",
+      "sha256": "5865ac5359f1aea1e65b014426a0544007e45008fab13cc614d71bdc896f66fc"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

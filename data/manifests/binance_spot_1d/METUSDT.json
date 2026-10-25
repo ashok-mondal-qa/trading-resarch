@@ -1,0 +1,69 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/METUSDT/1d/",
+  "instrument": "METUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-11-13",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:09+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 322,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "METUSDT-1d-2025-11.zip",
+      "sha256": "ee74502dcee291b912f44b243dff891101ffbdfa00f64efb858c438286358e20"
+    },
+    {
+      "file": "METUSDT-1d-2025-12.zip",
+      "sha256": "b2b43dcb97db77dd48160e176a26610554c0e0c529ea5aab74055342e4dc0bb0"
+    },
+    {
+      "file": "METUSDT-1d-2026-01.zip",
+      "sha256": "c7073a69c0c6c266f93498774fe4e6297edf9d79c0bc6d36ca17dce8d2f1f169"
+    },
+    {
+      "file": "METUSDT-1d-2026-02.zip",
+      "sha256": "fd31feb6e0e31e4c354d8586c9949486d17e8ef46ded75c529950ae786b2be62"
+    },
+    {
+      "file": "METUSDT-1d-2026-03.zip",
+      "sha256": "539a5dc09b4c2daad7a05ec4cb325c355df7f29a945d88da1b81990f2679df24"
+    },
+    {
+      "file": "METUSDT-1d-2026-04.zip",
+      "sha256": "1726efb6e9d1a1745a7bd0b1daf3889ed3cafdd7feb9583c20ccd7e7212604a4"
+    },
+    {
+      "file": "METUSDT-1d-2026-05.zip",
+      "sha256": "79383f46af455c1a9e7f247cedf429d9a286df822024e3300dbbbd11e4894b88"
+    },
+    {
+      "file": "METUSDT-1d-2026-06.zip",
+      "sha256": "3ec8a1d366d56b2e4874309bacac983775d98e97a67ad8c80f4ecfaaf13e3252"
+    },
+    {
+      "file": "METUSDT-1d-2026-07.zip",
+      "sha256": "3e66d5cfbe585d681a2663ae3f5dbff2716714ab3823beebcb1abf88d17b6f4c"
+    },
+    {
+      "file": "METUSDT-1d-2026-08.zip",
+      "sha256": "1135930240c5bef83a0eb0bd3cb80adc314c5f7a3a996d942d009e7d0a184b03"
+    },
+    {
+      "file": "METUSDT-1d-2026-09.zip",
+      "sha256": "5eb89138ad80364a3cea21076d78db86893621917dde7f61f4e7c934ea4d0b6f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

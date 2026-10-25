@@ -1,0 +1,328 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/UMAUSDT/1d/",
+  "instrument": "UMAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-09-09",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:22+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2212,
+  "missing_days": [
+    "2026-07-15"
+  ],
+  "excluded": [
+    {
+      "date": "2026-07-15",
+      "reason": "duplicate date"
+    },
+    {
+      "date": "2026-07-15",
+      "reason": "duplicate date"
+    }
+  ],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "UMAUSDT-1d-2020-09.zip",
+      "sha256": "328c0d265835e8d5d233ecb0956b8a2c7e896d854faff9f658bf60f309a725a1"
+    },
+    {
+      "file": "UMAUSDT-1d-2020-10.zip",
+      "sha256": "486e09c3b984b00feb47c58a80498088c356fae689397bfb8558cadbfe2a4ead"
+    },
+    {
+      "file": "UMAUSDT-1d-2020-11.zip",
+      "sha256": "51516a77f5879432a546167735e60e221f04231e551e09ae07f78c1e1c659732"
+    },
+    {
+      "file": "UMAUSDT-1d-2020-12.zip",
+      "sha256": "b7e70f4ef71fa670d6c9cea67ddd05118b78014a7c85c9e17d12c6cf26877c72"
+    },
+    {
+      "file": "UMAUSDT-1d-2021-01.zip",
+      "sha256": "7beea7bd4c9be8058a6e8dbf999e8ccd785ce2033b8a1c76411dec52afb0aa24"
+    },
+    {
+      "file": "UMAUSDT-1d-2021-02.zip",
+      "sha256": "ed02b067f1de043ea23a948c6b03873a47c4e866cf60b574da34880c9213832c"
+    },
+    {
+      "file": "UMAUSDT-1d-2021-03.zip",
+      "sha256": "89b1bfd7317729e8998788c60ea1811c0a81ba65f88543e393c82f7cc125162c"
+    },
+    {
+      "file": "UMAUSDT-1d-2021-04.zip",
+      "sha256": "fc4fd222acb1ba1480e0f23facc0e733e577ad233d153135e187967e8e8ad748"
+    },
+    {
+      "file": "UMAUSDT-1d-2021-05.zip",
+      "sha256": "c2104ef330b98f41e5a498a2eb73c565cbd770dabad36a55c857212fc9d7307c"
+    },
+    {
+      "file": "UMAUSDT-1d-2021-06.zip",
+      "sha256": "74b261f0d55cd07a36626c4c98a6a460bbeda36e251c022f03be29a32921fe8c"
+    },
+    {
+      "file": "UMAUSDT-1d-2021-07.zip",
+      "sha256": "a5602d5451a22590e53137931d6f6288360bc4afa66567b66fc3fd05d5efd9f7"
+    },
+    {
+      "file": "UMAUSDT-1d-2021-08.zip",
+      "sha256": "2e5f81d1c8ea44b35c95aca7da8cad481e24b2e26d062b0bda63361587fdb548"
+    },
+    {
+      "file": "UMAUSDT-1d-2021-09.zip",
+      "sha256": "da162f5ad90623e48e45486941b5c5f2e6b478ef91b0cf1b1cfaf52ca781f92d"
+    },
+    {
+      "file": "UMAUSDT-1d-2021-10.zip",
+      "sha256": "bd30b2f4c812b55096cfbb347c0a19d1437f399db3d67f4625edf10c6fecb997"
+    },
+    {
+      "file": "UMAUSDT-1d-2021-11.zip",
+      "sha256": "f18d4d9f4e9330d05defb4ae550e874a6ff86241618c8a138566bd3626cd8736"
+    },
+    {
+      "file": "UMAUSDT-1d-2021-12.zip",
+      "sha256": "d08756bba892dd7eaaf5f72e0e808973e40af38880e312a60c38f87acc7b672e"
+    },
+    {
+      "file": "UMAUSDT-1d-2022-01.zip",
+      "sha256": "2b4166aa8326d307f86b83c31c7c21f3726ecdb1c31b6b39f73ea7dc0418c8e0"
+    },
+    {
+      "file": "UMAUSDT-1d-2022-02.zip",
+      "sha256": "bd99259ad3838bcc79d4bc96ae5a8e3863c3ce0c7336e64c32a22733625f359a"
+    },
+    {
+      "file": "UMAUSDT-1d-2022-03.zip",
+      "sha256": "df297ee78c95c1baf386de8eeb98d41b7d452c4856504b74c65adc9395f4faa1"
+    },
+    {
+      "file": "UMAUSDT-1d-2022-04.zip",
+      "sha256": "3da15d61daf8c944ac39b5ab974c6280aa64992a596c9ee9c2f932b7624c0d06"
+    },
+    {
+      "file": "UMAUSDT-1d-2022-05.zip",
+      "sha256": "140576bea7421448730aadd999c5823c3316b472611fa5b5e0e9d1f9cea62ff4"
+    },
+    {
+      "file": "UMAUSDT-1d-2022-06.zip",
+      "sha256": "42fd93a1b07c5a518af7c800913d3e708282997f48b02d4858aee94826fcec37"
+    },
+    {
+      "file": "UMAUSDT-1d-2022-07.zip",
+      "sha256": "027bff445267e576e8981b801f12cc8fe3d537980af8eae62badea9632d15aa0"
+    },
+    {
+      "file": "UMAUSDT-1d-2022-08.zip",
+      "sha256": "c33470bd5b6006323890304a0408191e9435f29e1352b9deff11152acfd1d1e7"
+    },
+    {
+      "file": "UMAUSDT-1d-2022-09.zip",
+      "sha256": "f21f27b1e14e18520e4be3072c3601ec7919632a8b8d9a576800908c8801abe0"
+    },
+    {
+      "file": "UMAUSDT-1d-2022-10.zip",
+      "sha256": "b2671cfe95523f385902a1bbe80dcc8a8751d6d2671ae7c4fc1be44e7bf94da8"
+    },
+    {
+      "file": "UMAUSDT-1d-2022-11.zip",
+      "sha256": "68bd00ad97e43f358dcdec9300f621a6b691a2c80b98484158b30009750e8eef"
+    },
+    {
+      "file": "UMAUSDT-1d-2022-12.zip",
+      "sha256": "9b45bdbc8771798bad6415235cdcf7bdbb108c1e2f4f96f32fb23c51221493ef"
+    },
+    {
+      "file": "UMAUSDT-1d-2023-01.zip",
+      "sha256": "866bae9470d327df75a10a5cee0bbe10e6a7a790e5a310a32799c9ba0e37d279"
+    },
+    {
+      "file": "UMAUSDT-1d-2023-02.zip",
+      "sha256": "8e2a5a4a7e929e1456e63d9e7334645368e293d1a52be3349b3ca9881c4e99f2"
+    },
+    {
+      "file": "UMAUSDT-1d-2023-03.zip",
+      "sha256": "24ba49fac6511d8c02b75de51f39f60d4ecf07c47779c0d41ac5221e9cfa0fbd"
+    },
+    {
+      "file": "UMAUSDT-1d-2023-04.zip",
+      "sha256": "7b06eebf0b2dd54eaf99b900f0af81edd2c56d0fa09f6a1534f8b1192642d0a9"
+    },
+    {
+      "file": "UMAUSDT-1d-2023-05.zip",
+      "sha256": "10b18f3f8d552540abc3ea843300548ec174d86b5bfd77ec9c56ac2f5d825c9b"
+    },
+    {
+      "file": "UMAUSDT-1d-2023-06.zip",
+      "sha256": "a366498ca2c97b9c4f622c9dbd10691ef9ac510b8370a9c59419d3cb1a491f9b"
+    },
+    {
+      "file": "UMAUSDT-1d-2023-07.zip",
+      "sha256": "4a35bc2ead6fe0b5e0a83e42d95f718f6ed482fd5ba388c8c455a952b94432ac"
+    },
+    {
+      "file": "UMAUSDT-1d-2023-08.zip",
+      "sha256": "953b29586f449676ce24123df516621dc2ee87d395c96f711a8ae59a4c35278d"
+    },
+    {
+      "file": "UMAUSDT-1d-2023-09.zip",
+      "sha256": "83e1a979cea5a97378c0889421dd5fa7fd80b1d5bc5ecceb020e4bffe8d7f864"
+    },
+    {
+      "file": "UMAUSDT-1d-2023-10.zip",
+      "sha256": "46cf0baade40ec8b30458ffc03785d56101d88ce03107d3bc62c346252f8a8ae"
+    },
+    {
+      "file": "UMAUSDT-1d-2023-11.zip",
+      "sha256": "d51642b577538e2d536032e2fbf392bade0291b838a56a569d2c66c73b75d825"
+    },
+    {
+      "file": "UMAUSDT-1d-2023-12.zip",
+      "sha256": "968fba58eea4a494d0f794b20906cecedb0ed33f35e70f080a86a03bcd5ea6ce"
+    },
+    {
+      "file": "UMAUSDT-1d-2024-01.zip",
+      "sha256": "63c5e473fe9a7fe209d46793c0dc61a0a3762f202b8161e71ba1291d29d6487c"
+    },
+    {
+      "file": "UMAUSDT-1d-2024-02.zip",
+      "sha256": "e842a5d3518315871bebb19121f7bab4419971c86e731f90b6a7bc7be7d8b23e"
+    },
+    {
+      "file": "UMAUSDT-1d-2024-03.zip",
+      "sha256": "cb8fa2bcb0fde25d00cd78c38094ca02dafc482bcafe771b41cfe96d754145c7"
+    },
+    {
+      "file": "UMAUSDT-1d-2024-04.zip",
+      "sha256": "bc89567cc3226fe4647c5ca111943943f0dbadf91262274cf607806e3950f562"
+    },
+    {
+      "file": "UMAUSDT-1d-2024-05.zip",
+      "sha256": "ae1cfaa8e79930f016086d75c6c5471283054e8fdfc73fd55c772529125c1015"
+    },
+    {
+      "file": "UMAUSDT-1d-2024-06.zip",
+      "sha256": "7470a690c15ea8481725224ac0465e93f43e50c5f54514801f5a40edb2b96f00"
+    },
+    {
+      "file": "UMAUSDT-1d-2024-07.zip",
+      "sha256": "0ea3c0d0095d14466900d1249c389ea55efc4626346aa9ade5526c48ad881b1f"
+    },
+    {
+      "file": "UMAUSDT-1d-2024-08.zip",
+      "sha256": "39c45e569a3db4327bf0cf9d6c2579e50e53014c54c3f0b79566aa2214a3348a"
+    },
+    {
+      "file": "UMAUSDT-1d-2024-09.zip",
+      "sha256": "aa787484d3e5e40bf560ed8fdbe5cda4a74a5391f1bbe3d913ea744b4831bed6"
+    },
+    {
+      "file": "UMAUSDT-1d-2024-10.zip",
+      "sha256": "cfbbecb417db4342f754c636858add17107376e001f04c13c157c0d4b96bd8e9"
+    },
+    {
+      "file": "UMAUSDT-1d-2024-11.zip",
+      "sha256": "14763ae939b12ce30e8d42e718a4c7712b7b355e800a1ba65c0da970a9eb74a7"
+    },
+    {
+      "file": "UMAUSDT-1d-2024-12.zip",
+      "sha256": "d896b9237588ab74cabbad65c04c10fea78eb04bbb9f9a2e45c11450e8e3f216"
+    },
+    {
+      "file": "UMAUSDT-1d-2025-01.zip",
+      "sha256": "a4ec6665cc179066731dbc274d880f7a4f00356d8234a97ed98884d27bf41c3f"
+    },
+    {
+      "file": "UMAUSDT-1d-2025-02.zip",
+      "sha256": "250053c9f3d8f028bd31625dfaf31aec39ec4cc72e5628f5daf35ca0d4eebca3"
+    },
+    {
+      "file": "UMAUSDT-1d-2025-03.zip",
+      "sha256": "661d5a9fb31c3edc096f457ddecafc91d1140cdec97bd17d3908d423997e8d32"
+    },
+    {
+      "file": "UMAUSDT-1d-2025-04.zip",
+      "sha256": "cfe3d3b6e13fdf6894fe9cce8d48f1a96506b1566a0da59a7b7d79f109742a04"
+    },
+    {
+      "file": "UMAUSDT-1d-2025-05.zip",
+      "sha256": "1e8dc7d8e2d4d077256bef382e1fa879ce22e64a61e8caf7ced91efac5a00d78"
+    },
+    {
+      "file": "UMAUSDT-1d-2025-06.zip",
+      "sha256": "b09ede7578375a7c0acd5ac2d558715f656b3d29e36dd7ab85f14accf6776a17"
+    },
+    {
+      "file": "UMAUSDT-1d-2025-07.zip",
+      "sha256": "7f60b7395b073d2a6c758f63ef83304f23a31616a090d94d2957d037e4b58f73"
+    },
+    {
+      "file": "UMAUSDT-1d-2025-08.zip",
+      "sha256": "b8760df9dea3dfc8723a2e9aa9f7362f4ab61d9675ccc55b863aa03fd7ccabc3"
+    },
+    {
+      "file": "UMAUSDT-1d-2025-09.zip",
+      "sha256": "0ba3aaf476cc7a1c56cb4a72535f03c910a27aedaf4e518cc6bd5d92e40e050f"
+    },
+    {
+      "file": "UMAUSDT-1d-2025-10.zip",
+      "sha256": "aec524dd231580a784e55a34459019d877f980926287ded00382a7d8265baa9d"
+    },
+    {
+      "file": "UMAUSDT-1d-2025-11.zip",
+      "sha256": "4526b40a7ed1ba13d66ad37251b6a718260daee743fa3f626796ed8ee3f1e3a6"
+    },
+    {
+      "file": "UMAUSDT-1d-2025-12.zip",
+      "sha256": "972e036c6b51da16548d3dc36dc2e5d004ff4a82b14919aa0067730b72ae868f"
+    },
+    {
+      "file": "UMAUSDT-1d-2026-01.zip",
+      "sha256": "9e1c793be092d5074e1b70aa64e9360a75926a79f3a72faef102627e635f0df2"
+    },
+    {
+      "file": "UMAUSDT-1d-2026-02.zip",
+      "sha256": "034a164606966edffb4119d173aea8cf537e0fc5850988a1569666fbff722927"
+    },
+    {
+      "file": "UMAUSDT-1d-2026-03.zip",
+      "sha256": "85b3c9941bcd346c367da1bee7c681483b48486e13d60b6d04f96cb45c45a3e8"
+    },
+    {
+      "file": "UMAUSDT-1d-2026-04.zip",
+      "sha256": "18a6e8c84de6792081d925078964234f67f39c911d817a0d2923012b074df90d"
+    },
+    {
+      "file": "UMAUSDT-1d-2026-05.zip",
+      "sha256": "289bdcc4f1579ab05b797c173a2f84de676ad4b9d7483db9754627faad8eb233"
+    },
+    {
+      "file": "UMAUSDT-1d-2026-06.zip",
+      "sha256": "6c851825bf3c54d5d814a6817850963b05b45ce67aeba063a904dc7984683510"
+    },
+    {
+      "file": "UMAUSDT-1d-2026-07.zip",
+      "sha256": "656cb8ae33319fe412b1094f37be3b34c9032de5a8c3176c108165d6f517a30a"
+    },
+    {
+      "file": "UMAUSDT-1d-2026-08.zip",
+      "sha256": "11cf787e85422f5fcf81cfe71223dfd07c58a6c7f55717f6ac27a91c1089c853"
+    },
+    {
+      "file": "UMAUSDT-1d-2026-09.zip",
+      "sha256": "e2e2cf6a08cd77ca7e3b447208ab38537accf3e7126171894bf341e24e47ebd0"
+    }
+  ],
+  "status": "partial",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

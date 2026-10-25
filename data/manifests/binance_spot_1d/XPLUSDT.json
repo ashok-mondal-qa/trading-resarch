@@ -1,0 +1,77 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/XPLUSDT/1d/",
+  "instrument": "XPLUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-09-25",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:49:32+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 371,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "XPLUSDT-1d-2025-09.zip",
+      "sha256": "2281ffd8430bf47aa78cb90b46e49910fe7a78195f353a636d9db66e7339773e"
+    },
+    {
+      "file": "XPLUSDT-1d-2025-10.zip",
+      "sha256": "30c1feadef66865938405352a88d1a12e5b219d4ceb08bd2b73bda70ade52b19"
+    },
+    {
+      "file": "XPLUSDT-1d-2025-11.zip",
+      "sha256": "984e91999d1e60c5f32636c178efca80d5d82e8a6db154ca8cf3df103a97cb03"
+    },
+    {
+      "file": "XPLUSDT-1d-2025-12.zip",
+      "sha256": "6ee01bf9905799e34ae0278825e9216c36786a0c7e82d6d3950f2607194471ce"
+    },
+    {
+      "file": "XPLUSDT-1d-2026-01.zip",
+      "sha256": "93592e27a374a43587b6816908711fefd46dbc820ee83b546cca1fadfe43c6ab"
+    },
+    {
+      "file": "XPLUSDT-1d-2026-02.zip",
+      "sha256": "48ad2442cb4cc03247f66192a04e2df9273aa4445d8066ad54b05aab3aee916e"
+    },
+    {
+      "file": "XPLUSDT-1d-2026-03.zip",
+      "sha256": "b35d3f59dc6e0e331c0f79e3ae4a3009c04946bed7334b1a60d37d9b24f2dd3b"
+    },
+    {
+      "file": "XPLUSDT-1d-2026-04.zip",
+      "sha256": "dc90b89be7da89278db3a0f923ca5e9d63b3252e9a258180fbb06c46988e6d86"
+    },
+    {
+      "file": "XPLUSDT-1d-2026-05.zip",
+      "sha256": "3705af322a826e5dfe244ffa27a57c3f44aff0cdd2f518dfd7b1ea04d2ac784a"
+    },
+    {
+      "file": "XPLUSDT-1d-2026-06.zip",
+      "sha256": "65b2d23f74db4e1bfeff0e2aea8dc0a25541353017f3e006658adf3ef8bbc885"
+    },
+    {
+      "file": "XPLUSDT-1d-2026-07.zip",
+      "sha256": "f3dc8baaf65f5f35a795183c9d3574a546b898545129fe364047e9e501b88bfc"
+    },
+    {
+      "file": "XPLUSDT-1d-2026-08.zip",
+      "sha256": "e733ce973487cc5e2c318754f45cdbdfa0c026a36d66b2bf70b427d604b8f944"
+    },
+    {
+      "file": "XPLUSDT-1d-2026-09.zip",
+      "sha256": "09465d7c7d3da0ac6e7a54b657ce7774f92901cf0134ac8bbda67e7f9565cd76"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

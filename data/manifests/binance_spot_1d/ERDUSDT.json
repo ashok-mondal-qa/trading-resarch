@@ -1,0 +1,81 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ERDUSDT/1d/",
+  "instrument": "ERDUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-07-04",
+  "last_bar": "2020-08-31",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:32:27+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 425,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ERDUSDT-1d-2019-07.zip",
+      "sha256": "e78e0e769ce15e366ab67f3dae0f1f771b965a90e16cd073e7c4adb7e4c0fbd6"
+    },
+    {
+      "file": "ERDUSDT-1d-2019-08.zip",
+      "sha256": "45f57defa50344b847c5094fd202b99f753b942f8789a7801f9f4cdd3dd19be4"
+    },
+    {
+      "file": "ERDUSDT-1d-2019-09.zip",
+      "sha256": "0ff84126be9a64d9d7f1722e30803075a85992c605fa76e52a98ace3bb5ac3ac"
+    },
+    {
+      "file": "ERDUSDT-1d-2019-10.zip",
+      "sha256": "a71fcdd85b0b530da918a1d33f9ac02ffff34e8cde0f0bdd212248089284d195"
+    },
+    {
+      "file": "ERDUSDT-1d-2019-11.zip",
+      "sha256": "50c3dd93ce8042bb170deaab89bb1eb53fedee2da7f9b7e38a223d83b020e04d"
+    },
+    {
+      "file": "ERDUSDT-1d-2019-12.zip",
+      "sha256": "aa8890fc013920d716ceaef411b75b56eb909d40d031341e92d3b9ea6fa871ac"
+    },
+    {
+      "file": "ERDUSDT-1d-2020-01.zip",
+      "sha256": "e500e84b754e9585be1036b123a6c35c28f6bc9279bd011822f327ee0a5321a4"
+    },
+    {
+      "file": "ERDUSDT-1d-2020-02.zip",
+      "sha256": "8b1be8dfc3a8d818e9bfcc491ff0cd7f01a855f29b375900afc4fca1debc36e8"
+    },
+    {
+      "file": "ERDUSDT-1d-2020-03.zip",
+      "sha256": "187b0a49ab5c2ee5fc71ea10813a16a18d92009af07d17c684aeb161b99c49a2"
+    },
+    {
+      "file": "ERDUSDT-1d-2020-04.zip",
+      "sha256": "1b5927280a79ad526930e993717f5fe19ad5bc792f9d0013b0f414ef6e1f2a71"
+    },
+    {
+      "file": "ERDUSDT-1d-2020-05.zip",
+      "sha256": "5795027eb2c56ed6a1e6894d597747fae7573456cb872f737a63886f9d269c85"
+    },
+    {
+      "file": "ERDUSDT-1d-2020-06.zip",
+      "sha256": "ab7205591cc64f9c7d10cb1076961bd83c27261f3a979e20d72d8e9b3321ef78"
+    },
+    {
+      "file": "ERDUSDT-1d-2020-07.zip",
+      "sha256": "daa7bb610d30956fcaf8feeb38d38f1a7e54c3a48e2c68470299f5aca078175e"
+    },
+    {
+      "file": "ERDUSDT-1d-2020-08.zip",
+      "sha256": "e56c245697020a3997c858c5545b7b2a37b607b45b75b29abfdd23c45801e14f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

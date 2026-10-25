@@ -1,0 +1,333 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/CHRUSDT/1d/",
+  "instrument": "CHRUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-05-07",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:30:07+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2338,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "CHRUSDT-1d-2020-05.zip",
+      "sha256": "e54cda53b432760012b91d0a5184c07a42e3b5979cda54aee5ed4d9985b47472"
+    },
+    {
+      "file": "CHRUSDT-1d-2020-06.zip",
+      "sha256": "8b7c557860beb9ef3541be94fe882bae57780e89935a41f4304dbdb0ed6daa4b"
+    },
+    {
+      "file": "CHRUSDT-1d-2020-07.zip",
+      "sha256": "00117f7744b0eabf6b5a47139a5166a4b25aa505cd171923a21a7816b2b2678a"
+    },
+    {
+      "file": "CHRUSDT-1d-2020-08.zip",
+      "sha256": "5b7c5c2cf8189d1dcf16d2e1921dffd8f356c47573968973b7db245a32c9b228"
+    },
+    {
+      "file": "CHRUSDT-1d-2020-09.zip",
+      "sha256": "dc0c34786aba1e20ad96042de8396709e2d136df34005a68d0e089056ac310fd"
+    },
+    {
+      "file": "CHRUSDT-1d-2020-10.zip",
+      "sha256": "618c1f9998506168bf2492905d438ea24d48e3f60cc10a4147eb7584e9e0e588"
+    },
+    {
+      "file": "CHRUSDT-1d-2020-11.zip",
+      "sha256": "b471f58d136aba3c5498166415f335b974a951b9c4d428ba882331f2d80f43ac"
+    },
+    {
+      "file": "CHRUSDT-1d-2020-12.zip",
+      "sha256": "6a9e7cf4f39c0d8d173001003cec029993dc24713fe394a084ca306bc433c858"
+    },
+    {
+      "file": "CHRUSDT-1d-2021-01.zip",
+      "sha256": "670808213282c9e185540c4d43b90ae0565d883ccf17d293b0a36d27760304ed"
+    },
+    {
+      "file": "CHRUSDT-1d-2021-02.zip",
+      "sha256": "8a51291a05205e3ce5771366a795e5fe14b47b40c9901aebc58dfa925fd1a434"
+    },
+    {
+      "file": "CHRUSDT-1d-2021-03.zip",
+      "sha256": "10f8003746280e7c9896b5c3bc4c4d819337b129282edf77c042eedaef7ae874"
+    },
+    {
+      "file": "CHRUSDT-1d-2021-04.zip",
+      "sha256": "5d00e18a646b0fe6040e5680faa04e028340cd089c857383cd635d6df9fe5f3f"
+    },
+    {
+      "file": "CHRUSDT-1d-2021-05.zip",
+      "sha256": "af7e7161403df814909fe2fa2cd967bed4c4f4149c168abf8b24145f692c6d7d"
+    },
+    {
+      "file": "CHRUSDT-1d-2021-06.zip",
+      "sha256": "0a2dec012e1f062098c716520b50b2f37e551ebacba2d07be72e06be4fcab67e"
+    },
+    {
+      "file": "CHRUSDT-1d-2021-07.zip",
+      "sha256": "120e74e556a5ede40ff6705c5a1c410802fd65ec401a3fac05c906d1aecb303f"
+    },
+    {
+      "file": "CHRUSDT-1d-2021-08.zip",
+      "sha256": "5262fc78de4ce1597e2ba08beae88019e352c018967fb24d82cdf917104ab0f5"
+    },
+    {
+      "file": "CHRUSDT-1d-2021-09.zip",
+      "sha256": "3038cb739ee9449cd603d012915f70ef58d08e7c0675f6648aec3719782d6ec0"
+    },
+    {
+      "file": "CHRUSDT-1d-2021-10.zip",
+      "sha256": "fab217efc7b0e6cb868470e6e95d652167a0d52d46cef69103056bfed1b39816"
+    },
+    {
+      "file": "CHRUSDT-1d-2021-11.zip",
+      "sha256": "b7a6d259ec8ec38bde2ce471d4e8acbcee5e80f26c705998ed8435dd1890e964"
+    },
+    {
+      "file": "CHRUSDT-1d-2021-12.zip",
+      "sha256": "fd715448db8f9cc18da0cf2de3679cf5c35fec8d265c76807b1c591d671645c7"
+    },
+    {
+      "file": "CHRUSDT-1d-2022-01.zip",
+      "sha256": "f7f0224a104fc6d5424bb1629d839d1e9a22bbd8b142f2b660eba36ffdb7d4de"
+    },
+    {
+      "file": "CHRUSDT-1d-2022-02.zip",
+      "sha256": "b09964eb71e7791fc79c99c6467f6151a981dee261bb2be25a95c5d031f31e55"
+    },
+    {
+      "file": "CHRUSDT-1d-2022-03.zip",
+      "sha256": "40b0cfac831c7b99a52ef406ca00698161a791fcfd7ce3a123cb5e929187c9e5"
+    },
+    {
+      "file": "CHRUSDT-1d-2022-04.zip",
+      "sha256": "1c0c615af3abd09361a951b9b8f1a7b7d9b0d8e0cf58bde099351e39112e632a"
+    },
+    {
+      "file": "CHRUSDT-1d-2022-05.zip",
+      "sha256": "33e3cdf01a3224c2f85377ea43f292fdf92a790be14aa1e7a987ee3ab8782670"
+    },
+    {
+      "file": "CHRUSDT-1d-2022-06.zip",
+      "sha256": "5715e1bda9503f04c3aeab85b149a8b5c4dee0bcd93d3edc5f2a7b9479f5b3aa"
+    },
+    {
+      "file": "CHRUSDT-1d-2022-07.zip",
+      "sha256": "cd7b85c60a49927b2316d38f7212d0546a762b1e099b56dd43d1e8b7bfbe3e0d"
+    },
+    {
+      "file": "CHRUSDT-1d-2022-08.zip",
+      "sha256": "1398e4ff635989579b42d73d13aa4c110ad5620d407c8f54f9e38554e4463c14"
+    },
+    {
+      "file": "CHRUSDT-1d-2022-09.zip",
+      "sha256": "50697c94572eca39c83f7b6cd4cf1ca729a303ac3e546e9b9a358d7a87788b69"
+    },
+    {
+      "file": "CHRUSDT-1d-2022-10.zip",
+      "sha256": "39a02f3b5fb3c7c79b396366c5d16a0d5567193aebb077b8e421784fedf94beb"
+    },
+    {
+      "file": "CHRUSDT-1d-2022-11.zip",
+      "sha256": "94a2b4921794f6bb4b59da0533ae23ab3cfc857370146ece6be3dffa12df3e96"
+    },
+    {
+      "file": "CHRUSDT-1d-2022-12.zip",
+      "sha256": "e51a86f37ca31b8aac637223d4e90089e1b7ca3989fd211d167aa1383fa4dc57"
+    },
+    {
+      "file": "CHRUSDT-1d-2023-01.zip",
+      "sha256": "d3c4122287a86d0c775d4dcb30e95abd721cec407ef0a9a46dadbd300ad3bae9"
+    },
+    {
+      "file": "CHRUSDT-1d-2023-02.zip",
+      "sha256": "a8dec2493a40c87583e956a12582b8272b6cb70d3b978202caf97917754f9ffc"
+    },
+    {
+      "file": "CHRUSDT-1d-2023-03.zip",
+      "sha256": "6a0aee144829e63cc6a65ea78426f71a2cba5827f022a436ce47d1e836824e01"
+    },
+    {
+      "file": "CHRUSDT-1d-2023-04.zip",
+      "sha256": "cb6f58733727800b1d916358388e2a9d9ad6f8305d2cab4f153e59eda90d7349"
+    },
+    {
+      "file": "CHRUSDT-1d-2023-05.zip",
+      "sha256": "d0a3b2beecd4de1eb2f96cec8c366b7c82bd1b24f7df28947330141371ea640d"
+    },
+    {
+      "file": "CHRUSDT-1d-2023-06.zip",
+      "sha256": "73b14892337f65f7d9da33e4008d72a38c469cb06d22726a4769a9e5b064d5a8"
+    },
+    {
+      "file": "CHRUSDT-1d-2023-07.zip",
+      "sha256": "bc1296b5fd0e44f6c601fe4244843d8d065ea9fd423f9d8ccad66328556183ab"
+    },
+    {
+      "file": "CHRUSDT-1d-2023-08.zip",
+      "sha256": "7507f2f0aae90e86bdf19819d2b372f8581ed0e7c401b4ca2b5d3315c80ab8f9"
+    },
+    {
+      "file": "CHRUSDT-1d-2023-09.zip",
+      "sha256": "c5fe52abd0d62fbfe07b20f99da0de497e2cd81aa62f9cca2c8dd6097d08edae"
+    },
+    {
+      "file": "CHRUSDT-1d-2023-10.zip",
+      "sha256": "feb6b962b787d57c183d3a4deaeedf33377b58f61718c980e71e48b34dc724ad"
+    },
+    {
+      "file": "CHRUSDT-1d-2023-11.zip",
+      "sha256": "f419d543493044babb20ec8657ef2095f7e5cdb94a87be641705f9e71e1b5d6f"
+    },
+    {
+      "file": "CHRUSDT-1d-2023-12.zip",
+      "sha256": "617c849ec4df707ad4127581c564b1f895a49a95d738f4ff5f964536669508ea"
+    },
+    {
+      "file": "CHRUSDT-1d-2024-01.zip",
+      "sha256": "20e24db4e369a56b2672fe5cf407ac1a28c6144e72b466d69308349942e17492"
+    },
+    {
+      "file": "CHRUSDT-1d-2024-02.zip",
+      "sha256": "19ccf6fb6d94f5d5354d5367f1ddf096652c017fc0764e83f1ab4e2f5b0947bd"
+    },
+    {
+      "file": "CHRUSDT-1d-2024-03.zip",
+      "sha256": "caa4d181b87e190cf6f9bb967db5c8dbccb9bcce8794442c6788e85a9a022dc7"
+    },
+    {
+      "file": "CHRUSDT-1d-2024-04.zip",
+      "sha256": "a8dd714abfcecb9c87badb2661af6648b255ab07bc243b7092463908ecad2ecc"
+    },
+    {
+      "file": "CHRUSDT-1d-2024-05.zip",
+      "sha256": "51e8ba50e56e8abdbd0ab7420ca5647299c987b4da707c3fc8d38575ce179753"
+    },
+    {
+      "file": "CHRUSDT-1d-2024-06.zip",
+      "sha256": "a141ce228321225dc9e07c9459740f56476761edf5d872bebb8c246e73c466e4"
+    },
+    {
+      "file": "CHRUSDT-1d-2024-07.zip",
+      "sha256": "2e77e509040edd10c3d448a7c4e7fda8623a4fc961b3a19dd26f5414bca1f8da"
+    },
+    {
+      "file": "CHRUSDT-1d-2024-08.zip",
+      "sha256": "7b3a99d2f1647394efd5d9eff3a781df8c29ba5e9a53f7586dde756cf4a51ade"
+    },
+    {
+      "file": "CHRUSDT-1d-2024-09.zip",
+      "sha256": "b9d5a6e1b01cf2bc9fe30bf51fc524cec2a152a36202c803f9efcb6f10f4455d"
+    },
+    {
+      "file": "CHRUSDT-1d-2024-10.zip",
+      "sha256": "61e1effcdbbda327de1b1033c7a483b25c09c43439d67ead4fa8f0def1281907"
+    },
+    {
+      "file": "CHRUSDT-1d-2024-11.zip",
+      "sha256": "be313458b514075264f5ebb7ab05edcfd858cedffa86734b8aa60aaf250c976e"
+    },
+    {
+      "file": "CHRUSDT-1d-2024-12.zip",
+      "sha256": "377793adcc4861b55f2291772c5893f746fb01dfcbbb0597d872413c54600129"
+    },
+    {
+      "file": "CHRUSDT-1d-2025-01.zip",
+      "sha256": "a769ce78b2e954fd57353bb445a131abc79db64c573f48cce28bb9e5aa688f66"
+    },
+    {
+      "file": "CHRUSDT-1d-2025-02.zip",
+      "sha256": "7e84f891159ab8a761c7c4fae793bd4781e1c8ebbe8c8473a722e9dc5f715927"
+    },
+    {
+      "file": "CHRUSDT-1d-2025-03.zip",
+      "sha256": "380696cb500d09761bbc2b8b8ef0675d0f898c116b47c4f3988bdf7cbf52b0fc"
+    },
+    {
+      "file": "CHRUSDT-1d-2025-04.zip",
+      "sha256": "e8df826c290738cf98b18375aad35079ac56e7e2637b8cc633eaa683f91ac8bc"
+    },
+    {
+      "file": "CHRUSDT-1d-2025-05.zip",
+      "sha256": "0ea59b22061a7169a6b2f5e074a1611de11f7c9fda5e176448ef201985108972"
+    },
+    {
+      "file": "CHRUSDT-1d-2025-06.zip",
+      "sha256": "054d8e036119c056284876794a565e15ac1f092a5b01a7240bd4973d1a64dc52"
+    },
+    {
+      "file": "CHRUSDT-1d-2025-07.zip",
+      "sha256": "a26a5a20be70aa242f033823ca599bfbd135222f9b0b1b9fa7c020522d0deb6c"
+    },
+    {
+      "file": "CHRUSDT-1d-2025-08.zip",
+      "sha256": "d54619a25c56b0a4bb73a801dd1c5b6e6b9723dd6bbe9521ffd72f7e2bc5c4f2"
+    },
+    {
+      "file": "CHRUSDT-1d-2025-09.zip",
+      "sha256": "7d733e0fd6d3ec0e48da1a9b1e81add940a82bcf815ec203067ceadf4e6c82ec"
+    },
+    {
+      "file": "CHRUSDT-1d-2025-10.zip",
+      "sha256": "7488bfbf20316348ca4021283498db1933565f0c70615cf1229caa3d319565e5"
+    },
+    {
+      "file": "CHRUSDT-1d-2025-11.zip",
+      "sha256": "1f9c7582a880446a055384314cab0725d1b86bc60d14851121524b60d4892d43"
+    },
+    {
+      "file": "CHRUSDT-1d-2025-12.zip",
+      "sha256": "7a1e81686eaba169e172178d4180785475b91188a839e0f784f7d4cbb69a61a6"
+    },
+    {
+      "file": "CHRUSDT-1d-2026-01.zip",
+      "sha256": "0e475356e491fe6b9b46bd2b885ee7c0b604a85474f1d461c299ae950cfaee97"
+    },
+    {
+      "file": "CHRUSDT-1d-2026-02.zip",
+      "sha256": "fc483b9e479748bb4171777c50f08fd88ca1c49b2e4279a2bd58d386e8eac1b4"
+    },
+    {
+      "file": "CHRUSDT-1d-2026-03.zip",
+      "sha256": "dd370455360600a992b95b8f8954170e3be2ed134efd0621178038d6e24d0307"
+    },
+    {
+      "file": "CHRUSDT-1d-2026-04.zip",
+      "sha256": "8506f3be571160321f5d5d9fd96bb5196b86306ea97ba0a94b8e2628e5778c60"
+    },
+    {
+      "file": "CHRUSDT-1d-2026-05.zip",
+      "sha256": "54671f6b1ffe2d243240b9eac35e2b13bc14445774c9590f7c5a7618f6cdef7e"
+    },
+    {
+      "file": "CHRUSDT-1d-2026-06.zip",
+      "sha256": "871494fe732526c3242fe7c527e4f575c0ef44ce7deb8fe59bad3242ce0ecdd0"
+    },
+    {
+      "file": "CHRUSDT-1d-2026-07.zip",
+      "sha256": "61ce342b4752248e3109893c00d9da78ff33735b2d15a62a031de7a4670fafcb"
+    },
+    {
+      "file": "CHRUSDT-1d-2026-08.zip",
+      "sha256": "99bed1bf04afa2a9875d22842056fafb43dc81cb5890b84302b37be0c302a319"
+    },
+    {
+      "file": "CHRUSDT-1d-2026-09.zip",
+      "sha256": "435cb10719ad6763c4228d632917f3844f685e04aeb97f1e2a0435cb766bc889"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

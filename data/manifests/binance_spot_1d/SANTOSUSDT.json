@@ -1,0 +1,257 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SANTOSUSDT/1d/",
+  "instrument": "SANTOSUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-12-01",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:44:58+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1765,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SANTOSUSDT-1d-2021-12.zip",
+      "sha256": "f66d90e1a1d94f10b17c6dd0746f3b550cdb3d9586c0492a478d6bce368b6dbf"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2022-01.zip",
+      "sha256": "55e264b6b4e9c45f8b3ac12cbdae7a454f40a234b2e56fb5e77aae8928553fe5"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2022-02.zip",
+      "sha256": "add2bc858369203e9f589be8a66ba43b4644afa47255ac7f873b4ab711c0ae36"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2022-03.zip",
+      "sha256": "8640eb17576bd186c7c95feee894e218586508a30970f17a06b0e06a0e17f4fe"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2022-04.zip",
+      "sha256": "73a0f421ac14f80b375e71b9ee94d4b4083c7166bc44ea99ff6c2e4eb290d09c"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2022-05.zip",
+      "sha256": "dac1fb33085acb9cb24c3947aadb2db918a03a7d9d2936c3d9946a76fef7e0d1"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2022-06.zip",
+      "sha256": "3b39048ccfec8c5451c15ffb9f99c7f75a0982b41083090441fda2ba6da56d8b"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2022-07.zip",
+      "sha256": "54168bb84a22a3fcb48b2d618e89a77378ac9508ad25ada50e773b6a46e9d0b6"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2022-08.zip",
+      "sha256": "7df722fd517f9d4ce81f4792c0b10ebe5d287fb84b3f5bc58bf70a38a4a01637"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2022-09.zip",
+      "sha256": "dbfa8f447f055990ff540220b311191d4ddc15e324e1c851d39a1644b6b2fa05"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2022-10.zip",
+      "sha256": "60ddc754354f5ea0acfc699c5bdf1e591b65b108acfbc32c9809eba86743dddb"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2022-11.zip",
+      "sha256": "fe62053d5b20b59678e7452e18cfecd203816f23084ba5d449fbc67f1db736fb"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2022-12.zip",
+      "sha256": "c163ec19451554f8272f089fa27fe7267cd105c3ec4fa7167ecd9278db6e8e79"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2023-01.zip",
+      "sha256": "3797dccd0a8df4fced581120c5a0bdc5ec5d445b1d63d6655807a08986c9d854"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2023-02.zip",
+      "sha256": "991749f6c926ac7c73492f1cced4f115ccfdf6b17c23d74e1c12a160c094a3ee"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2023-03.zip",
+      "sha256": "14d102a99246e047b1151dcb7114bb2eeff0e043a1c86b52106089accf391341"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2023-04.zip",
+      "sha256": "8254f91c273a66d33c2e3c8ce5f10ac048a8af4d2f828c95d628c33626885865"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2023-05.zip",
+      "sha256": "1d8671236387bd39040063553001501ec5d74c9a9ebbfcf9ce8a0b8094d69f73"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2023-06.zip",
+      "sha256": "56a251cd65fa3c614882d7a69cbe5795d92daf2396ba306610bc1b6907243df2"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2023-07.zip",
+      "sha256": "396b87e37ad318703d4b3e6db56c25f5d5c6774d60e5ceb0acb8631f87d2b5f8"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2023-08.zip",
+      "sha256": "069cfd1b59f105b42e9f2244cbb32bb5c83b1e37434bb58cab3089b8df3bf6bc"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2023-09.zip",
+      "sha256": "8931dfb0065bf8848aeac31eed96c353a3c9d08b029d626584ec8d8da62a8fee"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2023-10.zip",
+      "sha256": "50eabb64097aa30bb60bf13f1641f7f3741a326ece2f8ab491458970d6ffebb7"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2023-11.zip",
+      "sha256": "0a01d45633d1a679f1457bad3c41e1f5ba7c8f306f7a4d27f08d87562620a337"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2023-12.zip",
+      "sha256": "a715c3dcd85d55336577100b13fb4d1c4699335372fd025b87e2ac48d287cc81"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2024-01.zip",
+      "sha256": "97569832b6e485ee01a8bff2442cdc2926d459a400f552b3d5c7415b14157e2f"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2024-02.zip",
+      "sha256": "1c2ec3eb25304c0f3c213e60ee3367ee8679ab60c4896bac0140bd34d2e77064"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2024-03.zip",
+      "sha256": "6250707f9332d50bcef5bfad210e44d30f14c2f41716a7b17ee55819aa75fd09"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2024-04.zip",
+      "sha256": "37057a7154430127a45ddcd4592b01af7324ed0e636f49a18d1019eeb6888634"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2024-05.zip",
+      "sha256": "f43caf3d3c2938379864f8cf07a6197b8f235eb4a2a5ac7d80d8109ef2c9131f"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2024-06.zip",
+      "sha256": "0fec63ce54fadf0b971691013686897fb93bff58c6afaa482ae47d6208ecb082"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2024-07.zip",
+      "sha256": "5a287d077135e1736ac91e59cd622820122f7f274a447ac4211560a4066de5e1"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2024-08.zip",
+      "sha256": "5e751d22306a67e107068034246293325af1ee434eea116c065a41a90b8ed19a"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2024-09.zip",
+      "sha256": "de1cf8fb70b4efae00931c31698a21a2eb472f1e0b47a559210c91fa2ae39a1f"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2024-10.zip",
+      "sha256": "014d39f6d9dd3f577ad6496f227ee5c2fa2e9270c99bac3bcdb5539873688967"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2024-11.zip",
+      "sha256": "249c11fb54de037084919fb983b4b36bf37c34dcc8f39ea00f1e512f23279b36"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2024-12.zip",
+      "sha256": "85aa3aafd8591f798776f0e6778d607bb6d5982e1f3c0a4f17e1291d650ab793"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2025-01.zip",
+      "sha256": "59b5bf11574a2131a92959fa84346ac54120016df9169749453c809ce0f0cffb"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2025-02.zip",
+      "sha256": "71c13a238032bb667436c63e9bcc9dd7facbd40c4596797e539212e194c41df8"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2025-03.zip",
+      "sha256": "9b8e3171740e624d8c7a8a3b43f009fff9b40173e17fcd6fe252df4f2972931f"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2025-04.zip",
+      "sha256": "9c911d3be039ecc5b447425a9eb74d7fee757e6f9a02aed7e0674c5b39a225f2"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2025-05.zip",
+      "sha256": "fdc428fc4e40e15afd67e0b5a3952d1d031d806f4318b1e8444d679d9752d624"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2025-06.zip",
+      "sha256": "634b0c2ddae2cc7eeef55984fad8756cc9c7ed80e05044f18c13622a8dcc4733"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2025-07.zip",
+      "sha256": "97013f8ad375fe0c551e76e3b4ffae06a67b6d613ef1d5086aa1433c31442dc0"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2025-08.zip",
+      "sha256": "089274380f27fae6a200f4794df5a689c2d60351f0c7928009bcf6d773ffb7ab"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2025-09.zip",
+      "sha256": "26e669bf8aedc086a47b5485df256717d8cdd22a517f75b1c959dae260cc4831"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2025-10.zip",
+      "sha256": "0f6c74f9bdd1ba1304c183dd262de37a04ef6649b66b9cbb551cec23c7ad7445"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2025-11.zip",
+      "sha256": "20e8077f87ea514cf5172a14f538db4362e1774eed37e3bb2db7ae54a61ba322"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2025-12.zip",
+      "sha256": "059057cd22a0c97c02657298a4486237b5ea2b47c8e9cb7df5b322e4a6c510cf"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2026-01.zip",
+      "sha256": "b9ac64a24c67c8ef6142d3988470b16694f50ca289ef0d773da489555674f826"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2026-02.zip",
+      "sha256": "bed8e0edfc6ac4ab60ed827dfa69746aec6fbac038972560ea944cbb46c2f23a"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2026-03.zip",
+      "sha256": "521244c4fd8dfa9bf05c3673c0514fdf43fe0e98127778e176f25bd4d000ab30"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2026-04.zip",
+      "sha256": "02a6d06b4fc72239d256091bec734554f404660d9d25cd433792680b41604d30"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2026-05.zip",
+      "sha256": "37826f6bc654601dfd3ae661124f0287de92b7449db598b567f196af26814f05"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2026-06.zip",
+      "sha256": "6157ea0e2e7384005eace2f10a4876e0fe1d6c0bd8ab74d5c6d6ae3926099999"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2026-07.zip",
+      "sha256": "09190ab23ca20de51da094f83be750d5faa8c96ede04df4fd22a23fd5671fe63"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2026-08.zip",
+      "sha256": "42eba31ca5c4dcd8b516330673d38406241683dce9a3a7936de23fc30f402428"
+    },
+    {
+      "file": "SANTOSUSDT-1d-2026-09.zip",
+      "sha256": "a3baeed5daf3641fe6bf1c01deb7a99a2d4768c6f8d22f04f5f11109bbf0ac69"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

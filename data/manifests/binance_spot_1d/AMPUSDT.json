@@ -1,0 +1,261 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/AMPUSDT/1d/",
+  "instrument": "AMPUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-11-23",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:25:56+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1773,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "AMPUSDT-1d-2021-11.zip",
+      "sha256": "5985216a3d035e9aba415e6400d04f1df0eb25f32ddc28cc59ba43f977ebc8e0"
+    },
+    {
+      "file": "AMPUSDT-1d-2021-12.zip",
+      "sha256": "df5637fcba3dc619088743c7e25806571955cd28b143e5221370c959dac1289f"
+    },
+    {
+      "file": "AMPUSDT-1d-2022-01.zip",
+      "sha256": "3370ea231d409eb13d1c4f1e2caf4b53621cab7b156d073759dba2b9730c76b2"
+    },
+    {
+      "file": "AMPUSDT-1d-2022-02.zip",
+      "sha256": "ee30cb39362fb2a8457a5f76e1925dcaaa6f99e0ad793d0fadd1be97158665d9"
+    },
+    {
+      "file": "AMPUSDT-1d-2022-03.zip",
+      "sha256": "21de3b55607f145ae79fcb09c4adbf9620c184a12f328a64eab7c890ef673eb9"
+    },
+    {
+      "file": "AMPUSDT-1d-2022-04.zip",
+      "sha256": "28f21973e40539e446185a9425b59ebc492e6a8b235444f16645c13a641c65b0"
+    },
+    {
+      "file": "AMPUSDT-1d-2022-05.zip",
+      "sha256": "8f444b95109b122035e18fda90e5fe6eb53a02dadb39991281a20cbf517353eb"
+    },
+    {
+      "file": "AMPUSDT-1d-2022-06.zip",
+      "sha256": "0839fd76ad2db2d4e05081da4fa77790bfabe75f37b7ef6d0700e00537484159"
+    },
+    {
+      "file": "AMPUSDT-1d-2022-07.zip",
+      "sha256": "60c93c87628708cb7451675899f89c79582ddcdc6cc6b86a7fce737096704cfd"
+    },
+    {
+      "file": "AMPUSDT-1d-2022-08.zip",
+      "sha256": "53001407c72342942d97c68af3c49e4760d3b640d1838a8df1cb5b1635f16f54"
+    },
+    {
+      "file": "AMPUSDT-1d-2022-09.zip",
+      "sha256": "fc8067f22e05b2e656a18dfd801d203161d813907d8f6a0284750ca0660668a5"
+    },
+    {
+      "file": "AMPUSDT-1d-2022-10.zip",
+      "sha256": "ad74085537f52b97fcdb749cc82bba2f0f7dce9814aa25bf810a68274d8b5acb"
+    },
+    {
+      "file": "AMPUSDT-1d-2022-11.zip",
+      "sha256": "b400ced18ff08d08fe6f788e784aa11b7fa8df284b51ba69944b04151bf1c85a"
+    },
+    {
+      "file": "AMPUSDT-1d-2022-12.zip",
+      "sha256": "d0d002c88d15aa12cf61b11f11fbd0096d5aed603aa7d35b05fa375caa17f3f9"
+    },
+    {
+      "file": "AMPUSDT-1d-2023-01.zip",
+      "sha256": "d37edc29bc76aac74c67ef8e174cf59718fdd955caef076e5dfe5775adcb9eed"
+    },
+    {
+      "file": "AMPUSDT-1d-2023-02.zip",
+      "sha256": "d3c5470c9cf24fa8e24e572e4af62bd56b59053eb165f21ff84b7acff8133695"
+    },
+    {
+      "file": "AMPUSDT-1d-2023-03.zip",
+      "sha256": "806b81dc934e203232d8b535d7a63b6942ad6d0eeef0fcf109f703ac041b8432"
+    },
+    {
+      "file": "AMPUSDT-1d-2023-04.zip",
+      "sha256": "a1642a4306556909d96ef883a32abb7604f0454b72c231a5e9ae0ebb34e967cf"
+    },
+    {
+      "file": "AMPUSDT-1d-2023-05.zip",
+      "sha256": "1cfc564e7d5465b9c83fbdf8751c54365c11231003349eb84606577a001cd3aa"
+    },
+    {
+      "file": "AMPUSDT-1d-2023-06.zip",
+      "sha256": "2c90a603e5d80790bd5ecfe3be0e264363390f46ff0bb9a271f8858844284c09"
+    },
+    {
+      "file": "AMPUSDT-1d-2023-07.zip",
+      "sha256": "26a5448f3efab865cbae2ab4b2e47404454a8c9e27b02004f3cf2f71f7aece6c"
+    },
+    {
+      "file": "AMPUSDT-1d-2023-08.zip",
+      "sha256": "3e3026e6b920acadb91188067377405cd43a3424f6181a64ee01a7b0553f32fa"
+    },
+    {
+      "file": "AMPUSDT-1d-2023-09.zip",
+      "sha256": "9e1f6472c645ec144145259519fba7f8eddc3a856d48b757eab4f1aec0f50ca3"
+    },
+    {
+      "file": "AMPUSDT-1d-2023-10.zip",
+      "sha256": "f2f3ee12ca93037ac81b6102ca6b9aed4ca0510e8d7e7ff81dbaf00bb72950ab"
+    },
+    {
+      "file": "AMPUSDT-1d-2023-11.zip",
+      "sha256": "fe732ba4a89cab48af383880838ed940e0c0087621e6ebe3b2f0e8b1bc4a25d9"
+    },
+    {
+      "file": "AMPUSDT-1d-2023-12.zip",
+      "sha256": "98cdb3194bb3664871ea01ed65599a725981f501a0698f55eb814605a223b16e"
+    },
+    {
+      "file": "AMPUSDT-1d-2024-01.zip",
+      "sha256": "009a745f6cfa414656b8b506eb6efdbb9d2e45726f80fe55dd8f50723aa46e22"
+    },
+    {
+      "file": "AMPUSDT-1d-2024-02.zip",
+      "sha256": "29773b82dfd38bc47dffda049f39e325cf00caaf296b7c2571485a2d65a04068"
+    },
+    {
+      "file": "AMPUSDT-1d-2024-03.zip",
+      "sha256": "48deb4140b7650cbccf4ccf565e28bb1cf0fd1b111da23cc6e3b0d41ffcd7620"
+    },
+    {
+      "file": "AMPUSDT-1d-2024-04.zip",
+      "sha256": "655fd4947154269cf2c4ed6aabed3720099c43ed7190caefc4a2cc98bdce163c"
+    },
+    {
+      "file": "AMPUSDT-1d-2024-05.zip",
+      "sha256": "629e4243b26c64f264dd36f4fd6ae76548665a5f819aa17c231549e0dc5ebea0"
+    },
+    {
+      "file": "AMPUSDT-1d-2024-06.zip",
+      "sha256": "15e4146068f721e631d993a0ea01831b73468198f675f95f5796e1be09eda761"
+    },
+    {
+      "file": "AMPUSDT-1d-2024-07.zip",
+      "sha256": "e304b326d6bf11939563932c3e9cab0cb678ac066df9cc9a95d541fd056b0ebd"
+    },
+    {
+      "file": "AMPUSDT-1d-2024-08.zip",
+      "sha256": "8cfc7fd16cea141cd700521ff14a74ab9a32f6e29f0bd7ca343cc7709941f8a4"
+    },
+    {
+      "file": "AMPUSDT-1d-2024-09.zip",
+      "sha256": "7934db4371d6159f52eaa9425afe67e896894fdfa4cbb275de1778304a7f8f06"
+    },
+    {
+      "file": "AMPUSDT-1d-2024-10.zip",
+      "sha256": "67ac020cbe33ec00fdcdf26ff85e8ff6654b4f5bad711d1913df63bbc11b6108"
+    },
+    {
+      "file": "AMPUSDT-1d-2024-11.zip",
+      "sha256": "ce891631a41453b305e524c68c991088368c6107422f3684e52c91323b74a976"
+    },
+    {
+      "file": "AMPUSDT-1d-2024-12.zip",
+      "sha256": "0c75acb86bbb0a878b3820bb31642387bb767f667c80b46f0221369ac11c6de5"
+    },
+    {
+      "file": "AMPUSDT-1d-2025-01.zip",
+      "sha256": "f126876d09a953a397a9b2bdb159bc92c0ba4a0770ef70cac979585915cb09af"
+    },
+    {
+      "file": "AMPUSDT-1d-2025-02.zip",
+      "sha256": "ce647531bdeb47d052da58fe29c15916695bd19f5a63c30d0d0d6c0b2a1835dc"
+    },
+    {
+      "file": "AMPUSDT-1d-2025-03.zip",
+      "sha256": "a8ffb14a667880b8b1c73e8b528f6a40858bce95f32d3e57d86b78eeb2d7f28b"
+    },
+    {
+      "file": "AMPUSDT-1d-2025-04.zip",
+      "sha256": "d6e2303eff8406ac36d3b443744343fc5a993c134331f81e5541148bdd5eec80"
+    },
+    {
+      "file": "AMPUSDT-1d-2025-05.zip",
+      "sha256": "6964672a9be6d4d7a0fb48d833efdd82ffaa1dcb6b277fba8eeea4df17afea4f"
+    },
+    {
+      "file": "AMPUSDT-1d-2025-06.zip",
+      "sha256": "e1638511dabc635d862662058fc5660b2b5c6b57ea8c819e3b738f6259bb6ac5"
+    },
+    {
+      "file": "AMPUSDT-1d-2025-07.zip",
+      "sha256": "4f9616a47c24deb6d4e5f8b578a49b88852217e77a48adfe33fefc8983d5813a"
+    },
+    {
+      "file": "AMPUSDT-1d-2025-08.zip",
+      "sha256": "976f7efd9296835ffef86f081b7b31797b53b399632eb904303c53252a5264b9"
+    },
+    {
+      "file": "AMPUSDT-1d-2025-09.zip",
+      "sha256": "7143e3e537c1f348ea58fe0b343f8ba32025f3a94e3f65a87fd468c17fedf47d"
+    },
+    {
+      "file": "AMPUSDT-1d-2025-10.zip",
+      "sha256": "61ae54f9bdd4e2c31722075f841eadc1e4e53cb2d4891028049d051d557cbc83"
+    },
+    {
+      "file": "AMPUSDT-1d-2025-11.zip",
+      "sha256": "19b64a4d2f968f95b45c69027ff64b4449ee23b1ee87ba37cd8853271d759490"
+    },
+    {
+      "file": "AMPUSDT-1d-2025-12.zip",
+      "sha256": "fcb3e4e8995e3bdd4a76da3335cda74f3df98c67588b7018804cbf81d0f881e3"
+    },
+    {
+      "file": "AMPUSDT-1d-2026-01.zip",
+      "sha256": "d908965f48bb32a7ea59c83708a1ecfa7c5cdc569bfec4e7138347099821f012"
+    },
+    {
+      "file": "AMPUSDT-1d-2026-02.zip",
+      "sha256": "c80e6772de59d41139dd1d9aa099147fe3c4f3fada86d783413714bcde17c71e"
+    },
+    {
+      "file": "AMPUSDT-1d-2026-03.zip",
+      "sha256": "2427d9840a76ffcde80d05079bd0de1fa2b5a7bc6fa301efd2c619eb90f4405a"
+    },
+    {
+      "file": "AMPUSDT-1d-2026-04.zip",
+      "sha256": "1859ac7f7343d75243725016c939a9e52b0a97fa655ff5703dd7f4a644ad6e63"
+    },
+    {
+      "file": "AMPUSDT-1d-2026-05.zip",
+      "sha256": "b5a6bd6e80654dc00c971cfeca07f93d5ce9531f406a3b98b8210d7879f38dcb"
+    },
+    {
+      "file": "AMPUSDT-1d-2026-06.zip",
+      "sha256": "ca502716c5f30624af65625c5e5e8dd6a15f5ff8b1102580c11290b99237800d"
+    },
+    {
+      "file": "AMPUSDT-1d-2026-07.zip",
+      "sha256": "9bc7ebecf7008990ffc8e46efe5096b3cf371890655b4a350154c20219ffee4a"
+    },
+    {
+      "file": "AMPUSDT-1d-2026-08.zip",
+      "sha256": "ee911aa7575a2b3fcd9b99d28ee5ce8f4ff8ceb8b8a39586ce13928b7c3b8657"
+    },
+    {
+      "file": "AMPUSDT-1d-2026-09.zip",
+      "sha256": "a1bae0f053cd7619a3abbb70f32463772ebb0e08b1de8226a0794a2a99e86272"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

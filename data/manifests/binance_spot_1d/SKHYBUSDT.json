@@ -1,0 +1,37 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SKHYBUSDT/1d/",
+  "instrument": "SKHYBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-07-13",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:44:53+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 80,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SKHYBUSDT-1d-2026-07.zip",
+      "sha256": "e29f4a40629d38a99bb5f2981ae47d95aaddb6c1dbb2659da77ade54f4c1ce0b"
+    },
+    {
+      "file": "SKHYBUSDT-1d-2026-08.zip",
+      "sha256": "ec56fa029ce981e26cc17025708c080e52b95774474b269a0b5a79c638960b8f"
+    },
+    {
+      "file": "SKHYBUSDT-1d-2026-09.zip",
+      "sha256": "375c59ae8705b197f03abc618e39720dfc81f636e821246b8b14b1ae4fd7ffd3"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

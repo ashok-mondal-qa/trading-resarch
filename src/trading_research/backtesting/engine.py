@@ -7,6 +7,9 @@ Execution model (docs/risk-policy.md, quant-backtesting skill):
   * a stop is a fixed price level, never widened. If a day opens at or below it, the fill is the open
     (gap loss can exceed planned risk); else if the day's low touches it, the fill is the stop;
   * an entry whose open is at or below its stop is skipped;
+  * optional profit target (frame column `target`, fixed at the signal like the stop): if a day opens at
+    or above it the fill is the open, else if the high reaches it the fill is the target. The stop is
+    checked first, so a day that touches both counts as a stop (conservative);
   * sizing by risk/sizing.py within the 0.5% / 2% caps; cash is respected; one position per symbol;
   * a new position is opened only when the aggregate cap still has room for a full per-position risk
     budget. Leftover room is never used for a smaller position (otherwise the cap fills with many tiny
@@ -42,6 +45,7 @@ class Position:
     buy_costs: float
     sessions: int = 0
     pending_exit: str | None = None
+    target: float = float("nan")  # adjusted; NaN = no target
 
 
 @dataclass
@@ -57,6 +61,7 @@ class Order:
     symbol: str
     signal_date: pd.Timestamp
     stop: float
+    target: float = float("nan")
 
 
 def run(frames: dict[str, pd.DataFrame], candidates: dict[pd.Timestamp, list[str]], calendar: list,
@@ -110,6 +115,10 @@ def run(frames: dict[str, pd.DataFrame], candidates: dict[pd.Timestamp, list[str
                 close_position(p, date, bar["open"], "stop (gap)")
             elif bar["low"] <= p.stop:
                 close_position(p, date, p.stop, "stop")
+            elif bar["open"] >= p.target:
+                close_position(p, date, bar["open"], "target (gap)")
+            elif bar["high"] >= p.target:
+                close_position(p, date, p.target, "target")
 
         # 2. entries ordered at the previous close
         open_risk = sum(p.planned_risk for p in positions.values())
@@ -146,10 +155,12 @@ def run(frames: dict[str, pd.DataFrame], candidates: dict[pd.Timestamp, list[str
             open_risk += plan.planned_risk_inr
             positions[order.symbol] = Position(order.symbol, order.signal_date, date, entry_adj, order.stop,
                                                qty, plan.quantity, plan.planned_risk_inr, buy,
-                                               sessions=1)
-            # same-day stop on the entry day
+                                               sessions=1, target=order.target)
+            # same-day stop, then target, on the entry day (the open was the entry)
             if bar["low"] <= order.stop:
                 close_position(positions[order.symbol], date, order.stop, "stop")
+            elif bar["high"] >= order.target > entry_adj:
+                close_position(positions[order.symbol], date, order.target, "target")
         pending = []
 
         # 3. end of day: marks, exit signals, new orders
@@ -165,7 +176,9 @@ def run(frames: dict[str, pd.DataFrame], candidates: dict[pd.Timestamp, list[str
         equity_curve[date] = cash + sum(p.qty * last_close.get(s, p.entry) for s, p in positions.items())
         for sym in candidates.get(date, []):
             if sym not in positions:
-                pending.append(Order(sym, date, float(frames[sym].loc[date, "stop"])))
+                row = frames[sym].loc[date]
+                target = float(row["target"]) if "target" in row.index and pd.notna(row["target"]) else float("nan")
+                pending.append(Order(sym, date, float(row["stop"]), target))
 
     # mark open positions at the last close (flagged, not counted as closed trades)
     open_at_end = len(positions)

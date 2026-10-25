@@ -1,0 +1,221 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BIFIUSDT/1d/",
+  "instrument": "BIFIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-04-01",
+  "last_bar": "2026-04-23",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:28:15+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1484,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BIFIUSDT-1d-2022-04.zip",
+      "sha256": "c29d2ce15569d91b7640c414124fbf995a35b211ee860f3097f28f4748897f11"
+    },
+    {
+      "file": "BIFIUSDT-1d-2022-05.zip",
+      "sha256": "1effacf6a6a85d2eec5ccb8912b827fa98755790dd9a45251206ed80bca887d5"
+    },
+    {
+      "file": "BIFIUSDT-1d-2022-06.zip",
+      "sha256": "1f4b802161c7b18ac77ecb8ebe28320bd207290af50722da7610c4173a703a9c"
+    },
+    {
+      "file": "BIFIUSDT-1d-2022-07.zip",
+      "sha256": "92b42bc1655df83aaefb725b805b8da49b2035e4ab9e7c1696b05eb7cc6683c1"
+    },
+    {
+      "file": "BIFIUSDT-1d-2022-08.zip",
+      "sha256": "41543a1695c6f1fc686d1365f2458970f1772732126baaeec5f7c7dee2ad2407"
+    },
+    {
+      "file": "BIFIUSDT-1d-2022-09.zip",
+      "sha256": "35a07e4f446a097ccf6400ca30aacc2ab609e9640f3614fd0aa0bc64fd71b0b3"
+    },
+    {
+      "file": "BIFIUSDT-1d-2022-10.zip",
+      "sha256": "c3b6dfdadf9012ec7d5eed9e4ccca4a9f816d58d15fc11eb5fc2cb3446724b33"
+    },
+    {
+      "file": "BIFIUSDT-1d-2022-11.zip",
+      "sha256": "cbd2ea1a19c154f133e4d98304eb8f3c4a60a88dbdf19627b8ed9fc35f6a1d0f"
+    },
+    {
+      "file": "BIFIUSDT-1d-2022-12.zip",
+      "sha256": "e4763f3545ea16f6655545bcef48d65826946bf7653e9ecee4e3405833df7bf5"
+    },
+    {
+      "file": "BIFIUSDT-1d-2023-01.zip",
+      "sha256": "5ca7d0be0de162e8b5fe32c334267b0acdbcf5592dde423fbcf2682ce779dbd5"
+    },
+    {
+      "file": "BIFIUSDT-1d-2023-02.zip",
+      "sha256": "867118bb5200255f36ad5e07db7d3891b09856d22d4d5f6b54ed505c94c21105"
+    },
+    {
+      "file": "BIFIUSDT-1d-2023-03.zip",
+      "sha256": "c3a38799b96530552d8f1e740624a33a8094f9dd169a96021c7873de1b1d8af2"
+    },
+    {
+      "file": "BIFIUSDT-1d-2023-04.zip",
+      "sha256": "813477ab38ca490ca747d1b5f7d6cbb9b7ee9d201813838806b4231fe5cac4f3"
+    },
+    {
+      "file": "BIFIUSDT-1d-2023-05.zip",
+      "sha256": "c9a2deaa4b06746d53a855055210666bb243711dfc04e60011469dfd96a66544"
+    },
+    {
+      "file": "BIFIUSDT-1d-2023-06.zip",
+      "sha256": "0d24bcc0b369c6528c901fcd04452a5e8c607916993e5902cfb904a901a396e8"
+    },
+    {
+      "file": "BIFIUSDT-1d-2023-07.zip",
+      "sha256": "1e0796a1c17bb5985c03529fb71e6b4989b5df427be101c8ad4766fa45d55773"
+    },
+    {
+      "file": "BIFIUSDT-1d-2023-08.zip",
+      "sha256": "2b3ea27bffe3623a91b545e29e5bb433aa17ca65479f5bf852f70d18b4be3a31"
+    },
+    {
+      "file": "BIFIUSDT-1d-2023-09.zip",
+      "sha256": "b88311f32bf4e29dea1ecdfab2e6a7e187438d7c2ada9ca54c66bc878f18f61c"
+    },
+    {
+      "file": "BIFIUSDT-1d-2023-10.zip",
+      "sha256": "7d65de860b590aeab706cc4aed9e60090be82b09974e93a5cedce1f6ad71ba73"
+    },
+    {
+      "file": "BIFIUSDT-1d-2023-11.zip",
+      "sha256": "161d48ed746f892344c850bdfd1ef914dd61716f9670a4b567b32619b120a4ac"
+    },
+    {
+      "file": "BIFIUSDT-1d-2023-12.zip",
+      "sha256": "c2ff631f9d9c486d6df31ef4a07e585e6512ad5513611349b6a4991f49d8e9c8"
+    },
+    {
+      "file": "BIFIUSDT-1d-2024-01.zip",
+      "sha256": "a8bc290ec821e390b96ac79054e9ed5157f22e95a321b39107b899fe421f66f3"
+    },
+    {
+      "file": "BIFIUSDT-1d-2024-02.zip",
+      "sha256": "a25d7db4bde6d4693b9b46059caeb5e8d884261895e63906fe5ec348832db3e9"
+    },
+    {
+      "file": "BIFIUSDT-1d-2024-03.zip",
+      "sha256": "07bc3d8ad96db04e8c8200b001d9c1d3596320d5193eb9a13c397df39ee1945f"
+    },
+    {
+      "file": "BIFIUSDT-1d-2024-04.zip",
+      "sha256": "af087aee9606ab0df4b4db8cda45ed38886196772bd9e972f4d81d2c9fbdaa3b"
+    },
+    {
+      "file": "BIFIUSDT-1d-2024-05.zip",
+      "sha256": "69a67d051b02b0db4bb0d0f695d0d833d1b04ba8071e714ade4f31330fed42b1"
+    },
+    {
+      "file": "BIFIUSDT-1d-2024-06.zip",
+      "sha256": "3ead04bca27c46b33e8117f224e2f2d591fb11d27f074e06dd6b54bd6eaeefe3"
+    },
+    {
+      "file": "BIFIUSDT-1d-2024-07.zip",
+      "sha256": "f716faa4fce4b91fbcf11ce0ce45410c588de0236446e4012b1dfa81414f4846"
+    },
+    {
+      "file": "BIFIUSDT-1d-2024-08.zip",
+      "sha256": "5195ac6f7ee7599f1b6017b67c2278ea1eba88133dbc6eef99334108e0a48a0a"
+    },
+    {
+      "file": "BIFIUSDT-1d-2024-09.zip",
+      "sha256": "7cd14f7b0b987ee3841eb86e76d8976da3b0fb2567cdabe540668d3cd8771d03"
+    },
+    {
+      "file": "BIFIUSDT-1d-2024-10.zip",
+      "sha256": "560ebc4a1e9ca196d22a486b9998347877446f6f4d9d922fd018ed5a2052ddc4"
+    },
+    {
+      "file": "BIFIUSDT-1d-2024-11.zip",
+      "sha256": "89205cbc9375b183581fcb2ca880b53302ea1d7febe549a410cc5d37514cc57e"
+    },
+    {
+      "file": "BIFIUSDT-1d-2024-12.zip",
+      "sha256": "33b6a2d39cdc8cefbe5b75471aa7dc26056692c1090a40d3fd0d031b1a7f88f7"
+    },
+    {
+      "file": "BIFIUSDT-1d-2025-01.zip",
+      "sha256": "c0471d158be12cb7e36c6668853cf11ea4ef9e1da493540e3fd1e03db584190a"
+    },
+    {
+      "file": "BIFIUSDT-1d-2025-02.zip",
+      "sha256": "76db9ab9b74160ac4ed5e99febd1f318badba92e56c656cf589218f1907c6f73"
+    },
+    {
+      "file": "BIFIUSDT-1d-2025-03.zip",
+      "sha256": "ee1311f91bb3c01409302a09376a9ec00bc4146d600c9d091f0912cbcacaad8d"
+    },
+    {
+      "file": "BIFIUSDT-1d-2025-04.zip",
+      "sha256": "82853797fc42ee6a909a5e996bf31c1da908565d45da1314ed16c906aeeb345e"
+    },
+    {
+      "file": "BIFIUSDT-1d-2025-05.zip",
+      "sha256": "7072a8075ea0dfdab10a355c07e66f9d5660b2992b79d50f83bc3da6d41b4152"
+    },
+    {
+      "file": "BIFIUSDT-1d-2025-06.zip",
+      "sha256": "6fd873ef05f49de875886698076ec46ecda178218669c0a779aab308fe36c81d"
+    },
+    {
+      "file": "BIFIUSDT-1d-2025-07.zip",
+      "sha256": "8a412ad42d89d28545d7dd6e4baf2f89bdc8cc6dc07b429a848c2bdf8241349d"
+    },
+    {
+      "file": "BIFIUSDT-1d-2025-08.zip",
+      "sha256": "0f5854edfcfc05617d0f7aab71988010e4194c3f75246b4b1b64313b8626b696"
+    },
+    {
+      "file": "BIFIUSDT-1d-2025-09.zip",
+      "sha256": "7eca1e046eb721fe4cd7fb28bdf01a33a6a98e66dee28c9d959f560314187ddf"
+    },
+    {
+      "file": "BIFIUSDT-1d-2025-10.zip",
+      "sha256": "138d86c39317c513213cfb1c0066c1f81ecf303917d2d8c01b2678e3eb5c6ab9"
+    },
+    {
+      "file": "BIFIUSDT-1d-2025-11.zip",
+      "sha256": "20619f4081114752e34a7bf8169979c7abd88e711ebf1b04198cc25c232a3d19"
+    },
+    {
+      "file": "BIFIUSDT-1d-2025-12.zip",
+      "sha256": "baabe0df8ad8d81ecf498dd3ff5f9ead88e481f7c11119a4265f3db9585f535c"
+    },
+    {
+      "file": "BIFIUSDT-1d-2026-01.zip",
+      "sha256": "ab54e34271adbd2e75e6c6b9db98d9aeb5ffbfd13fe31fa6bd2504eb71e74191"
+    },
+    {
+      "file": "BIFIUSDT-1d-2026-02.zip",
+      "sha256": "31b7f6659bff05c9ff54238242ab5667a70f1e5ae7da279307186a22bf277e69"
+    },
+    {
+      "file": "BIFIUSDT-1d-2026-03.zip",
+      "sha256": "88322813e8d0a439cf818d47350b919b9ffb23fd00b371c10ee96bddd2d31116"
+    },
+    {
+      "file": "BIFIUSDT-1d-2026-04.zip",
+      "sha256": "154a3797cfb6988fe63487f01ddf33abaa30c53df646e7495098d15dad8ce8b1"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

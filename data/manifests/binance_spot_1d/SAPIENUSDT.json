@@ -1,0 +1,69 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SAPIENUSDT/1d/",
+  "instrument": "SAPIENUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-11-06",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:44:33+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 329,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SAPIENUSDT-1d-2025-11.zip",
+      "sha256": "0829ed5d73bcab1280677244ac7ac583f00c92d19399bab46ab4f45eb3448b19"
+    },
+    {
+      "file": "SAPIENUSDT-1d-2025-12.zip",
+      "sha256": "e67f4fc4b8bf4c1e02f01476e7d281a4009ecab7d71d1b4a67cc5767a228dc6a"
+    },
+    {
+      "file": "SAPIENUSDT-1d-2026-01.zip",
+      "sha256": "d9fb93847ae5c0ca8672d81e5d617fb59fa24d6ce19437c64db7dd3e401cbfd3"
+    },
+    {
+      "file": "SAPIENUSDT-1d-2026-02.zip",
+      "sha256": "9462a5e063b6ac9479a666301f83738d62417a2d62a798313c087bad56693eee"
+    },
+    {
+      "file": "SAPIENUSDT-1d-2026-03.zip",
+      "sha256": "089f814bade8903a63b3bac2ab98092773a3f09e359ee6e1a9b71775634c7f97"
+    },
+    {
+      "file": "SAPIENUSDT-1d-2026-04.zip",
+      "sha256": "f224966def9c46d82e7cb81a23db19a94a459c72de6ddf0fab9955b3733d0cc0"
+    },
+    {
+      "file": "SAPIENUSDT-1d-2026-05.zip",
+      "sha256": "4df3bcf65672fc69bfdf5590d3fb7c5497fa441cf89db7bbdc337063f246913c"
+    },
+    {
+      "file": "SAPIENUSDT-1d-2026-06.zip",
+      "sha256": "18ffc7131e279829fd15ac009f33627497eaf627a8dd38e4be7e3fe16ecf86ca"
+    },
+    {
+      "file": "SAPIENUSDT-1d-2026-07.zip",
+      "sha256": "4106ab0eec80502aa9d3bc7133e2b97fd001dced7637759ed89d0f1ff0eb6a97"
+    },
+    {
+      "file": "SAPIENUSDT-1d-2026-08.zip",
+      "sha256": "1e272092fa1100bbed6cbacab637e6a08c24dbb842a54e70bad66fc18dde52ee"
+    },
+    {
+      "file": "SAPIENUSDT-1d-2026-09.zip",
+      "sha256": "6d7d11106bc7178df9e452d62e2aa9aad68203a968b570384e78e662606a5981"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

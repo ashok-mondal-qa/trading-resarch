@@ -1,0 +1,365 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BANDUSDT/1d/",
+  "instrument": "BANDUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-09-18",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:28:07+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2570,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BANDUSDT-1d-2019-09.zip",
+      "sha256": "9b7ed53ae4ab484d1a426815890eb9515bf6a99690841773bddabbd2f615d64b"
+    },
+    {
+      "file": "BANDUSDT-1d-2019-10.zip",
+      "sha256": "11d22de50477a1d6145851e96186739dd87a18d0149c4a9c050a5c36a478229a"
+    },
+    {
+      "file": "BANDUSDT-1d-2019-11.zip",
+      "sha256": "fd87c90279727d9b14ade57b605349c57303cef50348b381ac630e6c2e5cb108"
+    },
+    {
+      "file": "BANDUSDT-1d-2019-12.zip",
+      "sha256": "2a5726fdcc62906dd3272c0daeb29d174d7ea84a9acb8eb201051f53cec8b2e6"
+    },
+    {
+      "file": "BANDUSDT-1d-2020-01.zip",
+      "sha256": "6caba05d6da61c9c8692d92ce3446f42017cb7ea0b654da7bba5943ad9a5d917"
+    },
+    {
+      "file": "BANDUSDT-1d-2020-02.zip",
+      "sha256": "8e12351e9edca8012c4f4456fe9c900089c98110fb8764b8a06225d6f5bccce1"
+    },
+    {
+      "file": "BANDUSDT-1d-2020-03.zip",
+      "sha256": "c86f911d624bee8617cd716c259165618628312957a386f2b935eee3f6e060dc"
+    },
+    {
+      "file": "BANDUSDT-1d-2020-04.zip",
+      "sha256": "9fcd6da7be93d5343b2a9bde4a497049bdc00db0f8602ac21b215531521efad1"
+    },
+    {
+      "file": "BANDUSDT-1d-2020-05.zip",
+      "sha256": "60ddd150dcd3e8cdc6b6903e20bf9dfbdcdbb5448cc8887423aa0f6bc768d743"
+    },
+    {
+      "file": "BANDUSDT-1d-2020-06.zip",
+      "sha256": "4e5944ced7edd3e601dc61680937d9d8d82ee9a5666f393c1d82def9454498df"
+    },
+    {
+      "file": "BANDUSDT-1d-2020-07.zip",
+      "sha256": "a20c48ce93d227453965d6d6951a3e6bc7fd994194c123d9e9d1afa26ec329b6"
+    },
+    {
+      "file": "BANDUSDT-1d-2020-08.zip",
+      "sha256": "fc1ea4929a93afbfecb47363aca6a440188c3d26520c6b05accae706afc73d7e"
+    },
+    {
+      "file": "BANDUSDT-1d-2020-09.zip",
+      "sha256": "5f38897d1ad23c3c89eff05a13916059cb0e82f817c13a97d3eccbb25e58e419"
+    },
+    {
+      "file": "BANDUSDT-1d-2020-10.zip",
+      "sha256": "817cd301fa4ae331fecb4b0b5824e1dfdb162dd956b6e75c90aaeb6a22884c76"
+    },
+    {
+      "file": "BANDUSDT-1d-2020-11.zip",
+      "sha256": "c3feef91bd05b418926272e05dbed963a86dae7ac2fd3992010a37cdee8803a0"
+    },
+    {
+      "file": "BANDUSDT-1d-2020-12.zip",
+      "sha256": "6235deeb3474b651eb4a97c11a8cdca4eb91232549b7c000f96e7df5c7a9ee0c"
+    },
+    {
+      "file": "BANDUSDT-1d-2021-01.zip",
+      "sha256": "001982d88c42aa1f7351f6df6f8baa2283b8e6f9e279c28aa733d8c1affd093f"
+    },
+    {
+      "file": "BANDUSDT-1d-2021-02.zip",
+      "sha256": "56b9ed8c706a4b5afd2f1e68f0112b0f6c06cb67d54f986853c854178e056818"
+    },
+    {
+      "file": "BANDUSDT-1d-2021-03.zip",
+      "sha256": "9954db12d0a3843444e24ff257fb771ae799172334187cc69b4d7d89e325c72a"
+    },
+    {
+      "file": "BANDUSDT-1d-2021-04.zip",
+      "sha256": "e991903dd6a6cd40de285166d2025ee980eee536e389684623862fdd069fdcc5"
+    },
+    {
+      "file": "BANDUSDT-1d-2021-05.zip",
+      "sha256": "461ff392b97b740bacc04189401c16085d680d9829234a5240d4c9d9ea9d2c17"
+    },
+    {
+      "file": "BANDUSDT-1d-2021-06.zip",
+      "sha256": "acb4c507c04b377652450e3588347c4e9c9b7be2407642590b840e1dcdae41e3"
+    },
+    {
+      "file": "BANDUSDT-1d-2021-07.zip",
+      "sha256": "5b5213cc003f6495153433696102642c61004856d50ae32b01685c71370cab43"
+    },
+    {
+      "file": "BANDUSDT-1d-2021-08.zip",
+      "sha256": "15aa97da27712c8498ee984241d70efeea8d5650e81e1991fd92445cca59c9dd"
+    },
+    {
+      "file": "BANDUSDT-1d-2021-09.zip",
+      "sha256": "0b0a2acf86c551a99d3a5cad00723f3b6dea59755285bc7101fb379e0d6527d9"
+    },
+    {
+      "file": "BANDUSDT-1d-2021-10.zip",
+      "sha256": "8795fb6b4bc1df4d5963a99b539ba2b6b8320993c0920624e73dd717376cf011"
+    },
+    {
+      "file": "BANDUSDT-1d-2021-11.zip",
+      "sha256": "0184014a8846ac88efb90233a5a7af7a4936ee480f55c1e77fdd489b5d1f642e"
+    },
+    {
+      "file": "BANDUSDT-1d-2021-12.zip",
+      "sha256": "98ba393525a3bd2c22bea2b47b69c28bfe2abae465d45d7cc9ed9ac8c526c366"
+    },
+    {
+      "file": "BANDUSDT-1d-2022-01.zip",
+      "sha256": "5a4311a6543b7935a90cf89fa4c4c6e99737724767ea61416807062128c6ff16"
+    },
+    {
+      "file": "BANDUSDT-1d-2022-02.zip",
+      "sha256": "dcded0abeba5ee3d4f6fc7becddfd7385ece44e430874ded829f332b01fa03d1"
+    },
+    {
+      "file": "BANDUSDT-1d-2022-03.zip",
+      "sha256": "796580bc2a90f802ae680ab1011df628eb06203c18a5c54aaf3bf1de7ff644bf"
+    },
+    {
+      "file": "BANDUSDT-1d-2022-04.zip",
+      "sha256": "6afdc3347738fb5e56bde229d39f90f95f4a76b5645553cc7e54cf279bf4e627"
+    },
+    {
+      "file": "BANDUSDT-1d-2022-05.zip",
+      "sha256": "8a0d5f72b24e492b42329a03ee07e782293ad6d54f64feca44fe3c416c8900cd"
+    },
+    {
+      "file": "BANDUSDT-1d-2022-06.zip",
+      "sha256": "b386b19d9c691e3ac1c379bff72e8aaa9276ad12cd740e8417745476eebb7157"
+    },
+    {
+      "file": "BANDUSDT-1d-2022-07.zip",
+      "sha256": "cfb861598c10de260e36118261ed91cddd3192285b926580936711bd1f467e01"
+    },
+    {
+      "file": "BANDUSDT-1d-2022-08.zip",
+      "sha256": "e7e323f5ee9fa42e701e6e110419ef1944a313b006a65debd8a3496416d99850"
+    },
+    {
+      "file": "BANDUSDT-1d-2022-09.zip",
+      "sha256": "c285e433baec50defcbacbd05e1f336b30c2085f174443ee84dd8c155ba8f89c"
+    },
+    {
+      "file": "BANDUSDT-1d-2022-10.zip",
+      "sha256": "aefb0def95b2d4c569106af4487216855ac970a5aafab544a0809f967722bf27"
+    },
+    {
+      "file": "BANDUSDT-1d-2022-11.zip",
+      "sha256": "da267857709211343e39d2c64f9c9f6967eeb9be0f872bcfa2106aa4ae16ea0f"
+    },
+    {
+      "file": "BANDUSDT-1d-2022-12.zip",
+      "sha256": "a37b731bcd597e79918a0345496e232fe3f0f6530b4db8a4644b5855532b4b84"
+    },
+    {
+      "file": "BANDUSDT-1d-2023-01.zip",
+      "sha256": "61f503101ec33e568aa95ec51612b90127d8b087c49b04cb45ed56d6512f3f3d"
+    },
+    {
+      "file": "BANDUSDT-1d-2023-02.zip",
+      "sha256": "fce893b1c6efdd4d2de44afcfe58e02b6e36d557b525d8547236d435d69814eb"
+    },
+    {
+      "file": "BANDUSDT-1d-2023-03.zip",
+      "sha256": "44712dda2f3478f81d8d07a06c7b38d56a21c002434b7730506eaf10a45af0ac"
+    },
+    {
+      "file": "BANDUSDT-1d-2023-04.zip",
+      "sha256": "400e153880114ba5eaff49591db7ce8996c14c7d5c32280100b5534fb9760af2"
+    },
+    {
+      "file": "BANDUSDT-1d-2023-05.zip",
+      "sha256": "6f0ca1c09badbd77b52a678ed9a3145e932efefc76cf42d8cf10e2d6fbe58d2b"
+    },
+    {
+      "file": "BANDUSDT-1d-2023-06.zip",
+      "sha256": "75ba0531a9f63680cb494835c51d81a25aa88e42b83d436788064156bc887f93"
+    },
+    {
+      "file": "BANDUSDT-1d-2023-07.zip",
+      "sha256": "90e1edf4340b60a14f10d5721e8daca98f7642b7de10b42725f73503e89a8277"
+    },
+    {
+      "file": "BANDUSDT-1d-2023-08.zip",
+      "sha256": "433ea43bbd8c28a01a480d8fc88671c7b06b972b7f616ce6d686fe2cac74e25d"
+    },
+    {
+      "file": "BANDUSDT-1d-2023-09.zip",
+      "sha256": "b742d3f798c7478e45a29e62503931a3008db5fd5625a598696a82f320214230"
+    },
+    {
+      "file": "BANDUSDT-1d-2023-10.zip",
+      "sha256": "d6704fcdcbb46b42ea521e0d7ff09699527c9d986893389d5bac9de49ee4249d"
+    },
+    {
+      "file": "BANDUSDT-1d-2023-11.zip",
+      "sha256": "0a2cf132e35440cc841fab825f34b4dafd625c6f56a273b5841441fb2208b85e"
+    },
+    {
+      "file": "BANDUSDT-1d-2023-12.zip",
+      "sha256": "e42faf0d477472285044c2cb66e7578d4fd91895b44d14a8e1504eea4f825917"
+    },
+    {
+      "file": "BANDUSDT-1d-2024-01.zip",
+      "sha256": "329d8535e6eefe97a4ced85c32d17405050524d6f8ff2797268e6e333fbd64ed"
+    },
+    {
+      "file": "BANDUSDT-1d-2024-02.zip",
+      "sha256": "73661ab0a67972d61c3ef65c3c7057de1b7b2b547e214ac0db1db165fdb918cf"
+    },
+    {
+      "file": "BANDUSDT-1d-2024-03.zip",
+      "sha256": "58f2a86258e8af93e5b6aff203f2340a3739b1cefebc1ad196e23b65602dedda"
+    },
+    {
+      "file": "BANDUSDT-1d-2024-04.zip",
+      "sha256": "b59eeb0fc1e38d50ede620f25162002fbcc0fd34f7d8ca95d82a7f240726effd"
+    },
+    {
+      "file": "BANDUSDT-1d-2024-05.zip",
+      "sha256": "bb20980facc4f9f1e4ba6dd1ba9feea945b286e618a15d1b378b608764ccc474"
+    },
+    {
+      "file": "BANDUSDT-1d-2024-06.zip",
+      "sha256": "58763556529ce923826190360ed6207cca4a7b32171bcaa64709cb69aa68721f"
+    },
+    {
+      "file": "BANDUSDT-1d-2024-07.zip",
+      "sha256": "fc8a8045e6d696bf907d806777e8bb96e5e399387f13986fccd64d73125e915a"
+    },
+    {
+      "file": "BANDUSDT-1d-2024-08.zip",
+      "sha256": "265bc973f8e36e235c8f0b06ee026b161a2db8a8cc61f1bbc66827b4ce555ecd"
+    },
+    {
+      "file": "BANDUSDT-1d-2024-09.zip",
+      "sha256": "75b6392f69595cc9390597205303cda209f640cb0edfac1ebc0f607727b98297"
+    },
+    {
+      "file": "BANDUSDT-1d-2024-10.zip",
+      "sha256": "5beebec423adcf90500639d517c9be14c63af2ab80d5315b75696cbf4bd83c86"
+    },
+    {
+      "file": "BANDUSDT-1d-2024-11.zip",
+      "sha256": "8c379922988907022babfdecbdef196d11e16159e27a985ff74f7577e339e917"
+    },
+    {
+      "file": "BANDUSDT-1d-2024-12.zip",
+      "sha256": "a0f9097a7a5e9aee16b4ea2274a2c47f678e6c9494eaa5f948b038b99443d2e5"
+    },
+    {
+      "file": "BANDUSDT-1d-2025-01.zip",
+      "sha256": "c26e941decf9c6787bb4079f0fe701ff6aa584854da85f5763130807296ebeb4"
+    },
+    {
+      "file": "BANDUSDT-1d-2025-02.zip",
+      "sha256": "cecc6223d9fe14a0f15b45ba0396de901dc467a2d8818795916985d716035451"
+    },
+    {
+      "file": "BANDUSDT-1d-2025-03.zip",
+      "sha256": "e8ea89333276c309e208d3da1466981364b329c486cac3e398a4ac72088be2e2"
+    },
+    {
+      "file": "BANDUSDT-1d-2025-04.zip",
+      "sha256": "badc826c7cd12e680c6bc4b98b6001eea6d1707613d2511b39571ad4bc56dedb"
+    },
+    {
+      "file": "BANDUSDT-1d-2025-05.zip",
+      "sha256": "9b1bfec6a4f2bc79bc1b0e059d3ef0a94d47c8ed604dbcc8f62383fea2393666"
+    },
+    {
+      "file": "BANDUSDT-1d-2025-06.zip",
+      "sha256": "c484758a9e6ac9565f57508e49ee25d7e64e4879d7703800c26f023ef7e0becc"
+    },
+    {
+      "file": "BANDUSDT-1d-2025-07.zip",
+      "sha256": "822ee25e5d25f198d93b20ea6ec5404393a08a8ff7b0a4624dcce2b726c33c78"
+    },
+    {
+      "file": "BANDUSDT-1d-2025-08.zip",
+      "sha256": "f9724f067e34b40c3fd5d9c573b840958f3ed2eb886898648b13c7e55a1baa64"
+    },
+    {
+      "file": "BANDUSDT-1d-2025-09.zip",
+      "sha256": "f222a83361904887056822ebb0b329890709df1f7caa20d6ea19cb293e531d7f"
+    },
+    {
+      "file": "BANDUSDT-1d-2025-10.zip",
+      "sha256": "a7957bbfe32a9a86486c6032bc715128e3ff4dbc16f9fc9a94ef1b46cbe4a76c"
+    },
+    {
+      "file": "BANDUSDT-1d-2025-11.zip",
+      "sha256": "0b5c7e0e1b33070abdce459327eace651237ad7ef12cc19bffba17c4182a271c"
+    },
+    {
+      "file": "BANDUSDT-1d-2025-12.zip",
+      "sha256": "7354733446ee006a619edef5ddf1272ffae7fdf869b23c3dd5611acd8fe752c2"
+    },
+    {
+      "file": "BANDUSDT-1d-2026-01.zip",
+      "sha256": "ea6fe05f80dfaa43c3339d328a3e2772e37380dc761ba25512f0527b76be3b01"
+    },
+    {
+      "file": "BANDUSDT-1d-2026-02.zip",
+      "sha256": "dc67548764c4b179ba187c2288392dd7923959ea591cc8b8d6c677aea988251f"
+    },
+    {
+      "file": "BANDUSDT-1d-2026-03.zip",
+      "sha256": "9b6488911d8e1efdab70158c71e3751b86e451e790859a55232def1382c5859e"
+    },
+    {
+      "file": "BANDUSDT-1d-2026-04.zip",
+      "sha256": "fe8640476becbe96d2cc256976461d3056df76aa33dd1915b9af23e129be2669"
+    },
+    {
+      "file": "BANDUSDT-1d-2026-05.zip",
+      "sha256": "16decde112e2dc8e5e479da65702d920b3560fd96edce4237fe03fb624eee303"
+    },
+    {
+      "file": "BANDUSDT-1d-2026-06.zip",
+      "sha256": "9d21246556cc7b9ba8e1a9ad38f8fcb8f242dfce0ee53f13a32a6a3b3485680d"
+    },
+    {
+      "file": "BANDUSDT-1d-2026-07.zip",
+      "sha256": "d2a3b052d5ff9eb0a940ae8eae2dff6f64ad3ae699d32dbb0d544616724f9fa4"
+    },
+    {
+      "file": "BANDUSDT-1d-2026-08.zip",
+      "sha256": "98d7148f978e32025c45bf3851a10664b89852c0cd6ea5d989b1edb3a9912a4e"
+    },
+    {
+      "file": "BANDUSDT-1d-2026-09.zip",
+      "sha256": "9f98e199c2a06bae48d401df03882f9e3c18df7696002320cdff126df83612cb"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

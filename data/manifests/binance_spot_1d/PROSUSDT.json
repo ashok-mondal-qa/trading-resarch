@@ -1,0 +1,137 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PROSUSDT/1d/",
+  "instrument": "PROSUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-01-27",
+  "last_bar": "2025-04-16",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:52+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 811,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PROSUSDT-1d-2023-01.zip",
+      "sha256": "f5197e90a35ffa69777bc1e7db92541b4d38261d87b281a95ad929125f04b70f"
+    },
+    {
+      "file": "PROSUSDT-1d-2023-02.zip",
+      "sha256": "5d22bb96c89199e486ba1ffde0f515c0fb76e6750ba4ce193d85c1f5d71eb2bd"
+    },
+    {
+      "file": "PROSUSDT-1d-2023-03.zip",
+      "sha256": "c48a956856c4346743f844edc7c5c59da449e5ca88ab2c7248b0bb5f338cf8bb"
+    },
+    {
+      "file": "PROSUSDT-1d-2023-04.zip",
+      "sha256": "d00c5ac6be68c8cf639b724ed6ecee150ee5c4682bfa62e5a840b442d6916784"
+    },
+    {
+      "file": "PROSUSDT-1d-2023-05.zip",
+      "sha256": "123e2edc1b4f283c12631965144e470f2b5defd0bfc87974d5e4155a941a4c93"
+    },
+    {
+      "file": "PROSUSDT-1d-2023-06.zip",
+      "sha256": "e10822a88cc8ee7e9cbc963c8e98c720c9e21d6509b4f18e47675600f3f32d77"
+    },
+    {
+      "file": "PROSUSDT-1d-2023-07.zip",
+      "sha256": "6f7ec2de2de9600298d967bf45507e1b7954723f1b29802bdfbedc246e8bcaf8"
+    },
+    {
+      "file": "PROSUSDT-1d-2023-08.zip",
+      "sha256": "489cd85087ec8ab576e78cfc4bbc78aa6664bfc0cd637da93245c084aa7824fa"
+    },
+    {
+      "file": "PROSUSDT-1d-2023-09.zip",
+      "sha256": "199b6a30db33689020717c71caa36b1b02c597565e57d2e364da3a0a2a289225"
+    },
+    {
+      "file": "PROSUSDT-1d-2023-10.zip",
+      "sha256": "45023313f236c85e7b7cc6e20249e9c04634a4bee0244c47c64d69266e94fcad"
+    },
+    {
+      "file": "PROSUSDT-1d-2023-11.zip",
+      "sha256": "bb7236fa222f04015bd2cb62f913b5ad774946c9895c9756412c6bd5ee079048"
+    },
+    {
+      "file": "PROSUSDT-1d-2023-12.zip",
+      "sha256": "ac294bc85774b999ae7a88e4b8b0707730bc9422a0c0eb3e9e8d33a77f6c277d"
+    },
+    {
+      "file": "PROSUSDT-1d-2024-01.zip",
+      "sha256": "04183a2c4258e70ff281781461371bc226394f936f25200e59fc78749b7ef6a9"
+    },
+    {
+      "file": "PROSUSDT-1d-2024-02.zip",
+      "sha256": "d9119a9100c0cbdd563419399909d3289fd00d26c2fe5a3eccc6e890f3c6572d"
+    },
+    {
+      "file": "PROSUSDT-1d-2024-03.zip",
+      "sha256": "f7c9fab81655fe435b4126a5ce04c1023d16cb27e0450cd90a40a1f686660e00"
+    },
+    {
+      "file": "PROSUSDT-1d-2024-04.zip",
+      "sha256": "1450e759f4976ab5c2140a4942eb3dba445c6d7399e3057d753471fad43ce8d6"
+    },
+    {
+      "file": "PROSUSDT-1d-2024-05.zip",
+      "sha256": "871ba34b31a00f5649a9cddbc6a977ad150fe45e8327c3058b7973672bfd12df"
+    },
+    {
+      "file": "PROSUSDT-1d-2024-06.zip",
+      "sha256": "6df895e2cb0f62bebe938f39950d7c26604d2e13bf1b28c2525c471f2c0c1b54"
+    },
+    {
+      "file": "PROSUSDT-1d-2024-07.zip",
+      "sha256": "5d8f8d0b0e6b084a74252c9f1609a833d459a8d6b1a522a2fe882f11eb459461"
+    },
+    {
+      "file": "PROSUSDT-1d-2024-08.zip",
+      "sha256": "ad9166c092d9b6ec26d74d6068a33eaba536bef6647474f0d9e0e55e9f325f86"
+    },
+    {
+      "file": "PROSUSDT-1d-2024-09.zip",
+      "sha256": "e60cf32cf2915ad9c6e33e702de2ea4b789568d5f4c6a0b481324ff260e1adec"
+    },
+    {
+      "file": "PROSUSDT-1d-2024-10.zip",
+      "sha256": "d65179a1f1c78342c8af69477458a6fd2ad559460ca2a8f495d14f47fe0b01ca"
+    },
+    {
+      "file": "PROSUSDT-1d-2024-11.zip",
+      "sha256": "44ece40196ee337e7839fabbb259ab2be639fbbbc49dae5984588a2dbd8e56f6"
+    },
+    {
+      "file": "PROSUSDT-1d-2024-12.zip",
+      "sha256": "62f901de7b12710ea96899508f47f54b8cb0b359e356d07d1f8dde035abdbb24"
+    },
+    {
+      "file": "PROSUSDT-1d-2025-01.zip",
+      "sha256": "0578d2d985c12cf48726705048f23707b2e54e1b1353449cc84d6fd05133cf03"
+    },
+    {
+      "file": "PROSUSDT-1d-2025-02.zip",
+      "sha256": "dbc6d728b5aefd74ff0de7a16518aeebd6dadb8ee8fc57e59d4a426607dfd0e5"
+    },
+    {
+      "file": "PROSUSDT-1d-2025-03.zip",
+      "sha256": "3b0c771693ea01cd6af2523eb95effe5f6f9df3bf1dee7796d8cd26ecc745d95"
+    },
+    {
+      "file": "PROSUSDT-1d-2025-04.zip",
+      "sha256": "8131d18a3b1d46c8741ba484535f45c9eb4397ccb2e0ba4efa54069f5fed6fea"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

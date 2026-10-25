@@ -1,0 +1,53 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ROBOUSDT/1d/",
+  "instrument": "ROBOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-03-04",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:43:58+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 211,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ROBOUSDT-1d-2026-03.zip",
+      "sha256": "5f2fd99362dab9c852f40bfc0f870f29d9ccb4bd86e2ca78194820fac69d5f84"
+    },
+    {
+      "file": "ROBOUSDT-1d-2026-04.zip",
+      "sha256": "1dd1a76763fa03d5020d5ced7675d24d01464e529b8de072ea8a371e6146a276"
+    },
+    {
+      "file": "ROBOUSDT-1d-2026-05.zip",
+      "sha256": "5a3da5220fa1fd739e0aa40a81b00d00db845bd8dc8c5b56f9b3d559d94c051d"
+    },
+    {
+      "file": "ROBOUSDT-1d-2026-06.zip",
+      "sha256": "c4651879a3a59a32b616dc07502f6e052f0a590ff826b0d6033d0a6d6da4465b"
+    },
+    {
+      "file": "ROBOUSDT-1d-2026-07.zip",
+      "sha256": "46559ae42d7ee490a61c4f5a38d939f3f4ddfc15ac877bbd8c33805ad9009798"
+    },
+    {
+      "file": "ROBOUSDT-1d-2026-08.zip",
+      "sha256": "8574419f531dd116ec5dbb76c9aa97a55585a370716f6b957a830d65be0d4f43"
+    },
+    {
+      "file": "ROBOUSDT-1d-2026-09.zip",
+      "sha256": "768326edbf3c1ae48d7a6854a78f5c2da8b78e43eeedb46b5c54bac44d051bd6"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

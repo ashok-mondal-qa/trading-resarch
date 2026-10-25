@@ -1,0 +1,149 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/METISUSDT/1d/",
+  "instrument": "METISUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-03-11",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:22+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 934,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "METISUSDT-1d-2024-03.zip",
+      "sha256": "92837183fb21742d02186f5a0dec79ac508fa789dfe65fd156135f270819eee3"
+    },
+    {
+      "file": "METISUSDT-1d-2024-04.zip",
+      "sha256": "0239bf4ae80823cdad50cd0cf231ae27f10799d7f49203dfb5e54485c36d2fe5"
+    },
+    {
+      "file": "METISUSDT-1d-2024-05.zip",
+      "sha256": "20e87d70d644f6f285b50ea52610364375a2157886660378f62f16a4e3ef7686"
+    },
+    {
+      "file": "METISUSDT-1d-2024-06.zip",
+      "sha256": "fcc7656bd7b42ea8a9807519a4b666262f76800816479693d8a062f70afce399"
+    },
+    {
+      "file": "METISUSDT-1d-2024-07.zip",
+      "sha256": "7fbceb6ba4a39684a8fee5503cfaace252b7ca1604cd81b3d1973a231e4386d9"
+    },
+    {
+      "file": "METISUSDT-1d-2024-08.zip",
+      "sha256": "752ec91372495ab30be5d85952584e6eece974fca637c02ad1e6dcb20451d667"
+    },
+    {
+      "file": "METISUSDT-1d-2024-09.zip",
+      "sha256": "a235953952a5d1fab02c6dbea11d8efdbe3ca34e2911dacd96173a421da19a05"
+    },
+    {
+      "file": "METISUSDT-1d-2024-10.zip",
+      "sha256": "59161dbc6e7a9369062c8edb98816aa1887f067550114780b31ac65ae233108d"
+    },
+    {
+      "file": "METISUSDT-1d-2024-11.zip",
+      "sha256": "4df17aad6b639f6a15bb8f1a1ec19aac2a660de33f631788a0e78cf5727ffd5a"
+    },
+    {
+      "file": "METISUSDT-1d-2024-12.zip",
+      "sha256": "c0381dbfb41ed846f74be32724cdc8adc423c94b9acfa46d586db36c8daab09d"
+    },
+    {
+      "file": "METISUSDT-1d-2025-01.zip",
+      "sha256": "e3bd035632d52ac809ea6d1cce38bede6544c0e6c75359388352952a4bef7b38"
+    },
+    {
+      "file": "METISUSDT-1d-2025-02.zip",
+      "sha256": "da74588ea1b433f9e6b9bc6cc3334a980c0cff60cd631a20adc758df723e8e79"
+    },
+    {
+      "file": "METISUSDT-1d-2025-03.zip",
+      "sha256": "297dc7e72e3135b86cb23ab3adb210cef66fa8ad90ed8efe6b41ceb9006ad4a3"
+    },
+    {
+      "file": "METISUSDT-1d-2025-04.zip",
+      "sha256": "1806a7ae959d69894fda9385517edb0774f79edc76db3f6051da0aa3c705c78f"
+    },
+    {
+      "file": "METISUSDT-1d-2025-05.zip",
+      "sha256": "8f793e72341396e185240aa17017046fcf506ddb24c294ed32e054d8dd4b63d0"
+    },
+    {
+      "file": "METISUSDT-1d-2025-06.zip",
+      "sha256": "fab6cb65ad3e1d50df54306afcfcf5239332ad36b51a0da8ad822d49e44660e9"
+    },
+    {
+      "file": "METISUSDT-1d-2025-07.zip",
+      "sha256": "395c47a990f7bc294ce5bf0adc9aff15f4b826fb427322323b1fd1d791c53391"
+    },
+    {
+      "file": "METISUSDT-1d-2025-08.zip",
+      "sha256": "d3eed6eb1c2866367e34dd8a81b8cf3fc8fbd915b1e8744071b87063679d50da"
+    },
+    {
+      "file": "METISUSDT-1d-2025-09.zip",
+      "sha256": "5394816e73362bcfcb901fbbe74daf93bf924eeca8fc42fc6051c6b54e8050c5"
+    },
+    {
+      "file": "METISUSDT-1d-2025-10.zip",
+      "sha256": "2c1fc0b11ccfd1c9d54a277023d224e9742f021cc3201a758464c70c3101a721"
+    },
+    {
+      "file": "METISUSDT-1d-2025-11.zip",
+      "sha256": "848500858aa545c0cc382a34f06c3435e0a6a788ee8b210362bae7d92abbbdb7"
+    },
+    {
+      "file": "METISUSDT-1d-2025-12.zip",
+      "sha256": "436980eb4ee1c37d79e4b51383216e78a3656697c13d48fb0c77adaf131de875"
+    },
+    {
+      "file": "METISUSDT-1d-2026-01.zip",
+      "sha256": "45898cfd6cfb9f8e11e70f51044aef171778260c7da474ae56a482828f98e5e4"
+    },
+    {
+      "file": "METISUSDT-1d-2026-02.zip",
+      "sha256": "ca5856f79d080fce46e533ca234cb1077c39c23ba03880cdbf403f020b6ebbb3"
+    },
+    {
+      "file": "METISUSDT-1d-2026-03.zip",
+      "sha256": "eebfde7e2ab9b24cf7d915f275907b71dccdc7ce56f52c42b857cd054fc376ca"
+    },
+    {
+      "file": "METISUSDT-1d-2026-04.zip",
+      "sha256": "cb0c1ce37b1b31aa0899643d5fab388b9a00e871851110a82cd65a551b30f209"
+    },
+    {
+      "file": "METISUSDT-1d-2026-05.zip",
+      "sha256": "8e0e84794a49cfc63397b18a6afa30eec6519558b975f4db7d48a2d32598d271"
+    },
+    {
+      "file": "METISUSDT-1d-2026-06.zip",
+      "sha256": "63b1d3fe1e064a71c1448a6b0db36d3d8f96c028cde79a7701ad44367b6a49f6"
+    },
+    {
+      "file": "METISUSDT-1d-2026-07.zip",
+      "sha256": "3e13c595dced07e72218cd08394b790414f644f3bd78e2cc46c0b4126ca6bd65"
+    },
+    {
+      "file": "METISUSDT-1d-2026-08.zip",
+      "sha256": "fb162c4f39a1eae0d1fb3356d83b516f4868fa83f7f16dc3247d15f90349b465"
+    },
+    {
+      "file": "METISUSDT-1d-2026-09.zip",
+      "sha256": "15742f6619857848dbf0ff6907cc7c885a9189a61fb2601a7f797cb46a6eacbf"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

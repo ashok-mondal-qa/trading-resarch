@@ -1,0 +1,173 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BONDUSDT/1d/",
+  "instrument": "BONDUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-07-05",
+  "last_bar": "2024-07-22",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:28:42+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1114,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BONDUSDT-1d-2021-07.zip",
+      "sha256": "76f0cc24e47761c7f82d33fac0b7f05f503e5ce360f73c94d74fdba538584e88"
+    },
+    {
+      "file": "BONDUSDT-1d-2021-08.zip",
+      "sha256": "729d80350497c366bd9db83aaddd82b35d96b187a2f563ff4a8a86b9e8008605"
+    },
+    {
+      "file": "BONDUSDT-1d-2021-09.zip",
+      "sha256": "a9dd37f224164269fd7a83e23db282681e4c4b9ebfbd755059c8d70ee4419692"
+    },
+    {
+      "file": "BONDUSDT-1d-2021-10.zip",
+      "sha256": "3c0134683fb653051aee40c8b930d2634f8e46231e572ae70578e223e4f03d58"
+    },
+    {
+      "file": "BONDUSDT-1d-2021-11.zip",
+      "sha256": "d6fa11d4bd177f7db02b7cf7d6c31318f38e2d4dc81d42da303a7c45c61fe111"
+    },
+    {
+      "file": "BONDUSDT-1d-2021-12.zip",
+      "sha256": "ae64ad849e23c83880f194f0997dee1bd40f7d5a3a4739974851d89170dad54e"
+    },
+    {
+      "file": "BONDUSDT-1d-2022-01.zip",
+      "sha256": "431dd53dbf23f395957a0526aaa9f1d32686a1840ecf149d386ea8833e9f110d"
+    },
+    {
+      "file": "BONDUSDT-1d-2022-02.zip",
+      "sha256": "e65160e58e824bba12b60bf098075c9b21c27c3ccdb1ee0f6ee9d2bdaff48023"
+    },
+    {
+      "file": "BONDUSDT-1d-2022-03.zip",
+      "sha256": "810a4cefabd5929b85b9ab5b9ab761d0db52ffcafa832d3c14ca2b8ecb2a7fcd"
+    },
+    {
+      "file": "BONDUSDT-1d-2022-04.zip",
+      "sha256": "b6490dffa7f0ab5e2dc445efec54311a33cafeee4051455814afba6562831bbb"
+    },
+    {
+      "file": "BONDUSDT-1d-2022-05.zip",
+      "sha256": "ee0bd237b653d37aed1fe7f4aae39f74b4c43ea6ce0be6d6de6649ac6d2406c5"
+    },
+    {
+      "file": "BONDUSDT-1d-2022-06.zip",
+      "sha256": "20223bc49ace8a5f645dec9bdc9df099b3aa683db5ad7da904115ab7eb6e58f1"
+    },
+    {
+      "file": "BONDUSDT-1d-2022-07.zip",
+      "sha256": "93f13c0a7c1928e82436c991a3f78d5d45ded2522e55ab66613ea1af5af6b003"
+    },
+    {
+      "file": "BONDUSDT-1d-2022-08.zip",
+      "sha256": "0eb6ebc9747f6a578eb21d44a9548e86b18d7b84d8deff1598bc3f86c6bc1132"
+    },
+    {
+      "file": "BONDUSDT-1d-2022-09.zip",
+      "sha256": "ecc9fb2da2c5e7479fe9748487b0510c71930d3e9ed49b7c5ae803679d634c68"
+    },
+    {
+      "file": "BONDUSDT-1d-2022-10.zip",
+      "sha256": "7425a66958b97eba9e6a2432bd325939fd2493b2bdb490aed0fa5b7204c8dc1f"
+    },
+    {
+      "file": "BONDUSDT-1d-2022-11.zip",
+      "sha256": "80f3f123f28844bfd9f1c77e40687587cfcafe96a4a6be32cccb6c9acb9c0718"
+    },
+    {
+      "file": "BONDUSDT-1d-2022-12.zip",
+      "sha256": "d477e04e420dfb797472469d4d8736656376b1cd3ab697082415a991286014ea"
+    },
+    {
+      "file": "BONDUSDT-1d-2023-01.zip",
+      "sha256": "a3d66c5fdcf514e642bd3c751b6932397224534b64998f9e2540450c633dc5e5"
+    },
+    {
+      "file": "BONDUSDT-1d-2023-02.zip",
+      "sha256": "89b1c2d3389db21e38d62544dbfcf9a5a874e37e5a66b71f69d9fee71718c106"
+    },
+    {
+      "file": "BONDUSDT-1d-2023-03.zip",
+      "sha256": "4026afb581d1d1e56b87f22f85e76e481528505b36604077fa81fff20ed39780"
+    },
+    {
+      "file": "BONDUSDT-1d-2023-04.zip",
+      "sha256": "e0602efadc3c192bb969399c5762f4d42e6f9a41cfd73736ef7479c1cf514d39"
+    },
+    {
+      "file": "BONDUSDT-1d-2023-05.zip",
+      "sha256": "58827392904163d0d8bd90782c805f5fb644a1a79bdb2fc3befe53936262dc04"
+    },
+    {
+      "file": "BONDUSDT-1d-2023-06.zip",
+      "sha256": "00b05d8ae7dcc3e9f9f2fe2dad790627f55b064e4c0fdcc5443f73f74ac3e045"
+    },
+    {
+      "file": "BONDUSDT-1d-2023-07.zip",
+      "sha256": "c1ecd1e028e1c1f006a5920698ea786fb445f631f880554c096df0364920524c"
+    },
+    {
+      "file": "BONDUSDT-1d-2023-08.zip",
+      "sha256": "564d84eababe65e75139513971d610bf6213a5a91c09f866a1f7bf4f3009cdf3"
+    },
+    {
+      "file": "BONDUSDT-1d-2023-09.zip",
+      "sha256": "779e01cf754296f131e2eb2094e16c01b983430eccdd68b8b30dfb1266fce793"
+    },
+    {
+      "file": "BONDUSDT-1d-2023-10.zip",
+      "sha256": "759e361b417d0d4617aceba27c294a841498b6ad68b1e1371128fddca8704076"
+    },
+    {
+      "file": "BONDUSDT-1d-2023-11.zip",
+      "sha256": "a0e33729a1b41f833a8441abb9bcf4c803c33476b9d96bea4881e8a16d359c2f"
+    },
+    {
+      "file": "BONDUSDT-1d-2023-12.zip",
+      "sha256": "e921c3e60c25f1e9806ea683538b0635c958b18ae312b8df42f5abc5ff28d070"
+    },
+    {
+      "file": "BONDUSDT-1d-2024-01.zip",
+      "sha256": "30be9ae6c36de196d16a2a586c0920d4d6d79a6484ec48588a615e2705ba9667"
+    },
+    {
+      "file": "BONDUSDT-1d-2024-02.zip",
+      "sha256": "25067b0a2df506e8a9e345def1298e59090adced6c2ebbc246d01fbf70a6ee70"
+    },
+    {
+      "file": "BONDUSDT-1d-2024-03.zip",
+      "sha256": "c79786be3b8bb83a0bd60a38b00a46ce4af1b06a1503163d5e4e1c3c212db7f7"
+    },
+    {
+      "file": "BONDUSDT-1d-2024-04.zip",
+      "sha256": "3df5b25ab8692621584c90dbd679d2cc7cc5cb078ac5efafa07de8b445f1e7f1"
+    },
+    {
+      "file": "BONDUSDT-1d-2024-05.zip",
+      "sha256": "c2f528c3bee516ee5458125a40a306dfb0ba6890c053243d9e41c8f4160c3582"
+    },
+    {
+      "file": "BONDUSDT-1d-2024-06.zip",
+      "sha256": "1bd7a99ca1771669431fe633674f5b3e346602b2babc994fecc1acf4d0e5e20c"
+    },
+    {
+      "file": "BONDUSDT-1d-2024-07.zip",
+      "sha256": "201f54bf4b733fd5431cc983d783fb9b88a25a4650e8bd299885ef49a884fe6d"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

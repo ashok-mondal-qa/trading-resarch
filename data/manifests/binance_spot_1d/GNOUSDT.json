@@ -1,0 +1,273 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/GNOUSDT/1d/",
+  "instrument": "GNOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-08-30",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:34:53+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1858,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "GNOUSDT-1d-2021-08.zip",
+      "sha256": "af8fb89dbcdc49071eaec90be648d5a9917221bd04408e276b04b6ff103fe9d0"
+    },
+    {
+      "file": "GNOUSDT-1d-2021-09.zip",
+      "sha256": "e51ba7e2a40d2025075da8b59c97f4931dde15b9ecb6b7d95d9402b52cfaa2ba"
+    },
+    {
+      "file": "GNOUSDT-1d-2021-10.zip",
+      "sha256": "d16594899b3028d70eb18533753a1d415b1b5140c8151159b67b05e4ce93a38f"
+    },
+    {
+      "file": "GNOUSDT-1d-2021-11.zip",
+      "sha256": "33391e9ce5dc3e4d576529fffdfbc21b91e71f20ea983617adf9ff139d3feff9"
+    },
+    {
+      "file": "GNOUSDT-1d-2021-12.zip",
+      "sha256": "cda16473d6ed67b5916250c13cb596616f5fddb69b59a995a39ae591c8e4dbb2"
+    },
+    {
+      "file": "GNOUSDT-1d-2022-01.zip",
+      "sha256": "309e9a6d7e1bcb8807c92e06925fd2bf4f6c82cc34958313d3ef99f6819ec1b1"
+    },
+    {
+      "file": "GNOUSDT-1d-2022-02.zip",
+      "sha256": "5f04f2c7b7462505e743d5206d3896d685a32e9e632ba79da554d39c950d46e4"
+    },
+    {
+      "file": "GNOUSDT-1d-2022-03.zip",
+      "sha256": "3eb21a032f495a06a1ed47d4dfa8f1936c3f1676b5489c53876b1f7ba67432fb"
+    },
+    {
+      "file": "GNOUSDT-1d-2022-04.zip",
+      "sha256": "8967763b34057302f7167d36f5db289bace0786b104856c7391983a764092018"
+    },
+    {
+      "file": "GNOUSDT-1d-2022-05.zip",
+      "sha256": "33de4e4640f8c7fef7721e126bedff5e98405754014a1a8d1b8ba894ead544ff"
+    },
+    {
+      "file": "GNOUSDT-1d-2022-06.zip",
+      "sha256": "8420a4823e9674c230b1762bb15c171497c602a9838188b18dd7af79c863cc11"
+    },
+    {
+      "file": "GNOUSDT-1d-2022-07.zip",
+      "sha256": "1d9485bf1f4942fc359ea1832689fe625c0bc6ab7716f9d6bab2087b54092eb6"
+    },
+    {
+      "file": "GNOUSDT-1d-2022-08.zip",
+      "sha256": "eee7e836dcb71efe14b290fae6706d55e8199395386e8848d838f07a1b9090d7"
+    },
+    {
+      "file": "GNOUSDT-1d-2022-09.zip",
+      "sha256": "72c61b24ff969f5872ab0bd5799318372c67d02c1d27f69b0af175e1ed8564e3"
+    },
+    {
+      "file": "GNOUSDT-1d-2022-10.zip",
+      "sha256": "1fe919bed537c0d9f24ab495564b490ca7ef68107ebd117e3b8a43760ea7eb64"
+    },
+    {
+      "file": "GNOUSDT-1d-2022-11.zip",
+      "sha256": "a5237d96a3a20d684c09e2f861ca26d896e11e87cda790e37d064318f444e84a"
+    },
+    {
+      "file": "GNOUSDT-1d-2022-12.zip",
+      "sha256": "c6dd26d9d4b98de405da5163c919a272bc241156aa95b1e7aae4d6a4d61f56d0"
+    },
+    {
+      "file": "GNOUSDT-1d-2023-01.zip",
+      "sha256": "885c383f9f9a29bec6cc6af0cb014f59119f4cc01b9709a0694710bc6298d6c2"
+    },
+    {
+      "file": "GNOUSDT-1d-2023-02.zip",
+      "sha256": "3d1ed80b8960eac1ba9d2a2e8e0f502f02560d72e9ddb6e04307e9c7ea9f6beb"
+    },
+    {
+      "file": "GNOUSDT-1d-2023-03.zip",
+      "sha256": "4b280da3702dc62738531d424304ea50a7423a639195107a41a33b80bfb747be"
+    },
+    {
+      "file": "GNOUSDT-1d-2023-04.zip",
+      "sha256": "4ba3f1fc0146176ba878ed200d8ba1b76b101c5516fda486ea3936bbc9d8bb76"
+    },
+    {
+      "file": "GNOUSDT-1d-2023-05.zip",
+      "sha256": "1a82547e5fe39b1474a672adc93106e93b5dd219ef05ac29149771af039d1d06"
+    },
+    {
+      "file": "GNOUSDT-1d-2023-06.zip",
+      "sha256": "2ed1cc51bb71cfb43165aedcdcdd64c01afefabbf1fdcd985660311708679488"
+    },
+    {
+      "file": "GNOUSDT-1d-2023-07.zip",
+      "sha256": "321ba14087b4e22ad5e75b7c831e4f240475393d1e4aa6bb7a808ca256923b68"
+    },
+    {
+      "file": "GNOUSDT-1d-2023-08.zip",
+      "sha256": "e29feec3a306c31a1fa863a21fa9fd3137fac0e2d5efc2a2a420fc9a130dbe73"
+    },
+    {
+      "file": "GNOUSDT-1d-2023-09.zip",
+      "sha256": "c0c9ffb1cf5ff8b301cbe2f9eb39e1e863fc5c3aead6321e7f1b071829d5b939"
+    },
+    {
+      "file": "GNOUSDT-1d-2023-10.zip",
+      "sha256": "afb0926300a03301126ba6debdecc3cde18cfd2a0831dc47a2164ed851bad312"
+    },
+    {
+      "file": "GNOUSDT-1d-2023-11.zip",
+      "sha256": "fcd56e5e8676f38199f26efa8533b86735f29bb79d0a4a2a6f529d3a44438af6"
+    },
+    {
+      "file": "GNOUSDT-1d-2023-12.zip",
+      "sha256": "7d6bb863f104bb46cc5e9fbfea441d2df2c0a21e9790c20fa14f08cc0022b578"
+    },
+    {
+      "file": "GNOUSDT-1d-2024-01.zip",
+      "sha256": "d3eec21b0c7fb6c984d0ab0c7bd6a1e2c86fc981ec0f120012739849d466c8bb"
+    },
+    {
+      "file": "GNOUSDT-1d-2024-02.zip",
+      "sha256": "63364efe4eff0bfb9b4db9d975e59322eed23d8b06d0978ac7dfbc0010517e71"
+    },
+    {
+      "file": "GNOUSDT-1d-2024-03.zip",
+      "sha256": "0fde0d71a466741f6ad16a53093581153655a4c8cf232853be48400cbefc8853"
+    },
+    {
+      "file": "GNOUSDT-1d-2024-04.zip",
+      "sha256": "7dbc03e82a688dbb7c00217c5bdbbcf42ad840850ab1921323e0aacded6fa4ed"
+    },
+    {
+      "file": "GNOUSDT-1d-2024-05.zip",
+      "sha256": "254abf489adcc254498c1ca60c558750125922cfc4d9a0bb5ede9ceffc2b6a31"
+    },
+    {
+      "file": "GNOUSDT-1d-2024-06.zip",
+      "sha256": "48b9dcd832f8551fddb525ccb654c66da23fbed24e673a6824655424b8a7bc02"
+    },
+    {
+      "file": "GNOUSDT-1d-2024-07.zip",
+      "sha256": "24e9fd8917abf4154f67ed26da4f732d9235680b5611ded40233db0b910a2ae5"
+    },
+    {
+      "file": "GNOUSDT-1d-2024-08.zip",
+      "sha256": "f8f067b89831aa1e0864dfce109d875b9332a10b1632f4d42d9832243b75e128"
+    },
+    {
+      "file": "GNOUSDT-1d-2024-09.zip",
+      "sha256": "cc3197d01b80ea79562c12a2c0a9d9161d7810964911783b441bfd8f5e2bfb71"
+    },
+    {
+      "file": "GNOUSDT-1d-2024-10.zip",
+      "sha256": "0b0b443cd7d26bc5e10df9e74eb83def1da6493cbe8b1d773a49a70d1b3ae205"
+    },
+    {
+      "file": "GNOUSDT-1d-2024-11.zip",
+      "sha256": "8b756b878d1bbd09248086972c8867faf7607d0510658eedbfa21fc1dd5dce24"
+    },
+    {
+      "file": "GNOUSDT-1d-2024-12.zip",
+      "sha256": "e67b73d850bd6c90316b2c8053b600c8b34b498f94d7ebf180b7b95a96594c9f"
+    },
+    {
+      "file": "GNOUSDT-1d-2025-01.zip",
+      "sha256": "ced5ba1627a1e616dc9f6c3c8c6cc72537111873b6b7f97e14cae84ae2d76cfd"
+    },
+    {
+      "file": "GNOUSDT-1d-2025-02.zip",
+      "sha256": "0c44c032598324eb1b70f12c80d622f4ef83299a930520dbf8e618fb9a4c1a3e"
+    },
+    {
+      "file": "GNOUSDT-1d-2025-03.zip",
+      "sha256": "c74e187bcf0106075a19baabb7a064c1918d66391007c2b31ccaf358c1f87d36"
+    },
+    {
+      "file": "GNOUSDT-1d-2025-04.zip",
+      "sha256": "2aa58ff9ba91a9ea31389dae831c449bc2e739cb4f460a6093fe584cf09cebf9"
+    },
+    {
+      "file": "GNOUSDT-1d-2025-05.zip",
+      "sha256": "89d51cd4556491f04f9d99a84393a9d5d59da5bce6a49a7f997eae4d4795eca7"
+    },
+    {
+      "file": "GNOUSDT-1d-2025-06.zip",
+      "sha256": "e25dfacd9aaa83d247d4e539a0e25843c7b26eaefd55d0d5adab57858a56d540"
+    },
+    {
+      "file": "GNOUSDT-1d-2025-07.zip",
+      "sha256": "32af3a7ab34e3a3713d55c5fc002dc4a4097c0bc2db416e64b548ee0dad0f394"
+    },
+    {
+      "file": "GNOUSDT-1d-2025-08.zip",
+      "sha256": "aba2fe2c401411c1ab1490ed9c5aeab878d75ff9ecb9c3ff94f43a9409e32424"
+    },
+    {
+      "file": "GNOUSDT-1d-2025-09.zip",
+      "sha256": "c91bb6d928dbb27beeb00778996b63c84af370ff0453b68b34721699f00f6767"
+    },
+    {
+      "file": "GNOUSDT-1d-2025-10.zip",
+      "sha256": "590f14fa58ecc48dce5451ebf3ae07db7cd3f7bd21a26346b40239fe0805626d"
+    },
+    {
+      "file": "GNOUSDT-1d-2025-11.zip",
+      "sha256": "04a2935655f9b7210c62143e16b7fbeeebb9fd69657aaaf51af0cae77bfa89ad"
+    },
+    {
+      "file": "GNOUSDT-1d-2025-12.zip",
+      "sha256": "3fa36519375116d5a8917475cebd9712882b326bb50918e217d89d60673aff40"
+    },
+    {
+      "file": "GNOUSDT-1d-2026-01.zip",
+      "sha256": "02da6be098063a82a77762e498c34652ecdcc9ef2b840ffc4e1565ea5581cadf"
+    },
+    {
+      "file": "GNOUSDT-1d-2026-02.zip",
+      "sha256": "a2d9aedc92a5f2ddcbe0ce3e1451ff964b587f8e99d75ba203f016c992fd2501"
+    },
+    {
+      "file": "GNOUSDT-1d-2026-03.zip",
+      "sha256": "90ceb28e1ced1637122971ac460d572dc75223abbd375f7c3b60ced5a040e565"
+    },
+    {
+      "file": "GNOUSDT-1d-2026-04.zip",
+      "sha256": "f7a11fb9e40724092b41056464c85a508c18c70369908e627daca895f0d630ba"
+    },
+    {
+      "file": "GNOUSDT-1d-2026-05.zip",
+      "sha256": "5a37e6813450573fef03eb226d1b7373ea4c7a92e4d20eaa2d3287d600aa57d6"
+    },
+    {
+      "file": "GNOUSDT-1d-2026-06.zip",
+      "sha256": "a4da60c7e5ef400e529e9e2179151d57e25be4bc18b22096dd34036bc65b3122"
+    },
+    {
+      "file": "GNOUSDT-1d-2026-07.zip",
+      "sha256": "460a8611e12deaf0b22c00e35af8e099935b3e3487de0e0d0f74c1a8ae91895f"
+    },
+    {
+      "file": "GNOUSDT-1d-2026-08.zip",
+      "sha256": "e28de37933357633c242df309edc8a1f6391900eb355a956f8ca17715ca4aa1f"
+    },
+    {
+      "file": "GNOUSDT-1d-2026-09.zip",
+      "sha256": "ec94785e52b8cdf6bf1422f1aa9d4ebade5da1251913fe73fb4d7bd1441b8275"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

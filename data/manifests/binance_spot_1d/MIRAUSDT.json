@@ -1,0 +1,77 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MIRAUSDT/1d/",
+  "instrument": "MIRAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-09-26",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:24+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 370,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MIRAUSDT-1d-2025-09.zip",
+      "sha256": "d440cf3611b890b4f0da3310eea58333f14195142861f86d40f997ad4ba29c0f"
+    },
+    {
+      "file": "MIRAUSDT-1d-2025-10.zip",
+      "sha256": "2772547ec2b77b3c8047956cd9e486c2357546155d112877187f3802e550db77"
+    },
+    {
+      "file": "MIRAUSDT-1d-2025-11.zip",
+      "sha256": "17eb7c6c9d546948cf68ef16338f66e3a08691cec6b89fbc5c5888f673c33d51"
+    },
+    {
+      "file": "MIRAUSDT-1d-2025-12.zip",
+      "sha256": "02db1c19e500c78c917520c45f7ccb2e5ea8082aff25bceb5c43a69292c6c374"
+    },
+    {
+      "file": "MIRAUSDT-1d-2026-01.zip",
+      "sha256": "a9a984a735565b153c74f30d5419ee707f532f8eaf0359ee4830477f94eceedb"
+    },
+    {
+      "file": "MIRAUSDT-1d-2026-02.zip",
+      "sha256": "6a08b698eef87f614efb813176c180786fbf7a593c2a0b4341e8dc5ff999f082"
+    },
+    {
+      "file": "MIRAUSDT-1d-2026-03.zip",
+      "sha256": "8cbce19342b1dfbdfc1e3ed16c0ea65b9baa454d4f6eb8b8a1103ca84d677e6f"
+    },
+    {
+      "file": "MIRAUSDT-1d-2026-04.zip",
+      "sha256": "fe7d862649b88cb82687e318c95121f350dbda890d85b3f4a18d2792d00ab2d1"
+    },
+    {
+      "file": "MIRAUSDT-1d-2026-05.zip",
+      "sha256": "9f6c34211455f8b2433373fdb5ad7e0e9c3f39aea9dc34e22eb4ddda0f2db4cc"
+    },
+    {
+      "file": "MIRAUSDT-1d-2026-06.zip",
+      "sha256": "48631e1d927d4aa62048db218698e0fcc45bf76127ff6189f7904f9ff223e20c"
+    },
+    {
+      "file": "MIRAUSDT-1d-2026-07.zip",
+      "sha256": "ffcf42771ad3aa8834c04f2464d25d75d33a8af8fd5725fa3244250ab337a029"
+    },
+    {
+      "file": "MIRAUSDT-1d-2026-08.zip",
+      "sha256": "77846e4f483f5de88bf1d22c0648b7b0399c8fd326eb212f59d2cd2a3daac35b"
+    },
+    {
+      "file": "MIRAUSDT-1d-2026-09.zip",
+      "sha256": "00284a104a4f1d58b6548455d94e37ce3f57efef39ad7d187199ebc47482d8f3"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

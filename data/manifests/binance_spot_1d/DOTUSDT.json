@@ -1,0 +1,321 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/DOTUSDT/1d/",
+  "instrument": "DOTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-08-18",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:32:16+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2235,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "DOTUSDT-1d-2020-08.zip",
+      "sha256": "263cec76863c84a4811b4f562452359535328b31b59435f64b1b817a6d7f038c"
+    },
+    {
+      "file": "DOTUSDT-1d-2020-09.zip",
+      "sha256": "8b97611cba0f2790f7ac7e43415d3e22862047efc277aaef644ada388e261d87"
+    },
+    {
+      "file": "DOTUSDT-1d-2020-10.zip",
+      "sha256": "3eafc922796994367416c7b3146fb75d08bc1ccdb0f162458ba185714e25fcee"
+    },
+    {
+      "file": "DOTUSDT-1d-2020-11.zip",
+      "sha256": "39a6a6461a87978af1aab50df2b9513896a14bb739767d06bb128309dd6f1e26"
+    },
+    {
+      "file": "DOTUSDT-1d-2020-12.zip",
+      "sha256": "202ac6a7082a7b699e7e9e2143d38d95a7be9614a4fb6465225cdd8e8aa69e52"
+    },
+    {
+      "file": "DOTUSDT-1d-2021-01.zip",
+      "sha256": "999f2224f2c993d3356b1fdfe21392d98395f16c7ba3ad11a974634c43589a7f"
+    },
+    {
+      "file": "DOTUSDT-1d-2021-02.zip",
+      "sha256": "1b7a873124a94a2a09b8bdc489e3e8ba342796a04fec719195f209acfa183211"
+    },
+    {
+      "file": "DOTUSDT-1d-2021-03.zip",
+      "sha256": "2fa900cdd39990d2b3cb3b2c6e3f374b6cb4419ea4cc13771a256a0aa265f06e"
+    },
+    {
+      "file": "DOTUSDT-1d-2021-04.zip",
+      "sha256": "6d0ede1d561f409dabdd57ff45be8ca3ffcd84ec3c7dae20bddffef8e830adba"
+    },
+    {
+      "file": "DOTUSDT-1d-2021-05.zip",
+      "sha256": "d527904c0ed41a55f7de7aa86e53081ab741b0470fd410bf32762fb0bd7e47f0"
+    },
+    {
+      "file": "DOTUSDT-1d-2021-06.zip",
+      "sha256": "a2ee6f7132e5ac6f0793e054d5efdbc9368d92e22a7382c3ecd4624ddf6dbd5b"
+    },
+    {
+      "file": "DOTUSDT-1d-2021-07.zip",
+      "sha256": "592d951e230b4ab65e82e78b9b92db72008eb9d7cd8755321ba6c63327de7d44"
+    },
+    {
+      "file": "DOTUSDT-1d-2021-08.zip",
+      "sha256": "1ba2ac106fa83e45a26b475377b59340842eb8afa02603b46310da730ebd9de5"
+    },
+    {
+      "file": "DOTUSDT-1d-2021-09.zip",
+      "sha256": "44c5ea2fbd05e1ec74ea0c2f05c0b7be855069f99f62df4f6b7cbe24d808833b"
+    },
+    {
+      "file": "DOTUSDT-1d-2021-10.zip",
+      "sha256": "025b10c81bc5e83475e55277a42abc4553121971fb694b6ee3af82120e2f2eeb"
+    },
+    {
+      "file": "DOTUSDT-1d-2021-11.zip",
+      "sha256": "b6d64ce8ec6eb341cbaadcd122b518af05dc81a774547cddd6c5b3dae25deb3e"
+    },
+    {
+      "file": "DOTUSDT-1d-2021-12.zip",
+      "sha256": "b2fba7a53709c1570206b55bdcc395106fff0a6c16da9a69dd9e28e2e8c166c3"
+    },
+    {
+      "file": "DOTUSDT-1d-2022-01.zip",
+      "sha256": "4f09e74743e21a3ddd5bf52a9be1c4d774f9a06ccada54bd8fd53311d2fe275d"
+    },
+    {
+      "file": "DOTUSDT-1d-2022-02.zip",
+      "sha256": "79f21f401c41c7617d8f665027dd115788d6468dd61fed3e1492e339046cda36"
+    },
+    {
+      "file": "DOTUSDT-1d-2022-03.zip",
+      "sha256": "8adc8cab6f4b7513a70bd5b0f7752a27c97b32b7bce245d4f9e16c8af4c4904f"
+    },
+    {
+      "file": "DOTUSDT-1d-2022-04.zip",
+      "sha256": "fda40fca92b4d2240f3a75f331521a0aaed872e67a6932b9bde0a3bf26a57d29"
+    },
+    {
+      "file": "DOTUSDT-1d-2022-05.zip",
+      "sha256": "27ec41e5e6cacce0beb3d53e74f80b997baa9e70f5540fc4b3b4310cc446913d"
+    },
+    {
+      "file": "DOTUSDT-1d-2022-06.zip",
+      "sha256": "cd0814c0eae1c43cc0e48ba51f23824aba7cee87ee3cd37919815ee0aa43999a"
+    },
+    {
+      "file": "DOTUSDT-1d-2022-07.zip",
+      "sha256": "4cfd17dad77eb7ee13fec3fb62f75ea446188c05d252f7ac40b848f957b3d5cb"
+    },
+    {
+      "file": "DOTUSDT-1d-2022-08.zip",
+      "sha256": "6b318a1b92e8b9ebb353cbe512a703cbac48e7d791e209c9d36e5dd9b5cfb0b6"
+    },
+    {
+      "file": "DOTUSDT-1d-2022-09.zip",
+      "sha256": "0fcc48962c1415b43a38f2fa0b7df0422831f6ae52ca8d8680c07ad50c5a7184"
+    },
+    {
+      "file": "DOTUSDT-1d-2022-10.zip",
+      "sha256": "165ffd50ad2d099c2a70f1e3b259e246a03646eb909d17c840c58ddc4e125491"
+    },
+    {
+      "file": "DOTUSDT-1d-2022-11.zip",
+      "sha256": "adb6fd68397d003a1aa74b8d4aab10bc3eb10973aa8b4ff8c6506403a6c22fc9"
+    },
+    {
+      "file": "DOTUSDT-1d-2022-12.zip",
+      "sha256": "f8b76d0c2dcc81fa076c22cfefe91fd2efa88d81adb9e6343157048accbbe7bf"
+    },
+    {
+      "file": "DOTUSDT-1d-2023-01.zip",
+      "sha256": "8d2b528affa9f6523976bb6dba9ff45cbf9a508aeb1ea7e3c8f8956c567cfe9e"
+    },
+    {
+      "file": "DOTUSDT-1d-2023-02.zip",
+      "sha256": "bf0cb48f683a32db8e0dc3ead3c7395d7bad3f06b950d92eacf91932d51c52f5"
+    },
+    {
+      "file": "DOTUSDT-1d-2023-03.zip",
+      "sha256": "fa4af98ab46b67a030123b1b2460b2c8663dccf8e3fec7173a7e485f76255810"
+    },
+    {
+      "file": "DOTUSDT-1d-2023-04.zip",
+      "sha256": "aa7b0686dbd0374f0e745c3db43f6de54acc3516d7aeb55f604b95a6d1001742"
+    },
+    {
+      "file": "DOTUSDT-1d-2023-05.zip",
+      "sha256": "63ae532933a5f5a8de22afe35de51bd02170184d85c1e7c7ba9f6e81909c45a7"
+    },
+    {
+      "file": "DOTUSDT-1d-2023-06.zip",
+      "sha256": "c2d14fc71e03efe1e3649653dea544865f4d2283c316628d128e00255ec1eab9"
+    },
+    {
+      "file": "DOTUSDT-1d-2023-07.zip",
+      "sha256": "1a3b42f77e248b7770e87bda2b091307cdee95f76a559597b7f146d3b1793575"
+    },
+    {
+      "file": "DOTUSDT-1d-2023-08.zip",
+      "sha256": "b825c749032ce082fb752b1c3958d09282e47eb4700e653ff582ebe9c8048dbe"
+    },
+    {
+      "file": "DOTUSDT-1d-2023-09.zip",
+      "sha256": "8129e274967ea29e36e24f7936998773fa29bcb858d4979fbf5ba76b257abf85"
+    },
+    {
+      "file": "DOTUSDT-1d-2023-10.zip",
+      "sha256": "0d902684bc2c3488bdfc801396b5606d54c0cbf755867e3eecaf41c1dd9e3263"
+    },
+    {
+      "file": "DOTUSDT-1d-2023-11.zip",
+      "sha256": "f6cb2bf2b81e0f21e343aed60aa396f301368e0d72e31ebf0552bcaf2c1c5cbf"
+    },
+    {
+      "file": "DOTUSDT-1d-2023-12.zip",
+      "sha256": "0b228ebee97dbbf018762753087a605e5646bd9ae2d2c871bae884782480748b"
+    },
+    {
+      "file": "DOTUSDT-1d-2024-01.zip",
+      "sha256": "0f7d3cb5615ae0586b79361f8084926b0f4075d5d70aca5a7b5e720fa84a61cf"
+    },
+    {
+      "file": "DOTUSDT-1d-2024-02.zip",
+      "sha256": "4e6526e08d88e52f8335c6951d73fce08e93c70509414e5070c1495a74ba8483"
+    },
+    {
+      "file": "DOTUSDT-1d-2024-03.zip",
+      "sha256": "44b4406fd8db6a54b13b80d0618b364170cb7d2493dd90c690e076ceae02c555"
+    },
+    {
+      "file": "DOTUSDT-1d-2024-04.zip",
+      "sha256": "eb45a3b18cbdf2cbd28c872d8805e551375429858c258cf7a9394ace0010e6b0"
+    },
+    {
+      "file": "DOTUSDT-1d-2024-05.zip",
+      "sha256": "73744411e9173f1df4b3c0f219986d2364e7745c01332cead38cff7ed6da9171"
+    },
+    {
+      "file": "DOTUSDT-1d-2024-06.zip",
+      "sha256": "33f5bf78b9819b20dcfadf96bd11aa93900884d97f56d439ee5d13050111e4ba"
+    },
+    {
+      "file": "DOTUSDT-1d-2024-07.zip",
+      "sha256": "963d07435fcd6276ef06ee5dd56140fdbf4806a9f73837f6aa36f1fbc8734af2"
+    },
+    {
+      "file": "DOTUSDT-1d-2024-08.zip",
+      "sha256": "fa9421086d91e19c15f3155e6503c11a291af00bc5d7a4787e9e1ed2f41e9bcf"
+    },
+    {
+      "file": "DOTUSDT-1d-2024-09.zip",
+      "sha256": "648ea3dc6dd5c8dfbeeb6f0bb099496e776e7e0604305ad920db16d1e8606385"
+    },
+    {
+      "file": "DOTUSDT-1d-2024-10.zip",
+      "sha256": "ea9a2dbe33c76ed07eefece72948f992b987c1692dc369b5f4cc631143576cf4"
+    },
+    {
+      "file": "DOTUSDT-1d-2024-11.zip",
+      "sha256": "676a2f9597698c434721861f809dc8ad17f1fdc3bfe5b95892de28eb7169f9ce"
+    },
+    {
+      "file": "DOTUSDT-1d-2024-12.zip",
+      "sha256": "9085b7c92f70fe59a78467b1ab14f738fd3f7bcf21a112e73ba702169f8b035d"
+    },
+    {
+      "file": "DOTUSDT-1d-2025-01.zip",
+      "sha256": "ace4f24e2eabd581de977be84a7ae06725030fd0cc436c57fd49a9f0d04e1f8c"
+    },
+    {
+      "file": "DOTUSDT-1d-2025-02.zip",
+      "sha256": "94a40a7ee37d179f3d4a58df349736b122479b5545d074afa39b3c57a37fc379"
+    },
+    {
+      "file": "DOTUSDT-1d-2025-03.zip",
+      "sha256": "8c7b9dc52ecb771f2989fa8bbc5e6d9bba9ea9e624e91cc5d4ecc222723ea5eb"
+    },
+    {
+      "file": "DOTUSDT-1d-2025-04.zip",
+      "sha256": "bc1a741c6f2426816e4b5e9b035d68beaa50df2eef84e6d13d79166982f3589d"
+    },
+    {
+      "file": "DOTUSDT-1d-2025-05.zip",
+      "sha256": "2c237389a7d2295443229738a82485a39904235f977c97a3ab8a12be313a9e1e"
+    },
+    {
+      "file": "DOTUSDT-1d-2025-06.zip",
+      "sha256": "3dd0bda771eb860ba4135193e75cecf06e3d19fce2d5e571a3dc8260e194393f"
+    },
+    {
+      "file": "DOTUSDT-1d-2025-07.zip",
+      "sha256": "eec2543b38b86878f4f72af66c84f302586676577e8f29acbe19719dd6a84ae6"
+    },
+    {
+      "file": "DOTUSDT-1d-2025-08.zip",
+      "sha256": "83b85d2802707f3e1e74a1e173a5d6b28f5d7576d191de1fc8e1ed8489dbf6aa"
+    },
+    {
+      "file": "DOTUSDT-1d-2025-09.zip",
+      "sha256": "1c4d08ba3a034d80eea42896994503e6bdc56c236c66a3ac8a6e3f7d93640ce6"
+    },
+    {
+      "file": "DOTUSDT-1d-2025-10.zip",
+      "sha256": "f76b59846f2b941764e7127e3705339b6529e3fda8942974818465755e01d81e"
+    },
+    {
+      "file": "DOTUSDT-1d-2025-11.zip",
+      "sha256": "ae33750ce0732021fee129dbe1cb5d3208d27f03372f4f35c4b6de8e62a95265"
+    },
+    {
+      "file": "DOTUSDT-1d-2025-12.zip",
+      "sha256": "7c23f6731999725344b5add94a42a5b4f4a30b4f353ed18867489aa371d70311"
+    },
+    {
+      "file": "DOTUSDT-1d-2026-01.zip",
+      "sha256": "93d058222752d52a4ab6a9b9aa0ef67be2ba4b1d39fcb9e56606c09703904143"
+    },
+    {
+      "file": "DOTUSDT-1d-2026-02.zip",
+      "sha256": "841a6fc67e4bccb609a4cae6c3e79fc4b33839655423546caf015c132f8b4090"
+    },
+    {
+      "file": "DOTUSDT-1d-2026-03.zip",
+      "sha256": "cd0d4f87f907a6e1c1a090095cb3e08577ad126fc97ddd29a88af364f3eedeba"
+    },
+    {
+      "file": "DOTUSDT-1d-2026-04.zip",
+      "sha256": "04bcd79e44cefdf24b0acfc2b1d2b21dff4a4ba286e0808790f21ab13fb0bc76"
+    },
+    {
+      "file": "DOTUSDT-1d-2026-05.zip",
+      "sha256": "385a7c2061eaa54ba48751ec62b0ce7fb08b26bb095fc3a748dc4209e2b07cb9"
+    },
+    {
+      "file": "DOTUSDT-1d-2026-06.zip",
+      "sha256": "15492a07e774a1abf6a18a8c9dd803a7560e50310c66ea158ae0a900689870d7"
+    },
+    {
+      "file": "DOTUSDT-1d-2026-07.zip",
+      "sha256": "2eb1f9c6177d30b5503e086c3871a4b7f9f90c98c9c4cbf3cf0d421c5de0142a"
+    },
+    {
+      "file": "DOTUSDT-1d-2026-08.zip",
+      "sha256": "804a5e656a91029355520e7b0264363018805a01bcd82ec3e5914d15f47dadfb"
+    },
+    {
+      "file": "DOTUSDT-1d-2026-09.zip",
+      "sha256": "8cf60c1158de917a480ce94b99f433f0ea81272a89174080cadfc588f13d0f4f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

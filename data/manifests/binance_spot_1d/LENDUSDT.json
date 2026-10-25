@@ -1,0 +1,49 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/LENDUSDT/1d/",
+  "instrument": "LENDUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-05-15",
+  "last_bar": "2020-10-12",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:37:22+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 151,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "LENDUSDT-1d-2020-05.zip",
+      "sha256": "ee19e96e799ff6e9f26638d92717a932ca6614eb6dd4c92bf1cfce32067184d1"
+    },
+    {
+      "file": "LENDUSDT-1d-2020-06.zip",
+      "sha256": "958f746aabebd5b6a0c7682913410f53cbc1155d45c0baec6e4f92938d55a2d3"
+    },
+    {
+      "file": "LENDUSDT-1d-2020-07.zip",
+      "sha256": "dad0e39b33eae6f0ea36ddae2172b98abdcbdd1acd71ed05dfc90d9a1b34dfad"
+    },
+    {
+      "file": "LENDUSDT-1d-2020-08.zip",
+      "sha256": "d4e339f091969ecdf0bc8cbc298892e33c5bd944e01c8c7f64dd2b24d1dc6d20"
+    },
+    {
+      "file": "LENDUSDT-1d-2020-09.zip",
+      "sha256": "4535f513e83f5f2c64fb96e5852a5738a2864bf7c6fd5e79144d38d70d9ce83b"
+    },
+    {
+      "file": "LENDUSDT-1d-2020-10.zip",
+      "sha256": "b99b7ed94d2a499e8f0e7e3d5007c0637ef82861ab2df14e1197030e2e137aac"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

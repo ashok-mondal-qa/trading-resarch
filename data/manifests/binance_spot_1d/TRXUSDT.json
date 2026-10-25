@@ -1,0 +1,425 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/TRXUSDT/1d/",
+  "instrument": "TRXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2018-06-11",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:16+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 3034,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "TRXUSDT-1d-2018-06.zip",
+      "sha256": "6475a55a14b5f1a3006df1e7fc602bf22f51b74b470217fe61b8f493e6df397a"
+    },
+    {
+      "file": "TRXUSDT-1d-2018-07.zip",
+      "sha256": "1011f78621627b16bd5d5f37f23ead17087182962d95943e91cbceaa7a8714a8"
+    },
+    {
+      "file": "TRXUSDT-1d-2018-08.zip",
+      "sha256": "a3d9a42d22fe9c84ac254bec160be5b0d8fea695af243911c8b90daa2b30544b"
+    },
+    {
+      "file": "TRXUSDT-1d-2018-09.zip",
+      "sha256": "5c9c644b707bf317fda396ff60d03ecc6a6b6581a77e0bc7c0f57353d89c2f61"
+    },
+    {
+      "file": "TRXUSDT-1d-2018-10.zip",
+      "sha256": "0b8577843a6e698c5aacec50bcd3de9f7a378f62cf5b0c1c13fba5086d046da9"
+    },
+    {
+      "file": "TRXUSDT-1d-2018-11.zip",
+      "sha256": "2fc48e6bdd6ded103bc08751b60e3caad78be6af8a92fb47deeb7c8b73288eaa"
+    },
+    {
+      "file": "TRXUSDT-1d-2018-12.zip",
+      "sha256": "37455ec248a182a7bf0ec4216c767a0ef8ee46438b04ab4c90d763e9fbf0d824"
+    },
+    {
+      "file": "TRXUSDT-1d-2019-01.zip",
+      "sha256": "476c3687c14282823865b8d1830ffc2e6be894b62f72ebb05584326845c9a682"
+    },
+    {
+      "file": "TRXUSDT-1d-2019-02.zip",
+      "sha256": "c172f61f9a7f7a0e5d5d120f58bb6b63badba728deb28be46be43a0a7f74b4d7"
+    },
+    {
+      "file": "TRXUSDT-1d-2019-03.zip",
+      "sha256": "a9f75c0165edb3a9d9b13c5e4b88dae403255a220f07699057556e174d337eed"
+    },
+    {
+      "file": "TRXUSDT-1d-2019-04.zip",
+      "sha256": "ac2d5ee230da515e030e6ad513eb0e995e8b26ec55b76c09b6e0390caa6be0af"
+    },
+    {
+      "file": "TRXUSDT-1d-2019-05.zip",
+      "sha256": "f3a549921b28f1a61c89594e7e88b80f6517a9bed82315392516685da675a20d"
+    },
+    {
+      "file": "TRXUSDT-1d-2019-06.zip",
+      "sha256": "60997a672bea5728e49f6fa502043b2d75fdf7ef0cd76889956341daf4f165b3"
+    },
+    {
+      "file": "TRXUSDT-1d-2019-07.zip",
+      "sha256": "e3dc48ea587e13d782704a2a41f9891512e9d3852e9a767da3480f0eabc560a4"
+    },
+    {
+      "file": "TRXUSDT-1d-2019-08.zip",
+      "sha256": "0975e792ccc699e5ae1f3ac2a81c090cf32977565b3f0899c7c59ec174599a3b"
+    },
+    {
+      "file": "TRXUSDT-1d-2019-09.zip",
+      "sha256": "c77652a9903cc973b16abd5d4a3c289d29ba1b68778dd825eee1089fc75bbe53"
+    },
+    {
+      "file": "TRXUSDT-1d-2019-10.zip",
+      "sha256": "e6fc5fc80497f8a243d691e662999181ae1c33b3aa69413b16914a69dd4474b2"
+    },
+    {
+      "file": "TRXUSDT-1d-2019-11.zip",
+      "sha256": "59628b19c603db7a31bb57a6fd13c2b6400b7984418cd7b8c0d928a75c008273"
+    },
+    {
+      "file": "TRXUSDT-1d-2019-12.zip",
+      "sha256": "d386b6feda867638e7ee486ac383ee6861f5fb7172a91632ba96ff6afebb3336"
+    },
+    {
+      "file": "TRXUSDT-1d-2020-01.zip",
+      "sha256": "7e7ef56c0c4e283659dc81a8d696491b327cf77ae0ba370e70613546d606de98"
+    },
+    {
+      "file": "TRXUSDT-1d-2020-02.zip",
+      "sha256": "aac1f080f19e8f8362b113ab3d306bf4837c33d8d2b4562159a33013e63b84d3"
+    },
+    {
+      "file": "TRXUSDT-1d-2020-03.zip",
+      "sha256": "33d03a14726f14cd667da21f083c484ba640999899ef6084404d463bd2b100dd"
+    },
+    {
+      "file": "TRXUSDT-1d-2020-04.zip",
+      "sha256": "7501ec21babeefbaf4321dad975f00b613b954751cb14f18c782635c9661b6e9"
+    },
+    {
+      "file": "TRXUSDT-1d-2020-05.zip",
+      "sha256": "74c249188e0f3aad66bccc970c158c68adddf5266634e544b0f728bfc67ef71b"
+    },
+    {
+      "file": "TRXUSDT-1d-2020-06.zip",
+      "sha256": "cba56cd294f1aca52a69ab43f4b9f757886732e10890ece582bba5acdc437da8"
+    },
+    {
+      "file": "TRXUSDT-1d-2020-07.zip",
+      "sha256": "832a2d96350f778105a3c437da895579ceb335b8d1112cd23a2724445d827b81"
+    },
+    {
+      "file": "TRXUSDT-1d-2020-08.zip",
+      "sha256": "01cef199e64521a5870d2b69644137ddb77c56b6c263d797b6288e423197c728"
+    },
+    {
+      "file": "TRXUSDT-1d-2020-09.zip",
+      "sha256": "4254d38a17a08d31f589ff86df0d7089d4a8c175fe3dbafff9a61c92bec625f3"
+    },
+    {
+      "file": "TRXUSDT-1d-2020-10.zip",
+      "sha256": "8ac98d7143c1c4fa78470e191627c1e7d6eb34d6bf631c3ba02f551898044121"
+    },
+    {
+      "file": "TRXUSDT-1d-2020-11.zip",
+      "sha256": "6876f9b766f5375c972d8173eb8ee1a085ab78cb94b212f2d7771a738ab07200"
+    },
+    {
+      "file": "TRXUSDT-1d-2020-12.zip",
+      "sha256": "59000e4396bbb72233401465701e031ec2eba66af2089b155179c2a4fb5bfd5c"
+    },
+    {
+      "file": "TRXUSDT-1d-2021-01.zip",
+      "sha256": "8a3f8f2fa2e57e172d8a6ec16aa466fb3a568880b601b6455c46d1b7fc74b1e5"
+    },
+    {
+      "file": "TRXUSDT-1d-2021-02.zip",
+      "sha256": "fbd80e4a08895c1b56912566d2d634eed60c4e38fb8def3011479bfc1fd575ce"
+    },
+    {
+      "file": "TRXUSDT-1d-2021-03.zip",
+      "sha256": "cb78b1ecf28c5d8227a9bb8c9249f28f0fee780f8436969621a2d2f4df477402"
+    },
+    {
+      "file": "TRXUSDT-1d-2021-04.zip",
+      "sha256": "6e0be7b4f264f174bc7713c0ba483f6a7f28ffa6daf2b241ca9b428ffcf96f53"
+    },
+    {
+      "file": "TRXUSDT-1d-2021-05.zip",
+      "sha256": "7dd853063d5e331f473b545534c6bf515168ef10c069813ebf2171f2d91a5934"
+    },
+    {
+      "file": "TRXUSDT-1d-2021-06.zip",
+      "sha256": "42dbd26776269aa64f191505254cf7d3550351cf68d9ae0d3fa31a5c1f4cb5f7"
+    },
+    {
+      "file": "TRXUSDT-1d-2021-07.zip",
+      "sha256": "b6b053f953df26b921879ac2ab1e74486ed61db6d0562f54db2ee9e09193b038"
+    },
+    {
+      "file": "TRXUSDT-1d-2021-08.zip",
+      "sha256": "294c49d62620c2c4f24b3d5c0ac42a4ee5b6342abf3a4f6c824c07b0a11b2896"
+    },
+    {
+      "file": "TRXUSDT-1d-2021-09.zip",
+      "sha256": "e4a38c152fc176b21e6c3c41c1c924c64094f47adcd01aabc121b77a794122f0"
+    },
+    {
+      "file": "TRXUSDT-1d-2021-10.zip",
+      "sha256": "48c4d33c8958037f49e8587d3d1e6599f4462748ff81dc7aba7eab7cef92d75f"
+    },
+    {
+      "file": "TRXUSDT-1d-2021-11.zip",
+      "sha256": "be4c97437388065a40e1e4fbc767e512306b32695ebf0d2c132e8b6efaf49dd3"
+    },
+    {
+      "file": "TRXUSDT-1d-2021-12.zip",
+      "sha256": "b51697918cd70c26d65b16d3d938f8ee6a99b9a274c5cb1876eb0a734c717f15"
+    },
+    {
+      "file": "TRXUSDT-1d-2022-01.zip",
+      "sha256": "1a2a8dabef04a730fe58dbbba9e65ef9747f1c3ffa73ca8a6cbc65cb2bd75ee7"
+    },
+    {
+      "file": "TRXUSDT-1d-2022-02.zip",
+      "sha256": "0b42fe186cfc171ca740bd5a61adaba5bc8f62f4305961c1f9a148cfb2a420f5"
+    },
+    {
+      "file": "TRXUSDT-1d-2022-03.zip",
+      "sha256": "d77365f0edb98d3df7c4d5a1a0ed3461ad49c75437cad85571bcaf2c2d1025ec"
+    },
+    {
+      "file": "TRXUSDT-1d-2022-04.zip",
+      "sha256": "7f1d17cae356abea96c3ecc80943a8d1349eb7b8b9143bd6094625eeef8694b5"
+    },
+    {
+      "file": "TRXUSDT-1d-2022-05.zip",
+      "sha256": "dd2b6761000218690dfaad47541ea08c0ece9f64307e0cf0e7c01ef588fb4856"
+    },
+    {
+      "file": "TRXUSDT-1d-2022-06.zip",
+      "sha256": "841a42d33525fd3baeab7e185a3074200354d2517c62c211adb3f7be4e19a1a8"
+    },
+    {
+      "file": "TRXUSDT-1d-2022-07.zip",
+      "sha256": "f358cfe3bb57735b9b0cb4b81c0a0396f00c821170eb99ddd09052b8e59928f5"
+    },
+    {
+      "file": "TRXUSDT-1d-2022-08.zip",
+      "sha256": "e9816bf21f8092c76c9596b2b9533fefc8b704aa84fb37c1045f8da1efe5a1c8"
+    },
+    {
+      "file": "TRXUSDT-1d-2022-09.zip",
+      "sha256": "76f6c85fb3a930fcdaac2788ddd945cd29a8503c6cbef6d05936fb869dda5a62"
+    },
+    {
+      "file": "TRXUSDT-1d-2022-10.zip",
+      "sha256": "11d361efc45301c56b50432acf8428e17e5f5df98365199e9ad8e89921e1939b"
+    },
+    {
+      "file": "TRXUSDT-1d-2022-11.zip",
+      "sha256": "4d5707ed2caf7a7f0a00ce8d057609a8f3beb6e31306dc722947e65079dbdd2f"
+    },
+    {
+      "file": "TRXUSDT-1d-2022-12.zip",
+      "sha256": "d34cb466aea3675941ecf9e147890731629120d3daa5ab6d17cd0679d4f93702"
+    },
+    {
+      "file": "TRXUSDT-1d-2023-01.zip",
+      "sha256": "02b70d95532d22fca032c3c1bc3180e2b45ee2d5579d178e6b433090e5738239"
+    },
+    {
+      "file": "TRXUSDT-1d-2023-02.zip",
+      "sha256": "bb4e06ac009ae19154745de4e44f9e16a8e6ce04149522f7c5935bcba6e5cae5"
+    },
+    {
+      "file": "TRXUSDT-1d-2023-03.zip",
+      "sha256": "88806f55ced6fb13cac8b99b759588fc39f47005070563f201f9fa5d47d801d3"
+    },
+    {
+      "file": "TRXUSDT-1d-2023-04.zip",
+      "sha256": "188a95c015efa468bac344c7998daac93051874ce4f4a3db857efefb60d2a46b"
+    },
+    {
+      "file": "TRXUSDT-1d-2023-05.zip",
+      "sha256": "9a426abde11957b2a474eedc328899d8f778ee0d01e9a7f88fbb3a2a5e28cb36"
+    },
+    {
+      "file": "TRXUSDT-1d-2023-06.zip",
+      "sha256": "c0c0c1a632d676eb3b8f1e6e3d3e25bb4f1b384d57fcacb3cc46794d36071f39"
+    },
+    {
+      "file": "TRXUSDT-1d-2023-07.zip",
+      "sha256": "a4554328603571f375ba8b530e98a57f7fc591ce5830e959f98cc90e0a5da50a"
+    },
+    {
+      "file": "TRXUSDT-1d-2023-08.zip",
+      "sha256": "8d8c28198925848b3b42504cc37b53067827e1b9f24e0d293bcd00179f6e8422"
+    },
+    {
+      "file": "TRXUSDT-1d-2023-09.zip",
+      "sha256": "3e39ce9a88473fdad22a491576c654eba54c06cb813a39d5d6c4b641a5de9fd7"
+    },
+    {
+      "file": "TRXUSDT-1d-2023-10.zip",
+      "sha256": "80680fbe1a189a1a6ecd205cb6d1a3e1804514b87ebdff9d368d55e072b893ff"
+    },
+    {
+      "file": "TRXUSDT-1d-2023-11.zip",
+      "sha256": "37ac66bffccc021050f29f94710a53ecd09097eb08ba313d70ed4954b4de2ba8"
+    },
+    {
+      "file": "TRXUSDT-1d-2023-12.zip",
+      "sha256": "f2dcbfb35d300b24463dbc1f88e9d72cfeee5981ff902d32b8fed7994e7a485f"
+    },
+    {
+      "file": "TRXUSDT-1d-2024-01.zip",
+      "sha256": "1b4c57a749d58a55d080fc3c8c203f9620e64d3498ba56ee953bdb9481e708d5"
+    },
+    {
+      "file": "TRXUSDT-1d-2024-02.zip",
+      "sha256": "6309f7ce87fcb01473f42c1e0775827a815772e66240d02ddb4531c13e833327"
+    },
+    {
+      "file": "TRXUSDT-1d-2024-03.zip",
+      "sha256": "c7ed2401ec7149eac58f4c7a007fb6ef0e90bd8c008969528e137caff10e82f7"
+    },
+    {
+      "file": "TRXUSDT-1d-2024-04.zip",
+      "sha256": "cd6331e859fb71822991b8abf0d87af17a89b45da7bb57277a4eb239ea8508b1"
+    },
+    {
+      "file": "TRXUSDT-1d-2024-05.zip",
+      "sha256": "a9836da6cf600dcdac6152677d1f983d8b1a7d0031701f11bb14273be4e7ea1d"
+    },
+    {
+      "file": "TRXUSDT-1d-2024-06.zip",
+      "sha256": "2fdd891a6a8d0a01f9f000899a5ebc107eb7bc05d5ab337dfbd9b087c175bf5d"
+    },
+    {
+      "file": "TRXUSDT-1d-2024-07.zip",
+      "sha256": "9017f8665e7afb2c5ae3b86eea1886275eec372a5a959c38d3496d2cf9de66ac"
+    },
+    {
+      "file": "TRXUSDT-1d-2024-08.zip",
+      "sha256": "2d4d31e1f018685f251f8614fe25c35287051d3b4e25821daea5b78ed8c09c59"
+    },
+    {
+      "file": "TRXUSDT-1d-2024-09.zip",
+      "sha256": "a3a1acfb9ad4691a1373406535ae7a23f7b211b7b3b0dfbbe187ea009e489cce"
+    },
+    {
+      "file": "TRXUSDT-1d-2024-10.zip",
+      "sha256": "7d3349c088190dc069ee6768e1f2ba6b7ed937ad107165d09ef03bd22a33cc38"
+    },
+    {
+      "file": "TRXUSDT-1d-2024-11.zip",
+      "sha256": "c4d2292c80cab260d9ec24bab68a833fce2fbfdec32226bb54e629446ce1b86f"
+    },
+    {
+      "file": "TRXUSDT-1d-2024-12.zip",
+      "sha256": "8a41a988fd7b47f7d4cd4c8bd6035df3abad2e2dc84f984514cea9f2df0b4c6c"
+    },
+    {
+      "file": "TRXUSDT-1d-2025-01.zip",
+      "sha256": "ae922546c6e9575fa29d7acdf643d4a6f8d52be68d2582ec43a5022a05d91433"
+    },
+    {
+      "file": "TRXUSDT-1d-2025-02.zip",
+      "sha256": "70c309a73f656e00fb1b10d54160db21ea7edbd38d19f00682de8174a70d947f"
+    },
+    {
+      "file": "TRXUSDT-1d-2025-03.zip",
+      "sha256": "fc38db85110d0eec6b1c5a27b74d1273329525f9b9e9df52e7f10a861be5eb27"
+    },
+    {
+      "file": "TRXUSDT-1d-2025-04.zip",
+      "sha256": "9feafe15bdeb4956c0579398a3281936148bb0e111d54513393d5f6e6b118be0"
+    },
+    {
+      "file": "TRXUSDT-1d-2025-05.zip",
+      "sha256": "77c31cab33755ce63e64b117857e3a7d1247201b6ea161cbb7335cd47362dd44"
+    },
+    {
+      "file": "TRXUSDT-1d-2025-06.zip",
+      "sha256": "e0e32320bcdd9b3a5fc987d9bdb3854d07c631de5ec1fc881dc86d027ac0dea3"
+    },
+    {
+      "file": "TRXUSDT-1d-2025-07.zip",
+      "sha256": "d1be70a9723fcc451e76dcfb5f21747810aa5f50e4d254e482a9192ca3d7a16d"
+    },
+    {
+      "file": "TRXUSDT-1d-2025-08.zip",
+      "sha256": "f9b303f0d15d58d2561d4973a376ad033a42df3c8db921e57eb05733d47bfb02"
+    },
+    {
+      "file": "TRXUSDT-1d-2025-09.zip",
+      "sha256": "fe809dfade11bcf4d1bb3aa4229328d9395497f4c5536a21926410a806ea05c6"
+    },
+    {
+      "file": "TRXUSDT-1d-2025-10.zip",
+      "sha256": "4ccda214aa7fce5025f9f627147e6014f3c0e1b9d432228f9e773b4401779071"
+    },
+    {
+      "file": "TRXUSDT-1d-2025-11.zip",
+      "sha256": "74485b6c6697fbf0951b65b514b3fb856b9350f4374b3db07a7d9305226b2ada"
+    },
+    {
+      "file": "TRXUSDT-1d-2025-12.zip",
+      "sha256": "0b56c467a55f38e5471c376a1f3b2870f19218858cf90bf7338715db7703a0d6"
+    },
+    {
+      "file": "TRXUSDT-1d-2026-01.zip",
+      "sha256": "b43d87c58d51d31da00da4fd7b571f011577bea088ce243543bfcb5b804135ee"
+    },
+    {
+      "file": "TRXUSDT-1d-2026-02.zip",
+      "sha256": "e9fd0bd5e121f2e5075bbc4b441cc2accf21f00a02fb371302aa30ebd88373e9"
+    },
+    {
+      "file": "TRXUSDT-1d-2026-03.zip",
+      "sha256": "52993088a3b4bc26c7a47e90744def7e70318745d7eed14353ecb4ab694ffff2"
+    },
+    {
+      "file": "TRXUSDT-1d-2026-04.zip",
+      "sha256": "1c158e60a27382005d375d4d036dc3ce9c38e8e31e6982f8349d0d9b450f515a"
+    },
+    {
+      "file": "TRXUSDT-1d-2026-05.zip",
+      "sha256": "5b9d58dc828ac262c0cfbe1269709cdd3ba1e9667b4f7556ac684894526d480d"
+    },
+    {
+      "file": "TRXUSDT-1d-2026-06.zip",
+      "sha256": "1f251dd0b9bbf6c3b51d18edfb862abffc75cab5a239902ddc3c3a34f43a7288"
+    },
+    {
+      "file": "TRXUSDT-1d-2026-07.zip",
+      "sha256": "d89f6c57a830244c3836ad018f0d6168600f6f261fd32f4549d81f8e6ab6a496"
+    },
+    {
+      "file": "TRXUSDT-1d-2026-08.zip",
+      "sha256": "416d5fc96586579f05bd2fe18be50c64b0b8aea1f8d495233ec7cb3e5f75bb40"
+    },
+    {
+      "file": "TRXUSDT-1d-2026-09.zip",
+      "sha256": "ad8c69d109a533cef58abdbe907c502cd3487f95ae7cf2c2faddaf890eb258a5"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

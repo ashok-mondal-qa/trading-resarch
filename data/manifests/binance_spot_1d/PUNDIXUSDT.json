@@ -1,0 +1,289 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PUNDIXUSDT/1d/",
+  "instrument": "PUNDIXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-04-09",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:43:27+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2001,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PUNDIXUSDT-1d-2021-04.zip",
+      "sha256": "fa07ac86e9e8030d3e1c4c71f9eb9e95578c577b3bb066ff42e0a02735bf64b7"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2021-05.zip",
+      "sha256": "e7eb0cd3764d331d932a8a3c3cbb9806397ac4e928f4db69bae7b979432cdb20"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2021-06.zip",
+      "sha256": "3367d6048b5616b7000813905c962f5e8011db414805e9b484e1107ac5dd0fe8"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2021-07.zip",
+      "sha256": "9c8775c6cc4f340539d33c36f4d8df76bc702b887a71ccc42d1f9e4ef3087024"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2021-08.zip",
+      "sha256": "0361abd99a33236d0cba4dc0a2f503c8c137300aa2e3bb6b566e20f7742a65f3"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2021-09.zip",
+      "sha256": "fa152510a304d6b79475657aa8831f36379bd38ea0d805511020f46dd3ac4cea"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2021-10.zip",
+      "sha256": "0ace046b112a100f57f8310ac1f71be1ce54f325dfe617c4f1d0f7d41d5db6ef"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2021-11.zip",
+      "sha256": "48a7bdc62d50ec48c3512960b9ade8ca73cca1e9f3b5c299fa57b11b562ec6dd"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2021-12.zip",
+      "sha256": "cbb8898861d5c5df32414ffe7405e6ac319894e98ee1163e72859a92e8a6d6b3"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2022-01.zip",
+      "sha256": "8126aec7ee2f7fbf493925f8d11419df157d5bd16c071c7b319c5f3a064e3464"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2022-02.zip",
+      "sha256": "9a3fa86097f01ccb284fb3b17abc927cab35ae8045e08e71aaee0f8e4c3bf9a3"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2022-03.zip",
+      "sha256": "38458c28b2c3e9f8af567db2800d852248d02a2a98ab1ce9090858411d719c4d"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2022-04.zip",
+      "sha256": "3b380203a4bab395a04004a51e5b8aacbb0f301592d67725b5d43532048b2ac2"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2022-05.zip",
+      "sha256": "e1622e0162eaffb53a36390365361c494c4a7df224236d9f5ebaebd7abfd9415"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2022-06.zip",
+      "sha256": "9b03e79a701bcfb9f7e82677b5502fdfe606a74cc63aff17faf9c30ae3c5f07b"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2022-07.zip",
+      "sha256": "6dffc03efec5b68a460471da604f5cd3e17d417ec8412efa14a0ec3d159654c5"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2022-08.zip",
+      "sha256": "0670a6a8fad4136a70c4b667e7825f62ffcfafa528fa9cb2c1194276320fe6df"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2022-09.zip",
+      "sha256": "348cbbfd9524dbcbd32e7b2e923e886430132dddbf4cbd151d6598d51423409d"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2022-10.zip",
+      "sha256": "0b27c2d41d5e2e67feec07d345625ca8295f2d8e2ae32caf34a1517808d07ff5"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2022-11.zip",
+      "sha256": "c2fcdd9349c8bc2a075982e94766fa4c405e65000e2bcc4d203f2fbca0b9cf39"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2022-12.zip",
+      "sha256": "3c747b4db7f8c2092a24808a827a11d8844c7ccd4cd20346cb3232f7ace5f1f7"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2023-01.zip",
+      "sha256": "e4e3aac2a5ae5a2de058845c3a20bd6312df3a1ce5efa24d43b56f0fe456fa47"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2023-02.zip",
+      "sha256": "9e9388fcbe86d923010a8a0f7646e8f10886895442a0ec62f032823fb9057679"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2023-03.zip",
+      "sha256": "6986fa43cf69b1a7c502da5f0a6d2d5b7f8362dbebc5c5e739955c73a6b5c4d7"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2023-04.zip",
+      "sha256": "d578005cafc58ceca4d07cba6afe0b2a0f4c55e712decd841b2efd33c1451357"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2023-05.zip",
+      "sha256": "c8795ba5e65ecdb10efbbcf55df706de187981cf513319dc4d1680702e049e79"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2023-06.zip",
+      "sha256": "58fd7c228101afd26d226d3de61c2616f0575a0b3ec4d9ae75d1dd949f9c013e"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2023-07.zip",
+      "sha256": "a2704683adfeb70e7f3627d6b688795999204c92a3207152d18c74502db3072b"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2023-08.zip",
+      "sha256": "456a22ccd404546a0e84f84f55a8e652904f7ec9fab136b07922d198ccb55d16"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2023-09.zip",
+      "sha256": "8953518209f421272fe85b4c6abee1aff3ef6e9356b3870857a991e7c5729509"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2023-10.zip",
+      "sha256": "e5089949c52dc72af95f3b05d10002eba6b1bc80a5cdb44ddbb6831b5e4bb005"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2023-11.zip",
+      "sha256": "ea3f2ebe01c6c4149d6f7efad1a78c80ec52a9243817eb1a0a2817164d961b92"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2023-12.zip",
+      "sha256": "a53368b7c799d81d7cd2b79ab288b6bdf786238647c1259985529271491dd71d"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2024-01.zip",
+      "sha256": "779f61d44ed0a2e18f63d98d9a64e2a6f27e45e5101657a2b5dd9dabdc239629"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2024-02.zip",
+      "sha256": "d481b353d333335c2846436e26c5c419f1e7bd4f0cd0e8cacfb1dfd80d19f0ed"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2024-03.zip",
+      "sha256": "095eee204015d539dcc8d1eb480df1f8d39dd8e851a9a744575e8a8deb715da1"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2024-04.zip",
+      "sha256": "a4e36727ee8cb441090970c97b3ecbd818b8100391258a46b645bbd5dadc9023"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2024-05.zip",
+      "sha256": "cac7d215deb43e352fdc33e66d3a75fadab25c3061d752fe2e5552568d9885f9"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2024-06.zip",
+      "sha256": "b3903326c1904300c817545b755eb3547865947962623e264e328d0cb6fc9663"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2024-07.zip",
+      "sha256": "a40acb31b6cf23a15c6edced53d6524623c3734e2e947dc886285d0369f83944"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2024-08.zip",
+      "sha256": "660fda273001411658cb83cc94ffe4c50c210991c79ef583370a6ef81efe971f"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2024-09.zip",
+      "sha256": "5d9ed3becf35563e61b3511a2a482673c12eec8b8f11f45c58f9ae362042489a"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2024-10.zip",
+      "sha256": "37a6fcb60730510ecbd523cdcb16bf6fc9a47d6d7d426396ae110b08b26c763f"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2024-11.zip",
+      "sha256": "004391a36f9a2050acde538100f7021ef8814fc50c42d8f5bf222f3b5da2b57b"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2024-12.zip",
+      "sha256": "f59c5bc4d378bff9bfcf00637e8b4c151152bf5e632fa0466faaae8bd38b149d"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2025-01.zip",
+      "sha256": "56c2e20d02f828febb370881b96e41407f904f5b1c920bec50803b046655cf1e"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2025-02.zip",
+      "sha256": "1ffa1e97de14b1a254e20e671c979ebc2e017342534af29d6fd8b569a480ec17"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2025-03.zip",
+      "sha256": "1a6f3e46856d12ea45f06e7acf7e44dce14e28bc2af293bd2934f0e68bfb069d"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2025-04.zip",
+      "sha256": "68cd3d8fe85226b7b49e050897eab3f216807b8b8100ac6eade6296921100ea7"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2025-05.zip",
+      "sha256": "6155a01a0fdd37310572e6f7be931fe6819498e05c7e30d429eaaee3b5e4a595"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2025-06.zip",
+      "sha256": "0151c5ab9953fcadf7c00e6111f292cdfca14dfa02f8d7bf49c338cea050e4b8"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2025-07.zip",
+      "sha256": "40144eeeb8ea151a8e6559e51c573b739473bb6a15f9109bafbc05fdb0cf5b49"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2025-08.zip",
+      "sha256": "75e6952be4513bba4cd16d84718a1abb619239f6fb91cf19dcaa6299b4abfa9e"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2025-09.zip",
+      "sha256": "747f3239336306545e3fa0cc81088ad11d7a880e7a62af95f42f1caa7f1e2458"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2025-10.zip",
+      "sha256": "465f4a682a353dfc8469dfc6550b719753fc567e059db7fa29d1f20d48e4aec0"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2025-11.zip",
+      "sha256": "94f10217f9899baa1d9837c459d028e848d84d12fd74ea28acabbcf40a3ace81"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2025-12.zip",
+      "sha256": "82180b8b9a2b70803dc58913df66dab6701ee900ab89c7e791a71c4228e726bd"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2026-01.zip",
+      "sha256": "8c163d0ac767452340996ad29495cb62fb4fdeaa525c0dfe2fcb688e6eaa2980"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2026-02.zip",
+      "sha256": "a1bb458077ca045d5bd50025eb154fdd1616daf5cbc0bec39bd87e2d962f70df"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2026-03.zip",
+      "sha256": "a76ff34dad9ed47847a57265b9825e881d1dc0efbf9569ae1a28b1531a69a8ba"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2026-04.zip",
+      "sha256": "fb827ffcb7cd9be20dd8ca9dadbddffc680d0148df94de0ae27c972c4a2f7ca6"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2026-05.zip",
+      "sha256": "f8e6ba2b8c03ce96629f415d49a625c69a58b7b93ded5d297a50b8873beff24f"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2026-06.zip",
+      "sha256": "0b09a7ef21985a1b331e7fd1625898c8a5f2ec30e4935024ac574061d2cc69da"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2026-07.zip",
+      "sha256": "b61bb055919c1cfd4d921aefc93221c5c2c25081a104243f7b3c88d98cea871e"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2026-08.zip",
+      "sha256": "357344c178b80c4e1cd954f6c57f4db2a13e94a3b317a374dea176d071a33f47"
+    },
+    {
+      "file": "PUNDIXUSDT-1d-2026-09.zip",
+      "sha256": "123797b2c6d61b7a5e7e8adc01f5a261c24dedfa35f5f696858ee56375d701e6"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

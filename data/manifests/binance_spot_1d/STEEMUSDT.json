@@ -1,0 +1,241 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/STEEMUSDT/1d/",
+  "instrument": "STEEMUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-04-22",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:45:59+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1623,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "STEEMUSDT-1d-2022-04.zip",
+      "sha256": "9dd5cf4cbff6d5318ec43f2dfe0d925809f01d165d8a5203326d6f9af89d1699"
+    },
+    {
+      "file": "STEEMUSDT-1d-2022-05.zip",
+      "sha256": "ebe3576c9a48042eea9aacd41e18cc6e0ff4025e76fd3feef063b799f8180099"
+    },
+    {
+      "file": "STEEMUSDT-1d-2022-06.zip",
+      "sha256": "0049d0d687f240155e9a15aef1f7de543fd92ebe1e5936365eb9b50dc2f866b8"
+    },
+    {
+      "file": "STEEMUSDT-1d-2022-07.zip",
+      "sha256": "30a1f87e159483eaecdce413f79e69f8cb27326a2fef62a8debe94aa19c71c72"
+    },
+    {
+      "file": "STEEMUSDT-1d-2022-08.zip",
+      "sha256": "30fee75f8ed70fbd9a7c5ac65e2f1a0792d7f5806632409c6fbb00aaf9839714"
+    },
+    {
+      "file": "STEEMUSDT-1d-2022-09.zip",
+      "sha256": "2e0f278cff357c3c93fbda88193139afb90e83cc261b7ff723353f7809119d47"
+    },
+    {
+      "file": "STEEMUSDT-1d-2022-10.zip",
+      "sha256": "ee72284ef4544eb65c1b4836781847e92beecfc3c373928ffab8a40e6b432dba"
+    },
+    {
+      "file": "STEEMUSDT-1d-2022-11.zip",
+      "sha256": "c62c1b75d7a2eb2dc433d58679be93d9a14dced608bb7d29a758024daf32393e"
+    },
+    {
+      "file": "STEEMUSDT-1d-2022-12.zip",
+      "sha256": "72f68553c7c6c96b96b9c5b0eaab0ff5b8327ec02179f83b0505738bc134d1f1"
+    },
+    {
+      "file": "STEEMUSDT-1d-2023-01.zip",
+      "sha256": "9310576a637de790ba762ecb21c3bc00bae426a95293acd902e01c6f7a6193a3"
+    },
+    {
+      "file": "STEEMUSDT-1d-2023-02.zip",
+      "sha256": "335c31bdb2ae841a0d07d0f61c190bbe84346b2be6d8ea5e6156c66ee43e8955"
+    },
+    {
+      "file": "STEEMUSDT-1d-2023-03.zip",
+      "sha256": "f2973746f0e6b9e9bd79819bf81c84324926b8a1a1db08aafb4076e7d9fe7678"
+    },
+    {
+      "file": "STEEMUSDT-1d-2023-04.zip",
+      "sha256": "de64f2ba26e949e582da1ee28fdce9d72828df65e99606ae0b1994633058b149"
+    },
+    {
+      "file": "STEEMUSDT-1d-2023-05.zip",
+      "sha256": "2924e3b86362e1b04c9c6e410559971f051c16211972244676c8d6d0b178ac5d"
+    },
+    {
+      "file": "STEEMUSDT-1d-2023-06.zip",
+      "sha256": "946c30aee12553389c6c2f5585b4b6313c095dbeb6d9739491a2f21af3f60f97"
+    },
+    {
+      "file": "STEEMUSDT-1d-2023-07.zip",
+      "sha256": "93edafdac61a731399bb3065afccefbce92e5792645d32841b4f74098045358f"
+    },
+    {
+      "file": "STEEMUSDT-1d-2023-08.zip",
+      "sha256": "308ae7c2c0effd8d596240b796db1f7b9f900c75bbbd268d5fcf78168f04f6fc"
+    },
+    {
+      "file": "STEEMUSDT-1d-2023-09.zip",
+      "sha256": "b028c640a7f50217e02e32b37c980ce8eb2d539fcf230ab8db707dca50f2fff2"
+    },
+    {
+      "file": "STEEMUSDT-1d-2023-10.zip",
+      "sha256": "85f75895eea2c89067fd9595ada8bf5feb6d3d885b1926146ca123d8b671fb54"
+    },
+    {
+      "file": "STEEMUSDT-1d-2023-11.zip",
+      "sha256": "9033b75d1ade93cae163a52b5f9d68ecba9d263a6fb77a6f4ee0ff63ad90a920"
+    },
+    {
+      "file": "STEEMUSDT-1d-2023-12.zip",
+      "sha256": "2e2f1d7e52ea6b2ef1c08f3e5ee77571ee5c03d68bf670c94ebf58cead0b792e"
+    },
+    {
+      "file": "STEEMUSDT-1d-2024-01.zip",
+      "sha256": "43b7420a61bf0a4ed7e71c7ccba20a7cd04ade3833b63346bbbe7cd556ca1478"
+    },
+    {
+      "file": "STEEMUSDT-1d-2024-02.zip",
+      "sha256": "e9c1390adfb4e5b35d5e85019f167e3145b94ba8124a32a174f000bc7dd54cd7"
+    },
+    {
+      "file": "STEEMUSDT-1d-2024-03.zip",
+      "sha256": "9130d6f8ca9a4af09608c7a69232d3e94444b334f9b4dde12cfb1e0fb9027583"
+    },
+    {
+      "file": "STEEMUSDT-1d-2024-04.zip",
+      "sha256": "6cb669bf6ecf6adf4a75edbf2d87bc897ba098f05f262a1112b732fec1eb0bf2"
+    },
+    {
+      "file": "STEEMUSDT-1d-2024-05.zip",
+      "sha256": "f0e13ac986fc8e237ac0617d423c0fa222b146df61436b523afe4f01c6d8ce59"
+    },
+    {
+      "file": "STEEMUSDT-1d-2024-06.zip",
+      "sha256": "fc9570c1d824db1721f6a6757cab271c68703b43892451f2c81cb0f34c5285f3"
+    },
+    {
+      "file": "STEEMUSDT-1d-2024-07.zip",
+      "sha256": "33957d7f960575e7208bc258591ffa295a47ac588366c855bdd4f47e99c2f55b"
+    },
+    {
+      "file": "STEEMUSDT-1d-2024-08.zip",
+      "sha256": "73ecadb061672b79bbe6edcd330ccbe1129e2a82167de9fa6d30d11278c9239a"
+    },
+    {
+      "file": "STEEMUSDT-1d-2024-09.zip",
+      "sha256": "80d42cb45272ff6fe671ce02d478d7bf22175cfb00842743b66040815673a896"
+    },
+    {
+      "file": "STEEMUSDT-1d-2024-10.zip",
+      "sha256": "460a3311e89b935a6820f0d02a7d2b0755e8b0ddc172c0d21d3b3fe2b6e994ca"
+    },
+    {
+      "file": "STEEMUSDT-1d-2024-11.zip",
+      "sha256": "1d3487023fd6bdc06a2bd605a3b9aa3bbac6bb395f3e6a7b8bdbf54d04ba0977"
+    },
+    {
+      "file": "STEEMUSDT-1d-2024-12.zip",
+      "sha256": "8881ddd76b4270124c71a73fa8733dd0a06bdb9cf82c4f7c9358f5af60facf20"
+    },
+    {
+      "file": "STEEMUSDT-1d-2025-01.zip",
+      "sha256": "4c06609a4f5459de3a17459b2258442071b3d4bba546d74dd369c9594bad99ef"
+    },
+    {
+      "file": "STEEMUSDT-1d-2025-02.zip",
+      "sha256": "bb46abe00d509819010deb76cd3a5568f766c406added28f4530cf997a381418"
+    },
+    {
+      "file": "STEEMUSDT-1d-2025-03.zip",
+      "sha256": "df5fa8e268ca0dc2a16bfc7a2730f2537d60c339f62dc2e9fb77811890e4f8da"
+    },
+    {
+      "file": "STEEMUSDT-1d-2025-04.zip",
+      "sha256": "7e0e86e6eb4536e1fa0fe839269838f61a92601eb14cd0d361f3414b6e11b5d1"
+    },
+    {
+      "file": "STEEMUSDT-1d-2025-05.zip",
+      "sha256": "29746779781cdc7a240c4832d81c2785759ae884145f4fd206d8fa48040d216b"
+    },
+    {
+      "file": "STEEMUSDT-1d-2025-06.zip",
+      "sha256": "3cb1bbe612da77a2cf7d4df098d9ae8770ac5bfeca7e4c5538ab245108d8a7e0"
+    },
+    {
+      "file": "STEEMUSDT-1d-2025-07.zip",
+      "sha256": "1ef464841174d43a82bd0aa96374dadc77577bc43f6388d92f7ee0c6062cd9d5"
+    },
+    {
+      "file": "STEEMUSDT-1d-2025-08.zip",
+      "sha256": "5e6ca4704c59a949e4a936ef7371c3016a7696b7f8461e229904726b09edcef4"
+    },
+    {
+      "file": "STEEMUSDT-1d-2025-09.zip",
+      "sha256": "0efbe21eb257d1348191f0dc66b17122b5de44448e28ad3884ba5fd5a1de0bf0"
+    },
+    {
+      "file": "STEEMUSDT-1d-2025-10.zip",
+      "sha256": "cc82f1b6242e1bb0e229bc6d6281beeafedd70042148224320e0a5d5a25699c4"
+    },
+    {
+      "file": "STEEMUSDT-1d-2025-11.zip",
+      "sha256": "dbaf3c6ca036d7ba0774f146a3934dd15ea9c62311ddb2d2cdb445be0f8ea0b6"
+    },
+    {
+      "file": "STEEMUSDT-1d-2025-12.zip",
+      "sha256": "3512b7621c7959d2db0b664d2f18411e0761c03ecc441cbef173a4e9eaa52531"
+    },
+    {
+      "file": "STEEMUSDT-1d-2026-01.zip",
+      "sha256": "e0d13cdde3af32b200e540c301d4acde5c5396d5e41e6b0e481321663dff9531"
+    },
+    {
+      "file": "STEEMUSDT-1d-2026-02.zip",
+      "sha256": "662ecfdd4cae69ac5987d0ed94724adf68905a95f4a74e1ff875745b9357a8d0"
+    },
+    {
+      "file": "STEEMUSDT-1d-2026-03.zip",
+      "sha256": "50a27d4e358dd2459609005f2d4acff0bf77c8be3a0b2fb6f505d722e23f5d03"
+    },
+    {
+      "file": "STEEMUSDT-1d-2026-04.zip",
+      "sha256": "dea9fd269814e58ae11801d8a3f87af5dc0cf98f056851502c00fdf428373ea7"
+    },
+    {
+      "file": "STEEMUSDT-1d-2026-05.zip",
+      "sha256": "cf180dcc8a1b24d4d343e365f587854fc868916ff3ed5b1fb6adea8e6e6006ea"
+    },
+    {
+      "file": "STEEMUSDT-1d-2026-06.zip",
+      "sha256": "76481df88949f31ff50edc72aa09b2cc36aff4cd104877769a0da2d017ba4bf2"
+    },
+    {
+      "file": "STEEMUSDT-1d-2026-07.zip",
+      "sha256": "8244642b42acf38fdecc32c02c1446b31cfb52e8ee30d2ac77170d7d3135b641"
+    },
+    {
+      "file": "STEEMUSDT-1d-2026-08.zip",
+      "sha256": "887b71bce75aadb746f10821e09432457519a08a675691b9aac2d4648598fad5"
+    },
+    {
+      "file": "STEEMUSDT-1d-2026-09.zip",
+      "sha256": "632271cb8f49c6d0d220a7f2ab621cdbd90d5be28331fa69caa91ae5afa82584"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

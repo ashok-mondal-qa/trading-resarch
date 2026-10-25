@@ -1,0 +1,37 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SOXLBUSDT/1d/",
+  "instrument": "SOXLBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-07-07",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:45:11+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 86,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SOXLBUSDT-1d-2026-07.zip",
+      "sha256": "580830ca7a308dcee7306b8a28812df05500d54a54e91cf77e8c4b818b7f8f4b"
+    },
+    {
+      "file": "SOXLBUSDT-1d-2026-08.zip",
+      "sha256": "00273f55d4a382677691491101cce91ccc7265f29c58fd008f0af9da6c99268e"
+    },
+    {
+      "file": "SOXLBUSDT-1d-2026-09.zip",
+      "sha256": "4ad0e7c60ab6213f0c682973e189adefc5450ea9d1dabebc5b9152c103291bd9"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

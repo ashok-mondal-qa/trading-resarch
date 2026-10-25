@@ -1,0 +1,145 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ENAUSDT/1d/",
+  "instrument": "ENAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-04-02",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:32:11+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 912,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ENAUSDT-1d-2024-04.zip",
+      "sha256": "ee58dea13ffb91f088e972008166801e7eebd1d7408049c2bc692c0e2af3dda7"
+    },
+    {
+      "file": "ENAUSDT-1d-2024-05.zip",
+      "sha256": "170ab3de8c83341ceaaf5c6bb43fb804005c242d4b1ca800e3fc56cdf4b081e1"
+    },
+    {
+      "file": "ENAUSDT-1d-2024-06.zip",
+      "sha256": "ba73f7cc5f83eac17ba229b1aac7ab9413069575c103fea59c50d0083b6ab398"
+    },
+    {
+      "file": "ENAUSDT-1d-2024-07.zip",
+      "sha256": "89b44aeee8968509af47a87e8ee327c744f1c9aaf60cf690375416511641740b"
+    },
+    {
+      "file": "ENAUSDT-1d-2024-08.zip",
+      "sha256": "12c7cf81e3e22ce09b91a8962a282f2e185777eaee18aa6452ac85608dc3763b"
+    },
+    {
+      "file": "ENAUSDT-1d-2024-09.zip",
+      "sha256": "3e5efb707e34a73b857367a16cc1855f307f13cb2f8b4d144c624504f194b57e"
+    },
+    {
+      "file": "ENAUSDT-1d-2024-10.zip",
+      "sha256": "22fe488870dd5270d28491831eef96a15eba5bb4f7c57f3c73be60dba96c61bb"
+    },
+    {
+      "file": "ENAUSDT-1d-2024-11.zip",
+      "sha256": "3c6e258cb4afd40dc4785509e566820d20f7978f1c1348223faa20dd459b0ee5"
+    },
+    {
+      "file": "ENAUSDT-1d-2024-12.zip",
+      "sha256": "f9cb50affcab77fbe966cb7ba31bc35f6d5f9bd5d443b5c424e9e5a8739fbead"
+    },
+    {
+      "file": "ENAUSDT-1d-2025-01.zip",
+      "sha256": "e5cc125d71e5165cef6244d63f528e727258e94557c94bb406fbeb8ad8566061"
+    },
+    {
+      "file": "ENAUSDT-1d-2025-02.zip",
+      "sha256": "f520cb67e3d1c2a01e4d3fd3e32398e7fd4e59a5f5420b49270725e1a7b778f6"
+    },
+    {
+      "file": "ENAUSDT-1d-2025-03.zip",
+      "sha256": "7dadcd74c2dd1bee7b0aa04da25125c350357a52399e587e8b4574f0da70a0fc"
+    },
+    {
+      "file": "ENAUSDT-1d-2025-04.zip",
+      "sha256": "2f47ce6220241010afa71ec24fd2cd42463606972227b731f9d6a970fd4f10c4"
+    },
+    {
+      "file": "ENAUSDT-1d-2025-05.zip",
+      "sha256": "b901732db2db44e8210f180cef8e28b8a3d5e9569eb713f7fb41e422cfbfda54"
+    },
+    {
+      "file": "ENAUSDT-1d-2025-06.zip",
+      "sha256": "f30049f10e66e5bdbc75fbb0c48b8e91f01302113c21a69bac743c24bc8183f4"
+    },
+    {
+      "file": "ENAUSDT-1d-2025-07.zip",
+      "sha256": "6e6f44cf57e371c00966533068687b80b1d120434625d394c01c7033f1a61feb"
+    },
+    {
+      "file": "ENAUSDT-1d-2025-08.zip",
+      "sha256": "1534ec9cf5f027b68fa4867da139a5a256e1e2ff983676bbb3cb62dabf7a4aa8"
+    },
+    {
+      "file": "ENAUSDT-1d-2025-09.zip",
+      "sha256": "d3bbdf1a8545f443f9850c9baa28cde3581ed30bddf121b7af4c123e1549f86f"
+    },
+    {
+      "file": "ENAUSDT-1d-2025-10.zip",
+      "sha256": "a90d1db4d3df4859b40d70109113bfdabcbee952d004d39395ed817544273d5a"
+    },
+    {
+      "file": "ENAUSDT-1d-2025-11.zip",
+      "sha256": "b17a13169e044d3c11d555b36397d967fcfae8ace26583ec554d5cf8854dda8f"
+    },
+    {
+      "file": "ENAUSDT-1d-2025-12.zip",
+      "sha256": "7225cdae9cf3374c19a1a65d7ac5d51412794fd050ff18e3b990085866712b1e"
+    },
+    {
+      "file": "ENAUSDT-1d-2026-01.zip",
+      "sha256": "5ca4ca8c3e2238358a6e414ba915300fe78552209d322b9f3cd83714339f86fe"
+    },
+    {
+      "file": "ENAUSDT-1d-2026-02.zip",
+      "sha256": "3679aa3ce72ec320764966ce2d97b48fac10ac03195a2de38e8c9ebffe91f2a4"
+    },
+    {
+      "file": "ENAUSDT-1d-2026-03.zip",
+      "sha256": "a742c4d0492797a9928e9b5b7f3e5ed5eb86ae9fd3b3f20c3c3c104dad4a3f91"
+    },
+    {
+      "file": "ENAUSDT-1d-2026-04.zip",
+      "sha256": "c2d9fb9761b114f17075190d744cf1df14a44b62302f01a901b513b4c8e24847"
+    },
+    {
+      "file": "ENAUSDT-1d-2026-05.zip",
+      "sha256": "d7562eb093e72bd057eac3a1b2b294bc0540d67d6946aac84383dfd156705ab8"
+    },
+    {
+      "file": "ENAUSDT-1d-2026-06.zip",
+      "sha256": "1775e1b471dbc1ad94f0e42efbc63f7cdf155b088531c0f05759cef3d5516d98"
+    },
+    {
+      "file": "ENAUSDT-1d-2026-07.zip",
+      "sha256": "ee6b6cc955f472a335dda720c51234bfd73cf6c5e188f7d2a4d1d63d8f26ef63"
+    },
+    {
+      "file": "ENAUSDT-1d-2026-08.zip",
+      "sha256": "0f1514f3b0b8bff44b11ae39c49bffeab3a8286a6e6ae99222b60fcdde911473"
+    },
+    {
+      "file": "ENAUSDT-1d-2026-09.zip",
+      "sha256": "25e6672f814e44aa3679fed9717975160150f2ee9e4ed462adff3c9c1bc0fede"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

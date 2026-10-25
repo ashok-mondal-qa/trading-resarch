@@ -1,0 +1,153 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PORTALUSDT/1d/",
+  "instrument": "PORTALUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-02-29",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:46+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 945,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PORTALUSDT-1d-2024-02.zip",
+      "sha256": "5ec8f80ce4ed80d2c543356be881cace5ad009e7fd30b151d1e35785c4dd50e9"
+    },
+    {
+      "file": "PORTALUSDT-1d-2024-03.zip",
+      "sha256": "88d7a962f1d5646e50677fc5cce9ca02152ed013588276d68d9fb9f49ab59c74"
+    },
+    {
+      "file": "PORTALUSDT-1d-2024-04.zip",
+      "sha256": "3044fa02eb1c626278318b398c918f7fd0018bd1ef132d7288f0f94f1791cf71"
+    },
+    {
+      "file": "PORTALUSDT-1d-2024-05.zip",
+      "sha256": "7b40087e9f3080e079d6d96257400d68b6d526115385368ef83c63b05d9fe7fe"
+    },
+    {
+      "file": "PORTALUSDT-1d-2024-06.zip",
+      "sha256": "8f62a4b7d0204d47467d1ff204d17fb20308b5cd5bb6c9bdb33cdeeca0f39f2b"
+    },
+    {
+      "file": "PORTALUSDT-1d-2024-07.zip",
+      "sha256": "e3b0108be5a0d2eee35f0a85f698dead7861a80adfbda8ea79a774f260e5760f"
+    },
+    {
+      "file": "PORTALUSDT-1d-2024-08.zip",
+      "sha256": "0e0098199fd60e11df04da1179636c38e70699a2515dae8114cb83c510cf24c5"
+    },
+    {
+      "file": "PORTALUSDT-1d-2024-09.zip",
+      "sha256": "2c9ceb58f0b3408cd4dbb1220ca535ceda48203d2ab8381443d8c5962ca09ebc"
+    },
+    {
+      "file": "PORTALUSDT-1d-2024-10.zip",
+      "sha256": "8046d57b9fbfa38252cc04ad058532e0285a2214202ec16b407cf66cf3d84e14"
+    },
+    {
+      "file": "PORTALUSDT-1d-2024-11.zip",
+      "sha256": "4eaea5957389748cd9a93e14f924fd7f7fb1614fa475fc5de5037a6919179bf7"
+    },
+    {
+      "file": "PORTALUSDT-1d-2024-12.zip",
+      "sha256": "607d57237b36536c33a8eacbf2314872dcb0f26e7a075e511330cc7825e8d414"
+    },
+    {
+      "file": "PORTALUSDT-1d-2025-01.zip",
+      "sha256": "0c2b4f89854a6af2d0e5a9a43ecf54a18364143901345b7810afcb9a6d98f5f2"
+    },
+    {
+      "file": "PORTALUSDT-1d-2025-02.zip",
+      "sha256": "002947130d07bb43fae35491e64bcd7e0086077df5595980d424bd3593e2b915"
+    },
+    {
+      "file": "PORTALUSDT-1d-2025-03.zip",
+      "sha256": "18ace7b677368df023decd4e9f6254db3617657340e07639c914fc431e59b9fd"
+    },
+    {
+      "file": "PORTALUSDT-1d-2025-04.zip",
+      "sha256": "436095b28f52bb9b9448cee7128c5242301f1499cea6349ef665812a3b259999"
+    },
+    {
+      "file": "PORTALUSDT-1d-2025-05.zip",
+      "sha256": "0df805922963c7027b11c774f8996c5223ba7b1927fa5ce846fdac697b38fad2"
+    },
+    {
+      "file": "PORTALUSDT-1d-2025-06.zip",
+      "sha256": "415f078f359e2541c235b5fae6fd9376345c06116d64ec674c67b31b1a72cce6"
+    },
+    {
+      "file": "PORTALUSDT-1d-2025-07.zip",
+      "sha256": "4ec711424676ea885a556bf8341dc91df7d69e35662a27a1e5dc00961f57d5a3"
+    },
+    {
+      "file": "PORTALUSDT-1d-2025-08.zip",
+      "sha256": "9c8266c1a9e0648ee6fd035fbd35d9b68ee1ef088ce1a0553a868f603b24ed73"
+    },
+    {
+      "file": "PORTALUSDT-1d-2025-09.zip",
+      "sha256": "a9cdbbc2ef7e84505fac21598e7fefea64acfe3a08745e3d4a883cd96a3b1ef1"
+    },
+    {
+      "file": "PORTALUSDT-1d-2025-10.zip",
+      "sha256": "c25c36d57e376f20fec2ba3f175e542be3bf499e508af3190b9da8c39c3a0383"
+    },
+    {
+      "file": "PORTALUSDT-1d-2025-11.zip",
+      "sha256": "f27508ab21a97b9883e5a40db71782e4e145ad29b36e6ea6fd1e5c1be5fc1185"
+    },
+    {
+      "file": "PORTALUSDT-1d-2025-12.zip",
+      "sha256": "93f3d3e1dab9c0bc504f097a0f8cc2a104ce18bb181b9f348967fd778de0acd0"
+    },
+    {
+      "file": "PORTALUSDT-1d-2026-01.zip",
+      "sha256": "2c97ece74c63cc973a970c8fdaccd0c516e9890c8c1e1c1bc7c9834cb66b2d9e"
+    },
+    {
+      "file": "PORTALUSDT-1d-2026-02.zip",
+      "sha256": "f160dfe7c10162e4dd42c0cfdd54d0bc5ffc1c69df1057ca0050fc38ef81056e"
+    },
+    {
+      "file": "PORTALUSDT-1d-2026-03.zip",
+      "sha256": "bcc6c0ec93b9692ff5fd965285ec0ae2774824b606b83b0641941a20c84355b4"
+    },
+    {
+      "file": "PORTALUSDT-1d-2026-04.zip",
+      "sha256": "aa4ea3182b7dc57cf4dcc7117c432a84fa5eb565b41b10101289e85d9ef93a47"
+    },
+    {
+      "file": "PORTALUSDT-1d-2026-05.zip",
+      "sha256": "dc0772598103a990952d0c73d0e34fe677a857acdf5fb408c229d80a784290c7"
+    },
+    {
+      "file": "PORTALUSDT-1d-2026-06.zip",
+      "sha256": "77250836c48c468472d8799cb1155a9f4ab9b308c5bfbe36409dad1b209e52ab"
+    },
+    {
+      "file": "PORTALUSDT-1d-2026-07.zip",
+      "sha256": "71b289bc562170a83ea5c4bde025259ecb8e094c8098c890e8cbee1b8a7a349e"
+    },
+    {
+      "file": "PORTALUSDT-1d-2026-08.zip",
+      "sha256": "ce80f9fad2c95f270c469df4dca0df217754dfa572e249113369e7b4bb16e8c5"
+    },
+    {
+      "file": "PORTALUSDT-1d-2026-09.zip",
+      "sha256": "bb8e666741f0a5354a0f332418402e0d134a28526eb229d2e3763daead7b8461"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

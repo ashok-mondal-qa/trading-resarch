@@ -1,0 +1,153 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PIXELUSDT/1d/",
+  "instrument": "PIXELUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-02-19",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:21+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 955,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PIXELUSDT-1d-2024-02.zip",
+      "sha256": "41192479a7e7c251b1587e25bc63d1801b919de41f6457be3c438e9aecbdd759"
+    },
+    {
+      "file": "PIXELUSDT-1d-2024-03.zip",
+      "sha256": "a6b8952c0d58eb7a9ff1f6d89ef215b1da403fc7469aa693448274b8d348b94e"
+    },
+    {
+      "file": "PIXELUSDT-1d-2024-04.zip",
+      "sha256": "b5fa77560e9d22afd5820dcaf9246524cd53bfa71faf015b59382afac3838e81"
+    },
+    {
+      "file": "PIXELUSDT-1d-2024-05.zip",
+      "sha256": "18911da63a4bdf736499e1d89da263e335dc02044fa516a3dff62badce58e06d"
+    },
+    {
+      "file": "PIXELUSDT-1d-2024-06.zip",
+      "sha256": "6928c63361cfafa1a4708335feaa88b0673cef67bbdfed51ba825556d083e40a"
+    },
+    {
+      "file": "PIXELUSDT-1d-2024-07.zip",
+      "sha256": "81977f90f711aaedcb2617494082cc5ec048644b64d68457b43eaba25bd70f2e"
+    },
+    {
+      "file": "PIXELUSDT-1d-2024-08.zip",
+      "sha256": "53a55dbe7102c088634db0da3a9693fe724f63ebd0c5a8014fd24fddd80b3cf3"
+    },
+    {
+      "file": "PIXELUSDT-1d-2024-09.zip",
+      "sha256": "3c987915c61e5c0a40a58c275bb0021dc1a5cd8413efbc79a041eb3cac847944"
+    },
+    {
+      "file": "PIXELUSDT-1d-2024-10.zip",
+      "sha256": "7783ba9a52ce7bc8c9319fbf69e1066bbc471e0ab092e00e6b0ee900af74bcbc"
+    },
+    {
+      "file": "PIXELUSDT-1d-2024-11.zip",
+      "sha256": "90539308eb450349a55fc57755d562ed28ad2816c8ce722c365b828680bf92e1"
+    },
+    {
+      "file": "PIXELUSDT-1d-2024-12.zip",
+      "sha256": "7c87730b8df0842900c6cdbc78a7c66025b146c38c5162f928c71663f91ea8ee"
+    },
+    {
+      "file": "PIXELUSDT-1d-2025-01.zip",
+      "sha256": "be5061456eda88d7157ae3e43da3bd8c0efbbdcc402921ee5727f13a0ebd5d1a"
+    },
+    {
+      "file": "PIXELUSDT-1d-2025-02.zip",
+      "sha256": "27dec5aaa0d07d81a20c6352efa9ad68c111f92d090f9061b62b8b483e801683"
+    },
+    {
+      "file": "PIXELUSDT-1d-2025-03.zip",
+      "sha256": "2b3f4cce8c60bc85a63656e6804621f7cd34181cfecf7991fe4cac2963d32468"
+    },
+    {
+      "file": "PIXELUSDT-1d-2025-04.zip",
+      "sha256": "42cdddf3839db627c76f5af18202bd7595d0a28365e107dc0d7cf050a4020855"
+    },
+    {
+      "file": "PIXELUSDT-1d-2025-05.zip",
+      "sha256": "7efc9e148b7dd45bfa5ecbb1b3dc1b7c1fa59d9bcb476506493c5c939b47795a"
+    },
+    {
+      "file": "PIXELUSDT-1d-2025-06.zip",
+      "sha256": "8dfb0fe25c53d9e61a0fa6680875a04df6ea1493705f10543f2c1b0dfb97d726"
+    },
+    {
+      "file": "PIXELUSDT-1d-2025-07.zip",
+      "sha256": "595e258dcc54b6016724b83c0ffa2de6ada84127d0393755b37eaf0e5cc1a6ee"
+    },
+    {
+      "file": "PIXELUSDT-1d-2025-08.zip",
+      "sha256": "0f7607e97ab691353bdbd903d8807d85180984bd9672b7710b870966cf305756"
+    },
+    {
+      "file": "PIXELUSDT-1d-2025-09.zip",
+      "sha256": "83f9ee7780ca4ab354c78699c5ff6f64da2c16f2efaef11b715f54b69054cbaa"
+    },
+    {
+      "file": "PIXELUSDT-1d-2025-10.zip",
+      "sha256": "3cfcbccddf1695a253dbfb17c7f22dd0eb0f410f89775f08dddda0c915f6fbff"
+    },
+    {
+      "file": "PIXELUSDT-1d-2025-11.zip",
+      "sha256": "6cc8f1f3cf5ee2ff8ab04114090891daf2e19f4e0e6988cc63c07c6768c1807b"
+    },
+    {
+      "file": "PIXELUSDT-1d-2025-12.zip",
+      "sha256": "0ab9b436a4abd5417ac274ae985b212cf6862094d5dd6b729c34ad81d3cce595"
+    },
+    {
+      "file": "PIXELUSDT-1d-2026-01.zip",
+      "sha256": "e25ca4640144fcba1373728548dbb374e69eea2244cce0541a5e42c7d086fbfd"
+    },
+    {
+      "file": "PIXELUSDT-1d-2026-02.zip",
+      "sha256": "d295267eab6766b8c9baf0f5b3975f4d4724d8d19b30cdca11a8c2bf886eb836"
+    },
+    {
+      "file": "PIXELUSDT-1d-2026-03.zip",
+      "sha256": "f222750e1670405c1be58c4fb35b5b2b6d9025da38f1aee47ddd61d591552538"
+    },
+    {
+      "file": "PIXELUSDT-1d-2026-04.zip",
+      "sha256": "21d8105a29c97493ab5e55657365f8585237bb3b12f5944a3d96760bf927b19c"
+    },
+    {
+      "file": "PIXELUSDT-1d-2026-05.zip",
+      "sha256": "1446e044b3b249631d92e46eb97f95f742def05e9eaf2cf98f380b269e3956a0"
+    },
+    {
+      "file": "PIXELUSDT-1d-2026-06.zip",
+      "sha256": "1264b04cba9374bfe022400731dbdc8c56eb4693a7ae51ede3922251e0be1a4d"
+    },
+    {
+      "file": "PIXELUSDT-1d-2026-07.zip",
+      "sha256": "de8cbd5cb347610b66870b61bf0ce0d0b32e631ae34ada5a3e889881fcef5981"
+    },
+    {
+      "file": "PIXELUSDT-1d-2026-08.zip",
+      "sha256": "eec4483c7cf61be33272deb9b6adcdb4b7db2adee17e8ba7d44aaf3cdf7865a9"
+    },
+    {
+      "file": "PIXELUSDT-1d-2026-09.zip",
+      "sha256": "7bd310c40a50cdb58a52036caad22eff077a3b7bfd4a065f04a65e04b0a0f0e9"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

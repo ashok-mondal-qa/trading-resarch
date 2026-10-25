@@ -1,0 +1,101 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PARTIUSDT/1d/",
+  "instrument": "PARTIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-03-25",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:41:42+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 555,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PARTIUSDT-1d-2025-03.zip",
+      "sha256": "1883b6bad2bf5767e0a923009933d65a9ae5eef15c3d36f9cd681bda580f811e"
+    },
+    {
+      "file": "PARTIUSDT-1d-2025-04.zip",
+      "sha256": "71f585df63e30c16176e90ce7f5844aa6bd4198e177542db2942e9dad9c6db82"
+    },
+    {
+      "file": "PARTIUSDT-1d-2025-05.zip",
+      "sha256": "e1e34b7cb377dd0abaa964a740868210d6a70f6c9c2c1cd6b58386e113ce9400"
+    },
+    {
+      "file": "PARTIUSDT-1d-2025-06.zip",
+      "sha256": "2bfffc8e2146c37a96f2dc59cdc68139a947687a364ab616f2af2efe70bf9a40"
+    },
+    {
+      "file": "PARTIUSDT-1d-2025-07.zip",
+      "sha256": "74006b2922cd99b49abae4c137fce91f668bcb0e47f7d9c2f3cfdd296a387708"
+    },
+    {
+      "file": "PARTIUSDT-1d-2025-08.zip",
+      "sha256": "5a8ea4ad06cea03482af38cfff7d52e859ca2076bda446bbbf24ca774d42cc33"
+    },
+    {
+      "file": "PARTIUSDT-1d-2025-09.zip",
+      "sha256": "fba03c5b9cbbf918221e9612bd2016e2b1e345029ad4610715531a2d91e915d3"
+    },
+    {
+      "file": "PARTIUSDT-1d-2025-10.zip",
+      "sha256": "b5ce6c64ac7d09d1d7482bd12319c8d25a1bc5aff718c351490a8161756c62dc"
+    },
+    {
+      "file": "PARTIUSDT-1d-2025-11.zip",
+      "sha256": "d67a232e03590e99fbccf621e4ad524127dad3971779d7ed56fe969be12e89de"
+    },
+    {
+      "file": "PARTIUSDT-1d-2025-12.zip",
+      "sha256": "ad42a4ceefd989411afb8f2a69eef6cb70514bca534a7faf91086dcdd2c16459"
+    },
+    {
+      "file": "PARTIUSDT-1d-2026-01.zip",
+      "sha256": "594ed6ea336c7616a95a053f1b75a31e4fe181a45088f40d6c2b12e1791a2d7d"
+    },
+    {
+      "file": "PARTIUSDT-1d-2026-02.zip",
+      "sha256": "d4fe0fd99e4293095f73eb0727a4e21fcc9f048683214f86b94ba680054938fe"
+    },
+    {
+      "file": "PARTIUSDT-1d-2026-03.zip",
+      "sha256": "aa4ec69c96ef61b4254e955c320015b93bb6f142a55bc979c40dfef645a2eaec"
+    },
+    {
+      "file": "PARTIUSDT-1d-2026-04.zip",
+      "sha256": "11567dbbba9ec0f57aa32b5c237fbbe21fdd123a0e113fa49121c882cd52e40a"
+    },
+    {
+      "file": "PARTIUSDT-1d-2026-05.zip",
+      "sha256": "5fc5dfa4280cfe17b5428139ccb961db97cf9c28d63b95cacc204ba63550da08"
+    },
+    {
+      "file": "PARTIUSDT-1d-2026-06.zip",
+      "sha256": "24c402a30a99613750d13c2e8292ce6946ac2166d7b151989037e24fd655c7f5"
+    },
+    {
+      "file": "PARTIUSDT-1d-2026-07.zip",
+      "sha256": "e787af5bd60d73cb716c95bedcd4d3fa8b377ccce72ba2cdfadcb23924eb97bc"
+    },
+    {
+      "file": "PARTIUSDT-1d-2026-08.zip",
+      "sha256": "1462a7fe05f00e0fd4cbff61596dfefb597a669dee4356601937c4ea3702756a"
+    },
+    {
+      "file": "PARTIUSDT-1d-2026-09.zip",
+      "sha256": "da224576c8a53933eaf8ae9124cda6179e3c6abdf5ef9f323b1164b800a34984"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

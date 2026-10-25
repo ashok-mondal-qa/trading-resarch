@@ -1,0 +1,77 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SOMIUSDT/1d/",
+  "instrument": "SOMIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-09-02",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:45:17+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 394,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SOMIUSDT-1d-2025-09.zip",
+      "sha256": "42ac3b440c09515a5b9f1a58b7a5e0d90935216759bdcd3f5e853b2587e0ebdb"
+    },
+    {
+      "file": "SOMIUSDT-1d-2025-10.zip",
+      "sha256": "f576881a0e76c8912cdf7996e4e3a4bcba6e9e7202c41d828fa2901ecfe0ade2"
+    },
+    {
+      "file": "SOMIUSDT-1d-2025-11.zip",
+      "sha256": "ca573c9f0a240b6baa8b03fd58ddb61752c63ac3d2ddb4e870a2b85e8dba233e"
+    },
+    {
+      "file": "SOMIUSDT-1d-2025-12.zip",
+      "sha256": "0d38b40d293768bdd9fe139cc43cae2f3e689dd90bf3925554c806a6b26eea26"
+    },
+    {
+      "file": "SOMIUSDT-1d-2026-01.zip",
+      "sha256": "a057e529da7c86ad86c385369dfd25585ca52b7dba75dddf435c6e8e83aa7cee"
+    },
+    {
+      "file": "SOMIUSDT-1d-2026-02.zip",
+      "sha256": "b5c65653a2616b3758d467be1e6e5ee656af17cc1af7cedc6f4f21a8ced07710"
+    },
+    {
+      "file": "SOMIUSDT-1d-2026-03.zip",
+      "sha256": "cc101d06f607a85a0ce6e0a30cf82d16d51b9090c0b7c7c8cd75d61117167a8a"
+    },
+    {
+      "file": "SOMIUSDT-1d-2026-04.zip",
+      "sha256": "3f7d5aae1e65cc291b68052da5c905edee5c937cdd6d0dcc7251dd5689ec739b"
+    },
+    {
+      "file": "SOMIUSDT-1d-2026-05.zip",
+      "sha256": "2766b0f06a4e9337b036f82b4749b0cbb35cfb6ae9b1e82dee33ce2915b20089"
+    },
+    {
+      "file": "SOMIUSDT-1d-2026-06.zip",
+      "sha256": "54dec4e0dbbc3f59f4e2a5089214a9dce706a8c9ac310f37f3464c3b0e6f2c01"
+    },
+    {
+      "file": "SOMIUSDT-1d-2026-07.zip",
+      "sha256": "f8c0dbfcbd7abe9598d57ee8df9e719704eee053da517278d4c310a9bf78404e"
+    },
+    {
+      "file": "SOMIUSDT-1d-2026-08.zip",
+      "sha256": "540c04fa472868ee2e7fff5eb976e4f2c492325e6fa2ce9c4d11eb9ebef52d4b"
+    },
+    {
+      "file": "SOMIUSDT-1d-2026-09.zip",
+      "sha256": "0d13c5d0fbc11f117a73cbff8cd1506ec13ca5fdde1558ad2ef1fe66f862ba2d"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

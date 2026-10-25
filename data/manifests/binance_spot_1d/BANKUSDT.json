@@ -1,0 +1,69 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BANKUSDT/1d/",
+  "instrument": "BANKUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-11-13",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:27:17+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 322,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BANKUSDT-1d-2025-11.zip",
+      "sha256": "10cbf5c75160f21e8aad89b32cf01a1dad2fb477a451f192e5cbf4efa99792d1"
+    },
+    {
+      "file": "BANKUSDT-1d-2025-12.zip",
+      "sha256": "1d6d90729b91e7afd3c71e06aad3207d5fab30b18c8d1b0a162bf6eb15e8350b"
+    },
+    {
+      "file": "BANKUSDT-1d-2026-01.zip",
+      "sha256": "96db525a6fea75aaf1feb4baaa0f2bc7cb0dbb9942716ca95a13a353fbe44d3f"
+    },
+    {
+      "file": "BANKUSDT-1d-2026-02.zip",
+      "sha256": "b97a5e00caf8341529c345d15865c03b1b986de9d53be3789ae8daf3a18751a0"
+    },
+    {
+      "file": "BANKUSDT-1d-2026-03.zip",
+      "sha256": "6b6baa501f65d431e218e6bbcbd334bb583583c7cdd2454e9d6b25336271f693"
+    },
+    {
+      "file": "BANKUSDT-1d-2026-04.zip",
+      "sha256": "7038df6ca5970ca27f5b45190eaf57af8bb00507d69ca62b9f854299e0d4779c"
+    },
+    {
+      "file": "BANKUSDT-1d-2026-05.zip",
+      "sha256": "cfa099546b93bdab4b9cec28716138bf172bf76eecfbdc77a83ecd1bcc146d08"
+    },
+    {
+      "file": "BANKUSDT-1d-2026-06.zip",
+      "sha256": "69d90d9c383a3a406c7c7e21e24ce54ea84f1d7e0988bf79364c1228ae99096a"
+    },
+    {
+      "file": "BANKUSDT-1d-2026-07.zip",
+      "sha256": "719cf829a085cf848ef235224aa95d7db1f2554bcf8ef2539dfe6f7350960886"
+    },
+    {
+      "file": "BANKUSDT-1d-2026-08.zip",
+      "sha256": "5d2c1f105a8e9e430d8462be97266c8634bb8127f2714353283effc6b3c4cad3"
+    },
+    {
+      "file": "BANKUSDT-1d-2026-09.zip",
+      "sha256": "097ab97656984036839e0f8b68281ce2fc003401d8125ec54d7bfa969e662248"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

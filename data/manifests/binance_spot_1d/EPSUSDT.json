@@ -1,0 +1,81 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/EPSUSDT/1d/",
+  "instrument": "EPSUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-04-02",
+  "last_bar": "2022-05-09",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:32:19+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 403,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "EPSUSDT-1d-2021-04.zip",
+      "sha256": "da8d4dcbb192c87c540a75ab234700aa2d71d7b5e60214e224ef5ce13c63623b"
+    },
+    {
+      "file": "EPSUSDT-1d-2021-05.zip",
+      "sha256": "7ffc41db41e4d4fc44f1c56894bc2896a1c5270db419107f142e6138b0fa75b0"
+    },
+    {
+      "file": "EPSUSDT-1d-2021-06.zip",
+      "sha256": "78eb5af1a29b97f2bed068865e16e3f2c37bb02c3a88053b354a1b796c503ac1"
+    },
+    {
+      "file": "EPSUSDT-1d-2021-07.zip",
+      "sha256": "a4dfe1f5106eb5ec0a4d26dd7a77d3de4631fc6a2898758114a32fbb6069e88b"
+    },
+    {
+      "file": "EPSUSDT-1d-2021-08.zip",
+      "sha256": "ee8f032205bf19ef22e48022234702c1848cade0d1993efde28b93a313e265c2"
+    },
+    {
+      "file": "EPSUSDT-1d-2021-09.zip",
+      "sha256": "d69166ffad381f323d5d3f696eea364355df78aab24c6b4c66ded58ef7969e3e"
+    },
+    {
+      "file": "EPSUSDT-1d-2021-10.zip",
+      "sha256": "83f545fc34ab3aa48e04f49e78c8306ceb2e8b8bc2b962f0787c2a8e10bbbda2"
+    },
+    {
+      "file": "EPSUSDT-1d-2021-11.zip",
+      "sha256": "9713e7f0633074d5b9b78a157fc338d82dce64b13db00bf092f7fb15481b1c4d"
+    },
+    {
+      "file": "EPSUSDT-1d-2021-12.zip",
+      "sha256": "54fa6759c2167142a0e6380b2d19dc6eacdf221af2fc8c82609133438314c111"
+    },
+    {
+      "file": "EPSUSDT-1d-2022-01.zip",
+      "sha256": "a02dfca701fbbdffcb3985735b01829bbb08b3d311e9db89d06e7a7cf80fa1a1"
+    },
+    {
+      "file": "EPSUSDT-1d-2022-02.zip",
+      "sha256": "1ecc2bc0f91fb34b40db7cade1e11c599969f21414bb35ba16c885b8f346fd7f"
+    },
+    {
+      "file": "EPSUSDT-1d-2022-03.zip",
+      "sha256": "38fc62a5e1e5fb06ff96bc9d707eabcb70b19fedd3db14634869c7d17dcf9f46"
+    },
+    {
+      "file": "EPSUSDT-1d-2022-04.zip",
+      "sha256": "724c40b668bb42667380e799d99a555d8d015ffee7cdde64b51ae0bea5dc6f3b"
+    },
+    {
+      "file": "EPSUSDT-1d-2022-05.zip",
+      "sha256": "346606c53ed128718049c675b267bd85597a200d475e797bb174002c0da1a65a"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

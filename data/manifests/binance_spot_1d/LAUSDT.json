@@ -1,0 +1,85 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/LAUSDT/1d/",
+  "instrument": "LAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-07-09",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:37:14+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 449,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "LAUSDT-1d-2025-07.zip",
+      "sha256": "727bbf5839e844b4e45f5515c27d2fbefd219cd4a5ab005643cbcfe5bd285c89"
+    },
+    {
+      "file": "LAUSDT-1d-2025-08.zip",
+      "sha256": "2d7693b917493d08ad90ffe9440addf51a656f3ee199f5fbde6203d120489004"
+    },
+    {
+      "file": "LAUSDT-1d-2025-09.zip",
+      "sha256": "00c4c7d0a429da01938c0a97fcb461ed48840b654bc2f6509a4fa8249c24c07e"
+    },
+    {
+      "file": "LAUSDT-1d-2025-10.zip",
+      "sha256": "96d808305a6cfbaa91dfc1d8f68ee0e3aaca1ca651a16ddbf7ce21836ad51341"
+    },
+    {
+      "file": "LAUSDT-1d-2025-11.zip",
+      "sha256": "abe55ae16441cf96c8d376c2ebe50b1f9da67ee10ab5bb0c046291833a092141"
+    },
+    {
+      "file": "LAUSDT-1d-2025-12.zip",
+      "sha256": "2f39a0ed30b534daaf777df3d074074807dd162dc29fda990710fd9051d117e7"
+    },
+    {
+      "file": "LAUSDT-1d-2026-01.zip",
+      "sha256": "e74c03e16113776dfa58b587c842fdc9361a9ed0570b0be9f35bda34d49bf913"
+    },
+    {
+      "file": "LAUSDT-1d-2026-02.zip",
+      "sha256": "6b742654e9feba907ac1e271dab578a361f801df35c35fbb874613b5b9ed8f7a"
+    },
+    {
+      "file": "LAUSDT-1d-2026-03.zip",
+      "sha256": "5619343147a61ef4f80019f1bd05ca08d64a06394d5a85ad9b535e5822e62e5b"
+    },
+    {
+      "file": "LAUSDT-1d-2026-04.zip",
+      "sha256": "6278c4e131ddad27f67815bba7d31cc3fb79d60889eb0612ff4c6e452fa8797e"
+    },
+    {
+      "file": "LAUSDT-1d-2026-05.zip",
+      "sha256": "f051e8fcc0da5d5a4bff84b0e8417232dd699eebd7763500185baaceb5ee2514"
+    },
+    {
+      "file": "LAUSDT-1d-2026-06.zip",
+      "sha256": "ee8bc65ca2533fce9086fb818a529387872f3d4f7bbc55bfe46e77e77b711a5a"
+    },
+    {
+      "file": "LAUSDT-1d-2026-07.zip",
+      "sha256": "eb9d49a082e29f3dee9fc30575ec0a6e8a80eb65a3062eacc54103bff2a8ebfc"
+    },
+    {
+      "file": "LAUSDT-1d-2026-08.zip",
+      "sha256": "b06242206dafe994f7e881d9199d96e9af8ea6eb924ee48b5e3491ae3719adb3"
+    },
+    {
+      "file": "LAUSDT-1d-2026-09.zip",
+      "sha256": "6e94f25e83bfb932ee0c58a4ac8c7b795c5351ebbee6888a1721a9977fee228f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

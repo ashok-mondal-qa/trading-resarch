@@ -1,0 +1,85 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/TREEUSDT/1d/",
+  "instrument": "TREEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-07-29",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:47:08+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 429,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "TREEUSDT-1d-2025-07.zip",
+      "sha256": "bad25620658e6168a4a48b3bfa72901be745cb8d96c1697c359b356e17fdd8f5"
+    },
+    {
+      "file": "TREEUSDT-1d-2025-08.zip",
+      "sha256": "8ce72c650049ade7f49d0cd11261d994ba51f2278937bbdf5fa1db2121846342"
+    },
+    {
+      "file": "TREEUSDT-1d-2025-09.zip",
+      "sha256": "61665c7bd51829b9fe4dec1822365250fd439238a44b84cf9705c2eb243d1a33"
+    },
+    {
+      "file": "TREEUSDT-1d-2025-10.zip",
+      "sha256": "9693026fab7954820f4a5b0c64fefe0296e5af74e87e55c2160f071e96f738f8"
+    },
+    {
+      "file": "TREEUSDT-1d-2025-11.zip",
+      "sha256": "59f17a3ccddaa0eef05de1aa15bded7519c33d3934f0f333fbe861e1e44c99bd"
+    },
+    {
+      "file": "TREEUSDT-1d-2025-12.zip",
+      "sha256": "b7587ed2db2e9d1875d1d0ed24af45a11ade16f92417b6d9535c630175d60633"
+    },
+    {
+      "file": "TREEUSDT-1d-2026-01.zip",
+      "sha256": "f6ac4e1b337baa522407175813071e36d6f1de9ebf15724e5f5801b3fc589def"
+    },
+    {
+      "file": "TREEUSDT-1d-2026-02.zip",
+      "sha256": "5ef604fa5a485e64461b8e030c5d6092b900362342d0556c98860e1f414528cf"
+    },
+    {
+      "file": "TREEUSDT-1d-2026-03.zip",
+      "sha256": "e888ba5d3f05167024d9f41c9ca5210dedb7a7775bc563b7ab3905371725feaf"
+    },
+    {
+      "file": "TREEUSDT-1d-2026-04.zip",
+      "sha256": "30ffdc7dab11e67aea9b084961c5d5bec80039d8599766cf14906099009f8a90"
+    },
+    {
+      "file": "TREEUSDT-1d-2026-05.zip",
+      "sha256": "ad3d9a6b86e920733f2c2e7a5971921645e58ef1334eef5c75ec075a36fb55e9"
+    },
+    {
+      "file": "TREEUSDT-1d-2026-06.zip",
+      "sha256": "fcef0ff91ba2b8cf74fefa9d8ed433ff890732e9e97f198427df5db3595bfecb"
+    },
+    {
+      "file": "TREEUSDT-1d-2026-07.zip",
+      "sha256": "08becf3ac25ef164cc3429c7f8c97155daf83b084093bc139d91ba7c9e152df4"
+    },
+    {
+      "file": "TREEUSDT-1d-2026-08.zip",
+      "sha256": "2294538df16bec1fb8604ee242eee08c844434a6781c22fd362aa5882d41f82a"
+    },
+    {
+      "file": "TREEUSDT-1d-2026-09.zip",
+      "sha256": "77b425b5fd8a5027f33adecbe0a1931fca8be94f0ca5d669ebd960387412151b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

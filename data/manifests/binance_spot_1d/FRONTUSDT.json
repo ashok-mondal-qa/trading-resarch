@@ -1,0 +1,165 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/FRONTUSDT/1d/",
+  "instrument": "FRONTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-10-04",
+  "last_bar": "2024-08-27",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:33:53+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1059,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "FRONTUSDT-1d-2021-10.zip",
+      "sha256": "f033a4b7906df197573719beaf894b42f1aba191ecceeca78f512fc150d08964"
+    },
+    {
+      "file": "FRONTUSDT-1d-2021-11.zip",
+      "sha256": "9b78c5423ff89cb46972538b1b98ad89b3641d22c3649e99d986f4375b01f360"
+    },
+    {
+      "file": "FRONTUSDT-1d-2021-12.zip",
+      "sha256": "8c5bfed29821133c3c7712a688d21230d73cf784b5b1ed9656de2ae832ab90ae"
+    },
+    {
+      "file": "FRONTUSDT-1d-2022-01.zip",
+      "sha256": "400b912c8621cc1c582b186e78d102f9e62257eb854c23924b94b0530ee21302"
+    },
+    {
+      "file": "FRONTUSDT-1d-2022-02.zip",
+      "sha256": "b8bbeff1654d2fc0645fea2e4bb153614c3aab03a21780c69ce9d21515189477"
+    },
+    {
+      "file": "FRONTUSDT-1d-2022-03.zip",
+      "sha256": "5d947012e732de088ca6276b3ccb0ebe5ce8fa15a7fabae1052cb9aff99ee4d8"
+    },
+    {
+      "file": "FRONTUSDT-1d-2022-04.zip",
+      "sha256": "1f6c21b99128d78e9cf8f70a1977137ed6cfb8525981cae6f2304a5df0fe818c"
+    },
+    {
+      "file": "FRONTUSDT-1d-2022-05.zip",
+      "sha256": "aedbb101c25850bcecd4a072c1e90f41edc4ee0da4865013d5beecd859dadc51"
+    },
+    {
+      "file": "FRONTUSDT-1d-2022-06.zip",
+      "sha256": "ef0def1f84d5aa8ae6b6becdc00a6abecd89f526c7bdfdefe34913a5632990d3"
+    },
+    {
+      "file": "FRONTUSDT-1d-2022-07.zip",
+      "sha256": "24eb91086b90f000f129c3efe473200935dbca9324f7f85cd24d7ce04507d130"
+    },
+    {
+      "file": "FRONTUSDT-1d-2022-08.zip",
+      "sha256": "74e4eb0d0128ebb1515bc5011356c3413902ceb56bcfabf343a3e68565112239"
+    },
+    {
+      "file": "FRONTUSDT-1d-2022-09.zip",
+      "sha256": "125fdc28383152725bdf0210470edf44ffd1d608953c4e2cbfe9767ba736352d"
+    },
+    {
+      "file": "FRONTUSDT-1d-2022-10.zip",
+      "sha256": "91bbc1435d1f5570e21fd2553a289884df3e331f5bf3829bddb24d1fd46b0155"
+    },
+    {
+      "file": "FRONTUSDT-1d-2022-11.zip",
+      "sha256": "d3137a0a41429e2e6ff973538cc902333401e8f77aa25f1792349da8527c7e90"
+    },
+    {
+      "file": "FRONTUSDT-1d-2022-12.zip",
+      "sha256": "1bb346635bdda8afcce5750072026d83210ea2ae1be3e08e8ce9e418ef0d8299"
+    },
+    {
+      "file": "FRONTUSDT-1d-2023-01.zip",
+      "sha256": "619306a2f3e274bf1327a4e8fd3bb48bc3097cc31d98009f1ce3accb68602f63"
+    },
+    {
+      "file": "FRONTUSDT-1d-2023-02.zip",
+      "sha256": "c7c728f0d4ef8a35ada9c51530ddca2966cfb60eb3b99ae3080df8ee31d1355c"
+    },
+    {
+      "file": "FRONTUSDT-1d-2023-03.zip",
+      "sha256": "c56a5d49970e4d5b8f4882c4f2b166133d5c4b866b7bbbfd8b7a587b00da0c94"
+    },
+    {
+      "file": "FRONTUSDT-1d-2023-04.zip",
+      "sha256": "11cb50d716721a53ff394c2acbc1a09f85f598301e24940433ead32afd85791f"
+    },
+    {
+      "file": "FRONTUSDT-1d-2023-05.zip",
+      "sha256": "18b45f9ab5fe5c8a60cfceeb3008b39e6274d279ddc6a03fb81a4ad327882637"
+    },
+    {
+      "file": "FRONTUSDT-1d-2023-06.zip",
+      "sha256": "cadc0a368b08bb1ab74d5ca1e33c80387af8564e77196d764db783fd8920e227"
+    },
+    {
+      "file": "FRONTUSDT-1d-2023-07.zip",
+      "sha256": "5d955b96270446e20b08b7d29f7934d2e9e3bcf3c88d7e93a1dace08eab84bba"
+    },
+    {
+      "file": "FRONTUSDT-1d-2023-08.zip",
+      "sha256": "76dc8cf7395b1e2986b5ea6d4104585a6cd643f18f536ef33322e652dda467b7"
+    },
+    {
+      "file": "FRONTUSDT-1d-2023-09.zip",
+      "sha256": "e38f17e3d4d711f0782e865c6a527682cc40d5482f7c70144eae27ae2dd3d34b"
+    },
+    {
+      "file": "FRONTUSDT-1d-2023-10.zip",
+      "sha256": "2951b435b63bd911b78bd61d1bf1bf44c12996627dde96138aa35efaecb9948e"
+    },
+    {
+      "file": "FRONTUSDT-1d-2023-11.zip",
+      "sha256": "f4eadc4437f9f698c372ef46f2e515ce98b46f6f8cf96c0a58bdb3086aba3ef7"
+    },
+    {
+      "file": "FRONTUSDT-1d-2023-12.zip",
+      "sha256": "5db0ca9c11a95c87d4753c53fd61d74344aa087834bc681cdd9e91817426414f"
+    },
+    {
+      "file": "FRONTUSDT-1d-2024-01.zip",
+      "sha256": "c0c34d470bfd70e26b11769f646e21b86d560ba268fb464201cf1a63d8e38717"
+    },
+    {
+      "file": "FRONTUSDT-1d-2024-02.zip",
+      "sha256": "c317ba541f48a7906ac983e51d8f5ccde6050e136da87917bc846e7a84df2f26"
+    },
+    {
+      "file": "FRONTUSDT-1d-2024-03.zip",
+      "sha256": "69bee177780b342affc26c6f54905f526ce860985c837b2dbb4734f1b7313326"
+    },
+    {
+      "file": "FRONTUSDT-1d-2024-04.zip",
+      "sha256": "e2d36a0679debef566960c0452fd7a191afe94d3502a7e82a12b23afd98b6bc4"
+    },
+    {
+      "file": "FRONTUSDT-1d-2024-05.zip",
+      "sha256": "678c031057f581434899b78925c0a69789c64d7ee60ca4d99e6ca5779321cd0f"
+    },
+    {
+      "file": "FRONTUSDT-1d-2024-06.zip",
+      "sha256": "9ed1336f2a36850bff0671bd03dca4a6eaa3e3f50eb9bcaceffb1da8df3a4407"
+    },
+    {
+      "file": "FRONTUSDT-1d-2024-07.zip",
+      "sha256": "2e8b306414b191c129289b53e8824ef1f9d36d8b18a08a0f8a779bafdab66106"
+    },
+    {
+      "file": "FRONTUSDT-1d-2024-08.zip",
+      "sha256": "5658263cb85bacd0f53902bea461b904cdab45a4747f8203227fc15e846fa5ef"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

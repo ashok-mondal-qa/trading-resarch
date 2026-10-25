@@ -1,0 +1,369 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/WINUSDT/1d/",
+  "instrument": "WINUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-08-01",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:49:39+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2618,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "WINUSDT-1d-2019-08.zip",
+      "sha256": "f5a8427b353716554529eca66101cecf996b450cad452f17530a866baa911d19"
+    },
+    {
+      "file": "WINUSDT-1d-2019-09.zip",
+      "sha256": "04c2ef1bf5452e24790b3059927013549b8746f91d545e01dcde6bd6004a45a2"
+    },
+    {
+      "file": "WINUSDT-1d-2019-10.zip",
+      "sha256": "fc87579c63094ac6c1598ca12db7dcc015acdad33b7589aabd41c15aaebf905e"
+    },
+    {
+      "file": "WINUSDT-1d-2019-11.zip",
+      "sha256": "b84e5a74663a8ae1eacb6a3e6517775d5354ad78c20736c4fc213357d7b61d9c"
+    },
+    {
+      "file": "WINUSDT-1d-2019-12.zip",
+      "sha256": "45ca5b316bfe150ffbdcc8511f7053b890e3def2224a9c35ebf022387501a452"
+    },
+    {
+      "file": "WINUSDT-1d-2020-01.zip",
+      "sha256": "980376a5e1608f63b9cc831517860b77bf460ea3ef09a8ce354fc364d1840f86"
+    },
+    {
+      "file": "WINUSDT-1d-2020-02.zip",
+      "sha256": "5af1567d672e455b78e4a1276de4ab1e8d48ba802a0055dae76c881e8003ded9"
+    },
+    {
+      "file": "WINUSDT-1d-2020-03.zip",
+      "sha256": "737b17a38ae1bc42308c960b9240dffaa9c0552a03862e05a2e9b1394547f0be"
+    },
+    {
+      "file": "WINUSDT-1d-2020-04.zip",
+      "sha256": "3d05e40609af65ca10dc9b03ed78d3a24268ec4cc526d5574ec055b84699da31"
+    },
+    {
+      "file": "WINUSDT-1d-2020-05.zip",
+      "sha256": "e2f13d71c27fad3a1d8976b191740ffdd1222096e03c6f7ad185a6f6279d356a"
+    },
+    {
+      "file": "WINUSDT-1d-2020-06.zip",
+      "sha256": "b662c882963db19c96a05087e28257ccd8a1788cd44928b6ae854b3d1e269881"
+    },
+    {
+      "file": "WINUSDT-1d-2020-07.zip",
+      "sha256": "7aa20be0e578dea8b6aad74dee5ef36d1043fb457bb5e84486656e58f37c9e3e"
+    },
+    {
+      "file": "WINUSDT-1d-2020-08.zip",
+      "sha256": "df063356c2887ea38a13312d0f4757932876d6afe5b10bbed15bd246fc8108ed"
+    },
+    {
+      "file": "WINUSDT-1d-2020-09.zip",
+      "sha256": "b74f5c189e7977ed15092ead4aeff9f9d5eecc67111c3037fb462c8878d973e4"
+    },
+    {
+      "file": "WINUSDT-1d-2020-10.zip",
+      "sha256": "79d6a9792b9fa6f2568c118969f6d137c577aaa9b5b9258febdcdf9dc8dd0565"
+    },
+    {
+      "file": "WINUSDT-1d-2020-11.zip",
+      "sha256": "16fcdada8117eece71fcc67a0a51dc4f3870aeb81c97a1a64c1b26a4b4022f9e"
+    },
+    {
+      "file": "WINUSDT-1d-2020-12.zip",
+      "sha256": "025fd5217309bb4f847b087530b8df0052cca3eb32e232443d9ab66c812b8d1b"
+    },
+    {
+      "file": "WINUSDT-1d-2021-01.zip",
+      "sha256": "ea1682dce33e60ddd2413dba84d5dfbf34bca33124a40afbe2c6b93c18c4563c"
+    },
+    {
+      "file": "WINUSDT-1d-2021-02.zip",
+      "sha256": "00e7f05b5bf8b4ffc7b1374cd7c0ab5a2e3085c259c8a07a3ebe02ed77abab05"
+    },
+    {
+      "file": "WINUSDT-1d-2021-03.zip",
+      "sha256": "a0e8e09f7516bf901e69a0a873ccf6fcebd06ddb3801795502b0d2062d224d48"
+    },
+    {
+      "file": "WINUSDT-1d-2021-04.zip",
+      "sha256": "f4bb0fb2ec3a5b0c2c42ca389bd15a1cf90412310af7833f6f39047ce4c99c47"
+    },
+    {
+      "file": "WINUSDT-1d-2021-05.zip",
+      "sha256": "e283e3eb2612a0984e8227410b7516a1820772518d43aba8dbace95f7165a671"
+    },
+    {
+      "file": "WINUSDT-1d-2021-06.zip",
+      "sha256": "4becabba1e995213e083f76e06f5e37d08ddf2a183324e4f19977ef79e49e9de"
+    },
+    {
+      "file": "WINUSDT-1d-2021-07.zip",
+      "sha256": "20ef27c387b54ccdc68e988ae500a5bc982b760f4ad19e62664f570ce0cfce27"
+    },
+    {
+      "file": "WINUSDT-1d-2021-08.zip",
+      "sha256": "660c2f8eecdfa61a5b1e0c20834a3e0fa6ccca179ee46ee7ec70f67ea605f53c"
+    },
+    {
+      "file": "WINUSDT-1d-2021-09.zip",
+      "sha256": "08e6bfb4ec151c04f73fce94ad4d2bb985f1935d0471af9e91c6e65e5126ef6a"
+    },
+    {
+      "file": "WINUSDT-1d-2021-10.zip",
+      "sha256": "ca5669c1567e7c21098eac207ed6f850feed0d92c995d9287d938b6c18be18d5"
+    },
+    {
+      "file": "WINUSDT-1d-2021-11.zip",
+      "sha256": "c427169b200b5beb2e58b307008518b7a29920d0699eccf7ed4e41f18cf4a29d"
+    },
+    {
+      "file": "WINUSDT-1d-2021-12.zip",
+      "sha256": "a37fbe4cd2da7ea819e6196940df175202c91e816defc50adcce8d7fb34e7ad2"
+    },
+    {
+      "file": "WINUSDT-1d-2022-01.zip",
+      "sha256": "08e633e22c2b1d35ecee1305fe25afd4bf7d1256e1515bae048e351a31339802"
+    },
+    {
+      "file": "WINUSDT-1d-2022-02.zip",
+      "sha256": "c18b0ca2b000ad9b1fd5f9c081c59e8febad83f0b3370adcf69ca45a5c2fe392"
+    },
+    {
+      "file": "WINUSDT-1d-2022-03.zip",
+      "sha256": "741b014363bba2e8b2541b9db8afb53dea0fefc61fa9416d3afce55fa038c1cb"
+    },
+    {
+      "file": "WINUSDT-1d-2022-04.zip",
+      "sha256": "b965ddb4f10ef842d24f48da80c86cad5da652e043a068d080592513fb90fdf9"
+    },
+    {
+      "file": "WINUSDT-1d-2022-05.zip",
+      "sha256": "3e0b53b01686d898c0015f51a1536184497db89fb1fc6462ec2cdbeb7298ed75"
+    },
+    {
+      "file": "WINUSDT-1d-2022-06.zip",
+      "sha256": "679ed83bc146ede6393bc229bbd9d704a3f53d671bb5f5548f421ebc5e168695"
+    },
+    {
+      "file": "WINUSDT-1d-2022-07.zip",
+      "sha256": "93fe117ac4af9a31066b1d0ce63e682a8ee23ac2d88b2b694d379cf6bbdd5b72"
+    },
+    {
+      "file": "WINUSDT-1d-2022-08.zip",
+      "sha256": "6029bdd3c0002c7e8af19be93438668075075b3bdeb8a16d6d22fdde004a9f80"
+    },
+    {
+      "file": "WINUSDT-1d-2022-09.zip",
+      "sha256": "fb12d1f0fbc8c69498f69262d92519284b926207c3c921837b955a0fc8c50ab1"
+    },
+    {
+      "file": "WINUSDT-1d-2022-10.zip",
+      "sha256": "497fe1c3eb3e52ef70b8b0e37ba722792b11f1ebfd21f9aba9918fe36ccade52"
+    },
+    {
+      "file": "WINUSDT-1d-2022-11.zip",
+      "sha256": "043130fc46a6dbf8483d58a0d81eb3933683e351a47ec0a18933918c4be4fa74"
+    },
+    {
+      "file": "WINUSDT-1d-2022-12.zip",
+      "sha256": "72382b941fbce17ec0fbc59239c08598a4f4227f7dd666951ff5729746ec3acd"
+    },
+    {
+      "file": "WINUSDT-1d-2023-01.zip",
+      "sha256": "7d4fdf939df7531d9dc3e0c3f4cf904cbd8ee1b4979b5ce24bec7fe215e64c48"
+    },
+    {
+      "file": "WINUSDT-1d-2023-02.zip",
+      "sha256": "f8dac3cc32a58372b7cd0f3aa3672c159e8b5dc4c0d4c156627fddf4ddacc596"
+    },
+    {
+      "file": "WINUSDT-1d-2023-03.zip",
+      "sha256": "fc0ab27cbc04f79e97cf4bf8cb6c5907ab5bbabd1d8abf6bbe1101bbf8bdf7e7"
+    },
+    {
+      "file": "WINUSDT-1d-2023-04.zip",
+      "sha256": "ef9b3a08d89ed1f05e80e68248b8e1b8faae81a4a128490e0749939e29ee06cc"
+    },
+    {
+      "file": "WINUSDT-1d-2023-05.zip",
+      "sha256": "40e32ec27643d7ae38a3cf77017e4614de348fd62c4faf53fe201cd5101437f8"
+    },
+    {
+      "file": "WINUSDT-1d-2023-06.zip",
+      "sha256": "0f622eae41225e992dc7982f5dc4df30c02ed0100445619c90a29fc1ef0bd95a"
+    },
+    {
+      "file": "WINUSDT-1d-2023-07.zip",
+      "sha256": "fc94d97cfcd47f4c308cc70b1120d0423c0cec88a1265f2ebf6b02ea197c3ee8"
+    },
+    {
+      "file": "WINUSDT-1d-2023-08.zip",
+      "sha256": "61f795df2ac2488dcd028d5c178be557a1dea29246d1d359ba958c2a0dce5d15"
+    },
+    {
+      "file": "WINUSDT-1d-2023-09.zip",
+      "sha256": "baf33fba5fd6b2a2ec6164c70aab9ffea9658e35c2982d1aa17b51acfb291fd5"
+    },
+    {
+      "file": "WINUSDT-1d-2023-10.zip",
+      "sha256": "d3edc1af22e68206f782725ba63695cee8580d61f2067e8729cbb5a13bdfcb30"
+    },
+    {
+      "file": "WINUSDT-1d-2023-11.zip",
+      "sha256": "f3f8a65dfe1e64a2ca2ab1100c3088b043a1404ffe77736d9515a76fab4c2f98"
+    },
+    {
+      "file": "WINUSDT-1d-2023-12.zip",
+      "sha256": "00bf6c035eafb08363ca8cf4983ade4a3265864f0c2adbcfa910b77d491b24ef"
+    },
+    {
+      "file": "WINUSDT-1d-2024-01.zip",
+      "sha256": "c2894f2d3ea657a22f3bf1528baaed821c240ae1faae20b9bca44096e4bad3c3"
+    },
+    {
+      "file": "WINUSDT-1d-2024-02.zip",
+      "sha256": "c777daa81feaf1d514e97022fe9a2ac5929b7c62ccab56e0d76bb1848581ee50"
+    },
+    {
+      "file": "WINUSDT-1d-2024-03.zip",
+      "sha256": "6ecf0ffb2a9c441e37bb0ecc1b11dd54ed1a476a44cb5877e31596bb0ba4be3c"
+    },
+    {
+      "file": "WINUSDT-1d-2024-04.zip",
+      "sha256": "8e3ba35dafb05dfbba1dcc1606d37d407c75b675caf3e6277b9701f7e406af3d"
+    },
+    {
+      "file": "WINUSDT-1d-2024-05.zip",
+      "sha256": "860d05d018f76585153b1aed2b7e9287e4ab937e9cd50bf681d00f2b5aa1ca5a"
+    },
+    {
+      "file": "WINUSDT-1d-2024-06.zip",
+      "sha256": "6d3d7e646dcacd6f4b0e5524530a64bc8aff9dea186543f52d3dfe542fdb44ba"
+    },
+    {
+      "file": "WINUSDT-1d-2024-07.zip",
+      "sha256": "9a0ce3f6dd026984a49b7e760888021a0b140fe4900ba67be7be0c472cd5b359"
+    },
+    {
+      "file": "WINUSDT-1d-2024-08.zip",
+      "sha256": "983a2013d8f9e606e09e97b972b3c137b97e1517f37f1307c58db9134e52b926"
+    },
+    {
+      "file": "WINUSDT-1d-2024-09.zip",
+      "sha256": "c1cc6f740daf672e60c62ca2d63b6a6acbcf08d9fc464862803eeffa7ecb65d2"
+    },
+    {
+      "file": "WINUSDT-1d-2024-10.zip",
+      "sha256": "45ce14faebf7b2f7f4b016a00cc7bc487b27a790e2d03d166646606fe025f9d0"
+    },
+    {
+      "file": "WINUSDT-1d-2024-11.zip",
+      "sha256": "aca1da6ba2ef83a0db671eb969bd794805bfeafa3b183333a7dfd5e16fcd2c85"
+    },
+    {
+      "file": "WINUSDT-1d-2024-12.zip",
+      "sha256": "fe45f30eb0da07512fa2e414f0336cd3121b98a4c0a1da4bbfe70f13f73dcc3d"
+    },
+    {
+      "file": "WINUSDT-1d-2025-01.zip",
+      "sha256": "f8189102226aafff86c5b7ba12495122de821d62d9752102949c4a823b0067c6"
+    },
+    {
+      "file": "WINUSDT-1d-2025-02.zip",
+      "sha256": "9fbf584a2fd20da24b5ff3213c88dba57b772315ee16f8e5f7e8c4fb31776a26"
+    },
+    {
+      "file": "WINUSDT-1d-2025-03.zip",
+      "sha256": "e52a599244a5e095beba8ecd90e2cda3d26d2b7aa8f7627d1940d9bce93a5bad"
+    },
+    {
+      "file": "WINUSDT-1d-2025-04.zip",
+      "sha256": "389ac804ad605fdae2cf4df05f872f6dd4b51230a5e58c3046fede12e4524a93"
+    },
+    {
+      "file": "WINUSDT-1d-2025-05.zip",
+      "sha256": "34d3b2e04079b125297ba9a3e0441b04a8c7a47612ed873684c357037a51ba5d"
+    },
+    {
+      "file": "WINUSDT-1d-2025-06.zip",
+      "sha256": "4fa1b7810b8f65fae97420b6c3149b4754c881f2820e3a9e99eb277d30292294"
+    },
+    {
+      "file": "WINUSDT-1d-2025-07.zip",
+      "sha256": "1f548752db1aa739541dd5935061404dd29eb291b73e9f65b51c10fb5c4b555b"
+    },
+    {
+      "file": "WINUSDT-1d-2025-08.zip",
+      "sha256": "9e99787832bea5c16bc10bdcfc0db1bef82c07e093f2d922d354f0448c2b6c78"
+    },
+    {
+      "file": "WINUSDT-1d-2025-09.zip",
+      "sha256": "37490871d34d013388cdf3b79c9adfa43bb1d61343033cb3fe4c427b5984322e"
+    },
+    {
+      "file": "WINUSDT-1d-2025-10.zip",
+      "sha256": "efee4fb4ae3c1ca4e765b45d1288e2b9ced5b7c38209f1f17b7631d2a24b8d8f"
+    },
+    {
+      "file": "WINUSDT-1d-2025-11.zip",
+      "sha256": "fa5aae11d77a530b64e38b1225d0b7dfadc82d9d31cf8bdfb8f8aeec378ef584"
+    },
+    {
+      "file": "WINUSDT-1d-2025-12.zip",
+      "sha256": "752fdde1dea012407d418c3b2ad41754607dffde7feb21127fd4ec1d2f650d15"
+    },
+    {
+      "file": "WINUSDT-1d-2026-01.zip",
+      "sha256": "8d290afb1e9b9d304512837087920c781bad10145fed1f14a725cdd4100a2404"
+    },
+    {
+      "file": "WINUSDT-1d-2026-02.zip",
+      "sha256": "60e449508b009304b303bb01137c0926050702512dadd67d44f2e67f8e22e1ed"
+    },
+    {
+      "file": "WINUSDT-1d-2026-03.zip",
+      "sha256": "a57a67d85d6c034da239f0e0b08cd614a8b4bfbf3b17be14f8947643ea6ed02e"
+    },
+    {
+      "file": "WINUSDT-1d-2026-04.zip",
+      "sha256": "1d97497e4372ecc8463700360b7ca778ec2cddbfaaa332bbd995527cc726c685"
+    },
+    {
+      "file": "WINUSDT-1d-2026-05.zip",
+      "sha256": "3d8efd337bb5a47dc29ad3db5cfedc05ae6045bbf423b896dab58b2d0db5ef8c"
+    },
+    {
+      "file": "WINUSDT-1d-2026-06.zip",
+      "sha256": "d70a2eabe5ea18607dd908d35ffc041fbf39e63326c165170da5e7e20a6a1aca"
+    },
+    {
+      "file": "WINUSDT-1d-2026-07.zip",
+      "sha256": "ac8eedff37a9fe3415d70075c0446af8c8f474a2205abc8a669d3f242163d410"
+    },
+    {
+      "file": "WINUSDT-1d-2026-08.zip",
+      "sha256": "7faa40cb35924d951ca38a7daa476ea10f3f9319e4de3e705a7713f3798c4524"
+    },
+    {
+      "file": "WINUSDT-1d-2026-09.zip",
+      "sha256": "e7050e6ad75da625bee47be086f0047bd4519682ed62377eebaf096f153df01c"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

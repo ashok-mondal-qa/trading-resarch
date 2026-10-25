@@ -1,0 +1,93 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SXTUSDT/1d/",
+  "instrument": "SXTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-05-08",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:46:19+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 511,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SXTUSDT-1d-2025-05.zip",
+      "sha256": "af1089825b6aec34342043f8e013a8f13f6f6445fc8ba2d34c89868d6eb698a4"
+    },
+    {
+      "file": "SXTUSDT-1d-2025-06.zip",
+      "sha256": "f638ca52599ee5599da96e5aff39ad91988c9d64e14948e3a965c3d7ac57046c"
+    },
+    {
+      "file": "SXTUSDT-1d-2025-07.zip",
+      "sha256": "e6cbc62c6cb7102ba448a0800bf09b47ebe0a1e52952d92298f7186c74fdf254"
+    },
+    {
+      "file": "SXTUSDT-1d-2025-08.zip",
+      "sha256": "1b230c0ce71aa1bf93d1268c0862ac453aae825520d8905879b8874336a48830"
+    },
+    {
+      "file": "SXTUSDT-1d-2025-09.zip",
+      "sha256": "3485b408c2394214dab6a5dff35a53635e23c9bf565b3a522b21226195265bb7"
+    },
+    {
+      "file": "SXTUSDT-1d-2025-10.zip",
+      "sha256": "56707a8b8b000b386497e47d099be81af00143cc775397889067ea41c925f41f"
+    },
+    {
+      "file": "SXTUSDT-1d-2025-11.zip",
+      "sha256": "bbfb64518f602ea1d8498ab2f5ed47feade323fcd4f909feddcb36e5b96e59dc"
+    },
+    {
+      "file": "SXTUSDT-1d-2025-12.zip",
+      "sha256": "30a521d295bd3c277a0681e9673606668916bf50581980f1dcc8f91f8203a476"
+    },
+    {
+      "file": "SXTUSDT-1d-2026-01.zip",
+      "sha256": "2b6d5da155d7bdf2b8572c41bc003af9acc3df57fce1f06b46ecbf2125fe76f8"
+    },
+    {
+      "file": "SXTUSDT-1d-2026-02.zip",
+      "sha256": "255ee9fd18d1ff34ae15e715744780048009488c34b3aeec98ca97df5f379368"
+    },
+    {
+      "file": "SXTUSDT-1d-2026-03.zip",
+      "sha256": "ef1b885b954469556d0bbc17da057d40bc91ad17ae1fe5ce57765cc79057f4fa"
+    },
+    {
+      "file": "SXTUSDT-1d-2026-04.zip",
+      "sha256": "b4d39c2ca17e512a6c9280c6bc2b66e0afd327872b96fa024512d1b5ca4d2d13"
+    },
+    {
+      "file": "SXTUSDT-1d-2026-05.zip",
+      "sha256": "3afe355803c2027e368949aa51d0b336d1d136112faf54729c47ae847e7b4862"
+    },
+    {
+      "file": "SXTUSDT-1d-2026-06.zip",
+      "sha256": "ea3550d32cf54812a4ce810bbdab6634fff707b38cb6775752f2818efcf4a2f5"
+    },
+    {
+      "file": "SXTUSDT-1d-2026-07.zip",
+      "sha256": "fe239ef02077113454405be1d9df34feb2ee06f6b1d255cb40b15388629eb907"
+    },
+    {
+      "file": "SXTUSDT-1d-2026-08.zip",
+      "sha256": "7eda67cadbbcd3ae7f1362fd71b826665bca1a2dcd9309794753e571bf64db67"
+    },
+    {
+      "file": "SXTUSDT-1d-2026-09.zip",
+      "sha256": "adb9139f83ea35675ae2b93005f9ea905fa3ecf4ab367753b73637237528e19b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

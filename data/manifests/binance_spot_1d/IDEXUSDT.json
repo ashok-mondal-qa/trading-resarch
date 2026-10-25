@@ -1,0 +1,249 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/IDEXUSDT/1d/",
+  "instrument": "IDEXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-09-09",
+  "last_bar": "2026-04-01",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:35:58+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1666,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "IDEXUSDT-1d-2021-09.zip",
+      "sha256": "ca6b29e49d3f4ca6c5c119ff2439ed6cd21c366a0be04d2ecde0151012eb8cfb"
+    },
+    {
+      "file": "IDEXUSDT-1d-2021-10.zip",
+      "sha256": "0c068ec68b1079c5ed90c20a233e840464e23874a4e2860281a2df57aa4b3a40"
+    },
+    {
+      "file": "IDEXUSDT-1d-2021-11.zip",
+      "sha256": "f6a554559fff4c608d5c0c584819aa7b4b461b53cd4942bc1605128123eaddf1"
+    },
+    {
+      "file": "IDEXUSDT-1d-2021-12.zip",
+      "sha256": "54836b52022e1f544ce400ec70ca306cf3ca334e6c0d14c0991ab83956fe3670"
+    },
+    {
+      "file": "IDEXUSDT-1d-2022-01.zip",
+      "sha256": "aabce07755c71aa2a9520354ac26d7b0b7c911dccaed021945aeeb08cbf9e4b4"
+    },
+    {
+      "file": "IDEXUSDT-1d-2022-02.zip",
+      "sha256": "3bab9f2c09846d2560eb599f06f697ce456b9173e9b8a85af5c482cfd7010a46"
+    },
+    {
+      "file": "IDEXUSDT-1d-2022-03.zip",
+      "sha256": "c692b356f7e071f93f32b557eba507d625dda8de1874e2877f7995272b570ba1"
+    },
+    {
+      "file": "IDEXUSDT-1d-2022-04.zip",
+      "sha256": "77503d180ed979fb6ca7ea3b1bd03afb33702acbcaa02e49b36f057f24b87689"
+    },
+    {
+      "file": "IDEXUSDT-1d-2022-05.zip",
+      "sha256": "17b9cf4b6c19755ac50822eefada580d885d68ff2c9fec0314ee516d2150ce5f"
+    },
+    {
+      "file": "IDEXUSDT-1d-2022-06.zip",
+      "sha256": "3420a021ba13310506ee32bb9cad80fe6c636efb7183493b29ba9d88a35a4ad2"
+    },
+    {
+      "file": "IDEXUSDT-1d-2022-07.zip",
+      "sha256": "8103d411eeb014a6003eac832cef21e796f9505362de7f65bd0604d2fd919318"
+    },
+    {
+      "file": "IDEXUSDT-1d-2022-08.zip",
+      "sha256": "140e0f8b7f48b082308e0995b888e793e4dc1fb2c0d548a94ebb05435649273b"
+    },
+    {
+      "file": "IDEXUSDT-1d-2022-09.zip",
+      "sha256": "c623db0abc123932132d5ecfd0c476ea5ac151a7c8a06d0b055a1302d63287ff"
+    },
+    {
+      "file": "IDEXUSDT-1d-2022-10.zip",
+      "sha256": "9b5a751da8ea86005de2fdc6248fa919ed18d71554d9b363590a16fa12dbba32"
+    },
+    {
+      "file": "IDEXUSDT-1d-2022-11.zip",
+      "sha256": "b43fecf6b8199e1d4dcc832b43abcfabce526a4141a5811013801eac54ac91cb"
+    },
+    {
+      "file": "IDEXUSDT-1d-2022-12.zip",
+      "sha256": "4366ea248d2529b6367c32354bc6b38e93f4e5099720b3fffaaedd2a3f7bc6ae"
+    },
+    {
+      "file": "IDEXUSDT-1d-2023-01.zip",
+      "sha256": "ea6a5f71aee439df922c4ab90387c042a8111352a29368cdff2313a09bdf3e78"
+    },
+    {
+      "file": "IDEXUSDT-1d-2023-02.zip",
+      "sha256": "7c22fece47f9ddc07ba55fdb089349109e5f5981ae188d816223e0c6319983e6"
+    },
+    {
+      "file": "IDEXUSDT-1d-2023-03.zip",
+      "sha256": "69ae8fe2e01024514df740b9c60326ecff7861ae1e6856e34438132df44d184f"
+    },
+    {
+      "file": "IDEXUSDT-1d-2023-04.zip",
+      "sha256": "5f2ee50e5304d0c5c879743c0f454074ebb4ae93b2d3e12838268bb799283113"
+    },
+    {
+      "file": "IDEXUSDT-1d-2023-05.zip",
+      "sha256": "375349eab2eea354ab6e2818f86b0a3b4f48fffe9b4f73659e74396c87135638"
+    },
+    {
+      "file": "IDEXUSDT-1d-2023-06.zip",
+      "sha256": "bf4bfecaa0ed7209f699a6d0b8a3f9c6fc65fdd45253420c0c333d14e8c34ada"
+    },
+    {
+      "file": "IDEXUSDT-1d-2023-07.zip",
+      "sha256": "9f7538c4a35f87c7a7c4cc71b50508ee4a51fa143d984a78dd89ccc19863627b"
+    },
+    {
+      "file": "IDEXUSDT-1d-2023-08.zip",
+      "sha256": "33b4d29911593ab68e4cd957766ba0e71a1cc04d3c1646031790d4020377cf65"
+    },
+    {
+      "file": "IDEXUSDT-1d-2023-09.zip",
+      "sha256": "9d9ff3494029f26813add7e72811496deed39448c79e2ada04b1cce525ebd2b2"
+    },
+    {
+      "file": "IDEXUSDT-1d-2023-10.zip",
+      "sha256": "010227aa70d2285d4861be9ee139260504c2bdafe9cf14b3301bd9ebd4641460"
+    },
+    {
+      "file": "IDEXUSDT-1d-2023-11.zip",
+      "sha256": "39c6005efd785945ad3a3dd53a489451e0014d411701d7f8c007030b94e6a914"
+    },
+    {
+      "file": "IDEXUSDT-1d-2023-12.zip",
+      "sha256": "ba000403d77789528d35235b1c3a1e939d26c0b431da274dc764c0e9c96c0032"
+    },
+    {
+      "file": "IDEXUSDT-1d-2024-01.zip",
+      "sha256": "c1006ef6e25483634a63de3cb4d2ef79f14e92da3f0d98632013e1ca339644b8"
+    },
+    {
+      "file": "IDEXUSDT-1d-2024-02.zip",
+      "sha256": "81748ba0b1cb1ca4369133fed2a169912036619e092fea60083f90e761756919"
+    },
+    {
+      "file": "IDEXUSDT-1d-2024-03.zip",
+      "sha256": "003312c521b75eadf7f0343889ab3b9d8520d3cd2f067c54953d1dd757f219eb"
+    },
+    {
+      "file": "IDEXUSDT-1d-2024-04.zip",
+      "sha256": "6b4aee2dba6d0de55340c6376c9befcf3cf84a14374a78e7c6032c37d3b414af"
+    },
+    {
+      "file": "IDEXUSDT-1d-2024-05.zip",
+      "sha256": "9813fc923b019bf3b3fab10089e7a60d38178bf53fd9d37cdb58a086cad9ab42"
+    },
+    {
+      "file": "IDEXUSDT-1d-2024-06.zip",
+      "sha256": "8e5798850c93249406d7b19f8bf8b4c09d5e60f40a5ede2d8ce965fe2b010ee0"
+    },
+    {
+      "file": "IDEXUSDT-1d-2024-07.zip",
+      "sha256": "531f2a0472b81bd085c6c107108ff68938045d936b8fed49e213c0bae21ec0b6"
+    },
+    {
+      "file": "IDEXUSDT-1d-2024-08.zip",
+      "sha256": "3d32b3f6390aef00283d609cf915ffaa440350bf2d6ceac64ccd72fdfa2aa5ff"
+    },
+    {
+      "file": "IDEXUSDT-1d-2024-09.zip",
+      "sha256": "cd620bb3942b1d4b819b9285f9e46bce13adbcdb4c1b1245cf2df1ce39fb828e"
+    },
+    {
+      "file": "IDEXUSDT-1d-2024-10.zip",
+      "sha256": "50b949dca153648704c0d635629d429ca9ac92baaffe9f7f6a08c9cbd2a151ae"
+    },
+    {
+      "file": "IDEXUSDT-1d-2024-11.zip",
+      "sha256": "90237c5bd4d094d93d6557b66012261522211a56df6a32ab062a0bfff1050acd"
+    },
+    {
+      "file": "IDEXUSDT-1d-2024-12.zip",
+      "sha256": "e4f47b00553f7b0088787895c02e1d8660e9e66a96715c191a192ec6a7249d41"
+    },
+    {
+      "file": "IDEXUSDT-1d-2025-01.zip",
+      "sha256": "a697c1ba6b43256cb76a827c059c979cd2494c0e048d6cfaf091886f498a2c07"
+    },
+    {
+      "file": "IDEXUSDT-1d-2025-02.zip",
+      "sha256": "641bd553e7a7e7e0c7ebaa1d83317db3ddfddb7e36d8905aec7eb603f7a02eb5"
+    },
+    {
+      "file": "IDEXUSDT-1d-2025-03.zip",
+      "sha256": "09971971566d0fb988ec67bd48066ef930631b62804386c80a2a74efc6dbec1d"
+    },
+    {
+      "file": "IDEXUSDT-1d-2025-04.zip",
+      "sha256": "74ad48687724e17379861c2b7e1634d63cd3834a05c7999940e41ba36f23eba6"
+    },
+    {
+      "file": "IDEXUSDT-1d-2025-05.zip",
+      "sha256": "d03092255fd00c5da0565c67acc9709dfdb4c356ef4ffc9d8b91eee24a9e5a85"
+    },
+    {
+      "file": "IDEXUSDT-1d-2025-06.zip",
+      "sha256": "b0a7698912dd398547eb047dfd7f252d5a458ace42cb27c157a49e4e706d63bd"
+    },
+    {
+      "file": "IDEXUSDT-1d-2025-07.zip",
+      "sha256": "89cf72e5159501171918e58e2b379fdb45543b4560fe97b9dbc0fc3dc196a109"
+    },
+    {
+      "file": "IDEXUSDT-1d-2025-08.zip",
+      "sha256": "6cea3f506392c3dc1d82bb8d5c0cddda5248a0c70d58f266626ece1ad298b4e3"
+    },
+    {
+      "file": "IDEXUSDT-1d-2025-09.zip",
+      "sha256": "acbdd00ae11d2ce267358cf38c56cdeca66160167491f1f71a7790a0d4716cc8"
+    },
+    {
+      "file": "IDEXUSDT-1d-2025-10.zip",
+      "sha256": "dcf0dec90fea91df52f9f0b2226b501421e259ef1a4467070f41069ddc956439"
+    },
+    {
+      "file": "IDEXUSDT-1d-2025-11.zip",
+      "sha256": "29cd8ce36aebab3ac1f3c03a63a0910ff0069e73d641565c105d005522cb978e"
+    },
+    {
+      "file": "IDEXUSDT-1d-2025-12.zip",
+      "sha256": "7052db4a9446452d596336fdc9dd6f431d2a09189349a4d9b80969be139b11bc"
+    },
+    {
+      "file": "IDEXUSDT-1d-2026-01.zip",
+      "sha256": "f701448b31f1c5a135851fbe9aedf9054f72e6de90a987514993196e6934e6b7"
+    },
+    {
+      "file": "IDEXUSDT-1d-2026-02.zip",
+      "sha256": "245201c2d8d7dec727e25a905560980d086408f6dac84517d05632a65b610874"
+    },
+    {
+      "file": "IDEXUSDT-1d-2026-03.zip",
+      "sha256": "f2c8401db7e8ece658c3822f80a1f42ddeb5617005adad2f98905fde39f510c2"
+    },
+    {
+      "file": "IDEXUSDT-1d-2026-04.zip",
+      "sha256": "fe270cfb2ed5ffefb1d3c1f466a41b7283bf1b955ba760664f33c4a1b6ff5f1d"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

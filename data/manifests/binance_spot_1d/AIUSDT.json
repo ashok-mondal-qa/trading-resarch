@@ -1,0 +1,157 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/AIUSDT/1d/",
+  "instrument": "AIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-01-04",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:25:04+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1001,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "AIUSDT-1d-2024-01.zip",
+      "sha256": "bfd1d30e282c915497dbb83efc19924023d6ecf4ab20d3905c9388db2d1f56d0"
+    },
+    {
+      "file": "AIUSDT-1d-2024-02.zip",
+      "sha256": "15d557865d37ae8f89311a3411631af0f42e172bdb50169e04852c141fc62738"
+    },
+    {
+      "file": "AIUSDT-1d-2024-03.zip",
+      "sha256": "3db43c89b373a4cf9506b3f3f6cb8a2c24aafa6b3f84d5e93e0d8c767ce104ee"
+    },
+    {
+      "file": "AIUSDT-1d-2024-04.zip",
+      "sha256": "94c547da94c960913fb6af79192b12462f75289730228bfb71763f197e2e344e"
+    },
+    {
+      "file": "AIUSDT-1d-2024-05.zip",
+      "sha256": "a8c5c6a2c59b26d02fc833f1186cf57c13be33b1694f0fa995d8977bf11def5f"
+    },
+    {
+      "file": "AIUSDT-1d-2024-06.zip",
+      "sha256": "6f7fa1ac533a083685d6be0f79e20d8e69001950f6fc9e93eb7253dba6657939"
+    },
+    {
+      "file": "AIUSDT-1d-2024-07.zip",
+      "sha256": "a0102d4cac23e2783e2e0a16a00f4693157a4c9a67f6cb13856499b6958259b6"
+    },
+    {
+      "file": "AIUSDT-1d-2024-08.zip",
+      "sha256": "96cf3d6f1a958fb685be14da45098b7def30be4cd2a226d4c5d520414650d029"
+    },
+    {
+      "file": "AIUSDT-1d-2024-09.zip",
+      "sha256": "a1f1691bb137924c791661a4a3943f704df45dd196c5e10f3e535e743469f1f9"
+    },
+    {
+      "file": "AIUSDT-1d-2024-10.zip",
+      "sha256": "e9ae2f12473188502ac662e3b95525a3b257d372f8be613cc055d064f52a6302"
+    },
+    {
+      "file": "AIUSDT-1d-2024-11.zip",
+      "sha256": "fa6e42e55bfd6f21da3c778f90717fe8dab9950e443e7a7ceec11cc2f0b45e1b"
+    },
+    {
+      "file": "AIUSDT-1d-2024-12.zip",
+      "sha256": "68e5805d19cd21a59bdf96332235ab3b0d81947aa3c0262e06489e0caa7d1733"
+    },
+    {
+      "file": "AIUSDT-1d-2025-01.zip",
+      "sha256": "7fc07ecc4402d824be0936e1826e4653d09491317d7ae45c2fc5a5587736b3a4"
+    },
+    {
+      "file": "AIUSDT-1d-2025-02.zip",
+      "sha256": "264c83d32d6344e3e82c946c36529de592fec01203db3f9140033f4dcba18133"
+    },
+    {
+      "file": "AIUSDT-1d-2025-03.zip",
+      "sha256": "af385973a70a8f3d0ad58ddd08088593c77fa508ad1f0ad888c512dbc07703cf"
+    },
+    {
+      "file": "AIUSDT-1d-2025-04.zip",
+      "sha256": "09689f8794fdd83e886faec7ca5aeee8803736d03c2906c5dfd928e04de0fcc5"
+    },
+    {
+      "file": "AIUSDT-1d-2025-05.zip",
+      "sha256": "8b6d480720e0b9f2d975e88c3fc9dd53b35773d63aa541dba33a467f10edf00a"
+    },
+    {
+      "file": "AIUSDT-1d-2025-06.zip",
+      "sha256": "0c8df758dd0a28879acc1b6ceba8a0c3ac9402b021804362b5c698b798ef6eee"
+    },
+    {
+      "file": "AIUSDT-1d-2025-07.zip",
+      "sha256": "50d2296332c371f7287fc09ecd70cbbdb0f9a795c683a322155538db7d196dae"
+    },
+    {
+      "file": "AIUSDT-1d-2025-08.zip",
+      "sha256": "bb65d7a78b893f3a37194d483a9cc46b797e3561518f6b9552be9609f973c096"
+    },
+    {
+      "file": "AIUSDT-1d-2025-09.zip",
+      "sha256": "aa15d301c2465a0c592092f702f082695c004ef94d5727ba68b76902b6a589bb"
+    },
+    {
+      "file": "AIUSDT-1d-2025-10.zip",
+      "sha256": "26c6144691f161ffa3a855924dcffc5d446d73a5899e20a92b5acf8cb9d04f10"
+    },
+    {
+      "file": "AIUSDT-1d-2025-11.zip",
+      "sha256": "8e3c1356d4645eddd506361443102e1adf9fd8ad9f6224438a2b56b108df550c"
+    },
+    {
+      "file": "AIUSDT-1d-2025-12.zip",
+      "sha256": "518c2d8972ae7d2c33a3c0608f30e4d85e621633f65a7b3ebeb31811b63cb3e7"
+    },
+    {
+      "file": "AIUSDT-1d-2026-01.zip",
+      "sha256": "80697c6f142f116d11768ede6261bedc34606144065eb7aa2d7ca403d4f42bd7"
+    },
+    {
+      "file": "AIUSDT-1d-2026-02.zip",
+      "sha256": "7ecc691a4787b7ae342122c637fa75b5fbb14b81d452169490a1466a9f277a9b"
+    },
+    {
+      "file": "AIUSDT-1d-2026-03.zip",
+      "sha256": "a5410c322b141e8ca840dad4a8ce40eca6767bbdb3db583fe0cbee36daa7e771"
+    },
+    {
+      "file": "AIUSDT-1d-2026-04.zip",
+      "sha256": "7a3c24b070458fb69b275c23a0321c058c86b0fd18ec9d4259d15a22a3b07343"
+    },
+    {
+      "file": "AIUSDT-1d-2026-05.zip",
+      "sha256": "fdae9b373cd1324d6441af89bc5a8ed6063b5d6b7e2f0945d4269a59629fb5c9"
+    },
+    {
+      "file": "AIUSDT-1d-2026-06.zip",
+      "sha256": "6e1cd042dba9f97abab3f09d8e0bc3302a7f4b748abd6370df11b1372883a1d7"
+    },
+    {
+      "file": "AIUSDT-1d-2026-07.zip",
+      "sha256": "756c2d79a9cf20649fb46076cb83e92ee1d6317718d7e59635de51a960ed21b1"
+    },
+    {
+      "file": "AIUSDT-1d-2026-08.zip",
+      "sha256": "7e45d2bdf5f71274d7bcfe4eddad95ba6ea767162813b99f4552d30fd4d192c2"
+    },
+    {
+      "file": "AIUSDT-1d-2026-09.zip",
+      "sha256": "2be6a56697aa407174d885ab3a5b47862610087fba9fe63043adf830a0516958"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

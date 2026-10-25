@@ -1,0 +1,281 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/RENUSDT/1d/",
+  "instrument": "RENUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-09-25",
+  "last_bar": "2024-12-10",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:44:14+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1904,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "RENUSDT-1d-2019-09.zip",
+      "sha256": "4d43c650a9bb63597fb57c2fcfbe77e0ef7f02dfe97bff8dc7d4184023cbcbd6"
+    },
+    {
+      "file": "RENUSDT-1d-2019-10.zip",
+      "sha256": "5ede7b692cca9bb0835a597c2b133659a40eac68d76ab1df56da31b94d01ae0b"
+    },
+    {
+      "file": "RENUSDT-1d-2019-11.zip",
+      "sha256": "5b04bdcab5c4b89eef6181180e8df21db6a7fd118b009657a7d4a8534ddc4745"
+    },
+    {
+      "file": "RENUSDT-1d-2019-12.zip",
+      "sha256": "6ca90d7a4f1c20d095afa3d4a2150dfe10e55ceaea22dd760ae51fae7989d0d7"
+    },
+    {
+      "file": "RENUSDT-1d-2020-01.zip",
+      "sha256": "c9d0df781765c868d53649c62b987722d097a8ed2068709141def45d4607938f"
+    },
+    {
+      "file": "RENUSDT-1d-2020-02.zip",
+      "sha256": "a61875396d493820484dc7d9acef0854054d56784f083c958c0506203a0bc261"
+    },
+    {
+      "file": "RENUSDT-1d-2020-03.zip",
+      "sha256": "64aac14521800cf4815dbb5c0160fc6fa7a1476b9d78051eb2c5d7fc16fcbdf3"
+    },
+    {
+      "file": "RENUSDT-1d-2020-04.zip",
+      "sha256": "40ff9822cfcfa53838d1eb1b01fe98454d8a5589fbf8952a4488ebfd285c5be2"
+    },
+    {
+      "file": "RENUSDT-1d-2020-05.zip",
+      "sha256": "57d599cee502f7c168f3ea1fbccb5128b7e2918d52d13272d0e43d2455f72908"
+    },
+    {
+      "file": "RENUSDT-1d-2020-06.zip",
+      "sha256": "d39d2d5c65a630454e16ce2df15b1659cdc75fe843abf1dc64d7825f905d8f9b"
+    },
+    {
+      "file": "RENUSDT-1d-2020-07.zip",
+      "sha256": "91628759cfbbc742432ee2a2d3c55c0b1f0c7b8d018dc209995b4d131b47ff86"
+    },
+    {
+      "file": "RENUSDT-1d-2020-08.zip",
+      "sha256": "5c79714119b84054237eaf2e261ae1b4da7b89eb49ac13aa9308f96e58d3860c"
+    },
+    {
+      "file": "RENUSDT-1d-2020-09.zip",
+      "sha256": "6ced3bcef547713edbd548d79c18a12d20295c73d232c6b964e75daa89815551"
+    },
+    {
+      "file": "RENUSDT-1d-2020-10.zip",
+      "sha256": "2988020c6cdead6170216bbb8ea69500d9bda150a75f5a1ac14471098c12570e"
+    },
+    {
+      "file": "RENUSDT-1d-2020-11.zip",
+      "sha256": "14860c08b54d0234e5f013c1c516e558336d7ead87c6f2fca6831b07b64c30ce"
+    },
+    {
+      "file": "RENUSDT-1d-2020-12.zip",
+      "sha256": "d524bf22b3cf191b280ee26e453348c43b1fdce5be1fc84cb442b959e5e4c4ef"
+    },
+    {
+      "file": "RENUSDT-1d-2021-01.zip",
+      "sha256": "0495cb2aa542e1f58e6d205d388aea41b9841a827cfcb01fd89adf90bc970ef0"
+    },
+    {
+      "file": "RENUSDT-1d-2021-02.zip",
+      "sha256": "07977d712aa27f1f7dc09fcfcbe9353af836c2fcd2237753a5b97ad472064ea2"
+    },
+    {
+      "file": "RENUSDT-1d-2021-03.zip",
+      "sha256": "c9c370db9534ae9ed5554a8103aaebeb9facc562aa7ce1ff6bed332717c822b0"
+    },
+    {
+      "file": "RENUSDT-1d-2021-04.zip",
+      "sha256": "7548ea79cdee5498a55eb2d51b05d91f4e05d7c9140c28d8dc199d93d13620a0"
+    },
+    {
+      "file": "RENUSDT-1d-2021-05.zip",
+      "sha256": "dabbce3dbac774de74a1bdf64f0c33725597ae72a678d8911a9128e0580547eb"
+    },
+    {
+      "file": "RENUSDT-1d-2021-06.zip",
+      "sha256": "29e2ccc5ee037fee03510841237776ce343da98708237ed5d764b3a652d2e108"
+    },
+    {
+      "file": "RENUSDT-1d-2021-07.zip",
+      "sha256": "976eec2bdacd6545dcd45857b02201d9fa2f0042d955509382a7838a19428ede"
+    },
+    {
+      "file": "RENUSDT-1d-2021-08.zip",
+      "sha256": "eac92963d64140b3319ab120553d5d70ba050559b6e141eeffab193a02a9a2d1"
+    },
+    {
+      "file": "RENUSDT-1d-2021-09.zip",
+      "sha256": "85ed2c1dee256afa73676c45086b08eeba9ae0e82960ea45d9408e0db2de91fa"
+    },
+    {
+      "file": "RENUSDT-1d-2021-10.zip",
+      "sha256": "eff72628cabf3ff960983f2b85fa411d0fd367a3b3ae25896f22884f1fe3d764"
+    },
+    {
+      "file": "RENUSDT-1d-2021-11.zip",
+      "sha256": "0502f11820a1734f4a46a29963c78d7d4209965497749adb6e0cbe641dfa41fb"
+    },
+    {
+      "file": "RENUSDT-1d-2021-12.zip",
+      "sha256": "c171db27c0abe1b2dbf9db233454e17d0261ae96c9a0f473257de55ac7c4c577"
+    },
+    {
+      "file": "RENUSDT-1d-2022-01.zip",
+      "sha256": "0f84da6c8b3b6464489455dc04c73cb11fc7f02fff7c22a05393b9310125fe29"
+    },
+    {
+      "file": "RENUSDT-1d-2022-02.zip",
+      "sha256": "16b141936aa5e81ab2d4b6868f8f09b880e810aa3f946443697fd65ef6f4387f"
+    },
+    {
+      "file": "RENUSDT-1d-2022-03.zip",
+      "sha256": "f5ec3e03151f7befd887ebb9c2c5338e4e692b91b917abd764de9e1a01fb8188"
+    },
+    {
+      "file": "RENUSDT-1d-2022-04.zip",
+      "sha256": "fc3cd2a61a39374e2ad321be5880c86edf77f8d54c1ebd125d28973065fc7107"
+    },
+    {
+      "file": "RENUSDT-1d-2022-05.zip",
+      "sha256": "6867b462dfb1b382676766ec1a66e4bc7463506a1b007fbda14bd8049fc44ad9"
+    },
+    {
+      "file": "RENUSDT-1d-2022-06.zip",
+      "sha256": "66b2e0b9a06c42e4ec0bd38320c4c7901af66e7f9caf5bcad79d29313bb78634"
+    },
+    {
+      "file": "RENUSDT-1d-2022-07.zip",
+      "sha256": "61d982e31b4d1f5af93652260f48b93d69a7739ee794376a884bacfc22e02511"
+    },
+    {
+      "file": "RENUSDT-1d-2022-08.zip",
+      "sha256": "797214a87a93b36fc412a2046d3072aed1944466b86805c31ed1652ae9d342eb"
+    },
+    {
+      "file": "RENUSDT-1d-2022-09.zip",
+      "sha256": "a42081fa0fc07311950b4807121006842bc7e008d5f860e761bd96c5835bb7dc"
+    },
+    {
+      "file": "RENUSDT-1d-2022-10.zip",
+      "sha256": "35942f4d372df8459910561bf9258e39e9343b3e2fd65463949be56c56e662da"
+    },
+    {
+      "file": "RENUSDT-1d-2022-11.zip",
+      "sha256": "d07a0878403d6d92c050ea9dd147bb6771eabaa52a6af0b3c7b4188a0ea0385a"
+    },
+    {
+      "file": "RENUSDT-1d-2022-12.zip",
+      "sha256": "9f7fae288b6c337c9443adfd3191ed27e572a9abc9b35f90cfd304c3404dbc57"
+    },
+    {
+      "file": "RENUSDT-1d-2023-01.zip",
+      "sha256": "5337ae9d2382492b670c7824607af8273c03a9b621995c3d923a9c88f61246e3"
+    },
+    {
+      "file": "RENUSDT-1d-2023-02.zip",
+      "sha256": "a9c94de0decc219f1106dae796bf498180a126d3262ba1310a5d07ef0bbd2533"
+    },
+    {
+      "file": "RENUSDT-1d-2023-03.zip",
+      "sha256": "80ea7989eb3dd71312d186d3bedb50709024d3e2d832f57cbf6142c66b4b0b9e"
+    },
+    {
+      "file": "RENUSDT-1d-2023-04.zip",
+      "sha256": "b9aa526c4054eb2108aa8803ea652dc9fbc404e7cc46959f01ac319fc46b4390"
+    },
+    {
+      "file": "RENUSDT-1d-2023-05.zip",
+      "sha256": "cd09033c1509b8eadd4cd48be0512f963e0924fc1f9a55b47658036b2ee08cff"
+    },
+    {
+      "file": "RENUSDT-1d-2023-06.zip",
+      "sha256": "14a3a3f3dbc3911b02f3e6e8f2be34886645012177d53311e43932c2b3b046b8"
+    },
+    {
+      "file": "RENUSDT-1d-2023-07.zip",
+      "sha256": "26b7d1878f2e01bc10dd61ecfb42584cc65c20d4c2c8c520920b12f05deea1e9"
+    },
+    {
+      "file": "RENUSDT-1d-2023-08.zip",
+      "sha256": "2b2d6ec99585fe22430c1a047cfd50c93d8b069d3c2f3752d95ced571e0ad638"
+    },
+    {
+      "file": "RENUSDT-1d-2023-09.zip",
+      "sha256": "f75449f1e9834d35cf87a319938962498add27b80b60d9bb5aa950aee7717a31"
+    },
+    {
+      "file": "RENUSDT-1d-2023-10.zip",
+      "sha256": "74a33677d51b428d47fe2d3efb3e790a858009fbd385fd4477e932c5b4dd2544"
+    },
+    {
+      "file": "RENUSDT-1d-2023-11.zip",
+      "sha256": "26060d3d4d341053225931519664cbddea3cc29d315d6463f2eb62b86142af97"
+    },
+    {
+      "file": "RENUSDT-1d-2023-12.zip",
+      "sha256": "5b6bd4b1f9ef49aa21793d9b93d85203a72506091bbe77175cb9f3e898a47e47"
+    },
+    {
+      "file": "RENUSDT-1d-2024-01.zip",
+      "sha256": "97a2171e1bc6a7dc3c53ceb601318892e9fb2682cb2e0a6479d3e94cc1eac1a6"
+    },
+    {
+      "file": "RENUSDT-1d-2024-02.zip",
+      "sha256": "78fb0011e0afa0306c020ab7d1c94a4921d6c25cc7f19530fcf562381ec9a132"
+    },
+    {
+      "file": "RENUSDT-1d-2024-03.zip",
+      "sha256": "2d6fbb31f8406a7e33067ded4c209c65308d82911b6ac30e9552f8f841fcb52b"
+    },
+    {
+      "file": "RENUSDT-1d-2024-04.zip",
+      "sha256": "ee7354e50b3e4e1531ff8d501881766fff634a604deaa31d366f052dcbf9657f"
+    },
+    {
+      "file": "RENUSDT-1d-2024-05.zip",
+      "sha256": "cf2851a757259ccde543f21aeb703d76ed03e9be83d110098bebc02ceb8f34ef"
+    },
+    {
+      "file": "RENUSDT-1d-2024-06.zip",
+      "sha256": "f1d685f2ca1a9e1ab30cb38073bcba1f4441d0710e4bbad1ca08ce47bba08a25"
+    },
+    {
+      "file": "RENUSDT-1d-2024-07.zip",
+      "sha256": "e552787f905eee674116c182cb017d2fc6cc8691d213438696fd51192acad24b"
+    },
+    {
+      "file": "RENUSDT-1d-2024-08.zip",
+      "sha256": "86827a876450a295cab0eed8faafe16ee77b7224f9541247c1d456c5784c4d4e"
+    },
+    {
+      "file": "RENUSDT-1d-2024-09.zip",
+      "sha256": "1cccbafeed93cac9c26264d72d5036ffe4ad438345a183b1972dacead9d3ec8e"
+    },
+    {
+      "file": "RENUSDT-1d-2024-10.zip",
+      "sha256": "0fdefb13d0cb32a306b85003541cb8798065dd5c3b85bcdb8d89131113e8a50f"
+    },
+    {
+      "file": "RENUSDT-1d-2024-11.zip",
+      "sha256": "23b9e61509572a517034112f740fb7c6a6ad275fdf2eece4651dfe8ffaa63a98"
+    },
+    {
+      "file": "RENUSDT-1d-2024-12.zip",
+      "sha256": "cab415928418b2b76b150ac05f781668435abb8902dc3c70ecb6666fc0a714d5"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

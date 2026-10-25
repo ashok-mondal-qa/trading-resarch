@@ -1,0 +1,197 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ARBUSDT/1d/",
+  "instrument": "ARBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-03-23",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:26:05+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1288,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ARBUSDT-1d-2023-03.zip",
+      "sha256": "9403b65923109fbb9cf9d7e77dec6760292097aab69d9fa3d04d2516b1ad87ab"
+    },
+    {
+      "file": "ARBUSDT-1d-2023-04.zip",
+      "sha256": "0f9b56785c462293d85c6c6df7e0b367e8f04916c366ebac8c9bdb370830677e"
+    },
+    {
+      "file": "ARBUSDT-1d-2023-05.zip",
+      "sha256": "034fe08e181c5057391ab6a7a271012a4c12e62c0ee242ec502d7c84fd998342"
+    },
+    {
+      "file": "ARBUSDT-1d-2023-06.zip",
+      "sha256": "3504c9c94474b8a08bab2427570cca6cb96a1fe076e510a4cdb88d8bfbbba0d9"
+    },
+    {
+      "file": "ARBUSDT-1d-2023-07.zip",
+      "sha256": "db20bf6f7dcf1cc9fa6f92d04272c7aa2aa1a2dc7a85f6a422c1975591e9cd51"
+    },
+    {
+      "file": "ARBUSDT-1d-2023-08.zip",
+      "sha256": "6a97c14ceff31eccf56470df067407a78bad35f534e46c5e99af4ce4eac91173"
+    },
+    {
+      "file": "ARBUSDT-1d-2023-09.zip",
+      "sha256": "36e80bbdb1d0c06d23d89b08751a092b7f6db8fb3907912630ff7b63ac567865"
+    },
+    {
+      "file": "ARBUSDT-1d-2023-10.zip",
+      "sha256": "b4cfb6f27f8c6203c37dbd3fc81f0043e855b1ae722c33827e089b4c5c83f4b0"
+    },
+    {
+      "file": "ARBUSDT-1d-2023-11.zip",
+      "sha256": "031e59b8778e17530880f85d890d5085a1312bd15b2e4ab669e70f054e6c85be"
+    },
+    {
+      "file": "ARBUSDT-1d-2023-12.zip",
+      "sha256": "666b09cf92889c67805b235d7bfc675e081efae63b14800f0ff48dcffb090805"
+    },
+    {
+      "file": "ARBUSDT-1d-2024-01.zip",
+      "sha256": "3a3b570c96b9c2b1748e21e27012c2485f58aad0ea5b555acf3f3e7255ecc0cb"
+    },
+    {
+      "file": "ARBUSDT-1d-2024-02.zip",
+      "sha256": "6c98e6593f28c5f70ea98454892ebbbf2e9357f884e8dbe7bf62b712aa247871"
+    },
+    {
+      "file": "ARBUSDT-1d-2024-03.zip",
+      "sha256": "e2f895cf38bf839a5b1f0971619a62562f776806a017a18223b90690bc03607c"
+    },
+    {
+      "file": "ARBUSDT-1d-2024-04.zip",
+      "sha256": "6177f6ed477d7f06e81f46622873d95b0f135b53ccb74e155f6a5752ad658ea2"
+    },
+    {
+      "file": "ARBUSDT-1d-2024-05.zip",
+      "sha256": "869d7b6c1d2ca9426360b73cd1354cd4e6f05b0465c0dd771980dfbe0c42bf30"
+    },
+    {
+      "file": "ARBUSDT-1d-2024-06.zip",
+      "sha256": "0ae283e01a6801002ac2b3addd76c1ca060cbd8b1e0320faf0a70292f75c5b38"
+    },
+    {
+      "file": "ARBUSDT-1d-2024-07.zip",
+      "sha256": "7f2e815651d77a590136a320f2e3bae7da8686e399b3cea0efc3c1b7d9e11967"
+    },
+    {
+      "file": "ARBUSDT-1d-2024-08.zip",
+      "sha256": "a4019b26fab5d9ea5a246c4be24bef589b6b923e3476f267bdd81d14ce86bf76"
+    },
+    {
+      "file": "ARBUSDT-1d-2024-09.zip",
+      "sha256": "f9c0b0c04e0fc320a2ffde0b24a5cb32eb719054c1da85f16ea6cebf9ffaff81"
+    },
+    {
+      "file": "ARBUSDT-1d-2024-10.zip",
+      "sha256": "d62707c061f00a4909a6ab2421f4a3fee5520b6ed89f4cb9b30c8637634a414d"
+    },
+    {
+      "file": "ARBUSDT-1d-2024-11.zip",
+      "sha256": "ed896011f7e6704d567244645d3496aebd48bfeef316fed039ba8288d72e77ac"
+    },
+    {
+      "file": "ARBUSDT-1d-2024-12.zip",
+      "sha256": "ee510efae7d9c0b1c8366bd0fa03b4a8a85a9ef933212d4b74ece3c45cc548f4"
+    },
+    {
+      "file": "ARBUSDT-1d-2025-01.zip",
+      "sha256": "ae3d4af8010b3bf8a7bb16f74ae86e69d408d2d89b25f16789e5b0e41494c6aa"
+    },
+    {
+      "file": "ARBUSDT-1d-2025-02.zip",
+      "sha256": "dc9e866191554348bf6d0c0ba2105ddb9bce76298fd252d0a9171d8f33014c99"
+    },
+    {
+      "file": "ARBUSDT-1d-2025-03.zip",
+      "sha256": "5e308ed9ccd2f8fa2d98ba9f0e14c8e7077873683433a491a32bf0a7286a7e41"
+    },
+    {
+      "file": "ARBUSDT-1d-2025-04.zip",
+      "sha256": "9ed943ac0f3395b295d60248e26472881d731eb66a7bfdcfc70f528a92a73802"
+    },
+    {
+      "file": "ARBUSDT-1d-2025-05.zip",
+      "sha256": "10947d399d4012995b1a56f45f03cf24d81537dddc51f16a1dcac2a574b703f6"
+    },
+    {
+      "file": "ARBUSDT-1d-2025-06.zip",
+      "sha256": "ac14aa15d3edb0cce8e0a55270661742545479049d3df853a5a51ed83fba1ba0"
+    },
+    {
+      "file": "ARBUSDT-1d-2025-07.zip",
+      "sha256": "f9c326c3aaee59d1e7469ab24d4b18125882f3ad402d78b1f9009bcf97f6497d"
+    },
+    {
+      "file": "ARBUSDT-1d-2025-08.zip",
+      "sha256": "37bad9868116dc2310a2a6476b11678dfe215be34b54518ca0ecc7004fbc393c"
+    },
+    {
+      "file": "ARBUSDT-1d-2025-09.zip",
+      "sha256": "ba10f61f6225e825bfe7e7faa083ee5d6cb4bdb08199cbaacddaabbc76904718"
+    },
+    {
+      "file": "ARBUSDT-1d-2025-10.zip",
+      "sha256": "01be2e042a1a851d45baff86093ec6d908cce22b0c943b09b9cedf0e87b99ce1"
+    },
+    {
+      "file": "ARBUSDT-1d-2025-11.zip",
+      "sha256": "aea4e63b687db4d347c34b53573f724061fac58388075809bb3ce333cb7b5ac9"
+    },
+    {
+      "file": "ARBUSDT-1d-2025-12.zip",
+      "sha256": "f6c7bad188cd8187b7c85ef3ef51cdf8acf4d112dc524d6a8c8e98c3ad515796"
+    },
+    {
+      "file": "ARBUSDT-1d-2026-01.zip",
+      "sha256": "264687f633195d32d834f85a5904846208b1f1aab906ed1ad77cf32a1c34de56"
+    },
+    {
+      "file": "ARBUSDT-1d-2026-02.zip",
+      "sha256": "4da5a708fd98e3fcf8836881db835c01a2e4f9d8847987c0d9045a008fd25ab3"
+    },
+    {
+      "file": "ARBUSDT-1d-2026-03.zip",
+      "sha256": "40ef1395f75859c9f78fa6629f932f9cf42f1f4800648b29912eba6231d15191"
+    },
+    {
+      "file": "ARBUSDT-1d-2026-04.zip",
+      "sha256": "c1b6c32f0601a439b28cab923bc459bafd8275b21e7f5a4140ce6216bb3b3b37"
+    },
+    {
+      "file": "ARBUSDT-1d-2026-05.zip",
+      "sha256": "4c9e2cc295b4b09a613e40a7509a90785b145d95ccf367e56ba1d437396a627b"
+    },
+    {
+      "file": "ARBUSDT-1d-2026-06.zip",
+      "sha256": "ae25fe6f149ff142b6044bff27831ffbbb509e1f13d3a7611563169242e6d4ed"
+    },
+    {
+      "file": "ARBUSDT-1d-2026-07.zip",
+      "sha256": "41984c6591a01c3425d4be84851b054dce294308c2aca6fe7d1fa1715973f3eb"
+    },
+    {
+      "file": "ARBUSDT-1d-2026-08.zip",
+      "sha256": "bdab1452425da32eead6d9da24777d7faf6adbf99734c31b959c9444157db88e"
+    },
+    {
+      "file": "ARBUSDT-1d-2026-09.zip",
+      "sha256": "09a81aa7e7005ca851c45089e0968836e11cf02dd2c6aa49c27d175248dc00f4"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

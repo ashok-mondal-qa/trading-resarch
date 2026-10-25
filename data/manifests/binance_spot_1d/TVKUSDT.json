@@ -1,0 +1,137 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/TVKUSDT/1d/",
+  "instrument": "TVKUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-08-06",
+  "last_bar": "2023-11-27",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:47:49+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 844,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "TVKUSDT-1d-2021-08.zip",
+      "sha256": "8cbcf09b1bf48fdc8398d819bc356a92b54fed1c0d79ad6d85dd98dc460bbc84"
+    },
+    {
+      "file": "TVKUSDT-1d-2021-09.zip",
+      "sha256": "bc080b75d5f2a3b7ea536637374ac579a025b83aa61623e939ec1df0f0f96292"
+    },
+    {
+      "file": "TVKUSDT-1d-2021-10.zip",
+      "sha256": "1f4e482e7dd53185dbc5094ec85d2ef5c8108346566d2f56e1746a0f7b755bf0"
+    },
+    {
+      "file": "TVKUSDT-1d-2021-11.zip",
+      "sha256": "175fd4ea8bb178c420a8ddf779e4a87ac0408bbd409bfcb680b71c7dbe99f638"
+    },
+    {
+      "file": "TVKUSDT-1d-2021-12.zip",
+      "sha256": "fb3964e6523e9cb8c5be571a7490a3b513a33718054ea192bdc894793c36c8ed"
+    },
+    {
+      "file": "TVKUSDT-1d-2022-01.zip",
+      "sha256": "b60c86c2a0d52035524f442781434072fd510aedfdfa1af44c8121f0662ca667"
+    },
+    {
+      "file": "TVKUSDT-1d-2022-02.zip",
+      "sha256": "684eb9881e296d41b15c6b215807f7c3a7f2516b233e5aac8945cd99fb08cf51"
+    },
+    {
+      "file": "TVKUSDT-1d-2022-03.zip",
+      "sha256": "37f5d9f73cc5d8ddf374619fb4f2307a551f5dd444f3b455ba1c46ef52b4aeb9"
+    },
+    {
+      "file": "TVKUSDT-1d-2022-04.zip",
+      "sha256": "cd265a862f1f0edac128e7fbf7c564a95a82b03671d9a0ca34a3dcedeb3129dc"
+    },
+    {
+      "file": "TVKUSDT-1d-2022-05.zip",
+      "sha256": "8eaa3dd79b755320ebcf4a2190c8be23ccc3febce5313665d5f902e884cd2f56"
+    },
+    {
+      "file": "TVKUSDT-1d-2022-06.zip",
+      "sha256": "6a82e8b03703494f5d5cbf677985b6bd6dc52fb092ebd723483c316b0ebb027c"
+    },
+    {
+      "file": "TVKUSDT-1d-2022-07.zip",
+      "sha256": "a80c42a798312803ea95d761e99c2ff7cbe3c684121a3ff85877e8c2a2b8db56"
+    },
+    {
+      "file": "TVKUSDT-1d-2022-08.zip",
+      "sha256": "4f008bd8475269e90cd6d1db2763249d7b88253edef1345d338245ffb6e6d23a"
+    },
+    {
+      "file": "TVKUSDT-1d-2022-09.zip",
+      "sha256": "cd1079cd896570ceb7d4a598acfc28a1c932cae3ff84e602b4aea15c800e05b5"
+    },
+    {
+      "file": "TVKUSDT-1d-2022-10.zip",
+      "sha256": "42fd1218265670aa93a2174f524076d2121b38e266efa5bfab1f0a35aa0d32c9"
+    },
+    {
+      "file": "TVKUSDT-1d-2022-11.zip",
+      "sha256": "e02083c39a8bbaf2b4998059c8cbfa7b5b70f0b1870fa7a1b3131de079556039"
+    },
+    {
+      "file": "TVKUSDT-1d-2022-12.zip",
+      "sha256": "ea92ec73f355a53c1ac5d5639c5946db88033bc2b95eed39e2ef4b66bbca758a"
+    },
+    {
+      "file": "TVKUSDT-1d-2023-01.zip",
+      "sha256": "0b27721efa7793ee78a575be4aecdd5785cd4ed63bd915948f5c103b2b8b7e84"
+    },
+    {
+      "file": "TVKUSDT-1d-2023-02.zip",
+      "sha256": "d5e0b1402015234b3c6b04b6ba828a28bc888e1a29fc12b52bbfae88f204bc7b"
+    },
+    {
+      "file": "TVKUSDT-1d-2023-03.zip",
+      "sha256": "5db22d0256d60552b29270d65ccbaf024acdc7913f59a057954b3af70aae7a07"
+    },
+    {
+      "file": "TVKUSDT-1d-2023-04.zip",
+      "sha256": "f4bb7bcb088160c108be8070686656c7dc98e22bed2fbbb42bfceea3b1f97c1d"
+    },
+    {
+      "file": "TVKUSDT-1d-2023-05.zip",
+      "sha256": "451c6722e865393c3e3f29c0f2090e8f6ba9f3823a360724cf50d3485327f070"
+    },
+    {
+      "file": "TVKUSDT-1d-2023-06.zip",
+      "sha256": "aeca82e465be11ac43cf040dbab95ce7da877d68f8d7b9c9cb28146bf2f296bd"
+    },
+    {
+      "file": "TVKUSDT-1d-2023-07.zip",
+      "sha256": "2a43de50c711053d4ba8d2ec6cc84c96e960cf6267494792c94f8eb5258cf33c"
+    },
+    {
+      "file": "TVKUSDT-1d-2023-08.zip",
+      "sha256": "b6fb7a609e1a952b735a6e80f37bee6cdc7b9c00eadfce4ee595ed632a333324"
+    },
+    {
+      "file": "TVKUSDT-1d-2023-09.zip",
+      "sha256": "d70a576ac1b6a72321f0689a6e8c2d27c3e3c81e6cd18e2f5906c3683161e438"
+    },
+    {
+      "file": "TVKUSDT-1d-2023-10.zip",
+      "sha256": "3ab568713984404b1fd4b492c8086521abbe582cc9f1e232c49e9df861af0cb8"
+    },
+    {
+      "file": "TVKUSDT-1d-2023-11.zip",
+      "sha256": "0c09de1f73ba32dea528089ac5936089858cb694e6ab74f19f4a36aff58c2266"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

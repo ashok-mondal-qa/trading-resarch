@@ -1,0 +1,285 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/TROYUSDT/1d/",
+  "instrument": "TROYUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-12-05",
+  "last_bar": "2025-04-16",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:47:51+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1960,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "TROYUSDT-1d-2019-12.zip",
+      "sha256": "15809a3bee2df97524c0d470cac50c3f8d0dd0c24957c72730f6eadbf24a491d"
+    },
+    {
+      "file": "TROYUSDT-1d-2020-01.zip",
+      "sha256": "901773cd44de278132611c182f25944fff02fec96cbbe2a7f6ffe3a4d3b6630f"
+    },
+    {
+      "file": "TROYUSDT-1d-2020-02.zip",
+      "sha256": "cab4bbb90236ad7ec66364197abd5cf99912af59dd555767c3c349e2c5b8f0dc"
+    },
+    {
+      "file": "TROYUSDT-1d-2020-03.zip",
+      "sha256": "008cfb453647b4244628fdf4586723ac34445098f834dcd51a13b785034da83f"
+    },
+    {
+      "file": "TROYUSDT-1d-2020-04.zip",
+      "sha256": "838e01dd49a2feb78ea4648d23eedd8bfc5f79ba224ff6f080cc24a0dc46cd55"
+    },
+    {
+      "file": "TROYUSDT-1d-2020-05.zip",
+      "sha256": "afd77777145ba8f2999b70655ecbc5fd704c1c389c962d042389769cdd878a3a"
+    },
+    {
+      "file": "TROYUSDT-1d-2020-06.zip",
+      "sha256": "79b24f7a3f7496ecfde6a6dbc680a2813aeefc24beaad14096cb6d918b7ada96"
+    },
+    {
+      "file": "TROYUSDT-1d-2020-07.zip",
+      "sha256": "4710a23dc65bf65cf4857e5846f3c16d96217aebcbd764d2ea34526237059542"
+    },
+    {
+      "file": "TROYUSDT-1d-2020-08.zip",
+      "sha256": "c65062b79022ea7b33fd5cae46fe268d125a801635a6c907fafb3f9e89bf7fa6"
+    },
+    {
+      "file": "TROYUSDT-1d-2020-09.zip",
+      "sha256": "3d57795129840439a204591a9e0eeda4e505526f8ec64b96b62fef6554a7e133"
+    },
+    {
+      "file": "TROYUSDT-1d-2020-10.zip",
+      "sha256": "40822da3bed1b40c27908787dd8f2bf82416c60aaa8f8d7844f2c48c45e206c0"
+    },
+    {
+      "file": "TROYUSDT-1d-2020-11.zip",
+      "sha256": "d1561802b53cba13e9721df48b03586c0fbe132f3012771eef809454059b6d71"
+    },
+    {
+      "file": "TROYUSDT-1d-2020-12.zip",
+      "sha256": "be508686f86cff1f46622961aa1b7ecdcdf5f3152347c76c667e829e6546d89a"
+    },
+    {
+      "file": "TROYUSDT-1d-2021-01.zip",
+      "sha256": "a7d4ee216c925d59bef3360ecf2be20ae3725ccea78789c9b1ec5e45dba9cec6"
+    },
+    {
+      "file": "TROYUSDT-1d-2021-02.zip",
+      "sha256": "81b893bff1c58afc01221a61b77641834266bb38cbac1e676d855bbba31c7c42"
+    },
+    {
+      "file": "TROYUSDT-1d-2021-03.zip",
+      "sha256": "d625708fc46dba88f69428fa9c92f9c52faf923e13b48236f00f6fa4b42c6bbe"
+    },
+    {
+      "file": "TROYUSDT-1d-2021-04.zip",
+      "sha256": "3f9823a3be56a75d1b43ff625fc5ceed76b95a78ee706eb1e7c6cc9ac4165d94"
+    },
+    {
+      "file": "TROYUSDT-1d-2021-05.zip",
+      "sha256": "4b425f6cf052328df832d3ea680f210321962a9f4669dacadf05fd5578ac09a5"
+    },
+    {
+      "file": "TROYUSDT-1d-2021-06.zip",
+      "sha256": "7402923cc46128a4b98f90c6e9cb8e98862f4e4bfba3abccfbade237e489aa7d"
+    },
+    {
+      "file": "TROYUSDT-1d-2021-07.zip",
+      "sha256": "a3152fa7738db8d28f8b96d45a683ed058733eba5f87c9a0efb28104b67f422e"
+    },
+    {
+      "file": "TROYUSDT-1d-2021-08.zip",
+      "sha256": "1558289140ee93e2741dcae4662b9eba2fe8d28c49cef1fb675cae89c25118a6"
+    },
+    {
+      "file": "TROYUSDT-1d-2021-09.zip",
+      "sha256": "1999c578236571a2a41777a237a1096db1cd02b13b03feca3b5a29f3c62a5d67"
+    },
+    {
+      "file": "TROYUSDT-1d-2021-10.zip",
+      "sha256": "5f800b5406e6dfacf1d5b3b1018dd5ee05f331c4ea4bf90da433717f3e535972"
+    },
+    {
+      "file": "TROYUSDT-1d-2021-11.zip",
+      "sha256": "5a2abac367d733ea81279b20b9c52c5dfbe3236a30484dd2616befe51bbfe088"
+    },
+    {
+      "file": "TROYUSDT-1d-2021-12.zip",
+      "sha256": "1e082b2c63d7ca95baf4b157eba7e5b9b0b30ae4a6f64a86f3a8551dc78dad65"
+    },
+    {
+      "file": "TROYUSDT-1d-2022-01.zip",
+      "sha256": "108320aa3ad25f439cbd36ec0587908e7acc74c53ff62e60a9da16e0962416e0"
+    },
+    {
+      "file": "TROYUSDT-1d-2022-02.zip",
+      "sha256": "8ae3c9d492894a134f30a26ddc54cb97abef456c98977caf46625adc36c9512a"
+    },
+    {
+      "file": "TROYUSDT-1d-2022-03.zip",
+      "sha256": "7aefe991aad9bc3eae31279c38baa20d712825f05e41c1512625363a56cb4ebe"
+    },
+    {
+      "file": "TROYUSDT-1d-2022-04.zip",
+      "sha256": "678a0486fd71c2267ffb5e8724687335d99be4efde8746c94afa838ac2b436a6"
+    },
+    {
+      "file": "TROYUSDT-1d-2022-05.zip",
+      "sha256": "a7d7b598a75d5e8724b2cdf5f41f3ce8b85aa337dec13730d645f978d280a9bf"
+    },
+    {
+      "file": "TROYUSDT-1d-2022-06.zip",
+      "sha256": "233815779bfbdd221ed8d3eff0d80ec6fe84ccb17f05ea85b26c77aff8dabfd6"
+    },
+    {
+      "file": "TROYUSDT-1d-2022-07.zip",
+      "sha256": "91b6eac18f2a305e6a2c19df48e17b6dab2afa16125960939d02c7cdc392f184"
+    },
+    {
+      "file": "TROYUSDT-1d-2022-08.zip",
+      "sha256": "4f65a81d40f637d4697242252ae7410e09db7cc5c3ebcf9f33a28970d2d5a396"
+    },
+    {
+      "file": "TROYUSDT-1d-2022-09.zip",
+      "sha256": "0dfea4c3ef09115eb548b32410aa8e83a453048152abbddcfa9fe9a447e1cbed"
+    },
+    {
+      "file": "TROYUSDT-1d-2022-10.zip",
+      "sha256": "4ef2e553c985d013cb0398baf7805f59a7b07d2b4f29faef8b7c67fba5417c15"
+    },
+    {
+      "file": "TROYUSDT-1d-2022-11.zip",
+      "sha256": "a9035dd3bc52d5e14280d8da1cef49b058380bc81d276e59e676a61cc2587be5"
+    },
+    {
+      "file": "TROYUSDT-1d-2022-12.zip",
+      "sha256": "f8f13ba0f78262b426f28038cc73a2b9f6d79093e5ffdfec43320614404266f0"
+    },
+    {
+      "file": "TROYUSDT-1d-2023-01.zip",
+      "sha256": "59513924e1adcc3fbf27db156dcb921a4fdac744ea8a6ad0d410b2a5b6b36989"
+    },
+    {
+      "file": "TROYUSDT-1d-2023-02.zip",
+      "sha256": "01c8fcd32d3da6cb4641ac04200806c3e1db682e6bc86f16e954b85610489bcd"
+    },
+    {
+      "file": "TROYUSDT-1d-2023-03.zip",
+      "sha256": "91d6d0eb2aff495569fd16644b7de5ee73c4774867a6229ce252708897f25aa6"
+    },
+    {
+      "file": "TROYUSDT-1d-2023-04.zip",
+      "sha256": "2365eb678b47718c90557fffeeb90759a04765f0e91ffd07f334a4cea9473723"
+    },
+    {
+      "file": "TROYUSDT-1d-2023-05.zip",
+      "sha256": "fad9d0eba7e47cb4587c9d52fef1b2346acf3137a8f6aaa186f9d8198d248688"
+    },
+    {
+      "file": "TROYUSDT-1d-2023-06.zip",
+      "sha256": "91a87107c693aa457bce04bd088e21791167a89aaee38532e8355fecf761d8f9"
+    },
+    {
+      "file": "TROYUSDT-1d-2023-07.zip",
+      "sha256": "888f1f3b3a274bd2bfe2a63b7fb0f17595aa80c5e6abb2a404c06a9b674bf951"
+    },
+    {
+      "file": "TROYUSDT-1d-2023-08.zip",
+      "sha256": "c977594e829140106ec6bbab6bdd92890155f311b5e309abb3f436f3d67c823c"
+    },
+    {
+      "file": "TROYUSDT-1d-2023-09.zip",
+      "sha256": "a7b3d5046f52c94eaef71e2e7552ce9ec4c516b5ef3119950a59d5862474cc5d"
+    },
+    {
+      "file": "TROYUSDT-1d-2023-10.zip",
+      "sha256": "85b2fedd9a6ddd32974823eed9ad4b4654341e554104abbc216b2d733a61e99b"
+    },
+    {
+      "file": "TROYUSDT-1d-2023-11.zip",
+      "sha256": "2a4a0f298d59eea76dc03c7afe2f145c0c2cac33a15c75c4f0e84ee9727c023c"
+    },
+    {
+      "file": "TROYUSDT-1d-2023-12.zip",
+      "sha256": "d624232a9ea77fe9eb456c8524d29bc2de17630148358e8fe7c0c4d4f89b1761"
+    },
+    {
+      "file": "TROYUSDT-1d-2024-01.zip",
+      "sha256": "29db687cc5c268cfc9ec6ccd1c6798c31b1c0a75dc157490336efd73638cba66"
+    },
+    {
+      "file": "TROYUSDT-1d-2024-02.zip",
+      "sha256": "1affa4b3e48473548fea02dfe13df113f7f5adad86964af82031251c9ddba725"
+    },
+    {
+      "file": "TROYUSDT-1d-2024-03.zip",
+      "sha256": "b39531d29b037c4b2c3854eb1674ca4f93b5280028a8fa91a72249b7eb67adbf"
+    },
+    {
+      "file": "TROYUSDT-1d-2024-04.zip",
+      "sha256": "e7980e7e469922f96d25e81d2ca88685710e16e08666f2c36779c243bc53f3eb"
+    },
+    {
+      "file": "TROYUSDT-1d-2024-05.zip",
+      "sha256": "8f1e875798e7c223e3d95000760d7df47d256c2b006ce5753a7d7b7a9b5d00ea"
+    },
+    {
+      "file": "TROYUSDT-1d-2024-06.zip",
+      "sha256": "0dc3e7c3d9277a8989d1548bb84be55b439c312de2ff91b7f8681d30a286ac70"
+    },
+    {
+      "file": "TROYUSDT-1d-2024-07.zip",
+      "sha256": "ab5f990a8584b087699d16a35b40708cdf510da8f8716ec24f9daff0de343083"
+    },
+    {
+      "file": "TROYUSDT-1d-2024-08.zip",
+      "sha256": "ee2c3ba794803532c065c48f2c1490145dea7af407e9a42c881e7bb3de840609"
+    },
+    {
+      "file": "TROYUSDT-1d-2024-09.zip",
+      "sha256": "14ec921eeb472d15b8e392922ccccf75a3fea4f0168b635c1b07c73e6f9d789a"
+    },
+    {
+      "file": "TROYUSDT-1d-2024-10.zip",
+      "sha256": "2ccfc6cb3af5edf6859d73c37b9cb8d7adb71f92f01d36d7e88277aaad022039"
+    },
+    {
+      "file": "TROYUSDT-1d-2024-11.zip",
+      "sha256": "9b055bd9e68e18911197f7bea25feb3af76e5ddd509f2e98e629a5d5a9abafd0"
+    },
+    {
+      "file": "TROYUSDT-1d-2024-12.zip",
+      "sha256": "49ae51506f73668cffd9d46145b231ecee9076f4e5ac044efb2372d7fc438174"
+    },
+    {
+      "file": "TROYUSDT-1d-2025-01.zip",
+      "sha256": "fad4e3b1dc0b32fd4e05a390d9bf2196f0e85d36ecb71ae09feb501cfdc66fcd"
+    },
+    {
+      "file": "TROYUSDT-1d-2025-02.zip",
+      "sha256": "5b2d7b09817747907bb50c8bff23063e7dafcee0cb7a74610fc74397a7a57e06"
+    },
+    {
+      "file": "TROYUSDT-1d-2025-03.zip",
+      "sha256": "f149434e0c52ef2557f08d51c846148ba700bc266d727148c0894174d72b72c5"
+    },
+    {
+      "file": "TROYUSDT-1d-2025-04.zip",
+      "sha256": "9331d2b357e70935e3fe7caed0de0c4d54ee2efefe49c32a55a5deb1d45bd111"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

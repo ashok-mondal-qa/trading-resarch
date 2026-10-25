@@ -1,0 +1,49 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BCHSVUSDT/1d/",
+  "instrument": "BCHSVUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2018-11-16",
+  "last_bar": "2019-04-22",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:27:29+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 158,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BCHSVUSDT-1d-2018-11.zip",
+      "sha256": "1ae05a65e5cb417495872bd1535eaa7540b1229a9dbe563ed8dc35179aabf8d0"
+    },
+    {
+      "file": "BCHSVUSDT-1d-2018-12.zip",
+      "sha256": "c86b4eea74a59053f665109182a4451d116b14e174ffc1673136490f5093bc79"
+    },
+    {
+      "file": "BCHSVUSDT-1d-2019-01.zip",
+      "sha256": "d53e6c69761ac71a89408c179492c9c17a8a1cfa4d95a745af0d550c6b96b600"
+    },
+    {
+      "file": "BCHSVUSDT-1d-2019-02.zip",
+      "sha256": "c6d597345300c07085e05148e1bda1ee35e0093d681ab85dc8d67860b4b6d7b8"
+    },
+    {
+      "file": "BCHSVUSDT-1d-2019-03.zip",
+      "sha256": "c22c5a84d5ac656a2f084be3445506b32cf821fcc8cd022317e7e6b249af498d"
+    },
+    {
+      "file": "BCHSVUSDT-1d-2019-04.zip",
+      "sha256": "73da60db34aee7902e56a507772e0146c6cdf0c5b224a460d96ed418c4945432"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

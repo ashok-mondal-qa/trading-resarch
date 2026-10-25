@@ -1,0 +1,177 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/RDNTUSDT/1d/",
+  "instrument": "RDNTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-03-30",
+  "last_bar": "2026-04-01",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:43:44+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1099,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "RDNTUSDT-1d-2023-03.zip",
+      "sha256": "3ec0dc8e2aec8ac70a20eb88cade0ba7bc50009d0fa4eb3450dd180f90d9cd22"
+    },
+    {
+      "file": "RDNTUSDT-1d-2023-04.zip",
+      "sha256": "4da14b5cd681805633801e3705eaf74a3d9c8ce83c75269a5b8261ccc9de1dab"
+    },
+    {
+      "file": "RDNTUSDT-1d-2023-05.zip",
+      "sha256": "5654a2ba4df5bba5309a77367a6515a2e9cf1cfd7e92903e1130643cf6c04a75"
+    },
+    {
+      "file": "RDNTUSDT-1d-2023-06.zip",
+      "sha256": "990abb65eb6da8fe8bdc9fa751681cae1127fa496f0e571a710f6ab85075f79f"
+    },
+    {
+      "file": "RDNTUSDT-1d-2023-07.zip",
+      "sha256": "e925d8427436f245768cfa207b4aa93d5e1805db75adea6219db91ba3766bbda"
+    },
+    {
+      "file": "RDNTUSDT-1d-2023-08.zip",
+      "sha256": "771119e3230892a43ec75b00103909e6f5af3496c56cfed2ee265893b1bccddc"
+    },
+    {
+      "file": "RDNTUSDT-1d-2023-09.zip",
+      "sha256": "6e612dd93a03e0e9326f1469d036e8cd1a9b17b66abf2f772db99acb94a105e7"
+    },
+    {
+      "file": "RDNTUSDT-1d-2023-10.zip",
+      "sha256": "88d268ff75844fd67dfd03611bf500fd76c530f51ec4c9c56f1ef6454ed9ebb3"
+    },
+    {
+      "file": "RDNTUSDT-1d-2023-11.zip",
+      "sha256": "ed22c659999df3b1b8ad43edd3af7ef4cffa7625e27ff3ee9debcdba9593a189"
+    },
+    {
+      "file": "RDNTUSDT-1d-2023-12.zip",
+      "sha256": "10e1d8a3c2150474f532a6dac6ed1906d600caff5c3e507490955f09aade4ad1"
+    },
+    {
+      "file": "RDNTUSDT-1d-2024-01.zip",
+      "sha256": "2cd55aafc198d372393be1f7fe96837fc215fae44feb7133612840a0a2cc173e"
+    },
+    {
+      "file": "RDNTUSDT-1d-2024-02.zip",
+      "sha256": "2af9462540578d32fa09ef1c7b410d3b7e02053a02533447c07da0109341e4fd"
+    },
+    {
+      "file": "RDNTUSDT-1d-2024-03.zip",
+      "sha256": "99684f9df3b6993e43084f70e6f0b305b7918a37c49261feefab4b2a31e1c326"
+    },
+    {
+      "file": "RDNTUSDT-1d-2024-04.zip",
+      "sha256": "b11ec5863af45e004587821d8844e3357306876dffa51541c4b8cc980a2fe185"
+    },
+    {
+      "file": "RDNTUSDT-1d-2024-05.zip",
+      "sha256": "8279ebf81d76cc20b62b15966dac2c2d77fe593530c87aedb1a17a41560ada4b"
+    },
+    {
+      "file": "RDNTUSDT-1d-2024-06.zip",
+      "sha256": "c54041fa00fd105edd720cb190188f67e41366945e0368d8994daa582cf630ab"
+    },
+    {
+      "file": "RDNTUSDT-1d-2024-07.zip",
+      "sha256": "f42bc62cfc5ba935724d34992afda1d2258c83b514ecb20896f8577f2f15a1db"
+    },
+    {
+      "file": "RDNTUSDT-1d-2024-08.zip",
+      "sha256": "1ed471cf3e5d1a8bb68ff21d2581d86f3068efd2c8554fca0f15196e0748df93"
+    },
+    {
+      "file": "RDNTUSDT-1d-2024-09.zip",
+      "sha256": "fc075bf6dc43f83423ec35de25f27d0172e2e322158273540c014ddc1cdb8ddc"
+    },
+    {
+      "file": "RDNTUSDT-1d-2024-10.zip",
+      "sha256": "bcb983c378fa8b5c9cb0f4cec619f891dc11a720aa9d8f281f16c571b176eccf"
+    },
+    {
+      "file": "RDNTUSDT-1d-2024-11.zip",
+      "sha256": "442044d777d671c374529ef47e51d3f0d0d6f7ca5562882dffae09a8fd0a6e49"
+    },
+    {
+      "file": "RDNTUSDT-1d-2024-12.zip",
+      "sha256": "106354b5c3414a555235191c7f6ea7254b0ab33055e00da0c84729f754b49a15"
+    },
+    {
+      "file": "RDNTUSDT-1d-2025-01.zip",
+      "sha256": "1b92f26b5d91a3b5d3f9816bf2fd24d55ca20d067dd4a1dc38f938aa6c20beca"
+    },
+    {
+      "file": "RDNTUSDT-1d-2025-02.zip",
+      "sha256": "ddabec6298649dbe8c9ce38db8eb3fbb79d7411004f5965b8cc98420aec4038e"
+    },
+    {
+      "file": "RDNTUSDT-1d-2025-03.zip",
+      "sha256": "6f1457483893b1ec265ca684174f471a9227a667b2498b1f6e2644252d854685"
+    },
+    {
+      "file": "RDNTUSDT-1d-2025-04.zip",
+      "sha256": "fc0a3fe6c5ba3aaa8cc72774d0c10a747656b053912dd0e52bd540592dfda1d0"
+    },
+    {
+      "file": "RDNTUSDT-1d-2025-05.zip",
+      "sha256": "49909d2e71cd91e8becee01c5de447eb5eb3b49de46da277587520713c3aefc5"
+    },
+    {
+      "file": "RDNTUSDT-1d-2025-06.zip",
+      "sha256": "7fe31a86dbbb5427570f01ade5aa8628a3ac8d61feac5bbda9277ce084976fc9"
+    },
+    {
+      "file": "RDNTUSDT-1d-2025-07.zip",
+      "sha256": "56e7583648de459573e7242fafb5e9bdc122a678740ab4e599d4e05a586e2a60"
+    },
+    {
+      "file": "RDNTUSDT-1d-2025-08.zip",
+      "sha256": "f7dd99f4a66d5dd5ff63f59b5eba53e896f548fa718408ed6eed48cc5114908b"
+    },
+    {
+      "file": "RDNTUSDT-1d-2025-09.zip",
+      "sha256": "41d2ba52ed20aa997904e4bd2ced88c258810cc58adfa80d7c542a2bd940366b"
+    },
+    {
+      "file": "RDNTUSDT-1d-2025-10.zip",
+      "sha256": "3ceace8f125f1b48734397de0944dc7dd302c66d3a47f96703ff2059b5a03d85"
+    },
+    {
+      "file": "RDNTUSDT-1d-2025-11.zip",
+      "sha256": "b6e874d66e4b619583989ce4c14cb6cf098ddc6477c6620e618dc2e92fd0d970"
+    },
+    {
+      "file": "RDNTUSDT-1d-2025-12.zip",
+      "sha256": "1e240e1076d10b8c24df018528a904607cbe887ccff7198093e58149e8561bc8"
+    },
+    {
+      "file": "RDNTUSDT-1d-2026-01.zip",
+      "sha256": "478b69a90d4aebcb3abe2abb549d24bea87b8573e5b529cf7ad69a6c116e7038"
+    },
+    {
+      "file": "RDNTUSDT-1d-2026-02.zip",
+      "sha256": "0215bded115b6dd80449bfa7bccb21f81fe29d5eebce9f1a9acb5a2557d7384c"
+    },
+    {
+      "file": "RDNTUSDT-1d-2026-03.zip",
+      "sha256": "e9ec22b5b836587a75cb25db23eb6fb25ac11dd0522d3d2aab788bb82a98a7c8"
+    },
+    {
+      "file": "RDNTUSDT-1d-2026-04.zip",
+      "sha256": "bb4bc4567a2ce409052fad78a0799d551fd310c9cf3957c20d890304a4013dff"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

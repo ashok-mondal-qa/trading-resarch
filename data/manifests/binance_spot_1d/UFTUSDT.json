@@ -1,0 +1,129 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/UFTUSDT/1d/",
+  "instrument": "UFTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-03-17",
+  "last_bar": "2025-04-16",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:47:47+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 762,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "UFTUSDT-1d-2023-03.zip",
+      "sha256": "a14fcf519edb09c9f94dee5bbae01386cbccbcb75bdc0142b4909770a86cccaa"
+    },
+    {
+      "file": "UFTUSDT-1d-2023-04.zip",
+      "sha256": "38ac924575b05b6aedc627700362ad4b8f9447efffeb302eb5c004093b4c5e76"
+    },
+    {
+      "file": "UFTUSDT-1d-2023-05.zip",
+      "sha256": "3cf92ef35c89115232c15a850354a9c2a2e8884db1b2ca910bd9392523b7fce4"
+    },
+    {
+      "file": "UFTUSDT-1d-2023-06.zip",
+      "sha256": "e6b7ff9cf5d54b4e01317e9ce862913c3914dad2e696955759c26d56b53e3ee2"
+    },
+    {
+      "file": "UFTUSDT-1d-2023-07.zip",
+      "sha256": "3489f6383896c331e03ba19941f988007a02fa9ae6311b10c7aec3adee5122c3"
+    },
+    {
+      "file": "UFTUSDT-1d-2023-08.zip",
+      "sha256": "d2ac45df6c03d99bde54934d0bae2748e5aca4e7a4202790e8f4f658b3fe633b"
+    },
+    {
+      "file": "UFTUSDT-1d-2023-09.zip",
+      "sha256": "f2389ae493d55ae216a0b98ec8229e7081ed3a5f749ee7cd2e281acf873745bf"
+    },
+    {
+      "file": "UFTUSDT-1d-2023-10.zip",
+      "sha256": "0dd80ab1219eea0f2beb19a5db067862bcc4cf4fced591c0edcdedf618f3b318"
+    },
+    {
+      "file": "UFTUSDT-1d-2023-11.zip",
+      "sha256": "dc64e93968cd4d06f38ac67a6bb0231624407158b7bfbb0f4f1f4a5c1d110276"
+    },
+    {
+      "file": "UFTUSDT-1d-2023-12.zip",
+      "sha256": "f4d5178ae73ca19c5142d00feae643c3d17f994c22d6ddef869ad0948dec4cde"
+    },
+    {
+      "file": "UFTUSDT-1d-2024-01.zip",
+      "sha256": "b88533d6c58008a15120b3777f94f43a46ab0f2fcc2a8d775c50211dd221b9b2"
+    },
+    {
+      "file": "UFTUSDT-1d-2024-02.zip",
+      "sha256": "e87c7607abde6aa5d026ee3e9e4162c625b60d61ebd9360941e078982bb3cd43"
+    },
+    {
+      "file": "UFTUSDT-1d-2024-03.zip",
+      "sha256": "d2903db8b4a44eb6db062c94d46b16352a2ce8cb6b2de3fdf3bf6dfabbb93ad9"
+    },
+    {
+      "file": "UFTUSDT-1d-2024-04.zip",
+      "sha256": "71c7ea3799a46762781b7e5fe44a7f1fe33336da4971c2f7600b47242dbd9a1c"
+    },
+    {
+      "file": "UFTUSDT-1d-2024-05.zip",
+      "sha256": "ee4ed1c0ed4bd5e0e44c1517ea1e201a629d4d76fd197634b4da08de399451a4"
+    },
+    {
+      "file": "UFTUSDT-1d-2024-06.zip",
+      "sha256": "020a57a726b46baa2c1de15fbea73065cc94f33845377d94d22ced2ffad375f3"
+    },
+    {
+      "file": "UFTUSDT-1d-2024-07.zip",
+      "sha256": "5e8fca7ca584094fdc73a711dee32c0f8ba6bb31ee338851d1a37e5eadc1c9ca"
+    },
+    {
+      "file": "UFTUSDT-1d-2024-08.zip",
+      "sha256": "9a4dc384ccc62547948343ff7d74ab57928a2829e7a44973f4204e3ab305a46e"
+    },
+    {
+      "file": "UFTUSDT-1d-2024-09.zip",
+      "sha256": "5f18cfbd461709fad4bfe84580298a3f3ecdf9802fb55f9277cfdd6dc7c3bcfb"
+    },
+    {
+      "file": "UFTUSDT-1d-2024-10.zip",
+      "sha256": "0d95438e3d76da91160cff4f1ff18b766259df69369fe9eb2183078a4f8b4d75"
+    },
+    {
+      "file": "UFTUSDT-1d-2024-11.zip",
+      "sha256": "8322cf69f59d393cce529fc64ddc9230ec8b8f6b8d296058af0f16fdc078ce9b"
+    },
+    {
+      "file": "UFTUSDT-1d-2024-12.zip",
+      "sha256": "c49d43cd5a0921ac55837fc33d0378beb74d77db65e9088aa7467b5bdac210cf"
+    },
+    {
+      "file": "UFTUSDT-1d-2025-01.zip",
+      "sha256": "a857fdfb247d9bfbe185d994abc7f1cfcd089c49807a1082149c476627f251d7"
+    },
+    {
+      "file": "UFTUSDT-1d-2025-02.zip",
+      "sha256": "c69505508319a2d04e3885716e72c894d0b41ce4c882a08323b5cc339130c02e"
+    },
+    {
+      "file": "UFTUSDT-1d-2025-03.zip",
+      "sha256": "1bb855a1567973f11c2d605b8ffa77e689817eb762d881942e20881e75bbb212"
+    },
+    {
+      "file": "UFTUSDT-1d-2025-04.zip",
+      "sha256": "30c3836be74ed697ab23b8468a6830cb361f7f3072c93dc0f698fac344e15a0e"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

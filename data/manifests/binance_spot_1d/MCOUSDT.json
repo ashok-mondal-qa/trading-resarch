@@ -1,0 +1,73 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MCOUSDT/1d/",
+  "instrument": "MCOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-11-19",
+  "last_bar": "2020-10-23",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:38:51+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 340,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MCOUSDT-1d-2019-11.zip",
+      "sha256": "a810c2542ec337bffdaabe73408cb0365892e7ed98d9bd4de8df30d589976a99"
+    },
+    {
+      "file": "MCOUSDT-1d-2019-12.zip",
+      "sha256": "d3701360e23038f2094ca7ea4a6c68dfe243720901031921289ec8d45b6988f6"
+    },
+    {
+      "file": "MCOUSDT-1d-2020-01.zip",
+      "sha256": "9c3b76c46bd8b60f53c9b3a37e4893097efee837597a06660b315ec5dc3b2bee"
+    },
+    {
+      "file": "MCOUSDT-1d-2020-02.zip",
+      "sha256": "74421d16111047260d768415fde964636c098946a10fb3a9618d0011e531b3a8"
+    },
+    {
+      "file": "MCOUSDT-1d-2020-03.zip",
+      "sha256": "ff0c6dd3a3422566f20b0febe49e02fc6566be00c304db3d105eb7f3a7d822a3"
+    },
+    {
+      "file": "MCOUSDT-1d-2020-04.zip",
+      "sha256": "faed800d3466e827b5d8145a511addedf388e5e06172d4126e8b6043eb8567ba"
+    },
+    {
+      "file": "MCOUSDT-1d-2020-05.zip",
+      "sha256": "8a0f17ff493a2ee8850a7d61cd5292e2a867648db29136bae75f6a4cc5a3a25a"
+    },
+    {
+      "file": "MCOUSDT-1d-2020-06.zip",
+      "sha256": "c6b2bfa8bf3b78099f7d88c53464c5dec6052107a39cff05f85ec301c2969cc6"
+    },
+    {
+      "file": "MCOUSDT-1d-2020-07.zip",
+      "sha256": "f21c80b4a86e6d8646c3c6429ccacbc72a55debd852f0d4af1bb649f8c4d7aa5"
+    },
+    {
+      "file": "MCOUSDT-1d-2020-08.zip",
+      "sha256": "6748453dcd6a0caa2d0750f1a18af50af11f13cc8f12510f49242a543648864a"
+    },
+    {
+      "file": "MCOUSDT-1d-2020-09.zip",
+      "sha256": "63d1e4cc712e233fa408f2efc261de9af2a204731c335f509caed5f135604628"
+    },
+    {
+      "file": "MCOUSDT-1d-2020-10.zip",
+      "sha256": "fbbf4debad197c42b387809a35691d5c94ff6676f97f2108687eb342caa711c7"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

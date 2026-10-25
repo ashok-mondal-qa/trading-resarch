@@ -1,0 +1,101 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/GUNUSDT/1d/",
+  "instrument": "GUNUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-03-31",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:34:44+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 549,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "GUNUSDT-1d-2025-03.zip",
+      "sha256": "a33662387a133368313c83b48f244d87c6014f3f4b47aad83bd776fff0b63fcf"
+    },
+    {
+      "file": "GUNUSDT-1d-2025-04.zip",
+      "sha256": "5daed3238cd6cf602c4da9b205a9ec8b840737cf5c44ca849ad3dab9959a5f34"
+    },
+    {
+      "file": "GUNUSDT-1d-2025-05.zip",
+      "sha256": "2a8d8929f46fc240b8b562b2f6174281ff4e6ce3c2488d1549d3583eea403f69"
+    },
+    {
+      "file": "GUNUSDT-1d-2025-06.zip",
+      "sha256": "fc16c9dbeee72ca1f4150944bef76c41b353ff78582ad9ae086291d2cf27d18e"
+    },
+    {
+      "file": "GUNUSDT-1d-2025-07.zip",
+      "sha256": "c55f5f7179caf8a48144fe2c195569b6e4350239d518df54538ee20514a7e27d"
+    },
+    {
+      "file": "GUNUSDT-1d-2025-08.zip",
+      "sha256": "79a4282fe57ca9fda04d19b4a537d2d2b82886a679cebc75419c5c058d9ed76a"
+    },
+    {
+      "file": "GUNUSDT-1d-2025-09.zip",
+      "sha256": "8aa6c87fdb321fef1040261d6d02224329ca799f567ba725c13524aa39db26ac"
+    },
+    {
+      "file": "GUNUSDT-1d-2025-10.zip",
+      "sha256": "f29f36c8ffc73f9f0d3f8553445553c776792d8e755a7dc3f6d69dc4ba90826a"
+    },
+    {
+      "file": "GUNUSDT-1d-2025-11.zip",
+      "sha256": "7fb56d9aa78960943a3023e5798579b31acba75e1faa6a94e604d269e71d21be"
+    },
+    {
+      "file": "GUNUSDT-1d-2025-12.zip",
+      "sha256": "6914c84b3e71af682e8771602857137037ab953191499be6c89c5440f2bf61b9"
+    },
+    {
+      "file": "GUNUSDT-1d-2026-01.zip",
+      "sha256": "ac0642e658deccf6b24700f8f1d48a322956807412a2f7bc46c2073135763e5d"
+    },
+    {
+      "file": "GUNUSDT-1d-2026-02.zip",
+      "sha256": "68dc6823ac01f0c5d530ed2d6159ee9a8b15674d08f21276fc8a4470d73a7c5c"
+    },
+    {
+      "file": "GUNUSDT-1d-2026-03.zip",
+      "sha256": "1b06918e038b45f069550a4b8c67b95b3af8d401805708993dc4f56bc8515916"
+    },
+    {
+      "file": "GUNUSDT-1d-2026-04.zip",
+      "sha256": "f3a17647581cec36a038f75a14caa6c0362568830d00938cd5bdbc7f53d17acd"
+    },
+    {
+      "file": "GUNUSDT-1d-2026-05.zip",
+      "sha256": "6dcb6b229a05d6c0e8df2c3b87ce7fa4715045a5e556ba31e2f7153d3a4ab653"
+    },
+    {
+      "file": "GUNUSDT-1d-2026-06.zip",
+      "sha256": "c384f53c756bd9bbc8984900d9289ebfa32572e0026cd6ed9f2e1da9b1b890ba"
+    },
+    {
+      "file": "GUNUSDT-1d-2026-07.zip",
+      "sha256": "96d3fec22653a4840d0501e00b2bc84feb4c1201d894153263d68cff2d235ccc"
+    },
+    {
+      "file": "GUNUSDT-1d-2026-08.zip",
+      "sha256": "ce4d8d5ee13ec509ae3c6ad470887cab7bb08cc5b2410004f16a623f1fcf198e"
+    },
+    {
+      "file": "GUNUSDT-1d-2026-09.zip",
+      "sha256": "6713c07f4a982adcf9cd3fe633301004c10da5b7cad59f5d1bf7e5096380b06d"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

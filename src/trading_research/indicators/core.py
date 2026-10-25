@@ -72,6 +72,33 @@ def atr(bars: pd.DataFrame, n: int = 14) -> pd.Series:
     return pd.Series(out, index=bars.index)
 
 
+def supertrend(bars: pd.DataFrame, n: int = 10, mult: float = 3.0) -> pd.DataFrame:
+    """Supertrend on Wilder ATR(n): bands at (high+low)/2 -/+ mult x ATR that only tighten while the trend
+    lasts. `direction` is 1 (up) or -1 (down); `line` is the lower band in an uptrend, the upper band in a
+    downtrend. The first valid bar starts in an uptrend."""
+    a = atr(bars, n).to_numpy()
+    hl2 = ((bars["high"] + bars["low"]) / 2).to_numpy(dtype=float)
+    close = bars["close"].to_numpy(dtype=float)
+    size = len(close)
+    upper, lower = np.full(size, np.nan), np.full(size, np.nan)
+    direction, line = np.full(size, np.nan), np.full(size, np.nan)
+    for i in range(size):
+        if np.isnan(a[i]):
+            continue
+        bu, bl = hl2[i] + mult * a[i], hl2[i] - mult * a[i]
+        if i == 0 or np.isnan(upper[i - 1]):
+            upper[i], lower[i], direction[i] = bu, bl, 1
+        else:
+            upper[i] = bu if (bu < upper[i - 1] or close[i - 1] > upper[i - 1]) else upper[i - 1]
+            lower[i] = bl if (bl > lower[i - 1] or close[i - 1] < lower[i - 1]) else lower[i - 1]
+            if direction[i - 1] == 1:
+                direction[i] = -1 if close[i] < lower[i] else 1
+            else:
+                direction[i] = 1 if close[i] > upper[i] else -1
+        line[i] = lower[i] if direction[i] == 1 else upper[i]
+    return pd.DataFrame({"line": line, "direction": direction}, index=bars.index)
+
+
 def atr_pct(bars: pd.DataFrame, n: int = 14) -> pd.Series:
     return atr(bars, n) / bars["close"]
 

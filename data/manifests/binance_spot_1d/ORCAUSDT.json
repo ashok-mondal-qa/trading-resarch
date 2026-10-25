@@ -1,0 +1,113 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ORCAUSDT/1d/",
+  "instrument": "ORCAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-12-06",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:41:30+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 664,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ORCAUSDT-1d-2024-12.zip",
+      "sha256": "b45abf9404c4cbdc3ebb1efb58892a1e642c871c159b0a4414e396be3301aab0"
+    },
+    {
+      "file": "ORCAUSDT-1d-2025-01.zip",
+      "sha256": "9bd5f369943f101d96dbcd5ac986d956859a6aeea7a81863274f241e13ae2ad6"
+    },
+    {
+      "file": "ORCAUSDT-1d-2025-02.zip",
+      "sha256": "e4502052351093bd9f1a7885338e1ec1d3edf73eee67aace66a3cfd1125c9f83"
+    },
+    {
+      "file": "ORCAUSDT-1d-2025-03.zip",
+      "sha256": "fd78d0595956a24bc13dba73ab9c1388055b1cd6ba9733f4468ae73f058dd336"
+    },
+    {
+      "file": "ORCAUSDT-1d-2025-04.zip",
+      "sha256": "971c9c5393e2b89bcf5000ae0ee67b2a407dadd8bd44381bea15809f307eefd6"
+    },
+    {
+      "file": "ORCAUSDT-1d-2025-05.zip",
+      "sha256": "f1197cc393047bc2b76500313def7d53039f723737124b9c280de7ad8c684a33"
+    },
+    {
+      "file": "ORCAUSDT-1d-2025-06.zip",
+      "sha256": "2c332afde51a171a8983c367a8204b229b1d1e7eb444db802919a517e0b5e472"
+    },
+    {
+      "file": "ORCAUSDT-1d-2025-07.zip",
+      "sha256": "89f0e8ac8650a8fb64d576062b95aaaf971755858021b3965e0b3e48c9016024"
+    },
+    {
+      "file": "ORCAUSDT-1d-2025-08.zip",
+      "sha256": "7a614cf2b355d37496211076d8fbf8c2bec98a5404dc0e1791354db8178119bb"
+    },
+    {
+      "file": "ORCAUSDT-1d-2025-09.zip",
+      "sha256": "b118badf3bb2b0ad901971ebcb71aaa0e32552f1f50a11d4ba52d6cc679cbef1"
+    },
+    {
+      "file": "ORCAUSDT-1d-2025-10.zip",
+      "sha256": "a4421a4625df7373af01034981ae2e3e9543706c3fc9d23d8ba95f79bcbd126d"
+    },
+    {
+      "file": "ORCAUSDT-1d-2025-11.zip",
+      "sha256": "06f6d80d86934e5a52abebc9f1e81ecf523b7e021e7e563d95b43526498a672f"
+    },
+    {
+      "file": "ORCAUSDT-1d-2025-12.zip",
+      "sha256": "00033642187edb692a8c6ddb175637d59b15d6dcc889965566234fcbd07f0be9"
+    },
+    {
+      "file": "ORCAUSDT-1d-2026-01.zip",
+      "sha256": "542427a8660e0d416ebd9dab84a1001ce90004113d29ef7a8cca83ed98ae5eba"
+    },
+    {
+      "file": "ORCAUSDT-1d-2026-02.zip",
+      "sha256": "4a605759953c4b626e32b1441a28aac0732b59033062e3261cc25a5c1e1032ef"
+    },
+    {
+      "file": "ORCAUSDT-1d-2026-03.zip",
+      "sha256": "aef70865d57dc30a57409a2d1c86cc74f5b8844b87c5d75a2586b229b626cf16"
+    },
+    {
+      "file": "ORCAUSDT-1d-2026-04.zip",
+      "sha256": "175a9220bbc663f90769295135330536046c790973c3de0b9af05244d98331f0"
+    },
+    {
+      "file": "ORCAUSDT-1d-2026-05.zip",
+      "sha256": "cf4851bc3d0faeab56696f2cf636f2b21b0a23b0cd5c484ae90f6647b4d124fc"
+    },
+    {
+      "file": "ORCAUSDT-1d-2026-06.zip",
+      "sha256": "3e06d82368fde8b677b39e14b68dbfdff679c3f316b3e048e6a4ba07241e759d"
+    },
+    {
+      "file": "ORCAUSDT-1d-2026-07.zip",
+      "sha256": "b63963633c6eaa200ead676b097ef16b55a7636bcc3b16d5d08daba49a80e281"
+    },
+    {
+      "file": "ORCAUSDT-1d-2026-08.zip",
+      "sha256": "eb8121a796b23275e976771098224c942ebbce0df302a466dd49c5bfbaae2ca7"
+    },
+    {
+      "file": "ORCAUSDT-1d-2026-09.zip",
+      "sha256": "775dc899d7f1afad3210c974afb93460812acffd13846160c74fa31cba5a08cb"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

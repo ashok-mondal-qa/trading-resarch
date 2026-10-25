@@ -1,0 +1,73 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/EULUSDT/1d/",
+  "instrument": "EULUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-10-13",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:32:32+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 353,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "EULUSDT-1d-2025-10.zip",
+      "sha256": "7ad35194f3151ebfef5db9c5359bd419d2e2955b95175c5fb54f4f1ddcce2fe8"
+    },
+    {
+      "file": "EULUSDT-1d-2025-11.zip",
+      "sha256": "3fdbcfcd3c491dbeb3e8e2b0d30235c829ec90f4a7a094d3fe17cb78be9d35ea"
+    },
+    {
+      "file": "EULUSDT-1d-2025-12.zip",
+      "sha256": "fb25297422cc0fa492d4322a5435d10b63df1dfad00e6cadb40a6bcc0aebfb79"
+    },
+    {
+      "file": "EULUSDT-1d-2026-01.zip",
+      "sha256": "e945d680c6803010731582629180dc2212562cdfbe9331aeab6c1a837604d96d"
+    },
+    {
+      "file": "EULUSDT-1d-2026-02.zip",
+      "sha256": "9bd60f30cd43488a7775c2552a7d4411a8dbb091cbcbad1bfb996dd518881db1"
+    },
+    {
+      "file": "EULUSDT-1d-2026-03.zip",
+      "sha256": "62cfe54cfe0f61ff8095fdf558199a5f1d818c64c7f8b28bce1e6427d601366f"
+    },
+    {
+      "file": "EULUSDT-1d-2026-04.zip",
+      "sha256": "74ea6690add7ee0bbc5a26e8ba3b9b9b4b51bc11fd9fd2b842e1be0f314bb456"
+    },
+    {
+      "file": "EULUSDT-1d-2026-05.zip",
+      "sha256": "6f9deb6276eac70285c82141d3499c653f7bb5130c9cdd02f8948a69af26b55f"
+    },
+    {
+      "file": "EULUSDT-1d-2026-06.zip",
+      "sha256": "25c8cfbba38f6d89e1ead33c45aaa69fc746910980bf652bea2be95f32bbc8e9"
+    },
+    {
+      "file": "EULUSDT-1d-2026-07.zip",
+      "sha256": "a7f6de2a734ca82a028464b241ed79f681fc5c4e7bd5fddde840d5548fc5abc8"
+    },
+    {
+      "file": "EULUSDT-1d-2026-08.zip",
+      "sha256": "cbc18b4a44f5721b0fcc4020ce2796a39ea4db746f50faddfc546b2cd3bd619b"
+    },
+    {
+      "file": "EULUSDT-1d-2026-09.zip",
+      "sha256": "e6a00d002019b54a6fc2c5a99ae928f3d2881feef0d1df9a3e875f16ae2e775a"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ALPINEUSDT/1d/",
+  "instrument": "ALPINEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-02-21",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:25:48+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1683,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ALPINEUSDT-1d-2022-02.zip",
+      "sha256": "55c33a4cde76796c94a3167db536f0d20122e1862bc0e1ea9694952438d694d1"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2022-03.zip",
+      "sha256": "244746af6e097e6beebca0939f0224f2711739d3b83510e364192a100572e8c5"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2022-04.zip",
+      "sha256": "b8c6f0c0a3e4c5a92eab70923cbfcb750b6258fb8911f140fff689736ea2b9ca"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2022-05.zip",
+      "sha256": "b1f004e74bc1787e9d508c256071bc1aa3ba070c5efb6a26baed179a74d675b9"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2022-06.zip",
+      "sha256": "850efb1b4117dc70edafe6e7357c20bc237ab00a58fd88c87c1c69cb6174685b"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2022-07.zip",
+      "sha256": "96b9d879b67c832cc4acb093ac30f8e15c95c3415f2e01a05c291cde17f3e33c"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2022-08.zip",
+      "sha256": "a2f1d11fa63ab3176cc78467ecc805eb12cb4cde9cca127e4c1a4f5b7e72024b"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2022-09.zip",
+      "sha256": "da4061b69ce3fea707afa000d48ded7b0b638c2533b6b62e1b97075a7eaa1a18"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2022-10.zip",
+      "sha256": "f004cad22e4ed6fd375d4b8fe1204f0c1b0610f78e9a65c9be511758742b9f37"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2022-11.zip",
+      "sha256": "190920a7a913fd5b5a198a729085471475fe6a1fbabbabdc513649934705b891"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2022-12.zip",
+      "sha256": "5827a91f0d06da3f5a94f1c753b18a15ec1dcc6266eac242e9391790299adbd4"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2023-01.zip",
+      "sha256": "193e5c49a1a6b574beb093db50a29a163fbc6f6d6f843cb9bfe7926e06d2ef57"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2023-02.zip",
+      "sha256": "d6e4a8b4b8e3da7ac595904156af5f09c984ca2d3c0fd9a7fc5dab0ece83bc4d"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2023-03.zip",
+      "sha256": "94a612fdcd1a3d603f7d532d1f5f544c1de57b8565a4c1953aa3dead113159ab"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2023-04.zip",
+      "sha256": "7862c35461439791482ff282b0138fbae4f75303612f8d795576576524b8c19b"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2023-05.zip",
+      "sha256": "1fe6e2949e68ef09d5f304cdc2857d1ffd256769b6f97716f3c79a6b780d4816"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2023-06.zip",
+      "sha256": "c6e8e5c8e05a73f4e632febf0217985f044d7d0c917da2ed87c2826f55e9b7d8"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2023-07.zip",
+      "sha256": "0ab66aa03d0ae533241fb51c13f89c17e6aecff0dd1967919dbe687c5eebfbea"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2023-08.zip",
+      "sha256": "518ffbd8484bec5f589f42dec36411b7019442df72b63f28b971b5c591eb0239"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2023-09.zip",
+      "sha256": "52f57e955cebfac2d83b8be8295e09a64713241e9e1e05a50e06a37876c4ba58"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2023-10.zip",
+      "sha256": "ef3f96636c7e6ac06bb4f498d7bbc4cc10648f74785a361a32cc367069987921"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2023-11.zip",
+      "sha256": "b7009d3a0ba17b16f0f30416a2a0e5737401ad40f0a0c86a2dfce7cbbd04165e"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2023-12.zip",
+      "sha256": "764cc0fc804af59949012f37460a8549c03f0f4358702eabd7b122c96883d6a6"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2024-01.zip",
+      "sha256": "2b2ffb2a29d6110fc536aa840df45f6ae98dbf521919e62cf43b2881c6c5d1a4"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2024-02.zip",
+      "sha256": "0462b7581ec7ce34fefd6e4af5b290543f9d7b7ba44eaece2ecfaa5db05a5d27"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2024-03.zip",
+      "sha256": "bd0ba3868ad3b12654c853c4f74e7ce1eda7a86250a628521fd2158e095c1f7f"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2024-04.zip",
+      "sha256": "cfbadf90623b3f4b6f85df1c41cf27b72b9e8a746a5154285332111f5d2428d7"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2024-05.zip",
+      "sha256": "774d848d8b10de2e472245dc2ce11bc28610f08e0aa5ba91f4bc50e6864fd734"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2024-06.zip",
+      "sha256": "d659cc3bca093fab85a9aa4de9536fb897fa6fe557e9d9ff4dc9f88e0665f9b9"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2024-07.zip",
+      "sha256": "9ac85e7bd179655e257880f537b736017bf7fc7525c26fc82f6a471483b9013c"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2024-08.zip",
+      "sha256": "1310107c557dd13f110c4176c466cebca01bc88546f1cc963eee3f1e23edf59b"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2024-09.zip",
+      "sha256": "fec7990ef1c470f40005e6d803c0f0ac6f5ac70c49abbea65c71a44cac9c7885"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2024-10.zip",
+      "sha256": "316312f5f25e087e85aa19f499f2a501272c855acf728e7c760d42c8b1b2db70"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2024-11.zip",
+      "sha256": "8f5324d15a8f274bc2e9b394da4c6b51ea3ab96ebac17cde039551310e76483d"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2024-12.zip",
+      "sha256": "976848fbfba81df92f2ec57522479d48585ba2af0a09ae4a27732511ef63a909"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2025-01.zip",
+      "sha256": "d323b4b184bf8952054c78bdb6e75981daff14435378a7e82766a5859ee2fb1c"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2025-02.zip",
+      "sha256": "6299effb55831b4ce79846cbb1e4933503216f14faca34cc26ea44e0aa8d6bd2"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2025-03.zip",
+      "sha256": "a2a778708e0d2a6d6b9fafef50ec6c8621637c5090ec9e8be7d424cfbcaa356e"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2025-04.zip",
+      "sha256": "04dba93d86b7bd11df4f5d733ab4f13e7bcf23ab81862a16396687b90b5ea1ef"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2025-05.zip",
+      "sha256": "267de9233596ae9a2540e0c12292d8f8da6049f199fb4e3149ff282aa08d21f8"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2025-06.zip",
+      "sha256": "bdbcdfaf8dcb170cce9d38e17997bfbcc64ee58d6b249bb5bb78eed5501cdd0a"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2025-07.zip",
+      "sha256": "58ff424e4c9c887c02e67e8600d6b8a11609627040d9969df5934387ba786c1b"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2025-08.zip",
+      "sha256": "0ce5da028066624d17d7fed2247d2371936c0b65155969cf3fe34e5b634e3518"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2025-09.zip",
+      "sha256": "c1aca617282524f9fd9137929c4f809b32408326015344931be9c34144290871"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2025-10.zip",
+      "sha256": "d8786861fd2c94326ce3ea9bccdff4861500fa94e0a5c4e5a819c381f00f442c"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2025-11.zip",
+      "sha256": "973642977495a0a69b9bb3f96f576ea64f5a8f97da4d6a2d48bdb27930905554"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2025-12.zip",
+      "sha256": "68707d608de3628b42c2a99458199d4e9ad0de0e5dfd34be01b033956501d190"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2026-01.zip",
+      "sha256": "13047cf2fa8dbbc236eb51c4caa15ba4d414c3092996e226072f00f364dc4095"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2026-02.zip",
+      "sha256": "0a79fd6ab677891c65bfd84029d6eac4f0081e6bee4f1a92fa767949408d8c00"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2026-03.zip",
+      "sha256": "60c75e1c7c93ee8f5bba974696e0fc3adec329c396d0715d48b3745dcf5606d6"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2026-04.zip",
+      "sha256": "0a98372dea33d2d1b7b836ba493b3ee7685dff5cda5048daf7e8f8af212db64a"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2026-05.zip",
+      "sha256": "3c139eac1b4a1042be2dadaad57794389a396a20a9193f061e98499fec06908a"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2026-06.zip",
+      "sha256": "edd419e6dc20f84faba705998652a4c3ede2bd749d16a5e6b735c124165c0e51"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2026-07.zip",
+      "sha256": "a602040bc4f051ccd77c3867ee655f705c34bce773210dfce024bc00dc17e832"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2026-08.zip",
+      "sha256": "629079109453639930ec9d8f2eb5dd4822f0ee6907980d66be1e2e362ad052c9"
+    },
+    {
+      "file": "ALPINEUSDT-1d-2026-09.zip",
+      "sha256": "8a8217435e14cfd66c2387eca3354c6ed2ed1dbe2ebc4e37f34b61eb7100c790"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

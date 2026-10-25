@@ -1,0 +1,233 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/TOMOUSDT/1d/",
+  "instrument": "TOMOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-08-24",
+  "last_bar": "2023-11-20",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:47:28+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1550,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "TOMOUSDT-1d-2019-08.zip",
+      "sha256": "f02ac7b62f45024511124e4ba4a55b63d15f789c3085699b9675b791633502c7"
+    },
+    {
+      "file": "TOMOUSDT-1d-2019-09.zip",
+      "sha256": "3c3280384bf9e0aac71f900adb98956745dda3a0c319cd37abee0f62628f9614"
+    },
+    {
+      "file": "TOMOUSDT-1d-2019-10.zip",
+      "sha256": "b86453e33f05e73921042fb1ad622037333548f6b9ba61d3961b16060a3a3fa8"
+    },
+    {
+      "file": "TOMOUSDT-1d-2019-11.zip",
+      "sha256": "b29d42ac0342ca3e2589f5e11d4f5af483d4b84de8034c641d333d8865fd87be"
+    },
+    {
+      "file": "TOMOUSDT-1d-2019-12.zip",
+      "sha256": "d61f5c6bf5c0119280d593ec1e3d6f38065497c84cc6e17c084f07d37b2d21e2"
+    },
+    {
+      "file": "TOMOUSDT-1d-2020-01.zip",
+      "sha256": "6a6ef9dddd9e2034c9c95217feb53f47aa4988568184b9bdeb6dc04f431275b0"
+    },
+    {
+      "file": "TOMOUSDT-1d-2020-02.zip",
+      "sha256": "12150e18e394b33a7b0182373aab1b362fadfad568a7d9b707bc255b4b67fa66"
+    },
+    {
+      "file": "TOMOUSDT-1d-2020-03.zip",
+      "sha256": "c07943eaf14c81a315374278b67db61b416230355ed480b5a90bb902c29c1455"
+    },
+    {
+      "file": "TOMOUSDT-1d-2020-04.zip",
+      "sha256": "83474b9fe1b6953a3e92bd89aa37e6ccdc8011882a41cb368012be3349d80aeb"
+    },
+    {
+      "file": "TOMOUSDT-1d-2020-05.zip",
+      "sha256": "3bcff9e0a4b32b9a1d9292ddcac61f6598d359bf25c8ba2e0513dc33c8ada3b4"
+    },
+    {
+      "file": "TOMOUSDT-1d-2020-06.zip",
+      "sha256": "a0f17636a04a1b2a5c1a631652ab34b05c2f9928c1735d781bd343e640ee4714"
+    },
+    {
+      "file": "TOMOUSDT-1d-2020-07.zip",
+      "sha256": "3d3fe620219f042e7bb54af55ec80041397d47ecc2a5841ff74a45f850f0bd20"
+    },
+    {
+      "file": "TOMOUSDT-1d-2020-08.zip",
+      "sha256": "7eb2d8af604fa323d2292bb41a153b6b874b5a4a5a41b53ff395d628e2594d0e"
+    },
+    {
+      "file": "TOMOUSDT-1d-2020-09.zip",
+      "sha256": "8db6b650dafa945acdcd98ab5da553cc92f11e893d68bbbb8cfcc58c0581e1b0"
+    },
+    {
+      "file": "TOMOUSDT-1d-2020-10.zip",
+      "sha256": "f2709489a1aec832de86ae9c9d002bbd561ad082257a02562f043796b66b9efe"
+    },
+    {
+      "file": "TOMOUSDT-1d-2020-11.zip",
+      "sha256": "155f26a4d4cc4fbba0b37cff2b9b733ee30f6e2204738af3a2da9199710102ed"
+    },
+    {
+      "file": "TOMOUSDT-1d-2020-12.zip",
+      "sha256": "8f804fb53caa6be4a10ee82ca67c3644b31633202609cf2155798c867cb5631b"
+    },
+    {
+      "file": "TOMOUSDT-1d-2021-01.zip",
+      "sha256": "4e15a21952ea5ef785f676df813987c57a49215d9686c7be372090a17149fbfe"
+    },
+    {
+      "file": "TOMOUSDT-1d-2021-02.zip",
+      "sha256": "c07fdcd937bca92e658689244aa0b429233dfe13055994ebd1754e75ae0009b8"
+    },
+    {
+      "file": "TOMOUSDT-1d-2021-03.zip",
+      "sha256": "fe7bef3f0de154830ef427548c45ff14aca0a271ba51bfe7f7691cf51ee8e70b"
+    },
+    {
+      "file": "TOMOUSDT-1d-2021-04.zip",
+      "sha256": "e99b9fb12496454406894ae7a468038d9523b70bf9069c1c070816421e37631b"
+    },
+    {
+      "file": "TOMOUSDT-1d-2021-05.zip",
+      "sha256": "d6a28576626fb42d45a3d8ba7ca654f8aca0e7aa2f6ea0d74903842c3724cfa5"
+    },
+    {
+      "file": "TOMOUSDT-1d-2021-06.zip",
+      "sha256": "e396b190ccd110cffaafa73728e6765a55d71844be66e4cbead6c26c25dbe58c"
+    },
+    {
+      "file": "TOMOUSDT-1d-2021-07.zip",
+      "sha256": "1aee411d0384c688e48d36386f83be2676ca4b8299b2e93b6d7a710a126511dd"
+    },
+    {
+      "file": "TOMOUSDT-1d-2021-08.zip",
+      "sha256": "25f9bb6a71dcbc9d90751178d0379471cb4961e4b4f295d71f7deb25b720a318"
+    },
+    {
+      "file": "TOMOUSDT-1d-2021-09.zip",
+      "sha256": "f0a7fd368b8ac3ad3e705a700d1863da34aa257b6ccb974f3daa76fbeb139da1"
+    },
+    {
+      "file": "TOMOUSDT-1d-2021-10.zip",
+      "sha256": "b591fc000aebc093180be9843c054df90c625790975ea54319333740d0e20d7c"
+    },
+    {
+      "file": "TOMOUSDT-1d-2021-11.zip",
+      "sha256": "c1518a3629c8d0ce0b23aea7d58926a3051ce557ae996f67726886e3fb9f8fe7"
+    },
+    {
+      "file": "TOMOUSDT-1d-2021-12.zip",
+      "sha256": "88a610f587ddeeb5c5138ca6cbc22f583dd6c8b9c739973d3ecc85600290bec2"
+    },
+    {
+      "file": "TOMOUSDT-1d-2022-01.zip",
+      "sha256": "4266e0362188f363c7097c41e16a83f04c434889c32d2bcca4a69ec5d52453c1"
+    },
+    {
+      "file": "TOMOUSDT-1d-2022-02.zip",
+      "sha256": "2d136d0e915b7e991981e74df10b64015a84ed0da0ff823a32b98dd664387d1f"
+    },
+    {
+      "file": "TOMOUSDT-1d-2022-03.zip",
+      "sha256": "028fd71a716f850eefb623288eb667f34f0b06e3e6723e17a8b06d220695e52f"
+    },
+    {
+      "file": "TOMOUSDT-1d-2022-04.zip",
+      "sha256": "8e65a80f026c1a10dcfeddb8f9745f8826d1c7680232e26f9b5d84ec7f380608"
+    },
+    {
+      "file": "TOMOUSDT-1d-2022-05.zip",
+      "sha256": "da3edc861040814b9a02fecbb835cdb7c2b821abefa85ae915db08cafd6e35ef"
+    },
+    {
+      "file": "TOMOUSDT-1d-2022-06.zip",
+      "sha256": "98d55f48519347b004090114cbf212e9cfa88f1f4341b009c2fcade6645b33e6"
+    },
+    {
+      "file": "TOMOUSDT-1d-2022-07.zip",
+      "sha256": "61dad6e7070f66d932dea7fa0f6f2670fe0152a105f83a480d0765b0517ced78"
+    },
+    {
+      "file": "TOMOUSDT-1d-2022-08.zip",
+      "sha256": "1ec58f9631151019349474247fcfd01e49d6b951f1e4fc4c66a12e5c62ee33f6"
+    },
+    {
+      "file": "TOMOUSDT-1d-2022-09.zip",
+      "sha256": "d6f988c89941b7aee000795b35250a4a76113ebfc4ea0105d948e0df598fdb9d"
+    },
+    {
+      "file": "TOMOUSDT-1d-2022-10.zip",
+      "sha256": "59da444f2c8824555b2c253dfea03ce9950c5de2d628e7a7755e90e1356b0f03"
+    },
+    {
+      "file": "TOMOUSDT-1d-2022-11.zip",
+      "sha256": "be23118c7aff0df5b1b35a2471b8996b77aa39a32f2b985458fb17bb1aeffee9"
+    },
+    {
+      "file": "TOMOUSDT-1d-2022-12.zip",
+      "sha256": "849993182a7c824c4ffc2976c58dbc75dcae6e1861dc63b266a077880fae88a0"
+    },
+    {
+      "file": "TOMOUSDT-1d-2023-01.zip",
+      "sha256": "2b5904c31ba4ba45cb22d4f054567df3a73c1b915311d4d09f0ab4dc3f3a7d82"
+    },
+    {
+      "file": "TOMOUSDT-1d-2023-02.zip",
+      "sha256": "a1e8efff398dd7b79857a75707072791b0d6f1eeabd5d9320af51a619b5373d7"
+    },
+    {
+      "file": "TOMOUSDT-1d-2023-03.zip",
+      "sha256": "4863c833c01da33934de3fa93add4d2aff0e1fb97f8564cd4e2e2642ad0450cc"
+    },
+    {
+      "file": "TOMOUSDT-1d-2023-04.zip",
+      "sha256": "b7776de761f4e2cb60538ddf228a069ff9a99cf1978cff805819545babfcfe53"
+    },
+    {
+      "file": "TOMOUSDT-1d-2023-05.zip",
+      "sha256": "b35586d4775a0b1d087295635b8c80b461a1f64b6d151a93743a5dca094f0a71"
+    },
+    {
+      "file": "TOMOUSDT-1d-2023-06.zip",
+      "sha256": "a4b9e2ef520642eee3ba574608a1299ef416042f0f04aa6d44f233ebb12529f9"
+    },
+    {
+      "file": "TOMOUSDT-1d-2023-07.zip",
+      "sha256": "5c342e97a27418264cd5f6beef9b7b9fef0b19730499524057e6f97ebb9e2a9b"
+    },
+    {
+      "file": "TOMOUSDT-1d-2023-08.zip",
+      "sha256": "d14cb862add379351199fa4d1818a848c8bf9636f91f27ab1bc1aeed7e911219"
+    },
+    {
+      "file": "TOMOUSDT-1d-2023-09.zip",
+      "sha256": "f63df456c15e46a1e8705399f455df49a657c5432b7c01ca4621055b9526977c"
+    },
+    {
+      "file": "TOMOUSDT-1d-2023-10.zip",
+      "sha256": "b6ed1ae80db0e3fd3b0191923fc7792f05032e11d4277ae225dd555504088cca"
+    },
+    {
+      "file": "TOMOUSDT-1d-2023-11.zip",
+      "sha256": "046f826c534505ee6834fc82485669566faae825f16daf53e4e7f47bc0b923b4"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

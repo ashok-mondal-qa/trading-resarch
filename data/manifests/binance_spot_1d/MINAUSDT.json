@@ -1,0 +1,273 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MINAUSDT/1d/",
+  "instrument": "MINAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-08-10",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:01+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1878,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MINAUSDT-1d-2021-08.zip",
+      "sha256": "da554195e5b3516c44ea405fc848b976013ed031dce1b620c0c9ac9eb842c024"
+    },
+    {
+      "file": "MINAUSDT-1d-2021-09.zip",
+      "sha256": "047775347bbbb71c656159617449fdd6519fcce1dd404af7639e2f5b6243154b"
+    },
+    {
+      "file": "MINAUSDT-1d-2021-10.zip",
+      "sha256": "066e5dde1a776b7ebeece53233eb1a863056bde7bcd37dfa9258e7b6a2af9142"
+    },
+    {
+      "file": "MINAUSDT-1d-2021-11.zip",
+      "sha256": "991ad459a46cf9d33bc79218993a268f4d2bfb3dd7f4c83b4942d81c302498db"
+    },
+    {
+      "file": "MINAUSDT-1d-2021-12.zip",
+      "sha256": "b47700df29411abc7675c8bf56262112c564bf317cff5833678e02ef2932c04e"
+    },
+    {
+      "file": "MINAUSDT-1d-2022-01.zip",
+      "sha256": "1254f147e4639da4e323bcab7c27814408d85c155862c7d41cd1339ff786e90b"
+    },
+    {
+      "file": "MINAUSDT-1d-2022-02.zip",
+      "sha256": "590601ed3d9378e1b1bbebadf7cdb6918bb46322aa7537a3fdcb3ca9fab48991"
+    },
+    {
+      "file": "MINAUSDT-1d-2022-03.zip",
+      "sha256": "fa8fcacbcd6c358bcdb00d7eb4bdcd662f549cb23b2c2491212bf5e450dce10c"
+    },
+    {
+      "file": "MINAUSDT-1d-2022-04.zip",
+      "sha256": "be62a0bb2c27c59af8ec73069555a9dca000d382185832f2847f5507a5160762"
+    },
+    {
+      "file": "MINAUSDT-1d-2022-05.zip",
+      "sha256": "faa5382b114aaa5c7252ab00f180f1a7da18f15413ecc3a683e4263d2666f23a"
+    },
+    {
+      "file": "MINAUSDT-1d-2022-06.zip",
+      "sha256": "0fcd2670593c31f14ac92a13fd03337365b7b7f0f9b59d290e250e57c7637010"
+    },
+    {
+      "file": "MINAUSDT-1d-2022-07.zip",
+      "sha256": "e704af7b557e3de4bc78e467b542d7277436112cc1fc95e3eca1e32e5e66de59"
+    },
+    {
+      "file": "MINAUSDT-1d-2022-08.zip",
+      "sha256": "12ccf9a39ba185b605e00932c5f7cbf161cbee57809e81f35d7dd18476a67f42"
+    },
+    {
+      "file": "MINAUSDT-1d-2022-09.zip",
+      "sha256": "bc7d1744ac3eee95de131f6a3a3dbe539410cefc8166a4346779847332bea5cf"
+    },
+    {
+      "file": "MINAUSDT-1d-2022-10.zip",
+      "sha256": "03d8ad1287a452866855da668e55c844f32f5c608b2ff8f4a7eb11c818a74c85"
+    },
+    {
+      "file": "MINAUSDT-1d-2022-11.zip",
+      "sha256": "954c7e349fc7324e248d37d91de9443941381c1bcf0ab1d9bccd12702b0840e3"
+    },
+    {
+      "file": "MINAUSDT-1d-2022-12.zip",
+      "sha256": "895dcd9eaf4ad05eb35aa015998eeb2533a050ba27e10f9036fc3d1eb40a2b50"
+    },
+    {
+      "file": "MINAUSDT-1d-2023-01.zip",
+      "sha256": "8a62131144b95db1530c74c328dafe77a2b9bf44674ad4199989425401194579"
+    },
+    {
+      "file": "MINAUSDT-1d-2023-02.zip",
+      "sha256": "0d3f9926b608ac21c0eeb6ac80055164407b59425442eaa6e0b0d92e7f476b15"
+    },
+    {
+      "file": "MINAUSDT-1d-2023-03.zip",
+      "sha256": "aca153b6e4d6436212ba408950d800b8fd60f2ddf1a878bbbfa6144977dc565c"
+    },
+    {
+      "file": "MINAUSDT-1d-2023-04.zip",
+      "sha256": "7995c330cabd6171d1a031ef528b1c08f518424157929e9cde1e520bcb466733"
+    },
+    {
+      "file": "MINAUSDT-1d-2023-05.zip",
+      "sha256": "27a40e62e99343c2bb0ffecf02bcea4dafb52c95ad26e13c167a99a29002e625"
+    },
+    {
+      "file": "MINAUSDT-1d-2023-06.zip",
+      "sha256": "014c3fb4dcb6301dea044e42c613c68f25c1717110364c61a34fdde63a687eb7"
+    },
+    {
+      "file": "MINAUSDT-1d-2023-07.zip",
+      "sha256": "286f0e8666c7afc1fd1d9df461b9d697d1cb3e217a0a3351e6090c716c0a8c55"
+    },
+    {
+      "file": "MINAUSDT-1d-2023-08.zip",
+      "sha256": "1663e3c011913c52b4514ef588fc989cc1c83972a604a12a647e6c3dac5a4187"
+    },
+    {
+      "file": "MINAUSDT-1d-2023-09.zip",
+      "sha256": "9b07dba8fa5abf6afc437669d779dfe940e3cf04a1cc288168e5bf910fea3c59"
+    },
+    {
+      "file": "MINAUSDT-1d-2023-10.zip",
+      "sha256": "598b3458d336bfa0cd0c6b2610859ec631161d905d56a8bb24a9e03a482772dd"
+    },
+    {
+      "file": "MINAUSDT-1d-2023-11.zip",
+      "sha256": "3e28677644283d5e090790e2d42a52f831cd4c5fa5bef931f0e46eda8663f31a"
+    },
+    {
+      "file": "MINAUSDT-1d-2023-12.zip",
+      "sha256": "4c0bd492e13199ecc2b03aa1f8032635e686bb5a2931405751f2b2c26cb4d249"
+    },
+    {
+      "file": "MINAUSDT-1d-2024-01.zip",
+      "sha256": "e089ac1196dc6a72e4c2d2e67e9906af79e5a0f54ca49127c184e63dc673c4e9"
+    },
+    {
+      "file": "MINAUSDT-1d-2024-02.zip",
+      "sha256": "4fb9c118273aebef9fedca056dd54b51ee62d7de3b117f052633343190fa02ad"
+    },
+    {
+      "file": "MINAUSDT-1d-2024-03.zip",
+      "sha256": "b3b13afb6e735b03920392e6b09f2ee5324bae21af6b9bd6ed43db4f43b8687f"
+    },
+    {
+      "file": "MINAUSDT-1d-2024-04.zip",
+      "sha256": "dc6897dc1e37ac28d33dfcf0cd89a27f1070bcfce85cbbd62f908baf94f9745e"
+    },
+    {
+      "file": "MINAUSDT-1d-2024-05.zip",
+      "sha256": "1c04cc7172b971b9756ccc9ba03f11f5d3e5fc0c38c60be44594c20fdd5420ee"
+    },
+    {
+      "file": "MINAUSDT-1d-2024-06.zip",
+      "sha256": "7591798df41e59e5b5fe73ad8b9e8a632f078c9a55198bacc1f549bf0e5fcdad"
+    },
+    {
+      "file": "MINAUSDT-1d-2024-07.zip",
+      "sha256": "aa9422bbb826ddba0021756f6d1a38bad56c5b0d4b37cdcd808dfc57fc96ba19"
+    },
+    {
+      "file": "MINAUSDT-1d-2024-08.zip",
+      "sha256": "fed7586e7e6e336600a283fbccc14a99e9dc1d4dddf1c999328b973efedb272a"
+    },
+    {
+      "file": "MINAUSDT-1d-2024-09.zip",
+      "sha256": "c45ade8e07a91389f4a977f52cc46e6e804c67de36c6fd7de443838a2eaf055f"
+    },
+    {
+      "file": "MINAUSDT-1d-2024-10.zip",
+      "sha256": "030396974d9cac64982214eca6012c5dd34c92f7bc36683d6cfbe563266930ac"
+    },
+    {
+      "file": "MINAUSDT-1d-2024-11.zip",
+      "sha256": "3bf9b87911b16ce3f579bd32fddf7745fa260a7b11f3c5536e25ac85dfd87e0b"
+    },
+    {
+      "file": "MINAUSDT-1d-2024-12.zip",
+      "sha256": "d575e82b937f6626708b0ba7e775dbf10bb10824250c902771eab0e6f42262e2"
+    },
+    {
+      "file": "MINAUSDT-1d-2025-01.zip",
+      "sha256": "a51ceb7925adcfb87b54fd081bb1f90cb366c6432caded6e893a9dbbaddf2ab4"
+    },
+    {
+      "file": "MINAUSDT-1d-2025-02.zip",
+      "sha256": "66d125e47dc8c3e618f8e0c3738b1e8d6c9db3606a675ab0895e7e6d0a6ae0cd"
+    },
+    {
+      "file": "MINAUSDT-1d-2025-03.zip",
+      "sha256": "1689f91a88a11b729024281da874f031fd9f69e6d0796fbb61ef52a1df60d1cb"
+    },
+    {
+      "file": "MINAUSDT-1d-2025-04.zip",
+      "sha256": "6a2c1122872dd38ffc40710bf329bf580e81da10192dba74e798de99399f7ee4"
+    },
+    {
+      "file": "MINAUSDT-1d-2025-05.zip",
+      "sha256": "59c546b470df8955d7fab78d99fc3d2fc35c301f8fac6509a718542625b5aa1a"
+    },
+    {
+      "file": "MINAUSDT-1d-2025-06.zip",
+      "sha256": "baa17dec481bbe3f1ab17e3883189a76665fb2eb93c69fc0887ef84098a18895"
+    },
+    {
+      "file": "MINAUSDT-1d-2025-07.zip",
+      "sha256": "4ad68a6123378b1ffbe7d93cf884144d18b3f2810e305f5190fa0491aebaa9c1"
+    },
+    {
+      "file": "MINAUSDT-1d-2025-08.zip",
+      "sha256": "9e3c57d5f44057ba26dcdea0645c9b1c9a1aada0d6db27f289cff64f64b097e4"
+    },
+    {
+      "file": "MINAUSDT-1d-2025-09.zip",
+      "sha256": "d6e7ad9fe74eed4502af8c9eefb8f12f0b5a7cd5b39dadb9590b42187b2a6105"
+    },
+    {
+      "file": "MINAUSDT-1d-2025-10.zip",
+      "sha256": "e187de8ffb64d531683eee0da2f7aa5bc361076e5c5d0f84b7582fb93415e57b"
+    },
+    {
+      "file": "MINAUSDT-1d-2025-11.zip",
+      "sha256": "80e7da127b2520b0c47044d597fdaa699bf1f27d1c17686187d6ee91a33805f7"
+    },
+    {
+      "file": "MINAUSDT-1d-2025-12.zip",
+      "sha256": "a68ed6632d40b9c3265cc83678e485a526f7e2869a5cc8bee74094ccf344efae"
+    },
+    {
+      "file": "MINAUSDT-1d-2026-01.zip",
+      "sha256": "3cb1c56b3a89fa6e08805764b962875a3db07fbab8f954e4d32eaf31399c4a57"
+    },
+    {
+      "file": "MINAUSDT-1d-2026-02.zip",
+      "sha256": "821ae0b48f58087e7d92173098107fd3ac6c9c9d227bc35f84567802f21a8842"
+    },
+    {
+      "file": "MINAUSDT-1d-2026-03.zip",
+      "sha256": "91bb5f6a57c9de6808ad761bcba6cbdbfdd5c99780ad22d925f62d9050786328"
+    },
+    {
+      "file": "MINAUSDT-1d-2026-04.zip",
+      "sha256": "f319b66b12504b497a2d6e90275e408a53fc78e4220375bc75fc5dcc58e78135"
+    },
+    {
+      "file": "MINAUSDT-1d-2026-05.zip",
+      "sha256": "65b02fc145fae9475dbd1b53fcc0675385ef67cd2bea9091ca991f85e8a80e12"
+    },
+    {
+      "file": "MINAUSDT-1d-2026-06.zip",
+      "sha256": "5374511b415530eb34b41db2f4add50ca73ddb6f52a4738c7703a049d6085131"
+    },
+    {
+      "file": "MINAUSDT-1d-2026-07.zip",
+      "sha256": "6365bbda9c9d7402f990517b820c71663d3e69c1a64c207b5b5b88d85b36750f"
+    },
+    {
+      "file": "MINAUSDT-1d-2026-08.zip",
+      "sha256": "ca80ae79ad03a7d9f5ca6de0c462e31aa55da3d699bebe3e95bd686db3c7f55e"
+    },
+    {
+      "file": "MINAUSDT-1d-2026-09.zip",
+      "sha256": "3c3f0ce2d4b7f029291d1b0303d124fe28a2095f8ba6acf17392126a564b7f73"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

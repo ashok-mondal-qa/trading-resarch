@@ -1,0 +1,317 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/AVAXUSDT/1d/",
+  "instrument": "AVAXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-09-22",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:27:35+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2200,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "AVAXUSDT-1d-2020-09.zip",
+      "sha256": "5bcb42ce41a691f29c2a9cad5ae4f2ddf6bdd04e16dcf8214da23630e4f31c39"
+    },
+    {
+      "file": "AVAXUSDT-1d-2020-10.zip",
+      "sha256": "06a7011750acded9bfb9491e0cc7fcfaa0ee2b8a2eb8f70deda64b215382903a"
+    },
+    {
+      "file": "AVAXUSDT-1d-2020-11.zip",
+      "sha256": "393c4aeaccf8660d28d0688eaf37f69297a911505a6d3e0127e6bdc0fa57de90"
+    },
+    {
+      "file": "AVAXUSDT-1d-2020-12.zip",
+      "sha256": "3caea6b2c143001da81c8cd9a9af78ef77b173cc0a53281f87554dcad576fe98"
+    },
+    {
+      "file": "AVAXUSDT-1d-2021-01.zip",
+      "sha256": "c2c0906255914e37385a2d32bc717c4f0adef8ac2704fe5bf09fff246eee8ed0"
+    },
+    {
+      "file": "AVAXUSDT-1d-2021-02.zip",
+      "sha256": "58bd633ca9b33281165a01a08dca8abe4e2eb9e98ae9f14b3c3c55ef4022d4db"
+    },
+    {
+      "file": "AVAXUSDT-1d-2021-03.zip",
+      "sha256": "9093f201e3e6ad2f95f65d25c99854daee5e86cec1efd8109af7e738f653edf0"
+    },
+    {
+      "file": "AVAXUSDT-1d-2021-04.zip",
+      "sha256": "041982ace8fa850fdb232e42c7ef37940536e04f1be1a59aa8f358ab0777cec9"
+    },
+    {
+      "file": "AVAXUSDT-1d-2021-05.zip",
+      "sha256": "1aea7d747a9f4cfd9f1bb9b15167f84d64db41f71e7bc8138a204426841cedcc"
+    },
+    {
+      "file": "AVAXUSDT-1d-2021-06.zip",
+      "sha256": "62cc2f255b9872039d49e89de9de1a10f46367e3971f6d1c6b61589488d2545c"
+    },
+    {
+      "file": "AVAXUSDT-1d-2021-07.zip",
+      "sha256": "b2c77f2b103c591128737e60b19b213a6b86210801872276940c5d50a27d3096"
+    },
+    {
+      "file": "AVAXUSDT-1d-2021-08.zip",
+      "sha256": "52d4d3589ddea1550a8b7aac8075f4889af50b77a3dcd8a04ff520e2478f3b7d"
+    },
+    {
+      "file": "AVAXUSDT-1d-2021-09.zip",
+      "sha256": "919bf2613081a8225dee1d679a7b8ee930216e3ce5406d26dcdd236b84a7eeb2"
+    },
+    {
+      "file": "AVAXUSDT-1d-2021-10.zip",
+      "sha256": "3f34c2b0d268130ac7dd4d89e7b7428f25fcf70b50bd36468f4e7ab95d0542be"
+    },
+    {
+      "file": "AVAXUSDT-1d-2021-11.zip",
+      "sha256": "4c9bd903eb7d55ac032f759f220b04cfb2cdeeb43fd404aab817f7f0b21435aa"
+    },
+    {
+      "file": "AVAXUSDT-1d-2021-12.zip",
+      "sha256": "fad3f33d260edaa5f8586e97685b9e6e4b51d8f0fbf64cc758af73f1502cea6a"
+    },
+    {
+      "file": "AVAXUSDT-1d-2022-01.zip",
+      "sha256": "af6c2fc1f89d5cba5262e9f30401c2855ab1fe6fe862d45cf1884c71ed04725a"
+    },
+    {
+      "file": "AVAXUSDT-1d-2022-02.zip",
+      "sha256": "a7c991e6468eeb3b33ee59022a3cd2b4b9eedc9dabd582341605b478e1e35128"
+    },
+    {
+      "file": "AVAXUSDT-1d-2022-03.zip",
+      "sha256": "8f13c50039b5dbab718ca6f03798567dbdf67b7964a39aa314635bed7e2aeaf8"
+    },
+    {
+      "file": "AVAXUSDT-1d-2022-04.zip",
+      "sha256": "be9bb77889f43fdf44f070fa19c9d989bb499701ee81e786968e7e7a387848b9"
+    },
+    {
+      "file": "AVAXUSDT-1d-2022-05.zip",
+      "sha256": "640a741c6911d4e995e266a4cfaf3bf91ea236e1f8fd2d8337e86df97ed35fba"
+    },
+    {
+      "file": "AVAXUSDT-1d-2022-06.zip",
+      "sha256": "1482218365f96e1b4ef02271480f5b424110182366c37c97de7361a1ce4fffff"
+    },
+    {
+      "file": "AVAXUSDT-1d-2022-07.zip",
+      "sha256": "7dd0028cf83028838ff40ee26c79350eec4838377e160b717f4ddb5123e053c7"
+    },
+    {
+      "file": "AVAXUSDT-1d-2022-08.zip",
+      "sha256": "3e06ce450b412f86d30882c8cca00454b71fdce8f11f388b813ce8bfc5fc2025"
+    },
+    {
+      "file": "AVAXUSDT-1d-2022-09.zip",
+      "sha256": "4937f399f38a3306315350d952bb30936bd0e93f486f26daae91dbbf6f22b4c2"
+    },
+    {
+      "file": "AVAXUSDT-1d-2022-10.zip",
+      "sha256": "a2649caaa0b2e9de579867e328d9b981c6a0091499911c16a1779e84407e1ce7"
+    },
+    {
+      "file": "AVAXUSDT-1d-2022-11.zip",
+      "sha256": "7d10af70464c405265939d6a1766f8d082616cbed88b3509ca96e79376dbd728"
+    },
+    {
+      "file": "AVAXUSDT-1d-2022-12.zip",
+      "sha256": "029fcce795f4000c6b57aeac43db2b7e0dc954fff611d1ade731990a8b51fd4c"
+    },
+    {
+      "file": "AVAXUSDT-1d-2023-01.zip",
+      "sha256": "117b92a5dc7b7ce45ec488f4a20340d2ec95a1a0dd1cf94283cc59cf3aaa44e1"
+    },
+    {
+      "file": "AVAXUSDT-1d-2023-02.zip",
+      "sha256": "c77a73672cc083496f63493e63fc6fd9eb7a83fc45fb4fe667d000fcada4907e"
+    },
+    {
+      "file": "AVAXUSDT-1d-2023-03.zip",
+      "sha256": "381bdfb434dd66919c3c4b57f6bb75c3bad450245e20085d0ca561fceb9a7a9d"
+    },
+    {
+      "file": "AVAXUSDT-1d-2023-04.zip",
+      "sha256": "d25fa495cac08581584b4644f4c3d02dac4ae7a8dc9dee8ea8641b091a3f9a16"
+    },
+    {
+      "file": "AVAXUSDT-1d-2023-05.zip",
+      "sha256": "f98c304c91659f68f0fa8648cc604ff30d609eec3f7563b67c1e7ba38a6ebb7d"
+    },
+    {
+      "file": "AVAXUSDT-1d-2023-06.zip",
+      "sha256": "2d60581e513ce9f2f132e0e69023fe2cda8435912ecdad52fa05bc50cc731792"
+    },
+    {
+      "file": "AVAXUSDT-1d-2023-07.zip",
+      "sha256": "0b5299f1cb6d0ad370fc06dccc1fd54c0d090a55cfd55544bb04929a235dfa59"
+    },
+    {
+      "file": "AVAXUSDT-1d-2023-08.zip",
+      "sha256": "317b8783bb36ad65db76f6066168ac981a8c96ef897f40d3a2faf4221999ecf7"
+    },
+    {
+      "file": "AVAXUSDT-1d-2023-09.zip",
+      "sha256": "e737dd9ec55a2a4de3b607548039b5cf70ff4c3c657583c2dcbc1fe3b2485afd"
+    },
+    {
+      "file": "AVAXUSDT-1d-2023-10.zip",
+      "sha256": "1426d8eec34093452d1b6e389fdb2eeb4411a3b99de00afeeb2fb1f13bb31b7d"
+    },
+    {
+      "file": "AVAXUSDT-1d-2023-11.zip",
+      "sha256": "d56b6b102343186836156641fd2c6808a64550b64d35a12bd0faa37ac76235b9"
+    },
+    {
+      "file": "AVAXUSDT-1d-2023-12.zip",
+      "sha256": "dab695bd566c11170599b4e8791045c882eaf9ad1458cc66eb30663efebaef4f"
+    },
+    {
+      "file": "AVAXUSDT-1d-2024-01.zip",
+      "sha256": "16a31b1972114ee738f93425b4e1b70ecb1b7fecc4cee72d5252e61565627b2e"
+    },
+    {
+      "file": "AVAXUSDT-1d-2024-02.zip",
+      "sha256": "a1ea911a74a73d49fc78a0dd96211d4de84cc2557c998c7533207165dd8e80f0"
+    },
+    {
+      "file": "AVAXUSDT-1d-2024-03.zip",
+      "sha256": "2d5dfe8c5d78ca0b6850801476c45b9ecc4f3056a062b9ed99bac906e5f6188f"
+    },
+    {
+      "file": "AVAXUSDT-1d-2024-04.zip",
+      "sha256": "53fca45be85490c45e3b3fdad6b76faf05060c4ac50bde98ddf64ca8b27fd2c7"
+    },
+    {
+      "file": "AVAXUSDT-1d-2024-05.zip",
+      "sha256": "1f04f7679f1ced392ba3521810f078e0a5b27c2554583f8ce0797f07f306fec6"
+    },
+    {
+      "file": "AVAXUSDT-1d-2024-06.zip",
+      "sha256": "ab18fc29dd5fe4e5c13772e3245a35ac28f9a830354fdaf16028ff9b2b61a4f7"
+    },
+    {
+      "file": "AVAXUSDT-1d-2024-07.zip",
+      "sha256": "f076cf4ec5cd841dded296e21587f8078b1c87ea1930096a49829233ddf6f944"
+    },
+    {
+      "file": "AVAXUSDT-1d-2024-08.zip",
+      "sha256": "b290efd8fc5038eb790b4707ae971d7f2dfb9d564e4390463ef3891db9cc742d"
+    },
+    {
+      "file": "AVAXUSDT-1d-2024-09.zip",
+      "sha256": "ccc24fcb9fed43b9d3d6320688831a449de33fd5b77bc6b9a5d03b834e9a8b23"
+    },
+    {
+      "file": "AVAXUSDT-1d-2024-10.zip",
+      "sha256": "99f38e349f5b2f1db982b01b2e85a6896130080d7abd5d4bbf2b6b392d97448a"
+    },
+    {
+      "file": "AVAXUSDT-1d-2024-11.zip",
+      "sha256": "b593bc4175f365f6fbfb413056047fa614218a58c3f3aa6bfd2c47986f095284"
+    },
+    {
+      "file": "AVAXUSDT-1d-2024-12.zip",
+      "sha256": "25fd185f9cd193053f8aee5ddf10b8ca235c13c6c33fd8087156c9d342c02c7b"
+    },
+    {
+      "file": "AVAXUSDT-1d-2025-01.zip",
+      "sha256": "7feed4288beb7c0eeaaacfb7f38948f2679a7382f7405945a2a552de4f942f15"
+    },
+    {
+      "file": "AVAXUSDT-1d-2025-02.zip",
+      "sha256": "0f917a5ec38d98442a0ffc7e804f90aa4773703b43eec55699393ea1e56bf017"
+    },
+    {
+      "file": "AVAXUSDT-1d-2025-03.zip",
+      "sha256": "eb43b9c8926e5bf084b869591dafbff9fa074ba75b9ba15ae786aa8e8bfd6b7b"
+    },
+    {
+      "file": "AVAXUSDT-1d-2025-04.zip",
+      "sha256": "e483c0b50d5d541e9d696c81f9550824824b24cc1f3db134b6f7c36ac74b72f5"
+    },
+    {
+      "file": "AVAXUSDT-1d-2025-05.zip",
+      "sha256": "e9f4958e6a37307a2328b95f0fe20830d8aaf0c611361caef53dab35197feff7"
+    },
+    {
+      "file": "AVAXUSDT-1d-2025-06.zip",
+      "sha256": "517a0a882e14da5effba1f7653d375c92265e2940b28a269ef60dc6140350408"
+    },
+    {
+      "file": "AVAXUSDT-1d-2025-07.zip",
+      "sha256": "a7206358ff5c3a7aa176650e38753861b545f93e26fb55cc02b256e26bd48cb2"
+    },
+    {
+      "file": "AVAXUSDT-1d-2025-08.zip",
+      "sha256": "90a3f7b287cbe393c02f8f4adcda3d3319310e07e0552d9ec3172b9f0859cfb9"
+    },
+    {
+      "file": "AVAXUSDT-1d-2025-09.zip",
+      "sha256": "344ee1b460529fc5847f1553a92b980c25d79e0b3ea2bf432b8683d983a2263d"
+    },
+    {
+      "file": "AVAXUSDT-1d-2025-10.zip",
+      "sha256": "729fb4366bd4075477137d8faf92c68e633c5e4fe550a720657de97163f35b77"
+    },
+    {
+      "file": "AVAXUSDT-1d-2025-11.zip",
+      "sha256": "cbaea9a4721a94b9a1ad415ba6326131e1d4ca0df1273bf4f0a61e2a2d64ab3c"
+    },
+    {
+      "file": "AVAXUSDT-1d-2025-12.zip",
+      "sha256": "bc576a918b7f0aab8a00c770b515febaf05dfb60c79f8448e608ca8bed94f661"
+    },
+    {
+      "file": "AVAXUSDT-1d-2026-01.zip",
+      "sha256": "19b13eb6a8291ea435486205787b2b815960a4455288fa7e90c50967ae40f1f9"
+    },
+    {
+      "file": "AVAXUSDT-1d-2026-02.zip",
+      "sha256": "4103fd6c28e6490bdbab29cac295cfc6cb9af7786ab46cfd27f121a32654fc95"
+    },
+    {
+      "file": "AVAXUSDT-1d-2026-03.zip",
+      "sha256": "a2bf07d7dacfa9941e2e6bafe19b1bf1329eb26277776033a1b583302aeea928"
+    },
+    {
+      "file": "AVAXUSDT-1d-2026-04.zip",
+      "sha256": "442883a2df159d832c3df8f718086a0f51b29ff18c0ed63911c89a87a83363c0"
+    },
+    {
+      "file": "AVAXUSDT-1d-2026-05.zip",
+      "sha256": "f97330ad6d5582365d5dc772d053db5b0a8ce271dc12f710a197fc7957762564"
+    },
+    {
+      "file": "AVAXUSDT-1d-2026-06.zip",
+      "sha256": "189fde229c8550a3bba6c115ebcc7d98e559b7a54caa5c5e94f660b536c3ccab"
+    },
+    {
+      "file": "AVAXUSDT-1d-2026-07.zip",
+      "sha256": "db61d61c83e6cdfb9429a8fbe9f3c4f129f470c1da61594df03f642f3ddc9cc4"
+    },
+    {
+      "file": "AVAXUSDT-1d-2026-08.zip",
+      "sha256": "a6047c0739a2fba9b6679e58d426e5f9ab11e13177bed7f38619ba67af8b865b"
+    },
+    {
+      "file": "AVAXUSDT-1d-2026-09.zip",
+      "sha256": "d0632c272f147d01400e97400648b877bb3ff381466e53e3a5ae66e95f409b7f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

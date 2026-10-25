@@ -1,0 +1,389 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/IOSTUSDT/1d/",
+  "instrument": "IOSTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-03-22",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:36:55+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2750,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "IOSTUSDT-1d-2019-03.zip",
+      "sha256": "7560296ccc7ab194d08dd3d94e914880320cd0f9a3f70a45a00442648a4349b5"
+    },
+    {
+      "file": "IOSTUSDT-1d-2019-04.zip",
+      "sha256": "3e1186141f083bc7ff175a37fcb2a8a212868460db439659dc1da26b6ee7bdf8"
+    },
+    {
+      "file": "IOSTUSDT-1d-2019-05.zip",
+      "sha256": "04936a7cf3474bfc8df9c248d6e94892836228a0833c14860431a40e8216cb54"
+    },
+    {
+      "file": "IOSTUSDT-1d-2019-06.zip",
+      "sha256": "da2d4cbde50d997ab6d083d8d8a2d6ce3cc0c570fc1a6eeea65fd4e1bb46dd27"
+    },
+    {
+      "file": "IOSTUSDT-1d-2019-07.zip",
+      "sha256": "68f3e448d96ba17df96e7b798cd98828207ef83f993a2918069805b3badb9f52"
+    },
+    {
+      "file": "IOSTUSDT-1d-2019-08.zip",
+      "sha256": "d6106b1c17ec0c12fc6b614814e3363579d4a007f5bf78bbec852ed8b04cdce5"
+    },
+    {
+      "file": "IOSTUSDT-1d-2019-09.zip",
+      "sha256": "9dcfe891dd643f1975df5237e056a8cd100ceab8eab0b7abc535cbf68623a36e"
+    },
+    {
+      "file": "IOSTUSDT-1d-2019-10.zip",
+      "sha256": "1a7662094a1f7e3f7e03d7ea55c03f1879312dcae0812c5731b0070b12636b75"
+    },
+    {
+      "file": "IOSTUSDT-1d-2019-11.zip",
+      "sha256": "a7109e9a833545e339c93b83968e351790a423f01221a3f9f82f9adc5f9c57f7"
+    },
+    {
+      "file": "IOSTUSDT-1d-2019-12.zip",
+      "sha256": "598b7f2389521ec596af4c084dd83a7e781dd1306f3a6b7fcc5fa4697eec315f"
+    },
+    {
+      "file": "IOSTUSDT-1d-2020-01.zip",
+      "sha256": "2d417934d236c7650a92de1634de7efcef8655cf55ae62f3a0afcfa0420cbea0"
+    },
+    {
+      "file": "IOSTUSDT-1d-2020-02.zip",
+      "sha256": "1dc5c629a33ff0039f243e0d463cf0e9e6016ba1951b1e128fb15bb75c9d066c"
+    },
+    {
+      "file": "IOSTUSDT-1d-2020-03.zip",
+      "sha256": "bd6d83db0a64e3877d9bbafb793cb857d21fde5d7166e0d6e0a2e6625c369b70"
+    },
+    {
+      "file": "IOSTUSDT-1d-2020-04.zip",
+      "sha256": "38648a5d4d2652de1d88dd967058e2e74e8f942538e05315f434d6185bbed6a6"
+    },
+    {
+      "file": "IOSTUSDT-1d-2020-05.zip",
+      "sha256": "dd61136686269b3238e06d2577f08047e3986454ffe092ca1fbfc5797cbc3269"
+    },
+    {
+      "file": "IOSTUSDT-1d-2020-06.zip",
+      "sha256": "86f7fe8aaf030bf368efcd6364b3761b4ab99f12267caf6ad3190484fb1c8c1d"
+    },
+    {
+      "file": "IOSTUSDT-1d-2020-07.zip",
+      "sha256": "3041fa0fcdbf35f389c7e996329321c89da33219a1555b1b659057313a753d45"
+    },
+    {
+      "file": "IOSTUSDT-1d-2020-08.zip",
+      "sha256": "01e9c60fac7146cd374010d568a9cca425823af52e40dee47f09097d58b14dee"
+    },
+    {
+      "file": "IOSTUSDT-1d-2020-09.zip",
+      "sha256": "748b354c575f8115b2f249b7b83ab95b887c7e794c147558bcedae0dbe356894"
+    },
+    {
+      "file": "IOSTUSDT-1d-2020-10.zip",
+      "sha256": "a526ee882cfbcf2c176169822f08d6a7e31e55fd5337cea409f51ed96c596c42"
+    },
+    {
+      "file": "IOSTUSDT-1d-2020-11.zip",
+      "sha256": "fe0a719859a06afdbc5be90b1f637637b0c2fe1dffe96f8658190e4fc6f78333"
+    },
+    {
+      "file": "IOSTUSDT-1d-2020-12.zip",
+      "sha256": "c241e3d8c11eb46ee468676bdd919edea62a0b3e483db247c967836513996503"
+    },
+    {
+      "file": "IOSTUSDT-1d-2021-01.zip",
+      "sha256": "e146bb60b8139e2a766da0e37e505d19c98a8111ef00cfd9ee193d39e1ce0410"
+    },
+    {
+      "file": "IOSTUSDT-1d-2021-02.zip",
+      "sha256": "123bc54630341695351850339bfc82cd95068032d71bb72881951cfb7a7ddb1c"
+    },
+    {
+      "file": "IOSTUSDT-1d-2021-03.zip",
+      "sha256": "7bd050b2654751ba831ea6a60a8ff564085c9ceb81b1c89a8520821551374c18"
+    },
+    {
+      "file": "IOSTUSDT-1d-2021-04.zip",
+      "sha256": "b9fb472211ffcf9669dfd601d1696c330b04958e9c65faf4b9d29f52cfaa441e"
+    },
+    {
+      "file": "IOSTUSDT-1d-2021-05.zip",
+      "sha256": "a12e1a1bb3850c4f1a73f1d16c0e957f942b8b3d8e579be70d05fe46c8add1db"
+    },
+    {
+      "file": "IOSTUSDT-1d-2021-06.zip",
+      "sha256": "b28ba74cb12110ac3b0d9673a6729d041196ec50db4ef46566a3543ea83f90dd"
+    },
+    {
+      "file": "IOSTUSDT-1d-2021-07.zip",
+      "sha256": "973fa7764d3840d68c0cfabe006fba6e92af310a53f173d4668321b9cff9dfe6"
+    },
+    {
+      "file": "IOSTUSDT-1d-2021-08.zip",
+      "sha256": "e1808d90ec529c885fdd6a19624325393920852ec87b16e49ccefe646ff7a3fd"
+    },
+    {
+      "file": "IOSTUSDT-1d-2021-09.zip",
+      "sha256": "35ca634f902748dd15e02b1ad93979eacca2bf4ac61fc0034ea68fce397594d5"
+    },
+    {
+      "file": "IOSTUSDT-1d-2021-10.zip",
+      "sha256": "5a505544add1426d1f056f28b1277396cdabcef3ea057c7f1f069e2d6accba99"
+    },
+    {
+      "file": "IOSTUSDT-1d-2021-11.zip",
+      "sha256": "8be9bc87b882c8773d8ef273ef9d30c80d170c83bf3e7f2e240265ed93c1471a"
+    },
+    {
+      "file": "IOSTUSDT-1d-2021-12.zip",
+      "sha256": "6a5c236142889480804906ab06e95a3ece2c806aeb5a0fcc5b6b451921e2b2f8"
+    },
+    {
+      "file": "IOSTUSDT-1d-2022-01.zip",
+      "sha256": "93f8a773d6d615c6f602c01a5ceef48928aa9ae12541c07f42b66c6f867b94ad"
+    },
+    {
+      "file": "IOSTUSDT-1d-2022-02.zip",
+      "sha256": "b1fccaa7cc715659346d8f0f6852a5a7a13edf1a652396c589745ae98e6c72fd"
+    },
+    {
+      "file": "IOSTUSDT-1d-2022-03.zip",
+      "sha256": "992d40afe7d2d48ee8d8a1903cc4c7ead31e82bafc59d907674a89ce227ca305"
+    },
+    {
+      "file": "IOSTUSDT-1d-2022-04.zip",
+      "sha256": "36388ec616b627c0a35233b817e2dee3cc7d47bc23a356c5f3b4d8f733c27f66"
+    },
+    {
+      "file": "IOSTUSDT-1d-2022-05.zip",
+      "sha256": "a7d72b7068fb445688d914055a5df563a168c993cecfe8fa86adfa966645e509"
+    },
+    {
+      "file": "IOSTUSDT-1d-2022-06.zip",
+      "sha256": "7e33c3852234a61d05266ced237e330f1aac7d44a2ad98c014fb4f1cd80f6727"
+    },
+    {
+      "file": "IOSTUSDT-1d-2022-07.zip",
+      "sha256": "05739bec16db5c5eaf905afd08d8a435148b5fc20ba73dbcbb70747ca412efd5"
+    },
+    {
+      "file": "IOSTUSDT-1d-2022-08.zip",
+      "sha256": "4230010c4d3cb14e4b438d0e165b617ff0e755833b3c83471254c78523494e3e"
+    },
+    {
+      "file": "IOSTUSDT-1d-2022-09.zip",
+      "sha256": "b10d3984112b2124adaaf2aaf4f2a82978ca88dbe54f416ab32fa3099b7a2cb4"
+    },
+    {
+      "file": "IOSTUSDT-1d-2022-10.zip",
+      "sha256": "cbf68047e7b0db2c914b026c1dff9871e00143b3be7d6249d140c87e6251f318"
+    },
+    {
+      "file": "IOSTUSDT-1d-2022-11.zip",
+      "sha256": "92983be0e0c8ae1bf058fe5e088cb2d56c371e317edf32e0fe938278a1bf1500"
+    },
+    {
+      "file": "IOSTUSDT-1d-2022-12.zip",
+      "sha256": "e859236ab4850dea17e8d1544754ba025a3824e6fe07b5249a2611632dac5926"
+    },
+    {
+      "file": "IOSTUSDT-1d-2023-01.zip",
+      "sha256": "4ad99e88648c9d5754ada8f907aa96b9515142bd685121837afad8844be27fc1"
+    },
+    {
+      "file": "IOSTUSDT-1d-2023-02.zip",
+      "sha256": "3eb6b3dae110ecdc563d06711c48d4dadda3b7409a5e1a6abdc848b4c2787464"
+    },
+    {
+      "file": "IOSTUSDT-1d-2023-03.zip",
+      "sha256": "4f8eef52689637edf2a2050551a38776f8b2c3fd221ecf7d47f23a6ea1ed5e1a"
+    },
+    {
+      "file": "IOSTUSDT-1d-2023-04.zip",
+      "sha256": "2107a0b518639eec88320e798c17659cf3bca196ccc91cff105714fe152fadf0"
+    },
+    {
+      "file": "IOSTUSDT-1d-2023-05.zip",
+      "sha256": "0ac57bc5b1900db2ab5aa0eab0dbb9bf708e2b232497cc1448a074fc3dbfdd92"
+    },
+    {
+      "file": "IOSTUSDT-1d-2023-06.zip",
+      "sha256": "3c648ca6058a42ad0dedd0077094262d417851700aa7872b5cf2b031152b889d"
+    },
+    {
+      "file": "IOSTUSDT-1d-2023-07.zip",
+      "sha256": "a65eb80bf20d8c66f53186d948f43dca42b7fb64de89aeef75977ad332ff4e97"
+    },
+    {
+      "file": "IOSTUSDT-1d-2023-08.zip",
+      "sha256": "224a0137eb2ba8c96ab59ed1d275900b3c8612dc0aaebd234fb0b6cf40288cd0"
+    },
+    {
+      "file": "IOSTUSDT-1d-2023-09.zip",
+      "sha256": "34dbdd91a1b547ffa14152c9c6f321dd3bee565bc4f65d1aa5fd172558392912"
+    },
+    {
+      "file": "IOSTUSDT-1d-2023-10.zip",
+      "sha256": "c418da7633ff88cbf94b4f3ac7b932a5d13a187b4a492afc7d4d2d7a68f58b70"
+    },
+    {
+      "file": "IOSTUSDT-1d-2023-11.zip",
+      "sha256": "11b0015398130acb0318009a8e6030f0ff841781a411a4b44a2d5bb109e7999e"
+    },
+    {
+      "file": "IOSTUSDT-1d-2023-12.zip",
+      "sha256": "7be558281e8836e4eb10f6afd217d2f7801e1e060d00fb6fac49bd49d216f4f3"
+    },
+    {
+      "file": "IOSTUSDT-1d-2024-01.zip",
+      "sha256": "fa7c851aecaf9fe160636ee51d4c03e2e27da273fe188ad453061742a60d2c87"
+    },
+    {
+      "file": "IOSTUSDT-1d-2024-02.zip",
+      "sha256": "6671cfdbad3e0b5d322462980af494ee7326aaaf44d100777c3f596142b71d54"
+    },
+    {
+      "file": "IOSTUSDT-1d-2024-03.zip",
+      "sha256": "1ce69cdcd06b25004e1e6e6103fc3980586463d61fa0f8a89a45c69220d99d7e"
+    },
+    {
+      "file": "IOSTUSDT-1d-2024-04.zip",
+      "sha256": "5eb7c86b24f8387ffba65576f96e2b73ee36343c99ebad0d012d5e3cef346994"
+    },
+    {
+      "file": "IOSTUSDT-1d-2024-05.zip",
+      "sha256": "dfcfd0300d8b988cac38cdd59dfed10ccf15da7629024eb4f6dd0edc250c8876"
+    },
+    {
+      "file": "IOSTUSDT-1d-2024-06.zip",
+      "sha256": "f03276dc87eaf718270b42d3ec7ab7a425a2d0db21788b16f7f533edd7f3bed8"
+    },
+    {
+      "file": "IOSTUSDT-1d-2024-07.zip",
+      "sha256": "d0c458363afccc7045a62d9a177ae2b98d134625c2b44d7016721ac5b8fe2a04"
+    },
+    {
+      "file": "IOSTUSDT-1d-2024-08.zip",
+      "sha256": "e661dfbc6007dad8ba359abe68e4849ebaeada16fed855a3416c218afdc333ab"
+    },
+    {
+      "file": "IOSTUSDT-1d-2024-09.zip",
+      "sha256": "1b0a7f2666948a3a9203a1f7c71d05afa2103287ae3512f217fcc81b216585f3"
+    },
+    {
+      "file": "IOSTUSDT-1d-2024-10.zip",
+      "sha256": "3b85882c44758574de4538ef197f936fe26ae59ee3bae7fbb0e7fb0d8427e49b"
+    },
+    {
+      "file": "IOSTUSDT-1d-2024-11.zip",
+      "sha256": "a63c1505ffacbbed87cf1124ed9b2ec7bd45e03790416110acff78990297fc45"
+    },
+    {
+      "file": "IOSTUSDT-1d-2024-12.zip",
+      "sha256": "94d990a571bad0bead19371433db545bbb74c8d11696ddda5f0b0c0a369ae9e5"
+    },
+    {
+      "file": "IOSTUSDT-1d-2025-01.zip",
+      "sha256": "de39b617da6b9922be151676551094e48ec52e02b8e07d94889e4cd1e968f331"
+    },
+    {
+      "file": "IOSTUSDT-1d-2025-02.zip",
+      "sha256": "8f1374ff572702c03fc663763ba7c4e79e6126671a2d55c32959f7a5c0897901"
+    },
+    {
+      "file": "IOSTUSDT-1d-2025-03.zip",
+      "sha256": "8f9eda08ab8925d23448ff483548f5979475985ab925b207998200e7a6f38296"
+    },
+    {
+      "file": "IOSTUSDT-1d-2025-04.zip",
+      "sha256": "2b285d8b64329822c7b184b08f18d0ef8a764d627bd45047633c449e8bb56961"
+    },
+    {
+      "file": "IOSTUSDT-1d-2025-05.zip",
+      "sha256": "957bce3a9ee8c71c5866ee0f36f9970cb0f0b7e3557a4f660d4a0eeebab6ea07"
+    },
+    {
+      "file": "IOSTUSDT-1d-2025-06.zip",
+      "sha256": "5a821b1e91d228cf5d6aecb996e719b9c760880becd5bd7c0e5f148ee249c885"
+    },
+    {
+      "file": "IOSTUSDT-1d-2025-07.zip",
+      "sha256": "97e66a7f8092f028942cad446b2c8dd48edceea4319b990c6004b28c2062a922"
+    },
+    {
+      "file": "IOSTUSDT-1d-2025-08.zip",
+      "sha256": "9a64bd7d950dcf2b5f27f4886ee7ebf9360437976c94c3b0518a2b568207b26c"
+    },
+    {
+      "file": "IOSTUSDT-1d-2025-09.zip",
+      "sha256": "30b0721885e50b19224fd7ecee16a0b6abc44cc2508e1230404eb6e5b945098a"
+    },
+    {
+      "file": "IOSTUSDT-1d-2025-10.zip",
+      "sha256": "0d7598d4b0bab613ad67cdc8efcb2b9c5fee6f90fa48e0a98aec37df1c09ec26"
+    },
+    {
+      "file": "IOSTUSDT-1d-2025-11.zip",
+      "sha256": "2c5d9bbc131790c2a1fc0592a3b0791f7a2d95149e6aaf0e32db88a2511a761b"
+    },
+    {
+      "file": "IOSTUSDT-1d-2025-12.zip",
+      "sha256": "600a5e302cd9a44c75356848448040f9da21afcd1b0caed627106a5f1e52f96d"
+    },
+    {
+      "file": "IOSTUSDT-1d-2026-01.zip",
+      "sha256": "b9b02b8a7e1d53a13eada03b80d78c8c9c01a5fb66be3798bfb418d6832b0bd3"
+    },
+    {
+      "file": "IOSTUSDT-1d-2026-02.zip",
+      "sha256": "91cdd12f652159923cf50f5fb831f4eaa05c86c4b9c9f3647c7cfd9baee24ee8"
+    },
+    {
+      "file": "IOSTUSDT-1d-2026-03.zip",
+      "sha256": "98dbb0a420b985ed2034923b17dbf97ca8777d6e9e223914c156d129984615f7"
+    },
+    {
+      "file": "IOSTUSDT-1d-2026-04.zip",
+      "sha256": "0a96f018f2220a222f82832958e0a842814f31b5f8b2d9a99240d3b13fe5b9bf"
+    },
+    {
+      "file": "IOSTUSDT-1d-2026-05.zip",
+      "sha256": "7623ed6e90a723c5c99bc3e5cf08b866c1bb4829aaef6d490736d4775fe9034e"
+    },
+    {
+      "file": "IOSTUSDT-1d-2026-06.zip",
+      "sha256": "29c10d9a4913c2e37c6d3d5254b5aaac108ebaddad21ebf46ada829de4a0dfbd"
+    },
+    {
+      "file": "IOSTUSDT-1d-2026-07.zip",
+      "sha256": "e35a98dc5b013090c15efd159cb7bb8a3020a77549d63f3b768aa4484fff60da"
+    },
+    {
+      "file": "IOSTUSDT-1d-2026-08.zip",
+      "sha256": "8d8a13f98e765662602f0ab2e65fb7fd342d89924905190f735d5f20ea000ec8"
+    },
+    {
+      "file": "IOSTUSDT-1d-2026-09.zip",
+      "sha256": "f3f0a53b340edab8c6f7631908a1eb987a53822cb173edb6f1f73fd1266ef5b1"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

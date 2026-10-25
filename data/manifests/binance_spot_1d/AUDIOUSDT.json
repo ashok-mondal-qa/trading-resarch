@@ -1,0 +1,313 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/AUDIOUSDT/1d/",
+  "instrument": "AUDIOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-10-23",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:27:14+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2169,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "AUDIOUSDT-1d-2020-10.zip",
+      "sha256": "a25a18e5d9d0bed5929134c746b7f53c953ef514041ef61ed1b955e10cfd36f0"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2020-11.zip",
+      "sha256": "dea365b1c9df00e1a2b5b88393da7fdfc0db4c572efca10d4f655fc392d30289"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2020-12.zip",
+      "sha256": "b13dcb6febb9972de902b07f393e23334613480cd5d7b40c3de1ed0511c7f131"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2021-01.zip",
+      "sha256": "efecb5f7515e5ab1a3bfbd53005b2c0930f8d6267dcb6bc06fff71a15e578488"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2021-02.zip",
+      "sha256": "f1e361c4e0bef6eb799858b66168fe686e82a47f2830f41866b1926f71d645ed"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2021-03.zip",
+      "sha256": "00d19b7fb901cc2d72c6420007b72d81277780feefbc607946944e5d3563207d"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2021-04.zip",
+      "sha256": "5eb724f067ef10cdf5f55d962f6410bd8c21a288aea2b82ffd6dfac4b9efe156"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2021-05.zip",
+      "sha256": "9b92ac71e8cffce4f4b9cc669dfa74216c31ba39d680f29042eff53e6b5e3c97"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2021-06.zip",
+      "sha256": "fbf1175c656153e87e5a06953190533064f5c137bdb9e549e7046d359d77ef14"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2021-07.zip",
+      "sha256": "d9e8d1569d6719a7f29d05a06dfaeedc4ed3efb3417a8753d50b11b7984efa18"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2021-08.zip",
+      "sha256": "799cf2062090bcfbcc8247156bd93b4f4e02ce245a97c135845149d59649afc4"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2021-09.zip",
+      "sha256": "74ae73b4debb1d281a658349d67d909be60564f779d7cac4f6c113b6be6f9dd4"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2021-10.zip",
+      "sha256": "338067f43866d32057d62495d15b445c4027d2d4dd2b7ada34359e99bab57ade"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2021-11.zip",
+      "sha256": "cf6cfc3b491b5e6c29671485987d92edec48ef65a9a9e704af580126d2213359"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2021-12.zip",
+      "sha256": "d40d9c9d1e4cc2bb1b3ed6b43d0bf2d6c0cb87eed2264304b2ceab3057b688b0"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2022-01.zip",
+      "sha256": "7e03220dcfd920afc16062a04225317e0317f0bb409f6d6fb633d0d6226bb853"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2022-02.zip",
+      "sha256": "2f3b3028423c3371efc2c8c18daa960bc09d1a21b92c7c8c81ac9cf0b7ec6f1e"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2022-03.zip",
+      "sha256": "5021e488e37dfd44b63875fc257bce9e09451193d3a19c4ca92a293145de1682"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2022-04.zip",
+      "sha256": "573a0a699564748760b1f170c634427b4aac4468e7b2f59c8229d77ab42dc2a2"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2022-05.zip",
+      "sha256": "5da155eab553041f2cdf13cc37f91926b57e0d3c8b09c6a55390b0dd40777988"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2022-06.zip",
+      "sha256": "fe7a069b9331cecdfb2953c61ad73b96d46df7710493df4bbec942b6d406dff3"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2022-07.zip",
+      "sha256": "c3ad16baae3ea8d228e45ef5d223f39094c9911dbe1c6ff4dccc0c50d05abf9b"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2022-08.zip",
+      "sha256": "34fdd4c5243d1eec252e4acfe3b15a601bb076ac6de324b37c8ef16bba05a325"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2022-09.zip",
+      "sha256": "ff50b2a791440fd0dfa5ee3a1832aff65241af38f1d1e0e6645151de8683ec2d"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2022-10.zip",
+      "sha256": "9b6f64e314dbfa1d20991334bfe2912ab1a4251904bd0d02e83055738db34c01"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2022-11.zip",
+      "sha256": "4293297d2c0895efe0d2d8093d5fc229cb248adb9f4320c2b636ae71801ecc90"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2022-12.zip",
+      "sha256": "212e3224293c7799eb42b7fe7755697cbcf0b8377f7022e81f73d895195af90f"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2023-01.zip",
+      "sha256": "41f29720ad57506804631d869fddd948daecd8ed72b3b599256d04034d4e5184"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2023-02.zip",
+      "sha256": "78d12baa06f60a4d34d37ffa3ded6a65f0aa56464b892278b72f55c93f333f78"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2023-03.zip",
+      "sha256": "0dd466eec728774c938d772011cc4cf2a0c3db615388fe275907cf8b231c48db"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2023-04.zip",
+      "sha256": "f2024f9dc2b323243b92d5af32b38ecf9951eafd3b698e73d83c90d9a5dee347"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2023-05.zip",
+      "sha256": "f8622a496faa0b5d40f69fb709d0d9bf139b721cd39edab217880333ac17bf27"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2023-06.zip",
+      "sha256": "b20f8ce6645f49cfffc42bcfd46b85f2b87d86b3c0d2a002e2174e6a498aecfa"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2023-07.zip",
+      "sha256": "70558a580b7f4d72c2323ffdd7c0c03ccbecd5cc4cb2112f79e04cf7822ee3c7"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2023-08.zip",
+      "sha256": "ecf1fdf7ed6103733be280b6a715d9ef7e7647cde20413853f46e368f3f84075"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2023-09.zip",
+      "sha256": "d3921d6f4c759e7757b016a5a955c97dc2248567fe41d3c20730fe903b91c7ae"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2023-10.zip",
+      "sha256": "574f28edbc68dff98d65926c91591bdbb7f0afddde1917788c01c001764fe844"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2023-11.zip",
+      "sha256": "430e24ff40aaa4843aa9c6fae10ce65bb1cfebff8afd73babe107aa178942d3a"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2023-12.zip",
+      "sha256": "6bdbb5577aa72e070d0326e84692d702f2f4c1e5779cbeac10ce27b63fc07044"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2024-01.zip",
+      "sha256": "8f2896f0af744bf9a36260570f021e922af1899dc2bb17a9865bf754bc729be4"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2024-02.zip",
+      "sha256": "1b99cbcf5a21b27968517f1d68baf1d666b3f7554f28c0fdd0d377747218e760"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2024-03.zip",
+      "sha256": "c17c492ddece74133f23efe93b9ffa3547ee95b70fa431cdfc0c45fab6a17cf3"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2024-04.zip",
+      "sha256": "a1c75f613b3ce4bd522a7f6d67acc1781651bfa8d7e1ec97a3a6300c0295a349"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2024-05.zip",
+      "sha256": "6471e2e70ff055cac639667535ac3e493efbe8dfc057cec6ae3f97a6666fd0d4"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2024-06.zip",
+      "sha256": "efd4ec700af2faa07f85be0bf499332ab1d8df017245a686f695795e01054fb9"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2024-07.zip",
+      "sha256": "ae5e66a7a92c0d7ffe079b6d92d2600265258989c1f885d2b13c7faa1d6d70e9"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2024-08.zip",
+      "sha256": "b04c45e6c30afdc154d4e0593269e8d10bcdfc79fcd2a58fb29cd1c6a624ab71"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2024-09.zip",
+      "sha256": "769f6d6271fa39befa881229f493b9f2b944c38868d19ea25600f9ea3a5927d8"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2024-10.zip",
+      "sha256": "8cc4834730adc6f7c4d95333343b8225fe9ffe6c3eb20f30db2654483b2ac334"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2024-11.zip",
+      "sha256": "be32136d35aea0adf840410fe9ffe940a099b66f78ca080ff9cbfbc0af034a16"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2024-12.zip",
+      "sha256": "6907ea3354637f49ff16127a9e8116015a13b2d277b3bc8002ad2159b94f3999"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2025-01.zip",
+      "sha256": "3c7aec8d139e409d9963e996c75395192617a849b36487aaea304cfdb062b8c5"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2025-02.zip",
+      "sha256": "a3cdf7ac6597b45daf6731825eed17c41e8a211467576fb6e45f78c09c384cad"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2025-03.zip",
+      "sha256": "be361f8fb43e8927e7d536868fc10a96eaea108432e20f5daa2f1d95280d0b79"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2025-04.zip",
+      "sha256": "0540cbec5143ff299a2c64fae49898ed4abf0ec869e375c91915a153b5569e12"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2025-05.zip",
+      "sha256": "ae2c934e5b758c2b7d57f2a673791c2681fd80c3c1052a54b23230c639799689"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2025-06.zip",
+      "sha256": "1c9aca6d81c608d2e667751c37f797f531d60c4ffe003307e840bce06304e3f7"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2025-07.zip",
+      "sha256": "83654b4a72df5b8aaf1864f8e47f6cc66a112c54bc7e41c887a89842bda15412"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2025-08.zip",
+      "sha256": "5f26b71ab356d12767c16d3a087321c5c378d4a11204f61a12af84ad7961fbf6"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2025-09.zip",
+      "sha256": "c40de770f9b8860bad502954fb5b931108865c56a04694211aae94d3d359c26b"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2025-10.zip",
+      "sha256": "7d526a0448892934d7200db866819c581aa4fb4bc166b602e36c2b8e15543e1c"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2025-11.zip",
+      "sha256": "630c7182b89aac533f94a731311ba95a5a788a8c05adc17a988e9459800d840a"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2025-12.zip",
+      "sha256": "4fe062a800271d486248c3d2c13627e50db2ed97e0029a316cbb1d7b70c8d14b"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2026-01.zip",
+      "sha256": "49deaf7154fe62ee1b451e8d015de549704053dba12c397706b7f5ad646f7a2b"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2026-02.zip",
+      "sha256": "019b3d164fca61667ede81b01b7f973274dbf905a0b1aae3dab5111c439b1c2c"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2026-03.zip",
+      "sha256": "e7ad081053b6aec2311de859cda9607e2e7740d8716922bd9128267c8a875939"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2026-04.zip",
+      "sha256": "12909db79f96105a0c558c7354d223813bce6c85ce5092b26ec78b2e34632acc"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2026-05.zip",
+      "sha256": "4defcd4e60caa024d1d57cfa126e9ec73eee80210cb2da275c4d9a702ff83339"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2026-06.zip",
+      "sha256": "b9d2c924727b46eb82a1610d920e988030023dd69c2a24003e700ab4eb4c33e5"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2026-07.zip",
+      "sha256": "1dbdbcf9ba7ff099c0ca5da8e0dc63f66deabec72978e9cefc0c5f31db565fd2"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2026-08.zip",
+      "sha256": "29b72030c6aa6213c0ae03e46e54efe4fb5c5147efea95551ad62d9b1c60510d"
+    },
+    {
+      "file": "AUDIOUSDT-1d-2026-09.zip",
+      "sha256": "f7584103614835b0f8533a1deb87f44bce62609dc16e73c318f8d9ad6e98456e"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

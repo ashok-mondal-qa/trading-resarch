@@ -1,0 +1,181 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MDXUSDT/1d/",
+  "instrument": "MDXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-05-24",
+  "last_bar": "2024-07-22",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:21+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1156,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MDXUSDT-1d-2021-05.zip",
+      "sha256": "f673084f46f388ba26ccbf3936ff3242f8007c726df94735963f47a23dc27181"
+    },
+    {
+      "file": "MDXUSDT-1d-2021-06.zip",
+      "sha256": "cedf9780a4e26e1b71d8777ec8aa2effebb10bc6ddcfefda62be4c0ff37b3c5c"
+    },
+    {
+      "file": "MDXUSDT-1d-2021-07.zip",
+      "sha256": "c26f45dd3f0528ce619b92d93fe6e525305627142517e9c396dce4187a0b7fc3"
+    },
+    {
+      "file": "MDXUSDT-1d-2021-08.zip",
+      "sha256": "9e215eb6771fd2913a94ad978e2582185309f7e0805b39277c5947fea0d8f5fd"
+    },
+    {
+      "file": "MDXUSDT-1d-2021-09.zip",
+      "sha256": "339449e4b521741934701bbf14ef47e8cb6adc96c46fd11f9ca11043140dcf59"
+    },
+    {
+      "file": "MDXUSDT-1d-2021-10.zip",
+      "sha256": "215d1e73963be9eb0353609dde824bdbf85766f4f233152015295ad986aed8a9"
+    },
+    {
+      "file": "MDXUSDT-1d-2021-11.zip",
+      "sha256": "326dbf8cc754ed66213efb627082f38a24beb0d62ea25e93336ef5979402746a"
+    },
+    {
+      "file": "MDXUSDT-1d-2021-12.zip",
+      "sha256": "b368f363004b7ea17554922760b79e2cf7cde8177772b92ac77a9c30104d9557"
+    },
+    {
+      "file": "MDXUSDT-1d-2022-01.zip",
+      "sha256": "52edf0d915610c6c46646e02673201fb10624c089a9838113ee2897897fe7f6f"
+    },
+    {
+      "file": "MDXUSDT-1d-2022-02.zip",
+      "sha256": "cdd0b458546dc934b42c4ad5681e0408672e50b840488ca4826be3f49c52c25c"
+    },
+    {
+      "file": "MDXUSDT-1d-2022-03.zip",
+      "sha256": "72bc03c2b40a5ee25e48739343f901a100fb1ebc114ee6eded568e3137336859"
+    },
+    {
+      "file": "MDXUSDT-1d-2022-04.zip",
+      "sha256": "fc93238923471486710807290c352be9d48f6a8c1b8aa83478885e22bb9c7334"
+    },
+    {
+      "file": "MDXUSDT-1d-2022-05.zip",
+      "sha256": "7ecd8ed6cb59b1307ae55e17d62980dda0fbbf5d5f4e828d7ce5be44c7f1c151"
+    },
+    {
+      "file": "MDXUSDT-1d-2022-06.zip",
+      "sha256": "fa15f2b68386f323a2c3174c647fcce5404142c3c7feba7dd7370eb4df005ea3"
+    },
+    {
+      "file": "MDXUSDT-1d-2022-07.zip",
+      "sha256": "0266871baf6367743d2c4d37cab0055eea9c1c8b5c5e8b52cfaea71a081cd395"
+    },
+    {
+      "file": "MDXUSDT-1d-2022-08.zip",
+      "sha256": "ad2afe159a740d2c43173c01e6fd0203e33df1887513730bdb653ba273c5dc1f"
+    },
+    {
+      "file": "MDXUSDT-1d-2022-09.zip",
+      "sha256": "fe13b00bf0ed58d19734c260f84a91d321677f900ba6238a6243ffa401993a15"
+    },
+    {
+      "file": "MDXUSDT-1d-2022-10.zip",
+      "sha256": "1b6307a3929892f31faf599b4201e9ba8f781d62a6b4c18ad541fc54ab3684ed"
+    },
+    {
+      "file": "MDXUSDT-1d-2022-11.zip",
+      "sha256": "1140207415af1991715aa1f94b8df7b6d23496ab969630b1229af045e9bb0421"
+    },
+    {
+      "file": "MDXUSDT-1d-2022-12.zip",
+      "sha256": "b9b58861b98952786b314bc70da1ba350b2ae6e3871f0e5f249cf599ab5bbc7d"
+    },
+    {
+      "file": "MDXUSDT-1d-2023-01.zip",
+      "sha256": "8df5cb2083f7948c5abe2f04866bed40f9c8bbec2748355de5882bf999438001"
+    },
+    {
+      "file": "MDXUSDT-1d-2023-02.zip",
+      "sha256": "4438efe7b164858a10269ccb2e92311c6d94ee9b34ddb157bd657dbc6962e631"
+    },
+    {
+      "file": "MDXUSDT-1d-2023-03.zip",
+      "sha256": "692bc4bb3ce2a4421df7ed2430394119fe1c8725747cd4ad42eee214c09d2846"
+    },
+    {
+      "file": "MDXUSDT-1d-2023-04.zip",
+      "sha256": "df7b272745effed81320fe25134ff4c26f38cbbc92646e21782ec69b8931975b"
+    },
+    {
+      "file": "MDXUSDT-1d-2023-05.zip",
+      "sha256": "d89a5c360d6809cbf927b2486791deb0909a341029c6e77f30c1690f5e0078f2"
+    },
+    {
+      "file": "MDXUSDT-1d-2023-06.zip",
+      "sha256": "50ab01a7a959c0363eacd2bc0440768ca22be64547563d9606d407f4d8476449"
+    },
+    {
+      "file": "MDXUSDT-1d-2023-07.zip",
+      "sha256": "841a046fbe69a889c848addfc6b6ed7c2ff7904a2b93be74d9a635b38f5b1082"
+    },
+    {
+      "file": "MDXUSDT-1d-2023-08.zip",
+      "sha256": "9f889d0c8103bfc81165858476b9f7c74e14e97ca932b4446211fd2ed9ae3405"
+    },
+    {
+      "file": "MDXUSDT-1d-2023-09.zip",
+      "sha256": "2e586df4bbb38c5ef8286ef0818d41116d0d3f99e80269beeddc1df45fe53f47"
+    },
+    {
+      "file": "MDXUSDT-1d-2023-10.zip",
+      "sha256": "d9fbdc9897aea4923ac4fb448c0ff019b422a8b827d5b7b1877f8ddfa00f7cf0"
+    },
+    {
+      "file": "MDXUSDT-1d-2023-11.zip",
+      "sha256": "db0a63d08f566e5b17177e2f516fa4dfe1c18c84c3d1742d85b6ef5c6440c2f6"
+    },
+    {
+      "file": "MDXUSDT-1d-2023-12.zip",
+      "sha256": "91f1b9c81431749a62985f18a6f4a2163d420b60a68b4bfe0430d322c16349a5"
+    },
+    {
+      "file": "MDXUSDT-1d-2024-01.zip",
+      "sha256": "1c35254a12445682e0f87c24ece134c91f04e53f576589e5348456fa46481d41"
+    },
+    {
+      "file": "MDXUSDT-1d-2024-02.zip",
+      "sha256": "16af804b179c62fb2cfdcb96b359d0836f2a5aed7e7c75779cca44b8ecdb59db"
+    },
+    {
+      "file": "MDXUSDT-1d-2024-03.zip",
+      "sha256": "12a76a0fa68f5acae0f43d9f90135c08dc4d3002b45dc3f939267e7752fb5f66"
+    },
+    {
+      "file": "MDXUSDT-1d-2024-04.zip",
+      "sha256": "7f1e7f2a06548ae12a9a98bfad47d525f61b88f9c28f83b657cef230cbac7e27"
+    },
+    {
+      "file": "MDXUSDT-1d-2024-05.zip",
+      "sha256": "94b5f185e3af21825a73f43b9ea504dc36d36ed434989b6c68060e56517066b2"
+    },
+    {
+      "file": "MDXUSDT-1d-2024-06.zip",
+      "sha256": "50a3c68d97cea417ff06f9fed8bd1ece8bfb1758fbb1144d04745b680af3b592"
+    },
+    {
+      "file": "MDXUSDT-1d-2024-07.zip",
+      "sha256": "09b52cc40c7d189f82c0bb23a8c91750fcdbd934f030da480f411e6f45c3bfd1"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

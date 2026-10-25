@@ -1,0 +1,217 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/POLYXUSDT/1d/",
+  "instrument": "POLYXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-10-17",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:55+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1445,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "POLYXUSDT-1d-2022-10.zip",
+      "sha256": "22c5323c8af310b1f2ef25fdcbd518e0906862cfa34e451c5265bd08ae61ce61"
+    },
+    {
+      "file": "POLYXUSDT-1d-2022-11.zip",
+      "sha256": "0b86e7df5c2c1810dffd24ab1eb28ed530d809e903556cd474a46dfa8e3402bf"
+    },
+    {
+      "file": "POLYXUSDT-1d-2022-12.zip",
+      "sha256": "89f8fb5860be3541f9cbae56dab19c2030fe87e615fa02f97318888a274ed2dc"
+    },
+    {
+      "file": "POLYXUSDT-1d-2023-01.zip",
+      "sha256": "ac94f988088e6bd94e8512fb61fa78b22e03b5b59d00f7f7c99840cb9c477021"
+    },
+    {
+      "file": "POLYXUSDT-1d-2023-02.zip",
+      "sha256": "0c9508e6c0675ad29e33f297ccafd75523676e2704fc1e4b75bc62b683c45276"
+    },
+    {
+      "file": "POLYXUSDT-1d-2023-03.zip",
+      "sha256": "0eeb5180c112c4368aab4e27d78b618994b104687171f4ce3d9ea2d9463c45e7"
+    },
+    {
+      "file": "POLYXUSDT-1d-2023-04.zip",
+      "sha256": "cbacc89f51afff4259ff03432161cf5b035261d33168063f5c14813171be76b2"
+    },
+    {
+      "file": "POLYXUSDT-1d-2023-05.zip",
+      "sha256": "3a9b6b1b7119bc9f739500375db526f7449df923c17711d7b66c8d59ab32078c"
+    },
+    {
+      "file": "POLYXUSDT-1d-2023-06.zip",
+      "sha256": "96de77739ee1122fa943f067658150caadb10bc41337e243f9168a52ecce231d"
+    },
+    {
+      "file": "POLYXUSDT-1d-2023-07.zip",
+      "sha256": "85e84993f00d6c6e89dc05d23efc43a3b2f5df57fdc41691455f4f490e84ee5d"
+    },
+    {
+      "file": "POLYXUSDT-1d-2023-08.zip",
+      "sha256": "bee15673a254fd2afef270319010bc400b0a28cae71aaac26a6e38450a91cd5e"
+    },
+    {
+      "file": "POLYXUSDT-1d-2023-09.zip",
+      "sha256": "1cbb03a1ddd12c978e32c65f42e31be9ba965f2d177d342ad09712b27f3aab08"
+    },
+    {
+      "file": "POLYXUSDT-1d-2023-10.zip",
+      "sha256": "6cc0588a49bb305e47caee68ee3fde3876470f251a137b7d89aa92386602e656"
+    },
+    {
+      "file": "POLYXUSDT-1d-2023-11.zip",
+      "sha256": "3e1ab69bb67ae238ba4ed07f73998a670b4048fad1f60e605e0f5629eb777879"
+    },
+    {
+      "file": "POLYXUSDT-1d-2023-12.zip",
+      "sha256": "52276cbf848117103a15a03cb7c7b21d3f8ffe08e962bb6e57abe3bca4364c20"
+    },
+    {
+      "file": "POLYXUSDT-1d-2024-01.zip",
+      "sha256": "904c7b8516769d6e901a03b0a6ac717452370637b736a6e0378cb2ce7f520b60"
+    },
+    {
+      "file": "POLYXUSDT-1d-2024-02.zip",
+      "sha256": "1755fc295fc7bd0f31f061c62d7a219bc8bea84c4d4ddb1bb91901b893ff84d5"
+    },
+    {
+      "file": "POLYXUSDT-1d-2024-03.zip",
+      "sha256": "eb032a74472ca4ec8ffddacef70b9a98aeaa9ae7424b89e0a236645341b09ff7"
+    },
+    {
+      "file": "POLYXUSDT-1d-2024-04.zip",
+      "sha256": "f575a69b78635a26965bb8fbcf67b78cdfda89357b6a01a7848dff5ec991e6a2"
+    },
+    {
+      "file": "POLYXUSDT-1d-2024-05.zip",
+      "sha256": "e5bf88a2ab290c6949176284baab54fd8dec7c9b901d3a0ed42bd2ffed8f31bf"
+    },
+    {
+      "file": "POLYXUSDT-1d-2024-06.zip",
+      "sha256": "66aa15f10694b015696f0ef3cebd92dbcd02c5a1a7d4ae08a45fcf0782367433"
+    },
+    {
+      "file": "POLYXUSDT-1d-2024-07.zip",
+      "sha256": "9f3f8343de69e93cd8206746b55f9959c26da31b9287505ac8b99ffab38a662e"
+    },
+    {
+      "file": "POLYXUSDT-1d-2024-08.zip",
+      "sha256": "c5c87eee5b3559239f0f182cb0f8a39da3ae944703c6234178faf9cfc331453a"
+    },
+    {
+      "file": "POLYXUSDT-1d-2024-09.zip",
+      "sha256": "c504a677b6fc8513b73f84d935a2111fd5bdca1febdadea56519f78fede97aef"
+    },
+    {
+      "file": "POLYXUSDT-1d-2024-10.zip",
+      "sha256": "77bf269fb281519c7a445caf75ff28b50f34f75f3ba847fa876901e00e1659a2"
+    },
+    {
+      "file": "POLYXUSDT-1d-2024-11.zip",
+      "sha256": "decf72899af78849f14fda809acc55c59d766361f501ffc9b69be3a65b844840"
+    },
+    {
+      "file": "POLYXUSDT-1d-2024-12.zip",
+      "sha256": "305e35e0e8fab48c4b375fa8e4f56f4a592e43f0508f478d1d8dfcbf5b056288"
+    },
+    {
+      "file": "POLYXUSDT-1d-2025-01.zip",
+      "sha256": "b1c1d5247218004115930f84b0d83c35468d2c04192fdf847a4b63effa74f4f7"
+    },
+    {
+      "file": "POLYXUSDT-1d-2025-02.zip",
+      "sha256": "93523635667f361f1ac992723c2cad080b0e54959e8b9dbb731be36bff22e7a7"
+    },
+    {
+      "file": "POLYXUSDT-1d-2025-03.zip",
+      "sha256": "1f54b7385ee13fea1dc9c59288d5b8908aca8a0ec932ba3d51a4596e6f72cc66"
+    },
+    {
+      "file": "POLYXUSDT-1d-2025-04.zip",
+      "sha256": "80e45c6afda43d9fcc7c8a972e92a9735d6dc0bdec14f8318d90fa95cc4855a3"
+    },
+    {
+      "file": "POLYXUSDT-1d-2025-05.zip",
+      "sha256": "05fa915072e684d60cb54f37279265a624b5a9e7e8ff62a2d11100417d01b0cb"
+    },
+    {
+      "file": "POLYXUSDT-1d-2025-06.zip",
+      "sha256": "2fc74056461f3fc621043563859733fadf17713b6ec19352c7a90e1bbd8f58c6"
+    },
+    {
+      "file": "POLYXUSDT-1d-2025-07.zip",
+      "sha256": "762648c909320984049c250ad807a8835c952e59a4f00db4a5dfee3706da0ac3"
+    },
+    {
+      "file": "POLYXUSDT-1d-2025-08.zip",
+      "sha256": "db3d270be997feb2f0868f64a37af56b989408d7879265a57a55da1e4b935a7b"
+    },
+    {
+      "file": "POLYXUSDT-1d-2025-09.zip",
+      "sha256": "82f0022bcbf91214e021f849109b1245103c02c4e7eb933ddc00b41652e48cbc"
+    },
+    {
+      "file": "POLYXUSDT-1d-2025-10.zip",
+      "sha256": "3202f04b53ee5e19fc514b1eab1e1100d201f39b5b4bc9267ec28a89fb2e6cfa"
+    },
+    {
+      "file": "POLYXUSDT-1d-2025-11.zip",
+      "sha256": "126b1dc5712bbec1baf069f9a434060ad841de74dca8f0ae9b41dc72a53dc333"
+    },
+    {
+      "file": "POLYXUSDT-1d-2025-12.zip",
+      "sha256": "953844ca8ccc0b49f5c1806714d154624b5a81223b38970c54b8043db54f90f5"
+    },
+    {
+      "file": "POLYXUSDT-1d-2026-01.zip",
+      "sha256": "42756f272d3d6b4dbcda7380123cd0c4779d696ee157392dfe1bfaadb069a72e"
+    },
+    {
+      "file": "POLYXUSDT-1d-2026-02.zip",
+      "sha256": "38872c6bda221140c1fa6fe75b8544790e92a290105def05059c2fea5d6e23ee"
+    },
+    {
+      "file": "POLYXUSDT-1d-2026-03.zip",
+      "sha256": "e60d8d097dc5fba308242123c25fb1b4cfe568bb7ed14ab4d2d49e433b831e90"
+    },
+    {
+      "file": "POLYXUSDT-1d-2026-04.zip",
+      "sha256": "dcd3f73792b8ce93442e15990292112a707168b1e126b6072635ad1013bec1d2"
+    },
+    {
+      "file": "POLYXUSDT-1d-2026-05.zip",
+      "sha256": "cbdfa2cab5cf3a1a68e821519618401e672863dc593835d573f0fc0efb32ae4d"
+    },
+    {
+      "file": "POLYXUSDT-1d-2026-06.zip",
+      "sha256": "305396fa201587c2f088b3fb697339a211295e0f3802b92f32913d783f345879"
+    },
+    {
+      "file": "POLYXUSDT-1d-2026-07.zip",
+      "sha256": "317444f501637254bab82301b919b744468198cc1a981fc29f28f5e82edc666f"
+    },
+    {
+      "file": "POLYXUSDT-1d-2026-08.zip",
+      "sha256": "2c03a39ec74caefd80c8505e55ddceafc9b295e4ddfc985a022c48794fa94fd1"
+    },
+    {
+      "file": "POLYXUSDT-1d-2026-09.zip",
+      "sha256": "5bd193e33a272923109d69d22e8eb0e05adf16d6c6a724dff9c3a9569ee6a858"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

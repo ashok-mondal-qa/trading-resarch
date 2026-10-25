@@ -1,0 +1,257 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BICOUSDT/1d/",
+  "instrument": "BICOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-12-09",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:28:19+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1757,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BICOUSDT-1d-2021-12.zip",
+      "sha256": "746ce10f6c53de8c7b0750e8f845cc2f71a1e60c495caace1a174c3f85f27946"
+    },
+    {
+      "file": "BICOUSDT-1d-2022-01.zip",
+      "sha256": "d88f614c6b730999af827a1e198b5d009adf96520930cbe1e884f7ff012d4a50"
+    },
+    {
+      "file": "BICOUSDT-1d-2022-02.zip",
+      "sha256": "b1c377fe94693003418fef90d67e38f83bfbae0b5ba3940d3db0a411e8e3b740"
+    },
+    {
+      "file": "BICOUSDT-1d-2022-03.zip",
+      "sha256": "f6010d45e3a5ea61d606e195d8aaca3e0ac423858ae385cbfb6e473084d1d60b"
+    },
+    {
+      "file": "BICOUSDT-1d-2022-04.zip",
+      "sha256": "01b3417ab8feafb414c85d81d6538d8bf358ade036d02de6f00582d20e03cb5f"
+    },
+    {
+      "file": "BICOUSDT-1d-2022-05.zip",
+      "sha256": "9a8a91436712675247406811733a7d80f18f0a23129a323ed8a0fec202c8c522"
+    },
+    {
+      "file": "BICOUSDT-1d-2022-06.zip",
+      "sha256": "ade82e78e1e812d272430d99fa8677bf2077872203e383f64632a1ce01212706"
+    },
+    {
+      "file": "BICOUSDT-1d-2022-07.zip",
+      "sha256": "748c3b0eb2fe0042fe2f0b1d72d91b245bae25a20ad803be446ee9ac108e31a4"
+    },
+    {
+      "file": "BICOUSDT-1d-2022-08.zip",
+      "sha256": "da9ca904552d5aac48db6dfd6b5b7d66ac60c9db80ea0382b477e3b5ed06a1f9"
+    },
+    {
+      "file": "BICOUSDT-1d-2022-09.zip",
+      "sha256": "d482e17f6012b067fd1754f54afb9cef8cebc43892285ca22a8bfaea2c682878"
+    },
+    {
+      "file": "BICOUSDT-1d-2022-10.zip",
+      "sha256": "21ea653371fcfa30e54b50e8664bcc50fbb6613892df99a1334fd6e506c2013e"
+    },
+    {
+      "file": "BICOUSDT-1d-2022-11.zip",
+      "sha256": "4f769b1ebc72c817d9177690f6bc781ebea0b4b3420794b2e1f42f014b0a7739"
+    },
+    {
+      "file": "BICOUSDT-1d-2022-12.zip",
+      "sha256": "9f2d3db05d3f48d228220cb838829b3e9f9f5332f36b77cbc4e118fbf2a69d55"
+    },
+    {
+      "file": "BICOUSDT-1d-2023-01.zip",
+      "sha256": "bf27ba3f69b6d2ec640fb16c4123e5e94296e8807bfa7771f623fab94dca3817"
+    },
+    {
+      "file": "BICOUSDT-1d-2023-02.zip",
+      "sha256": "302227cf05c8f5aecfa8d720358c317ea0e4ecf5f1ecdebde832481bc39c165b"
+    },
+    {
+      "file": "BICOUSDT-1d-2023-03.zip",
+      "sha256": "7bae071be6d872d304c89283724aef97e56faffe7947acf28d0c3d9b804bbdbd"
+    },
+    {
+      "file": "BICOUSDT-1d-2023-04.zip",
+      "sha256": "77eb8db2739610b5c9cb1f00be1ae6a15e51c9d1e10f04313a20307b0f4122d5"
+    },
+    {
+      "file": "BICOUSDT-1d-2023-05.zip",
+      "sha256": "9225a6a0278b8bdb59349a7f7cda9dd7b87940668673cd7f911520e2fecee3b9"
+    },
+    {
+      "file": "BICOUSDT-1d-2023-06.zip",
+      "sha256": "631dfb6135aad216976a98aa3b6602a6ecb3e0a0a0cd8dc6a0c3a5e6b98465b0"
+    },
+    {
+      "file": "BICOUSDT-1d-2023-07.zip",
+      "sha256": "1916dfd2f9848f8a4acde0c856dcf1e55af57376df6eaadc36df96989606759c"
+    },
+    {
+      "file": "BICOUSDT-1d-2023-08.zip",
+      "sha256": "e5e53bef6e3684c73c5598075acb5111b8288094ea647aa84bcf334d4529a0e2"
+    },
+    {
+      "file": "BICOUSDT-1d-2023-09.zip",
+      "sha256": "e600dd9b2237b60cefc0a80e01c655a22fde3096c793ef7cc99c17410f3de2f1"
+    },
+    {
+      "file": "BICOUSDT-1d-2023-10.zip",
+      "sha256": "ff182953529f8683da8d7c32e841f5c74c70d0714ccf34a6ad4fc147ce0da9e1"
+    },
+    {
+      "file": "BICOUSDT-1d-2023-11.zip",
+      "sha256": "0c4fe72ba718ebbace1cb390435b0cb43726c4adfac8c5b912dc7430ed6446da"
+    },
+    {
+      "file": "BICOUSDT-1d-2023-12.zip",
+      "sha256": "634dc353777bcfa21995c6171f5b973e0c98ff60919f40861c17f41b9ad10891"
+    },
+    {
+      "file": "BICOUSDT-1d-2024-01.zip",
+      "sha256": "bc0c8173b1e96118d138772027f292f042372649aa6b10782446ca8013573265"
+    },
+    {
+      "file": "BICOUSDT-1d-2024-02.zip",
+      "sha256": "bff9615ad5dfabd39e890c55205a4138d4ea4c230e68fd8dd06b620736513588"
+    },
+    {
+      "file": "BICOUSDT-1d-2024-03.zip",
+      "sha256": "2af42dea0343de3c1502789b801c3c611d456a68fda3edd2a1bca64fd947b2cf"
+    },
+    {
+      "file": "BICOUSDT-1d-2024-04.zip",
+      "sha256": "449ee410024d5554702fd0231da0f5c2aa2f4d76107ef905b1bdae27ba14d144"
+    },
+    {
+      "file": "BICOUSDT-1d-2024-05.zip",
+      "sha256": "df0ede6c6fb01627a942dd0235a078a94e973d784f6c83eb05e3b38356d10084"
+    },
+    {
+      "file": "BICOUSDT-1d-2024-06.zip",
+      "sha256": "c6d0ec04f63414902e9f025c0d48855b674f4f9f40fe9640bcd47e97918ab6d9"
+    },
+    {
+      "file": "BICOUSDT-1d-2024-07.zip",
+      "sha256": "864bf0daa0893eaa2f3899bad9c3a26338e755ba59688f17a14cb14219ae246e"
+    },
+    {
+      "file": "BICOUSDT-1d-2024-08.zip",
+      "sha256": "2c46b6201ccc499ae2dc095bd904a4f59a7ed14c42932bc73fe9cb567df25234"
+    },
+    {
+      "file": "BICOUSDT-1d-2024-09.zip",
+      "sha256": "7864f566be647c4f704c9840868cee0cbc192ae3e2dd4e62fedf213dccd106d5"
+    },
+    {
+      "file": "BICOUSDT-1d-2024-10.zip",
+      "sha256": "53291989d537245cb241f80ff2f66ad2f394a6c2f31667cc97821d63ce4dd8c0"
+    },
+    {
+      "file": "BICOUSDT-1d-2024-11.zip",
+      "sha256": "108daf71d282b230069f9019d68ed995bb638f7d18e8dcf94c69b99612d78436"
+    },
+    {
+      "file": "BICOUSDT-1d-2024-12.zip",
+      "sha256": "ded92a2a71c5665bd22fbcf055a6d9e1dd75777323018f9bbefb3c4e086d360e"
+    },
+    {
+      "file": "BICOUSDT-1d-2025-01.zip",
+      "sha256": "b81df333f14e822155bf7b70f029940e765238d17810dc915e5c12510551b615"
+    },
+    {
+      "file": "BICOUSDT-1d-2025-02.zip",
+      "sha256": "dbdbf8906a81c8f7e8e42633e129361b09ed31b0fc3a24c99c866a82a460ad42"
+    },
+    {
+      "file": "BICOUSDT-1d-2025-03.zip",
+      "sha256": "0cf54d1b8709525d23b74556b9ffe5e3cedfbaf91b4d96a9ad0f038c1a5e4dca"
+    },
+    {
+      "file": "BICOUSDT-1d-2025-04.zip",
+      "sha256": "c0ea4c70c928951cb33fe7b75c1e3617db603e4c42e5baf6f7abaac60a4b87b2"
+    },
+    {
+      "file": "BICOUSDT-1d-2025-05.zip",
+      "sha256": "614921b3e8d17d86e02dc3895716be20abc7bb3fe696551e0f9765767ecfe203"
+    },
+    {
+      "file": "BICOUSDT-1d-2025-06.zip",
+      "sha256": "92d0a3fa3aaae5d0a740350f201de8ea91d2005935df61bfef00a3a0d53cd345"
+    },
+    {
+      "file": "BICOUSDT-1d-2025-07.zip",
+      "sha256": "35a229ee2111f2fa566dd432dd77b7ddaa929e0cbe3ce54b1bf69c352571e730"
+    },
+    {
+      "file": "BICOUSDT-1d-2025-08.zip",
+      "sha256": "2bd8ede19c377463bd52a199c1cc959051beba474dcf3ac02b05534eda9385c3"
+    },
+    {
+      "file": "BICOUSDT-1d-2025-09.zip",
+      "sha256": "16523958abad3fb2e43490ad86304b08e72c5733dc5baa51591fdb481121f862"
+    },
+    {
+      "file": "BICOUSDT-1d-2025-10.zip",
+      "sha256": "90a541b6a50eb436be9adc60c9e819a602281c2e45dd1082451f72c403443bd1"
+    },
+    {
+      "file": "BICOUSDT-1d-2025-11.zip",
+      "sha256": "78b4c1e673d8ae35816bf035c3d51befa348476c30b1bfac07d69a8c9f9a0f60"
+    },
+    {
+      "file": "BICOUSDT-1d-2025-12.zip",
+      "sha256": "eb30f7a6a2ad67c7ea1f826af217b9df85c2b49329ae95768ef69a2f71467205"
+    },
+    {
+      "file": "BICOUSDT-1d-2026-01.zip",
+      "sha256": "f22eee6c031a6079980faba90582cf177dcd2b98e83cde9dee7d11c91fa1b928"
+    },
+    {
+      "file": "BICOUSDT-1d-2026-02.zip",
+      "sha256": "54d51cc5aef593159e150defab156ef1346bcb2b8c93381a4fd7b04b8703e2f8"
+    },
+    {
+      "file": "BICOUSDT-1d-2026-03.zip",
+      "sha256": "0298bf627bd3b82808c2fd52a5f24091f21b231f65421984ccf5de0f73780ef3"
+    },
+    {
+      "file": "BICOUSDT-1d-2026-04.zip",
+      "sha256": "6e17b7a0c0d8c357165f416113fa7b8db2668b6973dda65054788ae3f2dd93f1"
+    },
+    {
+      "file": "BICOUSDT-1d-2026-05.zip",
+      "sha256": "39e20723cc60e4cb6e73cbee4ed0e9c6d663be9e098ac840c922ae8cdea90fe5"
+    },
+    {
+      "file": "BICOUSDT-1d-2026-06.zip",
+      "sha256": "a47f8d08342c9ca24ef54465edd11a73a741fa2d74b404844968e09d4c632772"
+    },
+    {
+      "file": "BICOUSDT-1d-2026-07.zip",
+      "sha256": "dab44873a3a7c2f48d5d77387caca9af31213627715a7b19b8b032ffd29d73e0"
+    },
+    {
+      "file": "BICOUSDT-1d-2026-08.zip",
+      "sha256": "dd93a66c206ca2e6f5c704b2727bd9f579b71b83abf34a4bb57a37f165d8f602"
+    },
+    {
+      "file": "BICOUSDT-1d-2026-09.zip",
+      "sha256": "a097de43a22409a4afd17dc24cba45ca97fd39f06c50a08ffc00e3a25d06b7fd"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

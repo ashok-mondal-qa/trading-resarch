@@ -1,0 +1,125 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/HMSTRUSDT/1d/",
+  "instrument": "HMSTRUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-09-26",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:35:12+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 735,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "HMSTRUSDT-1d-2024-09.zip",
+      "sha256": "5ea9d887475f9fbab516ae887e77f2b0b429f2e36a7c8ebd0620b84d519b7fe9"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2024-10.zip",
+      "sha256": "264c10796d71e8d8d409ef0f37a4373f0a97dd4560ddeaeab0daa7a8bb1341e6"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2024-11.zip",
+      "sha256": "f408960714b74205c9bc8314cc249d645ac3f331e0c6ba3901f27ae37704d2c5"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2024-12.zip",
+      "sha256": "d04f153baf563524b89cd6dedc6f99ffab9258c155bedba8af2f4bb6bbc46fd5"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2025-01.zip",
+      "sha256": "96439622e1839f94ca0c23f7ef401412148c9debd8e83a8f8662e80df6043e4a"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2025-02.zip",
+      "sha256": "cdf950185b1e34fd2a628e8436f39f696326d6b76fe77a888b232779665801d4"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2025-03.zip",
+      "sha256": "f8659ed9d116300915efd54e0ab3ddc72d2decc92f2f52804280de8713d5bc93"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2025-04.zip",
+      "sha256": "18f2bddec46d468ed9d4718ff623242594684dce261b87756cda3324d3752036"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2025-05.zip",
+      "sha256": "bf04729f3988b94e09d596b5916ab036bd6e2e2f1115651692ce736046446b09"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2025-06.zip",
+      "sha256": "581e4ee6636f719915d3fbcca1593457fbaff73d4358d9877f304b9893d1081c"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2025-07.zip",
+      "sha256": "96305662ffa0d1c92b337e0452c37eb1a5dc67cf7a6d312b86ef51b0e8eda8a5"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2025-08.zip",
+      "sha256": "cd9472793e0ae60f040ccb39e4de9933034c03182977c13e6341109f6d7cc128"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2025-09.zip",
+      "sha256": "3f3ba4512e3e0a0ee667e296bbbf4db048f1567b8ba63bd4e32874d814802b4a"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2025-10.zip",
+      "sha256": "6527d8b025d1dd03db215fa843f220745ecc0ec30b8e353c9a73bc42e7e2b8e2"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2025-11.zip",
+      "sha256": "6d4a6a98937770a1f5f1bb02cb00520670be348e6b542dae6966272b32506ddf"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2025-12.zip",
+      "sha256": "58acac3a132a84987ce457f06d4f4ba7cba9bbfa15bde13ee3019f17f515f37c"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2026-01.zip",
+      "sha256": "5b4c2ab8e1ed3d689e5604d65ce6b9bb27d7df81277116a999a17feb8a49ac71"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2026-02.zip",
+      "sha256": "9c5d10f32e373143fbd73e555c64ee5577bf5974f77abc51ad5dbabbf06884e5"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2026-03.zip",
+      "sha256": "7ea3236e3dff1f2dcb761030bc08d28ceba2387a46bd87ccb6e72e5c663a99f3"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2026-04.zip",
+      "sha256": "ac5ff0c0a7a824d9d958fa3de5a24e2f8443febc0491b089fd1c25348af8b1bc"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2026-05.zip",
+      "sha256": "e95115c2a267378d1c2c4f393f0c1558c0a111c62d01dd6a1d7669fdcf1cc2f1"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2026-06.zip",
+      "sha256": "1df13a7d6e98d7703b35a2e7263a91853cc8d42f961b91c6bb47c12b0f6e0abd"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2026-07.zip",
+      "sha256": "da5c377ec7cf0b88a765bb5a32a000ad6c1144dee19b66d4ec64be06330bbe04"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2026-08.zip",
+      "sha256": "bf02c301e13fde72a28064e9bd59c3ad975de74cb05f8fc6017668b63f951269"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2026-09.zip",
+      "sha256": "13022b97636a0bc20d38a5fe00f8e1d8e7e56636c99e4ef2f8b3429834f981e5"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

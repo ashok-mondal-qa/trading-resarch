@@ -1,0 +1,289 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MATICUSDT/1d/",
+  "instrument": "MATICUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-04-26",
+  "last_bar": "2024-09-10",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:21+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1965,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MATICUSDT-1d-2019-04.zip",
+      "sha256": "d829235a0f34f295963da844cfc472fbbcd6d2f1696b8a40e5832955dd1589a2"
+    },
+    {
+      "file": "MATICUSDT-1d-2019-05.zip",
+      "sha256": "eb22b4235f413cd95dcd9b9d45e9fe50186f3f2c1083f0c354fea33cf87682b4"
+    },
+    {
+      "file": "MATICUSDT-1d-2019-06.zip",
+      "sha256": "a523a9cccd4f0ba4c86a216ef44b052370c842caed980f028d8e146e2704815e"
+    },
+    {
+      "file": "MATICUSDT-1d-2019-07.zip",
+      "sha256": "33897ecf79b72be8b57fe990eced15e9e2d3829b25a2239b5fb9fde51f1882b9"
+    },
+    {
+      "file": "MATICUSDT-1d-2019-08.zip",
+      "sha256": "ba5b34a4afb689733202dfbc1a6fecbe834d7d77ee21d87060704b4e7200c07c"
+    },
+    {
+      "file": "MATICUSDT-1d-2019-09.zip",
+      "sha256": "1a83e9d323fbbcbbc82c59d0b14de909c326c20b9b8790549136327e18b97224"
+    },
+    {
+      "file": "MATICUSDT-1d-2019-10.zip",
+      "sha256": "1b014b52003824c1912c0f1d9728179dc0f24dcbd54d6e4a41bfceab698a8ac6"
+    },
+    {
+      "file": "MATICUSDT-1d-2019-11.zip",
+      "sha256": "18ae7c3030fe82cfeda0a912c3939512750bafb8a599340f10567d9e91371ac9"
+    },
+    {
+      "file": "MATICUSDT-1d-2019-12.zip",
+      "sha256": "1d7c31edf60cff41820f032284e4f65c0391108b0d785210d644e9a3cab8932a"
+    },
+    {
+      "file": "MATICUSDT-1d-2020-01.zip",
+      "sha256": "4d2e91797ef195f1089424a2f8a99bc1bde1f87f99ce05d1f69abf0165b4615c"
+    },
+    {
+      "file": "MATICUSDT-1d-2020-02.zip",
+      "sha256": "194feee9c62f1acd3328d8cafbb46a17fb30567930d3e28d43120059b4986cd2"
+    },
+    {
+      "file": "MATICUSDT-1d-2020-03.zip",
+      "sha256": "7008a119cd70561b2243ebb17dc34bb65c67fdf789f529a2a21dfbfc5b4d683a"
+    },
+    {
+      "file": "MATICUSDT-1d-2020-04.zip",
+      "sha256": "ca743f42fb7da02ecb34e0744c1a64f0caebfe26944810b7d836d8caf6a7c5e2"
+    },
+    {
+      "file": "MATICUSDT-1d-2020-05.zip",
+      "sha256": "48d3fdb0844a4e56944736f3aec76f804a3b4cb4701b5ecaa0b9b4daa27cfc3b"
+    },
+    {
+      "file": "MATICUSDT-1d-2020-06.zip",
+      "sha256": "6e0568210b5b5d93ff961c0a7bce91a2d23d830678611ebf3c93e08a2129d5cb"
+    },
+    {
+      "file": "MATICUSDT-1d-2020-07.zip",
+      "sha256": "5df5c0f877128ed5de693bb750fcb012955eee9693fa3b58e77bc3f14026637a"
+    },
+    {
+      "file": "MATICUSDT-1d-2020-08.zip",
+      "sha256": "81dafbfdcebd5d6764562ee4978c5aa3b1b4864e844ee6058e0d9792b62b50dd"
+    },
+    {
+      "file": "MATICUSDT-1d-2020-09.zip",
+      "sha256": "f5772a706164357cc7ee93b53da4755961d4d30d5e91a6a137a32079116cf0d5"
+    },
+    {
+      "file": "MATICUSDT-1d-2020-10.zip",
+      "sha256": "1083cc648c0b0a11d2cc6725d3ed19cedfdf19f53ff7f12241f9be06524920c0"
+    },
+    {
+      "file": "MATICUSDT-1d-2020-11.zip",
+      "sha256": "cd152d787cad0c9f42e2060edd56ecbfea79db6105f2629348e3058654bb5a61"
+    },
+    {
+      "file": "MATICUSDT-1d-2020-12.zip",
+      "sha256": "ae772222ac605581634f71e09178598394bfeb4aea435239af75710aaa0c13d6"
+    },
+    {
+      "file": "MATICUSDT-1d-2021-01.zip",
+      "sha256": "7c80756b045eaa08e73ffc9a0d52e3243075490e68d4cc1e3a98edba5b715117"
+    },
+    {
+      "file": "MATICUSDT-1d-2021-02.zip",
+      "sha256": "fbe72b0f4a6e1d78a7c23cc84d2107e464ac88891df647bebcf8b91b1f264c15"
+    },
+    {
+      "file": "MATICUSDT-1d-2021-03.zip",
+      "sha256": "d0655b18d93a6deae852b82ad56dca7c98388bc63ac4938b17b1260ea0f59b25"
+    },
+    {
+      "file": "MATICUSDT-1d-2021-04.zip",
+      "sha256": "88c49736e05346cb371352713416a96ecac115112ad02c2c3dc67aa802f1f0ad"
+    },
+    {
+      "file": "MATICUSDT-1d-2021-05.zip",
+      "sha256": "545b0a633378c86b3ea73a5b761d43968eeef93005b87ea2ffb3b6604f77c8c0"
+    },
+    {
+      "file": "MATICUSDT-1d-2021-06.zip",
+      "sha256": "0955864ffc237aefe73a6b19706f421104803b43fc7822ac55bae568d977b677"
+    },
+    {
+      "file": "MATICUSDT-1d-2021-07.zip",
+      "sha256": "f628b038134e23f1fdf3cb48c6960ab66cc6752c0ec1bba86998c9ff60c535d6"
+    },
+    {
+      "file": "MATICUSDT-1d-2021-08.zip",
+      "sha256": "e94f06dca129ddcbbec38a0e3b44b4b6e5df2a5a227cb48d45a28669e8c1b4e6"
+    },
+    {
+      "file": "MATICUSDT-1d-2021-09.zip",
+      "sha256": "5371a8ece00991dabf56b3aba21a1e1300efb145f3176f7bd33c82103e2e6a0f"
+    },
+    {
+      "file": "MATICUSDT-1d-2021-10.zip",
+      "sha256": "6835a6cad1f41da303c78561dd0025a30c6ca728a3e185609aef88dd10eaf490"
+    },
+    {
+      "file": "MATICUSDT-1d-2021-11.zip",
+      "sha256": "0c2c852c46f832f566683c9f0f4415b034aed5400dae492f66674c700d895d9e"
+    },
+    {
+      "file": "MATICUSDT-1d-2021-12.zip",
+      "sha256": "a5eb82ff14fc5c638c35bb716663ef7171a5e8baaa6157036d6ea1bc441a5c4f"
+    },
+    {
+      "file": "MATICUSDT-1d-2022-01.zip",
+      "sha256": "f509f3c54970b7a5bedd7447cc79e73038287b4068bab8bda039dadca7dbaf29"
+    },
+    {
+      "file": "MATICUSDT-1d-2022-02.zip",
+      "sha256": "968c63a3597d16c69a0202b68af74cd10565354c7b0c754611c34ee0f66f3316"
+    },
+    {
+      "file": "MATICUSDT-1d-2022-03.zip",
+      "sha256": "052fbbb55b79aef3b5ca4d53b4a89d973e559468d6e371c3d8822d4cf07470a4"
+    },
+    {
+      "file": "MATICUSDT-1d-2022-04.zip",
+      "sha256": "c45ad269414013d6802237e500fb1fc818c6463edaa7fd9cc2c15dee2aa0d784"
+    },
+    {
+      "file": "MATICUSDT-1d-2022-05.zip",
+      "sha256": "79554d7188bf10d51b179ae3643da87ba2ee9f86e1e9668c129149d79da562ab"
+    },
+    {
+      "file": "MATICUSDT-1d-2022-06.zip",
+      "sha256": "14265b07c7cd205e72de5a612fed19b2bc2f35f56274b96ae60c601191265e9f"
+    },
+    {
+      "file": "MATICUSDT-1d-2022-07.zip",
+      "sha256": "792d2915a6c1d96a36069127e8e8e7bdc65ee9b1b59ebdfe0ad9ea6a50ef93b0"
+    },
+    {
+      "file": "MATICUSDT-1d-2022-08.zip",
+      "sha256": "14d0b4ce71356149bd8990f118139a2408d994b6e085e6427ef473e662d65d06"
+    },
+    {
+      "file": "MATICUSDT-1d-2022-09.zip",
+      "sha256": "e81b92c25f31b11538b725deecb28ccc50f10b5f4b47fa0fed35fa44cc093d77"
+    },
+    {
+      "file": "MATICUSDT-1d-2022-10.zip",
+      "sha256": "07284a1945634a4804be576ead64db518eedd5eb88f74577557579c82f997e49"
+    },
+    {
+      "file": "MATICUSDT-1d-2022-11.zip",
+      "sha256": "82b2dc94097d0035032065d3614ba24cf432479a844be63df58fc0365c1e5fb7"
+    },
+    {
+      "file": "MATICUSDT-1d-2022-12.zip",
+      "sha256": "e5673e37e9cfad8bbb1075ac3cfe9bf8a1aa547824b21a44fdafdacd5788020f"
+    },
+    {
+      "file": "MATICUSDT-1d-2023-01.zip",
+      "sha256": "b05568dd3f6f3c5dea9e3c11c6a8484591002ffdfbfa865480727d92d448d2fd"
+    },
+    {
+      "file": "MATICUSDT-1d-2023-02.zip",
+      "sha256": "406722079b21f86761d0f74ddbbf2165c62177f9deeda02b8c2cffc0722b46cb"
+    },
+    {
+      "file": "MATICUSDT-1d-2023-03.zip",
+      "sha256": "6e056fcec51cff2776a6ea592394d2e14b0cca31fefd07a801f2d554bd76160c"
+    },
+    {
+      "file": "MATICUSDT-1d-2023-04.zip",
+      "sha256": "77333d6dd94132087594e3efe1680682047a6e042f842cb8ff9e6b30c3954b3b"
+    },
+    {
+      "file": "MATICUSDT-1d-2023-05.zip",
+      "sha256": "2c2e395365cc1285977f98d0446bfc7e76a7f518dc99a4caad118daf86914820"
+    },
+    {
+      "file": "MATICUSDT-1d-2023-06.zip",
+      "sha256": "d9f0ba223f8b73b675d07c9873cbb8c5204ffb4bd1ca06d115ddcb2d01dd799f"
+    },
+    {
+      "file": "MATICUSDT-1d-2023-07.zip",
+      "sha256": "a41ab9aeccd821a509cc48a6795612ad3f29753020138013daa231014a4af46b"
+    },
+    {
+      "file": "MATICUSDT-1d-2023-08.zip",
+      "sha256": "eb1265120eb61e6a8518250e160defedfcd14c421d499b0d550f401e99cbc4c9"
+    },
+    {
+      "file": "MATICUSDT-1d-2023-09.zip",
+      "sha256": "3af7cc369cb21c1b85b14faeb5d6d38c1e5571c9cc4c071d1dc2f072ccc4e7ee"
+    },
+    {
+      "file": "MATICUSDT-1d-2023-10.zip",
+      "sha256": "31b6b26bfdaa5f268c145df2a9edb154531c7ebf80bf8bc1b99baf3eec21a7d0"
+    },
+    {
+      "file": "MATICUSDT-1d-2023-11.zip",
+      "sha256": "58da63ae6207d631375f080e6c6082b0efbd70ca9fa723b56741834de050a2fd"
+    },
+    {
+      "file": "MATICUSDT-1d-2023-12.zip",
+      "sha256": "74be7f87e4872d3473526bebd5be473f4182aed014e8f5e5425418ad6c4f37f5"
+    },
+    {
+      "file": "MATICUSDT-1d-2024-01.zip",
+      "sha256": "a5120961870983bd1078b4fd56112ba0e449f04de4fbf2348c34f1a2a97b4952"
+    },
+    {
+      "file": "MATICUSDT-1d-2024-02.zip",
+      "sha256": "e7f8ff64dd8d19d0b4de8d7e09e0290b331c12d8e1870570c6b71d532de2c904"
+    },
+    {
+      "file": "MATICUSDT-1d-2024-03.zip",
+      "sha256": "d4def4c80b6453c942166a272761be3e3cae52990886cd76563816f2c44c84be"
+    },
+    {
+      "file": "MATICUSDT-1d-2024-04.zip",
+      "sha256": "fbbf4d483348d1e8b233871166048e8e764d342b5d72adbfc8aa8acb29832ecb"
+    },
+    {
+      "file": "MATICUSDT-1d-2024-05.zip",
+      "sha256": "9a44a59e1a83199c51c14fed71e99e003abfb0a1516db7eb30a0fa7e3f452704"
+    },
+    {
+      "file": "MATICUSDT-1d-2024-06.zip",
+      "sha256": "a4ac1ca5c17aa56a5e0fa4581cea364e1711471d7d291bfb96b189bd54fc6386"
+    },
+    {
+      "file": "MATICUSDT-1d-2024-07.zip",
+      "sha256": "ed584e00bbb62fd93bdcf5ed11f741da30f7ce2b2752f80bbc90cd0a4d439fc3"
+    },
+    {
+      "file": "MATICUSDT-1d-2024-08.zip",
+      "sha256": "8b170053a26532eaf399775d3088462376c660ca5aa8b651b0c889e1835897b2"
+    },
+    {
+      "file": "MATICUSDT-1d-2024-09.zip",
+      "sha256": "30af85df0a09e1dd6c770d75593a9d74760f949de340fbfa3c057c0ff29b11d8"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/STOUSDT/1d/",
+  "instrument": "STOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-05-02",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:45:51+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 517,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "STOUSDT-1d-2025-05.zip",
+      "sha256": "0864d780ab241fb89cf075b0879645f6f12f6460f33b28f7d3d9649219867b6f"
+    },
+    {
+      "file": "STOUSDT-1d-2025-06.zip",
+      "sha256": "b7e8953582802b7e51036a474b3d6105373241a84f2fda11320e1651ea1f2533"
+    },
+    {
+      "file": "STOUSDT-1d-2025-07.zip",
+      "sha256": "dcccda2ed833faad4339f43ef27e0ec4b6f940cf0d8812f72fccb4086b941138"
+    },
+    {
+      "file": "STOUSDT-1d-2025-08.zip",
+      "sha256": "d7bd1524eaece1fbac2079d54c7dd2d6b14400859c06fb8bca06caeb8b665eb8"
+    },
+    {
+      "file": "STOUSDT-1d-2025-09.zip",
+      "sha256": "f53264735f139d0d7bea031a63cab7851c9a1b8163b6f0417025b61711f843d1"
+    },
+    {
+      "file": "STOUSDT-1d-2025-10.zip",
+      "sha256": "8a1da133f5b26993b0fcc1d6d6d7ea910dea66a2bcf42ee6125ce9d30eb6af83"
+    },
+    {
+      "file": "STOUSDT-1d-2025-11.zip",
+      "sha256": "8b94c1ed5ea123e80bc93267c90aba34da752232d21344fe79c34274c8a97e21"
+    },
+    {
+      "file": "STOUSDT-1d-2025-12.zip",
+      "sha256": "e9f8ac6d2e1151b47c8efcaf1353ce0612801ce829eb3b44baee39fe119f841b"
+    },
+    {
+      "file": "STOUSDT-1d-2026-01.zip",
+      "sha256": "65a0d32527cedd6c081a82719302d288ce95452ae071f43ee54dbfecaa358071"
+    },
+    {
+      "file": "STOUSDT-1d-2026-02.zip",
+      "sha256": "5ca1b226124dbf09e4efbdb3a149d0fc1312edce962eddd1d6c973ea9d060403"
+    },
+    {
+      "file": "STOUSDT-1d-2026-03.zip",
+      "sha256": "fb620668c66d23a92939dd84f6b25c4085115b22be09cb36a72e17360b32cb97"
+    },
+    {
+      "file": "STOUSDT-1d-2026-04.zip",
+      "sha256": "6cf12065d59b14f0511940d4bd1601ba61cfc3c1827bd3766187c83b253b5272"
+    },
+    {
+      "file": "STOUSDT-1d-2026-05.zip",
+      "sha256": "447cfd3ccd4a4da3c03b239a515518ab8bb18f795551af58439bd773b27db106"
+    },
+    {
+      "file": "STOUSDT-1d-2026-06.zip",
+      "sha256": "459bd1b1c363c598982d813362544c2cc3b4128a19dfa40876342a3de7f4fa78"
+    },
+    {
+      "file": "STOUSDT-1d-2026-07.zip",
+      "sha256": "1080995a34b285ca53fe2d5752ba4fe50fa6a1e7e57bf52f69f62f6a5a0e92ec"
+    },
+    {
+      "file": "STOUSDT-1d-2026-08.zip",
+      "sha256": "5dd4d4a2af1587de240c40c33dad98125c171a26ddf41d8f242d416b489bf346"
+    },
+    {
+      "file": "STOUSDT-1d-2026-09.zip",
+      "sha256": "12907003cdfde2484d5147923af2d74459af9b1fdd394a2e16d191a5b40fcb84"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

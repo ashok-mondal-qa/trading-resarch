@@ -1,0 +1,101 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/FORMUSDT/1d/",
+  "instrument": "FORMUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-03-19",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:33:34+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 561,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "FORMUSDT-1d-2025-03.zip",
+      "sha256": "fe94aa007c2c45d6943daceee315e4a28a1a117785845d95bc0d22f8e2a342d5"
+    },
+    {
+      "file": "FORMUSDT-1d-2025-04.zip",
+      "sha256": "3849b9772a656fc9e11be07149b404e6859689f5886fdb550d48db6d69a3aaba"
+    },
+    {
+      "file": "FORMUSDT-1d-2025-05.zip",
+      "sha256": "6e89ed34a74f675f8deb93a381beb509c33ab89733daaea0bdf66ddff0aec235"
+    },
+    {
+      "file": "FORMUSDT-1d-2025-06.zip",
+      "sha256": "05a15f2904cfd17abc403cc56f65dd1c6a9b93c6e90a6912e1f1aa4f1338e715"
+    },
+    {
+      "file": "FORMUSDT-1d-2025-07.zip",
+      "sha256": "3a3f4341b4f4341fab8c8b58c97ce2f3b16d8d826b537ef1e15b2b7237a38eef"
+    },
+    {
+      "file": "FORMUSDT-1d-2025-08.zip",
+      "sha256": "e894fde2554872a26b8a01832492010857caaa8d0f70fa68d87d9ddf47ffa569"
+    },
+    {
+      "file": "FORMUSDT-1d-2025-09.zip",
+      "sha256": "0ddd017da8f5583886788eaaa232b566e88cc6bdfe5af1e7c5205b38b8d225e3"
+    },
+    {
+      "file": "FORMUSDT-1d-2025-10.zip",
+      "sha256": "1a55aabfb3e6edacb00ede73d7b48c5c86fcc73983c8329213f7c0d7cf2cd124"
+    },
+    {
+      "file": "FORMUSDT-1d-2025-11.zip",
+      "sha256": "4a1d62bb60906e812906952d7842c170aa84f7c6daa7962d26c5e392f602a816"
+    },
+    {
+      "file": "FORMUSDT-1d-2025-12.zip",
+      "sha256": "623765db263ab283bf1a641ca0d8aa7674ffb7b430b5da59624ddb3c25ec28ae"
+    },
+    {
+      "file": "FORMUSDT-1d-2026-01.zip",
+      "sha256": "e62c3c25e22fc5d7a6fca6fb7cc701dd06b7caa1afb542a04f1879944ea5d15a"
+    },
+    {
+      "file": "FORMUSDT-1d-2026-02.zip",
+      "sha256": "5101a6520defbc7a5b59a03b009d791ebd6d6d6ec035d10ec575e5a8d0d5cd6d"
+    },
+    {
+      "file": "FORMUSDT-1d-2026-03.zip",
+      "sha256": "b78558394940913a278686275e98cf3883188edd7b283a06a9a0476a4890e1a4"
+    },
+    {
+      "file": "FORMUSDT-1d-2026-04.zip",
+      "sha256": "bdc9452a74bc36468da1d8c439b889f23b4a3edc1d1034c38bfba87b441181dd"
+    },
+    {
+      "file": "FORMUSDT-1d-2026-05.zip",
+      "sha256": "48e9f470d63a677b8cbd7f56243929c654466590c86f0e6cc3c9a4d97245bc9f"
+    },
+    {
+      "file": "FORMUSDT-1d-2026-06.zip",
+      "sha256": "01fc33093f922a54cf44236212e342c8c03fe4d734a34761e74d9ff5cbb04a53"
+    },
+    {
+      "file": "FORMUSDT-1d-2026-07.zip",
+      "sha256": "2c8318635f1c7c4e9e51a6293f180392fb8847b8e89083561af3e45223dc7670"
+    },
+    {
+      "file": "FORMUSDT-1d-2026-08.zip",
+      "sha256": "b66a00446998a62b107e05d8293f3f31d171085f2c55c40aa73be9639c66e042"
+    },
+    {
+      "file": "FORMUSDT-1d-2026-09.zip",
+      "sha256": "81834f504a3f8dc5864868398f23b578c7346282feba5502e37d453adad56463"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

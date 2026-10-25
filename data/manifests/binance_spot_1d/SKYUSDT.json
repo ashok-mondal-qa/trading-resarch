@@ -1,0 +1,77 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SKYUSDT/1d/",
+  "instrument": "SKYUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-09-17",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:45:01+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 379,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SKYUSDT-1d-2025-09.zip",
+      "sha256": "df559ac8fe079933127180ff4618c3932917e29e268d0301a461faf039b75ad1"
+    },
+    {
+      "file": "SKYUSDT-1d-2025-10.zip",
+      "sha256": "b528348a1ef677c1ef4477b7d67c56c13622c9804b4c4bb5551400d4f39260b6"
+    },
+    {
+      "file": "SKYUSDT-1d-2025-11.zip",
+      "sha256": "98119557bd557f344cae88288bac2e38084f9893f08615ad0c2175d508af3bef"
+    },
+    {
+      "file": "SKYUSDT-1d-2025-12.zip",
+      "sha256": "290dcf094713587a151ec66be74a210f1d8ded4309e582f2fe3ce423b6468900"
+    },
+    {
+      "file": "SKYUSDT-1d-2026-01.zip",
+      "sha256": "a5629db100c54c32250a98194aa6b42d23915a6d5eb21b03f053361e1ea1d511"
+    },
+    {
+      "file": "SKYUSDT-1d-2026-02.zip",
+      "sha256": "e509084d9d11aadd2062ee7c51a6c8844459c5b2d2c4b98dcfdceea412a716c6"
+    },
+    {
+      "file": "SKYUSDT-1d-2026-03.zip",
+      "sha256": "1e420ffd06b6ed29f1a9e933f59b7652decd6b5439c10f233fc9ac7b5d1057f7"
+    },
+    {
+      "file": "SKYUSDT-1d-2026-04.zip",
+      "sha256": "13f8d9397fb2f33ec0fdf903db57aba289670aa34fa29a8d7d1cc4a0803075b4"
+    },
+    {
+      "file": "SKYUSDT-1d-2026-05.zip",
+      "sha256": "a3181df6b7a109989f0e93d47bb0b20f578d1322bf3c3b93983bb368e362aff6"
+    },
+    {
+      "file": "SKYUSDT-1d-2026-06.zip",
+      "sha256": "dc1bda7fd133ef271da66643e21dce91c9b7b34a5aa10d2a0aa919f0cd6fad62"
+    },
+    {
+      "file": "SKYUSDT-1d-2026-07.zip",
+      "sha256": "a83b54824e75c39ee0f7da6648667d7b87885160b0a9bea70d15b565663f68e7"
+    },
+    {
+      "file": "SKYUSDT-1d-2026-08.zip",
+      "sha256": "fbe33b9e2ed54dc56b9c03f93c7f1cca7ccfc7920ea12624418e8a7312865fd2"
+    },
+    {
+      "file": "SKYUSDT-1d-2026-09.zip",
+      "sha256": "25e6054d7a94237b51bbb0ae9718b6e56c7f575f0b67a0c6335f554c3919b8d6"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

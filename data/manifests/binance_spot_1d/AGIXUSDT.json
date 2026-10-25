@@ -1,0 +1,97 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/AGIXUSDT/1d/",
+  "instrument": "AGIXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-02-17",
+  "last_bar": "2024-07-01",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:24:45+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 501,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "AGIXUSDT-1d-2023-02.zip",
+      "sha256": "55aebd4b37368ca24c9e5b834bda575c00d4f6f335d2f4e634fb0bbe16901b85"
+    },
+    {
+      "file": "AGIXUSDT-1d-2023-03.zip",
+      "sha256": "bf8c8b02e61173267fec66fda1aed29ac3f6ff99d97023cea0faa45e870be2bb"
+    },
+    {
+      "file": "AGIXUSDT-1d-2023-04.zip",
+      "sha256": "88b58e88af9b276a07696adbab9371d4ab6aa73fa600bfc804218a34c5dd1de1"
+    },
+    {
+      "file": "AGIXUSDT-1d-2023-05.zip",
+      "sha256": "4bd0445c130562fc22a355e1fd52879104c6b5541aaba466f7c1ef01b0a103dd"
+    },
+    {
+      "file": "AGIXUSDT-1d-2023-06.zip",
+      "sha256": "2834b0f08d389a601100877b056e17e2ca2c5c152edd1a719debf691d69f5fd9"
+    },
+    {
+      "file": "AGIXUSDT-1d-2023-07.zip",
+      "sha256": "75b20c04ead138c05900534cd0f7e48906cc7d88bb52a603fc6ad2ac9d16c844"
+    },
+    {
+      "file": "AGIXUSDT-1d-2023-08.zip",
+      "sha256": "6ea9e1e888184572dc156d3850e0f72b6d2863a0b062706b9a7a2c8c3eedeca2"
+    },
+    {
+      "file": "AGIXUSDT-1d-2023-09.zip",
+      "sha256": "175592d1d317a7df7d84f1c22e19fa8d9af3323905f5957d5c1283e8dada2b02"
+    },
+    {
+      "file": "AGIXUSDT-1d-2023-10.zip",
+      "sha256": "8020aedbcd3780350d05c81481eb5c7c3e976875e93ad108cbc940445e04d1ce"
+    },
+    {
+      "file": "AGIXUSDT-1d-2023-11.zip",
+      "sha256": "f4f9ae198cb101dce1fafb707b2d78077ff54a3dc9291c7fbe933625692d4437"
+    },
+    {
+      "file": "AGIXUSDT-1d-2023-12.zip",
+      "sha256": "699c06c501b7947a84589deaa444139f0a1cc212c8e4147db26266cbe0b3cee3"
+    },
+    {
+      "file": "AGIXUSDT-1d-2024-01.zip",
+      "sha256": "ff920badaaaa28cdc89d6b195d126284cb0bcaf1c0ba5ae6c33af76eedb42246"
+    },
+    {
+      "file": "AGIXUSDT-1d-2024-02.zip",
+      "sha256": "a4b0974edfb6ab5f735e099ce7b7c9b01e8908f8db382bf9f0bf9f81994268cb"
+    },
+    {
+      "file": "AGIXUSDT-1d-2024-03.zip",
+      "sha256": "c4979fd372a75508abec2cde3eb2fbacb79432ede93094fd42483a51fd1842c1"
+    },
+    {
+      "file": "AGIXUSDT-1d-2024-04.zip",
+      "sha256": "831364f3026444cbbe64eba375a5322a67f00f96a1c132fca2bb83d750064261"
+    },
+    {
+      "file": "AGIXUSDT-1d-2024-05.zip",
+      "sha256": "65ce7056a24813c8a1a4384dd48329ba4316e504db4727b52eca3dea334f5517"
+    },
+    {
+      "file": "AGIXUSDT-1d-2024-06.zip",
+      "sha256": "bf99299025e274f74135cf002001c95b76b219610128500ea0cefbdb495b16c7"
+    },
+    {
+      "file": "AGIXUSDT-1d-2024-07.zip",
+      "sha256": "68b7a0bbce9f737fa725ebec9cfc65f7328e8e800d13f48f831cebad21420ad3"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

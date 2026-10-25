@@ -1,0 +1,161 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/VGXUSDT/1d/",
+  "instrument": "VGXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-11-22",
+  "last_bar": "2024-08-26",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:23+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1009,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "VGXUSDT-1d-2021-11.zip",
+      "sha256": "95426eafc1ddd0bbb98fed0d42b98febdb794a8288acb274f18db751a4431d11"
+    },
+    {
+      "file": "VGXUSDT-1d-2021-12.zip",
+      "sha256": "0b4e373797e151cf725826a1f48af80cf10b4afb6114e455e4ec975339c65cbc"
+    },
+    {
+      "file": "VGXUSDT-1d-2022-01.zip",
+      "sha256": "3e6955047b7c9f4d81f5a87ce84cc6c29f58762cc3f78787629ceaa826d05354"
+    },
+    {
+      "file": "VGXUSDT-1d-2022-02.zip",
+      "sha256": "e22a3219e06b4cd767f754b0848a1d1f14289fddb92fdbd4359bcce5293c7705"
+    },
+    {
+      "file": "VGXUSDT-1d-2022-03.zip",
+      "sha256": "e22188812d5128acc65d300ac549256216f7a44378daca0eb19af53c542facfa"
+    },
+    {
+      "file": "VGXUSDT-1d-2022-04.zip",
+      "sha256": "2e0e52240a057bfa270ff533ba010816b9c196ad5659a02f49d8082d66159357"
+    },
+    {
+      "file": "VGXUSDT-1d-2022-05.zip",
+      "sha256": "09fec6c24a7c3e420e98087e15100c216f72dc0f8423099af7a4c101e6b4f674"
+    },
+    {
+      "file": "VGXUSDT-1d-2022-06.zip",
+      "sha256": "49adebe2d0ae1ec163fe0ec803ec7ef45316fb2006f87ae889642a4a06b89c96"
+    },
+    {
+      "file": "VGXUSDT-1d-2022-07.zip",
+      "sha256": "3a18641cbf1d20fe367bb3e025bfd70675aaffe3cc702ffb8aa137598ba20fc9"
+    },
+    {
+      "file": "VGXUSDT-1d-2022-08.zip",
+      "sha256": "971c676692bfc1e71d1ec017bdee853b9c7af7e499098a1aa22bee0aee60c43c"
+    },
+    {
+      "file": "VGXUSDT-1d-2022-09.zip",
+      "sha256": "bdd88ab099a6f638436621414debc22487e445a242ecbec88cd1d486f34c0636"
+    },
+    {
+      "file": "VGXUSDT-1d-2022-10.zip",
+      "sha256": "d54f5a4c6088e2d97918db4c942f3407d9c02455a147e7d6a61f1615e1eb408b"
+    },
+    {
+      "file": "VGXUSDT-1d-2022-11.zip",
+      "sha256": "23222ca435494780e1b1cde31f01b82dabe08980bca2445bac48dbd458b5b1e4"
+    },
+    {
+      "file": "VGXUSDT-1d-2022-12.zip",
+      "sha256": "58ac95df66d3b5fb53279a96c5aa875c8d094be66745b1d89bb6bd4b6ff08f6d"
+    },
+    {
+      "file": "VGXUSDT-1d-2023-01.zip",
+      "sha256": "616bc47fb3b0b0301ee4ab13c2cc7e8b765465c6fac0205baef1f78d446768b5"
+    },
+    {
+      "file": "VGXUSDT-1d-2023-02.zip",
+      "sha256": "2c7e9424e5fa3447799c73743c5e1d58955f2e68412aad597bd863b5459a1ea1"
+    },
+    {
+      "file": "VGXUSDT-1d-2023-03.zip",
+      "sha256": "ea8a77d500e4c1dd01bbb4a991f8d3d61390fc75acbd19d69c8eb701902e09f5"
+    },
+    {
+      "file": "VGXUSDT-1d-2023-04.zip",
+      "sha256": "8b0111a5d53ad03a1a6f39b39922043d7d1d9e14269897ddc794d0bcaf373da3"
+    },
+    {
+      "file": "VGXUSDT-1d-2023-05.zip",
+      "sha256": "9bd59f83feb73ded4382b53fd791b1759253efa3f2d13b59eee48dfb5a5d4fb5"
+    },
+    {
+      "file": "VGXUSDT-1d-2023-06.zip",
+      "sha256": "ff94ae62b514bd954d64e319738fea9c4faa93ece2f7db785a9fd87254cf0543"
+    },
+    {
+      "file": "VGXUSDT-1d-2023-07.zip",
+      "sha256": "ad1c4d90ba1d3642149ccf2db9f8cfa522f1b7e88c76eabe49782d1073ca5ec2"
+    },
+    {
+      "file": "VGXUSDT-1d-2023-08.zip",
+      "sha256": "4f28764d35361c64d0e85c23ea1c3fa52b2a7c552e6f5c3ab812e31d10644468"
+    },
+    {
+      "file": "VGXUSDT-1d-2023-09.zip",
+      "sha256": "1f9e040d4397ae0a415ec6d41cc6f762752d8beb8f79ac22d88df3964a09ccc9"
+    },
+    {
+      "file": "VGXUSDT-1d-2023-10.zip",
+      "sha256": "02e264874f94ab23012305ba763caa01207abe907f1d17d9763119620ff251a2"
+    },
+    {
+      "file": "VGXUSDT-1d-2023-11.zip",
+      "sha256": "0a1ff4a78394930dba6bb9c388c3f56150952fe520f52f88763cd1ceacaa6a89"
+    },
+    {
+      "file": "VGXUSDT-1d-2023-12.zip",
+      "sha256": "9a635b029b3439ae1ddb94ae4e1a4900da3ab40207af18a16a6b7ed79c84111c"
+    },
+    {
+      "file": "VGXUSDT-1d-2024-01.zip",
+      "sha256": "10f041feef4948741f5eaa6d8872b4a245e63f589408c602cf3da28e3f40068c"
+    },
+    {
+      "file": "VGXUSDT-1d-2024-02.zip",
+      "sha256": "4af8aee39e3e9f6261663f063a2b127b5f683f768ce5c9592aaf949c49b32e4f"
+    },
+    {
+      "file": "VGXUSDT-1d-2024-03.zip",
+      "sha256": "a0b58f6ec197e9c1e8456ab752b409c93c7a8b9c87844b0adf4fd600c2cd1b6b"
+    },
+    {
+      "file": "VGXUSDT-1d-2024-04.zip",
+      "sha256": "054ae7c38bb7f923c84a3afc943ccea5fbd30b8ed7f4b22e5b903b990562f2ef"
+    },
+    {
+      "file": "VGXUSDT-1d-2024-05.zip",
+      "sha256": "3c58e53c191a5771af98e6eadc47620b0a86f1f9740e9ae1107762748961e189"
+    },
+    {
+      "file": "VGXUSDT-1d-2024-06.zip",
+      "sha256": "458ac27051d3a8d688493dfe45cc8c3dd5e3bd24bc3f91d3f12ca6f55bc530c5"
+    },
+    {
+      "file": "VGXUSDT-1d-2024-07.zip",
+      "sha256": "ecd97d5293b78f14702724d49532144246e09797acc9c29afd306207466392aa"
+    },
+    {
+      "file": "VGXUSDT-1d-2024-08.zip",
+      "sha256": "c209644a4c71392aa160aa6cff343706cbf33cbcd42ac44323dc199e921e669b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ORDIUSDT/1d/",
+  "instrument": "ORDIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-11-07",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:41:43+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1059,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ORDIUSDT-1d-2023-11.zip",
+      "sha256": "3315e5857d3a0a6b50b3b82d2b7461e8fe419a63a7a1b20d8f4c5e41c3dacb57"
+    },
+    {
+      "file": "ORDIUSDT-1d-2023-12.zip",
+      "sha256": "c15fe7f8e52dbdf8ba113802bb9f9342f18d54bf4b84fd21d51aeec06770d194"
+    },
+    {
+      "file": "ORDIUSDT-1d-2024-01.zip",
+      "sha256": "eb767594851a3473b979d7db6144a808b6b2553bad561020f04e761d21eefbee"
+    },
+    {
+      "file": "ORDIUSDT-1d-2024-02.zip",
+      "sha256": "31f1821c1116da02d4a4815c3cd0d5512a4d9a2f44802b2982789d07e30df0ce"
+    },
+    {
+      "file": "ORDIUSDT-1d-2024-03.zip",
+      "sha256": "f13dc157d494969e304f27563b85f8f434cfbfb5b1a13e6517007830b780dcdb"
+    },
+    {
+      "file": "ORDIUSDT-1d-2024-04.zip",
+      "sha256": "cbc6f895424e7c59f9b6d186a88943d54b3da505d6608a35b74383608257dee5"
+    },
+    {
+      "file": "ORDIUSDT-1d-2024-05.zip",
+      "sha256": "3a8e2094be808559f090190d8e086a6ccd4ad953650ef0459ac1ea430aa4602f"
+    },
+    {
+      "file": "ORDIUSDT-1d-2024-06.zip",
+      "sha256": "bd910e0019aa045c49fc5158da28806939378d7a5826b9a40a952389af39edae"
+    },
+    {
+      "file": "ORDIUSDT-1d-2024-07.zip",
+      "sha256": "5e354c3db29b15a26d3c47321757154b78dc799ce0d422606dcfbedac7badf94"
+    },
+    {
+      "file": "ORDIUSDT-1d-2024-08.zip",
+      "sha256": "013d43f2d01c9685da4f3fd8d9de0281fae97e8cc9dd8ff2e6efcbcfd09858b1"
+    },
+    {
+      "file": "ORDIUSDT-1d-2024-09.zip",
+      "sha256": "b88c36a98ee8b8db28e88a8ff1066517ac6cfa3d5b04abf7fa6a87da587ffa11"
+    },
+    {
+      "file": "ORDIUSDT-1d-2024-10.zip",
+      "sha256": "e61f026f231fe158981f8396dcffe8e856d2c9eaa80c9f82280e946b649b7a5a"
+    },
+    {
+      "file": "ORDIUSDT-1d-2024-11.zip",
+      "sha256": "519a3c9a27ddc9d3107d6aae754f277ee2829b068f020fbdb5a73604186b95e2"
+    },
+    {
+      "file": "ORDIUSDT-1d-2024-12.zip",
+      "sha256": "81b90f3b9b8380ab35f36600beac1058f3eda8e94d601a4df548c41883acf651"
+    },
+    {
+      "file": "ORDIUSDT-1d-2025-01.zip",
+      "sha256": "2f79b9ffc74f0606b75336969cf1c11e23d672594827134563c2b847e2dd1ea7"
+    },
+    {
+      "file": "ORDIUSDT-1d-2025-02.zip",
+      "sha256": "458fa9cf40bbc62577958b61c10703f0b00d11b47dc8ed7c2d145d1728ac2d5f"
+    },
+    {
+      "file": "ORDIUSDT-1d-2025-03.zip",
+      "sha256": "119e712d85012fb51ce4e8bbee098c706f1a8fdc75dec8428266bf7359625b61"
+    },
+    {
+      "file": "ORDIUSDT-1d-2025-04.zip",
+      "sha256": "16577e7b18fbbece01a06ec71ca79c3fea377923fa784513cb0cb44b81a26699"
+    },
+    {
+      "file": "ORDIUSDT-1d-2025-05.zip",
+      "sha256": "62e9341d1f09e38c1b87d4292ff5cfa84b1b3af0085d98ba4d24054954bae63d"
+    },
+    {
+      "file": "ORDIUSDT-1d-2025-06.zip",
+      "sha256": "cd1534b99ce0b5c17fc8c55cd04379702a9fce9c2785a47c32ec25e6cf0cbb11"
+    },
+    {
+      "file": "ORDIUSDT-1d-2025-07.zip",
+      "sha256": "8bd54ed4be87e4b2f108002bd8dd1b8a51faa7781d50106c88766ecde4e777c0"
+    },
+    {
+      "file": "ORDIUSDT-1d-2025-08.zip",
+      "sha256": "a9241ae190a64fa5346bbe72862411194ac2a6613a8bc981a76aaf5d84c68fb8"
+    },
+    {
+      "file": "ORDIUSDT-1d-2025-09.zip",
+      "sha256": "73d8723dc7d165c668d1502117c0424df5bc633200b0c454703257fd838bf256"
+    },
+    {
+      "file": "ORDIUSDT-1d-2025-10.zip",
+      "sha256": "52c2fd11a690b6d7fae3d0f04e07608a27bf1c2877eca08d8e377ca1540bd81a"
+    },
+    {
+      "file": "ORDIUSDT-1d-2025-11.zip",
+      "sha256": "a1bdfda4c750f6de1c1cd9650aa4dcb5015a011a097a04ba3007c88bcc2aa037"
+    },
+    {
+      "file": "ORDIUSDT-1d-2025-12.zip",
+      "sha256": "a61a6a37a783359d2f02a16f6bdfe10ead36bc26a2abff19322f067c1d469c8a"
+    },
+    {
+      "file": "ORDIUSDT-1d-2026-01.zip",
+      "sha256": "e335b01fb2a623ed785738e607207371e616b491d0e83ebff742d98ff1babd4c"
+    },
+    {
+      "file": "ORDIUSDT-1d-2026-02.zip",
+      "sha256": "3b9712d095d86bd57b8dea2ff416a2917362493886b82b34fa9f166e915c2aa2"
+    },
+    {
+      "file": "ORDIUSDT-1d-2026-03.zip",
+      "sha256": "2e764ddc809e268282d12c350d5bad91929f7843a0d2a4ea53393b12d20a5902"
+    },
+    {
+      "file": "ORDIUSDT-1d-2026-04.zip",
+      "sha256": "7e6c001f17b1b5083a1fabf1d8774c33255d8eed6d4743711a6fa7ab93a8a0eb"
+    },
+    {
+      "file": "ORDIUSDT-1d-2026-05.zip",
+      "sha256": "bf2eec2fbb7619e784dd21c6faf69cb00d417e84ece9311251676725478844f7"
+    },
+    {
+      "file": "ORDIUSDT-1d-2026-06.zip",
+      "sha256": "213b61faf946758bd792d75162fdb069a2a87871251f2e91bc281219738cebd1"
+    },
+    {
+      "file": "ORDIUSDT-1d-2026-07.zip",
+      "sha256": "be6363b03ef43b4ea2f95766d9e412c950b7ca1ee6e2c86e49606e516b59dd1e"
+    },
+    {
+      "file": "ORDIUSDT-1d-2026-08.zip",
+      "sha256": "1764269f2d6ed7b030255b4145df1127966463bcc159d8facfb8ff7b1779baec"
+    },
+    {
+      "file": "ORDIUSDT-1d-2026-09.zip",
+      "sha256": "95555a128db0e240c6493282afffd5be38ac1ca358464694dbc673c9a404124b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

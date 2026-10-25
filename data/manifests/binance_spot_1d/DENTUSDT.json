@@ -1,0 +1,349 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/DENTUSDT/1d/",
+  "instrument": "DENTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-08-27",
+  "last_bar": "2026-04-28",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:31:43+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2437,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "DENTUSDT-1d-2019-08.zip",
+      "sha256": "4b6dc309b3815d6d5246457389d0a755a1cd75b1ac567700ec8916abd1de570a"
+    },
+    {
+      "file": "DENTUSDT-1d-2019-09.zip",
+      "sha256": "feeaceea1d8d1602af137abc343f191fe76868d566f7122b56c65fde5149a0ad"
+    },
+    {
+      "file": "DENTUSDT-1d-2019-10.zip",
+      "sha256": "e1e0d47c5779655e9864414164f338a0bd02ea68107f3804210571a00888972b"
+    },
+    {
+      "file": "DENTUSDT-1d-2019-11.zip",
+      "sha256": "5f7afb9742313f62a5a23f4f46d8e3420c4e24052a7da59d958adf10d9357e0c"
+    },
+    {
+      "file": "DENTUSDT-1d-2019-12.zip",
+      "sha256": "6c848215c715d2f0998279f49bf59e5b6202fb748d5c1550ce0b94d4f451c31b"
+    },
+    {
+      "file": "DENTUSDT-1d-2020-01.zip",
+      "sha256": "c259b6a905fa225ef3ff27c376b61c0de6160cc88bfe50d481a6fcfc887b54ad"
+    },
+    {
+      "file": "DENTUSDT-1d-2020-02.zip",
+      "sha256": "c8640bf9a9996bd86e26a8c186a193e6f02f97aa50bb50ef479995243576aaaf"
+    },
+    {
+      "file": "DENTUSDT-1d-2020-03.zip",
+      "sha256": "448c073f8ff33801eaf213cb3e67fc93137f54b424cd0e151ffd5dfefb27cc1c"
+    },
+    {
+      "file": "DENTUSDT-1d-2020-04.zip",
+      "sha256": "bafa3055fdb322b906b84d1a82b044ae53d8de3b35cf210fefe02097b9cb82c0"
+    },
+    {
+      "file": "DENTUSDT-1d-2020-05.zip",
+      "sha256": "f4cfbd95ace9dd49ef2fa5d8f696625d2315c00456c043afa35b42d54abb38ec"
+    },
+    {
+      "file": "DENTUSDT-1d-2020-06.zip",
+      "sha256": "07379126b039684019b5623bb77aff69fe05bb3f7a64021f1d61d1dcde670814"
+    },
+    {
+      "file": "DENTUSDT-1d-2020-07.zip",
+      "sha256": "fe5e80f5ec55e469445e7f0c66f06ad652afbbdfca4da50a30c840bf1fd198d4"
+    },
+    {
+      "file": "DENTUSDT-1d-2020-08.zip",
+      "sha256": "9a657fd1d22ca30d02a94b0cabddcf20a84c3fdf38ad38bfd6fd15804c35df0c"
+    },
+    {
+      "file": "DENTUSDT-1d-2020-09.zip",
+      "sha256": "56a0d0b86324dfd6df1e0420a70993ba15b722f6a80f5fdd002a52d47e511a3b"
+    },
+    {
+      "file": "DENTUSDT-1d-2020-10.zip",
+      "sha256": "00666e48032605be4cde7d838837a8aa4f267629c8b75605f943ac0a592db348"
+    },
+    {
+      "file": "DENTUSDT-1d-2020-11.zip",
+      "sha256": "f0da56a405e6acb45a76d8808db6f9b909d1d922b7e34a26d5bfa312e8849d96"
+    },
+    {
+      "file": "DENTUSDT-1d-2020-12.zip",
+      "sha256": "f92d65ca46314dc126ef7d82396cc07b346ef0d56ca2bad0c5c9f0d9fe52ec9c"
+    },
+    {
+      "file": "DENTUSDT-1d-2021-01.zip",
+      "sha256": "97b55673bde922190500ab42e46a8936b413f16d05bd023bc01c7de823ac3b62"
+    },
+    {
+      "file": "DENTUSDT-1d-2021-02.zip",
+      "sha256": "91fdca4c69aad214e255941f71edf0cba8d8bf6653ed5aa12537af7919f5662c"
+    },
+    {
+      "file": "DENTUSDT-1d-2021-03.zip",
+      "sha256": "0cb1c5eecfb7b462598546cdcca9a5e3669aa9c9f690dadf54776c8591f8d5db"
+    },
+    {
+      "file": "DENTUSDT-1d-2021-04.zip",
+      "sha256": "35a64baf84205cf6b8f2b935189144dd2625a31ae0b2ecbe2cd885b0b27af027"
+    },
+    {
+      "file": "DENTUSDT-1d-2021-05.zip",
+      "sha256": "67487c6f0ceee097df40df0e9d8126749a83b8a99329c8ca12db31bdc90f9189"
+    },
+    {
+      "file": "DENTUSDT-1d-2021-06.zip",
+      "sha256": "a28986c9b9c9b1159a4cd54a4a2410820778e8757586b48fe9fd9b4ffa18464a"
+    },
+    {
+      "file": "DENTUSDT-1d-2021-07.zip",
+      "sha256": "2374915974a247d06c586dbdfc7df52cb92bc94ef8ba1a0b0436da083fbe8331"
+    },
+    {
+      "file": "DENTUSDT-1d-2021-08.zip",
+      "sha256": "0732c607c0808925773dca923bdc3b00d6cd57da3ad19aa911177a2b8c146fb1"
+    },
+    {
+      "file": "DENTUSDT-1d-2021-09.zip",
+      "sha256": "ab0340c98a6ebab72b7b01cb894564dba4ca37f3bdac81e9ec0510684ea3505f"
+    },
+    {
+      "file": "DENTUSDT-1d-2021-10.zip",
+      "sha256": "eb843953c7a939c9d77229b4cd4d361a9a176c76f720b3edfd42c8bf6c94082a"
+    },
+    {
+      "file": "DENTUSDT-1d-2021-11.zip",
+      "sha256": "aa2f6ba09a02a119bb4dc51c8e3aae11522467be5b207c3d2dde7ac46944c9e4"
+    },
+    {
+      "file": "DENTUSDT-1d-2021-12.zip",
+      "sha256": "06f1e94e3d3cc6088c309e7adbec9ad0df8e556123b26275dfdc384a4de8c991"
+    },
+    {
+      "file": "DENTUSDT-1d-2022-01.zip",
+      "sha256": "635e5144b05a1e990ef29234d9b654e096ba6c4bbaa66b4b48558122e0345711"
+    },
+    {
+      "file": "DENTUSDT-1d-2022-02.zip",
+      "sha256": "970a6be1d9651974d8fd82e50cffa96b6d6ed56746c236d4099a0aa440c2d6fc"
+    },
+    {
+      "file": "DENTUSDT-1d-2022-03.zip",
+      "sha256": "bb843660d0bffd242aa7720a7fb60965aa327eb97b384822d59b8eb533d27400"
+    },
+    {
+      "file": "DENTUSDT-1d-2022-04.zip",
+      "sha256": "261c385ee4e4e002626b4fdbefec893f2c848147eb571da7e441faa0c6572bca"
+    },
+    {
+      "file": "DENTUSDT-1d-2022-05.zip",
+      "sha256": "16a56465e01e7122ddfd93df2b30347b74962e5d50e20b178ee6575521d93a79"
+    },
+    {
+      "file": "DENTUSDT-1d-2022-06.zip",
+      "sha256": "097b1e943a758480c7a86f83d75bca7e075f132f06384b0fbb5d58dbaeaeb37b"
+    },
+    {
+      "file": "DENTUSDT-1d-2022-07.zip",
+      "sha256": "75ba2ef37ee69a442160e5ab00d37f46ef53a9358de3b6e7726608ef80aafe6d"
+    },
+    {
+      "file": "DENTUSDT-1d-2022-08.zip",
+      "sha256": "fd97f80173663a4864d556a8b5be9031afdf25dd33f711030f8d47a8743c4266"
+    },
+    {
+      "file": "DENTUSDT-1d-2022-09.zip",
+      "sha256": "94b10f9331a330b74bbc96523dc9b7bc480529d8d2938af6aee6ef6435ca57bc"
+    },
+    {
+      "file": "DENTUSDT-1d-2022-10.zip",
+      "sha256": "952db69e2eff5784cf58839cd44e2501d5b0c1f3bdff6633207f849cf527d822"
+    },
+    {
+      "file": "DENTUSDT-1d-2022-11.zip",
+      "sha256": "fa1a9200e5f44e511f97c5d3fb238aa07f97000206fcf98bfefdd1c749c86bd6"
+    },
+    {
+      "file": "DENTUSDT-1d-2022-12.zip",
+      "sha256": "1c02e826f3e1dbf2941e43b0dc50cead067d7d356279fda8a9b0ff0245fad9db"
+    },
+    {
+      "file": "DENTUSDT-1d-2023-01.zip",
+      "sha256": "59a36dcac7016b2b4012321af585f92a91d1fa432bc49b96233e7453f975d590"
+    },
+    {
+      "file": "DENTUSDT-1d-2023-02.zip",
+      "sha256": "a0fd8de31477bd0a68a01e93bba2ecb515b0a23e4d0851a3c8f5bc877ee141bd"
+    },
+    {
+      "file": "DENTUSDT-1d-2023-03.zip",
+      "sha256": "c166c022248f90f4e051e4ffb7c81e7700f465ef6c36ee59800fc5ee206b3cae"
+    },
+    {
+      "file": "DENTUSDT-1d-2023-04.zip",
+      "sha256": "ab62fe6d7fe0a5103e7f8b09059f7b3eb99b45d10b2c9b52273640d0d8df2b8b"
+    },
+    {
+      "file": "DENTUSDT-1d-2023-05.zip",
+      "sha256": "cc8a3151f932a762a83f4a05889a2062dbd70a6583bec92b0ba740e006b6a8ed"
+    },
+    {
+      "file": "DENTUSDT-1d-2023-06.zip",
+      "sha256": "b240fd825a4f36cab0c5b8df1839f5fc4d1785eca55743dd0b21f8c6264d8b71"
+    },
+    {
+      "file": "DENTUSDT-1d-2023-07.zip",
+      "sha256": "7c966c7d7b4f3299d031e3b5b6e80546684330f1f5f2727178b5d48944079dab"
+    },
+    {
+      "file": "DENTUSDT-1d-2023-08.zip",
+      "sha256": "043bdeb919ae592a6b0c7216fee78899f208e16721ee25f18be8ac4e224d70d7"
+    },
+    {
+      "file": "DENTUSDT-1d-2023-09.zip",
+      "sha256": "383af7e6f8bdb39180e6f5944c7ad8ec85cbfb41309144eb0d69b79260628fe8"
+    },
+    {
+      "file": "DENTUSDT-1d-2023-10.zip",
+      "sha256": "5a87be93189284f69e60cc047e98d4782191b781cff27481ba91d8a34655293f"
+    },
+    {
+      "file": "DENTUSDT-1d-2023-11.zip",
+      "sha256": "27d7666f662c11f428b34c4d44d83527c4da634120723b866cc0d26b6f2a655c"
+    },
+    {
+      "file": "DENTUSDT-1d-2023-12.zip",
+      "sha256": "17ca6440ed940299f0334e53e907cedda32446d327f80957bfa09fb266234c7f"
+    },
+    {
+      "file": "DENTUSDT-1d-2024-01.zip",
+      "sha256": "6db1625fce8f3b310225eb81d033fa7dcea213dc42a526088c8d95e9fa87e28f"
+    },
+    {
+      "file": "DENTUSDT-1d-2024-02.zip",
+      "sha256": "a8c59c8b927b8727d312d716b2df5c9a1ec26c8caeba019f9f97cc8edfdc20a7"
+    },
+    {
+      "file": "DENTUSDT-1d-2024-03.zip",
+      "sha256": "73d7ea9862dd4615755d7d7a5cf7b5aa75bbf916d44e65c7f654d9a738e0f3d0"
+    },
+    {
+      "file": "DENTUSDT-1d-2024-04.zip",
+      "sha256": "9464eace0d98e7c3e4da0f2a8defce479fc468dc5af03068329e50a26e4272a7"
+    },
+    {
+      "file": "DENTUSDT-1d-2024-05.zip",
+      "sha256": "b1dff0d0ccb6e10e1ef85b1f6cb7155d1997a9e7e8ade93d5d085ceba10a6679"
+    },
+    {
+      "file": "DENTUSDT-1d-2024-06.zip",
+      "sha256": "857aa3c803f63e70aea9c58c41e21387cbd458545713837e88726d4fea9bb923"
+    },
+    {
+      "file": "DENTUSDT-1d-2024-07.zip",
+      "sha256": "2bc2df225ce2b6850abac7efe2fe99704ac6f85f0a64c9da4980c64e5a9a7dc8"
+    },
+    {
+      "file": "DENTUSDT-1d-2024-08.zip",
+      "sha256": "ef38cc176221fa3ccb1c3e8a67a40d5c00b39c3b1952a77c16af06dcce9a2323"
+    },
+    {
+      "file": "DENTUSDT-1d-2024-09.zip",
+      "sha256": "a4f85d834e72cdb80bf55a192b0367e4a3bf9dcfdb8e6bdcb19ff27f6bd5b26f"
+    },
+    {
+      "file": "DENTUSDT-1d-2024-10.zip",
+      "sha256": "00d4b430e41564c0d7665b904e41b0240704ad11b8287146459080ed008268d6"
+    },
+    {
+      "file": "DENTUSDT-1d-2024-11.zip",
+      "sha256": "e159ed1967baf701ac91fb4e2489902cba64f9e408602370ad970e53bba7bff4"
+    },
+    {
+      "file": "DENTUSDT-1d-2024-12.zip",
+      "sha256": "35208088b25027a86a3666fa4fd3f7ff6387ec0b9e89284efaccd0e7380ccd8b"
+    },
+    {
+      "file": "DENTUSDT-1d-2025-01.zip",
+      "sha256": "535cca5282a724f4ad1efa0daf83623478b18160d31bd4b042f206fa0c61a0c5"
+    },
+    {
+      "file": "DENTUSDT-1d-2025-02.zip",
+      "sha256": "63c555718add621e7a0aff4e577c4dc1f39d8f8f94608d22a83a6652bb5841cb"
+    },
+    {
+      "file": "DENTUSDT-1d-2025-03.zip",
+      "sha256": "12450f5f3fb2e84cdf2911872426b498fc7c54a512a64c9cd95533252ab36c56"
+    },
+    {
+      "file": "DENTUSDT-1d-2025-04.zip",
+      "sha256": "6a3c53f15e275b0cb0bc21f432de4518d15311adddd30cb5092ec71ae233aa10"
+    },
+    {
+      "file": "DENTUSDT-1d-2025-05.zip",
+      "sha256": "31cd612b007217466d2b008c8d816e9d65fdd23d92d17d48dd2a71f83785d031"
+    },
+    {
+      "file": "DENTUSDT-1d-2025-06.zip",
+      "sha256": "4d5ea7cae71b6e4bd7c1b2a124d69e9d7c2af3224ba7518fe751f754849c5a36"
+    },
+    {
+      "file": "DENTUSDT-1d-2025-07.zip",
+      "sha256": "3a9629c5d4c0b43caa7ff626dc8fe660165cac6b6f14ee0f6d543931233f2403"
+    },
+    {
+      "file": "DENTUSDT-1d-2025-08.zip",
+      "sha256": "a81c12a2ed7ae0af6c3c6b449da5257bf80ef33289e8a7272c97198100c244b6"
+    },
+    {
+      "file": "DENTUSDT-1d-2025-09.zip",
+      "sha256": "7eb70b5296d602158e7f7172429f35597d2517afcec681df103b0681522ed5c3"
+    },
+    {
+      "file": "DENTUSDT-1d-2025-10.zip",
+      "sha256": "8f335fed6d6497c964bf074333ef2f01fc0fa31ba59269225314bdc5a1201dae"
+    },
+    {
+      "file": "DENTUSDT-1d-2025-11.zip",
+      "sha256": "2740f770f1aee9a2426e52b2ba28bf6fb851b31ce27bbcba4e3dd04817b33e2c"
+    },
+    {
+      "file": "DENTUSDT-1d-2025-12.zip",
+      "sha256": "d8fac182badc29f6c8dd57ba47b0b350b1cde2b81a4e541451534f8e5beb9dc9"
+    },
+    {
+      "file": "DENTUSDT-1d-2026-01.zip",
+      "sha256": "60cf9ec3165f39fa55c3a1cd59e642a2ac562e99e090cf4c3ed4458586125a4d"
+    },
+    {
+      "file": "DENTUSDT-1d-2026-02.zip",
+      "sha256": "edf8262af255781f325d2f526e9a0bf985acdf41ae872c230fe1eaa0c5340fc2"
+    },
+    {
+      "file": "DENTUSDT-1d-2026-03.zip",
+      "sha256": "dd30df3fcc9f9cb30123c5527ea24c2a59a427863c1e8433fe9e2624ad9089c5"
+    },
+    {
+      "file": "DENTUSDT-1d-2026-04.zip",
+      "sha256": "e6cfb27201773de865bb48b98a2404431d30681abab77f10eab04c4516018992"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

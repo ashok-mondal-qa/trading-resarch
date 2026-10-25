@@ -1,0 +1,217 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/OCEANUSDT/1d/",
+  "instrument": "OCEANUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-08-19",
+  "last_bar": "2024-07-01",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:41:04+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1413,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "OCEANUSDT-1d-2020-08.zip",
+      "sha256": "b836b9cf3e9b9cf0c4e1b85f94930fb8dcad46fd42d67b413611786c49c571ed"
+    },
+    {
+      "file": "OCEANUSDT-1d-2020-09.zip",
+      "sha256": "9893d1468b396ea61815db2a4ec0a9398fdb0d3350df6847e7ec54c3170ba773"
+    },
+    {
+      "file": "OCEANUSDT-1d-2020-10.zip",
+      "sha256": "5a6c3a363d0612bb9115358d5064d115e4942da2369503b5f269de4645e759cd"
+    },
+    {
+      "file": "OCEANUSDT-1d-2020-11.zip",
+      "sha256": "8c1cfa9857e3122043c6f0f9314ff46bdea59280388d885f29e1820349133d1e"
+    },
+    {
+      "file": "OCEANUSDT-1d-2020-12.zip",
+      "sha256": "a7c1da5f672ff34aeb6d070544d081dfea328176eed8819d53494ce97c800e24"
+    },
+    {
+      "file": "OCEANUSDT-1d-2021-01.zip",
+      "sha256": "b715f7fb3d850e3857bc50a4764ddc9f33a287a10177a3d8c8beb452e3d23d2a"
+    },
+    {
+      "file": "OCEANUSDT-1d-2021-02.zip",
+      "sha256": "014d7f73a655744fabab0c7f3f857a0ce3fae5bbdd8177e96b781d8596ad156a"
+    },
+    {
+      "file": "OCEANUSDT-1d-2021-03.zip",
+      "sha256": "51cb6fb9740380bd7f05dda358ee77c6c219e951470d5e186fb6d23109fe3997"
+    },
+    {
+      "file": "OCEANUSDT-1d-2021-04.zip",
+      "sha256": "fc2275055f40d51843b7c06027c2e7b9124682b93bcc1d6be3ca49eff8c07a4d"
+    },
+    {
+      "file": "OCEANUSDT-1d-2021-05.zip",
+      "sha256": "8c75a2ab989941bee158c60fed0d1c13a4c7513feea52661ae3f0973ebfab0a0"
+    },
+    {
+      "file": "OCEANUSDT-1d-2021-06.zip",
+      "sha256": "7920d0297e96f7b2720edcddce53bbd9c01081d331f1c2e77bf9c30721bc1e83"
+    },
+    {
+      "file": "OCEANUSDT-1d-2021-07.zip",
+      "sha256": "fcd9dce58423320d548224a53c3d2d603d0ffe1424d3033e3a8d08c18f6120ae"
+    },
+    {
+      "file": "OCEANUSDT-1d-2021-08.zip",
+      "sha256": "db17fe752c6ddf45225a82a911d66efc6cc02731aa0fc7b5b80fc4c695795caa"
+    },
+    {
+      "file": "OCEANUSDT-1d-2021-09.zip",
+      "sha256": "e1c49618e0a3dcf6801dddaad33bb06829d4d0de53103167a80320518c55420a"
+    },
+    {
+      "file": "OCEANUSDT-1d-2021-10.zip",
+      "sha256": "ff04a3d97dfd941fec39311030e855eb09f1b3677ef1a74c65a8fd2acdbe0f73"
+    },
+    {
+      "file": "OCEANUSDT-1d-2021-11.zip",
+      "sha256": "ae57bc54a4d8ad2cce012b7da18ad1d7ad8663cbe083b297e18a61c5e85f367e"
+    },
+    {
+      "file": "OCEANUSDT-1d-2021-12.zip",
+      "sha256": "717b54109d630e9bd429563c765e8aadf9d275c0fb5a28ca2bbe236414d90066"
+    },
+    {
+      "file": "OCEANUSDT-1d-2022-01.zip",
+      "sha256": "2a1a7f483fb454ed4c69aeab2bc10b3bba9b5f3d2b372410ba1071ecc1b30eec"
+    },
+    {
+      "file": "OCEANUSDT-1d-2022-02.zip",
+      "sha256": "5062887c23f919676108e4dfb5edfc6d179541a9b3d5677f702d5e393dc4d7be"
+    },
+    {
+      "file": "OCEANUSDT-1d-2022-03.zip",
+      "sha256": "0838a8a3f882c3c8fa9df4607048bd98d3dcb4c9fc8c81271f907d63f3d20e08"
+    },
+    {
+      "file": "OCEANUSDT-1d-2022-04.zip",
+      "sha256": "16e65869e33af6489657aa0f2c5a2adddf8b395f011e73aee3dbbb8a15692473"
+    },
+    {
+      "file": "OCEANUSDT-1d-2022-05.zip",
+      "sha256": "aed379d18b344326f0cc32224b39c07593d24d48bb48d81f0a7ca89005dea1b8"
+    },
+    {
+      "file": "OCEANUSDT-1d-2022-06.zip",
+      "sha256": "93fd03f2576dbd0adddef30263fb246edf7be8ec927cf684bdcc13fe107ecf38"
+    },
+    {
+      "file": "OCEANUSDT-1d-2022-07.zip",
+      "sha256": "7ed23edef8c37baa644e2c6b57cc522b1239619b36f350dbc4dad4a946045d44"
+    },
+    {
+      "file": "OCEANUSDT-1d-2022-08.zip",
+      "sha256": "ef61ada5472f3e0201d844e8bf00a3e2836b6520b3a238d4eb66d48d27163190"
+    },
+    {
+      "file": "OCEANUSDT-1d-2022-09.zip",
+      "sha256": "030e5eeafc68ee47b1fef9842f426545b05289139fbc2fc5a717f5b62be87f08"
+    },
+    {
+      "file": "OCEANUSDT-1d-2022-10.zip",
+      "sha256": "c054e348316d273977588fc1473f43fc9831c633be2446164f00a9ec62c3c815"
+    },
+    {
+      "file": "OCEANUSDT-1d-2022-11.zip",
+      "sha256": "c68a12d9f3d2ed3e7fa2e41d5117f52a7e7cd080cd2f513c2968296f19eff780"
+    },
+    {
+      "file": "OCEANUSDT-1d-2022-12.zip",
+      "sha256": "3fde69aa73e7b8c4304b23950c2249dd32f810871e0eb45603abf3034aa195af"
+    },
+    {
+      "file": "OCEANUSDT-1d-2023-01.zip",
+      "sha256": "d6e6d145201b03cfd1f34dfefacca353d195614bcd1c44d8fbe7f835cdd5272b"
+    },
+    {
+      "file": "OCEANUSDT-1d-2023-02.zip",
+      "sha256": "6972aa544749c86a40770d67154787bf44ad2505925949f020666c4dea1c74a0"
+    },
+    {
+      "file": "OCEANUSDT-1d-2023-03.zip",
+      "sha256": "2f0411ecbf9676c3be853f736684b1c2378c96446711c2818ba72fc8894f4ddf"
+    },
+    {
+      "file": "OCEANUSDT-1d-2023-04.zip",
+      "sha256": "b739da8593d82162862d535aa67522e00bba4753ba5a07792a6e74d95923fede"
+    },
+    {
+      "file": "OCEANUSDT-1d-2023-05.zip",
+      "sha256": "4d5c7362c8a86580a7d80981786540c4f93c51d7ddddc5b2402298e2cf6ebdc5"
+    },
+    {
+      "file": "OCEANUSDT-1d-2023-06.zip",
+      "sha256": "b358fc9d23efcd79eb9073e130f0c8928ed296fa8a27f4ad9723f7f360f77d8d"
+    },
+    {
+      "file": "OCEANUSDT-1d-2023-07.zip",
+      "sha256": "b8d46f003e4f785f60bd9e5b69e97edc44d396ea49b6b06a6c46d2358609a2e7"
+    },
+    {
+      "file": "OCEANUSDT-1d-2023-08.zip",
+      "sha256": "398d8d54a94000b737787217924c2d7e81fb2d35b51baef378d9abdd36b59dd9"
+    },
+    {
+      "file": "OCEANUSDT-1d-2023-09.zip",
+      "sha256": "dcb35c1d8c08c15d836ef0cb074e1f1905a7a1c90217d8f23dad0f78cc609777"
+    },
+    {
+      "file": "OCEANUSDT-1d-2023-10.zip",
+      "sha256": "9ab80860c8dcd3e918e100cb16233d9ca23a40c95d29d89ea0fb82ee865e37fe"
+    },
+    {
+      "file": "OCEANUSDT-1d-2023-11.zip",
+      "sha256": "fc48eece9dcf97489ecbeb096121c03e7be1810127a9941040d055ae08800dd5"
+    },
+    {
+      "file": "OCEANUSDT-1d-2023-12.zip",
+      "sha256": "09f5fb9aa1716880b6719892106f00827053f71c452f842458a51b42735c78e6"
+    },
+    {
+      "file": "OCEANUSDT-1d-2024-01.zip",
+      "sha256": "81a8859e12601a3276f6220218014d94fee5a3caa4c990afcf1487e44ae8507e"
+    },
+    {
+      "file": "OCEANUSDT-1d-2024-02.zip",
+      "sha256": "86e49efdd8658b56b900a4dcb3165ee7fe59e144a5dc9f50f0b6e86d9b5aa00e"
+    },
+    {
+      "file": "OCEANUSDT-1d-2024-03.zip",
+      "sha256": "2b973bd51234c98fc015c7de108a12562fd680254a55057d6a1ed2e717f7e039"
+    },
+    {
+      "file": "OCEANUSDT-1d-2024-04.zip",
+      "sha256": "cbd85ef68e0ca9694ff4235b60df2ba1e426aed0c2e3996726b0fe5a5fbac87a"
+    },
+    {
+      "file": "OCEANUSDT-1d-2024-05.zip",
+      "sha256": "0efea0196ef20fc9188a7104933acdb5b44fb25e1675d11f90f5ece8ed9aed99"
+    },
+    {
+      "file": "OCEANUSDT-1d-2024-06.zip",
+      "sha256": "4768142aebbe62cbf34625431bea1e78e448cbd9a09f95069321562914e6846b"
+    },
+    {
+      "file": "OCEANUSDT-1d-2024-07.zip",
+      "sha256": "2d9e428a4890e4633bcfc96c79eca8d5f8160befa2bb5bd4ba2961d15b6cba4a"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

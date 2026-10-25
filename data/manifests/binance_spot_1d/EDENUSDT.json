@@ -1,0 +1,77 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/EDENUSDT/1d/",
+  "instrument": "EDENUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-09-30",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:31:49+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 366,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "EDENUSDT-1d-2025-09.zip",
+      "sha256": "1b19cbfdb4c3c20471b73355da29e86a98b48def82b681a9ea94fb3d264b86b7"
+    },
+    {
+      "file": "EDENUSDT-1d-2025-10.zip",
+      "sha256": "1457b021b8f7a5d39336182f7a05d4804d942fd1c07e5f1cb088677030d5656a"
+    },
+    {
+      "file": "EDENUSDT-1d-2025-11.zip",
+      "sha256": "03626c7cd503baa480c7aa4e70741a20ff5b5f3d249ea73558217cbd9f22ca48"
+    },
+    {
+      "file": "EDENUSDT-1d-2025-12.zip",
+      "sha256": "3ef78006b826ddc3bb68593c1f84ad6a8632f77591dc8e8acc1eae0c56c6151c"
+    },
+    {
+      "file": "EDENUSDT-1d-2026-01.zip",
+      "sha256": "4d4160206414bb8536447883962dadf4a4c4c4f1fa61bddc6d515cca64a6c8c3"
+    },
+    {
+      "file": "EDENUSDT-1d-2026-02.zip",
+      "sha256": "5e766c2d06e789fbe59613fe3eb4a15ed7da0051c3efb06756b891050a2e0cfe"
+    },
+    {
+      "file": "EDENUSDT-1d-2026-03.zip",
+      "sha256": "020aae8e6ceb0bd9eee6e642ace824109b2d9b3a70e87d53296aaf74cec56077"
+    },
+    {
+      "file": "EDENUSDT-1d-2026-04.zip",
+      "sha256": "608f6f692d2b15387a34c8532352fb359300894939b585e211a6dc637c8754cf"
+    },
+    {
+      "file": "EDENUSDT-1d-2026-05.zip",
+      "sha256": "7853b133af22fb745908309317a647710498b4e136377800444a960b6ed1abdd"
+    },
+    {
+      "file": "EDENUSDT-1d-2026-06.zip",
+      "sha256": "e53d7fa01104bc9e824265171125c9782c7cca7d2d3cb800638a12d0eebc87b3"
+    },
+    {
+      "file": "EDENUSDT-1d-2026-07.zip",
+      "sha256": "72399adbbb4f58f9c243332597a453f7a9e625ea4c7ad88e1ea069d28fc2c544"
+    },
+    {
+      "file": "EDENUSDT-1d-2026-08.zip",
+      "sha256": "0a207a152b45c566c107f15b0def4ff376bf9723a916614d38c78f0c42f49fcb"
+    },
+    {
+      "file": "EDENUSDT-1d-2026-09.zip",
+      "sha256": "5c5f05fd55e1d17a3def46041d25e6e8f95ad2c1de294fa32c45b78243773be8"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

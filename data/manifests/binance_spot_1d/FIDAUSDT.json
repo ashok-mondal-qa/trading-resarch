@@ -1,0 +1,269 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/FIDAUSDT/1d/",
+  "instrument": "FIDAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-09-30",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:33:17+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1827,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "FIDAUSDT-1d-2021-09.zip",
+      "sha256": "6246236e6b15fa8e2effb9ee90f0a4cfa3db341419db13e4bc011c532c9c5bfa"
+    },
+    {
+      "file": "FIDAUSDT-1d-2021-10.zip",
+      "sha256": "858ad0daa93f0fe33a38030f9c6cccb5d395acd07c1e3aec9dbbb9d20281b25d"
+    },
+    {
+      "file": "FIDAUSDT-1d-2021-11.zip",
+      "sha256": "aa320b885e6012ee00be1243c6f8e9e8a08473e236cf1676bf7b7e913fbf38bd"
+    },
+    {
+      "file": "FIDAUSDT-1d-2021-12.zip",
+      "sha256": "fe0812a8b1a9942c9b34c50923528efa8367f01db74bf0882ce4b43a13a5c678"
+    },
+    {
+      "file": "FIDAUSDT-1d-2022-01.zip",
+      "sha256": "42552a62b5cde1b7e8545e2d16d45f7c259c72f278a1c3fdaf30ff8d51ee9ac6"
+    },
+    {
+      "file": "FIDAUSDT-1d-2022-02.zip",
+      "sha256": "574983e06779e7239188b3331fa09793c66df549b4faa607ffae87aee6430fbe"
+    },
+    {
+      "file": "FIDAUSDT-1d-2022-03.zip",
+      "sha256": "4fd67f4b5bdcb2c989d2709e50a2784e2408512b4d9a990860fabd444badb295"
+    },
+    {
+      "file": "FIDAUSDT-1d-2022-04.zip",
+      "sha256": "0973353474916a69c3c12c4c9d4176f25092235ced627ce8db5a557c4ef96bf4"
+    },
+    {
+      "file": "FIDAUSDT-1d-2022-05.zip",
+      "sha256": "70fb3ed41fa2b091a0ab2cb311abf8bbecefc9b3025c959bfad8ed275ef0a27a"
+    },
+    {
+      "file": "FIDAUSDT-1d-2022-06.zip",
+      "sha256": "3bacba850cb8b0c3cddcfadb65356c6b522f791d5b4501ec72a3875d34e67967"
+    },
+    {
+      "file": "FIDAUSDT-1d-2022-07.zip",
+      "sha256": "b56ce58a2082d663dcacab91fb4a71508c764abfad652ec1b1a35e6c72b7563d"
+    },
+    {
+      "file": "FIDAUSDT-1d-2022-08.zip",
+      "sha256": "f832558aa1abc2b13cbd32ff72c1f2ec616225c14075e3ddfc11fc6ab55d4b34"
+    },
+    {
+      "file": "FIDAUSDT-1d-2022-09.zip",
+      "sha256": "45aeb17925f391306f17622a2a81c9301d6b22a4ed9cb38cbc16b77903477f18"
+    },
+    {
+      "file": "FIDAUSDT-1d-2022-10.zip",
+      "sha256": "e16029a71e55ef71686345d079729ad928d27f713347cfacfa092c9a7b53c6fa"
+    },
+    {
+      "file": "FIDAUSDT-1d-2022-11.zip",
+      "sha256": "a68c6f20878819b214deabc9233d67103dd7e996bff90234869afa84d6c1038c"
+    },
+    {
+      "file": "FIDAUSDT-1d-2022-12.zip",
+      "sha256": "31a2b21cc5f1806b94a6faea4e9cea7edcf101dd7194f301bb9ac0cca3c4c7ef"
+    },
+    {
+      "file": "FIDAUSDT-1d-2023-01.zip",
+      "sha256": "bdd1343693517089eb58f3b1ffa0206b9650de3d1ce7df146ce6ac5ec7d063d9"
+    },
+    {
+      "file": "FIDAUSDT-1d-2023-02.zip",
+      "sha256": "5518017998746fa3e6ff5f30945f3fffeec9b689e9f539968ff4eb93ec048c14"
+    },
+    {
+      "file": "FIDAUSDT-1d-2023-03.zip",
+      "sha256": "2c4e41368fd2d80994434ac133e473eeb925ad34867cec2bc58aa4a6319d728c"
+    },
+    {
+      "file": "FIDAUSDT-1d-2023-04.zip",
+      "sha256": "b83a407212f46df503341e93c93db919452e3d633010e9e26437341a6aae0d3c"
+    },
+    {
+      "file": "FIDAUSDT-1d-2023-05.zip",
+      "sha256": "3be16eead89069f89d7c7d1a666406d797e239f8c68facb90515d8737ddfa421"
+    },
+    {
+      "file": "FIDAUSDT-1d-2023-06.zip",
+      "sha256": "9069fb4d88357e6d1ae81c0d26a7c050118edf76712080527353467987b68c62"
+    },
+    {
+      "file": "FIDAUSDT-1d-2023-07.zip",
+      "sha256": "c462edd3350c6ead94667143f584c0077a8eca70ed0c00a7c0d53f0ffbdb5cc8"
+    },
+    {
+      "file": "FIDAUSDT-1d-2023-08.zip",
+      "sha256": "e6886cd3abca03aada3a9f27bb361db76c97d4ef716864385de2e1d7e7a0260e"
+    },
+    {
+      "file": "FIDAUSDT-1d-2023-09.zip",
+      "sha256": "5bd0cb613de2ebb78458ac321ee1123378d0557ae302853f9085f91ff0566297"
+    },
+    {
+      "file": "FIDAUSDT-1d-2023-10.zip",
+      "sha256": "e921e9ce7e13ff81e6b4949bdf809293cfd07b0b1aa7b823ec2358dee8b6b387"
+    },
+    {
+      "file": "FIDAUSDT-1d-2023-11.zip",
+      "sha256": "2bb44512478ddb37ba67359f42b194add64b8318c476fe4750ecd2e342ae96fe"
+    },
+    {
+      "file": "FIDAUSDT-1d-2023-12.zip",
+      "sha256": "7a98e3a0d71fef07cc9a99980a398ee3bee6508372875ccd34b626ef19f30b93"
+    },
+    {
+      "file": "FIDAUSDT-1d-2024-01.zip",
+      "sha256": "93a1f0a791db1d967349518446043fc0b417e465181e62c40c41c49c0fdf0fa0"
+    },
+    {
+      "file": "FIDAUSDT-1d-2024-02.zip",
+      "sha256": "2f73efdf357df15aad3397ec25e6af21b2833df777e9d80f8097fcd659b643bc"
+    },
+    {
+      "file": "FIDAUSDT-1d-2024-03.zip",
+      "sha256": "92ce9f08601b1af161f6ec10e967c27bbf163fa9e2aa2e0b587a57624655c8a8"
+    },
+    {
+      "file": "FIDAUSDT-1d-2024-04.zip",
+      "sha256": "ae27ee4c284368e0172e5830b9d24246dd355b076af34495579c4dbc71c620db"
+    },
+    {
+      "file": "FIDAUSDT-1d-2024-05.zip",
+      "sha256": "dd48352097b3eebb89f9f693eb9d472c2851c0c2f242354f447de261e5510f63"
+    },
+    {
+      "file": "FIDAUSDT-1d-2024-06.zip",
+      "sha256": "47565206ec8df84b850837cffe8fbdd14a81f928773d6a56d6bf36a4e738fa51"
+    },
+    {
+      "file": "FIDAUSDT-1d-2024-07.zip",
+      "sha256": "71afe6538017c6acb8f1a0a58b8673000e8bc892cf98c30bf9c75befacc5ac3a"
+    },
+    {
+      "file": "FIDAUSDT-1d-2024-08.zip",
+      "sha256": "ac724c49b6fe5ccc01289516d16493685536761261a59ed334435ee7ff23a606"
+    },
+    {
+      "file": "FIDAUSDT-1d-2024-09.zip",
+      "sha256": "304c06df115a1becd912270de8d1ecb51298aebdf7d40c87a282f67530c08ae0"
+    },
+    {
+      "file": "FIDAUSDT-1d-2024-10.zip",
+      "sha256": "65b3f558409d06a7af704f0483ae3205ee8fa255c8b838bcb1e21e80bd1a3232"
+    },
+    {
+      "file": "FIDAUSDT-1d-2024-11.zip",
+      "sha256": "6358d39b21c39a2face3806bfb508ff45b700dbb502f7d33ccd04d7b98dc6d22"
+    },
+    {
+      "file": "FIDAUSDT-1d-2024-12.zip",
+      "sha256": "0a53c9822824eda043b83dedd5870853fe827df4efd411f9f12647f6f1d1df1f"
+    },
+    {
+      "file": "FIDAUSDT-1d-2025-01.zip",
+      "sha256": "aed6834ce88ed76cabbfa35f172eba49df876bdbb1d09b23db707c7c6b09831a"
+    },
+    {
+      "file": "FIDAUSDT-1d-2025-02.zip",
+      "sha256": "a76df27c21ce2516df412514aa51b3aa9167a6a8b22d4caa87613c4d3d883470"
+    },
+    {
+      "file": "FIDAUSDT-1d-2025-03.zip",
+      "sha256": "79f7127d911aac848d59be7acda2ed10d0e287887505efbbdc8262c943668d50"
+    },
+    {
+      "file": "FIDAUSDT-1d-2025-04.zip",
+      "sha256": "44ee553edf2ca82d5cf4eff99cfdc60bd93176eb9f264d00db7974dea3b08d31"
+    },
+    {
+      "file": "FIDAUSDT-1d-2025-05.zip",
+      "sha256": "7bf43204192c4340ea5730109a35ec46962a8b84931b4255bfa2d094a69284be"
+    },
+    {
+      "file": "FIDAUSDT-1d-2025-06.zip",
+      "sha256": "d0a28309ae18a529b1f76ef8c49483496fb8e6f0397cd1e37daa5e4f08d2b52a"
+    },
+    {
+      "file": "FIDAUSDT-1d-2025-07.zip",
+      "sha256": "01ed9a644b14275c1e3dfea73c9c77e69e80dab41c38bd1a423cca6503aaf3f4"
+    },
+    {
+      "file": "FIDAUSDT-1d-2025-08.zip",
+      "sha256": "a999e3af92d778da2e83f8268fccb625c53458de4b85cd236afca302c9bc0c45"
+    },
+    {
+      "file": "FIDAUSDT-1d-2025-09.zip",
+      "sha256": "ab98b43ba9039d0d986b11f9d2f4731fbaa473b79f991b1ee691fda7b05b517e"
+    },
+    {
+      "file": "FIDAUSDT-1d-2025-10.zip",
+      "sha256": "0fd791b444af7d8eaba4a44e08c694851f35c2d9f1408cd21781ac6f1b84082b"
+    },
+    {
+      "file": "FIDAUSDT-1d-2025-11.zip",
+      "sha256": "3e0fdbb1a00eb52b264bc34d3a7f430f195e4567205aff5c10fb3225fa618fed"
+    },
+    {
+      "file": "FIDAUSDT-1d-2025-12.zip",
+      "sha256": "9c6afe227d46acf4c43fde2a9c56ba056beaff8feb49231f13a5854643d62824"
+    },
+    {
+      "file": "FIDAUSDT-1d-2026-01.zip",
+      "sha256": "caef4319fba275caaddc9bdffd2143665ae76cf098101a1f76c9cee9ba335ebc"
+    },
+    {
+      "file": "FIDAUSDT-1d-2026-02.zip",
+      "sha256": "17c8c70a2b3715dfccf7b2ada6d171cf231251e6c5112ce17342ef83484b25ed"
+    },
+    {
+      "file": "FIDAUSDT-1d-2026-03.zip",
+      "sha256": "067323fe1b7fd2a36dff4ad40f5eb5e857a1b6bf1ab296bf563016baebfc6ed4"
+    },
+    {
+      "file": "FIDAUSDT-1d-2026-04.zip",
+      "sha256": "8c1ff732a809884fe04f681341a81e1b93f0d8f00819877968423fab735634dd"
+    },
+    {
+      "file": "FIDAUSDT-1d-2026-05.zip",
+      "sha256": "ea032ae60db7a1d3fbcf3b2d4cdfe042585f40be8b9b17c488871ef4ba385837"
+    },
+    {
+      "file": "FIDAUSDT-1d-2026-06.zip",
+      "sha256": "cfee75ae09fd06b610eb699504ae213dc7cb579fe4cbbf8ba68faade04020703"
+    },
+    {
+      "file": "FIDAUSDT-1d-2026-07.zip",
+      "sha256": "66d9f09e59cead6ec26a4e342135062cc64f07877e299f295fbfb761eb46ac31"
+    },
+    {
+      "file": "FIDAUSDT-1d-2026-08.zip",
+      "sha256": "1661b8ea2cac955efc3bf670006fcbe7abb6e09ea6044e2105f45c02d6977971"
+    },
+    {
+      "file": "FIDAUSDT-1d-2026-09.zip",
+      "sha256": "a45f389886bafa32701692491d572ca9a12f1ab5dfadb16b52fd5ff495487d06"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

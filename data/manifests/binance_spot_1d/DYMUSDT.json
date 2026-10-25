@@ -1,0 +1,153 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/DYMUSDT/1d/",
+  "instrument": "DYMUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-02-06",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:31:57+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 968,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "DYMUSDT-1d-2024-02.zip",
+      "sha256": "0b20bb78a633bd9157e04c9a65016a9cd88a19ead42f46acbc2e7150035d3d58"
+    },
+    {
+      "file": "DYMUSDT-1d-2024-03.zip",
+      "sha256": "1dce87f1850e06f94dec1ba31e835c91f6a6cce5d9c4153f15221eabce1956f4"
+    },
+    {
+      "file": "DYMUSDT-1d-2024-04.zip",
+      "sha256": "50645eae5f10e63360c45a389946de3d2735f84d61bd35975e1a4ee924209f3d"
+    },
+    {
+      "file": "DYMUSDT-1d-2024-05.zip",
+      "sha256": "9ee110040c20342b6b21914034d4e520d27d52c9b2fb43f41428acce30615cde"
+    },
+    {
+      "file": "DYMUSDT-1d-2024-06.zip",
+      "sha256": "85d1f023312f487d1747b87583bf9c1e4428af3589548a5f458630ccc76d642e"
+    },
+    {
+      "file": "DYMUSDT-1d-2024-07.zip",
+      "sha256": "ebb3e70c0ed19e5176adbfcdefaa3c757a3447cf82ab494bd28233787c1412f0"
+    },
+    {
+      "file": "DYMUSDT-1d-2024-08.zip",
+      "sha256": "892f2d1188678214f956b7fbe47dc58bc259beb7e4329fa67ff8b09f3ea8ff4a"
+    },
+    {
+      "file": "DYMUSDT-1d-2024-09.zip",
+      "sha256": "efb9d6f84c710b21c008babf24f4dfae914d0668b40ddbcb973a54e6d77436a8"
+    },
+    {
+      "file": "DYMUSDT-1d-2024-10.zip",
+      "sha256": "19488bc3170609c7dca577ebaa729bb44fefaf0b8ec60c100bc4331a997b93d0"
+    },
+    {
+      "file": "DYMUSDT-1d-2024-11.zip",
+      "sha256": "fca376b87a5b4044d6605d1047d0ee6394ca3b8bdebd3d797803afa34fc1cfbd"
+    },
+    {
+      "file": "DYMUSDT-1d-2024-12.zip",
+      "sha256": "5f695f672f89ed6b5e01cc9e18191f176e76c969033c1405d8e1b8894c7004c0"
+    },
+    {
+      "file": "DYMUSDT-1d-2025-01.zip",
+      "sha256": "864a41fbd85ffecc357e4ec523f6c6249cc58736e8fc961a54ab1c178f8c01ad"
+    },
+    {
+      "file": "DYMUSDT-1d-2025-02.zip",
+      "sha256": "ef530fef0a5ae54fc5bd69571d87339ecd1cbefc1442dc99a994e4d9badd1c50"
+    },
+    {
+      "file": "DYMUSDT-1d-2025-03.zip",
+      "sha256": "4e57b07dbc3ab30073afff33ac503a4c941018c04d2292b39f48775cc764a0c5"
+    },
+    {
+      "file": "DYMUSDT-1d-2025-04.zip",
+      "sha256": "813d2b6a01a45a0d5e29bfb1069b84057ce9e3ca46cd630b06b33431a6eb3922"
+    },
+    {
+      "file": "DYMUSDT-1d-2025-05.zip",
+      "sha256": "597d919175411c40cce7dbc5837c470234052cb8dee3e2ba13da72042baf8373"
+    },
+    {
+      "file": "DYMUSDT-1d-2025-06.zip",
+      "sha256": "8f1c9417ef1c74f6e6d80d02eb2febfc205863413cbef8a914e91c8bda96716e"
+    },
+    {
+      "file": "DYMUSDT-1d-2025-07.zip",
+      "sha256": "a216972e4059dacf2a9205358ef6f6535376ad10ec4aed09e69d6f00922bcbdc"
+    },
+    {
+      "file": "DYMUSDT-1d-2025-08.zip",
+      "sha256": "55ce5b4ad7a69353fdc8f13e4a696fa7bb8e339365f466fb919ede40356568fd"
+    },
+    {
+      "file": "DYMUSDT-1d-2025-09.zip",
+      "sha256": "ebd011e310af82700e4931a8d2a2dfbea31ac674b12387bce9b314aa53a60ecb"
+    },
+    {
+      "file": "DYMUSDT-1d-2025-10.zip",
+      "sha256": "a6228f4a9ae7d31814cbeb2660d182704c6dfef24de42a7c22cf305635c72be3"
+    },
+    {
+      "file": "DYMUSDT-1d-2025-11.zip",
+      "sha256": "70c4ddd094ef7f8e902ab666c4d726d4384f5fc84105af367ef067d22e629a47"
+    },
+    {
+      "file": "DYMUSDT-1d-2025-12.zip",
+      "sha256": "4cc84adec1f9a53e61a095f1e033fc3eeface386c841a3b76ff0a1c5bc336104"
+    },
+    {
+      "file": "DYMUSDT-1d-2026-01.zip",
+      "sha256": "1c9ac86f73f37fb9a326aa72186b0189822fad0a3306fc9475098571f9e13585"
+    },
+    {
+      "file": "DYMUSDT-1d-2026-02.zip",
+      "sha256": "f14a4a97e9b33f4d4e8ce1dd1857004ddfdc4756a2a0c7aa5e9ac15aa93113c1"
+    },
+    {
+      "file": "DYMUSDT-1d-2026-03.zip",
+      "sha256": "94e373c64c784faed1ff3d378c16369367a7a0d0db71098330a804861d336ce9"
+    },
+    {
+      "file": "DYMUSDT-1d-2026-04.zip",
+      "sha256": "3e7cab329195bfd24b43c609d5bbe79f63abc51dcb975b01f0575e8a54c3d480"
+    },
+    {
+      "file": "DYMUSDT-1d-2026-05.zip",
+      "sha256": "307e50094c0da4ef7dcf068949342a350a7e5fe3795fabf28f7e0c2f7fc46795"
+    },
+    {
+      "file": "DYMUSDT-1d-2026-06.zip",
+      "sha256": "a614525f9002aeb75f58d521f77446801b5e20df6289b386a84429692af6452f"
+    },
+    {
+      "file": "DYMUSDT-1d-2026-07.zip",
+      "sha256": "215974172bac0a364e9b3a1d003cbb36fbf7c8ea7ad700cec24a1dca0865f9cf"
+    },
+    {
+      "file": "DYMUSDT-1d-2026-08.zip",
+      "sha256": "c661494b3905b0d9a37017542288f26b7894eff29251a59562d8c319152db889"
+    },
+    {
+      "file": "DYMUSDT-1d-2026-09.zip",
+      "sha256": "1ed058150c2b0c7008fb3d4b48fd8caf23e1fce3101938c082ad95c608b8436b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

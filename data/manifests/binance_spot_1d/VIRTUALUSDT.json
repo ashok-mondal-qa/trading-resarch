@@ -1,0 +1,97 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/VIRTUALUSDT/1d/",
+  "instrument": "VIRTUALUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-04-11",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:23+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 538,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "VIRTUALUSDT-1d-2025-04.zip",
+      "sha256": "84b7127cdae462672986404d5e50e232ec3404fd8ab0fe3f25fbb9dc62242fa5"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2025-05.zip",
+      "sha256": "7ff2c132636b03588fee1d00d303127ff414289181c80ada5a75c1be6ff6de77"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2025-06.zip",
+      "sha256": "eff4b976521a3e7d5d402a43feb4a3d1a206a79ca2d07e6a3c31cf3f64deac35"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2025-07.zip",
+      "sha256": "9be1304aec66c503daeccd0b40a5fb6431f09b0f219082450606b83a3bb787e1"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2025-08.zip",
+      "sha256": "f5e582d056c444a25d05a1afcbb6b662a53b72779c25dc7f0aef2b93bae1bf8f"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2025-09.zip",
+      "sha256": "f9de0ba8fc6600b4806fbb0cf52364327cd1b79fd0eaee1f101df2cdcb75d3f6"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2025-10.zip",
+      "sha256": "3aecf881b5e660bd048651a7bbdcee551191e360033cafd0060c897b4e07540c"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2025-11.zip",
+      "sha256": "26af886eaa29a901bd8fe4a74250a7d73f0bc54773c286cc8d69b93c3223f059"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2025-12.zip",
+      "sha256": "2f34f14b2d99b8d59bee66a1ba943473e3b1eadcf33d32ce1344cae24d2cbefb"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2026-01.zip",
+      "sha256": "9f1347c3d7c5b6e6a39bf50345ffe5e15ea228c29cadfad6da3198c38becfc59"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2026-02.zip",
+      "sha256": "edab88bf640a0035afd74894fe412ac113daa90dc0a72348be9c9d982a32d7f9"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2026-03.zip",
+      "sha256": "781cbfa1b2b56f9ae74f46836fba5366fe0769d43d4603542fb18c99aaba28db"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2026-04.zip",
+      "sha256": "6f1447d193757289ea7958c82cb81495ba1abecf0be676132d8bec8ddc94ddf0"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2026-05.zip",
+      "sha256": "ea1f2b17a23b4a91d40d470e0ece2b519feaee13333d1d949bcf069efc1dc13b"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2026-06.zip",
+      "sha256": "0e93cf88aee148ebf9b53fcda6882939ef950dfc7a20ba4d41ddd28bf749b489"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2026-07.zip",
+      "sha256": "c7774278004bde2f3ccd34e518518c15aaadb3c96310c3484a5fad39c71d125b"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2026-08.zip",
+      "sha256": "6f663f34f44c9b3c4781b01f9b19ed77e1dc0112a16fde55a9b749c8f7098b91"
+    },
+    {
+      "file": "VIRTUALUSDT-1d-2026-09.zip",
+      "sha256": "f384283f1d490a5c4a48cd13842913f1833ed74888febb9c1171849a7224ccc6"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/FORTHUSDT/1d/",
+  "instrument": "FORTHUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-04-23",
+  "last_bar": "2026-04-01",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:34:08+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1805,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "FORTHUSDT-1d-2021-04.zip",
+      "sha256": "0ebf826baa0bd2192cba8932d70069a18bdc8f4f35a2c6475c25bc5363f919b3"
+    },
+    {
+      "file": "FORTHUSDT-1d-2021-05.zip",
+      "sha256": "b4738896ba51ae19e6e4030723ebbf058136a0ae29b513819133282da7d047e5"
+    },
+    {
+      "file": "FORTHUSDT-1d-2021-06.zip",
+      "sha256": "0c75415e6067d24da755d279a7ee2242a340de5af335b8b7afd9fe854ccb0101"
+    },
+    {
+      "file": "FORTHUSDT-1d-2021-07.zip",
+      "sha256": "b4ee017b185bb6c8a032cb7ba40b2833d889289c8b5b9af297da0f8021604551"
+    },
+    {
+      "file": "FORTHUSDT-1d-2021-08.zip",
+      "sha256": "c525371234e6de017f7e1138c8fe709f5ef147d409410fb4ad6889cdeb1fae10"
+    },
+    {
+      "file": "FORTHUSDT-1d-2021-09.zip",
+      "sha256": "52cb74a9a4a0396e78ea4641c1134ab6a5d6e308fd37a808ca8540d2d58763bb"
+    },
+    {
+      "file": "FORTHUSDT-1d-2021-10.zip",
+      "sha256": "4395291b5bea8f488becabd2ed01a3cd3cbcdfa5d5792625c868e66a28e45a3c"
+    },
+    {
+      "file": "FORTHUSDT-1d-2021-11.zip",
+      "sha256": "e5f8bd37a5572feba25591420db2cda1cde5df8d9813b18c23282f6a4eb28043"
+    },
+    {
+      "file": "FORTHUSDT-1d-2021-12.zip",
+      "sha256": "d9ae972d50406c0e866769eec8cfdb1127c4ca68ec5f461cdbd37346bebbeff0"
+    },
+    {
+      "file": "FORTHUSDT-1d-2022-01.zip",
+      "sha256": "c3bcb20d5cab95e91556c420354d93a1f6f72f110b59dabbc3ebad75ef0d3715"
+    },
+    {
+      "file": "FORTHUSDT-1d-2022-02.zip",
+      "sha256": "9e585e2336e5404a885fe240a20eaf8cff6aa889dba72c0b9771d9798248c430"
+    },
+    {
+      "file": "FORTHUSDT-1d-2022-03.zip",
+      "sha256": "74c1a5b22a8d8a939d8a3945659c42cfde3b9bd5b6d7439e2e7a2e96c3104875"
+    },
+    {
+      "file": "FORTHUSDT-1d-2022-04.zip",
+      "sha256": "0c50510fd82eb1520ab4b3ab947c7cb485df30fb0d8d86d8aa6addff00f01867"
+    },
+    {
+      "file": "FORTHUSDT-1d-2022-05.zip",
+      "sha256": "4aa734b59d34423374a98ec7a6cb475d308a7761ade47842853879be75b3ec1a"
+    },
+    {
+      "file": "FORTHUSDT-1d-2022-06.zip",
+      "sha256": "9804285c965053cc73488ab7f41bd3a222ee859e7514976c495f6ac2978376d5"
+    },
+    {
+      "file": "FORTHUSDT-1d-2022-07.zip",
+      "sha256": "cf176c3664bda11593bec47211d64c523256935beef9e52cb8da9088465762ea"
+    },
+    {
+      "file": "FORTHUSDT-1d-2022-08.zip",
+      "sha256": "b83c8f84b0b562600142c091fb1004652df73e3e771e01469675202cd810d228"
+    },
+    {
+      "file": "FORTHUSDT-1d-2022-09.zip",
+      "sha256": "716a85809746cded3f622b14fae8963b6c7c082881af643c34eda430e97e798d"
+    },
+    {
+      "file": "FORTHUSDT-1d-2022-10.zip",
+      "sha256": "688e12f6b3da5c1820546bbfc4a82dac433e8ec579fd4f7280fe29e8b8c72e5b"
+    },
+    {
+      "file": "FORTHUSDT-1d-2022-11.zip",
+      "sha256": "905a8a6dac83b0c16f460c6d9765ca39a80465674d0846e1764f03a3b26e1eb4"
+    },
+    {
+      "file": "FORTHUSDT-1d-2022-12.zip",
+      "sha256": "9a0853117a0cdbd5f2de8e42fa2ba4ccd9e284dd0e9cdc06d8eda6cb16ae6334"
+    },
+    {
+      "file": "FORTHUSDT-1d-2023-01.zip",
+      "sha256": "a99f4ab27bdb2a9f044fd5e57bcf73165ebf7b91d5248ab177653b26140b13dc"
+    },
+    {
+      "file": "FORTHUSDT-1d-2023-02.zip",
+      "sha256": "78ff14d02d3329740beff207ada073b75deccd0887cc5882ceeef5ba53ece617"
+    },
+    {
+      "file": "FORTHUSDT-1d-2023-03.zip",
+      "sha256": "78ad9bda248b8931c5876da29e00e6d1b1bba237a7000e2c2e9b0448845dcad6"
+    },
+    {
+      "file": "FORTHUSDT-1d-2023-04.zip",
+      "sha256": "cf51ba6eaa96d56db8d8c600c3cd6bb832831c9be407522e65db3ba769b8119c"
+    },
+    {
+      "file": "FORTHUSDT-1d-2023-05.zip",
+      "sha256": "a2bc557a3def920fe9d9c4dce7bf3ef039cc764b90549d75c2fea2551c5a461b"
+    },
+    {
+      "file": "FORTHUSDT-1d-2023-06.zip",
+      "sha256": "a655a2d91b566a865072f754e8850449a1b9d8a6e038167f886be02646441e49"
+    },
+    {
+      "file": "FORTHUSDT-1d-2023-07.zip",
+      "sha256": "30706d61eb76f0ca0dbda64013c17cc628491912bdb8d501328028364d31bd30"
+    },
+    {
+      "file": "FORTHUSDT-1d-2023-08.zip",
+      "sha256": "06e803000bf55d0829d36eccecfe48602c41d1acd2af12f92200e4f65b5fbade"
+    },
+    {
+      "file": "FORTHUSDT-1d-2023-09.zip",
+      "sha256": "ea75a7883d90f60abcbdb73fcfa809c447853f3c0741832f8ec7431d0ee78edb"
+    },
+    {
+      "file": "FORTHUSDT-1d-2023-10.zip",
+      "sha256": "6b24317244698611048761791a247f22dc5410df1c704af3bb32c766b15baecc"
+    },
+    {
+      "file": "FORTHUSDT-1d-2023-11.zip",
+      "sha256": "a832f1ae64cdbdb64b27d775fb4e4fa464e38556847cdcfc2ff4b198e10e0dc0"
+    },
+    {
+      "file": "FORTHUSDT-1d-2023-12.zip",
+      "sha256": "2f31422b3ee73d85be5a466fc43ac989a6e8f89c22229ea858e6da9f7353aade"
+    },
+    {
+      "file": "FORTHUSDT-1d-2024-01.zip",
+      "sha256": "00167b27a774883f98ba578ecb85b9df7f11c8b8e2677b8554422eea29244b55"
+    },
+    {
+      "file": "FORTHUSDT-1d-2024-02.zip",
+      "sha256": "840c4231b5e8c6397db61b65de78bccaf3ebd2568730abd407ebefb2de3b96a3"
+    },
+    {
+      "file": "FORTHUSDT-1d-2024-03.zip",
+      "sha256": "cf274915c93b99d04bb2b9ea2c9090ac0cabdeff9216255a36611565d073c7ea"
+    },
+    {
+      "file": "FORTHUSDT-1d-2024-04.zip",
+      "sha256": "7557941b2a9cd50548d9e9e9170d4d88e6a47eac313a9c710ad80249243237f5"
+    },
+    {
+      "file": "FORTHUSDT-1d-2024-05.zip",
+      "sha256": "b22e3ea8238819483be7b4c8fb8d79015966846c713b7ca9250e9411a1d0121e"
+    },
+    {
+      "file": "FORTHUSDT-1d-2024-06.zip",
+      "sha256": "022d4c0af243c8bbc61c085b500fa5097fa769f0b74edba640e98964bd9eb109"
+    },
+    {
+      "file": "FORTHUSDT-1d-2024-07.zip",
+      "sha256": "5a55bebb25c8a05959a507029cd45499a4abc9462a36e5a6ecc8438a97ce6bbb"
+    },
+    {
+      "file": "FORTHUSDT-1d-2024-08.zip",
+      "sha256": "3cc09013e04fe940e58f8211163fb8a5632c7874573716015fbb2d9f3f77bf16"
+    },
+    {
+      "file": "FORTHUSDT-1d-2024-09.zip",
+      "sha256": "865dbf2a55d8150f44f31bdc41df6f37098286d6fa3315282dc7a5325e2bd762"
+    },
+    {
+      "file": "FORTHUSDT-1d-2024-10.zip",
+      "sha256": "9796878d8757e097a6c73e212b0a3d116e7663bd5aa4e25a8bd0bb2ff5c00515"
+    },
+    {
+      "file": "FORTHUSDT-1d-2024-11.zip",
+      "sha256": "8d02e2f18c184db2fb6fe14f1f8aa9c36407d6e25f6600dcedd337aecc88a809"
+    },
+    {
+      "file": "FORTHUSDT-1d-2024-12.zip",
+      "sha256": "7b22c1929a02033baf19438d43360c27f2ba7de0ceb61537a73c1278fb38a282"
+    },
+    {
+      "file": "FORTHUSDT-1d-2025-01.zip",
+      "sha256": "ccaa7c6215e8cf97a62dcacc25cdda6a1b5555c3042cea389ac1dd4178563178"
+    },
+    {
+      "file": "FORTHUSDT-1d-2025-02.zip",
+      "sha256": "acc4275b89e51a8491e9613bae8044eb2eb2487aadaafdf867e680eaad1ab80c"
+    },
+    {
+      "file": "FORTHUSDT-1d-2025-03.zip",
+      "sha256": "817b3df4339548f58dbf4c88b0dd649837c532a9da6575e4557e86ff00e8214c"
+    },
+    {
+      "file": "FORTHUSDT-1d-2025-04.zip",
+      "sha256": "9e187dbe62984deadf8adbefb9acf5889d8c302a32dc07ec0db5455266ba286d"
+    },
+    {
+      "file": "FORTHUSDT-1d-2025-05.zip",
+      "sha256": "6e82619c77cd52c03e319bf582ae6c6549cdc8e2c0386e67398c2c90398a9f63"
+    },
+    {
+      "file": "FORTHUSDT-1d-2025-06.zip",
+      "sha256": "7fc847233ffa8421477cf742035a7ebd6032e2d72d1c4a05970a7901bad331a4"
+    },
+    {
+      "file": "FORTHUSDT-1d-2025-07.zip",
+      "sha256": "31b2605d1667d019c3d170da9524d39cc1fd0cc3cb35c21be267a38ff2500dca"
+    },
+    {
+      "file": "FORTHUSDT-1d-2025-08.zip",
+      "sha256": "e18f117604f37b5756bd61b21c51d05dcf2db6d7cb8851bd34532ed04ed40e5b"
+    },
+    {
+      "file": "FORTHUSDT-1d-2025-09.zip",
+      "sha256": "6e1f7559fcf979352b3ffe51115f7bf85fcac8d6f0f8fa956a50d7fcc74a562e"
+    },
+    {
+      "file": "FORTHUSDT-1d-2025-10.zip",
+      "sha256": "cca99a79c1a80191e6319f3422fd9eaf6a364db1a1330ee359d9331dddaf0f26"
+    },
+    {
+      "file": "FORTHUSDT-1d-2025-11.zip",
+      "sha256": "4856768e53096f599d617f281d245a86d85e3f486449010f8aa6271632d3808b"
+    },
+    {
+      "file": "FORTHUSDT-1d-2025-12.zip",
+      "sha256": "44027c2f15d18b424676f023e2779d423c63bd001298eabf183b8699bb06f8af"
+    },
+    {
+      "file": "FORTHUSDT-1d-2026-01.zip",
+      "sha256": "5c0ae590243c04a026d518b6a14fbdfb41758861f7b7da2e38c54a66f5e3bd60"
+    },
+    {
+      "file": "FORTHUSDT-1d-2026-02.zip",
+      "sha256": "13c3348b15e2d18cdfcbd428764b636e6287cd5223374a34a2b663fe5f0daacf"
+    },
+    {
+      "file": "FORTHUSDT-1d-2026-03.zip",
+      "sha256": "2d93b54465b9c7da49a5f5a14f9b160ca0f3662839c3735c087eeb89e43e83ea"
+    },
+    {
+      "file": "FORTHUSDT-1d-2026-04.zip",
+      "sha256": "5150ac99665cae962e1f051aa23e41a948a485aa6ce21d1bbf95704ee023c18e"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

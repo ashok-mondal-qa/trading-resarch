@@ -1,0 +1,317 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/STRAXUSDT/1d/",
+  "instrument": "STRAXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-11-18",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:46:40+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2136,
+  "missing_days": [
+    "2024-03-21",
+    "2024-03-22",
+    "2024-03-23",
+    "2024-03-24",
+    "2024-03-25",
+    "2024-03-26",
+    "2024-03-27"
+  ],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "STRAXUSDT-1d-2020-11.zip",
+      "sha256": "8e2de056d542e44183acf75006335c72c52708700a4b80001c4273665ddd045b"
+    },
+    {
+      "file": "STRAXUSDT-1d-2020-12.zip",
+      "sha256": "de8cd8ed6c97a0f4dea0451ded884914a7b351822b345d3a462b7bbe6c0b0e7d"
+    },
+    {
+      "file": "STRAXUSDT-1d-2021-01.zip",
+      "sha256": "006a415d00ccd4bab98bcfa4152d39bd8233259775a26369b26ac10e1a7b930a"
+    },
+    {
+      "file": "STRAXUSDT-1d-2021-02.zip",
+      "sha256": "b3c62a0bcd5325b060010689aa6fc6e8fb8518c57f48159463ec6311e03da670"
+    },
+    {
+      "file": "STRAXUSDT-1d-2021-03.zip",
+      "sha256": "e8bddf267ecacd9043f46adbe34369d436c69dd386ab30afb9fb72fa22f6c6d4"
+    },
+    {
+      "file": "STRAXUSDT-1d-2021-04.zip",
+      "sha256": "fb9b065eea152534c3a4efa08754477eb9bc5955f2ee8361b2119e18ac7d973e"
+    },
+    {
+      "file": "STRAXUSDT-1d-2021-05.zip",
+      "sha256": "bc979f7053cd1f062faac9857d027d9c047567568d66f10e503c4f3c02ac8169"
+    },
+    {
+      "file": "STRAXUSDT-1d-2021-06.zip",
+      "sha256": "ca17b216e857d48fedd85bdfe1d12cef344c8f7d5a8543e68e9236000f443c08"
+    },
+    {
+      "file": "STRAXUSDT-1d-2021-07.zip",
+      "sha256": "fd015123531d651a0af1e075e43276685151fe46d10a6db02ec7250cc8199cce"
+    },
+    {
+      "file": "STRAXUSDT-1d-2021-08.zip",
+      "sha256": "445334b331a5af79a311df468fc8e32a2517df8e17918887528dca16ebddb93c"
+    },
+    {
+      "file": "STRAXUSDT-1d-2021-09.zip",
+      "sha256": "d04f91e8c708718a06802673d94dc0eb2fe8396fd23eb848b86136e1a60ac281"
+    },
+    {
+      "file": "STRAXUSDT-1d-2021-10.zip",
+      "sha256": "4e545fe13c7cacefc92e7f942431ecb6cd184c8e10fd24ecced4e886a3e45ea8"
+    },
+    {
+      "file": "STRAXUSDT-1d-2021-11.zip",
+      "sha256": "ea782635264893e5f05acf45a9f12aa1f78261269d0fd4b3ddb12baf8f0f6016"
+    },
+    {
+      "file": "STRAXUSDT-1d-2021-12.zip",
+      "sha256": "8de44b93d1c81c6aeb236fbf0b9a3e702fddb5ede2079373c554e9ac7f5100b2"
+    },
+    {
+      "file": "STRAXUSDT-1d-2022-01.zip",
+      "sha256": "6e2c208afb5a3b3808ff85cb8b44b03993841005f2348c0943560f6e5b9802d1"
+    },
+    {
+      "file": "STRAXUSDT-1d-2022-02.zip",
+      "sha256": "74d7e514d7614245c686d2bbf5f78284de388a1d7b872f8794212d4d20f446db"
+    },
+    {
+      "file": "STRAXUSDT-1d-2022-03.zip",
+      "sha256": "878499668b8dfbd71c7b8f0146d010edb3dd9e30bde7bb9417701c4a7301a731"
+    },
+    {
+      "file": "STRAXUSDT-1d-2022-04.zip",
+      "sha256": "b6eb094252acd3b03524c46ad2cf6477f3d9edcb32bdf7b95bd87971ec1ace77"
+    },
+    {
+      "file": "STRAXUSDT-1d-2022-05.zip",
+      "sha256": "f50a97aef987d193a0436be4ad1e2db8f15acabe3a7e0cb005717c68f7a7c820"
+    },
+    {
+      "file": "STRAXUSDT-1d-2022-06.zip",
+      "sha256": "40139494caa184bf86550bce72159eec0645afab2a1fe5ea9b3a643cc349a791"
+    },
+    {
+      "file": "STRAXUSDT-1d-2022-07.zip",
+      "sha256": "3d139cc424e806fc1b39878eef07f6f88591e4bc2a2e3b6addfa00204f739a6e"
+    },
+    {
+      "file": "STRAXUSDT-1d-2022-08.zip",
+      "sha256": "77f2c14b238af0fe9151114638648e750679d58ecffa28bb382c54e48be73d9f"
+    },
+    {
+      "file": "STRAXUSDT-1d-2022-09.zip",
+      "sha256": "04d8c5740d90312b9af53c69d041cdd2407563272e33909a59739b1b607b17ac"
+    },
+    {
+      "file": "STRAXUSDT-1d-2022-10.zip",
+      "sha256": "f779a0dcb28afd5b0a6146561755438106317f840b89eac5925357e9ad7dcb74"
+    },
+    {
+      "file": "STRAXUSDT-1d-2022-11.zip",
+      "sha256": "0caf3ab8a829a51bff266b960edc7a59d2c77a05c304311e3b8ac861fa99336a"
+    },
+    {
+      "file": "STRAXUSDT-1d-2022-12.zip",
+      "sha256": "b43efe161b3fb11e4a801a3fcb36f6eac9dbd3e2b50ec0ebf238d6d1a139b782"
+    },
+    {
+      "file": "STRAXUSDT-1d-2023-01.zip",
+      "sha256": "feb9a9214ff56f350c2ab830cf93a6743c9b898e6014d1b24a6446b174e8833b"
+    },
+    {
+      "file": "STRAXUSDT-1d-2023-02.zip",
+      "sha256": "cf49515b2f58f765fb3c3430cdca99431dd3b9bdf52a26268319ec69409ac94e"
+    },
+    {
+      "file": "STRAXUSDT-1d-2023-03.zip",
+      "sha256": "af09898480887565a4a8f294157004573a77e2f0233b35f3d8bf465dd614ffe8"
+    },
+    {
+      "file": "STRAXUSDT-1d-2023-04.zip",
+      "sha256": "8093ad83f3dcc0e54a41c66b76840f6910efb3c08721306f4e6559bd80ee66e5"
+    },
+    {
+      "file": "STRAXUSDT-1d-2023-05.zip",
+      "sha256": "0748348f5caa9db2c16e94aeae15dce7010741f4ad8fe46a242233a83fcffe91"
+    },
+    {
+      "file": "STRAXUSDT-1d-2023-06.zip",
+      "sha256": "93b40e28d9436e618f521ff515b8bbbfc7a32c7924d636d43c88ceff8be546ca"
+    },
+    {
+      "file": "STRAXUSDT-1d-2023-07.zip",
+      "sha256": "3aa68de5391c5dbdb739e7fbcb3be41fcd257e419941a601dea7cf5287bdb9fe"
+    },
+    {
+      "file": "STRAXUSDT-1d-2023-08.zip",
+      "sha256": "b58a74bcde096498d53d30ddd89e52ececbc8f95c119f4299c5fc06c414d946a"
+    },
+    {
+      "file": "STRAXUSDT-1d-2023-09.zip",
+      "sha256": "6a30ae84044003435f997ff542fb6b10d1424b308c43ae4220db8b69afe44337"
+    },
+    {
+      "file": "STRAXUSDT-1d-2023-10.zip",
+      "sha256": "dd45a60f5a3125d6346e56b8b6ab5a552ac510a6f51a28dc5da358b920968241"
+    },
+    {
+      "file": "STRAXUSDT-1d-2023-11.zip",
+      "sha256": "9f40dc17ed39661fd98cc8419ba173ae7c6fd7ed12eb9d46f38120e64bb6e516"
+    },
+    {
+      "file": "STRAXUSDT-1d-2023-12.zip",
+      "sha256": "bf7fdcc47bf41bfa93712814c02e62c4e7f02ae121d9c7c00a740e3346f6aa0f"
+    },
+    {
+      "file": "STRAXUSDT-1d-2024-01.zip",
+      "sha256": "fca9373aef5356111c13f17bf76878e847b0d46086bf749b88e563ce0bf1a249"
+    },
+    {
+      "file": "STRAXUSDT-1d-2024-02.zip",
+      "sha256": "7f1aa05b2767a1372593a22fdf8dfe6eb12c352a2896d1e6bd383cd90af54902"
+    },
+    {
+      "file": "STRAXUSDT-1d-2024-03.zip",
+      "sha256": "c66a55bad72072bc324ee865ec4d558699ee192189edc2ddbe62c64e47885de8"
+    },
+    {
+      "file": "STRAXUSDT-1d-2024-04.zip",
+      "sha256": "c59cdeee7681f1df0b9bcb33f6f08b7edba3c4ec4595176f41d2c7360e24d842"
+    },
+    {
+      "file": "STRAXUSDT-1d-2024-05.zip",
+      "sha256": "2239a7b6c22b230a414c7b3fe2b1c9e241b76960e7b53888d3672a3ab7cf9658"
+    },
+    {
+      "file": "STRAXUSDT-1d-2024-06.zip",
+      "sha256": "b6bbb9946dbdf9ab25e6183b455e9c0ebf573481c5204a874435f4525a0cd98e"
+    },
+    {
+      "file": "STRAXUSDT-1d-2024-07.zip",
+      "sha256": "58c0eca43ca8799b30f3869ef8cc49735090619e95fe648adad9e0cd16a64bb0"
+    },
+    {
+      "file": "STRAXUSDT-1d-2024-08.zip",
+      "sha256": "fd79a90b84e1308590b9d96cdc58c6df402660b5b10dc5c28c7fa483d848867a"
+    },
+    {
+      "file": "STRAXUSDT-1d-2024-09.zip",
+      "sha256": "cb9fed15c0ba5c0f5fc03c95b764f5f0c69b05a14a2f343feb2c91ec8d9fae00"
+    },
+    {
+      "file": "STRAXUSDT-1d-2024-10.zip",
+      "sha256": "148e59efb046e789b10eb649e9f4f703a737744e093f51f5c5cfea7d6bf66162"
+    },
+    {
+      "file": "STRAXUSDT-1d-2024-11.zip",
+      "sha256": "cfa569656769f5edda4d5645091a16a3b9aa5233f76d2a8e46cf972c4c064152"
+    },
+    {
+      "file": "STRAXUSDT-1d-2024-12.zip",
+      "sha256": "5fa1b7090ac2cfd82268e8f6761a77d4b41ac635216564cb06f56087173f78ec"
+    },
+    {
+      "file": "STRAXUSDT-1d-2025-01.zip",
+      "sha256": "1f39b25d385d8670205a1970b0b007513fa13054472528e024bd42023e6e05c3"
+    },
+    {
+      "file": "STRAXUSDT-1d-2025-02.zip",
+      "sha256": "b6791d3b01dd83db6f36223fc28e28e6fdcd90a8b67e8e3625791148897a7b75"
+    },
+    {
+      "file": "STRAXUSDT-1d-2025-03.zip",
+      "sha256": "3ab71f1b8cc45b9a6e153bc610a1d4148b74043cde87ea23b071452588f20515"
+    },
+    {
+      "file": "STRAXUSDT-1d-2025-04.zip",
+      "sha256": "e1e39048c869b6dfda9055878a932bdef3791f53a85d1ff1165fa3f12fdde006"
+    },
+    {
+      "file": "STRAXUSDT-1d-2025-05.zip",
+      "sha256": "70ae68fe635f011dd6b224fba5dc68e05f881dd31c338194b7a43684f2828d4e"
+    },
+    {
+      "file": "STRAXUSDT-1d-2025-06.zip",
+      "sha256": "af050dc42db7f0cf0417bed2d2ce42caf0d9b9eaa9b8278c788fa8cc0c1ea36b"
+    },
+    {
+      "file": "STRAXUSDT-1d-2025-07.zip",
+      "sha256": "b9978e5b8ef9ba091437490a3cc3855edc17e04de3155e6ecf1908f72838a9a4"
+    },
+    {
+      "file": "STRAXUSDT-1d-2025-08.zip",
+      "sha256": "eafcb3934be924510cc1bf7cac60ba4354d87237df6eb50f2dca7fa6709773a3"
+    },
+    {
+      "file": "STRAXUSDT-1d-2025-09.zip",
+      "sha256": "e417dee3a22da39228ec8ff1123e0e9eb7461a17cf7f6126c59fb4ce67867ce6"
+    },
+    {
+      "file": "STRAXUSDT-1d-2025-10.zip",
+      "sha256": "bea981e4090fc5d46ecbe5a6bc8a5ac5a74cc7e3500678f175bf448f7206e9eb"
+    },
+    {
+      "file": "STRAXUSDT-1d-2025-11.zip",
+      "sha256": "cefded9979971c3409ef039f89b039aee9bbb2ec39ed79726ee21711df65d305"
+    },
+    {
+      "file": "STRAXUSDT-1d-2025-12.zip",
+      "sha256": "be5555b20457586bb3c6599605aff651ddbd8321c1ee32ee2c66edfb761b00da"
+    },
+    {
+      "file": "STRAXUSDT-1d-2026-01.zip",
+      "sha256": "2ffc2f53e43bcb0c577fbb6dfd9fa11318f192b7ede33d49cc34beeac085785b"
+    },
+    {
+      "file": "STRAXUSDT-1d-2026-02.zip",
+      "sha256": "292af905b9f1fac664fa10d33bc26261b98055a4e05273a5bb7858f72b334bda"
+    },
+    {
+      "file": "STRAXUSDT-1d-2026-03.zip",
+      "sha256": "5d223a4b2e99ecd07de1b40ea3b760336cb2b8d64b14dc3438e4a6044ef1d5c9"
+    },
+    {
+      "file": "STRAXUSDT-1d-2026-04.zip",
+      "sha256": "8c0d78addedbbe4decce92ee17e4111f75948f5b262195ba4195ce58f87c47d7"
+    },
+    {
+      "file": "STRAXUSDT-1d-2026-05.zip",
+      "sha256": "67720f72115c57d9a638bd1dd0530e8d87635c81c50b43e998650ff9e746aead"
+    },
+    {
+      "file": "STRAXUSDT-1d-2026-06.zip",
+      "sha256": "121d807887bff09c472d2e8b151b58f29d9666b07dc11de14ac9e67c82d2cc38"
+    },
+    {
+      "file": "STRAXUSDT-1d-2026-07.zip",
+      "sha256": "1add505f77484c4e1bf859c41a35b52bba0c95fd40a102361d0a8e8f98b8a937"
+    },
+    {
+      "file": "STRAXUSDT-1d-2026-08.zip",
+      "sha256": "a4f0392f8eccb195e241f29f3d369b09309e5b9838eee04bcff6c4240fa02caa"
+    },
+    {
+      "file": "STRAXUSDT-1d-2026-09.zip",
+      "sha256": "28726850bf1f753213123dda9a9ce8a4d3d94d295630b28fea88878d2c446b1c"
+    }
+  ],
+  "status": "partial",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

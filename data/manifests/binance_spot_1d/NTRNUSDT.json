@@ -1,0 +1,149 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/NTRNUSDT/1d/",
+  "instrument": "NTRNUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-10-10",
+  "last_bar": "2026-04-01",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:42+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 905,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "NTRNUSDT-1d-2023-10.zip",
+      "sha256": "e8746f8b04ba7b39bd42624fdf1c16b0f78eee196c7aaa86a2c0d0ee8f4a4b83"
+    },
+    {
+      "file": "NTRNUSDT-1d-2023-11.zip",
+      "sha256": "ccca3c7b1f5f64fcb23d54c32872f73ebb9a6d95e1fca8706a3af31ffc6fa5c6"
+    },
+    {
+      "file": "NTRNUSDT-1d-2023-12.zip",
+      "sha256": "c38d3cb1413310c490b3e074d5d150a3cd0462909f61d419d7f993c4a43e870a"
+    },
+    {
+      "file": "NTRNUSDT-1d-2024-01.zip",
+      "sha256": "d310c7bf82af4eb7e4a2c056547333445fd0cd7d94262529823a47f3a2693c39"
+    },
+    {
+      "file": "NTRNUSDT-1d-2024-02.zip",
+      "sha256": "cfb46e75dd1dab7864eb14f6cd0eb38e5d40340106f9ae1bf99828f1330bf4d7"
+    },
+    {
+      "file": "NTRNUSDT-1d-2024-03.zip",
+      "sha256": "c0a275d3662d7c84038e2f22ed242164bdd9ffe2d240c54840feb709a3de45e9"
+    },
+    {
+      "file": "NTRNUSDT-1d-2024-04.zip",
+      "sha256": "b05513421f0460722a88ba3c7b951b95c5c866162570f7c9c0c558bb8ec9a2bc"
+    },
+    {
+      "file": "NTRNUSDT-1d-2024-05.zip",
+      "sha256": "4e43f5f195f28f1a05a2c9b6b317d532dd0f47df4f934a0120190e12aa80edf7"
+    },
+    {
+      "file": "NTRNUSDT-1d-2024-06.zip",
+      "sha256": "1f7141cae3df3235cd2741ab28abea99e66f72acce45c015e31ae70e0c1f4d98"
+    },
+    {
+      "file": "NTRNUSDT-1d-2024-07.zip",
+      "sha256": "6471719c2b944503460b9836a1a4073d4c0db53d1d8541031231b471e609ee11"
+    },
+    {
+      "file": "NTRNUSDT-1d-2024-08.zip",
+      "sha256": "3b06e8746cdddbceb44a43663c6938c1815ec915d25e2eeddcb4345cdda1a3d3"
+    },
+    {
+      "file": "NTRNUSDT-1d-2024-09.zip",
+      "sha256": "cd8395d5b4eabad89f8984f69451aff53e9233e711699ef786cb910e7f176f0c"
+    },
+    {
+      "file": "NTRNUSDT-1d-2024-10.zip",
+      "sha256": "313c7ada9760afe414c8c9cd534cd9733e5bdb3ff5548669846a7abd21646550"
+    },
+    {
+      "file": "NTRNUSDT-1d-2024-11.zip",
+      "sha256": "90b06920fa904b849f076e3af60d000d0cba52d4ef25e6c578c8fd1c3cc56ea5"
+    },
+    {
+      "file": "NTRNUSDT-1d-2024-12.zip",
+      "sha256": "40a337839eee49748196c6b4bf7f2502b2e2d9d7372c942a2184d665eb2148e2"
+    },
+    {
+      "file": "NTRNUSDT-1d-2025-01.zip",
+      "sha256": "b9c7e983bcd7a45e779e9f22cf1ba55d7ab4b2d255769ed866d87661f6883de9"
+    },
+    {
+      "file": "NTRNUSDT-1d-2025-02.zip",
+      "sha256": "6066c71a112976bf0af78a336b63778e96a3da5320aff70a07ac21473a5e594e"
+    },
+    {
+      "file": "NTRNUSDT-1d-2025-03.zip",
+      "sha256": "5214381bc905c6dc5379bfd16f9cd20e6ea4c1e37277390a6474022c6c97219f"
+    },
+    {
+      "file": "NTRNUSDT-1d-2025-04.zip",
+      "sha256": "eba6e4edf49d3784a0ee2753ccfdd63eff15de22105e382b6b985f5227e72123"
+    },
+    {
+      "file": "NTRNUSDT-1d-2025-05.zip",
+      "sha256": "bec12cf89abac9ce85680491324f0907e886d21141456435300d7c01afebc271"
+    },
+    {
+      "file": "NTRNUSDT-1d-2025-06.zip",
+      "sha256": "ff1f27037f88a084bcb0236f3c80dd140863bf795df1291361b7ae9ea34a2c51"
+    },
+    {
+      "file": "NTRNUSDT-1d-2025-07.zip",
+      "sha256": "fe298535de3cc4a03aeb5651ebf897a421e78fe7f41a671f385cb9ed4830bb79"
+    },
+    {
+      "file": "NTRNUSDT-1d-2025-08.zip",
+      "sha256": "7204303f679280642944522e9ce4aeb906fec430c5d2ce782286c6d7d68f5b93"
+    },
+    {
+      "file": "NTRNUSDT-1d-2025-09.zip",
+      "sha256": "0dc1aeb1a367ad8da740d345f8f53f4faeaf103905ba5dd737af6f88910d1a92"
+    },
+    {
+      "file": "NTRNUSDT-1d-2025-10.zip",
+      "sha256": "fe01b003dd76a1b1f7373a68da4a70318fd8ec532c4d9fbc66504107da6de59b"
+    },
+    {
+      "file": "NTRNUSDT-1d-2025-11.zip",
+      "sha256": "6bc6125f8e6ede7ac8b57fbbcadec5e8aff10d287681b9ac188664b3a7e600ac"
+    },
+    {
+      "file": "NTRNUSDT-1d-2025-12.zip",
+      "sha256": "9be2989ff6408bdec9fe18717f877436c16c3904a38d1f867ecaefab8891df8e"
+    },
+    {
+      "file": "NTRNUSDT-1d-2026-01.zip",
+      "sha256": "703dc6c32c6bf9d3611b7d93bc2808bb40a71344acdba0cb2231582502022c08"
+    },
+    {
+      "file": "NTRNUSDT-1d-2026-02.zip",
+      "sha256": "0dab0bbb9a33e41b7de09d8f6f5b616ce2524ae06a73970574d235ac74255be6"
+    },
+    {
+      "file": "NTRNUSDT-1d-2026-03.zip",
+      "sha256": "6488840e6b57a506ba4417ce7ce20406c4f104e0f15c7dcdb6488e40eed72eae"
+    },
+    {
+      "file": "NTRNUSDT-1d-2026-04.zip",
+      "sha256": "50a986b10f79e74ad792f46c6874a0e7cf2d1f53959e138148a1ab2f2086ba95"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

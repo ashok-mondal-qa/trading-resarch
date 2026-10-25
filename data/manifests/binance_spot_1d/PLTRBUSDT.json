@@ -1,0 +1,41 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PLTRBUSDT/1d/",
+  "instrument": "PLTRBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-06-30",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:04+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 93,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PLTRBUSDT-1d-2026-06.zip",
+      "sha256": "9d12a5cfdf078541ddbb0d25e7975cdc917f158830d4c57c6920db779fff44e3"
+    },
+    {
+      "file": "PLTRBUSDT-1d-2026-07.zip",
+      "sha256": "89f8697562c079d606aadebac4440a2cd60884589de92a5544d3fce560ff49a9"
+    },
+    {
+      "file": "PLTRBUSDT-1d-2026-08.zip",
+      "sha256": "def66ac5dd0ed856f0ef0158ad70138047527b62eda72c6d28374799347a28b1"
+    },
+    {
+      "file": "PLTRBUSDT-1d-2026-09.zip",
+      "sha256": "a3ba9b1d3bea078a698767688b6cbe6d8e1e4ba861c1ece63af32525597eb38b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

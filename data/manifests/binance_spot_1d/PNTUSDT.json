@@ -1,0 +1,213 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PNTUSDT/1d/",
+  "instrument": "PNTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-06-22",
+  "last_bar": "2024-04-03",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:45+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1382,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PNTUSDT-1d-2020-06.zip",
+      "sha256": "5a0faf6efecb5fa557c070a9e64710145eb7cbba57d77f7ea1aad9f5e062fb1d"
+    },
+    {
+      "file": "PNTUSDT-1d-2020-07.zip",
+      "sha256": "c1e1d3ab29b79fd1bc83bf2e3fb2e4ee29a544b369241b5d543179636d2e79df"
+    },
+    {
+      "file": "PNTUSDT-1d-2020-08.zip",
+      "sha256": "0fbfc6a2ede3c582c32fef57eb64f3ff714941ba862c7aa342e3d5364b69f2b0"
+    },
+    {
+      "file": "PNTUSDT-1d-2020-09.zip",
+      "sha256": "c34c1f06805959781cbd43881b9db7cd49bdb1d81869960daa1aa5643b286f23"
+    },
+    {
+      "file": "PNTUSDT-1d-2020-10.zip",
+      "sha256": "49f9905e6f0b8c95b14f841b48b6022f33306034821157a4e65987ad103de07f"
+    },
+    {
+      "file": "PNTUSDT-1d-2020-11.zip",
+      "sha256": "12084cb1c748d704b20d87ba00d31c31479f6120697ce9d80804b527c9cd1363"
+    },
+    {
+      "file": "PNTUSDT-1d-2020-12.zip",
+      "sha256": "aded7372c19794ce2f9c4524ceba183b1d20c63ecfa524766d429492c20ac7af"
+    },
+    {
+      "file": "PNTUSDT-1d-2021-01.zip",
+      "sha256": "00a9bbe80953788c1135e766cf93f1946a946819289e932806464afbb3e43d51"
+    },
+    {
+      "file": "PNTUSDT-1d-2021-02.zip",
+      "sha256": "5bbf6c6222067b83fec5503da0779367ea68a389e2ea6ac8078dcab47c5d127e"
+    },
+    {
+      "file": "PNTUSDT-1d-2021-03.zip",
+      "sha256": "79ad9ae15fe5daecc93bbaee1e6b81cac39871c07ba2886d6c15dfa312acc05f"
+    },
+    {
+      "file": "PNTUSDT-1d-2021-04.zip",
+      "sha256": "df5be55ec705b3950b49868117fe9869524b6d830aefe876f0f994efd656132a"
+    },
+    {
+      "file": "PNTUSDT-1d-2021-05.zip",
+      "sha256": "e44a8c84edcd807b454447dc1d35ecf35b135e543af562a30169dabf88dd53dd"
+    },
+    {
+      "file": "PNTUSDT-1d-2021-06.zip",
+      "sha256": "521129bc0fc651bca440bc4b60699c9d03ed908018b2e4eeef057ea08b4c4eba"
+    },
+    {
+      "file": "PNTUSDT-1d-2021-07.zip",
+      "sha256": "bca172b5109b4b9ba95fcaeb65934da1d7845371211fdc73b393568f3778e662"
+    },
+    {
+      "file": "PNTUSDT-1d-2021-08.zip",
+      "sha256": "81d39d00eebd21175b6378c18e9397c2d55cd5747e819c13d5362a8161a21826"
+    },
+    {
+      "file": "PNTUSDT-1d-2021-09.zip",
+      "sha256": "a07e6e0168068018f63a8593a39073c42f17ecd7867a95a4eaa7cfa987d68842"
+    },
+    {
+      "file": "PNTUSDT-1d-2021-10.zip",
+      "sha256": "e3c0de848f95b2c8c61e54a3f1023f5ed1a4117b5ee2ec5f858ef398cc8cfc14"
+    },
+    {
+      "file": "PNTUSDT-1d-2021-11.zip",
+      "sha256": "8f94c54cb6cfd717cd2e6d5e02da5d7ad68e70f3824a485e4ce977e7e07c1f05"
+    },
+    {
+      "file": "PNTUSDT-1d-2021-12.zip",
+      "sha256": "17d58cce621f0d231fda997e2f85ada4b0ca9e9e2814e41761c17e4e98374d18"
+    },
+    {
+      "file": "PNTUSDT-1d-2022-01.zip",
+      "sha256": "d7f7f30ada3d502d720159c737cd741db10d23ddbbd6291605ff2ca3254c9bed"
+    },
+    {
+      "file": "PNTUSDT-1d-2022-02.zip",
+      "sha256": "c363b5deecc401ef5fcf836c6024b4e80012d7fc8ec3a0a304c3c755e611d46f"
+    },
+    {
+      "file": "PNTUSDT-1d-2022-03.zip",
+      "sha256": "eab230800a04bc08ca6c011148d2cf8d1a294747144c965acfaa31befa4dc58b"
+    },
+    {
+      "file": "PNTUSDT-1d-2022-04.zip",
+      "sha256": "4b473c2720edbd0b08050fc23455fd8b09de4764dad990ffc08a65c875145eeb"
+    },
+    {
+      "file": "PNTUSDT-1d-2022-05.zip",
+      "sha256": "cc4bd6e04b5438a2918107139fb51f3bfeba277ec7e39a97b22774349eda775d"
+    },
+    {
+      "file": "PNTUSDT-1d-2022-06.zip",
+      "sha256": "301ac43373cf911a54ac5015e9b705e99e24ba8be4f98ff7228cb2021139ac69"
+    },
+    {
+      "file": "PNTUSDT-1d-2022-07.zip",
+      "sha256": "614ccbf313d807e50142839792b28551d35ff910e141ccdd79e91600754af998"
+    },
+    {
+      "file": "PNTUSDT-1d-2022-08.zip",
+      "sha256": "fa9095eed1b543c724e2c9724864ba38956647c1f39d23ff50565e2404e6348c"
+    },
+    {
+      "file": "PNTUSDT-1d-2022-09.zip",
+      "sha256": "bc8b4ba8e249caf2a620dc53bb111b8efda4cc0190f549a2b98c4192b2fd4539"
+    },
+    {
+      "file": "PNTUSDT-1d-2022-10.zip",
+      "sha256": "08d741c36fcfd71103423408cab5a29192d18d75d5edc6ee542af5115a4a0786"
+    },
+    {
+      "file": "PNTUSDT-1d-2022-11.zip",
+      "sha256": "7ffda000ba59b354f46d3bf542ae0daf98a9432d9f3a2dac27ec4abd8f132843"
+    },
+    {
+      "file": "PNTUSDT-1d-2022-12.zip",
+      "sha256": "f045d05eb66f279fdd6a342b01cf3a4076f02a2ad0a83b4c8a57f45669caf614"
+    },
+    {
+      "file": "PNTUSDT-1d-2023-01.zip",
+      "sha256": "933dfd03ffbfc56db2e0303bbc83148abc3fdaf282ca3e0f6538b407d0bdd016"
+    },
+    {
+      "file": "PNTUSDT-1d-2023-02.zip",
+      "sha256": "f2b7963e6098f3b24a67b81f9aa6534a364ee0d2e2f4faafac162aadf09977e3"
+    },
+    {
+      "file": "PNTUSDT-1d-2023-03.zip",
+      "sha256": "986d70964535c55d55d61b976696bf6df6ca4a129bd0027e2160089ec0d18afb"
+    },
+    {
+      "file": "PNTUSDT-1d-2023-04.zip",
+      "sha256": "b00b772c5726e5b4a3e990e10a5049b31f27f7ea5fb71103faf1a225dcfa6060"
+    },
+    {
+      "file": "PNTUSDT-1d-2023-05.zip",
+      "sha256": "2ce269fb71e7ca31a0997c9fea08a1372d92663b9ab479668be79c66f3b6a70a"
+    },
+    {
+      "file": "PNTUSDT-1d-2023-06.zip",
+      "sha256": "0ace87f5b248e05764bdf35990e7bc732eac5d6b51fd3438f93d2df95d1b9409"
+    },
+    {
+      "file": "PNTUSDT-1d-2023-07.zip",
+      "sha256": "87acb6a5f1a00b4dfba7fc95a8242078b0706ff8c3d4a349c5d4d056f215c915"
+    },
+    {
+      "file": "PNTUSDT-1d-2023-08.zip",
+      "sha256": "a4dbacf3bc6f18d9a5c47efeb20d7616c6731c592f61cde18803a10d7b0b816a"
+    },
+    {
+      "file": "PNTUSDT-1d-2023-09.zip",
+      "sha256": "3404d689f4e77ea82c2af4ae73315633e219cb06a243c4f4c5663beeede49832"
+    },
+    {
+      "file": "PNTUSDT-1d-2023-10.zip",
+      "sha256": "6299d9bee50fd5edea895cdc71a3c6e15631ea65eecda28fcb3183bf7ad6ec7e"
+    },
+    {
+      "file": "PNTUSDT-1d-2023-11.zip",
+      "sha256": "1fc178f7ab22862cfba7ad9695ed42ad8cadfb997352005e2d949c774906ea20"
+    },
+    {
+      "file": "PNTUSDT-1d-2023-12.zip",
+      "sha256": "a67312e8cb1fd18b14e7c1f59f2205101a6a1c5112ee5d4cd3f8fe3f3d226a9c"
+    },
+    {
+      "file": "PNTUSDT-1d-2024-01.zip",
+      "sha256": "fcf4da6a7c0b9288417adcdf2bdfca99d7e5a9c32e944ef495b865c74f97f8f4"
+    },
+    {
+      "file": "PNTUSDT-1d-2024-02.zip",
+      "sha256": "3e9956e347ce7b526dc4ccb5fa90c5c2d95bb6ace1a7b5e1c500e6afbcf0929d"
+    },
+    {
+      "file": "PNTUSDT-1d-2024-03.zip",
+      "sha256": "3ea6f099b03a9a051ed1e887c3ff7c8c15a4c4b5c0d5509adf0e527a98e98e25"
+    },
+    {
+      "file": "PNTUSDT-1d-2024-04.zip",
+      "sha256": "ab72bccb6e118ecf1f4709cdeb61f3a198d8676304388cfff0f903027bdda020"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

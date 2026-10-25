@@ -1,0 +1,53 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/OPNUSDT/1d/",
+  "instrument": "OPNUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-03-05",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:41:16+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 210,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "OPNUSDT-1d-2026-03.zip",
+      "sha256": "533790b2438cdcc447514e2e54d7bf74f306835898b9cc40109c18f689c6f859"
+    },
+    {
+      "file": "OPNUSDT-1d-2026-04.zip",
+      "sha256": "4a09e01f4e9d28b8ad0c1bc37602f3cfdeacfde66e174f45a5b68a257eb27dcd"
+    },
+    {
+      "file": "OPNUSDT-1d-2026-05.zip",
+      "sha256": "f9a64a16317395fdf2b46d072d68d97b0a98949aaa8e1b2015791529769bb97f"
+    },
+    {
+      "file": "OPNUSDT-1d-2026-06.zip",
+      "sha256": "3ab760c18bc8a0964881791267f5747d6a246354b7656f6d61ddb87bb4f08458"
+    },
+    {
+      "file": "OPNUSDT-1d-2026-07.zip",
+      "sha256": "de9b1863381ebea143bf6c4398b28fef69437074664cc8ba98291ab374aaa213"
+    },
+    {
+      "file": "OPNUSDT-1d-2026-08.zip",
+      "sha256": "bc65589f9a570d0de704e38d5ab1ac769314aea0a2d2240fc5977d8b64bb59b5"
+    },
+    {
+      "file": "OPNUSDT-1d-2026-09.zip",
+      "sha256": "04dc4f18e97b7e9aae0c1e9fdb4d348925b6675d486b4c81497ec7fda1f641f7"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

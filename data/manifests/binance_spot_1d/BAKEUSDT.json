@@ -1,0 +1,241 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BAKEUSDT/1d/",
+  "instrument": "BAKEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-04-30",
+  "last_bar": "2025-09-17",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:27:36+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1602,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BAKEUSDT-1d-2021-04.zip",
+      "sha256": "043f303f120cf14ad31466963af904d895c5adc1ab6259e11064f98977912c4f"
+    },
+    {
+      "file": "BAKEUSDT-1d-2021-05.zip",
+      "sha256": "b3bf8775ecff90daa1ba9ec88b5c46b88f82526a67b72c4cde52c03bb5a7daf1"
+    },
+    {
+      "file": "BAKEUSDT-1d-2021-06.zip",
+      "sha256": "46443f2baa6b6446eb5f9030438e039aab1eb39e4e3007a24b8abe884fda192d"
+    },
+    {
+      "file": "BAKEUSDT-1d-2021-07.zip",
+      "sha256": "1ec447f5d040a4947d1c11ba9009840ef2fa7052496e038ea485eea4bcae416f"
+    },
+    {
+      "file": "BAKEUSDT-1d-2021-08.zip",
+      "sha256": "322a655b374f2e25a661034c6723c9af760987867e77d03486dbf669e2622892"
+    },
+    {
+      "file": "BAKEUSDT-1d-2021-09.zip",
+      "sha256": "a817d54c08ac1872b50abf168cfae9117629b6460f6dafb806f7574cd52d67de"
+    },
+    {
+      "file": "BAKEUSDT-1d-2021-10.zip",
+      "sha256": "29bef03eb2a838d6676826689455a1c57aaae720e263f51df98ad1478cfc2205"
+    },
+    {
+      "file": "BAKEUSDT-1d-2021-11.zip",
+      "sha256": "4ab639eea0152f923efd44678dc486d927c04654a4fbd5f7fe1b2e9fe3e61db0"
+    },
+    {
+      "file": "BAKEUSDT-1d-2021-12.zip",
+      "sha256": "b75092d592c657d1f2176dc763edaf07415b9e4dd66c501517b72b2a9bcacdcb"
+    },
+    {
+      "file": "BAKEUSDT-1d-2022-01.zip",
+      "sha256": "a1b1dd2f8419d63290fc93213bea434251806b7b606b0f4a20ec9054e1697640"
+    },
+    {
+      "file": "BAKEUSDT-1d-2022-02.zip",
+      "sha256": "05baafba49c909f5eacd38fc96f24fe0815c98d82dde53777ccb80bf1c8f9e84"
+    },
+    {
+      "file": "BAKEUSDT-1d-2022-03.zip",
+      "sha256": "99fe6c817ef1b94a226e677e78cb9ddb6e2c31c57a3d3f9114f1b470b32ac72c"
+    },
+    {
+      "file": "BAKEUSDT-1d-2022-04.zip",
+      "sha256": "15de406bb0dcd83c14bed1dd26037a32858348fe9227f0796743e8aef776a46a"
+    },
+    {
+      "file": "BAKEUSDT-1d-2022-05.zip",
+      "sha256": "6c939fe297a80ed4fcb1e8b7d49eb7539cf2c45c67f6e7a6f7e6381e09d652c3"
+    },
+    {
+      "file": "BAKEUSDT-1d-2022-06.zip",
+      "sha256": "1f007dbf2a701437a3983732e60b8c8a4f0cf716a09c06a820411f819432f8f4"
+    },
+    {
+      "file": "BAKEUSDT-1d-2022-07.zip",
+      "sha256": "e67d73541930764886ca2addac4edf82a9841d319a2dfdf4083cdd3f60ed7939"
+    },
+    {
+      "file": "BAKEUSDT-1d-2022-08.zip",
+      "sha256": "8fdb516c9053b5250d6593609aef73a441e7e4fec0c15d804d07d04c66bacdaa"
+    },
+    {
+      "file": "BAKEUSDT-1d-2022-09.zip",
+      "sha256": "250eb31c2b832669d29a3071e3ed8037e2b3f4db7bf8b6a099c765f1a6fbc5c3"
+    },
+    {
+      "file": "BAKEUSDT-1d-2022-10.zip",
+      "sha256": "024d648fa43f8506627c6ee5940d2238c09e2eeaf33f7ae51e47f26c6388324b"
+    },
+    {
+      "file": "BAKEUSDT-1d-2022-11.zip",
+      "sha256": "4a9b75c8c9af92cf87a698b984206d27b15b538ab716bcbbc178b8bd58597c4b"
+    },
+    {
+      "file": "BAKEUSDT-1d-2022-12.zip",
+      "sha256": "8ccfb998f16da8b7ffea9eed36a2769710b110bb22b77d77c372e079e067307e"
+    },
+    {
+      "file": "BAKEUSDT-1d-2023-01.zip",
+      "sha256": "d86819d3937e66b8d8c8460019d40da82b7b7fe2f835bb480fe2bbc5fd341e5e"
+    },
+    {
+      "file": "BAKEUSDT-1d-2023-02.zip",
+      "sha256": "886cf7228dd0f2eed1264aaebfb6731f790a0a53a2230cef37a5ae39e3b28262"
+    },
+    {
+      "file": "BAKEUSDT-1d-2023-03.zip",
+      "sha256": "00391eba5b67d7a20bf564001ef92c6d4e7357f0dba4b8e5db4e94801d3a28b5"
+    },
+    {
+      "file": "BAKEUSDT-1d-2023-04.zip",
+      "sha256": "a3802995dffed9786f61eccdf72ff4c013c26eaa199a4c383c150bd328505888"
+    },
+    {
+      "file": "BAKEUSDT-1d-2023-05.zip",
+      "sha256": "877e89f6a3888bc17ec2df2932699ee8b95ed964ddd84283dd324cdbfd3d0340"
+    },
+    {
+      "file": "BAKEUSDT-1d-2023-06.zip",
+      "sha256": "5210c1859356f285a8a319044d96197d21bf9cbdc3548c585aef3ab5b4659562"
+    },
+    {
+      "file": "BAKEUSDT-1d-2023-07.zip",
+      "sha256": "28dd792beb8f004b55120c91c269fbb35b5b16de4193f0de309300e315827196"
+    },
+    {
+      "file": "BAKEUSDT-1d-2023-08.zip",
+      "sha256": "db84fdebf9e987f6a3987a0fa28ccd4819e99457d641e897e185dd005267c78b"
+    },
+    {
+      "file": "BAKEUSDT-1d-2023-09.zip",
+      "sha256": "997a79a8e17bdb38970bc457af789bde31baa050a33bc687e6129e91cf2aaf39"
+    },
+    {
+      "file": "BAKEUSDT-1d-2023-10.zip",
+      "sha256": "f70df7426881278c4773bbe44cf7bd84b1bdf472a07c8c2b4b84cf21bfe3544f"
+    },
+    {
+      "file": "BAKEUSDT-1d-2023-11.zip",
+      "sha256": "d4d68c88961ad2cbc5d9fa15c91b14791017197beace8d61c951d64f28eaed55"
+    },
+    {
+      "file": "BAKEUSDT-1d-2023-12.zip",
+      "sha256": "facb58a02305105657821e204f1349cd5545007fac380407e5b64aa7b32833e1"
+    },
+    {
+      "file": "BAKEUSDT-1d-2024-01.zip",
+      "sha256": "c52c961b94f65a91801a3016b01e9db4511e22f264f6e1f23720d0ec9b15452f"
+    },
+    {
+      "file": "BAKEUSDT-1d-2024-02.zip",
+      "sha256": "1d017487f941f9c85ea1ba208585843101430fd278b9675c8c932f1917acf518"
+    },
+    {
+      "file": "BAKEUSDT-1d-2024-03.zip",
+      "sha256": "c957d6adb7501395c65729b0d4b166cbc6067971767da1764f93ecebcd8b6039"
+    },
+    {
+      "file": "BAKEUSDT-1d-2024-04.zip",
+      "sha256": "a31c10a3277d94321e29791573f8b6b08358cf5f4558ef611338029cf4c446d2"
+    },
+    {
+      "file": "BAKEUSDT-1d-2024-05.zip",
+      "sha256": "06c2765a963fd6e02b872383cc0058c48e2a7e855d1cd15684b0caed7492bb48"
+    },
+    {
+      "file": "BAKEUSDT-1d-2024-06.zip",
+      "sha256": "f35837399e42362989532d3f183037d0079c9a900f2b1895f08799a297428d8e"
+    },
+    {
+      "file": "BAKEUSDT-1d-2024-07.zip",
+      "sha256": "a405f5442dc229269e7497c60931b7ad4ef3e33c78ebb6df2a7312f77b74bf2d"
+    },
+    {
+      "file": "BAKEUSDT-1d-2024-08.zip",
+      "sha256": "3c0064997d8412600a8cc88cf79db661f5f3d1b1fa3d00e0973532a8d18616f6"
+    },
+    {
+      "file": "BAKEUSDT-1d-2024-09.zip",
+      "sha256": "8b8e47ed5aaf0bf0d3a6100f01e1eeb70e664701b68f44700355f9f79228a5c7"
+    },
+    {
+      "file": "BAKEUSDT-1d-2024-10.zip",
+      "sha256": "357cd41fced87614c400b46c58849e227e221795610bba0033babf79d76fefe5"
+    },
+    {
+      "file": "BAKEUSDT-1d-2024-11.zip",
+      "sha256": "b916570b7207e086587adf7c04a0ba0a1a378d180f4b40786508282da5cbacba"
+    },
+    {
+      "file": "BAKEUSDT-1d-2024-12.zip",
+      "sha256": "6051170a5842e99fced9e9ba1f7d07e15c0af075ca98e2220cc6acaf8da94473"
+    },
+    {
+      "file": "BAKEUSDT-1d-2025-01.zip",
+      "sha256": "68e4d9f16dc068259dc7e6c44be6f29def32ee3f48b35552658ac01a6f202aca"
+    },
+    {
+      "file": "BAKEUSDT-1d-2025-02.zip",
+      "sha256": "5bdaf3634dc2b0b482d0895a933d0c952d944a489bd1f4511423b5d509bc58e5"
+    },
+    {
+      "file": "BAKEUSDT-1d-2025-03.zip",
+      "sha256": "95e49b28541b1a6bcd6e4ea532668dc37c3c13275b9444a0f619864f9fac74bc"
+    },
+    {
+      "file": "BAKEUSDT-1d-2025-04.zip",
+      "sha256": "f7175b04df32163998b4243cb27a8214925c2bfc98c4847dec54989499ae5d9e"
+    },
+    {
+      "file": "BAKEUSDT-1d-2025-05.zip",
+      "sha256": "913523d5441f1d619b976ea45d12ba45cf8709607db8a09f9b84fe340cb5737a"
+    },
+    {
+      "file": "BAKEUSDT-1d-2025-06.zip",
+      "sha256": "cecdc6d01bea4f0b4ac881978a491d5cdf47fe75a7e2977615ff32a155d45d6a"
+    },
+    {
+      "file": "BAKEUSDT-1d-2025-07.zip",
+      "sha256": "56c039d7e40cea97549921c19cbd97580cfec1d56b2316663ba67bab9fb62f04"
+    },
+    {
+      "file": "BAKEUSDT-1d-2025-08.zip",
+      "sha256": "f8e37b8efef1bb93de4e79c04da272d906e572de4900f311329a1d4520751069"
+    },
+    {
+      "file": "BAKEUSDT-1d-2025-09.zip",
+      "sha256": "ff6004fb90bbfe2a1b57ee291c05acd4c0867426283b96812b04c11625d88d37"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

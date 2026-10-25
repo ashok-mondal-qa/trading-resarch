@@ -1,0 +1,137 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/VIBUSDT/1d/",
+  "instrument": "VIBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-02-24",
+  "last_bar": "2025-05-02",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:24+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 799,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "VIBUSDT-1d-2023-02.zip",
+      "sha256": "cf655c03f1e25475cf70802a5a984563f94cac1889a2a67a7f9fc45744005c1a"
+    },
+    {
+      "file": "VIBUSDT-1d-2023-03.zip",
+      "sha256": "0b6eead1ad9cd1d2209871a2ed993fbde00829181ce500a74f261714289e8ccb"
+    },
+    {
+      "file": "VIBUSDT-1d-2023-04.zip",
+      "sha256": "f39290bf80c4193b4233c268856c320dcfa95373763e932af72b67c33ee6b62c"
+    },
+    {
+      "file": "VIBUSDT-1d-2023-05.zip",
+      "sha256": "ad578ebaad8dfde722d98c913f2fc0ce52d40ae34ff8691ebdfd245a5430077d"
+    },
+    {
+      "file": "VIBUSDT-1d-2023-06.zip",
+      "sha256": "26f56ee8ce7bcfffbc8479e5a470186d927d26a945e3d2adc2981431adb69d95"
+    },
+    {
+      "file": "VIBUSDT-1d-2023-07.zip",
+      "sha256": "a6990d52c28f4a4d61e190a70f4c89fc2d4b2864f5d3c3cd552634001f76f219"
+    },
+    {
+      "file": "VIBUSDT-1d-2023-08.zip",
+      "sha256": "9095fca8c055d9c7fdf0e9953f876daaab96210282d13e7e037646b3d22a59a8"
+    },
+    {
+      "file": "VIBUSDT-1d-2023-09.zip",
+      "sha256": "85caeb7504c91cbc696a4676929e0f977b5aced78680e98f82938d0a45da105d"
+    },
+    {
+      "file": "VIBUSDT-1d-2023-10.zip",
+      "sha256": "f74a3b2765fe24bdfeaf9589f879b9fafb18def83d7812f56ceb7c7f1fa52ff3"
+    },
+    {
+      "file": "VIBUSDT-1d-2023-11.zip",
+      "sha256": "b70cb7469cdbf79faf299f55fb5f9ae54b8a5dc9f0fa6ad7c60f2259f9620b9d"
+    },
+    {
+      "file": "VIBUSDT-1d-2023-12.zip",
+      "sha256": "11742c25811fba3315883898a8944d2ef510ef9fffe06dbeccec40cd956bcc60"
+    },
+    {
+      "file": "VIBUSDT-1d-2024-01.zip",
+      "sha256": "2e35508a15f3bf05d2df683f0e2a03b221aa915855f417f6176613119bda71ed"
+    },
+    {
+      "file": "VIBUSDT-1d-2024-02.zip",
+      "sha256": "31d714554023668f431ee7f232844bcf0a6aeeda845d8d13278b421b205cbff2"
+    },
+    {
+      "file": "VIBUSDT-1d-2024-03.zip",
+      "sha256": "d6c0ac7a2b492c145c122452b7faadd9f79aa6f53029b8ae7e7e5c2e70b9cc32"
+    },
+    {
+      "file": "VIBUSDT-1d-2024-04.zip",
+      "sha256": "6c2eb2c28f1906351e8d34ca74980b2b31928ac955f3f06abc388415c68714b7"
+    },
+    {
+      "file": "VIBUSDT-1d-2024-05.zip",
+      "sha256": "462d512e6110bcb5b1d7211b4df52db3531e2919248d20e6efceff2d76e85525"
+    },
+    {
+      "file": "VIBUSDT-1d-2024-06.zip",
+      "sha256": "235c1576d3f22511a67eec9868b0d42c6d47bdf7ff5bba3a10f46083b051f145"
+    },
+    {
+      "file": "VIBUSDT-1d-2024-07.zip",
+      "sha256": "ad609302b8c92b8def2a823ac814bc4d406a3965789aa0c3ed6d652d2e32ff14"
+    },
+    {
+      "file": "VIBUSDT-1d-2024-08.zip",
+      "sha256": "126ae473c95905010863997f3ec9a25f75924483aae4bb2e3d5c20c619a0a6a6"
+    },
+    {
+      "file": "VIBUSDT-1d-2024-09.zip",
+      "sha256": "61eb16d4b31b3b7f24f786a24230aa2ec9dafb7784e3dc7419af782a9def9adc"
+    },
+    {
+      "file": "VIBUSDT-1d-2024-10.zip",
+      "sha256": "069f6ac0fc67dbf79b7f4a85d395486873f8082af8a28f83e88aefcd1474334a"
+    },
+    {
+      "file": "VIBUSDT-1d-2024-11.zip",
+      "sha256": "ace07140ce54e987634226fdceb80e32b8a161f9271006f04085042f80ba1889"
+    },
+    {
+      "file": "VIBUSDT-1d-2024-12.zip",
+      "sha256": "57bdacc80ff7cf09d0e4ef6c21d37ab64c19f0b74e7319e3c5e2dbce2fd1b366"
+    },
+    {
+      "file": "VIBUSDT-1d-2025-01.zip",
+      "sha256": "5c7d745a7b2206df4f5f9cee0fa1a6614b2fbe225ab7618998adeb6b5999d5de"
+    },
+    {
+      "file": "VIBUSDT-1d-2025-02.zip",
+      "sha256": "eb3632bd1809f0099a2dae5d59c48e86eece61484074efbfcc59dba77b0baeca"
+    },
+    {
+      "file": "VIBUSDT-1d-2025-03.zip",
+      "sha256": "f21e2e20ce3f15765af5ef9a365b267aa87edd380384c4c3b5f8c4dec6925319"
+    },
+    {
+      "file": "VIBUSDT-1d-2025-04.zip",
+      "sha256": "3ac9c12bc038cc6f7f5c7b8de9d68d3fbfff2b01db4628f15adda73361a96058"
+    },
+    {
+      "file": "VIBUSDT-1d-2025-05.zip",
+      "sha256": "fa09de199d19b4ae90ccbbe9ef1d54c120247fb11f7a56fc8f2d3362b104ba11"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}
