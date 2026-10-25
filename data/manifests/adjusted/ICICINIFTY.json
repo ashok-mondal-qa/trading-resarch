@@ -5,10 +5,10 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-24T21:06:06+00:00",
-  "first_bar": "2015-01-01",
+  "actions_retrieved_at_utc": "2026-10-25T02:55:38+00:00",
+  "first_bar": "2013-04-05",
   "last_bar": "2023-12-19",
-  "bars": 2215,
+  "bars": 2587,
   "symbol_links": [
     {
       "old_symbol": "NIFTYIWIN",
@@ -26,11 +26,11 @@
       "old_symbol": "NIFETF",
       "new_symbol": "INIFTY",
       "effective_date": "2014-05-05",
-      "status": "before loaded range"
+      "status": "confirmed"
     }
   ],
-  "valid_from": "2015-01-01",
+  "valid_from": "2013-04-05",
   "price_events_applied": [],
   "issues": [],
-  "generated_at_utc": "2026-10-24T21:31:48+00:00"
+  "generated_at_utc": "2026-10-25T03:22:41+00:00"
 }

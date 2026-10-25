@@ -1,6 +1,7 @@
 # Weekly 12-1 momentum and gap-up drift (long only) — spec v0.1
 
-Status: **pre-registered, not run** (written and committed before any backtest of these rules).
+Status: **both REJECTED** (EXP-0014, EXP-0015, run 2026-10-25); holdout not run. See
+`reports/backtests/EXP-0014-0015-report.md`. The rules below were committed before any run (943972f).
 Code: `src/trading_research/strategies/swing_ideas2.py`, runner `src/trading_research/backtesting/run_swing_ideas2.py`.
 Registry: EXP-0014 (`momentum_weekly`), EXP-0015 (`gap_drift`). Nothing here is evidence of an edge.
 

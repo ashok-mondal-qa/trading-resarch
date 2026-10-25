@@ -5,10 +5,10 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-24T21:28:53+00:00",
-  "first_bar": "2015-01-01",
+  "actions_retrieved_at_utc": "2026-10-25T03:19:25+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 2914,
+  "bars": 3618,
   "symbol_links": [
     {
       "old_symbol": "WELSPUNIND",
@@ -27,11 +27,17 @@
   ],
   "issues": [
     {
+      "date": "2014-08-06",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +35.3% with no corporate action"
+    },
+    {
       "date": "2016-03-21",
       "severity": "error",
       "kind": "factor inconsistent with prices",
       "detail": "Interim Div - Rs 6/- Per Share + Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share: factor 1.6667, raw open/prev close 0.1000"
     }
   ],
-  "generated_at_utc": "2026-10-24T21:35:24+00:00"
+  "generated_at_utc": "2026-10-25T03:26:12+00:00"
 }

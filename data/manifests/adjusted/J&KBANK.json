@@ -1,17 +1,24 @@
 {
   "symbol": "J&KBANK",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-24T21:07:41+00:00",
-  "first_bar": "2015-01-01",
+  "actions_retrieved_at_utc": "2026-10-25T02:57:44+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 2914,
+  "bars": 3775,
   "symbol_links": [],
-  "valid_from": "2015-01-01",
+  "valid_from": "2014-09-05",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-24T21:31:52+00:00"
+  "issues": [
+    {
+      "date": "2014-09-04",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -89.3% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:22:46+00:00"
 }

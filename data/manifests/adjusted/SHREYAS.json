@@ -5,10 +5,10 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-24T21:22:06+00:00",
-  "first_bar": "2015-04-09",
+  "actions_retrieved_at_utc": "2026-10-25T03:12:47+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2024-10-22",
-  "bars": 2297,
+  "bars": 2970,
   "symbol_links": [
     {
       "old_symbol": "SHREYASHIP",
@@ -21,11 +21,17 @@
   "price_events_applied": [],
   "issues": [
     {
+      "date": "2015-04-09",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +502.4% with no corporate action"
+    },
+    {
       "date": "2020-11-10",
       "severity": "error",
       "kind": "unexplained jump",
       "detail": "adjusted close-to-close move -38.9% with no corporate action"
     }
   ],
-  "generated_at_utc": "2026-10-24T21:34:29+00:00"
+  "generated_at_utc": "2026-10-25T03:24:43+00:00"
 }

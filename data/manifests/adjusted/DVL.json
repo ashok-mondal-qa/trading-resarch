@@ -5,10 +5,10 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-24T20:59:55+00:00",
-  "first_bar": "2015-01-01",
+  "actions_retrieved_at_utc": "2026-10-25T02:49:15+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 2821,
+  "bars": 3672,
   "symbol_links": [
     {
       "old_symbol": "DPL",
@@ -20,7 +20,14 @@
       "old_symbol": "DPTL",
       "new_symbol": "DPL",
       "effective_date": "2014-11-12",
-      "status": "before loaded range"
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "DTIL",
+      "new_symbol": "DPTL",
+      "effective_date": "2010-07-26",
+      "status": "unconfirmed",
+      "reason": "dates do not bracket the change (old last 2026-09-02, new first 2011-07-01)"
     }
   ],
   "valid_from": "2021-08-06",
@@ -32,6 +39,12 @@
     }
   ],
   "issues": [
+    {
+      "date": "2014-09-18",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Scheme Of Arrangement (source factor 1.0)"
+    },
     {
       "date": "2017-11-14",
       "severity": "error",
@@ -45,5 +58,5 @@
       "detail": "Bonus 1:2: factor 0.6667, raw open/prev close 1.0085"
     }
   ],
-  "generated_at_utc": "2026-10-24T21:31:09+00:00"
+  "generated_at_utc": "2026-10-25T03:21:45+00:00"
 }

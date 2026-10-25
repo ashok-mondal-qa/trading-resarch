@@ -5,10 +5,10 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-24T21:29:19+00:00",
-  "first_bar": "2015-01-01",
+  "actions_retrieved_at_utc": "2026-10-25T03:19:55+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 2914,
+  "bars": 3775,
   "symbol_links": [
     {
       "old_symbol": "ZEETELE",
@@ -18,8 +18,20 @@
     }
   ],
   "valid_from": "2021-09-15",
-  "price_events_applied": [],
+  "price_events_applied": [
+    {
+      "ex_date": "2014-03-03",
+      "factor": 0.0455,
+      "purpose": "Bonus Preference Shares 21:1"
+    }
+  ],
   "issues": [
+    {
+      "date": "2014-03-03",
+      "severity": "error",
+      "kind": "factor inconsistent with prices",
+      "detail": "Bonus Preference Shares 21:1: factor 0.0455, raw open/prev close 0.9639"
+    },
     {
       "date": "2021-09-14",
       "severity": "error",
@@ -27,5 +39,5 @@
       "detail": "adjusted close-to-close move +40.0% with no corporate action"
     }
   ],
-  "generated_at_utc": "2026-10-24T21:35:25+00:00"
+  "generated_at_utc": "2026-10-25T03:26:13+00:00"
 }

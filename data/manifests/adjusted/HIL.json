@@ -5,20 +5,20 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-24T21:05:00+00:00",
-  "first_bar": "2015-01-01",
+  "actions_retrieved_at_utc": "2026-10-25T02:54:27+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2025-04-08",
-  "bars": 2535,
+  "bars": 3370,
   "symbol_links": [
     {
       "old_symbol": "HYDRBADIND",
       "new_symbol": "HIL",
       "effective_date": "2012-10-26",
-      "status": "before loaded range"
+      "status": "confirmed"
     }
   ],
-  "valid_from": "2015-01-01",
+  "valid_from": "2011-07-01",
   "price_events_applied": [],
   "issues": [],
-  "generated_at_utc": "2026-10-24T21:31:43+00:00"
+  "generated_at_utc": "2026-10-25T03:22:32+00:00"
 }

@@ -1,14 +1,14 @@
 {
   "symbol": "ARE&M",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-24T20:53:58+00:00",
-  "first_bar": "2015-01-01",
+  "actions_retrieved_at_utc": "2026-10-25T02:42:40+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 2914,
+  "bars": 3775,
   "symbol_links": [
     {
       "old_symbol": "AMARAJABAT",
@@ -17,8 +17,15 @@
       "status": "confirmed"
     }
   ],
-  "valid_from": "2015-01-01",
+  "valid_from": "2012-09-26",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-24T21:30:13+00:00"
+  "issues": [
+    {
+      "date": "2012-09-25",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -48.3% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:20:38+00:00"
 }

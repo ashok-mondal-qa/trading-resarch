@@ -1,0 +1,16 @@
+{
+  "dataset": "nse_index_close",
+  "provider": "NSE archive",
+  "source_url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_24072013.csv",
+  "trade_date": "2013-07-24",
+  "retrieved_at_utc": "2026-10-25T02:32:06+00:00",
+  "terms": "NSE data, published for educational and informational use only; not for commercial use or redistribution. Raw and processed files stay git-ignored. See NSE Terms of Use.",
+  "price_adjustment": "none (index values as published)",
+  "status": "ok",
+  "rows": 36,
+  "date_format_note": null,
+  "excluded_duplicate_names": [],
+  "raw_sha256": "5d23cab37b0aea8ef10ae3455893ac442cf2170ec2a5101307ff61d92ebab81e",
+  "first_bar_ist": "2013-07-24T15:30:00+05:30",
+  "last_bar_ist": "2013-07-24T15:30:00+05:30"
+}

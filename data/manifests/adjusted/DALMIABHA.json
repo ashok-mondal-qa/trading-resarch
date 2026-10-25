@@ -5,20 +5,20 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-24T20:58:46+00:00",
-  "first_bar": "2015-01-01",
+  "actions_retrieved_at_utc": "2026-10-25T02:48:03+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2018-11-28",
-  "bars": 965,
+  "bars": 1800,
   "symbol_links": [
     {
       "old_symbol": "DALMIABEL",
       "new_symbol": "DALMIABHA",
       "effective_date": "2013-01-09",
-      "status": "before loaded range"
+      "status": "confirmed"
     }
   ],
-  "valid_from": "2015-01-01",
+  "valid_from": "2011-07-01",
   "price_events_applied": [],
   "issues": [],
-  "generated_at_utc": "2026-10-24T21:30:56+00:00"
+  "generated_at_utc": "2026-10-25T03:21:41+00:00"
 }

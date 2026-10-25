@@ -5,20 +5,26 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-24T21:23:25+00:00",
-  "first_bar": "2015-01-01",
+  "actions_retrieved_at_utc": "2026-10-25T03:13:51+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2022-01-12",
-  "bars": 1737,
+  "bars": 2587,
   "symbol_links": [
     {
       "old_symbol": "LANCOIN",
       "new_symbol": "SRIPIPES",
       "effective_date": "2014-12-17",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "LANCOIND",
+      "new_symbol": "LANCOIN",
+      "effective_date": "2007-08-28",
       "status": "before loaded range"
     }
   ],
-  "valid_from": "2015-01-01",
+  "valid_from": "2011-07-01",
   "price_events_applied": [],
   "issues": [],
-  "generated_at_utc": "2026-10-24T21:34:35+00:00"
+  "generated_at_utc": "2026-10-25T03:25:09+00:00"
 }

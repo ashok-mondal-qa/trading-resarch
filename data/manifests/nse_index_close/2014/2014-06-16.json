@@ -1,0 +1,16 @@
+{
+  "dataset": "nse_index_close",
+  "provider": "NSE archive",
+  "source_url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_16062014.csv",
+  "trade_date": "2014-06-16",
+  "retrieved_at_utc": "2026-10-25T02:35:22+00:00",
+  "terms": "NSE data, published for educational and informational use only; not for commercial use or redistribution. Raw and processed files stay git-ignored. See NSE Terms of Use.",
+  "price_adjustment": "none (index values as published)",
+  "status": "ok",
+  "rows": 43,
+  "date_format_note": "file uses %d/%m/%Y dates; read that way it matches the file name",
+  "excluded_duplicate_names": [],
+  "raw_sha256": "f757004dbba7f300c7f3ff0b90d997717d0122e3ea2f315c151c729863cfec7c",
+  "first_bar_ist": "2014-06-16T15:30:00+05:30",
+  "last_bar_ist": "2014-06-16T15:30:00+05:30"
+}

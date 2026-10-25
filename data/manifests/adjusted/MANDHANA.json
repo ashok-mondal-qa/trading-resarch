@@ -1,0 +1,24 @@
+{
+  "symbol": "MANDHANA",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:02:45+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2019-02-13",
+  "bars": 1621,
+  "symbol_links": [],
+  "valid_from": "2016-10-13",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2016-09-22",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Scheme Of Demerger (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:24+00:00"
+}

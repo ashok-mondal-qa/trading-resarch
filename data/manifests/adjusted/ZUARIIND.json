@@ -1,14 +1,14 @@
 {
   "symbol": "ZUARIIND",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-24T21:29:31+00:00",
-  "first_bar": "2015-01-01",
+  "actions_retrieved_at_utc": "2026-10-25T03:20:03+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 2790,
+  "bars": 3641,
   "symbol_links": [
     {
       "old_symbol": "ZUARIGLOB",
@@ -20,11 +20,18 @@
       "old_symbol": "ZUARIAGRO",
       "new_symbol": "ZUARIGLOB",
       "effective_date": "2012-09-25",
-      "status": "before loaded range"
+      "status": "confirmed"
     }
   ],
-  "valid_from": "2015-01-01",
+  "valid_from": "2012-04-23",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-24T21:35:25+00:00"
+  "issues": [
+    {
+      "date": "2012-04-09",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Scheme Of Arrangement And Demerger (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:26:14+00:00"
 }

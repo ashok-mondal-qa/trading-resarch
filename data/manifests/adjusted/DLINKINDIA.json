@@ -1,17 +1,24 @@
 {
   "symbol": "DLINKINDIA",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-24T20:59:32+00:00",
-  "first_bar": "2015-01-01",
+  "actions_retrieved_at_utc": "2026-10-25T02:48:53+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 2842,
+  "bars": 3677,
   "symbol_links": [],
-  "valid_from": "2015-01-01",
+  "valid_from": "2014-08-07",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-24T21:30:58+00:00"
+  "issues": [
+    {
+      "date": "2014-08-06",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +40.8% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:21:44+00:00"
 }

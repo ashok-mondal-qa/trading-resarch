@@ -1,0 +1,37 @@
+{
+  "symbol": "COREEDUTEC",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T02:47:25+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2015-09-24",
+  "bars": 998,
+  "symbol_links": [
+    {
+      "old_symbol": "COREPROTEC",
+      "new_symbol": "COREEDUTEC",
+      "effective_date": "2011-09-07",
+      "status": "confirmed"
+    }
+  ],
+  "valid_from": "2013-02-28",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2013-02-25",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -62.4% with no corporate action"
+    },
+    {
+      "date": "2013-02-27",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -45.8% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:21:24+00:00"
+}

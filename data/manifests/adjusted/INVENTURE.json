@@ -1,0 +1,35 @@
+{
+  "symbol": "INVENTURE",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T02:57:06+00:00",
+  "first_bar": "2011-08-04",
+  "last_bar": "2026-10-22",
+  "bars": 3470,
+  "symbol_links": [],
+  "valid_from": "2024-07-08",
+  "price_events_applied": [
+    {
+      "ex_date": "2012-05-22",
+      "factor": 0.25,
+      "purpose": "Bonus - 3:1"
+    },
+    {
+      "ex_date": "2021-06-24",
+      "factor": 0.1,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2024-07-05",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 1:4 @ Premium Rs 1.33/- (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:22:45+00:00"
+}
