@@ -42,7 +42,7 @@ FO_TAX = 0.312
 
 
 def load(root: Path = REPO_ROOT / "data"):
-    rows = fo_bhavcopy.read(DATA_START, DATA_END, root)
+    rows = fo_bhavcopy.read(DATA_START, DATA_END, root, symbols=("NIFTY",))
     nifty = indices.read_index("Nifty 50", DATA_START, DATA_END, root)
     nifty.index = pd.to_datetime(nifty.index)
     nifty = nifty[~nifty.index.duplicated()].sort_index()

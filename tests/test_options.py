@@ -166,3 +166,12 @@ def test_udiff_parse_scales_turnover_not_contracts():
     df = fo_bhavcopy.parse(_zip(text), "udiff")
     assert df["contracts"].iloc[0] == 40 and df["value_lakh"].iloc[0] == pytest.approx(10.0)
     assert df["instrument"].iloc[0] == "OPT" and df["lot_size"].iloc[0] == 25
+
+
+def test_stale_holiday_expiry_is_not_a_monthly_expiry():
+    rows = make_rows()
+    stale = rows[(rows["expiry"] == E2) & (rows["date"] == DAYS[0])].copy()
+    stale["expiry"] = E2 + pd.Timedelta(days=3)                          # a later date with no session
+    assert stale["expiry"].iloc[0] not in DAYS and stale["expiry"].iloc[0].month == E2.month
+    chain = op.Chain(pd.concat([rows, stale]))
+    assert chain.monthly_expiries() == [E1, E2]

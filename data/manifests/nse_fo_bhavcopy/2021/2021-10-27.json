@@ -1,0 +1,20 @@
+{
+  "dataset": "nse_fo_bhavcopy",
+  "date": "2021-10-27",
+  "status": "ok",
+  "format": "legacy",
+  "source_url": "https://nsearchives.nseindia.com/content/historical/DERIVATIVES/2021/OCT/fo27OCT2021bhav.csv.zip",
+  "sha256": "0b7440cc6866b435e2ca33b840541b359787e32adfcbbec643d7dfbe4c231cf5",
+  "retrieved_at_utc": "2026-10-25T05:57:31+00:00",
+  "rows": 4700,
+  "options": 4694,
+  "futures": 6,
+  "excluded": [],
+  "excluded_count": 0,
+  "symbols": [
+    "NIFTY",
+    "BANKNIFTY"
+  ],
+  "price_adjustment": "none (index derivatives)",
+  "licence": "NSE archive data; educational/informational use only"
+}

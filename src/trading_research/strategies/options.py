@@ -93,7 +93,11 @@ class Chain:
             return None
 
     def monthly_expiries(self) -> list[pd.Timestamp]:
-        exp = pd.Series(sorted(self.rows.index.get_level_values("expiry").unique()))
+        """Last expiry per calendar month among contracts that traded on their expiry day. Contracts listed
+        months ahead can carry the original date of an expiry later moved for a holiday (e.g. 2014-02-27, moved
+        to 2014-02-26); such a date has no session and is not an expiry."""
+        dates = set(self.rows.index.get_level_values("date").unique())
+        exp = pd.Series(sorted(e for e in self.rows.index.get_level_values("expiry").unique() if e in dates))
         return sorted(exp.groupby(exp.dt.to_period("M")).max().tolist())
 
     def lot_size(self, date) -> float:

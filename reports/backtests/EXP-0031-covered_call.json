@@ -1,0 +1,343 @@
+{
+  "experiment": "EXP-0031",
+  "strategy": "covered_call",
+  "spec_version": "0.1",
+  "params": {
+    "brokerage_per_order": 20.0,
+    "stt_sell_pct": 0.1,
+    "stt_exercise_pct": 0.125,
+    "txn_pct": 0.03503,
+    "sebi_fraction": 1e-06,
+    "stamp_buy_pct": 0.003,
+    "gst_pct": 18.0,
+    "slip_points": 1.0,
+    "slip_pct": 1.5,
+    "strangle_stop_mult": 2.0,
+    "cc_otm": 0.02,
+    "lc_breakout": 20,
+    "lc_exit_low": 10,
+    "lc_min_sessions": 15,
+    "lc_exit_sessions": 5
+  },
+  "generated_at_utc": "2026-10-25T06:11:04+00:00",
+  "1x": {
+    "dev": {
+      "hold": {
+        "months": 129,
+        "sharpe": 0.7158764733729454,
+        "cagr": 0.11801560826295576,
+        "max_drawdown": -0.2888368590627225,
+        "worst_month": -0.25717981999948414
+      },
+      "covered_call": {
+        "months": 129,
+        "sharpe": 0.6457669904591617,
+        "cagr": 0.08157049073290468,
+        "max_drawdown": -0.2673011452735431,
+        "worst_month": -0.24279093009231778
+      },
+      "months_with_call": 128,
+      "option_trades": {
+        "trades": 128,
+        "expectancy_r": -0.0033448668491740966,
+        "win_rate": 0.671875,
+        "profit_factor": 0.6408188248441725,
+        "worst_r": -0.07870073733227922,
+        "best_r": 0.03065919962298739,
+        "worst_loss_pct_of_index": -7.8700737332279225,
+        "mean_pnl_points": -32.17271804275699,
+        "top5_share_of_net_profit": null,
+        "losing_months": 42,
+        "exit_reasons": {
+          "expiry": 128
+        },
+        "illustrative_5pct_risk": {
+          "end_equity": 0.9787542234656074,
+          "cagr": -0.001979755785695647,
+          "max_drawdown": -0.025228276146518014,
+          "end_equity_after_fo_tax_approx": 0.9784189344854013
+        }
+      }
+    },
+    "dev_a": {
+      "hold": {
+        "months": 57,
+        "sharpe": 0.6000922038044021,
+        "cagr": 0.08570750431000218,
+        "max_drawdown": -0.22136645685211154,
+        "worst_month": -0.08437579348286073
+      },
+      "covered_call": {
+        "months": 57,
+        "sharpe": 0.7233508970744255,
+        "cagr": 0.08488656374548964,
+        "max_drawdown": -0.14077760655207383,
+        "worst_month": -0.07786325295404144
+      },
+      "months_with_call": 57,
+      "option_trades": {
+        "trades": 57,
+        "expectancy_r": -0.00047974686456820346,
+        "win_rate": 0.7719298245614035,
+        "profit_factor": 1.0150563696952735,
+        "worst_r": -0.06320117002762635,
+        "best_r": 0.016580372226423296,
+        "worst_loss_pct_of_index": -6.320117002762634,
+        "mean_pnl_points": 0.6308348285459378,
+        "top5_share_of_net_profit": 15.16763185235991,
+        "losing_months": 13,
+        "exit_reasons": {
+          "expiry": 57
+        },
+        "illustrative_5pct_risk": {
+          "end_equity": 0.9986117704734151,
+          "cagr": -0.0002871139034469339,
+          "max_drawdown": -0.007170464803945231,
+          "end_equity_after_fo_tax_approx": 0.9982764814932087
+        }
+      }
+    },
+    "dev_b": {
+      "hold": {
+        "months": 71,
+        "sharpe": 0.7499410624693966,
+        "cagr": 0.13492362736539265,
+        "max_drawdown": -0.28883685906272216,
+        "worst_month": -0.25717981999948414
+      },
+      "covered_call": {
+        "months": 71,
+        "sharpe": 0.5594128755488542,
+        "cagr": 0.07359971147078692,
+        "max_drawdown": -0.2673011452735431,
+        "worst_month": -0.24279093009231778
+      },
+      "months_with_call": 70,
+      "option_trades": {
+        "trades": 71,
+        "expectancy_r": -0.005645033597378828,
+        "win_rate": 0.5915492957746479,
+        "profit_factor": 0.5423560733818183,
+        "worst_r": -0.07870073733227922,
+        "best_r": 0.03065919962298739,
+        "worst_loss_pct_of_index": -7.8700737332279225,
+        "mean_pnl_points": -58.5079647140847,
+        "top5_share_of_net_profit": null,
+        "losing_months": 29,
+        "exit_reasons": {
+          "expiry": 71
+        },
+        "illustrative_5pct_risk": {
+          "end_equity": 0.9801148478368188,
+          "cagr": -0.0033488551589745397,
+          "max_drawdown": -0.021995175145218093,
+          "end_equity_after_fo_tax_approx": 0.9801148478368189
+        }
+      }
+    },
+    "validation": {
+      "hold": {
+        "months": 23,
+        "sharpe": 1.2036066937077836,
+        "cagr": 0.159254844014729,
+        "max_drawdown": -0.09405879222842495,
+        "worst_month": -0.07669729040034634
+      },
+      "covered_call": {
+        "months": 23,
+        "sharpe": 1.4888973343386656,
+        "cagr": 0.15746643716700426,
+        "max_drawdown": -0.07582711360586314,
+        "worst_month": -0.07129300679616307
+      },
+      "months_with_call": 22,
+      "option_trades": {
+        "trades": 23,
+        "expectancy_r": -7.240939267559636e-05,
+        "win_rate": 0.782608695652174,
+        "profit_factor": 1.0192472818903766,
+        "worst_r": -0.04662099613835847,
+        "best_r": 0.01287427797654065,
+        "worst_loss_pct_of_index": -4.662099613835847,
+        "mean_pnl_points": 1.9882865500949192,
+        "top5_share_of_net_profit": 22.206487797661502,
+        "losing_months": 5,
+        "exit_reasons": {
+          "expiry": 23
+        },
+        "illustrative_5pct_risk": {
+          "end_equity": 0.9999110725031592,
+          "cagr": -4.486392800850947e-05,
+          "max_drawdown": -0.0038509292883279755,
+          "end_equity_after_fo_tax_approx": 0.9995503922938516
+        }
+      }
+    }
+  },
+  "2x": {
+    "dev": {
+      "hold": {
+        "months": 129,
+        "sharpe": 0.7158764733729454,
+        "cagr": 0.11801560826295576,
+        "max_drawdown": -0.2888368590627225,
+        "worst_month": -0.25717981999948414
+      },
+      "covered_call": {
+        "months": 129,
+        "sharpe": 0.6264594817467286,
+        "cagr": 0.07869744998388173,
+        "max_drawdown": -0.26773830035818125,
+        "worst_month": -0.24305762068755316
+      },
+      "months_with_call": 128,
+      "option_trades": {
+        "trades": 128,
+        "expectancy_r": -0.0035698135619125076,
+        "win_rate": 0.6640625,
+        "profit_factor": 0.6199563742554056,
+        "worst_r": -0.07897199452095593,
+        "best_r": 0.03011511807588817,
+        "worst_loss_pct_of_index": -7.8971994520955935,
+        "mean_pnl_points": -34.33933939623646,
+        "top5_share_of_net_profit": null,
+        "losing_months": 43,
+        "exit_reasons": {
+          "expiry": 128
+        },
+        "illustrative_5pct_risk": {
+          "end_equity": 0.9773458003842764,
+          "cagr": -0.0021123721371909543,
+          "max_drawdown": -0.026434363636612335,
+          "end_equity_after_fo_tax_approx": 0.9770688837762873
+        }
+      }
+    },
+    "dev_a": {
+      "hold": {
+        "months": 57,
+        "sharpe": 0.6000922038044021,
+        "cagr": 0.08570750431000218,
+        "max_drawdown": -0.22136645685211154,
+        "worst_month": -0.08437579348286073
+      },
+      "covered_call": {
+        "months": 57,
+        "sharpe": 0.6985793098108143,
+        "cagr": 0.0815556346747266,
+        "max_drawdown": -0.14285758260586257,
+        "worst_month": -0.07812128727617432
+      },
+      "months_with_call": 57,
+      "option_trades": {
+        "trades": 57,
+        "expectancy_r": -0.0007371343795932534,
+        "win_rate": 0.7543859649122807,
+        "profit_factor": 0.972976991005261,
+        "worst_r": -0.06346922381955161,
+        "best_r": 0.016216369324163333,
+        "worst_loss_pct_of_index": -6.346922381955161,
+        "mean_pnl_points": -1.1447024247239168,
+        "top5_share_of_net_profit": null,
+        "losing_months": 14,
+        "exit_reasons": {
+          "expiry": 57
+        },
+        "illustrative_5pct_risk": {
+          "end_equity": 0.9978794357916244,
+          "cagr": -0.0004387031002583974,
+          "max_drawdown": -0.007596850351354378,
+          "end_equity_after_fo_tax_approx": 0.9976025191836353
+        }
+      }
+    },
+    "dev_b": {
+      "hold": {
+        "months": 71,
+        "sharpe": 0.7499410624693966,
+        "cagr": 0.13492362736539265,
+        "max_drawdown": -0.28883685906272216,
+        "worst_month": -0.25717981999948414
+      },
+      "covered_call": {
+        "months": 71,
+        "sharpe": 0.5437490230974722,
+        "cagr": 0.07109440139443413,
+        "max_drawdown": -0.26773830035818136,
+        "worst_month": -0.24305762068755316
+      },
+      "months_with_call": 70,
+      "option_trades": {
+        "trades": 71,
+        "expectancy_r": -0.005843936285746276,
+        "win_rate": 0.5915492957746479,
+        "profit_factor": 0.5268108724162278,
+        "worst_r": -0.07897199452095593,
+        "best_r": 0.03011511807588817,
+        "worst_loss_pct_of_index": -7.8971994520955935,
+        "mean_pnl_points": -60.988554993084556,
+        "top5_share_of_net_profit": null,
+        "losing_months": 29,
+        "exit_reasons": {
+          "expiry": 71
+        },
+        "illustrative_5pct_risk": {
+          "end_equity": 0.9794227291686208,
+          "cagr": -0.0034664304261663448,
+          "max_drawdown": -0.02253594555210492,
+          "end_equity_after_fo_tax_approx": 0.979422729168621
+        }
+      }
+    },
+    "validation": {
+      "hold": {
+        "months": 23,
+        "sharpe": 1.2036066937077836,
+        "cagr": 0.159254844014729,
+        "max_drawdown": -0.09405879222842495,
+        "worst_month": -0.07669729040034634
+      },
+      "covered_call": {
+        "months": 23,
+        "sharpe": 1.4730324730684328,
+        "cagr": 0.15551602260084096,
+        "max_drawdown": -0.07621771223797058,
+        "worst_month": -0.07141945138242416
+      },
+      "months_with_call": 22,
+      "option_trades": {
+        "trades": 23,
+        "expectancy_r": -0.00022051079022046097,
+        "win_rate": 0.782608695652174,
+        "profit_factor": 0.9885333189569272,
+        "worst_r": -0.046754403897223726,
+        "best_r": 0.012638189319492493,
+        "worst_loss_pct_of_index": -4.675440389722373,
+        "mean_pnl_points": -1.1950052647533742,
+        "top5_share_of_net_profit": null,
+        "losing_months": 5,
+        "exit_reasons": {
+          "expiry": 23
+        },
+        "illustrative_5pct_risk": {
+          "end_equity": 0.9997407736139118,
+          "cagr": -0.00013078524759990717,
+          "max_drawdown": -0.0038633219048892498,
+          "end_equity_after_fo_tax_approx": 0.9993873595579925
+        }
+      }
+    }
+  },
+  "monthly_cycles": 153,
+  "verdict": {
+    "checks": {
+      "dev 1x: Sharpe above buy and hold": false,
+      "dev 2x: Sharpe above buy and hold": false,
+      "dev 1x: max drawdown not worse": true,
+      "dev_a 2x: Sharpe not below buy and hold": true,
+      "dev_b 2x: Sharpe not below buy and hold": false,
+      "validation 2x: Sharpe not below buy and hold": true
+    },
+    "status": "REJECTED"
+  }
+}

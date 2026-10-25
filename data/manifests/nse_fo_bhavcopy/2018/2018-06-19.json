@@ -1,0 +1,20 @@
+{
+  "dataset": "nse_fo_bhavcopy",
+  "date": "2018-06-19",
+  "status": "ok",
+  "format": "legacy",
+  "source_url": "https://nsearchives.nseindia.com/content/historical/DERIVATIVES/2018/JUN/fo19JUN2018bhav.csv.zip",
+  "sha256": "8028e72c592590f92a6fbde9df5cc3714db18093be6fb0dcc73cf14ae6feb6da",
+  "retrieved_at_utc": "2026-10-25T05:53:57+00:00",
+  "rows": 3206,
+  "options": 3200,
+  "futures": 6,
+  "excluded": [],
+  "excluded_count": 0,
+  "symbols": [
+    "NIFTY",
+    "BANKNIFTY"
+  ],
+  "price_adjustment": "none (index derivatives)",
+  "licence": "NSE archive data; educational/informational use only"
+}

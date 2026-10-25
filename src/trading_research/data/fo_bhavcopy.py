@@ -138,12 +138,13 @@ def load_day(day: date, root: Path = REPO_ROOT / "data", fetch=bhavcopy.http_fet
     return m
 
 
-def read(start: date, end: date, root: Path = REPO_ROOT / "data") -> pd.DataFrame:
+def read(start: date, end: date, root: Path = REPO_ROOT / "data", symbols: tuple[str, ...] = SYMBOLS) -> pd.DataFrame:
     frames = []
     for day in bhavcopy.weekdays(start, end):
         p = paths(root, day)
         if p["manifest"].exists() and json.loads(p["manifest"].read_text())["status"] == "ok":
-            frames.append(pd.read_parquet(p["bars"]))
+            frame = pd.read_parquet(p["bars"])
+            frames.append(frame[frame["symbol"].isin(symbols)])
     return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=COLUMNS + ["traded"])
 
 

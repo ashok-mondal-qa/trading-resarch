@@ -1,0 +1,20 @@
+{
+  "dataset": "nse_fo_bhavcopy",
+  "date": "2020-12-28",
+  "status": "ok",
+  "format": "legacy",
+  "source_url": "https://nsearchives.nseindia.com/content/historical/DERIVATIVES/2020/DEC/fo28DEC2020bhav.csv.zip",
+  "sha256": "aa1895bb95ef4fe44b6d15ca119a0c1e56c54326af9488ecd1766c8f8fb3a9c3",
+  "retrieved_at_utc": "2026-10-25T05:56:35+00:00",
+  "rows": 4200,
+  "options": 4194,
+  "futures": 6,
+  "excluded": [],
+  "excluded_count": 0,
+  "symbols": [
+    "NIFTY",
+    "BANKNIFTY"
+  ],
+  "price_adjustment": "none (index derivatives)",
+  "licence": "NSE archive data; educational/informational use only"
+}

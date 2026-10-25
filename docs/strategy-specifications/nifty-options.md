@@ -1,6 +1,7 @@
-# NIFTY monthly options: four popular approaches (research only) — spec v0.1
+# NIFTY monthly options: four popular approaches (research only) — spec v0.1.1
 
-Status: **pre-registered, not run** (written and committed before any options backtest).
+Status: **REJECTED, all four** (2026-10-25; `reports/backtests/EXP-0029-0032-report.md`). Rules were committed
+before any options backtest (fea7d35).
 Code: `src/trading_research/strategies/options.py`, runner `src/trading_research/backtesting/run_options.py`,
 data `src/trading_research/data/fo_bhavcopy.py`. Registry: EXP-0029..0032.
 
@@ -22,7 +23,7 @@ Lot sizes are not needed (results are per unit, in index points and R); the brok
 per lot using the lot size from UDiFF, or for legacy files inferred from the near-month future's turnover.
 
 ## Monthly cycle (shared)
-Monthly expiry = the last expiry date listed in each calendar month. **Signal day t** = the first session
+Monthly expiry = the last expiry date in each calendar month on which that contract traded (v0.1.1). **Signal day t** = the first session
 after a monthly expiry; the trade uses the next monthly expiry. At t's close: spot S = NIFTY close; ATM
 strike = listed strike nearest S; straddle D = close(ATM call) + close(ATM put), both traded at t, else no
 trade that month. **Entry** at the open of t+1 for every leg; every leg must have traded at t+1, else no
@@ -82,3 +83,9 @@ no alternatives will be tried on this data. Not a veto.
 
 ## Changelog
 - **v0.1 (2026-10-25):** initial spec, before any options run.
+- **v0.1.1 (2026-10-25, after the first run):** calendar fix only, rules unchanged. Contracts listed months
+  ahead can carry the original date of an expiry later moved for a holiday (2014-02-27, 2014-04-24,
+  2018-03-29, 2023-03-30, 2023-06-29); v0.1 code took these as monthly expiries and skipped the next month.
+  Now an expiry must be a session on which the contract traded. Found by checking skipped months. Tests: a
+  stale-date test added, 282 pass. Impact: dev trades 103→107 (iron condor), 122→127 (strangle), 54→52 (long
+  call); every verdict REJECTED in both runs. No new holdout evaluation needed (holdout unused).
