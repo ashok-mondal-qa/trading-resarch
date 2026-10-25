@@ -1,0 +1,1341 @@
+{
+  "dataset": "binance_spot_5m",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/5m/",
+  "instrument": "BTCUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "5m, stamped with UTC open time",
+  "first_bar": "2017-08-17 04:00:00",
+  "last_bar": "2024-12-31 23:55:00",
+  "end_month_requested": "2024-12",
+  "retrieved_at_utc": "2026-10-25T06:16:49+00:00",
+  "rows": 773880,
+  "gaps": [
+    {
+      "after": "2017-09-06 15:55:00",
+      "before": "2017-09-06 23:00:00",
+      "missing_bars": 84
+    },
+    {
+      "after": "2017-12-18 10:00:00",
+      "before": "2017-12-18 10:10:00",
+      "missing_bars": 1
+    },
+    {
+      "after": "2017-12-18 12:25:00",
+      "before": "2017-12-18 13:30:00",
+      "missing_bars": 12
+    },
+    {
+      "after": "2018-01-04 03:00:00",
+      "before": "2018-01-04 05:05:00",
+      "missing_bars": 24
+    },
+    {
+      "after": "2018-02-08 00:25:00",
+      "before": "2018-02-10 06:15:00",
+      "missing_bars": 645
+    },
+    {
+      "after": "2018-02-11 04:00:00",
+      "before": "2018-02-11 04:35:00",
+      "missing_bars": 6
+    },
+    {
+      "after": "2018-06-26 01:55:00",
+      "before": "2018-06-26 12:00:00",
+      "missing_bars": 120
+    },
+    {
+      "after": "2018-06-27 12:55:00",
+      "before": "2018-06-27 14:45:00",
+      "missing_bars": 21
+    },
+    {
+      "after": "2018-07-04 00:20:00",
+      "before": "2018-07-04 08:00:00",
+      "missing_bars": 91
+    },
+    {
+      "after": "2018-10-19 05:55:00",
+      "before": "2018-10-19 09:30:00",
+      "missing_bars": 42
+    },
+    {
+      "after": "2018-11-14 01:55:00",
+      "before": "2018-11-14 09:00:00",
+      "missing_bars": 84
+    },
+    {
+      "after": "2019-03-12 01:55:00",
+      "before": "2019-03-12 08:00:00",
+      "missing_bars": 72
+    },
+    {
+      "after": "2019-05-15 02:55:00",
+      "before": "2019-05-15 13:00:00",
+      "missing_bars": 120
+    },
+    {
+      "after": "2019-06-07 21:10:00",
+      "before": "2019-06-07 22:15:00",
+      "missing_bars": 12
+    },
+    {
+      "after": "2019-08-15 01:55:00",
+      "before": "2019-08-15 10:00:00",
+      "missing_bars": 96
+    },
+    {
+      "after": "2019-11-13 01:55:00",
+      "before": "2019-11-13 04:20:00",
+      "missing_bars": 28
+    },
+    {
+      "after": "2019-11-25 01:55:00",
+      "before": "2019-11-25 04:00:00",
+      "missing_bars": 24
+    },
+    {
+      "after": "2020-02-09 01:55:00",
+      "before": "2020-02-09 03:00:00",
+      "missing_bars": 12
+    },
+    {
+      "after": "2020-02-19 11:35:00",
+      "before": "2020-02-19 17:30:00",
+      "missing_bars": 70
+    },
+    {
+      "after": "2020-03-04 09:20:00",
+      "before": "2020-03-04 11:30:00",
+      "missing_bars": 25
+    },
+    {
+      "after": "2020-04-25 01:55:00",
+      "before": "2020-04-25 04:30:00",
+      "missing_bars": 30
+    },
+    {
+      "after": "2020-06-28 01:55:00",
+      "before": "2020-06-28 05:30:00",
+      "missing_bars": 42
+    },
+    {
+      "after": "2020-11-30 05:55:00",
+      "before": "2020-11-30 07:00:00",
+      "missing_bars": 12
+    },
+    {
+      "after": "2020-12-21 14:05:00",
+      "before": "2020-12-21 18:00:00",
+      "missing_bars": 46
+    },
+    {
+      "after": "2020-12-25 01:55:00",
+      "before": "2020-12-25 03:00:00",
+      "missing_bars": 12
+    },
+    {
+      "after": "2021-02-11 03:40:00",
+      "before": "2021-02-11 05:00:00",
+      "missing_bars": 15
+    },
+    {
+      "after": "2021-03-06 01:55:00",
+      "before": "2021-03-06 03:30:00",
+      "missing_bars": 18
+    },
+    {
+      "after": "2021-04-20 01:55:00",
+      "before": "2021-04-20 04:30:00",
+      "missing_bars": 30
+    },
+    {
+      "after": "2021-04-25 04:00:00",
+      "before": "2021-04-25 08:45:00",
+      "missing_bars": 56
+    },
+    {
+      "after": "2021-08-13 01:55:00",
+      "before": "2021-08-13 06:30:00",
+      "missing_bars": 54
+    },
+    {
+      "after": "2021-09-29 06:55:00",
+      "before": "2021-09-29 09:00:00",
+      "missing_bars": 24
+    },
+    {
+      "after": "2023-03-24 12:35:00",
+      "before": "2023-03-24 14:00:00",
+      "missing_bars": 16
+    }
+  ],
+  "missing_bars": 1944,
+  "excluded": [
+    {
+      "time": "2018-02-09 09:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:33:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:38:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:43:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:48:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:53:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:58:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 02:03:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 02:08:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 02:13:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 02:18:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 02:23:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 02:28:14.789000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 02:33:14.789000",
+      "reason": "invalid candle"
+    }
+  ],
+  "excluded_count": 241,
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BTCUSDT-5m-2017-08.zip",
+      "sha256": "d18c324e86822142d45f2ff33d3d0e193726fe1584ffd148c50f91fa4b2fdadd"
+    },
+    {
+      "file": "BTCUSDT-5m-2017-09.zip",
+      "sha256": "b9b27b4fc6a12746dcf8dec6cd8efd3c4dfe746789c4e1162ebfe33a2989e3e5"
+    },
+    {
+      "file": "BTCUSDT-5m-2017-10.zip",
+      "sha256": "4e1a5d3eb8accc2911f1fd1060ad15b1e3bbb1ff674d494ad01bc40a6bf53f9c"
+    },
+    {
+      "file": "BTCUSDT-5m-2017-11.zip",
+      "sha256": "dbd53002ea79d6bfea2cdf8c00976a9c2f0647a2ad5e2b619ae60e1db2b93a07"
+    },
+    {
+      "file": "BTCUSDT-5m-2017-12.zip",
+      "sha256": "fab87582c0bfd79f200dfbbeebbce39fabf7c137c768daa867d9d688f64c6b19"
+    },
+    {
+      "file": "BTCUSDT-5m-2018-01.zip",
+      "sha256": "c08222ead41339fe656ac2e4389d365a0cadcc0e24c6e538bb76006e4e9ee5e0"
+    },
+    {
+      "file": "BTCUSDT-5m-2018-02.zip",
+      "sha256": "44bc33f321fbc4a4dd5c99bec7bbb4ca86e5cc33ddc6459610a18db7ae872c0b"
+    },
+    {
+      "file": "BTCUSDT-5m-2018-03.zip",
+      "sha256": "9f79a89dad86fbce45f7be8f0487e115a4e8d609b4c415b5a32781e823df0cd4"
+    },
+    {
+      "file": "BTCUSDT-5m-2018-04.zip",
+      "sha256": "7cb8824ccd38c38320f5ec095d8e6d0fec7a6707b9a935873da9898939bca07c"
+    },
+    {
+      "file": "BTCUSDT-5m-2018-05.zip",
+      "sha256": "c2965719efcc49fa3b63d53a37f4b612985836c0064297fb79af798f26e9e955"
+    },
+    {
+      "file": "BTCUSDT-5m-2018-06.zip",
+      "sha256": "5bc6c6bbf69e088fe7b5715052d42eae8fd8681e26cb437881b74c77f457847b"
+    },
+    {
+      "file": "BTCUSDT-5m-2018-07.zip",
+      "sha256": "f2c64ad1821b5f495694d4669895c62f961c585639cce4a0cd06214f406631ae"
+    },
+    {
+      "file": "BTCUSDT-5m-2018-08.zip",
+      "sha256": "f1277c6c1e25a0c6f36a82a7c655094756ebf51b161176ad17410a73f96fddef"
+    },
+    {
+      "file": "BTCUSDT-5m-2018-09.zip",
+      "sha256": "820d494c55b1b0149872f54af63d8245a98c48d83ede5f8b949ee49f42b52704"
+    },
+    {
+      "file": "BTCUSDT-5m-2018-10.zip",
+      "sha256": "1dbf662fb263e9cd25889eac5ebb79f9d5b4af0b264598970fccd03324c9cbb0"
+    },
+    {
+      "file": "BTCUSDT-5m-2018-11.zip",
+      "sha256": "98463143980a2cf664ee9416d7e7d585551cd76b97475ec319b370a2a120e5e9"
+    },
+    {
+      "file": "BTCUSDT-5m-2018-12.zip",
+      "sha256": "75680727b955d3b371fc72e34aef79fa19ff4f3ad777016bcca9ee9cb26ec619"
+    },
+    {
+      "file": "BTCUSDT-5m-2019-01.zip",
+      "sha256": "e5a64b286a194f690779557f87fc84eb35a09aae2f1e284a7da85289fe848f42"
+    },
+    {
+      "file": "BTCUSDT-5m-2019-02.zip",
+      "sha256": "01c1e37145ad1a27f1159c17f5d13ee29e367838033835ea3a8808fe9148aff3"
+    },
+    {
+      "file": "BTCUSDT-5m-2019-03.zip",
+      "sha256": "c91f75887afbfd6bf7da205b35c248e56b394fb12437aa0d7cd90670883122af"
+    },
+    {
+      "file": "BTCUSDT-5m-2019-04.zip",
+      "sha256": "785a918b0dc9d9657578ffa7c356fa10d040c9a0262485cf1f744d2cef8467c3"
+    },
+    {
+      "file": "BTCUSDT-5m-2019-05.zip",
+      "sha256": "1133835a11452420295c07d14a8b51e84c202d59af1ba4c0d89ffc531428b27b"
+    },
+    {
+      "file": "BTCUSDT-5m-2019-06.zip",
+      "sha256": "afb029797231b99b7e5267d819ce77f99f0460320cea1d7f594023a63f46151e"
+    },
+    {
+      "file": "BTCUSDT-5m-2019-07.zip",
+      "sha256": "514253f42219318868610b2402ef01a5509b883b3453b05b8ca04162713a5f04"
+    },
+    {
+      "file": "BTCUSDT-5m-2019-08.zip",
+      "sha256": "a05861391ccc27354bd8b10e9c194f98c9ba59d1fb52711e86ec08484b9e1b78"
+    },
+    {
+      "file": "BTCUSDT-5m-2019-09.zip",
+      "sha256": "359e30bfcfe07292be3eac91d99addf1db1b986eef5023b1d6d19a450903ae49"
+    },
+    {
+      "file": "BTCUSDT-5m-2019-10.zip",
+      "sha256": "24cb68fee29a479e9ddfccb0e09442c1f308820c86e06a94a689bf8021f9d7c9"
+    },
+    {
+      "file": "BTCUSDT-5m-2019-11.zip",
+      "sha256": "9165c6d5e2eaa27733cf5a6cf298baf3ca70b91db12de80cc1dd1eefe6f27b15"
+    },
+    {
+      "file": "BTCUSDT-5m-2019-12.zip",
+      "sha256": "ca816089ea5bcecbad5dfcc4ad84a3d1d15aed16b18664095235db29aa87b110"
+    },
+    {
+      "file": "BTCUSDT-5m-2020-01.zip",
+      "sha256": "06d2ae5dc44a5d679ee795107988491265678572cb851bf68aefdd67296d1649"
+    },
+    {
+      "file": "BTCUSDT-5m-2020-02.zip",
+      "sha256": "5a55ea80e8139c03d5ffd1cf5d442ff2060168e7054889718e5f4b5cf417b2db"
+    },
+    {
+      "file": "BTCUSDT-5m-2020-03.zip",
+      "sha256": "18e19c32d81eba36afc03029bd124b2468a4ae07d68a780a81fd3453a5784265"
+    },
+    {
+      "file": "BTCUSDT-5m-2020-04.zip",
+      "sha256": "0284b9c8e7fc2545249637bc76a5f0eecc267f2cb7374f8b0f0648d8feaf7587"
+    },
+    {
+      "file": "BTCUSDT-5m-2020-05.zip",
+      "sha256": "798617aa2af58b8f350e27807e9816e0c86f9f5f606a4bb945c8a6f9a90cc8e1"
+    },
+    {
+      "file": "BTCUSDT-5m-2020-06.zip",
+      "sha256": "854b542e3c20cf4c106bbcb9fe761e35de756f1d061f0ef887c9f84a7a37f930"
+    },
+    {
+      "file": "BTCUSDT-5m-2020-07.zip",
+      "sha256": "99f3c881214d0b940f562d4b4a8660a5bfee17b34a114a0aa01d3f1b064ea4eb"
+    },
+    {
+      "file": "BTCUSDT-5m-2020-08.zip",
+      "sha256": "21435bfdff6477504a5611c4749d3c6dd35a4ba52db6ecc5adf05ce25b2faebf"
+    },
+    {
+      "file": "BTCUSDT-5m-2020-09.zip",
+      "sha256": "7d74fdf334c4a334857dede2224d214bb9c40c07d5fc20eeeb57f5022b4a2616"
+    },
+    {
+      "file": "BTCUSDT-5m-2020-10.zip",
+      "sha256": "c7a6731dfa5f936f626c28090a4e76cd952a0998958d4f717ee76cea1b8d2135"
+    },
+    {
+      "file": "BTCUSDT-5m-2020-11.zip",
+      "sha256": "b6eaa1dc16993083d794cf2445c5596dbc298df5b8ab4d891a45435564d1bb92"
+    },
+    {
+      "file": "BTCUSDT-5m-2020-12.zip",
+      "sha256": "c169b2a72cc188c8089abc9f3c6f9699e4759a5e7d0d7a7c69d9117b0da68049"
+    },
+    {
+      "file": "BTCUSDT-5m-2021-01.zip",
+      "sha256": "5eda1c9f22259d37f6602ca3ee8072a670131939c7a4bc7e048a2a0077e03d6f"
+    },
+    {
+      "file": "BTCUSDT-5m-2021-02.zip",
+      "sha256": "64cacfee55b7e73d6728a6e7cf32b03be2f205c06ad27a99889f002d0c853769"
+    },
+    {
+      "file": "BTCUSDT-5m-2021-03.zip",
+      "sha256": "d67c748616c67d16d92695e42c32084818adf53100931f7d6bb01d1c6a21cf65"
+    },
+    {
+      "file": "BTCUSDT-5m-2021-04.zip",
+      "sha256": "e365a42f9b3cd6262110977b37d341f90e339ef5b617de2d90c945c53a930854"
+    },
+    {
+      "file": "BTCUSDT-5m-2021-05.zip",
+      "sha256": "1c6ef655c4cd33fa6777ad02e60a78ffc254a69a217a22a56e57c125faf20b6b"
+    },
+    {
+      "file": "BTCUSDT-5m-2021-06.zip",
+      "sha256": "de8a478e5e30da06250976df98bf0a8b3aa040c4667334263f7c126097665bdb"
+    },
+    {
+      "file": "BTCUSDT-5m-2021-07.zip",
+      "sha256": "fbd9221353c0471581c7b7e3bec7538c79e3472da2bf30cfdee4f766dbf28e73"
+    },
+    {
+      "file": "BTCUSDT-5m-2021-08.zip",
+      "sha256": "ad8168331b2f0c83e7d4dea149b09881d5f4ecb0e6c7049f8637f2ef5a6dbf78"
+    },
+    {
+      "file": "BTCUSDT-5m-2021-09.zip",
+      "sha256": "73eef8294b704bcde8f35cf26098c79cc50591e49a65a970eff97ac10e78fac1"
+    },
+    {
+      "file": "BTCUSDT-5m-2021-10.zip",
+      "sha256": "cf28329e5f490ccb0e6759b8f66930a7397e65c2d8f5c4dfd727f44a54bbfae4"
+    },
+    {
+      "file": "BTCUSDT-5m-2021-11.zip",
+      "sha256": "69725bd82baef5339e32c773937966ec413648dfaf985741f9be730b9cddd915"
+    },
+    {
+      "file": "BTCUSDT-5m-2021-12.zip",
+      "sha256": "17c2731a870d09d0ea1345b9af40234fae47c947ff373499799169cdfda3b41c"
+    },
+    {
+      "file": "BTCUSDT-5m-2022-01.zip",
+      "sha256": "be1f2f943b365b9b00c1be4cbcb7c631990318baf36e7a4d8410ea9dc7bc1cda"
+    },
+    {
+      "file": "BTCUSDT-5m-2022-02.zip",
+      "sha256": "3cdb10f37876bb53487a5f68bdb00f87a2fa0dba0706133264bfcb5170d35cdd"
+    },
+    {
+      "file": "BTCUSDT-5m-2022-03.zip",
+      "sha256": "e980799352cf0447752d97a20704ffdcce18544525743a4d3ec9dc076cc25765"
+    },
+    {
+      "file": "BTCUSDT-5m-2022-04.zip",
+      "sha256": "a738199ee22e198fd9e51a7ecbcbd656c11603a530750ba26efa4c13d891ecd6"
+    },
+    {
+      "file": "BTCUSDT-5m-2022-05.zip",
+      "sha256": "9e342e114551ef3598fb1bf9d385878861878b9c9c42714eca82e867a9feda81"
+    },
+    {
+      "file": "BTCUSDT-5m-2022-06.zip",
+      "sha256": "5d4ef9d9fd134a239daebe1cd9261da7379991503d3093a0848d85c6172c9ab0"
+    },
+    {
+      "file": "BTCUSDT-5m-2022-07.zip",
+      "sha256": "f55cca50df856fdf179a2193e1bcf4507bc27a296042486e023814c3b21c62c7"
+    },
+    {
+      "file": "BTCUSDT-5m-2022-08.zip",
+      "sha256": "d65ea001b11191e31f6637f5893155273fcd02da3b269b9296007fbc1d49513e"
+    },
+    {
+      "file": "BTCUSDT-5m-2022-09.zip",
+      "sha256": "87208eb2b3b67f105b40ebff1a5eb81ca1d377ddd70936eecf224bafcee4e5b9"
+    },
+    {
+      "file": "BTCUSDT-5m-2022-10.zip",
+      "sha256": "b94e591ff353f2001d801ffcd2d7e2e2649f9efed49ac636f19a241ead90e19e"
+    },
+    {
+      "file": "BTCUSDT-5m-2022-11.zip",
+      "sha256": "928433fc8313bc1616a2c5ca79b78525bb09ea2ca84a81c66500cdfb6bcccc40"
+    },
+    {
+      "file": "BTCUSDT-5m-2022-12.zip",
+      "sha256": "3e1195cefa671991251ab5e1f606b9d7f7b7279dfd7efd033ae1aca2190ff698"
+    },
+    {
+      "file": "BTCUSDT-5m-2023-01.zip",
+      "sha256": "0b77520b2fc89c896430fd885bda345a808d61a512ef34ce62cf6a150b81e9ff"
+    },
+    {
+      "file": "BTCUSDT-5m-2023-02.zip",
+      "sha256": "337dd3741251bafe88c6e6faf39bcb89b75b6504f9d5ddc67221ee9371a7e7d4"
+    },
+    {
+      "file": "BTCUSDT-5m-2023-03.zip",
+      "sha256": "840da3f1dba73d44c483b2c600528ee845366a8f2dec3db1d0be9e128741ec19"
+    },
+    {
+      "file": "BTCUSDT-5m-2023-04.zip",
+      "sha256": "0ce744f9e9712a818b0090572d5541b83c2acec7d67de808ee5a66ff4299b008"
+    },
+    {
+      "file": "BTCUSDT-5m-2023-05.zip",
+      "sha256": "d288014d0cde16c31d524dc63a9ed779de6c1a65e08df6b069ced8b688da21e4"
+    },
+    {
+      "file": "BTCUSDT-5m-2023-06.zip",
+      "sha256": "781415877a1eaf4b376351bb3dc3cc31bc941b009a7b89a6a833cb6fb757279f"
+    },
+    {
+      "file": "BTCUSDT-5m-2023-07.zip",
+      "sha256": "88859cd91277f3e0c9df85bb66f5c2d91273612a7ccd60e2a4be86ea3cc4b84c"
+    },
+    {
+      "file": "BTCUSDT-5m-2023-08.zip",
+      "sha256": "a36e0b195d907bf100788f48ebae360ade5a31066bdee8469f610b802ff8e8f0"
+    },
+    {
+      "file": "BTCUSDT-5m-2023-09.zip",
+      "sha256": "4058d18e256eb96841c67cb6e27375f0dcee6d2d425b4ad5907f055890ca5761"
+    },
+    {
+      "file": "BTCUSDT-5m-2023-10.zip",
+      "sha256": "6a14d2b75ad5020d56c12cd17e90e6661023f34a12fa4173364fd26a9879ae56"
+    },
+    {
+      "file": "BTCUSDT-5m-2023-11.zip",
+      "sha256": "dcf1c619885ca4fc351b4c990afe850141563f09e61b386a8d9151ea402575e2"
+    },
+    {
+      "file": "BTCUSDT-5m-2023-12.zip",
+      "sha256": "8e3b780eddcff7f19f24f25d799b2affe03113b90457b8caa22a454f065fbf56"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-01.zip",
+      "sha256": "a375f811f672ad70de97af533f6e70181647a9e978838b451ac17d5c17313ad8"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-02.zip",
+      "sha256": "4bbed105653be96229f6678b3ce3df7366a6ced5aea32285da2bf62ac5f890ed"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-03.zip",
+      "sha256": "fd3670210b38640ee9562b7761879fae8cfed3beec7d7313b868cf618ca4c72a"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-04.zip",
+      "sha256": "b41c6d2703ee9e4c8167de082dcd363fac39ed176ebe9eacf7f0109e284a5948"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-05.zip",
+      "sha256": "3a9c810274f38b18abda912c3446df51cb160c4c0e376655fb7defb1cacf5de2"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-06.zip",
+      "sha256": "627dd48125d89759e498d2db2e523166787bda4dd9a64ca56abf9fba235ba71e"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-07.zip",
+      "sha256": "7fcfb7aa22c344f0c6bb0a7d2ae2dbfd1a1e597fc80806daa341068dfdab6586"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-08.zip",
+      "sha256": "4ead243e5f862df551e12815d8ddc4c67da711fda253325c36f83a1ff3ef36d7"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-09.zip",
+      "sha256": "a9989fa72ee8eba72cdd79b0e251652fcd456a31548a3014a8660b65405bc67a"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-10.zip",
+      "sha256": "5cd2d0dcc2dc193fc7b31be69166021fca41b9fce61ab6a0771ce00db864c327"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-11.zip",
+      "sha256": "72851d323b0d43f7c8cdf177ca85ded66ec511ed3b1a53e63cca0d2501c75bc0"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-12.zip",
+      "sha256": "0a2f70744f9244a066ab4ced934a725d85b247e917cfe22ada218435c1573301"
+    }
+  ],
+  "status": "ok",
+  "price_adjustment": "none (prices as traded in USDT)",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance."
+}

@@ -24,6 +24,7 @@ Start with `CLAUDE.md`. Plan and audit: see the project doc "Swing-trading resea
 | 14 Crypto vs Indian equities | Binance spot daily loader (official archive, checksums, delisted pairs); the same six rule sets on crypto (EXP-0021..0026) all **REJECTED**, holdout 2025-01..2026-09 sealed; market comparison: no tested rule beats buy and hold in either market (2026-10-25, `reports/market-comparison-2026-10-25.md`) |
 | 15 Forward tracking | crypto Minervini (EXP-0027) and NSE weekly momentum (EXP-0028) tracked on new data from 2026-10-26 with frozen rules; shadow only, monthly checks (`docs/strategy-specifications/forward-tracking.md`) |
 | 16 NIFTY options (research only) | NSE F&O bhavcopy loader 2012–2026; iron condor, short strangle, covered call and breakout call buying tested as EXP-0029..0032 on 2012–2024: all four **REJECTED** (selling premium wins ~70% of months but loses on expectancy; covered call trails buy and hold); derivatives stay banned for paper/live, holdout 2025-01..2026-10 sealed (2026-10-25, `reports/backtests/EXP-0029-0032-report.md`) |
+| 17 Crypto intraday | Binance 5m loader (BTC, ETH, 2017–2024); opening-range breakout, 9/21 EMA cross, Bollinger+RSI and Supertrend pre-registered as EXP-0033..0036 with Indian tax in the pass rule (`docs/strategy-specifications/crypto-intraday.md`); holdout 2025-01..2026-09 not downloaded |
 
 ## Daily report (paper only)
 ```

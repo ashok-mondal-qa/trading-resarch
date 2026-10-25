@@ -115,3 +115,10 @@ strength. Index values are as published (indices need no corporate-action adjust
   are read. UDiFF turnover is in rupees (divided by 1e5 to lakh); `TtlTradgVol` is already in contracts.
   Legacy files carry no lot size; it is inferred from the near-month future (turnover / contracts / close,
   rounded to 25). NSE data is for educational/informational use only.
+
+## Binance spot 5-minute candles (`src/trading_research/data/binance_intraday.py`, 2026-10-25)
+- Same archive and checks as the daily loader: `data/spot/monthly/klines/<PAIR>/5m/`, SHA-256 `.CHECKSUM` per
+  month, raw zips kept, manifest per pair in `data/manifests/binance_spot_5m/` listing every gap.
+- Loaded BTCUSDT and ETHUSDT 2017-08..2024-12 only (773,880 bars each; 1,944 missing 5m bars each, the same
+  exchange outages for both). 2025 onward is not downloaded (crypto intraday holdout).
+- Bars are stamped with their UTC open time; 15m/1h bars are built only from complete groups of 5m bars.
