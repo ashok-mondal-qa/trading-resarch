@@ -1,0 +1,49 @@
+{
+  "symbol": "RCOM",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:09:41+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2022-05-24",
+  "bars": 2439,
+  "symbol_links": [
+    {
+      "old_symbol": "RCVL",
+      "new_symbol": "RCOM",
+      "effective_date": "2006-06-30",
+      "status": "before loaded range"
+    }
+  ],
+  "valid_from": "2022-03-30",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2017-12-20",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +35.7% with no corporate action"
+    },
+    {
+      "date": "2018-05-17",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +56.2% with no corporate action"
+    },
+    {
+      "date": "2020-11-10",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +76.5% with no corporate action"
+    },
+    {
+      "date": "2022-03-29",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -38.8% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:24:17+00:00"
+}

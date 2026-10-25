@@ -1,0 +1,36 @@
+{
+  "symbol": "SHILPI",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:12:29+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2018-08-16",
+  "bars": 1607,
+  "symbol_links": [],
+  "valid_from": "2018-07-25",
+  "price_events_applied": [
+    {
+      "ex_date": "2014-09-16",
+      "factor": 0.5,
+      "purpose": "Bonus 1:1"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2018-02-07",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -49.6% with no corporate action"
+    },
+    {
+      "date": "2018-07-24",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -70.1% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:24:43+00:00"
+}

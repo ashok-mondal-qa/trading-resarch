@@ -1,0 +1,43 @@
+{
+  "symbol": "YAARII",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:19:44+00:00",
+  "first_bar": "2011-09-05",
+  "last_bar": "2021-12-14",
+  "bars": 2025,
+  "symbol_links": [
+    {
+      "old_symbol": "IBULISL",
+      "new_symbol": "YAARII",
+      "effective_date": "2020-12-08",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "SORILHOLD",
+      "new_symbol": "IBULISL",
+      "effective_date": "2018-06-08",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "IBWSL",
+      "new_symbol": "SORILHOLD",
+      "effective_date": "2017-04-18",
+      "status": "confirmed"
+    }
+  ],
+  "valid_from": "2018-02-08",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2018-02-07",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +299.9% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:26:13+00:00"
+}

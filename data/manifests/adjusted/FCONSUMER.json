@@ -1,0 +1,30 @@
+{
+  "symbol": "FCONSUMER",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T02:50:29+00:00",
+  "first_bar": "2013-07-18",
+  "last_bar": "2024-05-15",
+  "bars": 2369,
+  "symbol_links": [
+    {
+      "old_symbol": "FCEL",
+      "new_symbol": "FCONSUMER",
+      "effective_date": "2016-10-25",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "FVIL",
+      "new_symbol": "FCEL",
+      "effective_date": "2013-10-17",
+      "status": "confirmed"
+    }
+  ],
+  "valid_from": "2013-07-18",
+  "price_events_applied": [],
+  "issues": [],
+  "generated_at_utc": "2026-10-25T03:21:58+00:00"
+}

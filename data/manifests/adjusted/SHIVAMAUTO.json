@@ -1,0 +1,41 @@
+{
+  "symbol": "SHIVAMAUTO",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:12:29+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2026-10-22",
+  "bars": 3222,
+  "symbol_links": [],
+  "valid_from": "2026-10-16",
+  "price_events_applied": [
+    {
+      "ex_date": "2014-10-30",
+      "factor": 0.2,
+      "purpose": "Face Value Split From Rs.10/- To Rs.2/-"
+    },
+    {
+      "ex_date": "2015-10-08",
+      "factor": 0.5,
+      "purpose": "Bonus 1: 1"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2021-12-09",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 2:9 @ Premium Rs 16/- (source factor 1.0)"
+    },
+    {
+      "date": "2026-10-15",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 19:25 @ Premium Rs 10/- (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:24:43+00:00"
+}

@@ -5,21 +5,33 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:13:45+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T02:42:48+00:00",
+  "first_bar": "2015-05-21",
   "last_bar": "2026-10-22",
-  "bars": 945,
+  "bars": 2236,
   "symbol_links": [
     {
       "old_symbol": "ARROWCOAT",
       "new_symbol": "ARROWGREEN",
       "effective_date": "2016-05-11",
-      "status": "before loaded range"
+      "status": "confirmed"
     }
   ],
   "valid_from": "2026-09-16",
   "price_events_applied": [],
   "issues": [
+    {
+      "date": "2020-02-12",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 1:5 @ Premium Rs 26/- (source factor 1.0)"
+    },
+    {
+      "date": "2021-07-20",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +37.9% with no corporate action"
+    },
     {
       "date": "2022-12-06",
       "severity": "error",
@@ -33,5 +45,5 @@
       "detail": "adjusted close-to-close move +46.3% with no corporate action"
     }
   ],
-  "generated_at_utc": "2026-10-23T05:44:22+00:00"
+  "generated_at_utc": "2026-10-25T03:20:38+00:00"
 }

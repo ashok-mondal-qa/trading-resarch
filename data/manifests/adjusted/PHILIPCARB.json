@@ -1,17 +1,24 @@
 {
   "symbol": "PHILIPCARB",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:34:05+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T03:07:35+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2022-01-12",
-  "bars": 56,
+  "bars": 2598,
   "symbol_links": [],
-  "valid_from": "2021-10-25",
+  "valid_from": "2018-04-20",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:46:54+00:00"
+  "issues": [
+    {
+      "date": "2018-04-19",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -79.0% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:56+00:00"
 }

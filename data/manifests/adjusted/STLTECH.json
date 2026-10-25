@@ -5,15 +5,21 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:39:38+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T03:25:16+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-05-13",
-  "bars": 1112,
+  "bars": 3618,
   "symbol_links": [
     {
       "old_symbol": "STRTECH",
       "new_symbol": "STLTECH",
       "effective_date": "2020-10-29",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "STROPTICAL",
+      "new_symbol": "STRTECH",
+      "effective_date": "2007-12-17",
       "status": "before loaded range"
     }
   ],
@@ -27,5 +33,5 @@
       "detail": "Demerger (source factor 1.0)"
     }
   ],
-  "generated_at_utc": "2026-10-23T05:47:52+00:00"
+  "generated_at_utc": "2026-10-25T03:25:16+00:00"
 }

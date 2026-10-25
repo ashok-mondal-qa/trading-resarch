@@ -92,6 +92,22 @@ def rolling_percentile(series: pd.Series, window: int) -> pd.Series:
 # ---------------------------------------------------------------- momentum and relative strength
 
 
+def rsi(close: pd.Series, n: int = 14) -> pd.Series:
+    """Wilder RSI: first average gain/loss is the mean of the first n changes, then (prev*(n-1) + x) / n.
+    100 when there are no losses in the average, 0 when there are no gains."""
+    change = close.diff().to_numpy(dtype=float)
+    out = np.full(len(change), np.nan)
+    if len(change) > n:
+        gain, loss = np.clip(change, 0, None), np.clip(-change, 0, None)
+        avg_g, avg_l = gain[1:n + 1].mean(), loss[1:n + 1].mean()
+        for i in range(n, len(change)):
+            if i > n:
+                avg_g = (avg_g * (n - 1) + gain[i]) / n
+                avg_l = (avg_l * (n - 1) + loss[i]) / n
+            out[i] = 100.0 if avg_l == 0 else 100.0 - 100.0 / (1 + avg_g / avg_l)
+    return pd.Series(out, index=close.index)
+
+
 def roc(close: pd.Series, n: int) -> pd.Series:
     return close / close.shift(n) - 1
 

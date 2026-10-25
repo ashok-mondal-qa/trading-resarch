@@ -1,17 +1,24 @@
 {
   "symbol": "KERNEX",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:27:04+00:00",
-  "first_bar": "2024-03-11",
+  "actions_retrieved_at_utc": "2026-10-25T02:59:31+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 529,
+  "bars": 1252,
   "symbol_links": [],
-  "valid_from": "2024-03-11",
+  "valid_from": "2024-03-12",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:45:57+00:00"
+  "issues": [
+    {
+      "date": "2024-03-11",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +719.5% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:02+00:00"
 }

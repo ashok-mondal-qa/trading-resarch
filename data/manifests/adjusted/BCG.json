@@ -1,30 +1,54 @@
 {
   "symbol": "BCG",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:15:06+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T02:44:32+00:00",
+  "first_bar": "2015-05-08",
   "last_bar": "2026-10-22",
-  "bars": 767,
+  "bars": 1968,
   "symbol_links": [
     {
       "old_symbol": "LYCOS",
       "new_symbol": "BCG",
       "effective_date": "2018-10-08",
-      "status": "before loaded range"
+      "status": "confirmed"
     }
   ],
-  "valid_from": "2021-10-25",
+  "valid_from": "2021-10-13",
   "price_events_applied": [
+    {
+      "ex_date": "2021-08-18",
+      "factor": 0.8,
+      "purpose": "Bonus 1:4"
+    },
     {
       "ex_date": "2022-03-15",
       "factor": 0.6,
       "purpose": "Bonus 2:3"
     }
   ],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:44:25+00:00"
+  "issues": [
+    {
+      "date": "2018-05-02",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -39.9% with no corporate action"
+    },
+    {
+      "date": "2019-06-25",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +53.0% with no corporate action"
+    },
+    {
+      "date": "2021-10-12",
+      "severity": "error",
+      "kind": "factor inconsistent with prices",
+      "detail": "Bonus 1:4: factor 0.8, raw open/prev close 2.0588"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:21:02+00:00"
 }

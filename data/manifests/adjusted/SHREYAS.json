@@ -1,14 +1,14 @@
 {
   "symbol": "SHREYAS",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:38:01+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T03:12:47+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2024-10-22",
-  "bars": 740,
+  "bars": 2970,
   "symbol_links": [
     {
       "old_symbol": "SHREYASHIP",
@@ -17,8 +17,21 @@
       "status": "before loaded range"
     }
   ],
-  "valid_from": "2021-10-25",
+  "valid_from": "2020-11-11",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:47:42+00:00"
+  "issues": [
+    {
+      "date": "2015-04-09",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +502.4% with no corporate action"
+    },
+    {
+      "date": "2020-11-10",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -38.9% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:24:43+00:00"
 }

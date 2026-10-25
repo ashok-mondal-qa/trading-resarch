@@ -5,21 +5,34 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:41:15+00:00",
-  "first_bar": "2022-01-04",
+  "actions_retrieved_at_utc": "2026-10-25T03:16:32+00:00",
+  "first_bar": "2020-08-04",
   "last_bar": "2026-07-23",
-  "bars": 569,
+  "bars": 638,
   "symbol_links": [
     {
       "old_symbol": "FORGE",
       "new_symbol": "TIRUPATIFL",
       "effective_date": "2018-01-15",
-      "status": "before loaded range"
+      "status": "unconfirmed",
+      "reason": "no bars for one side in loaded data"
     }
   ],
   "valid_from": "2026-06-30",
-  "price_events_applied": [],
+  "price_events_applied": [
+    {
+      "ex_date": "2021-10-07",
+      "factor": 0.11428,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share + Bonus 3:4"
+    }
+  ],
   "issues": [
+    {
+      "date": "2022-01-04",
+      "severity": "error",
+      "kind": "factor inconsistent with prices",
+      "detail": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share + Bonus 3:4: factor 0.11428, raw open/prev close 0.4647"
+    },
     {
       "date": "2024-04-15",
       "severity": "error",
@@ -39,5 +52,5 @@
       "detail": "adjusted close-to-close move +35.3% with no corporate action"
     }
   ],
-  "generated_at_utc": "2026-10-23T05:47:56+00:00"
+  "generated_at_utc": "2026-10-25T03:25:34+00:00"
 }

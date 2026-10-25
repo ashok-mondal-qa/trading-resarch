@@ -1,0 +1,49 @@
+{
+  "symbol": "RNAVAL",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:10:14+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2021-01-22",
+  "bars": 2159,
+  "symbol_links": [
+    {
+      "old_symbol": "RDEL",
+      "new_symbol": "RNAVAL",
+      "effective_date": "2017-09-18",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "PIPAVAVDOC",
+      "new_symbol": "RDEL",
+      "effective_date": "2016-03-18",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "PIPAVAVYD",
+      "new_symbol": "PIPAVAVDOC",
+      "effective_date": "2011-09-29",
+      "status": "confirmed"
+    }
+  ],
+  "valid_from": "2020-08-19",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2020-05-27",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -41.2% with no corporate action"
+    },
+    {
+      "date": "2020-08-18",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +78.4% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:24:30+00:00"
+}

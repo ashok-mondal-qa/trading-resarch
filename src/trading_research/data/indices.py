@@ -31,6 +31,12 @@ SOURCE_MAP = {
 }
 
 
+ALTERNATE_DATE_FORMATS = ("%m-%d-%Y", "%d/%m/%Y")
+# NIFTY 50 was "S&P CNX Nifty" in files up to 2013-02-07, "CNX Nifty" until 2015-11-06 and "Nifty 50" from
+# 2015-11-09 (names as they appear in the archive files).
+FORMER_NAMES = {"nifty 50": ("cnx nifty", "s&p cnx nifty")}
+
+
 def url_for(day: date) -> str:
     return f"{bhavcopy.ARCHIVE_HOST}/content/indices/ind_close_all_{day:%d%m%Y}.csv"
 
@@ -76,20 +82,27 @@ def load_day(day: date, root: Path = REPO_ROOT / "data", fetch=bhavcopy.http_fet
         frame, note = parse(raw), None
         dates = set(frame["date"].dt.date)
         if dates != {day}:
-            # Some 2023 files write MM-DD-YYYY (e.g. ind_close_all_06042023.csv says 04-06-2023).
-            # Accept only if reading it that way gives exactly the requested date.
-            swapped = parse(raw, "%m-%d-%Y")
-            if set(swapped["date"].dt.date) != {day}:
+            # Some files use another date layout: 2023 files with MM-DD-YYYY (ind_close_all_06042023.csv
+            # says 04-06-2023), some 2015 files with DD/MM/YYYY. Accept one only if reading the file that
+            # way gives exactly the requested date.
+            for fmt in ALTERNATE_DATE_FORMATS:
+                other = parse(raw, fmt)
+                if set(other["date"].dt.date) == {day}:
+                    frame, note = other, f"file uses {fmt} dates; read that way it matches the file name"
+                    break
+            else:
                 raise bhavcopy.BhavcopyError(f"index file dates {sorted(dates)} do not match {day}")
-            frame, note = swapped, "file uses MM-DD-YYYY dates; read that way it matches the file name"
-        dupes = int(frame["index"].duplicated().sum())
-        if dupes:
-            raise bhavcopy.BhavcopyError(f"{dupes} duplicate index names in {url}")
+        # An index name listed twice (e.g. "CNX Alpha Index" in ind_close_all_08022013.csv) is excluded,
+        # never de-duplicated by picking a row; every other index in the file is kept.
+        dup_mask = frame["index"].duplicated(keep=False)
+        excluded = sorted(frame.loc[dup_mask, "index"].unique())
+        frame = frame[~dup_mask].reset_index(drop=True)
         for key in ("raw", "bars"):
             p[key].parent.mkdir(parents=True, exist_ok=True)
         p["raw"].write_bytes(raw)
         frame.to_parquet(p["bars"], index=False)
-        manifest.update(status="ok", rows=int(len(frame)), date_format_note=note, raw_sha256=hashlib.sha256(raw).hexdigest(),
+        manifest.update(status="ok", rows=int(len(frame)), date_format_note=note,
+                        excluded_duplicate_names=excluded, raw_sha256=hashlib.sha256(raw).hexdigest(),
                         first_bar_ist=f"{day.isoformat()}T{bhavcopy.SESSION_CLOSE_IST}",
                         last_bar_ist=f"{day.isoformat()}T{bhavcopy.SESSION_CLOSE_IST}")
     bhavcopy._write_json(p["manifest"], manifest)
@@ -113,7 +126,8 @@ def read_index(name: str, start: date, end: date, root: Path = REPO_ROOT / "data
         p = paths(root, day)
         if p["manifest"].exists() and json.loads(p["manifest"].read_text())["status"] == "ok":
             frame = pd.read_parquet(p["bars"])
-            frames.append(frame[frame["index"].str.lower() == name.lower()])
+            names = (name.lower(),) + FORMER_NAMES.get(name.lower(), ())
+            frames.append(frame[frame["index"].str.lower().isin(names)])
     if not frames:
         return pd.DataFrame(columns=COLUMNS).set_index("date")
     return pd.concat(frames).set_index("date").sort_index()

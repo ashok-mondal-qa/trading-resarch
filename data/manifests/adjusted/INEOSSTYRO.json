@@ -5,20 +5,32 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:24:45+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T02:56:45+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2023-01-19",
-  "bars": 310,
+  "bars": 2852,
   "symbol_links": [
     {
       "old_symbol": "STYABS",
       "new_symbol": "INEOSSTYRO",
       "effective_date": "2016-04-04",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "INEABS",
+      "new_symbol": "STYABS",
+      "effective_date": "2012-06-20",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "LANABS",
+      "new_symbol": "INEABS",
+      "effective_date": "2008-07-21",
       "status": "before loaded range"
     }
   ],
-  "valid_from": "2021-10-25",
+  "valid_from": "2011-07-01",
   "price_events_applied": [],
   "issues": [],
-  "generated_at_utc": "2026-10-23T05:45:22+00:00"
+  "generated_at_utc": "2026-10-25T03:22:44+00:00"
 }

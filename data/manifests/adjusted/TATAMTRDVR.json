@@ -1,17 +1,36 @@
 {
   "symbol": "TATAMTRDVR",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:40:21+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T03:15:47+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2024-08-29",
-  "bars": 703,
+  "bars": 3245,
   "symbol_links": [],
-  "valid_from": "2021-10-25",
-  "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:47:54+00:00"
+  "valid_from": "2019-10-30",
+  "price_events_applied": [
+    {
+      "ex_date": "2011-09-12",
+      "factor": 0.2,
+      "purpose": "Face Value Split From Rs.10/- To Rs.2/-"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2015-04-06",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 6:109 @ Premium Rs.269/- Per Share (source factor 1.0)"
+    },
+    {
+      "date": "2019-10-29",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +37.6% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:25:23+00:00"
 }

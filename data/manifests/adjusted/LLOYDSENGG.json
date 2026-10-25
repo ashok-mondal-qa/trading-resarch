@@ -5,10 +5,10 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:28:42+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T03:01:51+00:00",
+  "first_bar": "2016-08-01",
   "last_bar": "2026-10-22",
-  "bars": 1081,
+  "bars": 2039,
   "symbol_links": [
     {
       "old_symbol": "LSIL",
@@ -20,6 +20,24 @@
   "valid_from": "2025-04-29",
   "price_events_applied": [],
   "issues": [
+    {
+      "date": "2018-06-19",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -40.0% with no corporate action"
+    },
+    {
+      "date": "2020-08-18",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -41.4% with no corporate action"
+    },
+    {
+      "date": "2021-10-12",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +143.2% with no corporate action"
+    },
     {
       "date": "2023-12-14",
       "severity": "error",
@@ -33,5 +51,5 @@
       "detail": "Rights 9:34 @ Premium Rs 31/- (source factor 1.0)"
     }
   ],
-  "generated_at_utc": "2026-10-23T05:46:01+00:00"
+  "generated_at_utc": "2026-10-25T03:23:21+00:00"
 }

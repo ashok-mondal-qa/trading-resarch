@@ -1,0 +1,55 @@
+{
+  "symbol": "FEL",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T02:50:35+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2023-01-20",
+  "bars": 2782,
+  "symbol_links": [
+    {
+      "old_symbol": "FRL",
+      "new_symbol": "FEL",
+      "effective_date": "2016-05-13",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "PANTALOONR",
+      "new_symbol": "FRL",
+      "effective_date": "2013-04-11",
+      "status": "confirmed"
+    }
+  ],
+  "valid_from": "2016-05-25",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2013-04-17",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Scheme Of Arrangement (source factor 1.0)"
+    },
+    {
+      "date": "2013-06-21",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Scheme Of Arrangement (source factor 1.0)"
+    },
+    {
+      "date": "2014-11-18",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 5:8 @ Premium Rs.101/- Per Equity Share (source factor 1.0)"
+    },
+    {
+      "date": "2016-05-11",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Scheme Of Arrangement (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:21:58+00:00"
+}

@@ -5,14 +5,31 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:22:11+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T02:53:43+00:00",
+  "first_bar": "2014-06-20",
   "last_bar": "2026-10-22",
-  "bars": 1233,
+  "bars": 3042,
   "symbol_links": [],
   "valid_from": "2022-12-08",
-  "price_events_applied": [],
+  "price_events_applied": [
+    {
+      "ex_date": "2016-07-13",
+      "factor": 0.7143,
+      "purpose": "Bonus 2:5"
+    },
+    {
+      "ex_date": "2020-12-09",
+      "factor": 0.75,
+      "purpose": "Bonus 1:3"
+    }
+  ],
   "issues": [
+    {
+      "date": "2018-05-31",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Interim Dividend- Rs 3 Per Share / Rights 1:16 @ Premium Rs 554 Per Share (source factor 1.0)"
+    },
     {
       "date": "2022-12-07",
       "severity": "error",
@@ -20,5 +37,5 @@
       "detail": "Rights 1:30 @ Premium Rs 418/- (source factor 1.0)"
     }
   ],
-  "generated_at_utc": "2026-10-23T05:45:12+00:00"
+  "generated_at_utc": "2026-10-25T03:22:30+00:00"
 }

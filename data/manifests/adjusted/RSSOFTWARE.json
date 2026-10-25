@@ -1,0 +1,42 @@
+{
+  "symbol": "RSSOFTWARE",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:10:34+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2026-10-22",
+  "bars": 3099,
+  "symbol_links": [],
+  "valid_from": "2025-10-07",
+  "price_events_applied": [
+    {
+      "ex_date": "2015-01-21",
+      "factor": 6.6667,
+      "purpose": "Interim Dividend - Rs 1.50/- Per Share / Face Value Split - From Rs 10/- Per Share To Rs 5/- Per Share (Purpose Revised)"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2015-01-21",
+      "severity": "error",
+      "kind": "factor inconsistent with prices",
+      "detail": "Interim Dividend - Rs 1.50/- Per Share / Face Value Split - From Rs 10/- Per Share To Rs 5/- Per Share (Purpose Revised): factor 6.6667, raw open/prev close 0.5087"
+    },
+    {
+      "date": "2023-12-11",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +58.6% with no corporate action"
+    },
+    {
+      "date": "2025-10-06",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -42.2% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:24:31+00:00"
+}

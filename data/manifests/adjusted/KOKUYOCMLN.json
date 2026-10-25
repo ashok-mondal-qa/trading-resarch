@@ -1,24 +1,31 @@
 {
   "symbol": "KOKUYOCMLN",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:27:37+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T03:23:15+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 1177,
+  "bars": 3626,
   "symbol_links": [
     {
       "old_symbol": "CAMLIN",
       "new_symbol": "KOKUYOCMLN",
       "effective_date": "2012-02-14",
-      "status": "before loaded range"
+      "status": "confirmed"
     }
   ],
-  "valid_from": "2021-10-25",
+  "valid_from": "2013-08-02",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:45:58+00:00"
+  "issues": [
+    {
+      "date": "2013-08-01",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 14:29 @ Premium Rs.32/- Per Share (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:15+00:00"
 }

@@ -1,0 +1,24 @@
+{
+  "symbol": "ELDERPHARM",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T02:49:33+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2015-11-20",
+  "bars": 1021,
+  "symbol_links": [],
+  "valid_from": "2015-05-26",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2015-05-25",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -35.1% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:21:48+00:00"
+}

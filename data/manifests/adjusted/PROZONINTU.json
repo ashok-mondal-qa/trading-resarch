@@ -1,0 +1,44 @@
+{
+  "symbol": "PROZONINTU",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:08:49+00:00",
+  "first_bar": "2012-09-27",
+  "last_bar": "2023-08-03",
+  "bars": 2428,
+  "symbol_links": [
+    {
+      "old_symbol": "PROZONECSC",
+      "new_symbol": "PROZONINTU",
+      "effective_date": "2014-10-07",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "PROZONE",
+      "new_symbol": "PROZONECSC",
+      "effective_date": "2012-09-24",
+      "status": "unconfirmed",
+      "reason": "no bars for one side in loaded data"
+    }
+  ],
+  "valid_from": "2022-03-30",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2020-05-27",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +76.9% with no corporate action"
+    },
+    {
+      "date": "2022-03-29",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -39.7% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:24:09+00:00"
+}

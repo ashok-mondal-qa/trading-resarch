@@ -1,0 +1,37 @@
+{
+  "symbol": "HCL-INSYS",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T02:53:56+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2026-10-22",
+  "bars": 3435,
+  "symbol_links": [
+    {
+      "old_symbol": "HCL-HP",
+      "new_symbol": "HCL-INSYS",
+      "effective_date": "2000-04-12",
+      "status": "before loaded range"
+    }
+  ],
+  "valid_from": "2024-03-14",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2017-10-31",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 10:21 @ Premium Rs 45/- (source factor 1.0)"
+    },
+    {
+      "date": "2024-03-13",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -42.7% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:22:31+00:00"
+}

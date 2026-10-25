@@ -1,0 +1,30 @@
+{
+  "symbol": "KARDA",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T02:59:22+00:00",
+  "first_bar": "2018-04-16",
+  "last_bar": "2021-12-15",
+  "bars": 723,
+  "symbol_links": [],
+  "valid_from": "2021-09-14",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2020-11-10",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -43.0% with no corporate action"
+    },
+    {
+      "date": "2021-09-13",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -90.9% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:02+00:00"
+}

@@ -5,14 +5,26 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:39:23+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T03:14:10+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 1223,
+  "bars": 3765,
   "symbol_links": [],
   "valid_from": "2024-12-20",
   "price_events_applied": [],
   "issues": [
+    {
+      "date": "2013-12-19",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -57.6% with no corporate action"
+    },
+    {
+      "date": "2018-04-06",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Scheme Of Arrangement (source factor 1.0)"
+    },
     {
       "date": "2024-12-06",
       "severity": "error",
@@ -20,5 +32,5 @@
       "detail": "Demerger (source factor 1.0)"
     }
   ],
-  "generated_at_utc": "2026-10-23T05:47:51+00:00"
+  "generated_at_utc": "2026-10-25T03:25:09+00:00"
 }

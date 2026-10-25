@@ -1,0 +1,37 @@
+{
+  "symbol": "KOHINOOR",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:00:14+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2026-10-22",
+  "bars": 2903,
+  "symbol_links": [
+    {
+      "old_symbol": "SATNAMOVER",
+      "new_symbol": "KOHINOOR",
+      "effective_date": "2006-08-18",
+      "status": "before loaded range"
+    }
+  ],
+  "valid_from": "2022-09-14",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2020-02-11",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -41.5% with no corporate action"
+    },
+    {
+      "date": "2022-09-13",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +293.3% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:07+00:00"
+}

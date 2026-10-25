@@ -1,17 +1,30 @@
 {
   "symbol": "GODREJPROP",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:21:13+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T02:52:29+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 1233,
+  "bars": 3775,
   "symbol_links": [],
-  "valid_from": "2021-10-25",
-  "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:45:09+00:00"
+  "valid_from": "2013-08-20",
+  "price_events_applied": [
+    {
+      "ex_date": "2013-11-21",
+      "factor": 0.5,
+      "purpose": "Face Value Split From Rs.10/- To Rs.5/-"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2013-08-19",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 8:29 @ Premium Rs.315/- Per Equity Share (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:22:24+00:00"
 }

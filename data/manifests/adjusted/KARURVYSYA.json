@@ -1,23 +1,41 @@
 {
   "symbol": "KARURVYSYA",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:26:57+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T02:59:19+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 1233,
+  "bars": 3775,
   "symbol_links": [],
-  "valid_from": "2021-10-25",
+  "valid_from": "2017-10-13",
   "price_events_applied": [
+    {
+      "ex_date": "2018-08-14",
+      "factor": 0.9091,
+      "purpose": "Bonus 1:10"
+    },
     {
       "ex_date": "2025-08-26",
       "factor": 0.8333,
       "purpose": "Bonus 1:5"
     }
   ],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:45:57+00:00"
+  "issues": [
+    {
+      "date": "2016-11-17",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -80.0% with no corporate action"
+    },
+    {
+      "date": "2017-10-12",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 1:6 @ Premium Rs 74/- (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:02+00:00"
 }

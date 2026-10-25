@@ -1,0 +1,36 @@
+{
+  "symbol": "ONELIFECAP",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:06:22+00:00",
+  "first_bar": "2011-10-17",
+  "last_bar": "2026-05-21",
+  "bars": 2720,
+  "symbol_links": [],
+  "valid_from": "2026-02-24",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2018-07-24",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -37.4% with no corporate action"
+    },
+    {
+      "date": "2024-11-11",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -43.5% with no corporate action"
+    },
+    {
+      "date": "2026-02-16",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 300:167 @ Premium Rs 5/- (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:44+00:00"
+}

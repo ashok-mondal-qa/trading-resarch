@@ -5,15 +5,21 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:23:31+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T02:55:17+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 817,
+  "bars": 3147,
   "symbol_links": [
     {
       "old_symbol": "ACKRUTI",
       "new_symbol": "HUBTOWN",
       "effective_date": "2011-11-15",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "AKRUTI",
+      "new_symbol": "ACKRUTI",
+      "effective_date": "2009-06-30",
       "status": "before loaded range"
     }
   ],
@@ -33,5 +39,5 @@
       "detail": "adjusted close-to-close move +61.8% with no corporate action"
     }
   ],
-  "generated_at_utc": "2026-10-23T05:45:19+00:00"
+  "generated_at_utc": "2026-10-25T03:22:40+00:00"
 }

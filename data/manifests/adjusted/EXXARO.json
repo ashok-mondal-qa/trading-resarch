@@ -1,0 +1,23 @@
+{
+  "symbol": "EXXARO",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T02:50:19+00:00",
+  "first_bar": "2021-08-31",
+  "last_bar": "2026-10-22",
+  "bars": 1137,
+  "symbol_links": [],
+  "valid_from": "2021-08-31",
+  "price_events_applied": [
+    {
+      "ex_date": "2024-12-13",
+      "factor": 0.1,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share"
+    }
+  ],
+  "issues": [],
+  "generated_at_utc": "2026-10-25T03:21:58+00:00"
+}

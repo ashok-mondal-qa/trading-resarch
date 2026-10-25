@@ -1,0 +1,36 @@
+{
+  "symbol": "OMKARCHEM",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:06:19+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2022-11-02",
+  "bars": 2389,
+  "symbol_links": [],
+  "valid_from": "2020-08-19",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2017-06-12",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Scheme Of Arrangement (source factor 1.0)"
+    },
+    {
+      "date": "2019-12-23",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -47.1% with no corporate action"
+    },
+    {
+      "date": "2020-08-18",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +40.7% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:44+00:00"
+}

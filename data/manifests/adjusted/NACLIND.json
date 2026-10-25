@@ -5,16 +5,16 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:31:30+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T03:04:46+00:00",
+  "first_bar": "2017-04-07",
   "last_bar": "2026-10-22",
-  "bars": 1071,
+  "bars": 2194,
   "symbol_links": [
     {
       "old_symbol": "NAGAAGRI",
       "new_symbol": "NACLIND",
       "effective_date": "2017-09-29",
-      "status": "before loaded range"
+      "status": "confirmed"
     }
   ],
   "valid_from": "2025-12-15",
@@ -27,5 +27,5 @@
       "detail": "Rights 5:31 @ Premium Rs 75.70/- (source factor 1.0)"
     }
   ],
-  "generated_at_utc": "2026-10-23T05:46:42+00:00"
+  "generated_at_utc": "2026-10-25T03:23:37+00:00"
 }

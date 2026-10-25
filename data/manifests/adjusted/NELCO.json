@@ -1,17 +1,30 @@
 {
   "symbol": "NELCO",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:31:55+00:00",
-  "first_bar": "2022-01-10",
+  "actions_retrieved_at_utc": "2026-10-25T03:05:23+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 1128,
+  "bars": 3456,
   "symbol_links": [],
-  "valid_from": "2022-01-10",
+  "valid_from": "2018-07-25",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:46:45+00:00"
+  "issues": [
+    {
+      "date": "2014-06-30",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +35.9% with no corporate action"
+    },
+    {
+      "date": "2018-07-24",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +37.1% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:38+00:00"
 }

@@ -1,24 +1,37 @@
 {
   "symbol": "JUBLPHARMA",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:26:41+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T02:58:50+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 1233,
+  "bars": 3765,
   "symbol_links": [
     {
       "old_symbol": "JUBILANT",
       "new_symbol": "JUBLPHARMA",
       "effective_date": "2021-02-12",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "VAMORGANIC",
+      "new_symbol": "JUBILANT",
+      "effective_date": "2003-09-30",
       "status": "before loaded range"
     }
   ],
-  "valid_from": "2021-10-25",
+  "valid_from": "2021-02-18",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:45:51+00:00"
+  "issues": [
+    {
+      "date": "2021-02-04",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Demerger (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:01+00:00"
 }

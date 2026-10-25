@@ -1,0 +1,48 @@
+{
+  "symbol": "ARCOTECH",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T02:42:35+00:00",
+  "first_bar": "2014-04-16",
+  "last_bar": "2020-12-16",
+  "bars": 1276,
+  "symbol_links": [],
+  "valid_from": "2020-08-25",
+  "price_events_applied": [
+    {
+      "ex_date": "2017-06-22",
+      "factor": 0.2,
+      "purpose": "Face Value Split From Rs 10/- Per Share To Rs 2/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2018-10-31",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -61.1% with no corporate action"
+    },
+    {
+      "date": "2019-06-25",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -63.2% with no corporate action"
+    },
+    {
+      "date": "2020-03-04",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -42.5% with no corporate action"
+    },
+    {
+      "date": "2020-08-24",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +74.3% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:20:38+00:00"
+}

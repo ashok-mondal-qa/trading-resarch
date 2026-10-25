@@ -1,0 +1,24 @@
+{
+  "symbol": "MAHASTEEL",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:02:21+00:00",
+  "first_bar": "2016-07-01",
+  "last_bar": "2026-08-10",
+  "bars": 1817,
+  "symbol_links": [],
+  "valid_from": "2025-08-26",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2025-08-25",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +92.7% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:23+00:00"
+}

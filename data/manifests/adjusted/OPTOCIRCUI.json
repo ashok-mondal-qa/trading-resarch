@@ -1,0 +1,36 @@
+{
+  "symbol": "OPTOCIRCUI",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:06:39+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2021-02-19",
+  "bars": 2139,
+  "symbol_links": [],
+  "valid_from": "2020-08-19",
+  "price_events_applied": [
+    {
+      "ex_date": "2012-03-29",
+      "factor": 0.7692,
+      "purpose": "Bonus 3:10"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2013-05-31",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -37.7% with no corporate action"
+    },
+    {
+      "date": "2020-08-18",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +122.2% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:49+00:00"
+}

@@ -1,17 +1,24 @@
 {
   "symbol": "NETWORK18",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:32:05+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T03:05:28+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 1179,
+  "bars": 3625,
   "symbol_links": [],
-  "valid_from": "2021-10-25",
+  "valid_from": "2012-09-12",
   "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:46:45+00:00"
+  "issues": [
+    {
+      "date": "2012-09-11",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Rights 307:50 @ Premium Rs.25/- Per Share (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:39+00:00"
 }

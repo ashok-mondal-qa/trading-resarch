@@ -16,7 +16,7 @@
   "trade_date": "2026-10-07",
   "first_bar_ist": "2026-10-07T15:30:00+05:30",
   "last_bar_ist": "2026-10-07T15:30:00+05:30",
-  "retrieved_at_utc": "2026-10-23T03:25:07+00:00",
+  "retrieved_at_utc": "2026-10-24T20:20:25+00:00",
   "price_adjustment": "none (raw, unadjusted)",
   "corporate_actions_applied": [],
   "rows_in_file": 3695,
@@ -88,17 +88,5 @@
     "Universe is the set of securities traded that day, not point-in-time index membership."
   ],
   "terms": "NSE data, published for educational and informational use only; not for commercial use or redistribution. Raw and processed files stay git-ignored. See NSE Terms of Use.",
-  "cross_checks": [
-    {
-      "source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_stock_history",
-      "checked_at_utc": "2026-10-23T03:26:21+00:00",
-      "symbols": [
-        "RELIANCE",
-        "TCS",
-        "HDFCBANK"
-      ],
-      "status": "match",
-      "mismatches": []
-    }
-  ]
+  "cross_checks": []
 }

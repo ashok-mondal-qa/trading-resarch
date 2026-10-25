@@ -1,0 +1,30 @@
+{
+  "symbol": "SUNILHITEC",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:14:48+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2018-08-16",
+  "bars": 1748,
+  "symbol_links": [],
+  "valid_from": "2016-12-02",
+  "price_events_applied": [
+    {
+      "ex_date": "2016-12-01",
+      "factor": 0.1,
+      "purpose": "Bonus 1:1/Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2016-12-01",
+      "severity": "error",
+      "kind": "factor inconsistent with prices",
+      "detail": "Bonus 1:1/Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share: factor 0.1, raw open/prev close 0.0525"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:25:20+00:00"
+}

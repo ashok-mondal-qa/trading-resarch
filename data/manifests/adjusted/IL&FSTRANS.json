@@ -1,0 +1,24 @@
+{
+  "symbol": "IL&FSTRANS",
+  "adjuster_version": "0.1.0",
+  "status": "ok",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T02:56:12+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2019-03-29",
+  "bars": 1910,
+  "symbol_links": [
+    {
+      "old_symbol": "ILFSTRANS",
+      "new_symbol": "IL&FSTRANS",
+      "effective_date": "2010-04-16",
+      "status": "before loaded range"
+    }
+  ],
+  "valid_from": "2011-07-01",
+  "price_events_applied": [],
+  "issues": [],
+  "generated_at_utc": "2026-10-25T03:22:42+00:00"
+}

@@ -5,19 +5,31 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:13:06+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T02:42:13+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 1233,
+  "bars": 3775,
   "symbol_links": [
     {
       "old_symbol": "ANDPAPER",
       "new_symbol": "ANDHRAPAP",
       "effective_date": "2020-03-05",
-      "status": "before loaded range"
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "IPAPPM",
+      "new_symbol": "ANDPAPER",
+      "effective_date": "2020-01-22",
+      "status": "confirmed"
+    },
+    {
+      "old_symbol": "APPAPER",
+      "new_symbol": "IPAPPM",
+      "effective_date": "2014-01-21",
+      "status": "confirmed"
     }
   ],
-  "valid_from": "2021-10-25",
+  "valid_from": "2011-07-01",
   "price_events_applied": [
     {
       "ex_date": "2024-09-11",
@@ -26,5 +38,5 @@
     }
   ],
   "issues": [],
-  "generated_at_utc": "2026-10-23T05:44:09+00:00"
+  "generated_at_utc": "2026-10-25T03:20:37+00:00"
 }

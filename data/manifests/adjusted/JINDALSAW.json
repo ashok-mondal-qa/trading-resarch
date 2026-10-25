@@ -1,14 +1,14 @@
 {
   "symbol": "JINDALSAW",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:26:07+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T02:58:04+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 1233,
+  "bars": 3765,
   "symbol_links": [
     {
       "old_symbol": "SAWPIPES",
@@ -17,7 +17,7 @@
       "status": "before loaded range"
     }
   ],
-  "valid_from": "2021-10-25",
+  "valid_from": "2016-09-09",
   "price_events_applied": [
     {
       "ex_date": "2024-10-09",
@@ -25,6 +25,19 @@
       "purpose": "Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share"
     }
   ],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:45:50+00:00"
+  "issues": [
+    {
+      "date": "2011-11-22",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Scheme Of Arrangement (source factor 1.0)"
+    },
+    {
+      "date": "2016-08-25",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Scheme Of Arrangement (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:22:48+00:00"
 }

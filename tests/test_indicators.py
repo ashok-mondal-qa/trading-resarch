@@ -41,6 +41,7 @@ PER_BAR = {
     "realized_vol": lambda b: core.realized_vol(b["close"], 20),
     "vol_percentile": lambda b: core.rolling_percentile(core.realized_vol(b["close"], 20), 100),
     "roc": lambda b: core.roc(b["close"], 20),
+    "rsi": lambda b: core.rsi(b["close"], 2),
     "distance_from_high": lambda b: core.distance_from_high(b, 100),
     "relative_strength": lambda b: core.relative_strength(b["close"], BENCH, 20),
     "median_traded_value": lambda b: core.median_traded_value(b["traded_value"], 20),
@@ -109,6 +110,17 @@ def test_wilder_atr_hand_computed():
     a = core.atr(bars, 3)
     assert np.isnan(a.iloc[1]) and a.iloc[2] == pytest.approx(7 / 3)
     assert a.iloc[3] == pytest.approx((7 / 3 * 2 + 3) / 3)
+
+
+def test_wilder_rsi_hand_computed():
+    s = pd.Series([10.0, 11, 10, 12, 12, 11])
+    # changes: +1, -1, +2, 0, -1. n=2: seed gain (1+0)/2=0.5, loss (0+1)/2=0.5 -> 50 at index 2
+    r = core.rsi(s, 2)
+    assert r.iloc[:2].isna().all() and r.iloc[2] == pytest.approx(50)
+    # i=3: gain (0.5+2)/2=1.25, loss 0.25 -> 100-100/6; i=4: 0.625, 0.125 -> same; i=5: 0.3125, 0.5625
+    assert r.iloc[3] == pytest.approx(100 - 100 / 6) and r.iloc[4] == pytest.approx(100 - 100 / 6)
+    assert r.iloc[5] == pytest.approx(100 - 100 / (1 + 0.3125 / 0.5625))
+    assert core.rsi(pd.Series([1.0, 2, 3, 4]), 2).iloc[-1] == 100
 
 
 def test_volume_ratio_excludes_today_from_median():

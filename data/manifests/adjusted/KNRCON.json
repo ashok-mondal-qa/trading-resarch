@@ -1,17 +1,30 @@
 {
   "symbol": "KNRCON",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:27:45+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T02:59:58+00:00",
+  "first_bar": "2011-07-01",
   "last_bar": "2026-10-22",
-  "bars": 1233,
+  "bars": 3719,
   "symbol_links": [],
-  "valid_from": "2021-10-25",
-  "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:45:58+00:00"
+  "valid_from": "2016-12-14",
+  "price_events_applied": [
+    {
+      "ex_date": "2021-02-03",
+      "factor": 0.5,
+      "purpose": "Bonus 1:1"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2016-12-13",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -78.8% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:07+00:00"
 }

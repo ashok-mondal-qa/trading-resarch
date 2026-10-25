@@ -1,0 +1,54 @@
+{
+  "symbol": "VAKRANGEE",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:18:11+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2026-10-22",
+  "bars": 3673,
+  "symbol_links": [
+    {
+      "old_symbol": "VAKRANSOFT",
+      "new_symbol": "VAKRANGEE",
+      "effective_date": "2013-11-27",
+      "status": "confirmed"
+    }
+  ],
+  "valid_from": "2023-06-30",
+  "price_events_applied": [
+    {
+      "ex_date": "2012-04-12",
+      "factor": 0.1,
+      "purpose": "Bonus 1:1 And Face Value Split From Rs.10/- To Re.1/-"
+    },
+    {
+      "ex_date": "2017-12-21",
+      "factor": 0.5,
+      "purpose": "Bonus 1:1"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2012-04-12",
+      "severity": "error",
+      "kind": "factor inconsistent with prices",
+      "detail": "Bonus 1:1 And Face Value Split From Rs.10/- To Re.1/-: factor 0.1, raw open/prev close 0.0519"
+    },
+    {
+      "date": "2018-06-01",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -69.1% with no corporate action"
+    },
+    {
+      "date": "2023-06-15",
+      "severity": "error",
+      "kind": "price-changing event not adjusted",
+      "detail": "Demerger (source factor 1.0)"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:26:00+00:00"
+}

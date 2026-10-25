@@ -1,0 +1,31 @@
+{
+  "symbol": "ZUARIGLOB",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:20:06+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2022-07-01",
+  "bars": 2580,
+  "symbol_links": [
+    {
+      "old_symbol": "ZUARIAGRO",
+      "new_symbol": "ZUARIGLOB",
+      "effective_date": "2012-09-25",
+      "status": "confirmed"
+    }
+  ],
+  "valid_from": "2012-04-24",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2012-04-23",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move -67.4% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:26:14+00:00"
+}

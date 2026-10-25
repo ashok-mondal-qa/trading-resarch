@@ -1,17 +1,30 @@
 {
   "symbol": "POKARNA",
   "adjuster_version": "0.1.0",
-  "status": "ok",
+  "status": "partial",
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-23T05:34:12+00:00",
-  "first_bar": "2021-10-25",
+  "actions_retrieved_at_utc": "2026-10-25T03:07:59+00:00",
+  "first_bar": "2016-07-07",
   "last_bar": "2026-10-22",
-  "bars": 1233,
+  "bars": 2445,
   "symbol_links": [],
-  "valid_from": "2021-10-25",
-  "price_events_applied": [],
-  "issues": [],
-  "generated_at_utc": "2026-10-23T05:47:00+00:00"
+  "valid_from": "2020-08-19",
+  "price_events_applied": [
+    {
+      "ex_date": "2017-10-18",
+      "factor": 0.2,
+      "purpose": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share"
+    }
+  ],
+  "issues": [
+    {
+      "date": "2020-08-18",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +54.4% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:57+00:00"
 }

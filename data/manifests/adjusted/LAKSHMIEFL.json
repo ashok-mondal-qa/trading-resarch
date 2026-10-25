@@ -1,0 +1,24 @@
+{
+  "symbol": "LAKSHMIEFL",
+  "adjuster_version": "0.1.0",
+  "status": "partial",
+  "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
+  "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
+  "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
+  "actions_retrieved_at_utc": "2026-10-25T03:00:59+00:00",
+  "first_bar": "2011-07-01",
+  "last_bar": "2018-08-16",
+  "bars": 1676,
+  "symbol_links": [],
+  "valid_from": "2013-06-17",
+  "price_events_applied": [],
+  "issues": [
+    {
+      "date": "2013-06-14",
+      "severity": "error",
+      "kind": "unexplained jump",
+      "detail": "adjusted close-to-close move +68.1% with no corporate action"
+    }
+  ],
+  "generated_at_utc": "2026-10-25T03:23:19+00:00"
+}
