@@ -106,3 +106,23 @@ def test_non_ascii_pair_names_are_percent_encoded():
         return listing([])
     binance.list_keys(f"{binance.PREFIX}牛来USDT/1d/", None, fetch)
     assert seen[0].isascii() and "%E7%89%9B" in seen[0]
+
+
+def test_daily_files_continue_after_the_last_month(tmp_path):
+    month = {"2023-12": kline_zip(JAN_2024 - 31 * DAY_MS, 31), "2024-01": kline_zip(JAN_2024, 31)}
+    feb = JAN_2024 + 31 * DAY_MS
+    days = {f"2024-02-0{i + 1}": kline_zip(feb + i * DAY_MS, 1) for i in range(3)}
+    monthly = fake_archive(month)
+    dkeys = [f"{binance.DAILY_PREFIX}TESTUSDT/1d/TESTUSDT-1d-{d}.zip" for d in days]
+    def fetch(url):
+        if url.startswith(binance.LISTING) and "daily" in url:
+            assert "marker=" + binance._q(f"{binance.DAILY_PREFIX}TESTUSDT/1d/TESTUSDT-1d-2024-01-32") in url
+            return listing(dkeys)
+        for d, data in days.items():
+            if url.endswith(f"TESTUSDT-1d-{d}.zip"):
+                return data
+            if url.endswith(f"TESTUSDT-1d-{d}.zip.CHECKSUM"):
+                return f"{hashlib.sha256(data).hexdigest()}  x.zip".encode()
+        return monthly(url)
+    m = binance.load_symbol("TESTUSDT", "2024-01", tmp_path, fetch, daily_through="2024-02-02")
+    assert m["last_bar"] == "2024-02-02" and m["rows"] == 64 and m["status"] == "ok"
