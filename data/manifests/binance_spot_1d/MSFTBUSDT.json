@@ -1,0 +1,41 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MSFTBUSDT/1d/",
+  "instrument": "MSFTBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-06-30",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:39+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 93,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MSFTBUSDT-1d-2026-06.zip",
+      "sha256": "b10c6631776420836b5a5ab806cdca3d539a123ec8a756a246d8b2d3f7cb3439"
+    },
+    {
+      "file": "MSFTBUSDT-1d-2026-07.zip",
+      "sha256": "479256b95700ed1a8e6640b00b16cddca3e0c8d9bbba94937969a4ffe22e34c8"
+    },
+    {
+      "file": "MSFTBUSDT-1d-2026-08.zip",
+      "sha256": "6d969cf85584b15eec90aefba18fc56fd840677229ff030dbc125a6690b14f20"
+    },
+    {
+      "file": "MSFTBUSDT-1d-2026-09.zip",
+      "sha256": "e43b2882f11eb3396a01336bb264c0a14927240fc8cadb8d6544b4106d04cab6"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PEPEUSDT/1d/",
+  "instrument": "PEPEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-05-05",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:11+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1245,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PEPEUSDT-1d-2023-05.zip",
+      "sha256": "00f28eecd777102ac3b24f52949e16b3040893f084752bbd1623d444b606e740"
+    },
+    {
+      "file": "PEPEUSDT-1d-2023-06.zip",
+      "sha256": "fb29c3a016d988f445c183722380058769bc6f13cac74fe33a95cbc0b5ff78c2"
+    },
+    {
+      "file": "PEPEUSDT-1d-2023-07.zip",
+      "sha256": "660a4ef8c9b2a9a103c6be7f9f23805718731889b37b70240d9d43b146cd23a9"
+    },
+    {
+      "file": "PEPEUSDT-1d-2023-08.zip",
+      "sha256": "e16a541428eca31ccaa8a5fb44619f01aae31e44c5a7793fd527ef02aa877eeb"
+    },
+    {
+      "file": "PEPEUSDT-1d-2023-09.zip",
+      "sha256": "32adabaa1441dba09d90bbeb92fe6ad14a469c4688757432cb871b2a2f687001"
+    },
+    {
+      "file": "PEPEUSDT-1d-2023-10.zip",
+      "sha256": "8f93947377697dc3feeff7f8a46f8c1aeddda9b9e694bc84caafa97e39908286"
+    },
+    {
+      "file": "PEPEUSDT-1d-2023-11.zip",
+      "sha256": "ab6173fd7ac847a598dda98f579362600b3323e40c220359deaaf56296625846"
+    },
+    {
+      "file": "PEPEUSDT-1d-2023-12.zip",
+      "sha256": "d16511370f462bad20d1225d939b7b036c355ab022360c04323f516994a750b2"
+    },
+    {
+      "file": "PEPEUSDT-1d-2024-01.zip",
+      "sha256": "ffe2cb891fa932660db64d06dc1fee95d5c616431ba15c32d8e63c3d79820a86"
+    },
+    {
+      "file": "PEPEUSDT-1d-2024-02.zip",
+      "sha256": "6597c47a7e147383cf5b8e380ee941e74beb87eb76dc698e67204bf219b226f9"
+    },
+    {
+      "file": "PEPEUSDT-1d-2024-03.zip",
+      "sha256": "500d4fe8bfeeedd3f6fb8cd62feb86efb7e8bef7d81f91192551d9a8a3f61625"
+    },
+    {
+      "file": "PEPEUSDT-1d-2024-04.zip",
+      "sha256": "6c3e8740f2b6482c50c602caae685dd040071e04585c67c5a639296ac20406e9"
+    },
+    {
+      "file": "PEPEUSDT-1d-2024-05.zip",
+      "sha256": "b8110c54079a6d7e8047c3e6b172b1dbc53299284bb8d95672cdde4b7d77d077"
+    },
+    {
+      "file": "PEPEUSDT-1d-2024-06.zip",
+      "sha256": "1c17b8e53a1405fe533385129f66f01168bdbd136fd77a60be69678033bbce68"
+    },
+    {
+      "file": "PEPEUSDT-1d-2024-07.zip",
+      "sha256": "ff09c070add56793ae234ae868fa026df76010c26a0966dfd3806dca5c8a391a"
+    },
+    {
+      "file": "PEPEUSDT-1d-2024-08.zip",
+      "sha256": "ea88faa1afb7e57c8a72c0c9cc1e42a0a98b41f25d66a37f4fe8b972e0611a92"
+    },
+    {
+      "file": "PEPEUSDT-1d-2024-09.zip",
+      "sha256": "37268c4c20b3b7c79e2a0165ce61d08c08e068de55b73f5a3655b890d11c8dec"
+    },
+    {
+      "file": "PEPEUSDT-1d-2024-10.zip",
+      "sha256": "ba587eb1ae3650f9195aacc2527462fb30b5d6af3e8578824100f81b3bf49ab2"
+    },
+    {
+      "file": "PEPEUSDT-1d-2024-11.zip",
+      "sha256": "76ca4673dc5de59d2f0811d8308c7cfdd737cf65126943711e0f7f694421478c"
+    },
+    {
+      "file": "PEPEUSDT-1d-2024-12.zip",
+      "sha256": "339aff250396a398c2d90418421fc0e4e3d6a34eeb0da30fe178818ee0cef313"
+    },
+    {
+      "file": "PEPEUSDT-1d-2025-01.zip",
+      "sha256": "1fa002d0f714696f34a15e726850164a9bc861292e1788217e1e2e1778331136"
+    },
+    {
+      "file": "PEPEUSDT-1d-2025-02.zip",
+      "sha256": "2fe3559d0f88e7a12303f22049c7486fd186c6becc9513c90bbebae4e4986f71"
+    },
+    {
+      "file": "PEPEUSDT-1d-2025-03.zip",
+      "sha256": "6b6ce1055c8101f283e0d3a1c0aa01bcea8bc0f0920e8781a3c32cc60f18247a"
+    },
+    {
+      "file": "PEPEUSDT-1d-2025-04.zip",
+      "sha256": "72b01676a77831454b3d08e5c7eecfecad1a38a8b745024f11a816cfc6f1a806"
+    },
+    {
+      "file": "PEPEUSDT-1d-2025-05.zip",
+      "sha256": "b27dbeb3e841235849f3c1388634aba42eb375314dfa6e41cddaa665ef87aa50"
+    },
+    {
+      "file": "PEPEUSDT-1d-2025-06.zip",
+      "sha256": "e0869b93d96d64aedf3a191593f6f60847f7a54924e62fa8a730aa1e0edf272c"
+    },
+    {
+      "file": "PEPEUSDT-1d-2025-07.zip",
+      "sha256": "3eb98611bdcac5e4692abb653ef9119f7e6fd0d87e0f891f45ad24e3f125c407"
+    },
+    {
+      "file": "PEPEUSDT-1d-2025-08.zip",
+      "sha256": "d4397f281dc167ca5d51dcaed483ae4be3b8f63b5ce7c89d4433ca95c9578aaa"
+    },
+    {
+      "file": "PEPEUSDT-1d-2025-09.zip",
+      "sha256": "cbd45d06873925130c5cc6955b9e3aa15d042eee40254b78cf58e92c0b883357"
+    },
+    {
+      "file": "PEPEUSDT-1d-2025-10.zip",
+      "sha256": "dea77267e52583a0c8c445c880cc36cc4e281bd785e5535065131330bc92dd19"
+    },
+    {
+      "file": "PEPEUSDT-1d-2025-11.zip",
+      "sha256": "0d58bc7b0ff952f184353723c043c7ab50f1343255f08ce7103cb258e0c32c9c"
+    },
+    {
+      "file": "PEPEUSDT-1d-2025-12.zip",
+      "sha256": "0d44961ffff0407a2ab0717dc44fe722e1ae10c8a0b68c09e978f73807a96f33"
+    },
+    {
+      "file": "PEPEUSDT-1d-2026-01.zip",
+      "sha256": "f61314a3a1e8ae2dc69d8270a5d07225b48212c6a1df2b811912c941c4d573fa"
+    },
+    {
+      "file": "PEPEUSDT-1d-2026-02.zip",
+      "sha256": "7e52f2ddbcb37b86db71ab4395081af63b52efa12b0b3c50da701efa818e0436"
+    },
+    {
+      "file": "PEPEUSDT-1d-2026-03.zip",
+      "sha256": "00d77f2f29806f3550d56dd5f09844c7676e60884f7502882de2d9f614f25af4"
+    },
+    {
+      "file": "PEPEUSDT-1d-2026-04.zip",
+      "sha256": "7a23a771807b8a812654c7f29567615c34a0244f9124d72a10a8d2b25f17d0ce"
+    },
+    {
+      "file": "PEPEUSDT-1d-2026-05.zip",
+      "sha256": "9dbf305bb62190f5b574f8243151da7bb1bd16a875f25c6c38d3112efd5f364c"
+    },
+    {
+      "file": "PEPEUSDT-1d-2026-06.zip",
+      "sha256": "5b7ec4a95d810461e0c3b334ce129c17ff00a22939715b6cb78fe28c3e9dcaac"
+    },
+    {
+      "file": "PEPEUSDT-1d-2026-07.zip",
+      "sha256": "c94fbbe9d6e583354830f553eb9ef263432607108af088fa47196bbc60a712e1"
+    },
+    {
+      "file": "PEPEUSDT-1d-2026-08.zip",
+      "sha256": "3ecfb3f1ba09c392dc1f3f4da30f43d58e688b3737081165d721c6f609f8a725"
+    },
+    {
+      "file": "PEPEUSDT-1d-2026-09.zip",
+      "sha256": "4f7c351f63ddb55e8cc4e685f093921587c9e4a17026aaf0976ff1dd86bedf86"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/TORNUSDT/1d/",
+  "instrument": "TORNUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-06-11",
+  "last_bar": "2022-12-27",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:47:05+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 565,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "TORNUSDT-1d-2021-06.zip",
+      "sha256": "697deecc7d970e9ae5ad86bda6a9eae73b952453eecffc772d12c07ce243ba45"
+    },
+    {
+      "file": "TORNUSDT-1d-2021-07.zip",
+      "sha256": "dbaf74289f686b4e11ebd1b6e115a5f6c559caabb8d074d202a0bd370d60e8da"
+    },
+    {
+      "file": "TORNUSDT-1d-2021-08.zip",
+      "sha256": "2ed7db5e9d53e5d7a34814cd318ae820338a9dde1e20bbb1fc27abe7d4e24d47"
+    },
+    {
+      "file": "TORNUSDT-1d-2021-09.zip",
+      "sha256": "2a98b94ff2f2c5e1fc3fe6c5cafe3c476742da162ed67e2e088b6106121186e3"
+    },
+    {
+      "file": "TORNUSDT-1d-2021-10.zip",
+      "sha256": "e856e4abdd1a536ae4e01df80d882eca46420454db8b33e50e3b2bcc4ac16174"
+    },
+    {
+      "file": "TORNUSDT-1d-2021-11.zip",
+      "sha256": "9d1006cd891f7a78f58fb0129d88749d000bfe4243ad3823e10a1da5caa48ca1"
+    },
+    {
+      "file": "TORNUSDT-1d-2021-12.zip",
+      "sha256": "75a32a66c3f906d1a7cb173d696e2081c145dc8840d50bdafdf6db64b9d1bfd7"
+    },
+    {
+      "file": "TORNUSDT-1d-2022-01.zip",
+      "sha256": "db8873369010f7a309c0ace10781923914858c29b625f12264ff6bc475bb1f9d"
+    },
+    {
+      "file": "TORNUSDT-1d-2022-02.zip",
+      "sha256": "70b0e7ad8b8b844b95b4148bb9fa890cb1d01bd448394e487a017f53dec7c4f1"
+    },
+    {
+      "file": "TORNUSDT-1d-2022-03.zip",
+      "sha256": "9fcb2e3eabd27aca1f57590f172f23000f2f8e8766ed7244b6a7eca5557deec6"
+    },
+    {
+      "file": "TORNUSDT-1d-2022-04.zip",
+      "sha256": "4c1f46ddb7e45eb47195a6cdbede2c2075e1f35b710442c2191889565f17152e"
+    },
+    {
+      "file": "TORNUSDT-1d-2022-05.zip",
+      "sha256": "15be64b8a3b4b1e2c00c5fc3cc1ce0edf12d176369a550d0e617e0eef8ea3617"
+    },
+    {
+      "file": "TORNUSDT-1d-2022-06.zip",
+      "sha256": "0c968fabacfcaa5cb825167dd49e6b3746fe4eaaaedec1f0b66b4b7cd4bbc9d7"
+    },
+    {
+      "file": "TORNUSDT-1d-2022-07.zip",
+      "sha256": "884ac9a6dfad0ea99801d17d57cd19e2c6042b495d3e8db0c18e269db662cb25"
+    },
+    {
+      "file": "TORNUSDT-1d-2022-08.zip",
+      "sha256": "92efe8607bc1e34691ddaec29131905461fc7dc3644e53096072ecfa341a3c23"
+    },
+    {
+      "file": "TORNUSDT-1d-2022-09.zip",
+      "sha256": "2e5bcf1860a09e7be6638eed9ccae3b2e600b650d06bd1eb5896e739a048b798"
+    },
+    {
+      "file": "TORNUSDT-1d-2022-10.zip",
+      "sha256": "75956150ea6b67e26cfc3c6299f54e052098e6314e2ad754a16b3513ce6f6e3c"
+    },
+    {
+      "file": "TORNUSDT-1d-2022-11.zip",
+      "sha256": "fa96bbe9922f4214c73f3568a46c1cf3875454716f5325eb5628e6d26ead76de"
+    },
+    {
+      "file": "TORNUSDT-1d-2022-12.zip",
+      "sha256": "a77b070ba1a6c4874584f96520c082339fb712b9b1460a083a80fea5aef68016"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

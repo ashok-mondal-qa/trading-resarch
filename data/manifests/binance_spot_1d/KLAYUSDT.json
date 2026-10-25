@@ -1,0 +1,189 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/KLAYUSDT/1d/",
+  "instrument": "KLAYUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-06-24",
+  "last_bar": "2024-10-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:37:22+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1225,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "KLAYUSDT-1d-2021-06.zip",
+      "sha256": "16084c697bcf3f21998f101f755c138c729f973e47793c216395a04f26446f8a"
+    },
+    {
+      "file": "KLAYUSDT-1d-2021-07.zip",
+      "sha256": "96a1b0c54ca0ccb68f1d8510b569e56fe554a1684a1e3dd689c0bec8a0e36556"
+    },
+    {
+      "file": "KLAYUSDT-1d-2021-08.zip",
+      "sha256": "ba90cebb3c1b23764ac6c5556e19043a2ed09b5cc9fce28da9c8bf5c7ea50cd9"
+    },
+    {
+      "file": "KLAYUSDT-1d-2021-09.zip",
+      "sha256": "d724e012d672aa6d0b08e73b190111405f00b71b3ffcf25b9369fb46732caac9"
+    },
+    {
+      "file": "KLAYUSDT-1d-2021-10.zip",
+      "sha256": "738d0782dff4108202289a18c4b6b073c9d463d62e9d9e8f0916859164574bb5"
+    },
+    {
+      "file": "KLAYUSDT-1d-2021-11.zip",
+      "sha256": "dd539f9eaadee4cf3f627ea5cdb3ee96c796df4822f71c5c7bc5d06e92e2dbb4"
+    },
+    {
+      "file": "KLAYUSDT-1d-2021-12.zip",
+      "sha256": "cbf4f3adc42d414315a01f1c39df273222124b242f00191b662cffd0baa6a3bd"
+    },
+    {
+      "file": "KLAYUSDT-1d-2022-01.zip",
+      "sha256": "5a6bb5d8050dd82fdffb5dfaa2602484a77a89c62ad68aef9d830e43917808d7"
+    },
+    {
+      "file": "KLAYUSDT-1d-2022-02.zip",
+      "sha256": "dc6049000af064ad29e5c368173d6386e4cc372256082640feabe9ab14fab85b"
+    },
+    {
+      "file": "KLAYUSDT-1d-2022-03.zip",
+      "sha256": "42d8751d53b5e6b446362d6a90eb4d456a16a5b450c906640c4546954fe1fa25"
+    },
+    {
+      "file": "KLAYUSDT-1d-2022-04.zip",
+      "sha256": "590dc2e041a31d6d408b9e17b3714592c96fd8baeaf3de17f1a451e2bd3923ce"
+    },
+    {
+      "file": "KLAYUSDT-1d-2022-05.zip",
+      "sha256": "55c2bda4ba07cc6173ffbf33c926098f1af564cb36782e243450ca0b13d5cef5"
+    },
+    {
+      "file": "KLAYUSDT-1d-2022-06.zip",
+      "sha256": "4f9fc511003f14a64b206d6ce7dd0c1aefa86b6b1a55a1fc1a72b8c7b7a22cbb"
+    },
+    {
+      "file": "KLAYUSDT-1d-2022-07.zip",
+      "sha256": "0acc2ab9a7a37d6b3e0d89d192e7cbc23949d94b26b7934176a393cc4d50de62"
+    },
+    {
+      "file": "KLAYUSDT-1d-2022-08.zip",
+      "sha256": "9ef5d73612d4038d5bd4e4126ef42d08880bf5031c92dac180ce1d8f1fd466a4"
+    },
+    {
+      "file": "KLAYUSDT-1d-2022-09.zip",
+      "sha256": "3b31e79af3a685521be86e722d6d2fd048e4a2519f10fc3e8e554d72c0190d88"
+    },
+    {
+      "file": "KLAYUSDT-1d-2022-10.zip",
+      "sha256": "05e983631647f7fe5a8cd93d552d9bc6308996b71a672908920418c7a4756915"
+    },
+    {
+      "file": "KLAYUSDT-1d-2022-11.zip",
+      "sha256": "87cb81e6fb95ae9cd03d03961112ab58ce0ccfc2194d9a9d9e2a3c0c39abab19"
+    },
+    {
+      "file": "KLAYUSDT-1d-2022-12.zip",
+      "sha256": "679b5c98c5a622ee7b7accd34b27e4ebdb2ef17ad615b05e9e841eb98d56aed9"
+    },
+    {
+      "file": "KLAYUSDT-1d-2023-01.zip",
+      "sha256": "fad540f3de2f82d703b4e454dee6cedfee376b4e2fdec9e7a56dec8b22cfea95"
+    },
+    {
+      "file": "KLAYUSDT-1d-2023-02.zip",
+      "sha256": "c35160665beaea13c197a5fbffd81220cdf8223d0a4075fa740f46aa046a8586"
+    },
+    {
+      "file": "KLAYUSDT-1d-2023-03.zip",
+      "sha256": "f1724b9293b96dd684d31c64a9955dfadee6e6eada39cedf0f7a17ca2c7e52c6"
+    },
+    {
+      "file": "KLAYUSDT-1d-2023-04.zip",
+      "sha256": "61f50c9c41829e0f8621900d13dfeff7790792d17ff2595fa50f30c00f5bcde4"
+    },
+    {
+      "file": "KLAYUSDT-1d-2023-05.zip",
+      "sha256": "be33e828ebc413ec4e489e7fcc7e735b3c3c9ebc4ac5c92d9ade56ecb6cae8d0"
+    },
+    {
+      "file": "KLAYUSDT-1d-2023-06.zip",
+      "sha256": "0f30e6cb8b88709396b967649e3e11b1ac1e9e950aeeadbb662adf08ba10e48e"
+    },
+    {
+      "file": "KLAYUSDT-1d-2023-07.zip",
+      "sha256": "bb5e3721252728a43f8ee6b575a3d3df9c7ba48d14469e9f629d82471de4d317"
+    },
+    {
+      "file": "KLAYUSDT-1d-2023-08.zip",
+      "sha256": "9456d84e9e5d5c9bf44146f0b0e3e140111bb93e530855edf16a523ab69792bb"
+    },
+    {
+      "file": "KLAYUSDT-1d-2023-09.zip",
+      "sha256": "e7a1d750a21578139e1e904cf483dc7fbdc8e06cb2ce954c724b7b20b7c3e281"
+    },
+    {
+      "file": "KLAYUSDT-1d-2023-10.zip",
+      "sha256": "f838556684c4f72495219acfed9b589993641e21b2fb3d378cad50aafda8563c"
+    },
+    {
+      "file": "KLAYUSDT-1d-2023-11.zip",
+      "sha256": "959cc56e353812c966a0be3d4197017c016111a8ef916e500c361a938f475a48"
+    },
+    {
+      "file": "KLAYUSDT-1d-2023-12.zip",
+      "sha256": "82767703d18a3962c489e58ff22b94c6a5884e382b04fc28f8ebb692086fbb6e"
+    },
+    {
+      "file": "KLAYUSDT-1d-2024-01.zip",
+      "sha256": "b4d7f125d8af71fb81c1dafe3b525ca4293c8773339c5bfa8500101b8e1635ed"
+    },
+    {
+      "file": "KLAYUSDT-1d-2024-02.zip",
+      "sha256": "738c9ed2ca0c57dba402ce093a7a95a636e33a5150b40c4b7a0ae6f6ee8acfdc"
+    },
+    {
+      "file": "KLAYUSDT-1d-2024-03.zip",
+      "sha256": "7274ca9f1d0cdd1d948482a6aa9cc81c9cb6997a23d10a7eb5f7243bc2e05f1a"
+    },
+    {
+      "file": "KLAYUSDT-1d-2024-04.zip",
+      "sha256": "3c9d0e3a112ab6c10aad892852798030fe456510ece765a0ac90889a1f60a882"
+    },
+    {
+      "file": "KLAYUSDT-1d-2024-05.zip",
+      "sha256": "3167bae60bad34439a646b1f2ac114352d9da7dd2debc36490d5ba085c2306ce"
+    },
+    {
+      "file": "KLAYUSDT-1d-2024-06.zip",
+      "sha256": "641ed1ddffc64754a1ccf665d4aa816dbbd449c8d9142f0f80af4aacaa5cd576"
+    },
+    {
+      "file": "KLAYUSDT-1d-2024-07.zip",
+      "sha256": "7066bcef614af338ea3b27e1d3a9809849ad2ff0a81d3504d568e9d8e6559376"
+    },
+    {
+      "file": "KLAYUSDT-1d-2024-08.zip",
+      "sha256": "70ebd1ffa86efdca940d7c6946dbdb582a35b31aa4b582233f38e9f9e1d58897"
+    },
+    {
+      "file": "KLAYUSDT-1d-2024-09.zip",
+      "sha256": "8adda89df90ab688633e65122bf32c51bc3ebc2c64b7659514c6057708f29727"
+    },
+    {
+      "file": "KLAYUSDT-1d-2024-10.zip",
+      "sha256": "68dce6c6be6ac4e22428771a1402d957becb8e6a1ec9bb7b83507b2029712a59"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/1000CATUSDT/1d/",
+  "instrument": "1000CATUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-12-17",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:24:23+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 653,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "1000CATUSDT-1d-2024-12.zip",
+      "sha256": "48029dd3b8ba46aff157ea8dffdd9190c873b2d3ac1a9374d0d2e72bd5c7068c"
+    },
+    {
+      "file": "1000CATUSDT-1d-2025-01.zip",
+      "sha256": "5def6d5288a0843fe8d64d3f639861e1ea78aad8bc0c2631e31ac5bc3c7867d1"
+    },
+    {
+      "file": "1000CATUSDT-1d-2025-02.zip",
+      "sha256": "b7b956841940e80480029c714bd9328b06c510d1c7d5a1531156f8441f0c26cc"
+    },
+    {
+      "file": "1000CATUSDT-1d-2025-03.zip",
+      "sha256": "d62affbdef6dd4b20a05deac83545332c6b26c75d65240690d047ef1d5420eda"
+    },
+    {
+      "file": "1000CATUSDT-1d-2025-04.zip",
+      "sha256": "3906829b8e9f560fd7d6d57569c05c6b92dde1ac5ab705af6d3dc9543a95f443"
+    },
+    {
+      "file": "1000CATUSDT-1d-2025-05.zip",
+      "sha256": "4fb898206db9dbf36b401d6905645129e11570227ca7e0bbcdd06e9324c4d81d"
+    },
+    {
+      "file": "1000CATUSDT-1d-2025-06.zip",
+      "sha256": "237f557d025b5e5d467ff0f2953556b4a135e66935e985aea31a0222153cb426"
+    },
+    {
+      "file": "1000CATUSDT-1d-2025-07.zip",
+      "sha256": "9dbd12126d90ae2e0444296b5c8fc885867f980a606502160f2eea32ac1bd669"
+    },
+    {
+      "file": "1000CATUSDT-1d-2025-08.zip",
+      "sha256": "63286d6cd3d28342a290cb81bd0abc937cf46c7392e0d2a0eaacea771a88d243"
+    },
+    {
+      "file": "1000CATUSDT-1d-2025-09.zip",
+      "sha256": "6e61abb68651acb56f4ff8619f2a0d4058350bdd09a74c5e08d74d3f2939a663"
+    },
+    {
+      "file": "1000CATUSDT-1d-2025-10.zip",
+      "sha256": "e28ab06cc3e01165d16940f712a1a8fcd3743fb0c249c8a4134df8005f5c97d3"
+    },
+    {
+      "file": "1000CATUSDT-1d-2025-11.zip",
+      "sha256": "9084cd0856ca46ac720cfb85b7b1a90f0b3036269e18ebe95b5092c8ff752891"
+    },
+    {
+      "file": "1000CATUSDT-1d-2025-12.zip",
+      "sha256": "252b562d7cdfcd7be1048d78c99cb24c1eb716f00820e35041cabeef14e0b847"
+    },
+    {
+      "file": "1000CATUSDT-1d-2026-01.zip",
+      "sha256": "c163ead51348bdfd0d3d9d90b60b9364382f28da373f443983dbe33ae6b7a32f"
+    },
+    {
+      "file": "1000CATUSDT-1d-2026-02.zip",
+      "sha256": "cc9b0558755f037bdf59b5120908bd973b3e75d3bbbd8b047ded71957b178289"
+    },
+    {
+      "file": "1000CATUSDT-1d-2026-03.zip",
+      "sha256": "1d43d2ac4bb91cdf8991ef1713f86351d15d2069c825f59b81bd2730d5dae24e"
+    },
+    {
+      "file": "1000CATUSDT-1d-2026-04.zip",
+      "sha256": "93b0753dc419f78d34335d898680b69013b30f225ffedfc476486ab6d5cb9667"
+    },
+    {
+      "file": "1000CATUSDT-1d-2026-05.zip",
+      "sha256": "00ed8495306b5528d3e5dd04c97ee65acede637cb4ecd694b1df2f7c44349073"
+    },
+    {
+      "file": "1000CATUSDT-1d-2026-06.zip",
+      "sha256": "3db5dcdba6e3dc05b2779c16e7d5861e7c13bca7b0cde9afaf370c61a4ad3485"
+    },
+    {
+      "file": "1000CATUSDT-1d-2026-07.zip",
+      "sha256": "f97f9b12aba8142878c916185890e131a49b9620b1f1374d069b64462060bb7f"
+    },
+    {
+      "file": "1000CATUSDT-1d-2026-08.zip",
+      "sha256": "2bc706dcc52dcac6dc9a861c6b1fc2e1d228d29f0b75f022abce1657edc66693"
+    },
+    {
+      "file": "1000CATUSDT-1d-2026-09.zip",
+      "sha256": "a308ba41f584f8ef78f0d77e70a75d305917961b38634a312e7f65f775fc42da"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

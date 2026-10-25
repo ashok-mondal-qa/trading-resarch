@@ -1,0 +1,101 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/TUTUSDT/1d/",
+  "instrument": "TUTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-03-27",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:47:40+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 553,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "TUTUSDT-1d-2025-03.zip",
+      "sha256": "b21530bfb77922f1647323fcb7e66298fc9997444d7eec7256e7829c1abf872a"
+    },
+    {
+      "file": "TUTUSDT-1d-2025-04.zip",
+      "sha256": "d0609f4657d7b390f07ad24b5f320cebecc6db283b84d623b6305d6858dd0bf0"
+    },
+    {
+      "file": "TUTUSDT-1d-2025-05.zip",
+      "sha256": "60c423c6985955ad0b67e039d82b180ffab2c40159d0dbece2dbb9519a8af3d4"
+    },
+    {
+      "file": "TUTUSDT-1d-2025-06.zip",
+      "sha256": "8b6cf4fae5ea930d46abb280362bd7d0802bd47cae02ad86d92b45a2e1936f35"
+    },
+    {
+      "file": "TUTUSDT-1d-2025-07.zip",
+      "sha256": "776ffefb74156108235187a7c8f50b66bd3fbb51000fefa9fb2815303e9c119f"
+    },
+    {
+      "file": "TUTUSDT-1d-2025-08.zip",
+      "sha256": "28fc31201a7853acda9af28c5f03d0d7ef19996304854d901f54897ac690440e"
+    },
+    {
+      "file": "TUTUSDT-1d-2025-09.zip",
+      "sha256": "db673294cb03aebe4fb2ae6564d755558981d67b7a7335e0bcbc01be9604aba5"
+    },
+    {
+      "file": "TUTUSDT-1d-2025-10.zip",
+      "sha256": "f7ed9a34f1d477a33665e3e626d7654b29add599c87ddf9d8562b93a84c5eb13"
+    },
+    {
+      "file": "TUTUSDT-1d-2025-11.zip",
+      "sha256": "02402cbef1342fda2e74e1764f393fb2ac29a3aa885db6649145e4a81a459f36"
+    },
+    {
+      "file": "TUTUSDT-1d-2025-12.zip",
+      "sha256": "dcdbd12445cf2809035788f6dd7031631ac31be4784b9b4666190ee8f621c0d5"
+    },
+    {
+      "file": "TUTUSDT-1d-2026-01.zip",
+      "sha256": "b97e62f5248e0ef95b30845e8007461a77efd94e77788210a4869ef660b8afdb"
+    },
+    {
+      "file": "TUTUSDT-1d-2026-02.zip",
+      "sha256": "c97f3aca3de9a54b2f9f3e26a00cc052dd286e2f07f0967531b37bd663f41d4d"
+    },
+    {
+      "file": "TUTUSDT-1d-2026-03.zip",
+      "sha256": "3b8b40d806c29748efa77786a4df874948c9a22b77196845af1c22efd4491e62"
+    },
+    {
+      "file": "TUTUSDT-1d-2026-04.zip",
+      "sha256": "df36715fac8a2e26c0273d678777f4eae22d3e3a88ef6ebf2cba5d810ef17adc"
+    },
+    {
+      "file": "TUTUSDT-1d-2026-05.zip",
+      "sha256": "bedd6bd4492917ea67e6c5d4b11164209230be707244d7aa231777e9d3b5c5bc"
+    },
+    {
+      "file": "TUTUSDT-1d-2026-06.zip",
+      "sha256": "816c596ab6cc0a35589824b83ca5d00d0861359e6da7403699cc6e415171f25e"
+    },
+    {
+      "file": "TUTUSDT-1d-2026-07.zip",
+      "sha256": "399461901e5d37aae9793fa39110ecb8b7e3109cd70cf8ecf9bb4d39e3257a4b"
+    },
+    {
+      "file": "TUTUSDT-1d-2026-08.zip",
+      "sha256": "c44621d4d43c1fd1701936cfec789e70a9881191eb39dd69891323d5702dba4e"
+    },
+    {
+      "file": "TUTUSDT-1d-2026-09.zip",
+      "sha256": "4dd152f76f6638411a0049c857a9c7eab8671c34d288cb66f5fe9aafc889a5fa"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

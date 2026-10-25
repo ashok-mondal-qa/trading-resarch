@@ -1,0 +1,349 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/WANUSDT/1d/",
+  "instrument": "WANUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-08-27",
+  "last_bar": "2026-04-23",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:49:20+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2432,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "WANUSDT-1d-2019-08.zip",
+      "sha256": "2185f529468ea4509aa8cbf3f281e8310e863a2eef2613845db26849418f1ebb"
+    },
+    {
+      "file": "WANUSDT-1d-2019-09.zip",
+      "sha256": "a1dbe343bff4377170c12cb62f173c3af621264a791f2b2e439600a2bf7736f3"
+    },
+    {
+      "file": "WANUSDT-1d-2019-10.zip",
+      "sha256": "fdf9db35479cdb229d3f6e917a8e6677b322ffa1ab63854db217481854f14d9b"
+    },
+    {
+      "file": "WANUSDT-1d-2019-11.zip",
+      "sha256": "432f626983969afe19c5ab9872fd1e245c4f638ba102f640d4157d1296bf5569"
+    },
+    {
+      "file": "WANUSDT-1d-2019-12.zip",
+      "sha256": "686fc0510b4f30fcadb210c0f2081491670713a10e04aa6eb51b51c4cabbc923"
+    },
+    {
+      "file": "WANUSDT-1d-2020-01.zip",
+      "sha256": "55196176c50511bc80811c5f93b4d6835959326a942540b54731631b0674914d"
+    },
+    {
+      "file": "WANUSDT-1d-2020-02.zip",
+      "sha256": "e5af7d45aa8c6caa13d5901076fa0b6cf57ade1de1a1ef40cc63e62d31cd0798"
+    },
+    {
+      "file": "WANUSDT-1d-2020-03.zip",
+      "sha256": "8f3bf135216d9f93750da6f95560c67a9fa5dc44d1e3f10ac47165fe4d625816"
+    },
+    {
+      "file": "WANUSDT-1d-2020-04.zip",
+      "sha256": "bce170c9485af5121ab8623c83bd4777fc88970ead522224cb3f11a5c564d5b2"
+    },
+    {
+      "file": "WANUSDT-1d-2020-05.zip",
+      "sha256": "54c4734220173662fb7766680a94f8afb07a0f425e96163a571dff4bbd7a81c7"
+    },
+    {
+      "file": "WANUSDT-1d-2020-06.zip",
+      "sha256": "62e7fbd1f4feded6f9db6013740df0f46cd9dcc2cbd2ba2d738b77263822b44c"
+    },
+    {
+      "file": "WANUSDT-1d-2020-07.zip",
+      "sha256": "b731c13f537a7e3aa359cd06b275baf9ffe7ca3477d2103ae6c4994a73eb9f8a"
+    },
+    {
+      "file": "WANUSDT-1d-2020-08.zip",
+      "sha256": "0414379c1a4e5f1adc12260b8f87c11e17c45d9a7491dc9d93868690b35a959a"
+    },
+    {
+      "file": "WANUSDT-1d-2020-09.zip",
+      "sha256": "0ed7d81fd483759b03921e7bbfc17386505e62a2e8d9fb9e99a6e59455dda5a7"
+    },
+    {
+      "file": "WANUSDT-1d-2020-10.zip",
+      "sha256": "284361f367219e572c4ec7cc6937a386a94dd5287d936e1a86828a6b94fa0f5f"
+    },
+    {
+      "file": "WANUSDT-1d-2020-11.zip",
+      "sha256": "f2bed193bdb0a6807bf555c6ec86322d235745b422298e8b1194c579cf3348ca"
+    },
+    {
+      "file": "WANUSDT-1d-2020-12.zip",
+      "sha256": "30fd74d37c36696fec92e22bde14a932f838e3fd487738620bd3b0d4f3d01bc1"
+    },
+    {
+      "file": "WANUSDT-1d-2021-01.zip",
+      "sha256": "dde3dc9b5ca1975de2ed7ca88180322470fd9a47f90106ae2d895da25871bda1"
+    },
+    {
+      "file": "WANUSDT-1d-2021-02.zip",
+      "sha256": "c3b687e48fcdb4fb413c5f350e1e4bf9977e944f712a03d47cdec39c3f4cb06a"
+    },
+    {
+      "file": "WANUSDT-1d-2021-03.zip",
+      "sha256": "6d072858a50bce4af32667f9fc59285387306cc59a1f31ee70f3d8486f6daa87"
+    },
+    {
+      "file": "WANUSDT-1d-2021-04.zip",
+      "sha256": "89b521a8ea29625988f5f1c12a5e78ab6d6beec1b56e75d92db4860d2bffbc82"
+    },
+    {
+      "file": "WANUSDT-1d-2021-05.zip",
+      "sha256": "382fa18b621e149af9a3d40931c81abeb730b9358ff09a790855c3337aab7a01"
+    },
+    {
+      "file": "WANUSDT-1d-2021-06.zip",
+      "sha256": "3f2c65b00f0b52495966c6dcec0bd940df7731c7dd44b6438b448bc08f57183e"
+    },
+    {
+      "file": "WANUSDT-1d-2021-07.zip",
+      "sha256": "bfe96942153174ae78a0d43801acfab458557e11783d8a51ad4e938faf010bdc"
+    },
+    {
+      "file": "WANUSDT-1d-2021-08.zip",
+      "sha256": "6c0f2d406a4f2165d03b43720dc2a7c0c3de4b00d6e6fa8a0dce34f7de735331"
+    },
+    {
+      "file": "WANUSDT-1d-2021-09.zip",
+      "sha256": "0ffb40571ddf3062079a4908c3d9c412fbf26190a87485f2d65126eb4995873a"
+    },
+    {
+      "file": "WANUSDT-1d-2021-10.zip",
+      "sha256": "7c9ead9867f293f75a60c1f0fec6c4bbd926a707ff7991fa9fc7d8e8631d0302"
+    },
+    {
+      "file": "WANUSDT-1d-2021-11.zip",
+      "sha256": "c0846de9d2bd54c32f64752cbd36c7b816c1f399c3121d1c7431a44e28d5bfba"
+    },
+    {
+      "file": "WANUSDT-1d-2021-12.zip",
+      "sha256": "9442f2a5950cb6d7aa78a2bff05d5fb31bab16d2b29bde2b33ebc092f9857917"
+    },
+    {
+      "file": "WANUSDT-1d-2022-01.zip",
+      "sha256": "fe4bd812d791f86466ab5314cea5a789b1b42a331463a118d2faa87cd0b07724"
+    },
+    {
+      "file": "WANUSDT-1d-2022-02.zip",
+      "sha256": "dfbb56b356383de5de42ed6a6b87dd200a1efcf553ac8ca9774065c973598959"
+    },
+    {
+      "file": "WANUSDT-1d-2022-03.zip",
+      "sha256": "9ec16ad1c1c18318352cd437848bc4a549c31e8e5244e1c125bd9cbc68194057"
+    },
+    {
+      "file": "WANUSDT-1d-2022-04.zip",
+      "sha256": "f4873714228c7b059817abe461c52171a0240c8ef1adaf79055d11065c5f70e1"
+    },
+    {
+      "file": "WANUSDT-1d-2022-05.zip",
+      "sha256": "3d8bcade9113c7c28a8aa126b69c24b7a3f49a6ce1d194b32998030b4b47e955"
+    },
+    {
+      "file": "WANUSDT-1d-2022-06.zip",
+      "sha256": "d24585f5f228a27e40a7d084f13739355b0f04f8fbfd77ba33d4997d97e90c53"
+    },
+    {
+      "file": "WANUSDT-1d-2022-07.zip",
+      "sha256": "f2d36ba989c1f68ad0d3bf3682e401232ac52818dd79bc9385bb3e5d32bcf53f"
+    },
+    {
+      "file": "WANUSDT-1d-2022-08.zip",
+      "sha256": "5383e0dfa4cbd99864d90eab7e4a85d3dc4700c19109ca2d0152ae7ef18a26c8"
+    },
+    {
+      "file": "WANUSDT-1d-2022-09.zip",
+      "sha256": "425eafbd1b85cfe79cfa35728b3cc9e4d97c8f2861ccbbec33511218303f4c8f"
+    },
+    {
+      "file": "WANUSDT-1d-2022-10.zip",
+      "sha256": "8679f2c5ebebe3a337a119d677bb3eceec8c4def8f5c964dff4756e91d574118"
+    },
+    {
+      "file": "WANUSDT-1d-2022-11.zip",
+      "sha256": "583e0af09ec073ec6b3d29c68d04fd3221cdc80cd0df818128252656f3e0a9e2"
+    },
+    {
+      "file": "WANUSDT-1d-2022-12.zip",
+      "sha256": "50b166d4696eedb7d03bb86434eb3f9ca09f540195bf0e530908427d78294253"
+    },
+    {
+      "file": "WANUSDT-1d-2023-01.zip",
+      "sha256": "ced9b958f5dd9dbc70602fde81df7e41d212920c62fd1bfc62d089013a79382f"
+    },
+    {
+      "file": "WANUSDT-1d-2023-02.zip",
+      "sha256": "5267e9cdef44c6120da06a1659e2113b0374bb5176a3c2fbf6c6c63ea6c2d25d"
+    },
+    {
+      "file": "WANUSDT-1d-2023-03.zip",
+      "sha256": "64b64f7c6afe893f7361e2e1519a16e07e1a3237740fde253246da0d011d179e"
+    },
+    {
+      "file": "WANUSDT-1d-2023-04.zip",
+      "sha256": "d206b61c1383f569de5af42cfe3fcb4156dd26ef8d3fcbd16433e99e7ee4b5db"
+    },
+    {
+      "file": "WANUSDT-1d-2023-05.zip",
+      "sha256": "190f98579f46726301eff355bf251ee5de4bac5d09de711cbc9c33826a86db7e"
+    },
+    {
+      "file": "WANUSDT-1d-2023-06.zip",
+      "sha256": "a28f6cbe1db388fde246e372efa21e07dbefd3ba35eb0545f064d4629d756baa"
+    },
+    {
+      "file": "WANUSDT-1d-2023-07.zip",
+      "sha256": "2e2e476c480a7d5abc277d4560f2e57c7525dd2e708c0299edbdbeb482b35dbb"
+    },
+    {
+      "file": "WANUSDT-1d-2023-08.zip",
+      "sha256": "f7ca8913901b892742f3b9ec69dc8ce9bca4517de0f923e78b2f3e0f4f315abc"
+    },
+    {
+      "file": "WANUSDT-1d-2023-09.zip",
+      "sha256": "2040fbfa4f5793e3dac14204c10a268bf3c564c86ff359374919137535a56dea"
+    },
+    {
+      "file": "WANUSDT-1d-2023-10.zip",
+      "sha256": "5be427be70e6d28ac9fb811036710382d69dd54f5a7f8b85caee6776b1f60fbe"
+    },
+    {
+      "file": "WANUSDT-1d-2023-11.zip",
+      "sha256": "863146bf610d845a3d71e909a00921d5723067f924392862a615c6c9c3c4a384"
+    },
+    {
+      "file": "WANUSDT-1d-2023-12.zip",
+      "sha256": "2012bbc74e662c7ebde46cb128e29369458a38005a9dcb31113701bd46209427"
+    },
+    {
+      "file": "WANUSDT-1d-2024-01.zip",
+      "sha256": "501847b5d033047dcf75db6403ebb400d5404654e774df9483235725b4002976"
+    },
+    {
+      "file": "WANUSDT-1d-2024-02.zip",
+      "sha256": "0099863b6c63ae211633cc6efb46dcf17d8e58490b8f989f35c0f28cd0fd34b0"
+    },
+    {
+      "file": "WANUSDT-1d-2024-03.zip",
+      "sha256": "6a16cf749826126375fb3329876950969a289c2a9a968f604c81d602c8fbbbc6"
+    },
+    {
+      "file": "WANUSDT-1d-2024-04.zip",
+      "sha256": "ebf71e20917c684d13fcd88e3fcf90ef217ee9a6fc000ee76a37dd6754d56b57"
+    },
+    {
+      "file": "WANUSDT-1d-2024-05.zip",
+      "sha256": "cfdc8e5f21762bed8b2234973f4206e6fb25681f5ed1960fef122be6716fc718"
+    },
+    {
+      "file": "WANUSDT-1d-2024-06.zip",
+      "sha256": "6ef3e9f014325a5436a95776505788af463b3bb9fa7d7d3e9e74aaf52aafcdbb"
+    },
+    {
+      "file": "WANUSDT-1d-2024-07.zip",
+      "sha256": "def159b284d00c587e6a9d3f2805624ee49d073ae566e274ed6603c7b4cbafa1"
+    },
+    {
+      "file": "WANUSDT-1d-2024-08.zip",
+      "sha256": "59f5ee9862606363132f990887d8b86428860d57b995f7bdd3c020f5536525df"
+    },
+    {
+      "file": "WANUSDT-1d-2024-09.zip",
+      "sha256": "66bf1e2712eda237aafa9bbf94f98fd23b6137046c36cbd336f043f14f22c75b"
+    },
+    {
+      "file": "WANUSDT-1d-2024-10.zip",
+      "sha256": "e14be410b0ec33b8f912de40838b8cbbfebd1482bcb2ba98beb0fe5a6c6dc8f4"
+    },
+    {
+      "file": "WANUSDT-1d-2024-11.zip",
+      "sha256": "1c02e199b88e1becec61fc52eef6f4d04d862dc4c6f1914fabc75365078e1881"
+    },
+    {
+      "file": "WANUSDT-1d-2024-12.zip",
+      "sha256": "5fb15922dcb7ee8d222f95f5bb7dbd30ec7d4e483e9a9b33d43949c360881833"
+    },
+    {
+      "file": "WANUSDT-1d-2025-01.zip",
+      "sha256": "911f542a4692ecc0049fc8e36c9b1636fc372008f319552eb68a44bb6f742686"
+    },
+    {
+      "file": "WANUSDT-1d-2025-02.zip",
+      "sha256": "d2a3c3eabdc3add56aae98b150a314694ca9cc84e8c20984a259194f4c812a75"
+    },
+    {
+      "file": "WANUSDT-1d-2025-03.zip",
+      "sha256": "90ad59facbb4a3ca25f4c2f7c16dac6842c0c10d54739d7471f30a7409218e85"
+    },
+    {
+      "file": "WANUSDT-1d-2025-04.zip",
+      "sha256": "230f825b88928900ff0e32fe272bb967498d26d7d2435983b8fe3d3fb76846f9"
+    },
+    {
+      "file": "WANUSDT-1d-2025-05.zip",
+      "sha256": "5f0ecff685c79d435f20210a6e18070eac63babd1e3a8543c5ba90e216e4b171"
+    },
+    {
+      "file": "WANUSDT-1d-2025-06.zip",
+      "sha256": "4bc1bd939a3fde6bc453e352cb161318cf53e4e413a63b421d3c81eb115b3c0b"
+    },
+    {
+      "file": "WANUSDT-1d-2025-07.zip",
+      "sha256": "0744eae5abc5c46b834dad5ee0a42195bd29bc18c9c7cdbe34bb0c3c4970e96b"
+    },
+    {
+      "file": "WANUSDT-1d-2025-08.zip",
+      "sha256": "7b70e5d1293903fb2849403fd4ffbd5815780e7b0f557396f6ae5e8f4944bdfa"
+    },
+    {
+      "file": "WANUSDT-1d-2025-09.zip",
+      "sha256": "99d38faa5500b1b634f1aa7f645b18348cc5c5da4019e8dcd3c48af82bce7637"
+    },
+    {
+      "file": "WANUSDT-1d-2025-10.zip",
+      "sha256": "fd37a28fc8a5b526b9193700435a9588aea5f3878108bb2c222f3e62220675f3"
+    },
+    {
+      "file": "WANUSDT-1d-2025-11.zip",
+      "sha256": "1e4d668917cb47305fc895f3f0381140812b9440a5964b17f33c3aa5f72be215"
+    },
+    {
+      "file": "WANUSDT-1d-2025-12.zip",
+      "sha256": "e6196cbce3fea3d0b18fc4ae31edf92843d69f5f24e29b0838d15a3d6b71a57d"
+    },
+    {
+      "file": "WANUSDT-1d-2026-01.zip",
+      "sha256": "32ad3e26e525525f342c81f30e0494722cc924c6eb77905013796d4702d0896e"
+    },
+    {
+      "file": "WANUSDT-1d-2026-02.zip",
+      "sha256": "8d4d056f68442c009977c39d94d678b76d0190f6f0f976d12fea231c589810a8"
+    },
+    {
+      "file": "WANUSDT-1d-2026-03.zip",
+      "sha256": "1768f65dddc92597bd7df9aabc63fa6013ff7cfd7bb90be28dad7c05f988b9f3"
+    },
+    {
+      "file": "WANUSDT-1d-2026-04.zip",
+      "sha256": "3980f85962ccd6e874928890495e7002b01cf5335e20630d4a4ce0c56f071944"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

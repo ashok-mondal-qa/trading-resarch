@@ -1,0 +1,181 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PENDLEUSDT/1d/",
+  "instrument": "PENDLEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-07-03",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:41:59+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1186,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PENDLEUSDT-1d-2023-07.zip",
+      "sha256": "ea320b8fa42608bde01121aa0501cdce220f2dfb22c60d23739962e9f8a030a3"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2023-08.zip",
+      "sha256": "475b9c0541009cb14025f400839714105bd2259e6a77ebface42f0361cc1bab7"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2023-09.zip",
+      "sha256": "55d2baf55a9fe68af2b99aec780e47c147fe22605e0f8983decc0d19a384010b"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2023-10.zip",
+      "sha256": "73be6cef749288c67deba686e82f62f27c73347f0f45e67a5c464c52f77ccb9f"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2023-11.zip",
+      "sha256": "215a6a3fd8cdc93fdd467a3a4e0614098e20f4151ae0299905afb920d43580c1"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2023-12.zip",
+      "sha256": "ec1faa096731f5ef019585afdfe4c8ef3c14e473609008ef58e0124b867d6e95"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2024-01.zip",
+      "sha256": "1dcf347e806932fd00f63bd6281e4f89ad4270f7fd2e04b1ddfa30309fc9115c"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2024-02.zip",
+      "sha256": "2a31fe094055bae80725afc0c710728b66f4793bb3d17ebcf90ed1dbd191d9e9"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2024-03.zip",
+      "sha256": "5d3b4b155932399d69b205216c5b3679a1423db84fa14f2116f982ff3dd64996"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2024-04.zip",
+      "sha256": "50bdc8afdc5b4cc341c2759b06da01dcae0b0cb74e7ba6495caad7772e946bcc"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2024-05.zip",
+      "sha256": "7c2b08ddae03d0b43122dc00bf34aafdaca1e8bfc53f5a9c35599c590dcce09f"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2024-06.zip",
+      "sha256": "03f1c1c7a9d3073613f07a621d4acf881ab946f4a4070fe2c8b1e17af5d553d1"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2024-07.zip",
+      "sha256": "ea2db2de9e3be56c8f8ac02678ed6ddbbeec89fc745134ee3b8efad0590c290d"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2024-08.zip",
+      "sha256": "f54cd663efe2f8c679239727d8417686576ff2b265c1f2e5dbbf4c61b76db0e6"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2024-09.zip",
+      "sha256": "618d928182da1246225ed24671b31a5103cb7b115ea734ccdfb50397b145e67e"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2024-10.zip",
+      "sha256": "e021efeb3ef6bd606ae6f7a580696f972a2595f759324d7ff8e37fa735f9b61f"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2024-11.zip",
+      "sha256": "c075fb7f82876547176445f35f7470438e199c69bac729e7a222fdf3ddebe7fa"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2024-12.zip",
+      "sha256": "46918c9a71018c010f025a8762c05212d1ea8c23d4858c166da3419315134ad3"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2025-01.zip",
+      "sha256": "5c3bdc20f60913640ec3c5742bfd69b5f6ea89d2122cd5b1860168ea2237125d"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2025-02.zip",
+      "sha256": "8a0a4247e4c1b43d0ba603929adf35fff9d5d1e456bff9d5711de8679363a0e8"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2025-03.zip",
+      "sha256": "5556bc8a9a6f174efa6fb3157c8b2d01623903fedcc3df5b887c26bb83cba3d3"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2025-04.zip",
+      "sha256": "75cf70bff58584f806cba9ac3fa0957af913ccd0e83bbbc79cc01e4682b93281"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2025-05.zip",
+      "sha256": "5802968077b886f9b3613cb2b5e8b939993a8938cdef4bdf7c269e454593e1f7"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2025-06.zip",
+      "sha256": "483ef2dcb5ea70db3101f513438cff2b623db2f0e37d7839fefef9d678fb1586"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2025-07.zip",
+      "sha256": "7a63412b66dfceffe8c9788b270b41b8333c9b9b59a293964f656b091bdfa7af"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2025-08.zip",
+      "sha256": "78b352fc17526e10d057fe55411eb2f1a4aebeb303955a5e53985036491746b4"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2025-09.zip",
+      "sha256": "4d280478f6d04a196691d899023af760c7de168b702fbdfc196e177f0dfbe379"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2025-10.zip",
+      "sha256": "ffde041ac11d9c7a9b386524ca5170d92cb1f1346661358b229c6939efe485d3"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2025-11.zip",
+      "sha256": "4257aeaff4c0a92df621215b9ee49d0af17f726ebaf77f97251407420fa6d64a"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2025-12.zip",
+      "sha256": "cf40df5204485118d0ba908503cc3d845b74e8ddccf3f5f8849885c0a5655913"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2026-01.zip",
+      "sha256": "efd4d0192ebbf050a0b4d27a297a1157cf7f6113bddc4e1135f249d766f7a458"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2026-02.zip",
+      "sha256": "116d01d0292ce2248c60fad42b3007f4325026e2b9381a313b06112011f523ff"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2026-03.zip",
+      "sha256": "a8626a16176a147ff7cf721ac083428f76d53b15c2bea134dc209dd32a72195b"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2026-04.zip",
+      "sha256": "587fc4482f9db28d984d65fadb8d87d81d29102db7f7cbbff41c88336cc709fb"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2026-05.zip",
+      "sha256": "09b6c6e31459bff3381624c0698d233852db9fe06d757816af60a8785f55d15c"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2026-06.zip",
+      "sha256": "f3daaecc6a4ae6a22c297a1dac62cbe82b3390115e78a239ee3e30fd0548880b"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2026-07.zip",
+      "sha256": "279ba926b305bccd8c9a218a7ab2a43a0d40cc37968ae7337a358e6183210e5e"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2026-08.zip",
+      "sha256": "4190af515a4d56cd7d01f0a399a0cbff760dcaf380af55fda1cdd1bc16e78546"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2026-09.zip",
+      "sha256": "17a872bb3d19c113a5d31fbb983aac51fc23e4101bd0e93bb71c5b4e81afb450"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/GENIUSUSDT/1d/",
+  "instrument": "GENIUSUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-05-22",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:33:54+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 132,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "GENIUSUSDT-1d-2026-05.zip",
+      "sha256": "6cdb8e8bc284cf38a88474e07c6974e8d3ce951280361741a582dad919de16cf"
+    },
+    {
+      "file": "GENIUSUSDT-1d-2026-06.zip",
+      "sha256": "4690ecbde991f72c02329cf9f0bb09888781288a10c624edd01f969171e52ca9"
+    },
+    {
+      "file": "GENIUSUSDT-1d-2026-07.zip",
+      "sha256": "6b9580cbb2ab532e2c3f88781084df664486f7748a7ba13fcc54e08e0c168050"
+    },
+    {
+      "file": "GENIUSUSDT-1d-2026-08.zip",
+      "sha256": "12e2ab80427296eb960dcb0631017c645147303b3d6965c307cf9f930499ac7d"
+    },
+    {
+      "file": "GENIUSUSDT-1d-2026-09.zip",
+      "sha256": "3de5ff6da2f74bf9643815d01def1441efc44ab9f70f891d16b2ac243ca8c38b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

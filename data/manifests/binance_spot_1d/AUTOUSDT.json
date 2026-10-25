@@ -1,0 +1,125 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/AUTOUSDT/1d/",
+  "instrument": "AUTOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-04-02",
+  "last_bar": "2023-04-18",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:26:47+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 747,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "AUTOUSDT-1d-2021-04.zip",
+      "sha256": "8de84a8a5177c2494f8cfe6cb1294f39d9cabe57c89154aa3a0b0b4fcad4ae8c"
+    },
+    {
+      "file": "AUTOUSDT-1d-2021-05.zip",
+      "sha256": "0a9029e2ada56e583ef65aff1a5fb6812b7db731170279f928438d5f15afd5a5"
+    },
+    {
+      "file": "AUTOUSDT-1d-2021-06.zip",
+      "sha256": "37cf2cdd944568a9463d0c440e1bb1310428749fb33194a8c15002ac608faf79"
+    },
+    {
+      "file": "AUTOUSDT-1d-2021-07.zip",
+      "sha256": "ea38c50238a062e3efcd4caca80724b9f7ffb34e6aee6de4aa975e875a22ff02"
+    },
+    {
+      "file": "AUTOUSDT-1d-2021-08.zip",
+      "sha256": "8dc9c7cdf19f0dc63ca8c9ef0a2f5df6b289baab679c9ac655b2a09039e895ed"
+    },
+    {
+      "file": "AUTOUSDT-1d-2021-09.zip",
+      "sha256": "3b887f7ee8b70c20dd777c66ced27763760974465dc788852e9d1270c91edd1c"
+    },
+    {
+      "file": "AUTOUSDT-1d-2021-10.zip",
+      "sha256": "eaafa0bad59fc9a4663fecddf068a02bbeb86c599af625a26ccfec409b5660ef"
+    },
+    {
+      "file": "AUTOUSDT-1d-2021-11.zip",
+      "sha256": "47b4261ec9dcdbec838f40ee042f2e2f7a6b8ab449bcf8e026dc94ca7434a245"
+    },
+    {
+      "file": "AUTOUSDT-1d-2021-12.zip",
+      "sha256": "9f269e9a854aec20e054e0d53ce0da63f08d8992b049962361993a033239cd36"
+    },
+    {
+      "file": "AUTOUSDT-1d-2022-01.zip",
+      "sha256": "bdf54d1470ed4670214d260e291ff6341cded78c9c55cdc59599df07d4b798a9"
+    },
+    {
+      "file": "AUTOUSDT-1d-2022-02.zip",
+      "sha256": "e5ee0fda7540ffb8914bff512b0eea4c1c0ee5a2f26653a3b2bbe289d20bd71e"
+    },
+    {
+      "file": "AUTOUSDT-1d-2022-03.zip",
+      "sha256": "ca42240e6f39bb5a487f5841dc76f6332c7abc27248ef21af136eec55eb35b41"
+    },
+    {
+      "file": "AUTOUSDT-1d-2022-04.zip",
+      "sha256": "94f219280e1d1631be811ca2847898b27625cde459fc23cf69f59ceacc99da71"
+    },
+    {
+      "file": "AUTOUSDT-1d-2022-05.zip",
+      "sha256": "4428c1cc24bdf1c0cfef1c4f622bb51077188f1ce43b24740eab6caef8709e72"
+    },
+    {
+      "file": "AUTOUSDT-1d-2022-06.zip",
+      "sha256": "5bfd04c09e20c560c13835f46fdad2d509c7e86cdc7217c091a91085312e4480"
+    },
+    {
+      "file": "AUTOUSDT-1d-2022-07.zip",
+      "sha256": "9fd223fbf75e01bd73be019bbfac36a8daf42a68384fefbaf69df332e6ca6245"
+    },
+    {
+      "file": "AUTOUSDT-1d-2022-08.zip",
+      "sha256": "4f0414451bf546188006fafec78e699a8683086d4b450784b378006e90c3e510"
+    },
+    {
+      "file": "AUTOUSDT-1d-2022-09.zip",
+      "sha256": "d548dbdeaf301843821d13d89998374ead2af32995882a14b1723726cfdfc5fd"
+    },
+    {
+      "file": "AUTOUSDT-1d-2022-10.zip",
+      "sha256": "ae3e5b35a555054c148c871344fba7872b0f84efbd53c17bc2fe369f35ecab05"
+    },
+    {
+      "file": "AUTOUSDT-1d-2022-11.zip",
+      "sha256": "8ef9446a7a72630c4f8b38405e94ad89b83b01c6417d1cfd114a8cbf4507a3a1"
+    },
+    {
+      "file": "AUTOUSDT-1d-2022-12.zip",
+      "sha256": "42a8e17cdcffdee3977dec9700e5694f2f14a41f1a60bd052991154a926e8847"
+    },
+    {
+      "file": "AUTOUSDT-1d-2023-01.zip",
+      "sha256": "047434c30e3a3e864123a61d5778a41ea03b2838ebe20a374b2f1e778ddc4ae7"
+    },
+    {
+      "file": "AUTOUSDT-1d-2023-02.zip",
+      "sha256": "faa13e023116380c14923a32901c30f9948532d7a20761c6290061ea2aa8fdeb"
+    },
+    {
+      "file": "AUTOUSDT-1d-2023-03.zip",
+      "sha256": "e95617df6f417fe03003393ebfd98956db29d4cd5e795c80522eada400a72d30"
+    },
+    {
+      "file": "AUTOUSDT-1d-2023-04.zip",
+      "sha256": "5db6999eb7e46106edd8ee81941bc9036ad146aff99f57756dbc8837f1a31e5c"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

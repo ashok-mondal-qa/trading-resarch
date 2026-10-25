@@ -1,0 +1,101 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/EPICUSDT/1d/",
+  "instrument": "EPICUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-03-13",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:32:22+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 567,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "EPICUSDT-1d-2025-03.zip",
+      "sha256": "92a4ca7c077ddcbaa4492d86b0a119a0d3e8285d3cfc9897a9d7439bdfc46d8b"
+    },
+    {
+      "file": "EPICUSDT-1d-2025-04.zip",
+      "sha256": "a741b453608b226059f8fc2111ad829433ee61b289923c354fdbfb155f26fe9d"
+    },
+    {
+      "file": "EPICUSDT-1d-2025-05.zip",
+      "sha256": "8f8990526637b09e4772bf8bea5662b78ea356fb945a5285e4b1d65eea3cc756"
+    },
+    {
+      "file": "EPICUSDT-1d-2025-06.zip",
+      "sha256": "34b5c766f8be0141718df1eb126c65d7bdb94c15592befd4be4e93bdcd751dea"
+    },
+    {
+      "file": "EPICUSDT-1d-2025-07.zip",
+      "sha256": "831a00107b6dc72a773c869e823819f8dde76f43cff69e577f868472ac506950"
+    },
+    {
+      "file": "EPICUSDT-1d-2025-08.zip",
+      "sha256": "3a18a22f3dd1580c6e82275f94735f462bb025bcc9f6d11827330ddd9e6fff42"
+    },
+    {
+      "file": "EPICUSDT-1d-2025-09.zip",
+      "sha256": "d6f77b63d03c26cf2c259b693b4796c93f8526d3319a65d6b88bcef8a93b872e"
+    },
+    {
+      "file": "EPICUSDT-1d-2025-10.zip",
+      "sha256": "6193d86082a437a800ef1f5e5800395b256619732c18a0c275ef65eddb4f2d5b"
+    },
+    {
+      "file": "EPICUSDT-1d-2025-11.zip",
+      "sha256": "0b2b77cdefc934b0707684937f4f36d22aec86f0bbbd29f133153ece2f98aff8"
+    },
+    {
+      "file": "EPICUSDT-1d-2025-12.zip",
+      "sha256": "4c9147359c15153c732eec60f24149a4d68806c4e13e7708329e9d4dcc7dafed"
+    },
+    {
+      "file": "EPICUSDT-1d-2026-01.zip",
+      "sha256": "54fbc9ce5a0e3a6a74bc9eb2ddc33344c22fb4881fbc2f306aa7f945fe3bad90"
+    },
+    {
+      "file": "EPICUSDT-1d-2026-02.zip",
+      "sha256": "0b296ef9c51dfb97d077010e07c11e66893c716e88fdb2b0f0da32774ef27446"
+    },
+    {
+      "file": "EPICUSDT-1d-2026-03.zip",
+      "sha256": "2275f20b3f020ef1fe1de5a6d90a89ad8d8d950234fea18b5b53bc7fb166a54b"
+    },
+    {
+      "file": "EPICUSDT-1d-2026-04.zip",
+      "sha256": "0719227ee8bdcd3ce1450519989fcc67e0d2a2ad29618b156d16071e1207eb61"
+    },
+    {
+      "file": "EPICUSDT-1d-2026-05.zip",
+      "sha256": "8a61220ed4a0e54bd6d4756dfc72f6187a6a2df77afd2a181f57fc40c6ff3338"
+    },
+    {
+      "file": "EPICUSDT-1d-2026-06.zip",
+      "sha256": "609d25d96ab0cf65562a6924814d7d9bb0de77578752d19648705735d095f76d"
+    },
+    {
+      "file": "EPICUSDT-1d-2026-07.zip",
+      "sha256": "3000106e807959a66dcbc94c5565ffbb9355ceb1325aeda6add36951280d5e8f"
+    },
+    {
+      "file": "EPICUSDT-1d-2026-08.zip",
+      "sha256": "a3addece45d55d6b5f410474f2c5bed796bb936f4d4e1af48e6e7e0aa7a6b84a"
+    },
+    {
+      "file": "EPICUSDT-1d-2026-09.zip",
+      "sha256": "9b360eba98800b11243f8c406f89008144220685e3f9342c2ffe2730ebda609b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

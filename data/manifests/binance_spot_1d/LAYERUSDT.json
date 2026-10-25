@@ -1,0 +1,105 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/LAYERUSDT/1d/",
+  "instrument": "LAYERUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-02-11",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:37:27+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 597,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "LAYERUSDT-1d-2025-02.zip",
+      "sha256": "425536559577ea40b686806094f13e65978a6ff132ab130be7cfb41445acc84b"
+    },
+    {
+      "file": "LAYERUSDT-1d-2025-03.zip",
+      "sha256": "26e4c960f8836d5bb64bbea7a710d21382a29edc99c459ec1626364972adfd77"
+    },
+    {
+      "file": "LAYERUSDT-1d-2025-04.zip",
+      "sha256": "99627015cafd68b5c00808b7fef0f0c1e7dc51e617b694deaf7afe890a80fa2b"
+    },
+    {
+      "file": "LAYERUSDT-1d-2025-05.zip",
+      "sha256": "2a11e0e36824b1b749175200c6b73eb26a60fd14dc3cc17461ee69e71fb66393"
+    },
+    {
+      "file": "LAYERUSDT-1d-2025-06.zip",
+      "sha256": "a898ee41a84b6e347f8e9ec51b11a936af38bea2a1965523792330171c7884e2"
+    },
+    {
+      "file": "LAYERUSDT-1d-2025-07.zip",
+      "sha256": "af834198b062a2b403f7e6bc1a04ea7de6d879ff6dc5ac09fcc9bcce5deb7908"
+    },
+    {
+      "file": "LAYERUSDT-1d-2025-08.zip",
+      "sha256": "43c44773e35c20f9d7a4115079a12b6f93be893e50d4073bd014a51292065d4e"
+    },
+    {
+      "file": "LAYERUSDT-1d-2025-09.zip",
+      "sha256": "a99ce32b951b356536360a6684ebc379ffe62a3842573bdbf936773e1f4cf837"
+    },
+    {
+      "file": "LAYERUSDT-1d-2025-10.zip",
+      "sha256": "7f64d47e4bee5e16168653dfb7d56df033dc40f41231b2d80954f245397f2aff"
+    },
+    {
+      "file": "LAYERUSDT-1d-2025-11.zip",
+      "sha256": "86406381d9d3b077dbb76baeb656af74c15b2db0b8c09fa1019c5f7b62a5866f"
+    },
+    {
+      "file": "LAYERUSDT-1d-2025-12.zip",
+      "sha256": "a7f578ef6a8cda34b6ba2d8199a6cfacb3ca77c74233eaf77a36f8706e0cc067"
+    },
+    {
+      "file": "LAYERUSDT-1d-2026-01.zip",
+      "sha256": "64b7eff6c04681803a703d98553b7626a2a6a2432a1358b5799d9a241fa9a1cb"
+    },
+    {
+      "file": "LAYERUSDT-1d-2026-02.zip",
+      "sha256": "f3e4e76bf10da89f3ba3abedb72852205b8189cafb0c789672ec6458d57bef04"
+    },
+    {
+      "file": "LAYERUSDT-1d-2026-03.zip",
+      "sha256": "4ee25a8f178250459d0ac46e90f58351653bc39d6057614349812bf62a25624e"
+    },
+    {
+      "file": "LAYERUSDT-1d-2026-04.zip",
+      "sha256": "345f7bc9a5b211c52a8bd7423c6f2565b08cc1a613760f4644dbf1bb6857dc23"
+    },
+    {
+      "file": "LAYERUSDT-1d-2026-05.zip",
+      "sha256": "43e8c0b2137358caefdad8a9fa1a72d946e1c5f13619fcf66fedb2ce3488911e"
+    },
+    {
+      "file": "LAYERUSDT-1d-2026-06.zip",
+      "sha256": "b477419fb25fe108d2ce09ea6bcd1e278c64c650c159aac3f41e126889dfa883"
+    },
+    {
+      "file": "LAYERUSDT-1d-2026-07.zip",
+      "sha256": "f103175aea8d7c0493361a77985731d3b225bb6aca88c6d81958b42c0c613a17"
+    },
+    {
+      "file": "LAYERUSDT-1d-2026-08.zip",
+      "sha256": "de27965aa9d26359b6e58dd76f858cb97aabfd876ff4d69b6c6e4776e58e5d2e"
+    },
+    {
+      "file": "LAYERUSDT-1d-2026-09.zip",
+      "sha256": "96fa3e5de8985e8f7575950f4c5a96652a9ad58604354691ab1a8d5e38d0edf3"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

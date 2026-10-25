@@ -1,0 +1,113 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/VELODROMEUSDT/1d/",
+  "instrument": "VELODROMEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-12-13",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:08+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 657,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "VELODROMEUSDT-1d-2024-12.zip",
+      "sha256": "ab4f1066a20c40f7aa989da5adf892d761dff08770437c326229237225599c47"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2025-01.zip",
+      "sha256": "45ea32a2434ddf4ca99f0be8a949b85dc8f2e3e772e6d09783238912e31d7d72"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2025-02.zip",
+      "sha256": "6228bb670e078bca2cd1428233f034fb6f15c41116c8ce9cdf7c6f4a3c503f1d"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2025-03.zip",
+      "sha256": "efbb309597b9b35138df9c7c1f2c9908d98e7cfbc906f0ec107ee7719d4ea9b7"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2025-04.zip",
+      "sha256": "985a48e99375f59799c782981b9b247cd25b6f3f5b6c9a7a24725ef694e4a6c1"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2025-05.zip",
+      "sha256": "8fd69c459f1ea84125b660b92630c27414bc8591ca8d561038d3c24a0035e543"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2025-06.zip",
+      "sha256": "46060f674c7c5c79eaa7b22c0e3a7d0e4d488a3bbf44dec88d6f24822763d044"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2025-07.zip",
+      "sha256": "8bd7e7a5f516586d1ebfdbf973b02b5f3addff8f4c8ffda6c84e0e50ce506d9d"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2025-08.zip",
+      "sha256": "40343ee93bbadc9dbe4f9e3030622edbbfc077392231fd78d3d4632e18153f2a"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2025-09.zip",
+      "sha256": "fbf750ea6de9939c2ca7aff20083bc66244bd209696c32648ff6cff30a624224"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2025-10.zip",
+      "sha256": "8a5ba8310331814ef54e3b55a9cea7de95288c99ca86d893ed4504fc079b6ca1"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2025-11.zip",
+      "sha256": "f640ff42eb43af6bb9ce8615639bddc4f32b00c9c7dee125d35d73282872f7b8"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2025-12.zip",
+      "sha256": "64613132763545a3a411653612625fcbccfd8178850a7642d8e804121bbe5037"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2026-01.zip",
+      "sha256": "74ca93fcbd8a99bc788a3e229a719e6ab9f90eda74a8c98876e4f44e2f9df391"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2026-02.zip",
+      "sha256": "177c9a67ddc21f007b861481b4dce39da18441bedbdddac58f838d014996c9fb"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2026-03.zip",
+      "sha256": "47ead938e16e63749dad8ac825a3d677f91726013e8b76668eb144263cddec4a"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2026-04.zip",
+      "sha256": "4784ae3e5f009845fe9a471479f97414144a39cfe5b427f9d4681d652529b4cb"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2026-05.zip",
+      "sha256": "3e722252e58363434b158ac89cda2f3c02fb5553ee7cb826cd29fb2dbd7a7d1d"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2026-06.zip",
+      "sha256": "efa69ccf2dbdafafa3e882280f5bf77edaf25d808d78a93dbecc74c024bbd131"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2026-07.zip",
+      "sha256": "15da73c36b1dbf11e83aef0894d232c255ed564dd911684d9760327505a3d62b"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2026-08.zip",
+      "sha256": "cf9a3294072a281417c35295a5c5ae4d14a08d95e5299559b5ecc58e91524b07"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2026-09.zip",
+      "sha256": "5bce8c267dfbd06392e4abc6411f5c1badaa72a4f7ce809c941c9be8a1e18036"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

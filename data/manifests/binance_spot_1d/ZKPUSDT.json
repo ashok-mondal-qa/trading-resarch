@@ -1,0 +1,61 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ZKPUSDT/1d/",
+  "instrument": "ZKPUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-01-07",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:50:13+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 267,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ZKPUSDT-1d-2026-01.zip",
+      "sha256": "8dd310aabaafd1b2dbf6177b36c93d2f5347f7a047474e69a61de42ebdc2e52f"
+    },
+    {
+      "file": "ZKPUSDT-1d-2026-02.zip",
+      "sha256": "8cea9255498ef4a21391f6a99ed7851c21202d0d0bb076b2c48dfa805be26fa3"
+    },
+    {
+      "file": "ZKPUSDT-1d-2026-03.zip",
+      "sha256": "326d31ac066358e72ec32975db5d0c579d1a1eb4f9ea2d435e8a1933bfbca128"
+    },
+    {
+      "file": "ZKPUSDT-1d-2026-04.zip",
+      "sha256": "5c7004d5268599a1e3aa4b7a9bc9402b839eef5d0a74e0be59d21083b37a3d62"
+    },
+    {
+      "file": "ZKPUSDT-1d-2026-05.zip",
+      "sha256": "728f22a33f21916b9a49f7654473ca770dd5dce7cdbb8a4713ae9bed23c9834d"
+    },
+    {
+      "file": "ZKPUSDT-1d-2026-06.zip",
+      "sha256": "b1fe03e18e0d9ca6c9ac3e2bcb9a4ecd450d82dffe84b316bb462ad05d487bff"
+    },
+    {
+      "file": "ZKPUSDT-1d-2026-07.zip",
+      "sha256": "a9d4e1dbe703547d6f8f08fe7aab4c66f41630902e963ab5c6103b4e6624ab80"
+    },
+    {
+      "file": "ZKPUSDT-1d-2026-08.zip",
+      "sha256": "63449e3fdf21403a8b2b1dd68bfa098adf65fec643b88490b0ba9a2d3d7189e4"
+    },
+    {
+      "file": "ZKPUSDT-1d-2026-09.zip",
+      "sha256": "1392cd2c6899aef8d7120eb019aecf35cb3adddae05d1a3d54e0e20cacd71380"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

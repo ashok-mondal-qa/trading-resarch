@@ -1,0 +1,129 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/HNTUSDT/1d/",
+  "instrument": "HNTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-09-24",
+  "last_bar": "2022-10-14",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:35:15+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 751,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "HNTUSDT-1d-2020-09.zip",
+      "sha256": "0ee59d07791975098c1fc0af1c3ff2a14753179e7ef957ad07f125929501cbd2"
+    },
+    {
+      "file": "HNTUSDT-1d-2020-10.zip",
+      "sha256": "b7d5983092d57fe82c1002b4569dc0b1944f8088c379135d3337b95c5be6413b"
+    },
+    {
+      "file": "HNTUSDT-1d-2020-11.zip",
+      "sha256": "39d70a792b5058752c475d532ea7fb5f9f3b5cde518890e1589e473fd110dda7"
+    },
+    {
+      "file": "HNTUSDT-1d-2020-12.zip",
+      "sha256": "2d647fecb80b9ac8f8053e93aea8ad3baf3151349a7754e971239cc933142c8c"
+    },
+    {
+      "file": "HNTUSDT-1d-2021-01.zip",
+      "sha256": "e0fde0b526aa39e2b6c061d8e89268f37967a9afd72a4544d50dddc9a0747904"
+    },
+    {
+      "file": "HNTUSDT-1d-2021-02.zip",
+      "sha256": "4814049c5bfd50c2b3669b72028ef45a64d3d9a2dc7860a682c94c792c493430"
+    },
+    {
+      "file": "HNTUSDT-1d-2021-03.zip",
+      "sha256": "f3204774337c25c1336e4f19a9970a530f9b50bd1cd121f0fa33cc2cbe05e46d"
+    },
+    {
+      "file": "HNTUSDT-1d-2021-04.zip",
+      "sha256": "90150b3595c0593f2e256b78c4c5ee9e9c6305b2b9f2cbe102b20f2b0812e35b"
+    },
+    {
+      "file": "HNTUSDT-1d-2021-05.zip",
+      "sha256": "425ad99732b10377df778246a0b9d3471594a52721f860919a4243da606ee0ba"
+    },
+    {
+      "file": "HNTUSDT-1d-2021-06.zip",
+      "sha256": "3cb5ddee6a0edf352486c4819d36a12758ff8e0ba8a5b5c5bd3a2a2c858f803c"
+    },
+    {
+      "file": "HNTUSDT-1d-2021-07.zip",
+      "sha256": "6b03c124f9a8bce2994d4816b4201e6a4f1eb2a295442600c58b3336b200b89a"
+    },
+    {
+      "file": "HNTUSDT-1d-2021-08.zip",
+      "sha256": "6deab49ba0188a8b5c6cc6bbb46527725a88eeb3c16720dc6daf689d3be69170"
+    },
+    {
+      "file": "HNTUSDT-1d-2021-09.zip",
+      "sha256": "a4c07b281b17958890f0970c4db15ba9da746751be2ce53fc1bd94588384c684"
+    },
+    {
+      "file": "HNTUSDT-1d-2021-10.zip",
+      "sha256": "e08c2538fc5b88a779f6115f5caa9abcfec8d8228ce5c36e28ab1260dced57d6"
+    },
+    {
+      "file": "HNTUSDT-1d-2021-11.zip",
+      "sha256": "cafbcc35655c1ac7f8bc260d5eb68cccfe82432e25edff5665dc898058ef842e"
+    },
+    {
+      "file": "HNTUSDT-1d-2021-12.zip",
+      "sha256": "d2706f5aaa2c7fa9bb7f7a255b1d5fd564414fac1508c94b65a67d9991f7fbda"
+    },
+    {
+      "file": "HNTUSDT-1d-2022-01.zip",
+      "sha256": "d09da5e9adfb6e09855b07ec76077f2af2372385597f9a73c17a645f8242e9d1"
+    },
+    {
+      "file": "HNTUSDT-1d-2022-02.zip",
+      "sha256": "eb1f4d55140d18e7409ae23364172a04d8916f398340845e489b77363a3221c2"
+    },
+    {
+      "file": "HNTUSDT-1d-2022-03.zip",
+      "sha256": "9e7882c93fea94f42d008eef1d7c7d47600fad990a70b7aad44443d3a9d00a1e"
+    },
+    {
+      "file": "HNTUSDT-1d-2022-04.zip",
+      "sha256": "4e2c775ea39afe091a9746146b77287d334e369a626e406a8cf464994258e442"
+    },
+    {
+      "file": "HNTUSDT-1d-2022-05.zip",
+      "sha256": "96ae113c658c5368ec7cd30cba6c22bed712c9f8f934d96bb48f9e19bd8a9ce1"
+    },
+    {
+      "file": "HNTUSDT-1d-2022-06.zip",
+      "sha256": "27659e153993e56194a4f884564e593af0f056852d1e4491b676a2ac53087508"
+    },
+    {
+      "file": "HNTUSDT-1d-2022-07.zip",
+      "sha256": "3de3c7354288acba0d7ed0a78e924b22b40aefcf6c2d544e349c8d6d1519b527"
+    },
+    {
+      "file": "HNTUSDT-1d-2022-08.zip",
+      "sha256": "eb38870841e258e5dd8749cc1b39afa8ed14f7bdf022f2451674c09563c86c10"
+    },
+    {
+      "file": "HNTUSDT-1d-2022-09.zip",
+      "sha256": "0c25521bb7d4fa815bfb64b83cebeb7100a8e499d698d5805296beee6d6cf5c2"
+    },
+    {
+      "file": "HNTUSDT-1d-2022-10.zip",
+      "sha256": "b45a98153cafc218b1ee4ee725426ec1852846dc7e718763a73b0c31f1ec08f6"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

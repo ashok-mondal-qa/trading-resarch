@@ -1,0 +1,117 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/TONUSDT/1d/",
+  "instrument": "TONUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-08-08",
+  "last_bar": "2026-06-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:47:06+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 692,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "TONUSDT-1d-2024-08.zip",
+      "sha256": "535e55f2f727601870a392b5f779c990ae605ef0ecd5d2f935c823f81c490a72"
+    },
+    {
+      "file": "TONUSDT-1d-2024-09.zip",
+      "sha256": "a817a2959a176295b68dec654db35afa4edb4cdf413903f7d2425664fbf8ac04"
+    },
+    {
+      "file": "TONUSDT-1d-2024-10.zip",
+      "sha256": "ccaa7d651128fe221b86a15090688e01288ca06711202d11cec889fcaf04b189"
+    },
+    {
+      "file": "TONUSDT-1d-2024-11.zip",
+      "sha256": "ae75d449476d1225dc829c3205da7793083b24a22f918f64ef04d7da0ee610d7"
+    },
+    {
+      "file": "TONUSDT-1d-2024-12.zip",
+      "sha256": "9e42a93214aa5db7bd39752932e90359fbba47adcd18276c172bfbb943a2dbca"
+    },
+    {
+      "file": "TONUSDT-1d-2025-01.zip",
+      "sha256": "057a8a913768f13882f7eca828e0e7fefc42af63ce376d7d4088ff9beef9ee18"
+    },
+    {
+      "file": "TONUSDT-1d-2025-02.zip",
+      "sha256": "4c1b23d1de7e57a87fdce78ac8cbcbaf749bb3388f283d14277368043aaba630"
+    },
+    {
+      "file": "TONUSDT-1d-2025-03.zip",
+      "sha256": "605bab83d5c1933a0d1701f032774baa97e5c88873f98a184c97e991e36c7f4f"
+    },
+    {
+      "file": "TONUSDT-1d-2025-04.zip",
+      "sha256": "18b642d028b60e286486a1501d780afa666b180d41cfd29109eabcba2f3dddab"
+    },
+    {
+      "file": "TONUSDT-1d-2025-05.zip",
+      "sha256": "2618c1ff14aa546a0cb0264199d4f11c9ef09eb72bd6ab737fffd94f867e89cb"
+    },
+    {
+      "file": "TONUSDT-1d-2025-06.zip",
+      "sha256": "606cafb4b06ef79939c7cc1a50b1c70c7f6ae54b0e1fff1abaa2f94aebb748ee"
+    },
+    {
+      "file": "TONUSDT-1d-2025-07.zip",
+      "sha256": "bebc8c6bddafd702aab60893736ac49be772b5cd4fa5dd2011605372227f242b"
+    },
+    {
+      "file": "TONUSDT-1d-2025-08.zip",
+      "sha256": "4659859932dd4aa4848dde6dc6f67bb539c8a56f92e0d6182c414e262c5f6ca6"
+    },
+    {
+      "file": "TONUSDT-1d-2025-09.zip",
+      "sha256": "0721be54a26476e4fe72b8a1b9e80447fbc075485c598827042af6dccd46aa17"
+    },
+    {
+      "file": "TONUSDT-1d-2025-10.zip",
+      "sha256": "3c0c3fc5cdae53f2b6ae6f34874563d06220a71822d518f7101cf97caca56124"
+    },
+    {
+      "file": "TONUSDT-1d-2025-11.zip",
+      "sha256": "08350a3af294c32a80993e8471c634a2a00a72ef59b2c3fc94e81481a0fa00ae"
+    },
+    {
+      "file": "TONUSDT-1d-2025-12.zip",
+      "sha256": "cc121dd3e678f2a2c9bd566d2e3a34ac52031cb9259b05f0ca82df21e2408815"
+    },
+    {
+      "file": "TONUSDT-1d-2026-01.zip",
+      "sha256": "b9bd332bc9c8a0fcbd9390b2048a5066986ff155c2bd1122ff213c3beaed88b5"
+    },
+    {
+      "file": "TONUSDT-1d-2026-02.zip",
+      "sha256": "565bc41d695fc19a7363ae62c7e555ced252f36f338b42db7d3b80e6fb60f67e"
+    },
+    {
+      "file": "TONUSDT-1d-2026-03.zip",
+      "sha256": "aec8ca6eb9d60df79fe18da225c2d9668abe1dc54073a66705e57e71166a85c2"
+    },
+    {
+      "file": "TONUSDT-1d-2026-04.zip",
+      "sha256": "4d8e02163a203e4da17902182a078cc005d81f7c959d8350bd465ed10b250f98"
+    },
+    {
+      "file": "TONUSDT-1d-2026-05.zip",
+      "sha256": "1e2d8ce830531c893a344f5d41074473f0ec23d439ff2a7a99c1719da0997b03"
+    },
+    {
+      "file": "TONUSDT-1d-2026-06.zip",
+      "sha256": "3252e37cce2215426c8d7fb7dfc8b5734f64d180a83277213291e92ddbd7a76a"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

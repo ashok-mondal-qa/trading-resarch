@@ -1,0 +1,137 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ZKUSDT/1d/",
+  "instrument": "ZKUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-06-17",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:50:29+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 836,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ZKUSDT-1d-2024-06.zip",
+      "sha256": "c5b418f6d0dd6c0404dac8197ce58bbd86a33d51927ac58b6211cec59f738ad1"
+    },
+    {
+      "file": "ZKUSDT-1d-2024-07.zip",
+      "sha256": "1c8e4349e16268b0b58f7b83cfc7e6d5c889ecba5f31deb3b24192a5a4c186fa"
+    },
+    {
+      "file": "ZKUSDT-1d-2024-08.zip",
+      "sha256": "821d7604d6f29189f15c41c4cf4d03a09b6a38ca4c1427461c9c8396d796aa90"
+    },
+    {
+      "file": "ZKUSDT-1d-2024-09.zip",
+      "sha256": "99a730c40c8a7063927e538daf97b718f88c0d2fec255cd8ab9f8d6d65ccd5ed"
+    },
+    {
+      "file": "ZKUSDT-1d-2024-10.zip",
+      "sha256": "ed1113d4af39eaca946b0f59c2fc24986cca91f1d8b527dc21f9af0952edec8b"
+    },
+    {
+      "file": "ZKUSDT-1d-2024-11.zip",
+      "sha256": "79e69954d59362364574834917cb995b66fc2778b9ff867ad583bafd13e37838"
+    },
+    {
+      "file": "ZKUSDT-1d-2024-12.zip",
+      "sha256": "559f2847f78892e6ffc5c1b2287e973d20f30934d3b6b971d6ee935d2a42d121"
+    },
+    {
+      "file": "ZKUSDT-1d-2025-01.zip",
+      "sha256": "b01cd7d184358f0b91a10be3b8a8b2236ff371a19686825770a842a2bd43863f"
+    },
+    {
+      "file": "ZKUSDT-1d-2025-02.zip",
+      "sha256": "298c13347d4898f506e3951e1ab0fd67aa3892e68626a5275c1c6d70360da909"
+    },
+    {
+      "file": "ZKUSDT-1d-2025-03.zip",
+      "sha256": "c63e7fa07b291789f955030785b5710db601e3f4ff1b004604d271a4e4dca2f0"
+    },
+    {
+      "file": "ZKUSDT-1d-2025-04.zip",
+      "sha256": "e1994ab6a83974526f4184d42cf79e1c436c818500f34a3f548894e0ae738661"
+    },
+    {
+      "file": "ZKUSDT-1d-2025-05.zip",
+      "sha256": "6a9e16c512929c49fb4e801ea5ce4e671f94d23d02d10fc0fcd0e0d710fca49b"
+    },
+    {
+      "file": "ZKUSDT-1d-2025-06.zip",
+      "sha256": "86d86ebf8c6af7759a59076236d2f4fc4358166a2e9590ed48d81eab5f19907f"
+    },
+    {
+      "file": "ZKUSDT-1d-2025-07.zip",
+      "sha256": "fee54bc9bab99ee745c78ee0e25ae41ca0129f1dcf3b49d6ba74f2d186fdf999"
+    },
+    {
+      "file": "ZKUSDT-1d-2025-08.zip",
+      "sha256": "da92896256ecdbf7277c2ee0e3765e7935c14b0ebae82493c32698f840dfa9cb"
+    },
+    {
+      "file": "ZKUSDT-1d-2025-09.zip",
+      "sha256": "6e198aca2c6d26cbe2f3c2620d8b408ec41fb548b5bcbd773f5a94336ab9ec82"
+    },
+    {
+      "file": "ZKUSDT-1d-2025-10.zip",
+      "sha256": "c88f4e41c5120bf70f029423f802cff767bc1c2e0bf641d82a8d2aa03503d1a3"
+    },
+    {
+      "file": "ZKUSDT-1d-2025-11.zip",
+      "sha256": "8d8be65c52e88cbae3bbfe1bb6278f538704036f0170c867469ff1e9e294437f"
+    },
+    {
+      "file": "ZKUSDT-1d-2025-12.zip",
+      "sha256": "a458087fc5c48e0780d0806824a30dd1187d39cd50b269f9a33254d00d1d7180"
+    },
+    {
+      "file": "ZKUSDT-1d-2026-01.zip",
+      "sha256": "82ad3055d2dfe8dd21a07d87744f6a9c8a6682eb4022bd4e17a51e0def9c8b18"
+    },
+    {
+      "file": "ZKUSDT-1d-2026-02.zip",
+      "sha256": "f9a651e3ddb19695a18b09dda46f71146ea00461b04d023e50550963bf55c8dc"
+    },
+    {
+      "file": "ZKUSDT-1d-2026-03.zip",
+      "sha256": "8133ded0c13db74c11cf4cf37ecf5d7820739bd2062757fc09da864bbdd783ff"
+    },
+    {
+      "file": "ZKUSDT-1d-2026-04.zip",
+      "sha256": "ba8c615cdbeebee575d6c764b8d923e488381e2291aceed3f4977471449b0687"
+    },
+    {
+      "file": "ZKUSDT-1d-2026-05.zip",
+      "sha256": "a94d4f76a1d5e6dc0111ba8e5b6dfd0defdd62eb55b523406f17c4fb25a10b37"
+    },
+    {
+      "file": "ZKUSDT-1d-2026-06.zip",
+      "sha256": "a5abaeba90f48b6966c4981e20c785370916dde96ef314b15ab84a79bb85cda6"
+    },
+    {
+      "file": "ZKUSDT-1d-2026-07.zip",
+      "sha256": "1465b2e895812a5a003719dbd5e3f1968712982a118adc66e97c4f15f9263e3a"
+    },
+    {
+      "file": "ZKUSDT-1d-2026-08.zip",
+      "sha256": "c5aa8f0a951bbb8194fd3c19620311a5b522558bbf182489b9b7074fd5d48bf8"
+    },
+    {
+      "file": "ZKUSDT-1d-2026-09.zip",
+      "sha256": "a81288f34a97215400d9a373b20f5b9ad416ee560a2f1e1de4c35d10b6618d87"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

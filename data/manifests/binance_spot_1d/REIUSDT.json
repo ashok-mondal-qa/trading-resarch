@@ -1,0 +1,201 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/REIUSDT/1d/",
+  "instrument": "REIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-05-04",
+  "last_bar": "2025-12-17",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:43:55+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1324,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "REIUSDT-1d-2022-05.zip",
+      "sha256": "59da2c69d86b31871e470900e0ca5e9d694d4fbc7946ffa3a6f458bf9eb6d66b"
+    },
+    {
+      "file": "REIUSDT-1d-2022-06.zip",
+      "sha256": "dd32380ea3206d474c29366cdb02c2f7e7ab97bb85570e4136ca1850a00d4504"
+    },
+    {
+      "file": "REIUSDT-1d-2022-07.zip",
+      "sha256": "6efd9ed9d8e038a045b03a7910f429cc75849c59adb19222b17774b9ac25b61f"
+    },
+    {
+      "file": "REIUSDT-1d-2022-08.zip",
+      "sha256": "c7b0ed7c6c7c8c672023052b8170f8ee54dfe483c3834ed09e4f8bc561a6b56c"
+    },
+    {
+      "file": "REIUSDT-1d-2022-09.zip",
+      "sha256": "3315dc0f60ca996fc261ef84ad54904e55377dc3e9607f6b60c969fef352a958"
+    },
+    {
+      "file": "REIUSDT-1d-2022-10.zip",
+      "sha256": "180c8ff04deb7e8287a85504db61941829292ad2af9d2104027ca3546f84675a"
+    },
+    {
+      "file": "REIUSDT-1d-2022-11.zip",
+      "sha256": "c5d869348e20ce201bc596d58a8a00fe832fe881a1a0b04e4fad946504691bfe"
+    },
+    {
+      "file": "REIUSDT-1d-2022-12.zip",
+      "sha256": "c60624727049298038da5380fb2cd812c0174ba7f5877b287f3fe409d12dbe36"
+    },
+    {
+      "file": "REIUSDT-1d-2023-01.zip",
+      "sha256": "7b60ada78a0dcabc5a0df306002b48dbd2e78bd5a91477054f1257e8af1e4cff"
+    },
+    {
+      "file": "REIUSDT-1d-2023-02.zip",
+      "sha256": "80ac1b1964da061bc6dfa98b025582f04581a666d9e411084d9b829bc34e1f98"
+    },
+    {
+      "file": "REIUSDT-1d-2023-03.zip",
+      "sha256": "008435376c832800370166ecb3da397c0d2309f98b609187c57bce79374d4407"
+    },
+    {
+      "file": "REIUSDT-1d-2023-04.zip",
+      "sha256": "318a90732429b1e330079c62993f63cb727ce7ae81f8278f9bb3e855a18d79ec"
+    },
+    {
+      "file": "REIUSDT-1d-2023-05.zip",
+      "sha256": "51749c96cebdc8410af795cbf63baba8aab1e624e6edb5311b08f13198a7f0f6"
+    },
+    {
+      "file": "REIUSDT-1d-2023-06.zip",
+      "sha256": "69724d09b0b9cc4c66ba2df5c7d3431e7b13f9fd904062ce268976820c41905d"
+    },
+    {
+      "file": "REIUSDT-1d-2023-07.zip",
+      "sha256": "7b0c178ebb3020915375011b9f5d3ead62efe536128b160e489de5cd84ecdfad"
+    },
+    {
+      "file": "REIUSDT-1d-2023-08.zip",
+      "sha256": "7e703fba9a3151a6f7f0d18efe35f823612cfd47bbd42e33e1ef9592d2cd5aff"
+    },
+    {
+      "file": "REIUSDT-1d-2023-09.zip",
+      "sha256": "bdde27d04060d17797c82a7fe859773491f37076a8ebc4ab8bbd12a792fae8c9"
+    },
+    {
+      "file": "REIUSDT-1d-2023-10.zip",
+      "sha256": "fafbad99d1549ece89d484a8198c80bf4aa3b5054d919889967541cf75616d5a"
+    },
+    {
+      "file": "REIUSDT-1d-2023-11.zip",
+      "sha256": "96fa1b6689dfbe309f1d5cef72ab6bc35914c6a6f77802b18489494f872d0810"
+    },
+    {
+      "file": "REIUSDT-1d-2023-12.zip",
+      "sha256": "cc47e99b312b54911e9ee9de101e0c44f894a0296dc46cad587181778631a795"
+    },
+    {
+      "file": "REIUSDT-1d-2024-01.zip",
+      "sha256": "7cd032b3b979b22e783d25c99662d3573b376e4267d47514ac569b83f8fa72b1"
+    },
+    {
+      "file": "REIUSDT-1d-2024-02.zip",
+      "sha256": "e81f647a5bb4b1a8701734a06076e07eff1323e2542abb7902818ad8e5f5b13f"
+    },
+    {
+      "file": "REIUSDT-1d-2024-03.zip",
+      "sha256": "325a52e7c5e8aaeb3fa63de0b5a1cc07871c0bdb2ddf54ef421bb70aba364693"
+    },
+    {
+      "file": "REIUSDT-1d-2024-04.zip",
+      "sha256": "8c4c3e98407e10f00d8f226e1a53afd41f29837c7d8258d9e4fcd296e11f9675"
+    },
+    {
+      "file": "REIUSDT-1d-2024-05.zip",
+      "sha256": "2e3f733773d7559d36ae4f63f7cad890c059b3c1b123223143406fd5c5c30fa3"
+    },
+    {
+      "file": "REIUSDT-1d-2024-06.zip",
+      "sha256": "acfdeafaae4bfe4ec6979dd7c2059374457c74cf838018fdf8ff5c60e37dced4"
+    },
+    {
+      "file": "REIUSDT-1d-2024-07.zip",
+      "sha256": "4d3a2955bfd5be7aa002302ab4535ea9581e6e3829c459d61eb9825e78e7fe4e"
+    },
+    {
+      "file": "REIUSDT-1d-2024-08.zip",
+      "sha256": "cef2b3d74f8a4cbb3aa6946e32da924481692cb9801cd8a6f1310b3c99f6601f"
+    },
+    {
+      "file": "REIUSDT-1d-2024-09.zip",
+      "sha256": "f6d3c3141507b25641e10b2f9b50196fda60e7d62af46d209cb63eadf8fcf5fc"
+    },
+    {
+      "file": "REIUSDT-1d-2024-10.zip",
+      "sha256": "06a44c5423f5d2163524eaef1454a5a958a04034e0083fe9122ee73e617db326"
+    },
+    {
+      "file": "REIUSDT-1d-2024-11.zip",
+      "sha256": "35fa0bf843a31dc7cd2d3f60606a8c9297d5f863736c3b99e82081701cc0ed0c"
+    },
+    {
+      "file": "REIUSDT-1d-2024-12.zip",
+      "sha256": "193f09ab2af9ea180865f34bd37d647f3bbbf019f48d5eb092e1058a047a5c66"
+    },
+    {
+      "file": "REIUSDT-1d-2025-01.zip",
+      "sha256": "9bad36fd04021225dae0fd2f4f253e0cec236e9a390d41c6c16ba22733a13c15"
+    },
+    {
+      "file": "REIUSDT-1d-2025-02.zip",
+      "sha256": "c63814b4657bc74d17196c725dbfc319703485bd35828c3f11e74fc9733b963a"
+    },
+    {
+      "file": "REIUSDT-1d-2025-03.zip",
+      "sha256": "bfbab54073c2b2d3b503033de94be42b8c12a89e1db9c048236af2b4d39cf8a9"
+    },
+    {
+      "file": "REIUSDT-1d-2025-04.zip",
+      "sha256": "03626f4a8f2385ff3ec1c84368ae6303d38a14dc7e832cfed156ef8671351d55"
+    },
+    {
+      "file": "REIUSDT-1d-2025-05.zip",
+      "sha256": "7ad74bb0748e32bb95148a91eaf502fbf7497bb67ab628054dda3420ac0ac9f9"
+    },
+    {
+      "file": "REIUSDT-1d-2025-06.zip",
+      "sha256": "40230803ac6a0cefb5da543970d8496e5efd6e12eb58e60ed28a79646757f850"
+    },
+    {
+      "file": "REIUSDT-1d-2025-07.zip",
+      "sha256": "56ed0d9ee7aba0c88371a8163df21a82c36033fad1ad6849d4dc833b3cae1e17"
+    },
+    {
+      "file": "REIUSDT-1d-2025-08.zip",
+      "sha256": "06ebd460293d2de61cc664ae0c0df32c5bf1fd2bcec7cc24718f4577f3ef189b"
+    },
+    {
+      "file": "REIUSDT-1d-2025-09.zip",
+      "sha256": "05f40943c9deaeec5410e7b4ea8bf756fcbe2f044dae3551027ae2bd38e7796e"
+    },
+    {
+      "file": "REIUSDT-1d-2025-10.zip",
+      "sha256": "37590336524265b13302cc95e478f963f5d0c67127174a74dfb9eb9da5ca6705"
+    },
+    {
+      "file": "REIUSDT-1d-2025-11.zip",
+      "sha256": "37d5509680b12c9e620564525d649436255afcb0efdf766569bf10a6f3b45917"
+    },
+    {
+      "file": "REIUSDT-1d-2025-12.zip",
+      "sha256": "02cf280375b268c4bc62e7be2cefeb6f3de63520274611205abeb7421b0f978a"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

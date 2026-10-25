@@ -1,0 +1,105 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/1000CHEEMSUSDT/1d/",
+  "instrument": "1000CHEEMSUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-02-09",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:24:18+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 599,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "1000CHEEMSUSDT-1d-2025-02.zip",
+      "sha256": "cf36676d0acfe46528bea31662e7efae68e00c6207207378df9863fa83a4b2bd"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2025-03.zip",
+      "sha256": "e42c1445a71f42bee483febd2ff5d7ae12dacf77dfc6ee9474e8af4299b21230"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2025-04.zip",
+      "sha256": "b492087611fd4026330a10f7f4db89bf38614b2d7734c65e0db99fe5c52f0452"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2025-05.zip",
+      "sha256": "d27050d2221fad77ecf45584c3b2ebf8b91d4eb0904214254a78c32bd597032a"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2025-06.zip",
+      "sha256": "54d4d0d566c591f0a9a8b97366b1406ffed94eb60f086637e6d86e9caf48ea81"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2025-07.zip",
+      "sha256": "a0b765af5abd75fd3c4aca38f662057f01597e1f942e8bab13275ee04a783fc3"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2025-08.zip",
+      "sha256": "9ab16d1713f45d28d721d53ac59fedce7ccc40cb459b35284d67d437a85bb5fe"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2025-09.zip",
+      "sha256": "f0899200facd521cc1e6b80a21942f6d980c182da70b448c496921b5757b5ad5"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2025-10.zip",
+      "sha256": "041707af0678b62299b48849f2175223e452bde97d917e950d704472c787f1e0"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2025-11.zip",
+      "sha256": "d4648c9f7a74f8fb7409fcc91974001de371953d844839ba0e883856a8591213"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2025-12.zip",
+      "sha256": "e8991a8fdd6ff77333a30c836d5e8156d478942aed42de027770b7160aa90961"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2026-01.zip",
+      "sha256": "778186ada1bfcb098542866b765a78ed14bde5d465a37a5ef4f844193364e720"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2026-02.zip",
+      "sha256": "33cb2aaa5dc161086235027047e3045bb77d12c9e7c5e48e886daf7a3465f944"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2026-03.zip",
+      "sha256": "bcc591e09e0f31bff126cae4660af0b83edd3f30bae199fef3bba56750611a18"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2026-04.zip",
+      "sha256": "fd282dbb6863e3b79a9e3e4beaabd382e4571110f688986d6ff70cc76577500c"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2026-05.zip",
+      "sha256": "9ffc8dc0372d52f9618929c8156b3eebc4d40955312b600180bbdf1cc4166f7d"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2026-06.zip",
+      "sha256": "c6f05b292f43b00295a5b74b136b8a123ce2ecb0e282b8a0c2e177c2c5717cf4"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2026-07.zip",
+      "sha256": "562925008f83870b020d6f6e2755ceff3975e613a9bf8e0917f2e8a38608b896"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2026-08.zip",
+      "sha256": "97672f66da937eb280feb8f757f6d6054e03e5a23d9de976fbb45b4b48827a23"
+    },
+    {
+      "file": "1000CHEEMSUSDT-1d-2026-09.zip",
+      "sha256": "6a7b5f99a838cd009b1737f38a3209fdaf23f597b6c2a77555841be939a4a79d"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

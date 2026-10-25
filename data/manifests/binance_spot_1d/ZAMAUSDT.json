@@ -1,0 +1,57 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ZAMAUSDT/1d/",
+  "instrument": "ZAMAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-02-02",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:49:50+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 241,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ZAMAUSDT-1d-2026-02.zip",
+      "sha256": "c2de4ac3af790a45b0b507b386e5cd407d951bb151823d3d4ff306342da2e02d"
+    },
+    {
+      "file": "ZAMAUSDT-1d-2026-03.zip",
+      "sha256": "348547fd82965817a0bff029149bac291bcafba363af820c4aaad3ccd3b7ed54"
+    },
+    {
+      "file": "ZAMAUSDT-1d-2026-04.zip",
+      "sha256": "5a2ea730d32c2878d914ff5eb9b98e13a2dd3524da89102c60af7cb061d47a1d"
+    },
+    {
+      "file": "ZAMAUSDT-1d-2026-05.zip",
+      "sha256": "cf4f4655a79ed6620f00d2426d895e0b21dad8074042fcc6afb53448a14d5e64"
+    },
+    {
+      "file": "ZAMAUSDT-1d-2026-06.zip",
+      "sha256": "ef66e8b5657b1c72b1394a0e6dfb05fc0ca246050bf0b86a1dd5f10df5822454"
+    },
+    {
+      "file": "ZAMAUSDT-1d-2026-07.zip",
+      "sha256": "a63219f96149f4f71ed5d3577a4c41fe2d118786a23deab44f2534458f2bb754"
+    },
+    {
+      "file": "ZAMAUSDT-1d-2026-08.zip",
+      "sha256": "2474f8149a3744e55b4ec01dc0a0141dc6d88f731ab372962163f5c21487ab8d"
+    },
+    {
+      "file": "ZAMAUSDT-1d-2026-09.zip",
+      "sha256": "9092ad162a475492fd666642603c95d53711c5efd2fbb81827187440530659b6"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

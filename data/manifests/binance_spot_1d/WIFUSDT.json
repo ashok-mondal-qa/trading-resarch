@@ -1,0 +1,149 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/WIFUSDT/1d/",
+  "instrument": "WIFUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-03-05",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:54+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 940,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "WIFUSDT-1d-2024-03.zip",
+      "sha256": "a9a1ac3bb314fe20520258d1c816dbab9c6d4572b5ae98615943811def1fe034"
+    },
+    {
+      "file": "WIFUSDT-1d-2024-04.zip",
+      "sha256": "910627ba5b4dce56619b00b714cb595dc335e765fad14194acd594a6ee982648"
+    },
+    {
+      "file": "WIFUSDT-1d-2024-05.zip",
+      "sha256": "6d9a47b4bdfd6b3b05b6ddab38cb49131aef56d1cc8cb30e72c07bc2b62dc122"
+    },
+    {
+      "file": "WIFUSDT-1d-2024-06.zip",
+      "sha256": "a39921fc381afc709d252c048617f6ac8d04aa8b49e16a33125994aaf60befcf"
+    },
+    {
+      "file": "WIFUSDT-1d-2024-07.zip",
+      "sha256": "2b78a3e0e594d5a76ea1f9b452492723e078477a40df0400bb197e4dc2c2a447"
+    },
+    {
+      "file": "WIFUSDT-1d-2024-08.zip",
+      "sha256": "5c4b0da24943750f0083be03e1bf65639fbc31c3bedef4216ff5cb29395ba1b0"
+    },
+    {
+      "file": "WIFUSDT-1d-2024-09.zip",
+      "sha256": "09d0e68653d4ebe120814a2b55c2d3e5650b6822550df832612ffd5a35410dda"
+    },
+    {
+      "file": "WIFUSDT-1d-2024-10.zip",
+      "sha256": "51cc48ddf2f03382700fb94e1fae25f7b690ca3f69eac0450d1a5e8e0750d94d"
+    },
+    {
+      "file": "WIFUSDT-1d-2024-11.zip",
+      "sha256": "13db847f0ea6a95a89c506fdcd53df8d8fc742a424dd65f3662fac38b03e61bb"
+    },
+    {
+      "file": "WIFUSDT-1d-2024-12.zip",
+      "sha256": "17b9e9c270308a44bf8a150f0d7cf6126f0b6b7c99f1769f733495df02266811"
+    },
+    {
+      "file": "WIFUSDT-1d-2025-01.zip",
+      "sha256": "73b43eb1bb9a73f00c8a63422ebbca2a4700122f5699e7b1074f0a7b4bcac2c6"
+    },
+    {
+      "file": "WIFUSDT-1d-2025-02.zip",
+      "sha256": "fc8ac1974cd282e26ab5a700bc3e9c542d3170d816b85b44bf945b4d727603a8"
+    },
+    {
+      "file": "WIFUSDT-1d-2025-03.zip",
+      "sha256": "0afc87c707f8bd61c07499e01176fdabe59f9905298899b55806cedc2859661c"
+    },
+    {
+      "file": "WIFUSDT-1d-2025-04.zip",
+      "sha256": "b4696293dd570b86d529bc2f535de0ac9e4848d9cf89b319342e1d5ba48182e5"
+    },
+    {
+      "file": "WIFUSDT-1d-2025-05.zip",
+      "sha256": "5f01e3197532c0b1207102826102ea6ffc913e3ecfbaf6b7e1bedffe8c8b64cc"
+    },
+    {
+      "file": "WIFUSDT-1d-2025-06.zip",
+      "sha256": "e7d09e9b869aef84761e4533bb4f68918ad5cbd9b08c277cd1ba961e8e8c23a8"
+    },
+    {
+      "file": "WIFUSDT-1d-2025-07.zip",
+      "sha256": "e16344897aa31e3c822d0475132473b9ae4d7c9e1c941bed996e4e0fd1b5b6a2"
+    },
+    {
+      "file": "WIFUSDT-1d-2025-08.zip",
+      "sha256": "9a51e9179c13100dad8d90136e4841ebc8b2029552e45e220a5aac3d05bc2d86"
+    },
+    {
+      "file": "WIFUSDT-1d-2025-09.zip",
+      "sha256": "72d6995ae6cbd1d71e6b9387e27eded9bbf12423a9da566b1e44284e752a76ab"
+    },
+    {
+      "file": "WIFUSDT-1d-2025-10.zip",
+      "sha256": "0353e5ebdf6ac16e3daa314ea1b258b7a9ece9889919e9374c540f608f4d0189"
+    },
+    {
+      "file": "WIFUSDT-1d-2025-11.zip",
+      "sha256": "f198b4363f5f05f789b3355409274f4106f3ecb1cf32f94ee73ad8131771c07a"
+    },
+    {
+      "file": "WIFUSDT-1d-2025-12.zip",
+      "sha256": "a26fd42ab59cc6558810287807dc4a12969902736c260a31d29919d518b7fcde"
+    },
+    {
+      "file": "WIFUSDT-1d-2026-01.zip",
+      "sha256": "7b2253856fddb0a643e00389e6538ecf953026228803c06292335bc8da83f6ad"
+    },
+    {
+      "file": "WIFUSDT-1d-2026-02.zip",
+      "sha256": "f6df923d30e20d9307d1bc942edecb917970b2fca88d27dcec1bea87d78a2303"
+    },
+    {
+      "file": "WIFUSDT-1d-2026-03.zip",
+      "sha256": "0f847466c48b8204b2a6feaf8f3a2289c54a33d1b416e23791e8b8125730f01e"
+    },
+    {
+      "file": "WIFUSDT-1d-2026-04.zip",
+      "sha256": "66dc792b49698f28fc0d7a4206d1053030d20d8674addce31e2304c98dbe82da"
+    },
+    {
+      "file": "WIFUSDT-1d-2026-05.zip",
+      "sha256": "c7f2719f93d5fc734a2bbc30e19e422ea87c15164433b0435531b02be76eb8a0"
+    },
+    {
+      "file": "WIFUSDT-1d-2026-06.zip",
+      "sha256": "ac350494245d1aa5040ebf0283a01e9746da0093745e73f853d169abf8b8f08c"
+    },
+    {
+      "file": "WIFUSDT-1d-2026-07.zip",
+      "sha256": "1bdd45c4fc894befd79edc74aefcb0ebc1d21253a5158c1a774e5d334caa6d23"
+    },
+    {
+      "file": "WIFUSDT-1d-2026-08.zip",
+      "sha256": "fe1f230101adbf52c41543f6db1a3879d521c4c43f3db6635f1aea942ef77123"
+    },
+    {
+      "file": "WIFUSDT-1d-2026-09.zip",
+      "sha256": "0a45d5e38db58f8d418cf4a4073be45ead8856e78857161056b733b16946827f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

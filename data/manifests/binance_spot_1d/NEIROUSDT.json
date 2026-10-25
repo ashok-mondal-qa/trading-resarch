@@ -1,0 +1,125 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/NEIROUSDT/1d/",
+  "instrument": "NEIROUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-09-16",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:16+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 745,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "NEIROUSDT-1d-2024-09.zip",
+      "sha256": "866f16459bba2ea241c7b3e3844a7e6468de7320a5a3c22d9fd9d91968089a68"
+    },
+    {
+      "file": "NEIROUSDT-1d-2024-10.zip",
+      "sha256": "e76bcc253de19438042d78e24c2541a94ae4636ed4c2debd0285cb139027f20f"
+    },
+    {
+      "file": "NEIROUSDT-1d-2024-11.zip",
+      "sha256": "4bb82088b9bbe18dd9a52e0f5532069ada52e686ce7ad7b36c6bffab8994bac1"
+    },
+    {
+      "file": "NEIROUSDT-1d-2024-12.zip",
+      "sha256": "8abfcbb04e8ee596c201c42d2fcf69abb9a677194fdc6e87b158661a39d6e808"
+    },
+    {
+      "file": "NEIROUSDT-1d-2025-01.zip",
+      "sha256": "e6d6f99b1abc9f0d451e3c1cce612f8fcedb3d65943420b45f709277eeedb35c"
+    },
+    {
+      "file": "NEIROUSDT-1d-2025-02.zip",
+      "sha256": "dcdd8b5aef20c7d97480a4f646d21b0ed17c49df293e55b379a215b98e565f1e"
+    },
+    {
+      "file": "NEIROUSDT-1d-2025-03.zip",
+      "sha256": "6b28815af2d19adee1c2ae20314de515fa44ad55d97bdaa9de7db642ba067de0"
+    },
+    {
+      "file": "NEIROUSDT-1d-2025-04.zip",
+      "sha256": "424886ec4a379b855dd9dd5bcd75e144126491ba0173fb73db4c18e19df5e293"
+    },
+    {
+      "file": "NEIROUSDT-1d-2025-05.zip",
+      "sha256": "20a7bd1b38436df5846506b97dd35f5a2f143ed7454cdb2056cd7438ea5e9c9b"
+    },
+    {
+      "file": "NEIROUSDT-1d-2025-06.zip",
+      "sha256": "a5d45c20c9a503c96cd5439b1933df35ad810ed8ec1b4d3d7b0834dcf3b72d59"
+    },
+    {
+      "file": "NEIROUSDT-1d-2025-07.zip",
+      "sha256": "56e0413162e10166986d87e864cb9d334c4a1f4e8c4733e6ac0beba0a5fcb762"
+    },
+    {
+      "file": "NEIROUSDT-1d-2025-08.zip",
+      "sha256": "7261292807bc4f8bfb0b20859ddb9da103252a71fb18ccad408f0e7cbbf4ccef"
+    },
+    {
+      "file": "NEIROUSDT-1d-2025-09.zip",
+      "sha256": "d09ecf23d58bc0cec8076bef78f53258b3446f6a4c035816ea929f7af38404a3"
+    },
+    {
+      "file": "NEIROUSDT-1d-2025-10.zip",
+      "sha256": "15fb062eca1650bd514016c4231a928aff47de347aeeac161a08e32ad4fc57c5"
+    },
+    {
+      "file": "NEIROUSDT-1d-2025-11.zip",
+      "sha256": "374f2ceb73f2d2d0d3b9b10f9cd82a952a3e1e887e2afbb7246b3f4f04128917"
+    },
+    {
+      "file": "NEIROUSDT-1d-2025-12.zip",
+      "sha256": "548681b052877fd914be06bcfd3f5767b6a7abdf81a16ba45752533e31624df8"
+    },
+    {
+      "file": "NEIROUSDT-1d-2026-01.zip",
+      "sha256": "2460a185f61238801aab92cf4115f6821516e31b4057636541726c29981479af"
+    },
+    {
+      "file": "NEIROUSDT-1d-2026-02.zip",
+      "sha256": "798c923385e5e715fd1715a2ea657ecf5df5f93f2a3983be5c4dcf24520c9553"
+    },
+    {
+      "file": "NEIROUSDT-1d-2026-03.zip",
+      "sha256": "6f1afc439c955a5f24f26dec82e3f05677bf796bfc24d6a4ec219a63da85ad3a"
+    },
+    {
+      "file": "NEIROUSDT-1d-2026-04.zip",
+      "sha256": "4e67b860d34ed84e0d237b18ca1622262c341d6aa7735bb4386ffa9e89971af4"
+    },
+    {
+      "file": "NEIROUSDT-1d-2026-05.zip",
+      "sha256": "49e4bd63d80f9e88bfc750cb5a4abad329377bc24c5ff319760d675ca2181bba"
+    },
+    {
+      "file": "NEIROUSDT-1d-2026-06.zip",
+      "sha256": "2453b6f8a7a5841f40a42a0fb70e6d8a7edb0f678d0ba6700d7c475b3c67db5a"
+    },
+    {
+      "file": "NEIROUSDT-1d-2026-07.zip",
+      "sha256": "63b81ecc5662254fbeb87b289e931d3641baa076719e9a46d7110131bd2618d7"
+    },
+    {
+      "file": "NEIROUSDT-1d-2026-08.zip",
+      "sha256": "77c19ea40b3610385c458609c238bebf1e2c8439bb7cfdf016bf27bdd4d670a6"
+    },
+    {
+      "file": "NEIROUSDT-1d-2026-09.zip",
+      "sha256": "2d3d5a7d150bb399802cb1a429eaee5c87ae8d0d2b9bdba80d23315da248fa9a"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

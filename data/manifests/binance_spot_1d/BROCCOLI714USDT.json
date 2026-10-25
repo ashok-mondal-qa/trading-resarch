@@ -1,0 +1,101 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BROCCOLI714USDT/1d/",
+  "instrument": "BROCCOLI714USDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-03-27",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:28:32+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 553,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BROCCOLI714USDT-1d-2025-03.zip",
+      "sha256": "e910eeee3bf35c7f26aafc53384f1c552e8dc6deb1baff56751c5e12d4b99555"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2025-04.zip",
+      "sha256": "fbd29be3f7680cb9bba8c5b3a92b67818950367f00167a4ef120e8d41b743be3"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2025-05.zip",
+      "sha256": "39ed443578b71a10113435e8f9ffcdbb216f33e1ca00592ec7faf91f2dde6dd5"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2025-06.zip",
+      "sha256": "95c7f899729cd4e96138372e3ccdfa2ab2d4d1a6b60fa757ebbdfb7eb4c3eb88"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2025-07.zip",
+      "sha256": "e0e2b1dd6937d1a6057e65538c27bb9845d51703e293fcb953dbcc49678fa4a5"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2025-08.zip",
+      "sha256": "f43f7399bef1058e64e9907933455056b3a837ed41c9a0d96bf6822943fa87e8"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2025-09.zip",
+      "sha256": "9b7bb75eb3a7d088e76a6dfed83396312ce86d210940bc8b63b8128e7bd02093"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2025-10.zip",
+      "sha256": "5b019ba284d6adf5b225db4d09ace407faf3f80ed347a11bfc83cbfed26c0351"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2025-11.zip",
+      "sha256": "794d2c5561f7e2afd7eeb21989d386114669de10320ec40fdeeb79612386e484"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2025-12.zip",
+      "sha256": "657c0a66052f8c37bfa38899b1144733ac36ac301c44ca0a51318cead367f438"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2026-01.zip",
+      "sha256": "90e60f48df6e7751a5d01a8ad750644084d352584b00690c6bce07c4c39cd390"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2026-02.zip",
+      "sha256": "45b241426ede506a459f85444eb984a51af31ce66a223c221f8a7ab58beee273"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2026-03.zip",
+      "sha256": "004c67139303b8fda3a08c97368347ea2b886e519ba4f28e37e55032dc706c79"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2026-04.zip",
+      "sha256": "3e5831fb2ec0e5e6bcbecb9ca38633e39286f6ba93721601d59625ca0c2aef81"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2026-05.zip",
+      "sha256": "0fbf77cf9ab07bac2f4ebaaa049b3f3b2b222a9c09004e85ce143cab8e1995aa"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2026-06.zip",
+      "sha256": "b195a5eff5d7f1d88cc23bd1b9e3e8307acd0aeb12968019149e960addd890dc"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2026-07.zip",
+      "sha256": "948afa222d424936b6f4fdc3a0a6e4ec2d159894e3ed4047175dd4648672a14d"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2026-08.zip",
+      "sha256": "c1e17ee83bc366fd415006e718c74dc4c8f4221e14ab49ff17c367d9ccb19b1d"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2026-09.zip",
+      "sha256": "4c139b6b4ddc22f37d643e4b8b3c06907e0b9dee9e3611780b7b471e0ebcb12c"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SLFUSDT/1d/",
+  "instrument": "SLFUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-08-30",
+  "last_bar": "2025-09-17",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:45:07+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 384,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SLFUSDT-1d-2024-08.zip",
+      "sha256": "fe43b7e30ea3a1bfa9b280ff1101f6c4597c8c48b5f171178f9d64be4564d361"
+    },
+    {
+      "file": "SLFUSDT-1d-2024-09.zip",
+      "sha256": "a8d13c88f1ecf15221fe86748dddf1df8e958213b5932eff6d8ac6d9ffd18dfe"
+    },
+    {
+      "file": "SLFUSDT-1d-2024-10.zip",
+      "sha256": "e234d06bfde0d36ff6d081b09b746c5ee154a7545bfaa5091bddc639577ead07"
+    },
+    {
+      "file": "SLFUSDT-1d-2024-11.zip",
+      "sha256": "a93f6ded45e8abc312485e15f71c6625b9f4860ac1ee28611890980894a2d72d"
+    },
+    {
+      "file": "SLFUSDT-1d-2024-12.zip",
+      "sha256": "cf8e462ed597be7dbbeeb3775c314e02a07e049bc1f36ef7b098aa061399920d"
+    },
+    {
+      "file": "SLFUSDT-1d-2025-01.zip",
+      "sha256": "816aa35a3a37252f00ae25b8a3d9fc6154026a73a6543e413d3220db28745485"
+    },
+    {
+      "file": "SLFUSDT-1d-2025-02.zip",
+      "sha256": "0bb7060da86c146fdca18527d3017a6001589d47433688397ec2878760b6b66d"
+    },
+    {
+      "file": "SLFUSDT-1d-2025-03.zip",
+      "sha256": "ab709eca0523218cc8cc57dad063edf17427b5b125257820fa10b71de57a5410"
+    },
+    {
+      "file": "SLFUSDT-1d-2025-04.zip",
+      "sha256": "db54247ad759ff8c3ca737a120f2b32a72fe6afe1204da9edecde35cf0d60dab"
+    },
+    {
+      "file": "SLFUSDT-1d-2025-05.zip",
+      "sha256": "bdded9514fedfab099080768d2e19ff4acef91e5a0efcd3573d7693510a4b8bc"
+    },
+    {
+      "file": "SLFUSDT-1d-2025-06.zip",
+      "sha256": "47c3753128c41aa330a67f66492305d1c621dc76688f3cbe5b3f64b67c9636c6"
+    },
+    {
+      "file": "SLFUSDT-1d-2025-07.zip",
+      "sha256": "479d325e0516205165fa84d8900e415183c4a04e40466d0dbe63feb791e9f19f"
+    },
+    {
+      "file": "SLFUSDT-1d-2025-08.zip",
+      "sha256": "24dc97d6fd5b33f5319bad23849e26bb30c1fd7696934b71dfcada7cb53d2995"
+    },
+    {
+      "file": "SLFUSDT-1d-2025-09.zip",
+      "sha256": "cb039adfd12be2c5b6395f9ffbab74092547f9652b1d55689d040e54b1bcfee5"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

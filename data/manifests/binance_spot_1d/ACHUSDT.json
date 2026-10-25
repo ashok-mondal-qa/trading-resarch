@@ -1,0 +1,253 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ACHUSDT/1d/",
+  "instrument": "ACHUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-01-10",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:24:49+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1725,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ACHUSDT-1d-2022-01.zip",
+      "sha256": "7b58bc60eff9e4b956517dd873e3cea40aefaa362c1b6923130fe9a9c7bc5497"
+    },
+    {
+      "file": "ACHUSDT-1d-2022-02.zip",
+      "sha256": "82cbf1c8e6ef5ba74ff490bfb8826572f662687a4452c662c78046358910ef8f"
+    },
+    {
+      "file": "ACHUSDT-1d-2022-03.zip",
+      "sha256": "9a2172230f8339b9a041b74acfa96105488b1df53091d97281d23d1e2aa7518c"
+    },
+    {
+      "file": "ACHUSDT-1d-2022-04.zip",
+      "sha256": "82b6e7a8827a673c8472d25b074a90bac5124d7ca13510a7b2a664ec2041bdd4"
+    },
+    {
+      "file": "ACHUSDT-1d-2022-05.zip",
+      "sha256": "fe97d7279a218049a6bd466225a5564625fb90a39a26fc857d19262b2cf06d55"
+    },
+    {
+      "file": "ACHUSDT-1d-2022-06.zip",
+      "sha256": "ae05a4e0d9ad233cfce6e7b71ae7219ded5409a4c267be8d138787f65c3bd59a"
+    },
+    {
+      "file": "ACHUSDT-1d-2022-07.zip",
+      "sha256": "efb8b181abf958a3233c320ee0f7ecbfb01075f371c4aed220711f8d3390ce47"
+    },
+    {
+      "file": "ACHUSDT-1d-2022-08.zip",
+      "sha256": "aa813b45fe4f4c4f7b65c2f3a1938a5433b1078beed1fd8fced85df18d300e73"
+    },
+    {
+      "file": "ACHUSDT-1d-2022-09.zip",
+      "sha256": "cf05d6fa2da11daa9ec375d481728da4182a2b99ea25aa7e458cb33885bef551"
+    },
+    {
+      "file": "ACHUSDT-1d-2022-10.zip",
+      "sha256": "1ffee16e279791a0b02dfb3586bacfc9c170ab96814da88d68e41154391d03a9"
+    },
+    {
+      "file": "ACHUSDT-1d-2022-11.zip",
+      "sha256": "0eff4107a8862dd77be7f92d04df63136ccc55baf624e690a65acce142e65c35"
+    },
+    {
+      "file": "ACHUSDT-1d-2022-12.zip",
+      "sha256": "9b22b44a8e3ad8d94bb99ec1a8b6c7e62a49be256a00cc70fb7421541e5aab7e"
+    },
+    {
+      "file": "ACHUSDT-1d-2023-01.zip",
+      "sha256": "a18b349a946d13c2cfc026433131ce83723ffec54463485b3b8d2de1685d3823"
+    },
+    {
+      "file": "ACHUSDT-1d-2023-02.zip",
+      "sha256": "c4f6f3edeb12eb3c09dba48a02c1cf60daa73f387651d900ba29b909cedf04b7"
+    },
+    {
+      "file": "ACHUSDT-1d-2023-03.zip",
+      "sha256": "6a6459eaafb9c8c65bac2c45085c8917f6608a1216b52717b05bc5f9c6ef121f"
+    },
+    {
+      "file": "ACHUSDT-1d-2023-04.zip",
+      "sha256": "94e74a66172e9c123ce9f88684021585bd25c8c027bd412303dd977737cbcc71"
+    },
+    {
+      "file": "ACHUSDT-1d-2023-05.zip",
+      "sha256": "f456804dbbbafe6305d2f2bdc8097b042c3a116d62c2867ad382c6dbbb02b32f"
+    },
+    {
+      "file": "ACHUSDT-1d-2023-06.zip",
+      "sha256": "0edee26fd76eb7271cc9833141ff499e764096856dc9b20dc1ee7875fbab89c2"
+    },
+    {
+      "file": "ACHUSDT-1d-2023-07.zip",
+      "sha256": "66c39c96ef985935eddff7f3f8598b45abb1d47a1c5086184742df6cb4a8f646"
+    },
+    {
+      "file": "ACHUSDT-1d-2023-08.zip",
+      "sha256": "6579149259fb0c4be7cc7f8a495ff4d8774f0e4db9214a813d83b8dc510e164d"
+    },
+    {
+      "file": "ACHUSDT-1d-2023-09.zip",
+      "sha256": "669e493ccfe11fd94f144bc193dc2d438aa44143a42e19f1fc45a7032d95e6f7"
+    },
+    {
+      "file": "ACHUSDT-1d-2023-10.zip",
+      "sha256": "ff9b5fe2503cb8c7db4ea67eb08a0e136b43fc56842d5ce3f5171dd306c251ae"
+    },
+    {
+      "file": "ACHUSDT-1d-2023-11.zip",
+      "sha256": "f07c035afe96cf00c087ceaa7451d80df34a6968957ee44781d6515546cfce22"
+    },
+    {
+      "file": "ACHUSDT-1d-2023-12.zip",
+      "sha256": "893dfe9e6ea7338035bad0ea123d886c8cb5631f36f39cf071daf79dc4cca4a6"
+    },
+    {
+      "file": "ACHUSDT-1d-2024-01.zip",
+      "sha256": "4ce2629657390991114f47ec32cb741e47d333f75080ab72aaad7afd3e070522"
+    },
+    {
+      "file": "ACHUSDT-1d-2024-02.zip",
+      "sha256": "0cd75e0766d98b6b1878345ee113a651a669ccda5f224efcdd80f6be71ad3e77"
+    },
+    {
+      "file": "ACHUSDT-1d-2024-03.zip",
+      "sha256": "45cdfbf2f2335da24afb2fb86d9566c28419916fd35d787bde4bc570a77e7985"
+    },
+    {
+      "file": "ACHUSDT-1d-2024-04.zip",
+      "sha256": "3e908c15236705a82d2a66f02bb8533d9d79ec51abbced5d6c2d7718e0813c9c"
+    },
+    {
+      "file": "ACHUSDT-1d-2024-05.zip",
+      "sha256": "d2b7728d3b78c590c640a863e1dd67610782ecec706cebc4f033a35dcfbdffe2"
+    },
+    {
+      "file": "ACHUSDT-1d-2024-06.zip",
+      "sha256": "b58f8f135f3f2bf9dca2b6c4b4ae3a2829945f3b4de3ced4dc0e1cc3d6af1a51"
+    },
+    {
+      "file": "ACHUSDT-1d-2024-07.zip",
+      "sha256": "f6577b2cc263efaa3b9c460a1b36754587a0c9a93262b48f06632db562e47da2"
+    },
+    {
+      "file": "ACHUSDT-1d-2024-08.zip",
+      "sha256": "0020d0a59e67bf7ef79996fa4aecff0028abb8529ec5cca2f5a98f4129be89c9"
+    },
+    {
+      "file": "ACHUSDT-1d-2024-09.zip",
+      "sha256": "b2d33b0763955aee2aa65cdc23670245f4ec05f24e2ebb0ce9a2afa9db082276"
+    },
+    {
+      "file": "ACHUSDT-1d-2024-10.zip",
+      "sha256": "0e1d8c7a3203f96e0d958d543b5e302acb40742e2624c8b947af36b9ca1db8e2"
+    },
+    {
+      "file": "ACHUSDT-1d-2024-11.zip",
+      "sha256": "45491787055bcd8565e115e3f15cbd982fa394363eb7a0352c47ce32843e7c0b"
+    },
+    {
+      "file": "ACHUSDT-1d-2024-12.zip",
+      "sha256": "8faa0d6ca10858357422a4a066fd517490529af7ccc1ec5c61cd91f1fa5ed075"
+    },
+    {
+      "file": "ACHUSDT-1d-2025-01.zip",
+      "sha256": "d2a16021afdc2fb30720e5e2b7c9be7d446efbc08e7dd6da462d6a178ca87b9e"
+    },
+    {
+      "file": "ACHUSDT-1d-2025-02.zip",
+      "sha256": "5cc4c9d4608373c4fdac1d1706c415336ee475ad37e99edb32d4a31a4f2a78cc"
+    },
+    {
+      "file": "ACHUSDT-1d-2025-03.zip",
+      "sha256": "e3bbdbdc3b452af15498ad47f9d6f2f948e8559e4da3e4fd4ee9f4448592dfd1"
+    },
+    {
+      "file": "ACHUSDT-1d-2025-04.zip",
+      "sha256": "867064db85ec90107456a18bf04ed04f518ff3bec93fcfda0fecfc6d7d113faf"
+    },
+    {
+      "file": "ACHUSDT-1d-2025-05.zip",
+      "sha256": "ec1df3840ddf013087c2936131d576445715bfd2c0d76fb417fed28417a8759c"
+    },
+    {
+      "file": "ACHUSDT-1d-2025-06.zip",
+      "sha256": "6bdfafc36c26b1d9533f4bd02387562abe47e0cf2517d322e72b4852d518e246"
+    },
+    {
+      "file": "ACHUSDT-1d-2025-07.zip",
+      "sha256": "a7dbe23b336b3be9e8b27fbe9174492b4f9d450fe91172e796e57f261b8075f9"
+    },
+    {
+      "file": "ACHUSDT-1d-2025-08.zip",
+      "sha256": "364789a2025c743f8a2f6373974ab29590c5f9b16933aff35021d82889ec80b3"
+    },
+    {
+      "file": "ACHUSDT-1d-2025-09.zip",
+      "sha256": "e320b4a4ba4b924fec045dc945298689e2228373fb12a923c1c2cb8288d461c9"
+    },
+    {
+      "file": "ACHUSDT-1d-2025-10.zip",
+      "sha256": "98250a75b4bfcc5b4240182e7c939503dfb4a9006e837f275bad7d8b689fb647"
+    },
+    {
+      "file": "ACHUSDT-1d-2025-11.zip",
+      "sha256": "568672c684c0d617918669ee17e0df4eb2bfe88161469887cda050759c280722"
+    },
+    {
+      "file": "ACHUSDT-1d-2025-12.zip",
+      "sha256": "03666ebc2da172bdd1f522d474d85d79e451ea1c4a73ddd1d7355bed93f70b3f"
+    },
+    {
+      "file": "ACHUSDT-1d-2026-01.zip",
+      "sha256": "d79c8f730e653be47c5c24a6ffb5c6f52fe261f186f64e129d25c579300fd7fc"
+    },
+    {
+      "file": "ACHUSDT-1d-2026-02.zip",
+      "sha256": "f3487b942835be50b52b58a12a80ff7bdc565ac5e5298c71a3054c1636ddc5da"
+    },
+    {
+      "file": "ACHUSDT-1d-2026-03.zip",
+      "sha256": "2459f2b6a03c532715944bc72224f8635f9f3e6f4cd62b7fc02943d8080a9a08"
+    },
+    {
+      "file": "ACHUSDT-1d-2026-04.zip",
+      "sha256": "af8164038d3104cf60eb0083b9461f1ca8c6a2b228e96b039e258d9d43902a03"
+    },
+    {
+      "file": "ACHUSDT-1d-2026-05.zip",
+      "sha256": "4f1b7b673b471a726bd99b4b199c46c868fee9c65fddf71762721fd35ab53137"
+    },
+    {
+      "file": "ACHUSDT-1d-2026-06.zip",
+      "sha256": "7634817d45a2afbc91001f58967143482df2cbf0f44bfb5a3049121a18d00152"
+    },
+    {
+      "file": "ACHUSDT-1d-2026-07.zip",
+      "sha256": "bb963e8f55da2234066277bd203d09832af73b0f6914f6e60207c368dee73402"
+    },
+    {
+      "file": "ACHUSDT-1d-2026-08.zip",
+      "sha256": "1f37e6f6830bd072a95f3a010e0afcbff50b24683f60e74de2a927efaf07d841"
+    },
+    {
+      "file": "ACHUSDT-1d-2026-09.zip",
+      "sha256": "9d353e783d825b53b69a9406c585b3c9313181f20dc911da5d48df0058326fa0"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

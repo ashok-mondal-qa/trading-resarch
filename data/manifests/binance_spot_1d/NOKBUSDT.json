@@ -1,0 +1,37 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/NOKBUSDT/1d/",
+  "instrument": "NOKBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-07-15",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:15+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 78,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "NOKBUSDT-1d-2026-07.zip",
+      "sha256": "bec50dba34592cb9d0f63f605b1ef83242b5d0b57a9055040b5118e9f0bbe1a0"
+    },
+    {
+      "file": "NOKBUSDT-1d-2026-08.zip",
+      "sha256": "6687ec477a6ca4c8597d5ed1ce8f5f508cec565d58483e7ea03fc8bdc2ffc284"
+    },
+    {
+      "file": "NOKBUSDT-1d-2026-09.zip",
+      "sha256": "f8ea3cd27989efbdb3bd3c943b8c37b9d5ae24980271e24273e91ea03fe3927a"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

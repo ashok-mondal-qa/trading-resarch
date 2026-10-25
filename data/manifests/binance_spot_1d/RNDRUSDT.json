@@ -1,0 +1,157 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/RNDRUSDT/1d/",
+  "instrument": "RNDRUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-11-27",
+  "last_bar": "2024-07-22",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:44:14+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 969,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "RNDRUSDT-1d-2021-11.zip",
+      "sha256": "98877093d76a5b596798009bfe35ff1813e244bd28676262790bbdfa9b021331"
+    },
+    {
+      "file": "RNDRUSDT-1d-2021-12.zip",
+      "sha256": "afa49282bf9d3e17f1e3cd0e106a448606c5dc3f7cf0290bd64bab5e3e01416e"
+    },
+    {
+      "file": "RNDRUSDT-1d-2022-01.zip",
+      "sha256": "33cc1bcc1871f2c806e0f115365894aca92c6f11ae93e0c04697395d38cad6b3"
+    },
+    {
+      "file": "RNDRUSDT-1d-2022-02.zip",
+      "sha256": "1562689773a45a3549e25e9de0e0194035a236d13b66e79d7b06f1d1f4241364"
+    },
+    {
+      "file": "RNDRUSDT-1d-2022-03.zip",
+      "sha256": "eaea15e1d6e6f296b56872deea3010cf5e83801fad8934528aadf6504faa43ba"
+    },
+    {
+      "file": "RNDRUSDT-1d-2022-04.zip",
+      "sha256": "305896ef129f5b0d75daa274833cb4b06e8847be717955d1ee8e96f3ee6308a1"
+    },
+    {
+      "file": "RNDRUSDT-1d-2022-05.zip",
+      "sha256": "1b94a6ca9aee36061ecaeab81fcd677695ae74f125cdd0de6c170a676064d477"
+    },
+    {
+      "file": "RNDRUSDT-1d-2022-06.zip",
+      "sha256": "0ba208d6f5535ef16f86c7a8ecae58977dc635607cbabe00bb9c8a424fbd9cd7"
+    },
+    {
+      "file": "RNDRUSDT-1d-2022-07.zip",
+      "sha256": "594a2a9030a1f8810cec90f486a5f383b68d4278e0e7c0f5f6cd1833f3f02d0a"
+    },
+    {
+      "file": "RNDRUSDT-1d-2022-08.zip",
+      "sha256": "5dd74c22df2da8f284922c88bd1be446cd40266742d4725d427ed16559a58602"
+    },
+    {
+      "file": "RNDRUSDT-1d-2022-09.zip",
+      "sha256": "1810d49b51b60e6a54939cd6e9fb6a118b527f01ce9ca60b701c27d46ba562c0"
+    },
+    {
+      "file": "RNDRUSDT-1d-2022-10.zip",
+      "sha256": "35cba683bffaa26374d24547d5d35024ec35165ebf8b87c5f7f9d43892a1f0c2"
+    },
+    {
+      "file": "RNDRUSDT-1d-2022-11.zip",
+      "sha256": "949d54941954572d2fa1683bf65db081def622e7c9f7f1345c57ec607c888ae3"
+    },
+    {
+      "file": "RNDRUSDT-1d-2022-12.zip",
+      "sha256": "7c64037092578f0be76b365fa129680bec696a323d1fc665647b2b3d3720b039"
+    },
+    {
+      "file": "RNDRUSDT-1d-2023-01.zip",
+      "sha256": "9ed2a553828f565e94c1c43af5e6cd075189cbe32502b45056ec5b1ae87caaf2"
+    },
+    {
+      "file": "RNDRUSDT-1d-2023-02.zip",
+      "sha256": "8b57ecf810c71935b49af99366b04f75d070c5cf937267caf12454e4385b4d27"
+    },
+    {
+      "file": "RNDRUSDT-1d-2023-03.zip",
+      "sha256": "4deeca03c5b280d685daec1a28a7b5fc264df2c6002aeb6bb3c1c41f855989a5"
+    },
+    {
+      "file": "RNDRUSDT-1d-2023-04.zip",
+      "sha256": "f0fb5b88bc37c48a93a60a5fcef0730168bb9241b1d0e96da2afa15043ae6d54"
+    },
+    {
+      "file": "RNDRUSDT-1d-2023-05.zip",
+      "sha256": "acbd9319a67a6ca0442522b5a0b85d1ae22e4a7e8fb0562ca3f9e936a8fd568c"
+    },
+    {
+      "file": "RNDRUSDT-1d-2023-06.zip",
+      "sha256": "5fc65c711692b31e09f6adc67c00625f333a11f3c4bd88226a2a976965ff4c8e"
+    },
+    {
+      "file": "RNDRUSDT-1d-2023-07.zip",
+      "sha256": "6dfdb59180dea25b65f013da4d5dd70d9919168d98493635df580f44fd4b68de"
+    },
+    {
+      "file": "RNDRUSDT-1d-2023-08.zip",
+      "sha256": "34dc0136378828ccca34031ba9d189126e032b3996500503cf6b3cb97cad9d18"
+    },
+    {
+      "file": "RNDRUSDT-1d-2023-09.zip",
+      "sha256": "4183d6f1c6dccbbdd138672af6854257dce49144395bc530ddd5946e0eeb3c1a"
+    },
+    {
+      "file": "RNDRUSDT-1d-2023-10.zip",
+      "sha256": "4666c2d57fd2b0d22400841bbbc83c7f7572db90e695379f11bbc69a9fa00285"
+    },
+    {
+      "file": "RNDRUSDT-1d-2023-11.zip",
+      "sha256": "79b45f52c8bebe3b34703b235ca651cb2188004932f7c6d5659b9c1df3a097ff"
+    },
+    {
+      "file": "RNDRUSDT-1d-2023-12.zip",
+      "sha256": "140c54b3d47c00135f20e7a740957174cc55752dd82e957509ca1c152c1fd605"
+    },
+    {
+      "file": "RNDRUSDT-1d-2024-01.zip",
+      "sha256": "c98dbaaf82a2e3badf2c89188eb1484cc7bec631a3af4b9d067611d406784b8b"
+    },
+    {
+      "file": "RNDRUSDT-1d-2024-02.zip",
+      "sha256": "b5a937406c7314b5438b3831de5e3f5cb97b40d083f1397b782ee07657dd91ea"
+    },
+    {
+      "file": "RNDRUSDT-1d-2024-03.zip",
+      "sha256": "2d931a6d502de4c948a102781d414349efb63c107220ea1d4a4f439c3ec219ec"
+    },
+    {
+      "file": "RNDRUSDT-1d-2024-04.zip",
+      "sha256": "c01202eb9d3924749a19b9b577c556a442666cc7a6ed0e5a62ebd9a225e475b3"
+    },
+    {
+      "file": "RNDRUSDT-1d-2024-05.zip",
+      "sha256": "3a23be983f28679fad01d9be3dce1562660ae6ba5d9fb8e9679158e53d948018"
+    },
+    {
+      "file": "RNDRUSDT-1d-2024-06.zip",
+      "sha256": "25a5034aaecc74f83a25803b864efde46baeafb0257819d9f6c8a82618cee0d9"
+    },
+    {
+      "file": "RNDRUSDT-1d-2024-07.zip",
+      "sha256": "8a681edfbb3e10c6d9ecb1acea7bd3ccc8129865361db988cfae22b4ba260845"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

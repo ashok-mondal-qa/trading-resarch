@@ -1,0 +1,117 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PNUTUSDT/1d/",
+  "instrument": "PNUTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-11-11",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:28+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 689,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PNUTUSDT-1d-2024-11.zip",
+      "sha256": "ca9eeab38d0a414f528e7749a406f3329c18a2e9db15fa6f7b3bfd9fab4e7a05"
+    },
+    {
+      "file": "PNUTUSDT-1d-2024-12.zip",
+      "sha256": "4150eae7d3f368757255bf45ea81fc9c110bc124e516f978364619b28ffcbc9e"
+    },
+    {
+      "file": "PNUTUSDT-1d-2025-01.zip",
+      "sha256": "54566842b94b9f075a6b92832235834aa2d9b7f1510b3884143de76c79840e7a"
+    },
+    {
+      "file": "PNUTUSDT-1d-2025-02.zip",
+      "sha256": "331ebde76e45e1a5620febc2031e3f46e82d43c9cee07d8dd0a71d007bbdfb47"
+    },
+    {
+      "file": "PNUTUSDT-1d-2025-03.zip",
+      "sha256": "26729aa8088dd7dd26241135b7ec6a08c61905662d46fed56f5bab4e8b324f50"
+    },
+    {
+      "file": "PNUTUSDT-1d-2025-04.zip",
+      "sha256": "7386a6f4dde10940a0a9da95fceda72b5e767dd9a77a51a507f69392d1b1fe6a"
+    },
+    {
+      "file": "PNUTUSDT-1d-2025-05.zip",
+      "sha256": "d324afa5f69f5af06cff3c87b9563ad1a97356cb06713fbe7452908b95b04c40"
+    },
+    {
+      "file": "PNUTUSDT-1d-2025-06.zip",
+      "sha256": "33ef7545d3e20ccf431d2e10aad1d5ba192508827016fd43881b04167888dd52"
+    },
+    {
+      "file": "PNUTUSDT-1d-2025-07.zip",
+      "sha256": "d27dd7147333b376aebf13cc3ea5b9ef25fcbe4d098e0bd97d24c674fd208642"
+    },
+    {
+      "file": "PNUTUSDT-1d-2025-08.zip",
+      "sha256": "f0074d9f3ace433ac896e7c0f54cfd4deb55f48f50918822aba85e1e8851d886"
+    },
+    {
+      "file": "PNUTUSDT-1d-2025-09.zip",
+      "sha256": "06056033567ebed56af4bef340b430e5e0bd9287e7e9dbe7341aff159ee5ec9c"
+    },
+    {
+      "file": "PNUTUSDT-1d-2025-10.zip",
+      "sha256": "116e62a108303256372e69c7ea425a10a53f596bf023e1771c818ec5f5d95212"
+    },
+    {
+      "file": "PNUTUSDT-1d-2025-11.zip",
+      "sha256": "142eae46cdcaaa75afaed47023322dbce2b6d0fb7c1ced039543b12dc9a83f59"
+    },
+    {
+      "file": "PNUTUSDT-1d-2025-12.zip",
+      "sha256": "88d9ef691e5c433ed15a39f39b3a1a31da59e2391eccc5035000fd3e103ace8a"
+    },
+    {
+      "file": "PNUTUSDT-1d-2026-01.zip",
+      "sha256": "7c72545af1535ddce462fcb63f99a3cfc5a491621c06f584ce128ef7cabfcbbd"
+    },
+    {
+      "file": "PNUTUSDT-1d-2026-02.zip",
+      "sha256": "51ac5596eae1270ed281caa059885e591dce0fa094690c89490dacea33683413"
+    },
+    {
+      "file": "PNUTUSDT-1d-2026-03.zip",
+      "sha256": "4a8ad65dfcaa6c8f5bfc03389a914daa21cf2b0e75583a2a668c270670ced2c7"
+    },
+    {
+      "file": "PNUTUSDT-1d-2026-04.zip",
+      "sha256": "5644da23164d8f0a84bdf6e4bfdc2cc1f8c452ccae9886ae7864513dd9d3d386"
+    },
+    {
+      "file": "PNUTUSDT-1d-2026-05.zip",
+      "sha256": "6e37ab7d52f543d62caacc58e4074d04c908bed261fbd45d57d32f1cd3a8f8b8"
+    },
+    {
+      "file": "PNUTUSDT-1d-2026-06.zip",
+      "sha256": "8e8cfbd1a1be32096f2810ac12c5c2cbe33b565931bdc1c0d1fe231411c55e61"
+    },
+    {
+      "file": "PNUTUSDT-1d-2026-07.zip",
+      "sha256": "393c9ffaa9a4b69936dee431edf54129b44570763334d7670af3d0fb1f49d671"
+    },
+    {
+      "file": "PNUTUSDT-1d-2026-08.zip",
+      "sha256": "42ba60ac28cf0fb98f9f1fdd0d20d546e222b878102e32b7571a7a0a493223a9"
+    },
+    {
+      "file": "PNUTUSDT-1d-2026-09.zip",
+      "sha256": "9788b20f73f720aa16e8ef3665f65e782ed2d5da1c7509af3edd994b193be708"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

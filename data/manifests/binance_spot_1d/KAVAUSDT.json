@@ -1,0 +1,361 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/KAVAUSDT/1d/",
+  "instrument": "KAVAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-10-25",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:37:45+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2533,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "KAVAUSDT-1d-2019-10.zip",
+      "sha256": "6d86904c9b6a40b194a71bed7a94fbcfa4c24415c3fb2a4a8255a44573581760"
+    },
+    {
+      "file": "KAVAUSDT-1d-2019-11.zip",
+      "sha256": "dc14cdf902c58eb1524354956b59b59bb7e6469c4f5a217fd1f807296e6c896a"
+    },
+    {
+      "file": "KAVAUSDT-1d-2019-12.zip",
+      "sha256": "d786d9c7b4362f5cf5eb6e135a4ae96d42d6ba572ffecef92c116d7dfe5329ec"
+    },
+    {
+      "file": "KAVAUSDT-1d-2020-01.zip",
+      "sha256": "877d9202d023ae5d5b42925a04eb8e49fd230ddb512f30c21141f9ae9938e300"
+    },
+    {
+      "file": "KAVAUSDT-1d-2020-02.zip",
+      "sha256": "3638fb8a9b4e6c365f6c3d4c3155c9546d7b320dcfcab494afb5a8dbc9afecc0"
+    },
+    {
+      "file": "KAVAUSDT-1d-2020-03.zip",
+      "sha256": "a1e15bf1bd9e9b54368cf618f4ddee3cc41a23cbadb27673b0d6e03bdbb72573"
+    },
+    {
+      "file": "KAVAUSDT-1d-2020-04.zip",
+      "sha256": "b7a623d3372cd1234980ac4407900cfc59d9f7abc7f85d81fe970f99dcc01803"
+    },
+    {
+      "file": "KAVAUSDT-1d-2020-05.zip",
+      "sha256": "96484dbb225a67d1354f5fe35b01a9dc21da395d4056c52c891d54de97ee2d33"
+    },
+    {
+      "file": "KAVAUSDT-1d-2020-06.zip",
+      "sha256": "a3654294f96808f147f67715ff17b0514b08a6353f856df806c25c42834382bd"
+    },
+    {
+      "file": "KAVAUSDT-1d-2020-07.zip",
+      "sha256": "ab8cd7b9d63decd98f7791e22bb52d318d2a2afd0dba318346db1d9bc7e1e3a8"
+    },
+    {
+      "file": "KAVAUSDT-1d-2020-08.zip",
+      "sha256": "8a4b06fcc765db0075d9f1d4988e323a91c08b0471c17890924e680627286251"
+    },
+    {
+      "file": "KAVAUSDT-1d-2020-09.zip",
+      "sha256": "3e78843f9127f00b080ea57db61ca360fb79affba2f334f85e3a2100cd0dbf5b"
+    },
+    {
+      "file": "KAVAUSDT-1d-2020-10.zip",
+      "sha256": "022a65d6303970d72ebaeec585a4169c1770d56a8a2573d0e00b791205511f61"
+    },
+    {
+      "file": "KAVAUSDT-1d-2020-11.zip",
+      "sha256": "26649866f88499bbc9f21dcd5bfc43fb9e5ea5a742b93fd68daa6d48ee3c5e71"
+    },
+    {
+      "file": "KAVAUSDT-1d-2020-12.zip",
+      "sha256": "0e9a0241d2b996c5a9bc998ddb167e3a5aef575e9cecd9a54e26b2b172fd2a5c"
+    },
+    {
+      "file": "KAVAUSDT-1d-2021-01.zip",
+      "sha256": "d6c784527d06ff5aafd34bbf52efc036a10fed9a8308cf396287eb948b697c6c"
+    },
+    {
+      "file": "KAVAUSDT-1d-2021-02.zip",
+      "sha256": "a1f81fcc1a5eaf2e9954a653755edaa7890d651ffb659b079d3ad23e39c233ae"
+    },
+    {
+      "file": "KAVAUSDT-1d-2021-03.zip",
+      "sha256": "ce22191a76e58ff86a51ed245078a7e7212ea80c1f3ec115c17f51e98c24d307"
+    },
+    {
+      "file": "KAVAUSDT-1d-2021-04.zip",
+      "sha256": "d108a15e934c578ec6df4b96ecf785231d380b0a07564cea8e3b4bb6593648cd"
+    },
+    {
+      "file": "KAVAUSDT-1d-2021-05.zip",
+      "sha256": "a2bf477ca858edbe5b34db4b263f3701c00876526e1b3ff008d6877a9b6146e1"
+    },
+    {
+      "file": "KAVAUSDT-1d-2021-06.zip",
+      "sha256": "7c91de672ab1473bb2bac57b34c7d3c416668a1e4505f703e39198e87a086145"
+    },
+    {
+      "file": "KAVAUSDT-1d-2021-07.zip",
+      "sha256": "c0af29424c50dee08ced7f0943f62bd764fd44610a76322536edd164a929abd5"
+    },
+    {
+      "file": "KAVAUSDT-1d-2021-08.zip",
+      "sha256": "fa640c061cac4d6f05665a2e13d49f275c23a5af616749751b972e0e59f07f93"
+    },
+    {
+      "file": "KAVAUSDT-1d-2021-09.zip",
+      "sha256": "f70bbe9911dc23579a568cdf124cd3891c5aeeeb2054fe6aa5f844361c470a07"
+    },
+    {
+      "file": "KAVAUSDT-1d-2021-10.zip",
+      "sha256": "6ec299c5cc2853fb0b9a5c84faf566f9199d15cea11cc0950c184ae52cada058"
+    },
+    {
+      "file": "KAVAUSDT-1d-2021-11.zip",
+      "sha256": "c2e8b035524782cf965742c4bd2e4d0e65c35891aef7172a7e47092b6134905b"
+    },
+    {
+      "file": "KAVAUSDT-1d-2021-12.zip",
+      "sha256": "2dcd05d32384b1752a70e30ef312b19cfc80a2ac324bff68932cddf5321f5d85"
+    },
+    {
+      "file": "KAVAUSDT-1d-2022-01.zip",
+      "sha256": "0d3d8539065963574fe597a4e68a977866eb6c2d995448462025835cb26f0718"
+    },
+    {
+      "file": "KAVAUSDT-1d-2022-02.zip",
+      "sha256": "d996c48079a52711aa8375780733afe01b402d3c69cba24a4778afce326ea47d"
+    },
+    {
+      "file": "KAVAUSDT-1d-2022-03.zip",
+      "sha256": "431e97029aeff3bad13f2c928432c8ea23190ab25994d94d019925701e81e974"
+    },
+    {
+      "file": "KAVAUSDT-1d-2022-04.zip",
+      "sha256": "a7c49f10a417f4475452faba5491db1a47e9428c4226275c4b99fa0d8dd56a43"
+    },
+    {
+      "file": "KAVAUSDT-1d-2022-05.zip",
+      "sha256": "96aac3655d7d70a81ffb390d70bd885a07881411b7d39bdeceb81317778eac35"
+    },
+    {
+      "file": "KAVAUSDT-1d-2022-06.zip",
+      "sha256": "ea030e386a12d2a842d0f414e0c7d31d8e71ae28465e1ce0c9f52ac273222dec"
+    },
+    {
+      "file": "KAVAUSDT-1d-2022-07.zip",
+      "sha256": "529bfc143567aba3e8940fe62bfc0f5ba61f289e0e555725beea0732daac000b"
+    },
+    {
+      "file": "KAVAUSDT-1d-2022-08.zip",
+      "sha256": "ac196415f6a61967947e81febf940504e9b7ef90abb72b1d48e29ccbacb686f3"
+    },
+    {
+      "file": "KAVAUSDT-1d-2022-09.zip",
+      "sha256": "1bd1bce78fe198a2ea7ffd80bcee704a59cf1a171bd5e5196c31bb534df37f69"
+    },
+    {
+      "file": "KAVAUSDT-1d-2022-10.zip",
+      "sha256": "57f56dc2176ada1977561bfca91da71468ebbe78193b7f9cc69e0a9024c0470d"
+    },
+    {
+      "file": "KAVAUSDT-1d-2022-11.zip",
+      "sha256": "f0beed665f47f33e2dd1de222eccef41361d01ed890fb3189117a443f12e3eee"
+    },
+    {
+      "file": "KAVAUSDT-1d-2022-12.zip",
+      "sha256": "53118a94b3703bb2c681cd9b9a3576bf8ffa1545c991b9fa1f50dbde7423a491"
+    },
+    {
+      "file": "KAVAUSDT-1d-2023-01.zip",
+      "sha256": "0f4d681bb1128cc1203bc11814bef9359e05fb18b0a237608f60393019d6db69"
+    },
+    {
+      "file": "KAVAUSDT-1d-2023-02.zip",
+      "sha256": "dca4cf8a21b2f7380f603252b237e29295e6ac62109267bca23608018fff83c1"
+    },
+    {
+      "file": "KAVAUSDT-1d-2023-03.zip",
+      "sha256": "27319453f2a51adec9de8e4033344d595fd555c2d749bf61ef2bc95ba9f6e265"
+    },
+    {
+      "file": "KAVAUSDT-1d-2023-04.zip",
+      "sha256": "2f135a99b6c8f63b69f5ee39026008a669aaafe9071b6dbb0cd605b19be0a272"
+    },
+    {
+      "file": "KAVAUSDT-1d-2023-05.zip",
+      "sha256": "450c056cd79dd8e396c0925ef53a2bd35d1ee77260127f39d04987b444fd791c"
+    },
+    {
+      "file": "KAVAUSDT-1d-2023-06.zip",
+      "sha256": "48c74531aaea09dd400e56ced008da6a161aad7d4e3e41dd4bd0bd51caedcfd0"
+    },
+    {
+      "file": "KAVAUSDT-1d-2023-07.zip",
+      "sha256": "4ad07f9725941a8b2c5b1bac1943b22b46f151f1ac3e4ff94e5ecb1bb39f1d51"
+    },
+    {
+      "file": "KAVAUSDT-1d-2023-08.zip",
+      "sha256": "a36db7616058e18d45d827dda5bddebc6ed7d7817119a8b5ace7f09f07c6f2ab"
+    },
+    {
+      "file": "KAVAUSDT-1d-2023-09.zip",
+      "sha256": "79fddf590e1d22388a44d2f8c634ef41f30e952ccdba4ffd05c4930c3a098e39"
+    },
+    {
+      "file": "KAVAUSDT-1d-2023-10.zip",
+      "sha256": "6627bca36710d334d9bc3081d5ff58c148865392790137ba83ac52e6b6b2ac42"
+    },
+    {
+      "file": "KAVAUSDT-1d-2023-11.zip",
+      "sha256": "1269f90661f09a433bf7f31f0b396b878060cc6158c35ace9f5f347ad0657be6"
+    },
+    {
+      "file": "KAVAUSDT-1d-2023-12.zip",
+      "sha256": "df57a7bb11f6d8acab5fb4cf4ae2ded6609532e482f6dec46c8a83c11395b612"
+    },
+    {
+      "file": "KAVAUSDT-1d-2024-01.zip",
+      "sha256": "292579931f3c563ba51242ba16fb9e19da6ffb65c9774f5f9773c411060f7802"
+    },
+    {
+      "file": "KAVAUSDT-1d-2024-02.zip",
+      "sha256": "28761e4a002b8e65b16e860d5c48b4d23ea85a97b337473d5e256955cfea864d"
+    },
+    {
+      "file": "KAVAUSDT-1d-2024-03.zip",
+      "sha256": "f4daa172c04f47eb55a70335f8c7d013218c22b9ceb8a148ce798fb91014e8db"
+    },
+    {
+      "file": "KAVAUSDT-1d-2024-04.zip",
+      "sha256": "cf7ac7184cf4e13d73b5142a88c445bdadc0811ebff4108feea4a5ca538c022d"
+    },
+    {
+      "file": "KAVAUSDT-1d-2024-05.zip",
+      "sha256": "bfa242926e48de89e3ead4d67c0b8d533529688d506a70467376939d6927d9b2"
+    },
+    {
+      "file": "KAVAUSDT-1d-2024-06.zip",
+      "sha256": "a4a02d2a6b14a3d87927596f08bfc0da77ddc072efb0d6e97752a7fc3fa74fcc"
+    },
+    {
+      "file": "KAVAUSDT-1d-2024-07.zip",
+      "sha256": "4ba7d31ea7e26f69f38a11a32b783ddce84fed73414dbc97f1b5bf25e9bfeb06"
+    },
+    {
+      "file": "KAVAUSDT-1d-2024-08.zip",
+      "sha256": "4b7bf52029cd997a26113ac9286c860478299ce0ba9b3b17b46c55da39a98a2b"
+    },
+    {
+      "file": "KAVAUSDT-1d-2024-09.zip",
+      "sha256": "df39b11de8bcbb367a109ee56d918ec069122f15c95def60519c0e1349a1b43a"
+    },
+    {
+      "file": "KAVAUSDT-1d-2024-10.zip",
+      "sha256": "0c20d044d193873dfb9ffd8768f147fd9c8df0331816d3a4744d0eb5c69e1883"
+    },
+    {
+      "file": "KAVAUSDT-1d-2024-11.zip",
+      "sha256": "961d132e9fc5de5f023c2418b6570203162eff0c85919b2444b27aa59c4d869a"
+    },
+    {
+      "file": "KAVAUSDT-1d-2024-12.zip",
+      "sha256": "9fa2b7a69eabb15398055b71745c265b8e7e88e37e6e841cb70b5f3b3ab69564"
+    },
+    {
+      "file": "KAVAUSDT-1d-2025-01.zip",
+      "sha256": "1b8dffa8d73bce76bf389f0cd4a8f516da4f5ce450742f7d8bce2b2473ff1ea6"
+    },
+    {
+      "file": "KAVAUSDT-1d-2025-02.zip",
+      "sha256": "803d93b251ede67e4537b5a9070713af341d51d3953d0ecad857f7656e8db31b"
+    },
+    {
+      "file": "KAVAUSDT-1d-2025-03.zip",
+      "sha256": "f2469604d54d3d3ff9e422b596b81822b065c00717ff411caf266eadc905ceb4"
+    },
+    {
+      "file": "KAVAUSDT-1d-2025-04.zip",
+      "sha256": "87e636f2d2bb353c50cb3b05f901880ad57cb5af09f34fe228ef2995455a777c"
+    },
+    {
+      "file": "KAVAUSDT-1d-2025-05.zip",
+      "sha256": "8074c26aaa02be733d6c7ff5b50bae8435956aff496f3242af18faf8f967c784"
+    },
+    {
+      "file": "KAVAUSDT-1d-2025-06.zip",
+      "sha256": "808ed238e6bfc63889db01c999920d0c157f20e6db3d73b2d4e0130a2917d2a1"
+    },
+    {
+      "file": "KAVAUSDT-1d-2025-07.zip",
+      "sha256": "d5dc324ce22a860d1686dfc27fd3cb6e4d0cea6de4f0c027e6bf6ded2450a8cc"
+    },
+    {
+      "file": "KAVAUSDT-1d-2025-08.zip",
+      "sha256": "f726aed3b54620ab098165458b1c27733ba53546c284f0883bb1f0c03feb1fa7"
+    },
+    {
+      "file": "KAVAUSDT-1d-2025-09.zip",
+      "sha256": "a817875b7d1b4362b47377170edb089a950af74b6e70a6dd48a96f22448b5296"
+    },
+    {
+      "file": "KAVAUSDT-1d-2025-10.zip",
+      "sha256": "20d6ca8ed15b5d5b3797065e677ea6b925f27345fec5f6cd122e96a416d4e610"
+    },
+    {
+      "file": "KAVAUSDT-1d-2025-11.zip",
+      "sha256": "99cb1df6113ac8a4aef2c9b0bab5d127bc927e0a4f19d1d16b557beaf479a517"
+    },
+    {
+      "file": "KAVAUSDT-1d-2025-12.zip",
+      "sha256": "704184d961278589f050e00140c3e2a675556f1b52e3653abb936d3ee454c1db"
+    },
+    {
+      "file": "KAVAUSDT-1d-2026-01.zip",
+      "sha256": "6a905e10a9bf0aba8c5100bacae79d5ea9904544fcd58435a23a7aa46224d6ed"
+    },
+    {
+      "file": "KAVAUSDT-1d-2026-02.zip",
+      "sha256": "005dc400a8fbb85adc965f11622e8c9bb01152b65ee039cc2224e9a41f4a0469"
+    },
+    {
+      "file": "KAVAUSDT-1d-2026-03.zip",
+      "sha256": "28dfb30f0f580518c34777f229d1d7a1360c1b612ca66560fbec461727258ebf"
+    },
+    {
+      "file": "KAVAUSDT-1d-2026-04.zip",
+      "sha256": "de82ba3d64aaab414b870b98b59a2d5ae3db1b7f929ab38e5521909d338dfd1f"
+    },
+    {
+      "file": "KAVAUSDT-1d-2026-05.zip",
+      "sha256": "dcd4e87fed51b50321ace15f6ef37e8048011cc5ba4ab88c86a7efd237d47e1d"
+    },
+    {
+      "file": "KAVAUSDT-1d-2026-06.zip",
+      "sha256": "097d440e43c5f4436bceeb0f73e71243865843d80757a47d5f32e1134a6d593e"
+    },
+    {
+      "file": "KAVAUSDT-1d-2026-07.zip",
+      "sha256": "0ede028891405f55a6c2a36f6c087f38e2f4fa754b49ba8f74b9e2013d8e7b9b"
+    },
+    {
+      "file": "KAVAUSDT-1d-2026-08.zip",
+      "sha256": "9c785d1ec4e94731cade409dfa93767e05979e3379d31ef44c91610df558d2eb"
+    },
+    {
+      "file": "KAVAUSDT-1d-2026-09.zip",
+      "sha256": "ebd8995630f4c72248921d0bb8ea98921f7a72e6b48365beedb34644b9bfd874"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/KMNOUSDT/1d/",
+  "instrument": "KMNOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-05-06",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:37:09+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 513,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "KMNOUSDT-1d-2025-05.zip",
+      "sha256": "da6689e10d72b6d0c8a14736e6f3db91807fef747e0945761a34fb64ad437322"
+    },
+    {
+      "file": "KMNOUSDT-1d-2025-06.zip",
+      "sha256": "5c7850eb84e8d2b445cd97ec1aee8fbefe2d295e3e58e65ff891822367f6125b"
+    },
+    {
+      "file": "KMNOUSDT-1d-2025-07.zip",
+      "sha256": "2f6157b306cd03e83fba4d55bca90ca3b07da14a9be8dc1d7930ab8b02c534c1"
+    },
+    {
+      "file": "KMNOUSDT-1d-2025-08.zip",
+      "sha256": "71c802c4269bed27e3d6100df4804e62446209e8be7d8bcd636a19cc7e00d192"
+    },
+    {
+      "file": "KMNOUSDT-1d-2025-09.zip",
+      "sha256": "d7b89a51a9e271644bf521e8ce31b99fc62b14c59638cc4bf05be6d4f289a899"
+    },
+    {
+      "file": "KMNOUSDT-1d-2025-10.zip",
+      "sha256": "e9a9f5553c5575eacbea0afe4b83120cd977e2f21120359a38955b7a0ea2dd83"
+    },
+    {
+      "file": "KMNOUSDT-1d-2025-11.zip",
+      "sha256": "5ad0c8ec07dae16e3ef5d5886a56dec4a48e4b4dd4c038ecc3f9ddb7d8c7062a"
+    },
+    {
+      "file": "KMNOUSDT-1d-2025-12.zip",
+      "sha256": "daa81cf84f8fd596b95e8a8e59d118764ad80be4d8104650014c407cc71524ff"
+    },
+    {
+      "file": "KMNOUSDT-1d-2026-01.zip",
+      "sha256": "1b752f2f22e45d8219c2c104a0f56ed4ee134ffe38fb55aae8477fa4f5c79c40"
+    },
+    {
+      "file": "KMNOUSDT-1d-2026-02.zip",
+      "sha256": "4a490a7322345a0c23815f0e87d0c8028eaa285990903ed73529b6fff4b10aa8"
+    },
+    {
+      "file": "KMNOUSDT-1d-2026-03.zip",
+      "sha256": "abfa7ccafed61924fc9d1c15263bcc59e039d40624f196dd137bcd3660902084"
+    },
+    {
+      "file": "KMNOUSDT-1d-2026-04.zip",
+      "sha256": "ef9d70b2b412c89eb0ec3e707b4e510a40b98408503b3846972a59acfee8e46c"
+    },
+    {
+      "file": "KMNOUSDT-1d-2026-05.zip",
+      "sha256": "57fefd8a56011e2179de2a1703abb9cb19439d70a24f11790a963c7b4abf85c0"
+    },
+    {
+      "file": "KMNOUSDT-1d-2026-06.zip",
+      "sha256": "3a1139b0774e01aa205400aa18a32aee5d8b52b88f8b4530991ce775a8368043"
+    },
+    {
+      "file": "KMNOUSDT-1d-2026-07.zip",
+      "sha256": "9f447bcefde0d37f23653694b63a8a626b8f420fc76dc66ef4e00556ddbee723"
+    },
+    {
+      "file": "KMNOUSDT-1d-2026-08.zip",
+      "sha256": "8c1064ae753ea0fc3b3fa709b1b2bb5d4116361a7da110e39f4fa52c718de48c"
+    },
+    {
+      "file": "KMNOUSDT-1d-2026-09.zip",
+      "sha256": "6117504b2c03a7fd9c8c194b76600f5420d143efaa70bfade6081522553bd437"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

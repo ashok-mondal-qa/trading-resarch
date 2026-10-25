@@ -1,0 +1,41 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/METABUSDT/1d/",
+  "instrument": "METABUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-06-30",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:38:59+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 93,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "METABUSDT-1d-2026-06.zip",
+      "sha256": "483a93ae8eae1dbb1e4035a0a49504aba9fbae6c2be144c79c2ad856cdd8329d"
+    },
+    {
+      "file": "METABUSDT-1d-2026-07.zip",
+      "sha256": "e6320907be3e2d55bd4786fdb949f595dce12cf6045698a8fc7efb5d80174bb9"
+    },
+    {
+      "file": "METABUSDT-1d-2026-08.zip",
+      "sha256": "c1a9d532df9d5c08e051e0a97a13be3b14a9904a0e79ec10455dfaaab59e3505"
+    },
+    {
+      "file": "METABUSDT-1d-2026-09.zip",
+      "sha256": "ead1d5344816882a7ebb8bdfb3ec54cb0525454587fd04da0d341ab13201b36a"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

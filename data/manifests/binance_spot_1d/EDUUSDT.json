@@ -1,0 +1,193 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/EDUUSDT/1d/",
+  "instrument": "EDUUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-04-28",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:32:11+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1252,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "EDUUSDT-1d-2023-04.zip",
+      "sha256": "7b54387cf602cc873f1f9463951387c66b7b98b1e34cef9ab96f0dacc65879a8"
+    },
+    {
+      "file": "EDUUSDT-1d-2023-05.zip",
+      "sha256": "9102f75174b5ef53006fada482659b9ff91f774a7c22b62b9f5d1e08fab5c871"
+    },
+    {
+      "file": "EDUUSDT-1d-2023-06.zip",
+      "sha256": "932b416ece383640495f74084b938a57d46b56697161f5bdb2376c8ed2eaf882"
+    },
+    {
+      "file": "EDUUSDT-1d-2023-07.zip",
+      "sha256": "8b77f05394976e4f88f609ada3f2b0033e13e37ccd7cb699fc0e2bf6854568a1"
+    },
+    {
+      "file": "EDUUSDT-1d-2023-08.zip",
+      "sha256": "dc2fc243106fdcf3c11407056bdf8bf5856c7ea52f0ad05372118dbed76e6f31"
+    },
+    {
+      "file": "EDUUSDT-1d-2023-09.zip",
+      "sha256": "91988cde393bbbd2e76d5b4ad59a9f24eec5d485dbd2d06342a2e6906a1165a4"
+    },
+    {
+      "file": "EDUUSDT-1d-2023-10.zip",
+      "sha256": "c27eadf1f5bde3871c96d26fe535524cf866d58ccc764a271fb13266d1b02ca3"
+    },
+    {
+      "file": "EDUUSDT-1d-2023-11.zip",
+      "sha256": "f697fc3560ce76d5df32de183d894678ad37831f03d33eccd8c7fb93141aa348"
+    },
+    {
+      "file": "EDUUSDT-1d-2023-12.zip",
+      "sha256": "e1dbc8c03c208c2158e6bdcddbeb0dfda8cc055b245de7657677c096b2c6f7f8"
+    },
+    {
+      "file": "EDUUSDT-1d-2024-01.zip",
+      "sha256": "2aca6b59b2b34d01357db9c11746525b12713e74b3d4456b33619f92ebfd81c0"
+    },
+    {
+      "file": "EDUUSDT-1d-2024-02.zip",
+      "sha256": "f8ba17db3759b14cf0086f97548b7b3a7d23d6e3fdf557955e1a8bfe7a307b67"
+    },
+    {
+      "file": "EDUUSDT-1d-2024-03.zip",
+      "sha256": "8af7c6a69b73948ed7cd6c85d88c138b63a6f3aa8bd43d464cd946eb90d42dfc"
+    },
+    {
+      "file": "EDUUSDT-1d-2024-04.zip",
+      "sha256": "7d76987f738bac730655be253d8c268561923d1463a4fc4d98b071aebffa5baf"
+    },
+    {
+      "file": "EDUUSDT-1d-2024-05.zip",
+      "sha256": "23853aa868b2cfc21792ec61134d7f150dc24d952c11d9e9a5c01056000fad02"
+    },
+    {
+      "file": "EDUUSDT-1d-2024-06.zip",
+      "sha256": "35d7d5f16c6476863cfaf04d3e341655108fb9e8529cb9aa94df266ab20996a8"
+    },
+    {
+      "file": "EDUUSDT-1d-2024-07.zip",
+      "sha256": "242fcbe59dd7410b102b03eb65c9d24c76d82a958699f22a52d1ea9930bbef37"
+    },
+    {
+      "file": "EDUUSDT-1d-2024-08.zip",
+      "sha256": "ac7824d3725b68810abc63a792b91b6956147894b161cfca4f65f9a51986bb4a"
+    },
+    {
+      "file": "EDUUSDT-1d-2024-09.zip",
+      "sha256": "ea2463497169f8fac0188564edb715a82fbfa6255b1291ab9caf880ed93fab10"
+    },
+    {
+      "file": "EDUUSDT-1d-2024-10.zip",
+      "sha256": "bc7ca154708d4193174a9302a05b8890bed7bb03c316a0cddf284dd25391bddd"
+    },
+    {
+      "file": "EDUUSDT-1d-2024-11.zip",
+      "sha256": "69238f2a88c795d1d5ad3a8bd537784e5806bac3b57d99b2d18f2598a79e3632"
+    },
+    {
+      "file": "EDUUSDT-1d-2024-12.zip",
+      "sha256": "07b630069574a114164b549221549fde69d21ee6300f6b52767c3ddcec1e3066"
+    },
+    {
+      "file": "EDUUSDT-1d-2025-01.zip",
+      "sha256": "ba6a2c3ca3f4ae127899d5a45e3473d5afc53e5a1e879dfd0a1d42c828986a0f"
+    },
+    {
+      "file": "EDUUSDT-1d-2025-02.zip",
+      "sha256": "28e979e7ffe351535ffe6c353c550f06c65d9115d293d074f9afffe00e104017"
+    },
+    {
+      "file": "EDUUSDT-1d-2025-03.zip",
+      "sha256": "60011f8e4a9c2dc830aaf4e4b9e779f7d5431f2a04e4cb7b25314281a83fde38"
+    },
+    {
+      "file": "EDUUSDT-1d-2025-04.zip",
+      "sha256": "85700061daa57d451d51df6d7639b1df0fda8155c591c5f4c40857206176d821"
+    },
+    {
+      "file": "EDUUSDT-1d-2025-05.zip",
+      "sha256": "7d55b8ff99a858cb8fea9dbeddf806fe2c1b82683ed4dab5b92e85e60c120c69"
+    },
+    {
+      "file": "EDUUSDT-1d-2025-06.zip",
+      "sha256": "a8616978f83f6ea974e820775c8a0da409d2d962d93be9cf87fe9d4bc2eacaa6"
+    },
+    {
+      "file": "EDUUSDT-1d-2025-07.zip",
+      "sha256": "9984bc9e2814a16c5963cb46dce63747dbacc22b7a6676ac9a71527c8f3da089"
+    },
+    {
+      "file": "EDUUSDT-1d-2025-08.zip",
+      "sha256": "c989c8e154a255c4b7da8b6d3e4a190c9b5b24e711c7256a4254dc2c947f8ddf"
+    },
+    {
+      "file": "EDUUSDT-1d-2025-09.zip",
+      "sha256": "3845b5ec7847db98f933281b25fd12c7eb49306a07a68734e76f6e1ea7fdd357"
+    },
+    {
+      "file": "EDUUSDT-1d-2025-10.zip",
+      "sha256": "a3835afd2a51d2cdd0e507f94a06e7257bff169190c7dfa9fff454dd99209154"
+    },
+    {
+      "file": "EDUUSDT-1d-2025-11.zip",
+      "sha256": "b7e7bb6c55dd4a98f3c18a0bfae2aee302bc8fe7dbb06e59bf23d51ff69249dc"
+    },
+    {
+      "file": "EDUUSDT-1d-2025-12.zip",
+      "sha256": "b5a7faf5c262db7d5c2b1787a47f10765b0b6021dc52e85c38fcb1e164e6c453"
+    },
+    {
+      "file": "EDUUSDT-1d-2026-01.zip",
+      "sha256": "3a6c0f9b00a3710deafffebe061334691608d962d9d1d3deb7d4ed1e120dd204"
+    },
+    {
+      "file": "EDUUSDT-1d-2026-02.zip",
+      "sha256": "0a77a743e23370dfa88f7af16ac02f3560a864352a2e0f19bb3a9e553c7df9ee"
+    },
+    {
+      "file": "EDUUSDT-1d-2026-03.zip",
+      "sha256": "a51a629dd47a2c2fb8aa50a0419e512f36f9e146920cd1c68e78d36c446a11c5"
+    },
+    {
+      "file": "EDUUSDT-1d-2026-04.zip",
+      "sha256": "301b592584263676d9d5be1b678520f270cb751fc668be9607b92df0070500e4"
+    },
+    {
+      "file": "EDUUSDT-1d-2026-05.zip",
+      "sha256": "51bf92a96b5a2c89ca43bbabbfb987abc83afc3d36e53014088efaadafe36623"
+    },
+    {
+      "file": "EDUUSDT-1d-2026-06.zip",
+      "sha256": "54d9c0f32f5ea9acb37365dccb4e2ee0fe0e721a852d6670a599e695bb2be4c2"
+    },
+    {
+      "file": "EDUUSDT-1d-2026-07.zip",
+      "sha256": "61d0e46bb42c7c0f0c36be696ca9549b3d137428f34f0b466b708795acab8ba9"
+    },
+    {
+      "file": "EDUUSDT-1d-2026-08.zip",
+      "sha256": "a4d944ee34131a2546e5b8e05110826a660d04ebed35489279f237f643e80473"
+    },
+    {
+      "file": "EDUUSDT-1d-2026-09.zip",
+      "sha256": "8de523e284067f6a2ce4e6945a27a7c326cfcb5948f88384117d195017e7f5c5"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MANTRAUSDT/1d/",
+  "instrument": "MANTRAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-03-04",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:38:26+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 211,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MANTRAUSDT-1d-2026-03.zip",
+      "sha256": "669bd3cdb80b8b7f1b88e224a855205244ad23d39b8bd91cbabe153d84172fea"
+    },
+    {
+      "file": "MANTRAUSDT-1d-2026-04.zip",
+      "sha256": "117441ccd9df98e4b6612c666e12547638814e4883065b5cb01fc70de9f18a77"
+    },
+    {
+      "file": "MANTRAUSDT-1d-2026-05.zip",
+      "sha256": "e9eabd55eb5ba42a8f90bd62d1c8fd971846566c83dae27bac6ee61e38f912b5"
+    },
+    {
+      "file": "MANTRAUSDT-1d-2026-06.zip",
+      "sha256": "ba9ac66ec822a4a60733578af0821db8141d69a94c930807f1bfdfd17ea4989d"
+    },
+    {
+      "file": "MANTRAUSDT-1d-2026-07.zip",
+      "sha256": "b0619cf4035abd4155619429220c3e675beebe5b698ea98a973eaf816997ff59"
+    },
+    {
+      "file": "MANTRAUSDT-1d-2026-08.zip",
+      "sha256": "1655b48c7f3db373a11bfb3eb7de33e55df6f40d3288190807887db3771bb31c"
+    },
+    {
+      "file": "MANTRAUSDT-1d-2026-09.zip",
+      "sha256": "92c78741b3867a2ec8ea432207bc79af718baf6a59942cadde66854b2a453d7a"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

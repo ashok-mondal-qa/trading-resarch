@@ -1,0 +1,301 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/RIFUSDT/1d/",
+  "instrument": "RIFUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-01-07",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:44:36+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2093,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "RIFUSDT-1d-2021-01.zip",
+      "sha256": "379cb1fc6445784ca3ab2bbfc28797b69d3e7a73d4f9a99545ebbf2e19138fc0"
+    },
+    {
+      "file": "RIFUSDT-1d-2021-02.zip",
+      "sha256": "cb89654922b41466962f71e138b665d51ad056ed903b0235b3935ad3e6e4ae01"
+    },
+    {
+      "file": "RIFUSDT-1d-2021-03.zip",
+      "sha256": "b555e72a6a07fd42c0f035e6784353be0a121c2500d3f51c7b9acc4353805578"
+    },
+    {
+      "file": "RIFUSDT-1d-2021-04.zip",
+      "sha256": "793d3d147bdd996ef16dc3f42a6261e9745a3554754db701ea069e02bf31cc3e"
+    },
+    {
+      "file": "RIFUSDT-1d-2021-05.zip",
+      "sha256": "ad57e54f0e041095cfb5d8ec69f75dd38354ccb3a2588c2acd8607f005de6b92"
+    },
+    {
+      "file": "RIFUSDT-1d-2021-06.zip",
+      "sha256": "7665840915b97c962a2dc2cc9ec2353367272bd40be670e1697fab3cb3c52944"
+    },
+    {
+      "file": "RIFUSDT-1d-2021-07.zip",
+      "sha256": "9ed00b1bad70dc7438cd6b890ab9d2b97c96798a9abc46e7a3fcc1dc845942ec"
+    },
+    {
+      "file": "RIFUSDT-1d-2021-08.zip",
+      "sha256": "94ee3c11449621925436a2e47f9164bf5a3c62424f48e6e6c40fd0527d7c4165"
+    },
+    {
+      "file": "RIFUSDT-1d-2021-09.zip",
+      "sha256": "e6e728fc184ee2a12bc69bf08e6e9787cda823e1080affb717b12667b22c7300"
+    },
+    {
+      "file": "RIFUSDT-1d-2021-10.zip",
+      "sha256": "f6261950dd9c2a458b744371064102836ccf8e0c9213b81b162b596772980732"
+    },
+    {
+      "file": "RIFUSDT-1d-2021-11.zip",
+      "sha256": "a11f2734ef1b862af07286aa3a1d295a6a5aebffae6411f31b079ff1ecf0b5e4"
+    },
+    {
+      "file": "RIFUSDT-1d-2021-12.zip",
+      "sha256": "59ce3de41ee65e14d14da293e3e69fdd4b58b693551a21beb99fc62ca4f94c5f"
+    },
+    {
+      "file": "RIFUSDT-1d-2022-01.zip",
+      "sha256": "bdca436afd7bc8d339b68ecd38df35a757fcbb8e07561e6a6096447a6f5823f1"
+    },
+    {
+      "file": "RIFUSDT-1d-2022-02.zip",
+      "sha256": "136dc5d3750f3753f77223cc972e2004ff763171b54fb91d4819f1e42359638a"
+    },
+    {
+      "file": "RIFUSDT-1d-2022-03.zip",
+      "sha256": "5e43f75452f9f6fda660dec6a912869789fb4662031aace01ada7562b1f81f09"
+    },
+    {
+      "file": "RIFUSDT-1d-2022-04.zip",
+      "sha256": "23d68efa45c75d5ba97c8fcde19ea8e388299fb9c383f3fe998076e70eee04d7"
+    },
+    {
+      "file": "RIFUSDT-1d-2022-05.zip",
+      "sha256": "2bea2256dedd00f611371cb956a376d3c2f311a845c5e7507153c2200478e2e4"
+    },
+    {
+      "file": "RIFUSDT-1d-2022-06.zip",
+      "sha256": "eb35eba4eb52f02fbbe023ff51d6a8d922cc7c2ac5a70a3c23ebc796f67cc819"
+    },
+    {
+      "file": "RIFUSDT-1d-2022-07.zip",
+      "sha256": "627b7c4f108c4c8cf5d1be9150ce530d179d402e6e39077adaeebc30b4b3fb8b"
+    },
+    {
+      "file": "RIFUSDT-1d-2022-08.zip",
+      "sha256": "03a2c06a6db37ff5ae5befa27a1d567ce93b597e93dd133f979d92b62592e1dc"
+    },
+    {
+      "file": "RIFUSDT-1d-2022-09.zip",
+      "sha256": "cb0b94e05dcbd8b0e7bb3c4acbbaf836d1660dc2e2898223271b43d725c449eb"
+    },
+    {
+      "file": "RIFUSDT-1d-2022-10.zip",
+      "sha256": "cecf370f2ad111e1b7d82e543bbcf5cb9e8671cda3e7280949da94bc457b4abe"
+    },
+    {
+      "file": "RIFUSDT-1d-2022-11.zip",
+      "sha256": "3428c9753d8209ce3206ab8bfb031fc0fb965817de1f751dee90c4a995b42acd"
+    },
+    {
+      "file": "RIFUSDT-1d-2022-12.zip",
+      "sha256": "4b0c308672d837adbc7444b2ce40b746dd7712ef76932581e8d8555287463c02"
+    },
+    {
+      "file": "RIFUSDT-1d-2023-01.zip",
+      "sha256": "8042e79f2ae24675b6ad89c46a8c9bccd11e0978ea56dfcc5b761ede0718a51a"
+    },
+    {
+      "file": "RIFUSDT-1d-2023-02.zip",
+      "sha256": "5e840edc44a8a2be015b33f9ce60a8cca4254066a89c8ed449a72fda08e0ad7a"
+    },
+    {
+      "file": "RIFUSDT-1d-2023-03.zip",
+      "sha256": "42ec69f84b2b36bb13442767f2037f8b2aab7eaa0fe649b345ee9b181d01fa7b"
+    },
+    {
+      "file": "RIFUSDT-1d-2023-04.zip",
+      "sha256": "c6b188358d5245c686f0ac7ee98afe8fa49040665e00dc33ab3886e97605ac88"
+    },
+    {
+      "file": "RIFUSDT-1d-2023-05.zip",
+      "sha256": "93e0fad9de684179a1aa7134d21779cc612620ae21e9426515ddcaf959c431f0"
+    },
+    {
+      "file": "RIFUSDT-1d-2023-06.zip",
+      "sha256": "987bed43b0c8812b831af929971699642b5406107bbaf1c769444bf17a30cbcb"
+    },
+    {
+      "file": "RIFUSDT-1d-2023-07.zip",
+      "sha256": "256e25be1b9e4f3b27632a8c10000d41dc6041b4782930a11d5cc349eab5cf7d"
+    },
+    {
+      "file": "RIFUSDT-1d-2023-08.zip",
+      "sha256": "9b025ebc21a017be62ca986ab88b106551218d5f24a96ed1cd55c98e739b22b1"
+    },
+    {
+      "file": "RIFUSDT-1d-2023-09.zip",
+      "sha256": "fa9b61fe29f4a3359dd51e67462a84d31acee19c6939954f7c9ca1900b05bbc2"
+    },
+    {
+      "file": "RIFUSDT-1d-2023-10.zip",
+      "sha256": "800aa27d7bacd90fd4b78cc6d7500b3509209608e912c6e4261ba62bd639b731"
+    },
+    {
+      "file": "RIFUSDT-1d-2023-11.zip",
+      "sha256": "feccc6f1a8c92d5a04b7bfa8366518379001c28549f4fd90530d062954db0c5c"
+    },
+    {
+      "file": "RIFUSDT-1d-2023-12.zip",
+      "sha256": "496f4b89e55022590e26354cfea3f456ad6f8686afa9711940d287cfce291ae3"
+    },
+    {
+      "file": "RIFUSDT-1d-2024-01.zip",
+      "sha256": "a2fbe3d77a1b46585a108a1f2c65c7732d8ea14abf02f9f91d86195d0d820069"
+    },
+    {
+      "file": "RIFUSDT-1d-2024-02.zip",
+      "sha256": "b93f0cdd9aefee4aaf9b7328fec28b505a3f89e837dabcfbcd5465b3f553f76d"
+    },
+    {
+      "file": "RIFUSDT-1d-2024-03.zip",
+      "sha256": "32de77d98c53df3430412510968ea528da0d1bbc16b945ccff9ee22acdc1ad13"
+    },
+    {
+      "file": "RIFUSDT-1d-2024-04.zip",
+      "sha256": "4fbf332a52f69ec10a4cc84e58f0caceca3d96500bff1ab4673326216aa8320a"
+    },
+    {
+      "file": "RIFUSDT-1d-2024-05.zip",
+      "sha256": "fdb57e33847d5c45b15570513e2521097f05d30cb8e1fef698715437119f4ff4"
+    },
+    {
+      "file": "RIFUSDT-1d-2024-06.zip",
+      "sha256": "de02b87c3d49f3f38ae94cb03dd6795016743bfaafbfe359c8e7feaaff0333dc"
+    },
+    {
+      "file": "RIFUSDT-1d-2024-07.zip",
+      "sha256": "46cff028b61d652eae432e1004250ac89c3700c419a796173c49c35337e958d8"
+    },
+    {
+      "file": "RIFUSDT-1d-2024-08.zip",
+      "sha256": "1e4063a53f2c7c6ac0d403ada0555c0f34014c33893c38bd91a0b6571d825848"
+    },
+    {
+      "file": "RIFUSDT-1d-2024-09.zip",
+      "sha256": "219103b2774862340aa735e2215119f35dc8941c6b21c60bab73fdf31198de30"
+    },
+    {
+      "file": "RIFUSDT-1d-2024-10.zip",
+      "sha256": "a85fa030f42dc1ed91137bbd9e92c4608aeaa540e8ce846f62a31ddf2d504e50"
+    },
+    {
+      "file": "RIFUSDT-1d-2024-11.zip",
+      "sha256": "babc83971ea74049347f2cac3f04be6e504a301a896b886eac97a2df28b47ab2"
+    },
+    {
+      "file": "RIFUSDT-1d-2024-12.zip",
+      "sha256": "ec2f33306d1e78b9dc80cb7d654c59dfb7e2b087f9d9ea3e350c48be85bd67d6"
+    },
+    {
+      "file": "RIFUSDT-1d-2025-01.zip",
+      "sha256": "0d39ee8b11ed35b935e7f87bd5747cd8e44ec438809ee1e7ef63ea1a76a5d9d9"
+    },
+    {
+      "file": "RIFUSDT-1d-2025-02.zip",
+      "sha256": "420cdf53d46d78a0b187eccb11f773bbd8556a4b45f6a6179984545ffd81bfdc"
+    },
+    {
+      "file": "RIFUSDT-1d-2025-03.zip",
+      "sha256": "4255f0b48f22bb8e6e0aa9e34741509d4733b174d70d199f0df484431b1da209"
+    },
+    {
+      "file": "RIFUSDT-1d-2025-04.zip",
+      "sha256": "3399d10c18eb41c822815ba7dae7661afd08a2e6fbe5a6bf0e97ffbc812b6708"
+    },
+    {
+      "file": "RIFUSDT-1d-2025-05.zip",
+      "sha256": "9a5f466c8bee878c13af01872b6d9ac817d6a656da35e36783588f4850e299e3"
+    },
+    {
+      "file": "RIFUSDT-1d-2025-06.zip",
+      "sha256": "84433a7d3b2d5a65c1413b6e1a91ecdfe6ecc2de7014989bc1eaaf2952a11567"
+    },
+    {
+      "file": "RIFUSDT-1d-2025-07.zip",
+      "sha256": "d02605646bb79372838a295fb40de34b4d8f81be38cbfcb2f463c3897e6c8593"
+    },
+    {
+      "file": "RIFUSDT-1d-2025-08.zip",
+      "sha256": "a3f83d3aea113290c3340fe97bcbfe8daf12457610fa92902e81db24515eb6c8"
+    },
+    {
+      "file": "RIFUSDT-1d-2025-09.zip",
+      "sha256": "2319c241437db0a45464c5caf15db6d75d1f96021d170a5e62dac8a799167c3b"
+    },
+    {
+      "file": "RIFUSDT-1d-2025-10.zip",
+      "sha256": "e1c2b73d50fc5385e9e703d00f922eb9510a772d241272c5f00760a61706cd73"
+    },
+    {
+      "file": "RIFUSDT-1d-2025-11.zip",
+      "sha256": "c41f77085e9bf7d5926e607aa7fff1f32e1310e068ac3b83ba319d6c80e067b4"
+    },
+    {
+      "file": "RIFUSDT-1d-2025-12.zip",
+      "sha256": "aa845e7ad5074f8f2b6d0c6f2b93dd6f879f7182c672c8c7a7cf9f30d070c90e"
+    },
+    {
+      "file": "RIFUSDT-1d-2026-01.zip",
+      "sha256": "6b58a32fe2734e5836b3ce2bcabf25add54aa36a086d6c51660161781d987fd8"
+    },
+    {
+      "file": "RIFUSDT-1d-2026-02.zip",
+      "sha256": "08cd6b8b133e9b844d564c9d8226a51ac38aef24fd562cfa9fdeca2147f7dd02"
+    },
+    {
+      "file": "RIFUSDT-1d-2026-03.zip",
+      "sha256": "76acb2b4e26202fd1fbb184b182f75f11e3cd6c11b8e21f8c47c5fc0c23861e0"
+    },
+    {
+      "file": "RIFUSDT-1d-2026-04.zip",
+      "sha256": "56afee0b06132f954d6028ae5883c0b3dfe2a22c14dcdae362d753ea2f4fe5b3"
+    },
+    {
+      "file": "RIFUSDT-1d-2026-05.zip",
+      "sha256": "cf717c4ac385e9821addafc7ae1c9f81e47dfa2354308f880ff1b2f6bfccddf5"
+    },
+    {
+      "file": "RIFUSDT-1d-2026-06.zip",
+      "sha256": "85ef2cdb0fdb82cfa2cc67a71b8661bbd7bf128584ff4de4c1c9c3a55b0ad331"
+    },
+    {
+      "file": "RIFUSDT-1d-2026-07.zip",
+      "sha256": "537b23a232ff3c6417bc31b1a0759663a6366df2027f74f46be2a1dac6e5107c"
+    },
+    {
+      "file": "RIFUSDT-1d-2026-08.zip",
+      "sha256": "709f9ea793c5d36239491dc578392ad7e96eaebd8397c90c5ea72a1afdebebe0"
+    },
+    {
+      "file": "RIFUSDT-1d-2026-09.zip",
+      "sha256": "9a1b5c0aaefc1dc7634017b0036e102a31c0a401f2f1d89fd12b8e75a808f2fe"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

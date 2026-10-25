@@ -1,0 +1,77 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ZKCUSDT/1d/",
+  "instrument": "ZKCUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-09-15",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:50:10+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 381,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ZKCUSDT-1d-2025-09.zip",
+      "sha256": "0c474ee5659992563a1d9a3461bc05c8c94ede03998e619ed06702de944348a8"
+    },
+    {
+      "file": "ZKCUSDT-1d-2025-10.zip",
+      "sha256": "e61ac635f0e755583933fb6bddaf057c8c0e3e6a702a010162c3b7c6efd5673d"
+    },
+    {
+      "file": "ZKCUSDT-1d-2025-11.zip",
+      "sha256": "3be64afde1c327f88384730b29ab46beb24ae7e83d5d195036a667ef4cac13f0"
+    },
+    {
+      "file": "ZKCUSDT-1d-2025-12.zip",
+      "sha256": "ff75d63c068117f974130abdd8d414292cdc42a96419a45fc4038add6deb4be3"
+    },
+    {
+      "file": "ZKCUSDT-1d-2026-01.zip",
+      "sha256": "5b7ecfe2f13b3166ac92a322b6755affcb14b033e54c69a8a05720553b1d163f"
+    },
+    {
+      "file": "ZKCUSDT-1d-2026-02.zip",
+      "sha256": "258f727a7dbb1a1d7c0458e852de02cbc613b980d6a527b198c8b38a5f399aed"
+    },
+    {
+      "file": "ZKCUSDT-1d-2026-03.zip",
+      "sha256": "08eb0617d77ee719c6e4c406f201c4312efc489bbb97bf6299dd11be1a388a07"
+    },
+    {
+      "file": "ZKCUSDT-1d-2026-04.zip",
+      "sha256": "e48383acd3aeb3895c0db38725911bc9ce2723a52ee1de6164a8cb97ff65d1d0"
+    },
+    {
+      "file": "ZKCUSDT-1d-2026-05.zip",
+      "sha256": "f604580de63ddfb59ddc2667e0bc26fc8029bfafff319fc3b17611231cafbd32"
+    },
+    {
+      "file": "ZKCUSDT-1d-2026-06.zip",
+      "sha256": "9405063685c9d89deffca0b2d76926d17d183c8561dc891b9aed274ed8c7b902"
+    },
+    {
+      "file": "ZKCUSDT-1d-2026-07.zip",
+      "sha256": "e498bbab33913ffb1acb4ea918754b9006fd99426fcd05a670dd3aa415c7d104"
+    },
+    {
+      "file": "ZKCUSDT-1d-2026-08.zip",
+      "sha256": "22db7ec58ca160b6092a0d7e62aaf300b592e89661ffecb001b1d657750b71ec"
+    },
+    {
+      "file": "ZKCUSDT-1d-2026-09.zip",
+      "sha256": "e04c8e7920dec05cebef4bc53cdc7f26cedecf269666a4e99d95441ea1d3fd87"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

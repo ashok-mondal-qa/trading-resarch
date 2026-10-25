@@ -1,0 +1,113 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MOVEUSDT/1d/",
+  "instrument": "MOVEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-12-09",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:50+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 661,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MOVEUSDT-1d-2024-12.zip",
+      "sha256": "d5fe0bb73db42c715e680a8155018bf16753467a63de42cf35bbb7a253852c7c"
+    },
+    {
+      "file": "MOVEUSDT-1d-2025-01.zip",
+      "sha256": "763aa8500da77fae34f7d5b3aaccc8e5fcf7a3f4e384e31b25b2496e33311979"
+    },
+    {
+      "file": "MOVEUSDT-1d-2025-02.zip",
+      "sha256": "9faca98a92a5d9928f53b017fb52e1bbd9983ced748a275a2e589bcca07a6ce6"
+    },
+    {
+      "file": "MOVEUSDT-1d-2025-03.zip",
+      "sha256": "6114513ca3323e4a4f96754d999189c80d97ad81a88333e1aff2ebe1e35109b0"
+    },
+    {
+      "file": "MOVEUSDT-1d-2025-04.zip",
+      "sha256": "f694d208f92d227f862307dbe08e1aa8df7acd91319ab6715e5aec3f14c76715"
+    },
+    {
+      "file": "MOVEUSDT-1d-2025-05.zip",
+      "sha256": "fc6a153b4e2eeca2125444ad9a5c666b43fb638d184f04e2603a12d0bb5aeecb"
+    },
+    {
+      "file": "MOVEUSDT-1d-2025-06.zip",
+      "sha256": "8251447c9275bfa50ed473c156af6690b00e670859a260a839051f87ca917629"
+    },
+    {
+      "file": "MOVEUSDT-1d-2025-07.zip",
+      "sha256": "8df5cc1f0d371630aa535ae358da2df0bd008e84d0c23cedca6c7685d9c14c96"
+    },
+    {
+      "file": "MOVEUSDT-1d-2025-08.zip",
+      "sha256": "e9b032fc616d6ae2ed1fe5f74da556e96ac214a9a7c66e7340a54f04b4857c9d"
+    },
+    {
+      "file": "MOVEUSDT-1d-2025-09.zip",
+      "sha256": "05e3f1e752f773f3a1333db624585653a46d980e6990a5864a88bcf4c557a4ad"
+    },
+    {
+      "file": "MOVEUSDT-1d-2025-10.zip",
+      "sha256": "045bab58eed2c71d662184579aae05b5f87e1727269cfd38b07c65c7f9aefb9e"
+    },
+    {
+      "file": "MOVEUSDT-1d-2025-11.zip",
+      "sha256": "a61ed855e1a7f3f8ff8f4da63bd84c845e20f79383181260673728f9737589ee"
+    },
+    {
+      "file": "MOVEUSDT-1d-2025-12.zip",
+      "sha256": "1ff4ecab7508553237c4addb2b2d89fec4f54fe5b2e36c5e493abe0b51d846e9"
+    },
+    {
+      "file": "MOVEUSDT-1d-2026-01.zip",
+      "sha256": "2993f647448b72ffb28befaac4f1dceca6a8664536784a2d905ad801b4e46b32"
+    },
+    {
+      "file": "MOVEUSDT-1d-2026-02.zip",
+      "sha256": "e29044b6cc6f48fdef83c1e38a6e0062322d216289215975b0f7671814ab753c"
+    },
+    {
+      "file": "MOVEUSDT-1d-2026-03.zip",
+      "sha256": "450b00282ad4b512c62cab4d02facf4064a67700053fc8fd19dbee6aa55d1243"
+    },
+    {
+      "file": "MOVEUSDT-1d-2026-04.zip",
+      "sha256": "9e2029aa2d3aed3f45bb69b108250a40928cfa9fee895fb98e344bb5429d4e00"
+    },
+    {
+      "file": "MOVEUSDT-1d-2026-05.zip",
+      "sha256": "cfdff08bcc5e090d2ec9504b4faeebf35889e6b5c84b46c89dc598a3cf7e9422"
+    },
+    {
+      "file": "MOVEUSDT-1d-2026-06.zip",
+      "sha256": "96dd88f48d46a0a3f7e94ae6166d7a6289cddb221e2d4dcf3648a8f634c7036a"
+    },
+    {
+      "file": "MOVEUSDT-1d-2026-07.zip",
+      "sha256": "cc51329a2d1d3d250eab07dcaf8595c1a6c7f4ca7b6ac3cef3f59f98d5038585"
+    },
+    {
+      "file": "MOVEUSDT-1d-2026-08.zip",
+      "sha256": "0ce4bf656d5f3e89c4044efed8c0b50fe781de89bbcbedaf1bd9374221a5ccb2"
+    },
+    {
+      "file": "MOVEUSDT-1d-2026-09.zip",
+      "sha256": "ee7a9d3d76d68b788a4d668c32c0d0599d12a6742ea73336c5937fedc075ccf2"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/OSMOUSDT/1d/",
+  "instrument": "OSMOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-10-28",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:01+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1434,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "OSMOUSDT-1d-2022-10.zip",
+      "sha256": "15f6ff7d5de6c0247fbcebf0871e10331042a12082de3ab3be45e82bb90b44fe"
+    },
+    {
+      "file": "OSMOUSDT-1d-2022-11.zip",
+      "sha256": "d64976ca6f186554f00e3a8f6bd34bc58d114520db406453507a4a8c7c67be42"
+    },
+    {
+      "file": "OSMOUSDT-1d-2022-12.zip",
+      "sha256": "238ecdb71047e20ca2e796beee64569060cb6aeddd053112f1e8f949126b615c"
+    },
+    {
+      "file": "OSMOUSDT-1d-2023-01.zip",
+      "sha256": "fc2ee1e075d53e37880e630883e60916b9e13a4cb1ceb1391cf2ae0232670497"
+    },
+    {
+      "file": "OSMOUSDT-1d-2023-02.zip",
+      "sha256": "acf8ce0c42418a91bd49d34dfca63a117d950c11167e83147086b8beb239e3a1"
+    },
+    {
+      "file": "OSMOUSDT-1d-2023-03.zip",
+      "sha256": "50fd5c3359716f37b5dc0e0b645a1f43718efa53e5f58417413fd5000a5a6946"
+    },
+    {
+      "file": "OSMOUSDT-1d-2023-04.zip",
+      "sha256": "a926d4902066171b0881ec1e771b83bd05b01626daffea0b9adf04d80b1e7d7b"
+    },
+    {
+      "file": "OSMOUSDT-1d-2023-05.zip",
+      "sha256": "8e415399f941b3dc5b1cb3022e917aa5cfffc7e4e61ee4df2fe3425b89fe6751"
+    },
+    {
+      "file": "OSMOUSDT-1d-2023-06.zip",
+      "sha256": "e7885a38bcd59b2f258f2628811b3a1863f9d7c65f78197690502f8d7964f6b4"
+    },
+    {
+      "file": "OSMOUSDT-1d-2023-07.zip",
+      "sha256": "6a63bbaa81338db898f703a580a25173f8a8405295fa8ba38cfd92f4b1888c2e"
+    },
+    {
+      "file": "OSMOUSDT-1d-2023-08.zip",
+      "sha256": "dc677a03dcbea25a77f149021c2647d4a12e2cc2be31d12692af409fa4d907f2"
+    },
+    {
+      "file": "OSMOUSDT-1d-2023-09.zip",
+      "sha256": "8fc18978536301f9c6d09ad18d914f0f9e2f00f5e8ac778aef637d15613c1e20"
+    },
+    {
+      "file": "OSMOUSDT-1d-2023-10.zip",
+      "sha256": "b89aab3fa597809aff589928ba6c581cfa3395da81c37541046406da3510dfe8"
+    },
+    {
+      "file": "OSMOUSDT-1d-2023-11.zip",
+      "sha256": "52aae53ea8b3156837acba46002448a4326784ab607fb1f5997a1e8b510983ac"
+    },
+    {
+      "file": "OSMOUSDT-1d-2023-12.zip",
+      "sha256": "60ecf2c0158ad8be0f4206926c6f606f324fa589bf6fcf029db998efad207b85"
+    },
+    {
+      "file": "OSMOUSDT-1d-2024-01.zip",
+      "sha256": "3943c6cc6d3f78a5c5fc6d06302abfe25944b3047a451529d050cd0083182c85"
+    },
+    {
+      "file": "OSMOUSDT-1d-2024-02.zip",
+      "sha256": "48e00f14a6a891dc761aedb39e6308728beedfd745fe79430f564015b4d57cc5"
+    },
+    {
+      "file": "OSMOUSDT-1d-2024-03.zip",
+      "sha256": "b2f07b8831a9b5291eca9fc55b3372ef7065b68d0e1028aeee694b9cce6d2a5d"
+    },
+    {
+      "file": "OSMOUSDT-1d-2024-04.zip",
+      "sha256": "c39812587501210878d77155ebd77b771010c257052383f5916d1d5d647eb0ca"
+    },
+    {
+      "file": "OSMOUSDT-1d-2024-05.zip",
+      "sha256": "8909fd88a7faebec43f6fca7d89e6e5d51e7e866d062f094d3d027759d3f7868"
+    },
+    {
+      "file": "OSMOUSDT-1d-2024-06.zip",
+      "sha256": "bdd230c7726854e293a2eced9cf7362b3e33c4ed403ce2e922d5f0cec8cc3dae"
+    },
+    {
+      "file": "OSMOUSDT-1d-2024-07.zip",
+      "sha256": "e01f38e8ba3a5c3bedd43ff2e61b6626352db814b11b33ccdde06456ca7eee7a"
+    },
+    {
+      "file": "OSMOUSDT-1d-2024-08.zip",
+      "sha256": "f31edb68925330fddbc8c4d533f756a500bc1efdca5f57c5a8ab8f5e5a042250"
+    },
+    {
+      "file": "OSMOUSDT-1d-2024-09.zip",
+      "sha256": "2b395bb10bd92f12efd77abe548972d8f1f7d63cbe1e23db8b832aa2391eec2c"
+    },
+    {
+      "file": "OSMOUSDT-1d-2024-10.zip",
+      "sha256": "87686b70bc9d0ee7cbe0d10da0f25ac2f10fb7099b44d11675e115506f6221f9"
+    },
+    {
+      "file": "OSMOUSDT-1d-2024-11.zip",
+      "sha256": "c6556666dc64b271a3be2d8930d210ff375cb648ae9a3ac4e48afa2eef0f72d7"
+    },
+    {
+      "file": "OSMOUSDT-1d-2024-12.zip",
+      "sha256": "450942a453d90466d64f5ff5c2227bf56bdd157b35070c0280dcf4e33f9eb75d"
+    },
+    {
+      "file": "OSMOUSDT-1d-2025-01.zip",
+      "sha256": "b2442aa514f37fc0093c93f962133de8c231fbf47055d424496b3f4deeafe502"
+    },
+    {
+      "file": "OSMOUSDT-1d-2025-02.zip",
+      "sha256": "bfb576d70a84f0ef6d050d315b4f70898613ae4fea50091716ead48a5457f208"
+    },
+    {
+      "file": "OSMOUSDT-1d-2025-03.zip",
+      "sha256": "921598a4fa6fa46deb33ec384894943fa450f0610b1b168f07555538b070d800"
+    },
+    {
+      "file": "OSMOUSDT-1d-2025-04.zip",
+      "sha256": "e014c932bf46565a372cf6139a0312752b6cb13c868f74836aa17b6e86f577e6"
+    },
+    {
+      "file": "OSMOUSDT-1d-2025-05.zip",
+      "sha256": "1dd531c90e86e9eee51e039bc6e23120fe0eb01d13e70a7d24ea8e0ef3bc44de"
+    },
+    {
+      "file": "OSMOUSDT-1d-2025-06.zip",
+      "sha256": "f5d8f37a478540d6a3f31a93c5f6d0a856d3c5129b8d9b4ec8220e70ef3c5a1b"
+    },
+    {
+      "file": "OSMOUSDT-1d-2025-07.zip",
+      "sha256": "4f54bc1fdff7f6d98e884b847de3390cc5f51743239233a62109d8a222ed4bea"
+    },
+    {
+      "file": "OSMOUSDT-1d-2025-08.zip",
+      "sha256": "2930eafe5186ff203b6c2dbe73c2effd305e5b61b99a9426762e72653c5fa43c"
+    },
+    {
+      "file": "OSMOUSDT-1d-2025-09.zip",
+      "sha256": "f7003f0aae0838518ee6fe6d32cdfc44b3f60a79987d903720237e1eed69923e"
+    },
+    {
+      "file": "OSMOUSDT-1d-2025-10.zip",
+      "sha256": "5e6fd83025c1aec403447ae3f840e07916cba1e292efefcfb80a0f75b2e208a1"
+    },
+    {
+      "file": "OSMOUSDT-1d-2025-11.zip",
+      "sha256": "eab70e4e1021921b3628b7d735db5dae28cba0309af0b2ae77959d6f04a71c72"
+    },
+    {
+      "file": "OSMOUSDT-1d-2025-12.zip",
+      "sha256": "c807afc89196695f531a66e11549012f6c7a5fc0be266793fede6422ad0ae112"
+    },
+    {
+      "file": "OSMOUSDT-1d-2026-01.zip",
+      "sha256": "1e4445044670de3eaa36e4d658ca6e49cb9a2f37c646a0f63db78f0bd1cb723a"
+    },
+    {
+      "file": "OSMOUSDT-1d-2026-02.zip",
+      "sha256": "4c29a167cb2e00270d06fcfce50927c6917155643428469caeda00ec12a48a18"
+    },
+    {
+      "file": "OSMOUSDT-1d-2026-03.zip",
+      "sha256": "059759c0313320834860037445b5bc7428ba6a74af1077a0310435267b585049"
+    },
+    {
+      "file": "OSMOUSDT-1d-2026-04.zip",
+      "sha256": "80dadbdd7088cea2d9e688a63c1bf9016a60d6c2f6b84bb4de9c1c81592a3278"
+    },
+    {
+      "file": "OSMOUSDT-1d-2026-05.zip",
+      "sha256": "affca2fb84c941e89bbface1964ed467ca923915a4aa6f2eb56e02a547308af6"
+    },
+    {
+      "file": "OSMOUSDT-1d-2026-06.zip",
+      "sha256": "c481d72be31cb7741daa85a14b18ce57ccf8167f97979d4769e4bb0f014e6cd3"
+    },
+    {
+      "file": "OSMOUSDT-1d-2026-07.zip",
+      "sha256": "3eec935d530d43b2d0b36b3c3c8fd07f3e3f8f340f206660580741b16212bc5c"
+    },
+    {
+      "file": "OSMOUSDT-1d-2026-08.zip",
+      "sha256": "920833856e3c29237f777b9a2372b99b90968880594ade6ee570bbda527e062c"
+    },
+    {
+      "file": "OSMOUSDT-1d-2026-09.zip",
+      "sha256": "e5d3c7b06207ffcbb55c98598330a6b3eb9565beef4c8b85a301ed4427e0e242"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

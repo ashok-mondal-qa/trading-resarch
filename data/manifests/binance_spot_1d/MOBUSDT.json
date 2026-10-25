@@ -1,0 +1,125 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MOBUSDT/1d/",
+  "instrument": "MOBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-04-29",
+  "last_bar": "2024-04-03",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:44+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 706,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MOBUSDT-1d-2022-04.zip",
+      "sha256": "64fd05f4934b8f47c251751dbf2eb3ca4cb9f2c2a2fc8a5613adf6a373914e0c"
+    },
+    {
+      "file": "MOBUSDT-1d-2022-05.zip",
+      "sha256": "a64d05090354997fb7766c4743805c10a22b2f7ddb05a39b13c3c22b1972179e"
+    },
+    {
+      "file": "MOBUSDT-1d-2022-06.zip",
+      "sha256": "b9cbfce1cdadf6d24cacf07a4cbb3e1d5c0c3c00641519a9abb600f085fecf24"
+    },
+    {
+      "file": "MOBUSDT-1d-2022-07.zip",
+      "sha256": "e72ee367fd14619c22e040026b4da35332280579484483168c676e7cbc6a996e"
+    },
+    {
+      "file": "MOBUSDT-1d-2022-08.zip",
+      "sha256": "082a9fdf1391c917e62d33af254bd377d78ce6b972b12e195d7aad569d1fca30"
+    },
+    {
+      "file": "MOBUSDT-1d-2022-09.zip",
+      "sha256": "735a0705fa0af8ecd14b919511e6732f9c5a4c408fb89f2b96e364eb038786b4"
+    },
+    {
+      "file": "MOBUSDT-1d-2022-10.zip",
+      "sha256": "d5ac7302ddfe79675041bf3c0ea39eab526d3f8e1388beeed7d67feb807380d8"
+    },
+    {
+      "file": "MOBUSDT-1d-2022-11.zip",
+      "sha256": "8205713812148193bb165eec86b1367b906edfef63cdc419cbaf7026b0ee9c8a"
+    },
+    {
+      "file": "MOBUSDT-1d-2022-12.zip",
+      "sha256": "664f965389087d7fa2428a692334d25f5e6598f7d655a0ebccaa6e790f945d61"
+    },
+    {
+      "file": "MOBUSDT-1d-2023-01.zip",
+      "sha256": "8cb105483bee8279dcc383f8a956936f0a0598cfa62be3e4a147a8dcd2a1ae88"
+    },
+    {
+      "file": "MOBUSDT-1d-2023-02.zip",
+      "sha256": "cc2fdf3dc2fe4b2c257ee137d87b88185e00a4227f7527d4f701ef3336562c6a"
+    },
+    {
+      "file": "MOBUSDT-1d-2023-03.zip",
+      "sha256": "564b6305d697b5bb43fa7e392469d72e5a306519c764254a88bfb9e9761e795e"
+    },
+    {
+      "file": "MOBUSDT-1d-2023-04.zip",
+      "sha256": "a337c12de8da2da8265f7696c14a8ed6fc99ac4d883365c119ddfd32e09f0b0b"
+    },
+    {
+      "file": "MOBUSDT-1d-2023-05.zip",
+      "sha256": "2c190543190ca11d846284c98ffda8709deef30b1e8e4e75f5d8678fd7ecd352"
+    },
+    {
+      "file": "MOBUSDT-1d-2023-06.zip",
+      "sha256": "17a7c086cfb879323ab0f687fa0fec837f989fa5ef3329aab9502d864de67e47"
+    },
+    {
+      "file": "MOBUSDT-1d-2023-07.zip",
+      "sha256": "43be6adf3558381b3322fc78e63d2deb04e23cd3adbb939b2dc272e6aa33008c"
+    },
+    {
+      "file": "MOBUSDT-1d-2023-08.zip",
+      "sha256": "78d9c8afac8372570d938ba2d8ea4e45dab4c66b25508c920c7720b8d93da9d9"
+    },
+    {
+      "file": "MOBUSDT-1d-2023-09.zip",
+      "sha256": "ca7cc82a6006a154e53066b9a298efb30f825307fe1d0a55fddcb6e6ad0acc5c"
+    },
+    {
+      "file": "MOBUSDT-1d-2023-10.zip",
+      "sha256": "970d2578cafbef1cc17f0807d6b385e79110b2a9d5142cbeb12d94eb09daf3cb"
+    },
+    {
+      "file": "MOBUSDT-1d-2023-11.zip",
+      "sha256": "797308a8fc565a2c5a0401cf63005afe0c9c8983c7a1428c3d6f3834dbfc0e2e"
+    },
+    {
+      "file": "MOBUSDT-1d-2023-12.zip",
+      "sha256": "b409993f9081104616b512dff6afec7da5cc6183655742304bba2d2737d8f26a"
+    },
+    {
+      "file": "MOBUSDT-1d-2024-01.zip",
+      "sha256": "2638af0070718a5317c469fc1a3c1cc8b423261ca8905669a812cc4b73cfd7ec"
+    },
+    {
+      "file": "MOBUSDT-1d-2024-02.zip",
+      "sha256": "1026ef3a58d614e70a446da2d131ecf646d947fc4977630b6baf4feea8a9e2cd"
+    },
+    {
+      "file": "MOBUSDT-1d-2024-03.zip",
+      "sha256": "80e6be27a00b6b90e542265d3d5e94acfaeefd4b977dfa4f770c9a09af5a1892"
+    },
+    {
+      "file": "MOBUSDT-1d-2024-04.zip",
+      "sha256": "5fd6ce710570906f61305d9642ff75d4713d92799eb33d89a466ce5ea7cfd5ba"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

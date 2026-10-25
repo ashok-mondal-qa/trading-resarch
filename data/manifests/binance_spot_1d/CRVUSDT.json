@@ -1,0 +1,321 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/CRVUSDT/1d/",
+  "instrument": "CRVUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-08-15",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:30:47+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2238,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "CRVUSDT-1d-2020-08.zip",
+      "sha256": "a83eb122995904fa0009f86c24388ba409113030b34f40e2a7f61a58b09fbdf1"
+    },
+    {
+      "file": "CRVUSDT-1d-2020-09.zip",
+      "sha256": "16566210276542aee045fe999e4f5288b9310ecea3293f9167c5c34f56015e5e"
+    },
+    {
+      "file": "CRVUSDT-1d-2020-10.zip",
+      "sha256": "297ac943566125a744e3b7b8f684be3a53dcda2b0b9a299e256e1552c7136f39"
+    },
+    {
+      "file": "CRVUSDT-1d-2020-11.zip",
+      "sha256": "5c4fe1e990b79ae6d55fe241ac9bb138e8f170a30cdb8b6e68353dc3e3ba5a08"
+    },
+    {
+      "file": "CRVUSDT-1d-2020-12.zip",
+      "sha256": "1256f11117d27d6e8c5374b25850e5bae531b3e4ed9c50f3808dfc5ca82c0c3b"
+    },
+    {
+      "file": "CRVUSDT-1d-2021-01.zip",
+      "sha256": "2c3a65d1c20b32265587b6e6a0dc64900204351f540aa60556d82b3328a4df9d"
+    },
+    {
+      "file": "CRVUSDT-1d-2021-02.zip",
+      "sha256": "19c5716a6be4ebcadceb429708a5c1e1d098926baecced2d9266736b04dc8f37"
+    },
+    {
+      "file": "CRVUSDT-1d-2021-03.zip",
+      "sha256": "86666e6d19b8cc67472fcf1a3e5ef0069aa3e1be0f09cdf94b6fa7264da08a5f"
+    },
+    {
+      "file": "CRVUSDT-1d-2021-04.zip",
+      "sha256": "0bb2703fb71745ada27a589d496be44dc88d12f9de832a5928ab29f74a607afa"
+    },
+    {
+      "file": "CRVUSDT-1d-2021-05.zip",
+      "sha256": "46d1ba03184c9dad8f3d0af5bf95516f7530339b1bc8e86a88e538523063dd88"
+    },
+    {
+      "file": "CRVUSDT-1d-2021-06.zip",
+      "sha256": "8fa5899573bd0d88cb9bd7f323022a6be0ae9806c956db07eb7475cf82d105df"
+    },
+    {
+      "file": "CRVUSDT-1d-2021-07.zip",
+      "sha256": "00bd5fcaeaf599edc93391717d23f0bf2070c11d592017baee7d975da2320904"
+    },
+    {
+      "file": "CRVUSDT-1d-2021-08.zip",
+      "sha256": "d8644b128ea54fc955f7861534f334cf3068adfae8625273cecfb37dac5a2b78"
+    },
+    {
+      "file": "CRVUSDT-1d-2021-09.zip",
+      "sha256": "9bc7683665c0fb13e97b13fafca06c9df0cc3da604732e8ebdd4dea7af07529a"
+    },
+    {
+      "file": "CRVUSDT-1d-2021-10.zip",
+      "sha256": "46ade5080c7a84749afe20b9e05014d6c3f40f776e3437b3bf3cc1bd47212931"
+    },
+    {
+      "file": "CRVUSDT-1d-2021-11.zip",
+      "sha256": "96ad07b490877c740d47b0dc43e3c213d5f811f2ee62a697bf8ac29f5d19e90c"
+    },
+    {
+      "file": "CRVUSDT-1d-2021-12.zip",
+      "sha256": "12b170e63cc464b37dbe0de52ce146c74b5e3369282dfa5ca35b46cbe312816c"
+    },
+    {
+      "file": "CRVUSDT-1d-2022-01.zip",
+      "sha256": "f9fd47344dc46ff8a9627c64dc120ec317d0e4a684b1ecdda9e9d091553d42b8"
+    },
+    {
+      "file": "CRVUSDT-1d-2022-02.zip",
+      "sha256": "0c4137f692b23dfcd882ea17f6f7d7ccd56f2502fc3cc3ae0cde8fbec9e73c2c"
+    },
+    {
+      "file": "CRVUSDT-1d-2022-03.zip",
+      "sha256": "e8c5f633affd9a703511e77af9db1b1eb22fe110af1657f5ecf8dbdbae089d65"
+    },
+    {
+      "file": "CRVUSDT-1d-2022-04.zip",
+      "sha256": "6e3ad92946a8f16d2421cae0b4e37a20818cea23131b18b8b0dd7e0f8bda0a33"
+    },
+    {
+      "file": "CRVUSDT-1d-2022-05.zip",
+      "sha256": "a1259010b3e9f30f6e01340359bf1dd8e2c4221c945fca23d57e52936f637506"
+    },
+    {
+      "file": "CRVUSDT-1d-2022-06.zip",
+      "sha256": "c660219d244e638ebd9f96f391d4c5f452fef0ba4002e0629e992fd7b07e63a7"
+    },
+    {
+      "file": "CRVUSDT-1d-2022-07.zip",
+      "sha256": "cfab2ed106a5bc358bbf7cbf4696a4ea602fd314dcbf49f44b87f29ccd6bf00c"
+    },
+    {
+      "file": "CRVUSDT-1d-2022-08.zip",
+      "sha256": "bcc3a629e81faf626f0e8c3754e8654e0ca1d7485e260859ac67ed31fc00aab9"
+    },
+    {
+      "file": "CRVUSDT-1d-2022-09.zip",
+      "sha256": "c5eff6614540525defd1ad0d6d4ab1716b9faed7268a561a4a652df635a0ffdc"
+    },
+    {
+      "file": "CRVUSDT-1d-2022-10.zip",
+      "sha256": "aacac06609c7ba57632a0289869475e0fb7618801dabb8e824039918c89cc47b"
+    },
+    {
+      "file": "CRVUSDT-1d-2022-11.zip",
+      "sha256": "4e2b9e0a7122bc44dca5b759647af80308be0663f9be8c95387e385a9d968d97"
+    },
+    {
+      "file": "CRVUSDT-1d-2022-12.zip",
+      "sha256": "94181054662d4c4908a11eb4cf96e19906726b17254dc87ea28a1f7c36149fda"
+    },
+    {
+      "file": "CRVUSDT-1d-2023-01.zip",
+      "sha256": "a69c125b3113795fabb551ba90bd6b0c9475daac62beebe697634a4c1bee3c64"
+    },
+    {
+      "file": "CRVUSDT-1d-2023-02.zip",
+      "sha256": "9684644a9543b0badeb05f9ace3d58366480f5e299a8803ede142d3a1fde36e9"
+    },
+    {
+      "file": "CRVUSDT-1d-2023-03.zip",
+      "sha256": "c68473d8546e21ea82a5fcc656f5324d3d50e5df44457659d98167f08fea0adc"
+    },
+    {
+      "file": "CRVUSDT-1d-2023-04.zip",
+      "sha256": "f9c8593839f44a8e651945d8692cf49bdd6179d222a17c5783416461c91c7409"
+    },
+    {
+      "file": "CRVUSDT-1d-2023-05.zip",
+      "sha256": "775416950e0bfe1c460d8dfaee2b891b0807a7f374cc27afa7d63be1bc538035"
+    },
+    {
+      "file": "CRVUSDT-1d-2023-06.zip",
+      "sha256": "79f9314828293546e256b4f0236876ca1ebcf617794f2d1b3fdf46ffab294cb1"
+    },
+    {
+      "file": "CRVUSDT-1d-2023-07.zip",
+      "sha256": "86a781d9e0b2c2427eac4d07b771be8d7760b0562e3d5e42d80db9e86df18f5d"
+    },
+    {
+      "file": "CRVUSDT-1d-2023-08.zip",
+      "sha256": "1bbf6769683e3b9e14e46c23580d38dcceebdf8267c144a5e3d09a0054dcdb83"
+    },
+    {
+      "file": "CRVUSDT-1d-2023-09.zip",
+      "sha256": "0f01b313597ff3ed0bd158a85de2a025902dcb8897b9b6f9d2e9832532910b95"
+    },
+    {
+      "file": "CRVUSDT-1d-2023-10.zip",
+      "sha256": "0ff9534f64a17b8055d4bb69dcac06d09ecc66b53128b42a5a0403d7e788509d"
+    },
+    {
+      "file": "CRVUSDT-1d-2023-11.zip",
+      "sha256": "fdbaaa6d98b7b5f670ad3ef04ae3a250b357050055c66c4f093f4717f4a174b3"
+    },
+    {
+      "file": "CRVUSDT-1d-2023-12.zip",
+      "sha256": "fac79c264599007dba5b18f163e530358b6a9f7cae503c3cadf3a8c5100dec05"
+    },
+    {
+      "file": "CRVUSDT-1d-2024-01.zip",
+      "sha256": "6245296d1b0c92460cc91f7be6ddcbe9bc9ef76b20361c9c34c9d48df1124df0"
+    },
+    {
+      "file": "CRVUSDT-1d-2024-02.zip",
+      "sha256": "160007978d52fd1095e9cbbdc08bd3f56a4e98c820bec7d546f982800b14dd0a"
+    },
+    {
+      "file": "CRVUSDT-1d-2024-03.zip",
+      "sha256": "80535ba684cc78c3c29a09c0702cdc0f76468aa355dbaea1429bf63be4f5ead1"
+    },
+    {
+      "file": "CRVUSDT-1d-2024-04.zip",
+      "sha256": "c38ded13dc39154c8c00f10e15bf99539a9937f029a757f8bc7b7e3c433a97fa"
+    },
+    {
+      "file": "CRVUSDT-1d-2024-05.zip",
+      "sha256": "7317840919ad57a062c1645997221c1080b03b7b296930f5c4ade53b81822115"
+    },
+    {
+      "file": "CRVUSDT-1d-2024-06.zip",
+      "sha256": "ab25ca5c9815d3b49eb4ea7b8f06bea11761adc7d09a0f338b9179a539bdbe90"
+    },
+    {
+      "file": "CRVUSDT-1d-2024-07.zip",
+      "sha256": "4cdedfab194f07a47b23308bca17c82af70a8a36b6e2fddf3047f6e514d666b9"
+    },
+    {
+      "file": "CRVUSDT-1d-2024-08.zip",
+      "sha256": "2fe8b2aa15f56539fb9e5dc9abc6550506300577c4f36df692f2d1e08ba469fd"
+    },
+    {
+      "file": "CRVUSDT-1d-2024-09.zip",
+      "sha256": "8ec9dbe7fe6a002ba3cf883ea5b12d5888b40d4f9f32d868aede986c1efa9ec4"
+    },
+    {
+      "file": "CRVUSDT-1d-2024-10.zip",
+      "sha256": "ed9f793de5dfdec0c7cab238f174f5643b2f95b2bdc7d9c5ab5f445dc36acfae"
+    },
+    {
+      "file": "CRVUSDT-1d-2024-11.zip",
+      "sha256": "90524056bcbfc55521a1e8e97181e275edbb68e30a5a78fc7bc6510e82cf3d31"
+    },
+    {
+      "file": "CRVUSDT-1d-2024-12.zip",
+      "sha256": "b31c8c6e9d1e03c392dd881fb29e1dddaab1bae6f958cdcbe976b96bb6c69216"
+    },
+    {
+      "file": "CRVUSDT-1d-2025-01.zip",
+      "sha256": "215a37397af5809d4cc0e01a46a4f620a83788681602763a5a0e1d59ce68fd28"
+    },
+    {
+      "file": "CRVUSDT-1d-2025-02.zip",
+      "sha256": "f4187dc3866db8e807bc5f4723d4aabd700deb3a5f3d2e54d6ccf5d436bd147c"
+    },
+    {
+      "file": "CRVUSDT-1d-2025-03.zip",
+      "sha256": "41459321c2678184288d98ef7f3905a73f2c2f54a312f9875809a5d74cab79de"
+    },
+    {
+      "file": "CRVUSDT-1d-2025-04.zip",
+      "sha256": "48324973d0e5fc15d464e04414ecfe83dc8abb66a9b9439e531819afd940dae9"
+    },
+    {
+      "file": "CRVUSDT-1d-2025-05.zip",
+      "sha256": "9c8729c960ccb1bed6f8ad880c9699f49056815845ffe78a98c77c1f078fceaf"
+    },
+    {
+      "file": "CRVUSDT-1d-2025-06.zip",
+      "sha256": "abd22967a6e48f1fa87e55106520bd3c3a3b81fbbb828bfef0e4b1b830be1964"
+    },
+    {
+      "file": "CRVUSDT-1d-2025-07.zip",
+      "sha256": "1cd9798a4ff8e14f634c8d24a67abf6a6042727df26a4a752beea18181ebb2c1"
+    },
+    {
+      "file": "CRVUSDT-1d-2025-08.zip",
+      "sha256": "83539de747aa662d38e14a33393140a0b4005343385782de342352d4293e4f2d"
+    },
+    {
+      "file": "CRVUSDT-1d-2025-09.zip",
+      "sha256": "21eeb128b4f8a6ba8ee03115ce6a41d9ed83d0ce0ee3b9a829fd54e9e9aebf37"
+    },
+    {
+      "file": "CRVUSDT-1d-2025-10.zip",
+      "sha256": "bd2a7ed8db2d3e8db1e290f4eb553eefcfc3948bbb65d585fc0f118373b198a4"
+    },
+    {
+      "file": "CRVUSDT-1d-2025-11.zip",
+      "sha256": "4ba506412253380832960828e9ac32f044d5fc419c33d192d7606dbe9843a266"
+    },
+    {
+      "file": "CRVUSDT-1d-2025-12.zip",
+      "sha256": "92da6849a5c249f976b952471e9c067c84dbba80ec36e80eb79ea163dbd750a2"
+    },
+    {
+      "file": "CRVUSDT-1d-2026-01.zip",
+      "sha256": "66dee2d8b02d4948a1969156ec54f57796cfcef7d629a731a7564259516f6be2"
+    },
+    {
+      "file": "CRVUSDT-1d-2026-02.zip",
+      "sha256": "c246c1e9d684503c0eeeeb2e2bd5006866ad828cf1e89c7eefd34fcc39dae46f"
+    },
+    {
+      "file": "CRVUSDT-1d-2026-03.zip",
+      "sha256": "39291267b7674ccf547962144a798da9e57c52f9511eb838c0cd3ce0fa9f7839"
+    },
+    {
+      "file": "CRVUSDT-1d-2026-04.zip",
+      "sha256": "eb817457be8f6db168ff87fac83e70eef3a65a54e05c2a35ac7dd4f34ef1513b"
+    },
+    {
+      "file": "CRVUSDT-1d-2026-05.zip",
+      "sha256": "26805459f8ea90eac5c02ff0c13421b86e82811bcbc8053087b9f830b2b68b5a"
+    },
+    {
+      "file": "CRVUSDT-1d-2026-06.zip",
+      "sha256": "6051b9131638364cd93917d86ac5c00ab93cf2f5d09ba88c3f01eddbb8d4dac1"
+    },
+    {
+      "file": "CRVUSDT-1d-2026-07.zip",
+      "sha256": "eeb7016d90e49c55a9076b7724cf9b4953fd886cf32aa0ad897397fade3f12c8"
+    },
+    {
+      "file": "CRVUSDT-1d-2026-08.zip",
+      "sha256": "ad92037a8dfd514122a69c9b5ddce9752916447cec8de88e59e66f84a8c365a7"
+    },
+    {
+      "file": "CRVUSDT-1d-2026-09.zip",
+      "sha256": "a075334ce2e539ef6c4e5561843d23cd02bf53d1352098c245dfdfde05c5c93a"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

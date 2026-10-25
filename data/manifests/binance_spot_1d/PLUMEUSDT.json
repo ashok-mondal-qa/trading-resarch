@@ -1,0 +1,81 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PLUMEUSDT/1d/",
+  "instrument": "PLUMEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-08-18",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:14+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 409,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PLUMEUSDT-1d-2025-08.zip",
+      "sha256": "55aec6bfe551e9df0c087817659e144b6a25a42215cf684823e5799ac50c123a"
+    },
+    {
+      "file": "PLUMEUSDT-1d-2025-09.zip",
+      "sha256": "ded8de5fa897a50d0abe07a641d5348eb99f2b7bd1f37a9fbf7b8c31a38b4c54"
+    },
+    {
+      "file": "PLUMEUSDT-1d-2025-10.zip",
+      "sha256": "3eeecb4625c1e43ad796d43212f13ab2d4b182c209e7f2581ab0bf8c6c64a944"
+    },
+    {
+      "file": "PLUMEUSDT-1d-2025-11.zip",
+      "sha256": "453476d065e92d1fc31b12f64a06555f23e8c029a740ddaf02c93d37c7553366"
+    },
+    {
+      "file": "PLUMEUSDT-1d-2025-12.zip",
+      "sha256": "9879f436297efa6a10caaafe2db52d51d54a509db1354989a338315db9529c30"
+    },
+    {
+      "file": "PLUMEUSDT-1d-2026-01.zip",
+      "sha256": "09ce8831eccaf3ef45394a0bbc266f5f798d6ba30b24b692177aef1edf4c1ff6"
+    },
+    {
+      "file": "PLUMEUSDT-1d-2026-02.zip",
+      "sha256": "1032a487e7c51339d7498cf09a654d1e7de09bb675f3bfe10f0df2b724d52fa4"
+    },
+    {
+      "file": "PLUMEUSDT-1d-2026-03.zip",
+      "sha256": "73a3f1dca875bb82c00b2d53b8a7b4c899cbda8f5f72b16deb5b4c65b3d4eb57"
+    },
+    {
+      "file": "PLUMEUSDT-1d-2026-04.zip",
+      "sha256": "7b21d35bb478ea993c65219e169c0f087021685a43eac4b7a3faeb49e3238fec"
+    },
+    {
+      "file": "PLUMEUSDT-1d-2026-05.zip",
+      "sha256": "7e24e6a49ce0b4b5e84cd4133c688d719fa6a513ffcccda555e22231cc67716d"
+    },
+    {
+      "file": "PLUMEUSDT-1d-2026-06.zip",
+      "sha256": "513a7ab9febe136ba9c4d622bda2bd34404298af7bce01fd4f6c71668856589c"
+    },
+    {
+      "file": "PLUMEUSDT-1d-2026-07.zip",
+      "sha256": "89da2c12b39430999f434f88a7076311a635d51678fa41633bb93b4e1faf92f9"
+    },
+    {
+      "file": "PLUMEUSDT-1d-2026-08.zip",
+      "sha256": "43a181ce57c24e99ce9276928c039b919fab91ef6dc127c612523c279c2b7c0f"
+    },
+    {
+      "file": "PLUMEUSDT-1d-2026-09.zip",
+      "sha256": "6cadcba9f2f724f9c1f80024a03376655cfac2c2a33413a1710bb0dee1b25e11"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

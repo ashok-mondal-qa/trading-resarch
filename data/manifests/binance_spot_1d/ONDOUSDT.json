@@ -1,0 +1,97 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ONDOUSDT/1d/",
+  "instrument": "ONDOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-04-11",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:59+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 538,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ONDOUSDT-1d-2025-04.zip",
+      "sha256": "e82360a85d0c589f4b64e9b1c48e7902edd9152625a9f9c4cb6a861caaebe718"
+    },
+    {
+      "file": "ONDOUSDT-1d-2025-05.zip",
+      "sha256": "f1e47d054a8d06b74e4dc09bc58477a214223b7b30c9d1b26e7c785575399607"
+    },
+    {
+      "file": "ONDOUSDT-1d-2025-06.zip",
+      "sha256": "fee1ff3792b0bb49e57261f920e9480ac6cc297dbd19bae7db15d736a38f611d"
+    },
+    {
+      "file": "ONDOUSDT-1d-2025-07.zip",
+      "sha256": "d841840952b17fddf57f724b8ac49140b42789f357440f1e9d217048d86b3ecf"
+    },
+    {
+      "file": "ONDOUSDT-1d-2025-08.zip",
+      "sha256": "6ebe78991dca41e1b6d1c7188d5d8e38b85b279d615b40efbed77c51fab6af4d"
+    },
+    {
+      "file": "ONDOUSDT-1d-2025-09.zip",
+      "sha256": "5cbe566274ccbfc3b77186def2fca508f551b7ea1a79b434c1dc6d82c81d645b"
+    },
+    {
+      "file": "ONDOUSDT-1d-2025-10.zip",
+      "sha256": "f81763c1c46ad21d3bc5eed9026ea4a94a3e6cc7c3e7428af5ff116550ed70dd"
+    },
+    {
+      "file": "ONDOUSDT-1d-2025-11.zip",
+      "sha256": "a661499f156efe58c1fea549b9df02378246d3f66738a42c03cf0134436ba428"
+    },
+    {
+      "file": "ONDOUSDT-1d-2025-12.zip",
+      "sha256": "f96524f19467f43c1cacc1d59f69e2c8bd7b67a86e9d5d2f28d7d393fff439e3"
+    },
+    {
+      "file": "ONDOUSDT-1d-2026-01.zip",
+      "sha256": "26c7690b77794a4b1b00a7128d3a75ab39bbab1cc3872663a31f26d6ad6abf6d"
+    },
+    {
+      "file": "ONDOUSDT-1d-2026-02.zip",
+      "sha256": "85b73c53c2d408847c598c536c674bd8c08181006b691d9bb9bc5218d91b983c"
+    },
+    {
+      "file": "ONDOUSDT-1d-2026-03.zip",
+      "sha256": "b4f50ceab1327b0a9631b932d2d158c417a6971bec2f4582e16570510bbf763b"
+    },
+    {
+      "file": "ONDOUSDT-1d-2026-04.zip",
+      "sha256": "97dc86bcce3d08bcdd8a95b4474a50441a75bd6a18e7d9afc1dc328ff5472ade"
+    },
+    {
+      "file": "ONDOUSDT-1d-2026-05.zip",
+      "sha256": "f24991b16170c554862758e5702caefa4c14c4ea0b59f8affdc7c1a91288ad43"
+    },
+    {
+      "file": "ONDOUSDT-1d-2026-06.zip",
+      "sha256": "2ea0497d7b234d2bf03889e3121eb1c5c7c7fc7a0e6b232ca75417c78ea65e5d"
+    },
+    {
+      "file": "ONDOUSDT-1d-2026-07.zip",
+      "sha256": "0ae49c8df99033f2b39f865494719ffc7da5ed27986e5f84b5e419faa656c36b"
+    },
+    {
+      "file": "ONDOUSDT-1d-2026-08.zip",
+      "sha256": "372af377f854082d6edfdf11fc31776adc433d08114a706b4ff1f2ddd95de0b4"
+    },
+    {
+      "file": "ONDOUSDT-1d-2026-09.zip",
+      "sha256": "5ba7049a5a66864466667748ee22d7dcc38408e79d9ab8bccbbdc1800c974e80"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/COCOSUSDT/1d/",
+  "instrument": "COCOSUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-08-21",
+  "last_bar": "2023-05-29",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:29:51+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1375,
+  "missing_days": [
+    "2021-01-20",
+    "2021-01-21",
+    "2021-01-22"
+  ],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "COCOSUSDT-1d-2019-08.zip",
+      "sha256": "7b101a0b1b8baebd1c89b60b527cf7a92da817fd0bf2d931659a43b8b64bb1d3"
+    },
+    {
+      "file": "COCOSUSDT-1d-2019-09.zip",
+      "sha256": "7237f86262b379d51305b7c32970763b33c841edf3627ba9003d87cf5b607550"
+    },
+    {
+      "file": "COCOSUSDT-1d-2019-10.zip",
+      "sha256": "3e3075db6681ffcd9d7dbf2f6f122024a0030f60e5732f5a0708e02f463f5d3d"
+    },
+    {
+      "file": "COCOSUSDT-1d-2019-11.zip",
+      "sha256": "b6b8241b7348d3ac04147f4aaade80fbf0b4dd9a7eb68eb7f4f24d78c1832168"
+    },
+    {
+      "file": "COCOSUSDT-1d-2019-12.zip",
+      "sha256": "869dfda69d2bd37828b76772d540292a6c0ede1475d31b61ca2ebda7adf55318"
+    },
+    {
+      "file": "COCOSUSDT-1d-2020-01.zip",
+      "sha256": "fa444cdd1f70b231192f4cfcba216687a4d6bfc030ad018da71544e960c908f2"
+    },
+    {
+      "file": "COCOSUSDT-1d-2020-02.zip",
+      "sha256": "cee5b8bf79e40dea7a02b2c2b0f847945b97de41aa9ae5d9efdcc094b230794b"
+    },
+    {
+      "file": "COCOSUSDT-1d-2020-03.zip",
+      "sha256": "003d542584f3e9970c1a3af1060807c20dae1c5d7370a4e6df786cee9a5f1983"
+    },
+    {
+      "file": "COCOSUSDT-1d-2020-04.zip",
+      "sha256": "edbceb1a2311a8021ce6f85ce8141908aaf27a029677e9a87553f9e6d479da10"
+    },
+    {
+      "file": "COCOSUSDT-1d-2020-05.zip",
+      "sha256": "19af436dd15a96ffba840c71a4607b27277e94a6fd4a356de4f4defdea6c6a3c"
+    },
+    {
+      "file": "COCOSUSDT-1d-2020-06.zip",
+      "sha256": "d65a33a392c0b012e0be07027cc6e82514e30d5c9a10e6cec51f33b9661f7b78"
+    },
+    {
+      "file": "COCOSUSDT-1d-2020-07.zip",
+      "sha256": "5d93a3d948b5834541858015a0ca0ef0ba0dbb65f01fb99857986bec07d5e166"
+    },
+    {
+      "file": "COCOSUSDT-1d-2020-08.zip",
+      "sha256": "1c955f1acadd3810f951413bb17b5d0de674cc96b12c671b696e60fb8ddf4439"
+    },
+    {
+      "file": "COCOSUSDT-1d-2020-09.zip",
+      "sha256": "54a0fb08fa1a7a73eb339394fca3be90247b07230ff2a3a15adfd37a3f4b95d8"
+    },
+    {
+      "file": "COCOSUSDT-1d-2020-10.zip",
+      "sha256": "fb7d36518e5b1f593912a8fde303a0799c63f9d96e5223ba48b47a5c5bd7a4ab"
+    },
+    {
+      "file": "COCOSUSDT-1d-2020-11.zip",
+      "sha256": "c40454b6eea5fd0c40c204c2f4a20e986846a2f4efa42c925c82f83cf16e29c6"
+    },
+    {
+      "file": "COCOSUSDT-1d-2020-12.zip",
+      "sha256": "417aa18d3be0140cabc7d3cd5ac20ad7001fdda8aaeea5abfcad818eba3d0fcf"
+    },
+    {
+      "file": "COCOSUSDT-1d-2021-01.zip",
+      "sha256": "13a74446b73746e39d0fcdacfb72d9e3414fc98234884709f04418fe9ff4e9a5"
+    },
+    {
+      "file": "COCOSUSDT-1d-2021-02.zip",
+      "sha256": "e3f1172f876c8ee3e7a80f87eacd2bda86ebc20f85b3c70b1567e86c29d0a9a0"
+    },
+    {
+      "file": "COCOSUSDT-1d-2021-03.zip",
+      "sha256": "9323eb0c419e0d5712ba051e0ab13f02400a2bb37fe59be21266bf3b674e8e41"
+    },
+    {
+      "file": "COCOSUSDT-1d-2021-04.zip",
+      "sha256": "6e2ecc2bd2c72967aa5d6e2ad145d31cff1e0309177fd6058a7eb012d103881f"
+    },
+    {
+      "file": "COCOSUSDT-1d-2021-05.zip",
+      "sha256": "84648245e246425964b73ccf5f84354736a5bbb0184b47faf4129905d9f66312"
+    },
+    {
+      "file": "COCOSUSDT-1d-2021-06.zip",
+      "sha256": "a33c52f53cb6a795045f7b14f1d033fff701ebf483ede9d7717d2c9a02c6914a"
+    },
+    {
+      "file": "COCOSUSDT-1d-2021-07.zip",
+      "sha256": "c0486f0830457aef53cca8aa40e7758e12d07e5f0c0dc9b8ffbf2615675ceee3"
+    },
+    {
+      "file": "COCOSUSDT-1d-2021-08.zip",
+      "sha256": "045ea54a91b032f797b46b4613a3111dbef51360b6cf336a2e0d7c620cddae6c"
+    },
+    {
+      "file": "COCOSUSDT-1d-2021-09.zip",
+      "sha256": "5bd62aac4157c01c62c51813681bf0a29fa964d5254a7b6b077deafb3592f9a6"
+    },
+    {
+      "file": "COCOSUSDT-1d-2021-10.zip",
+      "sha256": "eb2cce942a338b5881a6067f84f1f7e9409281a8dd31682da29eb125df05383e"
+    },
+    {
+      "file": "COCOSUSDT-1d-2021-11.zip",
+      "sha256": "c995990ac3da6ad1eed743f06050f4225515fd98ec78cff3e1dfabe85842d295"
+    },
+    {
+      "file": "COCOSUSDT-1d-2021-12.zip",
+      "sha256": "43136a8c603466372fb0b76d820ae49ec9eea95d817043f7a6c276ab6411c5cb"
+    },
+    {
+      "file": "COCOSUSDT-1d-2022-01.zip",
+      "sha256": "0c17437f7658475968dbb52899f35998527b5939c852e45d7ee8d6318c676578"
+    },
+    {
+      "file": "COCOSUSDT-1d-2022-02.zip",
+      "sha256": "7c5c1c1dd67aa68a942530fc1b19ed3a02bd81f3501181fa36a82dc419be1ded"
+    },
+    {
+      "file": "COCOSUSDT-1d-2022-03.zip",
+      "sha256": "465cf07764993ac1e2ffb56c9ddc0934bfa3c623d087467ef07eba72b8f02001"
+    },
+    {
+      "file": "COCOSUSDT-1d-2022-04.zip",
+      "sha256": "9f40e789b243df90ab0108f565ae119567d287c1d73d50dd876a6a51ee02f24f"
+    },
+    {
+      "file": "COCOSUSDT-1d-2022-05.zip",
+      "sha256": "24e5be291a1318e482d5fa1b2b2fe7c4f0ec0ab662dbc66441da9b2517310b66"
+    },
+    {
+      "file": "COCOSUSDT-1d-2022-06.zip",
+      "sha256": "c9ab16e6a5fdc94bf7325e9107563b9f26d8df91def6669d55e1ba1263d85acd"
+    },
+    {
+      "file": "COCOSUSDT-1d-2022-07.zip",
+      "sha256": "c20fdd892175079362f0b96ff22612c3aa7e566e62ee4ed99830c44547113a45"
+    },
+    {
+      "file": "COCOSUSDT-1d-2022-08.zip",
+      "sha256": "00b09fa9d99c62cdc468acbb544acb7b11fe9750e5c77b774e164bf9d99db0b3"
+    },
+    {
+      "file": "COCOSUSDT-1d-2022-09.zip",
+      "sha256": "2ec38a575af87921dfc9f2bc3171cf9995f39c35f9b02fff78b41ab77510e831"
+    },
+    {
+      "file": "COCOSUSDT-1d-2022-10.zip",
+      "sha256": "751757f7e386faade73779b6b46512390582eba4007164272d275c7b66544878"
+    },
+    {
+      "file": "COCOSUSDT-1d-2022-11.zip",
+      "sha256": "86f2ba9a360b1556b3501f73eead497c80d33ffc3b142c91baf48c6b025cde81"
+    },
+    {
+      "file": "COCOSUSDT-1d-2022-12.zip",
+      "sha256": "01d9078c2f68e74448d7bb874cd3018ccb610582d0d7342cfe71568bccb7a471"
+    },
+    {
+      "file": "COCOSUSDT-1d-2023-01.zip",
+      "sha256": "74fae4d3436bd930588571f5a144f8560edc0d330ddeb352c9bdce95b347cea1"
+    },
+    {
+      "file": "COCOSUSDT-1d-2023-02.zip",
+      "sha256": "108d432dd3c660589ef14f220cba69e736bbed32fdb6a83917e2f4963cdb5300"
+    },
+    {
+      "file": "COCOSUSDT-1d-2023-03.zip",
+      "sha256": "71065b1995fe27eb4ae106c1c95827f8fd5f2cce5616f90efc7b1adc6db231a3"
+    },
+    {
+      "file": "COCOSUSDT-1d-2023-04.zip",
+      "sha256": "3676e8f536ade0c0e5f1138a2feaa3d0996ad2d69561c6fa46c549ca372a51a4"
+    },
+    {
+      "file": "COCOSUSDT-1d-2023-05.zip",
+      "sha256": "8955dd4c6b3d5663a257530c62516d20219b9b73575cb8105c1f8e06710df0c2"
+    }
+  ],
+  "status": "partial",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

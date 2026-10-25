@@ -1,0 +1,189 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/FLOKIUSDT/1d/",
+  "instrument": "FLOKIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-05-05",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:33:33+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1245,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "FLOKIUSDT-1d-2023-05.zip",
+      "sha256": "bf94529dfc89dd3feaa0b297eedb523eb9b2e778acef463edd0552e4161ceed1"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2023-06.zip",
+      "sha256": "33be8cd63c28d75db4b8363a357458f44c5dc54e42f1a1a2351e356e20d8c325"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2023-07.zip",
+      "sha256": "0d1bf06383182ac1a888e8011332d368b30d21fa7a7a667aa55e2da4d9ba574f"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2023-08.zip",
+      "sha256": "2b7f8dc85eec1247bd4c18a5279524e210c1c16e3d077f2c67536bc9681aa6d3"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2023-09.zip",
+      "sha256": "f8f15cf764bcffc7ec4deea9c348e20bc461cc0c8187e97acb0fd4f8440aa071"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2023-10.zip",
+      "sha256": "81a8b9b5a6788a033a24d1aac039b87bb59057dea8dceff5faea447b18698851"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2023-11.zip",
+      "sha256": "98bb57ec3dce21f421a028b4c8475d8f129ed4b6f943f932ebc586156e8a21d8"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2023-12.zip",
+      "sha256": "8ad52c1bd72c2e1bda772df53a8b6af503c2bcae000556f96daf3e2e7adfe1d9"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2024-01.zip",
+      "sha256": "ef29ac8c958ae90275c39bcb154ae54bfd6cf5b12cb2ef4eda53ca1ca47fa74e"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2024-02.zip",
+      "sha256": "915cf2c5c8c68d31a366f8ba4ce0b1e0aac22ce331b4f75cffc9a186bb5a5d77"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2024-03.zip",
+      "sha256": "62ba88a059d0394bb3b2cfd3c552ba83b38709dc3e649ba1e99705295c41982c"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2024-04.zip",
+      "sha256": "13c04c67d78538dc32e92dfa6e3dceaac12d308e72eff88670a171448162bed9"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2024-05.zip",
+      "sha256": "d03b8043ce401831fe7ca496adc57f23c966a1f445db03b8aaaa6b24338fc763"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2024-06.zip",
+      "sha256": "a9bf336ac7ede11404c2ef5ce8ae34a0a157a456e182af8aa9dbb466519b3e5f"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2024-07.zip",
+      "sha256": "386628eb4745d77dbda4fec2e40185e722d05c28d121c63979d1cfd783f6c537"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2024-08.zip",
+      "sha256": "d9bcec5b8fd11a820def5a32b507c70b33a8c34a72ec6d9b03a327f24645adde"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2024-09.zip",
+      "sha256": "8fdea3bdd11cea4a36804b6d50bd526b84f9c1ddf0c24c8a5c6b4e615d5bfdd9"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2024-10.zip",
+      "sha256": "2df5ab803721cdefefebdc813fb56976c2837fcf6beeeb9e7d8cc1f38e27e0cb"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2024-11.zip",
+      "sha256": "ba4ebe00d537612c301d17ef707bef45c3458e5f150ae6110470ececae698262"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2024-12.zip",
+      "sha256": "41e45a434fed35c3cafcb1ef98bc6521b9f84781e897ca3814189a0f549861d0"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2025-01.zip",
+      "sha256": "25ca776a240d26f8a7901c870bf4087aea3d96cce162fc79235de52c9e3442b1"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2025-02.zip",
+      "sha256": "c63dc4b60199d8ed058c864811a0bf27e644aa8b6ab5bf6906feeed141b5c78a"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2025-03.zip",
+      "sha256": "b1b49befa05861c23d28363e61de093aa0840b83401e71012bb9170ad19e6e55"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2025-04.zip",
+      "sha256": "fd02586f77dafd1e525b781128decf08377fdf73df787dba422587d19ed96d69"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2025-05.zip",
+      "sha256": "202e3f2a8eb20a4b46dfab9496ebd4bd6454d223bc49f968b53794c4b48a6f92"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2025-06.zip",
+      "sha256": "8ea942dc2d3f70a8aa5ed04b9f3b398c49b81ab8a6ae01f7939081b338fa46cf"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2025-07.zip",
+      "sha256": "5d4282d0e1dd361145586f45b871cd9ec90d0ae31d71754f64eb6209b60aa56f"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2025-08.zip",
+      "sha256": "913219254cfad621a2ae73b0b26461ad40a9d860cd405651922355128664179b"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2025-09.zip",
+      "sha256": "f8b53087360684bd20a8468298c9134c6ae00d014ad00fdd2194b0fec6913f80"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2025-10.zip",
+      "sha256": "db6954679813692d74fe64e60746d10990598076b5baab207a92af8f5048e286"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2025-11.zip",
+      "sha256": "74db28d5c1df4edf1a03d9e62832b645d443c2d0881848ad7181ba46a79307a0"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2025-12.zip",
+      "sha256": "6673714e48667918829eb4395140a53372ef7a3cb634f983593d0cd206bc64de"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2026-01.zip",
+      "sha256": "54a4ab72af43b3864c45e65701d5d19bce754a5fb164c139e6364792d29350f1"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2026-02.zip",
+      "sha256": "c53104a71abcb186778cbe31f86f52ac3e5ea871f79ed7f415c526565a83a31c"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2026-03.zip",
+      "sha256": "f36cdd3a0af3a8942fabdaafde60a54bd08dc5f88ae50f516bff731bda4908c8"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2026-04.zip",
+      "sha256": "c37546c9da09877f325319a3f9192fe1c3edcdcc3d8726f31cad52e4cd5c29a8"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2026-05.zip",
+      "sha256": "5ac435b2087c781042033252a7eb47d20bd8553539706c054936b89dcd2d6b78"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2026-06.zip",
+      "sha256": "8e8286096a7bd8c5487d19a71a631bddcc2a9c1e51ba1538ac7a4ce392dc1493"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2026-07.zip",
+      "sha256": "4bd77fc79ae6b11de4536b80553f039ef0dd57c5781ca8bc2bfe9c571d0391f5"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2026-08.zip",
+      "sha256": "ca71e1ab48a99522e7b35d926569d0115ff3ccc8fc33cf1d4e7a8ff2739822fa"
+    },
+    {
+      "file": "FLOKIUSDT-1d-2026-09.zip",
+      "sha256": "6a75f01cd9f592636cc719709560974315ac23ed5eeb9edbbb82919aee71b36f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

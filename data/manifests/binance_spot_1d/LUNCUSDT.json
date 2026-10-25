@@ -1,0 +1,221 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/LUNCUSDT/1d/",
+  "instrument": "LUNCUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-09-09",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:38:37+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1483,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "LUNCUSDT-1d-2022-09.zip",
+      "sha256": "3d7037ccd25c23aaddcce6d0c3c722b61a655c31a1c48500e68b95e4fcad8406"
+    },
+    {
+      "file": "LUNCUSDT-1d-2022-10.zip",
+      "sha256": "801c85e64eb108ea6a09cffc4edb029d1e2204b9020fce401aa458641d26fa7b"
+    },
+    {
+      "file": "LUNCUSDT-1d-2022-11.zip",
+      "sha256": "7807e72bc369d730f11799663383ad9fe53ee9269ae83737e39d429bb86a9ce6"
+    },
+    {
+      "file": "LUNCUSDT-1d-2022-12.zip",
+      "sha256": "f72f2d804b07d7238389e3625b88afe7e42fe907782a9b899afd4b9e5aedb6e9"
+    },
+    {
+      "file": "LUNCUSDT-1d-2023-01.zip",
+      "sha256": "6488c3dbdf128619fb0e171b8e4b4e62fdc8693575f0428d2831e54d42426401"
+    },
+    {
+      "file": "LUNCUSDT-1d-2023-02.zip",
+      "sha256": "e40841d7cdce43110477f2b94cc62db58a50809fea8e870a888c2c5f65d11fcd"
+    },
+    {
+      "file": "LUNCUSDT-1d-2023-03.zip",
+      "sha256": "7b63acf92fddc7c995be819d2e7ca2420aa4551cb6dc092126f040402d49f961"
+    },
+    {
+      "file": "LUNCUSDT-1d-2023-04.zip",
+      "sha256": "a6b6b0787e82670d7720055b408298b68dc710334c73d1519a97280b8365cd08"
+    },
+    {
+      "file": "LUNCUSDT-1d-2023-05.zip",
+      "sha256": "ea33abc63d4e7dcd3c17ad14fefbf0395779535aabf1fc0f1319fe91f2bbdb48"
+    },
+    {
+      "file": "LUNCUSDT-1d-2023-06.zip",
+      "sha256": "45a767fac7b1550a543979fe836c2ce3a624b398b0635bdc47374e4c09dab437"
+    },
+    {
+      "file": "LUNCUSDT-1d-2023-07.zip",
+      "sha256": "a7e7e1c95601396543f6c0abe747519c8ef12b7038c4d03d31994c84b1288026"
+    },
+    {
+      "file": "LUNCUSDT-1d-2023-08.zip",
+      "sha256": "a950912798ea158011a173486f5c59bd01ee7a4a9d07b4789c457730c2bb0e04"
+    },
+    {
+      "file": "LUNCUSDT-1d-2023-09.zip",
+      "sha256": "e2841ff56624e890264a092003ad5ad3a1ee7f1889ffb85104e1061a54f357ae"
+    },
+    {
+      "file": "LUNCUSDT-1d-2023-10.zip",
+      "sha256": "0baf44ad0651106668866c21f745d29afa6d003d52f5dd10715ba8fa48fc15b5"
+    },
+    {
+      "file": "LUNCUSDT-1d-2023-11.zip",
+      "sha256": "e3b36d7db00aee428384303c14d9a36ff48b2257ee473f38715365aec62a73b7"
+    },
+    {
+      "file": "LUNCUSDT-1d-2023-12.zip",
+      "sha256": "96fbde0967f610b2935ff198e23a3f2295e45520b4cbb44992ea126f90fa61e4"
+    },
+    {
+      "file": "LUNCUSDT-1d-2024-01.zip",
+      "sha256": "2c110522e7e047ffbfe944f0e79fdda355f25cfb2e6be513f63782cf95c5e918"
+    },
+    {
+      "file": "LUNCUSDT-1d-2024-02.zip",
+      "sha256": "0326ca887e18ae3135131a5e31d732735259cb807d1a6fa504689a9a4d0c7ad4"
+    },
+    {
+      "file": "LUNCUSDT-1d-2024-03.zip",
+      "sha256": "7bc9eeb121296951723b321c17712067ef235a7b6bb690f9b8072736370b9d12"
+    },
+    {
+      "file": "LUNCUSDT-1d-2024-04.zip",
+      "sha256": "661c11cbf86237b2ba4f9cc8feb36eead871d34a27dbd588a51ee60a8049c67e"
+    },
+    {
+      "file": "LUNCUSDT-1d-2024-05.zip",
+      "sha256": "765e78921ed12d8aeb38363b8507bc6ea0ea8e4e1f8792612a5857d53d9e8469"
+    },
+    {
+      "file": "LUNCUSDT-1d-2024-06.zip",
+      "sha256": "4c34b66180b41ab67e42a936966eda895061aeba6ca573cff756b2660e9bca83"
+    },
+    {
+      "file": "LUNCUSDT-1d-2024-07.zip",
+      "sha256": "879830337a05678c52439a087ced4372e51f5899322c8359ea785d8807f8f7d1"
+    },
+    {
+      "file": "LUNCUSDT-1d-2024-08.zip",
+      "sha256": "a50848d51d3b556a703a3e99bcd24a3f3cc3595acc58a0d8dcd211286ccb32b9"
+    },
+    {
+      "file": "LUNCUSDT-1d-2024-09.zip",
+      "sha256": "34d572b9a617cd57ce79afb820a9c1942cd79dca74cc54a77127210b95d483b9"
+    },
+    {
+      "file": "LUNCUSDT-1d-2024-10.zip",
+      "sha256": "28446c8257d90f5a9bd848412b9aafe432061577a57c0779c90a0a262798dc45"
+    },
+    {
+      "file": "LUNCUSDT-1d-2024-11.zip",
+      "sha256": "f1ea0d8faaae4234cee2803361c7824a15caa1454824402ac71795c3de4b994c"
+    },
+    {
+      "file": "LUNCUSDT-1d-2024-12.zip",
+      "sha256": "a8b4a824c82ce9439a173de48ddc0e4a588ceb742335b664cb5eefd33cfdf682"
+    },
+    {
+      "file": "LUNCUSDT-1d-2025-01.zip",
+      "sha256": "58a42b4c7cdc14df05701cb3edb409a04b0934588784eea2cfdd42e0deea5379"
+    },
+    {
+      "file": "LUNCUSDT-1d-2025-02.zip",
+      "sha256": "2f71efcea8daeb3ef602de62e4fa0b023ae96e4424e59db232cb6f10d43149a2"
+    },
+    {
+      "file": "LUNCUSDT-1d-2025-03.zip",
+      "sha256": "0581df860270eb948aa0a6e1f67fd3b7b97eb3c5c45d0ba8f74be99c172707f0"
+    },
+    {
+      "file": "LUNCUSDT-1d-2025-04.zip",
+      "sha256": "7dfa75c801b01fc802f6478b351fb97077d911d4570207c5addd002f64ac190a"
+    },
+    {
+      "file": "LUNCUSDT-1d-2025-05.zip",
+      "sha256": "79305272927afc893e48a4de7e3f67095af7683aca843923faa3255206e30a9c"
+    },
+    {
+      "file": "LUNCUSDT-1d-2025-06.zip",
+      "sha256": "a61d65111f9aa30a8be04c74678105c28827016b6495ac858543f286ba5e19e0"
+    },
+    {
+      "file": "LUNCUSDT-1d-2025-07.zip",
+      "sha256": "b9eba3308fdfe29ba22f8965348e43e864b957b76da8075f691a6a16a69c9f42"
+    },
+    {
+      "file": "LUNCUSDT-1d-2025-08.zip",
+      "sha256": "df19f83b478eb524a771bed4f9710e818b3d8f739f65c28e7eb1785dc640f4c6"
+    },
+    {
+      "file": "LUNCUSDT-1d-2025-09.zip",
+      "sha256": "7824d126444809a36cbbc7cfd4eed394427ce2fcb7031318e32c2e851221cff4"
+    },
+    {
+      "file": "LUNCUSDT-1d-2025-10.zip",
+      "sha256": "fa2d4ba0fb561afb0749a761db66b71910c08fc29d2800807dcc9444ae72625e"
+    },
+    {
+      "file": "LUNCUSDT-1d-2025-11.zip",
+      "sha256": "5f2f84ad0225223459f7e094c266d9e29101daa46fe5b818f5eb193e68da7a16"
+    },
+    {
+      "file": "LUNCUSDT-1d-2025-12.zip",
+      "sha256": "1989977b9541c81b02d96c88e244179d567fe779173b6ac4e37bed7323ff2b62"
+    },
+    {
+      "file": "LUNCUSDT-1d-2026-01.zip",
+      "sha256": "d9cfc360172563d2a71e3cd7291dcd5a45c6b43ba15e0d6c85b3286fed908b70"
+    },
+    {
+      "file": "LUNCUSDT-1d-2026-02.zip",
+      "sha256": "4330e13b3b2d92161995bcf34474390f2069da7425eb847b4c47813234475b03"
+    },
+    {
+      "file": "LUNCUSDT-1d-2026-03.zip",
+      "sha256": "a46dab53827638cbdf12d817119a0e5b7da94e5297cfc96fe63a9ea409b989cb"
+    },
+    {
+      "file": "LUNCUSDT-1d-2026-04.zip",
+      "sha256": "c6fbd7fc42fb89d14bb8c27888c4468048c0b78bd7771af6d764c46cff623b77"
+    },
+    {
+      "file": "LUNCUSDT-1d-2026-05.zip",
+      "sha256": "640669f9eb76d0e05b69b0d63e2ce98bf668deff823d196f8a9fc561d533aed2"
+    },
+    {
+      "file": "LUNCUSDT-1d-2026-06.zip",
+      "sha256": "69ef5f2a815d7d4f0711dc939282183ce4d3e40fc29c252d165b7750ca7acb62"
+    },
+    {
+      "file": "LUNCUSDT-1d-2026-07.zip",
+      "sha256": "d6457bb98a7a504b5b8f4644e204ceda0ce3734860a417e42b4910b307d5b817"
+    },
+    {
+      "file": "LUNCUSDT-1d-2026-08.zip",
+      "sha256": "52ab3a9ce4359aa43eab23abf26676f9878d4db50f2174c8d09214324097665b"
+    },
+    {
+      "file": "LUNCUSDT-1d-2026-09.zip",
+      "sha256": "7805053391e8f8cfa7665c2aa36620bb6f85ea38bf7a89b468a0947493311190"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ATOMUSDT/1d/",
+  "instrument": "ATOMUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-04-29",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:27:16+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2712,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ATOMUSDT-1d-2019-04.zip",
+      "sha256": "f1dc84a0df68c15fc71dc5e09ef539d68f514822b84b0622203c52a4a216ae9b"
+    },
+    {
+      "file": "ATOMUSDT-1d-2019-05.zip",
+      "sha256": "3beb0208980c7cd0ab27cb51b1785e966cab5d9789ad9baeca165ba6861ba601"
+    },
+    {
+      "file": "ATOMUSDT-1d-2019-06.zip",
+      "sha256": "0bb913449df26a9f77887e441363f03441f41d13b7829d91769eb58e864452cc"
+    },
+    {
+      "file": "ATOMUSDT-1d-2019-07.zip",
+      "sha256": "9c93f476c41aff6d6ffadee77448ab634f2846f02320bbdd12395250959e74bc"
+    },
+    {
+      "file": "ATOMUSDT-1d-2019-08.zip",
+      "sha256": "2e4e489f927aca128b4d124cef11205663e58595229e1d8b1243f005c37eddf3"
+    },
+    {
+      "file": "ATOMUSDT-1d-2019-09.zip",
+      "sha256": "6b92c706ebaebf771012560e49c6004f48cbda53de5281e539a25d03a90863dc"
+    },
+    {
+      "file": "ATOMUSDT-1d-2019-10.zip",
+      "sha256": "5965aae46698c2ef11fb6a44002f0e3b5c6613f22f0aeae1e8cd11a9ecf8c4f8"
+    },
+    {
+      "file": "ATOMUSDT-1d-2019-11.zip",
+      "sha256": "ebce1ed478158cacf64b8bf7bb257862c8638f894460689669393330ae592b71"
+    },
+    {
+      "file": "ATOMUSDT-1d-2019-12.zip",
+      "sha256": "dd5396939aad497918369101af8192fd799e90af983ddf05f5e502dfec30f8d4"
+    },
+    {
+      "file": "ATOMUSDT-1d-2020-01.zip",
+      "sha256": "3fb97997ea59ff70816bdcf97ef8fd6a0307285001bf00d1364d4bc2ff70e346"
+    },
+    {
+      "file": "ATOMUSDT-1d-2020-02.zip",
+      "sha256": "67e828fcaeea911877a8b01c3b005251e0ed390f0f42d88d697df0417d2cdde4"
+    },
+    {
+      "file": "ATOMUSDT-1d-2020-03.zip",
+      "sha256": "62c34e03f7ac66f57247626489e79ab33215b8c28dac925fb1f3037668a31136"
+    },
+    {
+      "file": "ATOMUSDT-1d-2020-04.zip",
+      "sha256": "8d4ac606646fcdb2f73fc9ebf5379d4b676eeb67bac4c933ccbf3079c6543c19"
+    },
+    {
+      "file": "ATOMUSDT-1d-2020-05.zip",
+      "sha256": "5122684a59d410067b477e151bab84288853e29a656e5b24103bd9ef2fa5f5bd"
+    },
+    {
+      "file": "ATOMUSDT-1d-2020-06.zip",
+      "sha256": "0a6f8dd4b974c91431a3c2a8c540e8d337bae5ae44bf57295e89d240f044e715"
+    },
+    {
+      "file": "ATOMUSDT-1d-2020-07.zip",
+      "sha256": "315a4686ccf8c6a9df774de5ddb51e2ec471589f542feda953e4bdc6221846ec"
+    },
+    {
+      "file": "ATOMUSDT-1d-2020-08.zip",
+      "sha256": "adfbc46a310d62227ffcc046d00bbb6ef74f18dbf47ebf5b0c805bb492042bc6"
+    },
+    {
+      "file": "ATOMUSDT-1d-2020-09.zip",
+      "sha256": "a50f0c5c7e0c4b7ac1e89286905d8429fa078d84d51ee4a2d141ced386c6d44e"
+    },
+    {
+      "file": "ATOMUSDT-1d-2020-10.zip",
+      "sha256": "6ac3f4c06cb53381f12c120c0ed9ed59596d3a0599569435d89722d7f68e7906"
+    },
+    {
+      "file": "ATOMUSDT-1d-2020-11.zip",
+      "sha256": "22a02bc333c23dd1612e31a108e2995ca90dcd148e1960a8b2a4f2882b43cd07"
+    },
+    {
+      "file": "ATOMUSDT-1d-2020-12.zip",
+      "sha256": "254d33dae8eae0aeb70f17c43e492439fe8edaaedba7ed5e375d53385bf11989"
+    },
+    {
+      "file": "ATOMUSDT-1d-2021-01.zip",
+      "sha256": "6ae9824f7273968b55207a100f528d591ef9eb04a4b8a6ee0ab4b8de548cccfb"
+    },
+    {
+      "file": "ATOMUSDT-1d-2021-02.zip",
+      "sha256": "dcb7fa5a0c8b3ad2f343052919af83dc6085cba568f4331c1880e6d737a3a0ee"
+    },
+    {
+      "file": "ATOMUSDT-1d-2021-03.zip",
+      "sha256": "76fbe85ca98c042887949428a57c4377646768a5814b6e3e12f64d67f6d8eac7"
+    },
+    {
+      "file": "ATOMUSDT-1d-2021-04.zip",
+      "sha256": "4c7bd56dab07f6b4f47584afcdb9699b00df03d0a79bd8f27b9fff0450c2370b"
+    },
+    {
+      "file": "ATOMUSDT-1d-2021-05.zip",
+      "sha256": "8aa102a1f1abadf0361fd3c0c19dd229154f81323ce1b4b53cb56611297b3d9e"
+    },
+    {
+      "file": "ATOMUSDT-1d-2021-06.zip",
+      "sha256": "95d44de287d2a28e9d9b6e741151e51a97eea8394d14cd30dbbdcec883599306"
+    },
+    {
+      "file": "ATOMUSDT-1d-2021-07.zip",
+      "sha256": "3cd52cc80b33516ed1bf8f38a8e76b75cc5f8c094e0bb199c954ac99b5d21e55"
+    },
+    {
+      "file": "ATOMUSDT-1d-2021-08.zip",
+      "sha256": "58285f80c63e88095501a1f53f05f28f741219609fadf9570942948d0670cbb5"
+    },
+    {
+      "file": "ATOMUSDT-1d-2021-09.zip",
+      "sha256": "ddd13724e1f5e9ecb915368f480979b436406f1bbdf9102694e494840ffea205"
+    },
+    {
+      "file": "ATOMUSDT-1d-2021-10.zip",
+      "sha256": "10af6398e114266ba296267759f0a57d89ee1b442018f2883a5490f718e88070"
+    },
+    {
+      "file": "ATOMUSDT-1d-2021-11.zip",
+      "sha256": "14ffee55574cfba18646545a95828515e0c221ebbeaa32847b264668eefb25ef"
+    },
+    {
+      "file": "ATOMUSDT-1d-2021-12.zip",
+      "sha256": "3cf6d25977ace172e73cb238d3d93d0e990357d56bf7685b075ff3fb319bb780"
+    },
+    {
+      "file": "ATOMUSDT-1d-2022-01.zip",
+      "sha256": "1de45edde9b76d2a50d1b9ae64fc0378bb024252c550edaa534c9c6af1f6b455"
+    },
+    {
+      "file": "ATOMUSDT-1d-2022-02.zip",
+      "sha256": "366cbe054194b85c1a00b64b0e031d69823045bc14a871f3f075da0d9ec20108"
+    },
+    {
+      "file": "ATOMUSDT-1d-2022-03.zip",
+      "sha256": "9c2b76e8e07e28c657f3f961819b04a25c6c143e1be976db736353073d8eaca4"
+    },
+    {
+      "file": "ATOMUSDT-1d-2022-04.zip",
+      "sha256": "20434b18a9d58ddaf59324aa345acc2658220b3ab7b3662afa14b275ada9d274"
+    },
+    {
+      "file": "ATOMUSDT-1d-2022-05.zip",
+      "sha256": "493128542a8b5f2f46caac4027dc62c2dfd0d5bcb8fdbfc8a5acb9471c00f0f1"
+    },
+    {
+      "file": "ATOMUSDT-1d-2022-06.zip",
+      "sha256": "f680eb2c92a8bf9f41c1321830134c3494c733f01951650f96ff6e819dfaf080"
+    },
+    {
+      "file": "ATOMUSDT-1d-2022-07.zip",
+      "sha256": "f57e23e662b697010aa369556c4068739bc67f79d9f5095d13204bcdc880caa4"
+    },
+    {
+      "file": "ATOMUSDT-1d-2022-08.zip",
+      "sha256": "34585888b9ed85176819aec89efab274f75dd2b6f133d1f2dac5775795240137"
+    },
+    {
+      "file": "ATOMUSDT-1d-2022-09.zip",
+      "sha256": "66b245b652d1082ac14e04e6b706448eda441e1bb27b4d9d1cd15ec84595fbc4"
+    },
+    {
+      "file": "ATOMUSDT-1d-2022-10.zip",
+      "sha256": "437de944e881833071914ac96cbe17efa645ee1b79a85f32e4de124fa1019ad6"
+    },
+    {
+      "file": "ATOMUSDT-1d-2022-11.zip",
+      "sha256": "66800ac833052ecab3ff3c64b847af2f8855e2574e31f0d9939768a90eec3a4d"
+    },
+    {
+      "file": "ATOMUSDT-1d-2022-12.zip",
+      "sha256": "bb0d13c2a839aee0ce80999bc7d02a8e0d7faa076f1532c4324672c2c6677ede"
+    },
+    {
+      "file": "ATOMUSDT-1d-2023-01.zip",
+      "sha256": "f173b4e240428dc98c4df7fb53749945c9e691565534f08ac21a10db96f2ba67"
+    },
+    {
+      "file": "ATOMUSDT-1d-2023-02.zip",
+      "sha256": "b13ea7b62cfb132909dd5f0296c52f287b9829ea591d48411818fda7789ca02b"
+    },
+    {
+      "file": "ATOMUSDT-1d-2023-03.zip",
+      "sha256": "67652123161977c8eede96442966748b0adbbdc86d71a733dabaf27926ce71ad"
+    },
+    {
+      "file": "ATOMUSDT-1d-2023-04.zip",
+      "sha256": "3e8763aaceed64e90cc57f3ba1b7827c0590d42bd67733b7677223811aa8e919"
+    },
+    {
+      "file": "ATOMUSDT-1d-2023-05.zip",
+      "sha256": "faa378921525ad3e29b1134477b8dbeb7af4799788a098f9f25ea8466a533091"
+    },
+    {
+      "file": "ATOMUSDT-1d-2023-06.zip",
+      "sha256": "07b06bcbd1a5782916281d902f3cac02e3db2101386975b53f62a4fee142c46c"
+    },
+    {
+      "file": "ATOMUSDT-1d-2023-07.zip",
+      "sha256": "727cfa0daa85f0a2c1e7b5e93d7960a47e58c125c6722262512c8bbe9eac29bc"
+    },
+    {
+      "file": "ATOMUSDT-1d-2023-08.zip",
+      "sha256": "ac4062f1e35df0293b78a0514cf3e70d0ee9be329c3b8d83c935c6e205cb6270"
+    },
+    {
+      "file": "ATOMUSDT-1d-2023-09.zip",
+      "sha256": "944b5674f8e96a251f11af56a3fbc2c1d90cb958436eef187a554c5df21f0d07"
+    },
+    {
+      "file": "ATOMUSDT-1d-2023-10.zip",
+      "sha256": "3d4e341104314f7e6b34b852a0a06edf4bdaa339cf7a303236dbfa16c735dc76"
+    },
+    {
+      "file": "ATOMUSDT-1d-2023-11.zip",
+      "sha256": "d04b025dc12a00f8a805755bbc2dec60f705de1feb2a83b33349b2c111e8d2c8"
+    },
+    {
+      "file": "ATOMUSDT-1d-2023-12.zip",
+      "sha256": "07781d5da410051bcb4df24516111bab1315ecd55b4e94f4f9feb74343af7ac5"
+    },
+    {
+      "file": "ATOMUSDT-1d-2024-01.zip",
+      "sha256": "cd1ae831524e89a02ab6bbc93cb416f0398db4d58856924b021a00ba92dcb77f"
+    },
+    {
+      "file": "ATOMUSDT-1d-2024-02.zip",
+      "sha256": "9b2a53d61081e6041925656648480c2a514d4ca67cabd98b79d8e87c5a4eecde"
+    },
+    {
+      "file": "ATOMUSDT-1d-2024-03.zip",
+      "sha256": "9d9c78f18ee297137a7c6adfff3a2a430d78d978c320c107677206b980951dd3"
+    },
+    {
+      "file": "ATOMUSDT-1d-2024-04.zip",
+      "sha256": "b7eabfbd5ca054d577a00bc99e2bd63581f3194fb59bada5e46ae2063cb1951f"
+    },
+    {
+      "file": "ATOMUSDT-1d-2024-05.zip",
+      "sha256": "c3cb033087baaa0f973986703a19338a2f0315dc53c1c4832b489b981aca8575"
+    },
+    {
+      "file": "ATOMUSDT-1d-2024-06.zip",
+      "sha256": "87b7ffb34d6d9cc88260613d290892202db6fa47264cd3aab8b086294bad23eb"
+    },
+    {
+      "file": "ATOMUSDT-1d-2024-07.zip",
+      "sha256": "062293e089c77317ca82b6741ade2eb01032261567b772239ddf9afda7379a6c"
+    },
+    {
+      "file": "ATOMUSDT-1d-2024-08.zip",
+      "sha256": "71fafe5485dc57d68caf42277f9614936d2ecd4ea08b943773b2724cbbacccfd"
+    },
+    {
+      "file": "ATOMUSDT-1d-2024-09.zip",
+      "sha256": "4c8cc04eaa2fa1f080d740a4653da660be4500e99366c3678419eb6b534ab3d2"
+    },
+    {
+      "file": "ATOMUSDT-1d-2024-10.zip",
+      "sha256": "5fe54e46969ffea5853dcdca6fd513bc74b8420f52eb51b635e7daa85a64b14f"
+    },
+    {
+      "file": "ATOMUSDT-1d-2024-11.zip",
+      "sha256": "e2b8519099ce13c8a887cbc25ff0bfba5fa3f8070f514239ff34764e9de4e318"
+    },
+    {
+      "file": "ATOMUSDT-1d-2024-12.zip",
+      "sha256": "021d7983f42e4de8eda3d54a8f8da2761d7f08e1da988bf28cc6cef4fab29c04"
+    },
+    {
+      "file": "ATOMUSDT-1d-2025-01.zip",
+      "sha256": "6d3f13cb69d9205e52f54ce16882b05dc9b7188f3244e79362455ad3acb6a943"
+    },
+    {
+      "file": "ATOMUSDT-1d-2025-02.zip",
+      "sha256": "e931e4e86e725baf230a977469674176e39fd8f192664c09573820eba4235327"
+    },
+    {
+      "file": "ATOMUSDT-1d-2025-03.zip",
+      "sha256": "076176ca96ccbdc94025bca280a7c7edf6464a0f2b7295933d784aaabc9a0b7c"
+    },
+    {
+      "file": "ATOMUSDT-1d-2025-04.zip",
+      "sha256": "d97b79ba89c4447d22249d1aea6484cb70cf4842d8d3a98dbe6a1f86ed24c4e2"
+    },
+    {
+      "file": "ATOMUSDT-1d-2025-05.zip",
+      "sha256": "5d13d76d4e9612a4d1dc3dd023ee23135bdccfc507dd560ac09b97afdd0d3f50"
+    },
+    {
+      "file": "ATOMUSDT-1d-2025-06.zip",
+      "sha256": "b9580998c977a7c70001d4a23c320390a62998d90ccc66637ec7439155c34892"
+    },
+    {
+      "file": "ATOMUSDT-1d-2025-07.zip",
+      "sha256": "141dac914d48f135b8bf9b875c06c976ab364073d3be7742489148d040d47773"
+    },
+    {
+      "file": "ATOMUSDT-1d-2025-08.zip",
+      "sha256": "f9e66f28971677b5cac34176bf4169f5b517c1ac23ec73cce823c787c4f614af"
+    },
+    {
+      "file": "ATOMUSDT-1d-2025-09.zip",
+      "sha256": "78920f07e9282390f067696cf65cdef48251aa3d54271d1e32d8aa12cabba934"
+    },
+    {
+      "file": "ATOMUSDT-1d-2025-10.zip",
+      "sha256": "1b25538eb865061ebae58381a0f45c7e941d2712fc34708b1231ba3bbb4bed0e"
+    },
+    {
+      "file": "ATOMUSDT-1d-2025-11.zip",
+      "sha256": "5d2c5ecd3513aa793e0d057285d61cfa6ed30bcf2e5f17a162a935d88ffb2e57"
+    },
+    {
+      "file": "ATOMUSDT-1d-2025-12.zip",
+      "sha256": "0c9807363ab43d6e47242a7bb3bda8ee33271374051954c78188d77cfbb030ad"
+    },
+    {
+      "file": "ATOMUSDT-1d-2026-01.zip",
+      "sha256": "3e5454250e6997683b12db862c3c1bc1d68e102a778ce65d92ffdd39b38b670b"
+    },
+    {
+      "file": "ATOMUSDT-1d-2026-02.zip",
+      "sha256": "e3d818b7fb1708c4ccbad215b4bc683e78e41b0cb736d5204114893124fa41cd"
+    },
+    {
+      "file": "ATOMUSDT-1d-2026-03.zip",
+      "sha256": "9b699794c0b6aeb1811910811bd4ff661a14eac8c1cccc14a2512d861ba04fb9"
+    },
+    {
+      "file": "ATOMUSDT-1d-2026-04.zip",
+      "sha256": "b5bd0afbbff555d368631d3f39a3bafcb2744ca2788633fb0b8a96e17c9917e7"
+    },
+    {
+      "file": "ATOMUSDT-1d-2026-05.zip",
+      "sha256": "a6e8bb85eedd2026e718ccfea2eb2d129b1624d7d5bf855497559652b71fc3e7"
+    },
+    {
+      "file": "ATOMUSDT-1d-2026-06.zip",
+      "sha256": "7ccb0518efa191aacf29b751ae4975280c285453abbf20cc8e63f1169670764b"
+    },
+    {
+      "file": "ATOMUSDT-1d-2026-07.zip",
+      "sha256": "099a456a61cde26c27e92c78c6b8bcdda9825de9306f540d52db0704ed58b536"
+    },
+    {
+      "file": "ATOMUSDT-1d-2026-08.zip",
+      "sha256": "8575d4bcc2ec7125817a78c05ca0bc6d2137b788310c8fb1ba691aa536e7263a"
+    },
+    {
+      "file": "ATOMUSDT-1d-2026-09.zip",
+      "sha256": "9d07305c4b7c6e1d2e2dd988464a203f0a701cd8d148ea505a9c84695972122e"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

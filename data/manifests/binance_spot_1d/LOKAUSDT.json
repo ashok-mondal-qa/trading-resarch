@@ -1,0 +1,197 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/LOKAUSDT/1d/",
+  "instrument": "LOKAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-01-20",
+  "last_bar": "2025-07-28",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:38:07+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1286,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "LOKAUSDT-1d-2022-01.zip",
+      "sha256": "3534687317dd5516bdd13f18822bceb85d32d1cb60c222371672ff6fca6fa400"
+    },
+    {
+      "file": "LOKAUSDT-1d-2022-02.zip",
+      "sha256": "6a0aecbb335ddcbdf8b9767d79814b01aaf9b013ae14183cda4b2f6bb559da56"
+    },
+    {
+      "file": "LOKAUSDT-1d-2022-03.zip",
+      "sha256": "14d402cb1ff0ac379dcbb9d1211722bc8a1a4f88c7ee80030cd106bc9e77ecd8"
+    },
+    {
+      "file": "LOKAUSDT-1d-2022-04.zip",
+      "sha256": "43de7888e977d45efa50c71339eb6ec8ac37b2a2ace2bf386e2dd7083a5ad0d6"
+    },
+    {
+      "file": "LOKAUSDT-1d-2022-05.zip",
+      "sha256": "2f317620e824ecda8916daa97d4171d89b70661974672f9c45a2698c8f87e673"
+    },
+    {
+      "file": "LOKAUSDT-1d-2022-06.zip",
+      "sha256": "acc0e9db082f2a9df53df41ea101f47d10846ef37902886ec03f33b64d9a5843"
+    },
+    {
+      "file": "LOKAUSDT-1d-2022-07.zip",
+      "sha256": "b1167167ebe84630873de39325704524a9c601f1c98919b42d145f12325e2065"
+    },
+    {
+      "file": "LOKAUSDT-1d-2022-08.zip",
+      "sha256": "2f57139e206b0e1b9f4dac9af5ca4884332cda01c4544210fe93508ae7a81a3e"
+    },
+    {
+      "file": "LOKAUSDT-1d-2022-09.zip",
+      "sha256": "305d55f22f88bb2667bdb8f9ad1b99e7c56c89bf458d97638d0f43f514602743"
+    },
+    {
+      "file": "LOKAUSDT-1d-2022-10.zip",
+      "sha256": "4074918457d94bdddc81acdc8ecb4424c179f273c33dd83ad313d24934096440"
+    },
+    {
+      "file": "LOKAUSDT-1d-2022-11.zip",
+      "sha256": "cee1dd575b5e91729b670745e05062173e37f79c701c2b857b2d7eeef6b79885"
+    },
+    {
+      "file": "LOKAUSDT-1d-2022-12.zip",
+      "sha256": "edc6a07b51ec30952e3627e7374da893baa7ea9c2fc0cafda9ed57b0a389b24a"
+    },
+    {
+      "file": "LOKAUSDT-1d-2023-01.zip",
+      "sha256": "c96fd12170cbf5b8fce8c60d1330665a6d3b1424bcecaa7185b4cf9ae8fc8005"
+    },
+    {
+      "file": "LOKAUSDT-1d-2023-02.zip",
+      "sha256": "17878759ad1b3a0de694e40f4218db5edfad446201ee67507ec3efbcc4692c80"
+    },
+    {
+      "file": "LOKAUSDT-1d-2023-03.zip",
+      "sha256": "c84bdc6db177723ad3603ca8cec4eeeae03020eb774710b3485e5bd6e772153c"
+    },
+    {
+      "file": "LOKAUSDT-1d-2023-04.zip",
+      "sha256": "a82b985a553d121ab712cca085e7d08e9dd85f4bbaa2f7ea1fbb4f754fa34fa1"
+    },
+    {
+      "file": "LOKAUSDT-1d-2023-05.zip",
+      "sha256": "a71453c39db9cdc0386416d634c1926bc648645c2ccd9fe0054b2669f8543d94"
+    },
+    {
+      "file": "LOKAUSDT-1d-2023-06.zip",
+      "sha256": "5ee56e116484ef11f439964115da94eda33aee19a08f6f7d2a42ab3a87384686"
+    },
+    {
+      "file": "LOKAUSDT-1d-2023-07.zip",
+      "sha256": "f6da02bef22a297a07b8940aa1783e50ef48b8a68f44659637c6db918d928e2a"
+    },
+    {
+      "file": "LOKAUSDT-1d-2023-08.zip",
+      "sha256": "05c00d41ea32a75ed58bc0e3455d71e778a192ba85b550194ffeabb8909dc5cb"
+    },
+    {
+      "file": "LOKAUSDT-1d-2023-09.zip",
+      "sha256": "2351938a8d5d471ddf9db9b670e30aa33671db1c60bab960b507ea312409b7c5"
+    },
+    {
+      "file": "LOKAUSDT-1d-2023-10.zip",
+      "sha256": "0002ba251c0d71ee6f64a455a512d419adf7d5c9b39881a10a2056d57515dfca"
+    },
+    {
+      "file": "LOKAUSDT-1d-2023-11.zip",
+      "sha256": "9d4a95a22510038a036061e093a83aee14920821020642bbd68730bba6b77d4d"
+    },
+    {
+      "file": "LOKAUSDT-1d-2023-12.zip",
+      "sha256": "5733ecb1ec683606bf994517c4fdcc4fd2e0e4beae7e4130b75ba8ae81530429"
+    },
+    {
+      "file": "LOKAUSDT-1d-2024-01.zip",
+      "sha256": "9a10493645c5ee479185d2e2486f3f28f55319b33c97344f4b83cf0c4530bc44"
+    },
+    {
+      "file": "LOKAUSDT-1d-2024-02.zip",
+      "sha256": "7db0966dd9e1ce24f55fa5137b7fa2548128f184c8930fc8bf53c2fd3ddd02c7"
+    },
+    {
+      "file": "LOKAUSDT-1d-2024-03.zip",
+      "sha256": "42164bc5a13ba418eea133799583788872c42f9d8d576f9945de3d6b20de5a9a"
+    },
+    {
+      "file": "LOKAUSDT-1d-2024-04.zip",
+      "sha256": "5eb044dfb53d117bce8881e981b039b20f1da8a1b7c5d45b01627708e2fbe12e"
+    },
+    {
+      "file": "LOKAUSDT-1d-2024-05.zip",
+      "sha256": "a59bf1024a01300af59f89c6e406abbe8c7223c245b35fb885bfe3c8613f031f"
+    },
+    {
+      "file": "LOKAUSDT-1d-2024-06.zip",
+      "sha256": "4cd0353acb70cb769fc239355392c4047b05d6a01ca03668e7e1e3583422e0f5"
+    },
+    {
+      "file": "LOKAUSDT-1d-2024-07.zip",
+      "sha256": "54da3253be3fd370bb10abfd9b89a7629257346bad66e18917c1387d2344dea8"
+    },
+    {
+      "file": "LOKAUSDT-1d-2024-08.zip",
+      "sha256": "b19c0dc7d797d084bb0cdd976172944ffb056a42888f35e6263c7da1cb76ed3c"
+    },
+    {
+      "file": "LOKAUSDT-1d-2024-09.zip",
+      "sha256": "210823f47d5bcf75cd6964290b42876929f933c34483cdb6e0e6834b66d5716f"
+    },
+    {
+      "file": "LOKAUSDT-1d-2024-10.zip",
+      "sha256": "dedb6e464bc489c946a9108176ea8dc410960b16b6810e85a3ef0fd35a851f98"
+    },
+    {
+      "file": "LOKAUSDT-1d-2024-11.zip",
+      "sha256": "29de595e5c93054106c872e181a9757f2bced5724025c8eec4774f68a4c712d9"
+    },
+    {
+      "file": "LOKAUSDT-1d-2024-12.zip",
+      "sha256": "115ef90fe8667f28d2fc03b6002d47eb31fe3a9d47936e8f0f108b9f873b9729"
+    },
+    {
+      "file": "LOKAUSDT-1d-2025-01.zip",
+      "sha256": "7e6db4ce99a88f9cd58b98257a3158a8da45805c0ccf87c137094fb8c7e3a851"
+    },
+    {
+      "file": "LOKAUSDT-1d-2025-02.zip",
+      "sha256": "b0814d38271d19eb93e4ed41bb94f16bd828726e241b533db0f00bd2028b7f5c"
+    },
+    {
+      "file": "LOKAUSDT-1d-2025-03.zip",
+      "sha256": "5d60fa6c0ee1be17f7060bd36c58dd2b5688c9f9891d7c1dba71574a044009d8"
+    },
+    {
+      "file": "LOKAUSDT-1d-2025-04.zip",
+      "sha256": "c398b302382b3429c55961665415b04ace6a69d2d0da47a14d0e7eb309b9b74a"
+    },
+    {
+      "file": "LOKAUSDT-1d-2025-05.zip",
+      "sha256": "6a13015cf852d23793cb5f3519079bd370c912b9d4243b17fa2f06ec6ec0cbb0"
+    },
+    {
+      "file": "LOKAUSDT-1d-2025-06.zip",
+      "sha256": "718b717d3d91ef66def0481826744b262bc7095a6d75b2fb0c85b2a13ba77bc8"
+    },
+    {
+      "file": "LOKAUSDT-1d-2025-07.zip",
+      "sha256": "c608f62391b827d6dd8cc1c84874b8147bc99307449dd336ef12cc2e6581ddeb"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

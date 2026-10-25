@@ -1,0 +1,69 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/STORMUSDT/1d/",
+  "instrument": "STORMUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-08-27",
+  "last_bar": "2020-06-08",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:45:42+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 287,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "STORMUSDT-1d-2019-08.zip",
+      "sha256": "43ef0f95794f611f9e350f1bde404caf5b04d26f9bb129c8fb6d1ddd8ab7275f"
+    },
+    {
+      "file": "STORMUSDT-1d-2019-09.zip",
+      "sha256": "e890fea1ea966a287e007261b528af1d4a91a25315f9a36f6bfb977d461465de"
+    },
+    {
+      "file": "STORMUSDT-1d-2019-10.zip",
+      "sha256": "db5d0237f79cf309fe468f6e4d40dbb1c3a48a81507043d41a752f142d7eb781"
+    },
+    {
+      "file": "STORMUSDT-1d-2019-11.zip",
+      "sha256": "5f8bc2465e00dcf23ee4d76be27847627a50ee2ba6d16ab0b9d12a82bff39e7b"
+    },
+    {
+      "file": "STORMUSDT-1d-2019-12.zip",
+      "sha256": "19a1a07293af45808e7d0e8a6828488b7e1b87c1c21d20ccb67ba5c30298483c"
+    },
+    {
+      "file": "STORMUSDT-1d-2020-01.zip",
+      "sha256": "90c463fc4c6ca131a8e361e2c7025f55e27a53178fbaa13539726bebdc7669d7"
+    },
+    {
+      "file": "STORMUSDT-1d-2020-02.zip",
+      "sha256": "523870736a6df490848b7cef4ac712dc7b8d17ec4a19bff58119cceae661770b"
+    },
+    {
+      "file": "STORMUSDT-1d-2020-03.zip",
+      "sha256": "88e91ff806ca60f5880ad504e0679400751ed78c53210b45b5a76fc69fcb031a"
+    },
+    {
+      "file": "STORMUSDT-1d-2020-04.zip",
+      "sha256": "73054a41225d795dda1def75bf7c7653b48ad2f83ccdff24d781caad8d951fa6"
+    },
+    {
+      "file": "STORMUSDT-1d-2020-05.zip",
+      "sha256": "d0ba0e3bbc2ba1b3d0e9f2c3f5af3af603343cca9187318d0ff567dd858ee63d"
+    },
+    {
+      "file": "STORMUSDT-1d-2020-06.zip",
+      "sha256": "d6bcb81ce17f23ddba01a835562a5db086b9a4d30bfabd2cea9d6eb61175a46d"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

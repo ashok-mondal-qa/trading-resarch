@@ -1,0 +1,429 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/XRPUSDT/1d/",
+  "instrument": "XRPUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2018-05-04",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:50:42+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 3072,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "XRPUSDT-1d-2018-05.zip",
+      "sha256": "f8006055ddb56cf76995a5968e9ae77c7af70ec7fac3231e7cbda064eb2d25e4"
+    },
+    {
+      "file": "XRPUSDT-1d-2018-06.zip",
+      "sha256": "6f864d35d6a07081c4b294e3d6c2d3c1114d5a63864efc89b92c43f908a7bdf8"
+    },
+    {
+      "file": "XRPUSDT-1d-2018-07.zip",
+      "sha256": "7f06e273ddf51c090e683cb7f8139b2c6b6a124a608079b3485ebc80d029480e"
+    },
+    {
+      "file": "XRPUSDT-1d-2018-08.zip",
+      "sha256": "63863a88505124d1abbe1e3242602ff4127946863aa92ae0f67315fb12ca25be"
+    },
+    {
+      "file": "XRPUSDT-1d-2018-09.zip",
+      "sha256": "0b45f0a6e337f4e04c280da40dddbf72e0cd37fb1a421563fe9bbf975ac6c6a2"
+    },
+    {
+      "file": "XRPUSDT-1d-2018-10.zip",
+      "sha256": "2a9a62b403140f7572db597c56be3a2ca79f3a0baf9a60b9cda64723e4e487c7"
+    },
+    {
+      "file": "XRPUSDT-1d-2018-11.zip",
+      "sha256": "9b218a7de4ab34334069c19ce99877e57d30f3e712e0f7737947e94b70f5888f"
+    },
+    {
+      "file": "XRPUSDT-1d-2018-12.zip",
+      "sha256": "b69fbc69315754424ecd913f955cc13fa634cd9b39883108223b66b50871d094"
+    },
+    {
+      "file": "XRPUSDT-1d-2019-01.zip",
+      "sha256": "aaaea822828bf014de70341fbf30e70b9b9002a62bdf2c166a35e77fbdb89931"
+    },
+    {
+      "file": "XRPUSDT-1d-2019-02.zip",
+      "sha256": "1b55ec7581c85a6cbac4a2f8fb5fc317594edb538ec6630e1de41345ca6059a7"
+    },
+    {
+      "file": "XRPUSDT-1d-2019-03.zip",
+      "sha256": "f0272b5075489c8a793215ea7ae2cd80ed0967d361f5c86a3a2878921eb654de"
+    },
+    {
+      "file": "XRPUSDT-1d-2019-04.zip",
+      "sha256": "ec5ad9b94701a9e0d52ec0b39e49e71b0ac93efc09b953ebef4b9975826f819e"
+    },
+    {
+      "file": "XRPUSDT-1d-2019-05.zip",
+      "sha256": "de25e5ca2d2d116e5cb91868c56ddd91d838de4f0b3ad7ea82a64e55cf1f373a"
+    },
+    {
+      "file": "XRPUSDT-1d-2019-06.zip",
+      "sha256": "c376b2aff021bca414fad1e83265ab7bf426086b67848158eaf13438da055c51"
+    },
+    {
+      "file": "XRPUSDT-1d-2019-07.zip",
+      "sha256": "06caa0bbfab12f39bc9d86aed91bc29c8d543d48c6656d9e2eb0345df4838db9"
+    },
+    {
+      "file": "XRPUSDT-1d-2019-08.zip",
+      "sha256": "35a8a286afb654b51974c862e5df014bc25c6351fb21f440ce267d7816f9e5cb"
+    },
+    {
+      "file": "XRPUSDT-1d-2019-09.zip",
+      "sha256": "f9b0f4bb64906f5c195198db73ab8f6bf766856354a272c71c697e82efd82198"
+    },
+    {
+      "file": "XRPUSDT-1d-2019-10.zip",
+      "sha256": "2c6b02d3544aaee4dbcfb9087aacd5852320d1654c05d0747eb2f9650888d6d1"
+    },
+    {
+      "file": "XRPUSDT-1d-2019-11.zip",
+      "sha256": "a5e7f061fc88ef693fcc028ea868b30a410ea8ac7bfc266005617c44bf58e100"
+    },
+    {
+      "file": "XRPUSDT-1d-2019-12.zip",
+      "sha256": "52e98eacd9be0234d683651afe788a0f13b3bec042adec4fce7b2a2c359eae54"
+    },
+    {
+      "file": "XRPUSDT-1d-2020-01.zip",
+      "sha256": "6d233df9242d22fbf1d9f8b00b018dfe2e4fe5a9c7432a4c3d8a5f7a2c3fadef"
+    },
+    {
+      "file": "XRPUSDT-1d-2020-02.zip",
+      "sha256": "d678cae33f2d576468e707cd2b40799d7728a9ed0dc07f68915e3d76a462f96e"
+    },
+    {
+      "file": "XRPUSDT-1d-2020-03.zip",
+      "sha256": "11de79c36b11a6549498b9f298d6c846ade4f8776c941f4a302316780c919550"
+    },
+    {
+      "file": "XRPUSDT-1d-2020-04.zip",
+      "sha256": "ceb065861878366a8c9c71e38e97a5f99d8473e62c981d945ff27defb32dba86"
+    },
+    {
+      "file": "XRPUSDT-1d-2020-05.zip",
+      "sha256": "d9256ff5abfd7ae9c6991cda9c6bda4ead885da655d049aab19f28d578ecbddc"
+    },
+    {
+      "file": "XRPUSDT-1d-2020-06.zip",
+      "sha256": "44162ba1ac5e7b31db76f5798ab2cad73b5e12de4084fdbd6547ce6fee602534"
+    },
+    {
+      "file": "XRPUSDT-1d-2020-07.zip",
+      "sha256": "75307a63512d929cdbfbc8ed220a8e813e8fc275e4258c55981e1030499b22be"
+    },
+    {
+      "file": "XRPUSDT-1d-2020-08.zip",
+      "sha256": "493372b00d49d4ca0a4c78e0b30f4cefd4a14fec576a5bab8c89408a5f29efa7"
+    },
+    {
+      "file": "XRPUSDT-1d-2020-09.zip",
+      "sha256": "556c7a7c968ee8726d1af4436fd5d587118486dd90fb61f7b6791dc063b8c1ee"
+    },
+    {
+      "file": "XRPUSDT-1d-2020-10.zip",
+      "sha256": "3c1c5f6def1060e10e8c1607cadfe426f765a5fb25421f44d433a7b727d78dda"
+    },
+    {
+      "file": "XRPUSDT-1d-2020-11.zip",
+      "sha256": "2b861e841478996e54a260f3b818b937b7ffd9e3d008723f5263198a53a0b136"
+    },
+    {
+      "file": "XRPUSDT-1d-2020-12.zip",
+      "sha256": "56f6e592c1da5401af7082e345a937d3dc3157ee91e465e54f9f777ffdb077ab"
+    },
+    {
+      "file": "XRPUSDT-1d-2021-01.zip",
+      "sha256": "53b2af75344e28cf5b87c6b88451cff0c5155c511ebd776a357a38b60aa7511b"
+    },
+    {
+      "file": "XRPUSDT-1d-2021-02.zip",
+      "sha256": "c307b2f377c74b15aaabc2fe147f4b6828a0347233ca73c6c263c46b55769119"
+    },
+    {
+      "file": "XRPUSDT-1d-2021-03.zip",
+      "sha256": "3c3e4b7aaa07ba8f43ffc5fe9b0079d56f00fafcd7848870ff5149571cf091f9"
+    },
+    {
+      "file": "XRPUSDT-1d-2021-04.zip",
+      "sha256": "9c7051467d928c789f00ecd81b417539e2d57252278f24a4b3075fbae5d9ca4f"
+    },
+    {
+      "file": "XRPUSDT-1d-2021-05.zip",
+      "sha256": "c21aade0e23847c36447bc7484bbb74f730d7e584779e5069e9b2d6e5a8db0db"
+    },
+    {
+      "file": "XRPUSDT-1d-2021-06.zip",
+      "sha256": "c6ea29b2ee938d6cd69355c5dc5651be1cd5b186f417a19c7660d1191b8564ae"
+    },
+    {
+      "file": "XRPUSDT-1d-2021-07.zip",
+      "sha256": "6b7489a4ee06c0e8caa6c6895ef26d289c2f6f6a43169f177e85c90fca2ccc89"
+    },
+    {
+      "file": "XRPUSDT-1d-2021-08.zip",
+      "sha256": "9dd6d014a6b4e12e10fdec3d26197141a49d3a23bd5a451fe8abdf552062f611"
+    },
+    {
+      "file": "XRPUSDT-1d-2021-09.zip",
+      "sha256": "b5ed02c6aa63dbbaa255e84887fe9b6eac1d54225b94c8c258218ffafc0ad63e"
+    },
+    {
+      "file": "XRPUSDT-1d-2021-10.zip",
+      "sha256": "7f5a25774455bd74ccc0cd9d7e233c8ecf0167f366140936f0edc9d6a607752b"
+    },
+    {
+      "file": "XRPUSDT-1d-2021-11.zip",
+      "sha256": "ef825d7243a3f7871af370cc6d3a63e159254d3e03d7b7a5e908ec59afdc9ca0"
+    },
+    {
+      "file": "XRPUSDT-1d-2021-12.zip",
+      "sha256": "a2c2348f54a0da8cd1d90fbba6bb90cfd8d5adcc5c71656b898cd3e5677c8ae2"
+    },
+    {
+      "file": "XRPUSDT-1d-2022-01.zip",
+      "sha256": "41ebf5ea4b08c2b5eff9cedc9a7f1a94c82b8b2714d7328dc38bd28b37e83f1c"
+    },
+    {
+      "file": "XRPUSDT-1d-2022-02.zip",
+      "sha256": "6ed8b24c43e0c27d5d2f55d17e065060c1acdb193b48b37a59b8a341f49e80ba"
+    },
+    {
+      "file": "XRPUSDT-1d-2022-03.zip",
+      "sha256": "f24700067ee73f7a6332324dafa793cee60c211652b958abb6af5dbb58474f30"
+    },
+    {
+      "file": "XRPUSDT-1d-2022-04.zip",
+      "sha256": "9365367487e1839d85fb09553cb049ef36053fc33393c8baa4eaf84421dd7e75"
+    },
+    {
+      "file": "XRPUSDT-1d-2022-05.zip",
+      "sha256": "2c75f5fb14c7d7bb261c88bbec05089e0930a95f31152893b291a6f3312016d3"
+    },
+    {
+      "file": "XRPUSDT-1d-2022-06.zip",
+      "sha256": "0ab3e8fd000fae80b1de3eb1d929fa83c2509dc419428e98e1219dff520f1564"
+    },
+    {
+      "file": "XRPUSDT-1d-2022-07.zip",
+      "sha256": "8890abf0a4ad78adb010a73bec02345a089b37594fe7288a22c42382934fb45b"
+    },
+    {
+      "file": "XRPUSDT-1d-2022-08.zip",
+      "sha256": "ce580f5537079389719850790799957109fb66cfeef6f75c9ce83d5b0516dc6e"
+    },
+    {
+      "file": "XRPUSDT-1d-2022-09.zip",
+      "sha256": "8da4fa67267f0c3951dd6e2a26e086cb13a8bdbb26e07eaee95c5376e00098ec"
+    },
+    {
+      "file": "XRPUSDT-1d-2022-10.zip",
+      "sha256": "a05c1ef9219d4a75652b657974b33a7f58f4bce6679e0016fd3eeb7bff0b8534"
+    },
+    {
+      "file": "XRPUSDT-1d-2022-11.zip",
+      "sha256": "0164f972460dc83b469bcb60b31fa314141f6aa6706001fc42ded8073bde9463"
+    },
+    {
+      "file": "XRPUSDT-1d-2022-12.zip",
+      "sha256": "202fed22611f52fb7c8e7459a15482136de30cfb6f9aa3b6f7172ebc204e2156"
+    },
+    {
+      "file": "XRPUSDT-1d-2023-01.zip",
+      "sha256": "8be26490687e21718f03fc24138a2b2369b67eed27cd2a4df2341bd9de1ff8f1"
+    },
+    {
+      "file": "XRPUSDT-1d-2023-02.zip",
+      "sha256": "3980f23c45e2512de04b3b35dfd3c74847397544c3878a5aa577aee7f0400e6c"
+    },
+    {
+      "file": "XRPUSDT-1d-2023-03.zip",
+      "sha256": "00dc37357422723ce04e7871d05d89454f7ac16758a29b5d6eb990ed8d647589"
+    },
+    {
+      "file": "XRPUSDT-1d-2023-04.zip",
+      "sha256": "9ae8857bfcda35413ece8f8d038ab0ad7a6b810bef0552a008ab162c393d251a"
+    },
+    {
+      "file": "XRPUSDT-1d-2023-05.zip",
+      "sha256": "4d407d9b06d7b8af4263cb6a02dd72d762b82b3fac747044407095661cc4b0a2"
+    },
+    {
+      "file": "XRPUSDT-1d-2023-06.zip",
+      "sha256": "fc2055e68aff582d847adbfdc2fbca7cb9fcbae4811e5068a5f5a41d81212db9"
+    },
+    {
+      "file": "XRPUSDT-1d-2023-07.zip",
+      "sha256": "2e9c69ad1ac561bb0884f934d6a15a87be3d8b657b5852d5a78e7f9119f4f194"
+    },
+    {
+      "file": "XRPUSDT-1d-2023-08.zip",
+      "sha256": "7265881181ea7542fd0fc7c765256a53ad26c0e9ed219be4ee616991b58c5f84"
+    },
+    {
+      "file": "XRPUSDT-1d-2023-09.zip",
+      "sha256": "480c0f760cd26249c93f8df3939376e27df741fd40052f627a1272e00eb1d236"
+    },
+    {
+      "file": "XRPUSDT-1d-2023-10.zip",
+      "sha256": "9c5280a4bee20f99e1c5b808a7eb321768370e82d49c706c71225aa9d2587733"
+    },
+    {
+      "file": "XRPUSDT-1d-2023-11.zip",
+      "sha256": "7c88be1782d857618087bd828bbfd45e828dc9cc7e6e64eda0fa0b70dc107508"
+    },
+    {
+      "file": "XRPUSDT-1d-2023-12.zip",
+      "sha256": "92de6e8836a3f349b485a13664305526a597b90eecc1be9fc1f4cbee51d48f78"
+    },
+    {
+      "file": "XRPUSDT-1d-2024-01.zip",
+      "sha256": "8f7f49bd9983bb41300d1e34b9f1f2c8f71eb83a59e8f80e4e8dc0f25be398e5"
+    },
+    {
+      "file": "XRPUSDT-1d-2024-02.zip",
+      "sha256": "a9397519b2c63d7975647cc25da8e0402d681daa40f1ffa53abd72ff4339518f"
+    },
+    {
+      "file": "XRPUSDT-1d-2024-03.zip",
+      "sha256": "bb59eb280b27bb4b8f53fb451a371be2d5792de73a3ba5855fef9f06036ae2df"
+    },
+    {
+      "file": "XRPUSDT-1d-2024-04.zip",
+      "sha256": "c01cebab808784c9ace45e07f4fa0a0eebcfab9ac2434ba91e4ba10e0bd12e59"
+    },
+    {
+      "file": "XRPUSDT-1d-2024-05.zip",
+      "sha256": "f41ee9027a174e557c1e77864565d98fa3657661eccefd378cbb31b6aa0fff0c"
+    },
+    {
+      "file": "XRPUSDT-1d-2024-06.zip",
+      "sha256": "67373424c870228cc94683da6a3f8cf502a9ed9d862881bd3f76b0cabee71e97"
+    },
+    {
+      "file": "XRPUSDT-1d-2024-07.zip",
+      "sha256": "614caa7bf49eef199b9ac2aca0584b1c867378d0be244711f33a41bf62dbd8f3"
+    },
+    {
+      "file": "XRPUSDT-1d-2024-08.zip",
+      "sha256": "ff037823bd6a03610bf098d3fd1424a19e6685c649045dd450e08d2cc288b951"
+    },
+    {
+      "file": "XRPUSDT-1d-2024-09.zip",
+      "sha256": "93486c5b023b290da8fb1f46d8960d43bb0fa728ba0760bb27233bfc61d0de22"
+    },
+    {
+      "file": "XRPUSDT-1d-2024-10.zip",
+      "sha256": "8412c6971d6c3086dae895bd8d5653ab1af3509e7760ac0e57cf1183e3d5c912"
+    },
+    {
+      "file": "XRPUSDT-1d-2024-11.zip",
+      "sha256": "c1cbca9c5727d3534e3d31702f2e05bbbe3be7787f30bd9cafc1cb0902d44c1e"
+    },
+    {
+      "file": "XRPUSDT-1d-2024-12.zip",
+      "sha256": "60a2b7c038950663a77d9a278966bc47a78eac9655d563f89e9f2412efcfea29"
+    },
+    {
+      "file": "XRPUSDT-1d-2025-01.zip",
+      "sha256": "ec7b1875fced8764e68cc1d30aeead27c561edfad363d5df6ef3f028f9f5389b"
+    },
+    {
+      "file": "XRPUSDT-1d-2025-02.zip",
+      "sha256": "9a6c5c28897cb6e86cb61fe4cb7db39280c1e70b3ef5656bf5cbedc13186dbd7"
+    },
+    {
+      "file": "XRPUSDT-1d-2025-03.zip",
+      "sha256": "c69e081f70180dd104d4b2450df50a82929a68b0624fc8d62be284f81c1c70a9"
+    },
+    {
+      "file": "XRPUSDT-1d-2025-04.zip",
+      "sha256": "79a74d1c7983e25e16fcf94b593bf4a4b320a89646c6074408e3a9fa49b1016c"
+    },
+    {
+      "file": "XRPUSDT-1d-2025-05.zip",
+      "sha256": "a0a07682d6614ce92e17311faf4b8f0380432ea542f180c3dd0368c99555345d"
+    },
+    {
+      "file": "XRPUSDT-1d-2025-06.zip",
+      "sha256": "b24e70d686bab388e6ceb1488d123b945b5d5d8d2e2a6fbd0d45b19798a85625"
+    },
+    {
+      "file": "XRPUSDT-1d-2025-07.zip",
+      "sha256": "637fbc9a81405f5ef9b5f3ab446f26783c569455e41c36cff0a66926a976d0a1"
+    },
+    {
+      "file": "XRPUSDT-1d-2025-08.zip",
+      "sha256": "01eca9b56f8fe903c55fbcb449cc7abadb3a7723ef5cfe41acc1f3be28b669e4"
+    },
+    {
+      "file": "XRPUSDT-1d-2025-09.zip",
+      "sha256": "29ddd4180a24851c64aeee16214d4dd97e2539efc60696005a9ea5f94dd3da84"
+    },
+    {
+      "file": "XRPUSDT-1d-2025-10.zip",
+      "sha256": "d367e308d78f7932b613871fec1845061b084a684cce1c2c2ebccd4a65746aca"
+    },
+    {
+      "file": "XRPUSDT-1d-2025-11.zip",
+      "sha256": "97ff3244f1e2f998cdf7e025c5e55cb611d02700a93a66ce19fbcbd27fd9b1d7"
+    },
+    {
+      "file": "XRPUSDT-1d-2025-12.zip",
+      "sha256": "b8b6dba0b895fe69b0e08a8df63200cada6763402646ca514db9879135492fd5"
+    },
+    {
+      "file": "XRPUSDT-1d-2026-01.zip",
+      "sha256": "5e509b6df000fa932495848e1e7dd9540bc65879502ad175307df8fa7a07a54a"
+    },
+    {
+      "file": "XRPUSDT-1d-2026-02.zip",
+      "sha256": "3ecee16915d6a58fc70225e8756fda99690a0f4ef8d9c96947d930d6a5a2aaa8"
+    },
+    {
+      "file": "XRPUSDT-1d-2026-03.zip",
+      "sha256": "8d15e07dad962b89650b801ee36cb31a0b24fa14991cf0b2c6074610b4d39aa6"
+    },
+    {
+      "file": "XRPUSDT-1d-2026-04.zip",
+      "sha256": "a83d0eb3caf4ce5176abe56bc1c2a38dc4ce8fd3af17f744c6f7a4714ca954d8"
+    },
+    {
+      "file": "XRPUSDT-1d-2026-05.zip",
+      "sha256": "69c62dd8ddd541c940a6a4407f7c9d1ba62bea66197a42b0047b32568f04f981"
+    },
+    {
+      "file": "XRPUSDT-1d-2026-06.zip",
+      "sha256": "a35b38fde8c3f1e43111f093780b24a5f53a0c3ddf97ddcd28897d92bcf6ed22"
+    },
+    {
+      "file": "XRPUSDT-1d-2026-07.zip",
+      "sha256": "f8edf0043650724294b91071e60395c7b89104a9e398e6375e26dc9bd394ded7"
+    },
+    {
+      "file": "XRPUSDT-1d-2026-08.zip",
+      "sha256": "c18fd681145168a70d5939373e76e2f59f2a634d1ea20e8cd65451799d26298c"
+    },
+    {
+      "file": "XRPUSDT-1d-2026-09.zip",
+      "sha256": "d3f01d012a8d9a9aa96d828b22be1703fd06881350a2fb9a3ff5a39f3b0d44c0"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/DEGOUSDT/1d/",
+  "instrument": "DEGOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-03-10",
+  "last_bar": "2026-04-28",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:31:24+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1876,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "DEGOUSDT-1d-2021-03.zip",
+      "sha256": "ad9bded674bf49d8d561ab795d077c02383e0f6234bfe7ba6272bcb518e37ca1"
+    },
+    {
+      "file": "DEGOUSDT-1d-2021-04.zip",
+      "sha256": "1e47b224d947487e6c6c31f6f521d0f991d86d80cae7ea4d9656fedcc38871f8"
+    },
+    {
+      "file": "DEGOUSDT-1d-2021-05.zip",
+      "sha256": "df1f23bc896634d822a65422f3fd51c44c82b63cfd186c20e8f071fef51080fe"
+    },
+    {
+      "file": "DEGOUSDT-1d-2021-06.zip",
+      "sha256": "704aff5ed8a9cdd34c2c11f8868f6a48fc4fc63bb51b7100ce2d733587997b9d"
+    },
+    {
+      "file": "DEGOUSDT-1d-2021-07.zip",
+      "sha256": "2041c8f4777d6b0c253061e968006756241be9a3d51803334bde952e6735efbf"
+    },
+    {
+      "file": "DEGOUSDT-1d-2021-08.zip",
+      "sha256": "160598557a555fa7db5bd6f2b08fe972b9661771fc3fa055325544e13079331a"
+    },
+    {
+      "file": "DEGOUSDT-1d-2021-09.zip",
+      "sha256": "08899498d3d7d50fea448eb7672ab8ffddb9ee0b4376f03eaa5cb54cbe30a317"
+    },
+    {
+      "file": "DEGOUSDT-1d-2021-10.zip",
+      "sha256": "c9aa91b4db42a2ddf88f290b355431eaca852a6a6625cb4ecafcd9beb6847f0a"
+    },
+    {
+      "file": "DEGOUSDT-1d-2021-11.zip",
+      "sha256": "14f62d778d4863864397212c479647cbdb4d11118284ffd44fd2a12f9c42b4cb"
+    },
+    {
+      "file": "DEGOUSDT-1d-2021-12.zip",
+      "sha256": "582e11be8010a5f49b43226c0dcfbae4535e7048c8be946799831fa2e6661899"
+    },
+    {
+      "file": "DEGOUSDT-1d-2022-01.zip",
+      "sha256": "3aa587910ea7027e0b913dc39b512c401af36082699f7e8a694909daa6c3f07f"
+    },
+    {
+      "file": "DEGOUSDT-1d-2022-02.zip",
+      "sha256": "2b4d667435aacdcd8c8c0a7fcdfb34d8e374882ea289c6dbbb6123d7dfcc6eb7"
+    },
+    {
+      "file": "DEGOUSDT-1d-2022-03.zip",
+      "sha256": "9f0370e70c80cee783fb668fc5dc8f09d7560dac35f467e2286162f00509400b"
+    },
+    {
+      "file": "DEGOUSDT-1d-2022-04.zip",
+      "sha256": "766104c7dce52f9e1a365e84346d66c8aadb6262e058a9cdee980daa06bc2734"
+    },
+    {
+      "file": "DEGOUSDT-1d-2022-05.zip",
+      "sha256": "a0d5360c1e8bbdd7132d34976dafd082023f1102f536e7f94ae21c4a92f37290"
+    },
+    {
+      "file": "DEGOUSDT-1d-2022-06.zip",
+      "sha256": "a3c1da006cb4e7e5be6feb9e14cbc6a4c2ec17636d44662394d9634c3950c071"
+    },
+    {
+      "file": "DEGOUSDT-1d-2022-07.zip",
+      "sha256": "80c80946ea52589a527a0c6cba08277fa27d421cf4c07f1fe32e80094c909325"
+    },
+    {
+      "file": "DEGOUSDT-1d-2022-08.zip",
+      "sha256": "7ab315c756c0ce51af8e077240b532caf27858cd3cf669d8d63c44163cfa5f72"
+    },
+    {
+      "file": "DEGOUSDT-1d-2022-09.zip",
+      "sha256": "65cf3aacc59f6b58f560dcf83f65e1512c29a7dbb863ec08d183358f3ee0edbd"
+    },
+    {
+      "file": "DEGOUSDT-1d-2022-10.zip",
+      "sha256": "1e4b902f8e0370e7dc5de8c1de6d31e458fbd0621edad1653ccb8e210075c7d3"
+    },
+    {
+      "file": "DEGOUSDT-1d-2022-11.zip",
+      "sha256": "e47c7ec51332174f625c877d2887269b272586a069d10711784bd4927786a718"
+    },
+    {
+      "file": "DEGOUSDT-1d-2022-12.zip",
+      "sha256": "2fd1f4915e2a99a02e7405b75fb554442a5b0daf3e67691a3b4a96ea6ace4a42"
+    },
+    {
+      "file": "DEGOUSDT-1d-2023-01.zip",
+      "sha256": "c97e1713df2eb77d279c72d032f8b497e8124b0d40edf5da60faf1ec8449fdb9"
+    },
+    {
+      "file": "DEGOUSDT-1d-2023-02.zip",
+      "sha256": "c31fa104cf594a9e7f81676863df195b68b01287e097348bd37437e301b0940f"
+    },
+    {
+      "file": "DEGOUSDT-1d-2023-03.zip",
+      "sha256": "ba8778f9ab7342393d2c0c2cf349c5d2f35c507af74836838fd828965b799f66"
+    },
+    {
+      "file": "DEGOUSDT-1d-2023-04.zip",
+      "sha256": "9acbb59eb59baf06b535005c256dc0791af0c8e3160e72757a154ef7ad6edc18"
+    },
+    {
+      "file": "DEGOUSDT-1d-2023-05.zip",
+      "sha256": "6ce21b1a8b6e288eb444772af5176e59c767fa20034b8dcd27857ba98f12d2ef"
+    },
+    {
+      "file": "DEGOUSDT-1d-2023-06.zip",
+      "sha256": "7dfd09197c387fe19897e4dc359c2f5da095d7cff03a4edcefa03605bdd93cc9"
+    },
+    {
+      "file": "DEGOUSDT-1d-2023-07.zip",
+      "sha256": "88f9e5b94758f58aaadb3364d04119291f82511bc6227096f5ee761781097853"
+    },
+    {
+      "file": "DEGOUSDT-1d-2023-08.zip",
+      "sha256": "80c5095cbdd51ce2c753cfcf17e40396c4f6b8228b20dededf9fed215bccda69"
+    },
+    {
+      "file": "DEGOUSDT-1d-2023-09.zip",
+      "sha256": "f991059a3cfa18b1905791aca8eea321071e78be8a6df722e0d899486ce30962"
+    },
+    {
+      "file": "DEGOUSDT-1d-2023-10.zip",
+      "sha256": "252272d2c870a5511563614cb00a651e8a3a4d9488698bbca7109b89cf2134ed"
+    },
+    {
+      "file": "DEGOUSDT-1d-2023-11.zip",
+      "sha256": "9c40f6c14d95be8e3e8c7ed62a567c430e781a20a41d63d05461244e8e7863a5"
+    },
+    {
+      "file": "DEGOUSDT-1d-2023-12.zip",
+      "sha256": "8c9155f017d432252ea7780529ec2a91acd8ae517a0d86b81651010b6ca25858"
+    },
+    {
+      "file": "DEGOUSDT-1d-2024-01.zip",
+      "sha256": "3e1dc5cb6f3e21930af038aff9143aa8534657fb260856ac4202a58bf5773b20"
+    },
+    {
+      "file": "DEGOUSDT-1d-2024-02.zip",
+      "sha256": "85026b91dea422654fcac7e17541f92dfa3095ca82c7d76b1df23e1e48974c6f"
+    },
+    {
+      "file": "DEGOUSDT-1d-2024-03.zip",
+      "sha256": "2bec1433ab70fd3fa3a3ee604a08132d3f95cddc76a7e812845807c74bd4f859"
+    },
+    {
+      "file": "DEGOUSDT-1d-2024-04.zip",
+      "sha256": "2f199a69b95ce0fe4d41eb7aab2d34ac81ae63dd65ac321f7c3ef3b253e1c470"
+    },
+    {
+      "file": "DEGOUSDT-1d-2024-05.zip",
+      "sha256": "2e07656fd8fe4c27ff2cf9242002dcd8bf0513018bde53501c6facbafb1a3929"
+    },
+    {
+      "file": "DEGOUSDT-1d-2024-06.zip",
+      "sha256": "e2990490fad29ebb2e26b6abab0cad39ada78ac556122a8552b21594957b0ac9"
+    },
+    {
+      "file": "DEGOUSDT-1d-2024-07.zip",
+      "sha256": "5e077e95e52675e74b32c90d7f3f876bdfbd4bfbcc0317f8951aaad480e9319f"
+    },
+    {
+      "file": "DEGOUSDT-1d-2024-08.zip",
+      "sha256": "dce6463ed2ae9365288d296a20c8f13a62853753061ddc319d4b43f2bdf9810f"
+    },
+    {
+      "file": "DEGOUSDT-1d-2024-09.zip",
+      "sha256": "8e3bc8b05edf5776505b4d349ce64b61ff2ee79be3d8570389009b9b984c5033"
+    },
+    {
+      "file": "DEGOUSDT-1d-2024-10.zip",
+      "sha256": "46a1a8c599a788102feaa5c0feb97be78cf9e2545ed6886ba182668b8e2ac68f"
+    },
+    {
+      "file": "DEGOUSDT-1d-2024-11.zip",
+      "sha256": "56bcf0e7dc17e9cd7dd99ee68b4dab9f495fcc1f4d1d6aa42d26ce3e5d976713"
+    },
+    {
+      "file": "DEGOUSDT-1d-2024-12.zip",
+      "sha256": "075e1c9257405a288b0b524fcafe5ba4d1486a048d957e7abd77e56ecf1e4ffc"
+    },
+    {
+      "file": "DEGOUSDT-1d-2025-01.zip",
+      "sha256": "bf80a408c28741d4b9bcfa9b4689b0a39f5af5c0c0ebd623c48c64bb0e8e3342"
+    },
+    {
+      "file": "DEGOUSDT-1d-2025-02.zip",
+      "sha256": "26a6c702782e8a9880d2f9386573efd03b6b575f41d5cf2f3562b33cd6adc8ce"
+    },
+    {
+      "file": "DEGOUSDT-1d-2025-03.zip",
+      "sha256": "fb366a40888875c71d0cdd90453f42a1ee3152e0b43eb2b298ec45c704e27e1d"
+    },
+    {
+      "file": "DEGOUSDT-1d-2025-04.zip",
+      "sha256": "5dbd5d7068db7b222f93b4299267208690029bcea1d9b69219bb8ba807850256"
+    },
+    {
+      "file": "DEGOUSDT-1d-2025-05.zip",
+      "sha256": "77cd42c873747327fd7784342f4c3a6f456da47d8ae288ff07fd08162bd5dc19"
+    },
+    {
+      "file": "DEGOUSDT-1d-2025-06.zip",
+      "sha256": "793eeca57cd9487aa251484e720c868895118594535c47aabea2e6f76f62f45b"
+    },
+    {
+      "file": "DEGOUSDT-1d-2025-07.zip",
+      "sha256": "27b08a6b699dc6c0004a3e9f6891d4a2fdb385a38bf68ab59c60c1501712992d"
+    },
+    {
+      "file": "DEGOUSDT-1d-2025-08.zip",
+      "sha256": "f6d2b8655be047b9e89b784c827ff3ba1049da6f03bfd79e663513c9d355386b"
+    },
+    {
+      "file": "DEGOUSDT-1d-2025-09.zip",
+      "sha256": "1da92cfc2abb0ee3289abed5ee902426a0d3572b4f20f3c3785f551454841b01"
+    },
+    {
+      "file": "DEGOUSDT-1d-2025-10.zip",
+      "sha256": "123030ba114f2c53febb8628b441e56383a71ccdfe836ca9322f95a1be3d499c"
+    },
+    {
+      "file": "DEGOUSDT-1d-2025-11.zip",
+      "sha256": "1dd030f813418016eca14acca4ab1ae28b89862021207a3c7d711e9c80edefea"
+    },
+    {
+      "file": "DEGOUSDT-1d-2025-12.zip",
+      "sha256": "bda342b1a53f3894f19df74df455dd28ef7a3b03fb0115d87faeb192767d73d2"
+    },
+    {
+      "file": "DEGOUSDT-1d-2026-01.zip",
+      "sha256": "c91135a2b4bfc14f16b2586870ab084e0fe7500b91187030520cc14cbc618150"
+    },
+    {
+      "file": "DEGOUSDT-1d-2026-02.zip",
+      "sha256": "12f9b062bec9b9c2ee3a8763fe6f348852c6fd0dc7b1f367d1f46bd30da0bf6e"
+    },
+    {
+      "file": "DEGOUSDT-1d-2026-03.zip",
+      "sha256": "cdc604e6cc1674b4ff31845e04245944f28e4e6551f74533dde01718cef840bb"
+    },
+    {
+      "file": "DEGOUSDT-1d-2026-04.zip",
+      "sha256": "2675ca4b3a62647768bf0fef8d820f09d1905d2d11aeaf864cf527f15003cc02"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

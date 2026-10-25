@@ -1,0 +1,257 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/FISUSDT/1d/",
+  "instrument": "FISUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-03-03",
+  "last_bar": "2025-12-17",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:33:25+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1751,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "FISUSDT-1d-2021-03.zip",
+      "sha256": "fa06a10c506feabaced381fa9a57a05e47e662c6f1a20c9d125625603a8e5c1b"
+    },
+    {
+      "file": "FISUSDT-1d-2021-04.zip",
+      "sha256": "ce3d9950f078927e9931bc7a3f323f158f00e0728fd86d24660138b5d1718299"
+    },
+    {
+      "file": "FISUSDT-1d-2021-05.zip",
+      "sha256": "4190462a5bafe3da5ed82b2d93fc431833d98d7037cbb582a67441d12053474a"
+    },
+    {
+      "file": "FISUSDT-1d-2021-06.zip",
+      "sha256": "f8ccabf4e64a43d47691caa6a5d3db14e99908398c176df2a3bf1338faf49d95"
+    },
+    {
+      "file": "FISUSDT-1d-2021-07.zip",
+      "sha256": "3c4a5ed1f413e49dec7e7c098b308db17b86f9e77d1eb5b017b5c7e4e56871f0"
+    },
+    {
+      "file": "FISUSDT-1d-2021-08.zip",
+      "sha256": "6a61bbe07c379619aec0e7e4d7af5f934da93aa559f0099b65660e87b7cbd025"
+    },
+    {
+      "file": "FISUSDT-1d-2021-09.zip",
+      "sha256": "24ffed024e59230040c900d52766e9364fa8a24a98d2a76cf0500e0f309d4a7a"
+    },
+    {
+      "file": "FISUSDT-1d-2021-10.zip",
+      "sha256": "3d3980b9a0b984deb118fe0b2407dfa5b9e8c80a12edb5c5db6080395aed916a"
+    },
+    {
+      "file": "FISUSDT-1d-2021-11.zip",
+      "sha256": "15e195d870638837247fc8fac2786652bcab96172550718d0883a4b52abddf31"
+    },
+    {
+      "file": "FISUSDT-1d-2021-12.zip",
+      "sha256": "41c89697376c5b15487158b1b9cc34b3fa9c70873a73fcc24de2fb6f2b2972f5"
+    },
+    {
+      "file": "FISUSDT-1d-2022-01.zip",
+      "sha256": "57ddfa389190b51c42156bdc25c67f46dacc54cc88e78bee6069d799cf85ec72"
+    },
+    {
+      "file": "FISUSDT-1d-2022-02.zip",
+      "sha256": "f6d42cd3da53eea52084de86ddc1182e6b266df4efdf3ceeca01749a3d60143c"
+    },
+    {
+      "file": "FISUSDT-1d-2022-03.zip",
+      "sha256": "553978a7d1b75baacf3f23f65dce0e471a9a973564339fbc06d8fa42e476c6b6"
+    },
+    {
+      "file": "FISUSDT-1d-2022-04.zip",
+      "sha256": "13c0da824ca8b4fdf52f6a6a67c54e0262aaed1475ddd0728a543db02d66f152"
+    },
+    {
+      "file": "FISUSDT-1d-2022-05.zip",
+      "sha256": "968ed7201e15f2eb1808f3a2ca85f129e4878ffb493b25a308894363b723055c"
+    },
+    {
+      "file": "FISUSDT-1d-2022-06.zip",
+      "sha256": "1c5dbce6de9a75d4f9f670b526125f1fb609ea4e363fa1dfca3999b398620283"
+    },
+    {
+      "file": "FISUSDT-1d-2022-07.zip",
+      "sha256": "26537d9e5166e45ff80432418c242a0178b38bfcb39482494f81a7d48ed0632b"
+    },
+    {
+      "file": "FISUSDT-1d-2022-08.zip",
+      "sha256": "852f07d93719d195c46e9d606a27c8b0c0b102f6ccff2aa5b63e94b853c46b01"
+    },
+    {
+      "file": "FISUSDT-1d-2022-09.zip",
+      "sha256": "fbc445d8c5a471b19d1cfc79e6eabddc8f26101d7edfb3a316ca4970f528023c"
+    },
+    {
+      "file": "FISUSDT-1d-2022-10.zip",
+      "sha256": "b8a4524c9d0182b2da6f56602470ececd17b325e9ed82c9bade2a0476c62762c"
+    },
+    {
+      "file": "FISUSDT-1d-2022-11.zip",
+      "sha256": "1c074f06289f3636a3bcd9b62b42da1d6915c795fb2a969eb37a611e53cbca69"
+    },
+    {
+      "file": "FISUSDT-1d-2022-12.zip",
+      "sha256": "65695a33db0d95f379252de30dccf03e57fa8cee255e3207022bc214b4972e9c"
+    },
+    {
+      "file": "FISUSDT-1d-2023-01.zip",
+      "sha256": "29a6be94f393de32becc35492e95da7f4ffbf405e220d7db9ef3da27c2f9a92b"
+    },
+    {
+      "file": "FISUSDT-1d-2023-02.zip",
+      "sha256": "d59216a18db79bece9a94084486b2f3353d2eb306f55c96eef0dbae0f455b7d7"
+    },
+    {
+      "file": "FISUSDT-1d-2023-03.zip",
+      "sha256": "632200d05a72a4326227505af251fc3802b3f891bb6f460179f686e0f4b1a981"
+    },
+    {
+      "file": "FISUSDT-1d-2023-04.zip",
+      "sha256": "1e34b986ccadab3f999d95006eefdffc0ffbe973ca39aa63d93810e71a9aec78"
+    },
+    {
+      "file": "FISUSDT-1d-2023-05.zip",
+      "sha256": "83894eabfc4aeb55e96f32becedb78c9b392f4503d2ed81af9faa1f1d9bd9b73"
+    },
+    {
+      "file": "FISUSDT-1d-2023-06.zip",
+      "sha256": "a850f79584120fe902facb6be78e1e6bbd8a86766545ac7ea384f86f68087b04"
+    },
+    {
+      "file": "FISUSDT-1d-2023-07.zip",
+      "sha256": "404fb02208161135a17aa9dbbf37eb8fcaf4d1c0ce26798e33b42303d72eee41"
+    },
+    {
+      "file": "FISUSDT-1d-2023-08.zip",
+      "sha256": "2825c320facf7df9e9258fe91313c88e27aac430288bde31a0a561463aedcadf"
+    },
+    {
+      "file": "FISUSDT-1d-2023-09.zip",
+      "sha256": "e557423ddc74ab779de2d4e0822773e0c66cb2d4455ac59dcdfae48535804cac"
+    },
+    {
+      "file": "FISUSDT-1d-2023-10.zip",
+      "sha256": "a4dc5fcd68cd95a98d488b610e1274188f27b73c2c7a5f49a523c04cfb011ec8"
+    },
+    {
+      "file": "FISUSDT-1d-2023-11.zip",
+      "sha256": "f87d8a5d69c4c03ab305c3d42f37be1344ec85b2613409ed708bf5c0881953c1"
+    },
+    {
+      "file": "FISUSDT-1d-2023-12.zip",
+      "sha256": "715cb32581e30d5af212bd33c68818ecafd0f107542c87a365a911b120ae7711"
+    },
+    {
+      "file": "FISUSDT-1d-2024-01.zip",
+      "sha256": "82b3ccf35915b57841f42ffc3fcb38ec1acd54e04acb7f1d63fdf6e4a4d1db15"
+    },
+    {
+      "file": "FISUSDT-1d-2024-02.zip",
+      "sha256": "3da6186f9b0c6f940c4e0826e85f1d7221d079ff6f66ce02950db5db883139c1"
+    },
+    {
+      "file": "FISUSDT-1d-2024-03.zip",
+      "sha256": "dc9e1602af1f6296ff759261c0ccc9a3fb9677a1294bd40295824e80515631a8"
+    },
+    {
+      "file": "FISUSDT-1d-2024-04.zip",
+      "sha256": "ca11d2f75ec726a97d0cc29ae2f46dd1140fa5716a4eaea4f5b9bb0c803e939d"
+    },
+    {
+      "file": "FISUSDT-1d-2024-05.zip",
+      "sha256": "b0dae8e3f166c8bc09434f6733fcc216726c7e5d05c70a58b7fe78ecc2b28286"
+    },
+    {
+      "file": "FISUSDT-1d-2024-06.zip",
+      "sha256": "7ce180af1faf330469acd2f0c27a0eecca50631d56d7c1e23f629e5c79e88b02"
+    },
+    {
+      "file": "FISUSDT-1d-2024-07.zip",
+      "sha256": "4b108519bc06ca267b3476d8d88cc389f302b83af83fe2178f27dbd8495afab6"
+    },
+    {
+      "file": "FISUSDT-1d-2024-08.zip",
+      "sha256": "b1411feba4d6c71cf907b1e6538394707ff13c4ab53b02fc28bbc256480c799b"
+    },
+    {
+      "file": "FISUSDT-1d-2024-09.zip",
+      "sha256": "b943e215cb452ce7eb38dfe7395b4c41cf4848a468eda9ddfe767a44b7aced61"
+    },
+    {
+      "file": "FISUSDT-1d-2024-10.zip",
+      "sha256": "77fa447db25ab12a1c2642c6b044923ae5d7511fc7c9b1ba8d6ef742f66506b4"
+    },
+    {
+      "file": "FISUSDT-1d-2024-11.zip",
+      "sha256": "cc6503d013dea4b427632238229d77d97b759dd6ecf7c737152e18a1474a531c"
+    },
+    {
+      "file": "FISUSDT-1d-2024-12.zip",
+      "sha256": "bb00f6dbbc633b960461c84128e907e4d55d3d6523ff04cfaff90c46112d960d"
+    },
+    {
+      "file": "FISUSDT-1d-2025-01.zip",
+      "sha256": "bcae5c08a151abdba6b9ff67db9ab059ed9a298e7ef946c4e665b191ddeb3f9e"
+    },
+    {
+      "file": "FISUSDT-1d-2025-02.zip",
+      "sha256": "3476aa678a6943344bd02bc3a4a77ecad384164533c9d8933b71cca00b272a0c"
+    },
+    {
+      "file": "FISUSDT-1d-2025-03.zip",
+      "sha256": "6625e4f51e65dd48bd52db539bc38a7c8d5f6497f425a7cf05264e7a113ff167"
+    },
+    {
+      "file": "FISUSDT-1d-2025-04.zip",
+      "sha256": "bbecfab9604d19b6abd233e1485b5a62406b52b9451b08a9fac9f308c3360439"
+    },
+    {
+      "file": "FISUSDT-1d-2025-05.zip",
+      "sha256": "916b799c309903744a01bc82f62be0d116700fa0202e0fe4e4cb55791fe6ca5f"
+    },
+    {
+      "file": "FISUSDT-1d-2025-06.zip",
+      "sha256": "437a3f47b6a8743366ccdd5a9fa2b9df08b093a1949c7fd7f4e033a6cc594be3"
+    },
+    {
+      "file": "FISUSDT-1d-2025-07.zip",
+      "sha256": "3df2ab12593dce008fa07a9c03ae65c34f163979e5e0f9a5e22985d249f36a41"
+    },
+    {
+      "file": "FISUSDT-1d-2025-08.zip",
+      "sha256": "7145d2ff5b21222b431b85cf62688e00fd73f4b5d4b2a176269551eebf01c27e"
+    },
+    {
+      "file": "FISUSDT-1d-2025-09.zip",
+      "sha256": "bc9f87691d8457f2a76209a600366146a7f092f28a708d34d8dc072d77f5c8c4"
+    },
+    {
+      "file": "FISUSDT-1d-2025-10.zip",
+      "sha256": "cce4cf4ec0d9a9298297b99edd4eeb346188fede5600802df2a510a443c3e08c"
+    },
+    {
+      "file": "FISUSDT-1d-2025-11.zip",
+      "sha256": "806fb0898f545874d9e5e7ff8460778f3a1a98457eb6292336fd625677c06f7e"
+    },
+    {
+      "file": "FISUSDT-1d-2025-12.zip",
+      "sha256": "3920a092df13d867f1248437fc750e729f055abedbe55a425545af8f17b903b2"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

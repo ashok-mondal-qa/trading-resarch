@@ -1,0 +1,145 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/REZUSDT/1d/",
+  "instrument": "REZUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-04-30",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:44:07+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 884,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "REZUSDT-1d-2024-04.zip",
+      "sha256": "01a7df3909c3d1e08089fec519bda04cbb78071ebfdae0db120e354654d1f23b"
+    },
+    {
+      "file": "REZUSDT-1d-2024-05.zip",
+      "sha256": "dca179d7e03ec4a9a784276e4ba722d3154e6dbf5923a04eef72fcfe5d9800ce"
+    },
+    {
+      "file": "REZUSDT-1d-2024-06.zip",
+      "sha256": "fce5c76b0b7dae4bf321857901910240f14cbd1ea42a51cbf64272683d9c401a"
+    },
+    {
+      "file": "REZUSDT-1d-2024-07.zip",
+      "sha256": "802e9a06fdfef0ffd73761f1a508c22ae78c7ac2de15cabf4ff06b9a3a2e1b11"
+    },
+    {
+      "file": "REZUSDT-1d-2024-08.zip",
+      "sha256": "e1d7fd9cacd3a1796de7b9472309c989aea9ac824af498fbd1e022af5d178c8e"
+    },
+    {
+      "file": "REZUSDT-1d-2024-09.zip",
+      "sha256": "5a064a68d49ae484519841d34c8ac25aed81f981808b02d0de5c76d005166c14"
+    },
+    {
+      "file": "REZUSDT-1d-2024-10.zip",
+      "sha256": "7858d789816c24ec981c569c37ddd5fbe656e28434e4c0bdba8d856e7b30c22f"
+    },
+    {
+      "file": "REZUSDT-1d-2024-11.zip",
+      "sha256": "cf6d1cd97be15177380b6dfe3df13f7bd681741152886549255c2e4a88dc6e42"
+    },
+    {
+      "file": "REZUSDT-1d-2024-12.zip",
+      "sha256": "93b5a3e5224b486acf68932f99455f9fb5051766daf323f6f108d83dc91c92cb"
+    },
+    {
+      "file": "REZUSDT-1d-2025-01.zip",
+      "sha256": "0b0be69ac6da3f773ec42ed8260c99a6b48cda27815abb9256046fd13195988e"
+    },
+    {
+      "file": "REZUSDT-1d-2025-02.zip",
+      "sha256": "e4d5b9cb0803f98758b6add88efb7d0313958b50f4583aaf550662b831386ec7"
+    },
+    {
+      "file": "REZUSDT-1d-2025-03.zip",
+      "sha256": "d5cc92d695222a6c94bc38492a98beaba18be317d2e499703ac0551525d6a5ac"
+    },
+    {
+      "file": "REZUSDT-1d-2025-04.zip",
+      "sha256": "26fca1871ac7164a2a7a8c09dad9450b0afd4e919591647d3a73d2bf74c36907"
+    },
+    {
+      "file": "REZUSDT-1d-2025-05.zip",
+      "sha256": "1057286e5f6aa618c53cb1e9e03ff830cd7efd68502e170dafe9a7ff2c6efefb"
+    },
+    {
+      "file": "REZUSDT-1d-2025-06.zip",
+      "sha256": "ebf1c3253386e617ffd83716a9cb862dbee234762a5507f43701d7f80dfac6da"
+    },
+    {
+      "file": "REZUSDT-1d-2025-07.zip",
+      "sha256": "c64d43eb27c79647fc723a78d3e0d874d44cb8f3349f3bed01c44eeeccbd8991"
+    },
+    {
+      "file": "REZUSDT-1d-2025-08.zip",
+      "sha256": "65c25c509be24bc94cd03434bddcd6fce56362831560c9ebb750c2d0f28fa85b"
+    },
+    {
+      "file": "REZUSDT-1d-2025-09.zip",
+      "sha256": "5914dc3df45b741cf69e47604041e5423ac758dac80df903569ff55e08251d8b"
+    },
+    {
+      "file": "REZUSDT-1d-2025-10.zip",
+      "sha256": "c370de911e6b39010b4fcb810205dea67e2428304948748aede2e867ad65a34c"
+    },
+    {
+      "file": "REZUSDT-1d-2025-11.zip",
+      "sha256": "86a9663daf055efd97e1138c04140c038368954b34cc3933f83d40608bb4a1c8"
+    },
+    {
+      "file": "REZUSDT-1d-2025-12.zip",
+      "sha256": "6b3d4c7834894e0de02d707b007769fd0794ca2d5c1ee6f6e518cc16bc365732"
+    },
+    {
+      "file": "REZUSDT-1d-2026-01.zip",
+      "sha256": "cce2a78ce7da8cb25936616766585a80d3828f5ee5a0395440626798c026894b"
+    },
+    {
+      "file": "REZUSDT-1d-2026-02.zip",
+      "sha256": "a6d976eb769a83cb5e8c9cf8632d7cdbd8eb4cd98704ebe30ca1ba7c6425aff4"
+    },
+    {
+      "file": "REZUSDT-1d-2026-03.zip",
+      "sha256": "4e07300d42b471d777a0eb34d63c79173cef4fefac4d977209011035833595ff"
+    },
+    {
+      "file": "REZUSDT-1d-2026-04.zip",
+      "sha256": "8f8d7e1c5f9a222b9e891f7c30eb6c35f6dd66e71a5ffcbcff3862694be592d8"
+    },
+    {
+      "file": "REZUSDT-1d-2026-05.zip",
+      "sha256": "059458edd19070f221a20b0bb165eabc0b7bd83014e85c0d3e55fcc5cee101ab"
+    },
+    {
+      "file": "REZUSDT-1d-2026-06.zip",
+      "sha256": "f208539c2ef6ff3724efef9b9ae67539e0ae9b352cae99f7593ce355fcd1f6ed"
+    },
+    {
+      "file": "REZUSDT-1d-2026-07.zip",
+      "sha256": "7d7b574d903533d785a6d7b44273ed060d57e9ef1eba9fbd8d5e205c2cd09958"
+    },
+    {
+      "file": "REZUSDT-1d-2026-08.zip",
+      "sha256": "c856abedaa855cb160e622f622cc8eaaaf65c5c7782de415985a095ff22bd7a6"
+    },
+    {
+      "file": "REZUSDT-1d-2026-09.zip",
+      "sha256": "deded37a8f1ab375374f91112773a6e4ece42888f62e6d868e266bc949300333"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

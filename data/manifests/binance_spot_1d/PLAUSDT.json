@@ -1,0 +1,137 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PLAUSDT/1d/",
+  "instrument": "PLAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-11-23",
+  "last_bar": "2024-02-26",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:21+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 826,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PLAUSDT-1d-2021-11.zip",
+      "sha256": "da0804297273a988e192deb77141e444e57e9cfb61e33e7965531115c3df80e3"
+    },
+    {
+      "file": "PLAUSDT-1d-2021-12.zip",
+      "sha256": "327cd91b2a5e4b9f84ddcd005aa60c357e12b75a9d53600eb9a1a32130f39401"
+    },
+    {
+      "file": "PLAUSDT-1d-2022-01.zip",
+      "sha256": "3e19daa1f10ded355e38e0be23bdd15e9022f812a296c5906302ee3c4060701e"
+    },
+    {
+      "file": "PLAUSDT-1d-2022-02.zip",
+      "sha256": "13ed5005c5e8ec21ae0b260cd837449c8b34d7746d3810e055f03d2ce3f593c2"
+    },
+    {
+      "file": "PLAUSDT-1d-2022-03.zip",
+      "sha256": "bbcf14f805a8fb5876522e0b196cced8ea29c31e73a9756aa02aca98d9589815"
+    },
+    {
+      "file": "PLAUSDT-1d-2022-04.zip",
+      "sha256": "73429bdabd30335df382cba18ab34b3a0c963e0483c329c96fc8ab265a480fc1"
+    },
+    {
+      "file": "PLAUSDT-1d-2022-05.zip",
+      "sha256": "91b6005c399da1da078a1f680e9de79af60509f79e064927171996ddce780ddc"
+    },
+    {
+      "file": "PLAUSDT-1d-2022-06.zip",
+      "sha256": "06cc4287de2ad172f4a19ee9ce06ed669add25f3b1d23af55bb584b47e434ef8"
+    },
+    {
+      "file": "PLAUSDT-1d-2022-07.zip",
+      "sha256": "bbd6a891ebadea1bf05a447f9be52157118d87bf5c335e6987f01a2c2793277b"
+    },
+    {
+      "file": "PLAUSDT-1d-2022-08.zip",
+      "sha256": "e7c47906f82798c6e8540c120919d1e4eedd19520e46a97d0409aa7b6a5d95ff"
+    },
+    {
+      "file": "PLAUSDT-1d-2022-09.zip",
+      "sha256": "f0186440fb1e945b1ab7e56f1998f9df6577638593096bbe6f7bf31869b79fd2"
+    },
+    {
+      "file": "PLAUSDT-1d-2022-10.zip",
+      "sha256": "22e127ff70c3caddf74c7b4aa7fd1ffd7af0b016a87ab7c6e1fac63e15093008"
+    },
+    {
+      "file": "PLAUSDT-1d-2022-11.zip",
+      "sha256": "1dbfeb6442a25c593cd1b38f21720d8201a8fd40ee0fbb68b3acffc9514b5d54"
+    },
+    {
+      "file": "PLAUSDT-1d-2022-12.zip",
+      "sha256": "6e5819a9e5fceb2ed98ec0b9ad6a5447ebb7be5e01e517390a5327c7224b712f"
+    },
+    {
+      "file": "PLAUSDT-1d-2023-01.zip",
+      "sha256": "7a419f3b5a6fe76c04b74217da3ce708466196b62011389cd5e64c262de804b0"
+    },
+    {
+      "file": "PLAUSDT-1d-2023-02.zip",
+      "sha256": "8dea108751c64734f08d3970594c634e67623200593eebc9a3c2afecf6c3865a"
+    },
+    {
+      "file": "PLAUSDT-1d-2023-03.zip",
+      "sha256": "9b3dfab45352a3ae81606c41390c131d67ad1704d66eb1b4ccc52fe2b659da2b"
+    },
+    {
+      "file": "PLAUSDT-1d-2023-04.zip",
+      "sha256": "57ddd0a1e87ffaf2a84031d654ccb04482665a275509ae25c3023eb6e2cbb8f2"
+    },
+    {
+      "file": "PLAUSDT-1d-2023-05.zip",
+      "sha256": "299f2d3f14ac38c69a795e72b8335c2cc16c1f2e865eacf43c91d755100b757c"
+    },
+    {
+      "file": "PLAUSDT-1d-2023-06.zip",
+      "sha256": "daaf70a380459c4698ca895c3db53c6d1f726e9796a0f7b95cf66ce93b45bdb4"
+    },
+    {
+      "file": "PLAUSDT-1d-2023-07.zip",
+      "sha256": "e176bb28bc9824fc54fc9345be357101b5d5644f551713f1ac94bb405ff7265b"
+    },
+    {
+      "file": "PLAUSDT-1d-2023-08.zip",
+      "sha256": "6f41472a6176a760cb4033e22cd5d763137cd46715958c651ca730e9b5c961f3"
+    },
+    {
+      "file": "PLAUSDT-1d-2023-09.zip",
+      "sha256": "f2fd1aaeb6dc67de9a95fe83d127ad74893799189e360618fe8fbca136aa92af"
+    },
+    {
+      "file": "PLAUSDT-1d-2023-10.zip",
+      "sha256": "2385b58ce9b73df97bb5687eaf65c6ab5c2b3b41b9a8c01c9c78a5e255eedff0"
+    },
+    {
+      "file": "PLAUSDT-1d-2023-11.zip",
+      "sha256": "149795a96a1623e5c584ae2cdffb9b65c35839f922a396ad4afe820e3aa643eb"
+    },
+    {
+      "file": "PLAUSDT-1d-2023-12.zip",
+      "sha256": "2a5b77b765c8465e859d288463fbdd33166da13a8d6806336ec405c125f74667"
+    },
+    {
+      "file": "PLAUSDT-1d-2024-01.zip",
+      "sha256": "fd62941df87d24b531129e1bbc07f755d4f2ae84ee139763005de9dfaecebcc4"
+    },
+    {
+      "file": "PLAUSDT-1d-2024-02.zip",
+      "sha256": "50aa1053a8f8757c649b02ba097f2a84c98a6090da008b28d2abf611ac9290c9"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

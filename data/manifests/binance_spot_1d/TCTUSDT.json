@@ -1,0 +1,161 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/TCTUSDT/1d/",
+  "instrument": "TCTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-01-21",
+  "last_bar": "2022-10-24",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:46:45+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1008,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "TCTUSDT-1d-2020-01.zip",
+      "sha256": "2530f1aa8f3ba35217bd90772fcf459dd2ed272b681607d5e550d58c16c25d9d"
+    },
+    {
+      "file": "TCTUSDT-1d-2020-02.zip",
+      "sha256": "abc9456fab63bb98f462cd6e322c655707699375d9ed185b4d7681c24e5883ed"
+    },
+    {
+      "file": "TCTUSDT-1d-2020-03.zip",
+      "sha256": "ebe949b550a1249f159db8a9025aec4e9012f7e18b99d61c9c307a10d187606b"
+    },
+    {
+      "file": "TCTUSDT-1d-2020-04.zip",
+      "sha256": "d1bc6c1581aec7da21bf973b9d529ff348eedaebac60ae2e4499d07621b64602"
+    },
+    {
+      "file": "TCTUSDT-1d-2020-05.zip",
+      "sha256": "3c27c72badf4ac5cb1dc236fae8badd40a064ea3dc33334aa86e89ca93491778"
+    },
+    {
+      "file": "TCTUSDT-1d-2020-06.zip",
+      "sha256": "75f66b7205344345d9e1bb08d48c99ff710b234a3b28233b8ba52fb83171a6db"
+    },
+    {
+      "file": "TCTUSDT-1d-2020-07.zip",
+      "sha256": "b8de9940f932748f05d179c3472151c43fa844cad68027ffef2e2faef48e36ee"
+    },
+    {
+      "file": "TCTUSDT-1d-2020-08.zip",
+      "sha256": "64285278665027cd9beee4d13bfe2a44c38d891e711e991b1b8e4cebf5192808"
+    },
+    {
+      "file": "TCTUSDT-1d-2020-09.zip",
+      "sha256": "11c94a1e726b32266e9d0d3de35b1daadf9f4a31d5bc716182982f8465b527b2"
+    },
+    {
+      "file": "TCTUSDT-1d-2020-10.zip",
+      "sha256": "d883bc1b8b819f094cdea6e99d64c34d589d78e6d6220a04e2b271dcddedb43c"
+    },
+    {
+      "file": "TCTUSDT-1d-2020-11.zip",
+      "sha256": "d671f2e37284503a2351f771ace8e8362011ca94340be0b82da31e69299efe0a"
+    },
+    {
+      "file": "TCTUSDT-1d-2020-12.zip",
+      "sha256": "6eba7f9f64d0e698e4ad89bf73cc2a2d0a884d39763f3fd112054cb76721fa3b"
+    },
+    {
+      "file": "TCTUSDT-1d-2021-01.zip",
+      "sha256": "95b345f8ba157d6ca89432c9aab2302c0acce3627b8326866706b0635177f43e"
+    },
+    {
+      "file": "TCTUSDT-1d-2021-02.zip",
+      "sha256": "3c48a3a748c10527617566bfe669369868e90ab05510c87977f158e306dd21a5"
+    },
+    {
+      "file": "TCTUSDT-1d-2021-03.zip",
+      "sha256": "521d9158a41e88e9b8c1537360c49233a9a21117cca670a8b5160c2559d9e412"
+    },
+    {
+      "file": "TCTUSDT-1d-2021-04.zip",
+      "sha256": "c5ef5f335d14aa8917ade4670a1f6057bd85012a326557d9475ad8b871fe88b3"
+    },
+    {
+      "file": "TCTUSDT-1d-2021-05.zip",
+      "sha256": "c0bc6e858671aae64b9ff2763d00112f7983bc0b301575b6105a4bc6b899ddf4"
+    },
+    {
+      "file": "TCTUSDT-1d-2021-06.zip",
+      "sha256": "9b5cfa5c939b2092b391f764e79aec393afa7d0db1bc1091a4aef30e1b097be0"
+    },
+    {
+      "file": "TCTUSDT-1d-2021-07.zip",
+      "sha256": "e180c10ebc2477204674abae36a5d00617f5dc8f61332341abc3bdc392cfe7e4"
+    },
+    {
+      "file": "TCTUSDT-1d-2021-08.zip",
+      "sha256": "dfd80a77762b3446053d9e5ba0b770544c4ae4a81e821822984a8135ab17bac3"
+    },
+    {
+      "file": "TCTUSDT-1d-2021-09.zip",
+      "sha256": "c21fbab0f270221867b141012fc960d141e521b05152c596e7062e4aadee7df6"
+    },
+    {
+      "file": "TCTUSDT-1d-2021-10.zip",
+      "sha256": "8eb4b238c5bc214a125308190369a8ccec3cb0ccc6daba19ae9def0f8d89b07f"
+    },
+    {
+      "file": "TCTUSDT-1d-2021-11.zip",
+      "sha256": "d8f6e8f848f0df06ee012d136c23fc91c54a3f79e4379f7e732e229a70dff5ea"
+    },
+    {
+      "file": "TCTUSDT-1d-2021-12.zip",
+      "sha256": "cca079952770da92989369b4b7e303eba96dc269678a4bd5400dd0a223617f30"
+    },
+    {
+      "file": "TCTUSDT-1d-2022-01.zip",
+      "sha256": "e82d72a3812b74ac6bb4531cc82260fad6eb8e353c72b58a1b786e8d9c098228"
+    },
+    {
+      "file": "TCTUSDT-1d-2022-02.zip",
+      "sha256": "96fbffd5a12ecfa5cc2b5adddf267c58c373602612a6ba982be4eb1a5a89dbf7"
+    },
+    {
+      "file": "TCTUSDT-1d-2022-03.zip",
+      "sha256": "22d503dee4ab08fbe052da7539b5d20d28442203043e1c98be85278022a6d6bc"
+    },
+    {
+      "file": "TCTUSDT-1d-2022-04.zip",
+      "sha256": "d2fbbc8b6625eaa8ecb2468da99332ccdbedd6f1e8a22c69110ecdd5ebfa7c3d"
+    },
+    {
+      "file": "TCTUSDT-1d-2022-05.zip",
+      "sha256": "18bb015982d9fe4747cc234a61490b2c55a682018d6ae9634fc71c776eb33b7a"
+    },
+    {
+      "file": "TCTUSDT-1d-2022-06.zip",
+      "sha256": "829ef7736a583f3739cb838374f30be95bbeb12d94edc25e4a16b32228a5cb8d"
+    },
+    {
+      "file": "TCTUSDT-1d-2022-07.zip",
+      "sha256": "ac434b1046b2445c6013964be10ae7e21c0ec8c08777be8af67839885bc2f950"
+    },
+    {
+      "file": "TCTUSDT-1d-2022-08.zip",
+      "sha256": "05e216e48b30b1663156228b923d750e53afd7156fa39d5825542fe7a5be1f00"
+    },
+    {
+      "file": "TCTUSDT-1d-2022-09.zip",
+      "sha256": "0cad6f311ecd4ade0b1dcea40a9a780af13ec0388fe37177372ae82695c975c4"
+    },
+    {
+      "file": "TCTUSDT-1d-2022-10.zip",
+      "sha256": "858ea6ded579501a054968434ee542f39242cd0f6f893ef8909ab3ebbd1519be"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

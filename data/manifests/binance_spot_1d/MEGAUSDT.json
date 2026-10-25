@@ -1,0 +1,49 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MEGAUSDT/1d/",
+  "instrument": "MEGAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-04-30",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:38:56+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 154,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MEGAUSDT-1d-2026-04.zip",
+      "sha256": "11455898a26442ea952e69d5bcfd3859d01bb9bcdebf53ba824e6e268d05ebb4"
+    },
+    {
+      "file": "MEGAUSDT-1d-2026-05.zip",
+      "sha256": "5a71844e21c2d7aaa6182ca6ef17298df01d0b9a89551397aa63553056f4628c"
+    },
+    {
+      "file": "MEGAUSDT-1d-2026-06.zip",
+      "sha256": "47a8b71754e83d14792bf8bb7bcd7eaec26f47099f88dac2595edf6f302dae49"
+    },
+    {
+      "file": "MEGAUSDT-1d-2026-07.zip",
+      "sha256": "d117ebefebb341eaad88cc6381907b463bc6bdeb587bc70bf2a19a36e5573333"
+    },
+    {
+      "file": "MEGAUSDT-1d-2026-08.zip",
+      "sha256": "edd6ed76d4fec3cc13502309bb7b0e18603210e957b431e5ce3b7c06be2e8068"
+    },
+    {
+      "file": "MEGAUSDT-1d-2026-09.zip",
+      "sha256": "b05d812933bda62c0081ee578cd271407f08c382a59f910dd7a85929d5c463e5"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

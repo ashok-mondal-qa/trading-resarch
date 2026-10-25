@@ -1,0 +1,113 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/OAXUSDT/1d/",
+  "instrument": "OAXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-03-24",
+  "last_bar": "2024-12-10",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:45+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 628,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "OAXUSDT-1d-2023-03.zip",
+      "sha256": "1eb57b8920cf89fc297d65eee8305131f8b67cac34db770f0442ff2b30486be7"
+    },
+    {
+      "file": "OAXUSDT-1d-2023-04.zip",
+      "sha256": "f0767cae69a30e712e77b4f9e431bf8148e7b8cc10da8d702ff963ccac348b9a"
+    },
+    {
+      "file": "OAXUSDT-1d-2023-05.zip",
+      "sha256": "6d2a51e3ab12f43eb039f5fcfa8b32eef5a9665bf391aca8a7c34f03218cb76b"
+    },
+    {
+      "file": "OAXUSDT-1d-2023-06.zip",
+      "sha256": "45335b2a6ba20def355cdda44eaddbdeffd631fd4b087dd21ca75b854efd48e5"
+    },
+    {
+      "file": "OAXUSDT-1d-2023-07.zip",
+      "sha256": "574e904366868faa5fee2645923a5a7ae8076c9fc57c2afc0c723b85b8cb59af"
+    },
+    {
+      "file": "OAXUSDT-1d-2023-08.zip",
+      "sha256": "c4460754782dccc7de765989d06f58b5ec747362d85c2a24754c6cf708acbd2c"
+    },
+    {
+      "file": "OAXUSDT-1d-2023-09.zip",
+      "sha256": "6ddbf7392726932e00a0f2ef49e3f094f8a71f3903b6d0e0a5071bc30d0e1adf"
+    },
+    {
+      "file": "OAXUSDT-1d-2023-10.zip",
+      "sha256": "36fd8be6a3b9a8047e2074bcc7fcaba9b95f5341fcd153a93edff3c1430a83cd"
+    },
+    {
+      "file": "OAXUSDT-1d-2023-11.zip",
+      "sha256": "27ab49dd2d593e06652292dfec9424dd16a4e51864fd79975c6a1a699f264841"
+    },
+    {
+      "file": "OAXUSDT-1d-2023-12.zip",
+      "sha256": "84abd6875ceae00f849feb89d4e7c4dce0d351ae885792d05a66c9e82bfae107"
+    },
+    {
+      "file": "OAXUSDT-1d-2024-01.zip",
+      "sha256": "35baf0a00076ebbd6aa7a0a30622bc38038b7439a873314e52da80adae294064"
+    },
+    {
+      "file": "OAXUSDT-1d-2024-02.zip",
+      "sha256": "19cb49f6579f18c5fe527127620bf42aae93e0e4cd00f1172bc0ed8cb3781698"
+    },
+    {
+      "file": "OAXUSDT-1d-2024-03.zip",
+      "sha256": "eb0ed763775950ead9dba116e3230e93413fa6bb59ede17cbfc57e0b894af9c8"
+    },
+    {
+      "file": "OAXUSDT-1d-2024-04.zip",
+      "sha256": "f9a73f6eb616a56e141c9d13fa7917b141387ef46d3b4c4a2cc157a0a7842b6d"
+    },
+    {
+      "file": "OAXUSDT-1d-2024-05.zip",
+      "sha256": "d673728a870253bc85e9225771be9dc56fa955d6c0b1228c8c84f8d632e3f095"
+    },
+    {
+      "file": "OAXUSDT-1d-2024-06.zip",
+      "sha256": "a34229c181ca8694a72f75dd69a36869a3ca1dc01985cd78d427d5f774b1a5b2"
+    },
+    {
+      "file": "OAXUSDT-1d-2024-07.zip",
+      "sha256": "84c1a1a40623237f313d1c6603309cb21493dbb74e5200ab324524bfff703d5e"
+    },
+    {
+      "file": "OAXUSDT-1d-2024-08.zip",
+      "sha256": "7982bd8f9ef44c53464ee1ae6060711c5a5db398357a40269dade978d9925922"
+    },
+    {
+      "file": "OAXUSDT-1d-2024-09.zip",
+      "sha256": "919c11b34f4e91ead6be3af681adb5340b5d0d990f4c328f9fb14908e6cda9f2"
+    },
+    {
+      "file": "OAXUSDT-1d-2024-10.zip",
+      "sha256": "fdc357ee3a620ab1a4024b496e987a6de9a8fa069888e71122e41160316027e8"
+    },
+    {
+      "file": "OAXUSDT-1d-2024-11.zip",
+      "sha256": "370ee9119a3577577c7d18c1f0d217dfcc408f2e1e121a86bb85a09ac0d99b3c"
+    },
+    {
+      "file": "OAXUSDT-1d-2024-12.zip",
+      "sha256": "759bc5f5069c0df9ca49b3a907cae508a308623be9394313fa5462beaa694e43"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

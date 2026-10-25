@@ -1,0 +1,133 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BANANAUSDT/1d/",
+  "instrument": "BANANAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-07-20",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:27:20+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 803,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BANANAUSDT-1d-2024-07.zip",
+      "sha256": "193c91c22c0c550617872d37273675903085000412e9812d7a4fb879121d13fb"
+    },
+    {
+      "file": "BANANAUSDT-1d-2024-08.zip",
+      "sha256": "a36ce6c059b3d67493c2cdea2f5c6b11b130ae8f54ed5b8af057f31d69923ba3"
+    },
+    {
+      "file": "BANANAUSDT-1d-2024-09.zip",
+      "sha256": "c7e8f16dd7be44ca5e75d97894a89a4bdb49b839773944d8e861ff46a0f95173"
+    },
+    {
+      "file": "BANANAUSDT-1d-2024-10.zip",
+      "sha256": "40b6a077526cd87f78b9107fd8423ae9c05f82e42f162699fbc607f57301a57a"
+    },
+    {
+      "file": "BANANAUSDT-1d-2024-11.zip",
+      "sha256": "3b66c34f6bc99676488f32b5d5d9375214cec1eb602e7076e71d2b21bb4cff89"
+    },
+    {
+      "file": "BANANAUSDT-1d-2024-12.zip",
+      "sha256": "a715e24b934bdea66467949dd6b15b2be3db2652f57c8a8a99d70d08e3ee0d0c"
+    },
+    {
+      "file": "BANANAUSDT-1d-2025-01.zip",
+      "sha256": "d43a5bb14b3f5167f5ab8d52e9a170e381998ea8c50364753df68b13fe24f8a6"
+    },
+    {
+      "file": "BANANAUSDT-1d-2025-02.zip",
+      "sha256": "bffbd2099d211aba3bfcb9d240645f5bb8a2876f3fc8fde3d79032af14ed276b"
+    },
+    {
+      "file": "BANANAUSDT-1d-2025-03.zip",
+      "sha256": "ded707f461915d5324ece43a4c2c4a1c884f2377ff121161172389ec5b129bf6"
+    },
+    {
+      "file": "BANANAUSDT-1d-2025-04.zip",
+      "sha256": "9162b84908c3d2a4bb950cd8614341c19076d0dbd15f64d75ea4bf9004adbfe7"
+    },
+    {
+      "file": "BANANAUSDT-1d-2025-05.zip",
+      "sha256": "2bb7b12251b67d8d0ea3b39fe32508578eff87683c9d44cbf8198e555a890d4c"
+    },
+    {
+      "file": "BANANAUSDT-1d-2025-06.zip",
+      "sha256": "224a06fb256fc6be283e0440338638b02bc40f47f091452f2341375b463bdcd0"
+    },
+    {
+      "file": "BANANAUSDT-1d-2025-07.zip",
+      "sha256": "525cc4e5a67042d8126e0b292ae774b837e94d910b357ca13be1dadcd60f62f9"
+    },
+    {
+      "file": "BANANAUSDT-1d-2025-08.zip",
+      "sha256": "ccba37d3b0bd143368026ba53badc1ffc0b64038bf8b8db47e85e68ded7e9acd"
+    },
+    {
+      "file": "BANANAUSDT-1d-2025-09.zip",
+      "sha256": "985bbd93a02f0ded44ff08af4e62d465b5dd7688f9cbdceeeb4e26474671d830"
+    },
+    {
+      "file": "BANANAUSDT-1d-2025-10.zip",
+      "sha256": "ff60b6c8cbf37be728c9c4706ca30ad6920c8987b06472a6e86edf7c328eb6d7"
+    },
+    {
+      "file": "BANANAUSDT-1d-2025-11.zip",
+      "sha256": "42df5d4a5025d2ac6c0d7c19d3f0660b29ffb7cdea7b1b798170c4eed5c3b415"
+    },
+    {
+      "file": "BANANAUSDT-1d-2025-12.zip",
+      "sha256": "fba6b6530d515030e7d0f2fe36c2f074abda9b599ca05e411930d23628188056"
+    },
+    {
+      "file": "BANANAUSDT-1d-2026-01.zip",
+      "sha256": "ba34e5f64385dc750c9ff137ca99cb3564f3acf28e714387bd319a6749d04059"
+    },
+    {
+      "file": "BANANAUSDT-1d-2026-02.zip",
+      "sha256": "c7fce805ece765872c0cc39cad87d0d9fd8d737f6369424b8e7894129fef6fc6"
+    },
+    {
+      "file": "BANANAUSDT-1d-2026-03.zip",
+      "sha256": "ed340fe1c549c7011b989fe1aabf7869eb55f7c00615f07d002a37cbe640d3ae"
+    },
+    {
+      "file": "BANANAUSDT-1d-2026-04.zip",
+      "sha256": "6457cbf2bd5518724f22ff30cbd182b3ef16ae43f03b6dc5298007ae838c071e"
+    },
+    {
+      "file": "BANANAUSDT-1d-2026-05.zip",
+      "sha256": "f135b737d55702afd15f22c0b1fec015d61db5e8e48abbe835183fc1008ce21b"
+    },
+    {
+      "file": "BANANAUSDT-1d-2026-06.zip",
+      "sha256": "6a96d28c263d68d197f0ebcf3d3ab943ca35378d211712401166b6034fd50cb2"
+    },
+    {
+      "file": "BANANAUSDT-1d-2026-07.zip",
+      "sha256": "2e228de375601fcd774df78b87dd07d3034e1858541413edbee5b494f7052370"
+    },
+    {
+      "file": "BANANAUSDT-1d-2026-08.zip",
+      "sha256": "82cb0ec023611b26aa1a621e776c151ac44dbb84890204745decfcbe6619be95"
+    },
+    {
+      "file": "BANANAUSDT-1d-2026-09.zip",
+      "sha256": "ce6ca010685e14c7017a0a23084ed59f713cb1f8f231997d76a895cb78376453"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

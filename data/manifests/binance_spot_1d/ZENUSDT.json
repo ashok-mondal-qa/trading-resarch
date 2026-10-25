@@ -1,0 +1,325 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ZENUSDT/1d/",
+  "instrument": "ZENUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-07-06",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:50:48+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2278,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ZENUSDT-1d-2020-07.zip",
+      "sha256": "6965c8443e112d418d1d1bc775f6affc9877bb5b7207ff1fce83a23570a091f8"
+    },
+    {
+      "file": "ZENUSDT-1d-2020-08.zip",
+      "sha256": "0f662d5e8be9b1616cea9d7f53a726c2713489da64f1a769b03d1ec40f5efc63"
+    },
+    {
+      "file": "ZENUSDT-1d-2020-09.zip",
+      "sha256": "d7364c224a2b075a6628804e9992505407d2562e5f85fb15d7c8e0d1e1dfd7db"
+    },
+    {
+      "file": "ZENUSDT-1d-2020-10.zip",
+      "sha256": "77c85d91ae3708ca322d803acdc87f370c34e277fa31bb197a79c087ed6791ea"
+    },
+    {
+      "file": "ZENUSDT-1d-2020-11.zip",
+      "sha256": "a2b47d4aeb43389979b5a07a291b34b2ec683028e4fe8fc04563cf890049f664"
+    },
+    {
+      "file": "ZENUSDT-1d-2020-12.zip",
+      "sha256": "4bfc7189be13c7d6b87d384e2e6c906c37985112904d3e828993e9a82febd094"
+    },
+    {
+      "file": "ZENUSDT-1d-2021-01.zip",
+      "sha256": "b0686554228f81e20b9fce7e45eb8f41c99b851d2e3561bfcb0bd6e7d173ea15"
+    },
+    {
+      "file": "ZENUSDT-1d-2021-02.zip",
+      "sha256": "3d48ff30f8c62b1c1684e9e3825bfd3da78ddee8d326d2ba74a8b229ff3f48dd"
+    },
+    {
+      "file": "ZENUSDT-1d-2021-03.zip",
+      "sha256": "a5a23fc2bb1415b634af10843f90ea219fbcb2d82297eb41932d6ab4ce874d17"
+    },
+    {
+      "file": "ZENUSDT-1d-2021-04.zip",
+      "sha256": "009e141273e84966ec355130ac4e48ebfff69835dbedbf31f220656daf2af2ad"
+    },
+    {
+      "file": "ZENUSDT-1d-2021-05.zip",
+      "sha256": "39b3261ec1bd364edd4d3dee63a2faad53279cd4ad4767d5c9329d434a371eb2"
+    },
+    {
+      "file": "ZENUSDT-1d-2021-06.zip",
+      "sha256": "bd7cd15c43a7d56609739f16e7e421c0122d7467d0afaf46292c8b51243df1e6"
+    },
+    {
+      "file": "ZENUSDT-1d-2021-07.zip",
+      "sha256": "e20ed20d4a170b6d7e4dd442a6cddb3a444313e7f744485ce17e938a0a69ce49"
+    },
+    {
+      "file": "ZENUSDT-1d-2021-08.zip",
+      "sha256": "a3d8dd636e19a0212377ecd622849df39dff2f08b5c367e9844d2c34e5ff50ff"
+    },
+    {
+      "file": "ZENUSDT-1d-2021-09.zip",
+      "sha256": "a971bad437ff313660753241797ecc87f6ea2829382b4a2cd42e30d8ffc0de7c"
+    },
+    {
+      "file": "ZENUSDT-1d-2021-10.zip",
+      "sha256": "655435255414790417bfb7a0acb7d6732a75db620b282c6eb2f1bc15060ca309"
+    },
+    {
+      "file": "ZENUSDT-1d-2021-11.zip",
+      "sha256": "eeed08b5e1065b1ef5629283fb71f7b99bb8e295eed2defb582ec20591161283"
+    },
+    {
+      "file": "ZENUSDT-1d-2021-12.zip",
+      "sha256": "04d30340f50055b9f8b6f4900353cc260f11d76b771eb16a7407c11a893a021b"
+    },
+    {
+      "file": "ZENUSDT-1d-2022-01.zip",
+      "sha256": "299b4666d2f23b1fab29d9fddf0b344b92c78242ae41041770020e736e9b1a02"
+    },
+    {
+      "file": "ZENUSDT-1d-2022-02.zip",
+      "sha256": "053fc47e29eab831bb46ae39d320b9aa1ce4abe2f6e771404f9857b1467584f9"
+    },
+    {
+      "file": "ZENUSDT-1d-2022-03.zip",
+      "sha256": "bd4c0163603af9492a4e9056d98e07bdf535d1ddae7439465cd030c520fa6d85"
+    },
+    {
+      "file": "ZENUSDT-1d-2022-04.zip",
+      "sha256": "9f55cfe0c0cc0c5fdd815976459ae45a913f434d38db94cc866c9fefc7209578"
+    },
+    {
+      "file": "ZENUSDT-1d-2022-05.zip",
+      "sha256": "892a71d096bb7d188ce2497ea26aa6aa89b54a7afd3b8d7726dfd030e9bcf9b8"
+    },
+    {
+      "file": "ZENUSDT-1d-2022-06.zip",
+      "sha256": "b5500743fcb2778acf3c0720c9d3d5e73576485be5bcbe226391f03240eca527"
+    },
+    {
+      "file": "ZENUSDT-1d-2022-07.zip",
+      "sha256": "c9af3fe2ef2c3f26381ad8000e1dda65ff05d2ccdf53d2286e808c055b88bd72"
+    },
+    {
+      "file": "ZENUSDT-1d-2022-08.zip",
+      "sha256": "9e123909d9b57c88f7cf9b270207fbe96fc78ab8f270d00e6740ce9432511fda"
+    },
+    {
+      "file": "ZENUSDT-1d-2022-09.zip",
+      "sha256": "c97320617917ad4a9a0d929ac9ff101f989a2218c01a9df10910be6b49f97169"
+    },
+    {
+      "file": "ZENUSDT-1d-2022-10.zip",
+      "sha256": "b2b530ce029b6fa622be48dc2741a49a28e5329de466143aa9ba4416fe049c3b"
+    },
+    {
+      "file": "ZENUSDT-1d-2022-11.zip",
+      "sha256": "2cf270b45c578514b73f65ceba104b3b73b7784d90e73104157e05244633dc8e"
+    },
+    {
+      "file": "ZENUSDT-1d-2022-12.zip",
+      "sha256": "a2c39335e606156b57f9b8802661e07bf98b3c0ad1deed11cdbc4707e4f288db"
+    },
+    {
+      "file": "ZENUSDT-1d-2023-01.zip",
+      "sha256": "125f0f1f67208cf1a0f8ab714aa225a5b6583e1e5ba00ce3f1bc39d3383a27f3"
+    },
+    {
+      "file": "ZENUSDT-1d-2023-02.zip",
+      "sha256": "b2b3b704e8a3ce73c3325febe50f2652b38fd749283a6dfc6714807a76852706"
+    },
+    {
+      "file": "ZENUSDT-1d-2023-03.zip",
+      "sha256": "ef96cedf31d284af2c80c989e1040691c15f51538c46af1c5de7d78136eb06de"
+    },
+    {
+      "file": "ZENUSDT-1d-2023-04.zip",
+      "sha256": "abb98326df7f95c96ef511d5fb47d54193042cb79aa703cdb24ac379c664f077"
+    },
+    {
+      "file": "ZENUSDT-1d-2023-05.zip",
+      "sha256": "7f9ae10da60dc611c0a67569ebca998fe370160606bbee8f7f428f4238d6fe85"
+    },
+    {
+      "file": "ZENUSDT-1d-2023-06.zip",
+      "sha256": "11558b4f3b920980b9d47b3287a18d04bac76d4ed01e64a52f028485d2f49a1a"
+    },
+    {
+      "file": "ZENUSDT-1d-2023-07.zip",
+      "sha256": "d30ebe8d31f26f5dc79d14a1cde6902ae6f3806a59a838fe17ed8b83f2492d92"
+    },
+    {
+      "file": "ZENUSDT-1d-2023-08.zip",
+      "sha256": "e679ae0c8426aa54d34a95c261e4a881908dc9442ccc37bc6798b5ed7ee19ca2"
+    },
+    {
+      "file": "ZENUSDT-1d-2023-09.zip",
+      "sha256": "7a3620c24b0cafd7a040c43a4620ebe59411e5184cfa727158b0eddacfef9eaa"
+    },
+    {
+      "file": "ZENUSDT-1d-2023-10.zip",
+      "sha256": "345a0472b8853d92af5d7ea6d2c9fbd32672224f1c5a0573012e398483e07efb"
+    },
+    {
+      "file": "ZENUSDT-1d-2023-11.zip",
+      "sha256": "bc39299068aa0837631740910f9e7fe6c509c725e6fbc43ef68c823a29330b6d"
+    },
+    {
+      "file": "ZENUSDT-1d-2023-12.zip",
+      "sha256": "b3e1acac43eb3a6896387002978f0e426da66b7bcc5fd3c3af8200e32d6a877b"
+    },
+    {
+      "file": "ZENUSDT-1d-2024-01.zip",
+      "sha256": "41d502d4988bf43810f2fa530507535fa6f75322b8125abb6c23adb920035970"
+    },
+    {
+      "file": "ZENUSDT-1d-2024-02.zip",
+      "sha256": "df1c7e66a5218807d5bb456445338c5bb8fa1f6e2d800844d1988cda6dc6a746"
+    },
+    {
+      "file": "ZENUSDT-1d-2024-03.zip",
+      "sha256": "2a25d2106807ca949b5013620d94f14ece210a73858623baba5b7e751bf4bba3"
+    },
+    {
+      "file": "ZENUSDT-1d-2024-04.zip",
+      "sha256": "03f08792372bab80331220b589f5e63d2062a0fd72c51f8c2e0e9b81d041fc78"
+    },
+    {
+      "file": "ZENUSDT-1d-2024-05.zip",
+      "sha256": "2bfb7fe69e9b4940b91c35cbd821d0c157a2febd47c0e0904b8e57eeb6282fe8"
+    },
+    {
+      "file": "ZENUSDT-1d-2024-06.zip",
+      "sha256": "e3a025bb693aea8484cf0bdfd81a34066981e10d0339449959315b337a771403"
+    },
+    {
+      "file": "ZENUSDT-1d-2024-07.zip",
+      "sha256": "d4a9108a368c731e1b29c68bd064c43651563f9ef3e321f8ab69635effa437f7"
+    },
+    {
+      "file": "ZENUSDT-1d-2024-08.zip",
+      "sha256": "9a268f70a0878e9ba0a18cbcbf14adfdef6f4493b13cf3f457adbb4b38e7adab"
+    },
+    {
+      "file": "ZENUSDT-1d-2024-09.zip",
+      "sha256": "64d23326fd817029bce2881539d1d13256c17c6aa5bb38f3571e79a2dff0853a"
+    },
+    {
+      "file": "ZENUSDT-1d-2024-10.zip",
+      "sha256": "9789bd90c3a0fc44fe383b8e19b88edb3f3d9fc1aae1a122fe377bbaec062203"
+    },
+    {
+      "file": "ZENUSDT-1d-2024-11.zip",
+      "sha256": "210b1267b4c3fdbc570c0b856b9e824554df45880578e68788a39d991c8047a5"
+    },
+    {
+      "file": "ZENUSDT-1d-2024-12.zip",
+      "sha256": "215c593860c97f1a6c859f430e609480f81bbbd10957b4b499654121e7752f16"
+    },
+    {
+      "file": "ZENUSDT-1d-2025-01.zip",
+      "sha256": "9b005b3ca0604d6b52134343f5e522952c6ed193bb7b1c7ad00b44601e3a7e91"
+    },
+    {
+      "file": "ZENUSDT-1d-2025-02.zip",
+      "sha256": "f9f838890016105eb40b0914f78f831c8621cb4fa38da04232602246bcf1983a"
+    },
+    {
+      "file": "ZENUSDT-1d-2025-03.zip",
+      "sha256": "ca3840a6aac713da992057749ed469f97dced613a7f00bfdc45b8d875d007d8a"
+    },
+    {
+      "file": "ZENUSDT-1d-2025-04.zip",
+      "sha256": "688dba45fe051c38da8f765503f0205a72c59d4d9add55553c987d077e9d26dc"
+    },
+    {
+      "file": "ZENUSDT-1d-2025-05.zip",
+      "sha256": "168803fa2ee5748926a5d5d1558610b2db0bd57baabff192d09c427fc4794749"
+    },
+    {
+      "file": "ZENUSDT-1d-2025-06.zip",
+      "sha256": "f387f67a3d8b8db9abe6f5c2f616cb117e20abb7fedaa73f419abd7786b01dcc"
+    },
+    {
+      "file": "ZENUSDT-1d-2025-07.zip",
+      "sha256": "5f075e03b499bbf3fb136e181b8a7a86ffef6731754f9d5816b0b913a2933a87"
+    },
+    {
+      "file": "ZENUSDT-1d-2025-08.zip",
+      "sha256": "4909ad3d2a9194c4d25d80d1026f3f3d93296eeefebabfd9a713f3973720807e"
+    },
+    {
+      "file": "ZENUSDT-1d-2025-09.zip",
+      "sha256": "2436f5f741862db95e7e9c40a972daefe730aba1d0b06b0ae8561079d904e393"
+    },
+    {
+      "file": "ZENUSDT-1d-2025-10.zip",
+      "sha256": "b2a53df1a0b6b3f1767f7bc2b64d394e5ba641fbac47d5cb057009fa16d68ae2"
+    },
+    {
+      "file": "ZENUSDT-1d-2025-11.zip",
+      "sha256": "03e87038b88a838cf145e21e5e479a2fdcebece1965e5f3657a2c68c0af23b20"
+    },
+    {
+      "file": "ZENUSDT-1d-2025-12.zip",
+      "sha256": "e3cd6d641a07921968eadf5ff7b37a41cffc8487b1f612e7cdb98f256e039e24"
+    },
+    {
+      "file": "ZENUSDT-1d-2026-01.zip",
+      "sha256": "e80aa25048580ad9ebf56f422d0b68c99fd75686d7e958c73c95db4c333c3984"
+    },
+    {
+      "file": "ZENUSDT-1d-2026-02.zip",
+      "sha256": "53c702fa9ac9e988e69eb1ef5e5b423d0f31a6a2e3797b78897eebb6195a73e4"
+    },
+    {
+      "file": "ZENUSDT-1d-2026-03.zip",
+      "sha256": "7d6084445f12b646a444eac08fff208140ae62c1e2606d1a05023df3739203ef"
+    },
+    {
+      "file": "ZENUSDT-1d-2026-04.zip",
+      "sha256": "66fd821c45e05b5dc32cc4b8191d6c6f91e9cf0bbf3b8a07b8f3a6d5091cb4b6"
+    },
+    {
+      "file": "ZENUSDT-1d-2026-05.zip",
+      "sha256": "5524819ce18d565e1a08b14045ea11723616a310b9437894b336c096fda5e591"
+    },
+    {
+      "file": "ZENUSDT-1d-2026-06.zip",
+      "sha256": "c522156aa9197eab1db699150109c58e604f16a686ee0a0120a0c0a306598c45"
+    },
+    {
+      "file": "ZENUSDT-1d-2026-07.zip",
+      "sha256": "af0f756964a54be1575f0e2cdfac0851211dacdf749fa9ef947133f5a97f698c"
+    },
+    {
+      "file": "ZENUSDT-1d-2026-08.zip",
+      "sha256": "a1b117c889814cb1323aef0664b7937389bf6b15774075e61b3a886c2e5f5de7"
+    },
+    {
+      "file": "ZENUSDT-1d-2026-09.zip",
+      "sha256": "342af921f64928bb7bf5a3751a46f0de834238c4215c4d112ee69e630d1f313f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

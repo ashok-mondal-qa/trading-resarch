@@ -1,0 +1,37 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SOXSBUSDT/1d/",
+  "instrument": "SOXSBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-07-29",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:45:14+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 64,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SOXSBUSDT-1d-2026-07.zip",
+      "sha256": "c77e94162ae69f64b6b82bd3d6909d6af50e72cf03e8a2e0756e72b3031252e1"
+    },
+    {
+      "file": "SOXSBUSDT-1d-2026-08.zip",
+      "sha256": "48e64a50dc183ae5841cac1d3dea090ea5563b5a999034593c7f68936585623d"
+    },
+    {
+      "file": "SOXSBUSDT-1d-2026-09.zip",
+      "sha256": "817abf1d5a26948c6a235b5859c9c2247baea4c7146da518173f8f9f69d4c056"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

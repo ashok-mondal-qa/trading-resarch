@@ -1,0 +1,105 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/REDUSDT/1d/",
+  "instrument": "REDUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-02-28",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:43:34+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 580,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "REDUSDT-1d-2025-02.zip",
+      "sha256": "e922d4b33d9c2128ec7f75e9eb4b3f43507f4c54cb62aa5b50998ebe19552d16"
+    },
+    {
+      "file": "REDUSDT-1d-2025-03.zip",
+      "sha256": "ca5e36fabecee46491865b061897475fa5d4007059fc70ff5d16e17b4f8bd5a8"
+    },
+    {
+      "file": "REDUSDT-1d-2025-04.zip",
+      "sha256": "6748decb0d51c54aecb0c6d8553ffe7859c18c4174e55301f0ed7b6a1c07820f"
+    },
+    {
+      "file": "REDUSDT-1d-2025-05.zip",
+      "sha256": "8866a762aa34dcde0a1c87bea632c27b812428cd713e6ec09e3a2d424261bd4c"
+    },
+    {
+      "file": "REDUSDT-1d-2025-06.zip",
+      "sha256": "1c50e468cc9e5fe1dfcfa096ebb2d8d403ff3d616a3d1a7ee9a87e8b220543a4"
+    },
+    {
+      "file": "REDUSDT-1d-2025-07.zip",
+      "sha256": "f4d0ad6a8dc636bbb972497591d3353ecbfc7de52fac3a713acae90243f887d3"
+    },
+    {
+      "file": "REDUSDT-1d-2025-08.zip",
+      "sha256": "e2b0d0631f4e5d5a5a8f9f5521c45055727dcafeb4b34f0621a7b9da13c7f986"
+    },
+    {
+      "file": "REDUSDT-1d-2025-09.zip",
+      "sha256": "82bc9f4cd779e4df2539d31e015b89cce75805fd0b1d7bc2b265a266c0cc2a86"
+    },
+    {
+      "file": "REDUSDT-1d-2025-10.zip",
+      "sha256": "c5294f0b20b4932f389818e1b3a2e8fd893f9c50db776627c5cad2438bb86ad2"
+    },
+    {
+      "file": "REDUSDT-1d-2025-11.zip",
+      "sha256": "7fe3dd5ca69aaa109fd183d409e74c320a9bc008a686b15332022a2eca8f3af6"
+    },
+    {
+      "file": "REDUSDT-1d-2025-12.zip",
+      "sha256": "58841e44189b3173ecd93b5ad6d89417174e4e6898f2af3911d9e6718d02dc74"
+    },
+    {
+      "file": "REDUSDT-1d-2026-01.zip",
+      "sha256": "ac8103e54f2918c656e5fdc39667caa6bf64cf67d81a871924dfca93bf36066f"
+    },
+    {
+      "file": "REDUSDT-1d-2026-02.zip",
+      "sha256": "9b6db4eb4eef70af44c5472b92a42138243a03672d0389270db5206f7cf53b8f"
+    },
+    {
+      "file": "REDUSDT-1d-2026-03.zip",
+      "sha256": "f087500edeee90549e8e78d7c8636de88bb4c4725a60343152fede33473c1c78"
+    },
+    {
+      "file": "REDUSDT-1d-2026-04.zip",
+      "sha256": "22180a0907084055809a10cf45f070ccb4760a6574b567aeba146febe5e4cdfe"
+    },
+    {
+      "file": "REDUSDT-1d-2026-05.zip",
+      "sha256": "6cf04184c1d28cff44be6fce1578f4c4a4618eebe28a9276a9e46edbea914a85"
+    },
+    {
+      "file": "REDUSDT-1d-2026-06.zip",
+      "sha256": "715d8c1faa274aab2c9bdc266fdf7c2c750cf26ca797065bfb6beb2a61280fda"
+    },
+    {
+      "file": "REDUSDT-1d-2026-07.zip",
+      "sha256": "674f9ac225dbfcb618ebd35408dc778fe9d0a5f4221844010c9ba010899af720"
+    },
+    {
+      "file": "REDUSDT-1d-2026-08.zip",
+      "sha256": "30e360d958f940a4422444835b323788305fa13b4965782e429dde54ec10d85b"
+    },
+    {
+      "file": "REDUSDT-1d-2026-09.zip",
+      "sha256": "a4ea56377c4a2e0e43ab7a8bab6e701e0fb0366673d52af0779c16a8cabb4446"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

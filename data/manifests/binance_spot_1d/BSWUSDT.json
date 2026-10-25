@@ -1,0 +1,189 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BSWUSDT/1d/",
+  "instrument": "BSWUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-03-21",
+  "last_bar": "2025-07-04",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:28:48+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1202,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BSWUSDT-1d-2022-03.zip",
+      "sha256": "bb208124956516c4bf332ee7763df36c8fcd9c0129701995eb918fea6817c6e9"
+    },
+    {
+      "file": "BSWUSDT-1d-2022-04.zip",
+      "sha256": "b142c9d5f0c078f3777c24eed18aa11f1bec9840829ec9e7d4d6bac7a98dea4b"
+    },
+    {
+      "file": "BSWUSDT-1d-2022-05.zip",
+      "sha256": "5490f1e680cf40d2b29c585fa7734bcf64c8f63f590ab14fea446aa0524d0b1b"
+    },
+    {
+      "file": "BSWUSDT-1d-2022-06.zip",
+      "sha256": "6cfc6c7358f3438299620b6a9c0586657e14ac5f0126e9f54796997ab4fc8276"
+    },
+    {
+      "file": "BSWUSDT-1d-2022-07.zip",
+      "sha256": "e99af7e242d4e7f890e09ef264e47eb5fb568cc6899195e3135accdff9ff9159"
+    },
+    {
+      "file": "BSWUSDT-1d-2022-08.zip",
+      "sha256": "925f8e042ce987b6140a9c83ccea1acc32e8045caed06a7b2b8d7e1c42591afc"
+    },
+    {
+      "file": "BSWUSDT-1d-2022-09.zip",
+      "sha256": "79cf24d8adf5c603657da1c49099efe2ceb8b29892e5f53668507c604802a05e"
+    },
+    {
+      "file": "BSWUSDT-1d-2022-10.zip",
+      "sha256": "fbd418a0f02f95ba3c4994d75e2cf3b52eecfc2ba3c73462fc9e061aaf8725d2"
+    },
+    {
+      "file": "BSWUSDT-1d-2022-11.zip",
+      "sha256": "9f1ecb098a83ac083d16f6766d21fa0794d4f4ff185e9d53e0e93f563eeb536e"
+    },
+    {
+      "file": "BSWUSDT-1d-2022-12.zip",
+      "sha256": "02e8237faae80e43ba9fd1b6c5faa25c5ba040518eabde7b28a9b28db72acaa2"
+    },
+    {
+      "file": "BSWUSDT-1d-2023-01.zip",
+      "sha256": "e1e7e2f62e2384444e74e82a2b28163142f19e5d07c3ce5621ebe16c5448dce8"
+    },
+    {
+      "file": "BSWUSDT-1d-2023-02.zip",
+      "sha256": "51ba8ef351c5b436ce94f222affb7ec8674d9739b21b151c5732919f424850b5"
+    },
+    {
+      "file": "BSWUSDT-1d-2023-03.zip",
+      "sha256": "0c8395b7e3bdc4c369b28ecfb1e7c246fec9d6457708ed0b7d5984dfd5b8b1dc"
+    },
+    {
+      "file": "BSWUSDT-1d-2023-04.zip",
+      "sha256": "09ab13a1a1b97b350a2bbde0c1a06e16f42156149f45cb9eb6d3c2858b2e4cc4"
+    },
+    {
+      "file": "BSWUSDT-1d-2023-05.zip",
+      "sha256": "e76945ee02915fccae9a360647c08d0cf4facc84711373da28b26ae8e08a3406"
+    },
+    {
+      "file": "BSWUSDT-1d-2023-06.zip",
+      "sha256": "a4e3148624669fb8dd1a6a5c4c6363fba149ff9aa813a51a69dc4b3b701efdea"
+    },
+    {
+      "file": "BSWUSDT-1d-2023-07.zip",
+      "sha256": "849dce949008c1183581bd6b9bd993644770f84cb8724bcaa324c8703fc83145"
+    },
+    {
+      "file": "BSWUSDT-1d-2023-08.zip",
+      "sha256": "152aab66c88132aeb692626f5a240e5a69e0e4334bf16172467229ac618fb858"
+    },
+    {
+      "file": "BSWUSDT-1d-2023-09.zip",
+      "sha256": "baed32efcaa93107c70d0921076f56e82487838fc27bc39e7a1949b1834885ab"
+    },
+    {
+      "file": "BSWUSDT-1d-2023-10.zip",
+      "sha256": "bef0f5b12055b7bbf468007cb7943537e09c402b396ec1f55362704befebf3d0"
+    },
+    {
+      "file": "BSWUSDT-1d-2023-11.zip",
+      "sha256": "48580ce7f7432b64e738cff387e11e87554bcde1ab931c7d753952423385c6cb"
+    },
+    {
+      "file": "BSWUSDT-1d-2023-12.zip",
+      "sha256": "a9975fa4d094eace7326bfccfe9ba6966be90f285d735a70e42c8e7d6ab4673a"
+    },
+    {
+      "file": "BSWUSDT-1d-2024-01.zip",
+      "sha256": "b13d2d548ad12059aaac2847b81017776310d0f3c239369d3663e0bfea704628"
+    },
+    {
+      "file": "BSWUSDT-1d-2024-02.zip",
+      "sha256": "13344a03d3feeb08c475c1c86e61cdbaecc89b70f5cc349d36b8649b31074898"
+    },
+    {
+      "file": "BSWUSDT-1d-2024-03.zip",
+      "sha256": "bb9c9275a4793fc0be244d458d09499a91f1c0e5708d7410e6f71c24559c154c"
+    },
+    {
+      "file": "BSWUSDT-1d-2024-04.zip",
+      "sha256": "4e9262f725b993c112e864badf32ca3af6ad4737beadf164bf93a113e18438e3"
+    },
+    {
+      "file": "BSWUSDT-1d-2024-05.zip",
+      "sha256": "75dbf8dee0c4c534d8b00b9e17445bd75b533deca4f11a7b943758ca521b982e"
+    },
+    {
+      "file": "BSWUSDT-1d-2024-06.zip",
+      "sha256": "02b92cb7e1c8de76157a604ba87115d836406187d7650c93dd7f0c604b7427cf"
+    },
+    {
+      "file": "BSWUSDT-1d-2024-07.zip",
+      "sha256": "7025ee2c2b0be0ad45aebf15f8ba2920d040a16823172705d05c82b6e126cb8d"
+    },
+    {
+      "file": "BSWUSDT-1d-2024-08.zip",
+      "sha256": "887c797366bd51b9274b82ae7d98ea3be61fc83ae13dff8e4b48491100f6bd28"
+    },
+    {
+      "file": "BSWUSDT-1d-2024-09.zip",
+      "sha256": "31a99a1ac94b7cf0971b1c47e835b17c8aac32c638f92701c2282e23b78a0636"
+    },
+    {
+      "file": "BSWUSDT-1d-2024-10.zip",
+      "sha256": "e605d4d661199994e964f058c7a3f693a1ec3ef9c916aa330b7abcebcd5acae7"
+    },
+    {
+      "file": "BSWUSDT-1d-2024-11.zip",
+      "sha256": "8ac17942afdd8a91622d5db2333a4c6bc8cb1c8ec447439adea86fd594ca664c"
+    },
+    {
+      "file": "BSWUSDT-1d-2024-12.zip",
+      "sha256": "c80b1c748e40a7c1882051f82c26d04a71c143f29d6464fd2e1da659351651f1"
+    },
+    {
+      "file": "BSWUSDT-1d-2025-01.zip",
+      "sha256": "9ddb0e2825871ccab3f445599a16bbc21aacf8d6a7c08e01a58712cc3d31d159"
+    },
+    {
+      "file": "BSWUSDT-1d-2025-02.zip",
+      "sha256": "14459bdc9400dad248670096e907c0556d8b5b087f94df8e164ea4856dcb377a"
+    },
+    {
+      "file": "BSWUSDT-1d-2025-03.zip",
+      "sha256": "70652aa5f15aef389cf7e7e15cdaaf90195d82d493dd78ab3a597e27fa2deca8"
+    },
+    {
+      "file": "BSWUSDT-1d-2025-04.zip",
+      "sha256": "1090e105ac5f8b8df5a3bd4f905fda1f5967c1fc169c0427bd3454bfa1d34d27"
+    },
+    {
+      "file": "BSWUSDT-1d-2025-05.zip",
+      "sha256": "067c12cc52a96efa135e7adea0d606f67f13fe3ff572b83eb24993b7a3b52029"
+    },
+    {
+      "file": "BSWUSDT-1d-2025-06.zip",
+      "sha256": "e8bf383afe9041b0d8c3811ba51d467c7430f2c871df6eb772f42cf7e7766fb0"
+    },
+    {
+      "file": "BSWUSDT-1d-2025-07.zip",
+      "sha256": "76f705ff955f61ce90b2f4c2e78034344ec0fac9655c87702524a2c9ed164949"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ETHFIUSDT/1d/",
+  "instrument": "ETHFIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-03-18",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:32:43+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 927,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ETHFIUSDT-1d-2024-03.zip",
+      "sha256": "d09c5bc951ac4098da81bcec5897e390175a4aed689aa604e85449a1a7d1bfd9"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2024-04.zip",
+      "sha256": "cfec73b2a107e4b0c837dec68a7ad14dafcc85416f1d1dda8c73792917f5340b"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2024-05.zip",
+      "sha256": "0a3e5617556247528b24b8e7096239a3abcc9527f20097d78ea8e03508392b87"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2024-06.zip",
+      "sha256": "3d3e9249c2cb7d84f31a9ff565c9c8eadff696993ff219026e79d5a2f7d31bff"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2024-07.zip",
+      "sha256": "dea176f225685eef864b08353d0968ad926060d7536111a3ee5ede2f8f8167b2"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2024-08.zip",
+      "sha256": "ca9f2c215c8602c9380e02b5d97fd40d9926d032943de99bb32013b27dbe1f8b"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2024-09.zip",
+      "sha256": "a0894f10379a0d4c7b025886d368825ce6f1bcb28c1122e45661a6b99720a9c9"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2024-10.zip",
+      "sha256": "4f9563a77c78dbb71667c2e2b126da9f34125cc86492e3be6821e1f1a62f5649"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2024-11.zip",
+      "sha256": "5132253129ad8a0bb1001a9145564f3cd9964dfec682de2acc7241c77fee5801"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2024-12.zip",
+      "sha256": "6560449627c7fccc9469b43b6e0383e6777469aa80db9bb077fb9ee693333fa7"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2025-01.zip",
+      "sha256": "3c54d8a50f71e3a091751b107e7177e1b650bea00e2011524eecb57922836559"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2025-02.zip",
+      "sha256": "cb18d97e6bea9af1e01d48f6d19d401302093a50d15b92002e6f6f36e897af1a"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2025-03.zip",
+      "sha256": "e8aa3f32a17aa71e6c6b9217e0f00359d949a3228450d487225ac3e873dd7987"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2025-04.zip",
+      "sha256": "5ac971343a56180b84a5b789961b808bb2e9d945d18616e6cec9991abc57dee0"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2025-05.zip",
+      "sha256": "1daf00b53f4c4a175ebd32b57e8960254824609dacd98677f7c1cf5bdc074238"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2025-06.zip",
+      "sha256": "fd6a2726e4ddfce7f59cd8b7311d134cb80325f04141429577e39945da097d4c"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2025-07.zip",
+      "sha256": "e41658c76a4bc44274b88f43023fbd5b36f0116a6b700d5468f41e71849d5e6c"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2025-08.zip",
+      "sha256": "4bf540a5072b6d2618dc633035db942077bff92b1e5b478ef41668bd368e568c"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2025-09.zip",
+      "sha256": "56ff998ea1058f2cd8af6ab3978e44b8605c360ef12399b1a5fdf6551621aecc"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2025-10.zip",
+      "sha256": "65f849a9669542974874dbfde933874de4228650264a41ec15e59a7c75b8deb8"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2025-11.zip",
+      "sha256": "85c9b72608405f6f28d81b8caac3e660991028e3799875c97c98b296d2a29684"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2025-12.zip",
+      "sha256": "0747906a017caeabc3435ded79636e0cd85ed34bee3b2c6069e1c713fc29add0"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2026-01.zip",
+      "sha256": "094ddca0e24302edca34c9f6e3fd369786fb6cd71d821912f63bcaeff6cd162f"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2026-02.zip",
+      "sha256": "1758df6cffb11781481ce142a79bd3ccd28dffbbf2358093cb7b08275b44352f"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2026-03.zip",
+      "sha256": "0b69e7d503429554422408de98bf6cdfc6dd562a964469f176f57e9cc62d3ebe"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2026-04.zip",
+      "sha256": "9c379ecec9642a20ae76b5b66cab3c10ca6574d9122131f55498436a8f0b5d33"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2026-05.zip",
+      "sha256": "793a957d8d8dc294b286a9a32326a30e7c0bbacdbef8e639becadf1f7dbb1774"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2026-06.zip",
+      "sha256": "6a5e33af30076cf2bbf0f370dee4f6fb068225ad895ec8aa369493df735e4c1a"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2026-07.zip",
+      "sha256": "71cc9fe48c8575f974779775aece29b47b2b5e5b6712e67254e6633522224cd9"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2026-08.zip",
+      "sha256": "ff7fe142f74e3803c036bac0866ef3b688c67000afb2344323623c7d0568be6c"
+    },
+    {
+      "file": "ETHFIUSDT-1d-2026-09.zip",
+      "sha256": "2b87f6544560e755f6bcc2ab2bc9cf6c89c2da71983ea3584ed7772fa1963b21"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

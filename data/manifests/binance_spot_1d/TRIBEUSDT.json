@@ -1,0 +1,89 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/TRIBEUSDT/1d/",
+  "instrument": "TRIBEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-08-24",
+  "last_bar": "2022-11-28",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:47:15+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 462,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "TRIBEUSDT-1d-2021-08.zip",
+      "sha256": "b09eec9d833cb51f662fd6d958b93202e60636c7d50654131b1dbcca9428bcd8"
+    },
+    {
+      "file": "TRIBEUSDT-1d-2021-09.zip",
+      "sha256": "42816c3c838313540cffbd534a1baa5de5f17d288b8f5b7138cec76f3370606c"
+    },
+    {
+      "file": "TRIBEUSDT-1d-2021-10.zip",
+      "sha256": "34f4ea9652f0c27e6b4174d572d45c803e4a690f8728533e2ac594dae9d06a21"
+    },
+    {
+      "file": "TRIBEUSDT-1d-2021-11.zip",
+      "sha256": "698005f96af2c2a6cadc7334fd80962c306e2b5887e4b10f775de7421c47034f"
+    },
+    {
+      "file": "TRIBEUSDT-1d-2021-12.zip",
+      "sha256": "d8f9d3c614dfa95609437f769b585fa72ae8c01df3e33336855f918c42b4ace1"
+    },
+    {
+      "file": "TRIBEUSDT-1d-2022-01.zip",
+      "sha256": "cafe3d092028b9f8a19c1a55d9781b2132934f7250df4788f8bbc406607e2b35"
+    },
+    {
+      "file": "TRIBEUSDT-1d-2022-02.zip",
+      "sha256": "f397417165646f8ec34c0d5e1dcf27c4e1eaae41a771058f179cddb2a7e81c65"
+    },
+    {
+      "file": "TRIBEUSDT-1d-2022-03.zip",
+      "sha256": "88d7805e46045e6dc33650c0d106122ecab12c09da3877f86063d6cda2dc17fa"
+    },
+    {
+      "file": "TRIBEUSDT-1d-2022-04.zip",
+      "sha256": "8ed32b463acfb9e70dcff7f06947784f535ef6948f3c3953583b61cdeccefbc6"
+    },
+    {
+      "file": "TRIBEUSDT-1d-2022-05.zip",
+      "sha256": "5410f2e8121fca24215d27ce96ca03ecc82a005355e1df2a19f76b8c43e3e487"
+    },
+    {
+      "file": "TRIBEUSDT-1d-2022-06.zip",
+      "sha256": "70619e7d8b8f59096c24089c17bab3e9be717c9ef3a4f588ef8a3898a6b6cbe1"
+    },
+    {
+      "file": "TRIBEUSDT-1d-2022-07.zip",
+      "sha256": "2df05884413206048a86ba0f80a6ea75ce97ca45597f1ea7aeff2998f8d9743f"
+    },
+    {
+      "file": "TRIBEUSDT-1d-2022-08.zip",
+      "sha256": "511901e6698f09be404d6c64ce540ff6e1eb2c9837f5e2408d0382c243df06f8"
+    },
+    {
+      "file": "TRIBEUSDT-1d-2022-09.zip",
+      "sha256": "fb991878775e294136b607fded062964cfdfa671820465e2bdb38c5a67fb71e2"
+    },
+    {
+      "file": "TRIBEUSDT-1d-2022-10.zip",
+      "sha256": "4dd3022ebf115f889584cfc8e04b0a6aa33f63d099cf848050ef2a3d1fb1dc8d"
+    },
+    {
+      "file": "TRIBEUSDT-1d-2022-11.zip",
+      "sha256": "6b4847c34a473ae21fe1e40cd6272b21a9eed529f44ebfacde80a65d836f0001"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

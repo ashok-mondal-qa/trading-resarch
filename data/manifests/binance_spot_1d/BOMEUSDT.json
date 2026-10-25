@@ -1,0 +1,149 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BOMEUSDT/1d/",
+  "instrument": "BOMEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-03-16",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:28:29+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 929,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BOMEUSDT-1d-2024-03.zip",
+      "sha256": "82ea9bc5e3224970ba4f516664cf9bc1f5b4332710e4af41c41d7c93104fad2a"
+    },
+    {
+      "file": "BOMEUSDT-1d-2024-04.zip",
+      "sha256": "4177bd5c06cca3f459daa494c501d52ffb19c417d61b0b8c2cbaf12ef1f43cb8"
+    },
+    {
+      "file": "BOMEUSDT-1d-2024-05.zip",
+      "sha256": "741b6d58f512c6f7cfe78ba3d5db1315ba6d0992fecbfb5b7589deffbe3d088c"
+    },
+    {
+      "file": "BOMEUSDT-1d-2024-06.zip",
+      "sha256": "c764bea40708c7a76ca4696118cdd466e524fa5eb2c6ed7c782723923c9ee981"
+    },
+    {
+      "file": "BOMEUSDT-1d-2024-07.zip",
+      "sha256": "e15302d128d064146d9382b67b08552a97625b05e739396c25899cedc36d896c"
+    },
+    {
+      "file": "BOMEUSDT-1d-2024-08.zip",
+      "sha256": "de6da71098b669092564d28b80523843f8b137e451ef5e65276a04d3f4e0c72c"
+    },
+    {
+      "file": "BOMEUSDT-1d-2024-09.zip",
+      "sha256": "cb02f1e16fa5ef25656f2b350aef3bf665e37bf5f975fcd7af9e92b895b3eeae"
+    },
+    {
+      "file": "BOMEUSDT-1d-2024-10.zip",
+      "sha256": "4281b7a82dd7653e394a02741015e10f74771f2538b6d44cd040ef79b23306f3"
+    },
+    {
+      "file": "BOMEUSDT-1d-2024-11.zip",
+      "sha256": "547f78c214ae7524aa8d95c54785995a856ecbf8a2af5fe89337f4630441e76c"
+    },
+    {
+      "file": "BOMEUSDT-1d-2024-12.zip",
+      "sha256": "6d7e25c6b4d4f592df9dd88164d9a80cf797379e0fca424d5dcbe33ca28974f7"
+    },
+    {
+      "file": "BOMEUSDT-1d-2025-01.zip",
+      "sha256": "84bee4f7ab56a09c58dcd8d507192192643186aeeca9ac917da78430e50d8b6c"
+    },
+    {
+      "file": "BOMEUSDT-1d-2025-02.zip",
+      "sha256": "5b56f53bd2d9b6ca663446871b59419df9ba928d2039a01e8ba43a27b040eaa7"
+    },
+    {
+      "file": "BOMEUSDT-1d-2025-03.zip",
+      "sha256": "35341b813081ca0a648ab9e228ecf8113d63ff5443a8340f1a29e8495d5efa04"
+    },
+    {
+      "file": "BOMEUSDT-1d-2025-04.zip",
+      "sha256": "de5f126e89c8e222f7125199af8a2818d8569a3d811e643af561c7b5db379b74"
+    },
+    {
+      "file": "BOMEUSDT-1d-2025-05.zip",
+      "sha256": "b3edf02a05e1c6107c42badcc40e9173749f061b7135fdfd04ba0bf850e3100c"
+    },
+    {
+      "file": "BOMEUSDT-1d-2025-06.zip",
+      "sha256": "6bb67ebc4106d7fc8083ef7f211f68eb5386c77ab89b13a4e93c2b0ed4b8f906"
+    },
+    {
+      "file": "BOMEUSDT-1d-2025-07.zip",
+      "sha256": "5e15529e04718fc711842c8f8ab2cd00d9d47a685b842f4f357a21b3f313bd28"
+    },
+    {
+      "file": "BOMEUSDT-1d-2025-08.zip",
+      "sha256": "60f4c8a9375487ed5079e8d73914da6ec74424457970070d56802d29621351bd"
+    },
+    {
+      "file": "BOMEUSDT-1d-2025-09.zip",
+      "sha256": "2eb46b22655dab7d05b7d34bd417ba8c27657c58292c28018c2862d3af490333"
+    },
+    {
+      "file": "BOMEUSDT-1d-2025-10.zip",
+      "sha256": "1cacdf9146a33b7fdc11b6c3e9b6f4e6c37e0e6166b4ff488b36edbe496f644b"
+    },
+    {
+      "file": "BOMEUSDT-1d-2025-11.zip",
+      "sha256": "89cbb73eb9b899ef5ac253bf2c0e768d8b64c6b16850c25ffc32ee1c1e0e8fed"
+    },
+    {
+      "file": "BOMEUSDT-1d-2025-12.zip",
+      "sha256": "fff5cd3e44123831ae9dcd4aea4df2a0ad4e7c90fee0e717ed0d7c72d0c918e4"
+    },
+    {
+      "file": "BOMEUSDT-1d-2026-01.zip",
+      "sha256": "64ac1ac3213e89544873627b21f91e55c1b4dce4eed7fef42556fb39c005dda1"
+    },
+    {
+      "file": "BOMEUSDT-1d-2026-02.zip",
+      "sha256": "ee11339cc7a1498cce316499866e564b0d9f09b8173192e89e90bcda180ddc5f"
+    },
+    {
+      "file": "BOMEUSDT-1d-2026-03.zip",
+      "sha256": "e52272866a5fb371d7d1571cd7788a373ae3bb1979e2b551701f97b7dd8beca4"
+    },
+    {
+      "file": "BOMEUSDT-1d-2026-04.zip",
+      "sha256": "b62ba69936cf7ab64244ba11757a428f463856958fdaffa73857a6ae55d393a7"
+    },
+    {
+      "file": "BOMEUSDT-1d-2026-05.zip",
+      "sha256": "dffebe5a64f95f4de3ce1dd6b2fe41413a6ab57f8d1e05964d42473d9638f286"
+    },
+    {
+      "file": "BOMEUSDT-1d-2026-06.zip",
+      "sha256": "336d696e05e7732e90d904be31793ab15d5e206aab793551269e1fd2812fedd2"
+    },
+    {
+      "file": "BOMEUSDT-1d-2026-07.zip",
+      "sha256": "487de2c15a1135d5db7161f1be6121d96296e21941fdb317f4af462be21f1edd"
+    },
+    {
+      "file": "BOMEUSDT-1d-2026-08.zip",
+      "sha256": "25f343c65ed58d1832c61310b4e017960a68d5da2286732418c9ee9130402915"
+    },
+    {
+      "file": "BOMEUSDT-1d-2026-09.zip",
+      "sha256": "b51af49c98b0d2e24e9c6735d671b1cbef7c0d53f1c4c6692cd5a05103baed52"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

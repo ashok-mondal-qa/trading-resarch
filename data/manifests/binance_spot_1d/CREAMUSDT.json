@@ -1,0 +1,105 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/CREAMUSDT/1d/",
+  "instrument": "CREAMUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-09-22",
+  "last_bar": "2025-04-16",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:30:07+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 573,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "CREAMUSDT-1d-2023-09.zip",
+      "sha256": "88dcbeea68a1d8c06a07bda93e25b92082a474be90eca2a303525ea3f295bb71"
+    },
+    {
+      "file": "CREAMUSDT-1d-2023-10.zip",
+      "sha256": "59dbe1c79f0b8d186e3db40c6380ffb205b044b44ee81f8d30618975c425b678"
+    },
+    {
+      "file": "CREAMUSDT-1d-2023-11.zip",
+      "sha256": "ed2f833c8a74f3aaff9d2e5e1664450bf25b0de54dcad3b2b874222e11a4b35c"
+    },
+    {
+      "file": "CREAMUSDT-1d-2023-12.zip",
+      "sha256": "9d92e7706ad594535e72467b3a42aa21f1b2c47d17ed347a84c70bb6bd306eb2"
+    },
+    {
+      "file": "CREAMUSDT-1d-2024-01.zip",
+      "sha256": "b7f9bc5400f46f3e0d88a544d393d2192384ee9f51be7072533a3e0702544d6b"
+    },
+    {
+      "file": "CREAMUSDT-1d-2024-02.zip",
+      "sha256": "25f55897d85c0c1751094c024dd11d33d406d129362e91b5c493e976604dbdfe"
+    },
+    {
+      "file": "CREAMUSDT-1d-2024-03.zip",
+      "sha256": "c41fc05ac4c9fb5417f9aecc04d42eff969e28b56063f49f2201f0de2177a2f6"
+    },
+    {
+      "file": "CREAMUSDT-1d-2024-04.zip",
+      "sha256": "2f7dd051a96771548bf0ddd649742b8343ed6a053c153d2bf97fd8cfd05dc59b"
+    },
+    {
+      "file": "CREAMUSDT-1d-2024-05.zip",
+      "sha256": "37c7f60d1fa6962f906d157c0fdee91638249f6de5ef6c73459dfd4da409c68b"
+    },
+    {
+      "file": "CREAMUSDT-1d-2024-06.zip",
+      "sha256": "bbc5fa69ee14da230752d3b53863a538795d85c2509c56a47a58567455464297"
+    },
+    {
+      "file": "CREAMUSDT-1d-2024-07.zip",
+      "sha256": "7126d9b0c3da281b9bd3f712a87be12b9526327519f9faca15b789c6a68ed474"
+    },
+    {
+      "file": "CREAMUSDT-1d-2024-08.zip",
+      "sha256": "e07490bc5ef9f67847f7bf4b10b8aa3a9ed82a2db61d569b8c344bfda9780a1e"
+    },
+    {
+      "file": "CREAMUSDT-1d-2024-09.zip",
+      "sha256": "13d6407a2eca690057610b27f3e1ab464cdfc65e5ecb59965b7445219614d04f"
+    },
+    {
+      "file": "CREAMUSDT-1d-2024-10.zip",
+      "sha256": "2335ea210f082e665b2ffad50e92ed8a8dc76b21af3da76d88d26c5e312e3287"
+    },
+    {
+      "file": "CREAMUSDT-1d-2024-11.zip",
+      "sha256": "7c1ae6de4aa41d9cb0f9b520576afe543c4a8cc9308f4f73d481e7735ae5826c"
+    },
+    {
+      "file": "CREAMUSDT-1d-2024-12.zip",
+      "sha256": "58ba37a4b5524cebe82c45bee74d814964c11e138c122c7c90e8b23baf381f63"
+    },
+    {
+      "file": "CREAMUSDT-1d-2025-01.zip",
+      "sha256": "5df365a00db17438cfba1f4446ff740d03a3a0b16f15c77b3373379604961c2b"
+    },
+    {
+      "file": "CREAMUSDT-1d-2025-02.zip",
+      "sha256": "545a9616b935bb50934959e147d85add05f765b760ce4e8591f35873abb1d823"
+    },
+    {
+      "file": "CREAMUSDT-1d-2025-03.zip",
+      "sha256": "94f9b5476395ace2153a63ef5830a054f2a6243bb2a13645e74cded588e81845"
+    },
+    {
+      "file": "CREAMUSDT-1d-2025-04.zip",
+      "sha256": "f280d552cd81d1e938ea8e65beffd5ebc726be7505aab3553478539cfe7e8279"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

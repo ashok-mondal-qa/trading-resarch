@@ -1,0 +1,261 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/CITYUSDT/1d/",
+  "instrument": "CITYUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-11-10",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:29:56+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1786,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "CITYUSDT-1d-2021-11.zip",
+      "sha256": "5979c5c2da0b0bda90ca7676aaf34b312fccb697d3c43fbe3770a7a6261cf0af"
+    },
+    {
+      "file": "CITYUSDT-1d-2021-12.zip",
+      "sha256": "c424d2dca249bae58fbb965cea3b3a177339ba80152affbf9acfea1835065309"
+    },
+    {
+      "file": "CITYUSDT-1d-2022-01.zip",
+      "sha256": "618cb1eb33e3f4ff352732e4236e11e1a4d590b30d9759bf58e91d3509df2863"
+    },
+    {
+      "file": "CITYUSDT-1d-2022-02.zip",
+      "sha256": "239f15a53661b0379f515c0a895601eac827fbc04b22acbe5c4610165764cba6"
+    },
+    {
+      "file": "CITYUSDT-1d-2022-03.zip",
+      "sha256": "2460ef127d62d11d318baba0801e601f459bdfd080d5ebbf0d03bd4e7fe5d47e"
+    },
+    {
+      "file": "CITYUSDT-1d-2022-04.zip",
+      "sha256": "a11f1561f335ffbfaa4ffceb8466a9ba331c19577d50605fabb1682bd9d174ab"
+    },
+    {
+      "file": "CITYUSDT-1d-2022-05.zip",
+      "sha256": "ce6fa242fb356268ab7090d2df8418da3e1e99eaba8bac354c5388ff84f6ec27"
+    },
+    {
+      "file": "CITYUSDT-1d-2022-06.zip",
+      "sha256": "067caf06c813a716cd42d2956ee64b737dacab989da5ea6bbf1ef146103e47d0"
+    },
+    {
+      "file": "CITYUSDT-1d-2022-07.zip",
+      "sha256": "2e67e7caf5101f1018ab9e323b7ac8b36759a2bc13540f5f9f054f14f97e9e69"
+    },
+    {
+      "file": "CITYUSDT-1d-2022-08.zip",
+      "sha256": "2b8b8d2920f60bca6bc9b6731a461000dbf4cbfc5dd7cfb16e1e5f5bf706b960"
+    },
+    {
+      "file": "CITYUSDT-1d-2022-09.zip",
+      "sha256": "1c731effd436948d3e9bfb2cd916d6b66571255afa61cd346e8161114258e0f7"
+    },
+    {
+      "file": "CITYUSDT-1d-2022-10.zip",
+      "sha256": "8a36bbd659aa8677b6f6498f85da915b3fc3a7eb119559d7896a43f2ade354f4"
+    },
+    {
+      "file": "CITYUSDT-1d-2022-11.zip",
+      "sha256": "43b8651ee9447247f2b2ded11f6be58caac1d0c0727320817258fcb541e95a9f"
+    },
+    {
+      "file": "CITYUSDT-1d-2022-12.zip",
+      "sha256": "76dca5ffdfaff615ade6bdcdfc681725db6e4a64e106c25e751909db250d427c"
+    },
+    {
+      "file": "CITYUSDT-1d-2023-01.zip",
+      "sha256": "498073cb67dfe4c0f0aeac9d3bd32f197c4b42220ff95de72337ad4f0b4ce5b5"
+    },
+    {
+      "file": "CITYUSDT-1d-2023-02.zip",
+      "sha256": "b19cc620022fe403147694eb5b23ad923aee31f64576f78dac7cebe92ece5704"
+    },
+    {
+      "file": "CITYUSDT-1d-2023-03.zip",
+      "sha256": "0f65edeca724eb46d20b18359b980b0ac4419d376a84d90a14e089faee323573"
+    },
+    {
+      "file": "CITYUSDT-1d-2023-04.zip",
+      "sha256": "480d35dc33b7843a4d20fe8f0989fe92c894c4536629b138edb482c83bd4ba9b"
+    },
+    {
+      "file": "CITYUSDT-1d-2023-05.zip",
+      "sha256": "268bf827a413bd11e28a6de721b10c90c08a3a32ac285f91ded19dea6488c216"
+    },
+    {
+      "file": "CITYUSDT-1d-2023-06.zip",
+      "sha256": "c2477298c4081f3a262c349813b53d03c6b513e6be91d43cbf48938623d26700"
+    },
+    {
+      "file": "CITYUSDT-1d-2023-07.zip",
+      "sha256": "1393a89fa3dd4d8325e4fb10e06e734317d5f94db71824bf8fc1858129468c22"
+    },
+    {
+      "file": "CITYUSDT-1d-2023-08.zip",
+      "sha256": "6d81f05c3b6d6f9203e50e931b9e8997e81a42ec766b98d37189463dc219635b"
+    },
+    {
+      "file": "CITYUSDT-1d-2023-09.zip",
+      "sha256": "08acbfea1fb39211807e83fb0998c34a6adafd52a7946ae832568f0fa3b04bbd"
+    },
+    {
+      "file": "CITYUSDT-1d-2023-10.zip",
+      "sha256": "be99eb14d7313a5486d2cc7ce18b4c1b3c11906aba587cae0a4e9978428816f4"
+    },
+    {
+      "file": "CITYUSDT-1d-2023-11.zip",
+      "sha256": "871e8fb6f365a3f2329c4458b1f6a19e5394af07f781a4388358ecb5a0316c8d"
+    },
+    {
+      "file": "CITYUSDT-1d-2023-12.zip",
+      "sha256": "f2a4cf0c2c1034cbe9ce9f5949be13631aedc488da64397a337a1f58afc5ddd2"
+    },
+    {
+      "file": "CITYUSDT-1d-2024-01.zip",
+      "sha256": "9960c6f7974d8e3c28db702ae444c90d0828d8fe6fa3fe7abff99c0db9ef8d55"
+    },
+    {
+      "file": "CITYUSDT-1d-2024-02.zip",
+      "sha256": "a02293f2aa16a5016bde5a43473b128ac9c41959ca5023301d5b2fdcd020aee7"
+    },
+    {
+      "file": "CITYUSDT-1d-2024-03.zip",
+      "sha256": "f6392c754c4c8b1292de825ebabbe4516a2a7bf3582928d2f9be63d41978c6dd"
+    },
+    {
+      "file": "CITYUSDT-1d-2024-04.zip",
+      "sha256": "0f3478de1d19ec0e63874febf1ab52e68656d0ea61fb1948c83342c1f41b85b4"
+    },
+    {
+      "file": "CITYUSDT-1d-2024-05.zip",
+      "sha256": "7f750122c71494159cb89c61002be495b5a775d27e024f55407d0cc48e8bc669"
+    },
+    {
+      "file": "CITYUSDT-1d-2024-06.zip",
+      "sha256": "3d8e9b50381b41fc258146eda9c014f0a2652445280c1701f15aa393e2403f59"
+    },
+    {
+      "file": "CITYUSDT-1d-2024-07.zip",
+      "sha256": "ca3fc8a8cb6d65ad778010e8de09d4d88d1e7b6f9a8fd982c8e43b19a7b18c0d"
+    },
+    {
+      "file": "CITYUSDT-1d-2024-08.zip",
+      "sha256": "77e1c3f533a87e6251de15c0986d759d9f24145c3c22bc88bc06ae3f7b8d0e61"
+    },
+    {
+      "file": "CITYUSDT-1d-2024-09.zip",
+      "sha256": "71b84ccf7dbc01f4c317b9d12a59bdf1d184582ef07993b701a482090ad07f8f"
+    },
+    {
+      "file": "CITYUSDT-1d-2024-10.zip",
+      "sha256": "cdd2ad4098581ba4c46b47f5f5571e431573aa36a86b544b0a83eae5c7de8849"
+    },
+    {
+      "file": "CITYUSDT-1d-2024-11.zip",
+      "sha256": "46dea970a09296aa48f5dc98c0dbed83b9bc2f7ce52309b1aaadf67662911d2e"
+    },
+    {
+      "file": "CITYUSDT-1d-2024-12.zip",
+      "sha256": "07c38b2c79669943b79d6bd782ef2627fc22c736866e4ec1e5e2602bb8fa2dd2"
+    },
+    {
+      "file": "CITYUSDT-1d-2025-01.zip",
+      "sha256": "fc736a14192e659e07570591625bd909445a0ef60bae85efa1d43723b5cc08b9"
+    },
+    {
+      "file": "CITYUSDT-1d-2025-02.zip",
+      "sha256": "0e8bd5ec3b854c169bbb4b66fb8bbd32c336cdb6c69a639ce311f89460a8499f"
+    },
+    {
+      "file": "CITYUSDT-1d-2025-03.zip",
+      "sha256": "3c6ba2111c6005a137dbe8e90d62adb720a7056d16e5ee1e288a2445f8e222f7"
+    },
+    {
+      "file": "CITYUSDT-1d-2025-04.zip",
+      "sha256": "8b6f14d6adb3669f9529d988debff1d4a2ad2b4eb675d3a91e2652df67d726c9"
+    },
+    {
+      "file": "CITYUSDT-1d-2025-05.zip",
+      "sha256": "37325f7a6d802323b10cc3ac71defeef03f0c3cdbf985f19bfc46b005c615703"
+    },
+    {
+      "file": "CITYUSDT-1d-2025-06.zip",
+      "sha256": "f1bc365c8587cf761b35be03b2c485fb6867b9b8ba7ec2afe01eb6205caf1920"
+    },
+    {
+      "file": "CITYUSDT-1d-2025-07.zip",
+      "sha256": "90a23a1ed684fc5f4f3c4435e11a8a4cc06ff32f901ca7cbcbbe9abc738d047e"
+    },
+    {
+      "file": "CITYUSDT-1d-2025-08.zip",
+      "sha256": "83a1ca05ab6dd91d07379559515c86a57e667707ad6271be0deec7f90f2b3c60"
+    },
+    {
+      "file": "CITYUSDT-1d-2025-09.zip",
+      "sha256": "07d7f6e12be0abc5c97887178a014fe7baa19b094b9e3959ba420b55b1ca61a9"
+    },
+    {
+      "file": "CITYUSDT-1d-2025-10.zip",
+      "sha256": "1eb46b71fb9f298e686c53687d5c988d0d9e89f1d9c0b6dbc32e9599504ff8f0"
+    },
+    {
+      "file": "CITYUSDT-1d-2025-11.zip",
+      "sha256": "909e33fe4194cb45c696c90e5340964f52198800dc68c6079b8ba706f83a4904"
+    },
+    {
+      "file": "CITYUSDT-1d-2025-12.zip",
+      "sha256": "0fa084ff8dd41534570d8a2d9fb595c6d6e011991f90fab85f57817a36d7cb30"
+    },
+    {
+      "file": "CITYUSDT-1d-2026-01.zip",
+      "sha256": "2a510df7e22e07013470f89e4b7fc9218d03d18b20cfb745bf85fc5bf4680af6"
+    },
+    {
+      "file": "CITYUSDT-1d-2026-02.zip",
+      "sha256": "cda8f23aadd0d4d1c3e858297807c375b06537d6f59a53e5c303965ed3afa0ad"
+    },
+    {
+      "file": "CITYUSDT-1d-2026-03.zip",
+      "sha256": "97a976e0110f975a11e957b79f28c7c44710645ae4d4b95a80f3149f1474f829"
+    },
+    {
+      "file": "CITYUSDT-1d-2026-04.zip",
+      "sha256": "d4fd3e10f0ac92b760028ae30d2b6ddb9ebafabcb9c28412f4046e4ea43bbc57"
+    },
+    {
+      "file": "CITYUSDT-1d-2026-05.zip",
+      "sha256": "25a8c7143aaeb8687f503f1728cd20edf64d45ad4269ce40ba4953ddc89ff651"
+    },
+    {
+      "file": "CITYUSDT-1d-2026-06.zip",
+      "sha256": "71eea00baaeda3a2c8e039cb0bd684ab7a1bd5edfce2275b4e9467a1ec676cf4"
+    },
+    {
+      "file": "CITYUSDT-1d-2026-07.zip",
+      "sha256": "6fb3e4b6670d069a9f8b1096e2bdeb5236ca6f51a88b8b7a2c599985f14eb388"
+    },
+    {
+      "file": "CITYUSDT-1d-2026-08.zip",
+      "sha256": "bbe2930a8d76df4931da9ab8e4fb92a1230447c9f44231e063f1376af9237d3c"
+    },
+    {
+      "file": "CITYUSDT-1d-2026-09.zip",
+      "sha256": "346f51de7fdcf53a214d1b6ee3bd22fcbefe3ff6515239f11ef7558273000208"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

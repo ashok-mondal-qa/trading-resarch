@@ -1,0 +1,125 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/TURBOUSDT/1d/",
+  "instrument": "TURBOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-09-16",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:47:32+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 745,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "TURBOUSDT-1d-2024-09.zip",
+      "sha256": "89cf421655a3aa399d9d72251ff62d7c1a1a3bf12396288049fee53e4abf9fb8"
+    },
+    {
+      "file": "TURBOUSDT-1d-2024-10.zip",
+      "sha256": "7eb295e5a062962f919b1d91476952c047a1c37caaf1d01505bd0ce26904ff84"
+    },
+    {
+      "file": "TURBOUSDT-1d-2024-11.zip",
+      "sha256": "e4ee11b0cf33a02cafa294ff782394c663d49850c110be4e381958981027a32f"
+    },
+    {
+      "file": "TURBOUSDT-1d-2024-12.zip",
+      "sha256": "5a6bab95b4cc32a70451bc60fbe3a1c1eb31f2d77203fc78afe1f3104e59aeb2"
+    },
+    {
+      "file": "TURBOUSDT-1d-2025-01.zip",
+      "sha256": "5885d2d35557d1890409c2fcea36d46e8e377b1c28075dbf71ae01196c781f9a"
+    },
+    {
+      "file": "TURBOUSDT-1d-2025-02.zip",
+      "sha256": "8dbe83fb5188f1cb411cb1559521266e0103fe0a2a35ca83843488a02e850725"
+    },
+    {
+      "file": "TURBOUSDT-1d-2025-03.zip",
+      "sha256": "1ecae34dfe29eec6e4f3ab6f88d53e0e7a723cb85c165c5cf6676009b7d1ccb9"
+    },
+    {
+      "file": "TURBOUSDT-1d-2025-04.zip",
+      "sha256": "38e137698f140771fffb21e9d2ea1947a87f7a5b78227dbc45eddf357bbd08e8"
+    },
+    {
+      "file": "TURBOUSDT-1d-2025-05.zip",
+      "sha256": "79a9e59a81b22f8d13d65267adc6cafb39e0a6949e2f388ed04feba96504ee88"
+    },
+    {
+      "file": "TURBOUSDT-1d-2025-06.zip",
+      "sha256": "96c5f8fd3da30c33f066e7db13555777b81955d6d8a10f4afdc282e004f16c2d"
+    },
+    {
+      "file": "TURBOUSDT-1d-2025-07.zip",
+      "sha256": "9267e4e5a4767b04e41c23a1de635d4f28567f1eb1c0197c235959ff805c0ad4"
+    },
+    {
+      "file": "TURBOUSDT-1d-2025-08.zip",
+      "sha256": "31b17d11075864d599540268ec2927a39524f4f2fd2e820cd03fe19063689c72"
+    },
+    {
+      "file": "TURBOUSDT-1d-2025-09.zip",
+      "sha256": "515947336e1ab31392f5a78821c651ba273d12555cbc49fdf6e4b443f34545c3"
+    },
+    {
+      "file": "TURBOUSDT-1d-2025-10.zip",
+      "sha256": "c2ca1698f13e3457e3639ed1056a23a3ccf4b6a2aad6fad366807a55ebfe208b"
+    },
+    {
+      "file": "TURBOUSDT-1d-2025-11.zip",
+      "sha256": "b4463d116c38666dd633046d498dfb51eeb3ab0575562790119309aa27c4ec89"
+    },
+    {
+      "file": "TURBOUSDT-1d-2025-12.zip",
+      "sha256": "d042cbf33262a058afbdced56b3d9a0fee00e37365d7068ac8ff3e949bac5385"
+    },
+    {
+      "file": "TURBOUSDT-1d-2026-01.zip",
+      "sha256": "17f918cc5f25447f3471b3c7ab1254a8274f483bbe20986b8834dd0a829b5ecf"
+    },
+    {
+      "file": "TURBOUSDT-1d-2026-02.zip",
+      "sha256": "97a7ef829189eb37586c5e168d12e65f17ae6ff8250f26e06678c812ffa3233f"
+    },
+    {
+      "file": "TURBOUSDT-1d-2026-03.zip",
+      "sha256": "20a8f2810109a5db6f9276cce11de4100d7da0f28fd93a77dfae259f82707d9a"
+    },
+    {
+      "file": "TURBOUSDT-1d-2026-04.zip",
+      "sha256": "dcafa47ceb2393e0f492b19b8771a7b1c00a73027fb57c266746245162279761"
+    },
+    {
+      "file": "TURBOUSDT-1d-2026-05.zip",
+      "sha256": "492c8ebadfe58c684bd01040a44de9206562849c9db26b16c4e5f0b50d6537e2"
+    },
+    {
+      "file": "TURBOUSDT-1d-2026-06.zip",
+      "sha256": "9124f2a3ed09a0b3f4bae45a15eb42b63103e2d8283af03d80e671abb95f2d71"
+    },
+    {
+      "file": "TURBOUSDT-1d-2026-07.zip",
+      "sha256": "3d7b37a0606d473c688d4bda12bc36936266f91f3c6ee83381c0a4073c2b8c20"
+    },
+    {
+      "file": "TURBOUSDT-1d-2026-08.zip",
+      "sha256": "185f31381c75dd9a65374005f84588427169dcf3e08d3871f495a564450f4c9a"
+    },
+    {
+      "file": "TURBOUSDT-1d-2026-09.zip",
+      "sha256": "826046958cfb8d332fc8b6fb5ed905d5db67f8e6930fc8cc979d5e397b705c90"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

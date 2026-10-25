@@ -1,0 +1,389 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/CELRUSDT/1d/",
+  "instrument": "CELRUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-03-25",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:29:57+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2747,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "CELRUSDT-1d-2019-03.zip",
+      "sha256": "fcc69bfa10060dd1f1858df169de65581d994596dab0637044ec8c2c431bd033"
+    },
+    {
+      "file": "CELRUSDT-1d-2019-04.zip",
+      "sha256": "57a1da0ea34718a6330dabd386863f3cf90bf98ed474a02892bd51c4cebb8e35"
+    },
+    {
+      "file": "CELRUSDT-1d-2019-05.zip",
+      "sha256": "33480e50cf60f44dd9565d42279024fea3d7f3f11859eb561b381850fedb8809"
+    },
+    {
+      "file": "CELRUSDT-1d-2019-06.zip",
+      "sha256": "144b643d0d6505fd9bead550b42e63f9c72399b36978acc4c4e706e4fdc91d4b"
+    },
+    {
+      "file": "CELRUSDT-1d-2019-07.zip",
+      "sha256": "6a4565536915c39571292fea977fb9fff4a767900c3cc89dc81bbb8ce55e563a"
+    },
+    {
+      "file": "CELRUSDT-1d-2019-08.zip",
+      "sha256": "dc1862e28ac8af211bcb33213f18090c0a544b421777aef326ab345bdfda559e"
+    },
+    {
+      "file": "CELRUSDT-1d-2019-09.zip",
+      "sha256": "bfd9b87f3726d53db6d94bcc4cd6cdb7569ebd0e3a0d4d8436b3962dd56f5d58"
+    },
+    {
+      "file": "CELRUSDT-1d-2019-10.zip",
+      "sha256": "8264a557acdbdaf8d8bb427316c2c47ad7e153e7ed4c0f63d5bfbde5dbe9cdcf"
+    },
+    {
+      "file": "CELRUSDT-1d-2019-11.zip",
+      "sha256": "6705808934e80518fcb408a27752b0de9dc132e7e658630c639c030f667c3940"
+    },
+    {
+      "file": "CELRUSDT-1d-2019-12.zip",
+      "sha256": "0c691e77446c0d2b1363d60c0e1b5a3b7daf545fa91e9cd77fececcd5f416a8d"
+    },
+    {
+      "file": "CELRUSDT-1d-2020-01.zip",
+      "sha256": "0fcabdac563bcad55013bb99ef4dae2fb1f05386eb5ae93e97d002db7bebd044"
+    },
+    {
+      "file": "CELRUSDT-1d-2020-02.zip",
+      "sha256": "01a5af1c3867906348e6ce2181a80a39e26d2d71824f59e9e31d1783df6017be"
+    },
+    {
+      "file": "CELRUSDT-1d-2020-03.zip",
+      "sha256": "a4a5051522c7ea88d3529ef994177ea7cbd6f3b252f348bd555aa04211f6839c"
+    },
+    {
+      "file": "CELRUSDT-1d-2020-04.zip",
+      "sha256": "90d5df3d52228ebe02d097ca1a59743d89c88c287623fe571101107b38436581"
+    },
+    {
+      "file": "CELRUSDT-1d-2020-05.zip",
+      "sha256": "f5dcc9cf0ed3b6fb988990bb89b0bb0c8381b1794be4180686c25b232f229103"
+    },
+    {
+      "file": "CELRUSDT-1d-2020-06.zip",
+      "sha256": "916e0d61f2cd0eb2a3aca3272578791ded2dc32caa8dfd2b3b1be5a70b61a941"
+    },
+    {
+      "file": "CELRUSDT-1d-2020-07.zip",
+      "sha256": "0debbc8666d94ecbb90477e634f45ccfdd3ac8166ba29e82dd9ecd719dfbdbea"
+    },
+    {
+      "file": "CELRUSDT-1d-2020-08.zip",
+      "sha256": "9a3878a00bcebd10b71a9bc4c4c65878a1fb7a5d39d5b8570da32a50500c4421"
+    },
+    {
+      "file": "CELRUSDT-1d-2020-09.zip",
+      "sha256": "13a171c1ebdef133265da4ea263123233101173e18ab0bcdc83d2bd0c88fefa3"
+    },
+    {
+      "file": "CELRUSDT-1d-2020-10.zip",
+      "sha256": "e10c4a7c785f29c4e251ffeb0488708dfbf6692cb40de443f5bd1972cbff2ba4"
+    },
+    {
+      "file": "CELRUSDT-1d-2020-11.zip",
+      "sha256": "d7376ccf6001e8b14dd0154942d01e20cf73eae44f803bb8038bc4bc2ee6376e"
+    },
+    {
+      "file": "CELRUSDT-1d-2020-12.zip",
+      "sha256": "91583f49c30efee7d5c2b209735cab05439ba3b010d5b1c5392df04fbc76fe7f"
+    },
+    {
+      "file": "CELRUSDT-1d-2021-01.zip",
+      "sha256": "8f87f0516e7784bac70e3b3041a9fc33bb2edeece15b6e9a25e952a71feabe5c"
+    },
+    {
+      "file": "CELRUSDT-1d-2021-02.zip",
+      "sha256": "d86b17f27a83c20b2208ec4f803332afb39b94e98e6f6a79f67c30996fddda24"
+    },
+    {
+      "file": "CELRUSDT-1d-2021-03.zip",
+      "sha256": "e67abaf94ebca902e9594a7fb2dcb3e3b1442a1b7cce51300ffa385d8b4d2745"
+    },
+    {
+      "file": "CELRUSDT-1d-2021-04.zip",
+      "sha256": "27067648fd7d4661285f4021fd77a2ad7a16fd5a5449fe70e5fd0f9e8a90746c"
+    },
+    {
+      "file": "CELRUSDT-1d-2021-05.zip",
+      "sha256": "249ec6957ff787d150a9a43621e5c108a20364da7ae622be016f17d55fa7c5e3"
+    },
+    {
+      "file": "CELRUSDT-1d-2021-06.zip",
+      "sha256": "6041a6f75370f79ff93c1677202e72d56f5fa07432d79ad4eeae61171e0e0a31"
+    },
+    {
+      "file": "CELRUSDT-1d-2021-07.zip",
+      "sha256": "7e464e312856e9b849204323a259655da70610c58143501e6d2557b4ec009a68"
+    },
+    {
+      "file": "CELRUSDT-1d-2021-08.zip",
+      "sha256": "e2fea4df869af92a15b26a65e1a0e577bc0992b2ee620709df802a459aae7f65"
+    },
+    {
+      "file": "CELRUSDT-1d-2021-09.zip",
+      "sha256": "0e51aa4d32a59fb41bac2e35353e27382fd22e4f7fd09aed1e8b9f2e2c54ff43"
+    },
+    {
+      "file": "CELRUSDT-1d-2021-10.zip",
+      "sha256": "66ada944381d0ac91ad3076ea50b257aa7a0d42636acea25e4029351993fec39"
+    },
+    {
+      "file": "CELRUSDT-1d-2021-11.zip",
+      "sha256": "a6b1a7964accb71a9eb99ea44be45edf9da3ae58cb201a7f52020ae6cb333804"
+    },
+    {
+      "file": "CELRUSDT-1d-2021-12.zip",
+      "sha256": "9d9a9f4a94af8eea46e386e6bbbadf30b5a1a1b28a7f7f004685cc067f014b31"
+    },
+    {
+      "file": "CELRUSDT-1d-2022-01.zip",
+      "sha256": "90b975d3c8f9dd5804d7e7b9ed32cca9cc36405e3567d270222a437bd21d8427"
+    },
+    {
+      "file": "CELRUSDT-1d-2022-02.zip",
+      "sha256": "3f2ea9542d0d1a58258b2cca0b19205a57e448fbbb985fe85479730e6b921a7a"
+    },
+    {
+      "file": "CELRUSDT-1d-2022-03.zip",
+      "sha256": "5d2206841273b60cceefbbc500bb7158de53b2b9a05e4745618856e4f2a2090a"
+    },
+    {
+      "file": "CELRUSDT-1d-2022-04.zip",
+      "sha256": "9ff7df55499e6061ddcdad849693c487a9014b3cdec951f8ab08ac7753790b45"
+    },
+    {
+      "file": "CELRUSDT-1d-2022-05.zip",
+      "sha256": "82a4ae2eee240e423ef4a4a6e1621ed1d057f97d2fd58c6da7b6e6f3d35d0ecd"
+    },
+    {
+      "file": "CELRUSDT-1d-2022-06.zip",
+      "sha256": "736b0fe1f036c5b198dd8edca62d03f72e3c2c0fbcd35bcd9365787c9d0406a9"
+    },
+    {
+      "file": "CELRUSDT-1d-2022-07.zip",
+      "sha256": "0503217ba9c63f1c849b16c35067e70b4c7c77a78a39d059add07a9c3829335b"
+    },
+    {
+      "file": "CELRUSDT-1d-2022-08.zip",
+      "sha256": "f9e78c74ed7c81ed28734ee7db2729eebc1dd5c7151e0f2d9f7aa0b3e4b8e1da"
+    },
+    {
+      "file": "CELRUSDT-1d-2022-09.zip",
+      "sha256": "6911f10b9697a0723c4223f1ccca83933c9d67b23a076334748c014f6bce184e"
+    },
+    {
+      "file": "CELRUSDT-1d-2022-10.zip",
+      "sha256": "b8cbc8c4d484f25eb3daa793c2676d55d07298578d5ff5aa3497fee23dc52844"
+    },
+    {
+      "file": "CELRUSDT-1d-2022-11.zip",
+      "sha256": "bf74665029b2dd2229b07b8748810932daa6aa7c96c8d9a8d3c1f83eb48e0ded"
+    },
+    {
+      "file": "CELRUSDT-1d-2022-12.zip",
+      "sha256": "dd0f716792bb92db26f52b9372e7764f13f625ca29354590ab6938660295ceb6"
+    },
+    {
+      "file": "CELRUSDT-1d-2023-01.zip",
+      "sha256": "f91ee4488ffefb3c108459de03df115e7243fea4fd5b94f2e5b8c6eee874632e"
+    },
+    {
+      "file": "CELRUSDT-1d-2023-02.zip",
+      "sha256": "a929a2a8fb19f3ee31eca6bbc66c0ae2a064180ba16856f27c1026cbf714d3d4"
+    },
+    {
+      "file": "CELRUSDT-1d-2023-03.zip",
+      "sha256": "0d8877ef9a10cd92b6abd867865cd2ff7ddd4ad087d4ff61a4f5476efaaa272a"
+    },
+    {
+      "file": "CELRUSDT-1d-2023-04.zip",
+      "sha256": "18c58e3f01cd5f5dd2fc94ee5eab9f71c11535a57e059425aefe40a385feae67"
+    },
+    {
+      "file": "CELRUSDT-1d-2023-05.zip",
+      "sha256": "647917074fc5164753dc1f6afd2169f5f7c0815b406efac5e88910c979d20809"
+    },
+    {
+      "file": "CELRUSDT-1d-2023-06.zip",
+      "sha256": "8038154ef16c428f9b14488c56c40406f04040c66c87e098b1550315c2edd61d"
+    },
+    {
+      "file": "CELRUSDT-1d-2023-07.zip",
+      "sha256": "7f7001201875473c9694fe8f111c9408a16a1b964dd0c401faccb436df23ee8c"
+    },
+    {
+      "file": "CELRUSDT-1d-2023-08.zip",
+      "sha256": "274ccfd687bb8f2688859df54eaba12eeeefa4eb6d3cbc946ff988c5b0a11fad"
+    },
+    {
+      "file": "CELRUSDT-1d-2023-09.zip",
+      "sha256": "9c4bf7f44971ee6c2f4a882144134ef7f55dbd9d46663a21bb14fc0c46e7be3b"
+    },
+    {
+      "file": "CELRUSDT-1d-2023-10.zip",
+      "sha256": "7d661b6426ba41c5162165b6c5b7b9adbee6aea07904dd601b9339296c34278b"
+    },
+    {
+      "file": "CELRUSDT-1d-2023-11.zip",
+      "sha256": "bef3764cbcef29525afa27bd5dc97c531c97cbba50451e9b2abf0e87f969700a"
+    },
+    {
+      "file": "CELRUSDT-1d-2023-12.zip",
+      "sha256": "3dffb5a127abcba7a149aa4fa10e606687608edad87171304e90b0da3dcfe0f2"
+    },
+    {
+      "file": "CELRUSDT-1d-2024-01.zip",
+      "sha256": "e76431433df18f3fcb32699393fcd2ccf3eed44410b4732d0b5968884de73891"
+    },
+    {
+      "file": "CELRUSDT-1d-2024-02.zip",
+      "sha256": "efea07f695bdd3476496eec2870659fc9282383ef93a4658d49b706cc965a320"
+    },
+    {
+      "file": "CELRUSDT-1d-2024-03.zip",
+      "sha256": "c6b107e2e2a787f6e0fa2d9c14c1c6971d7655b02e12a03bb4cd76fc1813c520"
+    },
+    {
+      "file": "CELRUSDT-1d-2024-04.zip",
+      "sha256": "89f30b117e527a68df43bee3e7e1686dc04b93291b6855e1fbcedf5b5139dcd5"
+    },
+    {
+      "file": "CELRUSDT-1d-2024-05.zip",
+      "sha256": "3e1fc9121dff79ee64a2e836428162bf774b2d689cd8a88da21a41e844bdcd28"
+    },
+    {
+      "file": "CELRUSDT-1d-2024-06.zip",
+      "sha256": "5f1bf297f6ceb1ab4171fe1b579d760ceca21f228bbc69015bac543ea0317bbc"
+    },
+    {
+      "file": "CELRUSDT-1d-2024-07.zip",
+      "sha256": "dd1b49cc5923b168b14cf9d9ce8341c10f72891a90578576eb6e5f63c60a7824"
+    },
+    {
+      "file": "CELRUSDT-1d-2024-08.zip",
+      "sha256": "0aff531c593fb1555aa87cea4232346949bb3dc0be95db7ecd51590992f07d02"
+    },
+    {
+      "file": "CELRUSDT-1d-2024-09.zip",
+      "sha256": "4bdeb48b9dcace62eb531d420c324dce7f6802ec106de10dba6e950cbb9330bd"
+    },
+    {
+      "file": "CELRUSDT-1d-2024-10.zip",
+      "sha256": "a378439c0e5f61e48336d60d417875b5bff61badc94dfb5c79a4faafa21cbdc0"
+    },
+    {
+      "file": "CELRUSDT-1d-2024-11.zip",
+      "sha256": "a65b6168c5d623d67394d03f4618aab01c43d44c0c2c58656655e5069e62e82e"
+    },
+    {
+      "file": "CELRUSDT-1d-2024-12.zip",
+      "sha256": "d7848169b9d0ca103cb14547473e2f91da36c7784f6bc6562a974b06d908651e"
+    },
+    {
+      "file": "CELRUSDT-1d-2025-01.zip",
+      "sha256": "f60473310a0a7431118d96581abb64e40fc721973c1ef6f653e69cd90766eada"
+    },
+    {
+      "file": "CELRUSDT-1d-2025-02.zip",
+      "sha256": "677660f3568bba40e75ec9bce2a5b7ab4ddfb51ab51401c236c9024591861c3f"
+    },
+    {
+      "file": "CELRUSDT-1d-2025-03.zip",
+      "sha256": "69279e6ae69e92cf22cdd222c8b476c7de1c2675a717ee1000c8ee5489414738"
+    },
+    {
+      "file": "CELRUSDT-1d-2025-04.zip",
+      "sha256": "4a2b86647bc9d449e7f7543253b5ae9ec23e1bd69813243378a51ee5157c67bc"
+    },
+    {
+      "file": "CELRUSDT-1d-2025-05.zip",
+      "sha256": "534408e9bb2c3b9e8f4218f137dca49f0f2734335413a0689f066c2277b49d54"
+    },
+    {
+      "file": "CELRUSDT-1d-2025-06.zip",
+      "sha256": "2c50a665896e44a0252f1e676ad98821053ba3e1ee4684a529729961b970ac5b"
+    },
+    {
+      "file": "CELRUSDT-1d-2025-07.zip",
+      "sha256": "fbbc1bc6e696d894841e45024abd33020fb3d128c78ad15fb47b463997e5bae5"
+    },
+    {
+      "file": "CELRUSDT-1d-2025-08.zip",
+      "sha256": "567244a326b088e147cce8938ab70f13e415b8f955ea025f7e1ecf083d1dae8b"
+    },
+    {
+      "file": "CELRUSDT-1d-2025-09.zip",
+      "sha256": "8085cdba8042a7ab5f57210bb42a39e4583d1027c9def55760b480a283583793"
+    },
+    {
+      "file": "CELRUSDT-1d-2025-10.zip",
+      "sha256": "00bf4a1ab8e00f5a9b2e4c73734acb29bc2e877b5943ba41ab2bc0c886c22e18"
+    },
+    {
+      "file": "CELRUSDT-1d-2025-11.zip",
+      "sha256": "44e6c4ba0607244fb9b5f40091890078acfa63d69d8ccfabdfb581a093afbd67"
+    },
+    {
+      "file": "CELRUSDT-1d-2025-12.zip",
+      "sha256": "5372ef7e2231e682324450d5f4ae1404a7b6d60fa391cc1c684b4dcb0de37bda"
+    },
+    {
+      "file": "CELRUSDT-1d-2026-01.zip",
+      "sha256": "f167613c063d5399bceaa765762db86e0dd3660f844be7bcb4c39a633036a4f6"
+    },
+    {
+      "file": "CELRUSDT-1d-2026-02.zip",
+      "sha256": "3b860e9b5d24ad11f0f05242ef889e2bd77ac0fc1fc61b0bd377ebb88398ea2f"
+    },
+    {
+      "file": "CELRUSDT-1d-2026-03.zip",
+      "sha256": "f3720b0098b45a4c06557e4eb4e1206608a80147b4dec8ad481514cd8add3215"
+    },
+    {
+      "file": "CELRUSDT-1d-2026-04.zip",
+      "sha256": "a1ba8fdcd4bb6ae9733936ca6e9841fbbb6a33b161a391da5ad68b1b40eb549d"
+    },
+    {
+      "file": "CELRUSDT-1d-2026-05.zip",
+      "sha256": "7b3d51a1527a5197eb2b2347db8ca83777e37e8615a0ec74f3aedb7331cd57b8"
+    },
+    {
+      "file": "CELRUSDT-1d-2026-06.zip",
+      "sha256": "ba482695d6426a6b0ef3785632f0cc84d2c77c3df43c80596c62d152674cd970"
+    },
+    {
+      "file": "CELRUSDT-1d-2026-07.zip",
+      "sha256": "9a9d3262fef1d29b89f0af3789ecb1369a7b5d5daa99119fe3fef105b213a0ef"
+    },
+    {
+      "file": "CELRUSDT-1d-2026-08.zip",
+      "sha256": "aa5d8e02cf438ee204914db7b2eafc95efc08b196ba7bd90a3dd6911a9c92437"
+    },
+    {
+      "file": "CELRUSDT-1d-2026-09.zip",
+      "sha256": "d62667c2c3ad707effe7fdc1ece38c2a635261365be8618ede489e6418b35fdc"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

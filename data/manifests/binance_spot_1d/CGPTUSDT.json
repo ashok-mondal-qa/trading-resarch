@@ -1,0 +1,109 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/CGPTUSDT/1d/",
+  "instrument": "CGPTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-01-10",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:29:18+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 629,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "CGPTUSDT-1d-2025-01.zip",
+      "sha256": "719fbf358031c17561f7311a2ec689eeca5415ccdd82aa176758967df204a14b"
+    },
+    {
+      "file": "CGPTUSDT-1d-2025-02.zip",
+      "sha256": "ea903ae7f65c4ac205980ae167dcac27b5ce0dd83a2f6925e1a375b08d1b927b"
+    },
+    {
+      "file": "CGPTUSDT-1d-2025-03.zip",
+      "sha256": "e83e7dab68fc28857ab434d8d5b71c67ffdc6e8074ec8423827d780897e3ce83"
+    },
+    {
+      "file": "CGPTUSDT-1d-2025-04.zip",
+      "sha256": "91c1116d50d5d346143f851749deb23c3e6c2ac0cdad459f87bae364a66c202c"
+    },
+    {
+      "file": "CGPTUSDT-1d-2025-05.zip",
+      "sha256": "0270f98b6b24614994e895fce6c45b0754140b570c1727d5ce5f9f67e8dbf9db"
+    },
+    {
+      "file": "CGPTUSDT-1d-2025-06.zip",
+      "sha256": "f77bdceac9413cfa5cffce6a4ff600e0824aef425c91ff0fc4859f7078c810ad"
+    },
+    {
+      "file": "CGPTUSDT-1d-2025-07.zip",
+      "sha256": "06b252b8803d7f94589ef9d2d01e27f4542c9635ee218bd531bdcf0c65aa60cc"
+    },
+    {
+      "file": "CGPTUSDT-1d-2025-08.zip",
+      "sha256": "f3b242796a127f7faf27c23bc47b948d92433f8ba37d8abc65a18c714b9a9c40"
+    },
+    {
+      "file": "CGPTUSDT-1d-2025-09.zip",
+      "sha256": "539577aabd986e65ff15d87a060f8534a14fe62690a5b153ce7ef20d111386dc"
+    },
+    {
+      "file": "CGPTUSDT-1d-2025-10.zip",
+      "sha256": "6f20911badc599a1f1c516ba201ccb5b1a2488061131cd98f71c35cfb0272b9e"
+    },
+    {
+      "file": "CGPTUSDT-1d-2025-11.zip",
+      "sha256": "02b8a1a80f17dd5f7548b80d66a9414a39340574d89109cbc2325b3c199b7165"
+    },
+    {
+      "file": "CGPTUSDT-1d-2025-12.zip",
+      "sha256": "eafa654229b51911e2629fdfe2638b39a2e40021fa78cbc15bbdc1bd752342d6"
+    },
+    {
+      "file": "CGPTUSDT-1d-2026-01.zip",
+      "sha256": "aa6a0cd32b2f38543499daa7b2911ec36d9b9009e1d4da3879a27f77b6b77dcf"
+    },
+    {
+      "file": "CGPTUSDT-1d-2026-02.zip",
+      "sha256": "db8eab2c0e282194714118f92101b752e6f6718f0ea06d87eca69a9089d6a56b"
+    },
+    {
+      "file": "CGPTUSDT-1d-2026-03.zip",
+      "sha256": "6b0df24b9b232022f7a6c33350839d2319b258c1b2ac6d67c4db0e64b824ce77"
+    },
+    {
+      "file": "CGPTUSDT-1d-2026-04.zip",
+      "sha256": "f3267d4827f27830349c94285b98f88fc7b351b06c013cc8b57e6008f724689c"
+    },
+    {
+      "file": "CGPTUSDT-1d-2026-05.zip",
+      "sha256": "c224756415ff73e8a92553e8c177ba00656348fced9d70db9be4e60aa975ca48"
+    },
+    {
+      "file": "CGPTUSDT-1d-2026-06.zip",
+      "sha256": "2d7a93c519abffbc833db437ab453761b321f68f6b946c31a7643446d26d558a"
+    },
+    {
+      "file": "CGPTUSDT-1d-2026-07.zip",
+      "sha256": "c72ab5a011f768721d67f08a65c0ff4b43bc28ae2e64222857593e638a4b32c1"
+    },
+    {
+      "file": "CGPTUSDT-1d-2026-08.zip",
+      "sha256": "a3a061a2f201117939f7fa81844836d99275bd7798c10b5b95c90db30ea49403"
+    },
+    {
+      "file": "CGPTUSDT-1d-2026-09.zip",
+      "sha256": "58d33827ee99cdd5996fb80f4c518f052774ab6a86265edb1406d4d8c3a87499"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MANTAUSDT/1d/",
+  "instrument": "MANTAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-01-18",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:38:43+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 987,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MANTAUSDT-1d-2024-01.zip",
+      "sha256": "b6acad1e6433137083e260ca36fb92b807dcf23af336667bc88cd895c9d6663e"
+    },
+    {
+      "file": "MANTAUSDT-1d-2024-02.zip",
+      "sha256": "91925c5c464c2e4456acac76bb021a0d5cb2b082f153feaaa11c21520e85b4ef"
+    },
+    {
+      "file": "MANTAUSDT-1d-2024-03.zip",
+      "sha256": "18617add923b30e4b212844cc8706e73976194d00817321bc687fb6139c7fc7f"
+    },
+    {
+      "file": "MANTAUSDT-1d-2024-04.zip",
+      "sha256": "2830b572dd372c3a7638ac2a71532afd6a4b7ae61dafe5cc3ccd25e009c4f267"
+    },
+    {
+      "file": "MANTAUSDT-1d-2024-05.zip",
+      "sha256": "11b26f0041e446aa46b154e0fd66280d977ec910126638c0dc65e91ed80acb91"
+    },
+    {
+      "file": "MANTAUSDT-1d-2024-06.zip",
+      "sha256": "61a8392ec577e9d970c67429010e6e0f922c1e556d275d061a0b227852c5684e"
+    },
+    {
+      "file": "MANTAUSDT-1d-2024-07.zip",
+      "sha256": "7db26fb2e5810ddaabf69901fad5a4ab2c54e51635e8796005d8ab326a5dda2c"
+    },
+    {
+      "file": "MANTAUSDT-1d-2024-08.zip",
+      "sha256": "5cc95828ef0cc12e430300a4185fdd5574dbc47ac8b3953754488b18ad273c27"
+    },
+    {
+      "file": "MANTAUSDT-1d-2024-09.zip",
+      "sha256": "57885e1828fb4885c372a84ff85130d52dc77a4c0916c826275a5955470cc714"
+    },
+    {
+      "file": "MANTAUSDT-1d-2024-10.zip",
+      "sha256": "40b9860f45fdb4631f86d73c986318408e99be75e300592dfee165459b7c21b0"
+    },
+    {
+      "file": "MANTAUSDT-1d-2024-11.zip",
+      "sha256": "3c85805d96987636fc583c22d48b135b41864464e3049c3c082d85d5f2922eba"
+    },
+    {
+      "file": "MANTAUSDT-1d-2024-12.zip",
+      "sha256": "0014d7d911b7972f9df1a697fe708d4388da4d197b3a79c9cc8d0094723a86c6"
+    },
+    {
+      "file": "MANTAUSDT-1d-2025-01.zip",
+      "sha256": "ddba5a2ac615048c7fde1ebf92e8adbd0df9dafa7136b111ed5afe9731f310e6"
+    },
+    {
+      "file": "MANTAUSDT-1d-2025-02.zip",
+      "sha256": "617690a171c28bb9cddbaad989d88b424df86150f819fead4bb0f8219119e3f9"
+    },
+    {
+      "file": "MANTAUSDT-1d-2025-03.zip",
+      "sha256": "f10d31980c79822828dfeb44833257f9777b62c4866a4dd4014b2402361efeb5"
+    },
+    {
+      "file": "MANTAUSDT-1d-2025-04.zip",
+      "sha256": "5c9d315c0251aa09cb9fc36dd65f58cf7d9ebfeb531068590319266c62040fd9"
+    },
+    {
+      "file": "MANTAUSDT-1d-2025-05.zip",
+      "sha256": "bb3b59631e78b608c298d7413baf57a61c7ae6ed196a94ff4e96b29f190183ed"
+    },
+    {
+      "file": "MANTAUSDT-1d-2025-06.zip",
+      "sha256": "3502e04f6f350d35a6dfab06fe25734061896ce5e7bbf0ccd2284691ce08287d"
+    },
+    {
+      "file": "MANTAUSDT-1d-2025-07.zip",
+      "sha256": "5c029da8566f155803789a73466566caeaf50aa0e934a3db17b51e21d4765001"
+    },
+    {
+      "file": "MANTAUSDT-1d-2025-08.zip",
+      "sha256": "49811edf32fa55a0792f6af3ce2f296e845b11c326eab4fd9e0fa1da1beb3334"
+    },
+    {
+      "file": "MANTAUSDT-1d-2025-09.zip",
+      "sha256": "0b624c67e984cf7ad59ce087a61b73f019a0d60f7c5797faee3ca1b660a97d3d"
+    },
+    {
+      "file": "MANTAUSDT-1d-2025-10.zip",
+      "sha256": "bf9ad93169cee9788f40a34e3be8306508075382a5b9ea36270bd8c236725e93"
+    },
+    {
+      "file": "MANTAUSDT-1d-2025-11.zip",
+      "sha256": "d8fc34daa91f268b84acf56c4b932eb9cf94f71e720621f2dc87380b11150471"
+    },
+    {
+      "file": "MANTAUSDT-1d-2025-12.zip",
+      "sha256": "c007df222bc027f194e2270c2abe3e2e5968f54bcd2d7752343ac02f316a9aa8"
+    },
+    {
+      "file": "MANTAUSDT-1d-2026-01.zip",
+      "sha256": "fb6533ce99be999d90d51f561b07328677ac93c6f640ca5f5377cceb463fda69"
+    },
+    {
+      "file": "MANTAUSDT-1d-2026-02.zip",
+      "sha256": "c61dc4fda86209584c80782a23e89dcbbcb430258421b39df2bad74153bb453e"
+    },
+    {
+      "file": "MANTAUSDT-1d-2026-03.zip",
+      "sha256": "9a76fee6319fc1f57df7691f9a1b29a56e63088a0c3d2358e0da905f30d6a509"
+    },
+    {
+      "file": "MANTAUSDT-1d-2026-04.zip",
+      "sha256": "c910d8b968a97b6e4be885505839d83ca3c693a977f2da6e21191366665a5c6d"
+    },
+    {
+      "file": "MANTAUSDT-1d-2026-05.zip",
+      "sha256": "e13c0099fd1a506d4084d8a15ddba097099fb3507aa1645ab12891989fdb7c73"
+    },
+    {
+      "file": "MANTAUSDT-1d-2026-06.zip",
+      "sha256": "2290df12aedc5e4a8e8eeb915016827dbb9fde38d718c7980d1788e92164f7a4"
+    },
+    {
+      "file": "MANTAUSDT-1d-2026-07.zip",
+      "sha256": "24acf372d01b97648132381f91bc584cb59dc615329162bd3ddd83ed549dc76a"
+    },
+    {
+      "file": "MANTAUSDT-1d-2026-08.zip",
+      "sha256": "6645f87cbb2e61b645237f50f799bb5141ec4d472f46c3ad22c6a7151a9cfb05"
+    },
+    {
+      "file": "MANTAUSDT-1d-2026-09.zip",
+      "sha256": "9aa208f975202c8e710a9d62e33b1d8125336c3362668802b6e734c412ebfbc8"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/GPSUSDT/1d/",
+  "instrument": "GPSUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-03-04",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:34:32+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 576,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "GPSUSDT-1d-2025-03.zip",
+      "sha256": "8165277bd343e2350f7e1a6f7faecd1afcde17bd72bd1c33f8c626eb5ae92b80"
+    },
+    {
+      "file": "GPSUSDT-1d-2025-04.zip",
+      "sha256": "6b7b76413d1c1ac2a1190f57c8368560edbe2f5d54274f24b46a055ffc333db4"
+    },
+    {
+      "file": "GPSUSDT-1d-2025-05.zip",
+      "sha256": "5bff76db18d226faa36d91345248ab6eae330324f6455fb02e9c4b7ff83c0e45"
+    },
+    {
+      "file": "GPSUSDT-1d-2025-06.zip",
+      "sha256": "0af2a2915cea1e6f9d1855ef9a973ff0d5ea7a250056b0124acc7abaa74d9884"
+    },
+    {
+      "file": "GPSUSDT-1d-2025-07.zip",
+      "sha256": "50384be365fe0d1abe8caa06de0429b0c4cbfb74b8822307a70ec07fda1aad5d"
+    },
+    {
+      "file": "GPSUSDT-1d-2025-08.zip",
+      "sha256": "fff140c2c649d432652a86d6afeb53cfa3916eb59a4f4390ec1ee3a6ef905100"
+    },
+    {
+      "file": "GPSUSDT-1d-2025-09.zip",
+      "sha256": "d96fac185097d2293401a7c6ae41285ed97fed89be23ff50034f045e23dd1c8e"
+    },
+    {
+      "file": "GPSUSDT-1d-2025-10.zip",
+      "sha256": "d178f3c7f3dbb8f4e0149592555efb0d0373b045d7ef1990175361e32ec91757"
+    },
+    {
+      "file": "GPSUSDT-1d-2025-11.zip",
+      "sha256": "cbcb4b2058576fe550547a2751efa6fce68bde29e5f189f2175d2d7470e8742f"
+    },
+    {
+      "file": "GPSUSDT-1d-2025-12.zip",
+      "sha256": "34ede8b87818cfe5b0076d6aa247bebdf3fce099f5e999140d3dd2b3c6535389"
+    },
+    {
+      "file": "GPSUSDT-1d-2026-01.zip",
+      "sha256": "b07998947e20c5eb32f5fc47f92589d8f4b4166949d3704b66bd8554e39bf4da"
+    },
+    {
+      "file": "GPSUSDT-1d-2026-02.zip",
+      "sha256": "dddcf69e27690e2c1960e96148495e641d51135f5d4c6259ef200040dcbd9f3a"
+    },
+    {
+      "file": "GPSUSDT-1d-2026-03.zip",
+      "sha256": "31ad943d2f21d34552a1a11c47ab36e191c5ba42848d55ab6579e7f5a0a5b699"
+    },
+    {
+      "file": "GPSUSDT-1d-2026-04.zip",
+      "sha256": "ead2afb655531b58c75d0ec74a8d14039ed053b834e594b389dcf4f37fb21804"
+    },
+    {
+      "file": "GPSUSDT-1d-2026-05.zip",
+      "sha256": "8e6688edd64a288429d061ad7ae621c33937204f60d0eb0e1cc1f0b5aff2deaf"
+    },
+    {
+      "file": "GPSUSDT-1d-2026-06.zip",
+      "sha256": "7c14ed853f580ac73dcc06d262978b5004394b6e94b55339fc006841fd272553"
+    },
+    {
+      "file": "GPSUSDT-1d-2026-07.zip",
+      "sha256": "f10250b231ebc7820a12c8f523eef730c9928bc5045100a1adece9bf28aee4b1"
+    },
+    {
+      "file": "GPSUSDT-1d-2026-08.zip",
+      "sha256": "ac817925b0aedb0ee371562f2c637adf4a2ea7bf502d117ffb8dd6236252166b"
+    },
+    {
+      "file": "GPSUSDT-1d-2026-09.zip",
+      "sha256": "470fbb0dad8b45adcc9819acb553eaabde63c814d8c4a7a5aa6ae6d141f89289"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

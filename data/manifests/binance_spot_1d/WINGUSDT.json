@@ -1,0 +1,253 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/WINGUSDT/1d/",
+  "instrument": "WINGUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-09-16",
+  "last_bar": "2025-05-02",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:49:14+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1690,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "WINGUSDT-1d-2020-09.zip",
+      "sha256": "ca798be0e1955046982e8810937ee1ca96b100bba6825ccec88e1e0210ced856"
+    },
+    {
+      "file": "WINGUSDT-1d-2020-10.zip",
+      "sha256": "ee5f029c5a147db70155c8466a95fc18e817e6e4a0dbeaf12c0d05baa445eaa9"
+    },
+    {
+      "file": "WINGUSDT-1d-2020-11.zip",
+      "sha256": "8732490d3dd9234a3c7d00cba826c9023ad0cdf0bab3ac49b892ea895f32042e"
+    },
+    {
+      "file": "WINGUSDT-1d-2020-12.zip",
+      "sha256": "a52d53e48482982a64da5da87374194f04421c65de396050172805fe490b69cc"
+    },
+    {
+      "file": "WINGUSDT-1d-2021-01.zip",
+      "sha256": "ac880555aa2d2ff49f931ac320eadd229640daa7e1c40c57f32ce089d248c6f0"
+    },
+    {
+      "file": "WINGUSDT-1d-2021-02.zip",
+      "sha256": "9c7ba1315737b3ef8ef41350f16d493ed3fe828e11c237a18622513221724c63"
+    },
+    {
+      "file": "WINGUSDT-1d-2021-03.zip",
+      "sha256": "0d2681491db4190cd9114eb8e94abc0f30c1ce1bea7ca92ce9a7c3bff1b0644c"
+    },
+    {
+      "file": "WINGUSDT-1d-2021-04.zip",
+      "sha256": "21d0a2d7caa0e10f3d20d135a0aa49b26fdcb51505a618d6268de6c9142e67a6"
+    },
+    {
+      "file": "WINGUSDT-1d-2021-05.zip",
+      "sha256": "7c5e287687f0af3143b693e50afa2dda896c7145efffa998a40868ecc9c4a74c"
+    },
+    {
+      "file": "WINGUSDT-1d-2021-06.zip",
+      "sha256": "cd2595e2ac315972c49fc50df857f8fa5bcbe3fbba705c5fcbb98f3abc3b6319"
+    },
+    {
+      "file": "WINGUSDT-1d-2021-07.zip",
+      "sha256": "eb91b1c20bf7dfeb45011c3a3cc68f39d3087c5f3bdc6bef896e11f6f6f45100"
+    },
+    {
+      "file": "WINGUSDT-1d-2021-08.zip",
+      "sha256": "06326a2eb509f70a5be89e4f610b93e21243d6db5763e2f9ee26efd746a4e04b"
+    },
+    {
+      "file": "WINGUSDT-1d-2021-09.zip",
+      "sha256": "0466d08545227932f03887586c8b4d90829a0671e7baa666850bfd99e03b6f89"
+    },
+    {
+      "file": "WINGUSDT-1d-2021-10.zip",
+      "sha256": "e1e06a8829972b180886697c95cfd4d4af26cf02c4efb1f07783deb77166cdca"
+    },
+    {
+      "file": "WINGUSDT-1d-2021-11.zip",
+      "sha256": "31d5d4856512f4281a052f37f82b8245719759ae6e9deacd414219dc6135909b"
+    },
+    {
+      "file": "WINGUSDT-1d-2021-12.zip",
+      "sha256": "9dcd3f74017fbdadc1ede42ade868e6566a81c3c281a545aa7c34818f4a0e4d0"
+    },
+    {
+      "file": "WINGUSDT-1d-2022-01.zip",
+      "sha256": "7298c43b49b1a247f1406237c1314e7d2135a22fc79871653824fbf41acbf22a"
+    },
+    {
+      "file": "WINGUSDT-1d-2022-02.zip",
+      "sha256": "d64a20140247a3eb7a274f2f2694e4b12fac12c9eac70f6552dc65ce3ecd0610"
+    },
+    {
+      "file": "WINGUSDT-1d-2022-03.zip",
+      "sha256": "80f0c4563231d215c2a42dd621d9b79e0952e1a5488015d76113025d1f13f69b"
+    },
+    {
+      "file": "WINGUSDT-1d-2022-04.zip",
+      "sha256": "5a4ae9c8461ebdf555756d89545360cbc05ba841020f50e5568aca97a25b9ea1"
+    },
+    {
+      "file": "WINGUSDT-1d-2022-05.zip",
+      "sha256": "d7bfa75870433ec6b0d975cf170e6719dc289d802103d2b34f72638d33ddb05e"
+    },
+    {
+      "file": "WINGUSDT-1d-2022-06.zip",
+      "sha256": "2d3b7abde3b5c80c0299846ae9f307cd3c5802e857aadfd4b405647badb35071"
+    },
+    {
+      "file": "WINGUSDT-1d-2022-07.zip",
+      "sha256": "e5080341570a00aa1dea809a52b6aa5015001015e59b4d5383bd22bdc1c21745"
+    },
+    {
+      "file": "WINGUSDT-1d-2022-08.zip",
+      "sha256": "97075de9d04aa2ea4869e79be4bc6f2e46c59fd1ae4f56bdc4e67dfd2704789b"
+    },
+    {
+      "file": "WINGUSDT-1d-2022-09.zip",
+      "sha256": "6098f5bcf67d46bd067a339a24730bdf850df5aea8ec2101ce78e51c4b996326"
+    },
+    {
+      "file": "WINGUSDT-1d-2022-10.zip",
+      "sha256": "4a52d94088d8db10d3345aae8db545b4f43263514b7c61efd55e677f45faaddc"
+    },
+    {
+      "file": "WINGUSDT-1d-2022-11.zip",
+      "sha256": "897b2a79c8eea10075200a887b84b3add1bf09da4f7ce3acfe992fbd93a6692d"
+    },
+    {
+      "file": "WINGUSDT-1d-2022-12.zip",
+      "sha256": "8523615711770fb228ba7d16ae706b751df630c6a403e3ab2ed331551d24655b"
+    },
+    {
+      "file": "WINGUSDT-1d-2023-01.zip",
+      "sha256": "49bf0ba8589ae8d2e452401539229488d3b53eb06c595990752dfa031e3b4321"
+    },
+    {
+      "file": "WINGUSDT-1d-2023-02.zip",
+      "sha256": "f8811ea623bfe0fdd7fcbee662c22c04a821726795b24532eacebe36807908f8"
+    },
+    {
+      "file": "WINGUSDT-1d-2023-03.zip",
+      "sha256": "1b6ee41a58194b08895a9cd3d99d917ba3117bbaeec061ce334cebacbe1314e8"
+    },
+    {
+      "file": "WINGUSDT-1d-2023-04.zip",
+      "sha256": "98030e1867c9af7be2444affd8e5c158e7e7741177a6d094374f43d8d68a2712"
+    },
+    {
+      "file": "WINGUSDT-1d-2023-05.zip",
+      "sha256": "3f19868d72edb56c566caaeb975e2d4bebfa3d11f4e058e96d2753886dd829b8"
+    },
+    {
+      "file": "WINGUSDT-1d-2023-06.zip",
+      "sha256": "839c807e3df05e49eb268ac862e5939d44897003ae8439d2fc654d3a936cfa12"
+    },
+    {
+      "file": "WINGUSDT-1d-2023-07.zip",
+      "sha256": "cf75c9bfa8d4b1b97ef439aa1cb437f24c6a732dfe143edcde328c8f81b7d832"
+    },
+    {
+      "file": "WINGUSDT-1d-2023-08.zip",
+      "sha256": "a1f8ccd5110a2d042d69082a0ef04e0df6943de949eafc3eda85ee8361ac31da"
+    },
+    {
+      "file": "WINGUSDT-1d-2023-09.zip",
+      "sha256": "f0873fee5e20bd2beb0b02eb5172417aedba0b73ae3c28197e33144c6cb7cc2e"
+    },
+    {
+      "file": "WINGUSDT-1d-2023-10.zip",
+      "sha256": "46e140afe706f3686628b82f0b8e3ab0e00a1591d9a5377593d6d2732ef6a790"
+    },
+    {
+      "file": "WINGUSDT-1d-2023-11.zip",
+      "sha256": "25a1a84c22d073761beecc7141da11b157f3022145c54bbfcfdf6f26375a2a2e"
+    },
+    {
+      "file": "WINGUSDT-1d-2023-12.zip",
+      "sha256": "fdf78757e1de461a00967b76bb5b9afea882f3fbb4cac62c0a2121424dd52a8f"
+    },
+    {
+      "file": "WINGUSDT-1d-2024-01.zip",
+      "sha256": "a6bb436d77560cf00daefa948de0abc19d8e92c86ffac77a2bf4c705b43e92cc"
+    },
+    {
+      "file": "WINGUSDT-1d-2024-02.zip",
+      "sha256": "727c6b1ad236d7e69d60d4af0a713a6b34b3df16e639d929522957aa636ee8ab"
+    },
+    {
+      "file": "WINGUSDT-1d-2024-03.zip",
+      "sha256": "2d3a01f03b469b9be737db2f5415f9470389e83cf913f95d4b23ec98ba0b0f1f"
+    },
+    {
+      "file": "WINGUSDT-1d-2024-04.zip",
+      "sha256": "51c2453df08476b45e0e9be6240dc808607edf83cb7178577de10f0c10ad7fad"
+    },
+    {
+      "file": "WINGUSDT-1d-2024-05.zip",
+      "sha256": "20a5b6e94b5aadcb1c46f592fb9101add5044b878b6dd45c533b63308bd1a409"
+    },
+    {
+      "file": "WINGUSDT-1d-2024-06.zip",
+      "sha256": "182a96e8b8674429128f0b0af21fda71d9a4e82c447f60b26af2502d063e9d95"
+    },
+    {
+      "file": "WINGUSDT-1d-2024-07.zip",
+      "sha256": "53dd3a4e1732e3aca6ac095ef6173e35097a1bd62628928b82a045bacf395510"
+    },
+    {
+      "file": "WINGUSDT-1d-2024-08.zip",
+      "sha256": "f83c68e3cfd7f16b1816d9c725806f98d07effc229d7bdd0700c729ef9aa94ea"
+    },
+    {
+      "file": "WINGUSDT-1d-2024-09.zip",
+      "sha256": "95995ec92aff6195935f10c7e5cffbd09ca9db7e63bee7bffd55fb26632d9f72"
+    },
+    {
+      "file": "WINGUSDT-1d-2024-10.zip",
+      "sha256": "a126a44ec8a3ceb0d4aa204321af69ca3f70fc0e6aa20d9d074e80199ad25da5"
+    },
+    {
+      "file": "WINGUSDT-1d-2024-11.zip",
+      "sha256": "5527d8070c7b65107412e9c4c5df88af0fa901c9874d430b459af01199a52eea"
+    },
+    {
+      "file": "WINGUSDT-1d-2024-12.zip",
+      "sha256": "edc953c32f3ff2c593ca691d1fd3ab6eee10cc7458d2bb2f9f9c34b183579f8c"
+    },
+    {
+      "file": "WINGUSDT-1d-2025-01.zip",
+      "sha256": "58240290aa582463b0e0f920785cc6bb9416cd8d1f410a7db0e0a5e81375a6e1"
+    },
+    {
+      "file": "WINGUSDT-1d-2025-02.zip",
+      "sha256": "bb4565a1c820ffd64ec6ab5ff1482f892a44a626834f62ed4222e60bbf585d1d"
+    },
+    {
+      "file": "WINGUSDT-1d-2025-03.zip",
+      "sha256": "99003c0074ed782d73ce03b304c885569a5ea274d305bf5c1b42744a61438378"
+    },
+    {
+      "file": "WINGUSDT-1d-2025-04.zip",
+      "sha256": "b29894d1fa667e508e4f8d4cb122765e59005901117fe3ab6eae864e5b178372"
+    },
+    {
+      "file": "WINGUSDT-1d-2025-05.zip",
+      "sha256": "f78764a78b4ec43cf689d2d8a71d8d466310aa2bd6911dc3f152d315c48c6b1f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -97,3 +97,12 @@ def test_end_month_limits_what_is_loaded(tmp_path):
     files = {"2024-01": kline_zip(JAN_2024, 31), "2024-02": kline_zip(JAN_2024 + 31 * DAY_MS, 29)}
     m = binance.load_symbol("TESTUSDT", "2024-01", tmp_path, fake_archive(files))
     assert m["last_bar"] == "2024-01-31"
+
+
+def test_non_ascii_pair_names_are_percent_encoded():
+    seen = []
+    def fetch(url):
+        seen.append(url)
+        return listing([])
+    binance.list_keys(f"{binance.PREFIX}牛来USDT/1d/", None, fetch)
+    assert seen[0].isascii() and "%E7%89%9B" in seen[0]

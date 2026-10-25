@@ -1,0 +1,79 @@
+{
+  "experiment": "EXP-0022",
+  "strategy": "supertrend",
+  "spec_version": "0.1",
+  "split": "dev_a",
+  "range": [
+    "2018-04-01",
+    "2020-12-31"
+  ],
+  "market": "Binance spot USDT pairs",
+  "max_holding_bars": 126,
+  "generated_at_utc": "2026-10-25T05:17:48+00:00",
+  "universe": {
+    "pairs": 674,
+    "instruments": 110,
+    "delisted_pieces": 7,
+    "short_pieces_or_empty": 564
+  },
+  "costs": {
+    "verified": false,
+    "source_note": "Binance spot base fee 0.10% + 18% GST; unverified",
+    "brokerage_pct": 0.1,
+    "brokerage_cap_inr": 0.0,
+    "stt_pct_buy": 0.0,
+    "stt_pct_sell": 0.0,
+    "exchange_txn_pct": 0.0,
+    "sebi_fee_pct": 0.0,
+    "stamp_duty_pct_buy": 0.0,
+    "gst_pct": 18.0,
+    "dp_charge_inr_per_sell": 0.0
+  },
+  "regime_days": {
+    "down": 403,
+    "up": 382,
+    "range": 221
+  },
+  "benchmark_btc_return": 3.2453526414903253,
+  "benchmark_btc": {
+    "cagr": 0.6897466604375766,
+    "ann_vol": 0.7099097408967527,
+    "sharpe_rf0": 1.1074529711600436,
+    "max_drawdown": -0.6743998377939984,
+    "years": 2.756164383561644
+  },
+  "runs": {
+    "portfolio_1x": {
+      "trades": 0,
+      "open_at_end": 0,
+      "net_return": 0.0,
+      "max_drawdown": 0.0,
+      "cagr": 0.0,
+      "ann_vol": 0.0,
+      "sharpe_rf0": null,
+      "years": 2.756164383561644,
+      "signals_after_regime_gate": 0,
+      "entries_skipped": {}
+    },
+    "standalone_1x": {
+      "trades": 0,
+      "expectancy_r_all_incl_open": null
+    },
+    "portfolio_2x_costs": {
+      "trades": 0,
+      "open_at_end": 0,
+      "net_return": 0.0,
+      "max_drawdown": 0.0,
+      "cagr": 0.0,
+      "ann_vol": 0.0,
+      "sharpe_rf0": null,
+      "years": 2.756164383561644,
+      "signals_after_regime_gate": 0,
+      "entries_skipped": {}
+    },
+    "standalone_2x_costs": {
+      "trades": 0,
+      "expectancy_r_all_incl_open": null
+    }
+  }
+}

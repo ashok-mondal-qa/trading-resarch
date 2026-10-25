@@ -1,0 +1,129 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/NBSUSDT/1d/",
+  "instrument": "NBSUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-09-21",
+  "last_bar": "2022-10-24",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:07+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 764,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "NBSUSDT-1d-2020-09.zip",
+      "sha256": "307eab47feb44feddcff17e3547fe0a0f2ed9cb48f9fd30de0945cd133774ac8"
+    },
+    {
+      "file": "NBSUSDT-1d-2020-10.zip",
+      "sha256": "ea5b886b33b29205d530b5aa91667651d2f319a2f38c0983ca71b1bd67825621"
+    },
+    {
+      "file": "NBSUSDT-1d-2020-11.zip",
+      "sha256": "12663791854a79789caa7e56017107c38d305f45e5f913d57c034fcb9837f75e"
+    },
+    {
+      "file": "NBSUSDT-1d-2020-12.zip",
+      "sha256": "ef647c7ba94d431518ee3fcca64ea67b5e5690f91dcc718651727a71493286f2"
+    },
+    {
+      "file": "NBSUSDT-1d-2021-01.zip",
+      "sha256": "91056491c2707107c1f9913e42a4deec8d5627cc84bfb861ec67df004f8d996a"
+    },
+    {
+      "file": "NBSUSDT-1d-2021-02.zip",
+      "sha256": "0f0c7a2a82c945b5da7a6d4633cc3ca7beae574e62ccb0b37c67fd45d55a5f47"
+    },
+    {
+      "file": "NBSUSDT-1d-2021-03.zip",
+      "sha256": "37bbb5ca95c9dfa499327c821c016ecda0a9ec6d6cfcab5b0be5cec468213edc"
+    },
+    {
+      "file": "NBSUSDT-1d-2021-04.zip",
+      "sha256": "61f9b4688f33c5d1b5837b545d0609cabf615b372218ad412190f2bb79d6bca9"
+    },
+    {
+      "file": "NBSUSDT-1d-2021-05.zip",
+      "sha256": "56456d6797e1ad09aa006352e13607a05399a589830465ffca62d99c4fba5af1"
+    },
+    {
+      "file": "NBSUSDT-1d-2021-06.zip",
+      "sha256": "952d46d029ca226196bd39c7458ea1d7f87cd7f6f9bb6c180a9d8ce845c06a5c"
+    },
+    {
+      "file": "NBSUSDT-1d-2021-07.zip",
+      "sha256": "78d9d15d568d9319261ce10fcc023298216fcb58d728d5113b3f82709c144d6f"
+    },
+    {
+      "file": "NBSUSDT-1d-2021-08.zip",
+      "sha256": "3ada493747a00b3d68af4a5d51991dbf923bf0ce4665e2622f6a26587c6a98de"
+    },
+    {
+      "file": "NBSUSDT-1d-2021-09.zip",
+      "sha256": "ed6b335fce20c0c4ad5c3a00cd32cb92f432cfc1da614a897fc178e0ce1047f4"
+    },
+    {
+      "file": "NBSUSDT-1d-2021-10.zip",
+      "sha256": "108d5f2ac751b49e1ad2d4a6791a68a4c69e991d56980648f4b0021752f426a8"
+    },
+    {
+      "file": "NBSUSDT-1d-2021-11.zip",
+      "sha256": "eb2452f1a18559e046c067713332b0f4bdba65972c53cf463773c5808e68b2a8"
+    },
+    {
+      "file": "NBSUSDT-1d-2021-12.zip",
+      "sha256": "7018b242e00267f8446df69ddadd3631bc6e149fabbb688599691ebac29debb6"
+    },
+    {
+      "file": "NBSUSDT-1d-2022-01.zip",
+      "sha256": "1a91efd8f286bd6f8a025f1fcc388afd30b2b2a9dfb0ecc150dd51462ab7a03e"
+    },
+    {
+      "file": "NBSUSDT-1d-2022-02.zip",
+      "sha256": "c41e9d7fd8e189d65f088059789f38e69805f3e9ed4f24b8cc0b929177a0e8e5"
+    },
+    {
+      "file": "NBSUSDT-1d-2022-03.zip",
+      "sha256": "339ffa2d49275a6488e139e03130ca1968f7979a2f51a1a49498ca5edc262ed7"
+    },
+    {
+      "file": "NBSUSDT-1d-2022-04.zip",
+      "sha256": "9decf6ed16d4b3efb492de87a7733100000fbc59e516473cb83c57a8232aec15"
+    },
+    {
+      "file": "NBSUSDT-1d-2022-05.zip",
+      "sha256": "66dc03a55c37613928aea9cf06bfba02c90782d0f8f9e0fa261ec7471fe2f507"
+    },
+    {
+      "file": "NBSUSDT-1d-2022-06.zip",
+      "sha256": "791cfee1c78dcaf1ea671305cbb276b5b04aea316e7f497012d9d38e35247fdd"
+    },
+    {
+      "file": "NBSUSDT-1d-2022-07.zip",
+      "sha256": "9e45f3992832d6950c2ca52f3ac1cccadd5fd88db0934d33b29e8b7272f942f4"
+    },
+    {
+      "file": "NBSUSDT-1d-2022-08.zip",
+      "sha256": "4bbb856823de50194523ac451b54d6d8777a46a33af65980175fe84681286646"
+    },
+    {
+      "file": "NBSUSDT-1d-2022-09.zip",
+      "sha256": "5150900b19cabab6d68b3a5915b36e434c8ab599a6577b93c2856f3380a1574e"
+    },
+    {
+      "file": "NBSUSDT-1d-2022-10.zip",
+      "sha256": "30e11f60d8f0623845730b4887f75fbc3c4e27ac31e8f0bc805a95d44d4c7edd"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/HOTUSDT/1d/",
+  "instrument": "HOTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-02-18",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:36:19+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2782,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "HOTUSDT-1d-2019-02.zip",
+      "sha256": "16d635ffdba89174e3d173bd6585e8afaf1557f92737f55ca567364c8667b9a6"
+    },
+    {
+      "file": "HOTUSDT-1d-2019-03.zip",
+      "sha256": "1eb4d8e9d604cd59b8e9a31d00e0f5bd17bc304ed4fa7a7832e673290c13d544"
+    },
+    {
+      "file": "HOTUSDT-1d-2019-04.zip",
+      "sha256": "3be65534f795478a8ffcb53bc5a49aa4a28c75c74e165123640d4d7d1339c316"
+    },
+    {
+      "file": "HOTUSDT-1d-2019-05.zip",
+      "sha256": "e1f91afc1188c9316ba8a52b7bcbfad1678891b8b621cb582c8f1172e5a67d67"
+    },
+    {
+      "file": "HOTUSDT-1d-2019-06.zip",
+      "sha256": "d136513bdece246786e9ca1b59e18939591d32710a7a257235b7bbf9d3160fa3"
+    },
+    {
+      "file": "HOTUSDT-1d-2019-07.zip",
+      "sha256": "f4e1d7c91910a02b21c7f42024fb022440fd1e973c51d3ccf7fa262072c23b69"
+    },
+    {
+      "file": "HOTUSDT-1d-2019-08.zip",
+      "sha256": "93d65ef8cd0b8b83448ed5a96102b012520d27cee8e22292fed86cde4639ac3a"
+    },
+    {
+      "file": "HOTUSDT-1d-2019-09.zip",
+      "sha256": "fa7ffce47d59527d14f17b7dc2ce8f0b5f7da7d6919f93dba4886fa819d874ac"
+    },
+    {
+      "file": "HOTUSDT-1d-2019-10.zip",
+      "sha256": "6b1ac9b4c73335eab31c8cf5046d8dfda3a67272d27b9365d61904db81ef4457"
+    },
+    {
+      "file": "HOTUSDT-1d-2019-11.zip",
+      "sha256": "8535bae3775b9411d339e550e7229b755637c28d916c4c4ac296afd7c134dd45"
+    },
+    {
+      "file": "HOTUSDT-1d-2019-12.zip",
+      "sha256": "1fe37e513cfe40eb34354c1a8e2dc1f826e7b2beaf00842d8832594dc5107744"
+    },
+    {
+      "file": "HOTUSDT-1d-2020-01.zip",
+      "sha256": "45af0df46bc97c073f03ea2feddf029d434382b25da9df9d94a33e5ce56ce639"
+    },
+    {
+      "file": "HOTUSDT-1d-2020-02.zip",
+      "sha256": "f35588dcdad45f4b1af01e6429174972303f428ec133b837d428dfbf088d1906"
+    },
+    {
+      "file": "HOTUSDT-1d-2020-03.zip",
+      "sha256": "c7f64e3361fe022dd1fe231e2455c715175a7069de67b75dbbd95e467c0467af"
+    },
+    {
+      "file": "HOTUSDT-1d-2020-04.zip",
+      "sha256": "44dbf76d01393321a607091551f670cf580b186f763a645e1cf13fe9302b2837"
+    },
+    {
+      "file": "HOTUSDT-1d-2020-05.zip",
+      "sha256": "1bcd08c35068b7b0198ad4ea0659399ed49bdbbe8810b46a685e57099b582e9e"
+    },
+    {
+      "file": "HOTUSDT-1d-2020-06.zip",
+      "sha256": "aafcc6bdbd80a2e5382b8139e80dad6d29adabb8f56da12eb63ac0f0ff003246"
+    },
+    {
+      "file": "HOTUSDT-1d-2020-07.zip",
+      "sha256": "34e87ee81a128724425ce1392cf3b7f0dae2bba0d1df183a7bd896a6f7104949"
+    },
+    {
+      "file": "HOTUSDT-1d-2020-08.zip",
+      "sha256": "e384c50b62c2821249d56f5a08d9efe028864f49523f8b41a568d923012fbcc2"
+    },
+    {
+      "file": "HOTUSDT-1d-2020-09.zip",
+      "sha256": "7f45c6893a1494ae6dd942c0ab1801e3eee6e00e4a3df1f170a62ed16360a09b"
+    },
+    {
+      "file": "HOTUSDT-1d-2020-10.zip",
+      "sha256": "09f164e59821648ec1acd38ba466a57202d1d4591698c6cde1672a8f3aeb822d"
+    },
+    {
+      "file": "HOTUSDT-1d-2020-11.zip",
+      "sha256": "04d4c1cd1961ce73040614f9d9ff8531b4b9eb5d407606f9df683d0e6f01ddf7"
+    },
+    {
+      "file": "HOTUSDT-1d-2020-12.zip",
+      "sha256": "7a8ea65ee03790aa02a1acac18acaef5941709d920b22b1514dc6e2ae305aff8"
+    },
+    {
+      "file": "HOTUSDT-1d-2021-01.zip",
+      "sha256": "7dd0e9c55920fe4fa8446cc3cca46b9cd9c668501b4ba49918338f6ae9a4a129"
+    },
+    {
+      "file": "HOTUSDT-1d-2021-02.zip",
+      "sha256": "942e940c761f5e239883a4fdab62d1e3d2f22f28ed5a78e894fba8adff349a24"
+    },
+    {
+      "file": "HOTUSDT-1d-2021-03.zip",
+      "sha256": "0fb07ec465006a59b19e8fa7de9e28bdf3a26dfe673c98ed9b4f495ab749689c"
+    },
+    {
+      "file": "HOTUSDT-1d-2021-04.zip",
+      "sha256": "e9650bf0e07941851aa3a78f5bba02a5d6058c2a33243d77e05edf120dae1381"
+    },
+    {
+      "file": "HOTUSDT-1d-2021-05.zip",
+      "sha256": "959899f8d4890ac9f42d7038c7138e8d1e7287794ad2ba001bb7a23b353eb7ca"
+    },
+    {
+      "file": "HOTUSDT-1d-2021-06.zip",
+      "sha256": "2ee1a81dd9ffd5d5c60882975e4007777ab148883c462125de2a38f5042b5c9d"
+    },
+    {
+      "file": "HOTUSDT-1d-2021-07.zip",
+      "sha256": "f7ebb6d0490ee528e2de3e83065313d40dcaf45b314e5d7f8bd5b6618983149a"
+    },
+    {
+      "file": "HOTUSDT-1d-2021-08.zip",
+      "sha256": "3ecc5f744aca2482804304c5bff11cd369948cac4f8ff1c0577b5bbb7fe50233"
+    },
+    {
+      "file": "HOTUSDT-1d-2021-09.zip",
+      "sha256": "3dcb3058725e75a1002760e8252bc7adefc4b472c5f4a9d33627d8ba460b8f7e"
+    },
+    {
+      "file": "HOTUSDT-1d-2021-10.zip",
+      "sha256": "d4f6ac4f5860456554354780011b6c394cdfd9feb7a1a84ed97a3e99571c1357"
+    },
+    {
+      "file": "HOTUSDT-1d-2021-11.zip",
+      "sha256": "06404f79b456ff06c4e7531143637664b75b1c5d4028d4745208f6c899351b5b"
+    },
+    {
+      "file": "HOTUSDT-1d-2021-12.zip",
+      "sha256": "3aef1aa98c8d598f10d9c7edf9821da8a9e5a51c429bd2f387fb00a8f153e10c"
+    },
+    {
+      "file": "HOTUSDT-1d-2022-01.zip",
+      "sha256": "cecdf4e48964afdea1ed8dc399590ddf5d39d544ff9e79cce1a2a959095fc5d1"
+    },
+    {
+      "file": "HOTUSDT-1d-2022-02.zip",
+      "sha256": "bf3e85016da222335c1cba0b98a06ff1d2c85889b7112ed608461128e719bb51"
+    },
+    {
+      "file": "HOTUSDT-1d-2022-03.zip",
+      "sha256": "b831969d5d834b09c5b3d55ad25c0c2c12e4b4f8a18dd5e771621553e4acbb0f"
+    },
+    {
+      "file": "HOTUSDT-1d-2022-04.zip",
+      "sha256": "a99c4a9ce1d3d77715b854dcd2af84b80cd6b403307931e5295155dd7435f022"
+    },
+    {
+      "file": "HOTUSDT-1d-2022-05.zip",
+      "sha256": "39f0b9cf3dfff718abe9f5b15283cb8665b5a283da98590a1f28fbcbf092dcaa"
+    },
+    {
+      "file": "HOTUSDT-1d-2022-06.zip",
+      "sha256": "652e6c120abd70022cf83ba342d6e00dc67d0ce2f86bd7faf23602153dde841f"
+    },
+    {
+      "file": "HOTUSDT-1d-2022-07.zip",
+      "sha256": "efc4cc329276b1f0de4b42e32a006957c6c6d992edfd48f5120d7b7265c12a27"
+    },
+    {
+      "file": "HOTUSDT-1d-2022-08.zip",
+      "sha256": "220eef8cc7ad648d84bbf639332c0a5cccc0f44a4ab6a4a1db3904915fbe27b4"
+    },
+    {
+      "file": "HOTUSDT-1d-2022-09.zip",
+      "sha256": "b236ca7e0dab913a962feeca30ded5cd24ce21e6c632f2dfe546a37920bdb910"
+    },
+    {
+      "file": "HOTUSDT-1d-2022-10.zip",
+      "sha256": "6d8621d9dc32f9917a3f43de3750512f387ce4ccb3aaf75bcca9ed8b95c321c2"
+    },
+    {
+      "file": "HOTUSDT-1d-2022-11.zip",
+      "sha256": "ed20552f424ce52e75b18a65c95277296a48ebc67cd858a26c392f8761226929"
+    },
+    {
+      "file": "HOTUSDT-1d-2022-12.zip",
+      "sha256": "bb7bdfbd892dbe9e6795ba7eadc4c7dc314564bb460b43fe0c4c45d37f629bf4"
+    },
+    {
+      "file": "HOTUSDT-1d-2023-01.zip",
+      "sha256": "4f4d16bf66494ebab6c2646c3b3f3593be42e6de35ef90249c187d65262e508b"
+    },
+    {
+      "file": "HOTUSDT-1d-2023-02.zip",
+      "sha256": "fd0ee85edf95083e62452ec1c1862233d191bd31872ffe8d9d450ecfdba662df"
+    },
+    {
+      "file": "HOTUSDT-1d-2023-03.zip",
+      "sha256": "f929b9bac090efa83b5b501a1233e9c53cfb6c6d3502ea1fcf45d9162ed9cb3a"
+    },
+    {
+      "file": "HOTUSDT-1d-2023-04.zip",
+      "sha256": "2d3ab58b72abdc2b542f723a2e9273f49a17210dbd31b10b4314e46eabe54789"
+    },
+    {
+      "file": "HOTUSDT-1d-2023-05.zip",
+      "sha256": "3b311a275ac9ee526415f3d5a339921d820f8da9b7f31e7eb1e2d34aadf06bd1"
+    },
+    {
+      "file": "HOTUSDT-1d-2023-06.zip",
+      "sha256": "16878a0427ba6a75d2c2c9f3ace91ab4aace756db2ed60ad488bd62742a87ab4"
+    },
+    {
+      "file": "HOTUSDT-1d-2023-07.zip",
+      "sha256": "dcf964fbcb810e905cbb44d6a4eceb0a523def8c81011a64ff26a010d0f3432b"
+    },
+    {
+      "file": "HOTUSDT-1d-2023-08.zip",
+      "sha256": "0c126bdf402d7915d6d07e06876f42611c59c7fa754c29efa8c770d7460a631e"
+    },
+    {
+      "file": "HOTUSDT-1d-2023-09.zip",
+      "sha256": "d58e1add083eff7e40a6c289ba990bd8372e46c08ee374984d948e062c0ceb98"
+    },
+    {
+      "file": "HOTUSDT-1d-2023-10.zip",
+      "sha256": "c5245b9b015b5d9e10229199cb8fdfc8fa63ba1cd4fddac5b1f27d9f99039446"
+    },
+    {
+      "file": "HOTUSDT-1d-2023-11.zip",
+      "sha256": "93abdbd09f10665359a2e41a3f1e45468ef194cc91991d35d3bb740c94e73729"
+    },
+    {
+      "file": "HOTUSDT-1d-2023-12.zip",
+      "sha256": "a79face2e21a1a8e006f4ca534cfac36670e1d67277303d32764a76692c51fb4"
+    },
+    {
+      "file": "HOTUSDT-1d-2024-01.zip",
+      "sha256": "b9fa7a03ccf0c02fa68cc5610bef41e3165798a0a12716c3ced9de374b9d5c1c"
+    },
+    {
+      "file": "HOTUSDT-1d-2024-02.zip",
+      "sha256": "5ef4c4e63635b15f6ea6a36d041ef4440a8233f6a4873ca7ed591ff36afc5904"
+    },
+    {
+      "file": "HOTUSDT-1d-2024-03.zip",
+      "sha256": "cab0159e314bd28d705489cfaa5ed46b0cae613b73e76d9b0ca6d2d3c1475887"
+    },
+    {
+      "file": "HOTUSDT-1d-2024-04.zip",
+      "sha256": "c735669582abe20e603acd07bcf0ca3354122aceffa5b9c158e2f7640d35a42c"
+    },
+    {
+      "file": "HOTUSDT-1d-2024-05.zip",
+      "sha256": "2ea6c7595a835a8fd5cb7b486615512414b8bb396f54f91d362ab7f66194c0bf"
+    },
+    {
+      "file": "HOTUSDT-1d-2024-06.zip",
+      "sha256": "1ba04c30fb15454243c889d1a3a99bb6e2339f598f50cbea16fc1137c3324281"
+    },
+    {
+      "file": "HOTUSDT-1d-2024-07.zip",
+      "sha256": "2e387a8e50e17a876017d0a952a23987f520dd9fe8e5b997c0496912e28e5869"
+    },
+    {
+      "file": "HOTUSDT-1d-2024-08.zip",
+      "sha256": "92b0882e1fc9fdb1ce81e8d6024613a0ce13ecbc3c655a84e89c26a07ed5fbf2"
+    },
+    {
+      "file": "HOTUSDT-1d-2024-09.zip",
+      "sha256": "d83dac062d5b9325f9d84a23805a6323dda3f02c7ff52b97d333ad360ef12df2"
+    },
+    {
+      "file": "HOTUSDT-1d-2024-10.zip",
+      "sha256": "bbec46b74a7bd0deaf69ac5724e9dabd598bea470ef67eb15b040ec265302624"
+    },
+    {
+      "file": "HOTUSDT-1d-2024-11.zip",
+      "sha256": "5878f097c71c5954ba2a1e450da975ee5fbf1dce798671d7c3e3a8391d96a037"
+    },
+    {
+      "file": "HOTUSDT-1d-2024-12.zip",
+      "sha256": "c13b4a45995c5777f2235efbd2d2bd9a132bb205da2a4f3fda91d86cbf2651f1"
+    },
+    {
+      "file": "HOTUSDT-1d-2025-01.zip",
+      "sha256": "c7147073bc12c0bd0fdc4bcfc2c3c044f40200d8321a19d25e0f24bde916620e"
+    },
+    {
+      "file": "HOTUSDT-1d-2025-02.zip",
+      "sha256": "5341f54440fd02d2dd23a83a0e9727cc9b62941e616c7d2cea19e67b33c71f38"
+    },
+    {
+      "file": "HOTUSDT-1d-2025-03.zip",
+      "sha256": "46cd99653e06124c26aa926731a595bdf9f5bc0259bf13b4d62d2eb048e28025"
+    },
+    {
+      "file": "HOTUSDT-1d-2025-04.zip",
+      "sha256": "effe1798f9a8882ccf908c89d5d0ccdcd049aed3da1af992ff4709b7c6364b26"
+    },
+    {
+      "file": "HOTUSDT-1d-2025-05.zip",
+      "sha256": "a6b42adb4586d51a0227c53db6d73dc9615eecdbd5ff045fb9f8acbe44295607"
+    },
+    {
+      "file": "HOTUSDT-1d-2025-06.zip",
+      "sha256": "46818ff06dfdc71ad0f6afa15aca5b29f0c83e4d2f3b05de9519cb9f019735bc"
+    },
+    {
+      "file": "HOTUSDT-1d-2025-07.zip",
+      "sha256": "68d0b441f45530fd476d79bd05b8460b294b87b3078938f22e3f4b2f306e1d6f"
+    },
+    {
+      "file": "HOTUSDT-1d-2025-08.zip",
+      "sha256": "9d31830d4da7165cffd821a2a5404ca9727f4cae9bfe5352fa7e45277bc5c9f4"
+    },
+    {
+      "file": "HOTUSDT-1d-2025-09.zip",
+      "sha256": "b88c3826ae04434033207fb42adf9cea94ab35c3782c883bfff16ffb2ffb63c1"
+    },
+    {
+      "file": "HOTUSDT-1d-2025-10.zip",
+      "sha256": "5f2eea4b2c7043ac2cba8b2b5733cd366146fedc28cea40b0dbb4e3162dfb392"
+    },
+    {
+      "file": "HOTUSDT-1d-2025-11.zip",
+      "sha256": "6a9dc2cc0f523a4974720e6f7fb119cc7b8fb044a869103ce47c1c1a046d1460"
+    },
+    {
+      "file": "HOTUSDT-1d-2025-12.zip",
+      "sha256": "4b4cc2b4ec7e4e28075bc0bb15dcba9f9f0cf19fa2a325a552b5c361b882c717"
+    },
+    {
+      "file": "HOTUSDT-1d-2026-01.zip",
+      "sha256": "f96b285a8986acf9e696c13c3f0a27e75890f2ab9b84dccd58e2aef945823ab9"
+    },
+    {
+      "file": "HOTUSDT-1d-2026-02.zip",
+      "sha256": "299fc164ef6ba59df1b8ed22f33d735abf63c53e691e8cdfbbdba5fbd1e371e2"
+    },
+    {
+      "file": "HOTUSDT-1d-2026-03.zip",
+      "sha256": "a6b1dc55cc9b16293654c79e085a94205e909076ee76d416a64395bb9a557fff"
+    },
+    {
+      "file": "HOTUSDT-1d-2026-04.zip",
+      "sha256": "90d1b12902136571226270e15ff264805b8b6ab7f75a4b9db9314fc81e17204f"
+    },
+    {
+      "file": "HOTUSDT-1d-2026-05.zip",
+      "sha256": "ef00f3593b7f5915ac539f384e29a18ea0b33133abb31104c35979670ddb4cbb"
+    },
+    {
+      "file": "HOTUSDT-1d-2026-06.zip",
+      "sha256": "9d713131db384b06ed8c19bc861350297c11d50a216625c0dd83c11f2a340cd3"
+    },
+    {
+      "file": "HOTUSDT-1d-2026-07.zip",
+      "sha256": "f65b3012d560cb8be602fafeb77a78d5ea5e08a0ef5074464e407160b734346d"
+    },
+    {
+      "file": "HOTUSDT-1d-2026-08.zip",
+      "sha256": "c49c912b95c70b0d19b91e479d92c797facfe61c9f9b1da5216d58ebd22f33b0"
+    },
+    {
+      "file": "HOTUSDT-1d-2026-09.zip",
+      "sha256": "efd0b70b6c1b831ebaccb32011a14261f8e584020483169e1dcd650915348e26"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

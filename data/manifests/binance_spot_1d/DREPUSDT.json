@@ -1,0 +1,237 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/DREPUSDT/1d/",
+  "instrument": "DREPUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-01-16",
+  "last_bar": "2024-04-03",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:32:08+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1537,
+  "missing_days": [
+    "2021-03-30",
+    "2021-03-31",
+    "2021-04-01"
+  ],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "DREPUSDT-1d-2020-01.zip",
+      "sha256": "414b252d82e9964ee4a3f555e487faf6c03ea93647823a45ba0fedf0f86aefd4"
+    },
+    {
+      "file": "DREPUSDT-1d-2020-02.zip",
+      "sha256": "3fc729b347396b012bfdc89516b8887ad83ce1d5af99adfd70f900ce9d5c3872"
+    },
+    {
+      "file": "DREPUSDT-1d-2020-03.zip",
+      "sha256": "445884069d36f0ddbe8cc2938e50bab4adbcc765df5d94b2851ebad39ae17b64"
+    },
+    {
+      "file": "DREPUSDT-1d-2020-04.zip",
+      "sha256": "86e3783a66d3b2f6d04878b7bc0a1c5fd724765df59c872e4618c3307d67aa4e"
+    },
+    {
+      "file": "DREPUSDT-1d-2020-05.zip",
+      "sha256": "d7c72f458dfca2bfcbf9ac1f8434169767f1ad33fc09d5de825373739e3f0400"
+    },
+    {
+      "file": "DREPUSDT-1d-2020-06.zip",
+      "sha256": "89691d1301534da324d90e3d7cd1b731f00f1fa74bdb75cd1c0b01a0a8d2dda2"
+    },
+    {
+      "file": "DREPUSDT-1d-2020-07.zip",
+      "sha256": "f0ddcb3ed2be495459252f67dd2ca20c1879196b91c6eca0aae90422e4880ddb"
+    },
+    {
+      "file": "DREPUSDT-1d-2020-08.zip",
+      "sha256": "d593108c01e9072801ce129bd6fe78f4068fa60d420c31f0a030212a7f22a9a1"
+    },
+    {
+      "file": "DREPUSDT-1d-2020-09.zip",
+      "sha256": "f509f8ca07cf2cbd6a15401cc834dd82985447ab8aece8ee00fabd9f8d75901f"
+    },
+    {
+      "file": "DREPUSDT-1d-2020-10.zip",
+      "sha256": "b8544198fa9f447fdcde0c6f01dc9c7bea7bd4ae9eef3f4d418aee63709db6cd"
+    },
+    {
+      "file": "DREPUSDT-1d-2020-11.zip",
+      "sha256": "c44ff29b1adeda78c5c27858da6b8f90300bd055cf339e4c4948613df61201fc"
+    },
+    {
+      "file": "DREPUSDT-1d-2020-12.zip",
+      "sha256": "ed529afaab9b99dfeda923cda3d20c623cd57204ee7b6c1a71e4c810d3251e94"
+    },
+    {
+      "file": "DREPUSDT-1d-2021-01.zip",
+      "sha256": "59d84d32e3753cbc5e8fd5608614b669c482921e2521f7377f594f862c75b2fe"
+    },
+    {
+      "file": "DREPUSDT-1d-2021-02.zip",
+      "sha256": "3ad16e300f5586b9d8b8dff7f5729464b90b7934a1cd685d52eef8a66001682a"
+    },
+    {
+      "file": "DREPUSDT-1d-2021-03.zip",
+      "sha256": "cf8b25736e41f0c67f01b6b5e94227d09a2bacd9e9afe2c90e4281a41e246524"
+    },
+    {
+      "file": "DREPUSDT-1d-2021-04.zip",
+      "sha256": "7034d0040dee76aa897c509b800de9e26dfe33c05ad52bcf8990fa9963d4a211"
+    },
+    {
+      "file": "DREPUSDT-1d-2021-05.zip",
+      "sha256": "841408a7406021ca73d1209f5e6e919c2ad73bc88444473d23358c5738edb05c"
+    },
+    {
+      "file": "DREPUSDT-1d-2021-06.zip",
+      "sha256": "d66f954c00b7415acf557e8818a964f20dbaa2f39bec8d557fdf102a12e3885f"
+    },
+    {
+      "file": "DREPUSDT-1d-2021-07.zip",
+      "sha256": "df6294bc080a8ff7a4262d6dab5c56deeb9e3f53c65002f717c1e641250c1986"
+    },
+    {
+      "file": "DREPUSDT-1d-2021-08.zip",
+      "sha256": "c1ddfefc62fead264632e96a3a0b20e2aedf8b7813bf41df0dbec8f9f90e3a6d"
+    },
+    {
+      "file": "DREPUSDT-1d-2021-09.zip",
+      "sha256": "e8d94aaeb1b4a36d6586ec6c1918a7c580a4724a232c82aba3353238a4ea0c08"
+    },
+    {
+      "file": "DREPUSDT-1d-2021-10.zip",
+      "sha256": "0c51f2f32f61d65a785615d0613a2fde167e15743a8c1efcdc77c106e250ecd7"
+    },
+    {
+      "file": "DREPUSDT-1d-2021-11.zip",
+      "sha256": "178d7c663ab8571afd9562d58954a3c0a708413af863c397020525f6ad31fda2"
+    },
+    {
+      "file": "DREPUSDT-1d-2021-12.zip",
+      "sha256": "c73a5e4744a9f2f193664551ba81a0a17b1ebf0865ce3a06c4fcbb774e8cabb6"
+    },
+    {
+      "file": "DREPUSDT-1d-2022-01.zip",
+      "sha256": "49bf356d28fc3b6cb4bc23ffc8bdb66c5fb34b7c4970a3eb2f2ccdd9ffbfe28b"
+    },
+    {
+      "file": "DREPUSDT-1d-2022-02.zip",
+      "sha256": "8a47d8c6d8bdf767295910d8e76e682fd02254fc8ea6483890767164ca776cb4"
+    },
+    {
+      "file": "DREPUSDT-1d-2022-03.zip",
+      "sha256": "5aa5affdd983ccace8b9cb617a655f9274458a23bc21403cf1be5fb5e468bac1"
+    },
+    {
+      "file": "DREPUSDT-1d-2022-04.zip",
+      "sha256": "1e7d3f68508f5b0221b85735e4bac8ab050151e252dcace48077c3f074951ae5"
+    },
+    {
+      "file": "DREPUSDT-1d-2022-05.zip",
+      "sha256": "8f0803d2c9f2a7ece9abb7b9a6503aea3ab84ef45909d8636a197553cdf84583"
+    },
+    {
+      "file": "DREPUSDT-1d-2022-06.zip",
+      "sha256": "f7d75a1ce1cd8e416da8fa72e91eaf32eedc522ad512108f77d2ea4ad0144638"
+    },
+    {
+      "file": "DREPUSDT-1d-2022-07.zip",
+      "sha256": "45b9ff2a1928f7fe6c06136ded8909488a4d31989029c81496089fc541830a63"
+    },
+    {
+      "file": "DREPUSDT-1d-2022-08.zip",
+      "sha256": "7941a260c1c44cb6e66ef222a55c44a7df0dd84dcb42087e4761a239156d8447"
+    },
+    {
+      "file": "DREPUSDT-1d-2022-09.zip",
+      "sha256": "ea6b9546c5b29579ce48c60037ae6b16d6b1c3418c55b8740b3ca3da38a8ae34"
+    },
+    {
+      "file": "DREPUSDT-1d-2022-10.zip",
+      "sha256": "c4c598a41808c555341982a5e9fde4b5989cb041e1f5febd06014c221414e5d0"
+    },
+    {
+      "file": "DREPUSDT-1d-2022-11.zip",
+      "sha256": "4eb6019dbf24a885ee0b173775d58c133d04a0931c0ed5d911f65c9c68e0d048"
+    },
+    {
+      "file": "DREPUSDT-1d-2022-12.zip",
+      "sha256": "6510c26fc5542858129a7ba91a9ad4242395c12678cd847b59c8850c29ab1744"
+    },
+    {
+      "file": "DREPUSDT-1d-2023-01.zip",
+      "sha256": "424ad944b95cf3f003887d0beee1332d5b39e9fecc294cc310bb77f81f3fba09"
+    },
+    {
+      "file": "DREPUSDT-1d-2023-02.zip",
+      "sha256": "c37e13672b445a01f6bd92d3877e1acf0159003f2dbccba6e0e43f51c9487283"
+    },
+    {
+      "file": "DREPUSDT-1d-2023-03.zip",
+      "sha256": "b51a71320181ea2cfecadffcbbf0b8eb1cb2b8b576da454ee06e31bb8b912a6a"
+    },
+    {
+      "file": "DREPUSDT-1d-2023-04.zip",
+      "sha256": "5300f4c21b5bae25e2abc4dece56da96b545a7981862cb3f547ee639c92ea7f1"
+    },
+    {
+      "file": "DREPUSDT-1d-2023-05.zip",
+      "sha256": "8ff28e5ff9e29d596657c46104f19e0b57bf34b195bbab2a4bebf61c4d3b6cbd"
+    },
+    {
+      "file": "DREPUSDT-1d-2023-06.zip",
+      "sha256": "aa88e6bdfd94fba8f11f15d2819134326d893f0b34b45ff66d66626842b0fe3a"
+    },
+    {
+      "file": "DREPUSDT-1d-2023-07.zip",
+      "sha256": "642217f5e4c61ab1bf18d0302ab453388f51d14dce7c1fcfa97c069e7e253d1c"
+    },
+    {
+      "file": "DREPUSDT-1d-2023-08.zip",
+      "sha256": "f15cd95c00edf87b66ce473e5192fe22fb2db6a892853e17260aa29d38b45818"
+    },
+    {
+      "file": "DREPUSDT-1d-2023-09.zip",
+      "sha256": "34ef3dae170f905dba7b733770a7da6312d6e25c7780ba8b9e992268e4e9cb06"
+    },
+    {
+      "file": "DREPUSDT-1d-2023-10.zip",
+      "sha256": "d5a7df29d96ebca2120e020f6e5bde98ff9ad6a67e98fad4e91fa63ac33c877e"
+    },
+    {
+      "file": "DREPUSDT-1d-2023-11.zip",
+      "sha256": "377278bae106129df13990ca6712052be9b976f34a1e1a59a101c26a90895b41"
+    },
+    {
+      "file": "DREPUSDT-1d-2023-12.zip",
+      "sha256": "23bc477bffde9388245236ecc515c735def7a6ddba82678d2a1fc7669e6a1bae"
+    },
+    {
+      "file": "DREPUSDT-1d-2024-01.zip",
+      "sha256": "e1640d51ac8d8c1a9731b369f14c50e5fa2bc1a3be0cc9ecc6bd4f9fabd1d8c3"
+    },
+    {
+      "file": "DREPUSDT-1d-2024-02.zip",
+      "sha256": "4b41c1a8f1625ceae1e045efa2a0fc3097263b81b52f920beaa41ac4c046ce08"
+    },
+    {
+      "file": "DREPUSDT-1d-2024-03.zip",
+      "sha256": "347e7ceede9ebfb4e5e8936dca837f47dd08d63adcbcded0cad4a677f2b6de61"
+    },
+    {
+      "file": "DREPUSDT-1d-2024-04.zip",
+      "sha256": "02841fc6c96f4a02355e670f7949f770119f4cea4b3302f2d84ee0a3c2aab6e3"
+    }
+  ],
+  "status": "partial",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

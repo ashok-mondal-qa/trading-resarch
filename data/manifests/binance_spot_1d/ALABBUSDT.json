@@ -1,0 +1,33 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ALABBUSDT/1d/",
+  "instrument": "ALABBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-08-05",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:24:52+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 57,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ALABBUSDT-1d-2026-08.zip",
+      "sha256": "992ec1c063980aae49863c2202fccd031663a1223bdc84944122538f314db91c"
+    },
+    {
+      "file": "ALABBUSDT-1d-2026-09.zip",
+      "sha256": "96deebe87138f9d7af8f96e0eddceb527f75e9069f363ccc5d5926ce7119e406"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

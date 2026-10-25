@@ -1,0 +1,73 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/NOMUSDT/1d/",
+  "instrument": "NOMUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-10-01",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:23+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 365,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "NOMUSDT-1d-2025-10.zip",
+      "sha256": "79d6b835122df674d4c2f6c64522400e2a4f0a0df9aafea3b8362c9b4c8ac54d"
+    },
+    {
+      "file": "NOMUSDT-1d-2025-11.zip",
+      "sha256": "bc20ec01e3e45e206b2bbacc8225109625c874908fff3ba981f6d0c41f8a2d57"
+    },
+    {
+      "file": "NOMUSDT-1d-2025-12.zip",
+      "sha256": "ee10feee348c85c48869f90015953ee67a76e7026e7e7e6010dc2599c4555c98"
+    },
+    {
+      "file": "NOMUSDT-1d-2026-01.zip",
+      "sha256": "f2f773f2af2c08c875280d7dd4fdd6f7f1aebdeb95233ac235932206d7ff68f8"
+    },
+    {
+      "file": "NOMUSDT-1d-2026-02.zip",
+      "sha256": "57caedef7ccdc32e286a858b405400b071216e3a8fc64ec36bc1f5e4b0f4b23a"
+    },
+    {
+      "file": "NOMUSDT-1d-2026-03.zip",
+      "sha256": "244198260436888575447e667fceea75f5c5648ab9f5a31c87adfa7abaf39cbd"
+    },
+    {
+      "file": "NOMUSDT-1d-2026-04.zip",
+      "sha256": "6bd40a008eb234df55f1e6c5bcddfbf7d04a2a5455cc15dd83c101864e8798c0"
+    },
+    {
+      "file": "NOMUSDT-1d-2026-05.zip",
+      "sha256": "02ac7eea5eb51e3938e88b4c3dcd3364f1f8e5cd69d93df580b9dc56c4d0b687"
+    },
+    {
+      "file": "NOMUSDT-1d-2026-06.zip",
+      "sha256": "24276ca3ae851df3c1cd20e29887ecab8a151e88d4a9393d8b0af98a50638b82"
+    },
+    {
+      "file": "NOMUSDT-1d-2026-07.zip",
+      "sha256": "776c2079bc806950b44e0664a6ac4d1ce74d147b74f8c75cd8a0511859fcdf3e"
+    },
+    {
+      "file": "NOMUSDT-1d-2026-08.zip",
+      "sha256": "fb2c0940883c34d99068f5eeb9855053860da4d5916e779546901007e7fc223d"
+    },
+    {
+      "file": "NOMUSDT-1d-2026-09.zip",
+      "sha256": "9135d689cb4d9cd77949549026855586c7428e13925940157b131c7936f562fb"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/NANOUSDT/1d/",
+  "instrument": "NANOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-04-03",
+  "last_bar": "2022-01-24",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:13+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1028,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "NANOUSDT-1d-2019-04.zip",
+      "sha256": "eeb4c7cf235f7575ab14d86b6c63c2fe44c79ed13ab0804d201bb965c0ac9929"
+    },
+    {
+      "file": "NANOUSDT-1d-2019-05.zip",
+      "sha256": "24fe84dd1fb40f3f3595725fc89ab4533c6503ee3c49be2359bf9495ded2454f"
+    },
+    {
+      "file": "NANOUSDT-1d-2019-06.zip",
+      "sha256": "90ad249060a915b27efa718f7644a8ef496f5bbad3eb32eb784e66f7c53b0821"
+    },
+    {
+      "file": "NANOUSDT-1d-2019-07.zip",
+      "sha256": "f19a4abf74c96f8fe86d0e039a32e9bdd2b71be683daa55988c1fd676873da29"
+    },
+    {
+      "file": "NANOUSDT-1d-2019-08.zip",
+      "sha256": "66d132e853b90b9b0f73fdec1b0b1127b8f4dae53e6cdf8ff6fc161692d128f9"
+    },
+    {
+      "file": "NANOUSDT-1d-2019-09.zip",
+      "sha256": "4fc632be1e4a8c9de3189e3d13191e4f43169f2ea4ae565792cb1ba8cfa96988"
+    },
+    {
+      "file": "NANOUSDT-1d-2019-10.zip",
+      "sha256": "c54e3938692082e8c2352e0b45480c5453c19554118b5d3860827f61d20580ef"
+    },
+    {
+      "file": "NANOUSDT-1d-2019-11.zip",
+      "sha256": "4b7ed74fd3830f12bd0154f5d67f8152b9d4b030a1a449b9d003af15a1ac088e"
+    },
+    {
+      "file": "NANOUSDT-1d-2019-12.zip",
+      "sha256": "293db13d80ef58afde5594411f8d29bbd4830bbd7bb436d83576817d2f631dc7"
+    },
+    {
+      "file": "NANOUSDT-1d-2020-01.zip",
+      "sha256": "641b3233ac5551c87f7d25d9672a64ee2a08016e6badc7a32421527b51f24319"
+    },
+    {
+      "file": "NANOUSDT-1d-2020-02.zip",
+      "sha256": "736e53f8620b9d30d88cf9697c247afec8be99fa42b2cc72c5cde59ab8365570"
+    },
+    {
+      "file": "NANOUSDT-1d-2020-03.zip",
+      "sha256": "ae3ad9a7e1b257e414dabe50bcb6c3e576d345a47427e53075b20b485489f90b"
+    },
+    {
+      "file": "NANOUSDT-1d-2020-04.zip",
+      "sha256": "fb6fd7c32eb9f2c0bceb4165dd3df44e6536dad72aaa4016ae42373340fe2d3c"
+    },
+    {
+      "file": "NANOUSDT-1d-2020-05.zip",
+      "sha256": "3c756e8d8626bc1f0e1d78f1c6dde0adaabe925aa13cfeb12d0dde595c084468"
+    },
+    {
+      "file": "NANOUSDT-1d-2020-06.zip",
+      "sha256": "b8aeace22a3bb875faaf87f87a696e0573a4a781d00522308d34a9bc41bfe5ab"
+    },
+    {
+      "file": "NANOUSDT-1d-2020-07.zip",
+      "sha256": "8325ba37f5bfac04d675cacf5d752aa55e6435d34ea954b3ee7583565bfa065c"
+    },
+    {
+      "file": "NANOUSDT-1d-2020-08.zip",
+      "sha256": "b6eaaba2ea9704ae9a9dbfaa5c539d6f169fad1f72147eaf9a96a1053928833a"
+    },
+    {
+      "file": "NANOUSDT-1d-2020-09.zip",
+      "sha256": "f310e4f740551bbdb441a130cff5f70179842b80660d5a108eb28729b348f743"
+    },
+    {
+      "file": "NANOUSDT-1d-2020-10.zip",
+      "sha256": "5d74e2d8f1a322fa29a17dc086761ec9f27ab7bb27cdd0867ca076a4ce7dc8c2"
+    },
+    {
+      "file": "NANOUSDT-1d-2020-11.zip",
+      "sha256": "0fc5489a688b5fbf0b759f844639199f8178f8f8f573aa1d93b153e4b4adf962"
+    },
+    {
+      "file": "NANOUSDT-1d-2020-12.zip",
+      "sha256": "dab953b72b981d68bd4615b286660fa96a0d5b993a7de93bb29043050245a606"
+    },
+    {
+      "file": "NANOUSDT-1d-2021-01.zip",
+      "sha256": "5045b71156144f9dcb57a130c20f6c2ce64ad28f939868c8bde5a255b37fd480"
+    },
+    {
+      "file": "NANOUSDT-1d-2021-02.zip",
+      "sha256": "a92196fa082bd69129e1937a4c04242c19196385f176eba554073a3005acd5cb"
+    },
+    {
+      "file": "NANOUSDT-1d-2021-03.zip",
+      "sha256": "057a6af9539fbc686e5a7ad15ea013ad139c544fe18fdb732e14157677439716"
+    },
+    {
+      "file": "NANOUSDT-1d-2021-04.zip",
+      "sha256": "6f75c48543adf981496e095eb525cdfeb44b19caa214880c97ffea2d86134fc2"
+    },
+    {
+      "file": "NANOUSDT-1d-2021-05.zip",
+      "sha256": "820f21ca7998ee40fc81d8b3720f9511f96c0481186a6eb4051deb5dedf19f51"
+    },
+    {
+      "file": "NANOUSDT-1d-2021-06.zip",
+      "sha256": "d650addd24c53c099662b5feb65805755c1be127d8a7392eccae648c1c441de5"
+    },
+    {
+      "file": "NANOUSDT-1d-2021-07.zip",
+      "sha256": "c98732f50d38e70312d875e6a650d90f7dbe9d1fa75ca12759f95f4c7bcac80f"
+    },
+    {
+      "file": "NANOUSDT-1d-2021-08.zip",
+      "sha256": "4fca6f20a436ee1485634f61aadbba58e738647e30f941849758eecc2793c3ae"
+    },
+    {
+      "file": "NANOUSDT-1d-2021-09.zip",
+      "sha256": "57b933920503084966ab655067a9b07ec80dd2ba381738ce43594f21987aed24"
+    },
+    {
+      "file": "NANOUSDT-1d-2021-10.zip",
+      "sha256": "e1376d284c6225cc956f6d7b872cccb6bbb22f8a8c3a3fa2dc5d3cd6601281c4"
+    },
+    {
+      "file": "NANOUSDT-1d-2021-11.zip",
+      "sha256": "68d3b6837127a8e2430026b48cc528a41107690268e17c78979c20706a43e3da"
+    },
+    {
+      "file": "NANOUSDT-1d-2021-12.zip",
+      "sha256": "39ddee872bdce0946b0881d8960f149a855d16da5124af8466b7df95f5fec447"
+    },
+    {
+      "file": "NANOUSDT-1d-2022-01.zip",
+      "sha256": "566a616cf3836e77533c1a3f34ca6e52049a49d86b4f2667f21749e957911648"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/TURTLEUSDT/1d/",
+  "instrument": "TURTLEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-10-22",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:47:28+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 344,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "TURTLEUSDT-1d-2025-10.zip",
+      "sha256": "3a6632c15e5b08f86db3bc0cf42a8891ddd61ff921f3c6918037f6b9d968933d"
+    },
+    {
+      "file": "TURTLEUSDT-1d-2025-11.zip",
+      "sha256": "428a06c909b593eb9e3b2c535b356cc439d8777ddb19a7b0300bab8effc41194"
+    },
+    {
+      "file": "TURTLEUSDT-1d-2025-12.zip",
+      "sha256": "027fb678d1c03c59082f601f763d4c6b087d19bed5ec9f9eb94c59de37a4fdfe"
+    },
+    {
+      "file": "TURTLEUSDT-1d-2026-01.zip",
+      "sha256": "86d079ffe8cd7a7137c878582ff4ca458bf773c45fbf4b50e0aaeceadff22ea2"
+    },
+    {
+      "file": "TURTLEUSDT-1d-2026-02.zip",
+      "sha256": "72db536122975c57c4fd3570c80cecd5c37783bf5426087dd16f464e5508e8bc"
+    },
+    {
+      "file": "TURTLEUSDT-1d-2026-03.zip",
+      "sha256": "44598f6a41c501479fbf00f91aaeb19b2ea3c971fe8ab472187ee1bd9c6f9c7d"
+    },
+    {
+      "file": "TURTLEUSDT-1d-2026-04.zip",
+      "sha256": "13a02922c0377bce6e0251770e4f269bd398db3ee60d95b2d8829743abd0b390"
+    },
+    {
+      "file": "TURTLEUSDT-1d-2026-05.zip",
+      "sha256": "d1cda5ab52989658c17d0e76a87b7c8507f05b75515b68a04ab4be7c8ffb1fac"
+    },
+    {
+      "file": "TURTLEUSDT-1d-2026-06.zip",
+      "sha256": "1067820c02eb433694fd150fe90a2df8c6e8c58a1efcff1ffeab8f23e2991496"
+    },
+    {
+      "file": "TURTLEUSDT-1d-2026-07.zip",
+      "sha256": "514f15d74752996a579f446c11e1445d1667aa5eddc1111533f55d80f4266cc0"
+    },
+    {
+      "file": "TURTLEUSDT-1d-2026-08.zip",
+      "sha256": "e7613a24c088621269259997de57d0b51cc05e147fed3126b58f2f7f4d0a7a5a"
+    },
+    {
+      "file": "TURTLEUSDT-1d-2026-09.zip",
+      "sha256": "45a3778361b224bb389d1f9345f20c9febc8202959209589dd3a5cb2d1b9f27a"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

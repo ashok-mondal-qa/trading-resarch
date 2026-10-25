@@ -1,0 +1,61 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BREVUSDT/1d/",
+  "instrument": "BREVUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-01-06",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:28:25+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 268,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BREVUSDT-1d-2026-01.zip",
+      "sha256": "fecb1a6ab1c820833b8c0c14b6ac8f767f112a6ea0c1d752adfddc27a4c6b778"
+    },
+    {
+      "file": "BREVUSDT-1d-2026-02.zip",
+      "sha256": "ffe6670ef3521ac880f96c1395ddd7e0b379d975d65bcd63470b1348747057fa"
+    },
+    {
+      "file": "BREVUSDT-1d-2026-03.zip",
+      "sha256": "91d8bfa1123b2f74e6c58eae3822c8a88d48c91ed7a96fb46d458b63d518da0e"
+    },
+    {
+      "file": "BREVUSDT-1d-2026-04.zip",
+      "sha256": "d91205f4b340ee3e4b78eacecc49a5ff0f1809b06cf4047bf9d6616fcc300bb9"
+    },
+    {
+      "file": "BREVUSDT-1d-2026-05.zip",
+      "sha256": "5c88e5c4fb7b60bb9529c569d7fb61b86f788cbe30f1999971be24617a035cd4"
+    },
+    {
+      "file": "BREVUSDT-1d-2026-06.zip",
+      "sha256": "cac703a9592c5da1d7562309a0f90d522483fb56de3b8d1f734e341800c5d48d"
+    },
+    {
+      "file": "BREVUSDT-1d-2026-07.zip",
+      "sha256": "27ae522568c654829debf8ac49a03687cd6083671c0b440bbecc0c778065d147"
+    },
+    {
+      "file": "BREVUSDT-1d-2026-08.zip",
+      "sha256": "4976ec9d5e82fd593d9efa7bf9ee47d90aa1aa3e56aad2d74d2eb7f4dfa66c9f"
+    },
+    {
+      "file": "BREVUSDT-1d-2026-09.zip",
+      "sha256": "76c6539e2e922c04268cee50319648c373ab0ed26d4d4eaf2564742f71fed6ba"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

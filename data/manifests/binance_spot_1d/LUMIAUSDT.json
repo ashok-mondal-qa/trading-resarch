@@ -1,0 +1,121 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/LUMIAUSDT/1d/",
+  "instrument": "LUMIAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-10-18",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:38:18+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 713,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "LUMIAUSDT-1d-2024-10.zip",
+      "sha256": "0fe956eb0235f29fdd584b2f38a85fa0a91bb12fe07b051491123319a56b750c"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2024-11.zip",
+      "sha256": "2d435df0a770be7b12f9e6159835e867a911039ec1d60b7061cc8703f87743b0"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2024-12.zip",
+      "sha256": "cbd216b662eea1a3a24267b7ad6a6a75c9f810f974d3b1b4de5b44c8ced03dd5"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2025-01.zip",
+      "sha256": "162cee1fc497fbaac3a7002eb385c3e33a4cf788c9211025edecdc479c8a8356"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2025-02.zip",
+      "sha256": "ac1fd03da6a8803d2e37ebbebd58e2bcb87955a4b5c7ac600b0c4f9d3ad55937"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2025-03.zip",
+      "sha256": "23a96744ea2395759afb385948b1cfcd34a0fa473445443d86b828c49259a039"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2025-04.zip",
+      "sha256": "afea20b0fccf693e6d702a64eff26fac4b2637259469c4833198fb63d47c83d6"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2025-05.zip",
+      "sha256": "5d7f6fa013762020ad8cbf238c8854dcbfe0ea42bdbe0253337fb22a7f1ff699"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2025-06.zip",
+      "sha256": "9f9d6f625e20f68b6e1fdcc595034e9492a64604a1d4d63dc9f90c932576954d"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2025-07.zip",
+      "sha256": "aff0c6853b5459de1e5c6e7e55f6daa4da3cbbfac2acbf2b6a75b6dacafdc0f3"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2025-08.zip",
+      "sha256": "423e3837246c1152c5fad4ed90a90d5bf0fd90c9a6f9f37c9d488be2c992a2dc"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2025-09.zip",
+      "sha256": "b9976a73eb9698d8c0a9e3a0097d87edbd519520c265412b41a7928447fbbe81"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2025-10.zip",
+      "sha256": "fd2ecb91c181789959c4a87847205524035ff68bb9a42652780b1252d38a89b9"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2025-11.zip",
+      "sha256": "b83b3069191d68a0c5151b2d04133afe91a7aed60eacfb7fc70c40ca13fe11f0"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2025-12.zip",
+      "sha256": "d89bfe8689fc257a3197821409785bc84de4fc8bee1d65c8ea06abac8e379c08"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2026-01.zip",
+      "sha256": "945eb8e7c2c3ec600d5c60c1db5d3e7a127abb6295be8726c5da51631025e3e3"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2026-02.zip",
+      "sha256": "52e5131313a6963805f36f677916fa4ad8907d14b28e8b2f5bca6f5b7564a0a2"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2026-03.zip",
+      "sha256": "35685b0fe73c3a1e3da949faa57cdf284197a07b0262ec9af1a62600783a810a"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2026-04.zip",
+      "sha256": "123a3a6ef17e86108d1e0ef076f94b4c596f53edfd70f66dbceda6f87453ae39"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2026-05.zip",
+      "sha256": "4f618da41f4700058ff029c27dd7384fdcc5a91f96b6e1ea876992d9f4bacd17"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2026-06.zip",
+      "sha256": "866fb1189edadec99f31f01f67c36d05a4ec7ef92eac80f76b7ed5be88c71f89"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2026-07.zip",
+      "sha256": "b58545da807ce60be433e93bfd3338082d5f4dcceec630707a8c21a5ae8bbd3b"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2026-08.zip",
+      "sha256": "8efedddea31a6b65cd75cd5d39ebdb5b6253eca87bdf0835fa19f376aed77f59"
+    },
+    {
+      "file": "LUMIAUSDT-1d-2026-09.zip",
+      "sha256": "82f066d539d5d500e279689158b375fa57fe7347d287212b6f156aa3b2026b0f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

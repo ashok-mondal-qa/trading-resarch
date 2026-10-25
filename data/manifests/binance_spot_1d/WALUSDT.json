@@ -1,0 +1,73 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/WALUSDT/1d/",
+  "instrument": "WALUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-10-10",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:33+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 356,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "WALUSDT-1d-2025-10.zip",
+      "sha256": "ed6ca4d16bf60727afe7bbcd00db185d776c487ad2998de1c4f5a35e0984c3c8"
+    },
+    {
+      "file": "WALUSDT-1d-2025-11.zip",
+      "sha256": "3145329f766328b22ef71596e7336a6c83f23b81cfb87a3d3069075fe5ed8991"
+    },
+    {
+      "file": "WALUSDT-1d-2025-12.zip",
+      "sha256": "e09b06d8ae553798aa84f4724f6a0b3ed7414a5093b437f85df4faf0a7aa34b6"
+    },
+    {
+      "file": "WALUSDT-1d-2026-01.zip",
+      "sha256": "56f63a42f355ca510b3fbdeda3937fd81670c7c07977c204d9954c7d95a91da4"
+    },
+    {
+      "file": "WALUSDT-1d-2026-02.zip",
+      "sha256": "d22eff42685a2e87d4be69a48d7935cf1cd652b89edb1a7142b27590d0215130"
+    },
+    {
+      "file": "WALUSDT-1d-2026-03.zip",
+      "sha256": "bcb88908a2740efc1b669a128f9569167347721f14173096213b973f1a2df395"
+    },
+    {
+      "file": "WALUSDT-1d-2026-04.zip",
+      "sha256": "addff62d1f2b90b79156ff10a898ad3582b050f34e87c2ee32e28892fb7b063e"
+    },
+    {
+      "file": "WALUSDT-1d-2026-05.zip",
+      "sha256": "fdcdca6af4130a3747fae66b0c0aff54880b5ac68a3c1d6a8583ea81c97eb606"
+    },
+    {
+      "file": "WALUSDT-1d-2026-06.zip",
+      "sha256": "446079c05fabade32722011c76133acdfd76ac048962784e40775d1bd6b12c06"
+    },
+    {
+      "file": "WALUSDT-1d-2026-07.zip",
+      "sha256": "c54d22d10cea79080370d37eddbb680dfd107c3751a4d98057f8aee0ed956f31"
+    },
+    {
+      "file": "WALUSDT-1d-2026-08.zip",
+      "sha256": "40266c9ebc1cbd2c0bceab14a4b5ca002a7f3d3e8f771aecb432c819dbb1b486"
+    },
+    {
+      "file": "WALUSDT-1d-2026-09.zip",
+      "sha256": "338d80c8a8a60b15bb0c68239770a6c20db34231cbcf56290376802ed2df6631"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

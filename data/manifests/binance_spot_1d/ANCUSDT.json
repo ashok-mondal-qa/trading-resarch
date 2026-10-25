@@ -1,0 +1,73 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ANCUSDT/1d/",
+  "instrument": "ANCUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-01-25",
+  "last_bar": "2022-12-27",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:25:27+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 337,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ANCUSDT-1d-2022-01.zip",
+      "sha256": "c1003ecbb4bfa72a884c0ffa466deba26f3ce9fb255a0497c3fb5d967d32d2a2"
+    },
+    {
+      "file": "ANCUSDT-1d-2022-02.zip",
+      "sha256": "73c6407218b9836dd255d09cba0695e0e2264e8150f01d6c6b28fff7ccc8e0f3"
+    },
+    {
+      "file": "ANCUSDT-1d-2022-03.zip",
+      "sha256": "5260d05468f597792b925f8d4ed5e4a536e2a162268ce57f409a203ba4f5b6a5"
+    },
+    {
+      "file": "ANCUSDT-1d-2022-04.zip",
+      "sha256": "dd5ddf5a634ce32502da6a3a6f78d9b3d69c2af6ae267878ba968d75b2c472a6"
+    },
+    {
+      "file": "ANCUSDT-1d-2022-05.zip",
+      "sha256": "3c915c1e3645f8d9610d0dcf5289241aa4aef77016f9ab24971585898dd3e9c1"
+    },
+    {
+      "file": "ANCUSDT-1d-2022-06.zip",
+      "sha256": "68ad7ffb575b64532fc04ceea0b29debf6e9145173020f9a8e1241239fe1be07"
+    },
+    {
+      "file": "ANCUSDT-1d-2022-07.zip",
+      "sha256": "fe27637e14aceda3e048158d1f9d871edbee40b425a1c7c13c9c2f7d62a70db2"
+    },
+    {
+      "file": "ANCUSDT-1d-2022-08.zip",
+      "sha256": "f1095ec507b7544d6eeac71147d71ea51d55a2fcbc2f2e1cf97d2f070aad3ad7"
+    },
+    {
+      "file": "ANCUSDT-1d-2022-09.zip",
+      "sha256": "17d2cd70c1cfa9ee8b57eeeccf4f5dc8892c0b08ccae043a963dcbeccb4a7a8f"
+    },
+    {
+      "file": "ANCUSDT-1d-2022-10.zip",
+      "sha256": "39131c7e5aa3d5e806ba5351d6c71e0de341b44f6d35e559f1522f172ed378b3"
+    },
+    {
+      "file": "ANCUSDT-1d-2022-11.zip",
+      "sha256": "f06ff1bc488e344ac6a1978bc6e39f2d5e6366ec5100e7d3dc8a979327fba0b2"
+    },
+    {
+      "file": "ANCUSDT-1d-2022-12.zip",
+      "sha256": "172e52988def2fc02da93a53c6caa51406382504c5cc3b3fa285a62ef819acfd"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

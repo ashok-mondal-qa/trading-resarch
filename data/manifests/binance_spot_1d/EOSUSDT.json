@@ -1,0 +1,365 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/EOSUSDT/1d/",
+  "instrument": "EOSUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2018-05-28",
+  "last_bar": "2025-05-26",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:33:07+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2556,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "EOSUSDT-1d-2018-05.zip",
+      "sha256": "4418c02dc0f9d2675b08740c7ae4f67fbcd6e95b4ec2d7e00c0fd5d523932295"
+    },
+    {
+      "file": "EOSUSDT-1d-2018-06.zip",
+      "sha256": "e019154d7bcfd09e96005eb79891992472df5a2c655d00bd8f2dc79e7f48e4dc"
+    },
+    {
+      "file": "EOSUSDT-1d-2018-07.zip",
+      "sha256": "df143626eef8621fb71bb5073ec7281a4afb2e01fa74f9791c13af413e0534cc"
+    },
+    {
+      "file": "EOSUSDT-1d-2018-08.zip",
+      "sha256": "1d01e94dcfba23648014d7ca3c06e7f6b21e3bf841b9d89b52ba6ce5ca91db8c"
+    },
+    {
+      "file": "EOSUSDT-1d-2018-09.zip",
+      "sha256": "3a6faf4209441d5b93940406c50819c82868180a49f079a5407cf57bca72742a"
+    },
+    {
+      "file": "EOSUSDT-1d-2018-10.zip",
+      "sha256": "50d0654c9cc196133fdcdb33b2a048633d4b2d9174940cbdc1b510d451ade607"
+    },
+    {
+      "file": "EOSUSDT-1d-2018-11.zip",
+      "sha256": "6385721a06f80d364896bf05db64240c9762ac9673ae2ed2f8d7c120d2138b09"
+    },
+    {
+      "file": "EOSUSDT-1d-2018-12.zip",
+      "sha256": "06347d5575376e6e8183181d996d6c451939575dfb13dde46b7926b85eeab4c0"
+    },
+    {
+      "file": "EOSUSDT-1d-2019-01.zip",
+      "sha256": "0b2bd7c8251bc37ad561a0666786a8f6f39dfccd1c80cd0a48335461b0f01b97"
+    },
+    {
+      "file": "EOSUSDT-1d-2019-02.zip",
+      "sha256": "38928ed3e4ca30f70c510d98b8fbcae7b78070081c50fc8dded15097f66e399d"
+    },
+    {
+      "file": "EOSUSDT-1d-2019-03.zip",
+      "sha256": "5d5890e66d43131638dc478cd64e2b20c4398e1dcc1fcf97a6c9a5ea3232a5b3"
+    },
+    {
+      "file": "EOSUSDT-1d-2019-04.zip",
+      "sha256": "f711ab99d85b31e24904f60f525ed1cde16f06cbdd09ee28fcb3a2f9800e2b6f"
+    },
+    {
+      "file": "EOSUSDT-1d-2019-05.zip",
+      "sha256": "68aba4bb0571aa77b060bfb909100032ce587f859de50d7391445756084657b1"
+    },
+    {
+      "file": "EOSUSDT-1d-2019-06.zip",
+      "sha256": "0cf62ce040a235dd1313de72ffc4520953f378c782082738746241fd2fbf10d3"
+    },
+    {
+      "file": "EOSUSDT-1d-2019-07.zip",
+      "sha256": "b44496e284f3d2efbafc694bb460566b0f8666eac11bc183218d280a520e077c"
+    },
+    {
+      "file": "EOSUSDT-1d-2019-08.zip",
+      "sha256": "7149f7018a9b24396a1d31df7892d91382fc8c4140f2392b8260e9a5e63332cc"
+    },
+    {
+      "file": "EOSUSDT-1d-2019-09.zip",
+      "sha256": "0dbdf17014bb3e23f0f03fc20d38e612fedfd89d31798265141eaec0a2673d5b"
+    },
+    {
+      "file": "EOSUSDT-1d-2019-10.zip",
+      "sha256": "8c252286aadac2a1912d4ef91618ea4579f96ea64aae854f11a9d2bc5a23050c"
+    },
+    {
+      "file": "EOSUSDT-1d-2019-11.zip",
+      "sha256": "83c9d5c92d6a8551645b82777947c2b0b8680485dbc4973c00cc808f16058e4f"
+    },
+    {
+      "file": "EOSUSDT-1d-2019-12.zip",
+      "sha256": "022d18e608e5a1c1bf8584ba4686b006518365dd3c3b2201952345b4e50ce50d"
+    },
+    {
+      "file": "EOSUSDT-1d-2020-01.zip",
+      "sha256": "96566184c2ba2b8210a69108a82edcaf06b37e5aa777b131cdf66b17b026d945"
+    },
+    {
+      "file": "EOSUSDT-1d-2020-02.zip",
+      "sha256": "0abbc82d69089453705024795452a7f210f40926cee55f5e5035af941ffec280"
+    },
+    {
+      "file": "EOSUSDT-1d-2020-03.zip",
+      "sha256": "be9ad53b8f33f2e2915d82ad98d3abced8dff524cbb19bc26e3905aabeef307c"
+    },
+    {
+      "file": "EOSUSDT-1d-2020-04.zip",
+      "sha256": "4ce9e09a80a75e75762a88bcf6e1ea35ddf17df03ebdf9de9302133a8cc25c72"
+    },
+    {
+      "file": "EOSUSDT-1d-2020-05.zip",
+      "sha256": "b83dc76b5d201081ee38b9740a95a9d7acc6b865e99ed359c333f70e0432a3d5"
+    },
+    {
+      "file": "EOSUSDT-1d-2020-06.zip",
+      "sha256": "1e09251410846066b785fd245232b6412b62bf3946a344625aa1d5fd4adc71de"
+    },
+    {
+      "file": "EOSUSDT-1d-2020-07.zip",
+      "sha256": "2df903b8f8472568414a4791ac220f9dd28f2c69ebf11645b1b737b853ed924b"
+    },
+    {
+      "file": "EOSUSDT-1d-2020-08.zip",
+      "sha256": "759bdae160f1df33f970ad0b37f67eb8694a3e73fb95c203a6e27b16aa380de2"
+    },
+    {
+      "file": "EOSUSDT-1d-2020-09.zip",
+      "sha256": "a8a13c789ebeb3ca35294f2a75d330058d1256fd040e7dda763c7ff073bb6873"
+    },
+    {
+      "file": "EOSUSDT-1d-2020-10.zip",
+      "sha256": "9b74429373fcb1fccfe771ffa693b10a79cda9b7c71021fee773b6636caa1a14"
+    },
+    {
+      "file": "EOSUSDT-1d-2020-11.zip",
+      "sha256": "b167644764bc9c5f2914beacf46d1eff1f8e04ec6f482d4411dee15c8a4735e1"
+    },
+    {
+      "file": "EOSUSDT-1d-2020-12.zip",
+      "sha256": "8010e3dba1a0aec498adb18c5ea74577f013183bcb2de523a0360a390a0bb288"
+    },
+    {
+      "file": "EOSUSDT-1d-2021-01.zip",
+      "sha256": "fc3f049f4a7a2d4e95bf0c97c850e6728f1fb90922138006e04e9bd1f1d4ebca"
+    },
+    {
+      "file": "EOSUSDT-1d-2021-02.zip",
+      "sha256": "ad0bd65822a4f55af1f393e890746e599d7f34832ae292fb66d5a56d51289344"
+    },
+    {
+      "file": "EOSUSDT-1d-2021-03.zip",
+      "sha256": "9059567b95c8c7d29390adf0c86c8de17ff8614a4daec8f107be440372d75d20"
+    },
+    {
+      "file": "EOSUSDT-1d-2021-04.zip",
+      "sha256": "6f33a7ccbc2c8b58e5733a96b9f97099501f58cea5b643acb0071d3728d90e24"
+    },
+    {
+      "file": "EOSUSDT-1d-2021-05.zip",
+      "sha256": "7d2a443fc4452b117c8ca9ea72b0fdfc38e256d104a682020a1d85256f78c457"
+    },
+    {
+      "file": "EOSUSDT-1d-2021-06.zip",
+      "sha256": "39eaed8c54a518c798b842fffff3954a712723ed4a86db18ee796e096d6257f3"
+    },
+    {
+      "file": "EOSUSDT-1d-2021-07.zip",
+      "sha256": "2bbdb05626cd6e332e25070dbbea32a0e5d2c55f9ac5f25cb17ecabd66afbd2a"
+    },
+    {
+      "file": "EOSUSDT-1d-2021-08.zip",
+      "sha256": "55ce9780e5c0118070f7aa72aa5efc7dc5904dd05073ef0f2bb8bb6a639f7d0b"
+    },
+    {
+      "file": "EOSUSDT-1d-2021-09.zip",
+      "sha256": "aa0fb56c5f1f8edf6d04559519edbe1ccad14b46d8ae4e362ed661e77e787792"
+    },
+    {
+      "file": "EOSUSDT-1d-2021-10.zip",
+      "sha256": "b2c07687da9ca7627f38f5c36082185ddefc9898bec996a030ba33cd44a7aba9"
+    },
+    {
+      "file": "EOSUSDT-1d-2021-11.zip",
+      "sha256": "ddc0290a8465573cb6616231410155705d1dc6591b63f84a3dc65dfef4d1f383"
+    },
+    {
+      "file": "EOSUSDT-1d-2021-12.zip",
+      "sha256": "3b53983d4b3a3f4b9afe1c164ccfd818f0e60b767aa421e9fad4915dba8462a6"
+    },
+    {
+      "file": "EOSUSDT-1d-2022-01.zip",
+      "sha256": "c8ef993d84d2cd830c220586439b63ea489bf9e2d1d5833f60c43726416527d6"
+    },
+    {
+      "file": "EOSUSDT-1d-2022-02.zip",
+      "sha256": "154f2e062ac7b83beb18e493d2799a1e7ba464db14dd28990d279df5d4b25ac9"
+    },
+    {
+      "file": "EOSUSDT-1d-2022-03.zip",
+      "sha256": "777e4e22e15caded975dbe9cc80612f6ba6ba4f3d514e44e312c02212a16d40f"
+    },
+    {
+      "file": "EOSUSDT-1d-2022-04.zip",
+      "sha256": "717ac814dd71be95cdef8d979b5f5172ed1314e1cba23c2bea1d3f18576f079e"
+    },
+    {
+      "file": "EOSUSDT-1d-2022-05.zip",
+      "sha256": "7ef70bfd8126837e736fe85bc71c8439df1aa8f30c296a02df7d25d263c1d0b5"
+    },
+    {
+      "file": "EOSUSDT-1d-2022-06.zip",
+      "sha256": "0fc324c83e83cd1d5a75a9499dc5ca46826184624db6ea8267e51f20a398d1c0"
+    },
+    {
+      "file": "EOSUSDT-1d-2022-07.zip",
+      "sha256": "58833226ec77aecf9b6a4ff6ccef37a3dfc4b36724fb97ca50c5e4b638224cd2"
+    },
+    {
+      "file": "EOSUSDT-1d-2022-08.zip",
+      "sha256": "f7112e4352f19ef9aa2a9141ceb05c92ead7bc4151907dccc7a451942ef7f050"
+    },
+    {
+      "file": "EOSUSDT-1d-2022-09.zip",
+      "sha256": "830818e8ca7112189aa2a8ee3ffb6b708c86cc8b3cfe5ed6e52a31752baad09c"
+    },
+    {
+      "file": "EOSUSDT-1d-2022-10.zip",
+      "sha256": "e10a088466a1a8c83c116a131ee781e85fa14221311f7c0654975dca386d9203"
+    },
+    {
+      "file": "EOSUSDT-1d-2022-11.zip",
+      "sha256": "28735ed548628cc469b5dda1f5780c40dafaf0a849aa001aa157ec8d02b690e6"
+    },
+    {
+      "file": "EOSUSDT-1d-2022-12.zip",
+      "sha256": "beaddf5b5f4de1cc70bfdd1793f3f2dc674d2365e854f27defebcb9b3784e4bb"
+    },
+    {
+      "file": "EOSUSDT-1d-2023-01.zip",
+      "sha256": "cfd9af3c8f4b00818a8b651aa6f6a39ff4f5b90bf921df1eec7cae3422c66a70"
+    },
+    {
+      "file": "EOSUSDT-1d-2023-02.zip",
+      "sha256": "7ae7564cbb3c76b4a938a87ce2178b6f7247eb4b950093f4c046c1ee788272d7"
+    },
+    {
+      "file": "EOSUSDT-1d-2023-03.zip",
+      "sha256": "4af46cc6405263973c330cd660b3357e443569c778cf629fde916705b1420ce6"
+    },
+    {
+      "file": "EOSUSDT-1d-2023-04.zip",
+      "sha256": "b1fb02c65cc36ebf88be0d83a9b23452d3c2fc903a8a80c0b8ae7895eafd007e"
+    },
+    {
+      "file": "EOSUSDT-1d-2023-05.zip",
+      "sha256": "5ee37776e3aba0bfa5b0ab024265e745d6df125708837c450f9c65b14e809399"
+    },
+    {
+      "file": "EOSUSDT-1d-2023-06.zip",
+      "sha256": "68269236f0b18248f4c1694eee5404b02ffcdd0a5f36ca90588af17a014dd964"
+    },
+    {
+      "file": "EOSUSDT-1d-2023-07.zip",
+      "sha256": "112b73b3c5b0c3f0069be82ffc447fc6b4fee9f1135cf3674910eb776f8d4762"
+    },
+    {
+      "file": "EOSUSDT-1d-2023-08.zip",
+      "sha256": "a8ca9134fd4eb15164f25b62e2590a0e0efe41d14d21e08adb1fe14e34fee546"
+    },
+    {
+      "file": "EOSUSDT-1d-2023-09.zip",
+      "sha256": "bf9257d15f988f7c8df7e1f01cc559d653c4ca26b095704ad0aedb1e9053d086"
+    },
+    {
+      "file": "EOSUSDT-1d-2023-10.zip",
+      "sha256": "9c851c46aad308a1d701a7b2de173f87647f8c7f288e5e668fa4efb625dc9e5f"
+    },
+    {
+      "file": "EOSUSDT-1d-2023-11.zip",
+      "sha256": "2e84a00fd5163d28840c883a19a59c9a8fce793aae40795930a86b5a8dbf8e98"
+    },
+    {
+      "file": "EOSUSDT-1d-2023-12.zip",
+      "sha256": "000378ab944634fe5576496f10e97066aa8c94bb9d93c310fda1b91e682acf16"
+    },
+    {
+      "file": "EOSUSDT-1d-2024-01.zip",
+      "sha256": "4f03067f96cc762b9be97e17b464ccb58f5888c0c4f40b79a32dd3665eb7e5f7"
+    },
+    {
+      "file": "EOSUSDT-1d-2024-02.zip",
+      "sha256": "b2ec4418fd58092e7435f8a86686bb17bdc23285be94b132578bce6c663dd8d5"
+    },
+    {
+      "file": "EOSUSDT-1d-2024-03.zip",
+      "sha256": "ce1b52f8747b0f34ae8cedd716aa161c8cf79a6adba8ac52658c5b358afdd7c7"
+    },
+    {
+      "file": "EOSUSDT-1d-2024-04.zip",
+      "sha256": "e74ca5426d4a6b4181cbeb91c4a7b64b0bbe733d739f19acb6fdd853fc80545e"
+    },
+    {
+      "file": "EOSUSDT-1d-2024-05.zip",
+      "sha256": "825afee809a789f4237adb0fb76441f1571637577bcac6506bf8baf91975c25a"
+    },
+    {
+      "file": "EOSUSDT-1d-2024-06.zip",
+      "sha256": "a5e34cb5f6c457da1562d767acc92ae6cadb915f34794f16cf35429969c279c4"
+    },
+    {
+      "file": "EOSUSDT-1d-2024-07.zip",
+      "sha256": "ca779690523d8ea130e6ed542f698fdb0100d05efb67654f862509a159c22b16"
+    },
+    {
+      "file": "EOSUSDT-1d-2024-08.zip",
+      "sha256": "81e9e07babdc05dbdc56b054a827e04407632f7fc8df66721321065b86af13c6"
+    },
+    {
+      "file": "EOSUSDT-1d-2024-09.zip",
+      "sha256": "feca877b0bdfe50c1ae6afeaf7dd7b1230a043123b7b20dbd9aeadb85598d60a"
+    },
+    {
+      "file": "EOSUSDT-1d-2024-10.zip",
+      "sha256": "ee3def93f9a035a8e35a7b4a0d015ba30e0fd5265b9f2a0a0cdeb3e4416d15b0"
+    },
+    {
+      "file": "EOSUSDT-1d-2024-11.zip",
+      "sha256": "9be2a5f67c4faab73f64f9ba070f4b69aa4fe2c25f599226522ba2b77c4c0349"
+    },
+    {
+      "file": "EOSUSDT-1d-2024-12.zip",
+      "sha256": "663ce17458038bd978f57050f7e5dacd9ce69c0ccdc196a18710bba06a75ba26"
+    },
+    {
+      "file": "EOSUSDT-1d-2025-01.zip",
+      "sha256": "070ec907d77ff7235bfd7c47bce588e065c8c4b0dcd4a0f9dc8406976d71c75a"
+    },
+    {
+      "file": "EOSUSDT-1d-2025-02.zip",
+      "sha256": "836b9c7e83c70694c73effa36c608cf600c340d8b009ed2d5bfc34e799cbbdb4"
+    },
+    {
+      "file": "EOSUSDT-1d-2025-03.zip",
+      "sha256": "f3a11af960529f49be601f9e83bcc7b56c1c571117e5b55f4a1a486f5f909993"
+    },
+    {
+      "file": "EOSUSDT-1d-2025-04.zip",
+      "sha256": "3ac997a671e02d89745558329daef8d08183b04bd469718eedb6095703bbb428"
+    },
+    {
+      "file": "EOSUSDT-1d-2025-05.zip",
+      "sha256": "a2a87ac76636b0e43054a1e89dc258ec3eae49b08148d11f624ae4e684aae1a8"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

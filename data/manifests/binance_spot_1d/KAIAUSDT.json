@@ -1,0 +1,121 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/KAIAUSDT/1d/",
+  "instrument": "KAIAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-10-31",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:36:43+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 700,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "KAIAUSDT-1d-2024-10.zip",
+      "sha256": "26b301559375f90ad296ef0920ba93fc08b6269c515f73496c29629ba79525bd"
+    },
+    {
+      "file": "KAIAUSDT-1d-2024-11.zip",
+      "sha256": "e6874463a1a8fa07ed6ef74c1bb67fd3c859c7609e6bbaa669ea76c91b87bd10"
+    },
+    {
+      "file": "KAIAUSDT-1d-2024-12.zip",
+      "sha256": "49393604dfd60a684129b83e4d74b2e09004a6e402a94394652a3f5117a6d04e"
+    },
+    {
+      "file": "KAIAUSDT-1d-2025-01.zip",
+      "sha256": "929fb6a3b8a59b008c37350e0e8bc6fd26241ef668f6394c26e43e84850278bc"
+    },
+    {
+      "file": "KAIAUSDT-1d-2025-02.zip",
+      "sha256": "b3658f4fbff02409bfbb5f64c86987782e2622e85b6e02538b935ef65f27ddc8"
+    },
+    {
+      "file": "KAIAUSDT-1d-2025-03.zip",
+      "sha256": "617d09f70d1b2420aadc559d488548fb4b6b5dccb242917040adaf6f754c702a"
+    },
+    {
+      "file": "KAIAUSDT-1d-2025-04.zip",
+      "sha256": "27ca7e9b59bb75ecbff76f70a8844bd7ea102469e86a042892ec5b6366133d1e"
+    },
+    {
+      "file": "KAIAUSDT-1d-2025-05.zip",
+      "sha256": "50cf09e39abece54f6a36f1e73cada816077d65d7036c01b219e1971f2612f3f"
+    },
+    {
+      "file": "KAIAUSDT-1d-2025-06.zip",
+      "sha256": "c73dd041493aae8619410992413add73f2f249162214f7d5cb252743ee9d25fe"
+    },
+    {
+      "file": "KAIAUSDT-1d-2025-07.zip",
+      "sha256": "3af8f60de7f3f6efe2b17a7dbc431eacde73387a8f4bb1ffa2917fef832a638d"
+    },
+    {
+      "file": "KAIAUSDT-1d-2025-08.zip",
+      "sha256": "cbca9bb15a392adc7f91d406391daeaa9f394005bb4009d93298adcefa1d2659"
+    },
+    {
+      "file": "KAIAUSDT-1d-2025-09.zip",
+      "sha256": "68ed23125023bdf3ef9aa0fe7425b390c704682c9b71eef7563cf04636c230fa"
+    },
+    {
+      "file": "KAIAUSDT-1d-2025-10.zip",
+      "sha256": "43f24c42fb939812a2c214887607679cc224383071b1adc8feb8e73f35ff677d"
+    },
+    {
+      "file": "KAIAUSDT-1d-2025-11.zip",
+      "sha256": "1e1872bcd53a4b89f36b7985219039c3a1b2c10c415b7bd49596d89ee9c08cb3"
+    },
+    {
+      "file": "KAIAUSDT-1d-2025-12.zip",
+      "sha256": "247bbb570dd007d5f60b559482de2c106188d8533b5507945f644be38cec161f"
+    },
+    {
+      "file": "KAIAUSDT-1d-2026-01.zip",
+      "sha256": "6466802be15758e1eff079efa6502eeefa6770ae311158322e6b39d1436be787"
+    },
+    {
+      "file": "KAIAUSDT-1d-2026-02.zip",
+      "sha256": "d2ffb44d00a52933da12467d731c48c92358612147822a7e1324b608e5ce343d"
+    },
+    {
+      "file": "KAIAUSDT-1d-2026-03.zip",
+      "sha256": "014a253dcbd597448460b492dff3f9faee36e819c6e561b3eb915b787d10013a"
+    },
+    {
+      "file": "KAIAUSDT-1d-2026-04.zip",
+      "sha256": "1113a78f544a4b6081b3d1b83a8744fa77acde12812109bb3d0bcdd8b10263e9"
+    },
+    {
+      "file": "KAIAUSDT-1d-2026-05.zip",
+      "sha256": "db9c12e5340f00729f45a40272649bfa827eff8203620fc8c7cb4789187f37a8"
+    },
+    {
+      "file": "KAIAUSDT-1d-2026-06.zip",
+      "sha256": "d1ae0caa5749e110654a74226d66857ddc423671396d4b99f09375560f2c0a7c"
+    },
+    {
+      "file": "KAIAUSDT-1d-2026-07.zip",
+      "sha256": "e7e401254324258015c7ea09cecb4366abc4399db74ad4655a89f659a70ee191"
+    },
+    {
+      "file": "KAIAUSDT-1d-2026-08.zip",
+      "sha256": "b22f77849fa02df41070eec6427116b0b7cac88ec6905dd629c5dbc736eb1ed9"
+    },
+    {
+      "file": "KAIAUSDT-1d-2026-09.zip",
+      "sha256": "745b7490d07abca6d5e237c13dc42888b9c74ae48256f95aa696cd7e78cc5e85"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

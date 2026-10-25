@@ -1,0 +1,305 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ATMUSDT/1d/",
+  "instrument": "ATMUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-12-30",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:27:02+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2101,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ATMUSDT-1d-2020-12.zip",
+      "sha256": "4d9ec62cf53eb6e42ff3a1c2367c2e323e10dafc5d4f723083dee9d8e65b83e6"
+    },
+    {
+      "file": "ATMUSDT-1d-2021-01.zip",
+      "sha256": "58faf18f1e757254312aafe2ba9008086b35696d5e35465b81b96bdb5a0dc76d"
+    },
+    {
+      "file": "ATMUSDT-1d-2021-02.zip",
+      "sha256": "1bff70146fa789f1641b26cc0d3b7bae6b1c0451b2b2c2fa08eaac45f8647de6"
+    },
+    {
+      "file": "ATMUSDT-1d-2021-03.zip",
+      "sha256": "2580b835faea34939a79216abeb6dc04ae1992ab14fb24b5fd03ac30c8e5e174"
+    },
+    {
+      "file": "ATMUSDT-1d-2021-04.zip",
+      "sha256": "d00f0e80c9e367bcdc4ff9764a1a205faf4e79e96c235514be4e270823aa9cbf"
+    },
+    {
+      "file": "ATMUSDT-1d-2021-05.zip",
+      "sha256": "4448b1efa1213324ae24dfae5631a5053bdf49dd67529b473d3a1c5d4a77ffea"
+    },
+    {
+      "file": "ATMUSDT-1d-2021-06.zip",
+      "sha256": "5a850232478c6ad92f3ed30e4522d0d8719c3f3c97e39d1bb9aa968d8ca37cd4"
+    },
+    {
+      "file": "ATMUSDT-1d-2021-07.zip",
+      "sha256": "5bfdcd10a6a8d9a29fa60eee8d64f5b8996180d09f6ae24efda0fd6885aa4ae0"
+    },
+    {
+      "file": "ATMUSDT-1d-2021-08.zip",
+      "sha256": "b1c371445eceb15cfa79ece38249715e74f361d60280f21aa160fb944d0b0583"
+    },
+    {
+      "file": "ATMUSDT-1d-2021-09.zip",
+      "sha256": "6fc5688bd4623995730f1f9ade31e12e830023cd49a1ca3c23dccbc75256d07d"
+    },
+    {
+      "file": "ATMUSDT-1d-2021-10.zip",
+      "sha256": "e36f6539e460c450cbac9012475c1cadb34883ca84515f85dbf9163b875a422f"
+    },
+    {
+      "file": "ATMUSDT-1d-2021-11.zip",
+      "sha256": "b795047d8074ed03d2a698a7665ed2e43e48b3e72a213c312c956eb2b6178cf5"
+    },
+    {
+      "file": "ATMUSDT-1d-2021-12.zip",
+      "sha256": "b3e4533f92038d9d37c1fba58f34bfc76db7f3b3a49645b2fa36d4db4d130cdf"
+    },
+    {
+      "file": "ATMUSDT-1d-2022-01.zip",
+      "sha256": "0bc270b17c59aab0e97442c21bc8fd17a1f75bcfc620c3978778c76352b745ea"
+    },
+    {
+      "file": "ATMUSDT-1d-2022-02.zip",
+      "sha256": "2810fe1e5878596d1ee4afa63002c4da4791bdbffad24cd4928d39a5079cf005"
+    },
+    {
+      "file": "ATMUSDT-1d-2022-03.zip",
+      "sha256": "3bf9bc6c558957b19f5f42ff8407441cdbdeaa5d14483f20dd70bc90d11af19e"
+    },
+    {
+      "file": "ATMUSDT-1d-2022-04.zip",
+      "sha256": "c3670598db5612e444a3c1611b25171ba79c7bdaf499dfb8b89e979f7c5361a4"
+    },
+    {
+      "file": "ATMUSDT-1d-2022-05.zip",
+      "sha256": "1415c8d711a0c0809630bb9ab4328eb414de7615950aebf1146b17d5d5d6540b"
+    },
+    {
+      "file": "ATMUSDT-1d-2022-06.zip",
+      "sha256": "f35b2e3c90cc7d2b20c00278ef3874429933aa1bafc69fa1ddf0814189fca6fd"
+    },
+    {
+      "file": "ATMUSDT-1d-2022-07.zip",
+      "sha256": "ee7afa2cdea432159e948efcbc8b739db72dc08e5ac8bb833cda08e203c80eec"
+    },
+    {
+      "file": "ATMUSDT-1d-2022-08.zip",
+      "sha256": "fc87844acc7878dece843e211305eeab4d57963c7938559018d4833f97e75cc3"
+    },
+    {
+      "file": "ATMUSDT-1d-2022-09.zip",
+      "sha256": "af617a6c3c7f2ba0b02dce9f70ce878678c6749f0d948d3e7654e8edbdf2ef5c"
+    },
+    {
+      "file": "ATMUSDT-1d-2022-10.zip",
+      "sha256": "67b382a81c051c53f9578bfd42c598d5f4384e69289614d51a19cddd190df62f"
+    },
+    {
+      "file": "ATMUSDT-1d-2022-11.zip",
+      "sha256": "deb1b56cfc04e8af00020fa1087d70ddbb2fd0f21888177cc6100eb715bd8fec"
+    },
+    {
+      "file": "ATMUSDT-1d-2022-12.zip",
+      "sha256": "55457995c7a46b38c933c89344b20da746a8a2d1331c32a33b565b316362dfd3"
+    },
+    {
+      "file": "ATMUSDT-1d-2023-01.zip",
+      "sha256": "37d746c4d8b52115fc963c77db51797ba04ceebd452820bbb450c587243effd6"
+    },
+    {
+      "file": "ATMUSDT-1d-2023-02.zip",
+      "sha256": "92549d00935687b4950bc9a26122a30fdf05c2e0a2b19395f911fa8a82b754cf"
+    },
+    {
+      "file": "ATMUSDT-1d-2023-03.zip",
+      "sha256": "4311182aba9c23856e65d8065ee058ffc6214fb9da09abb32b20f0f2cfa88fdd"
+    },
+    {
+      "file": "ATMUSDT-1d-2023-04.zip",
+      "sha256": "efe681451dc69e65048b7619996f7fb0183e9823962429356e724c7c0e9cacfb"
+    },
+    {
+      "file": "ATMUSDT-1d-2023-05.zip",
+      "sha256": "65ad1e4a747a41cd005296d6b0b4d04514c2e313b404c8237cf09454e53ad972"
+    },
+    {
+      "file": "ATMUSDT-1d-2023-06.zip",
+      "sha256": "79bbffb664d2c67669957a7601f752f39b0a5478e7db72bc41f26830a1b0e021"
+    },
+    {
+      "file": "ATMUSDT-1d-2023-07.zip",
+      "sha256": "4e8eecf88e87f713316ebe4f41099217c41534692e16d88d3bb2acef8b47c5e8"
+    },
+    {
+      "file": "ATMUSDT-1d-2023-08.zip",
+      "sha256": "d838272b5b228610c17ec5507d8456d385a8921acbd529fdffc91a1f93bc6f62"
+    },
+    {
+      "file": "ATMUSDT-1d-2023-09.zip",
+      "sha256": "06de0562b5761fa30c12fbfb1103790e84df355188ff9f0f2ca9c4a2f78b82c4"
+    },
+    {
+      "file": "ATMUSDT-1d-2023-10.zip",
+      "sha256": "cc16b36dfe813f41c4cf213a3e59a4b194e1b05128f7abaca60ff06e347e896b"
+    },
+    {
+      "file": "ATMUSDT-1d-2023-11.zip",
+      "sha256": "6f1d38993f88740b1fae7a868f78917030663337001d7e6d6aa7f186f5de3bef"
+    },
+    {
+      "file": "ATMUSDT-1d-2023-12.zip",
+      "sha256": "f5cf6280e32a726098f7f5f6d0411f2fb20b2bfef765d203ed0857c1d3cd1ebf"
+    },
+    {
+      "file": "ATMUSDT-1d-2024-01.zip",
+      "sha256": "c13653a30635792f528b0122d137755629e9e9878881cc92cc36b3a5acb6d38b"
+    },
+    {
+      "file": "ATMUSDT-1d-2024-02.zip",
+      "sha256": "93971d2c7bf5ab08613b2d53b0fff37649f5343efe6469459da8cfe91d92554e"
+    },
+    {
+      "file": "ATMUSDT-1d-2024-03.zip",
+      "sha256": "da95339aa3b627ee1786dcb4f1cc9a9cafb2a6ff901ea5eefa86758402d60194"
+    },
+    {
+      "file": "ATMUSDT-1d-2024-04.zip",
+      "sha256": "43ba87bc4e18e7db1b6dc37a649509370d6f53590023d66b205738725a521580"
+    },
+    {
+      "file": "ATMUSDT-1d-2024-05.zip",
+      "sha256": "8a82ab26413512d3c90f101abbfcc21b10b3b68018380ab7f8f8620c1dca5a3f"
+    },
+    {
+      "file": "ATMUSDT-1d-2024-06.zip",
+      "sha256": "4b7428cac8eff827481f670c200f4f42436b73f8a5c90efc9fbcca7c3fab747f"
+    },
+    {
+      "file": "ATMUSDT-1d-2024-07.zip",
+      "sha256": "55cfe027e8a7fdb621ca60a8bf34c51e7b32e1730995a932bf60ad7e8b10176e"
+    },
+    {
+      "file": "ATMUSDT-1d-2024-08.zip",
+      "sha256": "465f57775852c86066c2e31df6bbfcb2ae688699e7b5d84e1dd5846dc57b4662"
+    },
+    {
+      "file": "ATMUSDT-1d-2024-09.zip",
+      "sha256": "ca200ea479dee42fde8ae5bef9bdfce2e723b654067a2ed03acc7cea35c39b14"
+    },
+    {
+      "file": "ATMUSDT-1d-2024-10.zip",
+      "sha256": "ba3e4341c357a3a685c011084d6ce33e2e51261f976ebaf1cd2914ac94629fa6"
+    },
+    {
+      "file": "ATMUSDT-1d-2024-11.zip",
+      "sha256": "ba8f9f49cb71e4e921b876692854286b1017a67ed829cb4b4a3efc338d35912e"
+    },
+    {
+      "file": "ATMUSDT-1d-2024-12.zip",
+      "sha256": "46c4675d81dcb9daf6e269165d5ab6a618052de8f7ddd01b1940729a2e2337ea"
+    },
+    {
+      "file": "ATMUSDT-1d-2025-01.zip",
+      "sha256": "98d085cd6c7c8b5de28a9cf794ce93264cd8499086602bb07a73288e114979fb"
+    },
+    {
+      "file": "ATMUSDT-1d-2025-02.zip",
+      "sha256": "cb9d5f71566dd56f719200d791a9bebf796e421b6a2a4852b235a57601845af1"
+    },
+    {
+      "file": "ATMUSDT-1d-2025-03.zip",
+      "sha256": "e2a9b2d864dfe0de2550aa3505a363516f073c74a2ae84e35bcc54265c3bd208"
+    },
+    {
+      "file": "ATMUSDT-1d-2025-04.zip",
+      "sha256": "dafb92ca8251dfcb9ebb343a2cd7a88da7678dc7759eec3fd65009b7ab926fe0"
+    },
+    {
+      "file": "ATMUSDT-1d-2025-05.zip",
+      "sha256": "18ce0ac769281399ef81ed2545e353e8039bbb7424a347cc19e6d2bb7aea7e9b"
+    },
+    {
+      "file": "ATMUSDT-1d-2025-06.zip",
+      "sha256": "9cf140223c48bf25780d6726ed00c0fba7e7877c35191d0a0b1c154f3e1274ce"
+    },
+    {
+      "file": "ATMUSDT-1d-2025-07.zip",
+      "sha256": "d54d5fc379be29e5ff16f0e9567ee6b494de67f48c4ad21a0318a98be5e886f4"
+    },
+    {
+      "file": "ATMUSDT-1d-2025-08.zip",
+      "sha256": "a37ac5130da8da1297464d005cee049c76be66e8d050fd885ceb6fb494eb0203"
+    },
+    {
+      "file": "ATMUSDT-1d-2025-09.zip",
+      "sha256": "4796495936c98fba3730839b601f91c93e3e1a36621373cac0deb6df024c1a49"
+    },
+    {
+      "file": "ATMUSDT-1d-2025-10.zip",
+      "sha256": "ed7a0922968a6aef15d99871d9387835413e43adba57c2d450e088d7ddc0c402"
+    },
+    {
+      "file": "ATMUSDT-1d-2025-11.zip",
+      "sha256": "218e682d465955b972fea9dfed4c745960ee05250aa5b53cae1439f50ad1b8bf"
+    },
+    {
+      "file": "ATMUSDT-1d-2025-12.zip",
+      "sha256": "b4b1619fad76af61aaf7517bf1b95f615c7149439b2ddbc7bed49020cff16451"
+    },
+    {
+      "file": "ATMUSDT-1d-2026-01.zip",
+      "sha256": "fc7439d269a72cd970d57da580dd96a39dee190d33580524f13202788227fb87"
+    },
+    {
+      "file": "ATMUSDT-1d-2026-02.zip",
+      "sha256": "1a1c7e1cbc91ebfafd7dbf29d811df836b3d62ff904ed0a1ac31fad271abd8e6"
+    },
+    {
+      "file": "ATMUSDT-1d-2026-03.zip",
+      "sha256": "17c08a7b2139fcea5b8e6dc370554749056d23ef7bf5e8fc1e5aed3e3257c89d"
+    },
+    {
+      "file": "ATMUSDT-1d-2026-04.zip",
+      "sha256": "953acd8cf6f1325d00d05e88969fd451284e0ff76f0b74a2e98b65d8784bc29e"
+    },
+    {
+      "file": "ATMUSDT-1d-2026-05.zip",
+      "sha256": "64583d10bd0960e577d1d3907bdee16324e3a208bfb35da94738a86566e648be"
+    },
+    {
+      "file": "ATMUSDT-1d-2026-06.zip",
+      "sha256": "d6d39d9bbbbfae2c1d05015889742baad684dbb8060fa0efe70893d5da4dab91"
+    },
+    {
+      "file": "ATMUSDT-1d-2026-07.zip",
+      "sha256": "d6ccad49dcfac2283ca67f54ccfb6d4c77f18814a0e61859da6825decd835d39"
+    },
+    {
+      "file": "ATMUSDT-1d-2026-08.zip",
+      "sha256": "14d4559183b46fba2ab6b03adbf3d8bc09bb5bd7cc1063ec18c88b3ef685c367"
+    },
+    {
+      "file": "ATMUSDT-1d-2026-09.zip",
+      "sha256": "75ff5a0e69e4980812cf25800bd80eab190bd74b647aeba345393f5ab39ca1f1"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

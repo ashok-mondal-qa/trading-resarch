@@ -1,0 +1,165 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MEMEUSDT/1d/",
+  "instrument": "MEMEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-11-03",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:18+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1063,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MEMEUSDT-1d-2023-11.zip",
+      "sha256": "bb690dbce1b4c69ef30f965ed23097191a75fa11a19ccd72bf0132000255d916"
+    },
+    {
+      "file": "MEMEUSDT-1d-2023-12.zip",
+      "sha256": "5c8fc17477e021c5721fc76147516fdaed8a44d7fbd35ee218fc53f846e0436c"
+    },
+    {
+      "file": "MEMEUSDT-1d-2024-01.zip",
+      "sha256": "a169b10603058b3c710d72e46b0c442c98aeb21a4c002ee0cb9675cfa12c299b"
+    },
+    {
+      "file": "MEMEUSDT-1d-2024-02.zip",
+      "sha256": "d52947fe00947027786852608960043c65d55fdc0811f998826bc995f43f5044"
+    },
+    {
+      "file": "MEMEUSDT-1d-2024-03.zip",
+      "sha256": "2b3e0b87c437dd08dafbe1972f9bdef79ad02cc56aa5a9a2eb63442163bd7e13"
+    },
+    {
+      "file": "MEMEUSDT-1d-2024-04.zip",
+      "sha256": "2c9fa62314d354ccf3f9e9a140565274489a9800eee5e603a74f0766e8cc86ee"
+    },
+    {
+      "file": "MEMEUSDT-1d-2024-05.zip",
+      "sha256": "26027c18479e0ffd316bad2a72187e9c3a6647293af87852a7850bf8c2785542"
+    },
+    {
+      "file": "MEMEUSDT-1d-2024-06.zip",
+      "sha256": "0d87e975078e33beb635827eab0d14d12689469e02ec7d61c4535c8b384b89d9"
+    },
+    {
+      "file": "MEMEUSDT-1d-2024-07.zip",
+      "sha256": "8f91fff99e58bf970ac93b3d36ab7e12054640fbe110df2e93f526412987efca"
+    },
+    {
+      "file": "MEMEUSDT-1d-2024-08.zip",
+      "sha256": "b36d24a81b7c1f1b4a3e18295b9ca9221c99d75e3be11cbf36ecc5f7ca59e145"
+    },
+    {
+      "file": "MEMEUSDT-1d-2024-09.zip",
+      "sha256": "918b48e31aa499fada79ef4753d6dc8c4aad300062d5e84cab79c4bafd5c20b3"
+    },
+    {
+      "file": "MEMEUSDT-1d-2024-10.zip",
+      "sha256": "78ed5bf9fb2e0cdaafba9a03dc873a1169d3f67cfbf68984168a485278eda6a7"
+    },
+    {
+      "file": "MEMEUSDT-1d-2024-11.zip",
+      "sha256": "38c4b215c1c41dfbf5d0e86a0c5407e93563804ccafe1ea73ec720c3e7e58964"
+    },
+    {
+      "file": "MEMEUSDT-1d-2024-12.zip",
+      "sha256": "cea39b410e24af10a4cec7df759a1aa7856d62173bd4459c7be5bb28392d0e5b"
+    },
+    {
+      "file": "MEMEUSDT-1d-2025-01.zip",
+      "sha256": "494bcdf15e584c0fda8fd44f99d593a728e25f143a79eafc8076dffb392bd331"
+    },
+    {
+      "file": "MEMEUSDT-1d-2025-02.zip",
+      "sha256": "e063d2384d67dae06b132d88fc35bb1b59f0bd8e061226aabe6381dd81b27aa4"
+    },
+    {
+      "file": "MEMEUSDT-1d-2025-03.zip",
+      "sha256": "fc2ebcc136c49660dca97b18dc1f4289bbac2f91c043ac385db714afb5fefaa7"
+    },
+    {
+      "file": "MEMEUSDT-1d-2025-04.zip",
+      "sha256": "40201593790d1aa68368a30319d06dde3a3c8ab01a48fde7f05781c1a32e7c46"
+    },
+    {
+      "file": "MEMEUSDT-1d-2025-05.zip",
+      "sha256": "fc0ac85953d6b704b4b54f9a5130503c10437745eca4c001ebd7e090b76981be"
+    },
+    {
+      "file": "MEMEUSDT-1d-2025-06.zip",
+      "sha256": "0aa56d0981185c0ee4fac987710f265f5f49c4bae6d6c677fbb8d38b558aaf09"
+    },
+    {
+      "file": "MEMEUSDT-1d-2025-07.zip",
+      "sha256": "04ac71a0473d8616c2c2d21289bdf5521493ca02a76710410955839e9c605a12"
+    },
+    {
+      "file": "MEMEUSDT-1d-2025-08.zip",
+      "sha256": "b7f1f60fcfc94242ad0d6140c650943f714d357bf049662240bcafa4691b2a9c"
+    },
+    {
+      "file": "MEMEUSDT-1d-2025-09.zip",
+      "sha256": "55f6ce74e437b0ebd9cee8be98e33f430d6eb1a6a257e9c2b42e4640fbd80c3b"
+    },
+    {
+      "file": "MEMEUSDT-1d-2025-10.zip",
+      "sha256": "136ee1f3cce0eeda103571852e9adb9d0e592842842dd3348360912256d34583"
+    },
+    {
+      "file": "MEMEUSDT-1d-2025-11.zip",
+      "sha256": "3bcfbbb394512055299f2c3b7def096d568711e145aed2c79d96cf3ad7d8ecf1"
+    },
+    {
+      "file": "MEMEUSDT-1d-2025-12.zip",
+      "sha256": "1c3fc85a2af101efecc4fecfc199562f132c2e69309ea3cb302466fd9c0389d9"
+    },
+    {
+      "file": "MEMEUSDT-1d-2026-01.zip",
+      "sha256": "67f2ff7b870c67317127fad37cea2656fc590b24c4dbbe5483dd62f36f8773ff"
+    },
+    {
+      "file": "MEMEUSDT-1d-2026-02.zip",
+      "sha256": "8cb263f7f8a8c90fba31489b06308de1230eebaec3eac5304763f75d804b5a42"
+    },
+    {
+      "file": "MEMEUSDT-1d-2026-03.zip",
+      "sha256": "19821b522430f1415fca3dc0f3070f3c57d685e8fa35e9b53b13547bfabdc6d2"
+    },
+    {
+      "file": "MEMEUSDT-1d-2026-04.zip",
+      "sha256": "a33ac907ea2c07173251d15f06f46e6e99545a5948d0c21992640b6428bb19fc"
+    },
+    {
+      "file": "MEMEUSDT-1d-2026-05.zip",
+      "sha256": "2b6f34c091b92fc77f79d7f2b1a2db73a9273a0d123d0c55ffc3d51fa7d17a4c"
+    },
+    {
+      "file": "MEMEUSDT-1d-2026-06.zip",
+      "sha256": "11e53761dc827f2a03ebf42a864eb0f23dc0ef66c8a9fbf027adf74ce17e12cb"
+    },
+    {
+      "file": "MEMEUSDT-1d-2026-07.zip",
+      "sha256": "39501527295199f9641c30407a49935830736e09bb030ce439af195daf8388bb"
+    },
+    {
+      "file": "MEMEUSDT-1d-2026-08.zip",
+      "sha256": "86593b3b09c81cfbeaf8001b66ae8961f2f595cc837c0fb0717a47ca66775a88"
+    },
+    {
+      "file": "MEMEUSDT-1d-2026-09.zip",
+      "sha256": "d803b0ca81c0026cb45fff60edca2aafe368fca579f09dfee61b2b738f8f1cba"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ERAUSDT/1d/",
+  "instrument": "ERAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-07-17",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:32:21+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 441,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ERAUSDT-1d-2025-07.zip",
+      "sha256": "b0ccedab9cd9a69e7cd8b6e1b4507ace255cba2f9acbdc0f8fd2d0ac15bf7c63"
+    },
+    {
+      "file": "ERAUSDT-1d-2025-08.zip",
+      "sha256": "c5d58e44edd43ee88b44260a7ce954d7b49f5b38d7e52731952ec210635a0c16"
+    },
+    {
+      "file": "ERAUSDT-1d-2025-09.zip",
+      "sha256": "1312fb1dd66eb507aaa88f387ade57157adf07c481d65a7d3108d2c5b9d2d945"
+    },
+    {
+      "file": "ERAUSDT-1d-2025-10.zip",
+      "sha256": "526582ba50dc7ba54dd1676c4f9faf02183a50cd89889ee1de21e7e4ec41b51a"
+    },
+    {
+      "file": "ERAUSDT-1d-2025-11.zip",
+      "sha256": "00dff492348fac08ef369fae2ab0c83a70035cabfb58f2ba68c569c2f901d59f"
+    },
+    {
+      "file": "ERAUSDT-1d-2025-12.zip",
+      "sha256": "f892fe0e5b7ace0acbd9fc97f4d9444c6c2529278992161501e6680ca2d756d7"
+    },
+    {
+      "file": "ERAUSDT-1d-2026-01.zip",
+      "sha256": "e09e4f9765f6e0def33911fd7de1ba4de7768f9cc308c2a648fe38ff2b45cdb5"
+    },
+    {
+      "file": "ERAUSDT-1d-2026-02.zip",
+      "sha256": "b9dad9b810ef5d99cace3ee43e07ea85ba39b09c27d32fd820b03bf9daa45c37"
+    },
+    {
+      "file": "ERAUSDT-1d-2026-03.zip",
+      "sha256": "f86db28ecf480fcbf0a9ede0376f023c6313460a4ef6a216d67db01156df1892"
+    },
+    {
+      "file": "ERAUSDT-1d-2026-04.zip",
+      "sha256": "702fc81660f8e5636089f8b9df63d8d3621527966b0cf6d561c4f0269ce490d6"
+    },
+    {
+      "file": "ERAUSDT-1d-2026-05.zip",
+      "sha256": "3e51db35dae83abf02992ee2884fb16a4d1bc3bfb3096bec5ac5163510bab860"
+    },
+    {
+      "file": "ERAUSDT-1d-2026-06.zip",
+      "sha256": "1590f08e979b4c2772b5cb378bc101aea29d39aa831989990066d64afac42f00"
+    },
+    {
+      "file": "ERAUSDT-1d-2026-07.zip",
+      "sha256": "e765a58ae17b5bf2a4de774edef47b816e35e36aec993345836c7ed55dc9dd7d"
+    },
+    {
+      "file": "ERAUSDT-1d-2026-08.zip",
+      "sha256": "15de9e246bc097a8ba3417ab6b377e0e042d229372f46919c2867160822718d2"
+    },
+    {
+      "file": "ERAUSDT-1d-2026-09.zip",
+      "sha256": "b2b176892da5ed38b880a723fb86f51a5fad5307d241858f8997960cde42752b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

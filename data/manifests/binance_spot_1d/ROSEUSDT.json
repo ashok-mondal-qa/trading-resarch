@@ -1,0 +1,309 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ROSEUSDT/1d/",
+  "instrument": "ROSEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-11-19",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:44:46+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2142,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ROSEUSDT-1d-2020-11.zip",
+      "sha256": "408c823c06cb147e505f31c0d0b5c3b4cba965d51acf8483541160b2263ac94f"
+    },
+    {
+      "file": "ROSEUSDT-1d-2020-12.zip",
+      "sha256": "43af777ecefc3263c9642f5f7a86164c167f7eff7d46be29ce24605e27e6d4fc"
+    },
+    {
+      "file": "ROSEUSDT-1d-2021-01.zip",
+      "sha256": "6c480e94e8e0f00f81a72086dc3d93e0a86caaa8c70bfa507350e6e6d80a1e4c"
+    },
+    {
+      "file": "ROSEUSDT-1d-2021-02.zip",
+      "sha256": "8838fcfe717da0d7dc20321adc9440751087f80f58d2bb77f162882c528659d9"
+    },
+    {
+      "file": "ROSEUSDT-1d-2021-03.zip",
+      "sha256": "09a57a528ed70179bcabe9236d837588a6684549c93e52bba0054836546150fe"
+    },
+    {
+      "file": "ROSEUSDT-1d-2021-04.zip",
+      "sha256": "8ddc85bc38820f012df0f0a3eff0b5809417bf998dc2e57ddd3e84197dfe9295"
+    },
+    {
+      "file": "ROSEUSDT-1d-2021-05.zip",
+      "sha256": "734bdd9b5ecbee0a6da8fad1e6639bced5a8c39e2cdcea339f76434514c6fe98"
+    },
+    {
+      "file": "ROSEUSDT-1d-2021-06.zip",
+      "sha256": "1852d4ee846de2b6c0ce3affca9f9de91874acaa33e2967ad2727a59793e50af"
+    },
+    {
+      "file": "ROSEUSDT-1d-2021-07.zip",
+      "sha256": "04ca89c1af724eaa7c99af893dc26cdcec0469827fbf913ed3a5b50fc180afac"
+    },
+    {
+      "file": "ROSEUSDT-1d-2021-08.zip",
+      "sha256": "a6143fe41986cdad95f2bc1e7a06ebd38c61f1c83cfa664cb09c58004d028ebf"
+    },
+    {
+      "file": "ROSEUSDT-1d-2021-09.zip",
+      "sha256": "0a5ed8dd04ee9e4ba04e052e0396f9fd8d752457a9455d53701f356d9e4057b0"
+    },
+    {
+      "file": "ROSEUSDT-1d-2021-10.zip",
+      "sha256": "8bf8f45f6aa0efc66b23a28b899a664caa9f6ca61e9542b1f57ee8f47ce32c52"
+    },
+    {
+      "file": "ROSEUSDT-1d-2021-11.zip",
+      "sha256": "e5fdef6aebd69e5694dbb1ca440536e019c8a2c6f3f05305ffabd55eeed3149d"
+    },
+    {
+      "file": "ROSEUSDT-1d-2021-12.zip",
+      "sha256": "8ec8f8f39242d4370c86fd261c64c62d84e10b97928d25122a526fae35563cf5"
+    },
+    {
+      "file": "ROSEUSDT-1d-2022-01.zip",
+      "sha256": "bd902a5f4f6444fbab2c8805023ac51626cd626f5eed4d5518f3659220abdd29"
+    },
+    {
+      "file": "ROSEUSDT-1d-2022-02.zip",
+      "sha256": "ccdc3d6d0aee521b5075c3556131bb0a6967f63a7afc57b6e38285f785cbea8c"
+    },
+    {
+      "file": "ROSEUSDT-1d-2022-03.zip",
+      "sha256": "5c9b35b65cd5fc7e826faf8b5782d269978c0da45c6ceaa7b8101502db8615f2"
+    },
+    {
+      "file": "ROSEUSDT-1d-2022-04.zip",
+      "sha256": "2641d040f2c6652cbecd8ee1df3921570fe2138aff7ea32be7faa0fb01a1743f"
+    },
+    {
+      "file": "ROSEUSDT-1d-2022-05.zip",
+      "sha256": "68a0123803665bd597eb3e61e431e99afe50fb3109de68f464c4e5df22c4abc7"
+    },
+    {
+      "file": "ROSEUSDT-1d-2022-06.zip",
+      "sha256": "56d34e60429c9517177dce9e9be9da7e72bcf2a77fc4801b649785e6ea9b24a1"
+    },
+    {
+      "file": "ROSEUSDT-1d-2022-07.zip",
+      "sha256": "479f3e8ffc6f6d04d5e23b5f388e0f2282100461eb45afe22d3bb64573a4ad6c"
+    },
+    {
+      "file": "ROSEUSDT-1d-2022-08.zip",
+      "sha256": "b954a554abac7d95aee5594e456b756000c6be463d998291330a4d0ae6c11829"
+    },
+    {
+      "file": "ROSEUSDT-1d-2022-09.zip",
+      "sha256": "69ea19b330c294255a44b7a6b2ebbcb7d8d96166abc7958fc1be8cdd9a85df8a"
+    },
+    {
+      "file": "ROSEUSDT-1d-2022-10.zip",
+      "sha256": "3d5772544e416a49d8fda9e68ef6f05e47032ff5f494cd279c2b021cbeb712cc"
+    },
+    {
+      "file": "ROSEUSDT-1d-2022-11.zip",
+      "sha256": "6bb475e3d8fdebd837b5ce88f855db921a806045d7ab2dd27a41c5eb2849fc20"
+    },
+    {
+      "file": "ROSEUSDT-1d-2022-12.zip",
+      "sha256": "14703d43ab9df1b7e9b8b0958f329060ea1e2f1e363cf2456b9f19f61b895e6f"
+    },
+    {
+      "file": "ROSEUSDT-1d-2023-01.zip",
+      "sha256": "d0575f9e8edfdd26c3e4946056350718645ba2ee9d53f23a029024f5a91c1b7c"
+    },
+    {
+      "file": "ROSEUSDT-1d-2023-02.zip",
+      "sha256": "223d07a863ff8bbdfdacca0ada2c6d7357fc87f3e29b4c10a24d1b6fcb292712"
+    },
+    {
+      "file": "ROSEUSDT-1d-2023-03.zip",
+      "sha256": "0e2e10da71b80a02cb2e45046fcab047c0af862b1aed717cf188cadc9d86246a"
+    },
+    {
+      "file": "ROSEUSDT-1d-2023-04.zip",
+      "sha256": "4eb52b597cb93b635060c166e45e9b60d7de7f0938a063ca0902152ad730263e"
+    },
+    {
+      "file": "ROSEUSDT-1d-2023-05.zip",
+      "sha256": "fd1265f1de90674ec3f374ef08ae2d7b14c5014d4f39af02e6ad4da7eb98afb9"
+    },
+    {
+      "file": "ROSEUSDT-1d-2023-06.zip",
+      "sha256": "b75dac2b19c80570d359de1ae1442fe98f3884d79b60a54db9f6d5169c87b323"
+    },
+    {
+      "file": "ROSEUSDT-1d-2023-07.zip",
+      "sha256": "d0eaff4a2d254d7c6efb15e28aee08851085407a4e6ea3b4af785b3b1cde1f6b"
+    },
+    {
+      "file": "ROSEUSDT-1d-2023-08.zip",
+      "sha256": "b44c88611f4768eaf786c47d9811d16cc9fa4db4944edfef778f512805e44a02"
+    },
+    {
+      "file": "ROSEUSDT-1d-2023-09.zip",
+      "sha256": "8945af6421a8f69e28fc64a0e71598138609216523005fcd8b1631104c079c77"
+    },
+    {
+      "file": "ROSEUSDT-1d-2023-10.zip",
+      "sha256": "248e4b2beccd16f220bca340b787c679c920c0dd1ff7533433d26c46bbed1e93"
+    },
+    {
+      "file": "ROSEUSDT-1d-2023-11.zip",
+      "sha256": "b73e2d1664ba2653487c35118150a9015404c626162145ebb8ee7ad8256557ad"
+    },
+    {
+      "file": "ROSEUSDT-1d-2023-12.zip",
+      "sha256": "1c805959414743fc095ecf0a52816a07fb15f0c890172e5614b7146105ea31c6"
+    },
+    {
+      "file": "ROSEUSDT-1d-2024-01.zip",
+      "sha256": "8683983337023d78d17322dffea0688d2f69ca5cd7024053159fc6812620bed4"
+    },
+    {
+      "file": "ROSEUSDT-1d-2024-02.zip",
+      "sha256": "0e901c1e6e86f7833bd8f0282a788f963fb85d28bd72bb2e157b668aa2599bb4"
+    },
+    {
+      "file": "ROSEUSDT-1d-2024-03.zip",
+      "sha256": "f7ad44df2c4abbf76470c62cb18ad3afc3b82ce24cc5327d4bdcf1316b972df9"
+    },
+    {
+      "file": "ROSEUSDT-1d-2024-04.zip",
+      "sha256": "1312b45acfbb635a11422d5e9e623a092cfe2c9ec3a049201a5031a854cce7f8"
+    },
+    {
+      "file": "ROSEUSDT-1d-2024-05.zip",
+      "sha256": "747e88db9111e8e1e83dde34c3c12a25e58e095a4071222b2806a60efb38b23e"
+    },
+    {
+      "file": "ROSEUSDT-1d-2024-06.zip",
+      "sha256": "527ea116c304c8d45ae692be8e8ba2c9087930bf500c015e8cb5e014c71786f3"
+    },
+    {
+      "file": "ROSEUSDT-1d-2024-07.zip",
+      "sha256": "972b3f668b4e098cdffcfa775aecefcc9a1c81ee03c99cc1846a5b97fab3c544"
+    },
+    {
+      "file": "ROSEUSDT-1d-2024-08.zip",
+      "sha256": "4455325991fa755c1a7f2547d77745a6b2b251ffb31731ae301488ecb278e88c"
+    },
+    {
+      "file": "ROSEUSDT-1d-2024-09.zip",
+      "sha256": "0774cfe2a48fd48bc7815597a2d9ca525738e62795b5cb7738cecffdd3ed5afc"
+    },
+    {
+      "file": "ROSEUSDT-1d-2024-10.zip",
+      "sha256": "67a26f9b21c0669a24e052bfc9a63b8a853d3216212ee474ad048909de7d7357"
+    },
+    {
+      "file": "ROSEUSDT-1d-2024-11.zip",
+      "sha256": "aa3e66ecd6af3cf9d8ba5c07e79c23c0622798eab2920c4fb52a4976cd63604a"
+    },
+    {
+      "file": "ROSEUSDT-1d-2024-12.zip",
+      "sha256": "2ed2480ba1a766420e4c336bdf597a09408583de5612d24550c16896aec38cf2"
+    },
+    {
+      "file": "ROSEUSDT-1d-2025-01.zip",
+      "sha256": "955d16af74447c99d49debe2622c9c470395686f3a072a9cc17ec9684cebd4e3"
+    },
+    {
+      "file": "ROSEUSDT-1d-2025-02.zip",
+      "sha256": "4fbf4db348067163200a754db196b6e38d85132383060d7d899e3e64d755bb04"
+    },
+    {
+      "file": "ROSEUSDT-1d-2025-03.zip",
+      "sha256": "d691e538583a0ed8087104fcaacda295bf0924ef706ac297e8c4e442c45cf91b"
+    },
+    {
+      "file": "ROSEUSDT-1d-2025-04.zip",
+      "sha256": "452a30b64e90b4f43ab0dece49212d4b558efbe74c7b2dfedbeffbdfc5d0e616"
+    },
+    {
+      "file": "ROSEUSDT-1d-2025-05.zip",
+      "sha256": "3fdca662b0f8b0b6a0393841d453c50c7ffc77d4eac077b4a33c09da3dfd593f"
+    },
+    {
+      "file": "ROSEUSDT-1d-2025-06.zip",
+      "sha256": "c9a2994b5a8b26e2759495586c5f7561e952fcba13e0544e96602cfb76c7ec1d"
+    },
+    {
+      "file": "ROSEUSDT-1d-2025-07.zip",
+      "sha256": "0dd56d1baf0cacd124df6219054d4e79aed40d43924d7fb52a67c7e72512c928"
+    },
+    {
+      "file": "ROSEUSDT-1d-2025-08.zip",
+      "sha256": "10dd2109e92c63ec618da3e8c7bd840f53204ac2fd23bf4e84206c15b1301949"
+    },
+    {
+      "file": "ROSEUSDT-1d-2025-09.zip",
+      "sha256": "54f487d301e09edb0f4cd15ad439aede14d983d6b82347f9874c840bcf52e497"
+    },
+    {
+      "file": "ROSEUSDT-1d-2025-10.zip",
+      "sha256": "e4eb7d2f5094b1a5e3748cea24c50b050d8972129dae8856d3b5bb8f55b2d03f"
+    },
+    {
+      "file": "ROSEUSDT-1d-2025-11.zip",
+      "sha256": "d778c0164223ebbc97d9be0961a6174096f23a38f5c6a516dc9d316945848e46"
+    },
+    {
+      "file": "ROSEUSDT-1d-2025-12.zip",
+      "sha256": "96500d2d6baa18e16258101ce3b3ed8944c7f8646c07ee2a03bd28a945f4c0ed"
+    },
+    {
+      "file": "ROSEUSDT-1d-2026-01.zip",
+      "sha256": "d95fec19505fc75ee3319bb91c8f6a85df273164021d2780af95766130c6a932"
+    },
+    {
+      "file": "ROSEUSDT-1d-2026-02.zip",
+      "sha256": "b29864277702db3c9646e4258c9b9667b9177fb228f0bd3c18f5eea03922072b"
+    },
+    {
+      "file": "ROSEUSDT-1d-2026-03.zip",
+      "sha256": "5e9d4c404e5c609ad45f894e56a7725621dc1a615ef1015bd2756170ac5e3945"
+    },
+    {
+      "file": "ROSEUSDT-1d-2026-04.zip",
+      "sha256": "e696ede2f4f1465c36d6e3c51474d08ed53db752f5eabcc7e69c6d0493d13bb8"
+    },
+    {
+      "file": "ROSEUSDT-1d-2026-05.zip",
+      "sha256": "07d0b272035f268b7df147792adb0614014fc4cbc68e80ea66b21ad36c5c9220"
+    },
+    {
+      "file": "ROSEUSDT-1d-2026-06.zip",
+      "sha256": "f12bc04bb250e54cbedaea48afb2d83665883b2fe47703b3f0d7a9230e75cd88"
+    },
+    {
+      "file": "ROSEUSDT-1d-2026-07.zip",
+      "sha256": "a4c0ebda27f3203e79db31f1de4095ac24d40019e22c628b8c87b1bfb21e374e"
+    },
+    {
+      "file": "ROSEUSDT-1d-2026-08.zip",
+      "sha256": "1caf986c847e362f3d55d078943c763dd5fe9aa6b8599ac64b08353028158163"
+    },
+    {
+      "file": "ROSEUSDT-1d-2026-09.zip",
+      "sha256": "1198caeb4e0ee921eeb94c856ba61158e1b35a1ed5d6717dc5bb8aef35f6259a"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

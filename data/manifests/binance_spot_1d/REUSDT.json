@@ -1,0 +1,41 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/REUSDT/1d/",
+  "instrument": "REUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-06-18",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:43:48+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 105,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "REUSDT-1d-2026-06.zip",
+      "sha256": "ae7587ffe7b3929e93daca94c485035c36bb5967afd606d4f04eea9d5f7bd315"
+    },
+    {
+      "file": "REUSDT-1d-2026-07.zip",
+      "sha256": "0954625c968a51a7c26ec9a2eea9bb6f45958478958dd9bb2f28975d6aa70039"
+    },
+    {
+      "file": "REUSDT-1d-2026-08.zip",
+      "sha256": "c1a80607ccdcfdd5747f555f001412093d765a87b6f3d0250a416360d196b4fb"
+    },
+    {
+      "file": "REUSDT-1d-2026-09.zip",
+      "sha256": "6c0f22cd2112c7245181f4784eb638b8f6269e1a984e3cebdb952ac11b792718"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

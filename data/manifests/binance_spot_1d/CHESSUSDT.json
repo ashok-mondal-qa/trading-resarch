@@ -1,0 +1,237 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/CHESSUSDT/1d/",
+  "instrument": "CHESSUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-10-22",
+  "last_bar": "2026-02-13",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:29:44+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1576,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "CHESSUSDT-1d-2021-10.zip",
+      "sha256": "4cffd39b48227612b6a71969130fe484dfb6b0179accb4eb2c39195b33f5296c"
+    },
+    {
+      "file": "CHESSUSDT-1d-2021-11.zip",
+      "sha256": "82d3e8dbea62161a9443fae8676f57b45553700a1f4da36855cc138e86025982"
+    },
+    {
+      "file": "CHESSUSDT-1d-2021-12.zip",
+      "sha256": "2828aeea8a5b6fc752ca94053cdf15df2b0a85379564bd5b746a7658b2c3ee3e"
+    },
+    {
+      "file": "CHESSUSDT-1d-2022-01.zip",
+      "sha256": "5fa70a1dba6d642a20fec3a997171d9a5a84883cf35d9cf77fd8c1d233335ab2"
+    },
+    {
+      "file": "CHESSUSDT-1d-2022-02.zip",
+      "sha256": "5ce833a35481d6b45d479cddf4f900219ed9f69d386e9e12ce75741512cd5589"
+    },
+    {
+      "file": "CHESSUSDT-1d-2022-03.zip",
+      "sha256": "515e68ee9cad93b9fc381adbd867790c679bead8e212072460835ddf77c76677"
+    },
+    {
+      "file": "CHESSUSDT-1d-2022-04.zip",
+      "sha256": "0474636bd462c26b9ef22c3b3572d6a2e3ffd9373386c0a6a55a922adf9165ea"
+    },
+    {
+      "file": "CHESSUSDT-1d-2022-05.zip",
+      "sha256": "01d9ebc248c9ae190022b2c0354d03f61fe67d54fdb71acdffd07a2cc5b1fc53"
+    },
+    {
+      "file": "CHESSUSDT-1d-2022-06.zip",
+      "sha256": "0b6eeaf8972869f1932e35ee82de97ddad6edd801ee6c853612b0a02b55b97de"
+    },
+    {
+      "file": "CHESSUSDT-1d-2022-07.zip",
+      "sha256": "8810b55e5bbae39865d9fc3106d5b92785ce1bb8fbb801b284f2772072ec0d5d"
+    },
+    {
+      "file": "CHESSUSDT-1d-2022-08.zip",
+      "sha256": "0eaf253334ca24e690f9c8320b62f9e8c8948b1152605d879026a26ea7763356"
+    },
+    {
+      "file": "CHESSUSDT-1d-2022-09.zip",
+      "sha256": "7ba643a510b9a02f0b87d6579fa8e69783d0d1a50270b83fbcd02cc885052c4a"
+    },
+    {
+      "file": "CHESSUSDT-1d-2022-10.zip",
+      "sha256": "1062d38b3b6b95f94e7622f8a74cccf72541a5224479046b9413116189d80071"
+    },
+    {
+      "file": "CHESSUSDT-1d-2022-11.zip",
+      "sha256": "8cc3f4292b7e74a4a7d99fff4f2ce1c6598a00d1fef56b825bea29138d24bcd8"
+    },
+    {
+      "file": "CHESSUSDT-1d-2022-12.zip",
+      "sha256": "76acbd6309da650a8a8d2af03ae273bcf0db83360d3c9d636939f9aaf9e8a09c"
+    },
+    {
+      "file": "CHESSUSDT-1d-2023-01.zip",
+      "sha256": "4aceb1e166313d1d1626f362be0853017248d79704083f92b69b81feebc2c707"
+    },
+    {
+      "file": "CHESSUSDT-1d-2023-02.zip",
+      "sha256": "153f6f7c315a485aaf82b0f9cb6c07572f11519d2e4626ac3129c0fa1bdf0e04"
+    },
+    {
+      "file": "CHESSUSDT-1d-2023-03.zip",
+      "sha256": "f10f2dcc2ae2b4ac54ee837e67cfef20450ec65e46a3d0548f0d4afb71a430ba"
+    },
+    {
+      "file": "CHESSUSDT-1d-2023-04.zip",
+      "sha256": "d6b597b3408d703704caa4f947dc8da0faaa840e7ddb09ef29297508f96f0bef"
+    },
+    {
+      "file": "CHESSUSDT-1d-2023-05.zip",
+      "sha256": "3b81894159afacbe6288f394c86bca5a2ca5eef35b856288fda776a176ac5c60"
+    },
+    {
+      "file": "CHESSUSDT-1d-2023-06.zip",
+      "sha256": "55fcc1f6947929555074feb4b29c8906d6b74a4bce4b6f2dc7f09379ad6538ab"
+    },
+    {
+      "file": "CHESSUSDT-1d-2023-07.zip",
+      "sha256": "a9b1c42362878c1de03957fc95d617c51a915dad0abbccad383f0b63f8e3b6fc"
+    },
+    {
+      "file": "CHESSUSDT-1d-2023-08.zip",
+      "sha256": "eadd2d8d53151a2e788cf89fe8a7b275ed7dffa59a521f7cc2b5554fda3eb44e"
+    },
+    {
+      "file": "CHESSUSDT-1d-2023-09.zip",
+      "sha256": "afaa466e39a9ab9cb26c546ed03f3a9cb4f98930b591fe7918f4df84923ca3d5"
+    },
+    {
+      "file": "CHESSUSDT-1d-2023-10.zip",
+      "sha256": "7001495100a10fa55fae45c5f5fca43afb79b94c589aec4de1f48833052df902"
+    },
+    {
+      "file": "CHESSUSDT-1d-2023-11.zip",
+      "sha256": "a1286b3c7866cbf6cdc75628bf4514acec26800ec7fbd38e3cb1db859dc39820"
+    },
+    {
+      "file": "CHESSUSDT-1d-2023-12.zip",
+      "sha256": "b092acf64b8ac1d7fa019374f94b44ed17df6c0e7320b599ee79501cb311d65c"
+    },
+    {
+      "file": "CHESSUSDT-1d-2024-01.zip",
+      "sha256": "ed74a0419392b70f4e20b81ff6976bb5116e7610779a630436fe51c8189b447f"
+    },
+    {
+      "file": "CHESSUSDT-1d-2024-02.zip",
+      "sha256": "62528a478bcdbc3223c26ee90c204c736e4e9977a944ad62fd0f58a082038d3c"
+    },
+    {
+      "file": "CHESSUSDT-1d-2024-03.zip",
+      "sha256": "4451eb0511ebd5139e45e704ebf5748fcbe9e0b454b2f7beb0a877695da67618"
+    },
+    {
+      "file": "CHESSUSDT-1d-2024-04.zip",
+      "sha256": "7c289e46750d0483435f75b3cb0b132e4f90bcf32e2311f10afb48208f3eb2c3"
+    },
+    {
+      "file": "CHESSUSDT-1d-2024-05.zip",
+      "sha256": "b15ce978cf7926f0cca65bb65f71bef58e17a3745d336d757ce70a38eb3fc349"
+    },
+    {
+      "file": "CHESSUSDT-1d-2024-06.zip",
+      "sha256": "e8d653b4156674befd7e3c3b6efef9bff5e048e9292ab21e1ed6088a38999af7"
+    },
+    {
+      "file": "CHESSUSDT-1d-2024-07.zip",
+      "sha256": "47857e5a613e56082ff1dac065501b82b1589678511a52ba26162673deb85aa9"
+    },
+    {
+      "file": "CHESSUSDT-1d-2024-08.zip",
+      "sha256": "2ce987490abbc91cffa5d8daa850925cc99895a8534c9ba658d105ee7a755e77"
+    },
+    {
+      "file": "CHESSUSDT-1d-2024-09.zip",
+      "sha256": "9f933877cc9a588832006f9804c301768e2c82902956b3ba471caafeb35b7fd7"
+    },
+    {
+      "file": "CHESSUSDT-1d-2024-10.zip",
+      "sha256": "b9caa9b66aa6d13abd36d865ea828912fcfec8dcce1695849473f07c9561c436"
+    },
+    {
+      "file": "CHESSUSDT-1d-2024-11.zip",
+      "sha256": "b6be44433ef62d5fd7714659a2f4421f2b213e06be2f1eab30dab5e53f3c1c56"
+    },
+    {
+      "file": "CHESSUSDT-1d-2024-12.zip",
+      "sha256": "5c0423f17cbc1ee6c0890f4a92e777087009b776ac3b9bf9846778efe07ccb4f"
+    },
+    {
+      "file": "CHESSUSDT-1d-2025-01.zip",
+      "sha256": "3dfbff923c64522c8e46de8d9363b17a9612bd085ae59576d80d7b8764a5d0ae"
+    },
+    {
+      "file": "CHESSUSDT-1d-2025-02.zip",
+      "sha256": "a57f5b095c7cd7694af2da3d75e4567d6697921c9bb9ea9c6f061a50bdb4304f"
+    },
+    {
+      "file": "CHESSUSDT-1d-2025-03.zip",
+      "sha256": "1bb2899f24a564a332e82d0194b151115a4bf503caf6916722ceae307518ebc6"
+    },
+    {
+      "file": "CHESSUSDT-1d-2025-04.zip",
+      "sha256": "f52cc9b3465b7b9df4f0753478a5a1a2bf591875dcf8c3d5ee1105bc6d4bb400"
+    },
+    {
+      "file": "CHESSUSDT-1d-2025-05.zip",
+      "sha256": "6cddebaacd5fc2cfb7dbf3a1435583f8e4ee72eec90195a184cc35d70f5b6f2c"
+    },
+    {
+      "file": "CHESSUSDT-1d-2025-06.zip",
+      "sha256": "12bfdfe78eb31d07e0b5ff08ec3fd2bdda5468c1acbe707ab726c1ae5f5281f9"
+    },
+    {
+      "file": "CHESSUSDT-1d-2025-07.zip",
+      "sha256": "ffb97796184e0b0b085aa05fbf021e515fd7fcec060f9d3c1a57f8b5f2baaded"
+    },
+    {
+      "file": "CHESSUSDT-1d-2025-08.zip",
+      "sha256": "c8c6fbcbbcc22f10a7ac4218d61723f769131f8bd4c6afbfcc61ec6132ecedd0"
+    },
+    {
+      "file": "CHESSUSDT-1d-2025-09.zip",
+      "sha256": "e1f093f65483edd281de9c9c3bd263036c5eeb1588aef40501fc403b11f7ce4d"
+    },
+    {
+      "file": "CHESSUSDT-1d-2025-10.zip",
+      "sha256": "362fabc751d20e7039a32dbd38e9f4acdf1de96f1e382381ab545047a058c930"
+    },
+    {
+      "file": "CHESSUSDT-1d-2025-11.zip",
+      "sha256": "97dcaa964a49e134243dc129c60dbd972e6ca7d2d3e377ffb071579a18e00678"
+    },
+    {
+      "file": "CHESSUSDT-1d-2025-12.zip",
+      "sha256": "b755418556ba53646e5cc51064ab8a4330a03ab74f029b7019c09932a1325be9"
+    },
+    {
+      "file": "CHESSUSDT-1d-2026-01.zip",
+      "sha256": "2d487e10e1e7a16e747912ed15bd5bf973f180500873dde25674a67f8bd7ef06"
+    },
+    {
+      "file": "CHESSUSDT-1d-2026-02.zip",
+      "sha256": "3074e31e383b0c1a9d2d51d182dc68200805389d1fa762745b862636d1bd026e"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

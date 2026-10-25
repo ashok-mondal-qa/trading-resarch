@@ -1,0 +1,41 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ANYUSDT/1d/",
+  "instrument": "ANYUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-12-04",
+  "last_bar": "2022-03-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:25:33+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 117,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ANYUSDT-1d-2021-12.zip",
+      "sha256": "4b8eaf75fd83113f2c4af92e0ee1b6a6b7088b67512db2bc9fe82c64a4e0c7eb"
+    },
+    {
+      "file": "ANYUSDT-1d-2022-01.zip",
+      "sha256": "58dbb5f7d2253b0628489c4722a2b2c55f448a970e079e32a48fa4cbc2240c89"
+    },
+    {
+      "file": "ANYUSDT-1d-2022-02.zip",
+      "sha256": "ee186f61c87300d3ec7cc5c5889e6ae31c69539a2cf0d923c668089517a13b71"
+    },
+    {
+      "file": "ANYUSDT-1d-2022-03.zip",
+      "sha256": "db6632aeb343d4ece4064859ffa8dd1b0a9faefc40c5bfecfc012f03912af044"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PENGUUSDT/1d/",
+  "instrument": "PENGUUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-12-17",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:41:48+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 653,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PENGUUSDT-1d-2024-12.zip",
+      "sha256": "2c3ef1d38c9d6a2c9b319798f1ffc45c13c96b9b0eac56c0e79f73f38c66c4f7"
+    },
+    {
+      "file": "PENGUUSDT-1d-2025-01.zip",
+      "sha256": "80f28380efad76e9efefba62e3ead3457c03c67d6c303e87d4a328a68a3b7216"
+    },
+    {
+      "file": "PENGUUSDT-1d-2025-02.zip",
+      "sha256": "c91b0226e22f624d4f132844b08dea3869093fdff05c30c1b5bd8ed19aa63e2f"
+    },
+    {
+      "file": "PENGUUSDT-1d-2025-03.zip",
+      "sha256": "ddf208c2b29256384d45ced863aa36d4128d0494261d261e379f682e90af095a"
+    },
+    {
+      "file": "PENGUUSDT-1d-2025-04.zip",
+      "sha256": "34076554efdc1aeeddf43a7ea2e6fbac78b9ca4c4698bf088092653524014602"
+    },
+    {
+      "file": "PENGUUSDT-1d-2025-05.zip",
+      "sha256": "64dbdab9d60e7752292b2bc2f18378955a672ead3f56815d97e7d3eff5a9d35b"
+    },
+    {
+      "file": "PENGUUSDT-1d-2025-06.zip",
+      "sha256": "c60899ad77076fc0ab3d5c30c2eb2c894588f77be79c68703097b37b738aee19"
+    },
+    {
+      "file": "PENGUUSDT-1d-2025-07.zip",
+      "sha256": "b3a1a9e537550a40a725f4ef47fabdbdedc49cdb8131fea2604450665b296fb2"
+    },
+    {
+      "file": "PENGUUSDT-1d-2025-08.zip",
+      "sha256": "abede40cb2da48835d608f011ba7cccac3cfdc79e5fd1b95818c36ef2db455ed"
+    },
+    {
+      "file": "PENGUUSDT-1d-2025-09.zip",
+      "sha256": "e07c467ef89036440f392f099151b22345eb8350183d689bb12797da5c2e65a7"
+    },
+    {
+      "file": "PENGUUSDT-1d-2025-10.zip",
+      "sha256": "a56af80f2c861f1c953ab07630731f2ae4f04a83ce4b8592593dd7b6bad074f2"
+    },
+    {
+      "file": "PENGUUSDT-1d-2025-11.zip",
+      "sha256": "b21230f121019089e19c536638af988f7619abb564256342f175676ea34fe624"
+    },
+    {
+      "file": "PENGUUSDT-1d-2025-12.zip",
+      "sha256": "0e21f8357ad32a882baced2e59f06ffd97420e19bfccde4496dd78388e47e3ea"
+    },
+    {
+      "file": "PENGUUSDT-1d-2026-01.zip",
+      "sha256": "88b319fb3568dd6dd0965b0d8453aab7964908b62705e379396c32e407e1bbc5"
+    },
+    {
+      "file": "PENGUUSDT-1d-2026-02.zip",
+      "sha256": "79ef1f8c0d9e3e1793ebaf6f9b0c4b1ba551478cade075d024845a461e492f9b"
+    },
+    {
+      "file": "PENGUUSDT-1d-2026-03.zip",
+      "sha256": "b3bd6879a53fe7ea5b4422f3227d7b7297817c7de97c747f84f58545bffdec0f"
+    },
+    {
+      "file": "PENGUUSDT-1d-2026-04.zip",
+      "sha256": "fc7187c1833d523f93d61abc37ccffa3ea245621c59b2a2c8fe5ccf7033bf78a"
+    },
+    {
+      "file": "PENGUUSDT-1d-2026-05.zip",
+      "sha256": "a3db750656cb732d0200c80984aaf50947e73b7c269f3c066685a044717b6064"
+    },
+    {
+      "file": "PENGUUSDT-1d-2026-06.zip",
+      "sha256": "e3a81f0c472557ef23c9e225cfd91a33f072bbab4d7879ad502fac993435acca"
+    },
+    {
+      "file": "PENGUUSDT-1d-2026-07.zip",
+      "sha256": "d332e5a00121039321699aba378a6a60ef0887d92d026500c275161d5f9d0493"
+    },
+    {
+      "file": "PENGUUSDT-1d-2026-08.zip",
+      "sha256": "a06f84e4e2ac1bc2a602fbfbe7875bbb1051031eb78a9e6dbe89f8f8f3d4883d"
+    },
+    {
+      "file": "PENGUUSDT-1d-2026-09.zip",
+      "sha256": "0ec7bdf6dc41437638c347bd4d7c16d62bd2dc8c656e3ec47f18df41979e25fa"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

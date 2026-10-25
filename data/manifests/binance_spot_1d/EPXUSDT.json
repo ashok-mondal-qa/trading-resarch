@@ -1,0 +1,137 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/EPXUSDT/1d/",
+  "instrument": "EPXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-05-23",
+  "last_bar": "2024-08-26",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:32:32+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 827,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "EPXUSDT-1d-2022-05.zip",
+      "sha256": "ecb8badc51dde0a380cde54e4863a74be7cf73834467b06e8a0362457ea9744b"
+    },
+    {
+      "file": "EPXUSDT-1d-2022-06.zip",
+      "sha256": "ad6201da0c6192617257d0b87d36fbee2632feb1f2d9dfbe893256db8c22f993"
+    },
+    {
+      "file": "EPXUSDT-1d-2022-07.zip",
+      "sha256": "3594cb61cc0d67abbbf1f72b2ea967d0f52e10eb1357ea2fe9901560858dd12c"
+    },
+    {
+      "file": "EPXUSDT-1d-2022-08.zip",
+      "sha256": "3a4ea00da03f2d70496ff94de6eca4567c999d7fe4ef29764faf6c8b3920e18e"
+    },
+    {
+      "file": "EPXUSDT-1d-2022-09.zip",
+      "sha256": "3f883c5db6a98f5ec587f8a7340051b9d12e53235014161349b6d3479bbb8724"
+    },
+    {
+      "file": "EPXUSDT-1d-2022-10.zip",
+      "sha256": "ae08a30f8cc35e12b24a4cc90646c6909260d8bd1afa109fbcd0202f1d4fea97"
+    },
+    {
+      "file": "EPXUSDT-1d-2022-11.zip",
+      "sha256": "9eef657aa33d1d8bb15031345622dd31a65adab2176bf23371ec0f50984f4798"
+    },
+    {
+      "file": "EPXUSDT-1d-2022-12.zip",
+      "sha256": "6d966169c0ed6faf1e8ea878556b201e445469a40d552bd541e9b0eb39b2209e"
+    },
+    {
+      "file": "EPXUSDT-1d-2023-01.zip",
+      "sha256": "8c57a9a156b50ed83360b94465644436dfb7a4bf1252c994cf063b8cb81540a4"
+    },
+    {
+      "file": "EPXUSDT-1d-2023-02.zip",
+      "sha256": "df1413a2285578a82394f1e23e5fdaf551546968b95aeaa1a355d565f75702cd"
+    },
+    {
+      "file": "EPXUSDT-1d-2023-03.zip",
+      "sha256": "5be8d7a63f0142b05f2bbca48a939a12aa970ae5fa2fcdad55de0ec397a17e8f"
+    },
+    {
+      "file": "EPXUSDT-1d-2023-04.zip",
+      "sha256": "4ab86d29c4062d4a2aef4c8720fe980eab097c8a95a3d577caacf06e1a79b3c5"
+    },
+    {
+      "file": "EPXUSDT-1d-2023-05.zip",
+      "sha256": "b4c8057d6ab61cf8470df4c20f4c82b1c977ab9835c0185a5f9b10ca2ab2ec72"
+    },
+    {
+      "file": "EPXUSDT-1d-2023-06.zip",
+      "sha256": "e93cdeb230e73fabf6dc131ea756f6b5ee916dcfd5b0c34c65d724503dd54483"
+    },
+    {
+      "file": "EPXUSDT-1d-2023-07.zip",
+      "sha256": "0400d8943f8c2f1116fe177f61021b20979c45ff6c1c3f659a0ebb908d2f03b0"
+    },
+    {
+      "file": "EPXUSDT-1d-2023-08.zip",
+      "sha256": "f4b20368b82294d7dd8a70b9ae1b8faeb2e44f54c79133ea534fbc1be80a2ae5"
+    },
+    {
+      "file": "EPXUSDT-1d-2023-09.zip",
+      "sha256": "0c59da1103739b09b1de3698fb12f1a64f5518ccc1b7adebc5582db8e33e190a"
+    },
+    {
+      "file": "EPXUSDT-1d-2023-10.zip",
+      "sha256": "938332d353c1c79dc723383ef2f5d4b9d4903058ccf74de27d2bf4c91fec4a71"
+    },
+    {
+      "file": "EPXUSDT-1d-2023-11.zip",
+      "sha256": "acff382afc9e4558a3bf904ca5135203c675b7898a3f0f8b7477c15c8fcec786"
+    },
+    {
+      "file": "EPXUSDT-1d-2023-12.zip",
+      "sha256": "28b2171409dfee41130e981ddbc4e9e4d688ef32e5f8aa40aac76b19ee67f830"
+    },
+    {
+      "file": "EPXUSDT-1d-2024-01.zip",
+      "sha256": "c53012c417a648247b00a6db199d8751789e132bb0934e856fa34a51d6a18015"
+    },
+    {
+      "file": "EPXUSDT-1d-2024-02.zip",
+      "sha256": "ec0226184e97314c85de2b87dd966f63a4efe0e74c16069db5b103933bf19f7f"
+    },
+    {
+      "file": "EPXUSDT-1d-2024-03.zip",
+      "sha256": "773aba3c138662b55ffdf891ff9b88717a5234f95fe6c53889b91abd08d83992"
+    },
+    {
+      "file": "EPXUSDT-1d-2024-04.zip",
+      "sha256": "23ee13f6843946772a17550262f967d21281d13a634c3912127f6e5514ddf8f0"
+    },
+    {
+      "file": "EPXUSDT-1d-2024-05.zip",
+      "sha256": "7cafc3512820e72654af86e8e6a1d27446d8b50748894c4e94b34c8c9068fad3"
+    },
+    {
+      "file": "EPXUSDT-1d-2024-06.zip",
+      "sha256": "62a9eedffce212a0f7c1ba8e8b4418395b6c52619786cb1e6af9d02ed4a2e5d6"
+    },
+    {
+      "file": "EPXUSDT-1d-2024-07.zip",
+      "sha256": "be966c6f5f4dc54ac352eee5cc224768fb0f36f47d2f7cdc29b71513ff06a0c3"
+    },
+    {
+      "file": "EPXUSDT-1d-2024-08.zip",
+      "sha256": "ff3c0325ff1689707ac3df43d78f7151cd424aa7ff710c66070c5bc7d75471c2"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

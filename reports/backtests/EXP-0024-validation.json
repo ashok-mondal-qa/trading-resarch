@@ -1,0 +1,171 @@
+{
+  "experiment": "EXP-0024",
+  "strategy": "turtle55",
+  "spec_version": "0.1",
+  "split": "validation",
+  "range": [
+    "2024-01-01",
+    "2024-12-31"
+  ],
+  "market": "Binance spot USDT pairs",
+  "max_holding_bars": 252,
+  "generated_at_utc": "2026-10-25T05:18:19+00:00",
+  "universe": {
+    "pairs": 674,
+    "instruments": 436,
+    "delisted_pieces": 95,
+    "short_pieces_or_empty": 249
+  },
+  "costs": {
+    "verified": false,
+    "source_note": "Binance spot base fee 0.10% + 18% GST; unverified",
+    "brokerage_pct": 0.1,
+    "brokerage_cap_inr": 0.0,
+    "stt_pct_buy": 0.0,
+    "stt_pct_sell": 0.0,
+    "exchange_txn_pct": 0.0,
+    "sebi_fee_pct": 0.0,
+    "stamp_duty_pct_buy": 0.0,
+    "gst_pct": 18.0,
+    "dp_charge_inr_per_sell": 0.0
+  },
+  "regime_days": {
+    "up": 229,
+    "range": 84,
+    "down": 53
+  },
+  "benchmark_btc_return": 1.118084045672715,
+  "benchmark_btc": {
+    "cagr": 1.1137451970237349,
+    "ann_vol": 0.529805163421545,
+    "sharpe_rf0": 1.6796834699746819,
+    "max_drawdown": -0.261513750538678,
+    "years": 1.0027397260273974
+  },
+  "runs": {
+    "portfolio_1x": {
+      "trades": 15,
+      "open_at_end": 1,
+      "net_return": 0.13271451532982725,
+      "max_drawdown": -0.07062611338959368,
+      "win_rate": 0.4666666666666667,
+      "expectancy_inr": 6911379.270755078,
+      "expectancy_r": 1.3564175910484073,
+      "expectancy_r_ci95": [
+        -0.16998272404119907,
+        3.1240169187035134
+      ],
+      "profit_factor": 3.5732308641338713,
+      "avg_win_inr": 20565547.217213653,
+      "avg_loss_inr": -5036017.682396176,
+      "avg_sessions": 32.0,
+      "total_costs_inr": 2744600.3666933817,
+      "worst_r": -0.9892386417546252,
+      "exit_reasons": {
+        "stop": 8,
+        "exit signal": 7
+      },
+      "inconclusive_lt_30_trades": true,
+      "cagr": 0.13232891032450178,
+      "ann_vol": 0.10555146267575784,
+      "sharpe_rf0": 1.2335220937662756,
+      "years": 1.0027397260273974,
+      "signals_after_regime_gate": 111,
+      "entries_skipped": {
+        "aggregate cap: no room for a full position": 12
+      }
+    },
+    "standalone_1x": {
+      "trades": 33,
+      "open_at_end": 4,
+      "expectancy_r": 0.7544752122141412,
+      "median_r": -0.9884171539296069,
+      "win_rate": 0.30303030303030304,
+      "profit_factor": 2.095319872165778,
+      "expectancy_r_ci95_month_clustered": [
+        -0.9084694502003792,
+        2.5203017072548386
+      ],
+      "expectancy_r_ci99.2_month_clustered": [
+        -0.9884764362835747,
+        3.026553745730405
+      ],
+      "entry_months": 6,
+      "avg_sessions": 22.060606060606062,
+      "worst_r": -0.9904039213703476,
+      "by_year": {
+        "2024": {
+          "trades": 33,
+          "expectancy_r": 0.7544752122141412
+        }
+      },
+      "exit_reasons": {
+        "stop": 23,
+        "exit signal": 10
+      },
+      "expectancy_r_all_incl_open": 1.5749534137775902
+    },
+    "portfolio_2x_costs": {
+      "trades": 15,
+      "open_at_end": 1,
+      "net_return": 0.11772035609932274,
+      "max_drawdown": -0.06769960325261193,
+      "win_rate": 0.4666666666666667,
+      "expectancy_inr": 6084906.791445734,
+      "expectancy_r": 1.1993585804509055,
+      "expectancy_r_ci95": [
+        -0.222609782222373,
+        2.8462755836712126
+      ],
+      "profit_factor": 3.304381206264369,
+      "avg_win_inr": 18697475.290792067,
+      "avg_loss_inr": -4951090.645482307,
+      "avg_sessions": 32.0,
+      "total_costs_inr": 5770124.43282257,
+      "worst_r": -0.9797037439504492,
+      "exit_reasons": {
+        "stop": 8,
+        "exit signal": 7
+      },
+      "inconclusive_lt_30_trades": true,
+      "cagr": 0.11738053766817336,
+      "ann_vol": 0.09885266325621361,
+      "sharpe_rf0": 1.1753486853294717,
+      "years": 1.0027397260273974,
+      "signals_after_regime_gate": 111,
+      "entries_skipped": {
+        "aggregate cap: no room for a full position": 12
+      }
+    },
+    "standalone_2x_costs": {
+      "trades": 33,
+      "open_at_end": 4,
+      "expectancy_r": 0.6475656462125944,
+      "median_r": -0.9782564663667405,
+      "win_rate": 0.30303030303030304,
+      "profit_factor": 1.949869006362295,
+      "expectancy_r_ci95_month_clustered": [
+        -0.903345317936155,
+        2.281543632293264
+      ],
+      "expectancy_r_ci99.2_month_clustered": [
+        -0.9784217305710858,
+        2.7527318118462185
+      ],
+      "entry_months": 6,
+      "avg_sessions": 22.060606060606062,
+      "worst_r": -0.981780221491583,
+      "by_year": {
+        "2024": {
+          "trades": 33,
+          "expectancy_r": 0.6475656462125944
+        }
+      },
+      "exit_reasons": {
+        "stop": 23,
+        "exit signal": 10
+      },
+      "expectancy_r_all_incl_open": 1.3874092083208702
+    }
+  }
+}

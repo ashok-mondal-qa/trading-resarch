@@ -1,0 +1,253 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BALUSDT/1d/",
+  "instrument": "BALUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-08-11",
+  "last_bar": "2025-04-16",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:27:38+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1710,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BALUSDT-1d-2020-08.zip",
+      "sha256": "846be8771aee2c9bdb13ee51bcf6c654bf42b122a6a78a3448e2e77a9f31c687"
+    },
+    {
+      "file": "BALUSDT-1d-2020-09.zip",
+      "sha256": "d307068a55e00e21b56f9790885e972b4bbe1524fc4b875c3ef64aa9f503dd65"
+    },
+    {
+      "file": "BALUSDT-1d-2020-10.zip",
+      "sha256": "34e802ee6047aeaac06ae846640d0a74beb9701ca051019f0d33a1bad01b8739"
+    },
+    {
+      "file": "BALUSDT-1d-2020-11.zip",
+      "sha256": "84d4d413c644be6c7615c18230bbca7d2231975be060bc0aa53cc88c7eb1833b"
+    },
+    {
+      "file": "BALUSDT-1d-2020-12.zip",
+      "sha256": "86dfe175003573506ca45de7b1ea51a2397ad76fbbb9a86375940562f8de9ae4"
+    },
+    {
+      "file": "BALUSDT-1d-2021-01.zip",
+      "sha256": "cc5c216caf717426c3ac0c1e43ee229dc795bbf95c0607b8ae391413b878157a"
+    },
+    {
+      "file": "BALUSDT-1d-2021-02.zip",
+      "sha256": "a67dfa95c12c3168f9388125ff7ea486af7dc112025500a454b4db14f5a7dfba"
+    },
+    {
+      "file": "BALUSDT-1d-2021-03.zip",
+      "sha256": "cc8bdb60ce58d696ae69269cba15b70a7740e07ea178ec9686a52d8532db016a"
+    },
+    {
+      "file": "BALUSDT-1d-2021-04.zip",
+      "sha256": "f63a8612b1ff592965205ba16cbe9c66a9cb7fcb41bbcc311bc63969102e37e0"
+    },
+    {
+      "file": "BALUSDT-1d-2021-05.zip",
+      "sha256": "2f3e3612ece54c2203f54e59349db0d515b373f17560402877e868df6879951f"
+    },
+    {
+      "file": "BALUSDT-1d-2021-06.zip",
+      "sha256": "541a3d4476dae72c83448b7cc246879e8229e9f099707e497859e43dcaae4e86"
+    },
+    {
+      "file": "BALUSDT-1d-2021-07.zip",
+      "sha256": "58a8e6c792b4f44eeec3778cc800fce867c330d6fa39fc9b266e1f07b746881c"
+    },
+    {
+      "file": "BALUSDT-1d-2021-08.zip",
+      "sha256": "af61252b7dc973b1c9d79099e2a40b45318f7488a07a9707ad17ef95b587a767"
+    },
+    {
+      "file": "BALUSDT-1d-2021-09.zip",
+      "sha256": "35dd55fef2bb87ff48463bab602649d5ef75f14a192093eba7955f0a261dcb26"
+    },
+    {
+      "file": "BALUSDT-1d-2021-10.zip",
+      "sha256": "df89000ad3784cc3420dfb0252714f4904ef41723cc8f4ddc9737f371f38bb63"
+    },
+    {
+      "file": "BALUSDT-1d-2021-11.zip",
+      "sha256": "10c1c5e227ddada40350b473cc7f6093dac0fe34f5e9f137dcb912521c425e20"
+    },
+    {
+      "file": "BALUSDT-1d-2021-12.zip",
+      "sha256": "2ffca9c7058b88fab5c6ffee04e9d49faef93850affe7d88bf4ffe8529e746e5"
+    },
+    {
+      "file": "BALUSDT-1d-2022-01.zip",
+      "sha256": "3b1c8d393af2457eb92ee53c347a9a5701d07fbe990cc7db8c45afc54117bb15"
+    },
+    {
+      "file": "BALUSDT-1d-2022-02.zip",
+      "sha256": "06dc73c31d946cbaafcbebb73a4e2f6168da77a2aaebdf010d950955d272024b"
+    },
+    {
+      "file": "BALUSDT-1d-2022-03.zip",
+      "sha256": "be3c7d4d7f598e8fc94888ef109ab7a6cfdca4ade121f91888caf34c00a6c24c"
+    },
+    {
+      "file": "BALUSDT-1d-2022-04.zip",
+      "sha256": "50c561adfc5312480dbca54ef34bc632298375e388ff23dcb86bffecc0cf1dca"
+    },
+    {
+      "file": "BALUSDT-1d-2022-05.zip",
+      "sha256": "3da487b72c5c873b8b3c15ae0e3dd4a60cb5ba617bf7349a703ae573cf96ac69"
+    },
+    {
+      "file": "BALUSDT-1d-2022-06.zip",
+      "sha256": "c75ddd1e0546aba8aec09c037ba2da785c7e99a24737fb03c5779f84e27dfbd4"
+    },
+    {
+      "file": "BALUSDT-1d-2022-07.zip",
+      "sha256": "e381fad090956be7e663943b2970118bf116638810a7e8aeb0c32ac77bb1f301"
+    },
+    {
+      "file": "BALUSDT-1d-2022-08.zip",
+      "sha256": "39a15b01cc23ff0f0660842be514f39bdb85d6fbb696520534fd8f0d98638830"
+    },
+    {
+      "file": "BALUSDT-1d-2022-09.zip",
+      "sha256": "91de700460e827c1009bfa98edb5f07cfc09f8efcd57ff1d28c7929e93266b77"
+    },
+    {
+      "file": "BALUSDT-1d-2022-10.zip",
+      "sha256": "c5dec351c8662927d02a771fee73c4f9b3ceedd6dfe389e37650c3cfbcc012e8"
+    },
+    {
+      "file": "BALUSDT-1d-2022-11.zip",
+      "sha256": "efaa6bc6764abcadac27fb718c07b292c87be6f52a83b5b0d4658e03977828fd"
+    },
+    {
+      "file": "BALUSDT-1d-2022-12.zip",
+      "sha256": "ddd3848b85376bec323167f64d6ad84cf8949457548ecc3ac1e9fe30c34698a7"
+    },
+    {
+      "file": "BALUSDT-1d-2023-01.zip",
+      "sha256": "d117f938e8e71e1f8af3fb2391b668a51f03956392246d85748adc7214bee026"
+    },
+    {
+      "file": "BALUSDT-1d-2023-02.zip",
+      "sha256": "709f5347c1e9c0bb53c63cd09ec90c7b0b20879096a1194a3b75077b91ad1050"
+    },
+    {
+      "file": "BALUSDT-1d-2023-03.zip",
+      "sha256": "b5718e687db7c9a871eb6684e2b2177181009443832ec97ca38997da36a868f0"
+    },
+    {
+      "file": "BALUSDT-1d-2023-04.zip",
+      "sha256": "2b1549e5be21e567182e815393130c42cb39ca6008932e78c88cf9aeb1a31a2a"
+    },
+    {
+      "file": "BALUSDT-1d-2023-05.zip",
+      "sha256": "fa2eea3cee45d853178c421ce7d61327d610ad8f1801db43c08f0f78b699ac2e"
+    },
+    {
+      "file": "BALUSDT-1d-2023-06.zip",
+      "sha256": "25fe051f68a271f03f10c1352c7ff5782e3c43a52f0678560c51e03b4704588f"
+    },
+    {
+      "file": "BALUSDT-1d-2023-07.zip",
+      "sha256": "d6952806667d5e8b67afacdac2572910a0eff2287f75935d4a70db1c90d692fb"
+    },
+    {
+      "file": "BALUSDT-1d-2023-08.zip",
+      "sha256": "f51422c23c314dc679a04aaee39cb75b5a3ca5f07927b114f2976c4e3276dbb8"
+    },
+    {
+      "file": "BALUSDT-1d-2023-09.zip",
+      "sha256": "1512568f05d9b69d2480c9a0796edecc81991b8d8541b510060a19165d335328"
+    },
+    {
+      "file": "BALUSDT-1d-2023-10.zip",
+      "sha256": "0a669632b0d192f34d83db4b6f4852c5874d4cce714e339092a9e022a0ef3630"
+    },
+    {
+      "file": "BALUSDT-1d-2023-11.zip",
+      "sha256": "a2c0e41af757c9b469ff9c96a2c94c6e8dafe9173b8d5511e535a85e445bd144"
+    },
+    {
+      "file": "BALUSDT-1d-2023-12.zip",
+      "sha256": "2588a32f43e3967d43acf10b118095d580fb6cc6475646230744ce5c4b5c2457"
+    },
+    {
+      "file": "BALUSDT-1d-2024-01.zip",
+      "sha256": "348cf4e105462ea58c97ec720c9aa04d3a446a397cd60a62719d67738cf4d452"
+    },
+    {
+      "file": "BALUSDT-1d-2024-02.zip",
+      "sha256": "cac13f4f2e3c07b30be3d74e931a34e299bdc6db704838d0319933476e14bb80"
+    },
+    {
+      "file": "BALUSDT-1d-2024-03.zip",
+      "sha256": "b9ed9c92d5b62eac81cd6d9d78fb3751f1f6afde45e29203e79d50208f414f0c"
+    },
+    {
+      "file": "BALUSDT-1d-2024-04.zip",
+      "sha256": "e22bfd62f5d3bf5b4034af5f5bda49574b57fb0e70d7bc50eb50919de40cc44c"
+    },
+    {
+      "file": "BALUSDT-1d-2024-05.zip",
+      "sha256": "891235f6f68b7929b5042c827fbbc00e07df23c4aa2c7b2cc2fe5cb9bff28fa7"
+    },
+    {
+      "file": "BALUSDT-1d-2024-06.zip",
+      "sha256": "16402c3b99682eb4add9acd19161ab7b7dc0a85a047259f98fab2f1cf2a2fe50"
+    },
+    {
+      "file": "BALUSDT-1d-2024-07.zip",
+      "sha256": "e85653072657a32540bee78636d3da5eb0afd5cb4fddc0562a41f2b960ec4f8a"
+    },
+    {
+      "file": "BALUSDT-1d-2024-08.zip",
+      "sha256": "21cb373ffbb76daa4d05e6fd3e33df1402dc0a120b2decf0d1f7fe97ec99af06"
+    },
+    {
+      "file": "BALUSDT-1d-2024-09.zip",
+      "sha256": "26741e076c3c6c0f0a195a51816dede581e95795e8b3ebd13355c9213de89295"
+    },
+    {
+      "file": "BALUSDT-1d-2024-10.zip",
+      "sha256": "f0937306b8e5331230c185ea58c92e8a95b042a7e6ab44032d60215527d58b0c"
+    },
+    {
+      "file": "BALUSDT-1d-2024-11.zip",
+      "sha256": "62b598cc275f3422fe506a5c5e17aeae098469e1435840867c83632a45502656"
+    },
+    {
+      "file": "BALUSDT-1d-2024-12.zip",
+      "sha256": "973c40996f7f86c9a9d629708afcec3174909ea6a8698ffed8e5864c595f8a3b"
+    },
+    {
+      "file": "BALUSDT-1d-2025-01.zip",
+      "sha256": "b50411a56366e6eec156b3c60b9353f9b0d80eb459923bb098ac7c3d3e62e153"
+    },
+    {
+      "file": "BALUSDT-1d-2025-02.zip",
+      "sha256": "546aceb3c05746154c3af729e886c700975314055139ecb7629861d08356d976"
+    },
+    {
+      "file": "BALUSDT-1d-2025-03.zip",
+      "sha256": "9a11690787e9fa343d459781c63b78bc5bc53a82b4de0d90fdd11333a9a705a3"
+    },
+    {
+      "file": "BALUSDT-1d-2025-04.zip",
+      "sha256": "154ff85de6a5b39e0b724c2c46f6d1e2844dceb4de357ab551a1b418848e1ea6"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

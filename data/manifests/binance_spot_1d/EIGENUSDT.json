@@ -1,0 +1,121 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/EIGENUSDT/1d/",
+  "instrument": "EIGENUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-10-01",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:32:01+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 730,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "EIGENUSDT-1d-2024-10.zip",
+      "sha256": "5e68bd41c0affa658286f5ba12783cc0b1d3ea87738a423d15460dc677e229e1"
+    },
+    {
+      "file": "EIGENUSDT-1d-2024-11.zip",
+      "sha256": "97112303235fd7afa3f34e5e5b228cd9e9564a4eb6454346319d12db60554d8d"
+    },
+    {
+      "file": "EIGENUSDT-1d-2024-12.zip",
+      "sha256": "0faa24b66e65b4e6700e5039bec16b486a3800f5662c35db26aa04b1c882615d"
+    },
+    {
+      "file": "EIGENUSDT-1d-2025-01.zip",
+      "sha256": "007cec19533a6f2b3e7dbbd9c8e52ca955762f35645a08cfb241fef84d7a2885"
+    },
+    {
+      "file": "EIGENUSDT-1d-2025-02.zip",
+      "sha256": "1647a01e8e70d2fa14271f9a527ef5484a5b1435cc3c0847b29391ed962f1d34"
+    },
+    {
+      "file": "EIGENUSDT-1d-2025-03.zip",
+      "sha256": "9c8b8d3b6d98b51fb59b8bc57f13bcb5177446f498438c3d38d893f9e827163c"
+    },
+    {
+      "file": "EIGENUSDT-1d-2025-04.zip",
+      "sha256": "2e9e72d7b4146814a70e7d4cf8f9c08339868275f55e7a9573e229c611e5eb66"
+    },
+    {
+      "file": "EIGENUSDT-1d-2025-05.zip",
+      "sha256": "ae6ae58f3b3647a1e2e08e58f513a8a7ce7c1ab6187de8b045ff1fcb7a2c4f68"
+    },
+    {
+      "file": "EIGENUSDT-1d-2025-06.zip",
+      "sha256": "ce90b9680cbd73f69aeaec73f8d4050127dcfd505b6f84f6e5d1891e838398a9"
+    },
+    {
+      "file": "EIGENUSDT-1d-2025-07.zip",
+      "sha256": "253b603947c7cb72723d8e87351df8083ea5c8e2123cb83e55c252ac91ce2ebb"
+    },
+    {
+      "file": "EIGENUSDT-1d-2025-08.zip",
+      "sha256": "df617c1375590f3c6de709a86174691d5c0efefa22cda50a9f2d5be89fa2d580"
+    },
+    {
+      "file": "EIGENUSDT-1d-2025-09.zip",
+      "sha256": "c65940c821c38a44296af9a23684f9deb1bb5abeed0f4ece0872948464c91a7f"
+    },
+    {
+      "file": "EIGENUSDT-1d-2025-10.zip",
+      "sha256": "e5c40e356ee0041b946130a198a7af02c5a41dad84d7047cf5f0ef403bf16b72"
+    },
+    {
+      "file": "EIGENUSDT-1d-2025-11.zip",
+      "sha256": "8a93d981560306cd0a7dac21c0f8f808b8dd2989f3438b6424ed65f900ef7d74"
+    },
+    {
+      "file": "EIGENUSDT-1d-2025-12.zip",
+      "sha256": "8245eac815b11f86c4b3755071356b84a7d89ff610444882ba1e099e7a999e2b"
+    },
+    {
+      "file": "EIGENUSDT-1d-2026-01.zip",
+      "sha256": "f3571201f3dfddc0738044986093d30fe8ffbb0c95d0212cf8bc83d312d0fef4"
+    },
+    {
+      "file": "EIGENUSDT-1d-2026-02.zip",
+      "sha256": "56330fde6defa3f667df68a63cbd99a07e0ab9c586c8c92274d6e6bec7a22095"
+    },
+    {
+      "file": "EIGENUSDT-1d-2026-03.zip",
+      "sha256": "001a344d67bb180ee16faade2d775b8df9b82f37d09efaab86dda361f29c9518"
+    },
+    {
+      "file": "EIGENUSDT-1d-2026-04.zip",
+      "sha256": "b46318d052ba324a1c852dd4400d26498268f4ef12a234063e246a8cd35297f2"
+    },
+    {
+      "file": "EIGENUSDT-1d-2026-05.zip",
+      "sha256": "96b90979357ab86f6f716f0e8a2734b1c1a6fb8a351b3b72567c814a4a6e503a"
+    },
+    {
+      "file": "EIGENUSDT-1d-2026-06.zip",
+      "sha256": "a2c8ee8d411ef25a4c8dedcf5341657b5a419371bbc72dbae345dd6e1383adfd"
+    },
+    {
+      "file": "EIGENUSDT-1d-2026-07.zip",
+      "sha256": "af0b4cf3cbe4e44ea0f691b3b739e6237aac0562e9c0e29484d12dfc8afd41b7"
+    },
+    {
+      "file": "EIGENUSDT-1d-2026-08.zip",
+      "sha256": "0b9de5d6bffa75271a759532d6a8b316618fd471ae8e8336d64be0d6187a07cc"
+    },
+    {
+      "file": "EIGENUSDT-1d-2026-09.zip",
+      "sha256": "efa465e143b88ecaa46470575e9159c6637b34f68aa0cf0534f669d98b9d0f6b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/KATUSDT/1d/",
+  "instrument": "KATUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-03-18",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:36:38+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 197,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "KATUSDT-1d-2026-03.zip",
+      "sha256": "b71fe991b0b3c6eb5181fc98017a656407f2313f49bfc734e2816f0951e3c454"
+    },
+    {
+      "file": "KATUSDT-1d-2026-04.zip",
+      "sha256": "f2bfec1c9abcc9bc7134cfa880e7fe2060951656264caaa07d0814f4f6e467fd"
+    },
+    {
+      "file": "KATUSDT-1d-2026-05.zip",
+      "sha256": "cca24cf1c10a43d0de93aae5e6888a0dc3720497bce0574e45398e4f25cb9b58"
+    },
+    {
+      "file": "KATUSDT-1d-2026-06.zip",
+      "sha256": "9dd606a537498df5dc6b52139eb13adffd289a777e2525ade3e10026610137e1"
+    },
+    {
+      "file": "KATUSDT-1d-2026-07.zip",
+      "sha256": "daacb616f984bbc3460ba324edd3556720f0c02fc0a06019314c06477aa59f28"
+    },
+    {
+      "file": "KATUSDT-1d-2026-08.zip",
+      "sha256": "13cea51d73a3db81561566b148835b121802c02ea759219b721606e493e5ce28"
+    },
+    {
+      "file": "KATUSDT-1d-2026-09.zip",
+      "sha256": "e9112d9088bd3bc77129b03ffc8c330f69ae7083b921b592aea29c9678fa91f9"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

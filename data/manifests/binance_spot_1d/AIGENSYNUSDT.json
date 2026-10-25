@@ -1,0 +1,45 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/AIGENSYNUSDT/1d/",
+  "instrument": "AIGENSYNUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-05-14",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:24:37+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 140,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "AIGENSYNUSDT-1d-2026-05.zip",
+      "sha256": "59e6d17b6528fc97875e57972f1c8b6e35765baa2641fdbdc1ea89fa5a12f947"
+    },
+    {
+      "file": "AIGENSYNUSDT-1d-2026-06.zip",
+      "sha256": "fdc88de41b76397ce81bfa1ed932d312e33fa9fb2e0ae59ba342418a5c43edf5"
+    },
+    {
+      "file": "AIGENSYNUSDT-1d-2026-07.zip",
+      "sha256": "69d92334fc374aa5e4f13bb898ff874809980cb9f8cbd33eaaa683f8460dcd50"
+    },
+    {
+      "file": "AIGENSYNUSDT-1d-2026-08.zip",
+      "sha256": "61f63c61f4cae6abfc76f49b03f218c9005ab7d15d5369f840e0b722f081afb4"
+    },
+    {
+      "file": "AIGENSYNUSDT-1d-2026-09.zip",
+      "sha256": "8350c258c250cf1b029d2ddb9eba5296587c0b223aea27773bf79eba1ce9e2d9"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

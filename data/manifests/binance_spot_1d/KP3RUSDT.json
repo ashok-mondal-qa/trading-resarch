@@ -1,0 +1,173 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/KP3RUSDT/1d/",
+  "instrument": "KP3RUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-11-12",
+  "last_bar": "2024-11-06",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:37:27+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1091,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "KP3RUSDT-1d-2021-11.zip",
+      "sha256": "caa1190d463a6422c962118f10cd6ab006b84be594013d160f1517f9ffe4a1b1"
+    },
+    {
+      "file": "KP3RUSDT-1d-2021-12.zip",
+      "sha256": "79573ba4726b43e618ac91311a2fdbbc3940bb04e0575c3907a6c2b70a171284"
+    },
+    {
+      "file": "KP3RUSDT-1d-2022-01.zip",
+      "sha256": "ca9457d7c9887c3c6cc4e16d0ee82d16c7562a0f4d5f9e783dee4c86889cb0a0"
+    },
+    {
+      "file": "KP3RUSDT-1d-2022-02.zip",
+      "sha256": "ef3bd45e822fb97b71f100027dccb7777bb26e3c775a4d90824203fc0bdbae1f"
+    },
+    {
+      "file": "KP3RUSDT-1d-2022-03.zip",
+      "sha256": "9d90934c07edf3ac95678cf56bc5f17007b38cbe3fc66d0544a8e0c5eb30c1e9"
+    },
+    {
+      "file": "KP3RUSDT-1d-2022-04.zip",
+      "sha256": "5851cceb9cedbae6cb499e35bae924d48ea547eabacde2b0ed29ba8a1a4af988"
+    },
+    {
+      "file": "KP3RUSDT-1d-2022-05.zip",
+      "sha256": "114fcd60b21212c5835d5a0c20d792374a0301377ebaa4e2ca42504c3e754124"
+    },
+    {
+      "file": "KP3RUSDT-1d-2022-06.zip",
+      "sha256": "99fc2adece91bac38113592988916f856476876443d0fbcae4362a401d265eac"
+    },
+    {
+      "file": "KP3RUSDT-1d-2022-07.zip",
+      "sha256": "c421d871e4ec55a10f89761adc7714e9e1d7d1cc5e59ffa9f1543834cb4df0c3"
+    },
+    {
+      "file": "KP3RUSDT-1d-2022-08.zip",
+      "sha256": "f90d9129429aea6ed5853487d5be7cf96d0aa4de28043f0184d5143bfb692ce9"
+    },
+    {
+      "file": "KP3RUSDT-1d-2022-09.zip",
+      "sha256": "4ac71f0d91c7b8904958a2b0e0cbef46c2a2f986c73e172f52e3affeb5fb1899"
+    },
+    {
+      "file": "KP3RUSDT-1d-2022-10.zip",
+      "sha256": "48681ad077fe60ff71c7f9b313a56b5b87d9bff32679a009733e65eddf21f470"
+    },
+    {
+      "file": "KP3RUSDT-1d-2022-11.zip",
+      "sha256": "6e2f6d3f3187937fa6933f08aeef7eb3eaeed14ba2deefab75ab5d49e231ae71"
+    },
+    {
+      "file": "KP3RUSDT-1d-2022-12.zip",
+      "sha256": "5b8bb63403b438738994cde60e8bc4e046c03a660cca4dd3bf9a0af055624ba1"
+    },
+    {
+      "file": "KP3RUSDT-1d-2023-01.zip",
+      "sha256": "6d7e46d20e702c29cb68e4983ac8c1bfa7ee2fe7b789bcfd8d0cfc8d67c43043"
+    },
+    {
+      "file": "KP3RUSDT-1d-2023-02.zip",
+      "sha256": "30655b616a7f38727863b9c028eeca6ef3ebf2d2faefe14b71d47ebf02e5c842"
+    },
+    {
+      "file": "KP3RUSDT-1d-2023-03.zip",
+      "sha256": "0bc79b6e94b11778164f34cf1c521191baf051a42dd94d75b2a196669229eb4b"
+    },
+    {
+      "file": "KP3RUSDT-1d-2023-04.zip",
+      "sha256": "931bc78b8956eefc22cd7dcb2712f2607decc9578947a4e2dfd39495fee6ddbd"
+    },
+    {
+      "file": "KP3RUSDT-1d-2023-05.zip",
+      "sha256": "4c0f02f88b637218f752577b187ad64cd649e14bfdd8485c418e16377528588b"
+    },
+    {
+      "file": "KP3RUSDT-1d-2023-06.zip",
+      "sha256": "a3d8bf8d24fba5811d1b6f4abba1517dd44dcbaf73163e6d663634d5c200de49"
+    },
+    {
+      "file": "KP3RUSDT-1d-2023-07.zip",
+      "sha256": "35cdf2353d24b431dfb5404bc80dbb8a65a65466a8f02afda571447b7dfed57d"
+    },
+    {
+      "file": "KP3RUSDT-1d-2023-08.zip",
+      "sha256": "96f6b147824fdc650e9af3c4b87667e208f013ac10ba226e0c8e3a85344fc24b"
+    },
+    {
+      "file": "KP3RUSDT-1d-2023-09.zip",
+      "sha256": "df8e58cb3089233088343b0292e049515c6b424774431e68ed0a14e51a633b10"
+    },
+    {
+      "file": "KP3RUSDT-1d-2023-10.zip",
+      "sha256": "32621a055ddf51a0aa9411677c01d85361e00145e58e87c5901a0b1483352888"
+    },
+    {
+      "file": "KP3RUSDT-1d-2023-11.zip",
+      "sha256": "4ccfa30b5768e311219d15e01779e3e0e3766004a30bd5a2eb2c1d30c304b6b8"
+    },
+    {
+      "file": "KP3RUSDT-1d-2023-12.zip",
+      "sha256": "b9f9c3c2ac8ab8d3c65500ec435966569b18ac14e5e77dfce5ef18e2a2e62594"
+    },
+    {
+      "file": "KP3RUSDT-1d-2024-01.zip",
+      "sha256": "670e328c46b73e603f61df337fbed37eacfea755e82e05a2d16dd729caa520d8"
+    },
+    {
+      "file": "KP3RUSDT-1d-2024-02.zip",
+      "sha256": "a201be01e5e1c7eb0321e2e37c577f5df1e5f14cf9a81c1f18990a1dfd46301f"
+    },
+    {
+      "file": "KP3RUSDT-1d-2024-03.zip",
+      "sha256": "d87629d53ae3ecdd0e1b91d3875101bbc74a9b1468df0822bfc22f1b13aeac1d"
+    },
+    {
+      "file": "KP3RUSDT-1d-2024-04.zip",
+      "sha256": "f6840245e90cc626082f978b5d626fd26bbfc3eb4a2b7bac621b10863f29393f"
+    },
+    {
+      "file": "KP3RUSDT-1d-2024-05.zip",
+      "sha256": "62efd0293090869c3bcf800fe5ae802ab22289c398b773435e157ae9a14951a3"
+    },
+    {
+      "file": "KP3RUSDT-1d-2024-06.zip",
+      "sha256": "f863b5628fed2039c0396f5f6931fa1febad851a676cb508cfeea2e47f91addc"
+    },
+    {
+      "file": "KP3RUSDT-1d-2024-07.zip",
+      "sha256": "575abf43eefb63af43af1d8dff016d9896bea96d5fb191827e4faf03efaf1574"
+    },
+    {
+      "file": "KP3RUSDT-1d-2024-08.zip",
+      "sha256": "74e5f2b14c5d050a97d7c91996504fb01c796e3e5eaf261f0d2ffd33314d6494"
+    },
+    {
+      "file": "KP3RUSDT-1d-2024-09.zip",
+      "sha256": "3f3287ddad97ccff38e3abd4016016fba5c9b00315e0a6a2d72d1163748feb4d"
+    },
+    {
+      "file": "KP3RUSDT-1d-2024-10.zip",
+      "sha256": "722a0d24fad9cf6abd01605a0ee9e1402354c8c1991fd27492b1646ec803d0a8"
+    },
+    {
+      "file": "KP3RUSDT-1d-2024-11.zip",
+      "sha256": "4f118e5d7c7cc0c9817e02da65ee3bb9fc3ae195cb5e7e37bc42e574c0e11b16"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

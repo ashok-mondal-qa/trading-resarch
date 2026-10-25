@@ -1,0 +1,285 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SHIBUSDT/1d/",
+  "instrument": "SHIBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-05-10",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:45:34+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1970,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SHIBUSDT-1d-2021-05.zip",
+      "sha256": "ae018d64ecb6fd03013ae39e1acc910c87834ebf5115bb9d1368cc80386706d7"
+    },
+    {
+      "file": "SHIBUSDT-1d-2021-06.zip",
+      "sha256": "bc5f0edc2ab0662a2fbbd1a959c70cc18f4faed7104e51286bb44bf5cf22301d"
+    },
+    {
+      "file": "SHIBUSDT-1d-2021-07.zip",
+      "sha256": "ebe94b85a9dde991463fd7596e0ffd10b6465ba2240a75fc2924837348235c0d"
+    },
+    {
+      "file": "SHIBUSDT-1d-2021-08.zip",
+      "sha256": "fbdf131c921d3770ad8ccb9bbe468913381fc3795d845de6a1002a94a0189b40"
+    },
+    {
+      "file": "SHIBUSDT-1d-2021-09.zip",
+      "sha256": "649f1ac894defe57106734d8b1db36c5a3cb1a16aa82a92110e25344a5afc890"
+    },
+    {
+      "file": "SHIBUSDT-1d-2021-10.zip",
+      "sha256": "6c0bb89ccf85391146b52db9c5a5c0ea2bfb0014782a71944c302983f48bc798"
+    },
+    {
+      "file": "SHIBUSDT-1d-2021-11.zip",
+      "sha256": "3e3af1e2eab6e01ec75be1a72d88ad613fed87a49cff7c77b484c20296d32dc0"
+    },
+    {
+      "file": "SHIBUSDT-1d-2021-12.zip",
+      "sha256": "e703790307523126199b8a24e6ad75adae7b8d726cd35ba3d8026b785beb7453"
+    },
+    {
+      "file": "SHIBUSDT-1d-2022-01.zip",
+      "sha256": "2680ee43099e2c91fbc05262bfdcc25a2cc567beec890f1da6a11a2705c26462"
+    },
+    {
+      "file": "SHIBUSDT-1d-2022-02.zip",
+      "sha256": "a6314c2445eef48c1023a4316ef9290fd84e28e3bbb1d730f7ce4b5b3852af98"
+    },
+    {
+      "file": "SHIBUSDT-1d-2022-03.zip",
+      "sha256": "9cfb450ee019fdb25a21a733e40a18ad933091f803e4180e12f5fdccaa9a70f6"
+    },
+    {
+      "file": "SHIBUSDT-1d-2022-04.zip",
+      "sha256": "81aa4254875bdc7f3f0744072f944117e44bbd439a0ca270569c3af9b28d14db"
+    },
+    {
+      "file": "SHIBUSDT-1d-2022-05.zip",
+      "sha256": "1e360ec27993d7352d1d3b59c68067f81e2dca6525dcf9f7ed652e19f15b5ba7"
+    },
+    {
+      "file": "SHIBUSDT-1d-2022-06.zip",
+      "sha256": "1bfee22abb52cc8e057cac51b27377817cbc69bc20f0439b39ee32cecc3c3bfb"
+    },
+    {
+      "file": "SHIBUSDT-1d-2022-07.zip",
+      "sha256": "bf130cf653b2c0f96e91bc7ff9832a2da7ec84f8ccdda8cb103866f86a761a25"
+    },
+    {
+      "file": "SHIBUSDT-1d-2022-08.zip",
+      "sha256": "2dcee8e947af03a9814b0c8ebe931bb38ce14fa3d83168e01c2e4b6f1af01669"
+    },
+    {
+      "file": "SHIBUSDT-1d-2022-09.zip",
+      "sha256": "7aae0cd526f4c24532578148357534d132e836375891e84faa8403bca39fe1d8"
+    },
+    {
+      "file": "SHIBUSDT-1d-2022-10.zip",
+      "sha256": "5be1ed3ad997c4200693fa1171d54513d9e5526e1a00d3659c4285b6418f3310"
+    },
+    {
+      "file": "SHIBUSDT-1d-2022-11.zip",
+      "sha256": "c0442b2d7afde8b4a8ccec435e5bf4cedc4ed44623f0627ebc23b6ef56c79fd5"
+    },
+    {
+      "file": "SHIBUSDT-1d-2022-12.zip",
+      "sha256": "bf26920b2aaf9a232c3ff61012f9d0050966a76f91a5b33d9227885fd7041ac2"
+    },
+    {
+      "file": "SHIBUSDT-1d-2023-01.zip",
+      "sha256": "a0945605582852902ba36d5b79b8ec90b0e36a5f83218f9469b84da65b7300f6"
+    },
+    {
+      "file": "SHIBUSDT-1d-2023-02.zip",
+      "sha256": "9612267979bd57c64563d1557ffef19cbc6c3310ace54cf1d6133797a49af46f"
+    },
+    {
+      "file": "SHIBUSDT-1d-2023-03.zip",
+      "sha256": "48fcff5dfd93ecb570b8f1bab86adf11b68e76e7504535a0891e32ed8b421622"
+    },
+    {
+      "file": "SHIBUSDT-1d-2023-04.zip",
+      "sha256": "a9c1c7cd4685e14df02628f42c2ec8501c399f69d32b1690e0e7f9e9c60b1b3a"
+    },
+    {
+      "file": "SHIBUSDT-1d-2023-05.zip",
+      "sha256": "e5538ec82b0708722df2942c5736b96cdda73583dc279cf92c3ceb559de829f5"
+    },
+    {
+      "file": "SHIBUSDT-1d-2023-06.zip",
+      "sha256": "ce0223b867507dd6861df827425a490292ccfa58bbc457d8a867f4a2ea9392da"
+    },
+    {
+      "file": "SHIBUSDT-1d-2023-07.zip",
+      "sha256": "220041823d0a074ce44b780d0c86d14a9f23ee3fafdaea93b81388f6a2bf91ff"
+    },
+    {
+      "file": "SHIBUSDT-1d-2023-08.zip",
+      "sha256": "f2d5a4ffb1941d31eee0ac7da92c66b875de021edb7b00edc1798434c22a8a49"
+    },
+    {
+      "file": "SHIBUSDT-1d-2023-09.zip",
+      "sha256": "66e609f8e1e3a1aa8b16e0a9f8a404f89da90593630239e60d1ab1c53762fa9d"
+    },
+    {
+      "file": "SHIBUSDT-1d-2023-10.zip",
+      "sha256": "75d0379699fb725df3e4578e32f7dc8328948dd73081582d80a2a09cb2857a76"
+    },
+    {
+      "file": "SHIBUSDT-1d-2023-11.zip",
+      "sha256": "1fa07eab10c69821fb47af2d315bd27985daeb45ec751edb7f9fc58033e19cdd"
+    },
+    {
+      "file": "SHIBUSDT-1d-2023-12.zip",
+      "sha256": "6be954d7499c90c358e092a5997e206a86b508a3d984cb5936538c7c0e51ffeb"
+    },
+    {
+      "file": "SHIBUSDT-1d-2024-01.zip",
+      "sha256": "75a9d5392aef447e5065d6b457be85f5950790734f0b1535cf8615fb2e5845f0"
+    },
+    {
+      "file": "SHIBUSDT-1d-2024-02.zip",
+      "sha256": "bca9a6c7e75cddb85312222d9e4426189e5b41db339ad8bd617be9122c1f1e10"
+    },
+    {
+      "file": "SHIBUSDT-1d-2024-03.zip",
+      "sha256": "9fefd637aecdfc14509b3f49c011dfde10fee36f0506a484bda4d6a1f6b5a18a"
+    },
+    {
+      "file": "SHIBUSDT-1d-2024-04.zip",
+      "sha256": "3d08a9a0d7fcc1dd8ba9f54a24c747b1f2900f3ff4aa3b46161df342aa2d1bce"
+    },
+    {
+      "file": "SHIBUSDT-1d-2024-05.zip",
+      "sha256": "73d3a643c324e0fb7d96788124c17560aba22ebccabbc7cbbbddc448f2a941fa"
+    },
+    {
+      "file": "SHIBUSDT-1d-2024-06.zip",
+      "sha256": "9cd501ebd352a1b02466ce777ff72bcbe9b301cafa86c7c0607e6f0dfda1313c"
+    },
+    {
+      "file": "SHIBUSDT-1d-2024-07.zip",
+      "sha256": "8009615f0fd30703e34f20288dfa8841aaa4759a8686448943e702e8e04a59e1"
+    },
+    {
+      "file": "SHIBUSDT-1d-2024-08.zip",
+      "sha256": "bbd2f1d0a9c7ec2a5835c72d70d4d24ae55503974e2dfec4bbe532fc812a4d76"
+    },
+    {
+      "file": "SHIBUSDT-1d-2024-09.zip",
+      "sha256": "d8cb04c3dff7f1ff75aa979c3e280b0fbf7f404a2e2819aaa9b2dd700a9752d6"
+    },
+    {
+      "file": "SHIBUSDT-1d-2024-10.zip",
+      "sha256": "72b104b053179109090243a4afba32d5640dad08e796705715dd6028b7b39a26"
+    },
+    {
+      "file": "SHIBUSDT-1d-2024-11.zip",
+      "sha256": "3bed665b8e76f51bdff9ee2d6118a1f2652807811c8966f8d8523bdcdf9cd369"
+    },
+    {
+      "file": "SHIBUSDT-1d-2024-12.zip",
+      "sha256": "5c0181db2eb2bacd3040239471bcd078c3d821507ef21fc00cf75798f3ef49f2"
+    },
+    {
+      "file": "SHIBUSDT-1d-2025-01.zip",
+      "sha256": "9e14a49a3a34a8b1dd0350e0a8db2019a35aaa461a3426705260ad68fb92cea8"
+    },
+    {
+      "file": "SHIBUSDT-1d-2025-02.zip",
+      "sha256": "659ff7f7e827b687f5cb83d83be7985379e300490386747a0da2d688cba434c4"
+    },
+    {
+      "file": "SHIBUSDT-1d-2025-03.zip",
+      "sha256": "f01d9298ba1bdcf7f4370c0da181960d8ee383236181f43d4e21b57e20cae589"
+    },
+    {
+      "file": "SHIBUSDT-1d-2025-04.zip",
+      "sha256": "fdec0aac27eaa03375feca20b4f5c85237a0a7866c9d525a2fb693d7dcafd2ce"
+    },
+    {
+      "file": "SHIBUSDT-1d-2025-05.zip",
+      "sha256": "aaaa3f9043ca2fc9ccf4d380c9b52f985bd6726848b0d703bb94e58374b44c1e"
+    },
+    {
+      "file": "SHIBUSDT-1d-2025-06.zip",
+      "sha256": "6a8ad3e9004769f5332cba7061639917c1ad23f9d1dee9881fcc2c494d5378a4"
+    },
+    {
+      "file": "SHIBUSDT-1d-2025-07.zip",
+      "sha256": "977f5f24479c2cf55d5fc146bf7e5604243ee0f6dd52ddbcfca3cf248cfde477"
+    },
+    {
+      "file": "SHIBUSDT-1d-2025-08.zip",
+      "sha256": "7000a92ee7a346178e2441a895a814669bc65f03eba1ad3a3d52b3aa7b71631d"
+    },
+    {
+      "file": "SHIBUSDT-1d-2025-09.zip",
+      "sha256": "24191ea02e4f73726981bcf1bd577ab98f3cb32d8e11c3471c6eab3a9b390549"
+    },
+    {
+      "file": "SHIBUSDT-1d-2025-10.zip",
+      "sha256": "f89d2a1b101a7870af0fa8d2338cfb2a7f61267454f8a0824563784184b6e5b9"
+    },
+    {
+      "file": "SHIBUSDT-1d-2025-11.zip",
+      "sha256": "e0f04637d00729722952f3125d4836275bb27435d8c38d51928b8f9ac6e21561"
+    },
+    {
+      "file": "SHIBUSDT-1d-2025-12.zip",
+      "sha256": "ea965b8fab2bd213a5c0ff6ed840f930c9c27ca4ce7a8be63eef8d09f6a5c214"
+    },
+    {
+      "file": "SHIBUSDT-1d-2026-01.zip",
+      "sha256": "3af6b6bf9cb42c33c4b84ceba154c4079e90d42909e0dbf168506103bd01f122"
+    },
+    {
+      "file": "SHIBUSDT-1d-2026-02.zip",
+      "sha256": "292350ffbf70b9cfaa3d05730c78e678b4e21d8067865500b63101d42e59a80a"
+    },
+    {
+      "file": "SHIBUSDT-1d-2026-03.zip",
+      "sha256": "e28d666a94aa2e45d9d4fc71f9508acad5fbd3b0c7339cecaa8f4c612ba5077b"
+    },
+    {
+      "file": "SHIBUSDT-1d-2026-04.zip",
+      "sha256": "60b15af8e3473be71f09a628754aa1289662c85dd46b1fffce34ec363dedfb41"
+    },
+    {
+      "file": "SHIBUSDT-1d-2026-05.zip",
+      "sha256": "6c1b0e5c944b1f110435eb2436d48d78be310239993ab95241dba19cbec022aa"
+    },
+    {
+      "file": "SHIBUSDT-1d-2026-06.zip",
+      "sha256": "efe62e92b9187de3699d2a0b388d9710cae443f07c5d512940b36f1e3fe971f8"
+    },
+    {
+      "file": "SHIBUSDT-1d-2026-07.zip",
+      "sha256": "0ec4df26ad2f87a9b16afe453fb7ed5c8193a5b0f1eab3771ca4fab971ac4de3"
+    },
+    {
+      "file": "SHIBUSDT-1d-2026-08.zip",
+      "sha256": "dfed749a70178703a4df72c86dc1b195e84025038b1b15e21703a09ebc23b40e"
+    },
+    {
+      "file": "SHIBUSDT-1d-2026-09.zip",
+      "sha256": "e30d0711ae7a0055e8b6236275c2601c211ac991bf33f76bc043986edf5cf837"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BCHABCUSDT/1d/",
+  "instrument": "BCHABCUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2018-11-16",
+  "last_bar": "2019-11-28",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:27:34+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 378,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BCHABCUSDT-1d-2018-11.zip",
+      "sha256": "8b4278d9285769951f4e827177aca004ed50896fad76facbeb44bf736046389c"
+    },
+    {
+      "file": "BCHABCUSDT-1d-2018-12.zip",
+      "sha256": "6964f6bb7580d870e4ecdb92063c33b302bc3859e3b92bf574a42f3a2034877e"
+    },
+    {
+      "file": "BCHABCUSDT-1d-2019-01.zip",
+      "sha256": "b97cb882037ecf1a34c1f35c02c45ec48107d824e350d8989d2580d3a4d39cdd"
+    },
+    {
+      "file": "BCHABCUSDT-1d-2019-02.zip",
+      "sha256": "7e91f1b63b89ca44597baedbd5d4bb746671704dfb6ab185743e095a538bb39b"
+    },
+    {
+      "file": "BCHABCUSDT-1d-2019-03.zip",
+      "sha256": "f5b58b4efe41942f2beeade1e496173fa7a524ae164b35802381eaca130041a1"
+    },
+    {
+      "file": "BCHABCUSDT-1d-2019-04.zip",
+      "sha256": "44116e664230e19d05bfe8b57180943ef24b8361a5c912e82182d15e96cb9f94"
+    },
+    {
+      "file": "BCHABCUSDT-1d-2019-05.zip",
+      "sha256": "48a15fe98982d04af1c98c29652dcc134594742e6ddfb497ab696515265ed3a0"
+    },
+    {
+      "file": "BCHABCUSDT-1d-2019-06.zip",
+      "sha256": "a7021c6a0e590791ed1566a1b444996d1ef37408294e0da67ef3f14beda47dad"
+    },
+    {
+      "file": "BCHABCUSDT-1d-2019-07.zip",
+      "sha256": "5a68bea5defe2bf250aade29834e148e48341fc1f63fbe695a18bfc5c121cfe7"
+    },
+    {
+      "file": "BCHABCUSDT-1d-2019-08.zip",
+      "sha256": "b370dc5debf7832d267a5bef759ca1a2d50027eab0774833e503569dbcee55f6"
+    },
+    {
+      "file": "BCHABCUSDT-1d-2019-09.zip",
+      "sha256": "99b56f3fc37801de789dfea6de6a443a523064ed2d825d386cc69337df6be854"
+    },
+    {
+      "file": "BCHABCUSDT-1d-2019-10.zip",
+      "sha256": "3236373a2e811037b07f6c6ee71c00902fdf666ab451d070d2a6fce7c86e8126"
+    },
+    {
+      "file": "BCHABCUSDT-1d-2019-11.zip",
+      "sha256": "7e4ba2b63779cd4a749c4fa8c1c02ecda961f036a9335563c0070e2e639f49c0"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

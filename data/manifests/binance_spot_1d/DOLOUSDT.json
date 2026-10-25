@@ -1,0 +1,81 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/DOLOUSDT/1d/",
+  "instrument": "DOLOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-08-27",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:31:34+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 400,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "DOLOUSDT-1d-2025-08.zip",
+      "sha256": "cb7b86d04707aaff0b20814ef70619e8f69a104e67eaafaf2d9136e1da316e52"
+    },
+    {
+      "file": "DOLOUSDT-1d-2025-09.zip",
+      "sha256": "87c5dbb94a287e6566d77a19a220d42a415cf887e63d70cae2f1297901508688"
+    },
+    {
+      "file": "DOLOUSDT-1d-2025-10.zip",
+      "sha256": "c886706cc3be0f365fff3c107b5dd73a447b015d48fbd8c7548be642854eea31"
+    },
+    {
+      "file": "DOLOUSDT-1d-2025-11.zip",
+      "sha256": "e07e83bec3e2d6cf25d467f1333f70b40c1ecdab1989da5cbfc2159137e1d19a"
+    },
+    {
+      "file": "DOLOUSDT-1d-2025-12.zip",
+      "sha256": "0db145f6bcc7f20a0944c87c4af2a4daaefbf1140bf8dd596a96ee9135a0229e"
+    },
+    {
+      "file": "DOLOUSDT-1d-2026-01.zip",
+      "sha256": "b338a0fbbba7676e7a49d9cda71758d0dfc421846ccf257f0b4b8f11848a67a3"
+    },
+    {
+      "file": "DOLOUSDT-1d-2026-02.zip",
+      "sha256": "263994e0905cc35d0d43fa228fe47d365922e6200cd57f93c511dbb676a897d0"
+    },
+    {
+      "file": "DOLOUSDT-1d-2026-03.zip",
+      "sha256": "2fdbc583478b82b23f64f32e712e8a727f20cb212a672fde2c57c987833ac41d"
+    },
+    {
+      "file": "DOLOUSDT-1d-2026-04.zip",
+      "sha256": "8159425b4f81a3246292252c2b5eb7985546056ab9e9fb1086dde290b8037c59"
+    },
+    {
+      "file": "DOLOUSDT-1d-2026-05.zip",
+      "sha256": "5845bb696d864342b76f5fb1ea369a44e47a57ed4f9b1c491d772814eaff1d88"
+    },
+    {
+      "file": "DOLOUSDT-1d-2026-06.zip",
+      "sha256": "6b940745575dcc215e997aa119a6ba2cf6757530c39623f8901c9afaad105b4b"
+    },
+    {
+      "file": "DOLOUSDT-1d-2026-07.zip",
+      "sha256": "a1110e3fb91f94676082f05f964e60088473c4899ca2a8068267d2ab5683d022"
+    },
+    {
+      "file": "DOLOUSDT-1d-2026-08.zip",
+      "sha256": "310e57d3ff41c515402c89e7ab48b053611cee4c7f1affd96c27808525b895c2"
+    },
+    {
+      "file": "DOLOUSDT-1d-2026-09.zip",
+      "sha256": "e9a4358f2a47fac2df2c2bd45ae3c4ebfae6c79f9c8160e9bc7a258f5377a3ca"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

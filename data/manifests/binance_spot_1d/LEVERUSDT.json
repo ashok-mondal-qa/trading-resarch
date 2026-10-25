@@ -1,0 +1,173 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/LEVERUSDT/1d/",
+  "instrument": "LEVERUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-07-13",
+  "last_bar": "2025-07-04",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:37:46+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1088,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "LEVERUSDT-1d-2022-07.zip",
+      "sha256": "bd30c79dc858e5644ac6093c9f9e48af7cddd06cd593780841343cf1706e3a33"
+    },
+    {
+      "file": "LEVERUSDT-1d-2022-08.zip",
+      "sha256": "de3fe8fad75ac54baf943b9981d648e4bc34574b2bb4d77dea187d8f95c522bf"
+    },
+    {
+      "file": "LEVERUSDT-1d-2022-09.zip",
+      "sha256": "d51788f418720c0045c424d79b816b9691c6ab4976a1878bc56eb46ecd3c0ad9"
+    },
+    {
+      "file": "LEVERUSDT-1d-2022-10.zip",
+      "sha256": "51a80ce5ee9e26b009d82f059d6ffe7197f59d3ced814619e1a3a5e902e2104e"
+    },
+    {
+      "file": "LEVERUSDT-1d-2022-11.zip",
+      "sha256": "ad91a4ef614175a345ed047fc9bb2317aaa19ad79fe50283500d3486e909bf13"
+    },
+    {
+      "file": "LEVERUSDT-1d-2022-12.zip",
+      "sha256": "e83aaf668f1a53838211ca25a2f0446c0ba05e0d6df874a526e1bd9fd72905b5"
+    },
+    {
+      "file": "LEVERUSDT-1d-2023-01.zip",
+      "sha256": "c84c3b6905a7cc80a2e440aeba4cde8935a1a6b77fbdf35d01857fb19362e96f"
+    },
+    {
+      "file": "LEVERUSDT-1d-2023-02.zip",
+      "sha256": "06cda10f155a52957451256db3005ce324257cdf4ddb22b644f9caf9cb12140a"
+    },
+    {
+      "file": "LEVERUSDT-1d-2023-03.zip",
+      "sha256": "a81f7197150a2135935cc5fff2e7819a08d988cef577690049b07fd9e615b06a"
+    },
+    {
+      "file": "LEVERUSDT-1d-2023-04.zip",
+      "sha256": "118c38b7487aec4bf16ce858854c88b77d44288bea4288624458356222b2d03e"
+    },
+    {
+      "file": "LEVERUSDT-1d-2023-05.zip",
+      "sha256": "0d50f88248f95c2eceda732d4c6bcd241e900b6d2a9bbc0b940009a3fb7b79de"
+    },
+    {
+      "file": "LEVERUSDT-1d-2023-06.zip",
+      "sha256": "de1abb0ced4f85cdee15a7c0493f267268a81fe977925c6d420a2343cf441da4"
+    },
+    {
+      "file": "LEVERUSDT-1d-2023-07.zip",
+      "sha256": "a6d80f139d37e875d76f44a63267c106da6097ff3408310140dac7ace629ec33"
+    },
+    {
+      "file": "LEVERUSDT-1d-2023-08.zip",
+      "sha256": "04243471ac2b5f9ecd6fea651b43cc5bb6e356732d4ba98c305a437e618b2a93"
+    },
+    {
+      "file": "LEVERUSDT-1d-2023-09.zip",
+      "sha256": "8d4d5b7572fda9e3546cd78f28bc44afde48c9db0fb6672a0668361a9ff30bfd"
+    },
+    {
+      "file": "LEVERUSDT-1d-2023-10.zip",
+      "sha256": "d1f532906665327c2fee4a1af94b999ada648adaa0c127da994940488b86f6b2"
+    },
+    {
+      "file": "LEVERUSDT-1d-2023-11.zip",
+      "sha256": "5970f04bce4aee0c51d9a8e87496cdaa4a787373bf4ec52159c4a56e760fc28e"
+    },
+    {
+      "file": "LEVERUSDT-1d-2023-12.zip",
+      "sha256": "2a47587cd12530117636c812b4f241b4700b3cf3f50b7272b2336fecab0eb47f"
+    },
+    {
+      "file": "LEVERUSDT-1d-2024-01.zip",
+      "sha256": "c4573332faa21ce45324421f393211757f02786afccb3be57859d559651fb8bb"
+    },
+    {
+      "file": "LEVERUSDT-1d-2024-02.zip",
+      "sha256": "3bb832ce02a4c08b5fdace2e16927cb45fb6d800618ee5ebced43f6ebc70a95d"
+    },
+    {
+      "file": "LEVERUSDT-1d-2024-03.zip",
+      "sha256": "4e1aea382e71557f70a667eca4cfd6b1743a89d45c64223fb455a45b333f48de"
+    },
+    {
+      "file": "LEVERUSDT-1d-2024-04.zip",
+      "sha256": "56e7c062cada2bb6eb1354f3ea3c7de217b2893967a1733b44c8fb04e3546927"
+    },
+    {
+      "file": "LEVERUSDT-1d-2024-05.zip",
+      "sha256": "fa704b0f75c6a0073940848b908d4af8c2ce99ff99de3f7fc84a7c67edea1692"
+    },
+    {
+      "file": "LEVERUSDT-1d-2024-06.zip",
+      "sha256": "eab55de8b52273e977a911825706ffddf154733cfcf16b2538871550f5f98fc5"
+    },
+    {
+      "file": "LEVERUSDT-1d-2024-07.zip",
+      "sha256": "e4666c77e9a989830f0ff36ffbceb8b5d745e606d4a5b8ea7c14f8e2b53dc8a6"
+    },
+    {
+      "file": "LEVERUSDT-1d-2024-08.zip",
+      "sha256": "0a331a52894d11e8b33fcd8e561f21466d3046c43dc2e2489b3f43926289dc03"
+    },
+    {
+      "file": "LEVERUSDT-1d-2024-09.zip",
+      "sha256": "d6e8a10154cf2b3e3ab586a5477a8d9d495ec0b62a41837d6d4daf351ce4e1af"
+    },
+    {
+      "file": "LEVERUSDT-1d-2024-10.zip",
+      "sha256": "917657c45035bd5a1b88b94932342c98c913be55e740452447104c7bebca54db"
+    },
+    {
+      "file": "LEVERUSDT-1d-2024-11.zip",
+      "sha256": "956608d08c9bf941e959d3906e92e9d9d6ae9b576c7a5ab44466ecc643c58efb"
+    },
+    {
+      "file": "LEVERUSDT-1d-2024-12.zip",
+      "sha256": "7fc7fcd1a98db332cf56f720b470aace606ccae3f84c9238b96ffb8f0b68c209"
+    },
+    {
+      "file": "LEVERUSDT-1d-2025-01.zip",
+      "sha256": "113cd1d9060bcc0c6b10cb5204ebca3056318e0df94dad52483755836873987a"
+    },
+    {
+      "file": "LEVERUSDT-1d-2025-02.zip",
+      "sha256": "2e1b8126accb515e0cca29c4685096faeea8143ca9a56d5e9623d28acf152f31"
+    },
+    {
+      "file": "LEVERUSDT-1d-2025-03.zip",
+      "sha256": "b8ba92f75bb260d599a6822e81ad8627b5293113c91e7041fc86be8f3b10a6b8"
+    },
+    {
+      "file": "LEVERUSDT-1d-2025-04.zip",
+      "sha256": "5bc1804fc2ca641a3163b821c1d0a46e9e07c939c5ec81853a3bd75340ba0330"
+    },
+    {
+      "file": "LEVERUSDT-1d-2025-05.zip",
+      "sha256": "546cd29383570a7d673f3583b57c6e5bc34f609822345f401a17ba90144aee69"
+    },
+    {
+      "file": "LEVERUSDT-1d-2025-06.zip",
+      "sha256": "48bcee9e947f1ca82777e31975399228ea85c969e151d75ac10518589938c213"
+    },
+    {
+      "file": "LEVERUSDT-1d-2025-07.zip",
+      "sha256": "c01589aaa4c8e629b40518c7a0c2f632d7220a68bce9972cae0f1c9688e9f2ed"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

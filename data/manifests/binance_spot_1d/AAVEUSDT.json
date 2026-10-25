@@ -1,0 +1,313 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/AAVEUSDT/1d/",
+  "instrument": "AAVEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-10-15",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:24:54+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2177,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "AAVEUSDT-1d-2020-10.zip",
+      "sha256": "f864aac59f391d9511ecfb5d6e2ba5a1e6298efe944d17e9465d3c5a5089b298"
+    },
+    {
+      "file": "AAVEUSDT-1d-2020-11.zip",
+      "sha256": "ddf47c93657490757b82303b9da5ce5cfea9744db85de56ed1bcc78c57841b5b"
+    },
+    {
+      "file": "AAVEUSDT-1d-2020-12.zip",
+      "sha256": "999bc5188822fc73c79e33d1a7912a112c2f6a8793c770dea653cd083c4733db"
+    },
+    {
+      "file": "AAVEUSDT-1d-2021-01.zip",
+      "sha256": "cf9bcd99b66d4e1f77c805c4be9314ac69b2a47507915d03a674eb1fc819d7ba"
+    },
+    {
+      "file": "AAVEUSDT-1d-2021-02.zip",
+      "sha256": "00918fa83e84e20602c08f80be0969d313478adc0fcbbb2297ea4a7651f828a0"
+    },
+    {
+      "file": "AAVEUSDT-1d-2021-03.zip",
+      "sha256": "01936c67fcd93c3d9a2b147496559e7baaa497d5442aaa53b0b27b8c74b2fd47"
+    },
+    {
+      "file": "AAVEUSDT-1d-2021-04.zip",
+      "sha256": "2cc5bfcdcb389e7dc71c3e7373277de2963d9e62bb62c49c1ee2fc7c58501935"
+    },
+    {
+      "file": "AAVEUSDT-1d-2021-05.zip",
+      "sha256": "8cffa27664465ac99061879e00206a014514ebd59d53bc8194859dc8a2b7141b"
+    },
+    {
+      "file": "AAVEUSDT-1d-2021-06.zip",
+      "sha256": "7514c7262c1a2639496f8992be0ca567c8998e6c604ce3a05677f5be0107a4c1"
+    },
+    {
+      "file": "AAVEUSDT-1d-2021-07.zip",
+      "sha256": "d3754074d4a1a718914d4f696af56f8ab782704a8f9e92a6f135a4f13b82c654"
+    },
+    {
+      "file": "AAVEUSDT-1d-2021-08.zip",
+      "sha256": "ddc8905572d7bc6975de509fbe911bdbc518d3dc92503354c129be9468d60c27"
+    },
+    {
+      "file": "AAVEUSDT-1d-2021-09.zip",
+      "sha256": "3adf2b092e94b333ce9de1c85c074f069e91c399a859482d1e19b6ae4ff9c46c"
+    },
+    {
+      "file": "AAVEUSDT-1d-2021-10.zip",
+      "sha256": "45bf90c61e002ee03233a9848008f6f7b7f5dc8b9299f09ce2787a3af456d5f1"
+    },
+    {
+      "file": "AAVEUSDT-1d-2021-11.zip",
+      "sha256": "e9b3283fc6e4d5fa216af2c1361612b9b080cf90a1a196df6d5057ce56afc974"
+    },
+    {
+      "file": "AAVEUSDT-1d-2021-12.zip",
+      "sha256": "a2cc64068cda99dc91b7282f36ad2821f6774cf495d2597b1974b9f18540279a"
+    },
+    {
+      "file": "AAVEUSDT-1d-2022-01.zip",
+      "sha256": "09d5e3eb1e22dcc636050dbc5314cc041d12f449bd21986ff7b88f1568823445"
+    },
+    {
+      "file": "AAVEUSDT-1d-2022-02.zip",
+      "sha256": "ff3d45f985adce3de128897e7ba284788729bd7815d378752f830e035204ee41"
+    },
+    {
+      "file": "AAVEUSDT-1d-2022-03.zip",
+      "sha256": "0b15b3d3f452bd6600be01bddbc0e207653c72b09c25afdcddaf27e6257c17b6"
+    },
+    {
+      "file": "AAVEUSDT-1d-2022-04.zip",
+      "sha256": "a712e06d34bbb74dba587a3993b092de7917dfc4e417bdc4ea20134136060344"
+    },
+    {
+      "file": "AAVEUSDT-1d-2022-05.zip",
+      "sha256": "797f031ee40340161ee44ef52c0b49c66f466509439eb6804e35acb4645503f1"
+    },
+    {
+      "file": "AAVEUSDT-1d-2022-06.zip",
+      "sha256": "ca195addbf59cdffdd71fa59e4d12513f2034ce1b59fd5548a78042875dec897"
+    },
+    {
+      "file": "AAVEUSDT-1d-2022-07.zip",
+      "sha256": "a1479a0bcaa01ddec6b54dfe2df75b124856cfd6aa1c368f4c3e0973fe1079e9"
+    },
+    {
+      "file": "AAVEUSDT-1d-2022-08.zip",
+      "sha256": "ca03ff215d164b55e9d9a4f72ada95746a11c26a242de4fb2e08735a327a5d8a"
+    },
+    {
+      "file": "AAVEUSDT-1d-2022-09.zip",
+      "sha256": "4b6d1694a8e78227bb6d2c529bb5dd3cd0f26a0dfb2dbd2b08c261b8ad43eeae"
+    },
+    {
+      "file": "AAVEUSDT-1d-2022-10.zip",
+      "sha256": "2586f76fe71fc468ad133a8ed21d879f5467c7a16a02f66317791c7e18dad423"
+    },
+    {
+      "file": "AAVEUSDT-1d-2022-11.zip",
+      "sha256": "649cfd2e1348311f66b6b0c286d9e2495cfc4d243d7e75bc7fbe017dc2579f2a"
+    },
+    {
+      "file": "AAVEUSDT-1d-2022-12.zip",
+      "sha256": "f0fa21076782ed2765714c548422cbe71c7c77f5bb5bf0ad05f6678c8cac479b"
+    },
+    {
+      "file": "AAVEUSDT-1d-2023-01.zip",
+      "sha256": "f5fe0583bed92652e6344b3d1143363462de30b34e26adf80df8ccb16f31fe5a"
+    },
+    {
+      "file": "AAVEUSDT-1d-2023-02.zip",
+      "sha256": "d92e54ebfcac90403f2bfee3eb8844479baf8c24d1bf9ce8fed073291ba7ba1d"
+    },
+    {
+      "file": "AAVEUSDT-1d-2023-03.zip",
+      "sha256": "3e69d124656f275feb2173f43d6b61f0d74cbb5f94e11d893973fc912153f776"
+    },
+    {
+      "file": "AAVEUSDT-1d-2023-04.zip",
+      "sha256": "e73b571c96a60b4fa5f99c6527be7b7c98f282496447e99e341ef851e00f3a4c"
+    },
+    {
+      "file": "AAVEUSDT-1d-2023-05.zip",
+      "sha256": "be013907d6e812f9c29f48e37b0205b99d350c6cc62d8a82c2e914eb54a2e08d"
+    },
+    {
+      "file": "AAVEUSDT-1d-2023-06.zip",
+      "sha256": "7ebf2aa0b127866a21bce1bd2b76fa2f2523d07dcb8dc16330966faed7a3b15c"
+    },
+    {
+      "file": "AAVEUSDT-1d-2023-07.zip",
+      "sha256": "894d79425cc86d8c622b26ef2e8c4e48fd8c39427e15b6e6e4f1b1d8d771f7fe"
+    },
+    {
+      "file": "AAVEUSDT-1d-2023-08.zip",
+      "sha256": "07016a17bb06fafc0e72d34170cd27faeac0ed84b267bfb8c3bdd6803f46ace7"
+    },
+    {
+      "file": "AAVEUSDT-1d-2023-09.zip",
+      "sha256": "6eb2441eff9fc1ed12337e7e94038635c0b2e6318291bcc74c8f195c03c83f43"
+    },
+    {
+      "file": "AAVEUSDT-1d-2023-10.zip",
+      "sha256": "c1aee0deefbc8214dcb9307c34553dcac06bb73bdaa88f7c66e0eee783c8ca7d"
+    },
+    {
+      "file": "AAVEUSDT-1d-2023-11.zip",
+      "sha256": "c84243ffb3e1920e22e8f5b0a3ce7cf817753fbdceba432bca751be01f9bc948"
+    },
+    {
+      "file": "AAVEUSDT-1d-2023-12.zip",
+      "sha256": "7404eee0c48c6c126e4440472511a07bad90663ff28c43f5c34f98564dc12e34"
+    },
+    {
+      "file": "AAVEUSDT-1d-2024-01.zip",
+      "sha256": "963f8c07a577e2f751b7b7c76f91f083125e2e266bb4f0f4e3057f7c01737878"
+    },
+    {
+      "file": "AAVEUSDT-1d-2024-02.zip",
+      "sha256": "f73f582c1789a5694c49073834b89c1ec7ea593ff72c24069f61c6fc837cfb68"
+    },
+    {
+      "file": "AAVEUSDT-1d-2024-03.zip",
+      "sha256": "3b2ce1884c3cf8b06a8cc43e25fed42ee81401f51aa0ad11a8827378d8e427d9"
+    },
+    {
+      "file": "AAVEUSDT-1d-2024-04.zip",
+      "sha256": "83e11ebe9cafc3706d88246042adb4e388f410d7bae699209fdc5256372104bf"
+    },
+    {
+      "file": "AAVEUSDT-1d-2024-05.zip",
+      "sha256": "2ec7f05a22d96fbab13ef5bdf47e9093fbeb8812dbf82f9be653fe020e08f20f"
+    },
+    {
+      "file": "AAVEUSDT-1d-2024-06.zip",
+      "sha256": "2f3fbbdf76944073000157529e4a1ace998f9275fd4f5ae76d57fa45b922c453"
+    },
+    {
+      "file": "AAVEUSDT-1d-2024-07.zip",
+      "sha256": "b56cb6eec61195f0ecf45a9bbb4c8579872539eb33127bde105bf3035392ec22"
+    },
+    {
+      "file": "AAVEUSDT-1d-2024-08.zip",
+      "sha256": "262081cfd0070b10ce6c23fa4a4a799ba6e050931a30b1fa6ab2d27bbcf57460"
+    },
+    {
+      "file": "AAVEUSDT-1d-2024-09.zip",
+      "sha256": "1a284e51d0634d35c0a0c4b226051c3814370b016a49bea8cadff730968de307"
+    },
+    {
+      "file": "AAVEUSDT-1d-2024-10.zip",
+      "sha256": "a130d7f1b5d9b7e18180afcd246ec0673cc6a12c92813ffc16c348a2747e2377"
+    },
+    {
+      "file": "AAVEUSDT-1d-2024-11.zip",
+      "sha256": "2404e4b0fc4cbe42f903909b6e117e6ee9da8aae40ae515c7b12e7f83793bb01"
+    },
+    {
+      "file": "AAVEUSDT-1d-2024-12.zip",
+      "sha256": "7bea5ff9baea16baa3c6024005a71aac3ae9b927deaee6ae49a68ab27cf58440"
+    },
+    {
+      "file": "AAVEUSDT-1d-2025-01.zip",
+      "sha256": "e7c36e93bb2085b55772e4c0d97e3d636eb9c3456f0e7590b7cd0a64bcb299d7"
+    },
+    {
+      "file": "AAVEUSDT-1d-2025-02.zip",
+      "sha256": "b1c1a333744eb452bfd68193871fc5d8acc5f81a9b66f0d722a8ecf771e4f227"
+    },
+    {
+      "file": "AAVEUSDT-1d-2025-03.zip",
+      "sha256": "abf5f29d7855e6513e5ee942cbb4d6a1d72873161e2a5a752db13bf017a24a58"
+    },
+    {
+      "file": "AAVEUSDT-1d-2025-04.zip",
+      "sha256": "ba35933054f1d75c3e9bc982dbf6582bc50316bd5a00a9702665615bd06c7a8a"
+    },
+    {
+      "file": "AAVEUSDT-1d-2025-05.zip",
+      "sha256": "4272cd241a1ab72fb0a4db70b4f91b7af416f14c82676bd7876453b04d2ad81b"
+    },
+    {
+      "file": "AAVEUSDT-1d-2025-06.zip",
+      "sha256": "5c787b7aa4f71413be7b5d62a38a06f40c8c9ea905a6907f22f6f580f6877f97"
+    },
+    {
+      "file": "AAVEUSDT-1d-2025-07.zip",
+      "sha256": "0daef1951e09761f639a75f24d9a4104fee8ecd9578ec40cc73e73359e14de2e"
+    },
+    {
+      "file": "AAVEUSDT-1d-2025-08.zip",
+      "sha256": "f2456b45cf120fa83f94d4cbe5b89b84393c5e7da128d8e6c387d524fcfd5945"
+    },
+    {
+      "file": "AAVEUSDT-1d-2025-09.zip",
+      "sha256": "da91d79dc2cb4c3c4694f3bf42d2b7df014a9048dae3dbe2239011225788f286"
+    },
+    {
+      "file": "AAVEUSDT-1d-2025-10.zip",
+      "sha256": "115baff193e81d09ec6c6ad5bdedc182c0a3f7ef56f9fc5a5e3deb617e0b6586"
+    },
+    {
+      "file": "AAVEUSDT-1d-2025-11.zip",
+      "sha256": "3f443b222a7002ee969f0c4058ede99c29d74664c40f24e0f80fe0205b65e427"
+    },
+    {
+      "file": "AAVEUSDT-1d-2025-12.zip",
+      "sha256": "368718bef96df895c7a386b636f74a3d15813c101c3c2bfa5e65271b1e936db9"
+    },
+    {
+      "file": "AAVEUSDT-1d-2026-01.zip",
+      "sha256": "42c399cefbbb65e8d7e5f9c12680b6a3122dd911f566b1b414bbd8e0262d05f5"
+    },
+    {
+      "file": "AAVEUSDT-1d-2026-02.zip",
+      "sha256": "df04af1ed44bff5474e86f3d80e14a08e5ec5eb79711ab22cc5bb1d72488ee46"
+    },
+    {
+      "file": "AAVEUSDT-1d-2026-03.zip",
+      "sha256": "f775de7c5749f33cb2da9ba97cc28676a971bda29ca401e9333bd2f200954df8"
+    },
+    {
+      "file": "AAVEUSDT-1d-2026-04.zip",
+      "sha256": "15f510ad1554f0f65a902a42c05ddef957cad3a7b14efcb883d05919384078c0"
+    },
+    {
+      "file": "AAVEUSDT-1d-2026-05.zip",
+      "sha256": "88825c95d1627c7eab6fb4caab6ae985b3a16e0b502e1c7ccb799aa529eb2dd5"
+    },
+    {
+      "file": "AAVEUSDT-1d-2026-06.zip",
+      "sha256": "8d617ed0ac6277c762291290b54642f116c0ca1863a2940960f2748ce9931465"
+    },
+    {
+      "file": "AAVEUSDT-1d-2026-07.zip",
+      "sha256": "aa872d74f5f8b3265ded478e0da9dd751f66b42db0cbc694c94c4e9db9088d82"
+    },
+    {
+      "file": "AAVEUSDT-1d-2026-08.zip",
+      "sha256": "c956367432720cd583db8eb34bb1dc347199a63b1847da315a579085bfcb462d"
+    },
+    {
+      "file": "AAVEUSDT-1d-2026-09.zip",
+      "sha256": "d6b184a931e1dce390ceb183def832ce39121479ceb7fc3e0b91540d4899e590"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

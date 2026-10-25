@@ -1,0 +1,297 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/CAKEUSDT/1d/",
+  "instrument": "CAKEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-02-19",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:29:32+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2050,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "CAKEUSDT-1d-2021-02.zip",
+      "sha256": "51b946e98d83f4bf06ed733d5c307aab6860f849759dd2ea30e5f368bb728340"
+    },
+    {
+      "file": "CAKEUSDT-1d-2021-03.zip",
+      "sha256": "ad65a38f3225a1ed0d61cdef27e6eeda815424c18bc2f4458b61e596f95b7eae"
+    },
+    {
+      "file": "CAKEUSDT-1d-2021-04.zip",
+      "sha256": "c015374361fb5f08e119a38e1bb8cfed34b79410531ac12d8c4b8e237bb20180"
+    },
+    {
+      "file": "CAKEUSDT-1d-2021-05.zip",
+      "sha256": "70fe8fbdf50501b80a8ee63d070c9b62c9eb8a309d586ddcebf86ef4b8ab6902"
+    },
+    {
+      "file": "CAKEUSDT-1d-2021-06.zip",
+      "sha256": "db9d1da849925db2ae2f385fd345c28a03e425e38c3aeeb582ac52f168b02a41"
+    },
+    {
+      "file": "CAKEUSDT-1d-2021-07.zip",
+      "sha256": "ce4ed96e3b8299c4cb36dc5cfcbf2d6b66bc0e710b781ee8fd8466f9ec70fb06"
+    },
+    {
+      "file": "CAKEUSDT-1d-2021-08.zip",
+      "sha256": "2c0d5037e043e9149248fc8b9d7baa3e712168dc5a37d524f06373b7cab2f4be"
+    },
+    {
+      "file": "CAKEUSDT-1d-2021-09.zip",
+      "sha256": "2b52d46d70967a23b121577270fa7e58ed134d6b9c91e72974a296f0b2725894"
+    },
+    {
+      "file": "CAKEUSDT-1d-2021-10.zip",
+      "sha256": "3170cbe47a78d8c0847bb883773d74eee3203d949b6bf392d62e74418c63061b"
+    },
+    {
+      "file": "CAKEUSDT-1d-2021-11.zip",
+      "sha256": "d04fb32a1ec6f64e7fe4074d4db25f1430d175771c3d6a5e6f7ceb3949416420"
+    },
+    {
+      "file": "CAKEUSDT-1d-2021-12.zip",
+      "sha256": "c5e66d2c10870d90eda46718008b94456229d787d566f4bcf6db3ce78858c66d"
+    },
+    {
+      "file": "CAKEUSDT-1d-2022-01.zip",
+      "sha256": "c96c6a478f18a632af47b9dd430f134dff4e6a842505881be5b91971057148d1"
+    },
+    {
+      "file": "CAKEUSDT-1d-2022-02.zip",
+      "sha256": "eaf806d3a316132431c6f2fa125e98f1126204e801b53df4fb77770963fd342c"
+    },
+    {
+      "file": "CAKEUSDT-1d-2022-03.zip",
+      "sha256": "f2a745d03c0b3daa0f0143224eb845892c66d07554a5bdd3e8fce635bc786177"
+    },
+    {
+      "file": "CAKEUSDT-1d-2022-04.zip",
+      "sha256": "dda214f9d3615d21b6eed00cc7515c61c4853d7757c3a3bdca2cf009d8f1eabd"
+    },
+    {
+      "file": "CAKEUSDT-1d-2022-05.zip",
+      "sha256": "c684ca0ceb8ac96202fbbdc81c7a90bfb3bfa103bc1ca5902bdbdcc9610b2d3a"
+    },
+    {
+      "file": "CAKEUSDT-1d-2022-06.zip",
+      "sha256": "5faea110d5868a4581c5ed3bea6adbea96147f478ddb3b6f036474e909f441bb"
+    },
+    {
+      "file": "CAKEUSDT-1d-2022-07.zip",
+      "sha256": "b4a9e0b49ba24cc88880002f0f5ad74510de46ae0c9b3bf6221eee855b542eb8"
+    },
+    {
+      "file": "CAKEUSDT-1d-2022-08.zip",
+      "sha256": "4a9a56b3c4fd0a4d42df754ef1ea4ee56826e32428056c09410cc0eb8e67c450"
+    },
+    {
+      "file": "CAKEUSDT-1d-2022-09.zip",
+      "sha256": "0a8c3dac6b81da31217a8a2f4afab029cb44cde3e16d3222947fd318a1f26738"
+    },
+    {
+      "file": "CAKEUSDT-1d-2022-10.zip",
+      "sha256": "2d162763e37cb53efa5fd77126bc0f28ba25a4afd88e48dea550dd2bbb00494d"
+    },
+    {
+      "file": "CAKEUSDT-1d-2022-11.zip",
+      "sha256": "6d0cfe8c8ba24e0c950a7a8cfa89a75a8bce7bbdcc6461cea0ea67029eae65c6"
+    },
+    {
+      "file": "CAKEUSDT-1d-2022-12.zip",
+      "sha256": "6e7c21b0a5184df611149c4716679ed93ab309b792f9be895eafdcecedc0acdc"
+    },
+    {
+      "file": "CAKEUSDT-1d-2023-01.zip",
+      "sha256": "47688ee7fe9db5bd4990210848a454a272272ad6294787b0781f18fa3812b907"
+    },
+    {
+      "file": "CAKEUSDT-1d-2023-02.zip",
+      "sha256": "048670a94eaf7b06b5e1855a341ea00f67e1e6b44a2521ee069ff68cf8659d3d"
+    },
+    {
+      "file": "CAKEUSDT-1d-2023-03.zip",
+      "sha256": "017e73f5adcbd465365d14888e4cdc686a2669e6eccf9d9ce292a8b9256fb45b"
+    },
+    {
+      "file": "CAKEUSDT-1d-2023-04.zip",
+      "sha256": "58efa278559346fd9b7a0dd1e62526e4a1a086685ad5a91e98ad356b46af5777"
+    },
+    {
+      "file": "CAKEUSDT-1d-2023-05.zip",
+      "sha256": "bfa2d758c61cad68441e20feef847191c8df0c0566f489b91e631e4813891719"
+    },
+    {
+      "file": "CAKEUSDT-1d-2023-06.zip",
+      "sha256": "fda6c58d96ee6087c3b8bd3f425c2402aac7c1bb40e3158c9cd833ee4ea800c0"
+    },
+    {
+      "file": "CAKEUSDT-1d-2023-07.zip",
+      "sha256": "098bd8de4af534da468d41c9be01e77fa2e3a6423e5a49bf1d11d8b49c0c5dbe"
+    },
+    {
+      "file": "CAKEUSDT-1d-2023-08.zip",
+      "sha256": "72ac7e1beb665ba1eff7b5d0571e6a4fa3ad5390c23a7fb8e1008774c1a0d9e6"
+    },
+    {
+      "file": "CAKEUSDT-1d-2023-09.zip",
+      "sha256": "24f338a8e4e521e15c793fba3e43e0d45d1bbc64285d7fc56864c5cc01fb4d62"
+    },
+    {
+      "file": "CAKEUSDT-1d-2023-10.zip",
+      "sha256": "8276d38ba960a3b90c702620baf738dd480a18f3742c6229cdb6a09621ea70aa"
+    },
+    {
+      "file": "CAKEUSDT-1d-2023-11.zip",
+      "sha256": "f620421b6f3b437bcdc61c9d8be33e0f996f7b81deaffb4be5b9d758231f38fd"
+    },
+    {
+      "file": "CAKEUSDT-1d-2023-12.zip",
+      "sha256": "2c8d9ed0afbe327ab88564895627ed68ec085e8885296fd224922a5d38fb41d6"
+    },
+    {
+      "file": "CAKEUSDT-1d-2024-01.zip",
+      "sha256": "7014306d2186f26fbe2f3b628db753004b492ad1a9be8e721f329edb51297b4c"
+    },
+    {
+      "file": "CAKEUSDT-1d-2024-02.zip",
+      "sha256": "5bd88f151e2c010405abf71fc88803a1e6fbc664e302257ed7a5a6dc8ee389ea"
+    },
+    {
+      "file": "CAKEUSDT-1d-2024-03.zip",
+      "sha256": "e03b93f56592367c14b78b4dbc6c0a08f6cb4008b9d0b45d95ed4613ba0f6e2b"
+    },
+    {
+      "file": "CAKEUSDT-1d-2024-04.zip",
+      "sha256": "463f96c0dcb3c7036f44171e5028781276c93a393e60e1704ce7f04fc4661e08"
+    },
+    {
+      "file": "CAKEUSDT-1d-2024-05.zip",
+      "sha256": "ceade41939b55f10442ecb4039488e46eeff39bbe974642fd510394e3bd15e09"
+    },
+    {
+      "file": "CAKEUSDT-1d-2024-06.zip",
+      "sha256": "fc7f930b521d352135b9d3cc5d66c4c8d5b482a93075c47f58f0fe7b9a17caee"
+    },
+    {
+      "file": "CAKEUSDT-1d-2024-07.zip",
+      "sha256": "0376de1a82f27cbeb0c327dd77fc05943baa8a4b94bd0893e7c4244b666ea371"
+    },
+    {
+      "file": "CAKEUSDT-1d-2024-08.zip",
+      "sha256": "14a8b12237bd60fd965e27891d63f745ba987d020e1bec9aa7534afd882edee3"
+    },
+    {
+      "file": "CAKEUSDT-1d-2024-09.zip",
+      "sha256": "0cced11cd17b0ba29337a673f513a34e898dda326525a0cfa7aa9cdfbbb59635"
+    },
+    {
+      "file": "CAKEUSDT-1d-2024-10.zip",
+      "sha256": "62d67e4000938beffb5d88ddd6b25b8c3cb7db00d90be00df0f8f4d8acc399b6"
+    },
+    {
+      "file": "CAKEUSDT-1d-2024-11.zip",
+      "sha256": "bde55b656381a3bfc3103991a63c1c1bf7080480e00d38c02cd7c39579271193"
+    },
+    {
+      "file": "CAKEUSDT-1d-2024-12.zip",
+      "sha256": "1f6a3194f3510cc342e6223f375ce170cac17ef31539030b86a87ed1ec504b48"
+    },
+    {
+      "file": "CAKEUSDT-1d-2025-01.zip",
+      "sha256": "42f19a632d900abddc6f320abed1101fc1541103ee396d9b55172798df7b927e"
+    },
+    {
+      "file": "CAKEUSDT-1d-2025-02.zip",
+      "sha256": "2cbddb0bef36dc96455a138a8cb4326ee846238650c1a1f70414071e3abe6a8b"
+    },
+    {
+      "file": "CAKEUSDT-1d-2025-03.zip",
+      "sha256": "ffd9837b5fb720aa86881355e09ada3f5d4623d7051431d969177e4bd5f0a0bc"
+    },
+    {
+      "file": "CAKEUSDT-1d-2025-04.zip",
+      "sha256": "08ef945bc9787dcbdf675aaf8453a8dd874fe5550610106e3b9133d684635e97"
+    },
+    {
+      "file": "CAKEUSDT-1d-2025-05.zip",
+      "sha256": "329fd9748bf9ee734fbf4a36dff9b71b0c07267e7b4b124f4fb71d696e5b3788"
+    },
+    {
+      "file": "CAKEUSDT-1d-2025-06.zip",
+      "sha256": "20430bce2f589842a9aa39721e3b17e1a3205c4a0645d5159f1d38fd452b2f03"
+    },
+    {
+      "file": "CAKEUSDT-1d-2025-07.zip",
+      "sha256": "0c0ad201ef54c3c4b6bd5022bf4938bfaf2979e145745c5cda6e1ad12cd72035"
+    },
+    {
+      "file": "CAKEUSDT-1d-2025-08.zip",
+      "sha256": "62f622cc24def0c71e58f8aba495ae8df1ca820ef4572b5cc885696336f108b1"
+    },
+    {
+      "file": "CAKEUSDT-1d-2025-09.zip",
+      "sha256": "26eb4d3d39f26c91f6bb0702f3c637b9d86ecaf56a5a46dc043f15c3aab3bb27"
+    },
+    {
+      "file": "CAKEUSDT-1d-2025-10.zip",
+      "sha256": "b0c046fa00da7a114bc0d51cc2010d47b63e31290090896cf43607a6030f0aea"
+    },
+    {
+      "file": "CAKEUSDT-1d-2025-11.zip",
+      "sha256": "5e80b950dc9c7597ecb459a80f04e88152f5a6d460a2995fea4c1fb268921371"
+    },
+    {
+      "file": "CAKEUSDT-1d-2025-12.zip",
+      "sha256": "b73e1e83adda3daba1c0aaf956441d6c0548976f77411237be89e79f094bd3ed"
+    },
+    {
+      "file": "CAKEUSDT-1d-2026-01.zip",
+      "sha256": "a408baa0bf3669685e2d13635a094690956215a343cee8b33a400a4214fdf323"
+    },
+    {
+      "file": "CAKEUSDT-1d-2026-02.zip",
+      "sha256": "2991988079c7e40d48e0fcb2f32ba07bf15e3ba5a519ea633e41bcf175dac7a8"
+    },
+    {
+      "file": "CAKEUSDT-1d-2026-03.zip",
+      "sha256": "31f09fe4bc7633720ce467089fe76af5340daf4efb3a617ed23efd8be55cb442"
+    },
+    {
+      "file": "CAKEUSDT-1d-2026-04.zip",
+      "sha256": "a0a864b7a3d6e40c984ac001b8ce53b2440c1d0ace8a4c173e56a83938c91291"
+    },
+    {
+      "file": "CAKEUSDT-1d-2026-05.zip",
+      "sha256": "de24ebbaf22c6dec60a58cc2bbe6cd17b15bf6747d3c4b5bcd0b662f5838ce8d"
+    },
+    {
+      "file": "CAKEUSDT-1d-2026-06.zip",
+      "sha256": "799306fa2fdc9f3c827c17f1e5ea23ccd3148c419c01f85e934433e1249ef725"
+    },
+    {
+      "file": "CAKEUSDT-1d-2026-07.zip",
+      "sha256": "54684cfcb05c62586e35ed912b81a92f22c6b78bded815581f9986936e3b5007"
+    },
+    {
+      "file": "CAKEUSDT-1d-2026-08.zip",
+      "sha256": "d854308acdbec78e25f83e5025b9d2b78c3b254cf912e7f8f589cc3d743d157a"
+    },
+    {
+      "file": "CAKEUSDT-1d-2026-09.zip",
+      "sha256": "939e8e43a2c823bb230613514cfa9b3eb4f68fccd947bf4c07c4af9ac9a870a0"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

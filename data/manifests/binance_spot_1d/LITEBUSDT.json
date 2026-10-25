@@ -1,0 +1,41 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/LITEBUSDT/1d/",
+  "instrument": "LITEBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-06-30",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:37:35+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 93,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "LITEBUSDT-1d-2026-06.zip",
+      "sha256": "79796ffcdfdf1e21714c5eee0cc7eb33053cd7a494b53a6e46121fe85fb646b5"
+    },
+    {
+      "file": "LITEBUSDT-1d-2026-07.zip",
+      "sha256": "2dd2eb9cf2733bf767aadd51097826b3c4daa0edfa622ff4549829df5457ac8d"
+    },
+    {
+      "file": "LITEBUSDT-1d-2026-08.zip",
+      "sha256": "c92c4554cd31ecf2f6bf964a20cde9252c759a727a422089ec1d8d3fb2980eea"
+    },
+    {
+      "file": "LITEBUSDT-1d-2026-09.zip",
+      "sha256": "b540aac915ae02fee30bc3198d521ebe8fd98cf5f236629d000d4c0ced1d8bc4"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

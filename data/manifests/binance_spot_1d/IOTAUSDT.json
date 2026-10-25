@@ -1,0 +1,429 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/IOTAUSDT/1d/",
+  "instrument": "IOTAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2018-05-31",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:37:01+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 3045,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "IOTAUSDT-1d-2018-05.zip",
+      "sha256": "e42a0075b27385f366900c35ea5b2b05f376d4ce41049cf216e40a493f6896f6"
+    },
+    {
+      "file": "IOTAUSDT-1d-2018-06.zip",
+      "sha256": "b3c9edd062bddc79c7dfca17ab05074f0432c33f8ec5a1214e2ac43621a5dc14"
+    },
+    {
+      "file": "IOTAUSDT-1d-2018-07.zip",
+      "sha256": "73c7a7f5a105561fbdd94103c93ee24161e8b31af5afd8b10f85f232d7d84864"
+    },
+    {
+      "file": "IOTAUSDT-1d-2018-08.zip",
+      "sha256": "28bbb4615457c80fe0f287e63d609ba19e9b2d15c2085cf057dfdfbbfe42ecc4"
+    },
+    {
+      "file": "IOTAUSDT-1d-2018-09.zip",
+      "sha256": "fc3977b1fee2aa2a3ca8d986e8c7f0934c2db00466edb641f3661e30863eff7e"
+    },
+    {
+      "file": "IOTAUSDT-1d-2018-10.zip",
+      "sha256": "280100154516a2d5120fa1025c7e1e5fa27e3432743809cb90ad1ff20ff4036b"
+    },
+    {
+      "file": "IOTAUSDT-1d-2018-11.zip",
+      "sha256": "b0498d8624787367c26c198f2db18284830fb46c65f378cb16b18ff9d2bc5baf"
+    },
+    {
+      "file": "IOTAUSDT-1d-2018-12.zip",
+      "sha256": "d146975ee8a36496636f43908145ac86a130a227f777b513946284984a95a018"
+    },
+    {
+      "file": "IOTAUSDT-1d-2019-01.zip",
+      "sha256": "e79b5aee38229904bc1596d665b020e29efceb8f9d2df44283c22580efd55b1c"
+    },
+    {
+      "file": "IOTAUSDT-1d-2019-02.zip",
+      "sha256": "9a023b20f4648cd589d6aa40eb68076e5e9ddd47aade3f46e97ab8bb67747355"
+    },
+    {
+      "file": "IOTAUSDT-1d-2019-03.zip",
+      "sha256": "212ea50717c1c33c22c246b3357df7cf0a9034149bbdb23d7f06dc0b0104093a"
+    },
+    {
+      "file": "IOTAUSDT-1d-2019-04.zip",
+      "sha256": "465d4371f94d0c0d0aa7e2b313cd870e1a12685bc7c4151479be0614e74baa78"
+    },
+    {
+      "file": "IOTAUSDT-1d-2019-05.zip",
+      "sha256": "53470af7398e120072870bbfa3f55b2a0c048f2cdca5c13e1a2dcc9bdde87e80"
+    },
+    {
+      "file": "IOTAUSDT-1d-2019-06.zip",
+      "sha256": "a1e5abe024d8eb8bbbc357be8a0d30ff7013d673f45211c239e411f1f01435ef"
+    },
+    {
+      "file": "IOTAUSDT-1d-2019-07.zip",
+      "sha256": "2432fc6a4c4b3836091d998cc9e55083dfae5d7d44fe79fb4e2fd99534dea6ec"
+    },
+    {
+      "file": "IOTAUSDT-1d-2019-08.zip",
+      "sha256": "553f66ac7793e65c5b2707d0d1251ee4040f6c5a4e38afdac8e82dce6e39d8f7"
+    },
+    {
+      "file": "IOTAUSDT-1d-2019-09.zip",
+      "sha256": "d67b07ae16e35e8b0222a6b13fb8926f4c8227af4bf8963b2273f1dddc451aac"
+    },
+    {
+      "file": "IOTAUSDT-1d-2019-10.zip",
+      "sha256": "7bb73898d0bbbf72079f120cc17dc18bf8d1125aba9557145627ce4f318167f5"
+    },
+    {
+      "file": "IOTAUSDT-1d-2019-11.zip",
+      "sha256": "fa5c639b0f407464e0c40fabe9ad453e0e1685fd39b4e16e18d6deb70155efc9"
+    },
+    {
+      "file": "IOTAUSDT-1d-2019-12.zip",
+      "sha256": "2a7113b3c37b16680933bb499b0c5a579ebcb41b0eff6b836386e14e68015ba1"
+    },
+    {
+      "file": "IOTAUSDT-1d-2020-01.zip",
+      "sha256": "356794dc40616d83ca56a6c7e9fcd0d1c787ea3aea5897f457e23a5cfd635b6c"
+    },
+    {
+      "file": "IOTAUSDT-1d-2020-02.zip",
+      "sha256": "1b195d55a03f8b9f4275c8ca63ec2d499be35c230a331ec393ba22d6018671f4"
+    },
+    {
+      "file": "IOTAUSDT-1d-2020-03.zip",
+      "sha256": "e03f066344249ae265b1959da795eab0714bce445765a11aa1b8b8e7469872ff"
+    },
+    {
+      "file": "IOTAUSDT-1d-2020-04.zip",
+      "sha256": "48b3ec44e579b59c8f2788fa9ad39df540723712e40bc95b6a30f5d57c4d5d3a"
+    },
+    {
+      "file": "IOTAUSDT-1d-2020-05.zip",
+      "sha256": "053fcf0436a482a9d972ce2d61f3ab71fae061800bb542e83c79189e865b5437"
+    },
+    {
+      "file": "IOTAUSDT-1d-2020-06.zip",
+      "sha256": "af12d810ac0d8e44460546eab469f23f9685e203eec802d72188477d42babc0b"
+    },
+    {
+      "file": "IOTAUSDT-1d-2020-07.zip",
+      "sha256": "0552de5dd66a62efe8443a5811947ad065a73e5b556caffa114b1ede3b0b44ac"
+    },
+    {
+      "file": "IOTAUSDT-1d-2020-08.zip",
+      "sha256": "7625bc87f51981b89c07601f93cd1e2fab5dff992be9700245e3f9ba5a20d712"
+    },
+    {
+      "file": "IOTAUSDT-1d-2020-09.zip",
+      "sha256": "23631e1f6b450d2c2bbeb2169bcd5b992fe9e3e0b546c9195c3b3b78d2e8373f"
+    },
+    {
+      "file": "IOTAUSDT-1d-2020-10.zip",
+      "sha256": "429e1b7e4854bf0be7a579a8fcd42cb60796fdc56d943103f2e265ac92297671"
+    },
+    {
+      "file": "IOTAUSDT-1d-2020-11.zip",
+      "sha256": "7a3239308b23041c5b3626a8bbacaaa7c0a694c2bd2134bbea5a7934382fb75b"
+    },
+    {
+      "file": "IOTAUSDT-1d-2020-12.zip",
+      "sha256": "9afa68e4f43aaf3e19636f8c4c8bd859725eb715db3858b202737039996af827"
+    },
+    {
+      "file": "IOTAUSDT-1d-2021-01.zip",
+      "sha256": "209a35b2f576ad1d3c30540094a76cdcbc236d8e226965597fb5fa644dce939e"
+    },
+    {
+      "file": "IOTAUSDT-1d-2021-02.zip",
+      "sha256": "c63897c2cb89f1281bebb595dff33cedc5a7e4dc37de6758efa877b5b9e8eb08"
+    },
+    {
+      "file": "IOTAUSDT-1d-2021-03.zip",
+      "sha256": "0ea3a01cfab3497ec1a6aa41f3cdde4677121394ee8c0a0cd9808d1c8a3a3349"
+    },
+    {
+      "file": "IOTAUSDT-1d-2021-04.zip",
+      "sha256": "d205ebb85f104d2654e04964e5956789b1f5dca2f68f55b5b8deed08ad767896"
+    },
+    {
+      "file": "IOTAUSDT-1d-2021-05.zip",
+      "sha256": "89e07f2e8946d0af20c1dcd32a14db688dcc285b958fa8ad363e91292f0df041"
+    },
+    {
+      "file": "IOTAUSDT-1d-2021-06.zip",
+      "sha256": "7970df6b45a5e0fdfb7f0857047674f2d6a49a11dea499096538fad1412e05ad"
+    },
+    {
+      "file": "IOTAUSDT-1d-2021-07.zip",
+      "sha256": "d61bef42bd15497a4368f15578022e2a39fb87a718a242329fbf1806e9c9ca61"
+    },
+    {
+      "file": "IOTAUSDT-1d-2021-08.zip",
+      "sha256": "08c3f9daf6827b68459e440a914f3a817f400a196998af844c16b9ceacb512dc"
+    },
+    {
+      "file": "IOTAUSDT-1d-2021-09.zip",
+      "sha256": "ca3bd0a76dc9117ccc5c8097e5e58cb8d91c632fdfb0927ca888bc2507db4538"
+    },
+    {
+      "file": "IOTAUSDT-1d-2021-10.zip",
+      "sha256": "655fbd24ba61c15b75315e4d0e5a9eb8560fac9d8a509153f365e47def4ebf37"
+    },
+    {
+      "file": "IOTAUSDT-1d-2021-11.zip",
+      "sha256": "9ace54cb91eaec608e205201713afe5922b2a24631581c279ba8cbe8ac8d7af7"
+    },
+    {
+      "file": "IOTAUSDT-1d-2021-12.zip",
+      "sha256": "9b39692d839cd6c6f141eab4a4af35e1099a774361d183291f5f6cade970fe88"
+    },
+    {
+      "file": "IOTAUSDT-1d-2022-01.zip",
+      "sha256": "369f19ecb22c3ea4788ab6ceab3c9a38827d76204f80ae6e51ab727c79516799"
+    },
+    {
+      "file": "IOTAUSDT-1d-2022-02.zip",
+      "sha256": "9a49c7ee4b9c448eab4823fabfcde561b534016fdf7ecdcc0ad1e8e759662962"
+    },
+    {
+      "file": "IOTAUSDT-1d-2022-03.zip",
+      "sha256": "a92f45bf864ac18c557fea119f6d7e2ec5c8e8dd0ae92abc9feb48a2021e205d"
+    },
+    {
+      "file": "IOTAUSDT-1d-2022-04.zip",
+      "sha256": "16ef7c373af55d17cd16b3528741c3a514eab86f08e7fd7ef0319a5b2a49a4ca"
+    },
+    {
+      "file": "IOTAUSDT-1d-2022-05.zip",
+      "sha256": "371a9f57a06899b045b29036a8c706ee4c704ee4a5b7a6c20542cf246e874267"
+    },
+    {
+      "file": "IOTAUSDT-1d-2022-06.zip",
+      "sha256": "8d5ea38fe13dcc1f438d9245cb174fb2a02a4f2d32bfc5a75ccc5020c7b180e8"
+    },
+    {
+      "file": "IOTAUSDT-1d-2022-07.zip",
+      "sha256": "c2aab5dc6c7e4c125e6479ad7ff7115250c7cde1ebaba439deb986069f40e3c9"
+    },
+    {
+      "file": "IOTAUSDT-1d-2022-08.zip",
+      "sha256": "53d245117f31c8aea98037ee36a078bc463855c1cfe88788b111dd157df49672"
+    },
+    {
+      "file": "IOTAUSDT-1d-2022-09.zip",
+      "sha256": "7c3052c050ead5642ed32c3ef83cd36485bc352f5d9dca23089fd04fe0a7cb62"
+    },
+    {
+      "file": "IOTAUSDT-1d-2022-10.zip",
+      "sha256": "17b477f6717264a0d09cf9e5387d0bd0e08e775453e6aa8c5a971dd8701fab59"
+    },
+    {
+      "file": "IOTAUSDT-1d-2022-11.zip",
+      "sha256": "ac0af7e1813bbaa7a9b296b09e20c483eb2337d37f6fe43b354e0adace5fd8b5"
+    },
+    {
+      "file": "IOTAUSDT-1d-2022-12.zip",
+      "sha256": "57a0a3b4b14734bebb757e57750841fd6b46fe0374014c0f50fa349cdc39f097"
+    },
+    {
+      "file": "IOTAUSDT-1d-2023-01.zip",
+      "sha256": "39460a9473d4edaa0b7d20726e64639ca9110f343abb8191bb5c2b055e1210d6"
+    },
+    {
+      "file": "IOTAUSDT-1d-2023-02.zip",
+      "sha256": "c0702b1f4e5ffac795e882640f0f138c9dc708a54805816eb813a2525c846860"
+    },
+    {
+      "file": "IOTAUSDT-1d-2023-03.zip",
+      "sha256": "28745edb85d7257983d4104805da4c1acecb242b101942806d620946f7e860f3"
+    },
+    {
+      "file": "IOTAUSDT-1d-2023-04.zip",
+      "sha256": "a515898afe0e9ee4a3fe9bf5a4c43499a6f9df1e52c7ebd6524400ec74fc1325"
+    },
+    {
+      "file": "IOTAUSDT-1d-2023-05.zip",
+      "sha256": "3ee40fe3dc96bcc63208953af027ed268fe49151325f8e58c8e02c0b441a8da1"
+    },
+    {
+      "file": "IOTAUSDT-1d-2023-06.zip",
+      "sha256": "25c6f84c784fea0262addce7f1fcc74e72778d4a1c148742e7214931cb79b871"
+    },
+    {
+      "file": "IOTAUSDT-1d-2023-07.zip",
+      "sha256": "06d73900f9d4a7efaa2f4b0bb6f5191a61acccc985295a88b5e80adcbcf8c8ea"
+    },
+    {
+      "file": "IOTAUSDT-1d-2023-08.zip",
+      "sha256": "5d3124deb1e55bcccc0d211c718765df73e19cbfb7e100fa0a9b80b713a751ef"
+    },
+    {
+      "file": "IOTAUSDT-1d-2023-09.zip",
+      "sha256": "2bdaec63d2e9f35b43a7b17b259d7460ee6d76c1f34760ccd09dad6a422b0210"
+    },
+    {
+      "file": "IOTAUSDT-1d-2023-10.zip",
+      "sha256": "8e785b0c96ec69a90771deaac9e38e6e9250032b87636db928f56e1b53173ec3"
+    },
+    {
+      "file": "IOTAUSDT-1d-2023-11.zip",
+      "sha256": "415810cd8a8f0f25cc08e19d94ed7828f26cdd7a5424f6cba7c7d946f5b35fe8"
+    },
+    {
+      "file": "IOTAUSDT-1d-2023-12.zip",
+      "sha256": "c86bf6f3014517576e4962d54dc7b468ceb9c428eed8c437f56d9c0d204bc1d8"
+    },
+    {
+      "file": "IOTAUSDT-1d-2024-01.zip",
+      "sha256": "6f875ed741ed2825fdbd80ca185dc2fa96dfc2695f85aa48028d6bba169b8b57"
+    },
+    {
+      "file": "IOTAUSDT-1d-2024-02.zip",
+      "sha256": "d868a6470f531db10024eae4088e86c0bb713df1bbce62a8974e8bdc90b80727"
+    },
+    {
+      "file": "IOTAUSDT-1d-2024-03.zip",
+      "sha256": "214923e08184568f06411836d393cadecb6e480b54be7600f5e742e6654a6f6f"
+    },
+    {
+      "file": "IOTAUSDT-1d-2024-04.zip",
+      "sha256": "562f549dfcd5f9955a3806b1c21182bc230e9fe3896e7bb450ca528e2c2fdc68"
+    },
+    {
+      "file": "IOTAUSDT-1d-2024-05.zip",
+      "sha256": "709b8e6b7ebdfa4acc571a457d23a92b9d5cd71d98ef7498240bbda367af60c9"
+    },
+    {
+      "file": "IOTAUSDT-1d-2024-06.zip",
+      "sha256": "e198798740f4eb9d332ab498819b06d1caebf32eaeb33adff6eb2f9d41147a05"
+    },
+    {
+      "file": "IOTAUSDT-1d-2024-07.zip",
+      "sha256": "52bd1b65c975c8938b2b6606d6156eae91a483c4b6e1ffe92f501940cbdce3d7"
+    },
+    {
+      "file": "IOTAUSDT-1d-2024-08.zip",
+      "sha256": "d456c2cbdccb8733a2e7f20676af09fd61d61bea03579685972e87962c84972f"
+    },
+    {
+      "file": "IOTAUSDT-1d-2024-09.zip",
+      "sha256": "7ed1efbd3737c3cf4793d44c9b5e8d27f378b5f673da46c5f0a734758c59e3f6"
+    },
+    {
+      "file": "IOTAUSDT-1d-2024-10.zip",
+      "sha256": "7406bd266a74b65d55af3b1cf9edafa1a9fd597393b744cf9c28fc866a113787"
+    },
+    {
+      "file": "IOTAUSDT-1d-2024-11.zip",
+      "sha256": "123980e42ad7f90136b17eaabb6f1523c2f3a06b0105eb3b29a14dad72e57b72"
+    },
+    {
+      "file": "IOTAUSDT-1d-2024-12.zip",
+      "sha256": "b5754f1cb80a72321e8ddea061dc7d010111d43ec51cbe9b0b849780990056d8"
+    },
+    {
+      "file": "IOTAUSDT-1d-2025-01.zip",
+      "sha256": "847ea9dd03d5dfa39c1faa0b55cb39b7e263e8fbfb409f88ada2f9a7e957abef"
+    },
+    {
+      "file": "IOTAUSDT-1d-2025-02.zip",
+      "sha256": "a413805d30504d3605566b7e947466fadeb4fcbe01c567969d34db994b784855"
+    },
+    {
+      "file": "IOTAUSDT-1d-2025-03.zip",
+      "sha256": "fe440ac9cd772b6a6386548c36a66c69404d3bb054ec217f7dd7cd00574a6305"
+    },
+    {
+      "file": "IOTAUSDT-1d-2025-04.zip",
+      "sha256": "e186f0bb53205ffd1445cec4e3a282ed15886daae3c9175c0782ced550afbdf8"
+    },
+    {
+      "file": "IOTAUSDT-1d-2025-05.zip",
+      "sha256": "dbae476bd4a4d17b4aeb45cc94594d0437de9375f2b924616b7e9175f32fe395"
+    },
+    {
+      "file": "IOTAUSDT-1d-2025-06.zip",
+      "sha256": "71a95de98b2ea70251950953e0c3cc48227de1a33595674fc9e917304b414fb6"
+    },
+    {
+      "file": "IOTAUSDT-1d-2025-07.zip",
+      "sha256": "0edb18cf532c17d68b5f0715b4ffc5021ac82ae1f821ffac8fa933c289f7bb2b"
+    },
+    {
+      "file": "IOTAUSDT-1d-2025-08.zip",
+      "sha256": "7c25a3cf6f19b41c38671dfec59ee627a48e0ac33e87588ffef3ded0a1af9506"
+    },
+    {
+      "file": "IOTAUSDT-1d-2025-09.zip",
+      "sha256": "61288ca70545c101fa1dc671f91b41092f0ce549993f7f4584fb20dff7cb3f9d"
+    },
+    {
+      "file": "IOTAUSDT-1d-2025-10.zip",
+      "sha256": "6944b711979771c1f474f877a2ccfe92ef3d18766c7e6fc0cf6148be039a3d42"
+    },
+    {
+      "file": "IOTAUSDT-1d-2025-11.zip",
+      "sha256": "4280849f85d06c3f384defdf196662c3a14f0b3d211c13bca5d1d1a4c8766d51"
+    },
+    {
+      "file": "IOTAUSDT-1d-2025-12.zip",
+      "sha256": "50b8fdef8b86508f0d1fc1ab34b083ab7b7018390ed3926f1c9585e3a82b9335"
+    },
+    {
+      "file": "IOTAUSDT-1d-2026-01.zip",
+      "sha256": "a5a1237d380173ed46f6298568c0dc7dea5ca4c842c95d6bba48eff1e6f7025b"
+    },
+    {
+      "file": "IOTAUSDT-1d-2026-02.zip",
+      "sha256": "d8513831a59aec60d4fddf3010347933b337e999f9fdcc176ab795591057e51b"
+    },
+    {
+      "file": "IOTAUSDT-1d-2026-03.zip",
+      "sha256": "97b9312d5ecde43c71257ac29f95064eee40e9dbc31ebeb07339cc228142609d"
+    },
+    {
+      "file": "IOTAUSDT-1d-2026-04.zip",
+      "sha256": "0b751cacf129bf9a3326251da190f92af3bbefc52f2deff8ef74ce6ecc8d238e"
+    },
+    {
+      "file": "IOTAUSDT-1d-2026-05.zip",
+      "sha256": "898d47ed3e7ecd32fa0907a0cce3f2e45d12c1d3880424745b6757a9b9fd6e41"
+    },
+    {
+      "file": "IOTAUSDT-1d-2026-06.zip",
+      "sha256": "9e87ea92dd9d975e229e264b62f938f5466380f360f0c38968de575fae34ed32"
+    },
+    {
+      "file": "IOTAUSDT-1d-2026-07.zip",
+      "sha256": "bc228977870987144666b0e8b60fd997d3b37e09d2523ec5e60781cc917b125d"
+    },
+    {
+      "file": "IOTAUSDT-1d-2026-08.zip",
+      "sha256": "caa24cb62a145e11cd558ee13a964920e66e5621b6196d4378fdfcff093ab2e8"
+    },
+    {
+      "file": "IOTAUSDT-1d-2026-09.zip",
+      "sha256": "34641c45ae3643d163a9af37d9e25d5e066043a04356a56776b7c08a1155f39a"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

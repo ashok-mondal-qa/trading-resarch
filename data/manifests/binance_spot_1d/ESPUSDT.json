@@ -1,0 +1,57 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ESPUSDT/1d/",
+  "instrument": "ESPUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-02-12",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:32:23+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 231,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ESPUSDT-1d-2026-02.zip",
+      "sha256": "c85109c2ebe4c6b28a6b48c81f139be2d28f208557f0f7a842066504a791b77a"
+    },
+    {
+      "file": "ESPUSDT-1d-2026-03.zip",
+      "sha256": "dbcf44e970059db7ab03745e5d405275afaddd3818fef77190510cba5b6e87d5"
+    },
+    {
+      "file": "ESPUSDT-1d-2026-04.zip",
+      "sha256": "95463ad31913b82c57ae85b96864b7fbc205a5862c4c4b5e17b13b9ab72ba57e"
+    },
+    {
+      "file": "ESPUSDT-1d-2026-05.zip",
+      "sha256": "0e4fd4a25d92258adc9cb9a8d29eb03196b6667ad22c12387a5bdd3d98c85a9b"
+    },
+    {
+      "file": "ESPUSDT-1d-2026-06.zip",
+      "sha256": "6ea20b2ecbd54b756fb01e47c93ea9fbaacfe1220e483b3da9d91b34b87a1e84"
+    },
+    {
+      "file": "ESPUSDT-1d-2026-07.zip",
+      "sha256": "f52e2c6f6de1ac7c267fd8deaed1b255fb9d50d24e88947d6316cddf67f81fef"
+    },
+    {
+      "file": "ESPUSDT-1d-2026-08.zip",
+      "sha256": "8ec8295c5f8e1de1ecc6f21f769be8ad30b9ad26be9ea2b5fcccdce3de871c3c"
+    },
+    {
+      "file": "ESPUSDT-1d-2026-09.zip",
+      "sha256": "4c93c6cc01fcf29c97c06083a8877bafd6ff73a68f0f01c13aae73cdb997d7f6"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

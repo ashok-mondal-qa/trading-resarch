@@ -1,0 +1,237 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PERLUSDT/1d/",
+  "instrument": "PERLUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-08-26",
+  "last_bar": "2023-12-07",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:21+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1565,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PERLUSDT-1d-2019-08.zip",
+      "sha256": "2946c235f787850f8fe2d2e8e26d4e2e4a2fd02364f453d190fc8351467900d8"
+    },
+    {
+      "file": "PERLUSDT-1d-2019-09.zip",
+      "sha256": "1a8e468ee96be5e7ed52a6da4b53fed09458c159eb509b87dda145d3a838fd6e"
+    },
+    {
+      "file": "PERLUSDT-1d-2019-10.zip",
+      "sha256": "7b1d05cabd890a5ecd3745f2f4aa9cca3071e6e24b200e4ec860422b2cf30177"
+    },
+    {
+      "file": "PERLUSDT-1d-2019-11.zip",
+      "sha256": "a3b4bd6636f891bbde47b1baa1dfb56b419bd0f15b0e91fc9f0a829999180cd2"
+    },
+    {
+      "file": "PERLUSDT-1d-2019-12.zip",
+      "sha256": "4d58925c5e8c03a67ff8f38f228993935ecd78e7d0c907c9e00cc5ac92eb672c"
+    },
+    {
+      "file": "PERLUSDT-1d-2020-01.zip",
+      "sha256": "22b7cb2af57a3fd7f39fcb9f8f8ecaa55a0aec3ca35d45243a10bda26c431012"
+    },
+    {
+      "file": "PERLUSDT-1d-2020-02.zip",
+      "sha256": "20bf6ad7efda41cdbce0d8d1f6c802f8e4057f1a5bd88d671f9e0fba8a1cd177"
+    },
+    {
+      "file": "PERLUSDT-1d-2020-03.zip",
+      "sha256": "5426a8b322601e4499a5028096ca67c7cf74c9db84c8f30e434e4f332915a024"
+    },
+    {
+      "file": "PERLUSDT-1d-2020-04.zip",
+      "sha256": "ff68b46b99b344c341b2af24a338364025c0d40b8648f8f1091625fe4ea3c671"
+    },
+    {
+      "file": "PERLUSDT-1d-2020-05.zip",
+      "sha256": "5273d3384ed1830241c6be608c81b254762e24b67ac3cb3bc2964653baf80ee7"
+    },
+    {
+      "file": "PERLUSDT-1d-2020-06.zip",
+      "sha256": "02189259c605d0b6a41a8e893e88c55bd5d511326ad4dc89911dd728cbb20802"
+    },
+    {
+      "file": "PERLUSDT-1d-2020-07.zip",
+      "sha256": "45b780f743745daa7fe61a634b4bd6891f94ddc22d1d506a2c4bde7e9cea1f4e"
+    },
+    {
+      "file": "PERLUSDT-1d-2020-08.zip",
+      "sha256": "97060736c763b7ac21d64aabc003586a77bc416c2db9ef1ddf66bd9899b8d52c"
+    },
+    {
+      "file": "PERLUSDT-1d-2020-09.zip",
+      "sha256": "4422799cc25a76d9e7573ba1a2f65f153d7337455b72aae59cc34c82eab97b54"
+    },
+    {
+      "file": "PERLUSDT-1d-2020-10.zip",
+      "sha256": "9a31f7f924c42ed5ba83195e87f3dfe321e50acaa1710ebecd8087c84b7765f6"
+    },
+    {
+      "file": "PERLUSDT-1d-2020-11.zip",
+      "sha256": "a4159509aeab2f583a58c6b107c61734527bd148c50a298c2c528aa4dc3af913"
+    },
+    {
+      "file": "PERLUSDT-1d-2020-12.zip",
+      "sha256": "da6b05425a513b0f17fc530c85bbf32ac644f0a48d3be26f39342c574622b2a4"
+    },
+    {
+      "file": "PERLUSDT-1d-2021-01.zip",
+      "sha256": "cce98124fe444dfc7ec7928ab4c108f782b2da361aa41ddc53caf3362db3f9e1"
+    },
+    {
+      "file": "PERLUSDT-1d-2021-02.zip",
+      "sha256": "0332124f63aaaf64155afefe9106e194b8ea539f9169db40ba2ec1e8c5d2a303"
+    },
+    {
+      "file": "PERLUSDT-1d-2021-03.zip",
+      "sha256": "10ad720604786557dc43966e598e85e739c5b8b8d7b5413fa0b069dab646a272"
+    },
+    {
+      "file": "PERLUSDT-1d-2021-04.zip",
+      "sha256": "a9109b7cb99b0e4898f2739660299d32e11f7bfe9b27588d6fef94080af71acb"
+    },
+    {
+      "file": "PERLUSDT-1d-2021-05.zip",
+      "sha256": "786b79d1473818a8da7f0c289abd6370d5d1f5ea4e4b5d8c7d4b602a58d107ad"
+    },
+    {
+      "file": "PERLUSDT-1d-2021-06.zip",
+      "sha256": "3ba89e07c63512728bbd965078b43f0ee149da399a47043d096b23987603165a"
+    },
+    {
+      "file": "PERLUSDT-1d-2021-07.zip",
+      "sha256": "2630ee872446b6a70b8cb6f2b7fea26e039786c723c9335597ce4f6360b6c9ab"
+    },
+    {
+      "file": "PERLUSDT-1d-2021-08.zip",
+      "sha256": "4e38d946ef266dce5b707dc4dd9bfd19d0596369aaf5e564c3413ba27df5b622"
+    },
+    {
+      "file": "PERLUSDT-1d-2021-09.zip",
+      "sha256": "ce26a4d137fc5815a660bef9e0ea70a1b68bf6cc2ab4b651a73c25225de55b3d"
+    },
+    {
+      "file": "PERLUSDT-1d-2021-10.zip",
+      "sha256": "12678c720fa2948fe5675f1904de74e97f8869f76090694d3d690415e38c6aee"
+    },
+    {
+      "file": "PERLUSDT-1d-2021-11.zip",
+      "sha256": "df585135cbdec98a32f2fd8c1e2f20ecdaa7967c860729bb1a6ab9f058b5fa0d"
+    },
+    {
+      "file": "PERLUSDT-1d-2021-12.zip",
+      "sha256": "4471a43a2a7f7f2b662ee975498d7065fbea7fb22b8537419b374ba03e4339c1"
+    },
+    {
+      "file": "PERLUSDT-1d-2022-01.zip",
+      "sha256": "64ccf02bda74c2c71a090ba265771bbde129023aff5f79d9a4c8f818c4063672"
+    },
+    {
+      "file": "PERLUSDT-1d-2022-02.zip",
+      "sha256": "7284e12c66b137136f18c9a89cbca4f1b5a09199358345d13d996392314ff66e"
+    },
+    {
+      "file": "PERLUSDT-1d-2022-03.zip",
+      "sha256": "7ba50abfaeb058ce1de3682796fd1b6d6a61441a387adc96a2fb67039a5eb0fc"
+    },
+    {
+      "file": "PERLUSDT-1d-2022-04.zip",
+      "sha256": "f76af08ffeaf19b15a5cdb535f6a87c509746f540a906ff607dc4c1995286b45"
+    },
+    {
+      "file": "PERLUSDT-1d-2022-05.zip",
+      "sha256": "7fa14afff6ac484471ff1cd8891fefda8518173c9e20e8e53cb804ab75c7c9c1"
+    },
+    {
+      "file": "PERLUSDT-1d-2022-06.zip",
+      "sha256": "f590b31d0df6f64f1b0861e0c68697b0511a6ab7db4cf2009df30606f31561b2"
+    },
+    {
+      "file": "PERLUSDT-1d-2022-07.zip",
+      "sha256": "f10cdd92b83bdf57c1b60ce028c951516c3c8158c033162d5d9fc2d2dcfadd97"
+    },
+    {
+      "file": "PERLUSDT-1d-2022-08.zip",
+      "sha256": "fbecae5d23b98c43f49ccfedfcbe040a266a51a4fc7034e2b3f8d91f65b7ca7b"
+    },
+    {
+      "file": "PERLUSDT-1d-2022-09.zip",
+      "sha256": "9e54820258d8ec9dbe43d98cd1a5ad39308a255dd92f8d3b5409a44899f30040"
+    },
+    {
+      "file": "PERLUSDT-1d-2022-10.zip",
+      "sha256": "ebad20bfa0cf290a70f7ea3c1b991d019b6acd415a36c28816e92d501b254786"
+    },
+    {
+      "file": "PERLUSDT-1d-2022-11.zip",
+      "sha256": "67e110ff9dec81e662f11f87b814855a3ce9d2c8648be1452aa2dc2417414290"
+    },
+    {
+      "file": "PERLUSDT-1d-2022-12.zip",
+      "sha256": "959cc5257e301f0fd7502b6d532ef873c476078996249d4b13dd766e6a4254f6"
+    },
+    {
+      "file": "PERLUSDT-1d-2023-01.zip",
+      "sha256": "cbfbef5de2d2d0e05c202fe820c36d292da8afa14e48f8726ba90e15df507c39"
+    },
+    {
+      "file": "PERLUSDT-1d-2023-02.zip",
+      "sha256": "1cadcb8533249e63f57aaa81939b6f2161f4e7ef521ad4ed954f37ac3f0c9999"
+    },
+    {
+      "file": "PERLUSDT-1d-2023-03.zip",
+      "sha256": "ebc3623a53cfc23efd1b1c5e864d5d171874ea804bb75de7967a1aaa48e8acbf"
+    },
+    {
+      "file": "PERLUSDT-1d-2023-04.zip",
+      "sha256": "d65d17aff0e7d72f916a76106ad220a797f9ecea3b72dbb094f6ab3411641cff"
+    },
+    {
+      "file": "PERLUSDT-1d-2023-05.zip",
+      "sha256": "b501d567a4651095f98c45250c12ac1d310455d854371a2fb171837cac807b23"
+    },
+    {
+      "file": "PERLUSDT-1d-2023-06.zip",
+      "sha256": "8cfe6781b46c813be51cd0669116fdba787d0f3b029eb5809306d27f3497e235"
+    },
+    {
+      "file": "PERLUSDT-1d-2023-07.zip",
+      "sha256": "5a1aaebd85372778347c9ccd0d90dcf41700855422a539245882b737bcbb2087"
+    },
+    {
+      "file": "PERLUSDT-1d-2023-08.zip",
+      "sha256": "013688e06af61450161030eab96f63e02dfa69ff73ca4eaf84dfe42a3feea440"
+    },
+    {
+      "file": "PERLUSDT-1d-2023-09.zip",
+      "sha256": "ecb74e850a6c764d6a462d46f7bc6239b1097a13c4abebf2c291b31cbe818877"
+    },
+    {
+      "file": "PERLUSDT-1d-2023-10.zip",
+      "sha256": "b592bd2574b94b72a45f1ee65dcfff71addb209a6f589796f9f47e380429cb6d"
+    },
+    {
+      "file": "PERLUSDT-1d-2023-11.zip",
+      "sha256": "bcba505aa49ae015e4fda9ea5d7aacc0e4e92da6a182555e8d2e99983b455ba3"
+    },
+    {
+      "file": "PERLUSDT-1d-2023-12.zip",
+      "sha256": "0f2688ee339b9913122f94eae246f1a4390fb93d54b3ac3371eb17be2b9cf363"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

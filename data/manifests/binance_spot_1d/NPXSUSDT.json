@@ -1,0 +1,109 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/NPXSUSDT/1d/",
+  "instrument": "NPXSUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-08-13",
+  "last_bar": "2021-04-05",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:31+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 602,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "NPXSUSDT-1d-2019-08.zip",
+      "sha256": "5f67d060d9ec5fec02b3b4e6bcf5a3656948cdc151292bf4b564658a3894b793"
+    },
+    {
+      "file": "NPXSUSDT-1d-2019-09.zip",
+      "sha256": "0cc6fd9b70b2e064292ca385ad543900d5a8faaaefcc52273cbd11f37cfbd628"
+    },
+    {
+      "file": "NPXSUSDT-1d-2019-10.zip",
+      "sha256": "5ededd4f06359fe48af6f1c918216684732e56087da3447f905a67a5a258e243"
+    },
+    {
+      "file": "NPXSUSDT-1d-2019-11.zip",
+      "sha256": "e09bc42a62bfbbede1ef54b259e31d773ad3587b09b3cee0fc45719010b633cb"
+    },
+    {
+      "file": "NPXSUSDT-1d-2019-12.zip",
+      "sha256": "192d5f62d260f853e476c0c6f2b9b9425e62b123a7a6562f51456dba251786ea"
+    },
+    {
+      "file": "NPXSUSDT-1d-2020-01.zip",
+      "sha256": "438045679d813a73c78e817bef1f383bf844d3c5853aad2d7d630dea4ac6fb37"
+    },
+    {
+      "file": "NPXSUSDT-1d-2020-02.zip",
+      "sha256": "64a25b70d6e19ec768b892ba01e5ee107ab30ec15684fd4b7ebe40a415cba437"
+    },
+    {
+      "file": "NPXSUSDT-1d-2020-03.zip",
+      "sha256": "9a34ad3e836c124fb5d132abb0f0d3a27ac957257e0beec4de2606c8a82d6012"
+    },
+    {
+      "file": "NPXSUSDT-1d-2020-04.zip",
+      "sha256": "4b02d7b3431be3a3e60da356d2d2f426bfa5646c4b6960adb29a642ae0edbe96"
+    },
+    {
+      "file": "NPXSUSDT-1d-2020-05.zip",
+      "sha256": "8038bd8e413242fede5a54aee7fd7d7e5d7b9e3ab1ed75e1bb61cba046f8b85e"
+    },
+    {
+      "file": "NPXSUSDT-1d-2020-06.zip",
+      "sha256": "fd0d9ea876ee3bacba772ff19a4431b183e29b163c969db683560c38fc17f0cb"
+    },
+    {
+      "file": "NPXSUSDT-1d-2020-07.zip",
+      "sha256": "bb81d03ffdc25bf200c4912ccf6cf751a9b3eb638055203bca4163659df16af2"
+    },
+    {
+      "file": "NPXSUSDT-1d-2020-08.zip",
+      "sha256": "56693893bb034d21347db3fc3843ad039da92bbca1d8cf240ca9cd7d4bc7b252"
+    },
+    {
+      "file": "NPXSUSDT-1d-2020-09.zip",
+      "sha256": "52d0835fad35e5ee4f47acc04222eeb9f22178469b8ac6033bc636b334abd801"
+    },
+    {
+      "file": "NPXSUSDT-1d-2020-10.zip",
+      "sha256": "bc20acacb1983f7bd0b839656e8557b262ef0d20ffd3f034c0215942603fca14"
+    },
+    {
+      "file": "NPXSUSDT-1d-2020-11.zip",
+      "sha256": "0ef00a1a7bd5e59b85cceeb71856a606eb449a8143e1fc87cea8c1d93c42b223"
+    },
+    {
+      "file": "NPXSUSDT-1d-2020-12.zip",
+      "sha256": "fda10a49bb3ba600d4a93d25ac8ca39600d0573e085cfb24c76a5fe10185ee6b"
+    },
+    {
+      "file": "NPXSUSDT-1d-2021-01.zip",
+      "sha256": "18bf9ecf5f6922f768af37f6bf12854f783f531f721f7618676ed17e51f9790b"
+    },
+    {
+      "file": "NPXSUSDT-1d-2021-02.zip",
+      "sha256": "6dc4019e84d14e69d1e9038a0ab75ae813781ebafb588a8f2a49327cdf03a97e"
+    },
+    {
+      "file": "NPXSUSDT-1d-2021-03.zip",
+      "sha256": "32802997e1afe691e3873c7e8d2b18206bc8e5616eebda116a6a195cfe884098"
+    },
+    {
+      "file": "NPXSUSDT-1d-2021-04.zip",
+      "sha256": "8b6d1678cf1ec517f7cb8715fa27e47eb3db9366cc770c9ac22b5d16110746e4"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

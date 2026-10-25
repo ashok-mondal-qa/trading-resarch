@@ -1,0 +1,81 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/TOWNSUSDT/1d/",
+  "instrument": "TOWNSUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-08-05",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:47:03+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 422,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "TOWNSUSDT-1d-2025-08.zip",
+      "sha256": "5af8f044fd523c2d52da06dec5f6fce6402fa23363cf4f2a013fc031fda9a201"
+    },
+    {
+      "file": "TOWNSUSDT-1d-2025-09.zip",
+      "sha256": "30b93b905b2e745bd78660d438e8641fa7ad061bb8d8a3af8421c8eabeb3d19c"
+    },
+    {
+      "file": "TOWNSUSDT-1d-2025-10.zip",
+      "sha256": "34cf09b86f294630d49ca8fe756088e08e430b199340b8bfa6eb9fc040258e5e"
+    },
+    {
+      "file": "TOWNSUSDT-1d-2025-11.zip",
+      "sha256": "4cf2500a51c4954618f5b82f7953d8b9af973151c15448b9c17c3100fed99931"
+    },
+    {
+      "file": "TOWNSUSDT-1d-2025-12.zip",
+      "sha256": "5c250ebf04ce058d823dd84b62efb069173211fd4582cd05d1e8ec3d9cd9f1a0"
+    },
+    {
+      "file": "TOWNSUSDT-1d-2026-01.zip",
+      "sha256": "1181c9347beefa82031e2dfa82acee68264b8e7f32dbdc6e50f25386a17d9544"
+    },
+    {
+      "file": "TOWNSUSDT-1d-2026-02.zip",
+      "sha256": "d741ed31774a97840c41c53237e191d03b9dff58dfa684751be4c4f298580df9"
+    },
+    {
+      "file": "TOWNSUSDT-1d-2026-03.zip",
+      "sha256": "373825e8a2565bddda9f6da335f312f373c23fce4e133b52a0fb310896efc70b"
+    },
+    {
+      "file": "TOWNSUSDT-1d-2026-04.zip",
+      "sha256": "878991127e19f6d7f00c82cf63b7bb5da0835b484240c558a58af7f785684fb4"
+    },
+    {
+      "file": "TOWNSUSDT-1d-2026-05.zip",
+      "sha256": "9932375a3fe7b2dd582a1b32b56338b275d840ea8edd035987eb68464db6309b"
+    },
+    {
+      "file": "TOWNSUSDT-1d-2026-06.zip",
+      "sha256": "0e18da1f36bdc4135efe0bb35499a0db398b4a64367be13e218bdcbb5b97244e"
+    },
+    {
+      "file": "TOWNSUSDT-1d-2026-07.zip",
+      "sha256": "e454ddf3716e69cb607406735cc7e2835f1c942721b9ca0f3fc3057c41925c12"
+    },
+    {
+      "file": "TOWNSUSDT-1d-2026-08.zip",
+      "sha256": "0a4919e923b7f47bfd86cdfde56c9e202cf5011d35299496b193eba25d38a984"
+    },
+    {
+      "file": "TOWNSUSDT-1d-2026-09.zip",
+      "sha256": "50216039c1090ddbd28030d36fd9b2b07de204e42b778dff9b0f668cafad576e"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

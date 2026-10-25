@@ -1,0 +1,45 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/RGTUSDT/1d/",
+  "instrument": "RGTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-11-05",
+  "last_bar": "2022-03-14",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:43:49+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 130,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "RGTUSDT-1d-2021-11.zip",
+      "sha256": "0e0a218a79f455dee296b73eddfcfe17209e2a77c49be19dddbe2002768a6120"
+    },
+    {
+      "file": "RGTUSDT-1d-2021-12.zip",
+      "sha256": "10f58b6b0eae05e36ab87fb3f5122597906f430e7670680ac1f10d85daeb23b3"
+    },
+    {
+      "file": "RGTUSDT-1d-2022-01.zip",
+      "sha256": "35da779032f0df24bc0709b97292ab3569d292b091fe2e1d445244b0529cf4f5"
+    },
+    {
+      "file": "RGTUSDT-1d-2022-02.zip",
+      "sha256": "2ef01f59a7453ee0349c2f645710f64cca51b9e5a3556dd4d86ff32050b049c5"
+    },
+    {
+      "file": "RGTUSDT-1d-2022-03.zip",
+      "sha256": "2ce5dda103e331e68800c31d25225ab46c1423213c5cc997b00f34a73337a1b4"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

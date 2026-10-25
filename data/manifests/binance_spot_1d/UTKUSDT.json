@@ -1,0 +1,293 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/UTKUSDT/1d/",
+  "instrument": "UTKUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-10-02",
+  "last_bar": "2026-04-14",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:35+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2021,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "UTKUSDT-1d-2020-10.zip",
+      "sha256": "48e4b57a649b5a302d2f3b564ccccc05baa05e948819f331b7364f4ff32f9087"
+    },
+    {
+      "file": "UTKUSDT-1d-2020-11.zip",
+      "sha256": "44f91a221cc1f20b929316bda4d25dd70a884454951146306540d26209fbe3ba"
+    },
+    {
+      "file": "UTKUSDT-1d-2020-12.zip",
+      "sha256": "63edbe8a1c2de863f81e512fddf2a8c0633207a196e90a22f97a83e3c2048ab0"
+    },
+    {
+      "file": "UTKUSDT-1d-2021-01.zip",
+      "sha256": "5d8c43cb1deb4ea498c353eaf88dafd1c0b21a5b7f735492a5fa1060acffd379"
+    },
+    {
+      "file": "UTKUSDT-1d-2021-02.zip",
+      "sha256": "d97e6d161842c4aa23d39ef682a6cb063bc3d5e91e70e98f509fa416f6ae90cc"
+    },
+    {
+      "file": "UTKUSDT-1d-2021-03.zip",
+      "sha256": "cac82eafd1bf101a1e1b38e6f3109b5d0f13d861425c33412da5fe4f167619ef"
+    },
+    {
+      "file": "UTKUSDT-1d-2021-04.zip",
+      "sha256": "a3775300aaa3f47bf496ce8362a86c2929621658ae6917d4b72e5a15690c78da"
+    },
+    {
+      "file": "UTKUSDT-1d-2021-05.zip",
+      "sha256": "dec26abc88b26a1e4d2a7cf036f15ac12428e3e7691d4b7a97407d9f157f87a0"
+    },
+    {
+      "file": "UTKUSDT-1d-2021-06.zip",
+      "sha256": "6f1471e7ea538239fc5e40d0c2072c91fb287018089b0dc61e774c2f594e6819"
+    },
+    {
+      "file": "UTKUSDT-1d-2021-07.zip",
+      "sha256": "dbe5933d11a10d340d93b4929d183dd43c3fe204e490dfdf2c9cf31f9e096d3e"
+    },
+    {
+      "file": "UTKUSDT-1d-2021-08.zip",
+      "sha256": "c5c7990405b972013d36a33d12646c7b7e4f6959bee8d378e67cb40501b8cddd"
+    },
+    {
+      "file": "UTKUSDT-1d-2021-09.zip",
+      "sha256": "1a384637751401cbf3d40ac45f428c352a45b957d4c0e5acd0fdc73042e7eb38"
+    },
+    {
+      "file": "UTKUSDT-1d-2021-10.zip",
+      "sha256": "5b9133f3ef4e7984c8d7f2bd8aff0266a7932e5e4de911c51af2cab4c8ac19f3"
+    },
+    {
+      "file": "UTKUSDT-1d-2021-11.zip",
+      "sha256": "6a689bd8de4fb56886e354fe97f75a63aaebe614c32f5a6e654b8a63155fcf6c"
+    },
+    {
+      "file": "UTKUSDT-1d-2021-12.zip",
+      "sha256": "5968d1ce447e193de8710d70ee1f21d47b462581bf2590601fc22c8ab0953776"
+    },
+    {
+      "file": "UTKUSDT-1d-2022-01.zip",
+      "sha256": "124b501b698b788717ce9c5163ca4a105138a6db15a14c54abff43080fa2ab4c"
+    },
+    {
+      "file": "UTKUSDT-1d-2022-02.zip",
+      "sha256": "1d44e22e82e3c314d49a9b410eb98432b8bab23bd6fe4716002b6d6f53b3aa48"
+    },
+    {
+      "file": "UTKUSDT-1d-2022-03.zip",
+      "sha256": "1dea305b379899ed4fdf6ac4489869bc39d18bc3662a4ccf46770f5e3f6f9a93"
+    },
+    {
+      "file": "UTKUSDT-1d-2022-04.zip",
+      "sha256": "ae007aa286f3c296e483cd76eff4530289b94967004abfe9f8331589f6aa538b"
+    },
+    {
+      "file": "UTKUSDT-1d-2022-05.zip",
+      "sha256": "a8c3e38a46fbcd615b8c0ad3ad7d8fd9792abf271c3c343a418431488ebee8c7"
+    },
+    {
+      "file": "UTKUSDT-1d-2022-06.zip",
+      "sha256": "a0078fa65bd014ace3eab4e39bfa41aa361f8fec412898786f2049fd13496b95"
+    },
+    {
+      "file": "UTKUSDT-1d-2022-07.zip",
+      "sha256": "39771baf08258a5b61dacacf1b53e3f6abc965deba57d25fa6a389f2f1d52bd6"
+    },
+    {
+      "file": "UTKUSDT-1d-2022-08.zip",
+      "sha256": "df11d3a6c78d009cfc2ec69f0a223ceaff49f167c643e680f9090bdb282c6343"
+    },
+    {
+      "file": "UTKUSDT-1d-2022-09.zip",
+      "sha256": "4bceffa57df6adc8c8fae6f90015ce753c4f23618bfe8de11986e6994d175bef"
+    },
+    {
+      "file": "UTKUSDT-1d-2022-10.zip",
+      "sha256": "f3c31a3432d1b1267c09e4a1f151ef766aecb38a8a3a5f0d2e4575b03b961f0a"
+    },
+    {
+      "file": "UTKUSDT-1d-2022-11.zip",
+      "sha256": "a32e607e740cb700eda5277bbbb2e8b8af2493e36a792cbfb29a3b85d18a4ec2"
+    },
+    {
+      "file": "UTKUSDT-1d-2022-12.zip",
+      "sha256": "fe8e801ef882449dda74d945921863cfdf23de090a209e6a574db9bfa6f96bcd"
+    },
+    {
+      "file": "UTKUSDT-1d-2023-01.zip",
+      "sha256": "5a5c36992dd521bbd89b52b394512797d713f9aa4a571b8f571dd8ab7c15e3ce"
+    },
+    {
+      "file": "UTKUSDT-1d-2023-02.zip",
+      "sha256": "25dd8dbf989bc10e4c616ed35d1791c3133b609775a8eebb0cc5431b406ee954"
+    },
+    {
+      "file": "UTKUSDT-1d-2023-03.zip",
+      "sha256": "a3a69a0460e4a8dac8bb1dc66d63fbd369a5586656fe7b7b19243432a75f1b0a"
+    },
+    {
+      "file": "UTKUSDT-1d-2023-04.zip",
+      "sha256": "8392381c14a827dda59c526177b594b23791fbc9637a6a765e23f1ba66c2be0f"
+    },
+    {
+      "file": "UTKUSDT-1d-2023-05.zip",
+      "sha256": "ee76bd8dfb01d72b4429d387872f12345d3f96d9a730c96b4f285ecbd647d0f6"
+    },
+    {
+      "file": "UTKUSDT-1d-2023-06.zip",
+      "sha256": "c78c3b2c6c2ead7eecde6bbcc5ca3daab9f12ca09478b0f92b81ce1530f0e9ba"
+    },
+    {
+      "file": "UTKUSDT-1d-2023-07.zip",
+      "sha256": "8dbf589d8ea72f2fc6d0a1a41d4a75e234ff03ccb6b0580041bac8124ee1164f"
+    },
+    {
+      "file": "UTKUSDT-1d-2023-08.zip",
+      "sha256": "d3bf63cb8950f454b386ad1f21910f8d047427912e4b40a7e2a0634fef5c8815"
+    },
+    {
+      "file": "UTKUSDT-1d-2023-09.zip",
+      "sha256": "9383fa52c5b109e9ccbfdff8b261b14ddea7d556f93c9f65818e09ffe0c0f80d"
+    },
+    {
+      "file": "UTKUSDT-1d-2023-10.zip",
+      "sha256": "c3d6b8750c04342ce547239b36bf9de0d38f238817c27e9752d6f43c737c6f57"
+    },
+    {
+      "file": "UTKUSDT-1d-2023-11.zip",
+      "sha256": "a8bb0e0e50a712fd3dd21d163a36619953bef4b15ba159ad5f39f0f0abf5c495"
+    },
+    {
+      "file": "UTKUSDT-1d-2023-12.zip",
+      "sha256": "eac44909424948dcf3c5ef0900a934c21cd21aecc2af2af0d36aea0fed333cc3"
+    },
+    {
+      "file": "UTKUSDT-1d-2024-01.zip",
+      "sha256": "5f71a5e4dd76fcfd04b9ba84ea2cc475f149184f2f259ba3aeb08cdc5e68965e"
+    },
+    {
+      "file": "UTKUSDT-1d-2024-02.zip",
+      "sha256": "f811637180325b007c000788d7f5b9a2dc468dbbf16847100c11d0b15c75428e"
+    },
+    {
+      "file": "UTKUSDT-1d-2024-03.zip",
+      "sha256": "f0fb9bfd29750df2bd3915036b4478b0f768ddedda10b86f3c5110d95f32a779"
+    },
+    {
+      "file": "UTKUSDT-1d-2024-04.zip",
+      "sha256": "b07f562f1824b15e7ee9340ac3d3ece7f0b985ad25d9473878d566e0716bd864"
+    },
+    {
+      "file": "UTKUSDT-1d-2024-05.zip",
+      "sha256": "595745b96d4f5a0164eb22f6172689a490f6f28b724082aa601cd98a9b2b2d57"
+    },
+    {
+      "file": "UTKUSDT-1d-2024-06.zip",
+      "sha256": "a5dfcf4ee9c54a64c18e1faf33347089bdae4de9a80a02702c6d2acac2368f07"
+    },
+    {
+      "file": "UTKUSDT-1d-2024-07.zip",
+      "sha256": "26daa742e4ab290eedd5481f9ed406dca6e9903130c1a454722f116bf6393a89"
+    },
+    {
+      "file": "UTKUSDT-1d-2024-08.zip",
+      "sha256": "f1e3afa6123d48b7b794aaa6edf50f505b6cd1097564a260ba15711b7ecb6688"
+    },
+    {
+      "file": "UTKUSDT-1d-2024-09.zip",
+      "sha256": "1ee558aa954165751ecfcf19f7a1329aff1fc6716854ae7c03ca116607a849e4"
+    },
+    {
+      "file": "UTKUSDT-1d-2024-10.zip",
+      "sha256": "0114652cf8d349db3d404529339a9e0b397d1ee89dca8b363f729a3d11e1ee9b"
+    },
+    {
+      "file": "UTKUSDT-1d-2024-11.zip",
+      "sha256": "5e356c429516a1c06c3adb8b86ccad02902eb49d55cca2793ddb78ebe8d966f0"
+    },
+    {
+      "file": "UTKUSDT-1d-2024-12.zip",
+      "sha256": "7efcd5995beda4495b84457a0a6e8bada5d3fd52d2883286d771deab1a544da9"
+    },
+    {
+      "file": "UTKUSDT-1d-2025-01.zip",
+      "sha256": "dec63ab10b8afcbebd85197269fa7e83a14db81d4dd26b631417592b6d8baadd"
+    },
+    {
+      "file": "UTKUSDT-1d-2025-02.zip",
+      "sha256": "eb242baa6e50b36e31203c3febe2336a823e4970932926c9d85356fe949feb26"
+    },
+    {
+      "file": "UTKUSDT-1d-2025-03.zip",
+      "sha256": "f875bbffea4d756d04baa3b25fac2014c1ac798bd810b73f7bcf3b04c5f70a2a"
+    },
+    {
+      "file": "UTKUSDT-1d-2025-04.zip",
+      "sha256": "e8fee4f19102aac188471b3cae09fb177d0478afc9219cd44c1dfdaeb9d5bc43"
+    },
+    {
+      "file": "UTKUSDT-1d-2025-05.zip",
+      "sha256": "d46932fd4fce9f3f388781848668b5f090558fb0e9591dbd81334ca44cac1cb0"
+    },
+    {
+      "file": "UTKUSDT-1d-2025-06.zip",
+      "sha256": "5a353f09c86a13f235a5f0e315f4b2db9521b4ae3ba2769b3a4916fb7df37ce9"
+    },
+    {
+      "file": "UTKUSDT-1d-2025-07.zip",
+      "sha256": "bda7c29a3c05c0ef92156ea61f21a534fd90b91977ef52f8dedd6b85773e1c9a"
+    },
+    {
+      "file": "UTKUSDT-1d-2025-08.zip",
+      "sha256": "afb5678f3efd9a4c8112c33ec2ffe457aab532939c94d62166dfbddd63e9705f"
+    },
+    {
+      "file": "UTKUSDT-1d-2025-09.zip",
+      "sha256": "c8dada891e71034c1c43dd48629a5ac2b2ad15ec304d110ef844cf4b280caf77"
+    },
+    {
+      "file": "UTKUSDT-1d-2025-10.zip",
+      "sha256": "d3f94a478bb1d0d379fd900b1ff8411f3d5c40a933f6001713bec1b05b4a20bb"
+    },
+    {
+      "file": "UTKUSDT-1d-2025-11.zip",
+      "sha256": "538f64dc16065777307bd6fe959a8c18f1fe3eff3e84ad2d431eaaf76dadadc0"
+    },
+    {
+      "file": "UTKUSDT-1d-2025-12.zip",
+      "sha256": "5008ff658e54404d71c627ab33b00a7dff92bc7b10ce0b56fbfce223529eaede"
+    },
+    {
+      "file": "UTKUSDT-1d-2026-01.zip",
+      "sha256": "b9faea911afecd3ff95f86dd20accaf4f8ebd68002977c7b809790d4e13206f7"
+    },
+    {
+      "file": "UTKUSDT-1d-2026-02.zip",
+      "sha256": "a9511d62189f7d80975b1f47718ae54be4e53de8274dafc6aeae607a2b538985"
+    },
+    {
+      "file": "UTKUSDT-1d-2026-03.zip",
+      "sha256": "f528be4a0971a43ba3f2157e04e2ecca5b545c5314e2d740868fa68b3553e43f"
+    },
+    {
+      "file": "UTKUSDT-1d-2026-04.zip",
+      "sha256": "3f1e03a3f4857251d4090009701bc1b66dfc3b632b6cbbd9bd7a101b01503826"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

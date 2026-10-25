@@ -1,0 +1,277 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/DEXEUSDT/1d/",
+  "instrument": "DEXEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-07-23",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:31:31+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1896,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "DEXEUSDT-1d-2021-07.zip",
+      "sha256": "a6016fa32df43806a86d1512a455ffe278ef31f792527ad77d925169df0c37d2"
+    },
+    {
+      "file": "DEXEUSDT-1d-2021-08.zip",
+      "sha256": "7dd1694e4cd974586b314238ec80abbcb4d2185ba51ad2b40e85f33fe832f055"
+    },
+    {
+      "file": "DEXEUSDT-1d-2021-09.zip",
+      "sha256": "c3deb35086bb1f793cefcae28a54aff64dc50a4663e04536c28fd6f8a7371d92"
+    },
+    {
+      "file": "DEXEUSDT-1d-2021-10.zip",
+      "sha256": "e2360e6cdcaa3620411a6c19edab2fad432ad02833719d586cdc87cf80defc7e"
+    },
+    {
+      "file": "DEXEUSDT-1d-2021-11.zip",
+      "sha256": "3744b805c23d700d328046c2bf5b567825b5d730cdae1432bef4a899a49e4e5b"
+    },
+    {
+      "file": "DEXEUSDT-1d-2021-12.zip",
+      "sha256": "83bc4e5dade2e4f3811836bfe90a0911da8284c4d8eb732dd9719cfab5cf0686"
+    },
+    {
+      "file": "DEXEUSDT-1d-2022-01.zip",
+      "sha256": "0ed9f5fbe7144519d1f0594e42d5864891412cb9b8af87105888288b76ddd08a"
+    },
+    {
+      "file": "DEXEUSDT-1d-2022-02.zip",
+      "sha256": "c607afc3dfb72407188c5a75f26b1df9f710a4c7635531f6b7148b06e3aa1019"
+    },
+    {
+      "file": "DEXEUSDT-1d-2022-03.zip",
+      "sha256": "7921e519cc7c31308dcb5cb6e0b445d5c15715bec22c752dd79bfe829276c8ff"
+    },
+    {
+      "file": "DEXEUSDT-1d-2022-04.zip",
+      "sha256": "829e9b45da7c9b10315d4ac89c06225110df7f91d578cd349acc514cca92f2e2"
+    },
+    {
+      "file": "DEXEUSDT-1d-2022-05.zip",
+      "sha256": "d35643d3dfc2130b8028d895b32ef97f4ed105ed6e72f6e4079c0a2c0e7b5192"
+    },
+    {
+      "file": "DEXEUSDT-1d-2022-06.zip",
+      "sha256": "26715d4e8e48f914b910612fab1d6242f3860a09274dbd3a33af6ce9ca584bc6"
+    },
+    {
+      "file": "DEXEUSDT-1d-2022-07.zip",
+      "sha256": "6aa1789b2d768693775c69b1b3659b955e2326fe96da4e3a98a2b5b26a2d5f64"
+    },
+    {
+      "file": "DEXEUSDT-1d-2022-08.zip",
+      "sha256": "53b1ef1dc06e6a0d100093919ab20dbac0368a281ba490bbdc2a57b620cbb3a4"
+    },
+    {
+      "file": "DEXEUSDT-1d-2022-09.zip",
+      "sha256": "6760f915f9794e1b72e05db14146ea8ed2e0f6a2af5ad33b0fef684f120bc32a"
+    },
+    {
+      "file": "DEXEUSDT-1d-2022-10.zip",
+      "sha256": "86fcfd81e532dad19c449e3c01b6cb3a0d7a7aa0a852a5a479f23d2bb2b50372"
+    },
+    {
+      "file": "DEXEUSDT-1d-2022-11.zip",
+      "sha256": "54d33fd7509a4141c4ff722454f7b52b1b7118f2cb6b1e1be472d59b952e34d0"
+    },
+    {
+      "file": "DEXEUSDT-1d-2022-12.zip",
+      "sha256": "e31cf43e544e145b9dc57244a437aa97c7c6dcc791044f66e2f124c2a650bfe7"
+    },
+    {
+      "file": "DEXEUSDT-1d-2023-01.zip",
+      "sha256": "2a74924396db07d87a7a4d25bb1f2fc986e7e03a8ff65a6b721d522e7fdfb198"
+    },
+    {
+      "file": "DEXEUSDT-1d-2023-02.zip",
+      "sha256": "e5292e07c6ca60ff5682e675e897a1ce61543719be8126fe82151cd594528c25"
+    },
+    {
+      "file": "DEXEUSDT-1d-2023-03.zip",
+      "sha256": "77f865475abfbe3d5b90f3cfa846e3fd19078c6e42d938d7fed5888332d99b1d"
+    },
+    {
+      "file": "DEXEUSDT-1d-2023-04.zip",
+      "sha256": "70eae9d1e601c7eda6ce069791f8b5c030526fe97e69e28ad808461f24b37876"
+    },
+    {
+      "file": "DEXEUSDT-1d-2023-05.zip",
+      "sha256": "5bb8c92959b1856aad40522ef677e69fa02f48ef90cfe3e8086bdc7ff41c8748"
+    },
+    {
+      "file": "DEXEUSDT-1d-2023-06.zip",
+      "sha256": "4e35e01b5ef8be83e6914faf784ed98b1fd33c63e7ccaf60e1c119a6088c3112"
+    },
+    {
+      "file": "DEXEUSDT-1d-2023-07.zip",
+      "sha256": "a9f5fe0607c10f050d780e43a758b8715833d75953b5bc467c4ec0cba650fdc8"
+    },
+    {
+      "file": "DEXEUSDT-1d-2023-08.zip",
+      "sha256": "b07e7802ca7ab202d8e1e008da778d4a5827acff7b748cb4c5eea3e7f66c579e"
+    },
+    {
+      "file": "DEXEUSDT-1d-2023-09.zip",
+      "sha256": "16c39af3ac50dfad19a4cc0aff06de534c78642eafb4fa87297c8f3024c5aefc"
+    },
+    {
+      "file": "DEXEUSDT-1d-2023-10.zip",
+      "sha256": "530c91b8db0d72b7c0bb60f0f80448cf5dbe18049e5bd98d29313196f4dca7c7"
+    },
+    {
+      "file": "DEXEUSDT-1d-2023-11.zip",
+      "sha256": "034386b38afd9a8b0b062ad3f5a87789d568d22c12385f2e80da11a25e40ddff"
+    },
+    {
+      "file": "DEXEUSDT-1d-2023-12.zip",
+      "sha256": "e1e489254b8b2547ea2c3af659f2afeffbb57651bc2d05b6f2f2c9bea8eefaff"
+    },
+    {
+      "file": "DEXEUSDT-1d-2024-01.zip",
+      "sha256": "b3c92c1704f06cc829535a01953b56119627ff943fcbe1881912f707ccc2799e"
+    },
+    {
+      "file": "DEXEUSDT-1d-2024-02.zip",
+      "sha256": "a57a13730348bd14fdba7d0170694a90a01b96b32bc41bfcc69c0f52a5a80455"
+    },
+    {
+      "file": "DEXEUSDT-1d-2024-03.zip",
+      "sha256": "835993a3608fa073dd42e8dad533717dece62201b79b6df88dc9c99c97a64874"
+    },
+    {
+      "file": "DEXEUSDT-1d-2024-04.zip",
+      "sha256": "52d28963ea3edc471a4cfcd413154063edff306a69077793bccb667e4e42151e"
+    },
+    {
+      "file": "DEXEUSDT-1d-2024-05.zip",
+      "sha256": "17f56319bfc5db8e88697da25f9b523070396966f46b428db51aebc47854d866"
+    },
+    {
+      "file": "DEXEUSDT-1d-2024-06.zip",
+      "sha256": "968e8562400cc7f6a6e3193c273216025b18acd2236f8abb7677205b67925b44"
+    },
+    {
+      "file": "DEXEUSDT-1d-2024-07.zip",
+      "sha256": "3a4edcc4854fdf7c586203ab9a0e4ad8857b7f02eca65d187767efdf62971f2f"
+    },
+    {
+      "file": "DEXEUSDT-1d-2024-08.zip",
+      "sha256": "0a602a21d6d5e91c614dd7fb7dd9552fd1e76bbf4da6d04271b3bb16062cbfbc"
+    },
+    {
+      "file": "DEXEUSDT-1d-2024-09.zip",
+      "sha256": "51031b4260d9e43afd521c608e1dacf015bea09b246596a2455b2b1ba942080e"
+    },
+    {
+      "file": "DEXEUSDT-1d-2024-10.zip",
+      "sha256": "d411c9836eeae896ce3f2caf5a0cf824b75404b289c570256287a0bc65d8085b"
+    },
+    {
+      "file": "DEXEUSDT-1d-2024-11.zip",
+      "sha256": "e96d21c98261bf952e09b25801aaa8233e57b087cf044aad1c6ee42a5972916a"
+    },
+    {
+      "file": "DEXEUSDT-1d-2024-12.zip",
+      "sha256": "f4f171efcdb65ce6f028bca234ab975d8a4d4afda42bbba35be8eccb5b39632e"
+    },
+    {
+      "file": "DEXEUSDT-1d-2025-01.zip",
+      "sha256": "3f92d7c92aae8fd24813e071a2b0adbf713aabdb9479b12476bd9a4a3ab98681"
+    },
+    {
+      "file": "DEXEUSDT-1d-2025-02.zip",
+      "sha256": "1e6def93960691f3314c113dbfa7ad6b0dcc35601a3b41957345dea97e555cc3"
+    },
+    {
+      "file": "DEXEUSDT-1d-2025-03.zip",
+      "sha256": "3de784934cbadcda0fad40b2a2dd8adcc0dacb3c60471660c7012ae4269b9909"
+    },
+    {
+      "file": "DEXEUSDT-1d-2025-04.zip",
+      "sha256": "05dcf4035a909a01b1233a80249a56f40a371e153352fff1e4bd78879965cf62"
+    },
+    {
+      "file": "DEXEUSDT-1d-2025-05.zip",
+      "sha256": "7af32fdccfd892c934d18d285e0ce3a457f7a21d6c7801c9999173a1ca2c87b4"
+    },
+    {
+      "file": "DEXEUSDT-1d-2025-06.zip",
+      "sha256": "83c72643e212a528083094d59997b7d6f58fa2b68968a5b7f61e7b001f7a3067"
+    },
+    {
+      "file": "DEXEUSDT-1d-2025-07.zip",
+      "sha256": "8e39d08ccc7fa1ec771e9c07b89ffa5688b07ebd921dec1f6e67a34f65bb2a11"
+    },
+    {
+      "file": "DEXEUSDT-1d-2025-08.zip",
+      "sha256": "939ef008dd4c32464f1d756bec026e9bd53002f602bb62f0afd9b5dae7f36ace"
+    },
+    {
+      "file": "DEXEUSDT-1d-2025-09.zip",
+      "sha256": "4f26bb40550ca4ff48568c7b8d0c7b5a4fc542fa50c7748a8f6402b678208b7c"
+    },
+    {
+      "file": "DEXEUSDT-1d-2025-10.zip",
+      "sha256": "eeccf8992b88b7032367bdcda94c31682365292c8cb82452391c352686c11980"
+    },
+    {
+      "file": "DEXEUSDT-1d-2025-11.zip",
+      "sha256": "e9854568f8ef78bc4f6f707907f2e792aeabf7a289e1f0aebcb6c624ac785672"
+    },
+    {
+      "file": "DEXEUSDT-1d-2025-12.zip",
+      "sha256": "d236f50d18d9611194191bb320842e6bd848e4206f82aeeeba7b5589f3af33df"
+    },
+    {
+      "file": "DEXEUSDT-1d-2026-01.zip",
+      "sha256": "f86489a8993566e49faabc77847247805a665db158e726821d7175baa6e36fd0"
+    },
+    {
+      "file": "DEXEUSDT-1d-2026-02.zip",
+      "sha256": "c135c16e8947936b1dee4216bf155b10ca03043f75914e71a6c029ed8d66c5d9"
+    },
+    {
+      "file": "DEXEUSDT-1d-2026-03.zip",
+      "sha256": "3b471e9304e8ee8790548e02a668c05dfceef866e0a5b1c153380f6280f781a8"
+    },
+    {
+      "file": "DEXEUSDT-1d-2026-04.zip",
+      "sha256": "55de3aa3fa869ae52667134f8f8ab99ce645f0236f673b93b4613621faaa3a82"
+    },
+    {
+      "file": "DEXEUSDT-1d-2026-05.zip",
+      "sha256": "de786ff341275de388b2418b6666a7f3a1c3f5c9dfd75bc3683ac8b7f450503c"
+    },
+    {
+      "file": "DEXEUSDT-1d-2026-06.zip",
+      "sha256": "4dc43b1b22a2df4e1e6a95cd8d626779488079f8247b6ac7692f28bba192b53f"
+    },
+    {
+      "file": "DEXEUSDT-1d-2026-07.zip",
+      "sha256": "6b6e6b236b59b8378958553cdf5c047078fb6977c8623ea0c8a82aac5b02c59b"
+    },
+    {
+      "file": "DEXEUSDT-1d-2026-08.zip",
+      "sha256": "e04356eebffd07d7909265ceec68bc76238dea856fb7d246c85d3f0b3bcc1b7b"
+    },
+    {
+      "file": "DEXEUSDT-1d-2026-09.zip",
+      "sha256": "df0bf5106f0fac6ae7a98a7a2e2e97359382f732f93b6ebbf6db02a99e3632fb"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

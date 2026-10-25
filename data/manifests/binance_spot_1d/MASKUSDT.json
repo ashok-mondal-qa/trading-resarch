@@ -1,0 +1,285 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MASKUSDT/1d/",
+  "instrument": "MASKUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-05-25",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:14+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1955,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MASKUSDT-1d-2021-05.zip",
+      "sha256": "e0c4221142d3b7b221499ff8d1cc7dbdf28d672ea81b919cfeb4beeff304395a"
+    },
+    {
+      "file": "MASKUSDT-1d-2021-06.zip",
+      "sha256": "5bcdfca1f9b6ac64ce3bf74e9542db20fa138ccd43918f7740a458c7a5927bab"
+    },
+    {
+      "file": "MASKUSDT-1d-2021-07.zip",
+      "sha256": "8d558e96bf8bdd8ac9becb109883b35f09c90ef8c9de5260f9a7b5038255f569"
+    },
+    {
+      "file": "MASKUSDT-1d-2021-08.zip",
+      "sha256": "ab038966b41c4dd1df77eb436b2f16a656e8226d8572a0677198b824b78da6de"
+    },
+    {
+      "file": "MASKUSDT-1d-2021-09.zip",
+      "sha256": "ca36f8fd9925c593fc162596922f7282fa929c937e9c217ea628a6507184769c"
+    },
+    {
+      "file": "MASKUSDT-1d-2021-10.zip",
+      "sha256": "a8d30a148893904aa8d47cb246284d22a0a58b567ebe2e2a9f2cb3b67affe1e7"
+    },
+    {
+      "file": "MASKUSDT-1d-2021-11.zip",
+      "sha256": "408c62ca5465f0c886f1e5b7061cc8d9d5a04f31403dd71ee946926fa9a84696"
+    },
+    {
+      "file": "MASKUSDT-1d-2021-12.zip",
+      "sha256": "2cab5d79527986a15a7dc3dc174707caae51f86135190454c281aba3713c5af0"
+    },
+    {
+      "file": "MASKUSDT-1d-2022-01.zip",
+      "sha256": "b104fa6d7541823f5bac90356638e4bedd43ce45c12f9e9589d54f2efe8ec6fa"
+    },
+    {
+      "file": "MASKUSDT-1d-2022-02.zip",
+      "sha256": "e8e0477ae19d9a553bfa5be606522f2d1131acdaa94471655d31885296f5b4e1"
+    },
+    {
+      "file": "MASKUSDT-1d-2022-03.zip",
+      "sha256": "c74111ff26b29c462e31cd3b3ea787d9bc7f5d20d59e0aa5a367c51e5ac89913"
+    },
+    {
+      "file": "MASKUSDT-1d-2022-04.zip",
+      "sha256": "d0847d54aded52e2537346ce3e9f09bc95b848f6e847d97a19095693cce86fbb"
+    },
+    {
+      "file": "MASKUSDT-1d-2022-05.zip",
+      "sha256": "7c0fd61bcc2cf815a672be07b06aa6a378e5e2ca2b0ca4b1a903d9c29ffee52c"
+    },
+    {
+      "file": "MASKUSDT-1d-2022-06.zip",
+      "sha256": "0d49d34f05bfb9d73e71af1f1fe1a1f04aeb808f59b66154418203ccb43ea3e6"
+    },
+    {
+      "file": "MASKUSDT-1d-2022-07.zip",
+      "sha256": "fd011dd8064e7f347b29d9ed6f58870185820727963b41661c05b596535b9069"
+    },
+    {
+      "file": "MASKUSDT-1d-2022-08.zip",
+      "sha256": "4301a2aa9a5586a141f8552e845fd088d5aee59f530b3367d273d37ee6b5db24"
+    },
+    {
+      "file": "MASKUSDT-1d-2022-09.zip",
+      "sha256": "49c1ae952487925a03f3bee570f287336a524ebfd16a255f7aa275c2257f80aa"
+    },
+    {
+      "file": "MASKUSDT-1d-2022-10.zip",
+      "sha256": "b08314dd62e0e40f08b13a3330f0a7153768eb4b819fc7049c35e352469f81ad"
+    },
+    {
+      "file": "MASKUSDT-1d-2022-11.zip",
+      "sha256": "44d6f9c40205ac43c9c30a990fec1ebce5e380e198a11ba7aa6d15420f739fbe"
+    },
+    {
+      "file": "MASKUSDT-1d-2022-12.zip",
+      "sha256": "327018d2e301ed1482217f4e96cc0281ef9b9cc4584add91fee7f67b8e708e4e"
+    },
+    {
+      "file": "MASKUSDT-1d-2023-01.zip",
+      "sha256": "38dddd18b50ba43ecc9cf1fb8c08e7d02014f74bf7fd6a0ac80dada6b62e818a"
+    },
+    {
+      "file": "MASKUSDT-1d-2023-02.zip",
+      "sha256": "97c4158dc7d49fdf95b630f8bb68ee7cc05875d3a9903df5bb9e519b5dfedcef"
+    },
+    {
+      "file": "MASKUSDT-1d-2023-03.zip",
+      "sha256": "0f241930d04e7537cc9b2ea0ba508556c370fca5421b1e13e1ebebf1c9291bdf"
+    },
+    {
+      "file": "MASKUSDT-1d-2023-04.zip",
+      "sha256": "4d652e49c49d2f4930ebd4ce2c432ecc13601a68d84805567c76d23888137ccc"
+    },
+    {
+      "file": "MASKUSDT-1d-2023-05.zip",
+      "sha256": "f53fe0b7bd3286efa04d021e31801ee932629a7827d89c8465071faf08b3d0ca"
+    },
+    {
+      "file": "MASKUSDT-1d-2023-06.zip",
+      "sha256": "99055d4c288ea789d83011ec87b2455d370862d286eb1b4fe3b5944b5d841c0c"
+    },
+    {
+      "file": "MASKUSDT-1d-2023-07.zip",
+      "sha256": "735173bd0a9bcdf66a4d58c2f598975b7528a757e1768d69c9669e75b8a7d115"
+    },
+    {
+      "file": "MASKUSDT-1d-2023-08.zip",
+      "sha256": "5cdadab1db8ad01c9261bbbdd9f16c7ed9733f303e471ce82990875be737259d"
+    },
+    {
+      "file": "MASKUSDT-1d-2023-09.zip",
+      "sha256": "98b56b5fd0b388638fe61432c3c1f9f84ddc2b1f6e90c1c9461b909dd5b029e5"
+    },
+    {
+      "file": "MASKUSDT-1d-2023-10.zip",
+      "sha256": "42f5f0d4f51452bc7bc1105ae3b69813c50aa850a229d9bbbdb3091f6cbed79a"
+    },
+    {
+      "file": "MASKUSDT-1d-2023-11.zip",
+      "sha256": "c096e5ad3970240f954d61233ab6ed775915e83175b875a490a5e3eb55f5a1a2"
+    },
+    {
+      "file": "MASKUSDT-1d-2023-12.zip",
+      "sha256": "52eb6a4671fa47621499afd2d4bdc2c81aebbda0adf47abb7a722966a862be77"
+    },
+    {
+      "file": "MASKUSDT-1d-2024-01.zip",
+      "sha256": "5f455b6ca2e066816911c35a47c9357e3142f303d50f508a31813cb807ccb060"
+    },
+    {
+      "file": "MASKUSDT-1d-2024-02.zip",
+      "sha256": "5eeb4f171271fdd63f4eca5030629de67398b8281176883503839e1aadba2728"
+    },
+    {
+      "file": "MASKUSDT-1d-2024-03.zip",
+      "sha256": "4d5108fd8c0dd27861876688ca67ef2c8f5aa2510521f2792233e73021297d5b"
+    },
+    {
+      "file": "MASKUSDT-1d-2024-04.zip",
+      "sha256": "e96719c48d411ecb091acc91ff5c8dca76a7eda2962a958514b7ea2409992db2"
+    },
+    {
+      "file": "MASKUSDT-1d-2024-05.zip",
+      "sha256": "5446d6128e2842b8c7be4e163775a1d4b7ad80df9c015f6e8816738a962f6980"
+    },
+    {
+      "file": "MASKUSDT-1d-2024-06.zip",
+      "sha256": "47d82bd8e8b6e3d9f2f01cfb8bf676076426713c0bb397f7837eaecadc2d85eb"
+    },
+    {
+      "file": "MASKUSDT-1d-2024-07.zip",
+      "sha256": "1a795b8f72bc6460db45ea2255a9f1276e699b938776ec30c2e73029ba1a059c"
+    },
+    {
+      "file": "MASKUSDT-1d-2024-08.zip",
+      "sha256": "194b6a627de2a4a21a365787f86e9a207732e76774e3787c31b916cfc0d50a89"
+    },
+    {
+      "file": "MASKUSDT-1d-2024-09.zip",
+      "sha256": "063d936151d71d931810646270ee3835d7d3b05613ec2b08cad51a450379b0bd"
+    },
+    {
+      "file": "MASKUSDT-1d-2024-10.zip",
+      "sha256": "2d48ee3814879a4fb58c5ca16d19b2e783d0d01246e74e527aeba0f7ada2d0ad"
+    },
+    {
+      "file": "MASKUSDT-1d-2024-11.zip",
+      "sha256": "6618e9f2a814ff7c8d488050cf9d26a5cdb2799d58797340a5b4d4a289d0cfe1"
+    },
+    {
+      "file": "MASKUSDT-1d-2024-12.zip",
+      "sha256": "16a0b7a4e16786dd69a82187b1f05a444d1b1816a59b0ada9b4cead0f1159ce6"
+    },
+    {
+      "file": "MASKUSDT-1d-2025-01.zip",
+      "sha256": "06004d2bdb348088336983718ace262faa5107f396530557d0b4ea468b5bd0f4"
+    },
+    {
+      "file": "MASKUSDT-1d-2025-02.zip",
+      "sha256": "936663b3e4d23fa87fc3314cf2100fb3a51afc55f1df6ecc5046f461f5162b8b"
+    },
+    {
+      "file": "MASKUSDT-1d-2025-03.zip",
+      "sha256": "70adbc82a55af6526f4dcc51c82fc032be1a11e15ef0adc22b2fd847a5c8f3da"
+    },
+    {
+      "file": "MASKUSDT-1d-2025-04.zip",
+      "sha256": "fb0f69912b048214e49eff7c659b31a120eb1d0e2005fc60d8a8eeda343680bf"
+    },
+    {
+      "file": "MASKUSDT-1d-2025-05.zip",
+      "sha256": "ae6b749c214655f5ee8afa518fcfcc9c790be9fb1a1b626162528a81d52766ea"
+    },
+    {
+      "file": "MASKUSDT-1d-2025-06.zip",
+      "sha256": "e448feb09fde0e6d27a98bf51429dac3786781d93f0f87c9ce7400270b8cf7a2"
+    },
+    {
+      "file": "MASKUSDT-1d-2025-07.zip",
+      "sha256": "f259e990d8da11b72eabe9984dd7992f4649cec9f4b29a8837510a1c91186e12"
+    },
+    {
+      "file": "MASKUSDT-1d-2025-08.zip",
+      "sha256": "86f8f5c2531a6f3dcdd866f964a5e9a7bce17fae57ba517035621d9b8697e4e3"
+    },
+    {
+      "file": "MASKUSDT-1d-2025-09.zip",
+      "sha256": "3ce3ed258eaf2ecd0b831086c46539b55a6ddb216d8404704b70239dd00e5446"
+    },
+    {
+      "file": "MASKUSDT-1d-2025-10.zip",
+      "sha256": "bed822c995032b6c97948c12971c80058216ac1a9dfdc946d574c156162084c9"
+    },
+    {
+      "file": "MASKUSDT-1d-2025-11.zip",
+      "sha256": "ecb3934c4a9fb4a3b5420492bb662de127fec9ac4bed6749ecf6c53f3ac9d151"
+    },
+    {
+      "file": "MASKUSDT-1d-2025-12.zip",
+      "sha256": "f91d6119f0cfabdd14c6e99e6e349abed2b696aeac633a2ec8c34572b3c650d9"
+    },
+    {
+      "file": "MASKUSDT-1d-2026-01.zip",
+      "sha256": "127ec2d5bb5649812e28d0b299c9638b9f770e5f46cfce128def14f47ac310d3"
+    },
+    {
+      "file": "MASKUSDT-1d-2026-02.zip",
+      "sha256": "5a7a99981a0b4c25a4d56112f01d2e6fa27f730b42b1529ac051206211cff097"
+    },
+    {
+      "file": "MASKUSDT-1d-2026-03.zip",
+      "sha256": "018013c949d8d7fcbf55dfd74e02edb5e40504d5d4484a274bc89649f040e29d"
+    },
+    {
+      "file": "MASKUSDT-1d-2026-04.zip",
+      "sha256": "9b6b49d4db136ea5aa10bbbb9e04909d5f1021ef5c984e6a63088b34a41700d0"
+    },
+    {
+      "file": "MASKUSDT-1d-2026-05.zip",
+      "sha256": "50967b5ac427c147e4e851a0570ea15108f7ef05043868cbce292707d5589d9a"
+    },
+    {
+      "file": "MASKUSDT-1d-2026-06.zip",
+      "sha256": "7bb0888fcb15b432181553e2c526a8d0d19e94b604112ddb38ec47f839fb5a04"
+    },
+    {
+      "file": "MASKUSDT-1d-2026-07.zip",
+      "sha256": "383c11b83f173b013ee507af372b3c569c1e218404dec682dda60021c8b4f4e1"
+    },
+    {
+      "file": "MASKUSDT-1d-2026-08.zip",
+      "sha256": "65588daf4ed57c9cfe014152067e944462071a4b5584c2dd1d55acd754ecfcf3"
+    },
+    {
+      "file": "MASKUSDT-1d-2026-09.zip",
+      "sha256": "4ab8de488d0170527fe7fd19c8568294a480f487f8c09ed9c10b736a13165fc7"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/HYPERUSDT/1d/",
+  "instrument": "HYPERUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-04-22",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:35:26+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 527,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "HYPERUSDT-1d-2025-04.zip",
+      "sha256": "1ba88203e7bb35764c4ca9f99e6fa9df267676ed26c7ff60eee0544a74934ffc"
+    },
+    {
+      "file": "HYPERUSDT-1d-2025-05.zip",
+      "sha256": "f4fbca98cc92545bc17946827b6d0989e5ca1c580fa8dce5b01aba3e889ee61e"
+    },
+    {
+      "file": "HYPERUSDT-1d-2025-06.zip",
+      "sha256": "c7711e1ac76567b5f2c725116abc856955089a3c037de76c42a5d00a6f0d86b6"
+    },
+    {
+      "file": "HYPERUSDT-1d-2025-07.zip",
+      "sha256": "c86b7fc86807d946464f2f36f8835353fbf9c38a7583e815b0ea92b2ffc55e76"
+    },
+    {
+      "file": "HYPERUSDT-1d-2025-08.zip",
+      "sha256": "72c61c124c20e5868a5e7ef445bdfa5726f8f6b36346049120fc5f13f25e9b88"
+    },
+    {
+      "file": "HYPERUSDT-1d-2025-09.zip",
+      "sha256": "bf0efed814a7c8567ccdb198c897ce5a195fac9798dc995a5211b5a424ce63c5"
+    },
+    {
+      "file": "HYPERUSDT-1d-2025-10.zip",
+      "sha256": "bc01e42aed1b5f79f4cb5ca6f9c743a3fb98b0befc3eacd50ae11ca70ed12649"
+    },
+    {
+      "file": "HYPERUSDT-1d-2025-11.zip",
+      "sha256": "5626c03467671d2946b25b4f243b4408fd3f09980640e29792d65c5cf17269b1"
+    },
+    {
+      "file": "HYPERUSDT-1d-2025-12.zip",
+      "sha256": "74dd5cb193912e1254a4a9497718978f28e146fc478ffe58a9ef91c207439f3f"
+    },
+    {
+      "file": "HYPERUSDT-1d-2026-01.zip",
+      "sha256": "ceaef5589b9d00007b9b5406d08313dbbed08bc9e427831be229ca1eccad887f"
+    },
+    {
+      "file": "HYPERUSDT-1d-2026-02.zip",
+      "sha256": "af5be826c7a5a8ca6d26b315463f6b87072a9a80ff61ae98272e16c44cf89f7c"
+    },
+    {
+      "file": "HYPERUSDT-1d-2026-03.zip",
+      "sha256": "f6d17ff597e7ce6f637e8fef0214f73057b963626130d3911205a69b00871ea7"
+    },
+    {
+      "file": "HYPERUSDT-1d-2026-04.zip",
+      "sha256": "eaf86b251489b87c6d13c36e9c430d186e2a7e9a9b6bf3d469398cf95546eaba"
+    },
+    {
+      "file": "HYPERUSDT-1d-2026-05.zip",
+      "sha256": "880bdb023f0220ed45e17427b3ef9b0a9b176eb5bd21a5a26ff71e0e008ca82a"
+    },
+    {
+      "file": "HYPERUSDT-1d-2026-06.zip",
+      "sha256": "aeec38b8b8616689a3a60d815b16f841f48d67b9334feb7a6091b29e25d04851"
+    },
+    {
+      "file": "HYPERUSDT-1d-2026-07.zip",
+      "sha256": "8a8a430b070dffcb8ab98bc34c4431b8188efc01049d0dd883020c23a06f63d4"
+    },
+    {
+      "file": "HYPERUSDT-1d-2026-08.zip",
+      "sha256": "f17000069398e43aabe0da07917efa6b5fef021eeeee0872cf3dccacf260ec0f"
+    },
+    {
+      "file": "HYPERUSDT-1d-2026-09.zip",
+      "sha256": "28a4c19cd91fad2beedea022d8d74930598f20c970715844cc3fbd5aba1d8ccb"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

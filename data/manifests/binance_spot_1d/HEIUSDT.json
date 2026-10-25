@@ -1,0 +1,105 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/HEIUSDT/1d/",
+  "instrument": "HEIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-02-13",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:34:59+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 595,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "HEIUSDT-1d-2025-02.zip",
+      "sha256": "e80d62e231f3053db26f1f30d791fd9b815f66521b2e5c4ebd7814749a0eac6f"
+    },
+    {
+      "file": "HEIUSDT-1d-2025-03.zip",
+      "sha256": "58cd2a0936be75db20ce29993d7fb5811b2088c0d69174b4c3d2d70979dc232c"
+    },
+    {
+      "file": "HEIUSDT-1d-2025-04.zip",
+      "sha256": "b93c58be2f9350203bc1012cef05c1fe91a6cb7ffc53d92d7c22b3061958154a"
+    },
+    {
+      "file": "HEIUSDT-1d-2025-05.zip",
+      "sha256": "738aab180673f543023519c032a4c5894608ebd3a09734dfb9dafb3f65a0fa21"
+    },
+    {
+      "file": "HEIUSDT-1d-2025-06.zip",
+      "sha256": "3f694ce5d0d4548b6929b4bf9951f6597abfd1c934b64465cc48a042b934194e"
+    },
+    {
+      "file": "HEIUSDT-1d-2025-07.zip",
+      "sha256": "30709cfb565831f39e2f2a355cc4727f57a88fdbceeb618e98013c2ddf557d34"
+    },
+    {
+      "file": "HEIUSDT-1d-2025-08.zip",
+      "sha256": "de3ac028c1d420ef934a71fe94b0947237ee5cbc8f25c0d6d2d3100471c076e7"
+    },
+    {
+      "file": "HEIUSDT-1d-2025-09.zip",
+      "sha256": "5bb2944fda99f894a62ca2008f1f3feac239df7c466045abb07d926b45348df1"
+    },
+    {
+      "file": "HEIUSDT-1d-2025-10.zip",
+      "sha256": "f3a30788541594150d9d87a0689131f28354c1ab23d7558613b665cebe632369"
+    },
+    {
+      "file": "HEIUSDT-1d-2025-11.zip",
+      "sha256": "c4ef0279dfe8edac5d39a8582500909fd4a48fbee359a11aec9ec01bdfa8ad4c"
+    },
+    {
+      "file": "HEIUSDT-1d-2025-12.zip",
+      "sha256": "cea45bb9dcb5437a2fc4a0b382c4a9f56817708ad489946acdc12048695ef8ad"
+    },
+    {
+      "file": "HEIUSDT-1d-2026-01.zip",
+      "sha256": "8c1e76fa912401b207c7ff6e3f4d18db1b0400ea8a9e895bd078332d5f69cdf2"
+    },
+    {
+      "file": "HEIUSDT-1d-2026-02.zip",
+      "sha256": "8bd8da6aaca2d401f112f0aa1cc01a9a09ebdf35c358c24999c73af5c2aca31f"
+    },
+    {
+      "file": "HEIUSDT-1d-2026-03.zip",
+      "sha256": "483ad4fb38e7ff08fb77e68e15979e05fa828dae453b802ef188bdbbc78a895d"
+    },
+    {
+      "file": "HEIUSDT-1d-2026-04.zip",
+      "sha256": "2b68ecf9fb27e7ee62e0abd01011a8e675784710882e317a13567186c75b6179"
+    },
+    {
+      "file": "HEIUSDT-1d-2026-05.zip",
+      "sha256": "af3dd6646f4af687e0084121d0695ba1e653e6cb6ce196e07cd815e02b75a557"
+    },
+    {
+      "file": "HEIUSDT-1d-2026-06.zip",
+      "sha256": "c4062c7a68354891c784d9aeb3fdb233b04ebbc867a09cfe7fa986ee53633aaa"
+    },
+    {
+      "file": "HEIUSDT-1d-2026-07.zip",
+      "sha256": "403fa817b75ff65143540b1ceafd493208a8bd28150b61ec47f30c9e477c3b66"
+    },
+    {
+      "file": "HEIUSDT-1d-2026-08.zip",
+      "sha256": "6059ee199e45db3655d3650bf80a2286baa640ffbc5e0d3f4a2a90d388092777"
+    },
+    {
+      "file": "HEIUSDT-1d-2026-09.zip",
+      "sha256": "ca01c73e8173a2dfee75a4b02ca2e1f9435b7a4d69d60ffdb7dbb24d6b9b5ef8"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

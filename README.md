@@ -21,7 +21,7 @@ Start with `CLAUDE.md`. Plan and audit: see the project doc "Swing-trading resea
 | 11 More swing ideas | displacement, short-term reversal and 12-1 momentum pre-registered and tested on a never-evaluated 2016–2022 presample; all three **REJECTED**, holdout unused (2026-10-24, `reports/backtests/EXP-0011-0013-report.md`) |
 | 12 Swing ideas round 2 | weekly 12-1 momentum and gap-up drift tested on a never-evaluated 2013–2015 split; both **REJECTED** (momentum consistent but regime-dependent), holdout unused (2026-10-25, `reports/backtests/EXP-0014-0015-report.md`) |
 | 13 Popular social-media strategies | Minervini, Supertrend, 44-MA, Turtle 55, golden cross pre-registered and tested on 2013–2025 with a 16-way correction; all five **REJECTED**, none beat NIFTY 50 buy and hold, holdout unused (2026-10-25, `reports/backtests/EXP-0016-0020-report.md`) |
-| 14 Crypto vs Indian equities | Binance spot daily loader (official archive, checksums, delisted pairs); the same six rule sets pre-registered on crypto (EXP-0021..0026), holdout 2025-01..2026-09 sealed (2026-10-25, `docs/strategy-specifications/crypto-comparison.md`) |
+| 14 Crypto vs Indian equities | Binance spot daily loader (official archive, checksums, delisted pairs); the same six rule sets on crypto (EXP-0021..0026) all **REJECTED**, holdout 2025-01..2026-09 sealed; market comparison: no tested rule beats buy and hold in either market (2026-10-25, `reports/market-comparison-2026-10-25.md`) |
 
 ## Daily report (paper only)
 ```

@@ -1,0 +1,257 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/FARMUSDT/1d/",
+  "instrument": "FARMUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-08-11",
+  "last_bar": "2026-05-27",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:33:16+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1751,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "FARMUSDT-1d-2021-08.zip",
+      "sha256": "8a162e6cf72d88cdd1bea2efe9683fd48ee3e2cd8f5d9b38aaac8d3b316c3ace"
+    },
+    {
+      "file": "FARMUSDT-1d-2021-09.zip",
+      "sha256": "e3df2f364eda38f0ae3e9b578e41b81ad9b2285869c1518943fd125b77361bef"
+    },
+    {
+      "file": "FARMUSDT-1d-2021-10.zip",
+      "sha256": "b3b602554adc0e117422c97adcce6b91e1585a39044f3d1c88fed0ff78f3e0bb"
+    },
+    {
+      "file": "FARMUSDT-1d-2021-11.zip",
+      "sha256": "d635c38d40901c360e52d373938f16fcc89dd1fb8597eff554c1418a10829bb3"
+    },
+    {
+      "file": "FARMUSDT-1d-2021-12.zip",
+      "sha256": "5230dc27fccd34daf42950cd884bdebce1de11ac56d01ded8216a6205a6dbfc1"
+    },
+    {
+      "file": "FARMUSDT-1d-2022-01.zip",
+      "sha256": "39fd9397fe142467e9af56420822ed97a795d43262a62f1518ac981bb8d76bbf"
+    },
+    {
+      "file": "FARMUSDT-1d-2022-02.zip",
+      "sha256": "5d820e1f831733bb5a6285028e34cb8f64fbee2eb9031f2ec32001d6a45f10d0"
+    },
+    {
+      "file": "FARMUSDT-1d-2022-03.zip",
+      "sha256": "a38c28c2f3ddb8d3bf93de2f38fbc4c29a520157468fd9ae6489f10cc61969ee"
+    },
+    {
+      "file": "FARMUSDT-1d-2022-04.zip",
+      "sha256": "6e045901e37eb576abc4b3e24bdd2d7292bb100111a6fd318767e9f6c36ecace"
+    },
+    {
+      "file": "FARMUSDT-1d-2022-05.zip",
+      "sha256": "be88e9250cda2cae52b0cba0a3ad6921fae266a948db238e53b10af6e978fff7"
+    },
+    {
+      "file": "FARMUSDT-1d-2022-06.zip",
+      "sha256": "ba017f72489c11a470d105744eaeb0b17bf08ab819301e491a4878efe7ce7c84"
+    },
+    {
+      "file": "FARMUSDT-1d-2022-07.zip",
+      "sha256": "f9ddf04c4938f0d212de17a99ac291dc8c573932d37b98fdff28551c06b73ca7"
+    },
+    {
+      "file": "FARMUSDT-1d-2022-08.zip",
+      "sha256": "0186297f7a76b79af44333deb8fabe430bf0109c7fde1710e22bd34a157b5fa5"
+    },
+    {
+      "file": "FARMUSDT-1d-2022-09.zip",
+      "sha256": "84c8fc61db5cba35d08f50c10edf3ed6d00c4d9bca330d68ab603ee7f82df2e5"
+    },
+    {
+      "file": "FARMUSDT-1d-2022-10.zip",
+      "sha256": "90eb1a115ce46d97f1ac2518986aed64b92f80bcc5baf8ab34df06ed6f6e72e1"
+    },
+    {
+      "file": "FARMUSDT-1d-2022-11.zip",
+      "sha256": "58beca69e9322e3597785f928c6b1fbedfe9dd94732696804f2949ddfb768b8e"
+    },
+    {
+      "file": "FARMUSDT-1d-2022-12.zip",
+      "sha256": "c1510c06dd60ff30eb05f682df6e6534e9883e5f1c018e4bf13c980a6b6331ef"
+    },
+    {
+      "file": "FARMUSDT-1d-2023-01.zip",
+      "sha256": "23036d1e9620f195d946ff3a81fe83c5c0e7df93d5c1855904a183e67c6f1f0b"
+    },
+    {
+      "file": "FARMUSDT-1d-2023-02.zip",
+      "sha256": "a87ec54b18ecaaef1a6177cff98c782bca44d9a7788f78c9bdb8751e8101d7cf"
+    },
+    {
+      "file": "FARMUSDT-1d-2023-03.zip",
+      "sha256": "36333762230e29327ef117c2dfa0585c54b3734bb96b9fb02eb147423b0bf56a"
+    },
+    {
+      "file": "FARMUSDT-1d-2023-04.zip",
+      "sha256": "778737e7fa45ec06cb28ae2f09f8daaafbdbb12b6e397342a70c23d1528cad93"
+    },
+    {
+      "file": "FARMUSDT-1d-2023-05.zip",
+      "sha256": "94b3930bf79d957275b17fcb53725953e1a7e61a8556dd770ea3c1ef6d69edeb"
+    },
+    {
+      "file": "FARMUSDT-1d-2023-06.zip",
+      "sha256": "a34104e18ef3cbbebe3df072104d05d509b46cdaf1dba5bda023ef68039b4154"
+    },
+    {
+      "file": "FARMUSDT-1d-2023-07.zip",
+      "sha256": "701588abcce6c1ca2b1d1e6b8fe961e0db634535ba4eea481a5d4dc45d882848"
+    },
+    {
+      "file": "FARMUSDT-1d-2023-08.zip",
+      "sha256": "cf371ac00bd991e207cfc548b87e435cca9ba26929dcccbe24184d5d99208246"
+    },
+    {
+      "file": "FARMUSDT-1d-2023-09.zip",
+      "sha256": "b4471e415a89d967260a09f2c27e6a3e3ef92862ad5549e96c2781e8105b4f70"
+    },
+    {
+      "file": "FARMUSDT-1d-2023-10.zip",
+      "sha256": "330fb20d63ce227c47d5958016dc858119eccdd1b9eaa79c60d98722fb8f867d"
+    },
+    {
+      "file": "FARMUSDT-1d-2023-11.zip",
+      "sha256": "ef43009513982b7622f11651f29a77177f67a5c05c5873d20d50f179ba906d0c"
+    },
+    {
+      "file": "FARMUSDT-1d-2023-12.zip",
+      "sha256": "659fb1adc8a85d0592d8e00db324f5d3ce7bb7767b545a905430e6ad23b0c27b"
+    },
+    {
+      "file": "FARMUSDT-1d-2024-01.zip",
+      "sha256": "b0c3e8aca8d31e7caf78069620f7325fc57c4f50e9022a38204acf39cac18219"
+    },
+    {
+      "file": "FARMUSDT-1d-2024-02.zip",
+      "sha256": "1480320e446dedff0eb23bfa70c27e79ee2372638f281777accf6447ef1b6ce7"
+    },
+    {
+      "file": "FARMUSDT-1d-2024-03.zip",
+      "sha256": "7a1b8f9828e21e086f31a8580213bcc0ece1d1aba47f69344ec98cc28ac6fc60"
+    },
+    {
+      "file": "FARMUSDT-1d-2024-04.zip",
+      "sha256": "daacdcbbfe5a094f28c911f2eda629ca48d4216758829a7f0657223a3a1ba05c"
+    },
+    {
+      "file": "FARMUSDT-1d-2024-05.zip",
+      "sha256": "62550bda51f4c426db4ff187a35f51a067f650dcad2969b7a0b2ec744d82aded"
+    },
+    {
+      "file": "FARMUSDT-1d-2024-06.zip",
+      "sha256": "1df15c64cba857b1cd2d765d78139d2c28d880d5630fed18aacae53109112c44"
+    },
+    {
+      "file": "FARMUSDT-1d-2024-07.zip",
+      "sha256": "4b628e9d3f35b39674be6dcabc3a5e1506137da541a993435be46feb8ca418c5"
+    },
+    {
+      "file": "FARMUSDT-1d-2024-08.zip",
+      "sha256": "80a57a5083db5083b713d3d32b23c7469407180ced13ebc4b814036a16bca9e5"
+    },
+    {
+      "file": "FARMUSDT-1d-2024-09.zip",
+      "sha256": "7457561cca952012aa11f9ddaed75630b41723ef4d62b0d0db9ed2fcf3f3e398"
+    },
+    {
+      "file": "FARMUSDT-1d-2024-10.zip",
+      "sha256": "0056b30346b2cc1de865ca8c39fbd5a2e75d1f90bc56663f24e1ea5cf0631e0b"
+    },
+    {
+      "file": "FARMUSDT-1d-2024-11.zip",
+      "sha256": "7e582f6da03df1f1a5895f579dba944992ef80f33bee42d45e3ad04d1acd13f4"
+    },
+    {
+      "file": "FARMUSDT-1d-2024-12.zip",
+      "sha256": "86963b06b13616b90f58f7cae6781285ad26e416b7342428e3ea230b85d87b60"
+    },
+    {
+      "file": "FARMUSDT-1d-2025-01.zip",
+      "sha256": "40bd4cf25a11f897d2936d24728aceda714ea950be8d19f6bc4ae20a805a7385"
+    },
+    {
+      "file": "FARMUSDT-1d-2025-02.zip",
+      "sha256": "43e4c32d8c8f1c16e4fb6dc717d37c4845864d8ef935485f2c24181941ac1adf"
+    },
+    {
+      "file": "FARMUSDT-1d-2025-03.zip",
+      "sha256": "81d95c2ea01b30f04894bcc0248019fc9c52808e3b6573071faea8eea23e4651"
+    },
+    {
+      "file": "FARMUSDT-1d-2025-04.zip",
+      "sha256": "766e83793d5496ad99ad7ad6725d7f4859e186726d75a343e03f409b8bfa4f1b"
+    },
+    {
+      "file": "FARMUSDT-1d-2025-05.zip",
+      "sha256": "c2a8edddd14bfd5c85f6c1b15d717f1211dc59ba80e104d2a7c67c57b0ef31e6"
+    },
+    {
+      "file": "FARMUSDT-1d-2025-06.zip",
+      "sha256": "126a1fb32e027c9f10e566c3457051292e748811b1cb2fe3b657628a2b2e5892"
+    },
+    {
+      "file": "FARMUSDT-1d-2025-07.zip",
+      "sha256": "d1531fa912763581ba13300b751800231d6e9351328f3b338528aadc2d742010"
+    },
+    {
+      "file": "FARMUSDT-1d-2025-08.zip",
+      "sha256": "7456fc9fc7f0bb54594baaae90d957eae94a9748f22317ffcdc289edfe8c17a2"
+    },
+    {
+      "file": "FARMUSDT-1d-2025-09.zip",
+      "sha256": "591b257541f5c819ec26a369355199c8b666b1c1fc32e29720be206d8757b2e7"
+    },
+    {
+      "file": "FARMUSDT-1d-2025-10.zip",
+      "sha256": "abdf421cd58f00f227c23961c6bcb2851c7cbdae7abf19ef1f5ea71042998aae"
+    },
+    {
+      "file": "FARMUSDT-1d-2025-11.zip",
+      "sha256": "57f93ae0f283f08a6df7f66f4946b7caa2470975c416df22b0c279d439c35a75"
+    },
+    {
+      "file": "FARMUSDT-1d-2025-12.zip",
+      "sha256": "f859b332b087994b48b743084dfa12a1af0da1e5776068c8602e85b7fe3c7b7d"
+    },
+    {
+      "file": "FARMUSDT-1d-2026-01.zip",
+      "sha256": "0a17df873e80350fe3aa633069d520851859ab95f48436817d2f81592c681694"
+    },
+    {
+      "file": "FARMUSDT-1d-2026-02.zip",
+      "sha256": "198a3a941d1429177646a0ca4315ecfa0b19fb0ce7da386be30d28a281ecb1bc"
+    },
+    {
+      "file": "FARMUSDT-1d-2026-03.zip",
+      "sha256": "e670d35b8ae026347b89df725502b94cc3870ea1f79941ae500454f66056564a"
+    },
+    {
+      "file": "FARMUSDT-1d-2026-04.zip",
+      "sha256": "47df0392d73d0c49ad4004e434db19c579247a923ddf7084bcc8116d460fbc81"
+    },
+    {
+      "file": "FARMUSDT-1d-2026-05.zip",
+      "sha256": "5f1c3f85af78a53fe7c3401f66c018ef1493e6f4ff2af117f1e5f34d90757426"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

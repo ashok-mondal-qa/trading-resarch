@@ -1,0 +1,41 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SPCXBUSDT/1d/",
+  "instrument": "SPCXBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-06-12",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:45:17+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 111,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SPCXBUSDT-1d-2026-06.zip",
+      "sha256": "babdaae8d2eaedcf35e265a4b82d84f28bd47ee2ea563e4242281d2a4edb0dd9"
+    },
+    {
+      "file": "SPCXBUSDT-1d-2026-07.zip",
+      "sha256": "575b74830bd33dfe3fd921993498a99a3d65187d30e53f552b8715bf5d38e7b7"
+    },
+    {
+      "file": "SPCXBUSDT-1d-2026-08.zip",
+      "sha256": "039f1f708665e29c04cc1676b83833ef709dff9c41bc679c4ed16b3a52ccb4df"
+    },
+    {
+      "file": "SPCXBUSDT-1d-2026-09.zip",
+      "sha256": "0a95f8d58dd747aade2b8eca1640992861b742f2ff5ad4fdce3d4998cbf14060"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

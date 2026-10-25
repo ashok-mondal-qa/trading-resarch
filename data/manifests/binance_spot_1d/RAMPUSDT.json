@@ -1,0 +1,93 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/RAMPUSDT/1d/",
+  "instrument": "RAMPUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-03-22",
+  "last_bar": "2022-07-04",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:43:16+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 470,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "RAMPUSDT-1d-2021-03.zip",
+      "sha256": "e496c5b6892dbb8cd55df1d9e31a5c5a94ba032ee9d377e2492a72c528b9a880"
+    },
+    {
+      "file": "RAMPUSDT-1d-2021-04.zip",
+      "sha256": "72e8965b2af8d9a38b43d2f537bebfd14dba29233ac9612420a76be4c7e47235"
+    },
+    {
+      "file": "RAMPUSDT-1d-2021-05.zip",
+      "sha256": "01df264d7e4a57542a1c4042b7dd1eed88de127935c42dd67b311ef5651ff7fa"
+    },
+    {
+      "file": "RAMPUSDT-1d-2021-06.zip",
+      "sha256": "d2ff818bb818b9a9904b6ceeacb0636dd89d6ed7368c70e238588679bcea9b44"
+    },
+    {
+      "file": "RAMPUSDT-1d-2021-07.zip",
+      "sha256": "575c89045b43269296a4ba7a3c7b2deb50563dacd4dcdc7f9951157958666c63"
+    },
+    {
+      "file": "RAMPUSDT-1d-2021-08.zip",
+      "sha256": "e8924c2a41c15cce1f9cf0e27b637eb6fc098ef180e370654f833d5a505f5ca1"
+    },
+    {
+      "file": "RAMPUSDT-1d-2021-09.zip",
+      "sha256": "dd822d5a94fe9345b6d3a07b2da5a59246aff2a61dd14b85c4a7bd3a7c17d62e"
+    },
+    {
+      "file": "RAMPUSDT-1d-2021-10.zip",
+      "sha256": "8029bc79fe09015b87f6e6908298080cd7f3ec1855dc6ecee5ef23c9f8cbcf14"
+    },
+    {
+      "file": "RAMPUSDT-1d-2021-11.zip",
+      "sha256": "8db4c24bdab151da6fd240c86bd10de695832c2ccd1acd8d2a6625f187b98fcb"
+    },
+    {
+      "file": "RAMPUSDT-1d-2021-12.zip",
+      "sha256": "5b198b92ae3fce0e8967ada8f046013b1c4a7412ebf3045a5f7b69fe0fe9654f"
+    },
+    {
+      "file": "RAMPUSDT-1d-2022-01.zip",
+      "sha256": "055ae9e436213973ee2b1f3b4c6cea362f92e7279a979e97cdf5ca60158b2b21"
+    },
+    {
+      "file": "RAMPUSDT-1d-2022-02.zip",
+      "sha256": "b07bd9c762470e465b65eddc065efeebd618c260d2be177426d0f498990687d5"
+    },
+    {
+      "file": "RAMPUSDT-1d-2022-03.zip",
+      "sha256": "5af1a85efe38dabb755660f6f0a3d371a50b384d17dfaf26bf85b1be4c28f815"
+    },
+    {
+      "file": "RAMPUSDT-1d-2022-04.zip",
+      "sha256": "72b191a2b3dfb435407b4905086a0f33226e3e92010f30ed660bb442a8d7f49f"
+    },
+    {
+      "file": "RAMPUSDT-1d-2022-05.zip",
+      "sha256": "c8f39c35c5d5c544fa53267e3374bbd522acf2f34d23ce9f216bbe34b7cf2a8f"
+    },
+    {
+      "file": "RAMPUSDT-1d-2022-06.zip",
+      "sha256": "b7e4e5a4262521f7e1e27c59b58c9912133bf5235b62ac9ae338d2db077d3daa"
+    },
+    {
+      "file": "RAMPUSDT-1d-2022-07.zip",
+      "sha256": "7c1179e470227dd81ff029b042565f0c0c45a9fdccb20f70fadb5875b7f6fb1c"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

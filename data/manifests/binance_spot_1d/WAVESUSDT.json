@@ -1,0 +1,289 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/WAVESUSDT/1d/",
+  "instrument": "WAVESUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-01-18",
+  "last_bar": "2024-06-17",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:49:11+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1978,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "WAVESUSDT-1d-2019-01.zip",
+      "sha256": "ecb313471f83a8517c267c8394ec089a78c8fae0bfa569c28638053423b10dcb"
+    },
+    {
+      "file": "WAVESUSDT-1d-2019-02.zip",
+      "sha256": "e4051c2aca7906e0cb955e85a752b5f1640df7d0156f8b31399eab3af8950125"
+    },
+    {
+      "file": "WAVESUSDT-1d-2019-03.zip",
+      "sha256": "945eb7761445678f1de1a454c0e3f0c05a1df2b4a1b42f58a769d94270bae770"
+    },
+    {
+      "file": "WAVESUSDT-1d-2019-04.zip",
+      "sha256": "99a57f2a18182c0eab067ca927cd3c4317463897c9b8762d1d6ec891a530416c"
+    },
+    {
+      "file": "WAVESUSDT-1d-2019-05.zip",
+      "sha256": "c9ee981d1e71b1e3ae5c244fe97bbae56ff3eb96a46fd7a4ed45403d0cd04164"
+    },
+    {
+      "file": "WAVESUSDT-1d-2019-06.zip",
+      "sha256": "38f88a899b341ada2eee56a41c74282affcd9d1acb3d069c7ed5217297cd157a"
+    },
+    {
+      "file": "WAVESUSDT-1d-2019-07.zip",
+      "sha256": "3e43d615829b6030462b113208dbcf8c58bd6a9d9cf8f8978f39c542e425a3df"
+    },
+    {
+      "file": "WAVESUSDT-1d-2019-08.zip",
+      "sha256": "6e19233341e13e472ed158bdbdb0891b73d7ca2666951bf8b39e7d6e06e13f58"
+    },
+    {
+      "file": "WAVESUSDT-1d-2019-09.zip",
+      "sha256": "89195c365851006913793e1636e3e24bda82b822938c421480840841e4cc9554"
+    },
+    {
+      "file": "WAVESUSDT-1d-2019-10.zip",
+      "sha256": "356207f0abd5ae511a90cfbc0b11a83832ac1e26f278b927070b3366e99421d9"
+    },
+    {
+      "file": "WAVESUSDT-1d-2019-11.zip",
+      "sha256": "2145ca748f99b0d6682b940ec220a666d70fccfe79a2d93e5c83e44d660be5c8"
+    },
+    {
+      "file": "WAVESUSDT-1d-2019-12.zip",
+      "sha256": "b76af1a3518114db820232de22903acc2bd491811a22ab2f4c7c4a60dd30f5f2"
+    },
+    {
+      "file": "WAVESUSDT-1d-2020-01.zip",
+      "sha256": "0c632974b75e2e7d120af8ba7b3bbdbc66ca6950e136dde62a871dce5ec72aef"
+    },
+    {
+      "file": "WAVESUSDT-1d-2020-02.zip",
+      "sha256": "1acc5a8ef41734875bb77c9b959a24a24765ca3c1ddf97eb1d43c1a042201843"
+    },
+    {
+      "file": "WAVESUSDT-1d-2020-03.zip",
+      "sha256": "13f74f5bf36b2b44ca2acda7fa6a57ad067cdf49ca2d47d10058cb24e18e9385"
+    },
+    {
+      "file": "WAVESUSDT-1d-2020-04.zip",
+      "sha256": "a98e8922568162ddb58a6296e2d59a76c6ff97efceb809bbad187116304d4159"
+    },
+    {
+      "file": "WAVESUSDT-1d-2020-05.zip",
+      "sha256": "a34e9f05bd6b2428edd8c5641752845f1a5a5e0b837127dfeef53bee7f7ade81"
+    },
+    {
+      "file": "WAVESUSDT-1d-2020-06.zip",
+      "sha256": "9bff876c3b7a480e4af787826e629d0a8356e33ad05a0a712c0a9de15699c60c"
+    },
+    {
+      "file": "WAVESUSDT-1d-2020-07.zip",
+      "sha256": "118e332ff1e4f745e4f93b162fe8cf480d8b46907546dfb61ec7ffc052d18b7b"
+    },
+    {
+      "file": "WAVESUSDT-1d-2020-08.zip",
+      "sha256": "876d8097d2c4e251e90d1d9e57984d3075f518cc56bb71445e97ec1b60b1ceb7"
+    },
+    {
+      "file": "WAVESUSDT-1d-2020-09.zip",
+      "sha256": "0513aa7c7e8653877fe9121925316e087b6ac79898f5b70d136603413f5b42f7"
+    },
+    {
+      "file": "WAVESUSDT-1d-2020-10.zip",
+      "sha256": "bae9e6c19826a8ea85a5f81ab3898488c464e2bbc2e6536d2e823b7a62312e15"
+    },
+    {
+      "file": "WAVESUSDT-1d-2020-11.zip",
+      "sha256": "4569bf401d187ee68f58eaa927bf00cf0916c75a4781b64b08e796d4a29bc191"
+    },
+    {
+      "file": "WAVESUSDT-1d-2020-12.zip",
+      "sha256": "2f1ac46a4d9e962fcee0063630570056b35b46cbc1dd04f5aab5393223cc6ab7"
+    },
+    {
+      "file": "WAVESUSDT-1d-2021-01.zip",
+      "sha256": "ca9d7c2c28a2b0140080407825d5180ca5125c890967b97224c46b01f111416a"
+    },
+    {
+      "file": "WAVESUSDT-1d-2021-02.zip",
+      "sha256": "8dd5b32e354eb84e64ed679599f62addc63ae04b4e27e4464f321627a3d345c2"
+    },
+    {
+      "file": "WAVESUSDT-1d-2021-03.zip",
+      "sha256": "7c0c0f0935def1c00b19ff9d7c9939ce187d6a372f2abcbb53cbbe708eba60ae"
+    },
+    {
+      "file": "WAVESUSDT-1d-2021-04.zip",
+      "sha256": "448b978cbb35c3955bbba2a7c76633f215a178fa79ce995f5dcfde6118967b76"
+    },
+    {
+      "file": "WAVESUSDT-1d-2021-05.zip",
+      "sha256": "23c355457fef42f389851a36ae8050bbec5eecbcb8796276b9a634b192ef3787"
+    },
+    {
+      "file": "WAVESUSDT-1d-2021-06.zip",
+      "sha256": "923046ae6ca2e92488ea28ac695d1a20846a202d5f2259ada5033600c9b76840"
+    },
+    {
+      "file": "WAVESUSDT-1d-2021-07.zip",
+      "sha256": "1da132a2daf4d1f2a62f9d7c6a1dff52cef6da87d09cc58fdc912751dd841239"
+    },
+    {
+      "file": "WAVESUSDT-1d-2021-08.zip",
+      "sha256": "3d0f9e112a8d1b44fdf326ae4f4edb6062accfc50149d8571a7629254eff5209"
+    },
+    {
+      "file": "WAVESUSDT-1d-2021-09.zip",
+      "sha256": "ca96b87c8aeb910377a8ad1c2b5409d93334853ae184e5acb05f7170b38df9af"
+    },
+    {
+      "file": "WAVESUSDT-1d-2021-10.zip",
+      "sha256": "823920eeb6feb83ac2618b18436e718e0553c2d202f8cfa720ee7d46854dd293"
+    },
+    {
+      "file": "WAVESUSDT-1d-2021-11.zip",
+      "sha256": "5b771621e8badda93376fe9cba2f3eae117c6d74625e447b2b1e4a386219c4c7"
+    },
+    {
+      "file": "WAVESUSDT-1d-2021-12.zip",
+      "sha256": "f69d78003fb50a9eceaa2ae45d413a2bd547c7bfcb33a33622cc94e5bd879052"
+    },
+    {
+      "file": "WAVESUSDT-1d-2022-01.zip",
+      "sha256": "ad6d45036877116125b37ab44152aaa608a3fa3270f2190d6e7461e01a04c4e5"
+    },
+    {
+      "file": "WAVESUSDT-1d-2022-02.zip",
+      "sha256": "de1aeaf0e68ebcb1aa7c599879f4ddece6f052a7edcd85cda97859f079e0b45f"
+    },
+    {
+      "file": "WAVESUSDT-1d-2022-03.zip",
+      "sha256": "64e021ed3a8a5b4d2d75e6d428d1adece14cde28fe88373b07a2b68b159fd1ea"
+    },
+    {
+      "file": "WAVESUSDT-1d-2022-04.zip",
+      "sha256": "cb59f3ec38ab4be8f49d715d9712a3f073268234adc3501f5eb09e8a4d381b2b"
+    },
+    {
+      "file": "WAVESUSDT-1d-2022-05.zip",
+      "sha256": "00c8aa84c4dfb564c223cad8b62717d5cd13d95a2efefff06d8197bbd282110a"
+    },
+    {
+      "file": "WAVESUSDT-1d-2022-06.zip",
+      "sha256": "f3435cf0c464cbebfe2f0a97fc7126f57ec59736ae45ce886ea8d743ccac9dc9"
+    },
+    {
+      "file": "WAVESUSDT-1d-2022-07.zip",
+      "sha256": "cc2f65ec273ad54ef3df7e3821d869f39a5f8860c3b83eb78cfaf736ea2c4c00"
+    },
+    {
+      "file": "WAVESUSDT-1d-2022-08.zip",
+      "sha256": "1d43365270503da61ef27e2415b2b2cb2d80d84b2b32f030291c5ef4aec16d40"
+    },
+    {
+      "file": "WAVESUSDT-1d-2022-09.zip",
+      "sha256": "06cf1660eff59e2c4cd49b4a9ae9b943d4a0a15b84483ac6a4c96f58c162af00"
+    },
+    {
+      "file": "WAVESUSDT-1d-2022-10.zip",
+      "sha256": "24d4564dff0d16da359ea88638245cf4e97a3665af6b613aac3472579dd09547"
+    },
+    {
+      "file": "WAVESUSDT-1d-2022-11.zip",
+      "sha256": "8cc65f3c061e3cdd83f16bbd94639882802c3c6c31fe8b4a937d135f6137581c"
+    },
+    {
+      "file": "WAVESUSDT-1d-2022-12.zip",
+      "sha256": "fa0c6a1f99258cb488cc49c5d36f6e4940df0c9e36ee96d8d7258049bbde0da6"
+    },
+    {
+      "file": "WAVESUSDT-1d-2023-01.zip",
+      "sha256": "fa04c9dc381017629d95fbab8247492b2d1cad4fb6e9e51f35fca2de833e5a3c"
+    },
+    {
+      "file": "WAVESUSDT-1d-2023-02.zip",
+      "sha256": "dae2bd80602b20d817484e059ac0bc520882917a1b1131a4eaff182da96f0cf3"
+    },
+    {
+      "file": "WAVESUSDT-1d-2023-03.zip",
+      "sha256": "84bd4df7f617546dce3a2ca9a425c200842beb1d274472647b34112b9e29ff44"
+    },
+    {
+      "file": "WAVESUSDT-1d-2023-04.zip",
+      "sha256": "172ac1dd3054dec2014b61fa777c622de59891207dba4ee01a833ba82f33e30e"
+    },
+    {
+      "file": "WAVESUSDT-1d-2023-05.zip",
+      "sha256": "f1fcef22f74b33474bd7f109ce9c8753d963419b9adfe63c47698213ad4d1d5b"
+    },
+    {
+      "file": "WAVESUSDT-1d-2023-06.zip",
+      "sha256": "08fd8a17ddfd6486a9f7f77d4fa6046d92f6af7ad6e4cde9c71c47a8f4620476"
+    },
+    {
+      "file": "WAVESUSDT-1d-2023-07.zip",
+      "sha256": "4fac096aa8bb1de261af9381776f8d7ecea4a256ef55ae3d517c27f4fc00890e"
+    },
+    {
+      "file": "WAVESUSDT-1d-2023-08.zip",
+      "sha256": "c9c06898ddef73a7de5936dcf4df8b574ab0fc9952be6dd9d850dfd48ffe0ebc"
+    },
+    {
+      "file": "WAVESUSDT-1d-2023-09.zip",
+      "sha256": "ac83318c4f779eeb312c239f2026616dd6a12e08a4058cc01934067292a916f8"
+    },
+    {
+      "file": "WAVESUSDT-1d-2023-10.zip",
+      "sha256": "e78be8c3e5948553ac7a6acd6cbb100b014738b3805df8be627cf0d378427446"
+    },
+    {
+      "file": "WAVESUSDT-1d-2023-11.zip",
+      "sha256": "b51b816937edb4489a5433188c9cb8f5200bb25753c5ed5483406d0d44dfae85"
+    },
+    {
+      "file": "WAVESUSDT-1d-2023-12.zip",
+      "sha256": "23affe7266b75a1e448d5ec74d9d84d40c073e831fbc5f8d90a681e1a689b989"
+    },
+    {
+      "file": "WAVESUSDT-1d-2024-01.zip",
+      "sha256": "bffb3bb1202673b2ba0a8c472e3caf92905a0b60e4cde301c83411bac80007da"
+    },
+    {
+      "file": "WAVESUSDT-1d-2024-02.zip",
+      "sha256": "93f7add0e142a32dacff160ddce34564f9a310ea91e7640bb91ae425ea0880ad"
+    },
+    {
+      "file": "WAVESUSDT-1d-2024-03.zip",
+      "sha256": "1da1c64be33a89c4fcd787486eae11337bb2eae8ccd3492c60e8f5401ef9e8c0"
+    },
+    {
+      "file": "WAVESUSDT-1d-2024-04.zip",
+      "sha256": "dd637a7ea47295d633b04d0918126a51f58864f3ed4d9d2aaaae123bcedb76f3"
+    },
+    {
+      "file": "WAVESUSDT-1d-2024-05.zip",
+      "sha256": "a2725bbf24e3a75af06491fd631fd04b4230987fa678f8d77ea9c2645ca95cfc"
+    },
+    {
+      "file": "WAVESUSDT-1d-2024-06.zip",
+      "sha256": "8ff1f6e729d23aec4a47e84d05c2b6065a4bbdac2977c534df1e45ed80e2ac51"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

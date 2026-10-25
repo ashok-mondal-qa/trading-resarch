@@ -1,0 +1,73 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/YBUSDT/1d/",
+  "instrument": "YBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-10-15",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:49:43+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 351,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "YBUSDT-1d-2025-10.zip",
+      "sha256": "c4f6116036b7eb0d6fb6a564689cd0e4972670447dc153a5b7fc1caa4da8d964"
+    },
+    {
+      "file": "YBUSDT-1d-2025-11.zip",
+      "sha256": "e9e827bb8b7b9ee14b27b9ed588ba5de43ed768bea6c2ff09a0b99e6e46b5707"
+    },
+    {
+      "file": "YBUSDT-1d-2025-12.zip",
+      "sha256": "8a8ed8353dcf95ebb2c849ca7ce29274463c8931238974102c32f2fd5a541ed6"
+    },
+    {
+      "file": "YBUSDT-1d-2026-01.zip",
+      "sha256": "37eafbf469da4a753d533e6e36e1909e9f073e227ca8714bb330128d2b3a2ee4"
+    },
+    {
+      "file": "YBUSDT-1d-2026-02.zip",
+      "sha256": "28acb80569a64993d986b5e60170551f33c2ea3a0c00d935c18a39f71cf4351f"
+    },
+    {
+      "file": "YBUSDT-1d-2026-03.zip",
+      "sha256": "f9fea205cc39d329117304f2591ca9d26be34f56d5bdd0c621254a8f98391149"
+    },
+    {
+      "file": "YBUSDT-1d-2026-04.zip",
+      "sha256": "6505a14e2d76628c995d17d96a297dda9bbcfe895ef0fabf4fa5d9fb122ab33a"
+    },
+    {
+      "file": "YBUSDT-1d-2026-05.zip",
+      "sha256": "36221cf900c92630cc9c2c3f10c2474d7faca7a75f6fc85167b8dab549bcbc0a"
+    },
+    {
+      "file": "YBUSDT-1d-2026-06.zip",
+      "sha256": "be7257dda30166a278a78821bc9b6182894bc115128fde32b898ce7e70a478aa"
+    },
+    {
+      "file": "YBUSDT-1d-2026-07.zip",
+      "sha256": "0d41a96f065374a5fb3225ac20ffef1f5d397d13f6963790118958b4ae82429c"
+    },
+    {
+      "file": "YBUSDT-1d-2026-08.zip",
+      "sha256": "c1e583757eb0c6f70cf033ad45f461d785ad46a61bd10c41a894cda336422eb1"
+    },
+    {
+      "file": "YBUSDT-1d-2026-09.zip",
+      "sha256": "127c77e97568349de7fbf2d8c4a166e288962f4f3d359bfebf81a1a28b4d6901"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

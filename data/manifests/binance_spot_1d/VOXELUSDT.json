@@ -1,0 +1,221 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/VOXELUSDT/1d/",
+  "instrument": "VOXELUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-12-14",
+  "last_bar": "2025-12-17",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:52+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1465,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "VOXELUSDT-1d-2021-12.zip",
+      "sha256": "9dbb06a2cbe024d0609ed427844dffafb30f064bfde0f0fe8305ddc1be842cb6"
+    },
+    {
+      "file": "VOXELUSDT-1d-2022-01.zip",
+      "sha256": "a1f4811d51703d92d8d21efc13e227a9bc10ec0cd13ba7340f27465788cae3bd"
+    },
+    {
+      "file": "VOXELUSDT-1d-2022-02.zip",
+      "sha256": "e8bde2b27c97228c65be8201eb103b3327e66b7cd77585b2cdce52d590800151"
+    },
+    {
+      "file": "VOXELUSDT-1d-2022-03.zip",
+      "sha256": "1aa496f7c72a75e2f5bacbf4a76faaa7ec8b0b2026713052258b88bd9816c9fb"
+    },
+    {
+      "file": "VOXELUSDT-1d-2022-04.zip",
+      "sha256": "0105c36105ade1d524faa6a17769d87b99de15d98fedfa69808f1969ee15051b"
+    },
+    {
+      "file": "VOXELUSDT-1d-2022-05.zip",
+      "sha256": "0dff05802f13c255242936a332c07cd69f083421f1af55468a4b04ca0dee22b3"
+    },
+    {
+      "file": "VOXELUSDT-1d-2022-06.zip",
+      "sha256": "53c058a757215181d0bfa3a4ef71219067cb7df589a58c5da866777902fe3dfd"
+    },
+    {
+      "file": "VOXELUSDT-1d-2022-07.zip",
+      "sha256": "6949c270eeda47770ae37d568bc9c27acb5988244b33c20f9297befa770793d4"
+    },
+    {
+      "file": "VOXELUSDT-1d-2022-08.zip",
+      "sha256": "5cd87bab960c857c8b990d1e07f23044b1c7fc265488addd3dc290bc9fc07175"
+    },
+    {
+      "file": "VOXELUSDT-1d-2022-09.zip",
+      "sha256": "95a6d2ede6b1e9ad5b1f327e9e4d2e1c3c2745501f5c587826cda0fc4e72dc3d"
+    },
+    {
+      "file": "VOXELUSDT-1d-2022-10.zip",
+      "sha256": "509b459ac0a0a058a8e19e33162aac4ac04cf2239ec384e17271e0bb54e44d9d"
+    },
+    {
+      "file": "VOXELUSDT-1d-2022-11.zip",
+      "sha256": "3f1628d08cc061db425f9e017e6191db2b31ec86643acc663a70f94a30233469"
+    },
+    {
+      "file": "VOXELUSDT-1d-2022-12.zip",
+      "sha256": "9e95a2b7a3ea9fe0da034d85c139a6ebbf590915da5b39fbc0b86c3437516511"
+    },
+    {
+      "file": "VOXELUSDT-1d-2023-01.zip",
+      "sha256": "af0170a2f4502a4022bb5255e97c6834dcbb1697901a94116eb028e9089e65a3"
+    },
+    {
+      "file": "VOXELUSDT-1d-2023-02.zip",
+      "sha256": "630c6e55caac6a0dae9d248102728ef0121d0c0ad7a87408c45b91e0ceb75bcb"
+    },
+    {
+      "file": "VOXELUSDT-1d-2023-03.zip",
+      "sha256": "0294ce3c12417c8a3de4bb7c59639671c7cf4a0945d160cbd60aca7c2d0af50a"
+    },
+    {
+      "file": "VOXELUSDT-1d-2023-04.zip",
+      "sha256": "1d900d52680fafa56dcdda221f106f28aed626c749bc4c76f04ae9487c346b80"
+    },
+    {
+      "file": "VOXELUSDT-1d-2023-05.zip",
+      "sha256": "736c6ac7b00e3d4a60dc753d706f210ba4ede37e27972db9f98e70a0f1f693d9"
+    },
+    {
+      "file": "VOXELUSDT-1d-2023-06.zip",
+      "sha256": "48c9bc3208df3ec6baafc3d99eda9e32ec8f9b74eae701900ab1f6bd15ee5514"
+    },
+    {
+      "file": "VOXELUSDT-1d-2023-07.zip",
+      "sha256": "412ba7722007773bbc2eeb1aec35b1a2b91cbfc80b05672b1bccc5d1dbfbbe85"
+    },
+    {
+      "file": "VOXELUSDT-1d-2023-08.zip",
+      "sha256": "04e7125bdbf09f60681cf94d6f6fdc8eba38a1e36d984b1897807f30c25233a6"
+    },
+    {
+      "file": "VOXELUSDT-1d-2023-09.zip",
+      "sha256": "85ab78c3e9249011f462c497a9fb3e012e80aa51ad52ab1f8c813f039efa1a61"
+    },
+    {
+      "file": "VOXELUSDT-1d-2023-10.zip",
+      "sha256": "1298750d511399311247310ac002ec5f0a4512eaccb926fe9d667373e0aebb7f"
+    },
+    {
+      "file": "VOXELUSDT-1d-2023-11.zip",
+      "sha256": "1ebb53b63aec31b70b64b6131b33db7deb063f5504986b5b7c130cf90e64df06"
+    },
+    {
+      "file": "VOXELUSDT-1d-2023-12.zip",
+      "sha256": "73494db5ad1d1805d572120ca9a75e1db990d1d01d70221a360388e551907c22"
+    },
+    {
+      "file": "VOXELUSDT-1d-2024-01.zip",
+      "sha256": "1596cd7a17f6629b0a646f871d720ee678d8d83144c97471595742623eb865cc"
+    },
+    {
+      "file": "VOXELUSDT-1d-2024-02.zip",
+      "sha256": "126ca6b8b510cd06c1cbbd5e4ad0ad3d26449d0837f003d007d7b88e571d453d"
+    },
+    {
+      "file": "VOXELUSDT-1d-2024-03.zip",
+      "sha256": "d20289bc3f549f1bc39f92e3744ce61de7347f495850eaf06e99c2a4aa5d9ce7"
+    },
+    {
+      "file": "VOXELUSDT-1d-2024-04.zip",
+      "sha256": "32604177d523deb1bf177b7c993d3d085f4e8513ec121e05b049fd1b4e4c1684"
+    },
+    {
+      "file": "VOXELUSDT-1d-2024-05.zip",
+      "sha256": "86cc81b7309cf0638b62d2232f41d3cce488bf23c7796a00bd3f9970b5963c61"
+    },
+    {
+      "file": "VOXELUSDT-1d-2024-06.zip",
+      "sha256": "bb994470758377e606b166ee3260a854f78033ce90533ac0b37118ad46de0658"
+    },
+    {
+      "file": "VOXELUSDT-1d-2024-07.zip",
+      "sha256": "73af1419c20b06223566855ddf4e5a60b454a32819d98d8a2d239ae48c6569f5"
+    },
+    {
+      "file": "VOXELUSDT-1d-2024-08.zip",
+      "sha256": "84bae66459f0d231c710c2a9f85b3867ff57c36b59a02b26e93691de3a196181"
+    },
+    {
+      "file": "VOXELUSDT-1d-2024-09.zip",
+      "sha256": "530350347c7fceed490e91b4f8510a25a5eca3093e001d93495acff863ef403d"
+    },
+    {
+      "file": "VOXELUSDT-1d-2024-10.zip",
+      "sha256": "510d3a4c997d5be0327e683c419a51247a070e754639da02d17fdbb1c379ea72"
+    },
+    {
+      "file": "VOXELUSDT-1d-2024-11.zip",
+      "sha256": "ca961c35b6ffb19486ff31bcd67f02fc2746f60a5c8cf0ac4d218adab40f0034"
+    },
+    {
+      "file": "VOXELUSDT-1d-2024-12.zip",
+      "sha256": "265ef3a8804b51f6a8f26f56c31591f9f75d61d042f6ed3ee852df4edbb48dc5"
+    },
+    {
+      "file": "VOXELUSDT-1d-2025-01.zip",
+      "sha256": "4f1769c59558cf701ba2ac8b70763dfe6153bbbad1ad5fa745b1fb5f6cb1a33c"
+    },
+    {
+      "file": "VOXELUSDT-1d-2025-02.zip",
+      "sha256": "1411622e43bec32248623c15e0f109117c106bf4f97487066bf8b9590b2525db"
+    },
+    {
+      "file": "VOXELUSDT-1d-2025-03.zip",
+      "sha256": "9c4cff1e3d449dcb942dabd79fcf2cef8a2dd619136eb7ce4d8459e8bc19b89a"
+    },
+    {
+      "file": "VOXELUSDT-1d-2025-04.zip",
+      "sha256": "3ab74ea1ddcdc18c716c24e16b6237f0b8a19b42c8fed318c9ef0fa307cd355c"
+    },
+    {
+      "file": "VOXELUSDT-1d-2025-05.zip",
+      "sha256": "e24d08721e1c24abf7385e40bf1a85d43af5f39df9e2d589bacaed884910e1f3"
+    },
+    {
+      "file": "VOXELUSDT-1d-2025-06.zip",
+      "sha256": "e0237900e1715dd4be1a807a00264a668ad95cb8601846ea217dfdea91a7f0a7"
+    },
+    {
+      "file": "VOXELUSDT-1d-2025-07.zip",
+      "sha256": "a0449c2afe41414ae178e8c1003a9619936310d101a0d40564f32e62483f6b7a"
+    },
+    {
+      "file": "VOXELUSDT-1d-2025-08.zip",
+      "sha256": "fb52c7e40873028265eefdd9a9f9493b4950df9c7db693c58e1a8507254de48f"
+    },
+    {
+      "file": "VOXELUSDT-1d-2025-09.zip",
+      "sha256": "6db0a9a779939d0e60395db7feeb334c1fdee5b066d4fd8cfc72a77a34082b44"
+    },
+    {
+      "file": "VOXELUSDT-1d-2025-10.zip",
+      "sha256": "3c30610c04c94c581c99f77a8c6b83c595508d8e6da4fa5c0d8d62d06e7314c6"
+    },
+    {
+      "file": "VOXELUSDT-1d-2025-11.zip",
+      "sha256": "09923f429410a162b4a4e92a746e66697651ccc440dce402c5ce588f0250446d"
+    },
+    {
+      "file": "VOXELUSDT-1d-2025-12.zip",
+      "sha256": "a316ff10a2bda7004469c13a2feb62f27dc556d979172d36e6c82cb8a47f42ad"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

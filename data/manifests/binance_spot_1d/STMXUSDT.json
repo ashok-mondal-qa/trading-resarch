@@ -1,0 +1,253 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/STMXUSDT/1d/",
+  "instrument": "STMXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-06-11",
+  "last_bar": "2025-02-24",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:46:07+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1720,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "STMXUSDT-1d-2020-06.zip",
+      "sha256": "f339f030686d8cd5b817e883a827d2fcf485dbe3728e68e767d29aef74b371b4"
+    },
+    {
+      "file": "STMXUSDT-1d-2020-07.zip",
+      "sha256": "4e25becdb7ea70bc2e439d967b37f5eabe87fd28702d0304b6a30b8287539a6e"
+    },
+    {
+      "file": "STMXUSDT-1d-2020-08.zip",
+      "sha256": "9071d780c6781f5a2462892d0afa6daaa09326f6ea0047ad4d0f9e9f3b05c023"
+    },
+    {
+      "file": "STMXUSDT-1d-2020-09.zip",
+      "sha256": "66974e104f14b0d29f4765a2afa7c672ad0bddd199e252e87a99e86eccb17c72"
+    },
+    {
+      "file": "STMXUSDT-1d-2020-10.zip",
+      "sha256": "33ac0ec8817c7750b7b90f91572c1a2a328d95040d6e0a71d71ceb74d878805b"
+    },
+    {
+      "file": "STMXUSDT-1d-2020-11.zip",
+      "sha256": "a2788a4f3b624f280788da77815fd88ca7b45a9b470ef2345238f7530d55e0cc"
+    },
+    {
+      "file": "STMXUSDT-1d-2020-12.zip",
+      "sha256": "ffc9b521fb71dce887e80048e6e79987ee75778c5c19c2bdb7138add1ff9b5eb"
+    },
+    {
+      "file": "STMXUSDT-1d-2021-01.zip",
+      "sha256": "227a5cd8bc4ccfd9116360911b10ba297c41a8d9a98b4824b0ad4b54f0b1873a"
+    },
+    {
+      "file": "STMXUSDT-1d-2021-02.zip",
+      "sha256": "bc05e74ace1879172fba1ad200658d3212e8d0007e145b05b5ee6d386550ea57"
+    },
+    {
+      "file": "STMXUSDT-1d-2021-03.zip",
+      "sha256": "321823ede1241303fdb8af9e091c8bf154fd753d79c68aa360380f0b2059d66b"
+    },
+    {
+      "file": "STMXUSDT-1d-2021-04.zip",
+      "sha256": "241d739e33afee76428afc35809d4e0a1bab56a5d83833f72cbbeacf25ceb191"
+    },
+    {
+      "file": "STMXUSDT-1d-2021-05.zip",
+      "sha256": "8495b053f4a8a9724de257da75a817e30cff289346989d9901ce0d50c178b4f3"
+    },
+    {
+      "file": "STMXUSDT-1d-2021-06.zip",
+      "sha256": "8c85518eeb73ddcdfde03853e15cb7da8eb4e9f8d4ae032674f431b8bb09e4f5"
+    },
+    {
+      "file": "STMXUSDT-1d-2021-07.zip",
+      "sha256": "f85f7f3b12a1831c3581ddac79ecb5d9b17067cc166b53c2e38af28bd5352486"
+    },
+    {
+      "file": "STMXUSDT-1d-2021-08.zip",
+      "sha256": "76c0fc7a3b1ce0f22b67768dedb024ad1e81314aba27c8ca3884e4182c12b12e"
+    },
+    {
+      "file": "STMXUSDT-1d-2021-09.zip",
+      "sha256": "179cedfb248cd496f8383f0e897b85e617d3285e56500db2fe679cea62ad21b4"
+    },
+    {
+      "file": "STMXUSDT-1d-2021-10.zip",
+      "sha256": "b89af76066d9c04108e40adbc24af358275cf35eb6c0a13b6e2b0b0b4baa222a"
+    },
+    {
+      "file": "STMXUSDT-1d-2021-11.zip",
+      "sha256": "9c7abce653e4d49866a186548b6a1db18b212be84e72971446828417214a45d9"
+    },
+    {
+      "file": "STMXUSDT-1d-2021-12.zip",
+      "sha256": "f7a03dc2ba0c4d58d2a1ca166bd40171e4fccf29ec3b9388dd1bcba3d0f6bf43"
+    },
+    {
+      "file": "STMXUSDT-1d-2022-01.zip",
+      "sha256": "f75f14eb7431db2721be295f472edecddf75f8cc4ed607044304b691d28edf8d"
+    },
+    {
+      "file": "STMXUSDT-1d-2022-02.zip",
+      "sha256": "2c54e19d026f0f70b40555a288adc3bc29d632b10dbed8d595e0533a452989a4"
+    },
+    {
+      "file": "STMXUSDT-1d-2022-03.zip",
+      "sha256": "6a6a417f43cb188d95cb508b92799ed40029a1a652f1ececaddeb6abbea3849f"
+    },
+    {
+      "file": "STMXUSDT-1d-2022-04.zip",
+      "sha256": "b37f59121bd032a136b5ad1139ed777eb712be59f6d7560713dc4492c312f590"
+    },
+    {
+      "file": "STMXUSDT-1d-2022-05.zip",
+      "sha256": "c6fdd3301b529507c2957f2fd65449218995a93307774600f0997a02269210f8"
+    },
+    {
+      "file": "STMXUSDT-1d-2022-06.zip",
+      "sha256": "881178dc416388c8ad2cff3db0a64a7e39e09a2f7d38ee736f1ddec53c5adde7"
+    },
+    {
+      "file": "STMXUSDT-1d-2022-07.zip",
+      "sha256": "32b41abd39df6bada8136fd50f8ad7a1f45319c78c58c8e392f101e28d3d8bbe"
+    },
+    {
+      "file": "STMXUSDT-1d-2022-08.zip",
+      "sha256": "887996a89239447e9fa3d0c1307c1d477509170aee865eb3fe0acf4b41716237"
+    },
+    {
+      "file": "STMXUSDT-1d-2022-09.zip",
+      "sha256": "0743ca73c97fbd2bfb40fc18893b7a82c3d89c579978f4628e383a8b4f5954a1"
+    },
+    {
+      "file": "STMXUSDT-1d-2022-10.zip",
+      "sha256": "61a4040a25898a8951976e80817b50458d837969dc3328b1889ff820a2f3adfa"
+    },
+    {
+      "file": "STMXUSDT-1d-2022-11.zip",
+      "sha256": "da1fe7d81dc34fa2284302b7d76beca59a8d1f04bbb58322b9c22469dac7dee6"
+    },
+    {
+      "file": "STMXUSDT-1d-2022-12.zip",
+      "sha256": "fcdc8e81204550bb7745e82919b2316192f758d5cd401a6aee9e292e2a1c655e"
+    },
+    {
+      "file": "STMXUSDT-1d-2023-01.zip",
+      "sha256": "d11b9d2cf9c326deb679214c4c978ee5c8c9ed4e1c78692f398c612747683aac"
+    },
+    {
+      "file": "STMXUSDT-1d-2023-02.zip",
+      "sha256": "d3962e07d66233fd73071dad90563059b6053b7f2ae52c57c46c189e187f8ee9"
+    },
+    {
+      "file": "STMXUSDT-1d-2023-03.zip",
+      "sha256": "aec5d49318932448b06e27d9a227f41408a34292d5fcddeb0556620fa03ff32e"
+    },
+    {
+      "file": "STMXUSDT-1d-2023-04.zip",
+      "sha256": "f6e494cdddddde1081b3ba055edabce3af18843d20e26c1a837adbb28521e085"
+    },
+    {
+      "file": "STMXUSDT-1d-2023-05.zip",
+      "sha256": "b6be23e3257a5da92d4206d83dd7aec8b113fae1c1ce1bbdc125280fa4c9e2ad"
+    },
+    {
+      "file": "STMXUSDT-1d-2023-06.zip",
+      "sha256": "03bf897fbfe7433cc85a5e43ab1b41e79d43e1bb47dc68f0bf145d4ddfc0f4aa"
+    },
+    {
+      "file": "STMXUSDT-1d-2023-07.zip",
+      "sha256": "a599e4358a77b40b00cd49b73af894179f1be0e642da9e7a4594e7fae96ac662"
+    },
+    {
+      "file": "STMXUSDT-1d-2023-08.zip",
+      "sha256": "fe5729f71e8306db579458006ed5c05ae0984e4443a0f5d9cf41d90b6aded0ad"
+    },
+    {
+      "file": "STMXUSDT-1d-2023-09.zip",
+      "sha256": "78600a6b74b8820364fdea2c2dbbeb44969b70aea6590fc4ac3d01eaccf8d5ec"
+    },
+    {
+      "file": "STMXUSDT-1d-2023-10.zip",
+      "sha256": "f16c5d1b6a45232582e3450c8f4d3a3d5deec7c7340bada24423661d84576660"
+    },
+    {
+      "file": "STMXUSDT-1d-2023-11.zip",
+      "sha256": "a2e85e545e29d631879c79d87c1323c2aba1366535339c2cb34fc8cd771666ab"
+    },
+    {
+      "file": "STMXUSDT-1d-2023-12.zip",
+      "sha256": "30a0bf8c7e366d854ff2b92eb892c160b6d0e4fd3bea32963aa2f5f40aaad2ef"
+    },
+    {
+      "file": "STMXUSDT-1d-2024-01.zip",
+      "sha256": "de195403f5c99b533699aa18cd2bfd91c9fac01f5041cf8e43ff08ea509621e8"
+    },
+    {
+      "file": "STMXUSDT-1d-2024-02.zip",
+      "sha256": "f414abee07efa3c91f677ac8eb8b0e61296365dadb1ad597dcea539be3828746"
+    },
+    {
+      "file": "STMXUSDT-1d-2024-03.zip",
+      "sha256": "22c39ac21575684d866b639c2192384070e742667c558b4a07b00da4b1e6ccda"
+    },
+    {
+      "file": "STMXUSDT-1d-2024-04.zip",
+      "sha256": "436705ad1a1850f26cba2b987b03f1bc259781e8d69bd3fa47f0cc7dee226b0d"
+    },
+    {
+      "file": "STMXUSDT-1d-2024-05.zip",
+      "sha256": "68952277e106fb8ea7fc0501e509dc452f4087a1c3cf2c573e549d08c7e6688c"
+    },
+    {
+      "file": "STMXUSDT-1d-2024-06.zip",
+      "sha256": "6fcdd8e4cbedcc5eb5ffc0360cfbc727a715fee1b6f6975e6750f8f4e30ef8f1"
+    },
+    {
+      "file": "STMXUSDT-1d-2024-07.zip",
+      "sha256": "0ab589c443956f3c0269b2d20b7f27c4f00c4eb89d765cbd34c1bfdfba03d706"
+    },
+    {
+      "file": "STMXUSDT-1d-2024-08.zip",
+      "sha256": "c95cb4354a72d33071f2a23b624eacbbc1e6d675c81029e223d51d933398bb02"
+    },
+    {
+      "file": "STMXUSDT-1d-2024-09.zip",
+      "sha256": "ddbb067dbf3fce9a2d2ef2af9ad0cd6b5d8aa4232f0b9b0b54055e2a19062af8"
+    },
+    {
+      "file": "STMXUSDT-1d-2024-10.zip",
+      "sha256": "2fee616cd9564d34a203a234d0e3ce702ae097da552e6d385e9a1e2ee3b02987"
+    },
+    {
+      "file": "STMXUSDT-1d-2024-11.zip",
+      "sha256": "5e761cee3b937d5972f9ab36003f27c5a8b91e7748dba11708558e90fc18ef27"
+    },
+    {
+      "file": "STMXUSDT-1d-2024-12.zip",
+      "sha256": "6c89f13752e4b2f3b495aeda0c7bca53855adcf286beb5767339ca95a0e2112e"
+    },
+    {
+      "file": "STMXUSDT-1d-2025-01.zip",
+      "sha256": "b3a255264d96d255073e079229fde498ac61f0e5cddfa6ecaa4d569b5cc2ba11"
+    },
+    {
+      "file": "STMXUSDT-1d-2025-02.zip",
+      "sha256": "f70f52f75c2ec2b3a8ac28f97e533c344167def270d33da5808eaa558c1d8dcf"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

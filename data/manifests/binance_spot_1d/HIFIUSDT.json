@@ -1,0 +1,157 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/HIFIUSDT/1d/",
+  "instrument": "HIFIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-01-12",
+  "last_bar": "2025-09-17",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:35:12+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 980,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "HIFIUSDT-1d-2023-01.zip",
+      "sha256": "c21037a75a1791f95ceb611124fecf29e85ef6cd8017266fb07509290ad1ead1"
+    },
+    {
+      "file": "HIFIUSDT-1d-2023-02.zip",
+      "sha256": "d1a699e64e4b3c792b0c84ddcaad687704bb82facee7fe3d0a1705b8def1f56b"
+    },
+    {
+      "file": "HIFIUSDT-1d-2023-03.zip",
+      "sha256": "952d2a8af2bc401616b685909c22e3dff9a242a1188af8a109cdae1426aedbf2"
+    },
+    {
+      "file": "HIFIUSDT-1d-2023-04.zip",
+      "sha256": "37ef60231dfe76d2e73e3f36078767c2d69a05449871efb725f31e5ab2fa4fd1"
+    },
+    {
+      "file": "HIFIUSDT-1d-2023-05.zip",
+      "sha256": "ecdb860bf5ed5673ea62c55e2b2d8cadc619465a12d6170196cd5e647a1fb028"
+    },
+    {
+      "file": "HIFIUSDT-1d-2023-06.zip",
+      "sha256": "7dd72c90b0e01554f61d5eb1f3617ecbd45a28c8d357cf305cc31e8bd56a463e"
+    },
+    {
+      "file": "HIFIUSDT-1d-2023-07.zip",
+      "sha256": "b364fc85aab516f3cb61436d030bae80bdc62461c08494ddb85939aa533e58ac"
+    },
+    {
+      "file": "HIFIUSDT-1d-2023-08.zip",
+      "sha256": "1c31270907a9e4f2c3b625c711c57551a43c1bdbdca067e8db062167cd13ad9d"
+    },
+    {
+      "file": "HIFIUSDT-1d-2023-09.zip",
+      "sha256": "7103623ac190a060954b07deef0b7ac63209b36be75d7b2b95d9aafa258bc661"
+    },
+    {
+      "file": "HIFIUSDT-1d-2023-10.zip",
+      "sha256": "bc2ab1527a5a9663ae403f07143e56dec8f162b3a92bb656e2b53a06338b3d3f"
+    },
+    {
+      "file": "HIFIUSDT-1d-2023-11.zip",
+      "sha256": "6dbb0426349b025dc4cda207c75bb267ec4e0bf1407b16c9c698d6cac4822988"
+    },
+    {
+      "file": "HIFIUSDT-1d-2023-12.zip",
+      "sha256": "6176cb22748dad4db7837c388995fbf41130e44864f69a8e4a0516348baa5b71"
+    },
+    {
+      "file": "HIFIUSDT-1d-2024-01.zip",
+      "sha256": "1352a1b6b08db8d5445baf5d0a7c0c792dedf78b6e621a035089a7943558f83f"
+    },
+    {
+      "file": "HIFIUSDT-1d-2024-02.zip",
+      "sha256": "a2d645501820eb723e9e10f46032ce337292b606152959d2fbddca3c070d2374"
+    },
+    {
+      "file": "HIFIUSDT-1d-2024-03.zip",
+      "sha256": "f2006c9ac30ec361f31ecbcc5a35fa20ce3f584f7cf4128a5e4de89c75b09731"
+    },
+    {
+      "file": "HIFIUSDT-1d-2024-04.zip",
+      "sha256": "3dc34a8cf4ee3427286ad5f80adeb09757a4faef1da411bc504a20751a066a95"
+    },
+    {
+      "file": "HIFIUSDT-1d-2024-05.zip",
+      "sha256": "785dd319bf6a746b0b9838fbdde1be3825c8d5c45e050b82d695f756e3f7af6e"
+    },
+    {
+      "file": "HIFIUSDT-1d-2024-06.zip",
+      "sha256": "164d9aef3871c7c6f374c07a36b516c243fc62df46c2467a49e9c531658ea9b9"
+    },
+    {
+      "file": "HIFIUSDT-1d-2024-07.zip",
+      "sha256": "c4fe76ee32f8dbe1573a6e2926e10f40d4b24b522c32a67d11d34dfa9d2a6d28"
+    },
+    {
+      "file": "HIFIUSDT-1d-2024-08.zip",
+      "sha256": "b4e7374167447f1c5a0764319410f872cfbf0e10877e87428de5652ee0bd90bc"
+    },
+    {
+      "file": "HIFIUSDT-1d-2024-09.zip",
+      "sha256": "e0011afeb9cff6f921ae6ec19e35edccb5443f6871e733465e7985e0ef19e5f6"
+    },
+    {
+      "file": "HIFIUSDT-1d-2024-10.zip",
+      "sha256": "03b44cf25f553e62ee84bee59c330c053304967fc2a5af51011cd1ab067d0523"
+    },
+    {
+      "file": "HIFIUSDT-1d-2024-11.zip",
+      "sha256": "3d9f417407dc98f8f8791dd763c3d968b0b4d1136522d87edbd5a2f450e0de94"
+    },
+    {
+      "file": "HIFIUSDT-1d-2024-12.zip",
+      "sha256": "47f80a6372df1029c240807bc1c8bc401983e1c706e63a7caf5de7c26cd2b0f0"
+    },
+    {
+      "file": "HIFIUSDT-1d-2025-01.zip",
+      "sha256": "3579447ef7e0abd11b793bddcbd9c174788fd51fbf49f2e55371f40d25d098d8"
+    },
+    {
+      "file": "HIFIUSDT-1d-2025-02.zip",
+      "sha256": "833e95b942d2b64973d2f5460096799363357ca41b369c1fc53a7ab8c1df12e3"
+    },
+    {
+      "file": "HIFIUSDT-1d-2025-03.zip",
+      "sha256": "e24bc5de5725240dc98518df6fa15210bee6c2dfb0539f7b7848ccc1e6ce72de"
+    },
+    {
+      "file": "HIFIUSDT-1d-2025-04.zip",
+      "sha256": "4b41e4ba9c810f25225b555601ab176e2e5c570adce8bbac91ec338b2fed5b68"
+    },
+    {
+      "file": "HIFIUSDT-1d-2025-05.zip",
+      "sha256": "e57f065eb8388c07af92945d0af95c767acdbbc804ee421019b8c69b4a233af2"
+    },
+    {
+      "file": "HIFIUSDT-1d-2025-06.zip",
+      "sha256": "0536facc77ed132dc952679404b8583be6f89d5f6d7b0505e83dbea796ebb245"
+    },
+    {
+      "file": "HIFIUSDT-1d-2025-07.zip",
+      "sha256": "ea65dab7b9acbaa9aebd8642f43dd6efa5937f6a0edeb41734effd5309abc946"
+    },
+    {
+      "file": "HIFIUSDT-1d-2025-08.zip",
+      "sha256": "761c6f976f52ff4afa9a6bc6171fc0cbb4fbee931869b1f47159655a890903e9"
+    },
+    {
+      "file": "HIFIUSDT-1d-2025-09.zip",
+      "sha256": "5b8e1c9a9d54c8c42c806c8038316ed3c0c1483b22a9ae3f24311bca67bfef07"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/NEBLUSDT/1d/",
+  "instrument": "NEBLUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-10-14",
+  "last_bar": "2023-04-18",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:00+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 187,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "NEBLUSDT-1d-2022-10.zip",
+      "sha256": "3b3753ffa6419913d94dc0bfeb32a5568e6853290b59eaa709ba11d9a74fd125"
+    },
+    {
+      "file": "NEBLUSDT-1d-2022-11.zip",
+      "sha256": "67baa0147dce6b453e69ffe8e06fd439784d85251a0114c08d36ba5e7b28494b"
+    },
+    {
+      "file": "NEBLUSDT-1d-2022-12.zip",
+      "sha256": "918666fee0eb80c159c66049f1042f96cec72032ae88eab701b269e3e874ab9d"
+    },
+    {
+      "file": "NEBLUSDT-1d-2023-01.zip",
+      "sha256": "7738fa6ced7b0fb18e0dcaa50093c966152e05e768e785c830aba1c50f868f64"
+    },
+    {
+      "file": "NEBLUSDT-1d-2023-02.zip",
+      "sha256": "eac4fce677f8956e3e9d8414fb183ec170bf753a77662319355b65c53e29649b"
+    },
+    {
+      "file": "NEBLUSDT-1d-2023-03.zip",
+      "sha256": "8eb69e79a7a80915c1218037f00a2ba3546d34cca46dd1fc231573c0e92a0985"
+    },
+    {
+      "file": "NEBLUSDT-1d-2023-04.zip",
+      "sha256": "e259a3ef85682a5ba7df84ea167d56b7b8765ae184ba2009eaad0019878143a6"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

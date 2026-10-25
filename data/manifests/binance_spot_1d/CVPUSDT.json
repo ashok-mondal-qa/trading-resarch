@@ -1,0 +1,165 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/CVPUSDT/1d/",
+  "instrument": "CVPUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-10-04",
+  "last_bar": "2024-08-26",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:30:32+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1058,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "CVPUSDT-1d-2021-10.zip",
+      "sha256": "4a745ef8fb487c5ca46f97af300ccb654d51ae41195442d6231b3558492374ba"
+    },
+    {
+      "file": "CVPUSDT-1d-2021-11.zip",
+      "sha256": "6421d8693cf05ff867c9a7e80b0d26f8e8f71fdd8d23a7efda50c37ba6d452f4"
+    },
+    {
+      "file": "CVPUSDT-1d-2021-12.zip",
+      "sha256": "dcac0eb9eb444daf758f212824d33a88545c0a7ce682125d356b13859c4f5aaf"
+    },
+    {
+      "file": "CVPUSDT-1d-2022-01.zip",
+      "sha256": "011b9e803163981c4c207eb469633b8c859eb792093fa5501720e75b99c2fda8"
+    },
+    {
+      "file": "CVPUSDT-1d-2022-02.zip",
+      "sha256": "dbd52de4fcb16bde62c14e1f1ce70cb06250255c6617836405afa9210c12b061"
+    },
+    {
+      "file": "CVPUSDT-1d-2022-03.zip",
+      "sha256": "54d51aa8949b975b8763ef8d99be80127fa61f4d9ddd3ce20e4ac6310b0962a0"
+    },
+    {
+      "file": "CVPUSDT-1d-2022-04.zip",
+      "sha256": "e77bdbfcb649429555a381c860e19447e19bd463cf77389e0df26ac74ff4a3dc"
+    },
+    {
+      "file": "CVPUSDT-1d-2022-05.zip",
+      "sha256": "bb5a69c40e4d9cbf10504d9df92c9a26f38ecbf89877397d7acf0331e27a0ee1"
+    },
+    {
+      "file": "CVPUSDT-1d-2022-06.zip",
+      "sha256": "a0a8c92d4c48b2783d3226e97f5e7712fcaebf2aea82381abee0da057a8bc5ab"
+    },
+    {
+      "file": "CVPUSDT-1d-2022-07.zip",
+      "sha256": "f6010f5478c2382f9db14ffda59f6a532c594560b135c058c6f26fe9b5e0357c"
+    },
+    {
+      "file": "CVPUSDT-1d-2022-08.zip",
+      "sha256": "eea77822d67eb28f3a17b770c1ddd4c672ab28e733e4dbd33b2c85a1f4896e73"
+    },
+    {
+      "file": "CVPUSDT-1d-2022-09.zip",
+      "sha256": "94379c5f505d4a7c2334a0e694316215ecd64155ba7a87e74142fa8e8ead2742"
+    },
+    {
+      "file": "CVPUSDT-1d-2022-10.zip",
+      "sha256": "f2ae7dfbf454896a55eb9aa7337da32cea92814c22bef952663b2c47bba05b85"
+    },
+    {
+      "file": "CVPUSDT-1d-2022-11.zip",
+      "sha256": "68b8bd408ec84f5eab5649d30651d2b0b7b795bfc8303d9d8335961e94d02229"
+    },
+    {
+      "file": "CVPUSDT-1d-2022-12.zip",
+      "sha256": "ab65fce84c670aa093703e71a10063d3c326d8383cbce2de73dd4ccf426f813c"
+    },
+    {
+      "file": "CVPUSDT-1d-2023-01.zip",
+      "sha256": "1598f33003061737833a6b18c539d4b4de8b5821789b2903e1fc8f52f35e2f4a"
+    },
+    {
+      "file": "CVPUSDT-1d-2023-02.zip",
+      "sha256": "6f8d64574bbf2e0f57012940fb07594d40e605d2b1e78444c35f8777ab2db720"
+    },
+    {
+      "file": "CVPUSDT-1d-2023-03.zip",
+      "sha256": "4cc71a95af7ab6636f7aebf74649806dc2746351be4d3e1f9f68ac5abc5ff9ce"
+    },
+    {
+      "file": "CVPUSDT-1d-2023-04.zip",
+      "sha256": "55de52561f89de11792f8d0d497467f9bb203f88efd68c4579d3a8743a36d6d4"
+    },
+    {
+      "file": "CVPUSDT-1d-2023-05.zip",
+      "sha256": "097b2e49626db41c9c30120cc085f4a2bc68056be6a549263f184ab316c137a3"
+    },
+    {
+      "file": "CVPUSDT-1d-2023-06.zip",
+      "sha256": "5ae34897131bae773cbba638bc21ca034d6e7102f5e2d7b10d9bff1df3b7260d"
+    },
+    {
+      "file": "CVPUSDT-1d-2023-07.zip",
+      "sha256": "2c73fc397b3a6d0216e3ca0043c2f15f568b576b61cef6ac48ce40dd64f3db05"
+    },
+    {
+      "file": "CVPUSDT-1d-2023-08.zip",
+      "sha256": "4dafea595bb1091a90467e82f41a1c927750d2f07481b3d436b3309a475ca5b3"
+    },
+    {
+      "file": "CVPUSDT-1d-2023-09.zip",
+      "sha256": "0248f7a8bad9a2c0e97ff24b78e96b7b82e5d8b9fddcc23c1c3761cd344e3241"
+    },
+    {
+      "file": "CVPUSDT-1d-2023-10.zip",
+      "sha256": "01af052c6eeca8af88c2e5b6a919ce5134b95058906805da3a7790be098526b4"
+    },
+    {
+      "file": "CVPUSDT-1d-2023-11.zip",
+      "sha256": "0d872353ed12323ecae720764f5ae751416c8e9c0d8a3b9c4639853d9340ab8f"
+    },
+    {
+      "file": "CVPUSDT-1d-2023-12.zip",
+      "sha256": "a2ebb2925d6d2e158bd44ec447ad9ea6af81621c52cb69d2325bdd09a23bbf40"
+    },
+    {
+      "file": "CVPUSDT-1d-2024-01.zip",
+      "sha256": "36ab0b4e1eeab371a9c20186ba0e35c902d296e75fc0189f1407a135e99dfa93"
+    },
+    {
+      "file": "CVPUSDT-1d-2024-02.zip",
+      "sha256": "4d5ecd4371b58d1f3b34fa4f7f9b6f8bc246c86a866ec222f5b291719b299fd4"
+    },
+    {
+      "file": "CVPUSDT-1d-2024-03.zip",
+      "sha256": "6956d7d34d62329a503d38ba6d71e895f5c4900b983f230ef1630eb952d9c3d5"
+    },
+    {
+      "file": "CVPUSDT-1d-2024-04.zip",
+      "sha256": "a0f273c819b0501db7d7dda1313a96f1d96b195e1ca3feab5ec3a3823d7e8d6f"
+    },
+    {
+      "file": "CVPUSDT-1d-2024-05.zip",
+      "sha256": "e8efce2797f93697af8556a5c220ea2562ef6ea07b604bb99b66c45fd9f389d2"
+    },
+    {
+      "file": "CVPUSDT-1d-2024-06.zip",
+      "sha256": "cc50abc4902d8622e943eda436c1cbf46e12c44305bd27d36a1bc9b4aa1a2107"
+    },
+    {
+      "file": "CVPUSDT-1d-2024-07.zip",
+      "sha256": "a139d4d3d5ce6593fda0755da84a5cad37e88f4f3fb517e80848e9e2e786f6a9"
+    },
+    {
+      "file": "CVPUSDT-1d-2024-08.zip",
+      "sha256": "89b9e73aa05928f170bb0beef4ac86a6a31ca875b8b10479561cfc966d1914d3"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

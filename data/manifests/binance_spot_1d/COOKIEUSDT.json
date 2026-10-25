@@ -1,0 +1,109 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/COOKIEUSDT/1d/",
+  "instrument": "COOKIEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-01-10",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:29:56+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 629,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "COOKIEUSDT-1d-2025-01.zip",
+      "sha256": "54f1d896d4c671809d0966165de266e50f42c99448b5d897c0a212d7efdbf889"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2025-02.zip",
+      "sha256": "ee9df3dad9ac51f8114029fb50d2836568dd7caa8a896cdba4170e3dff15f591"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2025-03.zip",
+      "sha256": "05f664f13469bd5192076c4088a2092691cc33965b40bbca16c679308bb96da9"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2025-04.zip",
+      "sha256": "98cf22cc9887b62db9f691bf1052ef3d0ec6b74e50d2d9af38c70c363aedf207"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2025-05.zip",
+      "sha256": "47e68139a4da11eac069058764307304d36a6bc6ced5aba8f67e0538cb49b167"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2025-06.zip",
+      "sha256": "8663c19334f41c228710fbac68262a75586d9b4a077bfe24ca5e5b9885483b51"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2025-07.zip",
+      "sha256": "591e0a5eab9de5cff15a2fd459c861feed99c9b7571aac18dbc6aa845f605da2"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2025-08.zip",
+      "sha256": "2803fe53383831c38334d9365af8b75569f9ea44ad5646a1fbc5810026a8a6f9"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2025-09.zip",
+      "sha256": "97b0fbc465b6211f84faf92687518f3fc720f8c847d334bb7302c9356c9b8f14"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2025-10.zip",
+      "sha256": "e1252253784ccf326193cbbb21367f9018c864bcfea2e0793ccf897078be70f4"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2025-11.zip",
+      "sha256": "1285e9b1137bdc2fc4b86699dad674f3eb9a7de747d2d69c2e8bb72490a6007f"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2025-12.zip",
+      "sha256": "c849566a22d237ae3ec86a150e21844c2379eed86472b2138b4e9dac2be7b1db"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2026-01.zip",
+      "sha256": "e7c5226c385f216466ea9d59c8a87e7b8b486509b03355d4f2d393ad4c08dd53"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2026-02.zip",
+      "sha256": "4fc63ed4d2e783df9441f4db2d7c7db534ee582d60a3b0cce3341f8f61ed5e17"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2026-03.zip",
+      "sha256": "e6a9cf164ea1d43fc14f188f0bdf00d64147df3e41dbf37829f3bf6ca2090e86"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2026-04.zip",
+      "sha256": "db31d62bb1ee088d47540d3fc90771650999eb99cd03756052ef38d29742ca15"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2026-05.zip",
+      "sha256": "492a116921d7f7cff8e14bbdbdfddbc35542820d33e86ca27f127067ade78344"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2026-06.zip",
+      "sha256": "bd26efb49c9dc960565588a2d526142ab121c4d65e3d50de26072dc881f907f4"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2026-07.zip",
+      "sha256": "e199923a81f48dbb35c45ed5bf96c5b14854cc9effa4ada23b79acb734ac35d9"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2026-08.zip",
+      "sha256": "02eba45b27d6aeb6b4524366184bf7c28768447d3a83485e191ab41c7eed21ee"
+    },
+    {
+      "file": "COOKIEUSDT-1d-2026-09.zip",
+      "sha256": "9dad76294eb88b8635dc1c47e57c68f0794f1a409c4c21c2efaf8e75345a3c84"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

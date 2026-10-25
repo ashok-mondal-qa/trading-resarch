@@ -1,0 +1,181 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/POLSUSDT/1d/",
+  "instrument": "POLSUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-05-19",
+  "last_bar": "2024-07-22",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:42+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1161,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "POLSUSDT-1d-2021-05.zip",
+      "sha256": "861471c8ffbd4077d313ce51388db909f188088cb7bdc15e8a4239553187d2d5"
+    },
+    {
+      "file": "POLSUSDT-1d-2021-06.zip",
+      "sha256": "efb6e20666b9eb9dfeece383149fa4668106cff484b31dd4ab7d6628716e98a4"
+    },
+    {
+      "file": "POLSUSDT-1d-2021-07.zip",
+      "sha256": "698333620b071b96f522096e7758844221ffb1f03d54757dd05cadfa984fae4c"
+    },
+    {
+      "file": "POLSUSDT-1d-2021-08.zip",
+      "sha256": "a3d0b9cda1c5ba30bf10a0ff0cedc885f6661a6cd49a157e99f6e890ba640a22"
+    },
+    {
+      "file": "POLSUSDT-1d-2021-09.zip",
+      "sha256": "c911a33ddecbf283c0ff429f307559094003e028dbd5c8c71417c9fbc05e68ef"
+    },
+    {
+      "file": "POLSUSDT-1d-2021-10.zip",
+      "sha256": "bd4905fd5c158b605541a63e7107918f841254047527527838c0130bd1862080"
+    },
+    {
+      "file": "POLSUSDT-1d-2021-11.zip",
+      "sha256": "fb3ff15b0915b1a50d2c38cf713aa514a000fd49fb2c78da7030ae2ef7264d9e"
+    },
+    {
+      "file": "POLSUSDT-1d-2021-12.zip",
+      "sha256": "5ccd675362840abf1453b256b764df72581c8fd3b1fc8b8d34fa73c6de024000"
+    },
+    {
+      "file": "POLSUSDT-1d-2022-01.zip",
+      "sha256": "713aa456eb205c4ed0626eb4e12faf846078cceec3bcbc50dc7546d9abe9581f"
+    },
+    {
+      "file": "POLSUSDT-1d-2022-02.zip",
+      "sha256": "08c334c1347af74b94e40676557cd4ff381361c52cca04797ba82282c86f3b33"
+    },
+    {
+      "file": "POLSUSDT-1d-2022-03.zip",
+      "sha256": "a7b7a07a15f0cd5895c2563174e6951e74267b015cda8b17a260ffe56357c9e8"
+    },
+    {
+      "file": "POLSUSDT-1d-2022-04.zip",
+      "sha256": "42ced117f5abd013b4967b42991d28b478793821f5369d3d8b1f6aacfcc177c7"
+    },
+    {
+      "file": "POLSUSDT-1d-2022-05.zip",
+      "sha256": "9c32cea5f7b6e3edc110e76cfbb69072d3dafdf48b8d86b2fa429feacd392a11"
+    },
+    {
+      "file": "POLSUSDT-1d-2022-06.zip",
+      "sha256": "6b4c7ddc6a8e3583ca03c4829bce9b0aef8cf39a4e69497254976c93a7f1dec2"
+    },
+    {
+      "file": "POLSUSDT-1d-2022-07.zip",
+      "sha256": "cb3c9aba79d24507e2a7c9e46530d5c48ca1dfbc0e514527425aca658813e190"
+    },
+    {
+      "file": "POLSUSDT-1d-2022-08.zip",
+      "sha256": "88684472f745a4a0a55e8536e11f04fb0015248cad384db6d4fe51c00bc32710"
+    },
+    {
+      "file": "POLSUSDT-1d-2022-09.zip",
+      "sha256": "67b4aa558ee3cddff7341d8fdb67c71b57731bb170f731d921336bf2ad715d18"
+    },
+    {
+      "file": "POLSUSDT-1d-2022-10.zip",
+      "sha256": "62d721bbcc7923701d34d5badff3960b063b04bf3c6ed64f4e81bff6861a40b4"
+    },
+    {
+      "file": "POLSUSDT-1d-2022-11.zip",
+      "sha256": "4cb5f086d6dd83085e642519e7a77508e47bd7b64c581e396c3a9f1021c0950d"
+    },
+    {
+      "file": "POLSUSDT-1d-2022-12.zip",
+      "sha256": "da40dc34f8d72a47a681f29dc490826ea1d6b31361fa8caecf282cbadaa72b3d"
+    },
+    {
+      "file": "POLSUSDT-1d-2023-01.zip",
+      "sha256": "a280714314b79d33f9f1a385d2269bddd9d8a19b7988f5de332f717ccd40c532"
+    },
+    {
+      "file": "POLSUSDT-1d-2023-02.zip",
+      "sha256": "e0cf177d76c30edeb74eb66dc14ea518fb506b3fb580da616f94bda24381fe50"
+    },
+    {
+      "file": "POLSUSDT-1d-2023-03.zip",
+      "sha256": "775483e9d88af8d76f7ddfc940b30c560fd5ddb7e4ec279368b7b298bd3f50f2"
+    },
+    {
+      "file": "POLSUSDT-1d-2023-04.zip",
+      "sha256": "dd858c7bfaf93e5e7328e92e7aee1306bd06da28ffbd1e4b67e2fe090dd45469"
+    },
+    {
+      "file": "POLSUSDT-1d-2023-05.zip",
+      "sha256": "c74c76142753b4f535f11cf6254af26a94adda9e13f0a102a0d587edb0c79771"
+    },
+    {
+      "file": "POLSUSDT-1d-2023-06.zip",
+      "sha256": "8b8a1eb6ea366beb0bc775882ef8efa8f7ff7dc5ed691e8a360183193889223b"
+    },
+    {
+      "file": "POLSUSDT-1d-2023-07.zip",
+      "sha256": "32c2c8c4e78797cb1d0937399f937616c03f6d66e7450de51b3f6019fd5d7ead"
+    },
+    {
+      "file": "POLSUSDT-1d-2023-08.zip",
+      "sha256": "ea751e39a50381b06c34447c8e8e21dd4b46d74deab664e4ecb21d27163f0a76"
+    },
+    {
+      "file": "POLSUSDT-1d-2023-09.zip",
+      "sha256": "e6f396cf3a7c4e64a843881394937a719be8a81521b8e37231ebda6df18bb299"
+    },
+    {
+      "file": "POLSUSDT-1d-2023-10.zip",
+      "sha256": "12002461784607d122bb3eefe5512afa1e4456cda79c01eb06be9e6a087a8eac"
+    },
+    {
+      "file": "POLSUSDT-1d-2023-11.zip",
+      "sha256": "3502f306963632d9e9e1d9aa04268437f9f2331f981311e055b295bd727cf755"
+    },
+    {
+      "file": "POLSUSDT-1d-2023-12.zip",
+      "sha256": "b99df8a6ecade8b8c3c5889d8d4524e9666619761f206daec498dd6b3c690fd9"
+    },
+    {
+      "file": "POLSUSDT-1d-2024-01.zip",
+      "sha256": "d064f161edeac5438a523322053396eb2c40c332c914d111fbe950012b054a2e"
+    },
+    {
+      "file": "POLSUSDT-1d-2024-02.zip",
+      "sha256": "261b64be7aaa0ec278034d9f909aa4ce942c8e5b5fe70b198803c1796e1c1e44"
+    },
+    {
+      "file": "POLSUSDT-1d-2024-03.zip",
+      "sha256": "a60c9378287de23c4d7a13350b464f3895c78aefc3a89899384641a5b372cd09"
+    },
+    {
+      "file": "POLSUSDT-1d-2024-04.zip",
+      "sha256": "26aeadbfcfb1a3341cd5963dd016cdafefe36988ae8006858ea866d37ec0aa43"
+    },
+    {
+      "file": "POLSUSDT-1d-2024-05.zip",
+      "sha256": "236cc2c87b9ce223f40586d7a195709e7eb38bcb740309b867ea8f34c809bab7"
+    },
+    {
+      "file": "POLSUSDT-1d-2024-06.zip",
+      "sha256": "8c827a526171ce33d9445916b1000166bd816635b134f36df24b05ce0e689e9e"
+    },
+    {
+      "file": "POLSUSDT-1d-2024-07.zip",
+      "sha256": "c94a74f2a0bdff78f78ac6055ab02f131ce8aec006a8c63358891c4ed3039f62"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

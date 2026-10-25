@@ -1,0 +1,237 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/IRISUSDT/1d/",
+  "instrument": "IRISUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-08-11",
+  "last_bar": "2024-12-10",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:36:41+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1583,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "IRISUSDT-1d-2020-08.zip",
+      "sha256": "e139b1cb95ffc6b7fd79666b8796fff0facfa41fb555e3206baf4ed1035560ea"
+    },
+    {
+      "file": "IRISUSDT-1d-2020-09.zip",
+      "sha256": "17be3cddabd295eab6e7ec67a06ec288ae57f9fdc658ce267df6a336be331991"
+    },
+    {
+      "file": "IRISUSDT-1d-2020-10.zip",
+      "sha256": "1563d46938f73d900746a509a00c60c8d20bbed4db9472a93d82614d2832d50f"
+    },
+    {
+      "file": "IRISUSDT-1d-2020-11.zip",
+      "sha256": "4fa441d2ba54f19a0eca8a4b5125e971af8436d99e894c1d0135d34b6675becf"
+    },
+    {
+      "file": "IRISUSDT-1d-2020-12.zip",
+      "sha256": "8286ee99c04557afc0d7a362df9c30a5bcf65d60e4c5a6b1b38c3a3e4f605254"
+    },
+    {
+      "file": "IRISUSDT-1d-2021-01.zip",
+      "sha256": "32cf8b2fb51f8ff98d56fe79ddf4f39bda3dd46f909a97372595e5a631ea07dc"
+    },
+    {
+      "file": "IRISUSDT-1d-2021-02.zip",
+      "sha256": "febaade5b56c30538f49336f8bcfe8532aa68aa8f1e0277fb687b9e5cf91e949"
+    },
+    {
+      "file": "IRISUSDT-1d-2021-03.zip",
+      "sha256": "984474f671aae8d9dfc13abd3be82c090e9ca36b32bf2a193508227daa863b4a"
+    },
+    {
+      "file": "IRISUSDT-1d-2021-04.zip",
+      "sha256": "a3d5e5523246237836d297966de5e352b17feb74cfea2ce77d070f9ba2a7134a"
+    },
+    {
+      "file": "IRISUSDT-1d-2021-05.zip",
+      "sha256": "ad3ac8afeb808468e95c17c19551bf64323ddc057b6c393503e3b6b2e4b79ec5"
+    },
+    {
+      "file": "IRISUSDT-1d-2021-06.zip",
+      "sha256": "2e2265441a7324d64eb17e8f44a2bff5bdde9f7b8885bac05946a4d1d1a0b27d"
+    },
+    {
+      "file": "IRISUSDT-1d-2021-07.zip",
+      "sha256": "08739c1c1cd0eac73fdc00f439ceadf0acefa5d4f0cf533fbae328bb7e88cf6d"
+    },
+    {
+      "file": "IRISUSDT-1d-2021-08.zip",
+      "sha256": "f6b23b71fd306aeff626cc8722bb5e6faa2f28f4451048c3dc8278d160fc643d"
+    },
+    {
+      "file": "IRISUSDT-1d-2021-09.zip",
+      "sha256": "0f52174ab2bbb1fe89e6293ab7da879c93375f0305589516a83d4b649df9d38c"
+    },
+    {
+      "file": "IRISUSDT-1d-2021-10.zip",
+      "sha256": "ee5ade267372a107218fe64c0c07f20c9e488fa0b38b127525c882cd1c718963"
+    },
+    {
+      "file": "IRISUSDT-1d-2021-11.zip",
+      "sha256": "93ae6594178de38da8e558a4ae82004044239aef4f9c0dcb0d7e11542ad43db7"
+    },
+    {
+      "file": "IRISUSDT-1d-2021-12.zip",
+      "sha256": "9be413d791d57d3cc56d78111781579f555c9d4bd7f14d07ebd4f5a03f26db76"
+    },
+    {
+      "file": "IRISUSDT-1d-2022-01.zip",
+      "sha256": "9b263fc4756d4f4a851e015c03e22c6032879c9c9d35bdb5336132b198daf0cc"
+    },
+    {
+      "file": "IRISUSDT-1d-2022-02.zip",
+      "sha256": "d7a16c4fbe970a50e8b026899ec8308dd895cdbd8e10744d4680a1f5cd97a65e"
+    },
+    {
+      "file": "IRISUSDT-1d-2022-03.zip",
+      "sha256": "641d6b2fdd59d1a6244edf635cae8be19db910960e72f6ba99f3e06e39d55787"
+    },
+    {
+      "file": "IRISUSDT-1d-2022-04.zip",
+      "sha256": "5d4910d67360a0c3361386c63df711d633ab7bd7109c84a9e729ba4f4cbdcfc4"
+    },
+    {
+      "file": "IRISUSDT-1d-2022-05.zip",
+      "sha256": "116280636d6c270de15ec2e61dfa47c22992062f3ab676c0ee018990d9205bec"
+    },
+    {
+      "file": "IRISUSDT-1d-2022-06.zip",
+      "sha256": "fb6210827eb74192fa0a8cb237a21756234c28079c9e4dbc8202efd2ebc26052"
+    },
+    {
+      "file": "IRISUSDT-1d-2022-07.zip",
+      "sha256": "9ffec54e52a51fb06660e60eb853600b996a957441fc812efdcb0a0fb4530067"
+    },
+    {
+      "file": "IRISUSDT-1d-2022-08.zip",
+      "sha256": "a061dcb162bf98861b3f04583b95bc11767d094aba9e1ae681ee5d2308ac6b1e"
+    },
+    {
+      "file": "IRISUSDT-1d-2022-09.zip",
+      "sha256": "4860b6eaab3e44b7a53017db1f25bfcd5d43a301dab29cd6ba9652193a20d3c9"
+    },
+    {
+      "file": "IRISUSDT-1d-2022-10.zip",
+      "sha256": "e908ec66ca6b4fcbcba046040023057a9033210693cd6f54ab2805d6f5450d15"
+    },
+    {
+      "file": "IRISUSDT-1d-2022-11.zip",
+      "sha256": "e49391fd072b77c497d8d55b6bbdd052b71003252d1e97ed54d0629c1a55d1a3"
+    },
+    {
+      "file": "IRISUSDT-1d-2022-12.zip",
+      "sha256": "c77b3816f7ccef62b346b63e83d9a4f4882e07e3716a70bf3511793673cadd02"
+    },
+    {
+      "file": "IRISUSDT-1d-2023-01.zip",
+      "sha256": "df3c4797df508792e0937d9544e867df34ecfa085d4664173dd68b3d21448666"
+    },
+    {
+      "file": "IRISUSDT-1d-2023-02.zip",
+      "sha256": "d733e0864462daa14602d1003487466fa32ef84d577b0494f408737753bd025d"
+    },
+    {
+      "file": "IRISUSDT-1d-2023-03.zip",
+      "sha256": "059699278a88d14441d47c7ad47ded95b7c8da65e6240024ebec4e05fb8aa8ce"
+    },
+    {
+      "file": "IRISUSDT-1d-2023-04.zip",
+      "sha256": "30bf741cf9647161cbbcf4d54f854544c255f7b3b9ddaa1db8ad5e7c9ef4a3fc"
+    },
+    {
+      "file": "IRISUSDT-1d-2023-05.zip",
+      "sha256": "5c957feea58685832d8366767298c8792ec214f3cbdf021e8ba5ef9940b4e22a"
+    },
+    {
+      "file": "IRISUSDT-1d-2023-06.zip",
+      "sha256": "26ebf8c7bc681d225c951843df9ce5288d5c4348511422ad534dd400724e9b17"
+    },
+    {
+      "file": "IRISUSDT-1d-2023-07.zip",
+      "sha256": "1cc53c26472cd773f1523adc5660a9d03ebf7e350c3b126963897bd20e66529b"
+    },
+    {
+      "file": "IRISUSDT-1d-2023-08.zip",
+      "sha256": "bb35e08e7dacea05062238b0f44f46d2a39485829bbb08ba2d03a010e9044265"
+    },
+    {
+      "file": "IRISUSDT-1d-2023-09.zip",
+      "sha256": "a2d0defad6abae4a7bd8f02c83d694e508c1a6c245e1a8089d0807426c53ae37"
+    },
+    {
+      "file": "IRISUSDT-1d-2023-10.zip",
+      "sha256": "dc3983fe169194b8e0425203c498c2c0c4262b9cf11be7de3b1bb8b85f643149"
+    },
+    {
+      "file": "IRISUSDT-1d-2023-11.zip",
+      "sha256": "2a42a57d738d2412e1a579e53f3420794aa7405cdd8708ebc876c56acd87dd96"
+    },
+    {
+      "file": "IRISUSDT-1d-2023-12.zip",
+      "sha256": "fec84df850170d63337adefffab552e7ae2b5792f2f3f74cac2a278f09497e37"
+    },
+    {
+      "file": "IRISUSDT-1d-2024-01.zip",
+      "sha256": "0a203adafead5fda67d7690218a32c1c0fda2e64712d150ef2d0c87b65f2c14e"
+    },
+    {
+      "file": "IRISUSDT-1d-2024-02.zip",
+      "sha256": "1455d693bcfb6038727481f0bf5c595682e738f86f56fc90cd64a362cd1bbb3d"
+    },
+    {
+      "file": "IRISUSDT-1d-2024-03.zip",
+      "sha256": "5153b8cb17d667b1efc59ede827cc951b55773460bf31841f03515b8e732db03"
+    },
+    {
+      "file": "IRISUSDT-1d-2024-04.zip",
+      "sha256": "022a7e9c8dbac22d9f14df6a23df164231165bc69077243518209bad30428850"
+    },
+    {
+      "file": "IRISUSDT-1d-2024-05.zip",
+      "sha256": "ed11bddaa6c029857dbce81dddf464796b3401176380a0a0bf71d0879da193a1"
+    },
+    {
+      "file": "IRISUSDT-1d-2024-06.zip",
+      "sha256": "a30da42c46c4deeeb888f821f1ded70dfb050d78176cb9e484f162bdc15c6884"
+    },
+    {
+      "file": "IRISUSDT-1d-2024-07.zip",
+      "sha256": "d65d08975a6b380ac4dc001924a87be73b37b60830170553ff41177baa5b481e"
+    },
+    {
+      "file": "IRISUSDT-1d-2024-08.zip",
+      "sha256": "b0b06ec7ba51dab5731f7442b24143cb04454b21c4ec9d78ce0f7489f7556645"
+    },
+    {
+      "file": "IRISUSDT-1d-2024-09.zip",
+      "sha256": "42f6d6ad3c483752c8d93677888745041aae79da7ed85ab67459334b073aa00a"
+    },
+    {
+      "file": "IRISUSDT-1d-2024-10.zip",
+      "sha256": "efb3135fc6e694a38d6e2863fad94cdd14214b9f47f50d9c5c3c11381280fc53"
+    },
+    {
+      "file": "IRISUSDT-1d-2024-11.zip",
+      "sha256": "3a9f90cfb09aeea01d87c7b763c8c03a60a2aff3315bdb8d21118a900b0fc4f9"
+    },
+    {
+      "file": "IRISUSDT-1d-2024-12.zip",
+      "sha256": "304bb1cb18d48f31306df7bafe725a36ad43e83f403078d76c756d10d6eea3ee"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

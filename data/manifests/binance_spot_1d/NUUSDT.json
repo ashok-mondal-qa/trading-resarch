@@ -1,0 +1,61 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/NUUSDT/1d/",
+  "instrument": "NUUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-06-04",
+  "last_bar": "2022-02-16",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:30+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 258,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "NUUSDT-1d-2021-06.zip",
+      "sha256": "89fd60f13a6d84e7d958d38f4fe43fba018a6ce575b1455d3c5f151d04b545fc"
+    },
+    {
+      "file": "NUUSDT-1d-2021-07.zip",
+      "sha256": "969eddbc532965c60ddd22291e1fd0cfddbe602c2d9480f88e6f3ac02833c4d6"
+    },
+    {
+      "file": "NUUSDT-1d-2021-08.zip",
+      "sha256": "58e71f5889af44e055125f10e47e11f9d3c888c2b145593035eceb85ef49ea87"
+    },
+    {
+      "file": "NUUSDT-1d-2021-09.zip",
+      "sha256": "d55a799169e51123d61473efefee90b25673af7e12520ff82c9cfb1d3da6f0f7"
+    },
+    {
+      "file": "NUUSDT-1d-2021-10.zip",
+      "sha256": "1c9a0712bd2a52022d2dd3c6f5d04d12771ad2725002c6129466244a853b650c"
+    },
+    {
+      "file": "NUUSDT-1d-2021-11.zip",
+      "sha256": "a8f2eaf4f8c26265b42df7e2b57011558e810891f3e605dd3b23fff9404628f8"
+    },
+    {
+      "file": "NUUSDT-1d-2021-12.zip",
+      "sha256": "52cb8867bac57f6437e0ae399eba05770cdff3b40e7625906ab3400d34e7a3c5"
+    },
+    {
+      "file": "NUUSDT-1d-2022-01.zip",
+      "sha256": "0fc51007887925c30c0485bf2d9a8ff0cd512cf3be6da842d51f5ac475d9c0ee"
+    },
+    {
+      "file": "NUUSDT-1d-2022-02.zip",
+      "sha256": "6d58f0645636927a7b978201fa80d52708ce6eb9810a79f17f1bcd3cf5389257"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

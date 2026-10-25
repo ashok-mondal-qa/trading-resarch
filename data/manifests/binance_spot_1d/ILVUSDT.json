@@ -1,0 +1,269 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ILVUSDT/1d/",
+  "instrument": "ILVUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-09-22",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:36:02+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1835,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ILVUSDT-1d-2021-09.zip",
+      "sha256": "6c069962c8aead8cab3eff887445a4a24d94422c9e04fb35b474c25752668265"
+    },
+    {
+      "file": "ILVUSDT-1d-2021-10.zip",
+      "sha256": "f83cb77e301380a03caca84f678328a0794d0df0deea9956ab91d3bc4c528166"
+    },
+    {
+      "file": "ILVUSDT-1d-2021-11.zip",
+      "sha256": "967b0030115b1b166c652d5b7cf0f8bbd0c24488a25d5ca2d2ccfa4191b7a0a3"
+    },
+    {
+      "file": "ILVUSDT-1d-2021-12.zip",
+      "sha256": "d8f0e751fe968989a24ac3b2404cf7469ab1b138a96da6d2bb7b65f2a6e848e5"
+    },
+    {
+      "file": "ILVUSDT-1d-2022-01.zip",
+      "sha256": "f0107ffdbb007e9f9f48ef7f1fdde1f23d5455de14de4f32e87f7456b8a8a77d"
+    },
+    {
+      "file": "ILVUSDT-1d-2022-02.zip",
+      "sha256": "f617bd168bfab14dcdff9ec230ec1f4da9d34eb6c42fd90c1c5e75710565c131"
+    },
+    {
+      "file": "ILVUSDT-1d-2022-03.zip",
+      "sha256": "6c349d87ddd7e4afcc96b32efe2f39c89f40cae86b976c7a452dc8c734c9bf0b"
+    },
+    {
+      "file": "ILVUSDT-1d-2022-04.zip",
+      "sha256": "fa75f5bd0d0dc08851b2b2fe11ce6686e8367bfe2b6f297e52490facae2f8a96"
+    },
+    {
+      "file": "ILVUSDT-1d-2022-05.zip",
+      "sha256": "7d89e8230001fbbb035b65e0cbe8b03940f7209c1bdd6bf940e0595e29c842cd"
+    },
+    {
+      "file": "ILVUSDT-1d-2022-06.zip",
+      "sha256": "1499e253ccfcbbbd2906e2ebeb04e7202c38f6468ea065e7da7c5bb9081d8278"
+    },
+    {
+      "file": "ILVUSDT-1d-2022-07.zip",
+      "sha256": "ba3187c3ef26863397ce8a0b64a15633bd779728114e7b207c4395e7328ffc7e"
+    },
+    {
+      "file": "ILVUSDT-1d-2022-08.zip",
+      "sha256": "d3e7303dfa3877a46c8755d206561e7b8863cfb558e5837539d678b989eb9086"
+    },
+    {
+      "file": "ILVUSDT-1d-2022-09.zip",
+      "sha256": "9895023bff4b70e7e4af8a91366df9b66f2ac962eb2ff36b89bf4388e023d2b0"
+    },
+    {
+      "file": "ILVUSDT-1d-2022-10.zip",
+      "sha256": "98bdd23816214a7c5ff9c638460f552c0e0cd46826ec0c0d47fc74e946794574"
+    },
+    {
+      "file": "ILVUSDT-1d-2022-11.zip",
+      "sha256": "ccd1166426dd47bfc596999d578c10c11023747c15368034c9b01f561f794b43"
+    },
+    {
+      "file": "ILVUSDT-1d-2022-12.zip",
+      "sha256": "8d6de5717f837b67916dcfe99a325450a34704d11bc6faf108540529e43522c2"
+    },
+    {
+      "file": "ILVUSDT-1d-2023-01.zip",
+      "sha256": "0a16130bd40f0723066418c5a8d8c286780453d3d735c4c06bc5d7ee6df9daf6"
+    },
+    {
+      "file": "ILVUSDT-1d-2023-02.zip",
+      "sha256": "bd23312894aebbe4e822f1abe8493b9394a1557a320c3b7ae103983ca5f561ca"
+    },
+    {
+      "file": "ILVUSDT-1d-2023-03.zip",
+      "sha256": "94ca4e98a65c0eefd47c26aeaa281bc2d7806a266f0e04221267744f7495bb30"
+    },
+    {
+      "file": "ILVUSDT-1d-2023-04.zip",
+      "sha256": "b6827c999fb5942aa5c05d34bb06edffb8ab694090f1adbdc4d74fe66a224d0f"
+    },
+    {
+      "file": "ILVUSDT-1d-2023-05.zip",
+      "sha256": "42facb8b9f9f4c093d5fd70f6e01ef3eded6f9f6d10fd55863ab9b5c8ed47382"
+    },
+    {
+      "file": "ILVUSDT-1d-2023-06.zip",
+      "sha256": "f9c91c1431cb240ee3e5445ac7b902511782d7950333ffd229deeca33244e041"
+    },
+    {
+      "file": "ILVUSDT-1d-2023-07.zip",
+      "sha256": "a15627eee694e8dd8f02de142dbf484f4d04360f27c16bd568c9a8a7960a36bd"
+    },
+    {
+      "file": "ILVUSDT-1d-2023-08.zip",
+      "sha256": "e0eb897e0448d0d996d129794ddcf6f6eb8db3641f49eacbeda0af5a83b0bab8"
+    },
+    {
+      "file": "ILVUSDT-1d-2023-09.zip",
+      "sha256": "84854109aa6fd28d1f4238555fc6133e1442c6566dd58a8d09d41455a3328723"
+    },
+    {
+      "file": "ILVUSDT-1d-2023-10.zip",
+      "sha256": "410abd1440736a4166c098cd65b5f2cbc1ecb20c156e474852446c6ed17e88cf"
+    },
+    {
+      "file": "ILVUSDT-1d-2023-11.zip",
+      "sha256": "e76ad4c1817f06e46150da438b79630bffb25bc7a3fefeb86010ce06f8885e92"
+    },
+    {
+      "file": "ILVUSDT-1d-2023-12.zip",
+      "sha256": "88453878cb345b7d3e32bc2eee3bafe76f7a707da2d9e250d0040d71d403a8ff"
+    },
+    {
+      "file": "ILVUSDT-1d-2024-01.zip",
+      "sha256": "b92542d20a354b6532b47f65cdc7d60004e8323345d0ffc72e6e72d44c39af94"
+    },
+    {
+      "file": "ILVUSDT-1d-2024-02.zip",
+      "sha256": "1155ed1899d80bd8e0cc21e05f15742babe9ae89dbabe079512fd3586410bf04"
+    },
+    {
+      "file": "ILVUSDT-1d-2024-03.zip",
+      "sha256": "10cf464788a3f0dd4b0e9795c1100059b41b963af5e6acb03eb6a85707acae54"
+    },
+    {
+      "file": "ILVUSDT-1d-2024-04.zip",
+      "sha256": "88452f0a01612a7eecd209c36d421f1fbe9ab70961d16f428076816fdbda7526"
+    },
+    {
+      "file": "ILVUSDT-1d-2024-05.zip",
+      "sha256": "b54a81bf8f1dbc7b0e80a4ac5aebba99bc645c61d0c1d9c9be008f5d499e83ad"
+    },
+    {
+      "file": "ILVUSDT-1d-2024-06.zip",
+      "sha256": "c33c487eb147cfe412a433afd373de7041fde66832a5549adbe3ee6ba24fab27"
+    },
+    {
+      "file": "ILVUSDT-1d-2024-07.zip",
+      "sha256": "890cb0304f025bcb524f495e2e362a372de9a86c1e41a244828284353423409b"
+    },
+    {
+      "file": "ILVUSDT-1d-2024-08.zip",
+      "sha256": "d9fa726b1e439f9ec8097f7702c602d5dd45f5472dc11785c044ab5bee8e5191"
+    },
+    {
+      "file": "ILVUSDT-1d-2024-09.zip",
+      "sha256": "d7f2b323d772e4109fa606db0d34cc68a2d25baa0ea81d3f8c4d5ce7f29d5daa"
+    },
+    {
+      "file": "ILVUSDT-1d-2024-10.zip",
+      "sha256": "22b7e9c03827ed91af7d2304cf2b7d2d44a01e872a7a1e13edb7e28cd3642203"
+    },
+    {
+      "file": "ILVUSDT-1d-2024-11.zip",
+      "sha256": "3de4b3b81c7712fa6bce237c79fa64c63ba2e62f504491722382069d24919c0e"
+    },
+    {
+      "file": "ILVUSDT-1d-2024-12.zip",
+      "sha256": "3dcd0069a85da5cdac8ea5d51db5076fd46b73e5c05a01a975e9785e5fad14ff"
+    },
+    {
+      "file": "ILVUSDT-1d-2025-01.zip",
+      "sha256": "3df670894af9349a4bb6124014afb98be4106743e2a12c37353ae8391458fd0b"
+    },
+    {
+      "file": "ILVUSDT-1d-2025-02.zip",
+      "sha256": "c3062ab671eb7d69cc993de7ca4787ce671fe8d8aab845f8d3cff09f28e99f03"
+    },
+    {
+      "file": "ILVUSDT-1d-2025-03.zip",
+      "sha256": "da54e8cb74e091548c9cf428945447c1741716851d1678abae14d8023808c2e8"
+    },
+    {
+      "file": "ILVUSDT-1d-2025-04.zip",
+      "sha256": "00a150c9a359ab906a2991460f39b2e998c5d976891269b402d7d3d7b509eb18"
+    },
+    {
+      "file": "ILVUSDT-1d-2025-05.zip",
+      "sha256": "e4698d0effcc596d74a578248e0fe203ca6112314d345d8febee1db8c6edb93a"
+    },
+    {
+      "file": "ILVUSDT-1d-2025-06.zip",
+      "sha256": "b0fbce7a845eda875f6bca781651e28a9b9185396068946f5728971ce865c0c5"
+    },
+    {
+      "file": "ILVUSDT-1d-2025-07.zip",
+      "sha256": "2fcdc2314c3fe1b29f3c52970640b869940c2d42b08aa39f29e3432de80db2d8"
+    },
+    {
+      "file": "ILVUSDT-1d-2025-08.zip",
+      "sha256": "0f15e81bd3b4af8822b07d3329cca2d4cf52e94b0fc92e003e2815af0a6e69d3"
+    },
+    {
+      "file": "ILVUSDT-1d-2025-09.zip",
+      "sha256": "5503052f2ad296a376d447683f73c68121f3ea6e816a39694ffd92a61bef2c5d"
+    },
+    {
+      "file": "ILVUSDT-1d-2025-10.zip",
+      "sha256": "e9fd971c5c506b8b636b6aef85ef6f3d4f028f6bb5bc36ea581e1eee9398da1a"
+    },
+    {
+      "file": "ILVUSDT-1d-2025-11.zip",
+      "sha256": "abe0871e8668d451c90d2f58aea6927ab13b52db2e779694d71f7ca01f13a202"
+    },
+    {
+      "file": "ILVUSDT-1d-2025-12.zip",
+      "sha256": "c92afe1fbea406defd3870859300731acf3ea030259dabe1b8d261762a4af7de"
+    },
+    {
+      "file": "ILVUSDT-1d-2026-01.zip",
+      "sha256": "b4b65fc6d440b0ad8177a9f25caabb2a5d8b84e5d6cb2c81d9044908bc64e417"
+    },
+    {
+      "file": "ILVUSDT-1d-2026-02.zip",
+      "sha256": "db86afc9e495ff11ef5586ef9aed6f043f45b063c1849838ae6272698508be41"
+    },
+    {
+      "file": "ILVUSDT-1d-2026-03.zip",
+      "sha256": "eb6dba7f26402f9de6f4709305ece70ed183fd4c78deacfa9e9d188599eaf8b3"
+    },
+    {
+      "file": "ILVUSDT-1d-2026-04.zip",
+      "sha256": "93b7397bd07f8bdf02728f3abb3cefd4866bf2e2839d5ce46c3c5ac3b7c60586"
+    },
+    {
+      "file": "ILVUSDT-1d-2026-05.zip",
+      "sha256": "b690a471740b82bde4573c20c35fac2b2489ee021395e3f80951a0a4a47a1a46"
+    },
+    {
+      "file": "ILVUSDT-1d-2026-06.zip",
+      "sha256": "14c2bf39e81b65890c47004f441b026953d70be0ba5664f3654df435c4cb7f77"
+    },
+    {
+      "file": "ILVUSDT-1d-2026-07.zip",
+      "sha256": "f6cc2527cf23b16bf09fa653ad7ec661c8807e08792a9902a2d318a888c129c7"
+    },
+    {
+      "file": "ILVUSDT-1d-2026-08.zip",
+      "sha256": "c048294d400e6c2339f92491e5e1deff6684ec0386ed821141b669b5d00f0b6d"
+    },
+    {
+      "file": "ILVUSDT-1d-2026-09.zip",
+      "sha256": "82b9786686d14fa794b31f514d0cd7f8c202cb07be94c6eeaa4d6dbb93aa3d87"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/INITUSDT/1d/",
+  "instrument": "INITUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-04-24",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:35:40+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 525,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "INITUSDT-1d-2025-04.zip",
+      "sha256": "428279510305f3e233cd75dce51b3ebf6db3410be217c1bc8e1f3314a698f49e"
+    },
+    {
+      "file": "INITUSDT-1d-2025-05.zip",
+      "sha256": "6b0cee970b7b2124d538b8a6ce10e4bc9e2fd3cffc2fd203e309d8f40725c705"
+    },
+    {
+      "file": "INITUSDT-1d-2025-06.zip",
+      "sha256": "4093b04ff634ce1150dbd294375562453d798e391a70d0e4d942fec4fa7edf8e"
+    },
+    {
+      "file": "INITUSDT-1d-2025-07.zip",
+      "sha256": "e23bc8285d1085ed1b457413f057e84b95ecc81a7ada22d34b3752815d7261d0"
+    },
+    {
+      "file": "INITUSDT-1d-2025-08.zip",
+      "sha256": "e94775ac0055041c57ba29dc9bb888d36ad1ab5a66d7d2cf92e5d84259087ad3"
+    },
+    {
+      "file": "INITUSDT-1d-2025-09.zip",
+      "sha256": "7bb27dcdc35095648ff1c5d84a51e52be30cb01a1aab8b3f76aa17d451cf24f3"
+    },
+    {
+      "file": "INITUSDT-1d-2025-10.zip",
+      "sha256": "bdcb482a7ab7c4671d6bbb10fd0895304897e85bb933075718339162d6af066c"
+    },
+    {
+      "file": "INITUSDT-1d-2025-11.zip",
+      "sha256": "55ee502b18f40d7036bb9a918d3b5761cfa2edee3b8b84dfd61793cdc260affc"
+    },
+    {
+      "file": "INITUSDT-1d-2025-12.zip",
+      "sha256": "093146bce02d1dfc6b19026f98f044f5abb1110146da2b105bea941a8f1e2d32"
+    },
+    {
+      "file": "INITUSDT-1d-2026-01.zip",
+      "sha256": "40c800e4a0a8bdd54303a560ad79cc43f7f4da458bdfd7453c197e95d637ac9b"
+    },
+    {
+      "file": "INITUSDT-1d-2026-02.zip",
+      "sha256": "c96be71e0d4362fb879ee688c73aba4bdc68398d1beec551c2730e3e3aa89890"
+    },
+    {
+      "file": "INITUSDT-1d-2026-03.zip",
+      "sha256": "0315c71b6362db3d312f1228c21e5e5c412a4f86dfc51071a13e602e901439d3"
+    },
+    {
+      "file": "INITUSDT-1d-2026-04.zip",
+      "sha256": "60fd8a374a227f789e7a10359412c2fb2d7090d62757bc6db43329e24b8538da"
+    },
+    {
+      "file": "INITUSDT-1d-2026-05.zip",
+      "sha256": "88e148171656a83e60c86c46f19a52b03ed669fbff4f396e89112e9f6cb82f40"
+    },
+    {
+      "file": "INITUSDT-1d-2026-06.zip",
+      "sha256": "4c221869fb28c23bc72a5ab6d425070eed65e9d875833618d9bfde28b438952a"
+    },
+    {
+      "file": "INITUSDT-1d-2026-07.zip",
+      "sha256": "b4c409d8c08c2843d0dec545de41decc7e91e694ecbc2b7464906140ff915499"
+    },
+    {
+      "file": "INITUSDT-1d-2026-08.zip",
+      "sha256": "62b0e81a7527cebb3c7d31243e41d71240d1c49b29429b2e2460c9b6bd7a47c6"
+    },
+    {
+      "file": "INITUSDT-1d-2026-09.zip",
+      "sha256": "968932ac6fff9f466f759d254a9c39e910aa6180549ceebe487b56b4c99a5a05"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

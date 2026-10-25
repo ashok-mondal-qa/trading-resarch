@@ -1,0 +1,241 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/NEXOUSDT/1d/",
+  "instrument": "NEXOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-04-29",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:40+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1616,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "NEXOUSDT-1d-2022-04.zip",
+      "sha256": "511d279d706911e98933edcf195457a03dca4f4d7144064cd86d954ce43a4afa"
+    },
+    {
+      "file": "NEXOUSDT-1d-2022-05.zip",
+      "sha256": "77dc9fa96d87f435968c7432c30b18a89d26ce727dc384a8fbf9df8e56033186"
+    },
+    {
+      "file": "NEXOUSDT-1d-2022-06.zip",
+      "sha256": "1618d0b7dcd61993561820e37def1a0ebbc3fa975c9894ca482e966aed89a851"
+    },
+    {
+      "file": "NEXOUSDT-1d-2022-07.zip",
+      "sha256": "d15ef78c169deb18ab76b3fcc6e40c672374d90b798446b488782fc8ba0e1c80"
+    },
+    {
+      "file": "NEXOUSDT-1d-2022-08.zip",
+      "sha256": "0bbaa2e27414ee34970affc68f3cd3f5dfc96849557ef1fb5cf2f1a4bf6d2fa5"
+    },
+    {
+      "file": "NEXOUSDT-1d-2022-09.zip",
+      "sha256": "5fd230b9c5d92b7e871ff3852fd12eff8ed9dfd08dbf4241073e3967f3cfe0b0"
+    },
+    {
+      "file": "NEXOUSDT-1d-2022-10.zip",
+      "sha256": "9d3b4399f053996abca1448907d5e81da73a682b2bb0c7692625b2d2dbb3ba32"
+    },
+    {
+      "file": "NEXOUSDT-1d-2022-11.zip",
+      "sha256": "c49dc5352586ea492d48b5f1c97cf2193b0a9608f9c3dcc6b6e9262de47ac1b4"
+    },
+    {
+      "file": "NEXOUSDT-1d-2022-12.zip",
+      "sha256": "bb795a79b44029a5b88331c9bbc6cf2b1b73c258d2d1f1e756d762723b797033"
+    },
+    {
+      "file": "NEXOUSDT-1d-2023-01.zip",
+      "sha256": "ae1df2b063171904b8ba850872d5439667140d5f31448473ff26a1fdf782c8e9"
+    },
+    {
+      "file": "NEXOUSDT-1d-2023-02.zip",
+      "sha256": "4cffe1f68ea50c752a23338051f44e7a5e2d16ed3bc9b9350aff88bd3ac04e50"
+    },
+    {
+      "file": "NEXOUSDT-1d-2023-03.zip",
+      "sha256": "7c7c26acf585bc19db947fc8ac2a97b7bb3b3d824fbb79af02caf1456884fb12"
+    },
+    {
+      "file": "NEXOUSDT-1d-2023-04.zip",
+      "sha256": "ff7dec8dadbadb6d062c5e4470ba05c5bb1949bc8c61490574bbcebaf233622c"
+    },
+    {
+      "file": "NEXOUSDT-1d-2023-05.zip",
+      "sha256": "27039e460b9ced31bec63d66e04b847e3907dd5de6edcb5e35f36c912dfd53ab"
+    },
+    {
+      "file": "NEXOUSDT-1d-2023-06.zip",
+      "sha256": "bcdc4ca2c0acee93e12b1fdab0b3227f3ea2a3710182a0ce3a8575666f0a6362"
+    },
+    {
+      "file": "NEXOUSDT-1d-2023-07.zip",
+      "sha256": "0c10ca10d21a19c444edc01c86e0d6b4678c8965cd10391a506d00fddbd9686b"
+    },
+    {
+      "file": "NEXOUSDT-1d-2023-08.zip",
+      "sha256": "6c6c0cfca7d01fc0f6679b9b4e3d7461bb3398b2919edf8c3886bcb209bac37e"
+    },
+    {
+      "file": "NEXOUSDT-1d-2023-09.zip",
+      "sha256": "abbc2406d93cdaa77a3921a540433763998f5b208614006c69094b9bc50f0501"
+    },
+    {
+      "file": "NEXOUSDT-1d-2023-10.zip",
+      "sha256": "b084eaef8d919fb01afc2bb5159cf02896019d57b3cfc2be6dc4bb6c23012c5b"
+    },
+    {
+      "file": "NEXOUSDT-1d-2023-11.zip",
+      "sha256": "c0594ed214d7a2b6d78f4ba67972824161960eb5405a546b44aec115d8b9bf81"
+    },
+    {
+      "file": "NEXOUSDT-1d-2023-12.zip",
+      "sha256": "67658f2747fc41c6524a7c419c5fa6bb94d7714855db8548d79811c78eeed453"
+    },
+    {
+      "file": "NEXOUSDT-1d-2024-01.zip",
+      "sha256": "bd0cb23124f4c60a8824431b8be7dfc406dbfa276029eb2225f81df8f9ee1aee"
+    },
+    {
+      "file": "NEXOUSDT-1d-2024-02.zip",
+      "sha256": "07894c944c244a3db0c3a44476f1cfda6ab6ea3fe382d04025667f1c40bf3f6d"
+    },
+    {
+      "file": "NEXOUSDT-1d-2024-03.zip",
+      "sha256": "ca0ecf72eec2e9fe19aef249f8f351515aa33f7b93648b4f1c92b855bdadc78e"
+    },
+    {
+      "file": "NEXOUSDT-1d-2024-04.zip",
+      "sha256": "b2f4770180dfb111559847dd376ce55a49b555db34a2f5f07bf25615f1ae6b2c"
+    },
+    {
+      "file": "NEXOUSDT-1d-2024-05.zip",
+      "sha256": "a2a4467ed05ec18c9e7ac3254b32e49c1112feecaa547fbf1d7e5a36b2a1398e"
+    },
+    {
+      "file": "NEXOUSDT-1d-2024-06.zip",
+      "sha256": "76d7de52b2fa9a07fba066bc1b358a9b6a61f6c5a453197ac2437e08cd09abd6"
+    },
+    {
+      "file": "NEXOUSDT-1d-2024-07.zip",
+      "sha256": "2f922a2fe1f2bd0f232c819ba6fb3d613529f777846092de59f6dab875fed650"
+    },
+    {
+      "file": "NEXOUSDT-1d-2024-08.zip",
+      "sha256": "8adfc160b52a88f3c2a704101ae2ffb971abd9262edce99edd037a884c2c4a48"
+    },
+    {
+      "file": "NEXOUSDT-1d-2024-09.zip",
+      "sha256": "0f52e3b539ac61991b8b2213d2aa70ab71323fd9dcf9276c09166cc7f200b346"
+    },
+    {
+      "file": "NEXOUSDT-1d-2024-10.zip",
+      "sha256": "683c58001a258277c5204c189dc7f43d8cd7af5918fd8f4925314f7666dd01fc"
+    },
+    {
+      "file": "NEXOUSDT-1d-2024-11.zip",
+      "sha256": "daa20c30e98cb396461266b69a408b84204220b0b7ddb71b32380f0acf2ed041"
+    },
+    {
+      "file": "NEXOUSDT-1d-2024-12.zip",
+      "sha256": "6217ef02fa59cee3520a7fc3f444ce1f8c2e1b79e18353217fb7140a86bff206"
+    },
+    {
+      "file": "NEXOUSDT-1d-2025-01.zip",
+      "sha256": "37e8c565cf191eb5dafef20828c2b6e191edbe6b171b996170d02b7cd9bfefd4"
+    },
+    {
+      "file": "NEXOUSDT-1d-2025-02.zip",
+      "sha256": "035d61d6bc0e920f0d41a1f33825b5f49b89ced029e9c84da81b4dda3b7cbb15"
+    },
+    {
+      "file": "NEXOUSDT-1d-2025-03.zip",
+      "sha256": "ab9274d0e103f3500e8ca23d432959808f1c65d56d068f86f8966b0c138efc2c"
+    },
+    {
+      "file": "NEXOUSDT-1d-2025-04.zip",
+      "sha256": "f8fa8713f380cd22cfbd1b5e93338d82e1259dbc67b629c4d051a10af6574940"
+    },
+    {
+      "file": "NEXOUSDT-1d-2025-05.zip",
+      "sha256": "b3db60545bd7a71325b55bc13d2b3527fbdb6794a3877585fecf4190141d083a"
+    },
+    {
+      "file": "NEXOUSDT-1d-2025-06.zip",
+      "sha256": "46a3cbfdc82e10782eb51e8b9e4292782146535473edf4928562edd106cfb96a"
+    },
+    {
+      "file": "NEXOUSDT-1d-2025-07.zip",
+      "sha256": "055e483e70c4e88efa3db410937278e5763c1b788722d4ecf72658b9c0753dcb"
+    },
+    {
+      "file": "NEXOUSDT-1d-2025-08.zip",
+      "sha256": "39db6327fc80fdd18ccbed83c2b7f7cc66ef3b39525192684c6d0cc42f5d17cd"
+    },
+    {
+      "file": "NEXOUSDT-1d-2025-09.zip",
+      "sha256": "d662d72963b636cc489d2ec56a3c8740239dadaebce62820674891e6361e2d61"
+    },
+    {
+      "file": "NEXOUSDT-1d-2025-10.zip",
+      "sha256": "4204783de4e32b494de6596fccc17c51f0e7b8e8dce349141a6e713e10f7d27f"
+    },
+    {
+      "file": "NEXOUSDT-1d-2025-11.zip",
+      "sha256": "02834abae171b58f4af0cad19178d574f4f8e6daa28fb43edeba96ef95d538ac"
+    },
+    {
+      "file": "NEXOUSDT-1d-2025-12.zip",
+      "sha256": "54cd8f427043223474be20bfd53cd3eaf4440142a6d78042e3f07dbda7a0ad44"
+    },
+    {
+      "file": "NEXOUSDT-1d-2026-01.zip",
+      "sha256": "8d5d135412f7f9756663f5f37147072f7711b8797ac56b6bfc9e092fb2edb5e6"
+    },
+    {
+      "file": "NEXOUSDT-1d-2026-02.zip",
+      "sha256": "d5b6faf7a72874705ef4495d8716074bb51bf73ad348fe4eba5b47dd5770caa1"
+    },
+    {
+      "file": "NEXOUSDT-1d-2026-03.zip",
+      "sha256": "c06083946a72a48c07e944bdda89eca4b883b1474e1e2e9b901ffaed9bd1576a"
+    },
+    {
+      "file": "NEXOUSDT-1d-2026-04.zip",
+      "sha256": "1a6e676465f696c43482dd6959a07a483a7e6108b63bd8e5d85c10aca9d34c5d"
+    },
+    {
+      "file": "NEXOUSDT-1d-2026-05.zip",
+      "sha256": "9dd1d09e2629bb6446f4d6a08d15b871eaad4d1ffccfd2dc8b0895ba1db7468f"
+    },
+    {
+      "file": "NEXOUSDT-1d-2026-06.zip",
+      "sha256": "588867874e8a980e5c3f04d936063679fcc2511772b43ff79936ebbf5e40fc6e"
+    },
+    {
+      "file": "NEXOUSDT-1d-2026-07.zip",
+      "sha256": "f51bb32c57d08e04320b3f4552271bedae80b54e771d63f22d9efa11ab6887f0"
+    },
+    {
+      "file": "NEXOUSDT-1d-2026-08.zip",
+      "sha256": "1f3cf4a67199edc99d93a279fadc602d74f7162d0ea3a88d23fe763be4a41abe"
+    },
+    {
+      "file": "NEXOUSDT-1d-2026-09.zip",
+      "sha256": "03ae836bd3994fc33fd246d99cd460faecf941444768971c91e2183f7b97dc15"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

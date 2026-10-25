@@ -1,0 +1,233 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/FIROUSDT/1d/",
+  "instrument": "FIROUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-01-29",
+  "last_bar": "2025-04-16",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:33:21+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1539,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "FIROUSDT-1d-2021-01.zip",
+      "sha256": "b4a514516ca824dc6a6f4e4bfab62c4101386e88954619be127a9ec6fa8edf4a"
+    },
+    {
+      "file": "FIROUSDT-1d-2021-02.zip",
+      "sha256": "a1e7201bcb7f5a07543608effc7b9a91d3c9570b6ad474bb34d4fd87646036f6"
+    },
+    {
+      "file": "FIROUSDT-1d-2021-03.zip",
+      "sha256": "e2ad0f34cef712c172edaf457edac885fc70e31234b273b0d458554a308345d4"
+    },
+    {
+      "file": "FIROUSDT-1d-2021-04.zip",
+      "sha256": "847575e6a7aa820130eb78ed54e704e425f3714ec83b9a8e6f1f7201fa1ddafc"
+    },
+    {
+      "file": "FIROUSDT-1d-2021-05.zip",
+      "sha256": "a18e5f2c0c536d79e764744e417a870553d508a0f29a60dca3fcc4f43098784a"
+    },
+    {
+      "file": "FIROUSDT-1d-2021-06.zip",
+      "sha256": "ee1c9d3d03f9c6fc604619f10da8139210055a47ddda21af8a37a8cc31a1a1f1"
+    },
+    {
+      "file": "FIROUSDT-1d-2021-07.zip",
+      "sha256": "05503c3082afc744802637b859925c34ea4da57828575902c8b7fc86f190e411"
+    },
+    {
+      "file": "FIROUSDT-1d-2021-08.zip",
+      "sha256": "ad674767bdc599b0c83089316782eb0d42085a20b213d0eb04f166aee2ce3c92"
+    },
+    {
+      "file": "FIROUSDT-1d-2021-09.zip",
+      "sha256": "79a7d933933d8a3602c0f6a4ccd3408d59edc186e9fe19c59927f26985936ebb"
+    },
+    {
+      "file": "FIROUSDT-1d-2021-10.zip",
+      "sha256": "9b1ca2da83ba21a77adcef421a899f812f82a4f5e1464e26ff082c25db2ded53"
+    },
+    {
+      "file": "FIROUSDT-1d-2021-11.zip",
+      "sha256": "8ad0ed6cb95f34eb79685f5a806e64e8854b883a88acbd09a420c64fccbbaf70"
+    },
+    {
+      "file": "FIROUSDT-1d-2021-12.zip",
+      "sha256": "210444a1111c93a65e7a0d1303b8b8f055caac2f98568bd632bb37a4580b9625"
+    },
+    {
+      "file": "FIROUSDT-1d-2022-01.zip",
+      "sha256": "dc79dd7d6968b7ed1c809bd5db2bef074eaade919a237906571e8bc267169b5f"
+    },
+    {
+      "file": "FIROUSDT-1d-2022-02.zip",
+      "sha256": "599f25411da6408c89d73011052929bbbe2bb6af330fca1bdb97eb9941c08f47"
+    },
+    {
+      "file": "FIROUSDT-1d-2022-03.zip",
+      "sha256": "29d044cb493262a182c85fe7df6b0d500f0470b1d1922177d7b08d5ce50be789"
+    },
+    {
+      "file": "FIROUSDT-1d-2022-04.zip",
+      "sha256": "6bdcf58e2eab2819d9e5eeb6a169a4036808c1d61bf2ae73ef5ad388e5b80d6c"
+    },
+    {
+      "file": "FIROUSDT-1d-2022-05.zip",
+      "sha256": "9105ae69f1c2e694258b9e58059c23ca8866eeccbd32a235c180b8577adf3e47"
+    },
+    {
+      "file": "FIROUSDT-1d-2022-06.zip",
+      "sha256": "f5f3d986083827def59aab91c2c593d80b446e59f1027a24da9f93b00c39ec5e"
+    },
+    {
+      "file": "FIROUSDT-1d-2022-07.zip",
+      "sha256": "599f9274b6d9b83b3f1e4c58c3391709ab50f2c5e5e73bc3bc53aefc443e161b"
+    },
+    {
+      "file": "FIROUSDT-1d-2022-08.zip",
+      "sha256": "9ba57f9c70675bd2cdf0164b090495b0575d28b44d58d73bb2430f99948609c9"
+    },
+    {
+      "file": "FIROUSDT-1d-2022-09.zip",
+      "sha256": "5335ecb8b70db25f96114ba6a3b5eaba0cefeb4dd6947257be4dd7c0a47d498c"
+    },
+    {
+      "file": "FIROUSDT-1d-2022-10.zip",
+      "sha256": "550f7343b910694fc1c53949b8647e2a9335d040acccc738a4e41ba761707a17"
+    },
+    {
+      "file": "FIROUSDT-1d-2022-11.zip",
+      "sha256": "7a90b6bf424401a16a6ffac3e3eb2b6ad683ec4a8c04939a19c23bae83aa2c39"
+    },
+    {
+      "file": "FIROUSDT-1d-2022-12.zip",
+      "sha256": "6513d4dc20663afe575893a5a60b11f7fef08b13a5843663165797c01fdb1b3d"
+    },
+    {
+      "file": "FIROUSDT-1d-2023-01.zip",
+      "sha256": "ed3bd85ace288cc8b63c02a07483273dd38d8be1de5e304051ef83cc6a845307"
+    },
+    {
+      "file": "FIROUSDT-1d-2023-02.zip",
+      "sha256": "03573d3c45979672b4a1c3b2ccae8576bd51570855c9165157c2187705c81b7c"
+    },
+    {
+      "file": "FIROUSDT-1d-2023-03.zip",
+      "sha256": "9930f3c7175e228fcfcad0bed9b9587d829cda2a16cd1c9d8af0c1d98a5881e2"
+    },
+    {
+      "file": "FIROUSDT-1d-2023-04.zip",
+      "sha256": "05e4302b0e5d22c6b8cc914bfa0566460ea8c932abf58d3c6bd146eae82cd96f"
+    },
+    {
+      "file": "FIROUSDT-1d-2023-05.zip",
+      "sha256": "8da9c1299d751e68d11cf0a2089e2bdf127bddd7a9585c3f1a3d9772a8272769"
+    },
+    {
+      "file": "FIROUSDT-1d-2023-06.zip",
+      "sha256": "aa4df1792f7ab947b33dee15173bfae7fe394f93cdca378ea2b88c619a3cd7de"
+    },
+    {
+      "file": "FIROUSDT-1d-2023-07.zip",
+      "sha256": "298755dec299cbc4e6e76f649439241cbbd48201606bea8f6e7e89db3d66cb5c"
+    },
+    {
+      "file": "FIROUSDT-1d-2023-08.zip",
+      "sha256": "1cdc2111f30217b2e50a8a0c493f7998d86f8b1c8be1cf02c6605dbd49fe7aaf"
+    },
+    {
+      "file": "FIROUSDT-1d-2023-09.zip",
+      "sha256": "f274f5408728b133d7988dbdb7e66c69cd87ca6aafed7053cdce9d8e93d2e330"
+    },
+    {
+      "file": "FIROUSDT-1d-2023-10.zip",
+      "sha256": "ec84a5157c6f14fc704c8d1b4048fdecbbcea757be9cfce4a8f6eecee110bef7"
+    },
+    {
+      "file": "FIROUSDT-1d-2023-11.zip",
+      "sha256": "b9d573d388799535492c75569554ad575454d6bb9ecf585f8e1b238ea98978ab"
+    },
+    {
+      "file": "FIROUSDT-1d-2023-12.zip",
+      "sha256": "065b33ced4ba599888c3482c45637245ca4f5b1fc356a606369171df6a029d38"
+    },
+    {
+      "file": "FIROUSDT-1d-2024-01.zip",
+      "sha256": "dbd22dac38f4540fc76bb86a27202280b1300c54aabdad2b77e556084e8fd033"
+    },
+    {
+      "file": "FIROUSDT-1d-2024-02.zip",
+      "sha256": "db85b29eff49b16be5e895cc20102b4e9317b5e11a760fe0b20bcd305f881515"
+    },
+    {
+      "file": "FIROUSDT-1d-2024-03.zip",
+      "sha256": "62feacb5e531c1045e3b7435042e406b80b770c11e6432e914ea31646216ff77"
+    },
+    {
+      "file": "FIROUSDT-1d-2024-04.zip",
+      "sha256": "f17b93dc10c7cba531041aaba029b5559f2e07e698d7332f8bf9a8a90c498cc2"
+    },
+    {
+      "file": "FIROUSDT-1d-2024-05.zip",
+      "sha256": "c8c8c0184e4585bd9f2d3dc7493e70b9b35d6df1ef9ae8b158fcbeda69c1a036"
+    },
+    {
+      "file": "FIROUSDT-1d-2024-06.zip",
+      "sha256": "e02b852ee4116aa40cc5a057efb3f86329982ebdc527f447263de8c007bd7ef9"
+    },
+    {
+      "file": "FIROUSDT-1d-2024-07.zip",
+      "sha256": "3a2b7251e9793925b1be9921437464a6202c7a24cdf8b60ac36ba5961b16ed91"
+    },
+    {
+      "file": "FIROUSDT-1d-2024-08.zip",
+      "sha256": "ad31469f6ba1f4d49c1b207606592cec1d2a72c7e11da6cb95946a2ecc2d8b82"
+    },
+    {
+      "file": "FIROUSDT-1d-2024-09.zip",
+      "sha256": "2338c23ab0ac3e2e8124856dc1aa7f135f29cf66e6208a6f49da9522b974eb96"
+    },
+    {
+      "file": "FIROUSDT-1d-2024-10.zip",
+      "sha256": "f2fa5c83b75c76e04b0e8e396ff4d0b1782010cca7737a51863527fd62c7e295"
+    },
+    {
+      "file": "FIROUSDT-1d-2024-11.zip",
+      "sha256": "d7f80f4f8a22f3baa10402eedf6974f1d588e8090b8fc414c1e18ecc198a1035"
+    },
+    {
+      "file": "FIROUSDT-1d-2024-12.zip",
+      "sha256": "c8b52e5ea72e8c9b9465913aee6a31d74543c9d288e7d7adeef22500ad93ec63"
+    },
+    {
+      "file": "FIROUSDT-1d-2025-01.zip",
+      "sha256": "823cd9f01680a9f39e800ffe93b92ebd484c0634500e3fcf489c88615449bfd9"
+    },
+    {
+      "file": "FIROUSDT-1d-2025-02.zip",
+      "sha256": "ee5ab39e6a25c4b35f96230d451bb6cf7ed6bf6a6127db1d45a750bdd6624772"
+    },
+    {
+      "file": "FIROUSDT-1d-2025-03.zip",
+      "sha256": "1320829cfe3a42ada8b04ee1bc62558b29fd2bab9a6c4d2532840917101a228c"
+    },
+    {
+      "file": "FIROUSDT-1d-2025-04.zip",
+      "sha256": "4a80349ac34b1651e330cdfe3836bcfc52cc4a9c062b1524f8f181918e428561"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

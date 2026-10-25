@@ -1,0 +1,77 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/WLFIUSDT/1d/",
+  "instrument": "WLFIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-09-01",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:48+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 395,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "WLFIUSDT-1d-2025-09.zip",
+      "sha256": "eb52a71e4e7b0c528c642eee931385881fd7160bb5f14fe913c592ca41ab900e"
+    },
+    {
+      "file": "WLFIUSDT-1d-2025-10.zip",
+      "sha256": "01688cbee20c76e0c9f63b4a864f3c65e9e9a6e14ee95516b4bfe117cd6d7f22"
+    },
+    {
+      "file": "WLFIUSDT-1d-2025-11.zip",
+      "sha256": "6633301c35c0ea9d209845b7bb8059b012fa4e0e5cd0decb62e4806108040895"
+    },
+    {
+      "file": "WLFIUSDT-1d-2025-12.zip",
+      "sha256": "365df1ac12cc2408263e379bb304f7629c04d20e47d406b34d234ce33927f995"
+    },
+    {
+      "file": "WLFIUSDT-1d-2026-01.zip",
+      "sha256": "340559bde556b9d48672779c1f303e43d9ec7c58c72628080d7287426a5f33f9"
+    },
+    {
+      "file": "WLFIUSDT-1d-2026-02.zip",
+      "sha256": "f129549b9e120b53689291cac907154ff239d604e5b4663067e035f01453523d"
+    },
+    {
+      "file": "WLFIUSDT-1d-2026-03.zip",
+      "sha256": "9713f2137d67795c32e34854a52d6712c735226cf17bb9b568ad65c40660c507"
+    },
+    {
+      "file": "WLFIUSDT-1d-2026-04.zip",
+      "sha256": "6987e28564dc8e53e618084f62ab6924a8f6be9168855981a7b956e9fdccc59c"
+    },
+    {
+      "file": "WLFIUSDT-1d-2026-05.zip",
+      "sha256": "3ba8b97f8c0cfa855d915e2a757a2943d3950f0c0f3459c92dc76723712298a9"
+    },
+    {
+      "file": "WLFIUSDT-1d-2026-06.zip",
+      "sha256": "99332c383561a0559979e3b13614b3354dabb236fbe88223b1dbcc9879b74f6f"
+    },
+    {
+      "file": "WLFIUSDT-1d-2026-07.zip",
+      "sha256": "0dbea6453a30db8d4e2ab7a593f5d9b782c8cc4c8fe7dba708bc378154820342"
+    },
+    {
+      "file": "WLFIUSDT-1d-2026-08.zip",
+      "sha256": "0ecb93a4b4376e371616bf6f524b3b8b1db6ef3e0576b8c57c9b1fc7522faee2"
+    },
+    {
+      "file": "WLFIUSDT-1d-2026-09.zip",
+      "sha256": "9fa739e553d851110649941de2df690f81a1ff74427e3ba5b544b5b1e3bea1d3"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

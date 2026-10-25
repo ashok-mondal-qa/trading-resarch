@@ -1,0 +1,89 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/HOMEUSDT/1d/",
+  "instrument": "HOMEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-06-12",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:35:12+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 476,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "HOMEUSDT-1d-2025-06.zip",
+      "sha256": "0508ae21b3fadd52fd602d825a8c2d54c8eb43c6bc521e04550068561950f1d8"
+    },
+    {
+      "file": "HOMEUSDT-1d-2025-07.zip",
+      "sha256": "c4fd8041152ac04137279387c778c4a4cf2e28efed5a9f59e4d68009263a519e"
+    },
+    {
+      "file": "HOMEUSDT-1d-2025-08.zip",
+      "sha256": "658d41bd7112c8d4879a38116897da9bfd9a8cf06c919c3bf79e41420ab9aabb"
+    },
+    {
+      "file": "HOMEUSDT-1d-2025-09.zip",
+      "sha256": "d3dba71060f18ea71f58b945c3ae3d3387b2ca5e7452a2bb5bd025cf2403360c"
+    },
+    {
+      "file": "HOMEUSDT-1d-2025-10.zip",
+      "sha256": "aec85d7a1c8e40576a24dd6e8d9567ffae212551496e9af60b91e07c4cf5fd69"
+    },
+    {
+      "file": "HOMEUSDT-1d-2025-11.zip",
+      "sha256": "2986eaf5bcba1e48d65a317887696eb8937d06c09ac2a29239759a8d8d0c3897"
+    },
+    {
+      "file": "HOMEUSDT-1d-2025-12.zip",
+      "sha256": "4d0a9a4ccb59a2b526bd16cdb0869927a98dd40545a67b9064d2a22eeb8da807"
+    },
+    {
+      "file": "HOMEUSDT-1d-2026-01.zip",
+      "sha256": "486a3f10fc29cbc4b507fa0cbe69effa11a9739575696341b8312453d2a93c36"
+    },
+    {
+      "file": "HOMEUSDT-1d-2026-02.zip",
+      "sha256": "17a73be956c06253422df2806a07620ba31476c923000acdb7ab7745ab95f435"
+    },
+    {
+      "file": "HOMEUSDT-1d-2026-03.zip",
+      "sha256": "9ff14c554fc0579026d93e821e57820190fdacdef59e55b71f3ad965adc76fb5"
+    },
+    {
+      "file": "HOMEUSDT-1d-2026-04.zip",
+      "sha256": "e2946e1f93844276a53cf9737cd8dabb0a07ac14f0737e96d36feaa9eb108564"
+    },
+    {
+      "file": "HOMEUSDT-1d-2026-05.zip",
+      "sha256": "1d1f2536f4b6d8115844ee54248c181a7cfcd37fcc71663cd685ccb9c1c5a4a3"
+    },
+    {
+      "file": "HOMEUSDT-1d-2026-06.zip",
+      "sha256": "678e07b6bf58606e32843a6c999f518bfd73b5e041e32b4de8847ff01d886706"
+    },
+    {
+      "file": "HOMEUSDT-1d-2026-07.zip",
+      "sha256": "d051f1c2a527bfc2d601da7445446bebdf688967f8085991124701ddef4ad9ed"
+    },
+    {
+      "file": "HOMEUSDT-1d-2026-08.zip",
+      "sha256": "baf6d74d51a97874940236cde3cd6b5c0f50a7148d248d3589e59474fd52b616"
+    },
+    {
+      "file": "HOMEUSDT-1d-2026-09.zip",
+      "sha256": "8883454d0d454eb00c2bdd7cae7ddc014581c8685516fa6ab1daac7b869b4957"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

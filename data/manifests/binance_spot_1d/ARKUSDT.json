@@ -1,0 +1,173 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ARKUSDT/1d/",
+  "instrument": "ARKUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-09-22",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:26:14+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1105,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ARKUSDT-1d-2023-09.zip",
+      "sha256": "c92c3627e57385257a25c825b0a89f31578056a3d39c95964b2cd83e76ce4474"
+    },
+    {
+      "file": "ARKUSDT-1d-2023-10.zip",
+      "sha256": "a0976b16f96faf46493093e5ddaa82b9cfdf588fed1d045762aad1a335da1947"
+    },
+    {
+      "file": "ARKUSDT-1d-2023-11.zip",
+      "sha256": "f390eb3dc54c6ce4f04f217583152422a1dac6042b84ce88fa0669dd20fb865b"
+    },
+    {
+      "file": "ARKUSDT-1d-2023-12.zip",
+      "sha256": "e3eab59cbf337993a48f30a5625bf9da4df0430a42776f3c553e2abe283b3e38"
+    },
+    {
+      "file": "ARKUSDT-1d-2024-01.zip",
+      "sha256": "28cdb4fac0f164db0de0ca706f9ef7b4b660743c984746b23f24cf2e65074131"
+    },
+    {
+      "file": "ARKUSDT-1d-2024-02.zip",
+      "sha256": "4951ce7e3bd519fd0dec0aa01e42719c683099b55e76872c932e436329b4ecef"
+    },
+    {
+      "file": "ARKUSDT-1d-2024-03.zip",
+      "sha256": "57243d846c45d05b85a3b69735c4644225fcc8705273ff3f153b46ed0ad65b29"
+    },
+    {
+      "file": "ARKUSDT-1d-2024-04.zip",
+      "sha256": "fd8fcf0e467d5685584efa65a29c437a3f76fe2f1ffbcc1b068ba03872e066a5"
+    },
+    {
+      "file": "ARKUSDT-1d-2024-05.zip",
+      "sha256": "2ce4469e4c936317f4e389972cfeba8fb572bef6c7a7a57be193b572cfd33e26"
+    },
+    {
+      "file": "ARKUSDT-1d-2024-06.zip",
+      "sha256": "44aaa1c6e47300c51629d2be23ec6fe6eb07c9ed59d0c3b7561502f487a777b0"
+    },
+    {
+      "file": "ARKUSDT-1d-2024-07.zip",
+      "sha256": "15a2aed08e60e775691469d7876027cef89c12eba9b190d18dcefe187dd44406"
+    },
+    {
+      "file": "ARKUSDT-1d-2024-08.zip",
+      "sha256": "9e02c4d006e27bc292b9f7d14db8a5330265978fd986fa339a54a44c34d484c0"
+    },
+    {
+      "file": "ARKUSDT-1d-2024-09.zip",
+      "sha256": "038df1bb3eb3fda909bfe60b4640c220dd901dc3998634335c5a8576a8b8f487"
+    },
+    {
+      "file": "ARKUSDT-1d-2024-10.zip",
+      "sha256": "254c12a64e4641b54fb1b0b920dcae52e9f0ebb3847645b297676cf9ef941e4b"
+    },
+    {
+      "file": "ARKUSDT-1d-2024-11.zip",
+      "sha256": "b0750bd2b1bbaaa63721d8a67eabdb9e6afda6458eed880d3f080b261551fdb4"
+    },
+    {
+      "file": "ARKUSDT-1d-2024-12.zip",
+      "sha256": "7b225e027d3b357b240be606e7736c15e4f98c3f6bfe05c4cbe963ea4784c66c"
+    },
+    {
+      "file": "ARKUSDT-1d-2025-01.zip",
+      "sha256": "736aadff66a4f36c8f48e4dad1a20ba0e25941b065d6a8f721fddae5414b02af"
+    },
+    {
+      "file": "ARKUSDT-1d-2025-02.zip",
+      "sha256": "9fac3e7e416e4b51918d9bc4f9a14ef556e9d355f64c5d752e293fdf511fe3f5"
+    },
+    {
+      "file": "ARKUSDT-1d-2025-03.zip",
+      "sha256": "42bf68fca150c7022563fc3e34889b10554c1d7c0e51f594d5a79ca2926d91bb"
+    },
+    {
+      "file": "ARKUSDT-1d-2025-04.zip",
+      "sha256": "dfcbb93754d9d6a096cad47e836f4744c55cb7c1e316adf5b8d6b1e03ed10bc9"
+    },
+    {
+      "file": "ARKUSDT-1d-2025-05.zip",
+      "sha256": "f9375e6605d32731ac859a702c86822ea8056695e934e86911bc590d5b1d0b19"
+    },
+    {
+      "file": "ARKUSDT-1d-2025-06.zip",
+      "sha256": "0b284412246ebd68cfed05e9ed2480949bb131c98180b7fb2e2b0ff62c577b75"
+    },
+    {
+      "file": "ARKUSDT-1d-2025-07.zip",
+      "sha256": "4c29b5711f6325a8ce24b6bf33064470b2a8e808ee208eb9b49e784ce9f1ed25"
+    },
+    {
+      "file": "ARKUSDT-1d-2025-08.zip",
+      "sha256": "c3137bff4eba443bbe2a5ae698781089073fb54cf7ed6b5afc4128a9a3e672a3"
+    },
+    {
+      "file": "ARKUSDT-1d-2025-09.zip",
+      "sha256": "d4e130212d4589e554b68d569b4bccb7b2c17221c8e75d5f4fad481f270f9dd0"
+    },
+    {
+      "file": "ARKUSDT-1d-2025-10.zip",
+      "sha256": "2be1018b22f90ff6041b8ff5136bb9775e0058e0b4443ec6256a3929fcb44157"
+    },
+    {
+      "file": "ARKUSDT-1d-2025-11.zip",
+      "sha256": "cc7f351fe9c84874156bd01bbb4528a1ef05207d9ff12956c1bfaec29b2ad0c5"
+    },
+    {
+      "file": "ARKUSDT-1d-2025-12.zip",
+      "sha256": "88eb98537b945c4bd4804394dcc1ce83e3da547c8691af38ad6fd4c81406a7fb"
+    },
+    {
+      "file": "ARKUSDT-1d-2026-01.zip",
+      "sha256": "80b7042ac9b86f3ec057db4a3a3c97c61dec0bbfff5ef1921a2133656e513890"
+    },
+    {
+      "file": "ARKUSDT-1d-2026-02.zip",
+      "sha256": "786fc7207bd4305001594c1bd073370f41f3508631df91c71e36f25020b580e2"
+    },
+    {
+      "file": "ARKUSDT-1d-2026-03.zip",
+      "sha256": "9f623c11542aa1c9eb6cef90f32ed07019531fe2f109e19544c2d370af466fc4"
+    },
+    {
+      "file": "ARKUSDT-1d-2026-04.zip",
+      "sha256": "84ca64fdaf81bc339ca4e4e8e0bb606a3d296851a5c63a4c38bd660318558a3f"
+    },
+    {
+      "file": "ARKUSDT-1d-2026-05.zip",
+      "sha256": "e20b534ec8a3e724c9f3645cf1308d934d317797f136b0e009889ed4d18b81ba"
+    },
+    {
+      "file": "ARKUSDT-1d-2026-06.zip",
+      "sha256": "45b1bda58a405b991881871ac47dc590f0e5da523a3055c1616ba2a8f7c27ebd"
+    },
+    {
+      "file": "ARKUSDT-1d-2026-07.zip",
+      "sha256": "cd445615acbe4a19204b467c757dc722b91e42e0b85411d3e63ff9e5d45c72b4"
+    },
+    {
+      "file": "ARKUSDT-1d-2026-08.zip",
+      "sha256": "fb6bb206bc66164eef3280b3039a3f7cd3cb9fb97c0adca53f280ba3f32d7759"
+    },
+    {
+      "file": "ARKUSDT-1d-2026-09.zip",
+      "sha256": "33546bfccf17276b3553b21345b9eef2e0add52f2b5f34a94d2c0834e7a54753"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ZROUSDT/1d/",
+  "instrument": "ZROUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-06-20",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:50:35+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 833,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ZROUSDT-1d-2024-06.zip",
+      "sha256": "ea900fe6e04415892eb82f2e16721a0896962e7ec5498d8bd550d2929c199637"
+    },
+    {
+      "file": "ZROUSDT-1d-2024-07.zip",
+      "sha256": "dab2f95770ec19bc6c5382103acc7b16a4931b4701dd0ecff64e2783d16bf4d1"
+    },
+    {
+      "file": "ZROUSDT-1d-2024-08.zip",
+      "sha256": "b593edb1359dabab0d975b7a87acad16a86309c270b128c48be3b1bce2947cd8"
+    },
+    {
+      "file": "ZROUSDT-1d-2024-09.zip",
+      "sha256": "7e9991cd020a54903fe7ed31645f1123b8680d4e7a8e124ec08cfc8edaed71a0"
+    },
+    {
+      "file": "ZROUSDT-1d-2024-10.zip",
+      "sha256": "a9c0f4a9a9cdc82c2d571f0cfe932d61c86f47b6665708983a9fec50e5079f3f"
+    },
+    {
+      "file": "ZROUSDT-1d-2024-11.zip",
+      "sha256": "f31d8a453c9f3afbb0c2b4dc91332c70717b89f504fa6d02b3dbac1c082d61ec"
+    },
+    {
+      "file": "ZROUSDT-1d-2024-12.zip",
+      "sha256": "8a70b2fe85d9ca0f940f3eaec5eaf80634b4ea2a2e8e1f5f2e2ea6b6daf70e23"
+    },
+    {
+      "file": "ZROUSDT-1d-2025-01.zip",
+      "sha256": "2a1f2cb3df9b97f637213ef65d22137f25a6100c6792a9357f4919c7237ab709"
+    },
+    {
+      "file": "ZROUSDT-1d-2025-02.zip",
+      "sha256": "267326f3ea648fbdc794fe6a97d3c6f20abc1368f8ce6d95dcd752f879bc9d69"
+    },
+    {
+      "file": "ZROUSDT-1d-2025-03.zip",
+      "sha256": "a400c3b3b4b488ea2a139cd1e2aea0b2a004e5bf0f4994114cbcea5f06ffdee7"
+    },
+    {
+      "file": "ZROUSDT-1d-2025-04.zip",
+      "sha256": "582e6bd2208b715d55c63f1784c15aadcb4f6258a4e5c3d650c40bb6e75fbd96"
+    },
+    {
+      "file": "ZROUSDT-1d-2025-05.zip",
+      "sha256": "738286fd831f4eca53225323b942961947564474e0af65dad80e6942f8c24b2f"
+    },
+    {
+      "file": "ZROUSDT-1d-2025-06.zip",
+      "sha256": "32355443df148ff5505cbba45bc10599f7bb1bf840e4f7ac8e5731a9c7f8d463"
+    },
+    {
+      "file": "ZROUSDT-1d-2025-07.zip",
+      "sha256": "6c6d246a23bd839bb456c947a91cfa1feafccc55ae6841c1d8c0024ad005b545"
+    },
+    {
+      "file": "ZROUSDT-1d-2025-08.zip",
+      "sha256": "2addb9c89cfd1484550e8cfccd6ab28c9e3f60b554483625448bbd99f5ce9957"
+    },
+    {
+      "file": "ZROUSDT-1d-2025-09.zip",
+      "sha256": "16c63afdb8a2392adaf5db7b3afafe8e619a51d8409c3636f611b71db0cb76ba"
+    },
+    {
+      "file": "ZROUSDT-1d-2025-10.zip",
+      "sha256": "8ae91e54950d143ae141b12c0b3ce9400840319eac431b7339b92a3ce36b9639"
+    },
+    {
+      "file": "ZROUSDT-1d-2025-11.zip",
+      "sha256": "4b940a9ca4b5350d29c5ec54b56546d0534921ff9554af8801681540a04963d5"
+    },
+    {
+      "file": "ZROUSDT-1d-2025-12.zip",
+      "sha256": "237cc214da6f03b6ebc24aef5f2f76cb50893185490a7c5f31a9c27c8c811489"
+    },
+    {
+      "file": "ZROUSDT-1d-2026-01.zip",
+      "sha256": "b9413e20e54f2d1001e18b5aaf3d4d2a3fa5e76cd7c8c909b3012d71c9515e81"
+    },
+    {
+      "file": "ZROUSDT-1d-2026-02.zip",
+      "sha256": "a2d8f76e87129e84f6dc579ec20947d6ccce458033749fe3ee9c90aa3ba09768"
+    },
+    {
+      "file": "ZROUSDT-1d-2026-03.zip",
+      "sha256": "e3835f87336691938a026407e0270d60ff4bb708306abdd206e350414a4e008f"
+    },
+    {
+      "file": "ZROUSDT-1d-2026-04.zip",
+      "sha256": "c7e26b96d29a9a02003b85d33ab4ec2bb5e67199af6f8c7bebc81f1af2af04e7"
+    },
+    {
+      "file": "ZROUSDT-1d-2026-05.zip",
+      "sha256": "4afbcd1182e1bd5c93b35653f386edddd36e712e075382e8989751634f15f29c"
+    },
+    {
+      "file": "ZROUSDT-1d-2026-06.zip",
+      "sha256": "f3ca3b57e51182a7a4063d93fbe9688681df2ff25effd7722889532c9f1e8ddf"
+    },
+    {
+      "file": "ZROUSDT-1d-2026-07.zip",
+      "sha256": "2b74f8e8f83062875e428f6981e59426ca27c9b47ed65bbebe69c72ccced334e"
+    },
+    {
+      "file": "ZROUSDT-1d-2026-08.zip",
+      "sha256": "6203545d00ff32908894f40d9bd72862fc85af0360af9f8723b13a7ae1420f66"
+    },
+    {
+      "file": "ZROUSDT-1d-2026-09.zip",
+      "sha256": "c61b983e1cc770099a59d9f1016838146ecfd6ec33402fad886bca4aeda9e58b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

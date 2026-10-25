@@ -1,0 +1,261 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/WRXUSDT/1d/",
+  "instrument": "WRXUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-02-05",
+  "last_bar": "2024-12-25",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:49:35+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1786,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "WRXUSDT-1d-2020-02.zip",
+      "sha256": "b81a36cc9dba178e28cd3255804dab8ebcf318d2ecb4e73be8a9fcd352012628"
+    },
+    {
+      "file": "WRXUSDT-1d-2020-03.zip",
+      "sha256": "87e339049ebf9dcc94dffd39591d6efb71a303e794cef16259a37dafa85556e5"
+    },
+    {
+      "file": "WRXUSDT-1d-2020-04.zip",
+      "sha256": "98a6a9e10898089c7ac1367e09c75cd83fa9f81fa556f9470837735d51209f44"
+    },
+    {
+      "file": "WRXUSDT-1d-2020-05.zip",
+      "sha256": "5a5d3e19cdf3e1cf658abc490860ed3ebc7055b5df939c0176be059084a2f5fd"
+    },
+    {
+      "file": "WRXUSDT-1d-2020-06.zip",
+      "sha256": "5d5b48948614bfe245b0a5c83384b4b8a95b5f53b308f5340c4834538b88f462"
+    },
+    {
+      "file": "WRXUSDT-1d-2020-07.zip",
+      "sha256": "6916aff14f356d6a7b7834cf122f756b034794765d3da93f6385185bb35f5d7f"
+    },
+    {
+      "file": "WRXUSDT-1d-2020-08.zip",
+      "sha256": "1f35d4793cb8713dccf851a36c455a8d9b162ab502c6960015873a3bd1b640c4"
+    },
+    {
+      "file": "WRXUSDT-1d-2020-09.zip",
+      "sha256": "32292530b3921401080e492d05ce22122a3454c196a7f80ce21e9eb362b87d3c"
+    },
+    {
+      "file": "WRXUSDT-1d-2020-10.zip",
+      "sha256": "100eb3b1e8b1a659fcc07f9c6c76f71ac11480de0bd02bafa56b61ef1a725dfd"
+    },
+    {
+      "file": "WRXUSDT-1d-2020-11.zip",
+      "sha256": "bcb75d317b2f4258292f4608834dc09bd733f1f2d4b3df5bda42c4e3b5722a6a"
+    },
+    {
+      "file": "WRXUSDT-1d-2020-12.zip",
+      "sha256": "683ff3a6f5eed08c4f406d0e885ff30f897a870457b75d7e2b4a293e9cf99ce9"
+    },
+    {
+      "file": "WRXUSDT-1d-2021-01.zip",
+      "sha256": "4bded42a139aecda38c1863eec6db486bd8d71a1e5189026054b4ea0b5fd3c6d"
+    },
+    {
+      "file": "WRXUSDT-1d-2021-02.zip",
+      "sha256": "3b3a01bb0304ddc820cd2003c8a50cb4436103eb56e0174739e78b4422752bde"
+    },
+    {
+      "file": "WRXUSDT-1d-2021-03.zip",
+      "sha256": "bb8d9960e085d77fcb1a6001cda7bffe599e8a49edc5d96114b460dd3746369d"
+    },
+    {
+      "file": "WRXUSDT-1d-2021-04.zip",
+      "sha256": "642331502e6ecef3aa3ec8177f58a07d9696dcca55b48aa3f1ecedecf3170840"
+    },
+    {
+      "file": "WRXUSDT-1d-2021-05.zip",
+      "sha256": "c6f214f9784e8a7818714c6ec522bd3e2364498a2474c295d4b14e8ff51830ab"
+    },
+    {
+      "file": "WRXUSDT-1d-2021-06.zip",
+      "sha256": "288de5f82e9e74996de46031bee84692ff7924bd8cc3dd3de41ffa5110adba9d"
+    },
+    {
+      "file": "WRXUSDT-1d-2021-07.zip",
+      "sha256": "409e9d2ae9e9ad60cb4a453e242934f30b0c766c6f04655517c1ba3bc76a16ba"
+    },
+    {
+      "file": "WRXUSDT-1d-2021-08.zip",
+      "sha256": "6ea4aed561d11adeed2a40839fa163678b8995ce9c88bd613dd372f4249f5438"
+    },
+    {
+      "file": "WRXUSDT-1d-2021-09.zip",
+      "sha256": "0cb9c9c6d0bdedb379c4f66b504100183c0f19e1281245187ddd2092daabfc04"
+    },
+    {
+      "file": "WRXUSDT-1d-2021-10.zip",
+      "sha256": "138184febcb25b9eddb6b52a9d41b0afc263c232a08e91e88a1e4aee2e5b040e"
+    },
+    {
+      "file": "WRXUSDT-1d-2021-11.zip",
+      "sha256": "3895dff7734d1b79e75004f9989d73c0d8cd53d8cf24fc818354d39db954566b"
+    },
+    {
+      "file": "WRXUSDT-1d-2021-12.zip",
+      "sha256": "1413a57446a99024be1de68676397d6b640b1cf6a09412ab27ac25b6f2b3de45"
+    },
+    {
+      "file": "WRXUSDT-1d-2022-01.zip",
+      "sha256": "3def04f4a0f72e4a66731c8e37927658416945781a1d1ac46fc2dc9c58f0fa70"
+    },
+    {
+      "file": "WRXUSDT-1d-2022-02.zip",
+      "sha256": "d98ea01e3e0c2ae80d6f8e473ab59f21996488e7962e22526316851e1777f52c"
+    },
+    {
+      "file": "WRXUSDT-1d-2022-03.zip",
+      "sha256": "09c324f8f0c6db3a7b54f258d6b94cbe6fe6b1e842d55ef31eb45d244b78693a"
+    },
+    {
+      "file": "WRXUSDT-1d-2022-04.zip",
+      "sha256": "077d1c2bf62e235a6d649d57d64be3df1e07338fb2c47b0269dc6b4fe9987b40"
+    },
+    {
+      "file": "WRXUSDT-1d-2022-05.zip",
+      "sha256": "2389e4faf590a2b556914bb466afcb364247a04a9d23bf17dc33b4d600a8c2e0"
+    },
+    {
+      "file": "WRXUSDT-1d-2022-06.zip",
+      "sha256": "bcb4ed7a39b548ce79d21941b8ae019d67328c4e061689db2f769711e7a2451a"
+    },
+    {
+      "file": "WRXUSDT-1d-2022-07.zip",
+      "sha256": "3bf86a5a95bacf79330ea4ba7d6f9b4e98972b1656d4743cefd724393693c3f4"
+    },
+    {
+      "file": "WRXUSDT-1d-2022-08.zip",
+      "sha256": "b9d6c92a16319175331e05181f31cf1c5ea79bed473f4d0d2bf5ecaabc375c49"
+    },
+    {
+      "file": "WRXUSDT-1d-2022-09.zip",
+      "sha256": "0620b4f071c8a4bbc0ca17b62b141323932b15577700518be68590b8d6009a47"
+    },
+    {
+      "file": "WRXUSDT-1d-2022-10.zip",
+      "sha256": "356f39bcf1ab11472872394a405c49ba09bd5cbcca62206c68650a90478b6843"
+    },
+    {
+      "file": "WRXUSDT-1d-2022-11.zip",
+      "sha256": "64aa8415ac1eb0aff66b69ab6305e3297b49454a4bbf9a7bbb1763137c4611dc"
+    },
+    {
+      "file": "WRXUSDT-1d-2022-12.zip",
+      "sha256": "6ec1bd11a80a0b296648488c9cb488b107a0c53df7f5e3f94bff526d3a4a89bf"
+    },
+    {
+      "file": "WRXUSDT-1d-2023-01.zip",
+      "sha256": "d047368c82197f966f9734e223b2d79760690ce527fcbf0db7f9dfd53fbdbc4f"
+    },
+    {
+      "file": "WRXUSDT-1d-2023-02.zip",
+      "sha256": "7ef6fd73c812c3864592deafc0b89593a900dbbd41c4490fbdf3c77cb8ad2361"
+    },
+    {
+      "file": "WRXUSDT-1d-2023-03.zip",
+      "sha256": "7cde7d50e77985c9e44df147c8c587f8cb409a9e1a4aaee467c8edfb67057f70"
+    },
+    {
+      "file": "WRXUSDT-1d-2023-04.zip",
+      "sha256": "2e9f25df5df2c7d58d42ca4cc20d2b21dd14530136c9e941065c93cbf0c6430e"
+    },
+    {
+      "file": "WRXUSDT-1d-2023-05.zip",
+      "sha256": "55458b62fb63938e46275210c157e2614831c6ddeb15e7e4e8eb2277a972418f"
+    },
+    {
+      "file": "WRXUSDT-1d-2023-06.zip",
+      "sha256": "6531bd805ceadb124165e2e96d8aed24b9104d4e2e0cad29754cf9cfa36ce869"
+    },
+    {
+      "file": "WRXUSDT-1d-2023-07.zip",
+      "sha256": "39819f656276ec4a99f814ffd25aed2872db78b172d0801cfea3904abf794b98"
+    },
+    {
+      "file": "WRXUSDT-1d-2023-08.zip",
+      "sha256": "eaadac642e913c880ba6df09f11b72cab88ec44c497e8ecc66d5d8165760bcf3"
+    },
+    {
+      "file": "WRXUSDT-1d-2023-09.zip",
+      "sha256": "3e986d6856f41ced730d2b75c425f5026abeb70b763811c368daba60224cad27"
+    },
+    {
+      "file": "WRXUSDT-1d-2023-10.zip",
+      "sha256": "39116716902ef1d5feafefda70db290d6470d449723761dc1c35b358c577ce55"
+    },
+    {
+      "file": "WRXUSDT-1d-2023-11.zip",
+      "sha256": "103e4ec34750904ff66f72e61789750eb4b2803b99347670fd0d3ffdff0ec306"
+    },
+    {
+      "file": "WRXUSDT-1d-2023-12.zip",
+      "sha256": "ae18bc46cd448621aef3f1da3f7cb3ae3a46ec2ae1a61deeb7f70847b762534d"
+    },
+    {
+      "file": "WRXUSDT-1d-2024-01.zip",
+      "sha256": "16112d38459671005805e46a378e02e7ddfc051873159240ce18a783391ad721"
+    },
+    {
+      "file": "WRXUSDT-1d-2024-02.zip",
+      "sha256": "2c472e6f5f81f86701267eac4fa0beefd2037587b6f0fa3f7575d311b522f617"
+    },
+    {
+      "file": "WRXUSDT-1d-2024-03.zip",
+      "sha256": "d6afd6c2892897c0638cccb54257406c7e3b6fa411f505a88ab099f251387b4c"
+    },
+    {
+      "file": "WRXUSDT-1d-2024-04.zip",
+      "sha256": "3f0143acf6ca17010db2e8e86bd6fa006192e5d4a6df3ca2b4da50ca535eff19"
+    },
+    {
+      "file": "WRXUSDT-1d-2024-05.zip",
+      "sha256": "27709b704613fb99ad8c7b893c751ac8ef4c6078f9661f1aa59ad0ed05159367"
+    },
+    {
+      "file": "WRXUSDT-1d-2024-06.zip",
+      "sha256": "4b60615f5329669ae74b3860735cab23cac0545a68834150ec9ee760230f1188"
+    },
+    {
+      "file": "WRXUSDT-1d-2024-07.zip",
+      "sha256": "c5dc76a3c928bdeec92ef3adc8410a30e587a2e7b2671f82dc51e3eb673aebd6"
+    },
+    {
+      "file": "WRXUSDT-1d-2024-08.zip",
+      "sha256": "dc0e0b13c88a5bb40aef94db435de83bc1deb3864274fe235c363ba0a30df1de"
+    },
+    {
+      "file": "WRXUSDT-1d-2024-09.zip",
+      "sha256": "4e2f927df920ac2ba2c828709a48e78de2a3a3eff860fab2bc8d984b721d276b"
+    },
+    {
+      "file": "WRXUSDT-1d-2024-10.zip",
+      "sha256": "4ac336cbf177dfa4c1fe777897d2b3d99810d5edc01d8821a8a8afe71710bab8"
+    },
+    {
+      "file": "WRXUSDT-1d-2024-11.zip",
+      "sha256": "c255784d413599a6925dbed5e8e420ede817759f38072f2f0df96ff13b1ec263"
+    },
+    {
+      "file": "WRXUSDT-1d-2024-12.zip",
+      "sha256": "3053c592cb0f113d542b8218afb7143aa16caa4974d0d7050d4efaa0e132867d"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

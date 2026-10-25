@@ -1,0 +1,317 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/UNIUSDT/1d/",
+  "instrument": "UNIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-09-17",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:24+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2205,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "UNIUSDT-1d-2020-09.zip",
+      "sha256": "24629b95143d60e2e2262d2048fa487feb54904974edb4699367867531c412a7"
+    },
+    {
+      "file": "UNIUSDT-1d-2020-10.zip",
+      "sha256": "e927d9504be59d152d907fb944a4d3f84101447daef2e54983bf297b25bef3df"
+    },
+    {
+      "file": "UNIUSDT-1d-2020-11.zip",
+      "sha256": "f401f31a50f85508d63114e67e577beaa8ea9e96c0cae52ff4b007fa013d1c45"
+    },
+    {
+      "file": "UNIUSDT-1d-2020-12.zip",
+      "sha256": "7d1530d062bc8d4d05ac137128fa73d11ab311e1e57662e430a3901c0748eca7"
+    },
+    {
+      "file": "UNIUSDT-1d-2021-01.zip",
+      "sha256": "574f3a70ed47aff0193add812988ba0ed962069635cf7a18a0371b35ff7002e9"
+    },
+    {
+      "file": "UNIUSDT-1d-2021-02.zip",
+      "sha256": "d1b9b88484c0d44237dd36cf833f058ad754a4dea82f022ccee350eecb77d47c"
+    },
+    {
+      "file": "UNIUSDT-1d-2021-03.zip",
+      "sha256": "352a82b8a4eccb22c535c996b6ec7152e2d8df25e893fcafbd3c007bb45bf738"
+    },
+    {
+      "file": "UNIUSDT-1d-2021-04.zip",
+      "sha256": "4d7491added68304f4426b723e5f1f915a9842be60fe131f5c2af8e425d09f17"
+    },
+    {
+      "file": "UNIUSDT-1d-2021-05.zip",
+      "sha256": "f82020230710febf8e62470fe207563686f1d1064bb8876d44bb61c4992d09aa"
+    },
+    {
+      "file": "UNIUSDT-1d-2021-06.zip",
+      "sha256": "ed3e076701639f26486f9be30668bfbe9daad28db703c37fd1a4133628ee1f3f"
+    },
+    {
+      "file": "UNIUSDT-1d-2021-07.zip",
+      "sha256": "1cd793aea58c2935cc224075b6a5a40706a200de746074d3672d16218b9baeb8"
+    },
+    {
+      "file": "UNIUSDT-1d-2021-08.zip",
+      "sha256": "1aefb8dff00c42bffea06d24d51471874e37a138e59935a9187948872cda7b9e"
+    },
+    {
+      "file": "UNIUSDT-1d-2021-09.zip",
+      "sha256": "6b4a1b3f6eba15b353afa36474eb55390014fe7f033f59ba226380bd3cb6294f"
+    },
+    {
+      "file": "UNIUSDT-1d-2021-10.zip",
+      "sha256": "47e3249889a5e06ad00058947eb9d92548d3edfd32cea71bf2b6527da2b71d4b"
+    },
+    {
+      "file": "UNIUSDT-1d-2021-11.zip",
+      "sha256": "3b78c977db523392a0d7ff9b5691b441d895e9989b66c76a06bd71d0e2d57d68"
+    },
+    {
+      "file": "UNIUSDT-1d-2021-12.zip",
+      "sha256": "d04a3b8e08e039a2a10e06b36218b5f1843f6ba5cf1db80138f3631ba06e358f"
+    },
+    {
+      "file": "UNIUSDT-1d-2022-01.zip",
+      "sha256": "a5eefe363f81d8fdc61b19ef9cbd167480ff12fddcccb0716ddb213840940b2a"
+    },
+    {
+      "file": "UNIUSDT-1d-2022-02.zip",
+      "sha256": "1f716e4e0186017cc888155b1603afecb6eb754fe502933521c5109cb8fe43be"
+    },
+    {
+      "file": "UNIUSDT-1d-2022-03.zip",
+      "sha256": "49c87ac3ed754696e2b25d526f0e9b648c08725b33329312c78f869ca50000c9"
+    },
+    {
+      "file": "UNIUSDT-1d-2022-04.zip",
+      "sha256": "55837649ea741d15cdacc8f27606eb39a33ec110789a8bcdf493b38b291ea403"
+    },
+    {
+      "file": "UNIUSDT-1d-2022-05.zip",
+      "sha256": "255c45bdcd036423833a4a0831e21735f48b8584733d9db191ad077e7eac37be"
+    },
+    {
+      "file": "UNIUSDT-1d-2022-06.zip",
+      "sha256": "653dc117c1ebcabfbe2b35ca2a32e23a99e94b4346d25654f93a9ac10ced4ba3"
+    },
+    {
+      "file": "UNIUSDT-1d-2022-07.zip",
+      "sha256": "b6f99081516b9ae2ef9d6dc6dcdb3b66a513a31739623a1ce0a0b164843a6f37"
+    },
+    {
+      "file": "UNIUSDT-1d-2022-08.zip",
+      "sha256": "4fdee2fc32876ef1ee65864e654743dfd05ed7f0f88feebc6f200a037a29751f"
+    },
+    {
+      "file": "UNIUSDT-1d-2022-09.zip",
+      "sha256": "598b480ad23ab0ee01f50bba5e7b055d14b88f2ab629173123b34288fc9bb982"
+    },
+    {
+      "file": "UNIUSDT-1d-2022-10.zip",
+      "sha256": "12ac4275db07ea4934611cff7e0dd7d2b8ae4d312c690904190941291cfd1af7"
+    },
+    {
+      "file": "UNIUSDT-1d-2022-11.zip",
+      "sha256": "1eaf477281e3993a280b96bf9a3a782b550726ce8d1768a48d64b769b4d3aca9"
+    },
+    {
+      "file": "UNIUSDT-1d-2022-12.zip",
+      "sha256": "4eadf4c476596577704eb1e89a7cdf8c336fbee8daf0624565b8cec84efa6b05"
+    },
+    {
+      "file": "UNIUSDT-1d-2023-01.zip",
+      "sha256": "7849765f18b520a19c3a0620495698b7f2a009e3bab53717634b5b184f42d857"
+    },
+    {
+      "file": "UNIUSDT-1d-2023-02.zip",
+      "sha256": "f68ef441c0a1ef8788934f494a322a67669bf91f3d116c00d997d68133b60db3"
+    },
+    {
+      "file": "UNIUSDT-1d-2023-03.zip",
+      "sha256": "d632ca8c29ffafbb11026b9e3fd757d123bc212f3595def7a7bb9ce5590a3143"
+    },
+    {
+      "file": "UNIUSDT-1d-2023-04.zip",
+      "sha256": "57b8e7cf73ce665b656928cc56fddb240e4e3f9af1e681446cca56ae27f9a863"
+    },
+    {
+      "file": "UNIUSDT-1d-2023-05.zip",
+      "sha256": "48dcc440479ae8c7c3d746d6c7dbdc3b38b85d35e6f427a05e45f3257f5962bf"
+    },
+    {
+      "file": "UNIUSDT-1d-2023-06.zip",
+      "sha256": "2f03c02834d84511ff977f630914eb3c143c7635cd232081f55845758b6421c4"
+    },
+    {
+      "file": "UNIUSDT-1d-2023-07.zip",
+      "sha256": "0ace6129ceaa407479c107160acdfd84ec7c5e6f4b3b0206efa1959acdb66cc6"
+    },
+    {
+      "file": "UNIUSDT-1d-2023-08.zip",
+      "sha256": "8614010c1ca2179154514e04cc690405ecaef0765e59f0cfd7488ad4dd7eb9a0"
+    },
+    {
+      "file": "UNIUSDT-1d-2023-09.zip",
+      "sha256": "2ef2f0124b487d53e1d5ba9d5face244bdd8c417be9d4aa925a01fbb122c0a33"
+    },
+    {
+      "file": "UNIUSDT-1d-2023-10.zip",
+      "sha256": "62f6868e79b344d4419f658f5edf7537223513f392ca376a4543b78b24fe73f3"
+    },
+    {
+      "file": "UNIUSDT-1d-2023-11.zip",
+      "sha256": "92855ea189cfdcf68e83fc670329c2fa56632fe50913222fdbe8bad8a8a01001"
+    },
+    {
+      "file": "UNIUSDT-1d-2023-12.zip",
+      "sha256": "5e5c801b3149b632a91da20f1acca85d8bff0d233638d7fc67682a448f35ac89"
+    },
+    {
+      "file": "UNIUSDT-1d-2024-01.zip",
+      "sha256": "39001c7d08ed5358bde1db00a0b16c227a8e709d115dc3496e5dae0ff92ea381"
+    },
+    {
+      "file": "UNIUSDT-1d-2024-02.zip",
+      "sha256": "efe8e78599e57ff646ba9d414f62bfb67062f91184731a478b8b39343fa681af"
+    },
+    {
+      "file": "UNIUSDT-1d-2024-03.zip",
+      "sha256": "58356fa6c7e3f531706b051c5b093667aaa15efae271068732024d3be440ba71"
+    },
+    {
+      "file": "UNIUSDT-1d-2024-04.zip",
+      "sha256": "2beaa5e3f95b9482e5e3cbc6958dd8a68429780349842e5986a1c3ae82de1eb3"
+    },
+    {
+      "file": "UNIUSDT-1d-2024-05.zip",
+      "sha256": "b3d9d84f160f5d95b75c187b4e29e3e9352524c756e0f14fb5971258d6006ce1"
+    },
+    {
+      "file": "UNIUSDT-1d-2024-06.zip",
+      "sha256": "46a2d3765c4be351fc9286e6fd3d5185823fa6301f2499232d3cb041f7fc8c53"
+    },
+    {
+      "file": "UNIUSDT-1d-2024-07.zip",
+      "sha256": "6d09a6652871e0e929eab3e44d62fbd67f686123078d14261fe7b6e6922dc7ff"
+    },
+    {
+      "file": "UNIUSDT-1d-2024-08.zip",
+      "sha256": "22dcb856e330457dc04815165c95c91551d1dd64d297d26edeb6b8aabf3bdfb5"
+    },
+    {
+      "file": "UNIUSDT-1d-2024-09.zip",
+      "sha256": "1dba8342f7bc18dee22c42211ac0f7abbfa3d96e3164c72f0ab7082253700f37"
+    },
+    {
+      "file": "UNIUSDT-1d-2024-10.zip",
+      "sha256": "c9df6dbe7eda17558810989e5964483a403f378b5eb43b2c338c0bfda45a48ce"
+    },
+    {
+      "file": "UNIUSDT-1d-2024-11.zip",
+      "sha256": "8a5879367ffce4ccfcdd8c675b99085d97bf547a970fb0ff5a50fc00f68048ea"
+    },
+    {
+      "file": "UNIUSDT-1d-2024-12.zip",
+      "sha256": "5e45623c39491272f5dce1bbd502d1365e6b750113faf094999936a866fd76f9"
+    },
+    {
+      "file": "UNIUSDT-1d-2025-01.zip",
+      "sha256": "060be413513d079d483dba94e5e0d4cf4175e0bfa65a1c2b985b47a015fee2dc"
+    },
+    {
+      "file": "UNIUSDT-1d-2025-02.zip",
+      "sha256": "4e535cc247426215f6b502aa6f04088a2c587ace50ebfe8d1f557ce7a211a93c"
+    },
+    {
+      "file": "UNIUSDT-1d-2025-03.zip",
+      "sha256": "aa10550d6a9a88857878ae29360d398e2d2738d25acc14247ebec12e2bd1b429"
+    },
+    {
+      "file": "UNIUSDT-1d-2025-04.zip",
+      "sha256": "4c29f5b474e1ba042492826f9f50dec7b296c5c2640e7a76c721f95b9fd52f49"
+    },
+    {
+      "file": "UNIUSDT-1d-2025-05.zip",
+      "sha256": "f3c219d10567e0c934c3f3f8501f1db4c62a875c77bb466bf311937d5d19ad58"
+    },
+    {
+      "file": "UNIUSDT-1d-2025-06.zip",
+      "sha256": "64923b081d8a3b0ba6c3defceb02ae42fe032c179d253da819feb604b6b90dd8"
+    },
+    {
+      "file": "UNIUSDT-1d-2025-07.zip",
+      "sha256": "3df232d5d282ae2cda09ed9a81053d5fb636d591792fc15eef99aa1bc8e8e321"
+    },
+    {
+      "file": "UNIUSDT-1d-2025-08.zip",
+      "sha256": "9b7e460f49bb36b10aebc3269e7e6a8d634d259ec0f1c40cef4bdf511f99694b"
+    },
+    {
+      "file": "UNIUSDT-1d-2025-09.zip",
+      "sha256": "cbf639e2b1ece1d4a6b6816cf5b335df39481c7fca5e7c655abbf0699aa6dfcd"
+    },
+    {
+      "file": "UNIUSDT-1d-2025-10.zip",
+      "sha256": "bec6b68a4db99ce55d388df5abed1570c463ff0562dd466be3b0eb67e0b06181"
+    },
+    {
+      "file": "UNIUSDT-1d-2025-11.zip",
+      "sha256": "3aba89777d6bb4d33a43ea32ba5438c0308cf45bcbda71c22e1322d58cf7ba36"
+    },
+    {
+      "file": "UNIUSDT-1d-2025-12.zip",
+      "sha256": "6178cbf760d076691c9621d34c0ca151bc5f2a6ba0d4e6de76012f15cc2e3dd4"
+    },
+    {
+      "file": "UNIUSDT-1d-2026-01.zip",
+      "sha256": "ae5b9ddb38929b326f36fafaa0abd53bd5184ebdcdb0034132d3d2790897252e"
+    },
+    {
+      "file": "UNIUSDT-1d-2026-02.zip",
+      "sha256": "124feb273110bc86becfc8041f8ddf132b8b98c9c68708b1bd79c3b1ffa46279"
+    },
+    {
+      "file": "UNIUSDT-1d-2026-03.zip",
+      "sha256": "cc371b4033e37e3074b6955b448e90906ef61c860f4a513bdd26701dcc604eac"
+    },
+    {
+      "file": "UNIUSDT-1d-2026-04.zip",
+      "sha256": "a8e21af0acf89d7e0341ed0eb8e22ed7351ff328d73cc1717dbb5296f33fca6d"
+    },
+    {
+      "file": "UNIUSDT-1d-2026-05.zip",
+      "sha256": "f35fb6622e83aa8c0b3705f08f04b3ea523991f1281e3c9eececec248d754fe5"
+    },
+    {
+      "file": "UNIUSDT-1d-2026-06.zip",
+      "sha256": "11563cbc5eca3d4c6b7ab9f34b47a628c5a3ea8d2e7788ecff1e869ae41c9968"
+    },
+    {
+      "file": "UNIUSDT-1d-2026-07.zip",
+      "sha256": "88f7ecd716937e8bcf0accadbd07a0885adf9c077854643a37ab854f29db0c70"
+    },
+    {
+      "file": "UNIUSDT-1d-2026-08.zip",
+      "sha256": "f58510affe37d3e0bf18402dc168174f8eddcfba877a0a3830ab9dcc986284a3"
+    },
+    {
+      "file": "UNIUSDT-1d-2026-09.zip",
+      "sha256": "95d077f26b5781397516fb873f382597e8f97eb2c25f8f34f8314c387c15bbb4"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

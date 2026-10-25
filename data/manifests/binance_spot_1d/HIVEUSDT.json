@@ -1,0 +1,337 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/HIVEUSDT/1d/",
+  "instrument": "HIVEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-04-27",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:35:52+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2348,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "HIVEUSDT-1d-2020-04.zip",
+      "sha256": "1d7095b60d5a75f7b09b091596539fbe2137d3215829f6441812b3c61d805972"
+    },
+    {
+      "file": "HIVEUSDT-1d-2020-05.zip",
+      "sha256": "3c863df6aaa2d952db674496e14ce32cae6053c65e041324b089a53538693b0b"
+    },
+    {
+      "file": "HIVEUSDT-1d-2020-06.zip",
+      "sha256": "db65f745a1ef5f91dd85c9ca3797975146e05a9d627b7120013489a9e4087807"
+    },
+    {
+      "file": "HIVEUSDT-1d-2020-07.zip",
+      "sha256": "850d2c8270daf38f249f8f21eda79e525412fa113e2dbb85e2b0e4322d0c8674"
+    },
+    {
+      "file": "HIVEUSDT-1d-2020-08.zip",
+      "sha256": "e8ec139821c899203256573faccf2218157f07ae76ab12ea0e63c7b3f511b727"
+    },
+    {
+      "file": "HIVEUSDT-1d-2020-09.zip",
+      "sha256": "b0f4ab8e3bf262d7b52693ca1cc360dfc1d67053fd4dd29a46ee34c8da54766c"
+    },
+    {
+      "file": "HIVEUSDT-1d-2020-10.zip",
+      "sha256": "4b013b0d7bf0cdc13953e21729ca0eb83b670ee0adce9de373b3f7db2ce9e583"
+    },
+    {
+      "file": "HIVEUSDT-1d-2020-11.zip",
+      "sha256": "4e3233d79de10fb5bba27beca32cb7c2d9cc2c619ae51e73eb43c1a491058c95"
+    },
+    {
+      "file": "HIVEUSDT-1d-2020-12.zip",
+      "sha256": "49196da7fe3303ee2e7a00fa7a861440a1a408d13aed7c328b2b25ccb895694d"
+    },
+    {
+      "file": "HIVEUSDT-1d-2021-01.zip",
+      "sha256": "b6704fc83c2c01f93f07b644a57c6d90afcf88e32c1bdbbca7386de7d2eef245"
+    },
+    {
+      "file": "HIVEUSDT-1d-2021-02.zip",
+      "sha256": "8c9d702969645c1cbf7c4049a89b79143d2a5088d8930d2bb6a0d96bd6befda8"
+    },
+    {
+      "file": "HIVEUSDT-1d-2021-03.zip",
+      "sha256": "ee88d7df7a85f2a2c13fce0dc374799138c8551db284f98d83bdc66d16cb677a"
+    },
+    {
+      "file": "HIVEUSDT-1d-2021-04.zip",
+      "sha256": "07adf7ccbc03789249e54019fd363d2ea590436a21171e54f89aa9879a0a39fb"
+    },
+    {
+      "file": "HIVEUSDT-1d-2021-05.zip",
+      "sha256": "f3350b9e46e3d9a48b8ccf92375bb6a4ef28c746655bfce21165e1f39b9f2710"
+    },
+    {
+      "file": "HIVEUSDT-1d-2021-06.zip",
+      "sha256": "1ac49064c5f6ec66fd9c600388d72a79c764830eecc2929af8f26bb238122860"
+    },
+    {
+      "file": "HIVEUSDT-1d-2021-07.zip",
+      "sha256": "33f2243c06c3ffd5b58419bb2dbc788aa583b713036c05a7f4a56fb586721cc8"
+    },
+    {
+      "file": "HIVEUSDT-1d-2021-08.zip",
+      "sha256": "bead4e70ec2bea412b5cef39f5a5e0d2e1617475486570ebc87885494505034e"
+    },
+    {
+      "file": "HIVEUSDT-1d-2021-09.zip",
+      "sha256": "a8b7c80cb3d6d4fc12f5f96601d5b2be2fe988b066d7950e69571a425a0ba260"
+    },
+    {
+      "file": "HIVEUSDT-1d-2021-10.zip",
+      "sha256": "4692868110671942266445b3008f43d6ed1a37fbeaaa7f848bf0a2d4f1cab550"
+    },
+    {
+      "file": "HIVEUSDT-1d-2021-11.zip",
+      "sha256": "371c1e7ceaa5dadd97074b7f091e29ad467d0e8e531da126b9c689c0a93df4fb"
+    },
+    {
+      "file": "HIVEUSDT-1d-2021-12.zip",
+      "sha256": "e4b456252ded7d5606e722ddab79e296abcbd3ab39f7ad163575cdd52021679c"
+    },
+    {
+      "file": "HIVEUSDT-1d-2022-01.zip",
+      "sha256": "ec0ffe759fed04642d21969c3214016a97a33500c7eea79b54661d7b468156ef"
+    },
+    {
+      "file": "HIVEUSDT-1d-2022-02.zip",
+      "sha256": "f25f33b9ef2c8cbf3d1277a3233ab4de39f6ebae4f234abfda3d2f848e580ac7"
+    },
+    {
+      "file": "HIVEUSDT-1d-2022-03.zip",
+      "sha256": "081b9b2603b76381aa6280eb5e0ba72c2c9cc70e0dc5e222802357dfe565f0e8"
+    },
+    {
+      "file": "HIVEUSDT-1d-2022-04.zip",
+      "sha256": "3f88951419ec9848452f02e3c4adb8e1cae866b87f68a82cd31e87a3af3962e0"
+    },
+    {
+      "file": "HIVEUSDT-1d-2022-05.zip",
+      "sha256": "981974391baf7563fb36f36d01162b2302decf3a3e3510f50b53a257c4bd23c4"
+    },
+    {
+      "file": "HIVEUSDT-1d-2022-06.zip",
+      "sha256": "6f56334d1dd46aad46e00336b6ce0f3c12b54615d4c1de15941db429560877d9"
+    },
+    {
+      "file": "HIVEUSDT-1d-2022-07.zip",
+      "sha256": "7eca4f09c06623b08bd2a3c27fe3396dbbfa2fb98680605057a6ca1195fa8cea"
+    },
+    {
+      "file": "HIVEUSDT-1d-2022-08.zip",
+      "sha256": "529a5d99dcce8da05771b6d5265912dfb060fb9d6e184d610a38dcb054e8b456"
+    },
+    {
+      "file": "HIVEUSDT-1d-2022-09.zip",
+      "sha256": "fa7c32f9ae5f303f618d71c2f4c40871bf72666271af0d3d51abdd5b02cb6135"
+    },
+    {
+      "file": "HIVEUSDT-1d-2022-10.zip",
+      "sha256": "7b7d073d78311d6bc6dfb93c706afba4caf89dbb3f13fd00f86d61c684074e32"
+    },
+    {
+      "file": "HIVEUSDT-1d-2022-11.zip",
+      "sha256": "d54c50f74602409189a17ee9b3e1881bf330d15ec32a0276e95a44e7d33f2b7f"
+    },
+    {
+      "file": "HIVEUSDT-1d-2022-12.zip",
+      "sha256": "a9dd87f9f294a031f657f77749d74c77099c6e138bbac5b7e57943ab3bdb7847"
+    },
+    {
+      "file": "HIVEUSDT-1d-2023-01.zip",
+      "sha256": "6cf3cc780c6004548ef353082c2a9e17c39f4151050ad02bc566de163a47b4de"
+    },
+    {
+      "file": "HIVEUSDT-1d-2023-02.zip",
+      "sha256": "173e74da3a3b4c13907e356f3da1bc7679febb02475428c7a13c0a84d9d4eaac"
+    },
+    {
+      "file": "HIVEUSDT-1d-2023-03.zip",
+      "sha256": "2fcaadb25b4a9910ca23c636e09cc8096f4befb93f22dcc830a2cdb0c70ee424"
+    },
+    {
+      "file": "HIVEUSDT-1d-2023-04.zip",
+      "sha256": "27c9a271a31ac367ffd0fcef6c1be2e8d0311885134f858f0e187d9d4a3140bc"
+    },
+    {
+      "file": "HIVEUSDT-1d-2023-05.zip",
+      "sha256": "758ea4b6912e7b45e42679609da4d7351d80ccd6a29c82bc60e3350aa761c23d"
+    },
+    {
+      "file": "HIVEUSDT-1d-2023-06.zip",
+      "sha256": "8b05b034f9112335595c140904264bfab9c295d19e4cdbe418f8e0b2a70c1325"
+    },
+    {
+      "file": "HIVEUSDT-1d-2023-07.zip",
+      "sha256": "4e7c9134f9c6f1989c979c15fe435ad6865b979b8a2411908ae2c8747c81b1c0"
+    },
+    {
+      "file": "HIVEUSDT-1d-2023-08.zip",
+      "sha256": "a557238552d17cf38ade8b71b441188e4c1c57b6bdc1cba5d47be520de536413"
+    },
+    {
+      "file": "HIVEUSDT-1d-2023-09.zip",
+      "sha256": "683bccd3b7abdf96c33ca3354fb2aa765042d400ffde7c0bb7a47530d95035dd"
+    },
+    {
+      "file": "HIVEUSDT-1d-2023-10.zip",
+      "sha256": "165dea08d7c966ba90a1a1ade035c9560ac2d3620004f2703f3d46bbaa558d8f"
+    },
+    {
+      "file": "HIVEUSDT-1d-2023-11.zip",
+      "sha256": "9df6cbbd7dcfe252a744b1862b0c6cac84d8e9171564554c0300839805238cdc"
+    },
+    {
+      "file": "HIVEUSDT-1d-2023-12.zip",
+      "sha256": "f10461836548a485d2fa2df6bf7130d290649fb243487586801834a2310fdb11"
+    },
+    {
+      "file": "HIVEUSDT-1d-2024-01.zip",
+      "sha256": "67d22a1090dc624c43ba3d28f66f530d0fd34ecf8ffac52e503382e77755c35c"
+    },
+    {
+      "file": "HIVEUSDT-1d-2024-02.zip",
+      "sha256": "3398f17f01e1a277f4ea2f071af060a42140363614040935e88d824f16f8fcbf"
+    },
+    {
+      "file": "HIVEUSDT-1d-2024-03.zip",
+      "sha256": "7549149a7ad37d378c210bd43ab70fac7bb44fe7af21d4b6f1105e21ace9b61e"
+    },
+    {
+      "file": "HIVEUSDT-1d-2024-04.zip",
+      "sha256": "0190ddae18efb60327db630c438b545d2a25e6caaabb95ca1431a7631b635877"
+    },
+    {
+      "file": "HIVEUSDT-1d-2024-05.zip",
+      "sha256": "d54670b5557645daca494a52504941fdb80af4020ef65696a96be75e14acb2f3"
+    },
+    {
+      "file": "HIVEUSDT-1d-2024-06.zip",
+      "sha256": "a9dda5dc9bc3523e5787a32ca237e65bb9023c507ff08491c360372f0bccfdaf"
+    },
+    {
+      "file": "HIVEUSDT-1d-2024-07.zip",
+      "sha256": "014d33f3b0421ab116a5528b6b5ce2ef416e8021222de0033e15fb30013ed35c"
+    },
+    {
+      "file": "HIVEUSDT-1d-2024-08.zip",
+      "sha256": "9f7cb0cfb265b140086ac272c78560cb43cd83d60c89ac7937fcfcf7a86b3345"
+    },
+    {
+      "file": "HIVEUSDT-1d-2024-09.zip",
+      "sha256": "78fc43b98e834c66761ec6d11bf7ed19384b620989692e70e84008d4f40ef140"
+    },
+    {
+      "file": "HIVEUSDT-1d-2024-10.zip",
+      "sha256": "d3420d60cba4917ea3b31092a5ff72fcad328afbe1ff2f1e88b03066bd1a36d7"
+    },
+    {
+      "file": "HIVEUSDT-1d-2024-11.zip",
+      "sha256": "d9e12c860d752098ae3452c72c175f66dc6ef9fa559a883052e4b104cf0a1a30"
+    },
+    {
+      "file": "HIVEUSDT-1d-2024-12.zip",
+      "sha256": "74fbfc85e247580bda6f29991979fa2b53eefe7475e1cf6a578e3f012b5587bc"
+    },
+    {
+      "file": "HIVEUSDT-1d-2025-01.zip",
+      "sha256": "d7551f2cdca60001f6bb0ac239dbd8284dfc625b3ac5a91b8c14237bf98d3aec"
+    },
+    {
+      "file": "HIVEUSDT-1d-2025-02.zip",
+      "sha256": "6842e426f9738e6dc0c1e2b151e9a57ca8888a152931731d9acb8ae5a0160a64"
+    },
+    {
+      "file": "HIVEUSDT-1d-2025-03.zip",
+      "sha256": "3c360b6c3769297b6720172e058d3bf90351a2a80ad525c937342b94576d7c60"
+    },
+    {
+      "file": "HIVEUSDT-1d-2025-04.zip",
+      "sha256": "144f27fd3ff7c9022f1194daee4e37aff8409227aaa12bdc6432e272ccd014f5"
+    },
+    {
+      "file": "HIVEUSDT-1d-2025-05.zip",
+      "sha256": "7c2d24779d677828ee7050db8d2a2fbb38f1b80352708d3d599c670dd19fbae4"
+    },
+    {
+      "file": "HIVEUSDT-1d-2025-06.zip",
+      "sha256": "cc3b73a8c896892a128c54687c97cb8b2b29404d943b14a6ba9afac713365ebf"
+    },
+    {
+      "file": "HIVEUSDT-1d-2025-07.zip",
+      "sha256": "cc00b3b583c9954f2a865ec8a2d8aff6ca7604d81b1ed4ef4e037ecd4dc75104"
+    },
+    {
+      "file": "HIVEUSDT-1d-2025-08.zip",
+      "sha256": "b815e1fdc2cb16d0723d0dc508c7593a36dabf5f607ed110aef63d27ff97378b"
+    },
+    {
+      "file": "HIVEUSDT-1d-2025-09.zip",
+      "sha256": "649f3930101405ab7e267b19980e9f7f43d412ab1a1e8be8e997319236261d56"
+    },
+    {
+      "file": "HIVEUSDT-1d-2025-10.zip",
+      "sha256": "f0ee9040d69ad685565d6c582440e6a45a2b39d8b2b34f173d5cb47ae242dc7c"
+    },
+    {
+      "file": "HIVEUSDT-1d-2025-11.zip",
+      "sha256": "8967b260b525581efac149e8c0cceb689a34b64f49566804fc790694e1358cdb"
+    },
+    {
+      "file": "HIVEUSDT-1d-2025-12.zip",
+      "sha256": "f9ecabc588602173ddfe192912c7d7a23687f69c1def2267ffe7dc4164855b91"
+    },
+    {
+      "file": "HIVEUSDT-1d-2026-01.zip",
+      "sha256": "4caa1eb5eb3efb559ab0ad34d2d167b394d80963b4560ddafa9382fd9456dc5a"
+    },
+    {
+      "file": "HIVEUSDT-1d-2026-02.zip",
+      "sha256": "0051eb0f232209dbeb642c84a9d40b06c834084f5823effc6b510f8e6d909894"
+    },
+    {
+      "file": "HIVEUSDT-1d-2026-03.zip",
+      "sha256": "ae94c21a21fd7228c5555a7baa524d108daa146a3e35738c2e605b8b34202dd0"
+    },
+    {
+      "file": "HIVEUSDT-1d-2026-04.zip",
+      "sha256": "e0f4805772a42d83c43a488fcaca8305884224ddfbf3fee48389eaf06d1d9483"
+    },
+    {
+      "file": "HIVEUSDT-1d-2026-05.zip",
+      "sha256": "0fd631b08220aefb269bcf48aabe11e899c2efdcf55967878c1dd203c853b728"
+    },
+    {
+      "file": "HIVEUSDT-1d-2026-06.zip",
+      "sha256": "9d29ba592835167df6b30a56fa7cec941995093379a3ee2e1d3807c53cc68412"
+    },
+    {
+      "file": "HIVEUSDT-1d-2026-07.zip",
+      "sha256": "a1312ac66bd26a8fb32a3429ebaed2cedbf84d99b9b12f24160315915ac91415"
+    },
+    {
+      "file": "HIVEUSDT-1d-2026-08.zip",
+      "sha256": "ba60e649fbb231f46d09a2961c6326ab7787777cea033311ee4e046b40267686"
+    },
+    {
+      "file": "HIVEUSDT-1d-2026-09.zip",
+      "sha256": "b3266c038c5367625be4ed5b453264f486c01dd848fa4b07bfde20e187bece9b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

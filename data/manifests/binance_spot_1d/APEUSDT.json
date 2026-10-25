@@ -1,0 +1,245 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/APEUSDT/1d/",
+  "instrument": "APEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-03-17",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:26:09+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1659,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "APEUSDT-1d-2022-03.zip",
+      "sha256": "ee0eaf186c162168f5770f4a4cf29012ed4f6848ab5c8d2614d077c5a92b18bf"
+    },
+    {
+      "file": "APEUSDT-1d-2022-04.zip",
+      "sha256": "590251c9baeac73d950258abee78eabdf5c6d4673e28bf6944e5ba52eaab82c5"
+    },
+    {
+      "file": "APEUSDT-1d-2022-05.zip",
+      "sha256": "5286afa0e520d6031570e388e2b7336c93e001e0d3487fe65d90eefe8c9a5149"
+    },
+    {
+      "file": "APEUSDT-1d-2022-06.zip",
+      "sha256": "34a66564bbfc109601e50244becb307da3a6a8ca70a0eb609f20139e1447ed75"
+    },
+    {
+      "file": "APEUSDT-1d-2022-07.zip",
+      "sha256": "332cb050a03775acc337f1a090dff087efab1f7e53a35b602ddda24ada77f2d1"
+    },
+    {
+      "file": "APEUSDT-1d-2022-08.zip",
+      "sha256": "b03b4a0a7a56d0c3a42b019e180e0d7799542f0f617876f71a684efd3e4dde21"
+    },
+    {
+      "file": "APEUSDT-1d-2022-09.zip",
+      "sha256": "7f28c07a8dbbff44455479344b507276c44e8977b3f5fc139011c52947f8227a"
+    },
+    {
+      "file": "APEUSDT-1d-2022-10.zip",
+      "sha256": "847709e1fdf2ff918746e5782542d857918a817227a65c3011fc99f525c5702e"
+    },
+    {
+      "file": "APEUSDT-1d-2022-11.zip",
+      "sha256": "9dee171e03404a99f0c9f7144b8a49e08bce177f819660b6f2bf690232e0d2f5"
+    },
+    {
+      "file": "APEUSDT-1d-2022-12.zip",
+      "sha256": "4b5a31796d1cc1c9e1db7cec53e7499bb52b22898fd2781c16f1212f48991a87"
+    },
+    {
+      "file": "APEUSDT-1d-2023-01.zip",
+      "sha256": "42e5be0753a9f653e4d17ad28b8fc27388023447126434c38c2d40598acd4018"
+    },
+    {
+      "file": "APEUSDT-1d-2023-02.zip",
+      "sha256": "21a84125f7b7e1d209390b6d0f37096b3c7c8c48f76770c745eb145d632cb997"
+    },
+    {
+      "file": "APEUSDT-1d-2023-03.zip",
+      "sha256": "36480781aee71a227d5334182a21795a166a34b6ffcd87bad600de51ee5d3faf"
+    },
+    {
+      "file": "APEUSDT-1d-2023-04.zip",
+      "sha256": "ebc0b0883598cc11839c81ae3a3db3bb43d7ce946d583fc9e39d5688f14bc5c0"
+    },
+    {
+      "file": "APEUSDT-1d-2023-05.zip",
+      "sha256": "057d32ff55989d50fe7f697099c78bbeb21e5fb4f5cf69e9211fcf6a42cfa140"
+    },
+    {
+      "file": "APEUSDT-1d-2023-06.zip",
+      "sha256": "9e700cf4d337acfea8e8187c8f6eb5525fadd6b56456e8ced3ace3f638adb294"
+    },
+    {
+      "file": "APEUSDT-1d-2023-07.zip",
+      "sha256": "5c04625f59fd11a6c30e09b64412a72a354c5fd97af94779d38150f480bcc35c"
+    },
+    {
+      "file": "APEUSDT-1d-2023-08.zip",
+      "sha256": "f6fb9a252f26b68de16aa9d5e6f30158a8cb95ef21f879dc9b91b1fdde64e644"
+    },
+    {
+      "file": "APEUSDT-1d-2023-09.zip",
+      "sha256": "15c668b52a8afe1fe3f4b012a182a031a7b0239bf932ae15fa795f15a1e60cbc"
+    },
+    {
+      "file": "APEUSDT-1d-2023-10.zip",
+      "sha256": "0dfa9b10d467905a408955cfccc2a07e336fdd6680c008a99919bb378d173d45"
+    },
+    {
+      "file": "APEUSDT-1d-2023-11.zip",
+      "sha256": "0ce9b0bcf9ebd75b98e49e29e9e42f6c8f0a42a7540afa5947ee54cfc692de71"
+    },
+    {
+      "file": "APEUSDT-1d-2023-12.zip",
+      "sha256": "434b9eb09480d34e9c8e1da67719fd0b69d9e59d3f7b1b2671dc185a7ff676a4"
+    },
+    {
+      "file": "APEUSDT-1d-2024-01.zip",
+      "sha256": "06cb9bd77b4841d9221a05b69cc8455d99d0b774a79059d923c4ed0867d295ee"
+    },
+    {
+      "file": "APEUSDT-1d-2024-02.zip",
+      "sha256": "d5b5b9e519ebaa13a6377666a65978898b85f05a600511af6a799aa08e8c7f70"
+    },
+    {
+      "file": "APEUSDT-1d-2024-03.zip",
+      "sha256": "65e1c026985f5719467c8348ec15174647916936d479f5701fbc9f89f8638100"
+    },
+    {
+      "file": "APEUSDT-1d-2024-04.zip",
+      "sha256": "96951fcc566c5ca433c54bd269a59ed57ddadea4035e61ca967b071cbb7f5847"
+    },
+    {
+      "file": "APEUSDT-1d-2024-05.zip",
+      "sha256": "0ae8d82d6d66e8dc46c9e1e739e37894e74699767df4c021742606775681d84e"
+    },
+    {
+      "file": "APEUSDT-1d-2024-06.zip",
+      "sha256": "76c78beb1a1e261592f5037b1b4bca412f197ee020da714084783fc17da17b6c"
+    },
+    {
+      "file": "APEUSDT-1d-2024-07.zip",
+      "sha256": "ba4e259317824ad19c6fe2e4e164fcd07cfa7d6a8703fcd141e1835d827d1321"
+    },
+    {
+      "file": "APEUSDT-1d-2024-08.zip",
+      "sha256": "3670421c664804184ff37741365392cba291f9479b925c690821f6299017c883"
+    },
+    {
+      "file": "APEUSDT-1d-2024-09.zip",
+      "sha256": "6548ca04da50511399d214683f20fe66a2fa24e5f5af2cfe1448e3f09a8e3a27"
+    },
+    {
+      "file": "APEUSDT-1d-2024-10.zip",
+      "sha256": "df1c4883ed3a0d8b6380f7516af1a3369780315aac424610a9cceafc050ad3b0"
+    },
+    {
+      "file": "APEUSDT-1d-2024-11.zip",
+      "sha256": "6f91a9eb03e01296e553affe2556f03a5950d80a28e11d187b386e4d5fa84de1"
+    },
+    {
+      "file": "APEUSDT-1d-2024-12.zip",
+      "sha256": "f02146428ace4962b21b23e483491e1431f4e8f7d68aa37a684c9412bd2b76e0"
+    },
+    {
+      "file": "APEUSDT-1d-2025-01.zip",
+      "sha256": "c344e39cc05547c84687d2aaea1ab9d95de2b3dbc7493445b4a4548e444bdb73"
+    },
+    {
+      "file": "APEUSDT-1d-2025-02.zip",
+      "sha256": "a34ef43965ce2be2c63e61689428b246127f27c306a980dc58a844cedb6a7153"
+    },
+    {
+      "file": "APEUSDT-1d-2025-03.zip",
+      "sha256": "709f9d2831c2402e295cf53a8496e6c9391e2b9246d3319badc84b7282313540"
+    },
+    {
+      "file": "APEUSDT-1d-2025-04.zip",
+      "sha256": "d98ec16da1d81396048b81456c54b371a8443f5131e7f0d3aed7225d0cb22b67"
+    },
+    {
+      "file": "APEUSDT-1d-2025-05.zip",
+      "sha256": "a88f9352c1a0c73f458f24ac54f8b7a73c3c1006a5b2824cceb2a548313d7004"
+    },
+    {
+      "file": "APEUSDT-1d-2025-06.zip",
+      "sha256": "1c1b08d677c37cd489a8a117911ea40f276a5395025e0574aa10ec9cf18447c5"
+    },
+    {
+      "file": "APEUSDT-1d-2025-07.zip",
+      "sha256": "93b1dd8c9bde691142a006c205d5267f5677fbbfc53f455237c97ebcdb54b1d5"
+    },
+    {
+      "file": "APEUSDT-1d-2025-08.zip",
+      "sha256": "f879b1ef3cb3dea58ba31fde49b6105f5ec401156928ebb7d6f9719b1ad69957"
+    },
+    {
+      "file": "APEUSDT-1d-2025-09.zip",
+      "sha256": "017ac7faba55cd42008abfc7d61b4590ced47ba411eb35ac921dc157e3fa04f1"
+    },
+    {
+      "file": "APEUSDT-1d-2025-10.zip",
+      "sha256": "f6b6b4e6d8887ac5a2232da885c83885b3970fa4b0316ec2099e160bdb08071b"
+    },
+    {
+      "file": "APEUSDT-1d-2025-11.zip",
+      "sha256": "a76fe3a03b054fe732c343f9519738d98b25ccf8089073445a44637e547b0584"
+    },
+    {
+      "file": "APEUSDT-1d-2025-12.zip",
+      "sha256": "4cea886f54edea3d404e9f8f0cf7cd639b12df49cb39933925c3da0ed4550eba"
+    },
+    {
+      "file": "APEUSDT-1d-2026-01.zip",
+      "sha256": "6fb4e4a8ceaa03259558bfa9842fe957467d5e5568f84a8725dc85e398179df8"
+    },
+    {
+      "file": "APEUSDT-1d-2026-02.zip",
+      "sha256": "d7c4269745cbf6bd879e9b68dd2b0bccd8bcd25f69bded570d869af286eb7166"
+    },
+    {
+      "file": "APEUSDT-1d-2026-03.zip",
+      "sha256": "424fe9c6519db82e5558e42d3307dcd2f7a755b88fb388a0aeabbee4e38d0eaf"
+    },
+    {
+      "file": "APEUSDT-1d-2026-04.zip",
+      "sha256": "a6e5e70cd46d68a7ba8a4f7c3705830ade45f60808376bd816019a4bc6757bfa"
+    },
+    {
+      "file": "APEUSDT-1d-2026-05.zip",
+      "sha256": "07462e557a9a153a9219728c97aaf0ed6792d367d5b9091222da42524eeba841"
+    },
+    {
+      "file": "APEUSDT-1d-2026-06.zip",
+      "sha256": "6240812e4c1f2ec0dc786f1bdf0551a2112b0f84f038c29e5791ee8920256458"
+    },
+    {
+      "file": "APEUSDT-1d-2026-07.zip",
+      "sha256": "6dbfb97aefd5d05bc0199e2166e1a8b254b0679a262a0a0d3286e22b39a840dd"
+    },
+    {
+      "file": "APEUSDT-1d-2026-08.zip",
+      "sha256": "df03cb22bf409ed6ddc7ed2362b9c5d7c85c46ec29b4249a394680fd6469dd06"
+    },
+    {
+      "file": "APEUSDT-1d-2026-09.zip",
+      "sha256": "b4dfb73d372abcbe68b0e1800fb0ba1958de93e51ee2e1be54b80261daf5b9c4"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

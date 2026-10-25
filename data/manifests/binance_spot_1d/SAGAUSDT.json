@@ -1,0 +1,145 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SAGAUSDT/1d/",
+  "instrument": "SAGAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-04-09",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:44:36+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 905,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SAGAUSDT-1d-2024-04.zip",
+      "sha256": "a3b4caaa47672ff3f6408cded095dcdcbf55ece2b2cc81788005caf757eaf0a2"
+    },
+    {
+      "file": "SAGAUSDT-1d-2024-05.zip",
+      "sha256": "83dda88fb367f82b1f79a000264cf4dde7c507ec941a77e20a84f80c7c3f7cf1"
+    },
+    {
+      "file": "SAGAUSDT-1d-2024-06.zip",
+      "sha256": "a5bfb29b9037de537f374b90dc25f9693ba04c90c8f8c5e55554cb90bfc43676"
+    },
+    {
+      "file": "SAGAUSDT-1d-2024-07.zip",
+      "sha256": "99ca972925fff89154b44e617fa00d8ff5416002922968757b2a8c29b58ba456"
+    },
+    {
+      "file": "SAGAUSDT-1d-2024-08.zip",
+      "sha256": "65bee3f092ab4e55ab2d4d4b8a76f4e405b5fe1bd0ba91a1a2fa26d50fe0c2b6"
+    },
+    {
+      "file": "SAGAUSDT-1d-2024-09.zip",
+      "sha256": "20e9e33da30e713bcabf274e36a337d0214a8ef8ebab98e143d587004a4fd835"
+    },
+    {
+      "file": "SAGAUSDT-1d-2024-10.zip",
+      "sha256": "f2d687b7110af0059b6d9629241d03825a761d1ecad527d17e8651252462e1f8"
+    },
+    {
+      "file": "SAGAUSDT-1d-2024-11.zip",
+      "sha256": "2e0ca3e410c1941b1196e8e8d2bc3f570ddad3d23afabd90d50b9c7686883702"
+    },
+    {
+      "file": "SAGAUSDT-1d-2024-12.zip",
+      "sha256": "ec4277e64372bedafe6781c81351ff3d7f2e058ee8533971cb6053852402d485"
+    },
+    {
+      "file": "SAGAUSDT-1d-2025-01.zip",
+      "sha256": "6a91fe860c538f330f22b7c64413c3d17ca0c120acde571aba350869421d974d"
+    },
+    {
+      "file": "SAGAUSDT-1d-2025-02.zip",
+      "sha256": "d39672bb4486508d817931d9d7b5fed4dcfca948c8db93b48676af31dc9b6b94"
+    },
+    {
+      "file": "SAGAUSDT-1d-2025-03.zip",
+      "sha256": "05ec9444c64b427343cf997fa0f44d338e76bea723fc4783e82deae2f7dc957d"
+    },
+    {
+      "file": "SAGAUSDT-1d-2025-04.zip",
+      "sha256": "c6bfc6e5bd16b197d6dea14fce36b69e2866a8125a0f8a1c90ea82bfcb6b3127"
+    },
+    {
+      "file": "SAGAUSDT-1d-2025-05.zip",
+      "sha256": "5f41b49fde3abda3551c45dd42cebe5518dcad5c1752dc90616da82190591fbe"
+    },
+    {
+      "file": "SAGAUSDT-1d-2025-06.zip",
+      "sha256": "248205e578fd6e13b04da5d2f6847e91eec982607d6102813573ba0b7a07da35"
+    },
+    {
+      "file": "SAGAUSDT-1d-2025-07.zip",
+      "sha256": "4a2e937b09b2d6079d63be370c56032f2d98b840e3cf39cedb938453b4d767f8"
+    },
+    {
+      "file": "SAGAUSDT-1d-2025-08.zip",
+      "sha256": "11c0335711bcb4e17c383189f5f013e05ab0255b0a8c30174d6c77591ad53ecf"
+    },
+    {
+      "file": "SAGAUSDT-1d-2025-09.zip",
+      "sha256": "1514d56c767e3f6d222bda975de0a48c67709784b36bda14f285b3550c3d9f95"
+    },
+    {
+      "file": "SAGAUSDT-1d-2025-10.zip",
+      "sha256": "26bc103455d3ae736efc7a3df6b8914af09fa8cb789916b977d57b8c744eda0a"
+    },
+    {
+      "file": "SAGAUSDT-1d-2025-11.zip",
+      "sha256": "1420374ed9166048b8add88bc7759aaccacc2d132b88fdb3c443a264269dd2aa"
+    },
+    {
+      "file": "SAGAUSDT-1d-2025-12.zip",
+      "sha256": "5cdf7d0f15ccb72c374b840c316b8456d458397d4be7a5c1b2700809604cfc9a"
+    },
+    {
+      "file": "SAGAUSDT-1d-2026-01.zip",
+      "sha256": "e54dcc36d1014b6a489f6ddcd1d799c32e3bbce1a24e46f8ea0703395cd9f4f7"
+    },
+    {
+      "file": "SAGAUSDT-1d-2026-02.zip",
+      "sha256": "571c70f0551c7e4d0ef007a8273bf69295c38ea9e2b2a2126f663b453c374ede"
+    },
+    {
+      "file": "SAGAUSDT-1d-2026-03.zip",
+      "sha256": "d881ab79a138a91e2fc86a1c76d1368eed41690ccdf3791924586f3da3a54d30"
+    },
+    {
+      "file": "SAGAUSDT-1d-2026-04.zip",
+      "sha256": "feb582bb3af07a04c686da289d00fa812a1f8b75983b56b5f76a58b11070a4ba"
+    },
+    {
+      "file": "SAGAUSDT-1d-2026-05.zip",
+      "sha256": "71d75fed4c0735faf9620eb9cf858d89ec743572dfacd3206d9aeccffb17f930"
+    },
+    {
+      "file": "SAGAUSDT-1d-2026-06.zip",
+      "sha256": "ca3dcb852f96d0d5cd1fe526ae858f2edef343a30b4d0891df542d7038708982"
+    },
+    {
+      "file": "SAGAUSDT-1d-2026-07.zip",
+      "sha256": "56f2ab3961ca4a1ef50fa37595b8a579d5bebfb3be2fe0ff8cc7701b17d1ed30"
+    },
+    {
+      "file": "SAGAUSDT-1d-2026-08.zip",
+      "sha256": "99129f067c841a0e1cdb140bfaaf91474910169ef30e62701d97e62e2d4d98fc"
+    },
+    {
+      "file": "SAGAUSDT-1d-2026-09.zip",
+      "sha256": "b35b7d0b9a1b3f14f634d381488dc6b27bc8b345058ef226a168c3bcdcf02bf8"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

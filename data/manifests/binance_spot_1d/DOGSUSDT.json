@@ -1,0 +1,129 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/DOGSUSDT/1d/",
+  "instrument": "DOGSUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-08-26",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:31:43+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 766,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "DOGSUSDT-1d-2024-08.zip",
+      "sha256": "3ad6f80c2a444cfcdaf83ef0786a00bd0a3255355512bca5153b177635706985"
+    },
+    {
+      "file": "DOGSUSDT-1d-2024-09.zip",
+      "sha256": "8fbd740b71585340c4739409005576e45295e7f82a9d01fc493ab212053bc015"
+    },
+    {
+      "file": "DOGSUSDT-1d-2024-10.zip",
+      "sha256": "de0b55af8f6cc6c723db1e41a64669dca6c65394bd2520f3c42ccf71929658e1"
+    },
+    {
+      "file": "DOGSUSDT-1d-2024-11.zip",
+      "sha256": "7ae99adbc785052183053e59516110b32b78758bc6f25bd871821ea0823171a2"
+    },
+    {
+      "file": "DOGSUSDT-1d-2024-12.zip",
+      "sha256": "0498642ac0657f99635d47f2c75faff5a9cc3bafbd6b24ee589f8148252022aa"
+    },
+    {
+      "file": "DOGSUSDT-1d-2025-01.zip",
+      "sha256": "eaac739a175a74f04fc2ee3a938f6a254254ac6e7db3be6e4ac28a55d5d790a8"
+    },
+    {
+      "file": "DOGSUSDT-1d-2025-02.zip",
+      "sha256": "8673308e013f5df8f581336d28cf7e98243e35afe56ae817c06d086934033a72"
+    },
+    {
+      "file": "DOGSUSDT-1d-2025-03.zip",
+      "sha256": "04284e83ce742c8459520feac5ace0c3b2b04cabbe0171de23752a493c75ef40"
+    },
+    {
+      "file": "DOGSUSDT-1d-2025-04.zip",
+      "sha256": "98ebcd41a9546b3516b3b2be8ef207a2060dcec036a3bbd6a809885912defbd3"
+    },
+    {
+      "file": "DOGSUSDT-1d-2025-05.zip",
+      "sha256": "3cca075f1d1d3693a3172d8be038b616abf2051678f26cf73b4399b9c8128a1d"
+    },
+    {
+      "file": "DOGSUSDT-1d-2025-06.zip",
+      "sha256": "2e81f414a3359fb2f1725befed8be71e4a522b54ff342efd2618fda638c3fdfa"
+    },
+    {
+      "file": "DOGSUSDT-1d-2025-07.zip",
+      "sha256": "634891c717cc6c77bd6e1243bf8962b8da44ddb8b4863014d5afdf58680b02c7"
+    },
+    {
+      "file": "DOGSUSDT-1d-2025-08.zip",
+      "sha256": "a6da25b3a77e2aabb0dafe64d63472b328293ec3e8d4c9cdcc2ed2bcdca78255"
+    },
+    {
+      "file": "DOGSUSDT-1d-2025-09.zip",
+      "sha256": "2d1c02a93e9faaf04c9d29d9762e9b8494bbf77074e4fcc7b6047da88d6c705e"
+    },
+    {
+      "file": "DOGSUSDT-1d-2025-10.zip",
+      "sha256": "eb53995bb2d8e1b09c77725fdaec355e57ba5c8b852a3134e5a730cc4dd3468f"
+    },
+    {
+      "file": "DOGSUSDT-1d-2025-11.zip",
+      "sha256": "e1d540c0d4c0dc08af391013d1d1f3cc962569fecc422b4e16381c5a86667182"
+    },
+    {
+      "file": "DOGSUSDT-1d-2025-12.zip",
+      "sha256": "cef8b1a387c38e3e6b93e07bccea736985b9564fc68cb8e1efdc6895d100779b"
+    },
+    {
+      "file": "DOGSUSDT-1d-2026-01.zip",
+      "sha256": "74d17d7f727e4e4dc1fc9baa8d6fee8a6951ad6dafee7e65b66abaf4245b72cc"
+    },
+    {
+      "file": "DOGSUSDT-1d-2026-02.zip",
+      "sha256": "d7aff59530c95db94122235bb5851a45a1fa3673567df573c3dfe75bee117b76"
+    },
+    {
+      "file": "DOGSUSDT-1d-2026-03.zip",
+      "sha256": "888ece3087459272cbae5360b803bc9fffbfb35d3b2b33e63be8fb4afe1b324d"
+    },
+    {
+      "file": "DOGSUSDT-1d-2026-04.zip",
+      "sha256": "c40fcc7f834bf883c0665bea7dd17b6f7992d839ff85f9b7c628b5642ee91492"
+    },
+    {
+      "file": "DOGSUSDT-1d-2026-05.zip",
+      "sha256": "49e1259e32bcb8df352f08a836291d560001eb88251d05a6bde2b8e11f14c848"
+    },
+    {
+      "file": "DOGSUSDT-1d-2026-06.zip",
+      "sha256": "21324034c17c0babc1cede7f1fd81b7ce8c9d09e961b5f28b5307875c1e99771"
+    },
+    {
+      "file": "DOGSUSDT-1d-2026-07.zip",
+      "sha256": "b22024ccb74f30fdcacae1a8eecd5da895f4cf8fdcffa4d25ce40fb713c26675"
+    },
+    {
+      "file": "DOGSUSDT-1d-2026-08.zip",
+      "sha256": "c535e2d012bdff167c8f39529096fb080d349fe2ecac9264ec9bbd47928ba378"
+    },
+    {
+      "file": "DOGSUSDT-1d-2026-09.zip",
+      "sha256": "a044eb479276d9ff8c1902789201500c95c9135f3210ac2dd6d09a157449ce4b"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

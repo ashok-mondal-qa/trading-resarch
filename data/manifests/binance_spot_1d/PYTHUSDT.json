@@ -1,0 +1,153 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PYTHUSDT/1d/",
+  "instrument": "PYTHUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-02-02",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:43:07+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 972,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PYTHUSDT-1d-2024-02.zip",
+      "sha256": "3588ece44a93240cfa1dc76825bf953fc095292f610ae4ae537c8574ef1b81ea"
+    },
+    {
+      "file": "PYTHUSDT-1d-2024-03.zip",
+      "sha256": "50e65a3ee49cc6405e72b8d33c0b6e5aa1193d3ab231b5282131e9089afd0c8b"
+    },
+    {
+      "file": "PYTHUSDT-1d-2024-04.zip",
+      "sha256": "8cd7e54478dc630244b1633a84157ca84a368b490520ff2d2c082cd4b06fee32"
+    },
+    {
+      "file": "PYTHUSDT-1d-2024-05.zip",
+      "sha256": "fa518fafde1806eed9a81b22b25543c608975561277cf604cbbd0f59c8f7ef9e"
+    },
+    {
+      "file": "PYTHUSDT-1d-2024-06.zip",
+      "sha256": "e39cb6717c10538e18628202db4c8bb5354eef92c1bb4f3e368959518c778e06"
+    },
+    {
+      "file": "PYTHUSDT-1d-2024-07.zip",
+      "sha256": "7a997df38c6ec0222055735dd699f2280a8d285759873776fc82bb26168fd1fa"
+    },
+    {
+      "file": "PYTHUSDT-1d-2024-08.zip",
+      "sha256": "ae0c9cb18555a0e30139f8b93dbe61e530cc3a6dac4b81febefc839a77012ad9"
+    },
+    {
+      "file": "PYTHUSDT-1d-2024-09.zip",
+      "sha256": "5a811380c07d622772e024acf555417c3c799ffeff27c406fd67bbe8b0c32276"
+    },
+    {
+      "file": "PYTHUSDT-1d-2024-10.zip",
+      "sha256": "c79afe57a9aee4123f4142bfa278294c0e89a39cb03aca990b5d4c2a06c8cf80"
+    },
+    {
+      "file": "PYTHUSDT-1d-2024-11.zip",
+      "sha256": "00fdbe97c4acb35d19fa6ca9b3ec57a4001940f3425f53d0987aeb3c072a57aa"
+    },
+    {
+      "file": "PYTHUSDT-1d-2024-12.zip",
+      "sha256": "a5e1f3dfad47f7bd138ebeb99184c36aa9da7d56dbf968832b31b7de1156b4c1"
+    },
+    {
+      "file": "PYTHUSDT-1d-2025-01.zip",
+      "sha256": "7004558ef143af6d11388f24bd395be2b7631a5190854cec50be7dd5927eec20"
+    },
+    {
+      "file": "PYTHUSDT-1d-2025-02.zip",
+      "sha256": "760716e9bee98b68c5d92e1044c8725a952c32b74d05dcc8a469094962022849"
+    },
+    {
+      "file": "PYTHUSDT-1d-2025-03.zip",
+      "sha256": "1aa4ddbcee6e4de8091c4470591d1762def56b8f9e95d8d2a19424fefe7fd950"
+    },
+    {
+      "file": "PYTHUSDT-1d-2025-04.zip",
+      "sha256": "0064e4624cfa8fdd5544c43da72cdaad03d5dd52cfba98fbd765870b2e3f03c8"
+    },
+    {
+      "file": "PYTHUSDT-1d-2025-05.zip",
+      "sha256": "f8da4ec6128b436a1ebbf4c033707f5dedb4658f967573b32d21eb1485b2c2b4"
+    },
+    {
+      "file": "PYTHUSDT-1d-2025-06.zip",
+      "sha256": "0ba345e2f66883bcdcd3ff62c9f69459a8cba7f27017031975c375774191531c"
+    },
+    {
+      "file": "PYTHUSDT-1d-2025-07.zip",
+      "sha256": "ceae754d057be23f13ba5ca2f2cad6ad3032a5d763cc82e356990551c7118577"
+    },
+    {
+      "file": "PYTHUSDT-1d-2025-08.zip",
+      "sha256": "7f984cfbb5d96927e1b4ec8eaf17631fa1d33e6489c6222e15d46303da8fb920"
+    },
+    {
+      "file": "PYTHUSDT-1d-2025-09.zip",
+      "sha256": "c6a91fb2c62b38d4fefe1de7537a59ad1a298d4e929b1146d335c73f56700207"
+    },
+    {
+      "file": "PYTHUSDT-1d-2025-10.zip",
+      "sha256": "869adfd4e5820d0225ab6654c214d13843681f4e3753f85e38bab9ae47fe3451"
+    },
+    {
+      "file": "PYTHUSDT-1d-2025-11.zip",
+      "sha256": "12910311184fbf1ffbec964f324efe9f5a4e12212ddc80afb083a4ea676d6d15"
+    },
+    {
+      "file": "PYTHUSDT-1d-2025-12.zip",
+      "sha256": "602e323d9ff60b58094f0ace07f9940fc265532f19a6bd8cc52f1ddb384001bc"
+    },
+    {
+      "file": "PYTHUSDT-1d-2026-01.zip",
+      "sha256": "99c6f55b57c20c33a5c0fbcdfc0bd41b330c57f4fc28c1ace56a9dd1e736e897"
+    },
+    {
+      "file": "PYTHUSDT-1d-2026-02.zip",
+      "sha256": "9fe849bfcb59728273f23165e279c71a017d6513df109803a43f2381f4b0d7ce"
+    },
+    {
+      "file": "PYTHUSDT-1d-2026-03.zip",
+      "sha256": "80399eadf69689aaf04616d06a3e301df607757aa418f44486298dbab0222f1c"
+    },
+    {
+      "file": "PYTHUSDT-1d-2026-04.zip",
+      "sha256": "df41d433e27375ed6925f0d6883c8666234ed088347080fe4ce8aa572ec75ce9"
+    },
+    {
+      "file": "PYTHUSDT-1d-2026-05.zip",
+      "sha256": "79f349de31cc50b3e99f955bfcde0f55e29aef731abbf1fa3b1de332b376fc2a"
+    },
+    {
+      "file": "PYTHUSDT-1d-2026-06.zip",
+      "sha256": "619a1b80ff0e9bf9ba8011267b37c726a7aa9a83fdc68bf3607100299bcce81b"
+    },
+    {
+      "file": "PYTHUSDT-1d-2026-07.zip",
+      "sha256": "f037895ec09dac9cbc04a6e923e8b10d2bea8938f37c89b3289a807807c5c6a8"
+    },
+    {
+      "file": "PYTHUSDT-1d-2026-08.zip",
+      "sha256": "780d818e3d1775256ce365aaeb0542d3e4013afa171523f2caab9f4f58ab3d7e"
+    },
+    {
+      "file": "PYTHUSDT-1d-2026-09.zip",
+      "sha256": "70c3cfe7b593171c5eb2728ce6d86bc35b64c5c85edfa8f033dacef2a9ec7c5d"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

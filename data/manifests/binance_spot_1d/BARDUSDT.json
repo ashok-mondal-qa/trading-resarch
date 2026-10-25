@@ -1,0 +1,77 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BARDUSDT/1d/",
+  "instrument": "BARDUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-09-18",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:27:24+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 378,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BARDUSDT-1d-2025-09.zip",
+      "sha256": "2d2b061e7afc419f5e4a9dc00f4cebb070530bc4a314102b91fa32630cd8e52c"
+    },
+    {
+      "file": "BARDUSDT-1d-2025-10.zip",
+      "sha256": "e6ab8a9d2d247295c37e59c7d6902516fe123dcc2dac9604e7aaf81e2436108a"
+    },
+    {
+      "file": "BARDUSDT-1d-2025-11.zip",
+      "sha256": "62105390808c6010ea0463569cd835ff488e1f5d30c5eecf9fa6f79717afdfc4"
+    },
+    {
+      "file": "BARDUSDT-1d-2025-12.zip",
+      "sha256": "1a13e864988b591cd39226773b1d6c946eff47ea80b75c9cd48577745178a436"
+    },
+    {
+      "file": "BARDUSDT-1d-2026-01.zip",
+      "sha256": "9c60f8271996c164b7c5a685f3dd1320570c30e6834a0848e0b0183db3a59f1c"
+    },
+    {
+      "file": "BARDUSDT-1d-2026-02.zip",
+      "sha256": "ad4bb3598b06d4dac5dec7115515476b5bd7788bfc21f0d81f0a812609e49366"
+    },
+    {
+      "file": "BARDUSDT-1d-2026-03.zip",
+      "sha256": "818ebf292bd89f1c927ec44971f17e7cd0e1e93be60bf58afdc7e28e4fdce8f4"
+    },
+    {
+      "file": "BARDUSDT-1d-2026-04.zip",
+      "sha256": "9cf4dcae6df72ee548ddb304c0d5751e00a600162b850d625cc8f3c73c212858"
+    },
+    {
+      "file": "BARDUSDT-1d-2026-05.zip",
+      "sha256": "972f687729a821f29f5d07117032fa19320b5741fd041066e3cc162fe4412bb3"
+    },
+    {
+      "file": "BARDUSDT-1d-2026-06.zip",
+      "sha256": "ccc4411adf7308cbf5d649ca5545f3b94da4736f1daf7efac62b74fa595856d7"
+    },
+    {
+      "file": "BARDUSDT-1d-2026-07.zip",
+      "sha256": "4ef488250b9edabceef002a66b9a5926c9b3b9a3b4d79a822edbde47f153093c"
+    },
+    {
+      "file": "BARDUSDT-1d-2026-08.zip",
+      "sha256": "60d99bc24d6902dadc0a9973786de16387f531d71c97c7eea039a0a237b8658b"
+    },
+    {
+      "file": "BARDUSDT-1d-2026-09.zip",
+      "sha256": "6bdb3f96a4a714ba059317afdd99c731c53462ffb86a1740f0a867e0a3893245"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BTGUSDT/1d/",
+  "instrument": "BTGUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-04-16",
+  "last_bar": "2022-10-24",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:28:42+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 557,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BTGUSDT-1d-2021-04.zip",
+      "sha256": "fc7df3dfeabc7164c74ffd8461a0fa9880ea7f3e0703d6d3da235f2793fefbeb"
+    },
+    {
+      "file": "BTGUSDT-1d-2021-05.zip",
+      "sha256": "e6b314d410485434a11bf98912b6045aefb72c501fceea790f55acf18cc18afa"
+    },
+    {
+      "file": "BTGUSDT-1d-2021-06.zip",
+      "sha256": "c4fd567262134a1f10aee054879ad25b8b6bb6ff3107bba1d4c6b96eb70192f9"
+    },
+    {
+      "file": "BTGUSDT-1d-2021-07.zip",
+      "sha256": "c9cc455a27139fc6c5e0fac9adf521fb19120f2535c4dd611aa753d19314e9bf"
+    },
+    {
+      "file": "BTGUSDT-1d-2021-08.zip",
+      "sha256": "3bcad9a8921a7008e685d11373bf8dc08bcbe962e9f49e0429b2d880b5672f59"
+    },
+    {
+      "file": "BTGUSDT-1d-2021-09.zip",
+      "sha256": "a18e4e91d163ac4f99654039ff88f98108345918a5cdcd80396b017efa51d349"
+    },
+    {
+      "file": "BTGUSDT-1d-2021-10.zip",
+      "sha256": "c39a4199862b5325786bcbe65ef77105be8248740e650405e3ede6975b333f7d"
+    },
+    {
+      "file": "BTGUSDT-1d-2021-11.zip",
+      "sha256": "d3462d91715490eab7b6efac6eac68b08ad3ac2d6caafed9ed7650b8631c86a3"
+    },
+    {
+      "file": "BTGUSDT-1d-2021-12.zip",
+      "sha256": "8581a4c8d287c63e1d1e25b2c18f7cb46dbeb4d12fb68d6b5e84421db7d433c3"
+    },
+    {
+      "file": "BTGUSDT-1d-2022-01.zip",
+      "sha256": "877b6c55b85681a839ef6a6ab63e14ae887ec06f49a149706df8e020a8211442"
+    },
+    {
+      "file": "BTGUSDT-1d-2022-02.zip",
+      "sha256": "ea66e2ce39d2672e4b746081774e2426fc799808e7e1fee651de66e5b35ca396"
+    },
+    {
+      "file": "BTGUSDT-1d-2022-03.zip",
+      "sha256": "bf6dd5f1ba795933577c45a3610b6a702812f72306b3df3273aa2c1018fecac7"
+    },
+    {
+      "file": "BTGUSDT-1d-2022-04.zip",
+      "sha256": "8323b699b87453f5e2c09596f734aa8607613b5dea058c55db77ba6a1a932253"
+    },
+    {
+      "file": "BTGUSDT-1d-2022-05.zip",
+      "sha256": "4a23cdd9c12e35756d9ab22db2113ae7640730b887843e58f3c422def7f1e0b1"
+    },
+    {
+      "file": "BTGUSDT-1d-2022-06.zip",
+      "sha256": "38fe4825c7ec49125b88b295d392974e12e964616b3d54a55e2548f985e8c2f1"
+    },
+    {
+      "file": "BTGUSDT-1d-2022-07.zip",
+      "sha256": "0cb9ce4e845458ab276d505b2c5956de15be2c5b7c07124155638173a6185c55"
+    },
+    {
+      "file": "BTGUSDT-1d-2022-08.zip",
+      "sha256": "04c68c05b7a3e0444df89bfb53497ca12a1643f6297bb4ae37eb8f140d6b64bd"
+    },
+    {
+      "file": "BTGUSDT-1d-2022-09.zip",
+      "sha256": "349398c74362b9ea49ae483452d1c1a359836355f98af4ba6653c64f88610790"
+    },
+    {
+      "file": "BTGUSDT-1d-2022-10.zip",
+      "sha256": "bf9ebdf63e316634fd50164aaae38c33deab0f119e3fbabb3c0bf79a7468c95f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

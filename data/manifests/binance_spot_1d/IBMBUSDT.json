@@ -1,0 +1,37 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/IBMBUSDT/1d/",
+  "instrument": "IBMBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-07-15",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:35:15+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 78,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "IBMBUSDT-1d-2026-07.zip",
+      "sha256": "fcacf4ad23b87702feeb65d08e66eae6df3cb8a9d154cab5965459c736fe53f0"
+    },
+    {
+      "file": "IBMBUSDT-1d-2026-08.zip",
+      "sha256": "c588605c9c7e3a3cda44a67da6a93b1914df3d2ce101e37aa93f85c6514d117a"
+    },
+    {
+      "file": "IBMBUSDT-1d-2026-09.zip",
+      "sha256": "ade4238394783dc68bfa834e2b3dddab2a188a59334b7e068573a1874262b35d"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

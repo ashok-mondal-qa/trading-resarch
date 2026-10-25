@@ -1,0 +1,149 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/AEVOUSDT/1d/",
+  "instrument": "AEVOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2024-03-13",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:24:52+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 932,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "AEVOUSDT-1d-2024-03.zip",
+      "sha256": "57a7f774dd947fd3ca18bddf95eb5ffad881a6eedaa0b5cb020499f9b240a54c"
+    },
+    {
+      "file": "AEVOUSDT-1d-2024-04.zip",
+      "sha256": "4a7d9bdfdc37255b7e72e56dee993fe6e1f4aa49ce91838fcb38303506b442af"
+    },
+    {
+      "file": "AEVOUSDT-1d-2024-05.zip",
+      "sha256": "c3e62450f3a9399e632494815e7a902c2629b63d6694d5e849d040d14f5c5c3c"
+    },
+    {
+      "file": "AEVOUSDT-1d-2024-06.zip",
+      "sha256": "f5d6401d81da5fd7bea683114bf8c4da8c624c7c28db6dd334f44f4ad11b6f06"
+    },
+    {
+      "file": "AEVOUSDT-1d-2024-07.zip",
+      "sha256": "712325fa140f98e3cdf5d9a56fd060d574332797bdf9e62a6af645603374a77f"
+    },
+    {
+      "file": "AEVOUSDT-1d-2024-08.zip",
+      "sha256": "8ac179c0045396e6ef1f5c3406636ce26a8519e61eec2559fb3a41236a33c424"
+    },
+    {
+      "file": "AEVOUSDT-1d-2024-09.zip",
+      "sha256": "49f7904d8552ff8fb71bd57208f9588e558e1f280a03553692da72fa52b941ca"
+    },
+    {
+      "file": "AEVOUSDT-1d-2024-10.zip",
+      "sha256": "c594c4388bf816b8da5d9710c108ee1e02be1b99d21e5261306f2b560366fbe6"
+    },
+    {
+      "file": "AEVOUSDT-1d-2024-11.zip",
+      "sha256": "e9ef71f3130dcdb640a07db27676c25302eb20e12cd65296aa717c036480fbe7"
+    },
+    {
+      "file": "AEVOUSDT-1d-2024-12.zip",
+      "sha256": "460afd48311f0fe216affade2f758c69a664e27ad5c9b9948c1081c6b4c50507"
+    },
+    {
+      "file": "AEVOUSDT-1d-2025-01.zip",
+      "sha256": "0e6fe8ca0da23ab923464605b7e1028f4b29358967d2306b5ef32ac112a4f888"
+    },
+    {
+      "file": "AEVOUSDT-1d-2025-02.zip",
+      "sha256": "4ecb17774c07b4a2a1bc27bf22ea86cc02e11e8e05aee5e0e4460b765367a7d2"
+    },
+    {
+      "file": "AEVOUSDT-1d-2025-03.zip",
+      "sha256": "49bcc568517b7ba26184813bc6723df486ae33e182d653ad0b46348f1af746e8"
+    },
+    {
+      "file": "AEVOUSDT-1d-2025-04.zip",
+      "sha256": "599e9ebf94d2019ced7dc262470860c33eb3b7c59195dd3055de48161942cfb5"
+    },
+    {
+      "file": "AEVOUSDT-1d-2025-05.zip",
+      "sha256": "bbfcf0c58e260b77eca43cc233d97b37ec8ed1102e1b55e3c21d4dd99ac3db6e"
+    },
+    {
+      "file": "AEVOUSDT-1d-2025-06.zip",
+      "sha256": "21ae9c4b7f45a9c6f9e9dbdd43fb899e0adaaec91ee410c37a0166fb0a0f4acc"
+    },
+    {
+      "file": "AEVOUSDT-1d-2025-07.zip",
+      "sha256": "877301004ea30e95f82b08f9625a466079e524bd48854a1aadcc0973094ec932"
+    },
+    {
+      "file": "AEVOUSDT-1d-2025-08.zip",
+      "sha256": "8080443db89d3b803a589d00c06f0ac2d0f18a601ca32f9a3e642e101a24d3ff"
+    },
+    {
+      "file": "AEVOUSDT-1d-2025-09.zip",
+      "sha256": "2ba7f50c04647031799bafca36b811ebf269c05dab5f87df4245a90ca6400123"
+    },
+    {
+      "file": "AEVOUSDT-1d-2025-10.zip",
+      "sha256": "d1a59f75060fec04ae8375791dfafc4213431becc14f3fbb7e26bd3dcda4c656"
+    },
+    {
+      "file": "AEVOUSDT-1d-2025-11.zip",
+      "sha256": "dca51ba8898c0bf9059f4ada8192f036112abb4cf7ee362ef2ab9e7fdd0aef32"
+    },
+    {
+      "file": "AEVOUSDT-1d-2025-12.zip",
+      "sha256": "d97dcd4a3c67ab6a84ced3189ea399abb46188071c2c9e07f6a62dbdaf9fef45"
+    },
+    {
+      "file": "AEVOUSDT-1d-2026-01.zip",
+      "sha256": "0edf12b78a6623bf79faf3d50079d9df5e6a0bf0c2fa33cee1a6ffac24209880"
+    },
+    {
+      "file": "AEVOUSDT-1d-2026-02.zip",
+      "sha256": "72273cac54885a4281d86b1dffa414f49755a2c6f3e48c8e7699e095a64a7dfd"
+    },
+    {
+      "file": "AEVOUSDT-1d-2026-03.zip",
+      "sha256": "5f9f3d377b44201cc68fa978e5bb760d49d86ca766793d1c77f4ea4bf8765786"
+    },
+    {
+      "file": "AEVOUSDT-1d-2026-04.zip",
+      "sha256": "380614c2d85273f2426898a9bbcad4bc9571ba1b7b3fa7c991ae86a26b34554d"
+    },
+    {
+      "file": "AEVOUSDT-1d-2026-05.zip",
+      "sha256": "da4781dc9eee4eb6ba5db5fd6ec06e6c59eb3f79f2fecfac0a496112b250fa8c"
+    },
+    {
+      "file": "AEVOUSDT-1d-2026-06.zip",
+      "sha256": "e03b0998dd9ff483f3d892e9a92cca58b291bd5c867a4e5fcfe9828447830ed1"
+    },
+    {
+      "file": "AEVOUSDT-1d-2026-07.zip",
+      "sha256": "8c1e97a874714ee5be0aa9ba91ffb64c9317410d43121cae85c16f5daa34c77c"
+    },
+    {
+      "file": "AEVOUSDT-1d-2026-08.zip",
+      "sha256": "8db6258591ac09cf0af572d06bbd9ea5a8b9e0f97f3fbb5459e928868f836d75"
+    },
+    {
+      "file": "AEVOUSDT-1d-2026-09.zip",
+      "sha256": "9937fbe1e6a7d433bfee7cea1f56bb1bc3e941adb861f7decf3f92ea26452827"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/XEMUSDT/1d/",
+  "instrument": "XEMUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-11-24",
+  "last_bar": "2024-06-17",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:49:42+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1302,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "XEMUSDT-1d-2020-11.zip",
+      "sha256": "2fff4b60550a442ab97e44537ee6c969a3b88ac1b109d7fa8dd560d1391acfee"
+    },
+    {
+      "file": "XEMUSDT-1d-2020-12.zip",
+      "sha256": "508106696016d7f26a85a3e687813423cab01a862e22576cda6a2ce49c7085bb"
+    },
+    {
+      "file": "XEMUSDT-1d-2021-01.zip",
+      "sha256": "ce42cf93d331de8a37502cc7c8683234d417100eca2f80f25cec690b977b7deb"
+    },
+    {
+      "file": "XEMUSDT-1d-2021-02.zip",
+      "sha256": "5a8d54677487a5beeb2cd24c4b9e7f46ebb0a5cd1b9813900ba25bd9934779fe"
+    },
+    {
+      "file": "XEMUSDT-1d-2021-03.zip",
+      "sha256": "9136d2d0eaced1045db6d46d75f60ce013db3f25c12239734b4596665f072234"
+    },
+    {
+      "file": "XEMUSDT-1d-2021-04.zip",
+      "sha256": "6988b84d008d01f127953c5b40054f5216ce5b15ac9814c5e115120e8b4dc048"
+    },
+    {
+      "file": "XEMUSDT-1d-2021-05.zip",
+      "sha256": "61e9b0363be2c6803a8c2bdc40df0cc879cdc4100833d8dd9eff41c9cfbad745"
+    },
+    {
+      "file": "XEMUSDT-1d-2021-06.zip",
+      "sha256": "dcf83f5881c137dbfd32fa17198db869410287504f32bb5d1c7e26c7eb8cffd8"
+    },
+    {
+      "file": "XEMUSDT-1d-2021-07.zip",
+      "sha256": "e6b81373343417b5f37a53f98413f3659d724ff5bb65f82e1a8d7aa00fd5f7f2"
+    },
+    {
+      "file": "XEMUSDT-1d-2021-08.zip",
+      "sha256": "ba424d83efb3eae098cd42d0a718dc4d7c151d19cadf2d0837034baed533bc13"
+    },
+    {
+      "file": "XEMUSDT-1d-2021-09.zip",
+      "sha256": "cb1d4fb3d10fec91dd41dd426b5a7fbf328dcb4d37d5f9913093e198f4d4f0fd"
+    },
+    {
+      "file": "XEMUSDT-1d-2021-10.zip",
+      "sha256": "e2f9eec158a83041d5e5c15895c555ec5e5645e93b4050ff38f9aec81f587702"
+    },
+    {
+      "file": "XEMUSDT-1d-2021-11.zip",
+      "sha256": "e2c4c3b0418e921cc9e4eea8d823ef787dd8eed326c016f5f54a872641632901"
+    },
+    {
+      "file": "XEMUSDT-1d-2021-12.zip",
+      "sha256": "a820ed6f86933c8a4f2895db0b0861999e18e1b4a0bad670e016eef0deecc206"
+    },
+    {
+      "file": "XEMUSDT-1d-2022-01.zip",
+      "sha256": "b713704481597f3ed29ffbc860b3b9df41f90fd88756c4d8fefed0d95b61d009"
+    },
+    {
+      "file": "XEMUSDT-1d-2022-02.zip",
+      "sha256": "16107a7e9565acb2422934b537f804f2042a6fef93f10f1871b284daf0c34b4d"
+    },
+    {
+      "file": "XEMUSDT-1d-2022-03.zip",
+      "sha256": "02a6ac9e0cb8bd6361dfe4d8ed385176c67f3369bdaf13231c88ac815a169f83"
+    },
+    {
+      "file": "XEMUSDT-1d-2022-04.zip",
+      "sha256": "4c5f515f15c1213aa01385ac7cb69ed3883ed19c3ee64619849a8800f6e07429"
+    },
+    {
+      "file": "XEMUSDT-1d-2022-05.zip",
+      "sha256": "548d91bec7cb9bc8ad92d23ea7f0bdba1ff33acedaa12666e217178665b222dc"
+    },
+    {
+      "file": "XEMUSDT-1d-2022-06.zip",
+      "sha256": "b62be0eb299e5c964b0424a65f57c44b0c340667ac13ce448da34fd195a72fbd"
+    },
+    {
+      "file": "XEMUSDT-1d-2022-07.zip",
+      "sha256": "cf73963cd7d2edd8bbd12fa71ea5966eab3f0174f8f3a295577c53d2feef4bfa"
+    },
+    {
+      "file": "XEMUSDT-1d-2022-08.zip",
+      "sha256": "d5e828c2b69259287dcf4de906081786325e45d286ec94b56d5a55e7384eef48"
+    },
+    {
+      "file": "XEMUSDT-1d-2022-09.zip",
+      "sha256": "0c7a3780b896f0a5e92535486d1cd9c62af334be17260902a1e2944a5aac044b"
+    },
+    {
+      "file": "XEMUSDT-1d-2022-10.zip",
+      "sha256": "b5970a659079fecc45221ba6ed78d993a2b528a04df03d3d2f08cea7d3f08c61"
+    },
+    {
+      "file": "XEMUSDT-1d-2022-11.zip",
+      "sha256": "ce21af94ad2ec055555e0ad6592d7a811bf53cdb7befa361729b3f6b0bdad23c"
+    },
+    {
+      "file": "XEMUSDT-1d-2022-12.zip",
+      "sha256": "ca108744800564dd04d0ad20289404915b69788861505cea96c509aaad70a596"
+    },
+    {
+      "file": "XEMUSDT-1d-2023-01.zip",
+      "sha256": "e9cc1f1c65815866e6f59c5e498b099ba990013b78c2140cc6264d271ac74fbe"
+    },
+    {
+      "file": "XEMUSDT-1d-2023-02.zip",
+      "sha256": "496519af8dd2b62a646cd33adfba93c8ddfc5627b66531c349d83918499021c0"
+    },
+    {
+      "file": "XEMUSDT-1d-2023-03.zip",
+      "sha256": "6a818d8b258b1e608584659775e4d5b60941ffc5fad46f2ef9db179e97890473"
+    },
+    {
+      "file": "XEMUSDT-1d-2023-04.zip",
+      "sha256": "1b8096039fcfaf535cbf88af60825fb0e3a3915e0536dc30a7d8290caae0b0a0"
+    },
+    {
+      "file": "XEMUSDT-1d-2023-05.zip",
+      "sha256": "e5808afe1f2731766bd8fb30b1857a036f0043ed651a08d1cd6f88d1cb4e1619"
+    },
+    {
+      "file": "XEMUSDT-1d-2023-06.zip",
+      "sha256": "b8438d91174bbfb0b89b5c1f3cbcab794e195519e55e419d1ca92da8fc52dc18"
+    },
+    {
+      "file": "XEMUSDT-1d-2023-07.zip",
+      "sha256": "f22cb48f574b4209f46d773a9160de84167b35ca9355caa28e19d75c9c717332"
+    },
+    {
+      "file": "XEMUSDT-1d-2023-08.zip",
+      "sha256": "cddf51bff595447754769da0fa2779dd9febb93a8f8747fb3d179d4988dc36ac"
+    },
+    {
+      "file": "XEMUSDT-1d-2023-09.zip",
+      "sha256": "9c02634ebe91442271931b0b5d8022ff117417a69580068fb9b14349be012bf5"
+    },
+    {
+      "file": "XEMUSDT-1d-2023-10.zip",
+      "sha256": "0fa2ac071ed9fa07cf55043c022b3f62ab278ff34185369050a045e5e3392923"
+    },
+    {
+      "file": "XEMUSDT-1d-2023-11.zip",
+      "sha256": "58b83b0f0a72856a6f00f615f2683882e9b33cad58d3e6bd9a02c325b0023723"
+    },
+    {
+      "file": "XEMUSDT-1d-2023-12.zip",
+      "sha256": "da9db9a0350cf481e4e9819f6696ce33047931c46ce9f0fc70127c7cb47c5b01"
+    },
+    {
+      "file": "XEMUSDT-1d-2024-01.zip",
+      "sha256": "178588366e1f188256f4c7f802c66a4f4db0aaaa974b6ede54f345f251401b0a"
+    },
+    {
+      "file": "XEMUSDT-1d-2024-02.zip",
+      "sha256": "6848f16bcfe55f22a32abe12db8eb8e60975e2f1dcb12d3da01ab872a282585f"
+    },
+    {
+      "file": "XEMUSDT-1d-2024-03.zip",
+      "sha256": "65d410c3ea24e38a8cd84bb9184f779bd18810d814acb75787c6d61e000da9bb"
+    },
+    {
+      "file": "XEMUSDT-1d-2024-04.zip",
+      "sha256": "0191af0f59f5697e72a3a5a3c2ed569aca4f4ddc2516a89d6d8245630110df60"
+    },
+    {
+      "file": "XEMUSDT-1d-2024-05.zip",
+      "sha256": "3ee660617017144c342cc94fe788eb6dc796362eb92cfc396c29a10c85c82429"
+    },
+    {
+      "file": "XEMUSDT-1d-2024-06.zip",
+      "sha256": "4da3c4aec6fac5ef5c5b4ce044d909f30a449429b5d36fd514f1ffd15c2484fa"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/TIAUSDT/1d/",
+  "instrument": "TIAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-10-31",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:47:05+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1066,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "TIAUSDT-1d-2023-10.zip",
+      "sha256": "e11eea94a764606a81f1fe42d94f74ba2a7983effd5f620343b2fa68dbc66114"
+    },
+    {
+      "file": "TIAUSDT-1d-2023-11.zip",
+      "sha256": "3aed95a37c71598d8d5e4d189d4c89d8096e504cbc765d251d5d5676fbe7c385"
+    },
+    {
+      "file": "TIAUSDT-1d-2023-12.zip",
+      "sha256": "d27d4aa6e60680e854934fa38c69cb5961c147c4eec94cc68edce1af009ecdf8"
+    },
+    {
+      "file": "TIAUSDT-1d-2024-01.zip",
+      "sha256": "631bb1480c2b108dd425cd674b029512451d6a0d444b1b3491ba9d4957e7daed"
+    },
+    {
+      "file": "TIAUSDT-1d-2024-02.zip",
+      "sha256": "6c90901cedd34bbfa1100caef7025181887c2bb73fe713f6767c1f3fa784f5c5"
+    },
+    {
+      "file": "TIAUSDT-1d-2024-03.zip",
+      "sha256": "d9ebd9cb85ce31357ef568d3411a0ea2009a2961ca277e7b17ac31a4e055eb1c"
+    },
+    {
+      "file": "TIAUSDT-1d-2024-04.zip",
+      "sha256": "1041cd296dbacfc481c9709970241997c1300f125889fb18bdfa71e4ae7c7d65"
+    },
+    {
+      "file": "TIAUSDT-1d-2024-05.zip",
+      "sha256": "42d75e29aa8ac5821d3266e25f076817909ea8aa00edb90c1ab88890ffb3ce46"
+    },
+    {
+      "file": "TIAUSDT-1d-2024-06.zip",
+      "sha256": "ad06d68dfec78f2418423de944eaf38233069bd5c01fea4de871974169b62bcc"
+    },
+    {
+      "file": "TIAUSDT-1d-2024-07.zip",
+      "sha256": "3b4d08076e50c4b4d4aecb3d1ebe98d770bbf5fe9f27bd2f4a28947eec541944"
+    },
+    {
+      "file": "TIAUSDT-1d-2024-08.zip",
+      "sha256": "87bd02c5fc45fa8aec88c99ea9c9c97db3c4180b5e77cc0f7aea8fc442adb13d"
+    },
+    {
+      "file": "TIAUSDT-1d-2024-09.zip",
+      "sha256": "eddb18dc10b98a8d80c6979f7d3f7d6d980718865ca28ca1621d15339b7352c4"
+    },
+    {
+      "file": "TIAUSDT-1d-2024-10.zip",
+      "sha256": "d2e84a79cf3c40517825f2b967feb147b0b3709013f6b6de6f463a31c93d0cd0"
+    },
+    {
+      "file": "TIAUSDT-1d-2024-11.zip",
+      "sha256": "2ff36d1aabfc16c5ce03b7f33b10016c487687e1061d726372cea8e5bbb849c6"
+    },
+    {
+      "file": "TIAUSDT-1d-2024-12.zip",
+      "sha256": "fd311f5a7d2394e50b42682368e6a8251d6886e6dddf00f3d27e0ceec6329bf7"
+    },
+    {
+      "file": "TIAUSDT-1d-2025-01.zip",
+      "sha256": "289263626ad33d715810e70abcd6896ae7adeb642457fba2f0129e193137edc4"
+    },
+    {
+      "file": "TIAUSDT-1d-2025-02.zip",
+      "sha256": "1cabe3426e00b15de7a6e1990e566dba90b21575f29aa10bc67d2afa9c0fc632"
+    },
+    {
+      "file": "TIAUSDT-1d-2025-03.zip",
+      "sha256": "23d1cb017062a3bdf598b08717c1f5f88fc13751d59d0cee1cd6fdd860edb517"
+    },
+    {
+      "file": "TIAUSDT-1d-2025-04.zip",
+      "sha256": "b8e624931114ab157f0ceaf5bb39797a760b73eac42437abc26aab88df1c9fec"
+    },
+    {
+      "file": "TIAUSDT-1d-2025-05.zip",
+      "sha256": "1618afe8a31bfbfb2125e26fdfa738b9e607e660c3bf8fd10d4db7efdc1ac2bf"
+    },
+    {
+      "file": "TIAUSDT-1d-2025-06.zip",
+      "sha256": "637ea3aa15378977b2535e2d50a75b1d3dbc53017a26b785f707f7d6ac5a72cf"
+    },
+    {
+      "file": "TIAUSDT-1d-2025-07.zip",
+      "sha256": "4283340c99900e29f1332676f2e5dec9d991c25c68b5530664018d5cea148693"
+    },
+    {
+      "file": "TIAUSDT-1d-2025-08.zip",
+      "sha256": "c3e112cfe11d9c220d24aec830021ecf28d826eaf1c08c6a406f0585d8119d90"
+    },
+    {
+      "file": "TIAUSDT-1d-2025-09.zip",
+      "sha256": "fa88941f8ab958dc04eb066cee1d4f769f0d851768668da550a3b3e2c4982d36"
+    },
+    {
+      "file": "TIAUSDT-1d-2025-10.zip",
+      "sha256": "99442eeac1dd74bfe1a97f246dff33e0b0bfb5da920649f28eb8f47f10f634c6"
+    },
+    {
+      "file": "TIAUSDT-1d-2025-11.zip",
+      "sha256": "407847e1f86672d6bde9d129f642654547c777add7ca97d30e327b948601f2fd"
+    },
+    {
+      "file": "TIAUSDT-1d-2025-12.zip",
+      "sha256": "7f23421f167e24c581ae950420820d43bdbb50cbf15abb76572fb648820b3248"
+    },
+    {
+      "file": "TIAUSDT-1d-2026-01.zip",
+      "sha256": "0ca26f1caa4b5d396377b2e095d72856ec98958a301ca64c131e8cb7fc0467a8"
+    },
+    {
+      "file": "TIAUSDT-1d-2026-02.zip",
+      "sha256": "8990116a0fe462e3ec5c18a7e242430491ea0042b89afe2e63bee65313da545d"
+    },
+    {
+      "file": "TIAUSDT-1d-2026-03.zip",
+      "sha256": "af48b7ea3e962d9d51e622b2010578c8fa07a65909396cee983f197ec35bdbc9"
+    },
+    {
+      "file": "TIAUSDT-1d-2026-04.zip",
+      "sha256": "238dcecaa26112e5127dbc793c7a0c9f4dc08513aa341ded6f0b2fe9ba83d31c"
+    },
+    {
+      "file": "TIAUSDT-1d-2026-05.zip",
+      "sha256": "1cbb82473ed08de0e7936be35121a2232391a2b7c27ae93e150d6dbbbec88222"
+    },
+    {
+      "file": "TIAUSDT-1d-2026-06.zip",
+      "sha256": "28853d8a8ea995bc754d3087780c3981aace50c389702e1face5c6138550be45"
+    },
+    {
+      "file": "TIAUSDT-1d-2026-07.zip",
+      "sha256": "59a14cd5da364f710ff66224b8136c774b846fd944219b90391e33b5b6946e40"
+    },
+    {
+      "file": "TIAUSDT-1d-2026-08.zip",
+      "sha256": "794f22b05b2393310178502ff068b2023d18cf7e527541f55e9989bd3b683de2"
+    },
+    {
+      "file": "TIAUSDT-1d-2026-09.zip",
+      "sha256": "c93387561b51d1062c3ba7d8f33f0b5a450baa07a9f696b932fcbc81cd72ffbd"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

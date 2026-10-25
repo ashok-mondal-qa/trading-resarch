@@ -1,0 +1,133 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/GALUSDT/1d/",
+  "instrument": "GALUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-05-05",
+  "last_bar": "2024-07-15",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:34:00+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 803,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "GALUSDT-1d-2022-05.zip",
+      "sha256": "543f51dfb8d72c45363a1ddd338290644984a847f3464a2d1dee2b4b241ad8e5"
+    },
+    {
+      "file": "GALUSDT-1d-2022-06.zip",
+      "sha256": "c7df017c4bd22dc47950ff243964189e94b87562596cd2e16a7ce8452f146e8c"
+    },
+    {
+      "file": "GALUSDT-1d-2022-07.zip",
+      "sha256": "035fba7dedafce89052733b148f3c0c6a8ae9d218ac77ba9b62828cbbe74487a"
+    },
+    {
+      "file": "GALUSDT-1d-2022-08.zip",
+      "sha256": "80508f5ead916d6a01db778bc3c646e198cc0d8d583bc192e8e46b0de3056064"
+    },
+    {
+      "file": "GALUSDT-1d-2022-09.zip",
+      "sha256": "3c061e73a976c433ea3b8e507c1de6b9b3d3e54cc8cfaf63c7aa74bb0bfb1053"
+    },
+    {
+      "file": "GALUSDT-1d-2022-10.zip",
+      "sha256": "8b4ede8e88b8d5aef81f23b570fedd897782f9a6df337e63b7cbe738eb02d740"
+    },
+    {
+      "file": "GALUSDT-1d-2022-11.zip",
+      "sha256": "85a3fed938377ae1340e7bb972514a2fa256fd708980d5772f95298490b86cc7"
+    },
+    {
+      "file": "GALUSDT-1d-2022-12.zip",
+      "sha256": "60427786dd30d9a06d694454990ca2bbefbb7e2b835eb78ab9db44aebadb0cb0"
+    },
+    {
+      "file": "GALUSDT-1d-2023-01.zip",
+      "sha256": "95da591d95d10b5ab20ce993f3c576406c090df6d698c6467d85ca264d6ed920"
+    },
+    {
+      "file": "GALUSDT-1d-2023-02.zip",
+      "sha256": "9d7e3e2d99a54e9ce79a1eec6e3c40706a23ebdb81673ccb3b9303c3ecdec311"
+    },
+    {
+      "file": "GALUSDT-1d-2023-03.zip",
+      "sha256": "21de7a68a98a2882f7d9fad4bebeef305c7d6b72663d28e8454458285c29548d"
+    },
+    {
+      "file": "GALUSDT-1d-2023-04.zip",
+      "sha256": "20d5386a9e23b5ea31175cab2830cfaa0babd034848719042f8df2b7776cbb15"
+    },
+    {
+      "file": "GALUSDT-1d-2023-05.zip",
+      "sha256": "d02cb41b44ccc2ca4738579e17b272bb545cd8c5966f7eb71b90b3b9e1b414f6"
+    },
+    {
+      "file": "GALUSDT-1d-2023-06.zip",
+      "sha256": "7f27b8ff4ff7826068773008160ad1b0c97dc97550f863c90c0f08be7ba57e83"
+    },
+    {
+      "file": "GALUSDT-1d-2023-07.zip",
+      "sha256": "e75c2730a117399ac38e0a9cd4149e113e15d7849488d5bd962a04361b0f069a"
+    },
+    {
+      "file": "GALUSDT-1d-2023-08.zip",
+      "sha256": "03dfbdac53da2f8d9ffd5a3d5894c4a96e399312f0fdd61dd90ef7991f42415e"
+    },
+    {
+      "file": "GALUSDT-1d-2023-09.zip",
+      "sha256": "564e062e485bb5b5b618b439525c870b88a3a516999bc5cf7f3d6cba0e701537"
+    },
+    {
+      "file": "GALUSDT-1d-2023-10.zip",
+      "sha256": "f4176c67cc293c03077cf9641f84dc9e706b2600311a9c74db7b093db9826795"
+    },
+    {
+      "file": "GALUSDT-1d-2023-11.zip",
+      "sha256": "3db196849ec665b3e64add7ab8b63160a001e203dfb25d0df03ed1a7c382525f"
+    },
+    {
+      "file": "GALUSDT-1d-2023-12.zip",
+      "sha256": "c97b194061dd6b5c011488fa22e4d03af27ccb60b399d8bafb91444193e54ec8"
+    },
+    {
+      "file": "GALUSDT-1d-2024-01.zip",
+      "sha256": "39385f704c8318ce0d7c38a7bf16d79b5bf619060ef947eb6a4f91eee53eccda"
+    },
+    {
+      "file": "GALUSDT-1d-2024-02.zip",
+      "sha256": "f250ac1897002b5d6ecd5ac4c71071cf51b5d753a8c4d9ebfcac2bb30ce921fb"
+    },
+    {
+      "file": "GALUSDT-1d-2024-03.zip",
+      "sha256": "2c08de1633b1d9b4dd2ece764d06d638aa2c71df54b8989b71d13f7102c66be2"
+    },
+    {
+      "file": "GALUSDT-1d-2024-04.zip",
+      "sha256": "6e7cfe4033d792ec3ecbed93eeff36783e8f78c11cc1cc4bdb92b883d980ad0b"
+    },
+    {
+      "file": "GALUSDT-1d-2024-05.zip",
+      "sha256": "e9a11bfd83bce651c4253685a0c5f6393ce8dd3372ac63d4b737a2bca439a1de"
+    },
+    {
+      "file": "GALUSDT-1d-2024-06.zip",
+      "sha256": "621403d86a6c910fc19250324c8a27ccb80d43043fd9527834257374fb10e1cf"
+    },
+    {
+      "file": "GALUSDT-1d-2024-07.zip",
+      "sha256": "55a21554e01e43921b9bb6ca878e95cfa02fc9d1247639d6fc2f040390a261d1"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

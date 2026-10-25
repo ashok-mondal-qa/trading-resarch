@@ -1,6 +1,7 @@
 # Crypto vs Indian equities: the same rules on Binance spot (long only, daily) — spec v0.1
 
-Status: **pre-registered, not run** (written and committed before any crypto backtest).
+Status: **REJECTED, all six** (2026-10-25; `reports/backtests/EXP-0021-0026-report.md`, comparison
+`reports/market-comparison-2026-10-25.md`). Written and committed before any crypto backtest (8374c91).
 Code: `src/trading_research/backtesting/run_crypto.py`; data loader `src/trading_research/data/binance.py`.
 Registry: EXP-0021..0026. Nothing here is evidence of an edge.
 
@@ -96,3 +97,7 @@ contains one full boom and two busts, so the sign checks matter more than the av
 
 ## Changelog
 - **v0.1 (2026-10-25):** initial spec, committed before any crypto run.
+- **v0.1 addendum (2026-10-25, before any run, 657fed3):** `compare_markets.py` and a portfolio-only `common`
+  split (2018-04..2024-12) in `run_crypto` for the descriptive comparison; no verdict uses them.
+- **Result (2026-10-25, no rule change):** all six REJECTED; holdout not run. The 10% stop cap refuses most
+  Supertrend and momentum setups on crypto.

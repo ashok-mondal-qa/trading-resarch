@@ -1,0 +1,109 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BIOUSDT/1d/",
+  "instrument": "BIOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-01-03",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:28:05+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 636,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BIOUSDT-1d-2025-01.zip",
+      "sha256": "9a54151c73ddea04adc7dcac35da5c9fbebff91e5a8ad9130fb7498412475b07"
+    },
+    {
+      "file": "BIOUSDT-1d-2025-02.zip",
+      "sha256": "b6099cc88ca867a572ccc77288ae14f829594e3875827483a72168ad0f587024"
+    },
+    {
+      "file": "BIOUSDT-1d-2025-03.zip",
+      "sha256": "bf13bf65a574e8f9ecbfa55b250b003aea21dd6a662ac5f6e3477b93174ac3e1"
+    },
+    {
+      "file": "BIOUSDT-1d-2025-04.zip",
+      "sha256": "436f40796d6681fe7ce7376df0e908e04fa346044a8a779b848ede1b9daf56c3"
+    },
+    {
+      "file": "BIOUSDT-1d-2025-05.zip",
+      "sha256": "11018e4fe1f29a1326ac7ed6c1da7121688b8671ccac55081716eed213a235f7"
+    },
+    {
+      "file": "BIOUSDT-1d-2025-06.zip",
+      "sha256": "10984a5a24caabd379e8256390faa74070a40a90dda63ea5374767972d64ca31"
+    },
+    {
+      "file": "BIOUSDT-1d-2025-07.zip",
+      "sha256": "544c1c1af5008f501387bbd42cff8a87486951696c7957376a13b115ffadb323"
+    },
+    {
+      "file": "BIOUSDT-1d-2025-08.zip",
+      "sha256": "76fcdede812948c207ac23a6d180e141d55721b9b35d63ba4652d0d008de30aa"
+    },
+    {
+      "file": "BIOUSDT-1d-2025-09.zip",
+      "sha256": "7a635b2898f745530e9935fea9599ef95c8e4667179d0580bd9a56770f348ceb"
+    },
+    {
+      "file": "BIOUSDT-1d-2025-10.zip",
+      "sha256": "c6316fcafd0870411d247c584c98041350a08e04554a9ed61c9e8d0b0ccea1a5"
+    },
+    {
+      "file": "BIOUSDT-1d-2025-11.zip",
+      "sha256": "cfb3cfdc6b3335535048760a769d10d00b1e9dff401a57634744097ba3844a7d"
+    },
+    {
+      "file": "BIOUSDT-1d-2025-12.zip",
+      "sha256": "f1ec7f000476b8c14bac42810204dabc998ad64e9b43ec47da7ce9f04b1c7f58"
+    },
+    {
+      "file": "BIOUSDT-1d-2026-01.zip",
+      "sha256": "fd14959daf83b5c2a79b4d5544209d259a9c1606845f072114bdb34b86961178"
+    },
+    {
+      "file": "BIOUSDT-1d-2026-02.zip",
+      "sha256": "874d834926105d393eeebb05e50e60c7eb5af3c8e8b9c16605023c01977d4907"
+    },
+    {
+      "file": "BIOUSDT-1d-2026-03.zip",
+      "sha256": "3383843d2cc625cb83e69f4ed0dde3aeb08f31ea140e1cc6b3171b808ddc12e4"
+    },
+    {
+      "file": "BIOUSDT-1d-2026-04.zip",
+      "sha256": "a7460c674e996f12a024c6dda3c5f055666d050a003bbd7a9b48f5efb877ea91"
+    },
+    {
+      "file": "BIOUSDT-1d-2026-05.zip",
+      "sha256": "2e7bfc45ea476cecfd538851813961d00378bbe1b5615990d14a8dadce8bfa02"
+    },
+    {
+      "file": "BIOUSDT-1d-2026-06.zip",
+      "sha256": "fd15d00ed76e46df0a1646be815e245a8f3ab186e837f80fa4cf1acae0f9ab52"
+    },
+    {
+      "file": "BIOUSDT-1d-2026-07.zip",
+      "sha256": "d6d1edd95148b770ae54672b9ce91f5dfdcb62de803115998e2e141e7ef532f0"
+    },
+    {
+      "file": "BIOUSDT-1d-2026-08.zip",
+      "sha256": "fb730241c6ea3c7fe22663a297fe7b1f7e0ba4c736e4a90fb3233bfdc04a9007"
+    },
+    {
+      "file": "BIOUSDT-1d-2026-09.zip",
+      "sha256": "2011ed8eaf24f01c1c4f5546a02e817ed02f82cb4560640caf1fecdf19e36846"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

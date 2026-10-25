@@ -1,0 +1,325 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ARDRUSDT/1d/",
+  "instrument": "ARDRUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-05-15",
+  "last_bar": "2026-07-10",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:26:31+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2248,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ARDRUSDT-1d-2020-05.zip",
+      "sha256": "1fa47ae92d5e862208a0f7b9cd32ed8fbc3a4754daf108a25489e5708a4bf51f"
+    },
+    {
+      "file": "ARDRUSDT-1d-2020-06.zip",
+      "sha256": "d5e9e00a0dabb0e1ac932089d221d0973cddbed7012b8dbfc255ec1f638bb995"
+    },
+    {
+      "file": "ARDRUSDT-1d-2020-07.zip",
+      "sha256": "3f8becf259918fa69299e48fc64ce8e9fac7ec48ea33d7b845746b7136945285"
+    },
+    {
+      "file": "ARDRUSDT-1d-2020-08.zip",
+      "sha256": "70f080fa1b680cbda1e157e7759818a350f9a4b8d904c93138046b701834a63b"
+    },
+    {
+      "file": "ARDRUSDT-1d-2020-09.zip",
+      "sha256": "5647f9f6ec1de61890efdbcc06012755962375e0fb19f4c1fe73d5cd051edf12"
+    },
+    {
+      "file": "ARDRUSDT-1d-2020-10.zip",
+      "sha256": "4a2f40788cd188022fc69fa5214a378cf58b8ad628058cacef2c5fd3cd4db314"
+    },
+    {
+      "file": "ARDRUSDT-1d-2020-11.zip",
+      "sha256": "c711cd2acbb5c46d0c56b142b7c317b80e61a9219f406916791a479112886fbf"
+    },
+    {
+      "file": "ARDRUSDT-1d-2020-12.zip",
+      "sha256": "c5c18caa4c0a69ae846f3c9e054c3cce718ebb1655d07c5b1de78ebe3d3bfeea"
+    },
+    {
+      "file": "ARDRUSDT-1d-2021-01.zip",
+      "sha256": "17c9425d1775bcb8ea19aad0d679c261347e965df6b24f33f383b2693783211a"
+    },
+    {
+      "file": "ARDRUSDT-1d-2021-02.zip",
+      "sha256": "3598c0c792912d4b09d8f2a68dce68908e6468451ea7d741e40e3ef8c505baf4"
+    },
+    {
+      "file": "ARDRUSDT-1d-2021-03.zip",
+      "sha256": "91da65c417ed85ed27ac3de4f848473ac6a80fd5c5b0025ef0862c97e801b11f"
+    },
+    {
+      "file": "ARDRUSDT-1d-2021-04.zip",
+      "sha256": "ce9f4a5b663aa1d25f2700762ee4b09abf50ab00261412d80f0c5d4c5c77b396"
+    },
+    {
+      "file": "ARDRUSDT-1d-2021-05.zip",
+      "sha256": "f03a12d42f389202effaf7c80d1917764de3a2c9a95c8d6b76d035cea6c08fb5"
+    },
+    {
+      "file": "ARDRUSDT-1d-2021-06.zip",
+      "sha256": "5525e7bce024e62733539149b3b3a6aa424cde98477c7aa2edd773314ff45eee"
+    },
+    {
+      "file": "ARDRUSDT-1d-2021-07.zip",
+      "sha256": "ceaf323b74ba065d9ff4c57caa915103581118f5cec05ff86580fa29c4fd8c7a"
+    },
+    {
+      "file": "ARDRUSDT-1d-2021-08.zip",
+      "sha256": "4b382802756ea3abc6d09b578fff0f09a8ea0e3e3841d520fff7476a4785100c"
+    },
+    {
+      "file": "ARDRUSDT-1d-2021-09.zip",
+      "sha256": "b421101bbadd6581bbec2cbf7f1b7f86af57114243f99556b73caabed8415fa1"
+    },
+    {
+      "file": "ARDRUSDT-1d-2021-10.zip",
+      "sha256": "3531169079092d81db1e98cde0ae19f92a7e8604fd475d1676cfca1e05b265af"
+    },
+    {
+      "file": "ARDRUSDT-1d-2021-11.zip",
+      "sha256": "70e4bfd870fd128b56aa15215691aa57270525ee0749775b0399a27469d6220b"
+    },
+    {
+      "file": "ARDRUSDT-1d-2021-12.zip",
+      "sha256": "7e82a388b80b6c98706532e9e4305e7b2c6dfa3329963f81ce91144228cec3c1"
+    },
+    {
+      "file": "ARDRUSDT-1d-2022-01.zip",
+      "sha256": "54fd0f7500d8ce97d8bafe66aca6ec980298e4e7eeaa42d90bafa23cf8d5799d"
+    },
+    {
+      "file": "ARDRUSDT-1d-2022-02.zip",
+      "sha256": "2401a3ff3b5a10823ddcc0faa64e1ac8fd97079638cd5b18debc73db4e538ee2"
+    },
+    {
+      "file": "ARDRUSDT-1d-2022-03.zip",
+      "sha256": "6d10ad3f291b5e12342a58c4395fd3d03ec07d622e30c821bc870663441ff7f3"
+    },
+    {
+      "file": "ARDRUSDT-1d-2022-04.zip",
+      "sha256": "5874708b3de944a41a3145ebddea648029eb712dd44a285587059bdc0c4a465f"
+    },
+    {
+      "file": "ARDRUSDT-1d-2022-05.zip",
+      "sha256": "d918468e12bf0de7d57a3ccdb666a939573059cd452afe845fb43b0009f6418b"
+    },
+    {
+      "file": "ARDRUSDT-1d-2022-06.zip",
+      "sha256": "0c0b6d220600c62645dbe79c30faa29f6c46f8f731a1dcb8d708da997160d59f"
+    },
+    {
+      "file": "ARDRUSDT-1d-2022-07.zip",
+      "sha256": "b9fe9f1b338e02a599dce73f975a29a9d5a7df4484c781e8523de2f644975d65"
+    },
+    {
+      "file": "ARDRUSDT-1d-2022-08.zip",
+      "sha256": "90c7a59ae000b6729842b0f01dfb4bf6210f462fe45003b758e38648aaf62312"
+    },
+    {
+      "file": "ARDRUSDT-1d-2022-09.zip",
+      "sha256": "8de40f2a5d6e1129213cfc787b8c89e7de8e53b42a955b1570793a661dacfd72"
+    },
+    {
+      "file": "ARDRUSDT-1d-2022-10.zip",
+      "sha256": "28a317437ed076cab731eac3ea7eeb51b99fdb9d83c5c8621db2aef0f0df473d"
+    },
+    {
+      "file": "ARDRUSDT-1d-2022-11.zip",
+      "sha256": "d7082a8865cc7b9a6df3a3853638b4017dd028a38d19a4a952e6dd75450f58c7"
+    },
+    {
+      "file": "ARDRUSDT-1d-2022-12.zip",
+      "sha256": "4232c9184803a48e5f2316a91ea66cf0e3808287d7880423f0e5e0507e3801dd"
+    },
+    {
+      "file": "ARDRUSDT-1d-2023-01.zip",
+      "sha256": "6438f5abcdd8a0f05e4aa183851b4920239b32fbbf6a7c9be6de5731fbf6d9d8"
+    },
+    {
+      "file": "ARDRUSDT-1d-2023-02.zip",
+      "sha256": "61bad1c46c47f230a6356a84481f901c4d4b07f5cf5d7d00d695b99a11ac6c2a"
+    },
+    {
+      "file": "ARDRUSDT-1d-2023-03.zip",
+      "sha256": "e866f5cd81d971499b6fc718f82d3c823cb189ad07039aa8f825cf744e9972fe"
+    },
+    {
+      "file": "ARDRUSDT-1d-2023-04.zip",
+      "sha256": "50e0dba95b5db5736a69bc4f57da816968001b5091d646a6810b898d65b0d21b"
+    },
+    {
+      "file": "ARDRUSDT-1d-2023-05.zip",
+      "sha256": "180b42ba6056c077bd40b3dbfcec54984c597a4b49a5a93793418fd57782da7e"
+    },
+    {
+      "file": "ARDRUSDT-1d-2023-06.zip",
+      "sha256": "56f2576699399a61090772d9ce2446a42f16127cf21875675d179c84532e5f61"
+    },
+    {
+      "file": "ARDRUSDT-1d-2023-07.zip",
+      "sha256": "135dd807eb7fd818e85d5443c28229af547e36867c916be6a7dae5660a459736"
+    },
+    {
+      "file": "ARDRUSDT-1d-2023-08.zip",
+      "sha256": "852efbed7481d9752db86880d9373dde2d463e05d554ff7e1b8eea045f790db7"
+    },
+    {
+      "file": "ARDRUSDT-1d-2023-09.zip",
+      "sha256": "5a1e0839caf6a5032449317dbd743995f69c1ed6ef6506a160db59282e5d6dd6"
+    },
+    {
+      "file": "ARDRUSDT-1d-2023-10.zip",
+      "sha256": "75d017330b7f3ecb348b558227b9b647b540daf237fbe563b0d5fcad662cf31b"
+    },
+    {
+      "file": "ARDRUSDT-1d-2023-11.zip",
+      "sha256": "7b75d727835bf53bc7a7073b5c849a7389e4c834355fc7229844e2c0ccf5e50c"
+    },
+    {
+      "file": "ARDRUSDT-1d-2023-12.zip",
+      "sha256": "ecc9d35d9bf07cfbcace86413e9e81b6b3eaaadcf3848281ad370f51eff67ce1"
+    },
+    {
+      "file": "ARDRUSDT-1d-2024-01.zip",
+      "sha256": "3e9e8c81be776d7960230cb673da56430acc3cf92dccfb00bb143ae95a9e9ad2"
+    },
+    {
+      "file": "ARDRUSDT-1d-2024-02.zip",
+      "sha256": "3e096e4146d4fc9e0b7d2739f22661bd632770d5541fff7386cafc423b63c1b9"
+    },
+    {
+      "file": "ARDRUSDT-1d-2024-03.zip",
+      "sha256": "afcb5a02d54ef9a414cf299e08d59195ef0a3b7ca271f721a100c1fb1313e150"
+    },
+    {
+      "file": "ARDRUSDT-1d-2024-04.zip",
+      "sha256": "381c1e7ec948ac1c86b0a763b60f889349e8f701994e8a989c434fa497d519bd"
+    },
+    {
+      "file": "ARDRUSDT-1d-2024-05.zip",
+      "sha256": "de16bace0d53f983361ad9b1e432ad91684a6f02071d283a5fc1de81c34ea8ed"
+    },
+    {
+      "file": "ARDRUSDT-1d-2024-06.zip",
+      "sha256": "dcdb1eec396dc8d254e7dd18d3f60f004412aa770fc68cadc7ea35604e7f6e22"
+    },
+    {
+      "file": "ARDRUSDT-1d-2024-07.zip",
+      "sha256": "90180a78045c294147fd72b05bc6f15d0dd4d114230e2cd6f1a3f3c083970e31"
+    },
+    {
+      "file": "ARDRUSDT-1d-2024-08.zip",
+      "sha256": "f6002f511d047cb8507dd602ddd2edd0c680c15d785f170be959b65836d9b84f"
+    },
+    {
+      "file": "ARDRUSDT-1d-2024-09.zip",
+      "sha256": "95d1f12b7442f328b67fb84ccbcb17ef1e1a11e3a0e95473199b5e4b9655d56d"
+    },
+    {
+      "file": "ARDRUSDT-1d-2024-10.zip",
+      "sha256": "d8cd78a3975f635845f1355bccaf43b38913a5512338b1b8c73d9a4f5cf91016"
+    },
+    {
+      "file": "ARDRUSDT-1d-2024-11.zip",
+      "sha256": "8e16feffa5d5e39ba56712e664d058363db84a5bf1cd395468b0599eff26d315"
+    },
+    {
+      "file": "ARDRUSDT-1d-2024-12.zip",
+      "sha256": "e1abac1750f59273c8f9da62332316a3bbeda0b3c8053d202da9194376307ea0"
+    },
+    {
+      "file": "ARDRUSDT-1d-2025-01.zip",
+      "sha256": "b2407a10d21fc0fd139dee466ecd208b3e1be26604d2e21dbf4ac94c5edb13cd"
+    },
+    {
+      "file": "ARDRUSDT-1d-2025-02.zip",
+      "sha256": "fb3776ee1ca7c219340e7398a81e29fe8990b2046388d97eed3b7d8eff929944"
+    },
+    {
+      "file": "ARDRUSDT-1d-2025-03.zip",
+      "sha256": "eb661fa08c902fd93fbd8336e17520cbb4047291ed936491766a4bfc57ec6c55"
+    },
+    {
+      "file": "ARDRUSDT-1d-2025-04.zip",
+      "sha256": "26903956955f75d532a199cefd03ec358f00da2cdaaeb5d7fbbfbfd80ea44323"
+    },
+    {
+      "file": "ARDRUSDT-1d-2025-05.zip",
+      "sha256": "795fb4c16c73625ac524ecbc310563e57ab3f4cb7ffa1f3f69143ed850b77302"
+    },
+    {
+      "file": "ARDRUSDT-1d-2025-06.zip",
+      "sha256": "5e760b28dde76177643735f37629d892265a5bce26655eb0806f8a5a7672df59"
+    },
+    {
+      "file": "ARDRUSDT-1d-2025-07.zip",
+      "sha256": "a7b36a66f15c5a955b576ea3aaae6c6c68e90e29cc56e7c80d04f14d4f4e3fdd"
+    },
+    {
+      "file": "ARDRUSDT-1d-2025-08.zip",
+      "sha256": "cbcf6ab84081ec08b2136eb59f1be9a14f55c509153fcdbd39139a20a9a0eccf"
+    },
+    {
+      "file": "ARDRUSDT-1d-2025-09.zip",
+      "sha256": "efe3625dac1031bc67fe0cb1620688dbccedf01200a629c4562edbd84b4fc313"
+    },
+    {
+      "file": "ARDRUSDT-1d-2025-10.zip",
+      "sha256": "4eab0932bc05a72ca76cd551746c7523049e8fec8188fe8cb548d73ad9469b6e"
+    },
+    {
+      "file": "ARDRUSDT-1d-2025-11.zip",
+      "sha256": "5a09ac13b25b9bd249d6d1937a0715d1d01cfb4f833005b8cffe0d73d13622d3"
+    },
+    {
+      "file": "ARDRUSDT-1d-2025-12.zip",
+      "sha256": "9dc8859ea0a525ef12b34e26d2b973cfa3711fef8ee41469b3377bfcadffc1ca"
+    },
+    {
+      "file": "ARDRUSDT-1d-2026-01.zip",
+      "sha256": "dcb6a9b78eaa64f022c93059d0c988663c155eeadb254a9900e12370ead574a3"
+    },
+    {
+      "file": "ARDRUSDT-1d-2026-02.zip",
+      "sha256": "3ee6665eb711cd2de352b94ce52f48e60faa928e5db62bc6f5b60903fc537f41"
+    },
+    {
+      "file": "ARDRUSDT-1d-2026-03.zip",
+      "sha256": "52376a5f7b5d1285a06ffeeb8876cdb750d62895ef8a8e79403ad39baddf38f8"
+    },
+    {
+      "file": "ARDRUSDT-1d-2026-04.zip",
+      "sha256": "ea4ba37d1f16c220bc90655ebbb5d1f6faee68abecf396e5d6552d5c800a0103"
+    },
+    {
+      "file": "ARDRUSDT-1d-2026-05.zip",
+      "sha256": "d30331cd550ff5a3f1afb98f10807f3913fb0d87d5a6c98a4c7934dd39887347"
+    },
+    {
+      "file": "ARDRUSDT-1d-2026-06.zip",
+      "sha256": "c26fa999e753607d6d255e46604ece9a0fe991acfc515d4d5bb533c360b3e1a5"
+    },
+    {
+      "file": "ARDRUSDT-1d-2026-07.zip",
+      "sha256": "7951fd5bf16f4ce601077d6a06fe122d9cf6419fb51877425a1393beeb0841e0"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

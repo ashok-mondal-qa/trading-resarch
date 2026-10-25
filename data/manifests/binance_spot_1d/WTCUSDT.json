@@ -1,0 +1,205 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/WTCUSDT/1d/",
+  "instrument": "WTCUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-04-07",
+  "last_bar": "2023-12-07",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:49:31+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1340,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "WTCUSDT-1d-2020-04.zip",
+      "sha256": "dbc4327601cde0b377a15989e2a33e4d171764ed44c98515375e248fa73ebe5e"
+    },
+    {
+      "file": "WTCUSDT-1d-2020-05.zip",
+      "sha256": "49007fe906a0fd913fbefd113d51a18a84c0f4ac04d7b1c8ff1b9e0779296c0d"
+    },
+    {
+      "file": "WTCUSDT-1d-2020-06.zip",
+      "sha256": "3c0ad46fa5cf3355540dd5aded5b40c15912553c321222890d7a69478a36604a"
+    },
+    {
+      "file": "WTCUSDT-1d-2020-07.zip",
+      "sha256": "607f596ef4c64d149f2f6164627fec67b054126d00a7694bba97dbe765b49e40"
+    },
+    {
+      "file": "WTCUSDT-1d-2020-08.zip",
+      "sha256": "ceffbfd2a9b2880d9615eee65ba1bf1b2a6af5fa29c8d1e968fa0adc3f7f1219"
+    },
+    {
+      "file": "WTCUSDT-1d-2020-09.zip",
+      "sha256": "5201dc377009914b3c3ce1b23325106dad98e35791e6e0b4aa274c5271646212"
+    },
+    {
+      "file": "WTCUSDT-1d-2020-10.zip",
+      "sha256": "4b67f7ca2fcd94cd5b507e8c69b98c568fdb94461f5ba9e1ddb1609a288fee5c"
+    },
+    {
+      "file": "WTCUSDT-1d-2020-11.zip",
+      "sha256": "282df1465326183c16cc97cfdf3a791ef211048c92cab189dafcd6d65e7faee2"
+    },
+    {
+      "file": "WTCUSDT-1d-2020-12.zip",
+      "sha256": "c16405180afe8933e58730c0f0f868a447379f8fe7997a06c77554676fe8850b"
+    },
+    {
+      "file": "WTCUSDT-1d-2021-01.zip",
+      "sha256": "29598144070967db381bd95b66236fafa4c6b557ef30cd398b880469392cdacf"
+    },
+    {
+      "file": "WTCUSDT-1d-2021-02.zip",
+      "sha256": "e559fefa46aac70fae65edc0aa5143ddd927d9d9530751076d4818e377d671ca"
+    },
+    {
+      "file": "WTCUSDT-1d-2021-03.zip",
+      "sha256": "3e9d577796b8b4aa99b995e0e524dbd0aa715c851b0917dccd01dc62cdaf4ff9"
+    },
+    {
+      "file": "WTCUSDT-1d-2021-04.zip",
+      "sha256": "ad9d7aa5eb477c56115630d73d7f902370c39d3b1563e31c0688b98b8510805d"
+    },
+    {
+      "file": "WTCUSDT-1d-2021-05.zip",
+      "sha256": "6dfbd3b48931d610ed73a8fc0737660d99d672388967c89409ec6a959bc8274a"
+    },
+    {
+      "file": "WTCUSDT-1d-2021-06.zip",
+      "sha256": "4267f2daf6892d2a3f277d1751a80d9440f108c3561384ee3b5a6a051b2c54ce"
+    },
+    {
+      "file": "WTCUSDT-1d-2021-07.zip",
+      "sha256": "42391818717e452e0dcb1c0e752d6b372d72e2777e465df8accc527921160f10"
+    },
+    {
+      "file": "WTCUSDT-1d-2021-08.zip",
+      "sha256": "e1f3d5b34189cfafe2aa1abd3429d1e7aa1fd615aa209d40dcf3cc57331b470b"
+    },
+    {
+      "file": "WTCUSDT-1d-2021-09.zip",
+      "sha256": "ea9dba5e12559f24c6a0622b4c9290487cb92f7654ed46ea89285b8f0ae32be1"
+    },
+    {
+      "file": "WTCUSDT-1d-2021-10.zip",
+      "sha256": "d785d49f3e6ca5fc2d71ad2be3c400f47bedf4b65065aa8a9b60ec056ed2e890"
+    },
+    {
+      "file": "WTCUSDT-1d-2021-11.zip",
+      "sha256": "8fbc38ebfbefa8d994ba1f0f0e846e345db0e8054420b773b16708ed51c7a950"
+    },
+    {
+      "file": "WTCUSDT-1d-2021-12.zip",
+      "sha256": "e8c7f88bad8bb22e705f5b9736bbab0491054a23f51d0af85bf290a0aeeeae89"
+    },
+    {
+      "file": "WTCUSDT-1d-2022-01.zip",
+      "sha256": "3c79e9cdd63c71764f04ec6da7c06c47b5e3080e99358461df7b9c495fc844d0"
+    },
+    {
+      "file": "WTCUSDT-1d-2022-02.zip",
+      "sha256": "e1f7e7c26facc8b3dabbf6f58c7daecad214e0d08aff8b31429649c0f8cee7dc"
+    },
+    {
+      "file": "WTCUSDT-1d-2022-03.zip",
+      "sha256": "23b4077b51ad4b5614bd02c71c422d028e700acb27693c16dcfa5f57320c1f9c"
+    },
+    {
+      "file": "WTCUSDT-1d-2022-04.zip",
+      "sha256": "52967f377f0691c9bcbace1d4d4481703e7fa58960577a3066202ddf91f66367"
+    },
+    {
+      "file": "WTCUSDT-1d-2022-05.zip",
+      "sha256": "4064085a53e628bbf0f00c672548db6c3829fedbda6990908b3c7cb568e26711"
+    },
+    {
+      "file": "WTCUSDT-1d-2022-06.zip",
+      "sha256": "a8c24ef4c64b24e375af7e8961c21685d2387eb4edc9aecf3f631928946e178a"
+    },
+    {
+      "file": "WTCUSDT-1d-2022-07.zip",
+      "sha256": "cd6d2faeeb8f6a4c591b27086537bb37496d131fe4e98eae1321cf99b8ad602c"
+    },
+    {
+      "file": "WTCUSDT-1d-2022-08.zip",
+      "sha256": "dec5360fd3c02779c17bd8f4ef8a464ef93666f0fabcec6409eb732012939904"
+    },
+    {
+      "file": "WTCUSDT-1d-2022-09.zip",
+      "sha256": "83ff5b31851b861ff7c7978488108f9a888f7ef63378fa274878280132bd0a83"
+    },
+    {
+      "file": "WTCUSDT-1d-2022-10.zip",
+      "sha256": "e00f7a3c8893a9c062fff2baf431e678553b8d74cdd9e6e30350dcf2e0605f14"
+    },
+    {
+      "file": "WTCUSDT-1d-2022-11.zip",
+      "sha256": "e809b932b6841b073b95aabb8e86c89c8831da0f0eee58c25bbbc86a06fd3c44"
+    },
+    {
+      "file": "WTCUSDT-1d-2022-12.zip",
+      "sha256": "d5d8eca471436511998bb11e102aa5f4d03db10ccdd473e3ec1723f340401990"
+    },
+    {
+      "file": "WTCUSDT-1d-2023-01.zip",
+      "sha256": "81f9051efb028194452d0ab3d93140a5b9597095daff88fb342c461ebbc33606"
+    },
+    {
+      "file": "WTCUSDT-1d-2023-02.zip",
+      "sha256": "a0e8582c547459601a502dc7d0a9c196c8a4635b8f59b313c5369d52b587d205"
+    },
+    {
+      "file": "WTCUSDT-1d-2023-03.zip",
+      "sha256": "d81715e08e185e1664bd404d91716df83d5db3e1bc4b37fd42ee1a19fa0582f4"
+    },
+    {
+      "file": "WTCUSDT-1d-2023-04.zip",
+      "sha256": "2d34ac2e50292f44aded646f2d6d675546a247486fb93185503e313bb684baad"
+    },
+    {
+      "file": "WTCUSDT-1d-2023-05.zip",
+      "sha256": "067ed0bb7adea953f12536639977a05690a2777849df49273b9ce126ce3ff284"
+    },
+    {
+      "file": "WTCUSDT-1d-2023-06.zip",
+      "sha256": "e89835eca17296cf228c38da522780974e55b6bdd33a685b05dfbab22d9ac83b"
+    },
+    {
+      "file": "WTCUSDT-1d-2023-07.zip",
+      "sha256": "f0e00b9ca2970c00107fdc1ea9d096e96e3a8b3c184860b8d45f736d6b3ec2e5"
+    },
+    {
+      "file": "WTCUSDT-1d-2023-08.zip",
+      "sha256": "3efb1b6a6077a0ae2d90ad1cb4c88c9c4d28b6c906cc11b1ed73fc809525f709"
+    },
+    {
+      "file": "WTCUSDT-1d-2023-09.zip",
+      "sha256": "a152840296c2d67d553e0770a85723f6bbc8f39768d162ed2f0211915294aa5e"
+    },
+    {
+      "file": "WTCUSDT-1d-2023-10.zip",
+      "sha256": "857410a0d8e37e008489065c2bf8438219eb7f1813455e9bb9c7a7b70d34c0a4"
+    },
+    {
+      "file": "WTCUSDT-1d-2023-11.zip",
+      "sha256": "12748fe2ed247cdf79a7be3cf7f17e912ba7dca5159e929b7a20abc3e37538c7"
+    },
+    {
+      "file": "WTCUSDT-1d-2023-12.zip",
+      "sha256": "e070c0fb040a33731ca87bbd55895c5be1b482989bf027d0072f2cf6c389792e"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

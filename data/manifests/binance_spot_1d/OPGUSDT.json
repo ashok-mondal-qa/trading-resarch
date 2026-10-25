@@ -1,0 +1,45 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/OPGUSDT/1d/",
+  "instrument": "OPGUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-05-22",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:41:11+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 132,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "OPGUSDT-1d-2026-05.zip",
+      "sha256": "414b32708ae850bdb427c284f74ff1d8b94a17f72cd5fca4d122877fff1aad28"
+    },
+    {
+      "file": "OPGUSDT-1d-2026-06.zip",
+      "sha256": "088cc2bc466563bc4f2610e545f0bd59261b93a4c86f3f7edb39225a87484bd0"
+    },
+    {
+      "file": "OPGUSDT-1d-2026-07.zip",
+      "sha256": "3004679997fba600596089b21001eeb03d83329ec29a525cb7b645a974fc2ffd"
+    },
+    {
+      "file": "OPGUSDT-1d-2026-08.zip",
+      "sha256": "49bb6c4add13230a885f4a0e4e31cef205a60506a0e6099ce4515a865f5fa15e"
+    },
+    {
+      "file": "OPGUSDT-1d-2026-09.zip",
+      "sha256": "2c6c777e87f2f78edaa5d45098bc2bfcb1e694ff6ab80b45305ff218afa23667"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

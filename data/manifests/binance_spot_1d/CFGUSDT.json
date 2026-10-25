@@ -1,0 +1,53 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/CFGUSDT/1d/",
+  "instrument": "CFGUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-03-16",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:29:09+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 199,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "CFGUSDT-1d-2026-03.zip",
+      "sha256": "216f148ab43f4207d2372d9aa679008c2d02dcdc9d9a1423c38930684e56014c"
+    },
+    {
+      "file": "CFGUSDT-1d-2026-04.zip",
+      "sha256": "288ee5c81b19862b55bf9a2f7bef7c170cdb60db91f56aca56e629a7d558f229"
+    },
+    {
+      "file": "CFGUSDT-1d-2026-05.zip",
+      "sha256": "a261a4e55b05c00bddc9dddf9d7ee0ec69310cc29630777db6adc36ee3dc40da"
+    },
+    {
+      "file": "CFGUSDT-1d-2026-06.zip",
+      "sha256": "7e2d473e9a65f93e32e2f6ffbb8cf3ceced9e67aaaaed2c4cb5b8d5a53fef082"
+    },
+    {
+      "file": "CFGUSDT-1d-2026-07.zip",
+      "sha256": "c58accc741e24e0768b175e7bdbb36bba93096cca092b083a6dc1c63ff04efb6"
+    },
+    {
+      "file": "CFGUSDT-1d-2026-08.zip",
+      "sha256": "04f5de445e02ffab1f5eb076ebeaedc342c5ac1e31a4dc20b7ec56f9f6839dc9"
+    },
+    {
+      "file": "CFGUSDT-1d-2026-09.zip",
+      "sha256": "89bd2a0a9436ccad3007a950f5f7332e256a14343df769c0455545f10bb3fe45"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

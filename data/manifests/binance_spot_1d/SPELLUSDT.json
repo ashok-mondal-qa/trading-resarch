@@ -1,0 +1,257 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SPELLUSDT/1d/",
+  "instrument": "SPELLUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-12-24",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:46:00+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1742,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SPELLUSDT-1d-2021-12.zip",
+      "sha256": "41c19427ec5e81fa95a125c847dcb050a2434f063b8e0529871db3219360e682"
+    },
+    {
+      "file": "SPELLUSDT-1d-2022-01.zip",
+      "sha256": "aac5a24c70b7a41b0dd7c3396cf523786190c0c8d712d25298d472be1f4f26b9"
+    },
+    {
+      "file": "SPELLUSDT-1d-2022-02.zip",
+      "sha256": "d1292749ed2bf06201efdf54b64278a98fa53100f7509d4734c0fd2b67f47b3f"
+    },
+    {
+      "file": "SPELLUSDT-1d-2022-03.zip",
+      "sha256": "e26599b25cc22a91fa00512e58c7dd655e85185f0ba5ced8f3eedb9bef120ed8"
+    },
+    {
+      "file": "SPELLUSDT-1d-2022-04.zip",
+      "sha256": "7beec343be659113c0d2f0416b16cebb8dd19fc042add40f73aadb1cf647155d"
+    },
+    {
+      "file": "SPELLUSDT-1d-2022-05.zip",
+      "sha256": "bc8d12e6e772fbc451c776e5c074adc0c8515a4b4534a7773e9e18247a9032e0"
+    },
+    {
+      "file": "SPELLUSDT-1d-2022-06.zip",
+      "sha256": "df393e2ea211b6c5ff2974b4a6f4c333e86f99509adf088774150538629c539e"
+    },
+    {
+      "file": "SPELLUSDT-1d-2022-07.zip",
+      "sha256": "fc9f1e33ea7e6fdb3ba143f899df416e3104953e42e13b7b8216022fd040c1a2"
+    },
+    {
+      "file": "SPELLUSDT-1d-2022-08.zip",
+      "sha256": "8d7e4e2c901b763c58315bbe4baa2811c8d8f5eed0759210f7582549f02d5caf"
+    },
+    {
+      "file": "SPELLUSDT-1d-2022-09.zip",
+      "sha256": "8230f664b9f8bd96f46e600bbbe1ec0150fedd61c0d3e48370698cb53219ded0"
+    },
+    {
+      "file": "SPELLUSDT-1d-2022-10.zip",
+      "sha256": "7fcb38b2982c7786d129e85c8cdbd466138f9b880a4c556a7df278263646a5c5"
+    },
+    {
+      "file": "SPELLUSDT-1d-2022-11.zip",
+      "sha256": "2949fa83f49939990fb6ba560d441d4e301eaf594ab82a6200b67243fa8ec4f4"
+    },
+    {
+      "file": "SPELLUSDT-1d-2022-12.zip",
+      "sha256": "8f510ca2c8d28909ae7a73ec4576549c8662d6d2b8b350b14e27273804547a17"
+    },
+    {
+      "file": "SPELLUSDT-1d-2023-01.zip",
+      "sha256": "ac226a1fdf627238878418d038ec20b4ba35adedc2c0731925e2286d6fcfcad7"
+    },
+    {
+      "file": "SPELLUSDT-1d-2023-02.zip",
+      "sha256": "ffb939bf4f76be84cad6bb9b54ac4ac92fc4c8e1c4b75e5cb43789cd356aaff9"
+    },
+    {
+      "file": "SPELLUSDT-1d-2023-03.zip",
+      "sha256": "6b11a58b8ab4d6006048b4ee3afbd9d305dd6916a280a2634e629eb2eb39b366"
+    },
+    {
+      "file": "SPELLUSDT-1d-2023-04.zip",
+      "sha256": "6897e204656390f5be8fc690a6c1e4182f6032d2b852bd418cf128be257b7abd"
+    },
+    {
+      "file": "SPELLUSDT-1d-2023-05.zip",
+      "sha256": "f571d4315b39a868e692935d42e60bde2747ecdbf94eaad8c6003bee14529c8c"
+    },
+    {
+      "file": "SPELLUSDT-1d-2023-06.zip",
+      "sha256": "4eedd0f4737938e5f86dabdd29da14a3881e9c45abdbb385e6a9899823c157c7"
+    },
+    {
+      "file": "SPELLUSDT-1d-2023-07.zip",
+      "sha256": "2023ccd92fa0475c180fe228085a6f22629d2a70c460f80ec9d8838dab3ec7c7"
+    },
+    {
+      "file": "SPELLUSDT-1d-2023-08.zip",
+      "sha256": "8a881f6afb36e4b8e0dab8b960f50818667776b949a0bbe430c1a03c5ab89326"
+    },
+    {
+      "file": "SPELLUSDT-1d-2023-09.zip",
+      "sha256": "ea84a7b8b31c273a72d1ba8c7448e43f4a4b41bb5d7b3bdb32620ab9294aeee6"
+    },
+    {
+      "file": "SPELLUSDT-1d-2023-10.zip",
+      "sha256": "faddd35dad74e99ee24b44116aafcfe8ad2e8df0859b0ba6e179a9c3008e0edc"
+    },
+    {
+      "file": "SPELLUSDT-1d-2023-11.zip",
+      "sha256": "dfb54e71cad1aa573446df91cc8a66f2f01a16fc754b8f6fd15e57334e51fd20"
+    },
+    {
+      "file": "SPELLUSDT-1d-2023-12.zip",
+      "sha256": "f90342f061b307b11d57429fee931c27caf97f87d037c79d3f351883502aafe2"
+    },
+    {
+      "file": "SPELLUSDT-1d-2024-01.zip",
+      "sha256": "5b22adf8bd1120ff27ec57a27db8c5dbf37eee7fbc44d6d54bf07ebea33e00b5"
+    },
+    {
+      "file": "SPELLUSDT-1d-2024-02.zip",
+      "sha256": "a2c3791b4c95ec822e26945e710c8a3923f578d51322972bd546c68ba0401e3b"
+    },
+    {
+      "file": "SPELLUSDT-1d-2024-03.zip",
+      "sha256": "eec314d38f9b01d557ea3a96c854d037ea27445b99f939b43f13ee91bafc7bae"
+    },
+    {
+      "file": "SPELLUSDT-1d-2024-04.zip",
+      "sha256": "68fb9aaee746afbab879ff213cc617da4510cbe1d00412d719df7e7f35228444"
+    },
+    {
+      "file": "SPELLUSDT-1d-2024-05.zip",
+      "sha256": "47ec63f1832c4eb62c202c5e7222e36e2afd504235fe557abc36251aa7af5ad8"
+    },
+    {
+      "file": "SPELLUSDT-1d-2024-06.zip",
+      "sha256": "970ecea97d95d64ef6e17b985988bf5871678b6dede1a478f006f82d8d716938"
+    },
+    {
+      "file": "SPELLUSDT-1d-2024-07.zip",
+      "sha256": "6e2c208b1f898af54e065f28075d6301b845340d13ef50422381ab2256107635"
+    },
+    {
+      "file": "SPELLUSDT-1d-2024-08.zip",
+      "sha256": "72635fea7d28cae7f8aadde272ec7f513dc021894773610e8dfcb1e743ea0c6b"
+    },
+    {
+      "file": "SPELLUSDT-1d-2024-09.zip",
+      "sha256": "4face23348d87438cd7384772b049ef9dce2d77aab7c2987c7b42c838e8a43c9"
+    },
+    {
+      "file": "SPELLUSDT-1d-2024-10.zip",
+      "sha256": "d1b5cc2f579813b865269e0e86de0fa3b8099e7d548574b27c5b677ef1725c3d"
+    },
+    {
+      "file": "SPELLUSDT-1d-2024-11.zip",
+      "sha256": "0ff6aa804bedb5ce68e853efb8a340eaec53bd117521f612c0b07f8476299f7a"
+    },
+    {
+      "file": "SPELLUSDT-1d-2024-12.zip",
+      "sha256": "d305e31a152edddc8452509534ab7997b9af04b07e4fee3a7595efc90f463fb9"
+    },
+    {
+      "file": "SPELLUSDT-1d-2025-01.zip",
+      "sha256": "0c2bddc8d914e354dfb9319a2dad632933a809f53af9fb001aa58f236bf38bc6"
+    },
+    {
+      "file": "SPELLUSDT-1d-2025-02.zip",
+      "sha256": "ac2bb65dc6f48bdfd09101f80354460e07625514db21fb968e59b37d3891fa0c"
+    },
+    {
+      "file": "SPELLUSDT-1d-2025-03.zip",
+      "sha256": "b924189fb4b3926dfd4c02bc370bfa69d89006f4569013e5eac67622a9ee6000"
+    },
+    {
+      "file": "SPELLUSDT-1d-2025-04.zip",
+      "sha256": "84e6fcde320dff7b528c793aa5a7722e53a4f424a37cd7b662ca6024fa4f168f"
+    },
+    {
+      "file": "SPELLUSDT-1d-2025-05.zip",
+      "sha256": "1a7e132ac1606993bb011cf4b1b11b951619d18326f3e32162628dacd993cedc"
+    },
+    {
+      "file": "SPELLUSDT-1d-2025-06.zip",
+      "sha256": "8acddff8bf0723ed65719e2d78d7c37ccea427bc5ff7b5d6bb0b1ee9073d5806"
+    },
+    {
+      "file": "SPELLUSDT-1d-2025-07.zip",
+      "sha256": "66980018d0b1acef0283de3e6da10dcf60f68f0b541786d512dcc48e498f88f6"
+    },
+    {
+      "file": "SPELLUSDT-1d-2025-08.zip",
+      "sha256": "4c629fcfb86022582b437e61e6488391c7fb4f9b1e2ed130db33a0693ebaa15c"
+    },
+    {
+      "file": "SPELLUSDT-1d-2025-09.zip",
+      "sha256": "ddd01c590d7797a34615210a2cd01b03931a20fff4c034ac0bd00b35cb03d797"
+    },
+    {
+      "file": "SPELLUSDT-1d-2025-10.zip",
+      "sha256": "c1ff79e7d7001de5b103c1a0593f532069c5188d0c9595d92184b2b3fba64116"
+    },
+    {
+      "file": "SPELLUSDT-1d-2025-11.zip",
+      "sha256": "b9a1c27cd301ad0d2a9dc539972df212aafc6588eeb0fadb1969cb2762b1c3ff"
+    },
+    {
+      "file": "SPELLUSDT-1d-2025-12.zip",
+      "sha256": "a3c1251db4d6dc6474184476ec0245b2f6432be2ae4165db65650f133e3b9a64"
+    },
+    {
+      "file": "SPELLUSDT-1d-2026-01.zip",
+      "sha256": "dfc17ab4f5ca4db6f81ff5bf4c6e5b6aa069ef49e7157bc704d918c7c10e2a81"
+    },
+    {
+      "file": "SPELLUSDT-1d-2026-02.zip",
+      "sha256": "3b8d4189234f8750423d8ab916c7e54b6e4f5376f5009dcafd075e6043b8cdb0"
+    },
+    {
+      "file": "SPELLUSDT-1d-2026-03.zip",
+      "sha256": "f77ea2027b811208f68acf6c480dfb4e69d6a2244f13327a699803e0bf8a3304"
+    },
+    {
+      "file": "SPELLUSDT-1d-2026-04.zip",
+      "sha256": "92f80a6961ae72cef9a0e9d9f439d69a947f1f75ab32ea33b1311f772aefd6a9"
+    },
+    {
+      "file": "SPELLUSDT-1d-2026-05.zip",
+      "sha256": "7cb47ff3fc0c889f8cff44ecd0d49c571b8e5d71c7a75685eeb0c133f311752d"
+    },
+    {
+      "file": "SPELLUSDT-1d-2026-06.zip",
+      "sha256": "6c3bfcafdad1f53f27e1c10ef32fe32cebdb492513ee910ba6aea9c82a55315b"
+    },
+    {
+      "file": "SPELLUSDT-1d-2026-07.zip",
+      "sha256": "323ff9f1e51525a42d15186616beba625f80398d3ddb526474c9296ba4713db8"
+    },
+    {
+      "file": "SPELLUSDT-1d-2026-08.zip",
+      "sha256": "eb6f70a292afc488902479794ff921237d503bdbde86e80435b33bb1f3bf557e"
+    },
+    {
+      "file": "SPELLUSDT-1d-2026-09.zip",
+      "sha256": "85eb8da185bd31a327df550052c04f8f38a16ec0361201737095076d35f549e0"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

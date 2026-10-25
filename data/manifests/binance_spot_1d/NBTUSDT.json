@@ -1,0 +1,93 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/NBTUSDT/1d/",
+  "instrument": "NBTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2022-03-11",
+  "last_bar": "2023-02-28",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:40:00+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 336,
+  "missing_days": [
+    "2022-09-12",
+    "2022-09-13",
+    "2022-09-14",
+    "2022-09-15",
+    "2022-09-16",
+    "2022-09-17",
+    "2022-09-18",
+    "2022-09-19",
+    "2022-09-20",
+    "2022-09-21",
+    "2022-09-22",
+    "2022-09-23",
+    "2022-09-24",
+    "2022-09-25",
+    "2022-09-26",
+    "2022-09-27",
+    "2022-09-28",
+    "2022-09-29",
+    "2022-09-30"
+  ],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "NBTUSDT-1d-2022-03.zip",
+      "sha256": "f1ec8c0722e710828cfb66e2de8d805bca30ee7fd8eb53d2f103db20917bfc84"
+    },
+    {
+      "file": "NBTUSDT-1d-2022-04.zip",
+      "sha256": "dcb3bc308add8440c6b52a1242aba723d5d4adc34948355814e4ae9ec3ce9662"
+    },
+    {
+      "file": "NBTUSDT-1d-2022-05.zip",
+      "sha256": "c67ab5b4b55f0d04b5dd3c80508d2fe4dddce9d45e1487d07a5481c08efb3542"
+    },
+    {
+      "file": "NBTUSDT-1d-2022-06.zip",
+      "sha256": "99d6bcd61e7644f0b0029e4aac37ff200944d2e9b93726e8b53737456dd405ad"
+    },
+    {
+      "file": "NBTUSDT-1d-2022-07.zip",
+      "sha256": "4fd2579b444ab8ec742eec51e82c9b20d77c10da4bc93262028beadebee815f8"
+    },
+    {
+      "file": "NBTUSDT-1d-2022-08.zip",
+      "sha256": "c85251053d9bbd7af8d580d5149a746adf8d1360a1e31208c761e7de524f7a2b"
+    },
+    {
+      "file": "NBTUSDT-1d-2022-09.zip",
+      "sha256": "9e0e6927b3775e64180a15d6105afb4e414a9d696a5dc62712f937f8790b391f"
+    },
+    {
+      "file": "NBTUSDT-1d-2022-10.zip",
+      "sha256": "4fdd3f6dda3eeb321700e5142c23d2a58d37fe651045d4d4b961f05313bd58c8"
+    },
+    {
+      "file": "NBTUSDT-1d-2022-11.zip",
+      "sha256": "a7e1afb9eed2feaca43e6afa221e819ca3e1969fcb0652e0a04a87d3e73f7853"
+    },
+    {
+      "file": "NBTUSDT-1d-2022-12.zip",
+      "sha256": "93bdbcc0782fdb67ffdb46fa5edbcb3907afb2d4b0835d27f361cf5cb48ad4a8"
+    },
+    {
+      "file": "NBTUSDT-1d-2023-01.zip",
+      "sha256": "7d86ef65014b9140c58d2f6da0020ae5dca26fdfd43b26cb76a4a13d2e5f3bcc"
+    },
+    {
+      "file": "NBTUSDT-1d-2023-02.zip",
+      "sha256": "b52b6f75d7899d3dc8a3715967da8defe6c04813e88f6e84b8af6a6c48fae3db"
+    }
+  ],
+  "status": "partial",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/VITEUSDT/1d/",
+  "instrument": "VITEUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-12-13",
+  "last_bar": "2025-02-24",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:48:59+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1901,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "VITEUSDT-1d-2019-12.zip",
+      "sha256": "47f14989c94d19b56e2a34fc280a0071d8428eedd64eac4d422bb157fb4b3782"
+    },
+    {
+      "file": "VITEUSDT-1d-2020-01.zip",
+      "sha256": "ae4620becebb65eb5f76b56d51212e42d5a80d441505e10455bb725810976b10"
+    },
+    {
+      "file": "VITEUSDT-1d-2020-02.zip",
+      "sha256": "1e8828f150c0fb79c87e1750c6730dc61db4885f4365ab83c97689fe0e44a720"
+    },
+    {
+      "file": "VITEUSDT-1d-2020-03.zip",
+      "sha256": "702ae49723562da854520a58f0b7e1fb846f4b16bf6e7c09141a9250719b7b51"
+    },
+    {
+      "file": "VITEUSDT-1d-2020-04.zip",
+      "sha256": "320ba5d232cdd45c9c818a23358f08fc70c658933b9219d5e01a683f3d478fb6"
+    },
+    {
+      "file": "VITEUSDT-1d-2020-05.zip",
+      "sha256": "4fb5fa54a002d7acde4f42986cf271ebd92828f4cecef57b0062ae6fe55097e6"
+    },
+    {
+      "file": "VITEUSDT-1d-2020-06.zip",
+      "sha256": "be3f3181a5267b965fbae9ba72db92540fd5a58b5e01d4982dfbac4139616b83"
+    },
+    {
+      "file": "VITEUSDT-1d-2020-07.zip",
+      "sha256": "7b94e6d429507d6b7b58fc63b90982c5e532a0e9242db07e1579c0ddcaae62dc"
+    },
+    {
+      "file": "VITEUSDT-1d-2020-08.zip",
+      "sha256": "7fd703f7b4f65e8f3c73ca4856d1ae0b2757f5fb9de987d46eecfc6a4b77f8d4"
+    },
+    {
+      "file": "VITEUSDT-1d-2020-09.zip",
+      "sha256": "92c4360c1d8455886dc10df25bd9f16f8890389ead1f6128f36d0ebdcab3d58e"
+    },
+    {
+      "file": "VITEUSDT-1d-2020-10.zip",
+      "sha256": "0f70690f715d952d12b9f90afbbf19cb136a6a83e3ab3aa6138ff25b30ef2806"
+    },
+    {
+      "file": "VITEUSDT-1d-2020-11.zip",
+      "sha256": "185fab74767f47600cecf48d5a14f0035d51d29e40f3e2f94da23dd9e374a4ba"
+    },
+    {
+      "file": "VITEUSDT-1d-2020-12.zip",
+      "sha256": "2a881800b164aaa7f5ba0bf763d258e78ff7e186f2842a4bd9cdb41f7ea883b5"
+    },
+    {
+      "file": "VITEUSDT-1d-2021-01.zip",
+      "sha256": "283a6ac436b9d430ad518e40e6c55aa434a350fe771346475ca1832c2cc81262"
+    },
+    {
+      "file": "VITEUSDT-1d-2021-02.zip",
+      "sha256": "9e8495fc695351160242d58ce590463185966fbb7697beedb482fd2c8d81a7d3"
+    },
+    {
+      "file": "VITEUSDT-1d-2021-03.zip",
+      "sha256": "d4fe2182b614a20e6b2f877ce6a2dc03fb20388676a11d755466f659555f04e9"
+    },
+    {
+      "file": "VITEUSDT-1d-2021-04.zip",
+      "sha256": "54b74fde9e6c0efa195c131a41ed9bd115d43c782cb47fe10522bba4cf6d53c5"
+    },
+    {
+      "file": "VITEUSDT-1d-2021-05.zip",
+      "sha256": "cc8029d1330008d474bc78f8edf73544a8bc726b10015b9e9f503ef6e4d14788"
+    },
+    {
+      "file": "VITEUSDT-1d-2021-06.zip",
+      "sha256": "6482ac8989e7eb78deab5895dc226fb1ee81aeaab6a8307b25fd661a2ce8449e"
+    },
+    {
+      "file": "VITEUSDT-1d-2021-07.zip",
+      "sha256": "1f8cc2adc3c634dde7c324ff9265ca7ad74cd05ca5c0c74b562a685266570d7e"
+    },
+    {
+      "file": "VITEUSDT-1d-2021-08.zip",
+      "sha256": "f181c1c3aabe7801a3ad0c2d363f795eb3f469239379eafcdfe03dc835f6a886"
+    },
+    {
+      "file": "VITEUSDT-1d-2021-09.zip",
+      "sha256": "f022b25783442be532faa7a344cb7fd6c3e07b35268963150a20325a0e8bdece"
+    },
+    {
+      "file": "VITEUSDT-1d-2021-10.zip",
+      "sha256": "6d1cae6251072ae3149efca1f6106c943419856a252446e53f48aaa17cfe5cdf"
+    },
+    {
+      "file": "VITEUSDT-1d-2021-11.zip",
+      "sha256": "6345c36f5737e01d6d3941c1c00155a1eb0fcc372947c3e55eb30d5f0a5eecc3"
+    },
+    {
+      "file": "VITEUSDT-1d-2021-12.zip",
+      "sha256": "8bd0398cb20418eb174c9b4fedd4c2b0a1919aec2fb4f63409e67f29781fa205"
+    },
+    {
+      "file": "VITEUSDT-1d-2022-01.zip",
+      "sha256": "0455cb0cd94a9171324350fb3248abd2c36b79c82d8611f3edaeb8afbf210916"
+    },
+    {
+      "file": "VITEUSDT-1d-2022-02.zip",
+      "sha256": "7222f70a44a1016807d958195f5c63311ad3ff5bdd21488a31fd6ba89ebc5ef6"
+    },
+    {
+      "file": "VITEUSDT-1d-2022-03.zip",
+      "sha256": "cf3731a96b4536abd176097539f306d94a9ccbe58f3cb33b927c820c965a5767"
+    },
+    {
+      "file": "VITEUSDT-1d-2022-04.zip",
+      "sha256": "8eaac6264d79960104d150e7455df302d0d76078a71876dbf77b7ffccd515217"
+    },
+    {
+      "file": "VITEUSDT-1d-2022-05.zip",
+      "sha256": "c5778c832af52d8260a691bf946d53c5ec4a037ccfb2112ea058b4ad6263d79c"
+    },
+    {
+      "file": "VITEUSDT-1d-2022-06.zip",
+      "sha256": "ce72a8396efaaa523c1951a2e93af55cb0940dcc42291be0eabf989caca5d6a2"
+    },
+    {
+      "file": "VITEUSDT-1d-2022-07.zip",
+      "sha256": "9adb991f08d9f41655cd95f09490861b9f8d74f090d335d478906f9a1d1caa00"
+    },
+    {
+      "file": "VITEUSDT-1d-2022-08.zip",
+      "sha256": "e2b66f83cd368a1c01336011052dcd93250da7e899e760d61e9c50942926a01d"
+    },
+    {
+      "file": "VITEUSDT-1d-2022-09.zip",
+      "sha256": "bb2255692ded8ce28e99017a381a53345b35b3da33dab3629b3a8eef9fe61eec"
+    },
+    {
+      "file": "VITEUSDT-1d-2022-10.zip",
+      "sha256": "6a1313d6c34ba46aa8ac75edfe470d1123bb678f344e2f520183fa5ffb422036"
+    },
+    {
+      "file": "VITEUSDT-1d-2022-11.zip",
+      "sha256": "c3d95879a73f9ba7c44210a977201f24f06fa029a7aaa9060aa0a678e41a60eb"
+    },
+    {
+      "file": "VITEUSDT-1d-2022-12.zip",
+      "sha256": "ef5bea931cd57b2f8c5ad44192ef9b6f5474ba1c9d97fe2a2a6bafe011c46244"
+    },
+    {
+      "file": "VITEUSDT-1d-2023-01.zip",
+      "sha256": "9fb8a958ea4143b7451407572c4075339d50c90036dd1bd94521853adb620406"
+    },
+    {
+      "file": "VITEUSDT-1d-2023-02.zip",
+      "sha256": "0d1a2f5566a820a942a400fcedac779588a59a9467eb4587ee2148631c89f821"
+    },
+    {
+      "file": "VITEUSDT-1d-2023-03.zip",
+      "sha256": "d1dc6175894c1eacd2fb4726424bd5e09da6d4e72e3a9b58a5452e629ce96045"
+    },
+    {
+      "file": "VITEUSDT-1d-2023-04.zip",
+      "sha256": "a3801b27b8f0db5de810de6aba81d5d03ad161140e956562b856094d2663ee33"
+    },
+    {
+      "file": "VITEUSDT-1d-2023-05.zip",
+      "sha256": "baa73c0ae99f762dddb052e543cd9d78d13757dadac44e386747d0f75bddd629"
+    },
+    {
+      "file": "VITEUSDT-1d-2023-06.zip",
+      "sha256": "4b2576c40a4c7d9cb7feffa21df046b5383ca37ead7bddf2a6271e2de808772b"
+    },
+    {
+      "file": "VITEUSDT-1d-2023-07.zip",
+      "sha256": "a3065819e864f709d112e5c6b50850cd9d0bd1dc4d9ca2777cb9dd8f331a6080"
+    },
+    {
+      "file": "VITEUSDT-1d-2023-08.zip",
+      "sha256": "a136df2b9d271ad440f5a2df89a6f308b77912638df12f2845b4e195e44d9f74"
+    },
+    {
+      "file": "VITEUSDT-1d-2023-09.zip",
+      "sha256": "168af3c7a4e5db5ac962309422921cdabe1eb927cc3d68ecf0f59a0d45f75e9b"
+    },
+    {
+      "file": "VITEUSDT-1d-2023-10.zip",
+      "sha256": "a3253fd06e32cdb2b6bc5c23997c1cdacccd38f5813d56b75e54b5ecbf72b1c7"
+    },
+    {
+      "file": "VITEUSDT-1d-2023-11.zip",
+      "sha256": "d83f08b58297f8bae95234d230f20e5661a01758267f002ce6331cfc5744b3cb"
+    },
+    {
+      "file": "VITEUSDT-1d-2023-12.zip",
+      "sha256": "5b75853caefcb9bfabae5bb3c92e9238629a3552277dd08a6e6a6a8ab959157c"
+    },
+    {
+      "file": "VITEUSDT-1d-2024-01.zip",
+      "sha256": "1cca185b31a8157e1b8426b25d83852e4eb9705b89585519548c0712a6780e6f"
+    },
+    {
+      "file": "VITEUSDT-1d-2024-02.zip",
+      "sha256": "458c44257a54b95f755482daa4a3af873b4630a57a18ef0fb1c3f03f25a3a8c6"
+    },
+    {
+      "file": "VITEUSDT-1d-2024-03.zip",
+      "sha256": "53e512b2829d6073e6248f278fb3b2277e6109c41f2cd2f557113b4e87239000"
+    },
+    {
+      "file": "VITEUSDT-1d-2024-04.zip",
+      "sha256": "52a85d451246b0f7e164530746969ee8b0f01e8be7633781e9fba661fb82decf"
+    },
+    {
+      "file": "VITEUSDT-1d-2024-05.zip",
+      "sha256": "a7c0c6ec580c9baff29fb1ef72f444bcb53fcadbc1812393e9c41579974f3f01"
+    },
+    {
+      "file": "VITEUSDT-1d-2024-06.zip",
+      "sha256": "949582eba85b3bca17d5e27ba19aedc1364f506fef97924101d5633226e93a29"
+    },
+    {
+      "file": "VITEUSDT-1d-2024-07.zip",
+      "sha256": "5f1710e291e40b9283f2d82397482b95f1f49178714e83020fa36a09ca26733a"
+    },
+    {
+      "file": "VITEUSDT-1d-2024-08.zip",
+      "sha256": "31d088b908d6ce883618d581b2563158b57f4e67ecbc4b7b7f95b2e363bbf0ee"
+    },
+    {
+      "file": "VITEUSDT-1d-2024-09.zip",
+      "sha256": "30a9447633a9642eca15f592e15f706c3715181f42b236355c74c200f0e23bf1"
+    },
+    {
+      "file": "VITEUSDT-1d-2024-10.zip",
+      "sha256": "c10fba904db121dc32a453d30647f881c0b60c054709e8767f96493eb52550eb"
+    },
+    {
+      "file": "VITEUSDT-1d-2024-11.zip",
+      "sha256": "6b992b74ad49d7e276e922277af189755e01c666a90203a17261720c38fc6c87"
+    },
+    {
+      "file": "VITEUSDT-1d-2024-12.zip",
+      "sha256": "07a5b71bbbf8a04027b492779d8a5b0b0533c2d10e4147ba058efbc37521943c"
+    },
+    {
+      "file": "VITEUSDT-1d-2025-01.zip",
+      "sha256": "d8717d62ad15629011f0697201bc193469c2c12a1825db86809705dffb5a0efe"
+    },
+    {
+      "file": "VITEUSDT-1d-2025-02.zip",
+      "sha256": "79170b03696f6639db668363830e03e3d09d32514e751b64afd93afeec5631b7"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

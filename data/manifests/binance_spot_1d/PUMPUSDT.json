@@ -1,0 +1,77 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/PUMPUSDT/1d/",
+  "instrument": "PUMPUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-09-11",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:42:47+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 385,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "PUMPUSDT-1d-2025-09.zip",
+      "sha256": "36282586115797e23575a8bd6b7bffb9f2c177c32d4f705754979f3dcb9521ce"
+    },
+    {
+      "file": "PUMPUSDT-1d-2025-10.zip",
+      "sha256": "95b1e557a086fff8f32634459944c44e70d69728826326d9cbc8fc21cdbe8d21"
+    },
+    {
+      "file": "PUMPUSDT-1d-2025-11.zip",
+      "sha256": "01ecc68821063a97f07656b165b8bbbb777fe5e850362903f7351d540598ace0"
+    },
+    {
+      "file": "PUMPUSDT-1d-2025-12.zip",
+      "sha256": "17ded1ecde7712b3c386a5efe77cfab0110cb6c331ddb2a27a8f4e11ae310af0"
+    },
+    {
+      "file": "PUMPUSDT-1d-2026-01.zip",
+      "sha256": "dbf6cd049508c1fc552b95b1ab13dc6f252b265db2040ddcb217fc3b5b98ef84"
+    },
+    {
+      "file": "PUMPUSDT-1d-2026-02.zip",
+      "sha256": "45e600a1909dfaed6855e063d992dc2264ce0cce64217ce1e9c76e01138c21f3"
+    },
+    {
+      "file": "PUMPUSDT-1d-2026-03.zip",
+      "sha256": "dfb580fdbb85c9f5a77ec6c111ae294539f683d156a4a898a64a43f43eabb628"
+    },
+    {
+      "file": "PUMPUSDT-1d-2026-04.zip",
+      "sha256": "ac40d1b3841a5df26a15e1960e9c42a66700ffaad76f6ff85b0b5265abbe2a0e"
+    },
+    {
+      "file": "PUMPUSDT-1d-2026-05.zip",
+      "sha256": "1c24c02e32b7538d1dff52bd23ff9e0597892e5de01d0e2b3017dfc4b3b14895"
+    },
+    {
+      "file": "PUMPUSDT-1d-2026-06.zip",
+      "sha256": "b33ec9c7fd2dc5b8bc61772785add945c598656f78547e11e3c0d2b698d75869"
+    },
+    {
+      "file": "PUMPUSDT-1d-2026-07.zip",
+      "sha256": "72fb3bb745a1d26f383094f3bb47263328d3e3c1b8e6227731232b3d5e436d00"
+    },
+    {
+      "file": "PUMPUSDT-1d-2026-08.zip",
+      "sha256": "dc71ab76542d7c569e59e052fef35f1289b04aa59409dbbca8b771a4b4e4b3a7"
+    },
+    {
+      "file": "PUMPUSDT-1d-2026-09.zip",
+      "sha256": "77f19488cc80acbd92c698782a93cb8a26686881061310b0b4048f4a7b6adf56"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

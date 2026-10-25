@@ -1,0 +1,269 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/GALAUSDT/1d/",
+  "instrument": "GALAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-09-13",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:34:21+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1844,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "GALAUSDT-1d-2021-09.zip",
+      "sha256": "f1a7e5126808378f24d874a7a3416b7b359c26d943e37c44e3d14fbded971a6d"
+    },
+    {
+      "file": "GALAUSDT-1d-2021-10.zip",
+      "sha256": "07066411a4343e2b8fcf5c4f248fd192bdc2597ad76b971e8b16c3cb52290565"
+    },
+    {
+      "file": "GALAUSDT-1d-2021-11.zip",
+      "sha256": "15c60438f6851434d7229ea6f2dae188c1f20d0b8085d89e132d9708124408e7"
+    },
+    {
+      "file": "GALAUSDT-1d-2021-12.zip",
+      "sha256": "82f0944749ddbe22a8f2773a61f13d539bc3caa135b0038ff0dbab6de03ff356"
+    },
+    {
+      "file": "GALAUSDT-1d-2022-01.zip",
+      "sha256": "f5b0598ebcac110de8714c03829724afb62f09406534f315a54a287aacc99dfc"
+    },
+    {
+      "file": "GALAUSDT-1d-2022-02.zip",
+      "sha256": "77333d67419b2882c5c4b89c18cd85c59115e6dc91ec0663c409865cbb2e348a"
+    },
+    {
+      "file": "GALAUSDT-1d-2022-03.zip",
+      "sha256": "476cdb4aba3241f1ce62f490ce88515bba14caf5beab208de2408d84ac230b94"
+    },
+    {
+      "file": "GALAUSDT-1d-2022-04.zip",
+      "sha256": "298f8dac99ae24c344a05b8392b6f7f62909f289c74eca6a03c3e6f8831642b0"
+    },
+    {
+      "file": "GALAUSDT-1d-2022-05.zip",
+      "sha256": "d3f23eb7dcd510b741ef15f687d06fc52d6c97bae24cb581f1f9acc7bacbb9c8"
+    },
+    {
+      "file": "GALAUSDT-1d-2022-06.zip",
+      "sha256": "04168df04384a380edfb2a9f80853b3ab90c99f35fde65a0d133d9a4f4e1cec6"
+    },
+    {
+      "file": "GALAUSDT-1d-2022-07.zip",
+      "sha256": "8b3f25fd65fb1e3788868c064204b9043c059937c1d03d6fb206f54b7239af8a"
+    },
+    {
+      "file": "GALAUSDT-1d-2022-08.zip",
+      "sha256": "9032351ced56b6d01b95fbc4bbd2d093bb972cbf721021ed52a7654db944b4d7"
+    },
+    {
+      "file": "GALAUSDT-1d-2022-09.zip",
+      "sha256": "55cedf837728efd6152d584ac4fa5fe0da0e024dd9da3ee69e62d67c7a4fec8a"
+    },
+    {
+      "file": "GALAUSDT-1d-2022-10.zip",
+      "sha256": "dd39ad4ba332c9c63fcd9c02cf8ec2c96f3264fa691fda60725d007e964df119"
+    },
+    {
+      "file": "GALAUSDT-1d-2022-11.zip",
+      "sha256": "19b8881b2fc8944fcbb85dfe8886b26826f2e8fa938de352fa2b8459ae8eb9d7"
+    },
+    {
+      "file": "GALAUSDT-1d-2022-12.zip",
+      "sha256": "2dcb3b544137418c62b0518612af23f2654b26402866dce02a0b83c54ea72283"
+    },
+    {
+      "file": "GALAUSDT-1d-2023-01.zip",
+      "sha256": "3af215675bf62f7b2e9bab2498e9791b5f6234b8a496fb686127214a776b2250"
+    },
+    {
+      "file": "GALAUSDT-1d-2023-02.zip",
+      "sha256": "bc18c9f9cb575f35665a57d1cc0ccf7ed0eb548c80abc7921659e3c3a4e8f0f2"
+    },
+    {
+      "file": "GALAUSDT-1d-2023-03.zip",
+      "sha256": "f797f14b4637823f9a7efde1a5d4525cb626703c88ad14ede615dd295c6c341d"
+    },
+    {
+      "file": "GALAUSDT-1d-2023-04.zip",
+      "sha256": "fa7a73bdb0002613a789743850d87ee84f733a3854658a2c20815896c1bcfeab"
+    },
+    {
+      "file": "GALAUSDT-1d-2023-05.zip",
+      "sha256": "1861536f892ca7259fef5d997ee05c75aa43bc2ff465ff82fb828257eab97c99"
+    },
+    {
+      "file": "GALAUSDT-1d-2023-06.zip",
+      "sha256": "c6fd51530aedd106d4791ce879677ab36b2353b3e3ee769af452a794883fa9ff"
+    },
+    {
+      "file": "GALAUSDT-1d-2023-07.zip",
+      "sha256": "db3e0572406f27328dcb86a2f16bb269f66e1016837e8250ec2ccb3cc70b83b6"
+    },
+    {
+      "file": "GALAUSDT-1d-2023-08.zip",
+      "sha256": "f097755675fdd653d0adb0d47c378c8969deb242569bb8b539399b74db71399d"
+    },
+    {
+      "file": "GALAUSDT-1d-2023-09.zip",
+      "sha256": "0d0170412db7a686987a21ff3d2e7e7d60dfc26954a0018670464825d3b3b276"
+    },
+    {
+      "file": "GALAUSDT-1d-2023-10.zip",
+      "sha256": "b0d6fdbb42ff28c90606c05805fb5bb5a6fedb45047c5dfd471265e48abbafe8"
+    },
+    {
+      "file": "GALAUSDT-1d-2023-11.zip",
+      "sha256": "b2c11e88524c14d31520a5d901063ba855cac4faa11a80bf153384f821499c22"
+    },
+    {
+      "file": "GALAUSDT-1d-2023-12.zip",
+      "sha256": "1a6a77be255e4fa2167df97607c6c0b6381d071ab918c9e207fdc970976958ba"
+    },
+    {
+      "file": "GALAUSDT-1d-2024-01.zip",
+      "sha256": "2ed5cde31f5222fb63f538e2aca8dcaf9492faae0c7a6c4119174e0e1cce8b00"
+    },
+    {
+      "file": "GALAUSDT-1d-2024-02.zip",
+      "sha256": "40ed4cc17a185fc960282ed58ac5135ff3c6288a08fb64996520413972d7dbc2"
+    },
+    {
+      "file": "GALAUSDT-1d-2024-03.zip",
+      "sha256": "fe790a1186aaa7a54a062fcc61e4c1397b4c7c03a4b3ad17e386fe4a01123e80"
+    },
+    {
+      "file": "GALAUSDT-1d-2024-04.zip",
+      "sha256": "b7c323a38b5aac8b623ab66f2ca7c3dd95dc0f9abd2b8dfabe141ec9d4877fc2"
+    },
+    {
+      "file": "GALAUSDT-1d-2024-05.zip",
+      "sha256": "e6b583e9be2242bc2920e343830f66b97ef409210443f7f46c90b39417c20b14"
+    },
+    {
+      "file": "GALAUSDT-1d-2024-06.zip",
+      "sha256": "5e14cd4ebf6dd14b8a517cf38591bc0eb5050e395258b65d13f0226afb76c75c"
+    },
+    {
+      "file": "GALAUSDT-1d-2024-07.zip",
+      "sha256": "eaf9606b0c7a5160b1b148a5b3e257a8501956933ff6c897916f864b4b4f3c0e"
+    },
+    {
+      "file": "GALAUSDT-1d-2024-08.zip",
+      "sha256": "f90a8b4a33cc767d2975a3b1844e42cbdb32fdc3a650c7ced9c0d90b468b5a3e"
+    },
+    {
+      "file": "GALAUSDT-1d-2024-09.zip",
+      "sha256": "c50040aa96103ecb744b2c2ca6b350366410c3b674fe537c8649ea372b93e5ec"
+    },
+    {
+      "file": "GALAUSDT-1d-2024-10.zip",
+      "sha256": "d89cac0d40c2d20e3e5a6f8fe8add37279889c86349f66cdfaa78a20ea163dc5"
+    },
+    {
+      "file": "GALAUSDT-1d-2024-11.zip",
+      "sha256": "3ce55b1151f3625a96dde8c5c71fc611a581b683a20288d31a5ef16e56cbf973"
+    },
+    {
+      "file": "GALAUSDT-1d-2024-12.zip",
+      "sha256": "53402d24242e3b75dd7d2538bfdfda6356e4bb3a3446e5625ac2fcbb0e987b12"
+    },
+    {
+      "file": "GALAUSDT-1d-2025-01.zip",
+      "sha256": "568a4279b7961558a01acab9d85881f0efccb2898dab9ca3b2cddab42c538002"
+    },
+    {
+      "file": "GALAUSDT-1d-2025-02.zip",
+      "sha256": "c0431f497771f3387ba46305b0352910baba52cea365302e98ad2d7303364871"
+    },
+    {
+      "file": "GALAUSDT-1d-2025-03.zip",
+      "sha256": "0470fe3eb88662c9ce4e5ff25f23a96e3afc1c99ec95dd39db82b3196c18b02c"
+    },
+    {
+      "file": "GALAUSDT-1d-2025-04.zip",
+      "sha256": "f57ea462d7d2b2ad6a4042eb1bdfe71d4bb5c8ee2a3a48cbb853e5e6d556663f"
+    },
+    {
+      "file": "GALAUSDT-1d-2025-05.zip",
+      "sha256": "5564d487c2c05114bd7c755b65f3f2e393e1e752ed73271c9848cae8c41a43aa"
+    },
+    {
+      "file": "GALAUSDT-1d-2025-06.zip",
+      "sha256": "aac1da153c7bd449ed2c68f9c67a5a6c85a1900cb34b145af19432bdcc7963cb"
+    },
+    {
+      "file": "GALAUSDT-1d-2025-07.zip",
+      "sha256": "31861484b44509101373f9b8a271dd5dda522289ec927a3721e90b117fe76839"
+    },
+    {
+      "file": "GALAUSDT-1d-2025-08.zip",
+      "sha256": "637868f6f0fd6e42cf7d15c96f0db65187dbbc4fefac52fe3813491ac9adc85d"
+    },
+    {
+      "file": "GALAUSDT-1d-2025-09.zip",
+      "sha256": "f9544bc7156778d1a9473f36a5d4c413569a6b44ebbcecc5d17a13999e6ce0da"
+    },
+    {
+      "file": "GALAUSDT-1d-2025-10.zip",
+      "sha256": "7e8bb2ba8d00585c336ed9d7c11d7a6f31d4db8b7e74b918539b742765fa589f"
+    },
+    {
+      "file": "GALAUSDT-1d-2025-11.zip",
+      "sha256": "6c852d30e1027ba6a006fc83e1c3e36d92f6c45988d27aa009c8d61ef6f25ec7"
+    },
+    {
+      "file": "GALAUSDT-1d-2025-12.zip",
+      "sha256": "651d0597b06ace1d776480c637a37014fb47d4c89d4d04a01c03503b3fd38959"
+    },
+    {
+      "file": "GALAUSDT-1d-2026-01.zip",
+      "sha256": "e0b75eb57e0f052b947d67556eec22c2b4cc8fcc9664d08edd5769dbedd2967d"
+    },
+    {
+      "file": "GALAUSDT-1d-2026-02.zip",
+      "sha256": "ea0539133f3ebe07686606303d05bca8dc814d0833af4e87baf3c2ddf51b9c0c"
+    },
+    {
+      "file": "GALAUSDT-1d-2026-03.zip",
+      "sha256": "97cf627813692d05e0e4d7e378c982a120fcf7439c562959740fbc01b2558d1e"
+    },
+    {
+      "file": "GALAUSDT-1d-2026-04.zip",
+      "sha256": "19894d6f343f63d867eb44d802acaaaa0498916274d720dd303ffbb5119f2a97"
+    },
+    {
+      "file": "GALAUSDT-1d-2026-05.zip",
+      "sha256": "7fcd1ed311d281a0f2fa10960a9eb85420867c053e58f8787c8d95cb3db105f1"
+    },
+    {
+      "file": "GALAUSDT-1d-2026-06.zip",
+      "sha256": "73e955bab98829fc93a90772be45323c5293b6cb3bce30ac9508b959a5f4990d"
+    },
+    {
+      "file": "GALAUSDT-1d-2026-07.zip",
+      "sha256": "2bef9e42a0649eba281ed4d011fc3f45fdde5ff68d47dcb4898cc28331aa3506"
+    },
+    {
+      "file": "GALAUSDT-1d-2026-08.zip",
+      "sha256": "163770df14ccb05e875f2e06ff069a3927f59081a91fa2e792f50f4f1b3bcb38"
+    },
+    {
+      "file": "GALAUSDT-1d-2026-09.zip",
+      "sha256": "132fbb2524d5b089330ef21cd9bbd6b6db4035adec1ca0fa71d26876a01f423f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

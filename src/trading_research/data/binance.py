@@ -22,6 +22,7 @@ import io
 import json
 import re
 import xml.etree.ElementTree as ET
+import urllib.parse
 import zipfile
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
@@ -51,6 +52,11 @@ LEVERAGED = re.compile(r"(UP|DOWN|BULL|BEAR)$")
 NS = {"s3": "http://s3.amazonaws.com/doc/2006-03-01/"}
 
 
+def _q(text: str) -> str:
+    """Percent-encode a key for a URL (some pair names are not ASCII)."""
+    return urllib.parse.quote(text, safe="/")
+
+
 def http_fetch(url: str) -> bytes | None:
     return bhavcopy.http_fetch(url, retries=4, timeout=60.0)
 
@@ -59,7 +65,7 @@ def list_keys(prefix: str, delimiter: str | None = "/", fetch=http_fetch) -> lis
     """Every common prefix (with a delimiter) or key (without) under `prefix`, following S3 pagination."""
     out, marker = [], ""
     while True:
-        url = f"{LISTING}?prefix={prefix}&marker={marker}" + (f"&delimiter={delimiter}" if delimiter else "")
+        url = f"{LISTING}?prefix={_q(prefix)}&marker={_q(marker)}" + (f"&delimiter={delimiter}" if delimiter else "")
         raw = fetch(url)
         if raw is None:
             raise bhavcopy.BhavcopyError(f"listing failed: {url}")
@@ -127,10 +133,10 @@ def _fetch_month(key: str, raw_dir: Path, fetch) -> tuple[str, bytes | None, str
     if target.exists():
         data = target.read_bytes()
     else:
-        data = fetch(f"{ARCHIVE}/{key}")
+        data = fetch(f"{ARCHIVE}/{_q(key)}")
         if data is None:
             return name, None, "not_found"
-    checksum = fetch(f"{ARCHIVE}/{key}.CHECKSUM")
+    checksum = fetch(f"{ARCHIVE}/{_q(key)}.CHECKSUM")
     if checksum is None:
         return name, None, "checksum missing"
     expected = checksum.decode().split()[0].strip().lower()

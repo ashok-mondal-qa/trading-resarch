@@ -1,0 +1,77 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/HOLOUSDT/1d/",
+  "instrument": "HOLOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-09-11",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:35:07+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 385,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "HOLOUSDT-1d-2025-09.zip",
+      "sha256": "fdd8c1808ad620c160b4760d508b5b21853ac585f2a6aef5b8c4003eff745164"
+    },
+    {
+      "file": "HOLOUSDT-1d-2025-10.zip",
+      "sha256": "d789d060e575da732d40d228f3e2dbfef6c32153a5b92ec82ae28ab47c5c41cd"
+    },
+    {
+      "file": "HOLOUSDT-1d-2025-11.zip",
+      "sha256": "0f20fa6133c9c896fde4c58d9f76f86e866427d01d0bbfc41b45d2a2c5fb63a1"
+    },
+    {
+      "file": "HOLOUSDT-1d-2025-12.zip",
+      "sha256": "397db2c0e83ca76912fab3983b58c19930fe3811356d98130f51afc10267c06b"
+    },
+    {
+      "file": "HOLOUSDT-1d-2026-01.zip",
+      "sha256": "d9db8bf260a13e43d67626e872924cbc673a55df6a0a21dcc09293dd8688701d"
+    },
+    {
+      "file": "HOLOUSDT-1d-2026-02.zip",
+      "sha256": "4596587c2302842cf0b8d483b10a39c0a22b52b3cc80e02a4ed89363835ec706"
+    },
+    {
+      "file": "HOLOUSDT-1d-2026-03.zip",
+      "sha256": "a155cc31a57168de798a3e3d43f434245382b92640138ab99f7d18664b8ebfcb"
+    },
+    {
+      "file": "HOLOUSDT-1d-2026-04.zip",
+      "sha256": "2142d43be6b97d6428e569ef6d3cd588fbc16675e367951d24dca3c4464088dc"
+    },
+    {
+      "file": "HOLOUSDT-1d-2026-05.zip",
+      "sha256": "797c0677d3dd530b71021009ec95a94f4f80334059e871bc96bac679b3dbf779"
+    },
+    {
+      "file": "HOLOUSDT-1d-2026-06.zip",
+      "sha256": "4f4dfde797964eb8d9278f00ae27039a901bf4351af41df7ba7771e6654fb16a"
+    },
+    {
+      "file": "HOLOUSDT-1d-2026-07.zip",
+      "sha256": "5a08ee4a38eafd8f324c044b66bdcc11f5c166b166db9a9b64a00ccab8f4c73c"
+    },
+    {
+      "file": "HOLOUSDT-1d-2026-08.zip",
+      "sha256": "ece0a6c3cab9140b470c9651f24cfe18ec9bbd3f2800217d136209a9992a34ae"
+    },
+    {
+      "file": "HOLOUSDT-1d-2026-09.zip",
+      "sha256": "06ac21bc67bb80108fa933fa99c9e88c1c89d2b87b47403cae6f517fe4711756"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

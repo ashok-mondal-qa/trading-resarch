@@ -1,0 +1,209 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ALPACAUSDT/1d/",
+  "instrument": "ALPACAUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-08-11",
+  "last_bar": "2025-05-02",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:25:30+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1361,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ALPACAUSDT-1d-2021-08.zip",
+      "sha256": "200e79c1bdbfaf77d403da0b28a543f45666b29c331a1204b1dffd3f5d36525c"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2021-09.zip",
+      "sha256": "96bce70ef7dee698337d7cb86ad1e9b64b9deb0fb0c1b389fe093b293f7c6cf0"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2021-10.zip",
+      "sha256": "d765f2f0d45409cfcaf7c73b31bf20a6735e8f6901fb77aeb333d5ee287feb5c"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2021-11.zip",
+      "sha256": "d73253d54842bab89e7e10fd2be52ab2559d6cf91b8c17095a9e0a792aff3ced"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2021-12.zip",
+      "sha256": "3307f506cb29381c095b98da96f6bb8a236a96fd174d252cd8dd3eaf6073d191"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2022-01.zip",
+      "sha256": "017c9882dabce951b8e7162c14fcb1cd2bff356c75909b6e73389084710d7685"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2022-02.zip",
+      "sha256": "75e2ceed09924b3760f0f69bc008fdf899646c3f350750c68587a8914e6ff09d"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2022-03.zip",
+      "sha256": "0e0a7534380acf29da4b9913c3a6b9dc1de22149e67a5454439149ec833fcb94"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2022-04.zip",
+      "sha256": "95777a16d652ae846202c22e4f094a4d0b6eee46fdcf44c2b421e5da27a28834"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2022-05.zip",
+      "sha256": "127d5f1ebacd990506d59c7d0897668bb5bce6146e50afc3ca123016cada9b45"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2022-06.zip",
+      "sha256": "0cd164350a0d617620d79d3515e318c9d02d8b02be1808381810978042240755"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2022-07.zip",
+      "sha256": "bc58020190f5ee2582898744abb5defe9157acd4bcadfbbee816d34785cd4ec9"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2022-08.zip",
+      "sha256": "c724bd23d3b8bef703439be274e6d44658c8a569201950d48282b03d73e9c148"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2022-09.zip",
+      "sha256": "9966140ab906a585ffd300fd5895513b91b9453107ed246d4575d072dcbf2793"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2022-10.zip",
+      "sha256": "2404b5ff78660ea34b4814719493c41d867562f1a1ea3b76c8327ce5e86c72b9"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2022-11.zip",
+      "sha256": "512e419882c704d3120b2f51d3d4f94c38da44ec0a74b8dde92cfddfb14f5f4f"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2022-12.zip",
+      "sha256": "b0c79bfdc9160f391c5aa1537bda445d4336975b82db1351d742cf22c8b59175"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2023-01.zip",
+      "sha256": "dc3e64300bf55ff40f71818f16d9e63bbb117e316f64f55cfd2202c74da39698"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2023-02.zip",
+      "sha256": "a3b29209a92381f9810110b627f5a9b02ee7bcd5eb94a32694cbdfd5d6319874"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2023-03.zip",
+      "sha256": "02e070eccfd94c64d09e4060819a3d6a51abfc1627f047cdf0e8b2f2e85e766d"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2023-04.zip",
+      "sha256": "adcaa0f6e50386a069afac1f989941be24f77395ef19cdf9843db08f0075ad90"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2023-05.zip",
+      "sha256": "3686d3ff2ef1be4ce937fdb3cd4d06afadb7327751ac65f159e67a252ae6cd14"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2023-06.zip",
+      "sha256": "a0c564d318d60cded69eccf952f44b6c31999610f7126f2a0002461c1b0049f3"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2023-07.zip",
+      "sha256": "b86a5801428d7bbdd796817c0f1ba0da58482752e8a51e3c33d3ce18d46c9723"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2023-08.zip",
+      "sha256": "1e2bcb4710bf72a6fd973aa868492616c69cb8da9c82b832f4640064a0e5505a"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2023-09.zip",
+      "sha256": "c0abf0f2215d3b3aa77b071e6f400895f9b3d2cb6edad7df3d4c9b339413a479"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2023-10.zip",
+      "sha256": "b698aec624a70efcff0b9e6470d1062bdc210ecb9f2f4146f64f2936b94b5795"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2023-11.zip",
+      "sha256": "8388079851a94a4d79c7707f18ce2886136634f824c1f3ee8b8188161653bf01"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2023-12.zip",
+      "sha256": "87744a124d5e1ece928fe36492fe2831afcd335a844f64dcd714562f15b795c1"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2024-01.zip",
+      "sha256": "31b6a4f67975659c9f981c5ac7ab9948670e25a45eba86bfd1b128a368aa40be"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2024-02.zip",
+      "sha256": "6bb365c84af6bc39501373f971347dabb688b6199e24492965542e5df5294ad2"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2024-03.zip",
+      "sha256": "88f99d01207af32f79f77575cf00ee5868e91ecb218824ae9e523613163ae917"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2024-04.zip",
+      "sha256": "54aa7c1ebf6aee137412dc0b86e9adbf6b7e1538dcd4fdfe8b5d46014f0b4e10"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2024-05.zip",
+      "sha256": "a8486822f959755b85c33d71d6ba5b4ce73c655b346b8406a340d3c4ae76a1ac"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2024-06.zip",
+      "sha256": "8c21acbff12ab13347f305ed8af09090a43371f3b649cda8abbc7c1e2e987877"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2024-07.zip",
+      "sha256": "49f98d67497d0120df88fddfb8bcfa16e38d90f8b1b385cd430cadfb0cf826cb"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2024-08.zip",
+      "sha256": "82c839dee743fb37609999e0ac1e9e634055a8f7d9c0e92af88c1574b4f88087"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2024-09.zip",
+      "sha256": "6e12e3d99df479c6c9ff0f7fdad70f78190418cfa3aa81bb1240e077b0f5ec78"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2024-10.zip",
+      "sha256": "f1e2c21c7216e5682162920ef8bc548caf804543b6dbacbbddfbfbd2add5582e"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2024-11.zip",
+      "sha256": "d467dddefca0a8af0fb2cf4178563145c7a8d04a4388b964a78f1a125241f5e5"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2024-12.zip",
+      "sha256": "041f21525e8f70f3af34b851e23e379a8160f6ceab93214c4ede3a0cd1b2d5e5"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2025-01.zip",
+      "sha256": "c85f123f6e707a8fb8d82d06ae487cfe04499879f1f599938401d7435ac45c81"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2025-02.zip",
+      "sha256": "af3bca14dbaff8a5fb005c69f39a38c47229ab17480d8ca1d562bb5f7ac256f5"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2025-03.zip",
+      "sha256": "09458edf883101a9af41af4c66299cffa110e18e9617145a72711576964c3958"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2025-04.zip",
+      "sha256": "b1ff6f761fddbc1bbdbb69d6ed7668bee1655eb71f35118b737e1a2ded4c918b"
+    },
+    {
+      "file": "ALPACAUSDT-1d-2025-05.zip",
+      "sha256": "ba6db6a2b560b8439fe4071c7c908e2cf6ad1ca4808cc84c1709d73644edb6fe"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SUSHIUSDT/1d/",
+  "instrument": "SUSHIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-09-01",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:46:53+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2221,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SUSHIUSDT-1d-2020-09.zip",
+      "sha256": "250bd340e87a4df49fd1e48bd0e99c06dee47c9ec9944f3d69e626513e923e0a"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2020-10.zip",
+      "sha256": "9755b958e2daf87d187c52b0b85c8b4d839a86a2aebd97b358adc94895b3431b"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2020-11.zip",
+      "sha256": "9cd56cc515ce78815a58736b4e29efd05ec4ceacfc8815b2fe657e750cd2b683"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2020-12.zip",
+      "sha256": "85394fa70d363773981996d5ea523ad8f90d34343c4368ce15c103a43968512b"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2021-01.zip",
+      "sha256": "a49047679da4350b47f3cf2df95921642686cc4d58e879d19b1b89d5d7d5ef94"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2021-02.zip",
+      "sha256": "d45c1e34377a1bdc92c3d553215b27e09840f7cf6c4d5fb73397f2e334b56337"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2021-03.zip",
+      "sha256": "e663e37ef44a9f6df068c0322d938e1bfa6022b5602a4b32a8934895f20ed54c"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2021-04.zip",
+      "sha256": "a24637fbca0c2c0fda345a078a43fb817496f276c3087d1d9586270d2b1ef2a5"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2021-05.zip",
+      "sha256": "d1d4e3be3a19155b5eb2e5590c9fda54c87e049de737123acdc9329d8adc2946"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2021-06.zip",
+      "sha256": "f7f299c36bde6bfd495e5c2683a11eb2a8b413ee31295a0168684ec6fe975a44"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2021-07.zip",
+      "sha256": "86c6a5fe5e3bb52f7d87c65e5f9d5e6ebb974675b742751db93c8269b08529d2"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2021-08.zip",
+      "sha256": "8c023172b2f345163ac9ccdabfb69ce39fb9411f2b2169bdc10a9eb8e638e8b1"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2021-09.zip",
+      "sha256": "91f7f0527eca226e766d8dfccd9849e2f7d46f240876a57c4cc1791c06460cd5"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2021-10.zip",
+      "sha256": "dd3d9128b1e9463c62624994a5ad2c7df51da00a1db29740d0631f1d82367b6b"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2021-11.zip",
+      "sha256": "78d2bb356b018a3919a2c604add214e602414a15d1343692e65874d5980c8d14"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2021-12.zip",
+      "sha256": "4012177fb55502c74faba398665e288f3d46aa5d078c1dd9053de28f59962483"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2022-01.zip",
+      "sha256": "c39ef8bc0d5f045e910bafac3ecaffeac57b0739aad2f8172b105002c3ee9c1c"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2022-02.zip",
+      "sha256": "08d04fc3a2500641dbce84a06a4afc7f4dea5c57f77ac5fc43732b6217b38f10"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2022-03.zip",
+      "sha256": "f656d9434c9871aee6a71956e5aa437746e219e0a8ca106bdce50b15c67e40ec"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2022-04.zip",
+      "sha256": "9480a06064f6636381a347ac877b53fdd6ed7ef5b7ee3f0cd224a518bffd96b2"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2022-05.zip",
+      "sha256": "c4355812f1d7a89479a8aa242fde0c43ab547c592fe0ffbe8ed86bf289f6ea3f"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2022-06.zip",
+      "sha256": "b5c5e0e3ca10fa4138a8ca04ba997f398e6b086c03d46c62dd20f1e68e099f4e"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2022-07.zip",
+      "sha256": "82c6b5b09b9d438c817d55bda186d4f995f63a0cc059c76e7e793f7bf51f2806"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2022-08.zip",
+      "sha256": "28277f54a247b23f96f26cc1449ae7b698ab5979f82c5554d8a5800cd030ba30"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2022-09.zip",
+      "sha256": "8c6d8a06acdbc32c1d301e9ce31368c7439e9b02a6d56c3ca54b3c83058ebefe"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2022-10.zip",
+      "sha256": "5f2fabc949db7093a06ee4b66eedf7644b43a3c2baa2d24eb9f4a91d1976146d"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2022-11.zip",
+      "sha256": "927cbe32d1df597e01fd52f1cde1118d7d83d9f07b6b5b709cdc11f836f2f4f4"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2022-12.zip",
+      "sha256": "8b4e0cb2eecd9e1264335dc4ea197904dc07c8e57a17df1e7cf790bd6ffe41ba"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2023-01.zip",
+      "sha256": "32d7e4b1096fa3ec2c870e199c55edafaec616ed4ae07c8bbaffafb6ca5c5e23"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2023-02.zip",
+      "sha256": "ca731ddb2cf880c3405b4878cb4ade5038c313d01a6882d09527e87a984b95ee"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2023-03.zip",
+      "sha256": "9b1925e2f86127a4d041392e716f33ced98791be41902266170102aa5c8235a9"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2023-04.zip",
+      "sha256": "8780d0b8ca75f13052e76f8863ff86c152113d88d8c9cddcf33c7e4491d98b74"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2023-05.zip",
+      "sha256": "248a090bd7cc4b75466f1db51984e89ec5884d6e009799bb940def7d80bd9291"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2023-06.zip",
+      "sha256": "fe713394f027daaad3631596ec64a0e8d3c1b0d4507deed0a5483fe8c9f7fb45"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2023-07.zip",
+      "sha256": "e1002a6f2f0869bb5e676c2056bd43247f265e8c36fdda2bbf60cdac224d5c8f"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2023-08.zip",
+      "sha256": "23694a8b00fdd91f1519a30cbef62938b80485068d12a84b44d378830724b1af"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2023-09.zip",
+      "sha256": "c0d6f7014ca4ba10c63d1b01c88383e4d61fe56064ee1f285beb775d5dcafc18"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2023-10.zip",
+      "sha256": "a58c1154b6893cda4d452c7995eec625750aa2830dc57090ea52372728d71194"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2023-11.zip",
+      "sha256": "ad20f571f108a3e5c6c8dc3c5a31697ec1d1051a17fb66aa7b114c54ce5e539b"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2023-12.zip",
+      "sha256": "6b68d3b14171b803e5684c3f9d8daf9a9d40a79c66d9aa5eb5dae2333a2b05ff"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2024-01.zip",
+      "sha256": "a7ca4f149706d3397c032246c2cc5ebeb2b982ea2301f2bab6a0ed73761634bc"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2024-02.zip",
+      "sha256": "e14dd085d1131df5b02b97297d90a4d21b3e5b91256ee2254f1f284a9f6f6f12"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2024-03.zip",
+      "sha256": "8336cd06cbd87a1d471004fe513490923b588d87411bf0e31f654de3a95d27b6"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2024-04.zip",
+      "sha256": "dc83ebadae4fa4ea242170eb1ab598b7fc57118e3a967d05d9fc3fa827bb0ed1"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2024-05.zip",
+      "sha256": "d10e00eb6cab3659b89725aaf5ac6119e78b4100e572e5b19a30c6a53cde9298"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2024-06.zip",
+      "sha256": "8cbf112a8514bd6a98f46d92cbcaa40a7d0ff69976996984691b9503e64bed32"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2024-07.zip",
+      "sha256": "88df68ff50382d384eef01427a330780afa5b67bfb9d1f128d0d70f726b4dd59"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2024-08.zip",
+      "sha256": "6de9820a74df996a002c04ad0f81a2db853f0fb55106578db2b67ec4d83d9b9c"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2024-09.zip",
+      "sha256": "1e9f627613551f993ec227d40291b766ead1ec4ac0db2759dd73b6efc5670aea"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2024-10.zip",
+      "sha256": "5f17ab10c6ee621909ec610f4239c3c475348573e29684f4bc40a7f85494b597"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2024-11.zip",
+      "sha256": "da2114bfb5ec6f04e96c38d4eaded6dc6e5dc3a2eae9dfd9faece2bd835ad5b3"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2024-12.zip",
+      "sha256": "9b8137073743cf01e14d3a4769b0778d5509bed15756df54c8212b3ac8d4e0d0"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2025-01.zip",
+      "sha256": "b05886ef7376016343e813e49a5cd7e2fd1a2268840648747f8d1af8c1a3a430"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2025-02.zip",
+      "sha256": "9fe400fe01ba8ad01273c9a3d49814c9bb0212767acedf016e5467b8e6c092c0"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2025-03.zip",
+      "sha256": "06cf6fa6ca94353a189a277d424a45b25466320f72859f1a9d269c5b9c6e05e8"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2025-04.zip",
+      "sha256": "99fa723eac438445e55ebde54ed339b1102e38f6a567cf33870e9ce779174553"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2025-05.zip",
+      "sha256": "6f9e89e7ee118d1f2b991682469b61bbfbc41a965bb9467d7e7fde08e4b22d52"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2025-06.zip",
+      "sha256": "6aec7b667bc47cf2e4accfdcdbd9781b1aa9cd0ec0c60e411b7e521ff7fd7939"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2025-07.zip",
+      "sha256": "e993d9e224be3b349f28ca7bc6499c027f24cb2da2aa44a33136f45c966c40db"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2025-08.zip",
+      "sha256": "c4fc9a32244f96aad4f1f39a77714d4b8fb7f1187f216ea847f54a7b2bc13896"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2025-09.zip",
+      "sha256": "3613db99bd66299aae1f701b8446a1be7d35d4d890c475ca50a33d20b5abd9a9"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2025-10.zip",
+      "sha256": "9f319d60c56916d46cdb8089ca2d80b18a6e930a3d01fc6bcb93d287521240e6"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2025-11.zip",
+      "sha256": "cdc1bd0b59decd49c9699489e2dc78dd8757cfca48bbc4203fb0688da858f457"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2025-12.zip",
+      "sha256": "287c96f3fe1db06df0637b4fca35b8beb80b15337e70dd3c9882f682f2629db8"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2026-01.zip",
+      "sha256": "a05adda9865ae4609a8f3c1ccacff893d258691de88a4feecdf3e2d377fdab94"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2026-02.zip",
+      "sha256": "dd888cc7d4ef937ddce992fba2a61863969be9b37485778a8a0068e86d32d192"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2026-03.zip",
+      "sha256": "cc52d8a175ec941ac42ed7ccf64a2252de7fab420fdb7d2cd505197beca990b7"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2026-04.zip",
+      "sha256": "1bda37f51de2dc0f030841fdd10cc8edc6765da9c2494d7796364d3601b28405"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2026-05.zip",
+      "sha256": "142cd435780dec90f48151035afb731b76024a581ca3eb6f1b32ee0775352373"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2026-06.zip",
+      "sha256": "c6e7fddd1a10f846059f873532664ba369fa3ae5ffffec62aa842634109f4e13"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2026-07.zip",
+      "sha256": "2c8b3ac094ae877ae2a52e4ef65f071c24bedbf99a1c2cca45c1bf0df9b0d2a0"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2026-08.zip",
+      "sha256": "876adc5612648fdbfd21ffdef15ec2606bb24a7c7de621ad568525016b468215"
+    },
+    {
+      "file": "SUSHIUSDT-1d-2026-09.zip",
+      "sha256": "6aa4541e69a3eaa49443f81ff861c7497e4c20ebcbb347e4626872a5242d6051"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

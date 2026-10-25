@@ -1,0 +1,173 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/AIONUSDT/1d/",
+  "instrument": "AIONUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-02-19",
+  "last_bar": "2023-02-27",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:25:06+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1105,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "AIONUSDT-1d-2020-02.zip",
+      "sha256": "74d6ed2104ac2ff835d148d4ef80ec0bec3e0a1876d187e96dfd8abc621d6b1e"
+    },
+    {
+      "file": "AIONUSDT-1d-2020-03.zip",
+      "sha256": "61c9cd8861fb68759538ff0cd63b2c8a4659a963e382b1d30d999eb3f4415980"
+    },
+    {
+      "file": "AIONUSDT-1d-2020-04.zip",
+      "sha256": "c6069d8e6351129b3370e6f7e11df453c14199d3f90e24df14c1b716973eb72c"
+    },
+    {
+      "file": "AIONUSDT-1d-2020-05.zip",
+      "sha256": "7a6905ad60efb5348be38235ec2e3196d910b893753f161e40ced169ffcbaa33"
+    },
+    {
+      "file": "AIONUSDT-1d-2020-06.zip",
+      "sha256": "259e8f8248110e41e7e0db0a50a31d201139f0b785ae87a29d7c575da23247cb"
+    },
+    {
+      "file": "AIONUSDT-1d-2020-07.zip",
+      "sha256": "c9d4e4a34c91bde881c8583766efdbbe085b792980abfbd2138053261634b986"
+    },
+    {
+      "file": "AIONUSDT-1d-2020-08.zip",
+      "sha256": "d34c3106c8f879eed896ff61d563c1cc33f16e48b740dfe9020b7bbe3619d162"
+    },
+    {
+      "file": "AIONUSDT-1d-2020-09.zip",
+      "sha256": "3d0729fabb8596a808969aabb73702243b93d76f0136ef776c1bc9c43d91b022"
+    },
+    {
+      "file": "AIONUSDT-1d-2020-10.zip",
+      "sha256": "ea3b26b36250b3e5b9284efa5a842570b09f073dadacb396904c1027aab0c71a"
+    },
+    {
+      "file": "AIONUSDT-1d-2020-11.zip",
+      "sha256": "b9616413a4a19488f27855c89338e074f127bf41ee2f267299b06cbcdcc0060e"
+    },
+    {
+      "file": "AIONUSDT-1d-2020-12.zip",
+      "sha256": "796f6169770aa63ff61311506c7a3f7b0d5d957eb21286d4010a990660a7f032"
+    },
+    {
+      "file": "AIONUSDT-1d-2021-01.zip",
+      "sha256": "9416326799e2caec19d1cdb627b8ffd5f5fc191f2040d3e43c0c4e437d4a510f"
+    },
+    {
+      "file": "AIONUSDT-1d-2021-02.zip",
+      "sha256": "11c71acaf0a7b2e51169af8ab376004c9ee27e10e95afec46a0527e510c1c94d"
+    },
+    {
+      "file": "AIONUSDT-1d-2021-03.zip",
+      "sha256": "654f829a92908e752b61815095137023ccb557c9609a4359be066c7c9b395bd6"
+    },
+    {
+      "file": "AIONUSDT-1d-2021-04.zip",
+      "sha256": "38b7f7517391ff5621b7a2ebd7be04cc0ba144c6c7e136d1254b0cbcc38b637a"
+    },
+    {
+      "file": "AIONUSDT-1d-2021-05.zip",
+      "sha256": "8dc865ba1513f8abe486446b50ae0ece2e3d24d9f88f670a27974ca7624a222b"
+    },
+    {
+      "file": "AIONUSDT-1d-2021-06.zip",
+      "sha256": "f2dc95ccf0e4da874a8cf002a0f2a23793f9cc2edddd865934a2af03a535f78c"
+    },
+    {
+      "file": "AIONUSDT-1d-2021-07.zip",
+      "sha256": "8181de280721376a3d9c9c5d5adb17a5b74a52f29d6ec06e6eabea9af7d00d37"
+    },
+    {
+      "file": "AIONUSDT-1d-2021-08.zip",
+      "sha256": "44ac18e01321c08375f0f7e0f9f831e5de525dd269e966b1e77af8a05727cbc9"
+    },
+    {
+      "file": "AIONUSDT-1d-2021-09.zip",
+      "sha256": "353b1919285702ef4d7d0daefd3b442c162a33b594c59e494c8d6cb52e621386"
+    },
+    {
+      "file": "AIONUSDT-1d-2021-10.zip",
+      "sha256": "feed6ea0aad18aa8cdc09daeb3560fea39ca982010839dfedbd5505df9388248"
+    },
+    {
+      "file": "AIONUSDT-1d-2021-11.zip",
+      "sha256": "de0c0ecd5e478e85a996faa690ee074fa2a160a58daf7c6e2b5af01951b84c37"
+    },
+    {
+      "file": "AIONUSDT-1d-2021-12.zip",
+      "sha256": "4a3ac51c99bdf19cf9ad89740a5ca9651b0376e33a1481cf02336cec217636ad"
+    },
+    {
+      "file": "AIONUSDT-1d-2022-01.zip",
+      "sha256": "722089cd27342b1f0513c0bba8e54bac4588438bff4cc06f7c54f3b8605dcd6f"
+    },
+    {
+      "file": "AIONUSDT-1d-2022-02.zip",
+      "sha256": "8299b1a0f05467254c8834911675820b4f0afd6847255e2e37718fbbb7fa1292"
+    },
+    {
+      "file": "AIONUSDT-1d-2022-03.zip",
+      "sha256": "dbad94109c4905a8218743f8d8eafd4f6b7ec78cd6133864ca89d0b9eb4104a8"
+    },
+    {
+      "file": "AIONUSDT-1d-2022-04.zip",
+      "sha256": "1f2a8f09b0aa1c041f13e1e09394865d20d7368bba0228fabec38d2e084e4390"
+    },
+    {
+      "file": "AIONUSDT-1d-2022-05.zip",
+      "sha256": "bb7fc76589721e88642f33541c598b134039a515fbff6b42a66c08c47760f659"
+    },
+    {
+      "file": "AIONUSDT-1d-2022-06.zip",
+      "sha256": "b184c21f7b4569ce1e5b75b1bcfdfc3ccb6b2eba572a13e9ca488355edd9c19d"
+    },
+    {
+      "file": "AIONUSDT-1d-2022-07.zip",
+      "sha256": "8207653e21481d65622d260e0f4f7b21c344b85d09a9fcfb511d1dac3d965d71"
+    },
+    {
+      "file": "AIONUSDT-1d-2022-08.zip",
+      "sha256": "42566a87fbeef55d3b4bcca9452420d28443105c5d96418a5806c89270407aaa"
+    },
+    {
+      "file": "AIONUSDT-1d-2022-09.zip",
+      "sha256": "ecebb53bd8499d20fe1262839701a68fae50b9e67acdc631d36320c446fd1d39"
+    },
+    {
+      "file": "AIONUSDT-1d-2022-10.zip",
+      "sha256": "9529f7e833d056c6443662afdbb04ceeffdac90549316cf0efed3765f5d4db7e"
+    },
+    {
+      "file": "AIONUSDT-1d-2022-11.zip",
+      "sha256": "3b04f55588b13a2e16d5a55b0687963d04e80e8207e2c70cec67cc100c6e4d17"
+    },
+    {
+      "file": "AIONUSDT-1d-2022-12.zip",
+      "sha256": "cfdf8697702d41f0ecc9428c1d0fea5ee3eb70a511fc6294152a85abaa0514fc"
+    },
+    {
+      "file": "AIONUSDT-1d-2023-01.zip",
+      "sha256": "07afcea224e812a2f12b87790c2a141e6703f3dfb16f4c08630cb05688176575"
+    },
+    {
+      "file": "AIONUSDT-1d-2023-02.zip",
+      "sha256": "597e62bbf9747b37014e102cb48edad3c4008a604d4c53a24504b4a3ec147393"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

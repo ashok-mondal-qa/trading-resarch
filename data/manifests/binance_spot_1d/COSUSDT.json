@@ -1,0 +1,357 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/COSUSDT/1d/",
+  "instrument": "COSUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-08-03",
+  "last_bar": "2026-06-19",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:30:41+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2513,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "COSUSDT-1d-2019-08.zip",
+      "sha256": "28a2a4185859506982c00959b733884bbef5abe9e21fcbab910234f03a71f07a"
+    },
+    {
+      "file": "COSUSDT-1d-2019-09.zip",
+      "sha256": "9ffe0fe7e3156662aabd1687db619185411beda50bf9c04f26bbc273da2435d3"
+    },
+    {
+      "file": "COSUSDT-1d-2019-10.zip",
+      "sha256": "aae71362adfaeb0692e4cb25bf90b35627fc5cc886f438217e8edab943cd61fb"
+    },
+    {
+      "file": "COSUSDT-1d-2019-11.zip",
+      "sha256": "34780c8a66dfd44a5a9c8a71eebde8cd87019c1521a88d3251502de797ac26c7"
+    },
+    {
+      "file": "COSUSDT-1d-2019-12.zip",
+      "sha256": "104b0ffdf38a81460cf100f662596bcd494005c86d52e8871870cc1a6e18e8fd"
+    },
+    {
+      "file": "COSUSDT-1d-2020-01.zip",
+      "sha256": "51a3fae6e0a75a3833d41b7ecf1d98fc3b26007c6aed86094801b805cd9b1014"
+    },
+    {
+      "file": "COSUSDT-1d-2020-02.zip",
+      "sha256": "510bd2db72ae69e5be4ac7ae9ba17120758f6dfc92c114e6c1f7cf9321f5672a"
+    },
+    {
+      "file": "COSUSDT-1d-2020-03.zip",
+      "sha256": "70623b04f67725fc8374bbe34e69f68304645988b61b74683a30658633149979"
+    },
+    {
+      "file": "COSUSDT-1d-2020-04.zip",
+      "sha256": "eb8eec9a2d497214ce4056f416952f53711a90455f34897d401607f07cfa708b"
+    },
+    {
+      "file": "COSUSDT-1d-2020-05.zip",
+      "sha256": "9c787cb7a1139fb124cf7215c150b1133912dfc675ef509a57d38853771b73c6"
+    },
+    {
+      "file": "COSUSDT-1d-2020-06.zip",
+      "sha256": "4a6887a9d284175df0401c26cce68fbbe160c6907e640f4428bcaa58bc74912d"
+    },
+    {
+      "file": "COSUSDT-1d-2020-07.zip",
+      "sha256": "42e083e9583de19b2c4c64c1396b189d33c7b9456703c27aafb910e95fd2eef9"
+    },
+    {
+      "file": "COSUSDT-1d-2020-08.zip",
+      "sha256": "a52dfe2c6298a8120c325bac437ccff02a1ee702cff62013eec3be80816b2ab6"
+    },
+    {
+      "file": "COSUSDT-1d-2020-09.zip",
+      "sha256": "a210fb653443624acc1b9c8619eafb35984eeb16ba0872bf4c96a9b707c7dd75"
+    },
+    {
+      "file": "COSUSDT-1d-2020-10.zip",
+      "sha256": "dfa0ae302d3b92e4b2278da8eeadb388d1e55ae787555a5e426336249276c53b"
+    },
+    {
+      "file": "COSUSDT-1d-2020-11.zip",
+      "sha256": "e593bed1f3059f4f2b5b854b3b3a442c0fda39c86fe895b62573122244e2a3c3"
+    },
+    {
+      "file": "COSUSDT-1d-2020-12.zip",
+      "sha256": "f4296799877caa0eeb7524a7bbb599e73cf41188728d321d5145f7b8b4003529"
+    },
+    {
+      "file": "COSUSDT-1d-2021-01.zip",
+      "sha256": "fb775454eeef29f044428f7bd387ce37d32444983a185b17d93d77287959317c"
+    },
+    {
+      "file": "COSUSDT-1d-2021-02.zip",
+      "sha256": "dc76c374f76c65a5df458d11949b172e88816c9354723c82b9b481ef10638f9c"
+    },
+    {
+      "file": "COSUSDT-1d-2021-03.zip",
+      "sha256": "3994d92da62ef2ab4d4800c9e398583f92cf38f58d76238e753606c4991268f1"
+    },
+    {
+      "file": "COSUSDT-1d-2021-04.zip",
+      "sha256": "3af7cda51649ee6b25ce45fd2d1c55a1cf93bbaa40ced6cebe23693bb18d63de"
+    },
+    {
+      "file": "COSUSDT-1d-2021-05.zip",
+      "sha256": "ed74991118be8821f09ad3ae3514788e901de758b2ce5ff2d911e1fb7ae9a241"
+    },
+    {
+      "file": "COSUSDT-1d-2021-06.zip",
+      "sha256": "14a38f79e1b0cdb2f94a57fe5e249ba87628f997d06008263bf482f4f4cbd2fe"
+    },
+    {
+      "file": "COSUSDT-1d-2021-07.zip",
+      "sha256": "2eba6d49dfab007219453c0403590d33ce0118f7d4c34df32e86c3d0ae7d9754"
+    },
+    {
+      "file": "COSUSDT-1d-2021-08.zip",
+      "sha256": "36595b2fc6833bde8a929ca210244966e5eb073ff848a2d6b6963affad26e78c"
+    },
+    {
+      "file": "COSUSDT-1d-2021-09.zip",
+      "sha256": "b11decd71f1b798a2ff10f7edc2c53533e67557b2c93c49a7962539ba8c189b0"
+    },
+    {
+      "file": "COSUSDT-1d-2021-10.zip",
+      "sha256": "aaca3e0a9aea27fb61fc37bd95c0194195383be734ae49ad90abbf43611cd718"
+    },
+    {
+      "file": "COSUSDT-1d-2021-11.zip",
+      "sha256": "96665e71fbc3b505a24f5cd03ea9d8cb2a49c89e13630cd6d0d7a4439bf5028e"
+    },
+    {
+      "file": "COSUSDT-1d-2021-12.zip",
+      "sha256": "e9311c083c39c9c7c8c659c9196ba9cbcc2f9e5af5eba8383e5d655b5438422b"
+    },
+    {
+      "file": "COSUSDT-1d-2022-01.zip",
+      "sha256": "03d9268dad40517e178d90e5a4451584c58e6dba6d4846d4be47fec774dfc31b"
+    },
+    {
+      "file": "COSUSDT-1d-2022-02.zip",
+      "sha256": "f2adea544288e2751d53bd7155202f277283eb0d83d103918e4ff9489134dcff"
+    },
+    {
+      "file": "COSUSDT-1d-2022-03.zip",
+      "sha256": "ed94874fc811b7ca57a9deaa81c9cd4f64939b1b0c494295a6277341e50cd5e0"
+    },
+    {
+      "file": "COSUSDT-1d-2022-04.zip",
+      "sha256": "52fa4dfa0e21076f28ec338c78f75411aa3719ba15551c2346e931eb6f96cab8"
+    },
+    {
+      "file": "COSUSDT-1d-2022-05.zip",
+      "sha256": "0d66997c2ffe1bba897bdd62fa507c7b630e9869c3dfe6fc2f52ee38061cbd1b"
+    },
+    {
+      "file": "COSUSDT-1d-2022-06.zip",
+      "sha256": "4dc566b2170be7b33a4cfc6a9271e453e0b59129123406689e56a9c21864d9e5"
+    },
+    {
+      "file": "COSUSDT-1d-2022-07.zip",
+      "sha256": "7fb2f8fe411d5f9a5c361eae67d611d64fa289c7631769953e8f5ddaf5068a1c"
+    },
+    {
+      "file": "COSUSDT-1d-2022-08.zip",
+      "sha256": "cab0926f7e5e55c2b4a4561e20a08d701ff5f3dbc0138dd0306eb179c65c2bc7"
+    },
+    {
+      "file": "COSUSDT-1d-2022-09.zip",
+      "sha256": "151a2ec7f2c71f1f7a9cc98ee72dc33c74819a8fd45513ea98b486132d430e06"
+    },
+    {
+      "file": "COSUSDT-1d-2022-10.zip",
+      "sha256": "7a64a4d3f4c7661aeaab53cf1c8ae50810dbece6404cc5501d9ad85fc86ca148"
+    },
+    {
+      "file": "COSUSDT-1d-2022-11.zip",
+      "sha256": "71efe51b426a9daabf47d5dbb198aea2a65ebafed2239ef0ac4d0d30e37cc9f4"
+    },
+    {
+      "file": "COSUSDT-1d-2022-12.zip",
+      "sha256": "11a7aa219ca820bf8c49221a45f302acbac74fc621fbb32bebf76936df093eec"
+    },
+    {
+      "file": "COSUSDT-1d-2023-01.zip",
+      "sha256": "772e7cb4bdcaca6c28e9b1f204bfe5ef06b1e6ebe17398666906b25b6fbd3014"
+    },
+    {
+      "file": "COSUSDT-1d-2023-02.zip",
+      "sha256": "60ed72fb81d2be6a69f98e5c9a900e6e07e05066b19c0eabc52c66dbfc076bfd"
+    },
+    {
+      "file": "COSUSDT-1d-2023-03.zip",
+      "sha256": "ff3db4dd02f3144f61fe53ec5944c36b6206a4068ab5d41139c0bbad75bd7a4c"
+    },
+    {
+      "file": "COSUSDT-1d-2023-04.zip",
+      "sha256": "9d6fe745c51e43d7bf0b025caa50ee3d3e973bea1c0715863489bfb333f27d4f"
+    },
+    {
+      "file": "COSUSDT-1d-2023-05.zip",
+      "sha256": "5374d36f4c7a9eaaf5a6000c89d7f1fed1147786434ae8d9220d682d2c291754"
+    },
+    {
+      "file": "COSUSDT-1d-2023-06.zip",
+      "sha256": "ca45320e1a152af354d3180ff9565dd3bc5f7644edfb9877f7cc376fe3acea14"
+    },
+    {
+      "file": "COSUSDT-1d-2023-07.zip",
+      "sha256": "3b5f81a017a32c97f21735e51bbe888e666aa2f9285becc20e5d83e7dbfacb66"
+    },
+    {
+      "file": "COSUSDT-1d-2023-08.zip",
+      "sha256": "5ab321743a3f7bce39aebba1fa0a9a6007394976ce87fef510f9e7d5ff60de6e"
+    },
+    {
+      "file": "COSUSDT-1d-2023-09.zip",
+      "sha256": "30df2fc079b85b252b691de5a09fe13f00a9043037febee875204f6872ff5629"
+    },
+    {
+      "file": "COSUSDT-1d-2023-10.zip",
+      "sha256": "f0254ac165a644f9280b86ce1b99b6ace410b5ce81a18139584818023ed08718"
+    },
+    {
+      "file": "COSUSDT-1d-2023-11.zip",
+      "sha256": "7f35d8f5efc79c50fac5affaff91270fdeaa6e12a67cc136160a3c5e82e71304"
+    },
+    {
+      "file": "COSUSDT-1d-2023-12.zip",
+      "sha256": "f4476fdfa434fedf0156e9d48acfd2024f2bda95fbad5d9257fdbdc9c34a41b0"
+    },
+    {
+      "file": "COSUSDT-1d-2024-01.zip",
+      "sha256": "53d279a52fccc76e7f7f3d65b596b0c4f8ee7d43b49b5d21db1f4e7c6e5a5d03"
+    },
+    {
+      "file": "COSUSDT-1d-2024-02.zip",
+      "sha256": "333b91d3b2a3d4ba5679fd87ad0e1af326409c398bb136738642a7f155a17f05"
+    },
+    {
+      "file": "COSUSDT-1d-2024-03.zip",
+      "sha256": "32e5649db04149c74874e8cca71676e9e2f08f2ac241286053dc4565eca0f118"
+    },
+    {
+      "file": "COSUSDT-1d-2024-04.zip",
+      "sha256": "16b5e8f886539df9065a80f06976a69ec9bd2bc0d23d9a6cfb755c4d857bdf0b"
+    },
+    {
+      "file": "COSUSDT-1d-2024-05.zip",
+      "sha256": "3694f0584dd95bf1c47b63efb1370a3505277c45f79086d306ae7206f3c8f95c"
+    },
+    {
+      "file": "COSUSDT-1d-2024-06.zip",
+      "sha256": "62f68113bb09ccca99675e38c8a70cd44d6dc21e33fdb7609ce73c6a9a3d7474"
+    },
+    {
+      "file": "COSUSDT-1d-2024-07.zip",
+      "sha256": "9362445af06f2c7dc6862200195d0592a1c3f8957cdd46994d412a6190db294f"
+    },
+    {
+      "file": "COSUSDT-1d-2024-08.zip",
+      "sha256": "735528af7fed68ae2d193084706ca6435d2c314d1299a100ea4f1140a494edf6"
+    },
+    {
+      "file": "COSUSDT-1d-2024-09.zip",
+      "sha256": "bfb0d5604666e8f3a803b3efd19a888ba3f1fbe1bc8eb033718fd185012d9045"
+    },
+    {
+      "file": "COSUSDT-1d-2024-10.zip",
+      "sha256": "3b16ab2bdd04978a5a38c877eaec2d04256033b728523ea460dfcd96f19ad471"
+    },
+    {
+      "file": "COSUSDT-1d-2024-11.zip",
+      "sha256": "cbf0ba2e342730e66951e9b11b3a049dee5e11af4aca93d11eded6756f7ef02f"
+    },
+    {
+      "file": "COSUSDT-1d-2024-12.zip",
+      "sha256": "4b6b97f1918bc8d6ee5163fe530fdc9e5dc0dcb5d243e6d211155ac88d80b38a"
+    },
+    {
+      "file": "COSUSDT-1d-2025-01.zip",
+      "sha256": "238f421a7ec0194e6666b18af4fdb1d1f5b9c111a44e56dbf2cdb229ba6c4142"
+    },
+    {
+      "file": "COSUSDT-1d-2025-02.zip",
+      "sha256": "164c76d2505f81e141f6ac70db6c72b94884a34139a1ea520071a1bec7eb9534"
+    },
+    {
+      "file": "COSUSDT-1d-2025-03.zip",
+      "sha256": "256fe68ea43d28cd126632bfa0c8357e387f7d8a150be7af9439884a7e4cfb23"
+    },
+    {
+      "file": "COSUSDT-1d-2025-04.zip",
+      "sha256": "13d94e2b321b8f9935817c494f13f33cb4d08a8ad801989d4409d29df1e689f6"
+    },
+    {
+      "file": "COSUSDT-1d-2025-05.zip",
+      "sha256": "6f82597affb75548a2b4e0c3d57b0882ebc58c89f8afce8386630676adcd1700"
+    },
+    {
+      "file": "COSUSDT-1d-2025-06.zip",
+      "sha256": "68a4e0b115d37b22a7deaa78802fa9f6adab3b21b0ea469e806d9aa1c9ad4f21"
+    },
+    {
+      "file": "COSUSDT-1d-2025-07.zip",
+      "sha256": "5e72cd9bc52a7240ec088628c91645f74ce6ee3b6d38f84856297d5fa76862d8"
+    },
+    {
+      "file": "COSUSDT-1d-2025-08.zip",
+      "sha256": "dcb3a156cef9a897fb894615b61247d518aa8cefc779938af685019914bba0b8"
+    },
+    {
+      "file": "COSUSDT-1d-2025-09.zip",
+      "sha256": "209db57518216377fa83f3af39d328a76e25e9adfbcaf42c5433e071aacf9029"
+    },
+    {
+      "file": "COSUSDT-1d-2025-10.zip",
+      "sha256": "ab4084279b834db934e4be4ac58ffd7c5b266e95898b69b0b1aea0b441d60d7c"
+    },
+    {
+      "file": "COSUSDT-1d-2025-11.zip",
+      "sha256": "dee78b26d377feb44f3a20dac734ad7f7860257f64d94e47f44902b07740abe2"
+    },
+    {
+      "file": "COSUSDT-1d-2025-12.zip",
+      "sha256": "b82ac80989955eb576bb825fb3f03a0b8196e621a0dd13d954cfa7464bce0580"
+    },
+    {
+      "file": "COSUSDT-1d-2026-01.zip",
+      "sha256": "4fa83e2eaa565c097a8ec2dfe365e57f5e53d0f1fa06c273febff6d32f195358"
+    },
+    {
+      "file": "COSUSDT-1d-2026-02.zip",
+      "sha256": "d2ad84ce9419fc7fa2ff597ba6399c24d787e21de00a4ed986ec6eeb4592045f"
+    },
+    {
+      "file": "COSUSDT-1d-2026-03.zip",
+      "sha256": "2f7b91469bebabbad1b97ef06763ab3de4714e8bfafb24bab0d80dc3f642a810"
+    },
+    {
+      "file": "COSUSDT-1d-2026-04.zip",
+      "sha256": "25b7d55067c270bb730845434356ed165071e2ba97a0c1299dd84e2ef4ef019c"
+    },
+    {
+      "file": "COSUSDT-1d-2026-05.zip",
+      "sha256": "ed903d0c3fa95106cc92b76d886b7853c7675df17fc002cb265bc2719f67d52d"
+    },
+    {
+      "file": "COSUSDT-1d-2026-06.zip",
+      "sha256": "4020c5afd3021fd7d42067f61ac429b31f7661b7a87254d2430d1dd311da3f05"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

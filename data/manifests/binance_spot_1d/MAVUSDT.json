@@ -1,0 +1,185 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/MAVUSDT/1d/",
+  "instrument": "MAVUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-06-28",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:39:07+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1191,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "MAVUSDT-1d-2023-06.zip",
+      "sha256": "e7b5eb0c79622fbad735ed3ab3ca6b6a3690e1df7691b016b51b8becd1492d9d"
+    },
+    {
+      "file": "MAVUSDT-1d-2023-07.zip",
+      "sha256": "70bafc3d96bf7146471545471ead981773bc49c7f3c0dbcd6d077cf22c7b9c5f"
+    },
+    {
+      "file": "MAVUSDT-1d-2023-08.zip",
+      "sha256": "d8c8062858a3ac9a03ab35e3c8059cf8a3d1c5b1e2eb696b20b6b1821f21ebb7"
+    },
+    {
+      "file": "MAVUSDT-1d-2023-09.zip",
+      "sha256": "f22db7ab48023f2997380e4420023260d4f8e5544e03847bb6c71ae49e7b56ba"
+    },
+    {
+      "file": "MAVUSDT-1d-2023-10.zip",
+      "sha256": "1ab72849662c8883be95ea39d9b63f9896db7a9f19a2990d99094acb337de4fa"
+    },
+    {
+      "file": "MAVUSDT-1d-2023-11.zip",
+      "sha256": "45643799dcace88ad4155692e431bc23316876bb0a2927ae00cedccc03623b33"
+    },
+    {
+      "file": "MAVUSDT-1d-2023-12.zip",
+      "sha256": "ac3cad8a18efb7bcf27d0671fc3df8682a1bd6dfb3c5cf81e2e5208a8ddda734"
+    },
+    {
+      "file": "MAVUSDT-1d-2024-01.zip",
+      "sha256": "cad51057cd063feecd6c0410a6553e9273a8d48c9950686d6f9226b76e77ad0a"
+    },
+    {
+      "file": "MAVUSDT-1d-2024-02.zip",
+      "sha256": "00e095a72e723768d8af4dd3c222f7a40706ad75bcc58d43b340899e96afc9a6"
+    },
+    {
+      "file": "MAVUSDT-1d-2024-03.zip",
+      "sha256": "850b8ec3586bb88c81b46d8b83ae0429b6e0866e8b08ee75a97c465f1df8e192"
+    },
+    {
+      "file": "MAVUSDT-1d-2024-04.zip",
+      "sha256": "5cf02923492a09dfe1535526250bfc9b4d8a82eab0c3849d3512852a74c8a848"
+    },
+    {
+      "file": "MAVUSDT-1d-2024-05.zip",
+      "sha256": "0724c447cdc6bf3b6d01aa5c3f95db4c5382d812de98d020c4af64a7fc1860ba"
+    },
+    {
+      "file": "MAVUSDT-1d-2024-06.zip",
+      "sha256": "ac67864a60f7f5b61569477d22dfdb038aabb137909e79d10e73f85c68f3d6bc"
+    },
+    {
+      "file": "MAVUSDT-1d-2024-07.zip",
+      "sha256": "321210f2322ff49c812db55090798de0c070ec0d60ac1e176c8f5da4a45e2662"
+    },
+    {
+      "file": "MAVUSDT-1d-2024-08.zip",
+      "sha256": "c7a056a4377c19d4c6a55ed379272c4688706e60655a2e200ebaeabd16a30394"
+    },
+    {
+      "file": "MAVUSDT-1d-2024-09.zip",
+      "sha256": "34c9d7dfd09f11d54c1f43ba64a7118645d6fb0e15a77a838e56704ede7e1047"
+    },
+    {
+      "file": "MAVUSDT-1d-2024-10.zip",
+      "sha256": "3c6b8941f8e98bddbe292c4c1c0db0aa46155881915779a575e2a1fdca38aca6"
+    },
+    {
+      "file": "MAVUSDT-1d-2024-11.zip",
+      "sha256": "55f542f880ce7d665d853d41f04982f6cf2d0bc5fb211f4c4c71ad075a340cbc"
+    },
+    {
+      "file": "MAVUSDT-1d-2024-12.zip",
+      "sha256": "29c63350d3304e98460c38006be0876960313d53e6298502df14543bae300de6"
+    },
+    {
+      "file": "MAVUSDT-1d-2025-01.zip",
+      "sha256": "faace6126068833c5770937997baaf81aef7a8bbfe57380b1207e02a7dd72ca2"
+    },
+    {
+      "file": "MAVUSDT-1d-2025-02.zip",
+      "sha256": "eeeca27b9aa5670bc1e7678432e050fbd19a91ec2fdd6b3b398d8246b0aaa857"
+    },
+    {
+      "file": "MAVUSDT-1d-2025-03.zip",
+      "sha256": "f948788d05ee40fdca85121df560ced334e277c14ef2e1881ea796e5a1a9d5bb"
+    },
+    {
+      "file": "MAVUSDT-1d-2025-04.zip",
+      "sha256": "1a8315f075e4ae75163e63bd728e6af963800f89e462f460326e1a8eb5d23445"
+    },
+    {
+      "file": "MAVUSDT-1d-2025-05.zip",
+      "sha256": "3a17cc7e3f848a3a9c164350d2218812c1636268f5ee026763d9437a818818ae"
+    },
+    {
+      "file": "MAVUSDT-1d-2025-06.zip",
+      "sha256": "60148f70b8102884ff4ccc92e4b9e0b7ad1bd2bfcfd97f1becdb368d2c5111d3"
+    },
+    {
+      "file": "MAVUSDT-1d-2025-07.zip",
+      "sha256": "9ac555f7f99d4f3cd18f7953e891e9f338dca2e5ed32ca24d144e2b8b2201461"
+    },
+    {
+      "file": "MAVUSDT-1d-2025-08.zip",
+      "sha256": "5858769754d2dcda51e3f8ce5853c06cafee15125fba9bb058cba5d314ac0765"
+    },
+    {
+      "file": "MAVUSDT-1d-2025-09.zip",
+      "sha256": "488ef86aafa197853c8d5f7ce560a47c5dda9777adac4819dd85b3e5a0fedd74"
+    },
+    {
+      "file": "MAVUSDT-1d-2025-10.zip",
+      "sha256": "dc3c9f398be0d992a1a2c93d6424609fa112b192d2147a5872038e80dc1a8497"
+    },
+    {
+      "file": "MAVUSDT-1d-2025-11.zip",
+      "sha256": "53692171cf7d48d28182ebdac56bcb7f3251b9203ad5aced449ab5b6be6beb27"
+    },
+    {
+      "file": "MAVUSDT-1d-2025-12.zip",
+      "sha256": "a5215709985122c629a679f210e0e9dde58540d5fd80923d30e12915695595be"
+    },
+    {
+      "file": "MAVUSDT-1d-2026-01.zip",
+      "sha256": "1ef0580e0371699652396c1d71c27fea5749499cb3cbfd3050f942ebde6e310b"
+    },
+    {
+      "file": "MAVUSDT-1d-2026-02.zip",
+      "sha256": "b43e8fd464cc3f7adbf6ff3f154dd39b1112c8499e5091abf3c94b0fc31fb162"
+    },
+    {
+      "file": "MAVUSDT-1d-2026-03.zip",
+      "sha256": "ac562441fa8e90c3b8840485d6191ecb312618faa7e445a02dbc222884e9ff0e"
+    },
+    {
+      "file": "MAVUSDT-1d-2026-04.zip",
+      "sha256": "a02b7fcd051fe03ad77dceee9f632d3216ce3e2cded23e16e6ef1434317f2e48"
+    },
+    {
+      "file": "MAVUSDT-1d-2026-05.zip",
+      "sha256": "e72612f8de4c1acdc3edd057aed92475d379d8bee0fd1bc0017f5e0449079c5a"
+    },
+    {
+      "file": "MAVUSDT-1d-2026-06.zip",
+      "sha256": "848fd2460810604c9ef39a287834413899b455a1723fee2a4eef0ef423433de6"
+    },
+    {
+      "file": "MAVUSDT-1d-2026-07.zip",
+      "sha256": "d88227e888d5e85f8a136840b4fa3c5719dd409802b3df9dd54a2af5eb05c23d"
+    },
+    {
+      "file": "MAVUSDT-1d-2026-08.zip",
+      "sha256": "24860875b0564e9c9b6bf11c303a9085ab9ee6eeca789c9d8e8de6b6827b7c30"
+    },
+    {
+      "file": "MAVUSDT-1d-2026-09.zip",
+      "sha256": "dbecae78152cb55551258920f9e217fa0128a6e46b50fd63412182310a4913d0"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

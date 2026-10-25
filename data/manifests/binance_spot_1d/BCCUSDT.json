@@ -1,0 +1,82 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BCCUSDT/1d/",
+  "instrument": "BCCUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2017-11-11",
+  "last_bar": "2018-11-20",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:27:31+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 371,
+  "missing_days": [
+    "2018-11-16",
+    "2018-11-17",
+    "2018-11-18",
+    "2018-11-19"
+  ],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BCCUSDT-1d-2017-11.zip",
+      "sha256": "5c17da7ebf9265f2ba3f2c7035ef078ce3e896c3a1946d9b57374e15f795ca84"
+    },
+    {
+      "file": "BCCUSDT-1d-2017-12.zip",
+      "sha256": "cf330bcde814aee1f5d311346c229433465505af65f981380fc6bcf47fa08ea0"
+    },
+    {
+      "file": "BCCUSDT-1d-2018-01.zip",
+      "sha256": "261b2e889627d50a153bc2929f6f0f4c8cdecdf9fa9ab971115f814aed65c949"
+    },
+    {
+      "file": "BCCUSDT-1d-2018-02.zip",
+      "sha256": "86b09fc4af5c96786e7aa4ba0ce4028c53a0127e818b0f1fc9b9107b633bfca3"
+    },
+    {
+      "file": "BCCUSDT-1d-2018-03.zip",
+      "sha256": "f63d473f64f882d2bd13559d9055ad7ec9ece3f9028237b05872d191218cc746"
+    },
+    {
+      "file": "BCCUSDT-1d-2018-04.zip",
+      "sha256": "8d1649d5dfc9232136770de0ae841abf2893ddabfcc7346e60fb3305b3fa414e"
+    },
+    {
+      "file": "BCCUSDT-1d-2018-05.zip",
+      "sha256": "6a65c2eb2f931f6dfe1fc05e115c1fb82b9dc0f1abd8ba269fad0f8246634f7a"
+    },
+    {
+      "file": "BCCUSDT-1d-2018-06.zip",
+      "sha256": "bdedbd475965e8dae61244addec89541ceaa2b8a26f725f76a4d3c5439eb4e27"
+    },
+    {
+      "file": "BCCUSDT-1d-2018-07.zip",
+      "sha256": "2713c9502ac44ebfc723260a8df82fa15a0ea5857356a62432dd8feda786e590"
+    },
+    {
+      "file": "BCCUSDT-1d-2018-08.zip",
+      "sha256": "1034c8a6eaf8b68992f5dec2ce2a0a4aa82b26651c12fb07e1a6cdd1bf83f490"
+    },
+    {
+      "file": "BCCUSDT-1d-2018-09.zip",
+      "sha256": "c232dbfec614757a2715a0be6d611045d92c3cf308a1e737f34d18cf98372606"
+    },
+    {
+      "file": "BCCUSDT-1d-2018-10.zip",
+      "sha256": "fcba345f474f815e75fa015beb6b8a5232b255dd96f10cb77e6926fcaf5864ab"
+    },
+    {
+      "file": "BCCUSDT-1d-2018-11.zip",
+      "sha256": "c0eff103788fe5714bc7ab91d050928c98d26f2f8eeb69bbc4089763ac327db5"
+    }
+  ],
+  "status": "partial",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/DNTUSDT/1d/",
+  "instrument": "DNTUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2020-11-10",
+  "last_bar": "2022-10-24",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:31:08+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 714,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "DNTUSDT-1d-2020-11.zip",
+      "sha256": "09039433c9c0d04eb07a02d1c4eeae6cc07809033d9a343fd876bf4a36e5da13"
+    },
+    {
+      "file": "DNTUSDT-1d-2020-12.zip",
+      "sha256": "043e815e64f393a07795c138f2c3114390a8a280611fe6156b21513b8f91b89f"
+    },
+    {
+      "file": "DNTUSDT-1d-2021-01.zip",
+      "sha256": "b8a24f9c98110f390016603688316b61c2920f106708520ddb97fc5e03118da7"
+    },
+    {
+      "file": "DNTUSDT-1d-2021-02.zip",
+      "sha256": "5d33163119408e1bdd9b3585a84261aefc15364a05eddd1a67ab5149a97aca1e"
+    },
+    {
+      "file": "DNTUSDT-1d-2021-03.zip",
+      "sha256": "cb50bef9cc880e66a59185c029c30381494bd69b3da870c4fcb19eff99049a32"
+    },
+    {
+      "file": "DNTUSDT-1d-2021-04.zip",
+      "sha256": "8d2b6087f63f9230b24b041a1a5ab97d0afa15e34c68f182fda140007349ca3a"
+    },
+    {
+      "file": "DNTUSDT-1d-2021-05.zip",
+      "sha256": "1d9577a69b46bbe745bd041fa7ec199efe46ae8bbf6c2787f2dc41b18b2f02ec"
+    },
+    {
+      "file": "DNTUSDT-1d-2021-06.zip",
+      "sha256": "89e06268869f4734738f9c7d529ba44490c5644b3c85d25bc00ce689e9db437c"
+    },
+    {
+      "file": "DNTUSDT-1d-2021-07.zip",
+      "sha256": "bc7407f610b94d3e4b4d95ae5d98a04e4f1dce8f9f678abcfafdbec2df356554"
+    },
+    {
+      "file": "DNTUSDT-1d-2021-08.zip",
+      "sha256": "68bb8dd498c6ef9cc89cc576b02f26d05c46203614709ac3455bf672589318bc"
+    },
+    {
+      "file": "DNTUSDT-1d-2021-09.zip",
+      "sha256": "06e6ae589fe489010ed9be4b14b075bce3b69595b2018a2de98a5a8d7e0acae5"
+    },
+    {
+      "file": "DNTUSDT-1d-2021-10.zip",
+      "sha256": "13f54c77edf1c007afe2f2c01760231301563b45c13db447f38ecf3062d552b3"
+    },
+    {
+      "file": "DNTUSDT-1d-2021-11.zip",
+      "sha256": "363a6dc8d862d457a08697dbf3f5c495d3b6b600ef771edae0f79d823e5e8319"
+    },
+    {
+      "file": "DNTUSDT-1d-2021-12.zip",
+      "sha256": "ca85e04ddc612be114544d2f308dfca32f2af0ae9c03a3ee1e34d04084436371"
+    },
+    {
+      "file": "DNTUSDT-1d-2022-01.zip",
+      "sha256": "a9c2a86f742cc7426aac190260343d0f8e04eef8492f8453adaa7bb465e04b97"
+    },
+    {
+      "file": "DNTUSDT-1d-2022-02.zip",
+      "sha256": "1fbf55b37c77e02f222d888641d01fff9a9641fb6cd47ad16f5fffc8c02f5991"
+    },
+    {
+      "file": "DNTUSDT-1d-2022-03.zip",
+      "sha256": "35464fa77214c24e3a3210b674e0f5181cbd91eb11dc7c152ef97b9328eddaa6"
+    },
+    {
+      "file": "DNTUSDT-1d-2022-04.zip",
+      "sha256": "b1767a928d5bd0f98992dd52f16c29b7d07943fe16706428edab3adbd41ce359"
+    },
+    {
+      "file": "DNTUSDT-1d-2022-05.zip",
+      "sha256": "085f1af2a8545a69f1c27a67abf35236c342efb4a9060efa01f2b0e6be621e1f"
+    },
+    {
+      "file": "DNTUSDT-1d-2022-06.zip",
+      "sha256": "efc8fa6271dfed38663fadc784a747472f0e080f03f53e1888dc103eb925c99d"
+    },
+    {
+      "file": "DNTUSDT-1d-2022-07.zip",
+      "sha256": "e7385097bd3fb111098c6ec6b1dcdc96120edb5c5ac83d7f045d1d82249bc9da"
+    },
+    {
+      "file": "DNTUSDT-1d-2022-08.zip",
+      "sha256": "38e1196ceaf345da842ed4a9ec4f7db17009f520fd7b5e1e1082ada49008c128"
+    },
+    {
+      "file": "DNTUSDT-1d-2022-09.zip",
+      "sha256": "a36e9a7c24fddf520977cc5eb0b015a50a6742bf839510a66c605803e19bdb99"
+    },
+    {
+      "file": "DNTUSDT-1d-2022-10.zip",
+      "sha256": "a383fcc338c2e146c6892c13bf595be017a70e6bb230aee1a7ba4c51e28387a4"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

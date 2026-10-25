@@ -1,0 +1,165 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/BLURUSDT/1d/",
+  "instrument": "BLURUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-11-24",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:28:19+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1042,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "BLURUSDT-1d-2023-11.zip",
+      "sha256": "90d1801ec2a7b56db086f9509a505ce40fd64619a0e88f80764890679a6aa57b"
+    },
+    {
+      "file": "BLURUSDT-1d-2023-12.zip",
+      "sha256": "fc0433d9079a73e9d9077c32df4c96baf46eb8215f5a3bde3d49d3137b743f20"
+    },
+    {
+      "file": "BLURUSDT-1d-2024-01.zip",
+      "sha256": "56808c8d5aaa4cd65fd7582cd2b3ac5184102640c3a1d0dfc3850c248b56b188"
+    },
+    {
+      "file": "BLURUSDT-1d-2024-02.zip",
+      "sha256": "126961111c57fc564893b262339258ec08ce4ed33cd9f492b2f5843319178b75"
+    },
+    {
+      "file": "BLURUSDT-1d-2024-03.zip",
+      "sha256": "bf500b97231f78dd3cf829e52030f848c1588cedefef7c41d194a4283e009fed"
+    },
+    {
+      "file": "BLURUSDT-1d-2024-04.zip",
+      "sha256": "624994f5b75e9944a4268177c9c7596c2209538aad52ba16dc49c9f4a6b6dedd"
+    },
+    {
+      "file": "BLURUSDT-1d-2024-05.zip",
+      "sha256": "c07267b2b6cda405d14f18887357abe422c39af0f07d3c2508545537aacd3df0"
+    },
+    {
+      "file": "BLURUSDT-1d-2024-06.zip",
+      "sha256": "1af8c9b01c2759b23ae3e94e735c21a315be445eeda0216d08864b0a7937ca90"
+    },
+    {
+      "file": "BLURUSDT-1d-2024-07.zip",
+      "sha256": "17e6544829134f0d188f6121e89b5aeb811c427bf8fb1cc6cdf409e57204465a"
+    },
+    {
+      "file": "BLURUSDT-1d-2024-08.zip",
+      "sha256": "e6b16a82f7516a534d03d56adc70456e47e0f665115a5da5b365165ae4ac0326"
+    },
+    {
+      "file": "BLURUSDT-1d-2024-09.zip",
+      "sha256": "ab5d6634d6538aa906b2ce1085d668bf1011038b7998945eb2032606c9a6460f"
+    },
+    {
+      "file": "BLURUSDT-1d-2024-10.zip",
+      "sha256": "c777e9167a5778491deeeae72abd465b23f5cb21c9f7995430313e96256507b8"
+    },
+    {
+      "file": "BLURUSDT-1d-2024-11.zip",
+      "sha256": "317be1bca2c75fae88842a97777d394d1358c81ee2623f113c3897d2ce5d47c0"
+    },
+    {
+      "file": "BLURUSDT-1d-2024-12.zip",
+      "sha256": "c62ec44024078aa1ba89cd7680c4caf86c500e1c8faf01b7e0f77b867ac3662a"
+    },
+    {
+      "file": "BLURUSDT-1d-2025-01.zip",
+      "sha256": "8cbdeb04a0ffa9fdd2d496cfcac91fc48b9d750b62a32d5970d5f4751fd716b7"
+    },
+    {
+      "file": "BLURUSDT-1d-2025-02.zip",
+      "sha256": "3274d78e297dc8fdff1b8dbd01f4b2c6759c518bb3a6bcbc9b20c640e594c818"
+    },
+    {
+      "file": "BLURUSDT-1d-2025-03.zip",
+      "sha256": "3fe0d6e4c16935c07e5b874f4c1e1bd4857662cd1f641ca2127ab06fbc52fbd9"
+    },
+    {
+      "file": "BLURUSDT-1d-2025-04.zip",
+      "sha256": "bb2c88ba024085feef1b861ab50f4051340880b3dcc9d41715ae6083cc218b3c"
+    },
+    {
+      "file": "BLURUSDT-1d-2025-05.zip",
+      "sha256": "ce34dd1b683df5de3d8536d288a9db8efa6d2fbd7febb1c7ded5aa12c77c017c"
+    },
+    {
+      "file": "BLURUSDT-1d-2025-06.zip",
+      "sha256": "3e87db96aa1556d21c184d200727f69dc22ab889c031429b2b15a2f0bffd377a"
+    },
+    {
+      "file": "BLURUSDT-1d-2025-07.zip",
+      "sha256": "290f554f3ee118e07f7e5840450882d3a76f946c14dcd6fe7b9a75dc5b2b045f"
+    },
+    {
+      "file": "BLURUSDT-1d-2025-08.zip",
+      "sha256": "e832918ef4698eb0ba32e46ed40606195560bab9679a6d293979897710426c7c"
+    },
+    {
+      "file": "BLURUSDT-1d-2025-09.zip",
+      "sha256": "a7bc84463ef7921f77751ded97e479f331551ba4e921050e1b1f6f53a2904c8c"
+    },
+    {
+      "file": "BLURUSDT-1d-2025-10.zip",
+      "sha256": "aa24d0c02f1d34ff1effceb4c7c475587010c31dd76b0cb8131a367f8704cf03"
+    },
+    {
+      "file": "BLURUSDT-1d-2025-11.zip",
+      "sha256": "41cfae71e9e31f30c2af05b9d91b941ba33335ea1fa6ebb46e71295a5effe38f"
+    },
+    {
+      "file": "BLURUSDT-1d-2025-12.zip",
+      "sha256": "9bd7ef279bb5d8b5d9e0a095fb01e5ec7c58185c3c43c25ea201e62a955dc3f0"
+    },
+    {
+      "file": "BLURUSDT-1d-2026-01.zip",
+      "sha256": "baeb495ee2d112bcd7f97d6afb24a202272a31627318a4a7ddb11591bb43b347"
+    },
+    {
+      "file": "BLURUSDT-1d-2026-02.zip",
+      "sha256": "e0637d9869c3c10c8c05261f4d87cf22f84bb6e2a101f9b831a64ecd7fdb7feb"
+    },
+    {
+      "file": "BLURUSDT-1d-2026-03.zip",
+      "sha256": "a47bae840dc95bd6464b406e24508ce57cd564115658d12ee2378511a94ef19c"
+    },
+    {
+      "file": "BLURUSDT-1d-2026-04.zip",
+      "sha256": "9b59c76013e0e72f2886ef8ed574d6af5aaca37af7e02e5269c202ee2e41710a"
+    },
+    {
+      "file": "BLURUSDT-1d-2026-05.zip",
+      "sha256": "79fbbf4af4e4b085f0b20fffede66c91eaa974388e5c21c457a5c12a8aa71640"
+    },
+    {
+      "file": "BLURUSDT-1d-2026-06.zip",
+      "sha256": "ee0953e17cb3ecc3536aa1689b9c074f628f580eee64ed77000881da136652a7"
+    },
+    {
+      "file": "BLURUSDT-1d-2026-07.zip",
+      "sha256": "b052b553310996ffb4f0e4b9ee842528679604e8658fe85d4e8601523a4f699a"
+    },
+    {
+      "file": "BLURUSDT-1d-2026-08.zip",
+      "sha256": "b1e2c7c42131c27e963cd364a3f314a5adf66581727595532037ca6a653a30ee"
+    },
+    {
+      "file": "BLURUSDT-1d-2026-09.zip",
+      "sha256": "5d729c67eda9454cdcffa03f3345a4f73854ab5d11653b5dd98c7c611a54a84d"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

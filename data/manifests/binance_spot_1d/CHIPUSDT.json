@@ -1,0 +1,49 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/CHIPUSDT/1d/",
+  "instrument": "CHIPUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-04-21",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:29:14+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 163,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "CHIPUSDT-1d-2026-04.zip",
+      "sha256": "3e0af802324fd0a24d78494fc8c709646e756bd878b9624dca57a3723f26e162"
+    },
+    {
+      "file": "CHIPUSDT-1d-2026-05.zip",
+      "sha256": "d3f7cfd645587249c3004fe7b548ba160f455230aee4cca2df3a5209b609369b"
+    },
+    {
+      "file": "CHIPUSDT-1d-2026-06.zip",
+      "sha256": "c1e291fccb39053e03063afd25e81fc4e127bb045f1f9c081c627d07d4132d0b"
+    },
+    {
+      "file": "CHIPUSDT-1d-2026-07.zip",
+      "sha256": "378a87a13766f1885037158e2efccfe28cf3ac589e065986a53fa3d0fcd94c92"
+    },
+    {
+      "file": "CHIPUSDT-1d-2026-08.zip",
+      "sha256": "6c400feb656a1cdbb602c461fc6958dfbf1a8f8ee6308bd0df28a23a52b2f945"
+    },
+    {
+      "file": "CHIPUSDT-1d-2026-09.zip",
+      "sha256": "0c4e125a740f492da3a1ef6eb657f878861c0e05f8c63b9d4cdf42d2a73f90b9"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

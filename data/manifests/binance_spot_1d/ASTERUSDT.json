@@ -1,0 +1,73 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ASTERUSDT/1d/",
+  "instrument": "ASTERUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2025-10-06",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:26:11+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 360,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ASTERUSDT-1d-2025-10.zip",
+      "sha256": "7adfcf9bd3a8f4cd5ab144f0d2145eb84b54b60398caad525b1c0486bc3581c3"
+    },
+    {
+      "file": "ASTERUSDT-1d-2025-11.zip",
+      "sha256": "e95f01b7ab50a67962dfff7887beba2ea34ec7f2a0002bb71c608de4b01557fb"
+    },
+    {
+      "file": "ASTERUSDT-1d-2025-12.zip",
+      "sha256": "7da94e8a00889d36265dd3f5d9b7ea663253f9fe537b6958ae4e4ece9ec9773a"
+    },
+    {
+      "file": "ASTERUSDT-1d-2026-01.zip",
+      "sha256": "49ae7a20e5856d895190cfc6394eb4eb272c61c953c05e13a15e40a4dd21562f"
+    },
+    {
+      "file": "ASTERUSDT-1d-2026-02.zip",
+      "sha256": "e0c87b60ee38d5d7a21b22f02646d66ee1e112b24df43413b9a479f391df3eb0"
+    },
+    {
+      "file": "ASTERUSDT-1d-2026-03.zip",
+      "sha256": "2e6ad584dae91f89bf253a666d9736d9e8a864c6cb034a0d3d521f26479b1fb6"
+    },
+    {
+      "file": "ASTERUSDT-1d-2026-04.zip",
+      "sha256": "4c2fc1284bb5d922b8f8b9926ecf46289e41f902ce2294e31daadf828b597b4d"
+    },
+    {
+      "file": "ASTERUSDT-1d-2026-05.zip",
+      "sha256": "c949c0375cb0a591876a1b31a28627a5f31a638e2ee60cc8b089887f15851e55"
+    },
+    {
+      "file": "ASTERUSDT-1d-2026-06.zip",
+      "sha256": "9d5122739264cb2fd9378023baf60c7de42af72c0f36aaf66720f6d579618592"
+    },
+    {
+      "file": "ASTERUSDT-1d-2026-07.zip",
+      "sha256": "54ea31e8633f374358da4671fdde931af3c0306ff8cbfa947484575e573277fa"
+    },
+    {
+      "file": "ASTERUSDT-1d-2026-08.zip",
+      "sha256": "b772b01d44fe22dabfb870c01a6649ad215b6ed7f1097a8edf91ca0cda3acdf1"
+    },
+    {
+      "file": "ASTERUSDT-1d-2026-09.zip",
+      "sha256": "34759f0b6e6252762cf649ed75ac35c232db78e899b43a798119a6af16fa9570"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/AUCTIONUSDT/1d/",
+  "instrument": "AUCTIONUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2021-10-29",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:27:01+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1798,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "AUCTIONUSDT-1d-2021-10.zip",
+      "sha256": "bcb188f940b876c5cdf24ffbc0ff71d07f6466c1aa641c4fdeb6e937a25514a6"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2021-11.zip",
+      "sha256": "2abf7fcac748aabb9d3827458c62f5d95f6b15649f8a6444d63a7b5613032e64"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2021-12.zip",
+      "sha256": "d5349dc3a97c4b9cafd7424632596dcfa8303dff1b7f81c12b44ec5a1335b091"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2022-01.zip",
+      "sha256": "176ab8c266bbabbfd8652ae30cafe0ba825066f10a078bd1359c4b80afe2a710"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2022-02.zip",
+      "sha256": "b6e318dbd1f5b6c6bd1fcf38a147f6d14381dab307d26f52382854cfecf6e1cb"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2022-03.zip",
+      "sha256": "1166cef3e057e549d5e28bc4284cc52f9fba86a08bd8eaa96f36abe575db4eca"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2022-04.zip",
+      "sha256": "7735aa85bbf8f7beadf0e9a3d542c766a06fb623b0d05edc9310e77f34f18caf"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2022-05.zip",
+      "sha256": "ecdfdd15bc3ebf1783f4081e8fc16be5b99cecbaad253d0332aabee1f9a96bcb"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2022-06.zip",
+      "sha256": "3a58df9e8a64e2472cb84ddb1ebfdca2e6d01eb2642a4e8398d994a9dd574c52"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2022-07.zip",
+      "sha256": "1a91f921360598592f8ccdc8552f448676e6c62cc628a230cd05cf48909ade5b"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2022-08.zip",
+      "sha256": "ef3a15011cd2bfafe103075b02fc9dd3e9481dc6af99753c565746935877200e"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2022-09.zip",
+      "sha256": "156303ca731b35300369ffc87ebe9dacea78890c78baa9bee38b9143fdec7d91"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2022-10.zip",
+      "sha256": "e1fdecb1eef686651301ae2fc4565d3fe54f496c837beaa45495776fabbdda6a"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2022-11.zip",
+      "sha256": "1a39ba69f3c6db88bce118f43d893c969f5e751072798a9e1a75949d0f424a8b"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2022-12.zip",
+      "sha256": "9d0d419a8dd05590508610652adf0d7e1408bce19ec128273079355cc148204e"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2023-01.zip",
+      "sha256": "f175f4cb38b4b73d6e206259245cacf4b0fd42c7c261f8b62dc587fc781db24f"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2023-02.zip",
+      "sha256": "b18f8887367af9189c5c33a8d7701fbec3dc9ed1566e3e85a34d84ea1ef2297a"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2023-03.zip",
+      "sha256": "6c8c7b3827c11c5a7169a7d8dddc5b5017ae0170b264488d6f43b78b11d2517a"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2023-04.zip",
+      "sha256": "db249ac4e7a9fa9c59618aa55f5e5dab55ce08690efc8e24f2e93974cd596bf4"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2023-05.zip",
+      "sha256": "f215045a5fc5a4ad906b360ced88e6264b7cd294e38e503c12b2b230380691a3"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2023-06.zip",
+      "sha256": "a48341124ca16b2277f2f914859ca865cea457cf4b40046a6006ea450cf7c218"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2023-07.zip",
+      "sha256": "22e9c549b94a0f3904a4d14ab6933602e045e08f0e3ec2e58a6d5679e939f7c3"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2023-08.zip",
+      "sha256": "efa606ce83f8f53542c851d9e5c853ed2b7b6ee867b2a7746bb56b32ff906180"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2023-09.zip",
+      "sha256": "d09dda615a39aff83b9e4fbff81f98bd38c1b81fe2fac91b8210d3ab1807f32f"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2023-10.zip",
+      "sha256": "a90af7181d1fdced41b828306802b9c34c4108126b622319b35b2e21c83abcee"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2023-11.zip",
+      "sha256": "c24ebf943981fce39a04e34658109e55ede25b607f5223cf6ebb3f16bdc29e53"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2023-12.zip",
+      "sha256": "be9186c51e9ec847575cd0a7cfe2d403d318ee81cabfa54faa8602e971c64cd2"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2024-01.zip",
+      "sha256": "c031d5a5069db7019dde844d92102a8bcd023a77fede041b0d1333a85b8d3795"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2024-02.zip",
+      "sha256": "c78a3fc1b0239966d5367a8b23d365109e069879d5a72e77d8bedfe3b90bcff7"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2024-03.zip",
+      "sha256": "9d720407c436706a641f6d69af4fa45abf125ad7bb2224a1ec5ee9449b1e5bb5"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2024-04.zip",
+      "sha256": "eb1d81be2bd3c0f0e76e6c085e7176de42404938e03bd3e60b62758f8d0315aa"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2024-05.zip",
+      "sha256": "64c70a31204cc0549892c08a703a5b2e16e9393ee36f3f3f16b9a7c864d9564f"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2024-06.zip",
+      "sha256": "4f5d9df9e4816c48d82e6471ca3c4a60cd69299288c86288d2c79d98fed6df29"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2024-07.zip",
+      "sha256": "32bd969268eb7cc63103837ceaeb5d37869b5fb0328f2f87241752cb59a9807a"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2024-08.zip",
+      "sha256": "e0e7039dfbcbc6881901368eadd94f75b12910e0ef678c7fd1051194ed99abd6"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2024-09.zip",
+      "sha256": "27f2918c26629c22f1e4ff820ed128ca9324b5eb541aa78e71cb6b17679147e0"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2024-10.zip",
+      "sha256": "887596a636c4fb90b1cae58210c4d0596d90af9ba42623acd7a1a631a5f7bd98"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2024-11.zip",
+      "sha256": "43c7bf99ad0a240db77f7f78653d73f909990e62bd1138c21b6d2858413e004a"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2024-12.zip",
+      "sha256": "69198706e6ad529c0836321d61314280c1ffc11f580455c21b95faf9225f5f4d"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2025-01.zip",
+      "sha256": "be34c877498ed624a8fdefe75354647927eb9e5eb797bdcf14bc2c0d0f71421f"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2025-02.zip",
+      "sha256": "c8d2387b3f21e1492473bd41a08ee0d0914ce4becc096ff804d418c5d499e2ee"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2025-03.zip",
+      "sha256": "e24bb1a6a0e9c79c990b10c2813a0a763abfa845db656d36b0ef2c1683d75a7e"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2025-04.zip",
+      "sha256": "43c357a9c40a1bace664647c96942efe64e04e0c3419e90a93180296eb506273"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2025-05.zip",
+      "sha256": "4b9088b5fc53e21a3b3601b6aa859856af7380b1b789357b0750c304a683b86c"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2025-06.zip",
+      "sha256": "e6551fe55677b93fcf5d2d5f89ecf1baa8deafc9834284ba747697be5002b537"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2025-07.zip",
+      "sha256": "2f2001c9bb9ab328dcc041151a6cc038377526d2caa43d78796b19d2df81c10a"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2025-08.zip",
+      "sha256": "ffdfc770c9b9659dd3bf85d0b020de271dce8dcd8a8b2456cc046fdfad469565"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2025-09.zip",
+      "sha256": "e33cbc8d4fabb35d760c2ee5bd3f5ac6189c3e8d176f28693231f774a7293765"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2025-10.zip",
+      "sha256": "ecf53d13585ba172e37b97763f3b210fa437f7348bad27842422994df7aeff2f"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2025-11.zip",
+      "sha256": "40227634818b6c6ee8063b19f6b7105619f05e2d176ab76666b63bff4d66daa9"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2025-12.zip",
+      "sha256": "fa962fa90febda0cb143618e18ff7bfab516e1e58eca1099bfbc83c4ec2d461e"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2026-01.zip",
+      "sha256": "8b3b73447a59d9dc613643085796fd1f4e969a78a203a7e668a1c3ea68b2883c"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2026-02.zip",
+      "sha256": "2bd3cdf9c77125386f6284d5877cab688db0ae36120027d3ab50b3f7ca793465"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2026-03.zip",
+      "sha256": "6c43587153c191f4b377772473e1fbd07db3afdf812cea510c208cf2493faef5"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2026-04.zip",
+      "sha256": "d0d1945f510d6e1ed1f4ee1f5880f6fcac9b3a4950f91c2d1d1f863c97fadedb"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2026-05.zip",
+      "sha256": "d24d2413d1d33c58b121e8c6465113229109cf877f5a0f6a314fa9ec58774f06"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2026-06.zip",
+      "sha256": "2360022720a6375aacff724d1d155f346d09e12c8fab73eadf8e16e38a2d0071"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2026-07.zip",
+      "sha256": "c34a1950e0f54eeac1ee467f4c102fa7da60182a8390ee5e84e76e91b1d8e5a7"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2026-08.zip",
+      "sha256": "318540102e036fffed4075abb9b64a594b1c74fa8d8c3f70996b4d4e1e817e9a"
+    },
+    {
+      "file": "AUCTIONUSDT-1d-2026-09.zip",
+      "sha256": "ef0b78734931258136a5a17fba3290a1a5fcdd0f167941c28d87a3c3347c5beb"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

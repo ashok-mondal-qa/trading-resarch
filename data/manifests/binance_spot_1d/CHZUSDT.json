@@ -1,0 +1,365 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/CHZUSDT/1d/",
+  "instrument": "CHZUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-09-06",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:30:13+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2582,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "CHZUSDT-1d-2019-09.zip",
+      "sha256": "776b02bf5abf4a32de58d8dca5e79f1a6eab9a3d5ecc7005bf097505642d19ba"
+    },
+    {
+      "file": "CHZUSDT-1d-2019-10.zip",
+      "sha256": "622db7728affe0d26e4354c056348a67740de211f71f62c6274d1da8991bc302"
+    },
+    {
+      "file": "CHZUSDT-1d-2019-11.zip",
+      "sha256": "d583f6a843c96cd66b816b5ea1e17e7fd4b712433cf31ce33d1b36849a350481"
+    },
+    {
+      "file": "CHZUSDT-1d-2019-12.zip",
+      "sha256": "d6e480fd34c12eccb853880837aca16522d437c30834effcd066e695270074af"
+    },
+    {
+      "file": "CHZUSDT-1d-2020-01.zip",
+      "sha256": "31ff427c4dbbab3e13edfbfeebfff9d7bdb405f040c8e710d090583270a797d9"
+    },
+    {
+      "file": "CHZUSDT-1d-2020-02.zip",
+      "sha256": "a1fa2e7ba783c43153afc09c18616a5bb0e7087fd39834f83b739269ee7de367"
+    },
+    {
+      "file": "CHZUSDT-1d-2020-03.zip",
+      "sha256": "3c2e0eb93979393b0aab9d0b3cd044c30c0268634413497dd40cfcb7fb60bb7d"
+    },
+    {
+      "file": "CHZUSDT-1d-2020-04.zip",
+      "sha256": "7e3781d90ceb72655bb8259ddf28a90bf2cf0dde1e67542011821814515eaa51"
+    },
+    {
+      "file": "CHZUSDT-1d-2020-05.zip",
+      "sha256": "f474229a8b46706a81bf81742536c3b31e75a81a1f9837510e15923b746d2091"
+    },
+    {
+      "file": "CHZUSDT-1d-2020-06.zip",
+      "sha256": "d4d2f2d010134f42b6bb500dde7afed93f15d04e8dcff0febc16dedf5c76d02d"
+    },
+    {
+      "file": "CHZUSDT-1d-2020-07.zip",
+      "sha256": "38a95a640a2507ba026f3725fcce3763fe12a7e86c51074e5b271873c7e85801"
+    },
+    {
+      "file": "CHZUSDT-1d-2020-08.zip",
+      "sha256": "6f8e27d7569896b84fdb37edae0e6345bedbe49b0a68720ed96f2ec26a5cc6bf"
+    },
+    {
+      "file": "CHZUSDT-1d-2020-09.zip",
+      "sha256": "7f714665aeb7e8dccd88c71718000613142d3c5a5aecbf80dd3a2f528a6b0d00"
+    },
+    {
+      "file": "CHZUSDT-1d-2020-10.zip",
+      "sha256": "cd979b5fef8733d5721dcd3bb59a87e35c6af3f0c0568afdda1d4f15f390fd49"
+    },
+    {
+      "file": "CHZUSDT-1d-2020-11.zip",
+      "sha256": "3f4cfc78dd33cd7fcc04905e104b87d23041befdc5e690a273f5bb67cf2656d2"
+    },
+    {
+      "file": "CHZUSDT-1d-2020-12.zip",
+      "sha256": "5f2849d55f98bfaa837bf9e115272d70fcc4e1b1d43e6860152bc3d1b8a275a2"
+    },
+    {
+      "file": "CHZUSDT-1d-2021-01.zip",
+      "sha256": "7c36bf9ee8aaca9cc826a1bb3f9b1250e7799ad0223fca83b834b35ec68d1764"
+    },
+    {
+      "file": "CHZUSDT-1d-2021-02.zip",
+      "sha256": "3bf3099951e47a707f315f6cd922b34899f529122136fc605c5059e3b97c85f0"
+    },
+    {
+      "file": "CHZUSDT-1d-2021-03.zip",
+      "sha256": "89d49cbedb377f2be3bc7e472b4ee8b48e81f39eba523f43504764b02b53ac58"
+    },
+    {
+      "file": "CHZUSDT-1d-2021-04.zip",
+      "sha256": "038f135ad11f7583f91db3365ab5632ff08121988c83801ae4c3b28bc2bbf3bf"
+    },
+    {
+      "file": "CHZUSDT-1d-2021-05.zip",
+      "sha256": "7dcb6f0f4e15224a1a98ba2af40bc625d3b92ba092440b309f10708b1f68bd3e"
+    },
+    {
+      "file": "CHZUSDT-1d-2021-06.zip",
+      "sha256": "9be6fca44a9a4f73b9339cdcabc6c58368393875ff5d2b134ed77cf423a16564"
+    },
+    {
+      "file": "CHZUSDT-1d-2021-07.zip",
+      "sha256": "9bfde4c254663e535ffcec739faad55b6ab9f977021919a8ed8dc6a7c1581bbe"
+    },
+    {
+      "file": "CHZUSDT-1d-2021-08.zip",
+      "sha256": "5456a00fe51d11a7953872a934ba7f2988eb2ad5371699f523a787fc40b17e69"
+    },
+    {
+      "file": "CHZUSDT-1d-2021-09.zip",
+      "sha256": "29fbeb4e393b8fcab74935e703cf95c5a60b372d7fb7f468dcca9ececc8b1cd5"
+    },
+    {
+      "file": "CHZUSDT-1d-2021-10.zip",
+      "sha256": "4c595a70823d84418bc765fddef1bac64638b39fbdaac542dd39673474bc6a3d"
+    },
+    {
+      "file": "CHZUSDT-1d-2021-11.zip",
+      "sha256": "7eb86e5acefb71a58f29f7f8f0c7c9ef25d8d78b3e62e08c92b2f34a63e38f3f"
+    },
+    {
+      "file": "CHZUSDT-1d-2021-12.zip",
+      "sha256": "752dd48d8610198ebc53292e322f92ce5c43f84464f92c6f93f0d2c32cbc423b"
+    },
+    {
+      "file": "CHZUSDT-1d-2022-01.zip",
+      "sha256": "d85e4f8f7d71ead0944b0e0b8f1bbbffcfa97585edf828fe98f968271efd9f30"
+    },
+    {
+      "file": "CHZUSDT-1d-2022-02.zip",
+      "sha256": "4be8bfef39cfcf1124ae6bee90c546ef3ad8210f565981df35a5694ce68c8c51"
+    },
+    {
+      "file": "CHZUSDT-1d-2022-03.zip",
+      "sha256": "9522d0c207f6e3156e2b55d28b0730f08d08f6900583326dbd9cf1b7f707599c"
+    },
+    {
+      "file": "CHZUSDT-1d-2022-04.zip",
+      "sha256": "be08cd11e63526999a0018c23d9f8976683a5bbbf12f4b3037957bc83c1e0882"
+    },
+    {
+      "file": "CHZUSDT-1d-2022-05.zip",
+      "sha256": "2bf289c9e0c625c322ab59d43bb44e96aee77616654fc595f350bd71bbb8f6f4"
+    },
+    {
+      "file": "CHZUSDT-1d-2022-06.zip",
+      "sha256": "881dec7c33c2fba41897282788dc1a664b75d9848d70909ea58cc22ecc6419c6"
+    },
+    {
+      "file": "CHZUSDT-1d-2022-07.zip",
+      "sha256": "63ae04e1b1a21f8be504067c148d7443027447dea804f99e96c6e74df80cf8ea"
+    },
+    {
+      "file": "CHZUSDT-1d-2022-08.zip",
+      "sha256": "c7694cd71684c2d6b2cfcbb39e2879686291504a8bd51ebbd2142383ff84ce9c"
+    },
+    {
+      "file": "CHZUSDT-1d-2022-09.zip",
+      "sha256": "d0f88d2904aa72452f2f2acda7f30eab7da7d41a98376edf211b6822c19052d3"
+    },
+    {
+      "file": "CHZUSDT-1d-2022-10.zip",
+      "sha256": "d852d0230a54ac099e625e7f1998dc2a0d918a9c1310cdad0e219aa5d2302317"
+    },
+    {
+      "file": "CHZUSDT-1d-2022-11.zip",
+      "sha256": "53ed2f7bc1c6a88d7e823a6e6d6ed63aad4e6db3d6ec30e56d651d3541bc930b"
+    },
+    {
+      "file": "CHZUSDT-1d-2022-12.zip",
+      "sha256": "92e9a94bbef57584431d560c740fcb0accf909f23951abc3979f13b99393c382"
+    },
+    {
+      "file": "CHZUSDT-1d-2023-01.zip",
+      "sha256": "654b6c2c9c4c8f31d396a77bde7976f4492a4e4b205ae3a1a274b7192af66f7c"
+    },
+    {
+      "file": "CHZUSDT-1d-2023-02.zip",
+      "sha256": "86b5196149de2941da35d6384fd804dd72dc9a6b99018e1aef79d95d9e297b42"
+    },
+    {
+      "file": "CHZUSDT-1d-2023-03.zip",
+      "sha256": "5c1c2781f68a7d96d2be1536e05e0a083ad07fa9f677721c5dd4dc3df6c750b9"
+    },
+    {
+      "file": "CHZUSDT-1d-2023-04.zip",
+      "sha256": "2e8931d710c0595ba02a45b412b315937b0c674e6735ca7dc3f43b4108d1f0cc"
+    },
+    {
+      "file": "CHZUSDT-1d-2023-05.zip",
+      "sha256": "afb1fde2219df5c4e2935b3481b1ed66af30e10c0beedf84336d993bc87bcc25"
+    },
+    {
+      "file": "CHZUSDT-1d-2023-06.zip",
+      "sha256": "2e0bda76fe7d663ad513f86a7e53dd6281d37daf2e5c5192a40686c86644f0a0"
+    },
+    {
+      "file": "CHZUSDT-1d-2023-07.zip",
+      "sha256": "6164a4233667948899f4ec696068aa08256554fb47c0b96375d9958a2e618881"
+    },
+    {
+      "file": "CHZUSDT-1d-2023-08.zip",
+      "sha256": "8fe035e34dba5e728766a6fa0cac6d866a55e1b4b7889181583f450a97368e02"
+    },
+    {
+      "file": "CHZUSDT-1d-2023-09.zip",
+      "sha256": "94cdd4dd0188da9ed691cc266f161872c899c5f11b17f805fb009a9dff90c64d"
+    },
+    {
+      "file": "CHZUSDT-1d-2023-10.zip",
+      "sha256": "c947309edc6f17569535eb0e47ff1033ce7150118704168a823248a1f7c46e4a"
+    },
+    {
+      "file": "CHZUSDT-1d-2023-11.zip",
+      "sha256": "7bb9d2b784696efc693f88e99e5b70af0fc39452964aa6f3efcc5e815aab7b18"
+    },
+    {
+      "file": "CHZUSDT-1d-2023-12.zip",
+      "sha256": "85fdc8925814ac7b8b44cce1fa61a7ef09a077bdfdf4d1b4218d4d5bde3a23fe"
+    },
+    {
+      "file": "CHZUSDT-1d-2024-01.zip",
+      "sha256": "edcaf143724a3a6248bda68f4dd90852bd02326449bbcd30489287797a41ae7f"
+    },
+    {
+      "file": "CHZUSDT-1d-2024-02.zip",
+      "sha256": "03b9fdf87e7fbcd7a4434bf99dc72dea3b084330042e0556348fe9850d5d4052"
+    },
+    {
+      "file": "CHZUSDT-1d-2024-03.zip",
+      "sha256": "dbcc519d79ce4252957ed310fcc1109202524d159e1f423d10c0a34b4ff1c01a"
+    },
+    {
+      "file": "CHZUSDT-1d-2024-04.zip",
+      "sha256": "e6ae131c50c57bad43921f871235b5c91bbc562480a4e540ba237db4fb031894"
+    },
+    {
+      "file": "CHZUSDT-1d-2024-05.zip",
+      "sha256": "810e3bd706c0e01d334b01bb15d6f362dc3c42ca83c0cfd09401d2f427a9400f"
+    },
+    {
+      "file": "CHZUSDT-1d-2024-06.zip",
+      "sha256": "3a00235fc3b959e0657238c89c17e4ac2cbcfa229626b15931333436a4695d20"
+    },
+    {
+      "file": "CHZUSDT-1d-2024-07.zip",
+      "sha256": "12ba34e6198584a7b17d7ab1544b1195c73ea48a7248337343c68a96bb3249a6"
+    },
+    {
+      "file": "CHZUSDT-1d-2024-08.zip",
+      "sha256": "bbbea7540b9e4eb2c5454f6adba6857abc280d5bb0ec95eba601f26f9a125196"
+    },
+    {
+      "file": "CHZUSDT-1d-2024-09.zip",
+      "sha256": "247f9dc4771096174b4a47bf05a4e5fc54a786686c673b510e5e57c6bca92fbc"
+    },
+    {
+      "file": "CHZUSDT-1d-2024-10.zip",
+      "sha256": "40e046c32256e7bd1b21fd3ee82df3dbb72791a642240e3d265df9e11a3b6be1"
+    },
+    {
+      "file": "CHZUSDT-1d-2024-11.zip",
+      "sha256": "cbf845346294f5b73c223d24035264ec012c04a6dc2eeefdfa59fc59e76c425a"
+    },
+    {
+      "file": "CHZUSDT-1d-2024-12.zip",
+      "sha256": "beb45bfa82d5891c28d4b0022b5ff8e9db8bd51c3a5b77cce9e6cddbe37ad503"
+    },
+    {
+      "file": "CHZUSDT-1d-2025-01.zip",
+      "sha256": "850b5b6c9001bc41f5ae6c38f754ca2bce316589cde4a537b94cdad2094d433f"
+    },
+    {
+      "file": "CHZUSDT-1d-2025-02.zip",
+      "sha256": "7c7feec36a38f7c5b95260e62d945a110f02629bc69a5de0fac74f7b6748b26f"
+    },
+    {
+      "file": "CHZUSDT-1d-2025-03.zip",
+      "sha256": "c66d4ad21e7472e78c01d3aca15c093e9d133c33233591fb69ee07e36212d7b7"
+    },
+    {
+      "file": "CHZUSDT-1d-2025-04.zip",
+      "sha256": "3fb092a07a2037ad07ad0477f4b542aed0b7fdd1a1586edbc45fe7fa9b6c242c"
+    },
+    {
+      "file": "CHZUSDT-1d-2025-05.zip",
+      "sha256": "a77f4a82737b2ef3f545c865d4e097870a1b48677a6be80f515adb181f3bec0b"
+    },
+    {
+      "file": "CHZUSDT-1d-2025-06.zip",
+      "sha256": "e638f3ee883d258c2ec1358083449bd2a1a9ca667729c52c74eb59266555ad9a"
+    },
+    {
+      "file": "CHZUSDT-1d-2025-07.zip",
+      "sha256": "cbf6fe6c4abb1c7c9a338adc26baca7f50737b3e641c281425bbf2ae8c02c107"
+    },
+    {
+      "file": "CHZUSDT-1d-2025-08.zip",
+      "sha256": "95ec87ab74dd0aba46339648c81da0a8116f9a5992fbfb9df2e9129693018986"
+    },
+    {
+      "file": "CHZUSDT-1d-2025-09.zip",
+      "sha256": "dd4afe4b069efa13b516ae512ca35f3963c58a805994371c43dbe6fa4fcce3fa"
+    },
+    {
+      "file": "CHZUSDT-1d-2025-10.zip",
+      "sha256": "66bd5130a4c1dc8ef354866170c9d3a4000c6295b3f5f74de812182c7262d2e5"
+    },
+    {
+      "file": "CHZUSDT-1d-2025-11.zip",
+      "sha256": "b901de0ca96fb3c9a84297e581210b99ed7b0f37ee59be37391effcea3fa57be"
+    },
+    {
+      "file": "CHZUSDT-1d-2025-12.zip",
+      "sha256": "6cfe116ecc1b266d214d54016a6618f903c5949a019800c33f2470ae04fc8734"
+    },
+    {
+      "file": "CHZUSDT-1d-2026-01.zip",
+      "sha256": "9a9c8884c3432999402419fa1b376dd9675c708e170982dfb5bf75cfd7dca5bc"
+    },
+    {
+      "file": "CHZUSDT-1d-2026-02.zip",
+      "sha256": "c2d6ab8736d3517c7b6476901569bca1f09cbe50e20b57069fffef0f66811755"
+    },
+    {
+      "file": "CHZUSDT-1d-2026-03.zip",
+      "sha256": "cbd443fc00576eae4c127b8d4c60a685c62eeafb3992af22e07e5b86e1218e04"
+    },
+    {
+      "file": "CHZUSDT-1d-2026-04.zip",
+      "sha256": "5653fefdf017a97aa2e6486886dbfd962be80773b0b232ad687a82e3108b78d1"
+    },
+    {
+      "file": "CHZUSDT-1d-2026-05.zip",
+      "sha256": "66d419e04a130ba518faaa31579dcb0c0f675a2623dfb0ae7ee5dea9692a09b3"
+    },
+    {
+      "file": "CHZUSDT-1d-2026-06.zip",
+      "sha256": "a7ad38a4b2f16bddf3c59272cd20ba131504844c2e91ae312d896b408c0a8c54"
+    },
+    {
+      "file": "CHZUSDT-1d-2026-07.zip",
+      "sha256": "b30193f66c91009ab060b68feea5a691d8c232ae0915d7a88144a1d1f29d7f97"
+    },
+    {
+      "file": "CHZUSDT-1d-2026-08.zip",
+      "sha256": "bc8ee141a8af293ef73a07a5b545680b5a1a3feb54b973dc3941956603654282"
+    },
+    {
+      "file": "CHZUSDT-1d-2026-09.zip",
+      "sha256": "ef79c6919ab4947387953e53f47ea1338c6230631d624ef87fc8f0573b542571"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

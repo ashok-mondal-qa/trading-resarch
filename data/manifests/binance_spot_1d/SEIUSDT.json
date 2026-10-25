@@ -1,0 +1,177 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/SEIUSDT/1d/",
+  "instrument": "SEIUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2023-08-15",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:45:04+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 1143,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "SEIUSDT-1d-2023-08.zip",
+      "sha256": "cac91b3e37ff4715bdcf6a478495b955ccf895179aa57efbb73e4009462c1985"
+    },
+    {
+      "file": "SEIUSDT-1d-2023-09.zip",
+      "sha256": "91326c332644d06812e5967b7f57d47c14d67522a13ddd475eeaed84b3b0fc1c"
+    },
+    {
+      "file": "SEIUSDT-1d-2023-10.zip",
+      "sha256": "93a6c245777355f8ae4b2623c0ee4e7bc78ad10056c4e13ae7c796d55ed3b521"
+    },
+    {
+      "file": "SEIUSDT-1d-2023-11.zip",
+      "sha256": "896c4b4677857445628d8ba524904c7b522179516b132894358712803a67baca"
+    },
+    {
+      "file": "SEIUSDT-1d-2023-12.zip",
+      "sha256": "fe3009c2cc737ea3e7bc1a5e48764311376634db48fe63343e1d485c6fdd8e6d"
+    },
+    {
+      "file": "SEIUSDT-1d-2024-01.zip",
+      "sha256": "c654efdcaf9bd2c553b2481b4f5c58bbc6659627d05ef93a15f3fe0bf6390ac5"
+    },
+    {
+      "file": "SEIUSDT-1d-2024-02.zip",
+      "sha256": "013ebb3469e8b087a86d1f655f8c5f7fe530d35776208ffe54a77432ab5e8598"
+    },
+    {
+      "file": "SEIUSDT-1d-2024-03.zip",
+      "sha256": "1b1cad514f227e5042da06f5fbe48891c58b12d6137e7bcdf293faf9943c0c6c"
+    },
+    {
+      "file": "SEIUSDT-1d-2024-04.zip",
+      "sha256": "c78b31840df46206538b4cc7828353f8b2d3de958509ae5ba5b05e12073806ff"
+    },
+    {
+      "file": "SEIUSDT-1d-2024-05.zip",
+      "sha256": "27ec15b7ef843a48427a78e12a15d45061d648840055bb94069662a78ddba559"
+    },
+    {
+      "file": "SEIUSDT-1d-2024-06.zip",
+      "sha256": "5f49086398fa7ad9510a0a31f1e5c7475a303df45e99e8e4c4d59bba8ca35d7c"
+    },
+    {
+      "file": "SEIUSDT-1d-2024-07.zip",
+      "sha256": "08fe5852696b3908644c86b686cca7bcc6ba8f03e8ebf2021f6f99395dbf67f3"
+    },
+    {
+      "file": "SEIUSDT-1d-2024-08.zip",
+      "sha256": "717b96d3e3a1c02f72109b278fa3183b8b1b5324b74e9fa65f2544064d5066e5"
+    },
+    {
+      "file": "SEIUSDT-1d-2024-09.zip",
+      "sha256": "eadeddf393e4fda776019643ecccc78ed917b3b6c3699ce0e7d6ff2cd1a6f51e"
+    },
+    {
+      "file": "SEIUSDT-1d-2024-10.zip",
+      "sha256": "15e4677e848625d91e694667c9324d85eeef1ee793659fa6957529ae262cbeee"
+    },
+    {
+      "file": "SEIUSDT-1d-2024-11.zip",
+      "sha256": "c1df7116b2e34cea151c4c502d1eb041b15a1280a555fda12e2ffaef781525ed"
+    },
+    {
+      "file": "SEIUSDT-1d-2024-12.zip",
+      "sha256": "829daeee1570438ad284e4d673c4feccbc9aca60faf7573dc8d4263d2b6efaa2"
+    },
+    {
+      "file": "SEIUSDT-1d-2025-01.zip",
+      "sha256": "f867743e22d5bdafd1ee56b0ca81c87d5dedcb0342b22ca8e8b0e2b2b8594840"
+    },
+    {
+      "file": "SEIUSDT-1d-2025-02.zip",
+      "sha256": "68b707f3196c3007a09ec33650bd120ffcdc89b403fb5e19fa7e3cd0d5aace7c"
+    },
+    {
+      "file": "SEIUSDT-1d-2025-03.zip",
+      "sha256": "2da1731086423e1874dccb619547301eaedd39ba4c76ce6478477943411ed49a"
+    },
+    {
+      "file": "SEIUSDT-1d-2025-04.zip",
+      "sha256": "36367da9057768d2994e8f810b7523dfc3d5cf2a71290b0f1fe934a00b9310cf"
+    },
+    {
+      "file": "SEIUSDT-1d-2025-05.zip",
+      "sha256": "ec2abd89561fb18714cd1de14bdec2a14dcea1c7241b46e16bc6406a9b7f3351"
+    },
+    {
+      "file": "SEIUSDT-1d-2025-06.zip",
+      "sha256": "116d0b9994c086cc2b77bf9d0d8ff8bf963933080e07b48f80bf0bb75520cbc1"
+    },
+    {
+      "file": "SEIUSDT-1d-2025-07.zip",
+      "sha256": "bbc3ac84afe058c67e8d2bb5a9f29b735ca5c17ecda4cbac03f83745487a32bc"
+    },
+    {
+      "file": "SEIUSDT-1d-2025-08.zip",
+      "sha256": "32b510b690fab1738df6bbeb4a7b242a9633a9807079ea32e77018f0043446b4"
+    },
+    {
+      "file": "SEIUSDT-1d-2025-09.zip",
+      "sha256": "d7f503fe5054c61d4cea15b8acacd318ce93cea82995da4f72b4a2b48d818e0a"
+    },
+    {
+      "file": "SEIUSDT-1d-2025-10.zip",
+      "sha256": "bfec33bcfa69bb961c5f3ec0334e3ef5740942c609e3db75f6b851980fbf8996"
+    },
+    {
+      "file": "SEIUSDT-1d-2025-11.zip",
+      "sha256": "1d32e1c6b9cb722dfad09e81f95a44bab19b021a511bb9a3bd70da9149bd2abd"
+    },
+    {
+      "file": "SEIUSDT-1d-2025-12.zip",
+      "sha256": "071362d39cc8594fa8c0b4593f5047c90d7749ab7706acbd33f66411c0ee1702"
+    },
+    {
+      "file": "SEIUSDT-1d-2026-01.zip",
+      "sha256": "ae3f89f4846d2f88f9514afd41c131db8d3fe602354bd3769276fe1e4d4ebe83"
+    },
+    {
+      "file": "SEIUSDT-1d-2026-02.zip",
+      "sha256": "16b59f95228807f1c643497544f59e7a464ffae9491fb9820aa4252fc8d7b69b"
+    },
+    {
+      "file": "SEIUSDT-1d-2026-03.zip",
+      "sha256": "65fd6a33555acee056457d8930c8ee70c2c4c8ddc960af3cf4ff40380649d983"
+    },
+    {
+      "file": "SEIUSDT-1d-2026-04.zip",
+      "sha256": "26ecdbab770b2cb38b294a8a2ec91208f425b63b07d9637cb0de2428309d9b35"
+    },
+    {
+      "file": "SEIUSDT-1d-2026-05.zip",
+      "sha256": "fa0d6666c55bd6e6e4b0deff6075d9f95ffea3985c6363cd178985e6eee0e3b0"
+    },
+    {
+      "file": "SEIUSDT-1d-2026-06.zip",
+      "sha256": "fc9b59bd106f60cc8a8ae3572c2286067db67b6423b51bde27443ff6be950c81"
+    },
+    {
+      "file": "SEIUSDT-1d-2026-07.zip",
+      "sha256": "d66f4d3872c1c5f47c0d1584e18aa0f8c246449b78e5a46376282d5276affb4a"
+    },
+    {
+      "file": "SEIUSDT-1d-2026-08.zip",
+      "sha256": "a1294f90131afc859e0574b18d26228155a2763e935ef07c2caf66480284d3fd"
+    },
+    {
+      "file": "SEIUSDT-1d-2026-09.zip",
+      "sha256": "e5dcc8c15f1532ce9d1486bb40b8cb7db31fe6deabe6fa5efda6aefbfdb886c2"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

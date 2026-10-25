@@ -1,0 +1,377 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ALGOUSDT/1d/",
+  "instrument": "ALGOUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2019-06-22",
+  "last_bar": "2026-09-30",
+  "end_month_requested": "2026-09",
+  "retrieved_at_utc": "2026-10-25T04:25:57+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 2658,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ALGOUSDT-1d-2019-06.zip",
+      "sha256": "7e485d09a3d174f6ec6f7372318c77d4f5b5d78b77a98a5e4bf5086b5760112c"
+    },
+    {
+      "file": "ALGOUSDT-1d-2019-07.zip",
+      "sha256": "8f8620e1c2834ba628657b4e8ac441a4ff60a5513ec145326b53c7d37c12a565"
+    },
+    {
+      "file": "ALGOUSDT-1d-2019-08.zip",
+      "sha256": "e7228f1bee7fae6b61470fd648a12d90e55de9ff9f8da4d2eda1bb9f2c3765fe"
+    },
+    {
+      "file": "ALGOUSDT-1d-2019-09.zip",
+      "sha256": "d7986161a2af5f5e38daa6f63f116eecd7e3b18c1d4dbec854144e9d71b0893a"
+    },
+    {
+      "file": "ALGOUSDT-1d-2019-10.zip",
+      "sha256": "cb8eb547c751483efe80606d6e85c61d2fea4dbd2ae10f4a65971bdbee289503"
+    },
+    {
+      "file": "ALGOUSDT-1d-2019-11.zip",
+      "sha256": "14acbbf879076aa87589169cd94dd6cd54400c34caae9f0ea70d495bd9d39507"
+    },
+    {
+      "file": "ALGOUSDT-1d-2019-12.zip",
+      "sha256": "2bf2ecabe628c413d534d2ab5488547ebd30257d24d4034e439d6a146de3a6b2"
+    },
+    {
+      "file": "ALGOUSDT-1d-2020-01.zip",
+      "sha256": "b908400d3503299af914982a4072bcb9952089822d16afde6249de3870e38d1b"
+    },
+    {
+      "file": "ALGOUSDT-1d-2020-02.zip",
+      "sha256": "956c51db4f6ad0b78235ce589b5ff181684bf7c709aaaad8e56c82ee0dea558c"
+    },
+    {
+      "file": "ALGOUSDT-1d-2020-03.zip",
+      "sha256": "f69fc8856dc5a32b364fde88e34812e410c64d6588fb51999253d4617698e016"
+    },
+    {
+      "file": "ALGOUSDT-1d-2020-04.zip",
+      "sha256": "6aa1e80cff0ccdc9984b975af14c271b45ab88700a693fb2ba489a9ec233370b"
+    },
+    {
+      "file": "ALGOUSDT-1d-2020-05.zip",
+      "sha256": "c4b21a55cf5dd01638b042405f6d8d87748fad6ec8cc512b3a908be386d72a96"
+    },
+    {
+      "file": "ALGOUSDT-1d-2020-06.zip",
+      "sha256": "c3bf33265ae92a3f2eee2a86335ba3bb975532b9823155c8c18148d90c5e718f"
+    },
+    {
+      "file": "ALGOUSDT-1d-2020-07.zip",
+      "sha256": "9b4745a208095da237282d7c908415bb140f6ecd4518ea23e1be237a163ac97c"
+    },
+    {
+      "file": "ALGOUSDT-1d-2020-08.zip",
+      "sha256": "2e2b8958a7f46ec8b0e1c25ac4b1ec6f8ace0de684659b250edc6eeaf4eb2e2f"
+    },
+    {
+      "file": "ALGOUSDT-1d-2020-09.zip",
+      "sha256": "b46012b67a18acaceb96dd58a43f663e5cdc84e2d99fd849fdc0d1edea291153"
+    },
+    {
+      "file": "ALGOUSDT-1d-2020-10.zip",
+      "sha256": "25194e29f7fe6aeaca967be583f82c7ec2e13ab64dba2ac3504073a855b8d21f"
+    },
+    {
+      "file": "ALGOUSDT-1d-2020-11.zip",
+      "sha256": "aa86c4c1ff5f980b47a7c5793f75761d8cbb17f4e362bca772404c68e9958173"
+    },
+    {
+      "file": "ALGOUSDT-1d-2020-12.zip",
+      "sha256": "486f12dc7e94471c1c881b51d34839576d6217b06a22bfba0b11b5a1073a3a62"
+    },
+    {
+      "file": "ALGOUSDT-1d-2021-01.zip",
+      "sha256": "e4250f8fac560e7fbefdb9ece4ff750ba00328d775a0609ccd28337726579317"
+    },
+    {
+      "file": "ALGOUSDT-1d-2021-02.zip",
+      "sha256": "250bab08901f7e5846162c312480e7c7a9c8befeb585ecbe4fe18f5c4042c6c8"
+    },
+    {
+      "file": "ALGOUSDT-1d-2021-03.zip",
+      "sha256": "8c65aa36303a122e51284b393bf82c63e69985b9a6159fdc8d04af2b76266fd7"
+    },
+    {
+      "file": "ALGOUSDT-1d-2021-04.zip",
+      "sha256": "aedf99916d6f412ae06a15cfffb965388f76d3db2a22d9bc8640089afa368dd8"
+    },
+    {
+      "file": "ALGOUSDT-1d-2021-05.zip",
+      "sha256": "ac71cd6a364947061ca8de8e78faef4459545e0888e5febb238439605788b15c"
+    },
+    {
+      "file": "ALGOUSDT-1d-2021-06.zip",
+      "sha256": "f1b0655e65355035ed6896b09a88e4f82158330ff3e3df8fb98fc0fa78fba5f1"
+    },
+    {
+      "file": "ALGOUSDT-1d-2021-07.zip",
+      "sha256": "f395b3b3a4f3e47d750523eef633a9b47906bdfc6cfe92e287d5d55f77e4a454"
+    },
+    {
+      "file": "ALGOUSDT-1d-2021-08.zip",
+      "sha256": "0ea9556313c5cb54ba136d9bfc5d6ed089dd8dbd107665e68be392974ff92309"
+    },
+    {
+      "file": "ALGOUSDT-1d-2021-09.zip",
+      "sha256": "a05fac7246039205b2c6c678474fee8327e0d2375dea790ac0fe2f402e80e630"
+    },
+    {
+      "file": "ALGOUSDT-1d-2021-10.zip",
+      "sha256": "a41d92191b063d70637f63c42132ee5caf7c1462e1717c5575e7655702093c67"
+    },
+    {
+      "file": "ALGOUSDT-1d-2021-11.zip",
+      "sha256": "8816e7ba4ae54b618a7b19535fdb8d41b1d229a31f457fec00f7e1f5bd4eebc5"
+    },
+    {
+      "file": "ALGOUSDT-1d-2021-12.zip",
+      "sha256": "923cc6d8050551dc6f20fb60884e34225cc8f679a8acc6611f678a1012945022"
+    },
+    {
+      "file": "ALGOUSDT-1d-2022-01.zip",
+      "sha256": "8ab465babf5de855d1f5915756f793132e477b564a446218302296f75e034859"
+    },
+    {
+      "file": "ALGOUSDT-1d-2022-02.zip",
+      "sha256": "fdb9b7e8e9cbd46df1d5beb40de2c212882821a70ba795a86e4e883f1ef0f477"
+    },
+    {
+      "file": "ALGOUSDT-1d-2022-03.zip",
+      "sha256": "88975fc992c6001b2d55aa110efe6d04958bb9bafc07c469fc4d6ab1bbb215c8"
+    },
+    {
+      "file": "ALGOUSDT-1d-2022-04.zip",
+      "sha256": "a8d3d5a95a079bdc8206f6a43b1d2348d85e7f46b3609c8ca67638b639260680"
+    },
+    {
+      "file": "ALGOUSDT-1d-2022-05.zip",
+      "sha256": "d9b3628829b5443594cc64cc37577310551126f0ebc26d720f456462d6aeb57f"
+    },
+    {
+      "file": "ALGOUSDT-1d-2022-06.zip",
+      "sha256": "f1ca530c8dd55eb49c08349a0b49ad0d247b381f4c200323c3a53f5db85c9d97"
+    },
+    {
+      "file": "ALGOUSDT-1d-2022-07.zip",
+      "sha256": "e598fd9da62278fd235de64a435ac67ecb2ac0b3ea061faf0fdff8a7d1adf281"
+    },
+    {
+      "file": "ALGOUSDT-1d-2022-08.zip",
+      "sha256": "f7449361217de0f7f801b674a2e7b8a1f9967b2cc84fac4a213c73ebeaef66e5"
+    },
+    {
+      "file": "ALGOUSDT-1d-2022-09.zip",
+      "sha256": "f4f8b16f085147bc36d7737fe71dfb1dd552622005612593340bc8b80cad4d87"
+    },
+    {
+      "file": "ALGOUSDT-1d-2022-10.zip",
+      "sha256": "686123a9c573e0e343d98d6664a6bfa795b8f7f79ab7ed36cf80d52efd2c484c"
+    },
+    {
+      "file": "ALGOUSDT-1d-2022-11.zip",
+      "sha256": "e342693913dc667cf2b3cd9c9ed9c5d0c88f39bea052c3e803b0f7caa783c859"
+    },
+    {
+      "file": "ALGOUSDT-1d-2022-12.zip",
+      "sha256": "f3b0bac5d1423b9f47a6ed5aef478763a9850e9209d046018f0d7330b39a529c"
+    },
+    {
+      "file": "ALGOUSDT-1d-2023-01.zip",
+      "sha256": "eddfaf000d6733feed8ded09cdbd0748e16a1bd8d3d71274b39144703c25aa5b"
+    },
+    {
+      "file": "ALGOUSDT-1d-2023-02.zip",
+      "sha256": "1efe5a984ebc9364ec2a876803839837b3b22b751dac1eb7d3076a443380f45b"
+    },
+    {
+      "file": "ALGOUSDT-1d-2023-03.zip",
+      "sha256": "cccfc407be2dc132d33f0b0349db28421080534e67956368bf4396d716e120fe"
+    },
+    {
+      "file": "ALGOUSDT-1d-2023-04.zip",
+      "sha256": "dc144a059b75c28affeb6442befff58803def01f5c51784e8adf487a73e56a97"
+    },
+    {
+      "file": "ALGOUSDT-1d-2023-05.zip",
+      "sha256": "842a0bf876c92220b663e8e3de30e01e44a583cd921203b58c94453f30022690"
+    },
+    {
+      "file": "ALGOUSDT-1d-2023-06.zip",
+      "sha256": "ea32d3e9940ba0f7c0fc900ac0b7f52c0b9828bf982c7c3228638625f2b265c5"
+    },
+    {
+      "file": "ALGOUSDT-1d-2023-07.zip",
+      "sha256": "2d92efe300fa6f81def4bf7f5155e1d7d72a16e328554e0e30bac6ba9c12cd07"
+    },
+    {
+      "file": "ALGOUSDT-1d-2023-08.zip",
+      "sha256": "fa16ceea5d53125ec140969a20560a9ac9e09b67126fb29b14d4c02da7cade5d"
+    },
+    {
+      "file": "ALGOUSDT-1d-2023-09.zip",
+      "sha256": "c8b8ee98eef7c4d546bfdf0ee36bc4746e768be10bb1b47fca657c53b1df89d5"
+    },
+    {
+      "file": "ALGOUSDT-1d-2023-10.zip",
+      "sha256": "435d0fe522f8598d943bd38086da5cffadf1810fb98ec0983a620365241bcea2"
+    },
+    {
+      "file": "ALGOUSDT-1d-2023-11.zip",
+      "sha256": "f57fb290cc87aa5e3c6ca683d95e334f11252aa66c08f054ab2b81a61205e650"
+    },
+    {
+      "file": "ALGOUSDT-1d-2023-12.zip",
+      "sha256": "dfb60ef7c68032a524a87217c78a8ef7da31c6ec85c353887d8eb69589920af6"
+    },
+    {
+      "file": "ALGOUSDT-1d-2024-01.zip",
+      "sha256": "f6d6339448f83cddf0c7afd3226356726e2bdc0896c121bc515ff429bb8af9ae"
+    },
+    {
+      "file": "ALGOUSDT-1d-2024-02.zip",
+      "sha256": "8153b3ee2d3a3339fb17258364db3342ed2cfaa1082212763d42ee55d1d7c21f"
+    },
+    {
+      "file": "ALGOUSDT-1d-2024-03.zip",
+      "sha256": "b1623b07ddc9434a0adf08c62f5775826a07bc1ae884bf4ebe2c8d0e89675f14"
+    },
+    {
+      "file": "ALGOUSDT-1d-2024-04.zip",
+      "sha256": "2777195c1f56bb1373844beef7ea064e7ea5278b703a404457b7f1731a74cbed"
+    },
+    {
+      "file": "ALGOUSDT-1d-2024-05.zip",
+      "sha256": "3de53af52e8e87f2619c204ee49f01b038d24dad0c7e2182ddd66940a48168f7"
+    },
+    {
+      "file": "ALGOUSDT-1d-2024-06.zip",
+      "sha256": "36c284781bffe6f481df8f2338d3309c310ef6ab96bd8793041881d54ca9b996"
+    },
+    {
+      "file": "ALGOUSDT-1d-2024-07.zip",
+      "sha256": "37aa0938da81916d0ac52e7d822bab38fb2a42694bed88edaa1dfb3065f706b4"
+    },
+    {
+      "file": "ALGOUSDT-1d-2024-08.zip",
+      "sha256": "252fb59abe562744e5a4ead89b910df61e7099c968582ea1c93ae82998d53663"
+    },
+    {
+      "file": "ALGOUSDT-1d-2024-09.zip",
+      "sha256": "c43470ab29a6e7c1ca8eb3f94125168e9cf7a5996f41c33c6eb525006c9a6ed6"
+    },
+    {
+      "file": "ALGOUSDT-1d-2024-10.zip",
+      "sha256": "420dbe8d9349c3365f90ce79a9e7b2478366b0fc2e04955018988dfe20ef8c25"
+    },
+    {
+      "file": "ALGOUSDT-1d-2024-11.zip",
+      "sha256": "e2a055400f2f444809ad4917407ae30c1ebcb5c7336bc5c9e077c66d4ae3368b"
+    },
+    {
+      "file": "ALGOUSDT-1d-2024-12.zip",
+      "sha256": "0ef027e2a09b2085d0324991b25c17e322bb4bebaee903cf590eb14c572edf20"
+    },
+    {
+      "file": "ALGOUSDT-1d-2025-01.zip",
+      "sha256": "b29c07ed4b111cc13217aacbe3430b4fd9c719ec1e801a6fa119b9b41dfb008b"
+    },
+    {
+      "file": "ALGOUSDT-1d-2025-02.zip",
+      "sha256": "0ad8fd28148ac1c57e9412a80efb3dc639ef5442a634fe11db3c69da8b3d0815"
+    },
+    {
+      "file": "ALGOUSDT-1d-2025-03.zip",
+      "sha256": "21fc61fbf01c6d8539f66cd9615dd1d0689d79d8bcebcee21df2730eaae0560d"
+    },
+    {
+      "file": "ALGOUSDT-1d-2025-04.zip",
+      "sha256": "0e0391569b06ea8b596fbabd2ed44ec50f6740a01b7ff4c7a7b917428fa9b359"
+    },
+    {
+      "file": "ALGOUSDT-1d-2025-05.zip",
+      "sha256": "c3181329aa14eb4d741bbfca4e5f1b0392db97b7c1f9018e7d4ca674e5fe7fdd"
+    },
+    {
+      "file": "ALGOUSDT-1d-2025-06.zip",
+      "sha256": "7d625797f5423e6e02370fc4a57cf09294cd17da5c11a3515ce23f7ea63471ae"
+    },
+    {
+      "file": "ALGOUSDT-1d-2025-07.zip",
+      "sha256": "c41cfde8a5dfc3c751a9deb9cfd3c0fcfcd4a77b60a245f7ddae68cf57a83848"
+    },
+    {
+      "file": "ALGOUSDT-1d-2025-08.zip",
+      "sha256": "d7ee0e63b66b5ba30eec8daaca7dd3969fb878b92c2676b5dc133cbcb1f8fccf"
+    },
+    {
+      "file": "ALGOUSDT-1d-2025-09.zip",
+      "sha256": "256095a8268d6004cdbdb51c43e84737f73b0f01689fa1122b8e8224b9035834"
+    },
+    {
+      "file": "ALGOUSDT-1d-2025-10.zip",
+      "sha256": "b8ff5d16307a0bd56ea0cb420b1d49b727c53792956851f416aeb2673c531c2b"
+    },
+    {
+      "file": "ALGOUSDT-1d-2025-11.zip",
+      "sha256": "a8e26d8d5c70165ffe54bc2a5b4f9ef7dab38f869f230bed4248ac62a48e7314"
+    },
+    {
+      "file": "ALGOUSDT-1d-2025-12.zip",
+      "sha256": "e77a2da8cb50f00014ed9728397a3a11d99138bbea273de7381014f7b8454483"
+    },
+    {
+      "file": "ALGOUSDT-1d-2026-01.zip",
+      "sha256": "7207c49b44f29a66b0aac25049eaddc75e8ea7933848f8dc19dcbd36939e427d"
+    },
+    {
+      "file": "ALGOUSDT-1d-2026-02.zip",
+      "sha256": "1d4aac9a5c1e78e2d7093e723f850125e8e0eeb070d0423128cf2bf1a939fbbe"
+    },
+    {
+      "file": "ALGOUSDT-1d-2026-03.zip",
+      "sha256": "1acda5ec253ac2bf434e915b8e66935e39564d75c70d67855b48879118745f8a"
+    },
+    {
+      "file": "ALGOUSDT-1d-2026-04.zip",
+      "sha256": "cbc39bd542f9aac41405bc52fc744c248e6bc673173a33027f0a926b4a3564e7"
+    },
+    {
+      "file": "ALGOUSDT-1d-2026-05.zip",
+      "sha256": "1bb5f73c5590cebd18ff380a87b0d64bc2036d604ef40cf24ea9ff6697b26b15"
+    },
+    {
+      "file": "ALGOUSDT-1d-2026-06.zip",
+      "sha256": "4f3c9d968fbd1748fe82ee11875544e2e07a4578c2cbc97daad3db8e81bfec06"
+    },
+    {
+      "file": "ALGOUSDT-1d-2026-07.zip",
+      "sha256": "fc94a189f0d0e0d1b5b2f8cd8c13581405a19c2f436f854c2eca161190ca0e80"
+    },
+    {
+      "file": "ALGOUSDT-1d-2026-08.zip",
+      "sha256": "6a87668851a32268a2f5df19010b6b868d1877336526c6d72681f382cfd0fc39"
+    },
+    {
+      "file": "ALGOUSDT-1d-2026-09.zip",
+      "sha256": "8f398e2c4c87142fbb0f13fdb059b3d1bbc5d1f4d7305a1b7568ec05c4f3705f"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}
