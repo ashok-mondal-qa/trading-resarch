@@ -79,3 +79,9 @@ screen. Not vetoes; all must appear in the report.
 - **v0.1 (2026-10-25):** initial spec, committed before any run. Also: `standalone_summary` takes the
   interval level as an argument (Phase 11 output unchanged). No earlier results are affected. A holdout
   evaluation is needed only if a strategy passes.
+- **v0.1 data note (2026-10-25, before any run):** the index loader now reads NIFTY 50 under its 2012 name
+  "S&P CNX Nifty" too, and excludes an index name listed twice in one file (ind_close_all_08022013.csv lists
+  "CNX Alpha Index" twice) instead of rejecting the whole file. NIFTY 50 closes now start 2012-02-21. NSE's
+  archive has no index file (HTTP 404, re-checked) for 11 sessions between 2013-10 and 2016-01; on those
+  days the regime is unknown, so no entries. No rule changes.
+

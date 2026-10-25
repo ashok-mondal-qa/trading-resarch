@@ -83,3 +83,10 @@ strength. Index values are as published (indices need no corporate-action adjust
   only errors known by their data end (`run_swing_ideas.usable_as_of`); otherwise a 2025 demerger would
   remove a stock's 2016 bars.
 
+## History extended to 2011 (2026-10-25)
+- Bhavcopy from 2011-07-01 (earlier legacy files have no ISIN or trade-count columns, so the loader fails
+  closed on them). NSE index files exist in the archive from about 2012-02 (earlier dates return 404).
+- NIFTY 50 names in the files: "S&P CNX Nifty" (to 2013-02-07), "CNX Nifty" (to 2015-11-06), "Nifty 50".
+- An index name listed twice in one file is excluded (manifest `excluded_duplicate_names`), never picked.
+- 11 sessions between 2013-10 and 2016-01 have no index file (404 on re-check); they stay missing.
+

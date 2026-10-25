@@ -57,11 +57,22 @@ def test_slash_dates_accepted_only_when_they_match_the_file_date(tmp_path):
         indices.load_day(DAY, tmp_path / "x", fetch=lambda url: other)
 
 
-def test_nifty_50_read_under_its_pre_november_2015_name(tmp_path):
-    old_day, new_day = date(2015, 11, 6), date(2015, 11, 9)
-    old = csv(["CNX Nifty,06-11-2015,100,110,95,105,5,5.0,1000,10.5,20,3,1.2"])
-    new = csv(["Nifty 50,09-11-2015,105,112,100,108,3,2.9,1000,10.5,20,3,1.2"])
-    indices.load_day(old_day, tmp_path, fetch=lambda url: old)
-    indices.load_day(new_day, tmp_path, fetch=lambda url: new)
-    nifty = indices.read_index("Nifty 50", old_day, new_day, tmp_path)
-    assert nifty["close"].tolist() == [105, 108]
+def test_nifty_50_read_under_its_former_names(tmp_path):
+    days = [date(2013, 2, 7), date(2015, 11, 6), date(2015, 11, 9)]
+    files = [csv(["S&P CNX Nifty,07-02-2013,90,95,88,92,1,1.0,1000,10.5,20,3,1.2"]),
+             csv(["CNX Nifty,06-11-2015,100,110,95,105,5,5.0,1000,10.5,20,3,1.2"]),
+             csv(["Nifty 50,09-11-2015,105,112,100,108,3,2.9,1000,10.5,20,3,1.2"])]
+    for day, raw in zip(days, files):
+        indices.load_day(day, tmp_path, fetch=lambda url, raw=raw: raw)
+    nifty = indices.read_index("Nifty 50", days[0], days[-1], tmp_path)
+    assert nifty["close"].tolist() == [92, 105, 108]
+
+
+def test_duplicated_index_name_excluded_not_picked(tmp_path):
+    dup = csv(["Test Index A,22-10-2026,100,110,95,105,5,5.0,1000,10.5,20,3,1.2",
+               "Test Index A,22-10-2026,101,111,96,106,5,5.0,1000,10.5,20,3,1.2",
+               "Test Index B,22-10-2026,50,55,45,52,2,4.0,1000,10.5,20,3,1.2"])
+    manifest = indices.load_day(DAY, tmp_path, fetch=lambda url: dup)
+    assert manifest["status"] == "ok" and manifest["excluded_duplicate_names"] == ["Test Index A"]
+    assert indices.read_index("Test Index A", DAY, DAY, tmp_path).empty
+    assert indices.read_index("Test Index B", DAY, DAY, tmp_path)["close"].tolist() == [52]

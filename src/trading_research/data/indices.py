@@ -32,8 +32,9 @@ SOURCE_MAP = {
 
 
 ALTERNATE_DATE_FORMATS = ("%m-%d-%Y", "%d/%m/%Y")
-# NSE renamed its indices on 2015-11-09 (e.g. "CNX Nifty" -> "Nifty 50"); older files use the old name.
-FORMER_NAMES = {"nifty 50": ("cnx nifty",)}
+# NIFTY 50 was "S&P CNX Nifty" in files up to 2013-02-07, "CNX Nifty" until 2015-11-06 and "Nifty 50" from
+# 2015-11-09 (names as they appear in the archive files).
+FORMER_NAMES = {"nifty 50": ("cnx nifty", "s&p cnx nifty")}
 
 
 def url_for(day: date) -> str:
@@ -91,14 +92,17 @@ def load_day(day: date, root: Path = REPO_ROOT / "data", fetch=bhavcopy.http_fet
                     break
             else:
                 raise bhavcopy.BhavcopyError(f"index file dates {sorted(dates)} do not match {day}")
-        dupes = int(frame["index"].duplicated().sum())
-        if dupes:
-            raise bhavcopy.BhavcopyError(f"{dupes} duplicate index names in {url}")
+        # An index name listed twice (e.g. "CNX Alpha Index" in ind_close_all_08022013.csv) is excluded,
+        # never de-duplicated by picking a row; every other index in the file is kept.
+        dup_mask = frame["index"].duplicated(keep=False)
+        excluded = sorted(frame.loc[dup_mask, "index"].unique())
+        frame = frame[~dup_mask].reset_index(drop=True)
         for key in ("raw", "bars"):
             p[key].parent.mkdir(parents=True, exist_ok=True)
         p["raw"].write_bytes(raw)
         frame.to_parquet(p["bars"], index=False)
-        manifest.update(status="ok", rows=int(len(frame)), date_format_note=note, raw_sha256=hashlib.sha256(raw).hexdigest(),
+        manifest.update(status="ok", rows=int(len(frame)), date_format_note=note,
+                        excluded_duplicate_names=excluded, raw_sha256=hashlib.sha256(raw).hexdigest(),
                         first_bar_ist=f"{day.isoformat()}T{bhavcopy.SESSION_CLOSE_IST}",
                         last_bar_ist=f"{day.isoformat()}T{bhavcopy.SESSION_CLOSE_IST}")
     bhavcopy._write_json(p["manifest"], manifest)
