@@ -37,6 +37,7 @@ DATASET = "binance_spot_1d"
 ARCHIVE = "https://data.binance.vision"
 LISTING = "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision"
 PREFIX = "data/spot/monthly/klines/"
+DAILY_PREFIX = "data/spot/daily/klines/"
 KLINE_COLUMNS = ["open_time", "open", "high", "low", "close", "volume", "close_time", "quote_volume",
                  "trades", "taker_buy_base", "taker_buy_quote", "ignore"]
 QUOTE = "USDT"
@@ -61,9 +62,10 @@ def http_fetch(url: str) -> bytes | None:
     return bhavcopy.http_fetch(url, retries=4, timeout=60.0)
 
 
-def list_keys(prefix: str, delimiter: str | None = "/", fetch=http_fetch) -> list[str]:
-    """Every common prefix (with a delimiter) or key (without) under `prefix`, following S3 pagination."""
-    out, marker = [], ""
+def list_keys(prefix: str, delimiter: str | None = "/", fetch=http_fetch, start_after: str = "") -> list[str]:
+    """Every common prefix (with a delimiter) or key (without) under `prefix` that sorts after `start_after`,
+    following S3 pagination."""
+    out, marker = [], start_after
     while True:
         url = f"{LISTING}?prefix={_q(prefix)}&marker={_q(marker)}" + (f"&delimiter={delimiter}" if delimiter else "")
         raw = fetch(url)
@@ -148,11 +150,18 @@ def _fetch_month(key: str, raw_dir: Path, fetch) -> tuple[str, bytes | None, str
     return name, data, "ok"
 
 
-def load_symbol(symbol: str, end_month: str, root: Path = REPO_ROOT / "data", fetch=http_fetch) -> dict:
-    """Download (or re-verify) every monthly 1d file up to `end_month` (YYYY-MM) and write bars + manifest."""
+def load_symbol(symbol: str, end_month: str, root: Path = REPO_ROOT / "data", fetch=http_fetch,
+                daily_through: str | None = None) -> dict:
+    """Download (or re-verify) every monthly 1d file up to `end_month` (YYYY-MM), then, if `daily_through`
+    (YYYY-MM-DD) is given, the daily 1d files after that month up to that day; write bars + manifest."""
     p = paths(root, symbol)
     keys = [k for k in list_keys(f"{PREFIX}{symbol}/1d/", None, fetch) if k.endswith(".zip")]
     keys = sorted(k for k in keys if k[-11:-4] <= end_month)
+    if daily_through:
+        daily = f"{DAILY_PREFIX}{symbol}/1d/"
+        after = f"{daily}{symbol}-1d-{end_month}-32"            # sorts after every day of end_month
+        keys += sorted(k for k in list_keys(daily, None, fetch, after)
+                       if k.endswith(".zip") and k[-14:-4] <= daily_through)
     frames, months, problems = [], [], []
     for key in keys:
         name, data, status = _fetch_month(key, p["raw"], fetch)
@@ -174,7 +183,7 @@ def load_symbol(symbol: str, end_month: str, root: Path = REPO_ROOT / "data", fe
         "dataset": DATASET, "provider": "Binance public data archive", "source": f"{ARCHIVE}/{PREFIX}{symbol}/1d/",
         "instrument": symbol, "exchange": "Binance spot", "timeframe": "1d (UTC day, open 00:00 UTC)",
         "first_bar": str(bars["date"].min().date()) if len(bars) else None,
-        "last_bar": str(bars["date"].max().date()) if len(bars) else None, "end_month_requested": end_month,
+        "last_bar": str(bars["date"].max().date()) if len(bars) else None, "end_month_requested": end_month, "daily_through_requested": daily_through,
         "retrieved_at_utc": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
         "price_adjustment": "none (no corporate actions; prices as traded in USDT)", "rows": int(len(bars)),
         "missing_days": [str(d.date()) for d in missing], "excluded": excluded, "file_problems": problems,
@@ -198,6 +207,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--list", action="store_true")
     parser.add_argument("--load", action="store_true")
     parser.add_argument("--end", default="2026-09", help="last month to load, YYYY-MM")
+    parser.add_argument("--daily-through", help="then daily files after --end up to this day, YYYY-MM-DD")
     parser.add_argument("--symbols", nargs="*")
     parser.add_argument("--workers", type=int, default=8)
     args = parser.parse_args(argv)
@@ -209,7 +219,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.load:
         def one(s):
             try:
-                m = load_symbol(s, args.end)
+                m = load_symbol(s, args.end, daily_through=args.daily_through)
                 return s, m["status"], m["rows"]
             except Exception as exc:  # reported, never silently skipped
                 return s, f"error: {exc}", 0

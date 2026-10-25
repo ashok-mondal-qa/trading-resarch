@@ -37,3 +37,15 @@ TRADE CANDIDATE is possible.
   (`tests/test_end_to_end.py` runs a synthetic market through signal → order → fill → exit).
 - Alerts (project post plus email) are switched off until a strategy passes validation (owner's choice,
   2026-10-23).
+
+## Monthly forward check (EXP-0027 / EXP-0028, shadow only)
+Fresh container, after the last completed session (NSE after ~18:15 IST; crypto any time after 00:00 UTC):
+```
+uv venv .venv && uv pip install -e '.[dev]'
+.venv/bin/python -m trading_research.data.binance --load --end <last full month YYYY-MM> --daily-through <YYYY-MM-DD>
+.venv/bin/python -m trading_research.backtesting.run_forward --market crypto --as-of <YYYY-MM-DD>
+# NSE: reload bhavcopy and index files from 2011-07-01, list symbols and adjust (as in Phase 12), then
+.venv/bin/python -m trading_research.backtesting.run_forward --market nse --as-of <last session>
+```
+Commit `reports/forward/` and the Binance manifests. Results are interim until the decision rule in the spec
+says otherwise; never change a signal status or send an alert from them.
