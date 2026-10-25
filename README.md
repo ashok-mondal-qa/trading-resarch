@@ -20,6 +20,7 @@ Start with `CLAUDE.md`. Plan and audit: see the project doc "Swing-trading resea
 | 10 End-to-end | synthetic full-cycle test (signal → order → fill → exit), live-mode refusal, source scan for order code, report field checks; runbook `docs/operations.md` (2026-10-23) |
 | 11 More swing ideas | displacement, short-term reversal and 12-1 momentum pre-registered and tested on a never-evaluated 2016–2022 presample; all three **REJECTED**, holdout unused (2026-10-24, `reports/backtests/EXP-0011-0013-report.md`) |
 | 12 Swing ideas round 2 | weekly 12-1 momentum and gap-up drift tested on a never-evaluated 2013–2015 split; both **REJECTED** (momentum consistent but regime-dependent), holdout unused (2026-10-25, `reports/backtests/EXP-0014-0015-report.md`) |
+| 13 Popular social-media strategies | Minervini, Supertrend, 44-MA, Turtle 55, golden cross pre-registered; whole 2013–2025 with a 16-way correction; holdout still sealed (2026-10-25, `docs/strategy-specifications/social-strategies.md`) |
 
 ## Daily report (paper only)
 ```
