@@ -79,3 +79,9 @@ Momentum's weakness here is statistical power: one entry day a month gives ~50 i
 6.6 years. A fair follow-up would be a separately pre-registered momentum design (for example a weekly
 rebalance, or a longer history from 2010) judged by the same rules, without changing the 12-1 rules
 above after seeing these results.
+
+## Reproduction note (2026-10-25)
+These numbers were produced on prices adjusted over 2015-01-01..2026-10-22 (2,125 symbols). On 2026-10-25
+the adjustment was re-run over 2011-07-01..2026-10-22 (2,205 symbols) for Phase 12. Re-running
+`run_swing_ideas` on that data can differ slightly (earlier adjustment errors, indicator seeds from earlier
+bars, 80 more symbols). The verdicts were fixed by the run recorded here.
