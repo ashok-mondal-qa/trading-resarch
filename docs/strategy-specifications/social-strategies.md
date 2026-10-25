@@ -1,6 +1,7 @@
 # Popular strategies from books, YouTube and Instagram (long only, daily) — spec v0.1
 
-Status: **pre-registered, not run** (written and committed before any backtest of these rules).
+Status: **REJECTED, all five** (2026-10-25; `reports/backtests/EXP-0016-0020-report.md`). Written and committed
+before any backtest of these rules (2891330).
 Code: `src/trading_research/strategies/social.py`, runner `src/trading_research/backtesting/run_social.py`.
 Registry: EXP-0016..0020. Nothing here is evidence of an edge.
 
@@ -79,3 +80,6 @@ the report.
 ## Changelog
 - **v0.1 (2026-10-25):** initial spec, committed before any run. Adds `core.supertrend` and engine profit
   targets (no change for strategies without a `target` column). No earlier results affected.
+- **Result (2026-10-25, no rule change):** all five REJECTED by the rules above; holdout not run. Review
+  found that expectancy counts closed trades only (biased against long holds in short splits); re-checked
+  with open trades marked to market, no verdict changes. Later specs should report both.
