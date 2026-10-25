@@ -68,6 +68,26 @@ research. **Independent auditor:** four common rule sets taken as usually descri
 no tuning; the 0.6% minimum stop is a cost rule fixed before any run. Objection: the same years were seen at
 daily resolution in Phase 14. Not a veto.
 
+## v0.2 addendum: 9/15 EMA scalp (EXP-0037, EXP-0038), pre-registered before any run
+**Why (owner, 2026-10-25):** Ashok asked to test "The Trade Room" (YouTube channel, founder Mayank Raj per its
+app-store listing and press profiles; web search 2026-10-25). Public biographies describe his core method as a
+**9 and 15 EMA crossover scalp**; the channel says it is not SEBI-registered and gives no tips, and no verified
+track record was found. The exact official rules were not found, so the rule below is the common published
+form (third-party guides, web search 2026-10-25): short timeframe, EMA9 above EMA15 = uptrend, avoid flat
+EMAs, stop at the signal candle's low, target 1:2, at most 5 trades a day. Interpretation, not his own rule book.
+His own trading is mostly Indian index options intraday, which needs paid minute data; BTC/ETH 5m is the proxy.
+
+| | Strategy | Timeframe | Entry | Stop | Exit |
+| --- | --- | --- | --- | --- | --- |
+| EXP-0037 | `ema_scalp` | 5m | EMA9 crosses above EMA15 and EMA15 > its value 3 bars earlier (rising) | signal candle's low, **no minimum distance** (as described) | target entry + 2 × risk, or stop, or next 00:00 UTC open; ≤ 5 trades per UTC day per pair |
+| EXP-0038 | `ema_scalp_minstop` | 5m | same | same, but skip if the stop is < 0.6% away (the v0.1 cost rule) | same |
+
+Same execution model, costs, tax, splits and acceptance rules as v0.1, with the Bonferroni family = these two
+(97.5% interval). A target and a stop in the same 5m bar count as the stop. Mean R with tiny stops is extreme
+by construction, so the mean return per trade in % is reported beside it.
+
 ## Changelog
 - **v0.1 (2026-10-25):** initial spec, before any intraday run.
 - **v0.1 result (2026-10-25):** run once, no changes; all four REJECTED.
+- **v0.2 (2026-10-25):** adds EXP-0037/0038 (9/15 EMA scalp, owner request) before any run of them; v0.1 rules
+  and results unchanged. Simulator gains a profit target and a daily trade cap, used only by these two.

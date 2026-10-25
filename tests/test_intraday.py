@@ -114,3 +114,40 @@ def test_verdict_and_sealed_holdout():
     res["1x"]["dev"] = {**good, "expectancy_r_after_tax": -0.01}
     assert ri.verdict(res)["status"] == "REJECTED"
     assert ri.DATA_END <= ri.HOLDOUT[0]
+
+
+def test_scalp_target_stop_first_and_daily_cap():
+    b = bars5([100.0] * 30, spread=0.1)
+    sig = pd.DataFrame({"entry": False, "stop": 99.0, "exit": False, "close": b["close"]}, index=b.index)
+    sig.iloc[2, 0] = True
+    up = b.copy()
+    up.iloc[6, up.columns.get_loc("high")] = 102.5                          # reaches 100 + 2 x 1
+    t = it.simulate("ema_scalp", up, sig, "5min", NO_COST).iloc[0]
+    assert t["reason"] == "target" and t["exit"] == pytest.approx(102.0) and t["r_multiple"] == pytest.approx(2.0)
+    both = up.copy()
+    both.iloc[6, both.columns.get_loc("low")] = 98.5                        # stop and target in one bar
+    assert it.simulate("ema_scalp", both, sig, "5min", NO_COST).iloc[0]["reason"] == "stop"
+    many = pd.DataFrame({"entry": True, "stop": 99.0, "exit": False, "close": b["close"]}, index=b.index)
+    quick = up.copy()
+    quick["low"] = 98.0                                                      # every trade stops on its entry bar
+    trades = it.simulate("ema_scalp", quick, many, "5min", NO_COST)
+    assert len(trades) == 5 and (trades["reason"] == "stop").all()
+
+
+def test_scalp_minimum_stop_variant_skips_tight_stops():
+    b = bars5([100.0] * 300, spread=0.1)                                 # runs past the next 00:00 UTC
+    sig = pd.DataFrame({"entry": False, "stop": 99.8, "exit": False, "close": b["close"]}, index=b.index)
+    sig.iloc[2, 0] = True
+    assert len(it.simulate("ema_scalp", b, sig, "5min", it.Params(slip_bps=0))) == 1
+    assert it.simulate("ema_scalp_minstop", b, sig, "5min", it.Params(slip_bps=0)).empty
+
+
+def test_scalp_signal_needs_rising_slow_ema():
+    v_turn = list(np.linspace(110, 100, 40)) + [100.5, 101.5, 102.5, 103.5]
+    assert it.signals("ema_scalp", bars5(v_turn), None)["entry"].sum() == 0     # EMA15 still falling at the cross
+    trend = list(np.linspace(100, 130, 60)) + list(np.linspace(128, 120, 5)) + list(np.linspace(121, 140, 15))
+    b = bars5(trend)
+    sig = it.signals("ema_scalp", b, None)
+    assert sig["entry"].sum() == 1
+    t = sig.index[sig["entry"]][0]
+    assert sig.loc[t, "stop"] == pytest.approx(b.loc[t, "low"])

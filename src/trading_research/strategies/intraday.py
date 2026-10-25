@@ -16,8 +16,10 @@ import pandas as pd
 
 from trading_research.indicators import core
 
-SPEC_VERSION = "0.1"
-STRATEGIES = {"orb": "5min", "ema_cross": "15min", "bb_rsi": "1h", "supertrend": "1h"}
+SPEC_VERSION = "0.2"
+STRATEGIES = {"orb": "5min", "ema_cross": "15min", "bb_rsi": "1h", "supertrend": "1h", "ema_scalp": "5min",
+              "ema_scalp_minstop": "5min"}
+DAY_END = ("orb", "ema_scalp", "ema_scalp_minstop")          # flat at the next 00:00 UTC open
 FIVE = pd.Timedelta(minutes=5)
 
 
@@ -42,6 +44,11 @@ class Params:
     bb_max_bars: int = 48
     st_n: int = 10
     st_mult: float = 3.0
+    scalp_fast: int = 9
+    scalp_slow: int = 15
+    scalp_slope_bars: int = 3
+    scalp_target_r: float = 2.0
+    scalp_max_per_day: int = 5
 
     def as_dict(self) -> dict:
         return asdict(self)
@@ -88,9 +95,21 @@ def supertrend_signals(bars: pd.DataFrame, p: Params = Params()) -> pd.DataFrame
                          "exit": (d == -1) & (d.shift(1) == 1)}, index=bars.index)
 
 
+def ema_scalp_signals(bars: pd.DataFrame, p: Params = Params()) -> pd.DataFrame:
+    """9/15 EMA scalp (EXP-0037/0038): EMA9 crosses above EMA15 while EMA15 is rising; stop at the signal
+    candle's low; target `scalp_target_r` x risk; at most `scalp_max_per_day` trades per UTC day."""
+    fast, slow = core.ema(bars["close"], p.scalp_fast), core.ema(bars["close"], p.scalp_slow)
+    above = fast > slow
+    up = above & ~above.shift(1, fill_value=True) & slow.shift(1).notna()
+    rising = slow > slow.shift(p.scalp_slope_bars)
+    return pd.DataFrame({"entry": up & rising, "stop": bars["low"], "exit": False}, index=bars.index)
+
+
 def signals(strategy: str, b5: pd.DataFrame, bars: pd.DataFrame, p: Params = Params()) -> pd.DataFrame:
     if strategy == "orb":
         out, src = orb_signals(b5, p), b5
+    elif strategy.startswith("ema_scalp"):
+        out, src = ema_scalp_signals(b5, p), b5
     else:
         funcs = {"ema_cross": ema_cross_signals, "bb_rsi": bb_rsi_signals, "supertrend": supertrend_signals}
         out, src = funcs[strategy](bars, p), bars
@@ -102,7 +121,11 @@ def simulate(strategy: str, b5: pd.DataFrame, sig: pd.DataFrame, tf: str, p: Par
              mult: float = 1.0, symbol: str = "") -> pd.DataFrame:
     step = pd.Timedelta(tf)
     t5 = b5.index.to_numpy()
-    o5, l5 = b5["open"].to_numpy(float), b5["low"].to_numpy(float)
+    o5, l5, h5 = b5["open"].to_numpy(float), b5["low"].to_numpy(float), b5["high"].to_numpy(float)
+    min_stop = 0.0 if strategy == "ema_scalp" else p.min_stop_pct          # the scalp as described has none
+    target_r = p.scalp_target_r if strategy.startswith("ema_scalp") else None
+    per_day = p.scalp_max_per_day if strategy.startswith("ema_scalp") else None
+    taken: dict = {}
     slip = p.slip_bps / 1e4 * mult
     fee = p.fee_pct / 100 * (1 + p.gst_pct / 100) * mult
     entries = sig.index[sig["entry"].to_numpy(bool)]
@@ -113,7 +136,9 @@ def simulate(strategy: str, b5: pd.DataFrame, sig: pd.DataFrame, tf: str, p: Par
             continue
         stop = float(sig.at[t, "stop"])
         ref = float(sig.at[t, "close"])
-        if not np.isfinite(stop) or stop >= ref or (ref - stop) / ref * 100 < p.min_stop_pct:
+        if not np.isfinite(stop) or stop >= ref or (ref - stop) / ref * 100 < min_stop:
+            continue
+        if per_day is not None and taken.get(t.normalize(), 0) >= per_day:
             continue
         start = t + step
         i = np.searchsorted(t5, start.to_datetime64())
@@ -122,7 +147,7 @@ def simulate(strategy: str, b5: pd.DataFrame, sig: pd.DataFrame, tf: str, p: Par
         entry = o5[i] * (1 + slip)
         if entry <= stop:
             continue
-        if strategy == "orb":
+        if strategy in DAY_END:
             planned = (start.normalize() + pd.Timedelta(days=1)).to_datetime64()
         else:
             k = np.searchsorted(exit_close, start.to_datetime64(), side="right")
@@ -132,12 +157,17 @@ def simulate(strategy: str, b5: pd.DataFrame, sig: pd.DataFrame, tf: str, p: Par
                 planned = cap if np.isnat(planned) or cap < planned else planned
         j_end = np.searchsorted(t5, planned) if not np.isnat(planned) else len(t5)
         hit = np.nonzero(l5[i:j_end] <= stop)[0]
-        if len(hit):
+        target = entry + target_r * (entry - stop) if target_r else np.inf
+        reach = np.nonzero(h5[i:j_end] >= target)[0]
+        if len(reach) and (not len(hit) or reach[0] < hit[0]):    # same bar: the stop is assumed first
+            j = i + reach[0]
+            px, reason, exit_time = max(o5[j], target) * (1 - slip), "target", t5[j]
+        elif len(hit):
             j = i + hit[0]
             px, reason = min(o5[j], stop) * (1 - slip), "stop"
             exit_time = t5[j]
         elif j_end < len(t5):
-            px, reason, exit_time = o5[j_end] * (1 - slip), ("day end" if strategy == "orb" else "signal"), t5[j_end]
+            px, reason, exit_time = o5[j_end] * (1 - slip), ("day end" if strategy in DAY_END else "signal"), t5[j_end]
             if strategy == "bb_rsi" and exit_time >= (start + p.bb_max_bars * step).to_datetime64():
                 reason = "time"
         else:
@@ -150,4 +180,5 @@ def simulate(strategy: str, b5: pd.DataFrame, sig: pd.DataFrame, tf: str, p: Par
                     "risk_pct": risk / entry * 100, "pnl_pct": pnl / entry * 100, "r_multiple": pnl / risk,
                     "r_after_tax": after_tax / risk, "reason": reason})
         free_from = exit_time
+        taken[t.normalize()] = taken.get(t.normalize(), 0) + 1
     return pd.DataFrame(out)

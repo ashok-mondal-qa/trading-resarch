@@ -32,9 +32,15 @@ SPLITS = {
 }
 SIGN_SPLITS = ("dev_a", "dev_b", "validation")
 HOLDOUT = ("2025-01-01", "2026-09-30")                      # sealed: not downloaded, never read
-EXPERIMENTS = {"orb": "EXP-0033", "ema_cross": "EXP-0034", "bb_rsi": "EXP-0035", "supertrend": "EXP-0036"}
-FAMILY_SIZE = 4
-ALPHA = 0.05 / FAMILY_SIZE
+EXPERIMENTS = {"orb": "EXP-0033", "ema_cross": "EXP-0034", "bb_rsi": "EXP-0035", "supertrend": "EXP-0036",
+               "ema_scalp": "EXP-0037", "ema_scalp_minstop": "EXP-0038"}
+# Bonferroni families: the four pre-registered in v0.1, then the two 9/15 EMA scalp variants added in v0.2.
+FAMILY_SIZE = {"orb": 4, "ema_cross": 4, "bb_rsi": 4, "supertrend": 4, "ema_scalp": 2, "ema_scalp_minstop": 2}
+ALPHA = 0.05 / 4
+
+
+def alpha(strategy: str) -> float:
+    return 0.05 / FAMILY_SIZE[strategy]
 MIN_TRADES = 200
 RISK = 0.005
 MAX_POSITION = 0.5
@@ -70,7 +76,7 @@ def equity_curve(trades: pd.DataFrame) -> dict:
             "end_equity_after_tax": float(eq_tax[-1]), "cagr_after_tax": float(eq_tax[-1] ** (1 / years) - 1)}
 
 
-def summary(trades: pd.DataFrame, ci: bool = False) -> dict:
+def summary(trades: pd.DataFrame, ci: bool = False, a: float = ALPHA) -> dict:
     if trades.empty:
         return {"trades": 0}
     r = trades["r_multiple"].to_numpy(float)
@@ -90,7 +96,7 @@ def summary(trades: pd.DataFrame, ci: bool = False) -> dict:
                          for s, g in trades.groupby("symbol")},
            "illustrative_0p5pct_risk": equity_curve(trades)}
     if ci:
-        out[f"ci_{1 - ALPHA:.4f}"] = metrics.cluster_bootstrap_ci(r, months.astype(str).to_numpy(), alpha=ALPHA)
+        out[f"ci_{1 - a:.4f}"] = metrics.cluster_bootstrap_ci(r, months.astype(str).to_numpy(), alpha=a)
     return out
 
 
@@ -107,14 +113,14 @@ def buy_and_hold(bars: dict[str, pd.DataFrame]) -> dict:
     return out
 
 
-def verdict(results: dict) -> dict:
+def verdict(results: dict, a: float = ALPHA) -> dict:
     dev1, dev2 = results["1x"]["dev"], results["2x"]["dev"]
-    lo = (dev1.get(f"ci_{1 - ALPHA:.4f}") or (-1, -1))[0]
+    lo = (dev1.get(f"ci_{1 - a:.4f}") or (-1, -1))[0]
     checks = {
         f"dev >= {MIN_TRADES} trades": dev1.get("trades", 0) >= MIN_TRADES,
         "dev 2x: expectancy > 0": (dev2.get("expectancy_r") or -1) > 0,
         "dev 2x: profit factor >= 1.1": (dev2.get("profit_factor") or 0) >= 1.1,
-        f"dev 1x: {1 - ALPHA:.2%} interval lower bound > 0": lo > 0,
+        f"dev 1x: {1 - a:.2%} interval lower bound > 0": lo > 0,
         "dev 1x: after-tax expectancy > 0": (dev1.get("expectancy_r_after_tax") or -1) > 0,
     }
     for split in SIGN_SPLITS:
@@ -134,10 +140,11 @@ def run(strategy: str, bars: dict[str, pd.DataFrame], p: it.Params = it.Params()
             sig = it.signals(strategy, b5, tfb, p)
             frames.append(it.simulate(strategy, b5, sig, tf, p, mult, s))
         trades = pd.concat(frames, ignore_index=True)
-        out[label] = {split: summary(in_split(trades, split), ci=(label == "1x" and split == "dev")) for split in SPLITS}
+        out[label] = {split: summary(in_split(trades, split), ci=(label == "1x" and split == "dev"), a=alpha(strategy))
+                      for split in SPLITS}
         if first is None:
             first = trades
-    out["verdict"] = verdict(out)
+    out["verdict"] = verdict(out, alpha(strategy))
     return out, first
 
 
