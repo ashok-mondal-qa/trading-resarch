@@ -172,7 +172,11 @@ def standalone(frames: dict, signals: pd.DataFrame, regime_trend: pd.Series, spl
     return pd.DataFrame(out)
 
 
-def standalone_summary(t: pd.DataFrame) -> dict:
+def ci_key(alpha: float) -> str:
+    return f"expectancy_r_ci{100 * (1 - alpha):.1f}_month_clustered"
+
+
+def standalone_summary(t: pd.DataFrame, alpha: float = ALPHA) -> dict:
     if len(t) == 0:
         return {"trades": 0}
     closed = t[t["reason"] != "open at end (marked)"]
@@ -187,8 +191,7 @@ def standalone_summary(t: pd.DataFrame) -> dict:
         "win_rate": float((pnl > 0).mean()) if len(r) else None,
         "profit_factor": float(pnl[pnl > 0].sum() / -pnl[pnl <= 0].sum()) if (pnl <= 0).any() else None,
         "expectancy_r_ci95_month_clustered": metrics.cluster_bootstrap_ci(r, months),
-        f"expectancy_r_ci{100 * (1 - ALPHA):.1f}_month_clustered": metrics.cluster_bootstrap_ci(r, months,
-                                                                                                alpha=ALPHA),
+        ci_key(alpha): metrics.cluster_bootstrap_ci(r, months, alpha=alpha),
         "entry_months": int(len(set(months))),
         "avg_sessions": float(closed["sessions"].mean()) if len(r) else None,
         "worst_r": float(r.min()) if len(r) else None,
@@ -255,7 +258,7 @@ def run_split(split: str, strategies=si.STRATEGIES, root: Path = REPO_ROOT / "da
 def verdict(reports: dict[str, dict]) -> dict:
     """Rules from the spec, applied mechanically. `reports[split]` is one strategy's report per split."""
     pre = reports["presample"]["runs"]
-    lo_key = f"expectancy_r_ci{100 * (1 - ALPHA):.1f}_month_clustered"
+    lo_key = ci_key(ALPHA)
     checks = {
         "presample portfolio >= 30 trades": pre["portfolio_2x_costs"].get("trades", 0) >= MIN_PORTFOLIO_TRADES,
         "presample portfolio 2x: expectancy > 0":
