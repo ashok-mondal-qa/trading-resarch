@@ -2,6 +2,7 @@
 Research and paper only: nothing here orders or alerts.
 
     python -m trading_research.backtesting.run_factors        # all three, every split, 1x and 2x costs
+    python -m trading_research.backtesting.run_factors --forward --as-of 2026-11-30   # EXP-0042/0043 (paper)
 
 Each split is simulated on its own from ₹10 lakh. Signals at a month's last close; trades at the next session's
 open; sells first, then buys sized at min(cash / new names, equity / holdings); positions drift between
@@ -42,6 +43,12 @@ START_EQUITY = 1_000_000.0
 SLIPPAGE_PCT = 0.10                          # per side at 1x, of the open price
 STALE_DAYS = 5                               # a holding with no bar for this many sessions is sold at its last close
 MAX_DD_GAP = 0.10                            # validation drawdown may be at most 10 points worse than NIFTY's
+# Forward paper tracking of the two near misses (forward-tracking.md v0.2): frozen EXP-0039 / EXP-0041 rules,
+# first portfolio from the close of 2026-10-30, trades from the next open. Decide after FORWARD_MONTHS.
+FORWARD = {"lowvol": "EXP-0042", "mom_lowvol": "EXP-0043"}
+FORWARD_START = "2026-11-02"
+FORWARD_MONTHS = 24
+FORWARD_DIR = REPO_ROOT / "reports" / "forward"
 
 
 def load(root: Path = REPO_ROOT / "data", end: date = DATA_END):
@@ -217,10 +224,62 @@ def run(strategy: str, close, open_, value, nifty, costs: dict) -> dict:
     return out
 
 
+def forward_decision(report: dict, months: float) -> str:
+    """Pre-registered: tracking until FORWARD_MONTHS; then PASSED only if at 1x and 2x costs CAGR and Sharpe are
+    not below NIFTY's and the drawdown is at most 10 points worse."""
+    if months < FORWARD_MONTHS:
+        return "tracking"
+    ok = all(r["strategy"]["cagr"] >= r["nifty"]["cagr"] and r["sharpe_monthly"] >= r["nifty_sharpe_monthly"]
+             and r["max_drawdown"] >= r["nifty_max_drawdown"] - MAX_DD_GAP for r in (report["1x"], report["2x"]))
+    return "PASSED (candidate for paper-trading review)" if ok else "REJECTED"
+
+
+def forward(strategy: str, as_of: date, root: Path = REPO_ROOT / "data") -> dict:
+    if pd.Timestamp(as_of) < pd.Timestamp(FORWARD_START):
+        raise SystemExit(f"as_of must be on or after {FORWARD_START}")
+    exp = FORWARD[strategy]
+    close, open_, value, nifty = load(root, end=as_of)
+    costs = load_settings()["costs"]
+    sessions = close.index[close.index >= pd.Timestamp(FORWARD_START)]
+    report = {"experiment": exp, "frozen_rules": EXPERIMENTS[strategy], "strategy": strategy,
+              "forward_start": FORWARD_START, "as_of": str(as_of), "last_bar": str(close.index.max().date())}
+    if close.index.max() < pd.Timestamp(as_of) - pd.Timedelta(days=4):
+        report["status"] = "DATA INSUFFICIENT"
+    elif len(sessions) < 2:
+        report["status"] = "no forward sessions yet"
+    else:
+        for mult, label in ((1.0, "1x"), (2.0, "2x")):
+            eq, lots = simulate(strategy, close, open_, value, FORWARD_START, str(as_of), costs, mult)
+            beq, blots = nifty_curve(nifty, FORWARD_START, str(as_of), costs, mult)
+            report[label] = split_report(eq, lots, beq.reindex(eq.index).ffill(), blots) if len(eq) >= 20 else {
+                "net_return": float(eq.iloc[-1] / START_EQUITY - 1),
+                "nifty_net_return": float(beq.iloc[-1] / START_EQUITY - 1), "sessions": int(len(eq))}
+            if label == "1x":
+                FORWARD_DIR.mkdir(parents=True, exist_ok=True)
+                eq.to_csv(FORWARD_DIR / f"{exp}-equity.csv", header=["equity"])
+                last = close.index.max()
+                report["targets_from_close_of"] = str(last.date())   # trade at the next open if this ends a month
+                report["targets"] = fa.targets(strategy, close, value, last)
+        months = (pd.Timestamp(as_of) - pd.Timestamp(FORWARD_START)).days / 30.4375
+        report["months"] = round(months, 2)
+        report["status"] = forward_decision(report, months) if "strategy" in report.get("1x", {}) else "tracking"
+    report["generated_at_utc"] = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+    FORWARD_DIR.mkdir(parents=True, exist_ok=True)
+    (FORWARD_DIR / f"{exp}-{as_of}.json").write_text(json.dumps(report, indent=2, default=str) + "\n")
+    return report
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--strategy", choices=fa.STRATEGIES)
+    parser.add_argument("--forward", action="store_true")
+    parser.add_argument("--as-of", type=date.fromisoformat)
     args = parser.parse_args(argv)
+    if args.forward:
+        for strategy in FORWARD:
+            r = forward(strategy, args.as_of)
+            print(r["experiment"], r["status"], {k: r.get("1x", {}).get(k) for k in ("net_return", "nifty_net_return")})
+        return 0
     close, open_, value, nifty = load()
     costs = load_settings()["costs"]
     print(f"stocks {close.shape[1]}, sessions {close.index.min().date()}..{close.index.max().date()}", flush=True)

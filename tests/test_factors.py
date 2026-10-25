@@ -81,3 +81,19 @@ def test_sharpe_diff_ci_and_verdict():
 def test_holdout_sealed():
     assert rf.DATA_END.isoformat() < rf.HOLDOUT[0]
     assert all(end < rf.HOLDOUT[0] for _, end in rf.SPLITS.values())
+
+
+def test_forward_decision_waits_then_compares_with_nifty():
+    good = {"strategy": {"cagr": 0.15}, "nifty": {"cagr": 0.12}, "sharpe_monthly": 1.0, "nifty_sharpe_monthly": 0.8,
+            "max_drawdown": -0.2, "nifty_max_drawdown": -0.15}
+    report = {"1x": good, "2x": good}
+    assert rf.forward_decision(report, 23.9) == "tracking"
+    assert rf.forward_decision(report, 24.0).startswith("PASSED")
+    report["2x"] = {**good, "max_drawdown": -0.3}
+    assert rf.forward_decision(report, 30) == "REJECTED"
+    assert rf.FORWARD_START > rf.HOLDOUT[1]
+
+
+def test_forward_refuses_dates_before_start():
+    with pytest.raises(SystemExit):
+        rf.forward("lowvol", pd.Timestamp("2026-10-30").date())
