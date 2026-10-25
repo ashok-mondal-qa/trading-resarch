@@ -1,6 +1,8 @@
 # Monthly factor portfolios on NSE stocks (research and paper only) — spec v0.1
 
-Status: **pre-registered, not run** (written and committed before any portfolio backtest).
+Status: **REJECTED, all three** (2026-10-25; `reports/backtests/EXP-0039-0041-report.md`). Low volatility and the
+mix failed only the significance check and go to forward paper tracking. Rules were committed before any run
+(2e6396e).
 Code: `src/trading_research/strategies/factors.py`, runner `src/trading_research/backtesting/run_factors.py`.
 Registry: EXP-0039..0041. Exploration notes: `docs/validation/exploration-2026-10-25.md`.
 
@@ -70,3 +72,4 @@ mid-caps, which may flatter momentum. Not a veto.
 
 ## Changelog
 - **v0.1 (2026-10-25):** initial spec, before any portfolio run.
+- **v0.1 result (2026-10-25):** run once, no changes; all three REJECTED; EXP-0039 and EXP-0041 to forward tracking.
