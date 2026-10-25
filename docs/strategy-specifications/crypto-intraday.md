@@ -89,5 +89,6 @@ by construction, so the mean return per trade in % is reported beside it.
 ## Changelog
 - **v0.1 (2026-10-25):** initial spec, before any intraday run.
 - **v0.1 result (2026-10-25):** run once, no changes; all four REJECTED.
+- **v0.2 result (2026-10-25):** EXP-0037/0038 run once, both REJECTED (`reports/backtests/EXP-0037-0038-report.md`).
 - **v0.2 (2026-10-25):** adds EXP-0037/0038 (9/15 EMA scalp, owner request) before any run of them; v0.1 rules
   and results unchanged. Simulator gains a profit target and a daily trade cap, used only by these two.
