@@ -80,3 +80,16 @@ mid-caps, which may flatter momentum. Not a veto.
   `min_median_value` and `value_on_t` for the crypto run (defaults 0 / off, no effect here). Tests: 308 pass.
   Rerun once on dev and validation (no holdout use): NIFTY CAGR +0.03 to +0.05 points, Sharpe within 0.001,
   intervals unchanged to three decimals, **all verdicts unchanged**. No new holdout evaluation is needed.
+- **v0.1.2 (2026-10-26), data-handling fix (look-ahead), no rule change:** `run_factors.load` dropped every bar
+  of a stock before its last adjustment error known by the data end (`usable_as_of`). An "error" is any move
+  above 35% without a corporate action, which includes real crashes: YESBANK's −56% day on 2020-03-06 removed
+  all its 2013–2020 bars, so the backtest could never hold a stock that later crashed. 660 of 2,205 adjusted
+  stocks have at least one error. Now every bar is kept and each error starts a new stretch: at a rebalance
+  only bars in the same stretch as that day count (history, liquidity, scores), so an error removes nothing
+  before it, and a holding takes the full move on the error day (a real loss if it is a crash; a false loss if
+  it is a missing split, which only biases against the strategies). Found while building the 2006–2011 test
+  (factor-portfolios-pre2011.md). Impact on earlier results: unknown until rerun; dev and validation are rerun
+  once (no holdout use) and the report is updated whatever the outcome. EXP-0042/0043 use the fixed loader;
+  no forward data exists yet (first forward close 2026-10-30, first check 2026-11-02). The swing experiments
+  EXP-0011..0028 used the same filter; they were all rejected, and the bias favoured them, so their verdicts
+  stand. Tests: 315 pass.

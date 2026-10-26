@@ -97,3 +97,24 @@ def test_forward_decision_waits_then_compares_with_nifty():
 def test_forward_refuses_dates_before_start():
     with pytest.raises(SystemExit):
         rf.forward("lowvol", pd.Timestamp("2026-10-30").date())
+
+
+def test_error_segments_are_point_in_time():
+    dates = pd.Series(pd.bdate_range("2020-01-01", periods=5))
+    manifest = {"issues": [{"severity": "error", "date": "2020-01-03"}, {"severity": "warning", "date": "2020-01-02"},
+                           {"severity": "error", "date": "2020-01-07"}]}
+    assert list(rf.error_segments(dates, manifest, pd.Timestamp("2020-01-10").date())) == [0, 0, 0, 1, 1]
+    assert list(rf.error_segments(dates, manifest, pd.Timestamp("2020-01-06").date())) == [0, 0, 0, 1, 1]
+    assert list(rf.error_segments(dates, {}, pd.Timestamp("2020-01-10").date())) == [0] * 5
+
+
+def test_later_error_keeps_earlier_history_but_resets_it_afterwards():
+    close, _, value = market()
+    seg = pd.DataFrame(0, index=close.index, columns=close.columns)
+    k = 150
+    seg.iloc[k + 1:, seg.columns.get_loc("CALM")] = 1                     # an error on day k
+    before, after = close.index[120], close.index[k + 10]
+    assert fa.targets("lowvol", close, value, before, SMALL, seg) == fa.targets("lowvol", close, value, before, SMALL)
+    assert "CALM" in fa.targets("lowvol", close, value, before, SMALL, seg)
+    assert "CALM" not in fa.targets("lowvol", close, value, after, SMALL, seg)   # only 10 bars since the error
+    assert "CALM" in fa.targets("lowvol", close, value, close.index[k + 40], SMALL, seg)
