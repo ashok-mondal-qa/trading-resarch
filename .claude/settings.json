@@ -1,4 +1,10 @@
 {
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  },
   "hooks": {
     "PreToolUse": [
       {
@@ -12,10 +18,15 @@
       }
     ]
   },
-  "permissions": {
-    "deny": [
-      "Read(./.env)",
-      "Read(./.env.*)"
-    ]
+  "enabledPlugins": {
+    "upstox-mcp@upstox-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "upstox-plugins-official": {
+      "source": {
+        "source": "github",
+        "repo": "upstox/upstox-plugin-marketplace"
+      }
+    }
   }
 }
