@@ -103,3 +103,22 @@ strength. Index values are as published (indices need no corporate-action adjust
 - Known issues: some pairs have gaps (exchange suspensions, delist and relist); LUNAUSDT is a reused ticker
   (Terra Classic until 2022-05-13, Terra 2.0 from 2022-05-31). The crypto runner splits every series at a
   missing day so pieces never join. Volumes include wash trading; one exchange only.
+
+## NSE F&O bhavcopy (`src/trading_research/data/fo_bhavcopy.py`, 2026-10-25)
+- Source: NSE archive, one file per session: legacy `content/historical/DERIVATIVES/YYYY/MON/foDDMONYYYYbhav.csv.zip`
+  (to 2024-07-05) and UDiFF `content/fo/BhavCopy_NSE_FO_0_0_0_YYYYMMDD_F_0000.csv.zip` (2024 on, preferred
+  where it exists). Kept: NIFTY and BANKNIFTY index options and futures. Raw zip with SHA-256 and a manifest per
+  date in `data/manifests/nse_fo_bhavcopy/`.
+- A date mismatch fails closed; untraded contracts (zero OHLC) are kept with NSE's settlement price and
+  `traded = False`; rows with inconsistent OHLC or duplicate contracts are excluded and listed. Nothing is filled.
+- Legacy dates are `14-May-2012`, except some files with two-digit years (`14-May-12`, e.g. 2012-05-14); both
+  are read. UDiFF turnover is in rupees (divided by 1e5 to lakh); `TtlTradgVol` is already in contracts.
+  Legacy files carry no lot size; it is inferred from the near-month future (turnover / contracts / close,
+  rounded to 25). NSE data is for educational/informational use only.
+
+## Binance spot 5-minute candles (`src/trading_research/data/binance_intraday.py`, 2026-10-25)
+- Same archive and checks as the daily loader: `data/spot/monthly/klines/<PAIR>/5m/`, SHA-256 `.CHECKSUM` per
+  month, raw zips kept, manifest per pair in `data/manifests/binance_spot_5m/` listing every gap.
+- Loaded BTCUSDT and ETHUSDT 2017-08..2024-12 only (773,880 bars each; 1,944 missing 5m bars each, the same
+  exchange outages for both). 2025 onward is not downloaded (crypto intraday holdout).
+- Bars are stamped with their UTC open time; 15m/1h bars are built only from complete groups of 5m bars.

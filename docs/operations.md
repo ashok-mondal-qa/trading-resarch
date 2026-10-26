@@ -38,7 +38,7 @@ TRADE CANDIDATE is possible.
 - Alerts (project post plus email) are switched off until a strategy passes validation (owner's choice,
   2026-10-23).
 
-## Monthly forward check (EXP-0027 / EXP-0028, shadow only)
+## Monthly forward check (EXP-0027 / EXP-0028 / EXP-0042 / EXP-0043, shadow only)
 Fresh container, after the last completed session (NSE after ~18:15 IST; crypto any time after 00:00 UTC):
 ```
 uv venv .venv && uv pip install -e '.[dev]'
@@ -46,6 +46,7 @@ uv venv .venv && uv pip install -e '.[dev]'
 .venv/bin/python -m trading_research.backtesting.run_forward --market crypto --as-of <YYYY-MM-DD>
 # NSE: reload bhavcopy and index files from 2011-07-01, list symbols and adjust (as in Phase 12), then
 .venv/bin/python -m trading_research.backtesting.run_forward --market nse --as-of <last session>
+.venv/bin/python -m trading_research.backtesting.run_factors --forward --as-of <last session>   # EXP-0042/0043
 ```
 Commit `reports/forward/` and the Binance manifests. Results are interim until the decision rule in the spec
 says otherwise; never change a signal status or send an alert from them.

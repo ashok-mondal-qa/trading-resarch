@@ -1,4 +1,4 @@
-# Forward tracking of the two near misses (paper only) — spec v0.1
+# Forward tracking of the near misses (paper only) — spec v0.2
 
 Status: **pre-registered, tracking from 2026-10-26** (written and committed before any forward data exists).
 Code: `src/trading_research/backtesting/run_forward.py`. Registry: EXP-0027, EXP-0028.
@@ -37,11 +37,29 @@ within 4 days of it (NSE) → `DATA INSUFFICIENT` for that check. Each check wri
 - A PASSED forward result makes the strategy a candidate for paper-trading review (risk manager, auditor,
   event screen, registry status). It is not a probability claim and not live-trading approval.
 
+## v0.2 addendum: factor-portfolio near misses (EXP-0042, EXP-0043), pre-registered before any forward data
+| Experiment | Market | Rules (frozen, unchanged) |
+| --- | --- | --- |
+| EXP-0042 | NSE EQ | EXP-0039 low-volatility 30 exactly (`run_factors`, factor-portfolios.md v0.1) |
+| EXP-0043 | NSE EQ | EXP-0041 momentum + low-volatility 30 exactly |
+
+First portfolio from the close of 2026-10-30 (the last October session), trades from the open of 2026-11-02,
+then monthly as in the backtest; ₹10 lakh paper start; NIFTY 50 price index with the same costs as benchmark.
+Earlier bars (including the sealed 2026 holdout months) are used only to compute the first scores.
+Check: `run_factors --forward --as-of <last session>` after the NSE refresh; writes
+`reports/forward/EXP-004x-<date>.json` with the current target list.
+**Decision (decided now):** tracking until 24 months; then PASSED only if, at 1× and at 2× costs, CAGR and
+monthly Sharpe are not below NIFTY's and the maximum drawdown is at most 10 points worse; otherwise REJECTED.
+A PASS makes it a candidate for review of a separate investing policy (owner's written approval needed); it
+is not a probability claim.
+
 ## Known limitations
 Same as the source specs. The forward window will be short and regime-dependent (both strategies trade only
 when their index is in an up trend). A functional check of the runner on already-used data (2020–2025) is
 not evidence and is not reported.
 
 ## Changelog
+- **v0.2 (2026-10-25):** adds EXP-0042/0043 (factor portfolios) before any forward data; EXP-0027/0028
+  unchanged.
 - **v0.1 (2026-10-25):** initial spec, before any forward data. Adds daily-file loading to `data/binance.py`
   (current month) for the forward checks. No earlier results affected.

@@ -1,0 +1,211 @@
+{
+  "experiment": "EXP-0029",
+  "strategy": "iron_condor",
+  "spec_version": "0.1",
+  "params": {
+    "brokerage_per_order": 20.0,
+    "stt_sell_pct": 0.1,
+    "stt_exercise_pct": 0.125,
+    "txn_pct": 0.03503,
+    "sebi_fraction": 1e-06,
+    "stamp_buy_pct": 0.003,
+    "gst_pct": 18.0,
+    "slip_points": 1.0,
+    "slip_pct": 1.5,
+    "strangle_stop_mult": 2.0,
+    "cc_otm": 0.02,
+    "lc_breakout": 20,
+    "lc_exit_low": 10,
+    "lc_min_sessions": 15,
+    "lc_exit_sessions": 5
+  },
+  "generated_at_utc": "2026-10-25T06:10:59+00:00",
+  "1x": {
+    "dev": {
+      "trades": 107,
+      "expectancy_r": -0.06276762991898124,
+      "win_rate": 0.7009345794392523,
+      "profit_factor": 0.803880187477031,
+      "worst_r": -1.0203079858974886,
+      "best_r": 0.5832153313424193,
+      "worst_loss_pct_of_index": -4.0466140189943856,
+      "mean_pnl_points": -11.109531448579553,
+      "top5_share_of_net_profit": null,
+      "losing_months": 32,
+      "exit_reasons": {
+        "expiry": 107
+      },
+      "illustrative_5pct_risk": {
+        "end_equity": 0.6948131142022342,
+        "cagr": -0.033042581739942456,
+        "max_drawdown": -0.4163756562697768,
+        "end_equity_after_fo_tax_approx": 0.6840643504894903
+      },
+      "ci_0.9875": [
+        -0.17159462442026016,
+        0.0412573226610023
+      ]
+    },
+    "dev_a": {
+      "trades": 52,
+      "expectancy_r": -0.07305211633207191,
+      "win_rate": 0.7115384615384616,
+      "profit_factor": 0.6961089160181062,
+      "worst_r": -1.0203079858974886,
+      "best_r": 0.2690186269210936,
+      "worst_loss_pct_of_index": -3.833745524931418,
+      "mean_pnl_points": -12.59729982016125,
+      "top5_share_of_net_profit": null,
+      "losing_months": 15,
+      "exit_reasons": {
+        "expiry": 52
+      },
+      "illustrative_5pct_risk": {
+        "end_equity": 0.8155193087651798,
+        "cagr": -0.04127753774135823,
+        "max_drawdown": -0.2398917336215176,
+        "end_equity_after_fo_tax_approx": 0.8047705450524356
+      }
+    },
+    "dev_b": {
+      "trades": 55,
+      "expectancy_r": -0.05304411549205914,
+      "win_rate": 0.6909090909090909,
+      "profit_factor": 0.8633608821671197,
+      "worst_r": -1.0083852641460953,
+      "best_r": 0.5832153313424193,
+      "worst_loss_pct_of_index": -4.0466140189943856,
+      "mean_pnl_points": -9.702914079084131,
+      "top5_share_of_net_profit": null,
+      "losing_months": 17,
+      "exit_reasons": {
+        "expiry": 55
+      },
+      "illustrative_5pct_risk": {
+        "end_equity": 0.8519885510182302,
+        "cagr": -0.026397299740312574,
+        "max_drawdown": -0.2674066742945701,
+        "end_equity_after_fo_tax_approx": 0.8519885510182305
+      }
+    },
+    "validation": {
+      "trades": 20,
+      "expectancy_r": 0.02985377285601981,
+      "win_rate": 0.75,
+      "profit_factor": 1.405961570502854,
+      "worst_r": -1.0053865078562128,
+      "best_r": 0.2773788972884641,
+      "worst_loss_pct_of_index": -2.1014991554105946,
+      "mean_pnl_points": 25.35255789924944,
+      "top5_share_of_net_profit": 1.5449252147737387,
+      "losing_months": 5,
+      "exit_reasons": {
+        "expiry": 20
+      },
+      "illustrative_5pct_risk": {
+        "end_equity": 1.026357498105177,
+        "cagr": 0.013211356337001323,
+        "max_drawdown": -0.114429673365944,
+        "end_equity_after_fo_tax_approx": 1.018133958696362
+      }
+    }
+  },
+  "2x": {
+    "dev": {
+      "trades": 107,
+      "expectancy_r": -0.08495636425052545,
+      "win_rate": 0.6915887850467289,
+      "profit_factor": 0.7046446115888964,
+      "worst_r": -1.0397804927031642,
+      "best_r": 0.5565258556444214,
+      "worst_loss_pct_of_index": -4.094162917204022,
+      "mean_pnl_points": -17.277567318530192,
+      "top5_share_of_net_profit": null,
+      "losing_months": 33,
+      "exit_reasons": {
+        "expiry": 107
+      },
+      "illustrative_5pct_risk": {
+        "end_equity": 0.6172159477263703,
+        "cagr": -0.04355228443165193,
+        "max_drawdown": -0.4700512668433692,
+        "end_equity_after_fo_tax_approx": 0.6135708250539099
+      }
+    },
+    "dev_a": {
+      "trades": 52,
+      "expectancy_r": -0.100854771579977,
+      "win_rate": 0.6923076923076923,
+      "profit_factor": 0.5664223934557441,
+      "worst_r": -1.0397804927031642,
+      "best_r": 0.2419726110700654,
+      "worst_loss_pct_of_index": -3.9105454970337927,
+      "mean_pnl_points": -18.776257391688684,
+      "top5_share_of_net_profit": null,
+      "losing_months": 16,
+      "exit_reasons": {
+        "expiry": 52
+      },
+      "illustrative_5pct_risk": {
+        "end_equity": 0.7587341274846329,
+        "cagr": -0.0554743181843631,
+        "max_drawdown": -0.278719404971004,
+        "end_equity_after_fo_tax_approx": 0.7550890048121729
+      }
+    },
+    "dev_b": {
+      "trades": 55,
+      "expectancy_r": -0.06992514277540762,
+      "win_rate": 0.6909090909090909,
+      "profit_factor": 0.782316773792377,
+      "worst_r": -1.0165843570875441,
+      "best_r": 0.5565258556444214,
+      "worst_loss_pct_of_index": -4.094162917204022,
+      "mean_pnl_points": -15.860623976634882,
+      "top5_share_of_net_profit": null,
+      "losing_months": 17,
+      "exit_reasons": {
+        "expiry": 55
+      },
+      "illustrative_5pct_risk": {
+        "end_equity": 0.8134811989709415,
+        "cagr": -0.03388867068458834,
+        "max_drawdown": -0.2852016877777179,
+        "end_equity_after_fo_tax_approx": 0.8134811989709408
+      }
+    },
+    "validation": {
+      "trades": 20,
+      "expectancy_r": 0.014729203151971215,
+      "win_rate": 0.75,
+      "profit_factor": 1.2757530488921396,
+      "worst_r": -1.010651741530995,
+      "best_r": 0.2619872382525065,
+      "worst_loss_pct_of_index": -2.134435883314274,
+      "mean_pnl_points": 17.7962692268542,
+      "top5_share_of_net_profit": 2.086532889035015,
+      "losing_months": 5,
+      "exit_reasons": {
+        "expiry": 20
+      },
+      "illustrative_5pct_risk": {
+        "end_equity": 1.0110273556734484,
+        "cagr": 0.005548062973273593,
+        "max_drawdown": -0.11554248892745667,
+        "end_equity_after_fo_tax_approx": 1.0043529948530838
+      }
+    }
+  },
+  "verdict": {
+    "checks": {
+      "dev >= 60 trades": true,
+      "dev 2x: expectancy > 0": false,
+      "dev 2x: profit factor >= 1.1": false,
+      "dev 1x: 98.75% interval lower bound > 0": false,
+      "dev_a 2x: expectancy > 0": false,
+      "dev_b 2x: expectancy > 0": false,
+      "validation 2x: expectancy > 0": true
+    },
+    "status": "REJECTED"
+  }
+}

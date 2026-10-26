@@ -1,0 +1,20 @@
+{
+  "dataset": "nse_fo_bhavcopy",
+  "date": "2022-12-30",
+  "status": "ok",
+  "format": "legacy",
+  "source_url": "https://nsearchives.nseindia.com/content/historical/DERIVATIVES/2022/DEC/fo30DEC2022bhav.csv.zip",
+  "sha256": "36c8c968c8ce13b98e5bf56db48d331c28f637e2a6da9902476f4753c87ae710",
+  "retrieved_at_utc": "2026-10-25T05:59:12+00:00",
+  "rows": 2875,
+  "options": 2869,
+  "futures": 6,
+  "excluded": [],
+  "excluded_count": 0,
+  "symbols": [
+    "NIFTY",
+    "BANKNIFTY"
+  ],
+  "price_adjustment": "none (index derivatives)",
+  "licence": "NSE archive data; educational/informational use only"
+}

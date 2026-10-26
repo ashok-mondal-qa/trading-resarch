@@ -1,0 +1,20 @@
+{
+  "dataset": "nse_fo_bhavcopy",
+  "date": "2016-01-01",
+  "status": "ok",
+  "format": "legacy",
+  "source_url": "https://nsearchives.nseindia.com/content/historical/DERIVATIVES/2016/JAN/fo01JAN2016bhav.csv.zip",
+  "sha256": "08f2ab9e8840b02104028a067bd542a1bd6d735375c4f22d1756cf71fa62e856",
+  "retrieved_at_utc": "2026-10-25T05:51:24+00:00",
+  "rows": 2286,
+  "options": 2280,
+  "futures": 6,
+  "excluded": [],
+  "excluded_count": 0,
+  "symbols": [
+    "NIFTY",
+    "BANKNIFTY"
+  ],
+  "price_adjustment": "none (index derivatives)",
+  "licence": "NSE archive data; educational/informational use only"
+}

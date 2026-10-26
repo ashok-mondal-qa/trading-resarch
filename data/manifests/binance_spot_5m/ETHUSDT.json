@@ -1,0 +1,1341 @@
+{
+  "dataset": "binance_spot_5m",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/5m/",
+  "instrument": "ETHUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "5m, stamped with UTC open time",
+  "first_bar": "2017-08-17 04:00:00",
+  "last_bar": "2024-12-31 23:55:00",
+  "end_month_requested": "2024-12",
+  "retrieved_at_utc": "2026-10-25T06:16:48+00:00",
+  "rows": 773880,
+  "gaps": [
+    {
+      "after": "2017-09-06 15:55:00",
+      "before": "2017-09-06 23:00:00",
+      "missing_bars": 84
+    },
+    {
+      "after": "2017-12-18 10:00:00",
+      "before": "2017-12-18 10:10:00",
+      "missing_bars": 1
+    },
+    {
+      "after": "2017-12-18 12:25:00",
+      "before": "2017-12-18 13:30:00",
+      "missing_bars": 12
+    },
+    {
+      "after": "2018-01-04 03:00:00",
+      "before": "2018-01-04 05:05:00",
+      "missing_bars": 24
+    },
+    {
+      "after": "2018-02-08 00:25:00",
+      "before": "2018-02-10 06:15:00",
+      "missing_bars": 645
+    },
+    {
+      "after": "2018-02-11 04:00:00",
+      "before": "2018-02-11 04:35:00",
+      "missing_bars": 6
+    },
+    {
+      "after": "2018-06-26 01:55:00",
+      "before": "2018-06-26 12:00:00",
+      "missing_bars": 120
+    },
+    {
+      "after": "2018-06-27 12:55:00",
+      "before": "2018-06-27 14:45:00",
+      "missing_bars": 21
+    },
+    {
+      "after": "2018-07-04 00:20:00",
+      "before": "2018-07-04 08:00:00",
+      "missing_bars": 91
+    },
+    {
+      "after": "2018-10-19 05:55:00",
+      "before": "2018-10-19 09:30:00",
+      "missing_bars": 42
+    },
+    {
+      "after": "2018-11-14 01:55:00",
+      "before": "2018-11-14 09:00:00",
+      "missing_bars": 84
+    },
+    {
+      "after": "2019-03-12 01:55:00",
+      "before": "2019-03-12 08:00:00",
+      "missing_bars": 72
+    },
+    {
+      "after": "2019-05-15 02:55:00",
+      "before": "2019-05-15 13:00:00",
+      "missing_bars": 120
+    },
+    {
+      "after": "2019-06-07 21:10:00",
+      "before": "2019-06-07 22:15:00",
+      "missing_bars": 12
+    },
+    {
+      "after": "2019-08-15 01:55:00",
+      "before": "2019-08-15 10:00:00",
+      "missing_bars": 96
+    },
+    {
+      "after": "2019-11-13 01:55:00",
+      "before": "2019-11-13 04:20:00",
+      "missing_bars": 28
+    },
+    {
+      "after": "2019-11-25 01:55:00",
+      "before": "2019-11-25 04:00:00",
+      "missing_bars": 24
+    },
+    {
+      "after": "2020-02-09 01:55:00",
+      "before": "2020-02-09 03:00:00",
+      "missing_bars": 12
+    },
+    {
+      "after": "2020-02-19 11:35:00",
+      "before": "2020-02-19 17:30:00",
+      "missing_bars": 70
+    },
+    {
+      "after": "2020-03-04 09:20:00",
+      "before": "2020-03-04 11:30:00",
+      "missing_bars": 25
+    },
+    {
+      "after": "2020-04-25 01:55:00",
+      "before": "2020-04-25 04:30:00",
+      "missing_bars": 30
+    },
+    {
+      "after": "2020-06-28 01:55:00",
+      "before": "2020-06-28 05:30:00",
+      "missing_bars": 42
+    },
+    {
+      "after": "2020-11-30 05:55:00",
+      "before": "2020-11-30 07:00:00",
+      "missing_bars": 12
+    },
+    {
+      "after": "2020-12-21 14:05:00",
+      "before": "2020-12-21 18:00:00",
+      "missing_bars": 46
+    },
+    {
+      "after": "2020-12-25 01:55:00",
+      "before": "2020-12-25 03:00:00",
+      "missing_bars": 12
+    },
+    {
+      "after": "2021-02-11 03:40:00",
+      "before": "2021-02-11 05:00:00",
+      "missing_bars": 15
+    },
+    {
+      "after": "2021-03-06 01:55:00",
+      "before": "2021-03-06 03:30:00",
+      "missing_bars": 18
+    },
+    {
+      "after": "2021-04-20 01:55:00",
+      "before": "2021-04-20 04:30:00",
+      "missing_bars": 30
+    },
+    {
+      "after": "2021-04-25 04:00:00",
+      "before": "2021-04-25 08:45:00",
+      "missing_bars": 56
+    },
+    {
+      "after": "2021-08-13 01:55:00",
+      "before": "2021-08-13 06:30:00",
+      "missing_bars": 54
+    },
+    {
+      "after": "2021-09-29 06:55:00",
+      "before": "2021-09-29 09:00:00",
+      "missing_bars": 24
+    },
+    {
+      "after": "2023-03-24 12:35:00",
+      "before": "2023-03-24 14:00:00",
+      "missing_bars": 16
+    }
+  ],
+  "missing_bars": 1944,
+  "excluded": [
+    {
+      "time": "2018-02-09 09:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 10:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 11:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 12:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 13:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 14:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 15:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 16:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 17:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 18:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 19:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 20:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 21:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 22:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-09 23:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 00:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:33:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:38:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:43:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:48:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:53:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 01:58:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 02:03:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 02:08:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 02:13:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 02:18:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 02:23:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 02:28:14.800000",
+      "reason": "invalid candle"
+    },
+    {
+      "time": "2018-02-10 02:33:14.800000",
+      "reason": "invalid candle"
+    }
+  ],
+  "excluded_count": 241,
+  "file_problems": [],
+  "files": [
+    {
+      "file": "ETHUSDT-5m-2017-08.zip",
+      "sha256": "837f8f4bb20eea9a5689518654f991c686616ba9f98a68ec1c58b0892d39eefa"
+    },
+    {
+      "file": "ETHUSDT-5m-2017-09.zip",
+      "sha256": "be5405e807a6c76cffdadb8d2dda4f2d437401aa311306261c4b6c775a8f17dc"
+    },
+    {
+      "file": "ETHUSDT-5m-2017-10.zip",
+      "sha256": "f1901b4fed53c5456bc83745272915a31bb26168932a6d5e04ef4e39ba4f1eb7"
+    },
+    {
+      "file": "ETHUSDT-5m-2017-11.zip",
+      "sha256": "a4c0638ef4e6086a4bb34528cefe94b78da08e0932d10079d61dace7b9ed1100"
+    },
+    {
+      "file": "ETHUSDT-5m-2017-12.zip",
+      "sha256": "fce25a5ca271d3c1a175bc28a64a4dc9dc39fae5768d0c4a929197ddb7a5295b"
+    },
+    {
+      "file": "ETHUSDT-5m-2018-01.zip",
+      "sha256": "de32d7db7914e3450d5d59a6e375d22e20413c4ba64f2eabc67dff0c1bada0bf"
+    },
+    {
+      "file": "ETHUSDT-5m-2018-02.zip",
+      "sha256": "7bba93a7553f65acb7a1be3ca7b2fcfce4a90b02e2e1b9ae3e90b61f9fc2ae06"
+    },
+    {
+      "file": "ETHUSDT-5m-2018-03.zip",
+      "sha256": "0045ce22491b346653e941b4efb91da5bfa62dac598b2e6a99b2ed389e4bc1db"
+    },
+    {
+      "file": "ETHUSDT-5m-2018-04.zip",
+      "sha256": "536b04a65fd4578cc0b466d568561d4852295d622547c00d1136ee8c320fe3bf"
+    },
+    {
+      "file": "ETHUSDT-5m-2018-05.zip",
+      "sha256": "b70758f008c20f995c03b667d994a63894d905fe986f8b3302776d8c5be9f83a"
+    },
+    {
+      "file": "ETHUSDT-5m-2018-06.zip",
+      "sha256": "221b4dd85e949a89d281439b3a196947ffdbc1d7fabf8a3492dd6f3a838762b3"
+    },
+    {
+      "file": "ETHUSDT-5m-2018-07.zip",
+      "sha256": "0fc8963675a53c11b8fa08487cc44acad386a2df285e490c6620fd07eade652b"
+    },
+    {
+      "file": "ETHUSDT-5m-2018-08.zip",
+      "sha256": "fc07613ace844802fc68db03e5b763eaed4235121317c67bd2dd7b045c2ee88a"
+    },
+    {
+      "file": "ETHUSDT-5m-2018-09.zip",
+      "sha256": "38fe8192c01258e699285859708596b9089ced9d5a31ca585acdee4039785e2f"
+    },
+    {
+      "file": "ETHUSDT-5m-2018-10.zip",
+      "sha256": "f07136e6ac2eeae124dc068e5b693996e3e773744fe9ebd5ceff594c4c1e46dc"
+    },
+    {
+      "file": "ETHUSDT-5m-2018-11.zip",
+      "sha256": "a36558e47fab0f2b41f7532edf6effb7354f72016589fbe3f774d7bcb145b484"
+    },
+    {
+      "file": "ETHUSDT-5m-2018-12.zip",
+      "sha256": "8ba0ad90c17a20fdbe8b8a76e5b971e9b5815c3d806959451c3976e18067c88b"
+    },
+    {
+      "file": "ETHUSDT-5m-2019-01.zip",
+      "sha256": "c80964a46578f35cc4612e76b71acfe9804fba87c944ae8451a5bcf9f7a09f3a"
+    },
+    {
+      "file": "ETHUSDT-5m-2019-02.zip",
+      "sha256": "1f6c0adaba218d64b7479bf3fc2376c44a9b4c676b8a639bacaea44e8e5565b3"
+    },
+    {
+      "file": "ETHUSDT-5m-2019-03.zip",
+      "sha256": "0bc8f3df2dd17e065a509f902b9638f71390bed29faaefebdaf14e199ecbd170"
+    },
+    {
+      "file": "ETHUSDT-5m-2019-04.zip",
+      "sha256": "92d57e571ccca27d2bd6292f0db4a16f7501745802a194e1216e9a1c96e868c7"
+    },
+    {
+      "file": "ETHUSDT-5m-2019-05.zip",
+      "sha256": "070fc2a1acb8bca1f8591f879237503d6640a88752c76bd49c2b07392dd81358"
+    },
+    {
+      "file": "ETHUSDT-5m-2019-06.zip",
+      "sha256": "b4e2e4c1fedbe3bf3f15b255dc6ce06595975c324a71879b42d631a8ffb760fb"
+    },
+    {
+      "file": "ETHUSDT-5m-2019-07.zip",
+      "sha256": "9c62ba82d29cf7ae833c484006bc15871c50ad78f6c5d5567fce29f5c1fc3d96"
+    },
+    {
+      "file": "ETHUSDT-5m-2019-08.zip",
+      "sha256": "14b0b324cf427b7239e019ff2500da1744317ebb0682816ba970a745044fc2c5"
+    },
+    {
+      "file": "ETHUSDT-5m-2019-09.zip",
+      "sha256": "5e03491b66aaf853903ad54f2d0d7d0973a5ba2f4014c664a3e9c9d3ad2f8902"
+    },
+    {
+      "file": "ETHUSDT-5m-2019-10.zip",
+      "sha256": "22f6d13d37b2f362519c6eb6d0d1c05155367294a14fac27b515baa3424c32fe"
+    },
+    {
+      "file": "ETHUSDT-5m-2019-11.zip",
+      "sha256": "f4ba7027c5bc51edf6f810e32484e4ffb3c8bcbed5faa881849c26bf348b7c8c"
+    },
+    {
+      "file": "ETHUSDT-5m-2019-12.zip",
+      "sha256": "693cc029f4cb388e97c15968ec205de7ac2882da884622a7cbb349b5df799cac"
+    },
+    {
+      "file": "ETHUSDT-5m-2020-01.zip",
+      "sha256": "51a6f3d3952017cb13b6f4bb316c75efd842355ac0afd5ea24f71530a816d934"
+    },
+    {
+      "file": "ETHUSDT-5m-2020-02.zip",
+      "sha256": "dbed86b38b896d8ce5571cd6f9ca4b243709afa6e63cd93613c971e72eead5a1"
+    },
+    {
+      "file": "ETHUSDT-5m-2020-03.zip",
+      "sha256": "b6c61ecdb1e30b57ff0ad5d54ad7ceca26c4e786789a6811a95afcfdd9ae2e46"
+    },
+    {
+      "file": "ETHUSDT-5m-2020-04.zip",
+      "sha256": "d137a9365561b90af8a5d18ccc0e16e74d163950e4f304b5a096ef1814340c74"
+    },
+    {
+      "file": "ETHUSDT-5m-2020-05.zip",
+      "sha256": "65b0bdad583b2c1c252c2e086dfaaeca5cd4367791a8b7bda49cf40689d7b946"
+    },
+    {
+      "file": "ETHUSDT-5m-2020-06.zip",
+      "sha256": "0e2829a74fa6a86d960bfadb0cfc4614194680f0ba0ebf0add52481a8edcdb88"
+    },
+    {
+      "file": "ETHUSDT-5m-2020-07.zip",
+      "sha256": "f0f51d17eb524c2332f6aa4190bdfd58b8a83a878e30ed5274ddc449f2c3c94b"
+    },
+    {
+      "file": "ETHUSDT-5m-2020-08.zip",
+      "sha256": "3a858a527aea394a79af04eddc42e82c4a2420a8304b8c26df687201f2ab1e26"
+    },
+    {
+      "file": "ETHUSDT-5m-2020-09.zip",
+      "sha256": "1487127dde3409176206218993fd1abad309fdea75d8c2d6b887a215218bea8b"
+    },
+    {
+      "file": "ETHUSDT-5m-2020-10.zip",
+      "sha256": "c41bc44926334bddab99bfdd546457fdbc7d22790ac7faaaeb66f2602cd9ac07"
+    },
+    {
+      "file": "ETHUSDT-5m-2020-11.zip",
+      "sha256": "4a75afc2b9c878b7d46d5b624e627b3f9a0670f053095888afccb88d70ba7e6c"
+    },
+    {
+      "file": "ETHUSDT-5m-2020-12.zip",
+      "sha256": "c927008a5339f14ba2e20e63d2335512b731a152f2eb0d5b38aad8520abce05c"
+    },
+    {
+      "file": "ETHUSDT-5m-2021-01.zip",
+      "sha256": "db96dc51d4a85d6d3c125592ade0af58b6379f14b87daa04ffc4e70e93f7193a"
+    },
+    {
+      "file": "ETHUSDT-5m-2021-02.zip",
+      "sha256": "fa4d766b72174fc35d443700f5101d8b48c17f1665187947066bd7d426f05da3"
+    },
+    {
+      "file": "ETHUSDT-5m-2021-03.zip",
+      "sha256": "b8c191e1f3980583518f3340e181f4f3b125d313ed329d64e7b6e772b1a5b0e8"
+    },
+    {
+      "file": "ETHUSDT-5m-2021-04.zip",
+      "sha256": "463e140802908fdea8cfda06baa26096c4f66f25add9bfaeca849fbd342cb194"
+    },
+    {
+      "file": "ETHUSDT-5m-2021-05.zip",
+      "sha256": "49a3717b41ccc98fa82e3dbc0c6ec98e707db1f6779a90839a4d02de4ae5741f"
+    },
+    {
+      "file": "ETHUSDT-5m-2021-06.zip",
+      "sha256": "178eed2c979e8dc81c7e3b6eb53ba875f944d79fefee83260039612a333436bf"
+    },
+    {
+      "file": "ETHUSDT-5m-2021-07.zip",
+      "sha256": "30ffa7ac32984df30f49f6852cf24ecf964fcd815f593dbce9992e18827deb03"
+    },
+    {
+      "file": "ETHUSDT-5m-2021-08.zip",
+      "sha256": "1f30d155249567e4e9b491ec12ad5daffff7539786ec02df69531efdec594614"
+    },
+    {
+      "file": "ETHUSDT-5m-2021-09.zip",
+      "sha256": "9adfc48da0974f4e407eb2e02cc88c3c65937e2e3fc4aef56e15fcfa9ce8c34c"
+    },
+    {
+      "file": "ETHUSDT-5m-2021-10.zip",
+      "sha256": "fe980c4e21efe5194dc832467e8c4f4da917a10592505408ff102d694d58b8d5"
+    },
+    {
+      "file": "ETHUSDT-5m-2021-11.zip",
+      "sha256": "c52f4ab9882607ee8c89366dd189b410eb38df3b02a444031668f4763d0045e0"
+    },
+    {
+      "file": "ETHUSDT-5m-2021-12.zip",
+      "sha256": "db0dd70c525f0eb5a2d644ae82a06a106fee0d917e29465c79138ef6488fda00"
+    },
+    {
+      "file": "ETHUSDT-5m-2022-01.zip",
+      "sha256": "f13baa436610014997db575fd3ae55a37020befd3b5e53ca8dac90f4981ee475"
+    },
+    {
+      "file": "ETHUSDT-5m-2022-02.zip",
+      "sha256": "f1371857dfb25448ad06ba35b4223a6344d56fde3036961fd497e215bed74294"
+    },
+    {
+      "file": "ETHUSDT-5m-2022-03.zip",
+      "sha256": "d9ce96e52990ca65357b56577ab044ff9b3667ec8880e21a18ae4cb0452ec394"
+    },
+    {
+      "file": "ETHUSDT-5m-2022-04.zip",
+      "sha256": "89bef0dddc196eed5daf8fa10f76911a73c3b193cc34be50e69dcf00dd2a0164"
+    },
+    {
+      "file": "ETHUSDT-5m-2022-05.zip",
+      "sha256": "631ca856c4b909bc9c45a033a3f6eba7231fcad80239af8c184503484e1e6f10"
+    },
+    {
+      "file": "ETHUSDT-5m-2022-06.zip",
+      "sha256": "b4a00669269b1b9d7dae3f0290c9520969878e59c81d11e45e6290dd22a228a5"
+    },
+    {
+      "file": "ETHUSDT-5m-2022-07.zip",
+      "sha256": "fb26b59b4e170622098e74e5978251798cb53b34478221a1df97e078a15b284f"
+    },
+    {
+      "file": "ETHUSDT-5m-2022-08.zip",
+      "sha256": "f46bbed97b65e2336f58d54459fbfddfcff4711991186f3b0f9de3aea33b1e8e"
+    },
+    {
+      "file": "ETHUSDT-5m-2022-09.zip",
+      "sha256": "ee4b7d51b8452853f43bb744519d4450e9067684752b94d09742db2017c5342e"
+    },
+    {
+      "file": "ETHUSDT-5m-2022-10.zip",
+      "sha256": "d28bfb55b8f995bdd04818c57c5b2160a3a8f3cffd0b942271cb54c7ac37697a"
+    },
+    {
+      "file": "ETHUSDT-5m-2022-11.zip",
+      "sha256": "cf149e49a8b0152c9a13635cef7b61bfafa9180a38e47911f6c73e46e096d19d"
+    },
+    {
+      "file": "ETHUSDT-5m-2022-12.zip",
+      "sha256": "5c914207ec0652c4338a9da34d260de93613ec0d290743415015ac0d8eb8fc65"
+    },
+    {
+      "file": "ETHUSDT-5m-2023-01.zip",
+      "sha256": "128846e4dedbedf4692637e9460cd143afe0dc9184cabea74d193373243caa6f"
+    },
+    {
+      "file": "ETHUSDT-5m-2023-02.zip",
+      "sha256": "17d0ce47f0bc993d8183547fec8e8a08408700da265296b86f44bfa8c574ce79"
+    },
+    {
+      "file": "ETHUSDT-5m-2023-03.zip",
+      "sha256": "048244294ce3d656c9d29a376cfd244df6f6c604bfe0d070888fa87a528ff0d4"
+    },
+    {
+      "file": "ETHUSDT-5m-2023-04.zip",
+      "sha256": "a7d6f75934374f8b2e60724a84c9818e0ce05cc21aef4369bf8b1e54539a42f1"
+    },
+    {
+      "file": "ETHUSDT-5m-2023-05.zip",
+      "sha256": "63f53de454616bd678b7df3a7e66b5172bec0f197d039c3b782fa17df42cd56b"
+    },
+    {
+      "file": "ETHUSDT-5m-2023-06.zip",
+      "sha256": "72ac52281cf604c6b0da9fe5dfe15e47ee2d6f6216c5e9bc9ba1ca6963d58607"
+    },
+    {
+      "file": "ETHUSDT-5m-2023-07.zip",
+      "sha256": "d37fcd84ce94b5bcef25c467cc83caa17187a955333fdd8e2698c06553893cf4"
+    },
+    {
+      "file": "ETHUSDT-5m-2023-08.zip",
+      "sha256": "6b57b67b546d7565361f613985f2006fb6bb2a20b9898932f1a7ed7bd7889da1"
+    },
+    {
+      "file": "ETHUSDT-5m-2023-09.zip",
+      "sha256": "cfa30fa2cfb5b52414e92fd4ec43d15b45ccad829a72bd0ec59dc91b626f8a96"
+    },
+    {
+      "file": "ETHUSDT-5m-2023-10.zip",
+      "sha256": "cb38c060ae4611abc6c0310a5b54ce43c04a1dee0f29cff796ca3d6f3c7a1ced"
+    },
+    {
+      "file": "ETHUSDT-5m-2023-11.zip",
+      "sha256": "3e228a58bd4eae3e3f8dcca5c3abb05d96bf4b0353593748e5c28ba725f1ea50"
+    },
+    {
+      "file": "ETHUSDT-5m-2023-12.zip",
+      "sha256": "79f3877894684fc7677abe104a75e1d9517b11a0d03a5fc6a6a7062d18a98dfb"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-01.zip",
+      "sha256": "4d7c7993753a610111eaf642595593bc494018c1a6d9c56fd2e4637947b0c706"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-02.zip",
+      "sha256": "1d8853dad965a879dfbe1337a34b8dd0f5720ea63d08c111baa6fd80b6d8e3e0"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-03.zip",
+      "sha256": "60effd672bfd20e90a660e669ab910a73e1efe15e8da3f03025f886c1311a397"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-04.zip",
+      "sha256": "3a1dbd4846d83c1d2c41ad79959aaba7f3ff2eb955d554ec0160b427ba7c29f0"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-05.zip",
+      "sha256": "96c249da6af9da772b8f46126ee15fa2335e7f8b384b6f0b92ee5e9eaa4fb187"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-06.zip",
+      "sha256": "15bfae49e9b625e93e3ca8279990b0328e813ddf2fe2d1bc0fb5b052a9c3e547"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-07.zip",
+      "sha256": "d53523ecc2c405137b0f4f5b1ee38d88b27f340d8a47ff3eb55e331aecefea96"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-08.zip",
+      "sha256": "8a95cb8a0ed49c9ad09c07d51512edd8449473ef04af6018cf389ee085679ba4"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-09.zip",
+      "sha256": "4a6895e3f5a34f41998487460a6d2aa7aace8985bff0e7acd1cc541d92da9a35"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-10.zip",
+      "sha256": "fdc52e4f80900ae74a000d36ea13cb4b43e30851d33a24de8a261c2ed7eae036"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-11.zip",
+      "sha256": "f8108737e97a93373c9bf0a4e159222ebf7ba6b6f2d6e04c562563d61a3dcb41"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-12.zip",
+      "sha256": "f02545d5f40476d577c86560ef93d69aa0ac75c03c92eacec3950abb3d4b5c0d"
+    }
+  ],
+  "status": "ok",
+  "price_adjustment": "none (prices as traded in USDT)",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance."
+}
