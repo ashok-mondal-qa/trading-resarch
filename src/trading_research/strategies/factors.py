@@ -32,6 +32,8 @@ class Params:
     vol_window: int = 252
     mom_long: int = 252
     mom_skip: int = 21
+    min_median_value: float = 0.0       # liquidity floor on the median traded value (0 = none, as on NSE)
+    value_on_t: bool = False            # also need a traded value on t (crypto blanks it for announced delistings)
 
     def as_dict(self) -> dict:
         return asdict(self)
@@ -47,7 +49,9 @@ def universe(close: pd.DataFrame, traded_value: pd.DataFrame, t: pd.Timestamp, p
     window = close.iloc[max(0, i - 259): i + 1]
     history = window.notna().sum()
     liq = traded_value.iloc[max(0, i - p.liquidity_window + 1): i + 1].median()
-    ok = (history >= p.min_history) & close.loc[t].notna() & liq.notna()
+    ok = (history >= p.min_history) & close.loc[t].notna() & liq.notna() & (liq >= p.min_median_value)
+    if p.value_on_t:
+        ok &= traded_value.loc[t].notna()
     return liq[ok].sort_values(ascending=False).index[: p.universe_size]
 
 

@@ -143,7 +143,7 @@ def nifty_curve(nifty: pd.DataFrame, start: str, end: str, costs: dict, mult: fl
     n = nifty[(nifty.index >= pd.Timestamp(start)) & (nifty.index <= pd.Timestamp(end))]
     gross = START_EQUITY / (1 + (cost_model.leg_costs("buy", 1e6, 1, costs).total / 1e6 + SLIPPAGE_PCT / 100) * mult)
     units = gross / n["open"].iloc[0]
-    equity = START_EQUITY - gross + units * n["close"]
+    equity = units * n["close"]                 # gross plus its buy cost is the whole start equity
     proceeds = units * n["close"].iloc[-1]
     lots = pd.DataFrame([{"entry_date": n.index[0], "exit_date": n.index[-1],
                           "pnl": proceeds - _cost("sell", proceeds, costs, mult) - START_EQUITY}])
