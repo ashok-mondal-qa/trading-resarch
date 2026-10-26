@@ -107,3 +107,5 @@ approved its one-time use anyway because low volatility and the mix held up in 2
 * Ten months is short: a pass is consistency evidence, not proof, and does not change EXP-0039/0041 from
   REJECTED or the forward-tracking rule of EXP-0042/0043. A fail is reported as a fail and counts against both.
 * After this run the NSE holdout is used up. Any later NSE idea needs forward data.
+* **Result (2026-10-26, one run):** EXP-0051 (mix) PASSED HOLDOUT, EXP-0050 (low volatility) FAILED HOLDOUT on the
+  2× daily Sharpe check (−1.156 vs −1.143) while losing less than NIFTY (`reports/backtests/EXP-0050-0051-holdout-report.md`).
