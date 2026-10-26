@@ -70,7 +70,15 @@ def scores(strategy: str, close: pd.DataFrame, t: pd.Timestamp, names: pd.Index,
 
 
 def targets(strategy: str, close: pd.DataFrame, traded_value: pd.DataFrame, t: pd.Timestamp,
-            p: Params = Params()) -> list[str]:
+            p: Params = Params(), segments: pd.DataFrame | None = None) -> list[str]:
+    """`segments` (optional, same shape as close) numbers each stock's stretches between data errors known at
+    the bar's date. Given it, only bars in the same stretch as t count for history, liquidity and scores, so a
+    later error never removes earlier history (point-in-time data handling, spec v0.1.2)."""
+    if segments is not None:
+        i = close.index.get_loc(t)
+        lo = max(0, i - 259)
+        same = segments.iloc[lo: i + 1].eq(segments.iloc[i], axis=1)
+        close, traded_value = close.iloc[lo: i + 1].where(same), traded_value.iloc[lo: i + 1].where(same)
     names = universe(close, traded_value, t, p)
     s = scores(strategy, close, t, names, p)
     return list(s.sort_values(ascending=False, kind="mergesort").index[: p.holdings])

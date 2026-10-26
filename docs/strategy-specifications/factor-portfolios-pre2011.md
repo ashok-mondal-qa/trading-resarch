@@ -3,7 +3,8 @@
 Status: **pre-registered, not run** (2026-10-26). Written before the 2005–2011 data was downloaded. Only
 three probe files (2001-01-02, 2005-01-03, 2010-06-01) were opened, to check their columns; no return from
 the period has been computed.
-Registry: EXP-0047..0049. Rules: `factor-portfolios.md` (EXP-0039..0041) **exactly**, code v0.1.1.
+Registry: EXP-0047..0049. Rules: `factor-portfolios.md` (EXP-0039..0041) **exactly**, with the v0.1.2
+point-in-time data handling (see changelog).
 Runner: `src/trading_research/backtesting/run_factors_pre2011.py`.
 
 **Why (model interpretation):** the Phase 18 portfolios failed only the significance check, because ten
@@ -71,3 +72,7 @@ where possible. Not a veto.
 
 ## Changelog
 - **v0.1 (2026-10-26):** initial spec, before any 2005–2011 data was loaded.
+- **v0.1.1 (2026-10-26), before any run:** after the download and adjustment (1,576 symbols: 1,046 ok, 529
+  partial, 618 unexplained jumps), found that the shared loader drops a stock's history before its last error,
+  a look-ahead (factor-portfolios.md v0.1.2). This test uses the fixed, point-in-time handling. No portfolio
+  or return had been computed. NIFTYBEES adjusted with no events and no errors.

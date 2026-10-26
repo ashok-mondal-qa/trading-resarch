@@ -63,3 +63,5 @@ not evidence and is not reported.
   unchanged.
 - **v0.1 (2026-10-25):** initial spec, before any forward data. Adds daily-file loading to `data/binance.py`
   (current month) for the forward checks. No earlier results affected.
+- **2026-10-26:** EXP-0042/0043 now use the point-in-time loader (factor-portfolios.md v0.1.2): a data error
+  found during tracking no longer erases a stock's earlier months. Changed before any forward data existed.

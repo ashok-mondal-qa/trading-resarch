@@ -23,7 +23,7 @@ import pandas as pd
 
 from trading_research.backtesting import run_factors as rf
 from trading_research.backtesting.run_baseline import REPORT_DIR
-from trading_research.backtesting.run_swing_ideas import _manifest, superseded_tickers, usable_as_of
+from trading_research.backtesting.run_swing_ideas import _manifest, superseded_tickers
 from trading_research.config import REPO_ROOT, load_settings
 from trading_research.data import bhavcopy, indices
 from trading_research.strategies import factors as fa
@@ -73,7 +73,7 @@ def load(root: Path = ROOT, main_root: Path = REPO_ROOT / "data"):
     names = [q.stem for q in paths]
     superseded, etfs = superseded_tickers(root, names), etf_symbols(names, main_root)
     cal = sessions(root)
-    close, open_, value, bench = {}, {}, {}, None
+    close, open_, value, seg, bench = {}, {}, {}, {}, None
     for path in paths:
         if path.stem in superseded or (path.stem in etfs and path.stem != BENCHMARK):
             continue
@@ -81,17 +81,19 @@ def load(root: Path = ROOT, main_root: Path = REPO_ROOT / "data"):
         adj = adj[(adj["date"] >= pd.Timestamp(DATA_START)) & (adj["date"] <= pd.Timestamp(DATA_END))].copy()
         if adj.empty:
             continue
-        adj = adj[usable_as_of(adj, _manifest(root, path.stem), DATA_END)].set_index("date").sort_index()
+        adj["segment"] = rf.error_segments(adj["date"], _manifest(root, path.stem), DATA_END)
+        adj = adj.set_index("date").sort_index()
         if path.stem == BENCHMARK:
             bench = adj[["adj_open", "adj_close"]].rename(columns={"adj_open": "open", "adj_close": "close"})
             continue
         if len(adj) < 250:
             continue
         close[path.stem], open_[path.stem], value[path.stem] = adj["adj_close"], adj["adj_open"], adj["traded_value"]
+        seg[path.stem] = adj["segment"]
     if bench is None:
         raise SystemExit(f"DATA INSUFFICIENT: no usable {BENCHMARK} series")
     frame = lambda d: pd.DataFrame(d).reindex(cal).sort_index()   # noqa: E731
-    return frame(close), frame(open_), frame(value), bench.reindex(cal), sorted(etfs)
+    return frame(close), frame(open_), frame(value), bench.reindex(cal), sorted(etfs), frame(seg)
 
 
 def verdict(results: dict) -> dict:
@@ -108,7 +110,7 @@ def verdict(results: dict) -> dict:
     return {"checks": checks, "status": "REPLICATED" if all(checks.values()) else "NOT REPLICATED"}
 
 
-def run(strategy: str, close, open_, value, bench, costs: dict) -> dict:
+def run(strategy: str, close, open_, value, bench, costs: dict, segments: pd.DataFrame | None = None) -> dict:
     out = {"experiment": EXPERIMENTS[strategy], "frozen_rules": rf.EXPERIMENTS[strategy], "strategy": strategy,
            "spec_version": fa.SPEC_VERSION, "params": fa.Params().as_dict(), "benchmark": BENCHMARK,
            "note": "keys named nifty* hold the NIFTYBEES benchmark",
@@ -116,7 +118,7 @@ def run(strategy: str, close, open_, value, bench, costs: dict) -> dict:
     for mult, label in ((1.0, "1x"), (2.0, "2x")):
         out[label] = {}
         for split, (start, end) in SPLITS.items():
-            eq, lots = rf.simulate(strategy, close, open_, value, start, end, costs, mult)
+            eq, lots = rf.simulate(strategy, close, open_, value, start, end, costs, mult, segments=segments)
             beq, blots = rf.nifty_curve(bench.dropna(), start, end, costs, mult)   # first session it traded
             out[label][split] = rf.split_report(eq, lots, beq.reindex(eq.index).ffill(), blots,
                                                 ci=(label == "1x" and split == "window"))
@@ -160,12 +162,12 @@ def main(argv: list[str] | None = None) -> int:
         (REPORT_DIR / "niftybees-tracking-2012-2014.json").write_text(json.dumps(result, indent=2) + "\n")
         print(json.dumps(result, indent=2))
         return 0
-    close, open_, value, bench, etfs = load()
+    close, open_, value, bench, etfs, segments = load()
     costs = load_settings()["costs"]
     print(f"stocks {close.shape[1]}, sessions {close.index.min().date()}..{close.index.max().date()}, "
           f"ETFs excluded {len(etfs)}", flush=True)
     for strategy in ([args.strategy] if args.strategy else fa.STRATEGIES):
-        result = run(strategy, close, open_, value, bench, costs)
+        result = run(strategy, close, open_, value, bench, costs, segments)
         result["etfs_excluded"] = etfs
         (REPORT_DIR / f"{EXPERIMENTS[strategy]}-pre2011-{strategy}.json").write_text(
             json.dumps(result, indent=2, default=str) + "\n")

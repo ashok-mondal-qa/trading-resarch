@@ -23,7 +23,7 @@ from trading_research.backtesting import compare_markets as cm
 from trading_research.backtesting import costs as cost_model
 from trading_research.backtesting import metrics
 from trading_research.backtesting.run_baseline import REPORT_DIR
-from trading_research.backtesting.run_swing_ideas import _manifest, superseded_tickers, usable_as_of
+from trading_research.backtesting.run_swing_ideas import _manifest, superseded_tickers
 from trading_research.config import REPO_ROOT, load_settings
 from trading_research.data import indices
 from trading_research.strategies import factors as fa
@@ -51,10 +51,23 @@ FORWARD_MONTHS = 24
 FORWARD_DIR = REPO_ROOT / "reports" / "forward"
 
 
+def error_segments(dates: pd.Series, manifest: dict, end: date) -> np.ndarray:
+    """Per bar, how many adjustment errors known by `end` fall strictly before it. Bars after an error start a
+    new stretch; the error day itself still belongs to the old one (as in `usable_as_of`)."""
+    errors = sorted(pd.Timestamp(i["date"]) for i in manifest.get("issues", [])
+                    if i.get("severity") == "error" and i.get("date") and pd.Timestamp(i["date"]) <= pd.Timestamp(end))
+    return np.searchsorted(np.array(errors, dtype="datetime64[ns]"), dates.to_numpy(dtype="datetime64[ns]"),
+                           side="left")
+
+
 def load(root: Path = REPO_ROOT / "data", end: date = DATA_END):
+    """Close, open, traded value and error stretches per stock, plus NIFTY. Every bar is kept: a stock's
+    history before an adjustment error stays usable for decisions made before that error (v0.1.2). Until
+    v0.1.1 rows before the last error known by `end` were dropped, which removed stocks that later crashed
+    (e.g. YESBANK's -56% day in 2020) from every earlier year: a look-ahead in their favour."""
     paths = sorted((root / "processed" / "adjusted").glob("*.parquet"))
     superseded = superseded_tickers(root, [q.stem for q in paths])
-    close, open_, value = {}, {}, {}
+    close, open_, value, seg = {}, {}, {}, {}
     for path in paths:
         if path.stem in superseded:
             continue
@@ -62,17 +75,18 @@ def load(root: Path = REPO_ROOT / "data", end: date = DATA_END):
         adj = adj[(adj["date"] >= pd.Timestamp(DATA_START)) & (adj["date"] <= pd.Timestamp(end))].copy()
         if adj.empty or str(adj["isin"].iloc[-1]).startswith("INF"):
             continue
-        adj["usable"] = usable_as_of(adj, _manifest(root, path.stem), end)
-        adj = adj[adj["usable"]].set_index("date").sort_index()
+        adj["segment"] = error_segments(adj["date"], _manifest(root, path.stem), end)
+        adj = adj.set_index("date").sort_index()
         if len(adj) < 250:
             continue
         close[path.stem], open_[path.stem], value[path.stem] = adj["adj_close"], adj["adj_open"], adj["traded_value"]
+        seg[path.stem] = adj["segment"]
     nifty = indices.read_index("Nifty 50", DATA_START, end, root)
     nifty.index = pd.to_datetime(nifty.index)
     nifty = nifty[~nifty.index.duplicated()].sort_index()
     cal = nifty.index
     frame = lambda d: pd.DataFrame(d).reindex(cal).sort_index()   # noqa: E731
-    return frame(close), frame(open_), frame(value), nifty
+    return frame(close), frame(open_), frame(value), nifty, frame(seg)
 
 
 def _cost(side: str, value: float, costs: dict, mult: float) -> float:
@@ -83,14 +97,14 @@ def _cost(side: str, value: float, costs: dict, mult: float) -> float:
 
 
 def simulate(strategy: str, close: pd.DataFrame, open_: pd.DataFrame, value: pd.DataFrame, start: str, end: str,
-             costs: dict, mult: float = 1.0, p: fa.Params = fa.Params()):
+             costs: dict, mult: float = 1.0, p: fa.Params = fa.Params(), segments: pd.DataFrame | None = None):
     """Daily equity (₹) and closed lots (entry_date, exit_date, pnl) for one split."""
     cal = close.index[(close.index >= pd.Timestamp(start)) & (close.index <= pd.Timestamp(end))]
     rebal = set(fa.month_ends(close.index[close.index <= pd.Timestamp(end)]))
     cash, pos, lots, equity = START_EQUITY, {}, [], {}
     last_px = close.ffill(limit=STALE_DAYS)
     prev = close.index[close.index.get_loc(cal[0]) - 1]      # first portfolio from the last close before the split
-    pending = fa.targets(strategy, close, value, prev, p)
+    pending = fa.targets(strategy, close, value, prev, p, segments)
     for day in cal:
         if pending is not None:
             px = open_.loc[day]
@@ -128,7 +142,7 @@ def simulate(strategy: str, close: pd.DataFrame, open_: pd.DataFrame, value: pd.
                 lots.append({"symbol": s, "entry_date": d0, "exit_date": day, "pnl": proceeds - c - basis})
         equity[day] = cash + sum(q * last_px.at[day, s] for s, (q, _, _) in pos.items())
         if day in rebal and day != cal[-1]:
-            pending = fa.targets(strategy, close, value, day, p)
+            pending = fa.targets(strategy, close, value, day, p, segments)
     # liquidate at the last close for tax
     last = cal[-1]
     for s, (q, basis, d0) in pos.items():
@@ -207,14 +221,14 @@ def verdict(results: dict) -> dict:
     return {"checks": checks, "status": "HOLDOUT CANDIDATE" if all(checks.values()) else "REJECTED"}
 
 
-def run(strategy: str, close, open_, value, nifty, costs: dict) -> dict:
+def run(strategy: str, close, open_, value, nifty, costs: dict, segments: pd.DataFrame | None = None) -> dict:
     out = {"experiment": EXPERIMENTS[strategy], "strategy": strategy, "spec_version": fa.SPEC_VERSION,
            "params": fa.Params().as_dict(), "slippage_pct_per_side": SLIPPAGE_PCT,
            "generated_at_utc": datetime.now(timezone.utc).replace(microsecond=0).isoformat()}
     for mult, label in ((1.0, "1x"), (2.0, "2x")):
         out[label] = {}
         for split, (start, end) in SPLITS.items():
-            eq, lots = simulate(strategy, close, open_, value, start, end, costs, mult)
+            eq, lots = simulate(strategy, close, open_, value, start, end, costs, mult, segments=segments)
             beq, blots = nifty_curve(nifty, start, end, costs, mult)
             out[label][split] = split_report(eq, lots, beq.reindex(eq.index).ffill(), blots,
                                              ci=(label == "1x" and split == "dev"))
@@ -238,7 +252,7 @@ def forward(strategy: str, as_of: date, root: Path = REPO_ROOT / "data") -> dict
     if pd.Timestamp(as_of) < pd.Timestamp(FORWARD_START):
         raise SystemExit(f"as_of must be on or after {FORWARD_START}")
     exp = FORWARD[strategy]
-    close, open_, value, nifty = load(root, end=as_of)
+    close, open_, value, nifty, segments = load(root, end=as_of)
     costs = load_settings()["costs"]
     sessions = close.index[close.index >= pd.Timestamp(FORWARD_START)]
     report = {"experiment": exp, "frozen_rules": EXPERIMENTS[strategy], "strategy": strategy,
@@ -249,7 +263,7 @@ def forward(strategy: str, as_of: date, root: Path = REPO_ROOT / "data") -> dict
         report["status"] = "no forward sessions yet"
     else:
         for mult, label in ((1.0, "1x"), (2.0, "2x")):
-            eq, lots = simulate(strategy, close, open_, value, FORWARD_START, str(as_of), costs, mult)
+            eq, lots = simulate(strategy, close, open_, value, FORWARD_START, str(as_of), costs, mult, segments=segments)
             beq, blots = nifty_curve(nifty, FORWARD_START, str(as_of), costs, mult)
             report[label] = split_report(eq, lots, beq.reindex(eq.index).ffill(), blots) if len(eq) >= 20 else {
                 "net_return": float(eq.iloc[-1] / START_EQUITY - 1),
@@ -259,7 +273,7 @@ def forward(strategy: str, as_of: date, root: Path = REPO_ROOT / "data") -> dict
                 eq.to_csv(FORWARD_DIR / f"{exp}-equity.csv", header=["equity"])
                 last = close.index.max()
                 report["targets_from_close_of"] = str(last.date())   # trade at the next open if this ends a month
-                report["targets"] = fa.targets(strategy, close, value, last)
+                report["targets"] = fa.targets(strategy, close, value, last, segments=segments)
         months = (pd.Timestamp(as_of) - pd.Timestamp(FORWARD_START)).days / 30.4375
         report["months"] = round(months, 2)
         report["status"] = forward_decision(report, months) if "strategy" in report.get("1x", {}) else "tracking"
@@ -280,11 +294,11 @@ def main(argv: list[str] | None = None) -> int:
             r = forward(strategy, args.as_of)
             print(r["experiment"], r["status"], {k: r.get("1x", {}).get(k) for k in ("net_return", "nifty_net_return")})
         return 0
-    close, open_, value, nifty = load()
+    close, open_, value, nifty, segments = load()
     costs = load_settings()["costs"]
     print(f"stocks {close.shape[1]}, sessions {close.index.min().date()}..{close.index.max().date()}", flush=True)
     for strategy in ([args.strategy] if args.strategy else fa.STRATEGIES):
-        result = run(strategy, close, open_, value, nifty, costs)
+        result = run(strategy, close, open_, value, nifty, costs, segments)
         (REPORT_DIR / f"{EXPERIMENTS[strategy]}-{strategy}.json").write_text(json.dumps(result, indent=2, default=str) + "\n")
         print(strategy, result["verdict"]["status"], json.dumps(result["verdict"]["checks"]), flush=True)
     return 0
