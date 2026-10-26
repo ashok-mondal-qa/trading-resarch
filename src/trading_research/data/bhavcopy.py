@@ -116,8 +116,10 @@ def http_fetch(url: str, retries: int = 3, timeout: float = 30.0) -> bytes | Non
 # ---------------------------------------------------------------- parsing and validation
 
 
-def parse_bhavcopy(raw_zip: bytes, fmt: str) -> pd.DataFrame:
-    """Unzip one bhavcopy and normalise it to COLUMNS. No rows are dropped here."""
+def parse_bhavcopy(raw_zip: bytes, fmt: str, optional: tuple[str, ...] = ()) -> pd.DataFrame:
+    """Unzip one bhavcopy and normalise it to COLUMNS. No rows are dropped here. Source columns named in
+    `optional` may be absent (left empty); only the separate pre-2011 store passes ISIN/TOTALTRADES here, since
+    legacy files before 2011-07 have neither."""
     with zipfile.ZipFile(io.BytesIO(raw_zip)) as zf:
         names = [n for n in zf.namelist() if n.lower().endswith(".csv")]
         if len(names) != 1:
@@ -125,6 +127,9 @@ def parse_bhavcopy(raw_zip: bytes, fmt: str) -> pd.DataFrame:
         df = pd.read_csv(zf.open(names[0]), dtype=str, keep_default_na=False)
     df.columns = [c.strip() for c in df.columns]
     mapping = UDIFF_MAP if fmt == "udiff" else LEGACY_MAP
+    for col in optional:
+        if col in mapping and col not in df.columns:
+            df[col] = ""
     missing = [c for c in mapping if c not in df.columns]
     if missing:
         raise BhavcopyError(f"{fmt} bhavcopy is missing columns {missing}")
@@ -254,7 +259,7 @@ def build_manifest(day: date, status: str, *, fmt: str | None = None, url: str |
 
 
 def load_day(day: date, store: Store | None = None, fetch: Fetcher = http_fetch,
-             force: bool = False) -> dict:
+             force: bool = False, optional: tuple[str, ...] = ()) -> dict:
     """Fetch, validate and store one trade date. Returns the manifest written for it."""
     store = store or Store()
     if day.weekday() >= 5:
@@ -269,7 +274,7 @@ def load_day(day: date, store: Store | None = None, fetch: Fetcher = http_fetch,
         raw = fetch(url)
         if raw is None:
             continue
-        frame = parse_bhavcopy(raw, fmt)
+        frame = parse_bhavcopy(raw, fmt, optional)
         result = validate_bars(frame, day)
         raw_path = store.raw_path(day, url)
         raw_path.parent.mkdir(parents=True, exist_ok=True)
@@ -296,11 +301,11 @@ def weekdays(start: date, end: date) -> Iterable[date]:
 
 
 def load_range(start: date, end: date, store: Store | None = None, fetch: Fetcher = http_fetch,
-               force: bool = False, pause_s: float = 0.5) -> list[dict]:
+               force: bool = False, pause_s: float = 0.5, optional: tuple[str, ...] = ()) -> list[dict]:
     store = store or Store()
     manifests = []
     for day in weekdays(start, end):
-        manifests.append(load_day(day, store, fetch, force))
+        manifests.append(load_day(day, store, fetch, force, optional))
         if fetch is http_fetch and pause_s:
             time.sleep(pause_s)  # be polite to the archive
     return manifests
@@ -341,12 +346,18 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--start", required=True, type=date.fromisoformat)
     parser.add_argument("--end", type=date.fromisoformat)
     parser.add_argument("--force", action="store_true", help="re-download even if already loaded")
+    parser.add_argument("--root", type=Path, help="data root (default data/); the pre-2011 store is data/pre2011")
+    parser.add_argument("--pre2011", action="store_true",
+                        help="accept legacy files without ISIN/TOTALTRADES (only with --root data/pre2011)")
     parser.add_argument("--cross-check", default="",
                         help="comma-separated symbols to compare against the NSE bhavcopy MCP server")
     args = parser.parse_args(argv)
     end = args.end or args.start
-    store = Store()
-    for manifest in load_range(args.start, end, store, force=args.force):
+    if args.pre2011 and (args.root is None or args.root.name != "pre2011" or end >= date(2011, 7, 1)):
+        parser.error("--pre2011 needs --root .../pre2011 and an end before 2011-07-01")
+    store = Store(root=args.root) if args.root else Store()
+    optional = ("ISIN", "TOTALTRADES") if args.pre2011 else ()
+    for manifest in load_range(args.start, end, store, force=args.force, optional=optional):
         print(f"{manifest['trade_date']}  {manifest['status']:<9}  rows_kept={manifest['rows_kept']:<5} "
               f"excluded={len(manifest['excluded'])}")
         symbols = [s.strip().upper() for s in args.cross_check.split(",") if s.strip()]
