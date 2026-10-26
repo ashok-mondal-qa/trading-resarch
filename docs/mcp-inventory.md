@@ -78,9 +78,11 @@ unverified** · **evaluated, not configured** · **rejected**.
   No tokens in chat or Git.
 - **Not installed:** the sibling `upstox-skill` plugin, because it places, amends and cancels real orders
   (conflicts with CLAUDE.md rule 1). Revisit only with written live-trading authorization.
-- **Status in the cloud environment (2026-10-26):** `mcp.upstox.com` is denied by the environment's network
-  proxy (CONNECT 403), so no call has succeeded. Needs the host allowlisted, then a tool list and one
-  quote cross-checked against the NSE archive before any use. Even if it ever exposed an order tool, the
+- **Status in the cloud environment (2026-10-26):** first denied by the network proxy (CONNECT 403); after
+  Ashok allowlisted `mcp.upstox.com` (06:02 UTC) the server answers `401` (needs OAuth). A cloud session
+  cannot run the browser OAuth itself; the route is a claude.ai custom connector
+  (https://claude.ai/customize/connectors, URL `https://mcp.upstox.com/mcp`) and a new session. Still
+  needed before any use: a tool list and one quote cross-checked against the NSE archive. Even if it ever exposed an order tool, the
   paper-only rule and `block_live_orders` hook still apply.
 
 ## Exchange filings / corporate announcements — to evaluate (Phase 8)
