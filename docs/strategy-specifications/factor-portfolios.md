@@ -73,3 +73,10 @@ mid-caps, which may flatter momentum. Not a veto.
 ## Changelog
 - **v0.1 (2026-10-25):** initial spec, before any portfolio run.
 - **v0.1 result (2026-10-25):** run once, no changes; all three REJECTED; EXP-0039 and EXP-0041 to forward tracking.
+- **v0.1.1 (2026-10-26), benchmark fix, no rule change:** the NIFTY buy-and-hold curve in `run_factors.nifty_curve`
+  kept its buy cost as idle cash (found while writing the Phase 19 tests): about 0.2% (1×) to 0.4% (2×) of the
+  start equity sat in NIFTY's curve without growing. Now the whole start equity buys NIFTY. Strategy rules,
+  `factors.py` defaults and EXP-0042/0043's frozen rules are unchanged. `factors.Params` also gains
+  `min_median_value` and `value_on_t` for the crypto run (defaults 0 / off, no effect here). Tests: 308 pass.
+  Rerun once on dev and validation (no holdout use): NIFTY CAGR +0.03 to +0.05 points, Sharpe within 0.001,
+  intervals unchanged to three decimals, **all verdicts unchanged**. No new holdout evaluation is needed.

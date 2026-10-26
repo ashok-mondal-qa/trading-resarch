@@ -10,9 +10,12 @@ mix passed every check except the strictest one (statistical proof that their Sh
 alone also failed validation on risk. These two are the best results in this project so far.
 
 ## Results at 2× costs (calculated; ₹10 lakh start per split; NIFTY = price index, same costs)
+NIFTY row as rerun on 2026-10-26 after the v0.1.1 benchmark fix (validation after tax 12.0% → 12.1%; every other
+figure, interval and verdict unchanged at this rounding).
+
 | | Dev 2013–22 CAGR | after tax | Sharpe | Max DD | Validation 2023–25 CAGR | after tax | Sharpe | Max DD |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| NIFTY 50 buy and hold | 12.1% | 11.1% | 0.75 | −38% | 13.1% | 12.0% | 1.25 | −16% |
+| NIFTY 50 buy and hold | 12.1% | 11.1% | 0.75 | −38% | 13.1% | 12.1% | 1.25 | −16% |
 | EXP-0039 low volatility 30 | 14.8% | 13.4% | 1.09 | −27% | 15.6% | 14.1% | 1.31 | −18% |
 | EXP-0040 momentum 30 | 24.9% | 22.4% | 0.99 | −50% | 27.7% | 24.5% | 1.09 | −39% |
 | EXP-0041 momentum + low vol 30 | 18.7% | 16.8% | 1.13 | −32% | 20.9% | 18.3% | 1.34 | −24% |
