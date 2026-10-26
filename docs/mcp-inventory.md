@@ -66,6 +66,25 @@ unverified** · **evaluated, not configured** · **rejected**.
 - **Decision:** deferred. If adopted later it is for **data only**; order endpoints stay blocked.
   Requires owner sign-up and secrets in the environment store, never in chat or Git.
 
+## Upstox MCP (`upstox-mcp` plugin) — configured, unverified (2026-10-26)
+- **Installed:** `/plugin marketplace add upstox/upstox-plugin-marketplace` then
+  `/plugin install upstox-mcp@upstox-plugins-official` at project scope (`.claude/settings.json`:
+  `extraKnownMarketplaces` + `enabledPlugins`), at Ashok's request.
+- **URL:** `https://mcp.upstox.com/mcp` (remote HTTP). Plugin source reviewed 2026-10-26
+  (github.com/upstox/upstox-plugin-marketplace): only a `.mcp.json` pointing at that URL, no local code.
+- **Capabilities (per Upstox README):** live NSE/BSE/MCX market data and **read-only** account access
+  (holdings, positions, orders, funds and margin, profile). No order placement per Upstox.
+- **Auth:** Upstox OAuth in the browser on first use; Upstox requires re-authorisation once per day.
+  No tokens in chat or Git.
+- **Not installed:** the sibling `upstox-skill` plugin, because it places, amends and cancels real orders
+  (conflicts with CLAUDE.md rule 1). Revisit only with written live-trading authorization.
+- **Status in the cloud environment (2026-10-26):** first denied by the network proxy (CONNECT 403); after
+  Ashok allowlisted `mcp.upstox.com` (06:02 UTC) the server answers `401` (needs OAuth). A cloud session
+  cannot run the browser OAuth itself; the route is a claude.ai custom connector
+  (https://claude.ai/customize/connectors, URL `https://mcp.upstox.com/mcp`) and a new session. Still
+  needed before any use: a tool list and one quote cross-checked against the NSE archive. Even if it ever exposed an order tool, the
+  paper-only rule and `block_live_orders` hook still apply.
+
 ## Exchange filings / corporate announcements — to evaluate (Phase 8)
 NSE/BSE corporate announcement pages. Access path not yet confirmed.
 
