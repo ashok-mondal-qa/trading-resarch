@@ -1,8 +1,8 @@
 # Factor portfolios on unseen 2006–2011 NSE data (replication test, research only) — spec v0.1
 
-Status: **pre-registered, not run** (2026-10-26). Written before the 2005–2011 data was downloaded. Only
-three probe files (2001-01-02, 2005-01-03, 2010-06-01) were opened, to check their columns; no return from
-the period has been computed.
+Status: **run once, 2026-10-26: low volatility (EXP-0047) and the mix (EXP-0049) REPLICATED, momentum
+(EXP-0048) NOT REPLICATED** (`reports/backtests/EXP-0047-0049-report.md`). Written before the 2005–2011 data was
+downloaded; only three probe files (2001-01-02, 2005-01-03, 2010-06-01) were opened, to check their columns.
 Registry: EXP-0047..0049. Rules: `factor-portfolios.md` (EXP-0039..0041) **exactly**, with the v0.1.2
 point-in-time data handling (see changelog).
 Runner: `src/trading_research/backtesting/run_factors_pre2011.py`.
@@ -76,3 +76,4 @@ where possible. Not a veto.
   partial, 618 unexplained jumps), found that the shared loader drops a stock's history before its last error,
   a look-ahead (factor-portfolios.md v0.1.2). This test uses the fixed, point-in-time handling. No portfolio
   or return had been computed. NIFTYBEES adjusted with no events and no errors.
+- **v0.1.1 result (2026-10-26):** run once, no changes; EXP-0047 and EXP-0049 REPLICATED, EXP-0048 NOT REPLICATED.

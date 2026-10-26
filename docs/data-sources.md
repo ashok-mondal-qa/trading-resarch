@@ -122,3 +122,16 @@ strength. Index values are as published (indices need no corporate-action adjust
 - Loaded BTCUSDT and ETHUSDT 2017-08..2024-12 only (773,880 bars each; 1,944 missing 5m bars each, the same
   exchange outages for both). 2025 onward is not downloaded (crypto intraday holdout).
 - Bars are stamped with their UTC open time; 15m/1h bars are built only from complete groups of 5m bars.
+
+## Pre-2011 store for the replication test (2026-10-26)
+- Separate root `data/pre2011/` (git-ignored, same layout). NSE CM legacy bhavcopy 2005-07-01..2011-06-30:
+  1,480 `ok` sessions, 82 weekdays `not_found` (holidays). These files have no ISIN or TOTALTRADES columns;
+  `bhavcopy --root data/pre2011 --pre2011` accepts that, and only for that root and an end before 2011-07-01.
+- Corporate actions (NSE MCP) appear to start about mid-2005 (INFY's 2004 bonus is missing; its 2006 bonus is
+  listed). 1,576 symbols adjusted: 1,046 ok, 529 partial (618 unexplained jumps, 85 unadjusted price events,
+  24 factor mismatches). Renames are confirmed by NSE's list plus date continuity only (no ISINs).
+- NSE index files start in 2012; niftyindices.com is blocked by the network policy, so NIFTYBEES is the
+  benchmark there (tracks the index within 0.01% a year in 2012–2014).
+- Rebuild: `bhavcopy --start 2005-07-01 --end 2011-06-30 --root data/pre2011 --pre2011` (~55 min), then
+  `adjust.run(symbols, 2005-07-01, 2011-06-30, root=data/pre2011, workers=6)` for the list from
+  `run_factors_pre2011 --symbols` (~1 h; run with a long timeout).
