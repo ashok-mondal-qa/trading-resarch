@@ -1,7 +1,7 @@
 # Monthly factor portfolios on Binance coins (research and paper only) — spec v0.1
 
-Status: **pre-registered, not run** (2026-10-26). Rules, splits and pass/fail are fixed here before any
-crypto factor portfolio is simulated.
+Status: **REJECTED, all three** (2026-10-26; `reports/backtests/EXP-0044-0046-report.md`). Rules, splits and
+pass/fail were committed before any run (b66ac0e). Nothing is forward-tracked.
 Code: `src/trading_research/strategies/factors.py` (same scores as EXP-0039..0041), runner
 `src/trading_research/backtesting/run_crypto_factors.py`. Registry: EXP-0044..0046.
 
@@ -81,3 +81,4 @@ bull-bear cycle is short for a Sharpe test. Not a veto.
 ## Changelog
 - **v0.1 (2026-10-26):** initial spec, before any run. Code change shared with Phase 18: `factors.Params` gains
   `min_median_value` (default 0, so EXP-0039..0043 are unchanged; their tests still pass).
+- **v0.1 result (2026-10-26):** run once, no changes; all three REJECTED; none forward-tracked.
