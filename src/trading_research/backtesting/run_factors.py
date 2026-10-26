@@ -238,6 +238,49 @@ def run(strategy: str, close, open_, value, nifty, costs: dict, segments: pd.Dat
     return out
 
 
+# One-time use of the sealed 2026 holdout for the two near misses, only with the owner's written go-ahead
+# (factor-portfolios.md, holdout addendum). The rule is fixed before the data is read.
+HOLDOUT_EXPERIMENTS = {"lowvol": "EXP-0050", "mom_lowvol": "EXP-0051"}
+
+
+def holdout_decision(report: dict) -> str:
+    """PASSED only if at 1x and 2x costs the net return and the daily Sharpe are not below NIFTY's and the
+    drawdown is at most 10 points worse."""
+    ok = all(r["net_return"] >= r["nifty_net_return"] and r["sharpe_daily"] >= r["nifty_sharpe_daily"]
+             and r["max_drawdown"] >= r["nifty_max_drawdown"] - MAX_DD_GAP for r in (report["1x"], report["2x"]))
+    return "PASSED HOLDOUT" if ok else "FAILED HOLDOUT"
+
+
+def _daily_sharpe(equity: pd.Series) -> float:
+    r = equity.pct_change().dropna()
+    return float(r.mean() / r.std(ddof=1) * np.sqrt(252)) if len(r) > 2 and r.std(ddof=1) > 0 else float("nan")
+
+
+def holdout(strategy: str, root: Path = REPO_ROOT / "data") -> dict:
+    start, end = HOLDOUT
+    close, open_, value, nifty, segments = load(root, end=date.fromisoformat(end))
+    costs = load_settings()["costs"]
+    report = {"experiment": HOLDOUT_EXPERIMENTS[strategy], "frozen_rules": EXPERIMENTS[strategy], "strategy": strategy,
+              "window": [start, end], "last_bar": str(close.index.max().date())}
+    for mult, label in ((1.0, "1x"), (2.0, "2x")):
+        eq, lots = simulate(strategy, close, open_, value, start, end, costs, mult, segments=segments)
+        beq, blots = nifty_curve(nifty, start, end, costs, mult)
+        beq = beq.reindex(eq.index).ffill()
+        taxes, btaxes = cm.equity_tax(lots, eq.index[-1]), cm.equity_tax(blots, beq.index[-1])
+        report[label] = {"net_return": float(eq.iloc[-1] / START_EQUITY - 1),
+                         "nifty_net_return": float(beq.iloc[-1] / START_EQUITY - 1),
+                         "after_tax_return": float(cm.apply_taxes(eq, taxes).iloc[-1] / START_EQUITY - 1),
+                         "nifty_after_tax_return": float(cm.apply_taxes(beq, btaxes).iloc[-1] / START_EQUITY - 1),
+                         "sharpe_daily": _daily_sharpe(eq), "nifty_sharpe_daily": _daily_sharpe(beq),
+                         "max_drawdown": metrics.max_drawdown(eq), "nifty_max_drawdown": metrics.max_drawdown(beq),
+                         "monthly": {str(k): float(v) for k, v in monthly(eq).items()},
+                         "nifty_monthly": {str(k): float(v) for k, v in monthly(beq).items()}}
+    report["status"] = holdout_decision(report)
+    report["generated_at_utc"] = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+    (REPORT_DIR / f"{report['experiment']}-holdout-{strategy}.json").write_text(json.dumps(report, indent=2) + "\n")
+    return report
+
+
 def forward_decision(report: dict, months: float) -> str:
     """Pre-registered: tracking until FORWARD_MONTHS; then PASSED only if at 1x and 2x costs CAGR and Sharpe are
     not below NIFTY's and the drawdown is at most 10 points worse."""
@@ -288,7 +331,16 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--strategy", choices=fa.STRATEGIES)
     parser.add_argument("--forward", action="store_true")
     parser.add_argument("--as-of", type=date.fromisoformat)
+    parser.add_argument("--holdout", metavar="OWNER_APPROVAL",
+                        help="one-time 2026 holdout run; pass where the owner's written go-ahead is recorded")
     args = parser.parse_args(argv)
+    if args.holdout:
+        for strategy in HOLDOUT_EXPERIMENTS:
+            r = holdout(strategy)
+            r["owner_approval"] = args.holdout
+            (REPORT_DIR / f"{r['experiment']}-holdout-{strategy}.json").write_text(json.dumps(r, indent=2) + "\n")
+            print(r["experiment"], r["status"], {k: r["2x"][k] for k in ("net_return", "nifty_net_return")})
+        return 0
     if args.forward:
         for strategy in FORWARD:
             r = forward(strategy, args.as_of)

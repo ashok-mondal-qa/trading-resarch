@@ -93,3 +93,19 @@ mid-caps, which may flatter momentum. Not a veto.
   no forward data exists yet (first forward close 2026-10-30, first check 2026-11-02). The swing experiments
   EXP-0011..0028 used the same filter; they were all rejected, and the bias favoured them, so their verdicts
   stand. Tests: 315 pass.
+
+## Holdout addendum (2026-10-26, written before the holdout is read)
+**Owner decision:** Ashok chose "Yes, run the 2026 exam now" on the decision card in the project thread
+(2026-10-26 06:29 UTC). Under the acceptance rules above the near misses did not earn the holdout; the owner
+approved its one-time use anyway because low volatility and the mix held up in 2006–2011 (EXP-0047/0049),
+2013–2022 and 2023–2025. Momentum (EXP-0040) is excluded: it failed.
+* EXP-0050 = EXP-0039 rules, EXP-0051 = EXP-0041 rules, code v0.1.2 (point-in-time data handling), no changes.
+* Window 2026-01-01..2026-10-22 (the whole sealed holdout), fresh ₹10 lakh, first portfolio from the
+  2025-12-31 close; NIFTY 50 price index bought at the first open with the same costs.
+* **PASSED HOLDOUT** only if at both 1× and 2× costs: net return not below NIFTY's, daily Sharpe (rf 0, √252)
+  not below NIFTY's, and maximum drawdown at most 10 points worse. Otherwise **FAILED HOLDOUT**.
+* Ten months is short: a pass is consistency evidence, not proof, and does not change EXP-0039/0041 from
+  REJECTED or the forward-tracking rule of EXP-0042/0043. A fail is reported as a fail and counts against both.
+* After this run the NSE holdout is used up. Any later NSE idea needs forward data.
+* **Result (2026-10-26, one run):** EXP-0051 (mix) PASSED HOLDOUT, EXP-0050 (low volatility) FAILED HOLDOUT on the
+  2× daily Sharpe check (−1.156 vs −1.143) while losing less than NIFTY (`reports/backtests/EXP-0050-0051-holdout-report.md`).

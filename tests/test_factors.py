@@ -118,3 +118,11 @@ def test_later_error_keeps_earlier_history_but_resets_it_afterwards():
     assert "CALM" in fa.targets("lowvol", close, value, before, SMALL, seg)
     assert "CALM" not in fa.targets("lowvol", close, value, after, SMALL, seg)   # only 10 bars since the error
     assert "CALM" in fa.targets("lowvol", close, value, close.index[k + 40], SMALL, seg)
+
+
+def test_holdout_decision_needs_both_cost_levels():
+    good = {"net_return": 0.12, "nifty_net_return": 0.08, "sharpe_daily": 1.1, "nifty_sharpe_daily": 0.9,
+            "max_drawdown": -0.12, "nifty_max_drawdown": -0.1}
+    assert rf.holdout_decision({"1x": good, "2x": good}) == "PASSED HOLDOUT"
+    assert rf.holdout_decision({"1x": good, "2x": {**good, "net_return": 0.07}}) == "FAILED HOLDOUT"
+    assert set(rf.HOLDOUT_EXPERIMENTS) == set(rf.FORWARD)
