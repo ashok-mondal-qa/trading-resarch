@@ -1,0 +1,296 @@
+{
+ "screens": {
+  "3y | all pairs": {
+   "n": 897,
+   "pct_10x": 3.1,
+   "pct_5x": 6.4,
+   "pct_beat_btc": 14.2,
+   "pct_lost_80": 21.2,
+   "pct_gone": 21.4,
+   "median_x": 0.5,
+   "mean_x": 1.85
+  },
+  "3y | BTCUSDT": {
+   "n": 6,
+   "pct_10x": 16.7,
+   "pct_5x": 33.3,
+   "pct_beat_btc": 0.0,
+   "pct_lost_80": 0.0,
+   "pct_gone": 0.0,
+   "median_x": 2.25,
+   "mean_x": 4.317
+  },
+  "3y | ETHUSDT": {
+   "n": 6,
+   "pct_10x": 16.7,
+   "pct_5x": 33.3,
+   "pct_beat_btc": 50.0,
+   "pct_lost_80": 0.0,
+   "pct_gone": 0.0,
+   "median_x": 2.865,
+   "mean_x": 7.306
+  },
+  "3y | lowest-volume 20%": {
+   "n": 181,
+   "pct_10x": 1.7,
+   "pct_5x": 6.6,
+   "pct_beat_btc": 12.7,
+   "pct_lost_80": 20.4,
+   "pct_gone": 32.0,
+   "median_x": 0.509,
+   "mean_x": 1.39
+  },
+  "3y | highest-volume 20%": {
+   "n": 180,
+   "pct_10x": 3.9,
+   "pct_5x": 7.8,
+   "pct_beat_btc": 14.4,
+   "pct_lost_80": 19.4,
+   "pct_gone": 7.8,
+   "median_x": 0.598,
+   "mean_x": 2.015
+  },
+  "3y | listed < 12 months": {
+   "n": 325,
+   "pct_10x": 4.9,
+   "pct_5x": 8.6,
+   "pct_beat_btc": 20.0,
+   "pct_lost_80": 24.0,
+   "pct_gone": 18.5,
+   "median_x": 0.585,
+   "mean_x": 2.319
+  },
+  "3y | listed >= 24 months": {
+   "n": 274,
+   "pct_10x": 1.1,
+   "pct_5x": 4.4,
+   "pct_beat_btc": 6.9,
+   "pct_lost_80": 15.7,
+   "pct_gone": 23.7,
+   "median_x": 0.489,
+   "mean_x": 1.153
+  },
+  "3y | top 20% 6m trend": {
+   "n": 140,
+   "pct_10x": 2.9,
+   "pct_5x": 5.7,
+   "pct_beat_btc": 11.4,
+   "pct_lost_80": 20.0,
+   "pct_gone": 25.7,
+   "median_x": 0.558,
+   "mean_x": 1.842
+  },
+  "3y | bottom 20% 6m trend": {
+   "n": 140,
+   "pct_10x": 1.4,
+   "pct_5x": 6.4,
+   "pct_beat_btc": 11.4,
+   "pct_lost_80": 21.4,
+   "pct_gone": 21.4,
+   "median_x": 0.443,
+   "mean_x": 1.208
+  },
+  "5y | all pairs": {
+   "n": 286,
+   "pct_10x": 11.5,
+   "pct_5x": 18.5,
+   "pct_beat_btc": 14.3,
+   "pct_lost_80": 20.3,
+   "pct_gone": 29.4,
+   "median_x": 0.902,
+   "mean_x": 4.919
+  },
+  "5y | BTCUSDT": {
+   "n": 4,
+   "pct_10x": 50.0,
+   "pct_5x": 50.0,
+   "pct_beat_btc": 0.0,
+   "pct_lost_80": 0.0,
+   "pct_gone": 0.0,
+   "median_x": 7.332,
+   "mean_x": 7.26
+  },
+  "5y | ETHUSDT": {
+   "n": 4,
+   "pct_10x": 50.0,
+   "pct_5x": 50.0,
+   "pct_beat_btc": 100.0,
+   "pct_lost_80": 0.0,
+   "pct_gone": 0.0,
+   "median_x": 10.515,
+   "mean_x": 12.079
+  },
+  "5y | lowest-volume 20%": {
+   "n": 59,
+   "pct_10x": 6.8,
+   "pct_5x": 11.9,
+   "pct_beat_btc": 6.8,
+   "pct_lost_80": 23.7,
+   "pct_gone": 39.0,
+   "median_x": 0.689,
+   "mean_x": 2.289
+  },
+  "5y | highest-volume 20%": {
+   "n": 58,
+   "pct_10x": 22.4,
+   "pct_5x": 32.8,
+   "pct_beat_btc": 20.7,
+   "pct_lost_80": 17.2,
+   "pct_gone": 10.3,
+   "median_x": 1.611,
+   "mean_x": 6.141
+  },
+  "5y | listed < 12 months": {
+   "n": 180,
+   "pct_10x": 9.4,
+   "pct_5x": 16.1,
+   "pct_beat_btc": 12.2,
+   "pct_lost_80": 23.3,
+   "pct_gone": 31.7,
+   "median_x": 0.902,
+   "mean_x": 4.798
+  },
+  "5y | listed >= 24 months": {
+   "n": 25,
+   "pct_10x": 20.0,
+   "pct_5x": 28.0,
+   "pct_beat_btc": 28.0,
+   "pct_lost_80": 16.0,
+   "pct_gone": 16.0,
+   "median_x": 1.623,
+   "mean_x": 6.508
+  },
+  "5y | top 20% 6m trend": {
+   "n": 33,
+   "pct_10x": 21.2,
+   "pct_5x": 27.3,
+   "pct_beat_btc": 18.2,
+   "pct_lost_80": 15.2,
+   "pct_gone": 21.2,
+   "median_x": 1.234,
+   "mean_x": 6.173
+  },
+  "5y | bottom 20% 6m trend": {
+   "n": 33,
+   "pct_10x": 6.1,
+   "pct_5x": 21.2,
+   "pct_beat_btc": 12.1,
+   "pct_lost_80": 18.2,
+   "pct_gone": 36.4,
+   "median_x": 0.77,
+   "mean_x": 3.53
+  }
+ },
+ "per_cohort": {
+  "3y 2018": {
+   "n": 6,
+   "pct_10x": 0.0,
+   "pct_5x": 0.0,
+   "pct_beat_btc": 16.7,
+   "pct_lost_80": 33.3,
+   "pct_gone": 16.7,
+   "median_x": 0.766,
+   "mean_x": 1.429,
+   "btc_x": 2.19
+  },
+  "3y 2019": {
+   "n": 19,
+   "pct_10x": 26.3,
+   "pct_5x": 36.8,
+   "pct_beat_btc": 21.1,
+   "pct_lost_80": 0.0,
+   "pct_gone": 10.5,
+   "median_x": 3.973,
+   "mean_x": 11.833,
+   "btc_x": 12.57
+  },
+  "3y 2020": {
+   "n": 80,
+   "pct_10x": 11.2,
+   "pct_5x": 20.0,
+   "pct_beat_btc": 42.5,
+   "pct_lost_80": 0.0,
+   "pct_gone": 11.2,
+   "median_x": 2.039,
+   "mean_x": 4.935,
+   "btc_x": 2.31
+  },
+  "3y 2021": {
+   "n": 179,
+   "pct_10x": 5.6,
+   "pct_5x": 12.8,
+   "pct_beat_btc": 42.5,
+   "pct_lost_80": 5.0,
+   "pct_gone": 13.4,
+   "median_x": 1.262,
+   "mean_x": 3.264,
+   "btc_x": 1.51
+  },
+  "3y 2022": {
+   "n": 299,
+   "pct_10x": 0.3,
+   "pct_5x": 0.3,
+   "pct_beat_btc": 1.7,
+   "pct_lost_80": 37.1,
+   "pct_gone": 22.7,
+   "median_x": 0.271,
+   "mean_x": 0.484,
+   "btc_x": 1.98
+  },
+  "3y 2023": {
+   "n": 314,
+   "pct_10x": 1.0,
+   "pct_5x": 3.2,
+   "pct_beat_btc": 2.2,
+   "pct_lost_80": 21.7,
+   "pct_gone": 28.0,
+   "median_x": 0.428,
+   "mean_x": 0.962,
+   "btc_x": 5.35
+  },
+  "5y 2018": {
+   "n": 6,
+   "pct_10x": 16.7,
+   "pct_5x": 16.7,
+   "pct_beat_btc": 33.3,
+   "pct_lost_80": 33.3,
+   "pct_gone": 16.7,
+   "median_x": 0.78,
+   "mean_x": 5.392,
+   "btc_x": 1.24
+  },
+  "5y 2019": {
+   "n": 19,
+   "pct_10x": 21.1,
+   "pct_5x": 31.6,
+   "pct_beat_btc": 15.8,
+   "pct_lost_80": 0.0,
+   "pct_gone": 10.5,
+   "median_x": 1.744,
+   "mean_x": 6.787,
+   "btc_x": 11.63
+  },
+  "5y 2020": {
+   "n": 82,
+   "pct_10x": 25.6,
+   "pct_5x": 41.5,
+   "pct_beat_btc": 17.1,
+   "pct_lost_80": 1.2,
+   "pct_gone": 25.6,
+   "median_x": 3.18,
+   "mean_x": 10.404,
+   "btc_x": 13.14
+  },
+  "5y 2021": {
+   "n": 179,
+   "pct_10x": 3.9,
+   "pct_5x": 6.7,
+   "pct_beat_btc": 12.3,
+   "pct_lost_80": 30.7,
+   "pct_gone": 33.5,
+   "median_x": 0.424,
+   "mean_x": 2.193,
+   "btc_x": 3.03
+  }
+ }
+}
