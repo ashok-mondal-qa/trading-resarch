@@ -117,3 +117,17 @@ def test_score_reads_that_days_bar():
     assert out["graded"][0]["outcome"] == "target" and out["graded"][0]["r_2x_costs"] < out["graded"][0]["r"]
     out = s.score(date(2026, 11, 3), ideas, t)
     assert "no EOD bar" in out["graded"][0]["outcome"]
+
+
+def test_call_with_retries_survives_lost_sessions_and_timeouts(monkeypatch):
+    errors = [s.McpError("Session not found"), TimeoutError("read timed out")]
+
+    def flaky(url, name, args, transport):
+        if errors:
+            raise errors.pop(0)
+        return "ok"
+    monkeypatch.setattr(s.nse_mcp, "call_tool", flaky)
+    assert s._call_with_retries("u", "t", {}, None, pause_s=0) == "ok"
+    errors[:] = [s.McpError("x")] * 3
+    with pytest.raises(s.McpError):
+        s._call_with_retries("u", "t", {}, None, rounds=3, pause_s=0)

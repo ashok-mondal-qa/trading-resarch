@@ -69,14 +69,27 @@ def is_fund(symbol: str) -> bool:
     return "BEES" in symbol or "ETF" in symbol
 
 
+def _call_with_retries(url: str, name: str, args: dict, transport: Transport, rounds: int = 5,
+                       pause_s: float = 2.0) -> str:
+    """call_tool, retried in rounds: the load balancer can lose sessions several times in a row."""
+    for attempt in range(rounds):
+        try:
+            return nse_mcp.call_tool(url, name, args, transport)
+        except (McpError, OSError):        # OSError covers timeouts and dropped connections
+            if attempt + 1 == rounds:
+                raise
+            time.sleep(pause_s)
+    raise AssertionError("unreachable")
+
+
 def fetch_quotes(transport: Transport = http_transport) -> list[dict]:
     """Every NSE CM equity quote. The tool returns at most 500 per prefix, so full prefixes are split."""
     seen: dict[str, dict] = {}
     queue = list(string.ascii_uppercase + string.digits)
     while queue:
         prefix = queue.pop(0)
-        reply = json.loads(nse_mcp.call_tool(CM_MARKET_URL, "cm_get_equity_stocks",
-                                             {"limit": 500, "symbolFilter": prefix}, transport))
+        reply = json.loads(_call_with_retries(CM_MARKET_URL, "cm_get_equity_stocks",
+                                              {"limit": 500, "symbolFilter": prefix}, transport))
         if "error" in reply:
             raise McpError(f"cm_get_equity_stocks {prefix}: {reply['error']}")
         if reply.get("returned", 0) >= 500:
