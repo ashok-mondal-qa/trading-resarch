@@ -38,7 +38,7 @@ def test_plan_sets_opening_range_levels():
     assert why == "ok"
     assert idea["entry"] == 1001.55          # 0.05% above 1001, rounded up to the tick
     assert idea["stop"] == 984.95            # one tick under the opening-range low
-    assert idea["target"] == pytest.approx(1001.55 + 1.5 * (1001.55 - 984.95), abs=0.05)
+    assert idea["target"] == pytest.approx(1001.55 + 2 * (1001.55 - 984.95), abs=0.05)
     assert idea["atr14"] == round((13 * 60 + 35) / 14, 2)   # last bar: high close+5, low close-30
 
 
@@ -90,13 +90,20 @@ def fake_transport(stocks, history):
 NOW = datetime(2026, 11, 2, 4, 5, tzinfo=timezone.utc)      # 09:35 IST
 
 
-def test_scan_end_to_end_caps_ideas_and_sizes():
+def test_scan_end_to_end_picks_one_and_sizes():
     stocks = [quote(f"S{i}", value=100 - i) for i in range(4)]
     t = fake_transport(stocks, {f"S{i}": daily() for i in range(4)})
     r = s.scan(NOW, t, capital=100000)
-    assert r["status"] == "WATCHLIST" and [i["symbol"] for i in r["ideas"]] == ["S0", "S1"]
+    assert [i["symbol"] for i in r["ideas"]] == ["S0"] and r["also_passing"] == []
+    assert r["status"] == "APPROACHING"                        # LTP 1000 within 0.25% of 1001.55
     assert r["ideas"][0]["qty"] == 30                          # 500 / 16.6 risk
-    assert "WATCHLIST" in s.render(r)
+    md = s.render(r)
+    for field in ("Date:", "Market regime", "Market breadth", "Selected instrument: S0", "Direction: long",
+                  "Strategy:", "Entry: buy above 1001.55", "Stop-loss: 984.95", "Target:", "Risk/reward: 1:2.0",
+                  "Quantity: 30", "Maximum planned monetary risk", "Estimated costs", "Setup confirmation",
+                  "Invalidation condition", "Reason for selection", "Data timestamp",
+                  "Strategy backtest reference: none", "Status: APPROACHING"):
+        assert field in md, field
 
 
 def test_scan_stale_quotes_give_data_insufficient():
@@ -151,11 +158,39 @@ def test_round_trip_charges_caps_brokerage_per_order():
     assert big > 2 * 20 * 1.18                           # both orders hit the Rs 20 cap, plus STT and fees
 
 
-def test_list_all_keeps_the_record_at_two_and_lists_the_rest():
+def test_list_all_keeps_one_pick_and_lists_the_rest_as_watch():
     stocks = [quote(f"S{i}", value=100 - i) for i in range(4)]
     t = fake_transport(stocks, {f"S{i}": daily() for i in range(4)})
-    r = s.scan(NOW, t, capital=15000, risk_pct=1, list_all=True)
-    assert [i["symbol"] for i in r["ideas"]] == ["S0", "S1"]
-    assert [i["symbol"] for i in r["also_passing"]] == ["S2", "S3"]
+    r = s.scan(NOW, t, capital=15000, risk_pct=2, list_all=True)
+    assert [i["symbol"] for i in r["ideas"]] == ["S0"]
+    assert [i["symbol"] for i in r["also_passing"]] == ["S1", "S2", "S3"]
     md = s.render(r)
-    assert "All 4 stocks" in md and "| S3 |" in md
+    assert "Also passing" in md and "| S3 |" in md
+
+
+def test_lead_pick_skips_ideas_that_fail_the_charges_check():
+    stocks = [quote("BIG", value=90), quote("SMALL", value=80)]
+    t = fake_transport(stocks, {"BIG": daily(), "SMALL": daily()})
+    # Rs 1,000 at 2% = Rs 20 risk -> 1 share, profit at target ~Rs 33 < 4 x Rs 40: both fail -> NO TRADE
+    assert s.scan(NOW, t, capital=1000, risk_pct=2, charges_inr=40)["status"] == "NO TRADE"
+    r = s.scan(NOW, t, capital=15000, risk_pct=2, charges_inr=40)
+    assert r["ideas"][0]["symbol"] == "BIG" and r["ideas"][0]["risk_inr"] <= 300
+
+
+@pytest.mark.parametrize("ltp,high,low,status", [
+    (995, 1001, 985, "WATCH"),
+    (999.5, 1001, 985, "APPROACHING"),
+    (1003, 1004, 985, "ACTIVATED"),
+    (1040, 1040, 985, "ACTIVATED (TARGET HIT)"),
+    (990, 1004, 984.9, "INVALIDATED"),
+])
+def test_level_status(ltp, high, low, status):
+    idea = {"entry": 1001.55, "stop": 984.95, "target": 1034.75}
+    q = {"lastTradedPrice": ltp, "highPrice": high, "lowPrice": low}
+    assert s.level_status(idea, q) == status
+
+
+def test_fixed_rupee_cap_limits_risk():
+    idea = {"entry": 125.1, "stop": 119.95, "target": 135.4}
+    assert s.money_plan(idea, 15000, 2.0)["qty"] == 58                       # Rs 300 / 5.15
+    assert s.money_plan(idea, 30000, 2.0, max_risk_inr=300)["qty"] == 58      # cap holds as capital grows
