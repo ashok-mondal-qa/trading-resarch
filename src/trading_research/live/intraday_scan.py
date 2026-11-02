@@ -18,6 +18,7 @@ import math
 import string
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -215,7 +216,7 @@ def quote_age_ok(quotes: list[dict], now: datetime, p: Params = Params()) -> tup
 
 def scan(now: datetime, transport: Transport = http_transport, p: Params = Params(),
          capital: float | None = None, risk_pct: float | None = None, charges_inr: float | None = None,
-         list_all: bool = False) -> dict:
+         list_all: bool = False, workers: int = 8) -> dict:
     """Ideas for the experiment record (at most `max_ideas`). With `list_all`, every other stock that passes
     the same rule goes to `also_passing` for the owner to pick from; only `ideas` are graded."""
     quotes = fetch_quotes(transport)
@@ -228,13 +229,22 @@ def scan(now: datetime, transport: Transport = http_transport, p: Params = Param
         return result
     result["breadth"] = breadth(quotes, p.min_value_cr)
     prev_day = now.astimezone(IST).date() - timedelta(days=1)
-    for q in quote_screen(quotes, p):
+    screened = quote_screen(quotes, p)
+
+    def history(q):
+        try:
+            return fetch_daily(q["symbol"], prev_day, transport)
+        except (McpError, OSError) as exc:
+            return exc
+    with ThreadPoolExecutor(max_workers=workers) as pool:       # history calls are slow; order is kept
+        histories = list(pool.map(history, screened))
+    for q, bars in zip(screened, histories):
         if len(result["ideas"]) >= p.max_ideas and not list_all:
             break
-        try:
-            idea, reason = plan(q, fetch_daily(q["symbol"], prev_day, transport), p)
-        except McpError as exc:
-            idea, reason = None, f"DATA INSUFFICIENT: {exc}"
+        if isinstance(bars, Exception):
+            idea, reason = None, f"DATA INSUFFICIENT: {bars}"
+        else:
+            idea, reason = plan(q, bars, p)
         if idea is None:
             result["rejected"].append({"symbol": q["symbol"], "reason": reason})
             continue
