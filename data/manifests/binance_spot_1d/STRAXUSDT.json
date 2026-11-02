@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2020-11-18",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:46:40+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:34:59+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 2136,
+  "rows": 2168,
   "missing_days": [
     "2024-03-21",
     "2024-03-22",
@@ -306,6 +307,14 @@
     {
       "file": "STRAXUSDT-1d-2026-09.zip",
       "sha256": "28726850bf1f753213123dda9a9ce8a4d3d94d295630b28fea88878d2c446b1c"
+    },
+    {
+      "file": "STRAXUSDT-1d-2026-10.zip",
+      "sha256": "9d34900e75f04df6fb4e98ca8918adeb89777a78c13abad98cc653231c917b90"
+    },
+    {
+      "file": "STRAXUSDT-1d-2026-11-01.zip",
+      "sha256": "06ff0b49300eaee14423d4a56cf91e8006fb9491971ee48bf320301a5d33d380"
     }
   ],
   "status": "partial",

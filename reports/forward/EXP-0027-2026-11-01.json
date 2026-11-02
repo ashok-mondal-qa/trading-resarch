@@ -1,0 +1,43 @@
+{
+  "experiment": "EXP-0027",
+  "strategy": "minervini",
+  "frozen_rules": "EXP-0021",
+  "market": "crypto",
+  "forward_start": "2026-10-26",
+  "as_of": "2026-11-01",
+  "months": 0.2,
+  "status": "tracking",
+  "universe": {
+    "pairs": 695,
+    "instruments": 582,
+    "delisted_pieces": 200,
+    "short_pieces_or_empty": 125
+  },
+  "runs": {
+    "portfolio_1x": {
+      "trades": 0,
+      "open_at_end": 0,
+      "net_return": 0.0,
+      "max_drawdown": 0.0,
+      "expectancy_r_all_incl_open": null,
+      "signals_after_regime_gate": 0
+    },
+    "standalone_1x": {
+      "trades": 0,
+      "expectancy_r_all_incl_open": null
+    },
+    "portfolio_2x_costs": {
+      "trades": 0,
+      "open_at_end": 0,
+      "net_return": 0.0,
+      "max_drawdown": 0.0,
+      "expectancy_r_all_incl_open": null,
+      "signals_after_regime_gate": 0
+    },
+    "standalone_2x_costs": {
+      "trades": 0,
+      "expectancy_r_all_incl_open": null
+    }
+  },
+  "generated_at_utc": "2026-11-02T13:39:47+00:00"
+}

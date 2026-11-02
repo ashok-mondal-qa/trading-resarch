@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2025-03-25",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:41:42+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:30:35+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 555,
+  "rows": 587,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -90,6 +91,14 @@
     {
       "file": "PARTIUSDT-1d-2026-09.zip",
       "sha256": "da224576c8a53933eaf8ae9124cda6179e3c6abdf5ef9f323b1164b800a34984"
+    },
+    {
+      "file": "PARTIUSDT-1d-2026-10.zip",
+      "sha256": "8ae7cd2c56d9ba2794d661d09fa1590af028ddc79aa17be46c7b8b3e527172f8"
+    },
+    {
+      "file": "PARTIUSDT-1d-2026-11-01.zip",
+      "sha256": "f76a8a83af66b24ca7d5db2194b3ed7f113c43deddd721a1d32627f0ada91463"
     }
   ],
   "status": "ok",

@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2017-08-17",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:29:07+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:19:24+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 3332,
+  "rows": 3364,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -454,6 +455,14 @@
     {
       "file": "BTCUSDT-1d-2026-09.zip",
       "sha256": "4944279ced64d3b1822c7c535043f2bbf41bc97d9000b8d857753352c1949769"
+    },
+    {
+      "file": "BTCUSDT-1d-2026-10.zip",
+      "sha256": "be8a089a8c5902915ed13abdf7a5ce78f7cc4c4b8e0ed0c0b489f7bcf6eb08e8"
+    },
+    {
+      "file": "BTCUSDT-1d-2026-11-01.zip",
+      "sha256": "bfc7d044879be162227ffb14ba5fd19c331e9841ccda7231bba3701b4c2007bb"
     }
   ],
   "status": "ok",

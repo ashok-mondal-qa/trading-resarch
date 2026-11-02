@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2017-08-17",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:33:41+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:23:02+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 3332,
+  "rows": 3364,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -454,6 +455,14 @@
     {
       "file": "ETHUSDT-1d-2026-09.zip",
       "sha256": "89fab70a5619b0da4bddc7d174e1ae6abf6ecd7656c89804d67b649dc716e2c4"
+    },
+    {
+      "file": "ETHUSDT-1d-2026-10.zip",
+      "sha256": "93d89721f5f0d5ab9dae2fac65dd15ed93e95784eea33530e512a82f0086ad46"
+    },
+    {
+      "file": "ETHUSDT-1d-2026-11-01.zip",
+      "sha256": "8d9595afa84a243342d8f21b46b9affc6bea4b0d745642dcaf8b919b2e8ae247"
     }
   ],
   "status": "ok",

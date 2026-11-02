@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2021-01-05",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:29:40+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:19:32+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 2095,
+  "rows": 2127,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -290,6 +291,14 @@
     {
       "file": "CELOUSDT-1d-2026-09.zip",
       "sha256": "1c460f496fae69523b1c631446bdbd39cf7920e9cc149e1a3e5dfec933daff51"
+    },
+    {
+      "file": "CELOUSDT-1d-2026-10.zip",
+      "sha256": "60e5c27a5e19a5394e45bc69577fb37e186371414702ae11796b97061b85b808"
+    },
+    {
+      "file": "CELOUSDT-1d-2026-11-01.zip",
+      "sha256": "9831684e97a57ccd287084c65783618fdb016d7b82c8ed6235207b4d9d02e151"
     }
   ],
   "status": "ok",

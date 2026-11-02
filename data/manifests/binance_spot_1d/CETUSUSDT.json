@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2024-11-06",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:29:18+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:19:20+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 694,
+  "rows": 726,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -106,6 +107,14 @@
     {
       "file": "CETUSUSDT-1d-2026-09.zip",
       "sha256": "0a9c5f2bbf5cab32d9e3622d6d69c0d507ed7aeebb162b6fbbab70e5da5da641"
+    },
+    {
+      "file": "CETUSUSDT-1d-2026-10.zip",
+      "sha256": "dcd21c82777d1302e21eb2c107a313468a1716695fa599836ae7529090559f97"
+    },
+    {
+      "file": "CETUSUSDT-1d-2026-11-01.zip",
+      "sha256": "3e3e8ae839e7d21057629dc64497e038a00f48dad06e1c761a021aba4902d8c1"
     }
   ],
   "status": "ok",

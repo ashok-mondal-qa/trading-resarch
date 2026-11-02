@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2018-05-31",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:37:01+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:26:06+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 3045,
+  "rows": 3077,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -418,6 +419,14 @@
     {
       "file": "IOTAUSDT-1d-2026-09.zip",
       "sha256": "34641c45ae3643d163a9af37d9e25d5e066043a04356a56776b7c08a1155f39a"
+    },
+    {
+      "file": "IOTAUSDT-1d-2026-10.zip",
+      "sha256": "a6d13445fca590b82ed8553822d723994ed40a7c0349a455afb6593e5a8f120e"
+    },
+    {
+      "file": "IOTAUSDT-1d-2026-11-01.zip",
+      "sha256": "daac2e9a57f9554724954244ca06a32e32ea98f14e9e4811d3725d8ec56cb38b"
     }
   ],
   "status": "ok",

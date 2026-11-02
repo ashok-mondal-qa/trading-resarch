@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2026-07-07",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:34:05+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:23:53+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 86,
+  "rows": 118,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -26,6 +27,14 @@
     {
       "file": "GLWBUSDT-1d-2026-09.zip",
       "sha256": "927973367b90c0b4787bb652faaefd0dc24696a2d88de2c1f055b770c0d1081c"
+    },
+    {
+      "file": "GLWBUSDT-1d-2026-10.zip",
+      "sha256": "48994079293db71f1f2e1d133eed335e4e2fd37c42c7bba9920fcc96102fe32b"
+    },
+    {
+      "file": "GLWBUSDT-1d-2026-11-01.zip",
+      "sha256": "bf79abb607fbdf6c9283cccb0748f8061590f7db20af88637b36f8195a3938db"
     }
   ],
   "status": "ok",

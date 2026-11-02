@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2024-12-13",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:48:08+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:36:47+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 657,
+  "rows": 689,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -102,6 +103,14 @@
     {
       "file": "VELODROMEUSDT-1d-2026-09.zip",
       "sha256": "5bce8c267dfbd06392e4abc6411f5c1badaa72a4f7ce809c941c9be8a1e18036"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2026-10.zip",
+      "sha256": "e0630a73ed32283b9f416d747269a83c07653eea00638ba5a5694c771928f8b8"
+    },
+    {
+      "file": "VELODROMEUSDT-1d-2026-11-01.zip",
+      "sha256": "82b24c2e2ed9e31079374a57775d4597a367c8cfe26594db86404f9b6bf0532e"
     }
   ],
   "status": "ok",

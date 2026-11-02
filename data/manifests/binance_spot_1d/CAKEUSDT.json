@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2021-02-19",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:29:32+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:19:28+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 2050,
+  "rows": 2082,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -286,6 +287,14 @@
     {
       "file": "CAKEUSDT-1d-2026-09.zip",
       "sha256": "939e8e43a2c823bb230613514cfa9b3eb4f68fccd947bf4c07c4af9ac9a870a0"
+    },
+    {
+      "file": "CAKEUSDT-1d-2026-10.zip",
+      "sha256": "2c89e99c98558a72aed5d020bea7f98ebdcdd5de4fee25bb31603d64ed4dbbe2"
+    },
+    {
+      "file": "CAKEUSDT-1d-2026-11-01.zip",
+      "sha256": "b753511ddf7c34ddef20db541dd30fbd5136214986dbe74ae4dea52539cca211"
     }
   ],
   "status": "ok",

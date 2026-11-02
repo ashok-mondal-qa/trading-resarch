@@ -5,10 +5,10 @@
   "method": "backward price-only adjustment for splits/bonuses; dividends not adjusted",
   "raw_source": "nse_cm_bhavcopy (series EQ), see data/manifests/nse_cm_bhavcopy/",
   "actions_source": "MCP https://mcp.nseindia.in/bhavcopy/cm/mcp get_corporate_actions",
-  "actions_retrieved_at_utc": "2026-10-25T02:46:33+00:00",
+  "actions_retrieved_at_utc": "2026-11-02T13:23:24+00:00",
   "first_bar": "2011-07-01",
-  "last_bar": "2026-10-22",
-  "bars": 3655,
+  "last_bar": "2026-11-02",
+  "bars": 3662,
   "symbol_links": [
     {
       "old_symbol": "MMFSL",
@@ -22,7 +22,7 @@
     {
       "ex_date": "2024-03-05",
       "factor": 0.25,
-      "purpose": "Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share + Bonus 1:1"
+      "purpose": "Bonus 1:1 + Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share"
     }
   ],
   "issues": [
@@ -39,5 +39,5 @@
       "detail": "Rights 11:64 @ Premium Rs 473/- (source factor 1.0)"
     }
   ],
-  "generated_at_utc": "2026-10-25T03:21:14+00:00"
+  "generated_at_utc": "2026-11-02T14:01:30+00:00"
 }

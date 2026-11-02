@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2018-07-25",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:49:09+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:37:19+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 2990,
+  "rows": 3022,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -410,6 +411,14 @@
     {
       "file": "VETUSDT-1d-2026-09.zip",
       "sha256": "a09a004882f5ef0d4796c88ca09958c18f025af77ad7d190cf02f2084cd3dd4f"
+    },
+    {
+      "file": "VETUSDT-1d-2026-10.zip",
+      "sha256": "138f54fe971d3d27c5c15bd002f2f9ae08d8b300fc75df9e5fb8f8110facb3b2"
+    },
+    {
+      "file": "VETUSDT-1d-2026-11-01.zip",
+      "sha256": "3ba069892a8d23b21a2b39ccc4f0d7c8de7836c39da97d2387ca4a82bc6410e0"
     }
   ],
   "status": "ok",

@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2021-10-21",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:37:58+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:26:57+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 1806,
+  "rows": 1838,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -254,6 +255,14 @@
     {
       "file": "LAZIOUSDT-1d-2026-09.zip",
       "sha256": "ea1ad8ee367efc3d7a6ad6f0513270be24d6a4f6759f0803f73e1e69b081b627"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2026-10.zip",
+      "sha256": "2643cea607af2fbcd45b4187b652953e75708c5cffdb6157810dcfe42f777b25"
+    },
+    {
+      "file": "LAZIOUSDT-1d-2026-11-01.zip",
+      "sha256": "4f2e751e1ff9dbb135b3675685596ce7108ec490b6f1f1bf0b933fb864cb71b1"
     }
   ],
   "status": "ok",
