@@ -149,3 +149,13 @@ def test_round_trip_charges_caps_brokerage_per_order():
     big = s.round_trip_charges(1000, 1010, 1000)
     assert small < 5                                     # 0.03% of Rs 1,000 orders
     assert big > 2 * 20 * 1.18                           # both orders hit the Rs 20 cap, plus STT and fees
+
+
+def test_list_all_keeps_the_record_at_two_and_lists_the_rest():
+    stocks = [quote(f"S{i}", value=100 - i) for i in range(4)]
+    t = fake_transport(stocks, {f"S{i}": daily() for i in range(4)})
+    r = s.scan(NOW, t, capital=15000, risk_pct=1, list_all=True)
+    assert [i["symbol"] for i in r["ideas"]] == ["S0", "S1"]
+    assert [i["symbol"] for i in r["also_passing"]] == ["S2", "S3"]
+    md = s.render(r)
+    assert "All 4 stocks" in md and "| S3 |" in md

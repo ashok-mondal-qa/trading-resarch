@@ -214,19 +214,22 @@ def quote_age_ok(quotes: list[dict], now: datetime, p: Params = Params()) -> tup
 
 
 def scan(now: datetime, transport: Transport = http_transport, p: Params = Params(),
-         capital: float | None = None, risk_pct: float | None = None, charges_inr: float | None = None) -> dict:
+         capital: float | None = None, risk_pct: float | None = None, charges_inr: float | None = None,
+         list_all: bool = False) -> dict:
+    """Ideas for the experiment record (at most `max_ideas`). With `list_all`, every other stock that passes
+    the same rule goes to `also_passing` for the owner to pick from; only `ideas` are graded."""
     quotes = fetch_quotes(transport)
     fresh, why = quote_age_ok(quotes, now, p)
     result = {"experiment": EXPERIMENT, "version": VERSION, "run_at": now.astimezone(IST).isoformat(),
               "data": why, "sources": [f"{CM_MARKET_URL} cm_get_equity_stocks", f"{BHAVCOPY_URL} get_stock_history"],
-              "ideas": [], "rejected": []}
+              "ideas": [], "also_passing": [], "rejected": []}
     if not fresh:
         result["status"] = "DATA INSUFFICIENT"
         return result
     result["breadth"] = breadth(quotes, p.min_value_cr)
     prev_day = now.astimezone(IST).date() - timedelta(days=1)
     for q in quote_screen(quotes, p):
-        if len(result["ideas"]) >= p.max_ideas:
+        if len(result["ideas"]) >= p.max_ideas and not list_all:
             break
         try:
             idea, reason = plan(q, fetch_daily(q["symbol"], prev_day, transport), p)
@@ -237,7 +240,7 @@ def scan(now: datetime, transport: Transport = http_transport, p: Params = Param
             continue
         if capital:
             idea.update(money_plan(idea, capital, p.risk_pct if risk_pct is None else risk_pct, charges_inr, p))
-        result["ideas"].append(idea)
+        (result["ideas"] if len(result["ideas"]) < p.max_ideas else result["also_passing"]).append(idea)
     result["status"] = "WATCHLIST" if result["ideas"] else "NO TRADE"
     return result
 
@@ -296,13 +299,17 @@ def render(result: dict) -> str:
         b = result["breadth"]
         lines.append(f"- Breadth (calculated): {b['advancing']}/{b['traded']} traded EQ stocks up; "
                      f"{b['liquid_advancing']}/{b['liquid']} liquid ones up.")
+    listed = result["ideas"] + result.get("also_passing", [])
+    if result.get("also_passing"):
+        lines += ["", f"All {len(listed)} stocks passing the rule, most traded first. Only the first "
+                      f"{len(result['ideas'])} are recorded and graded for the experiment."]
     if result["ideas"]:
         lines += ["", "| Stock | LTP | Opening range | Buy above | Stop | Target 1.5R | Risk/share | Qty |",
                   "|---|---|---|---|---|---|---|---|"]
-        for i in result["ideas"]:
+        for i in listed:
             lines.append(f"| {i['symbol']} | {i['ltp']} | {i['or_low']}-{i['or_high']} | {i['entry']} | {i['stop']} | "
                          f"{i['target']} | {i['risk_per_share']} | {i.get('qty', '-')} |")
-        sized = [i for i in result["ideas"] if "qty" in i]
+        sized = [i for i in listed if "qty" in i]
         if sized:
             c = sized[0]["capital"]
             lines += ["", f"Money plan for Rs {c:,.0f} (one open trade at a time, no margin):", "",
@@ -327,6 +334,7 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--capital", type=float)
     s.add_argument("--risk-pct", type=float, help="percent of capital at risk per trade (default: settings 0.5)")
     s.add_argument("--charges-inr", type=float, help="your broker's round-trip charges per trade, if known")
+    s.add_argument("--list-all", action="store_true", help="also list every other stock that passes the rule")
     g = sub.add_parser("score")
     g.add_argument("--day", type=date.fromisoformat, required=True)
     g.add_argument("--out-dir", type=Path, required=True)
@@ -334,7 +342,8 @@ def main(argv: list[str] | None = None) -> int:
     a.out_dir.mkdir(parents=True, exist_ok=True)
     if a.cmd == "scan":
         now = datetime.now(timezone.utc)
-        result = scan(now, capital=a.capital, risk_pct=a.risk_pct, charges_inr=a.charges_inr)
+        result = scan(now, capital=a.capital, risk_pct=a.risk_pct, charges_inr=a.charges_inr,
+                      list_all=a.list_all)
         stem = a.out_dir / now.astimezone(IST).date().isoformat()
         stem.with_suffix(".json").write_text(json.dumps(result, indent=2))
         stem.with_suffix(".md").write_text(render(result))

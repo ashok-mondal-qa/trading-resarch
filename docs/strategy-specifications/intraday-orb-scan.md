@@ -53,3 +53,6 @@ symbol is skipped).
   check (profit at target >= 4x round-trip charges). Grading stays in R and is unaffected. The owner trades
   his own Rs 15,000 at 1% risk per trade; that is his decision, the project itself stays paper-only
   (settings.yaml 0.5% unchanged). Also: MCP calls retried in rounds after the first run lost sessions.
+- v0.1 reporting addendum (2026-11-02, no rule change): `--list-all` also lists every other stock that passes
+  the same rule, most traded first, for the owner to choose from (he takes 1-2). Only the first 2 (`ideas`)
+  are recorded and graded; `also_passing` is not part of the experiment.
