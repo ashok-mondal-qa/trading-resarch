@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2024-02-29",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:42:46+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:31:21+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 945,
+  "rows": 977,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -142,6 +143,14 @@
     {
       "file": "PORTALUSDT-1d-2026-09.zip",
       "sha256": "bb8e666741f0a5354a0f332418402e0d134a28526eb229d2e3763daead7b8461"
+    },
+    {
+      "file": "PORTALUSDT-1d-2026-10.zip",
+      "sha256": "9c287f5128bd79691ec1c5f02309e230becd69e518fecbcb663b534673646473"
+    },
+    {
+      "file": "PORTALUSDT-1d-2026-11-01.zip",
+      "sha256": "74b477a49970226f84cfa0b1559284a82295bde10a06b933ac4a104e0a5c6856"
     }
   ],
   "status": "ok",

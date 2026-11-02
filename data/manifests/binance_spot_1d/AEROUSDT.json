@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2026-07-17",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:24:30+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:14:58+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 76,
+  "rows": 108,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -26,6 +27,14 @@
     {
       "file": "AEROUSDT-1d-2026-09.zip",
       "sha256": "460a77e13200ab95aac07cc53a815295424cfe37262a6ab27279ba6011cc90cc"
+    },
+    {
+      "file": "AEROUSDT-1d-2026-10.zip",
+      "sha256": "f1124630b011f3ac9d4fb790b3ce1dd56fb43eb09b158d7ca4e38344b261889c"
+    },
+    {
+      "file": "AEROUSDT-1d-2026-11-01.zip",
+      "sha256": "b3d296a25b316be8872dd1e04458b65a036b240675d581852b5dcb6b42113663"
     }
   ],
   "status": "ok",

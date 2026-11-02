@@ -1,0 +1,34 @@
+{
+  "dataset": "binance_spot_1d",
+  "provider": "Binance public data archive",
+  "source": "https://data.binance.vision/data/spot/monthly/klines/VSTBUSDT/1d/",
+  "instrument": "VSTBUSDT",
+  "exchange": "Binance spot",
+  "timeframe": "1d (UTC day, open 00:00 UTC)",
+  "first_bar": "2026-10-21",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:36:58+00:00",
+  "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
+  "rows": 12,
+  "missing_days": [],
+  "excluded": [],
+  "file_problems": [],
+  "files": [
+    {
+      "file": "VSTBUSDT-1d-2026-10.zip",
+      "sha256": "82138925398335b5ead4c537a5aa228022677d13a99a4c8eee6d1b1ddbf29aaf"
+    },
+    {
+      "file": "VSTBUSDT-1d-2026-11-01.zip",
+      "sha256": "e41c20010ca21950cc909460fd6fd067c34976134a294e5324db8440bad62ae8"
+    }
+  ],
+  "status": "ok",
+  "licence": "Binance public market data; research use. Not an endorsement of trading on Binance.",
+  "known_limitations": [
+    "one exchange only (Binance spot, USDT quote); prices differ from Indian INR exchanges",
+    "symbols delisted before the archive began are absent"
+  ]
+}

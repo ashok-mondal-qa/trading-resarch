@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2022-04-22",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:45:59+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:34:30+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 1623,
+  "rows": 1655,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -230,6 +231,14 @@
     {
       "file": "STEEMUSDT-1d-2026-09.zip",
       "sha256": "632271cb8f49c6d0d220a7f2ab621cdbd90d5be28331fa69caa91ae5afa82584"
+    },
+    {
+      "file": "STEEMUSDT-1d-2026-10.zip",
+      "sha256": "b33c8c3da08ae535c55d06f5d747350ff039ffa25ba04accf2f351e4dbe2e8b5"
+    },
+    {
+      "file": "STEEMUSDT-1d-2026-11-01.zip",
+      "sha256": "4764da113c828608128a6aa6e740a123457a702b7686744511ea37ae0a42493d"
     }
   ],
   "status": "ok",

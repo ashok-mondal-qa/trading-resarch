@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2023-07-03",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:41:59+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:30:49+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 1186,
+  "rows": 1218,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -170,6 +171,14 @@
     {
       "file": "PENDLEUSDT-1d-2026-09.zip",
       "sha256": "17a872bb3d19c113a5d31fbb983aac51fc23e4101bd0e93bb71c5b4e81afb450"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2026-10.zip",
+      "sha256": "092e743e923aca830ff2f1e5a0bb190e1afb2830ab093eaf62fe63adc5ad7069"
+    },
+    {
+      "file": "PENDLEUSDT-1d-2026-11-01.zip",
+      "sha256": "fb7ac5dc0899d421a82a2974cab641383e39f63e95569b7c4428e9bc94a826b6"
     }
   ],
   "status": "ok",

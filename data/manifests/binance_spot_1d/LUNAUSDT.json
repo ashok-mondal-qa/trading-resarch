@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2020-08-21",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:38:31+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:27:49+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 2215,
+  "rows": 2247,
   "missing_days": [
     "2022-05-14",
     "2022-05-15",
@@ -328,6 +329,14 @@
     {
       "file": "LUNAUSDT-1d-2026-09.zip",
       "sha256": "22ba3ac011b8ba785a5896b770b3ddddea8503417e2a53517c166b9debb4422c"
+    },
+    {
+      "file": "LUNAUSDT-1d-2026-10.zip",
+      "sha256": "7c9df3e7599f6cf92966ceaf0b02dcda331f2609c32a2405f27047989f2892a2"
+    },
+    {
+      "file": "LUNAUSDT-1d-2026-11-01.zip",
+      "sha256": "2eac92b92c812c618b090bac4a4c3b174f7e1decdcaa73356e855d6bc25c890a"
     }
   ],
   "status": "partial",

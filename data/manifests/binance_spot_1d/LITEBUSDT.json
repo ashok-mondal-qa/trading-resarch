@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2026-06-30",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:37:35+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:26:52+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 93,
+  "rows": 125,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -30,6 +31,14 @@
     {
       "file": "LITEBUSDT-1d-2026-09.zip",
       "sha256": "b540aac915ae02fee30bc3198d521ebe8fd98cf5f236629d000d4c0ced1d8bc4"
+    },
+    {
+      "file": "LITEBUSDT-1d-2026-10.zip",
+      "sha256": "4aba814085bd855759e5cedcfa8b9bbcd29a752eb46183217f1edc2f86e873ac"
+    },
+    {
+      "file": "LITEBUSDT-1d-2026-11-01.zip",
+      "sha256": "d6aeecd965baa19555698d90a0fdb0c1d599ee33676e71d0c697259ed40ac325"
     }
   ],
   "status": "ok",

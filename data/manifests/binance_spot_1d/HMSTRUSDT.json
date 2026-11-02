@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2024-09-26",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:35:12+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:24:50+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 735,
+  "rows": 767,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -114,6 +115,14 @@
     {
       "file": "HMSTRUSDT-1d-2026-09.zip",
       "sha256": "13022b97636a0bc20d38a5fe00f8e1d8e7e56636c99e4ef2f8b3429834f981e5"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2026-10.zip",
+      "sha256": "bf66e018a75c88435d284a7ed165d22ca146850aba8d684836efc1b9247d37d5"
+    },
+    {
+      "file": "HMSTRUSDT-1d-2026-11-01.zip",
+      "sha256": "273c3f90e169e3dc88480d8db5a95c83cbe9559d569728de39efd8686ab045a5"
     }
   ],
   "status": "ok",

@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2019-02-19",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:51:03+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:39:12+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 2781,
+  "rows": 2813,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -382,6 +383,14 @@
     {
       "file": "ZILUSDT-1d-2026-09.zip",
       "sha256": "e9ec9add692b7b6ad79f0bd55949badfb7663b1676590f4dd9ceff523df14cd7"
+    },
+    {
+      "file": "ZILUSDT-1d-2026-10.zip",
+      "sha256": "971ed3b46b3f9c0145bbbd9a1a521707cb4d74a7a41bc99192658822c5253ce3"
+    },
+    {
+      "file": "ZILUSDT-1d-2026-11-01.zip",
+      "sha256": "0304a216e847adf279023850afaabd90ce990f64e28ffb10653404b94c3e33cf"
     }
   ],
   "status": "ok",

@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2025-11-06",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:44:33+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:33:12+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 329,
+  "rows": 361,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -58,6 +59,14 @@
     {
       "file": "SAPIENUSDT-1d-2026-09.zip",
       "sha256": "6d7d11106bc7178df9e452d62e2aa9aad68203a968b570384e78e662606a5981"
+    },
+    {
+      "file": "SAPIENUSDT-1d-2026-10.zip",
+      "sha256": "1b8b32fc92015125d6784aa701132b44a1f1b07ea43b02f3f678fb299c386a12"
+    },
+    {
+      "file": "SAPIENUSDT-1d-2026-11-01.zip",
+      "sha256": "c43134d0b12425258a39c54ab38d47a7db840374999558ee08d3aae944c6e889"
     }
   ],
   "status": "ok",

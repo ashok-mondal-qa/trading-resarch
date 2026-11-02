@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2025-03-31",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:34:44+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:24:23+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 549,
+  "rows": 581,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -90,6 +91,14 @@
     {
       "file": "GUNUSDT-1d-2026-09.zip",
       "sha256": "6713c07f4a982adcf9cd3fe633301004c10da5b7cad59f5d1bf7e5096380b06d"
+    },
+    {
+      "file": "GUNUSDT-1d-2026-10.zip",
+      "sha256": "a8cbc83a0b8b935d7a16ccc39aba4c8bf0f514f38c4892d73a6a9ce1c7f33b0b"
+    },
+    {
+      "file": "GUNUSDT-1d-2026-11-01.zip",
+      "sha256": "3aa7ccd0c9e67e53452a69306b75784e3f4e1579af961b507aea885c9bbb6099"
     }
   ],
   "status": "ok",

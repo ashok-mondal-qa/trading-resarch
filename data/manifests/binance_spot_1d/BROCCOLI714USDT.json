@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2025-03-27",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:28:32+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:18:46+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 553,
+  "rows": 585,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -90,6 +91,14 @@
     {
       "file": "BROCCOLI714USDT-1d-2026-09.zip",
       "sha256": "4c139b6b4ddc22f37d643e4b8b3c06907e0b9dee9e3611780b7b471e0ebcb12c"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2026-10.zip",
+      "sha256": "37c13ea62f124a8e9c33ffcd1b6b410649a4a6be698c3becd0cd9111433dacb2"
+    },
+    {
+      "file": "BROCCOLI714USDT-1d-2026-11-01.zip",
+      "sha256": "b92773f5c328965d855a6fdd93acddc97d6a356cf521ada3bd74dec456686f36"
     }
   ],
   "status": "ok",

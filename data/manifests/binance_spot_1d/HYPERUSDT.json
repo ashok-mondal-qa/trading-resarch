@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2025-04-22",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:35:26+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:25:00+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 527,
+  "rows": 559,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -86,6 +87,14 @@
     {
       "file": "HYPERUSDT-1d-2026-09.zip",
       "sha256": "28a4c19cd91fad2beedea022d8d74930598f20c970715844cc3fbd5aba1d8ccb"
+    },
+    {
+      "file": "HYPERUSDT-1d-2026-10.zip",
+      "sha256": "44aeb07c8aff14b817db519d333ad27c2f943d3ad8b5bb1432f5805a9a0bfafc"
+    },
+    {
+      "file": "HYPERUSDT-1d-2026-11-01.zip",
+      "sha256": "ed0d6da50c5d4fcead55132fcdccaf36fcd2d5d95fedeb062e62e91b3286ef49"
     }
   ],
   "status": "ok",

@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2026-01-15",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:33:24+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:23:08+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 259,
+  "rows": 291,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -50,6 +51,14 @@
     {
       "file": "FOGOUSDT-1d-2026-09.zip",
       "sha256": "0adc5e87d9ecc8ac5e327f559b5d93b4f5d0de59a5af758370c274a82ef21922"
+    },
+    {
+      "file": "FOGOUSDT-1d-2026-10.zip",
+      "sha256": "0db297e9af63d26f7fc90fa1f77e2d9bdd959e5874433d4abfe4e393d3725153"
+    },
+    {
+      "file": "FOGOUSDT-1d-2026-11-01.zip",
+      "sha256": "f49ff3faa585948ed6c0d2a2fcff8ed0395b62c685993ae97e48ffe45af369f6"
     }
   ],
   "status": "ok",

@@ -6,11 +6,12 @@
   "exchange": "Binance spot",
   "timeframe": "1d (UTC day, open 00:00 UTC)",
   "first_bar": "2025-01-19",
-  "last_bar": "2026-09-30",
-  "end_month_requested": "2026-09",
-  "retrieved_at_utc": "2026-10-25T04:47:19+00:00",
+  "last_bar": "2026-11-01",
+  "end_month_requested": "2026-10",
+  "daily_through_requested": "2026-11-01",
+  "retrieved_at_utc": "2026-11-02T13:35:59+00:00",
   "price_adjustment": "none (no corporate actions; prices as traded in USDT)",
-  "rows": 620,
+  "rows": 652,
   "missing_days": [],
   "excluded": [],
   "file_problems": [],
@@ -98,6 +99,14 @@
     {
       "file": "TRUMPUSDT-1d-2026-09.zip",
       "sha256": "511775ccd9c5d0f45537bcb6397794dba74a170c295562c12ba14d19d820fe6d"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2026-10.zip",
+      "sha256": "009bcefd5548c35e7dbb92c894bda331b078a35ed07d3002d22787b259826d67"
+    },
+    {
+      "file": "TRUMPUSDT-1d-2026-11-01.zip",
+      "sha256": "ae818a5288798819ad3603d7a017491dab906e621064d9ac17376fd31aefbb47"
     }
   ],
   "status": "ok",
