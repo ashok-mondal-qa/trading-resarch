@@ -1,6 +1,7 @@
 # Three intraday strategy families on liquid NSE stocks and indices (research only) — spec v0.1
 
-Status: **PRE-REGISTERED, not run** (2026-11-02). Registry: EXP-0061..0066.
+Status: **REJECTED, all six** (run 2026-11-02, report `reports/backtests/EXP-0061-0066-report.md`). Pre-registered
+before any run (5121953c). Registry: EXP-0061..0066.
 
 **Why:** Ashok rewrote the project brief as "AI Trading Desk India" (2026-11-02). Section 4 asks for three strategy
 families to be backtested with out-of-sample validation before any of them is used: Opening Range Breakout,
@@ -98,3 +99,7 @@ than the planned ₹300.
 
 ## Changelog
 * v0.1 (2026-11-02): first version, pre-registered before any run.
+* v0.1 result (2026-11-02): one run, no parameter changed. Every rule loses after charges in every split, for stocks
+  and indices, at 0–0.10% slippage; all six REJECTED. Tests: `tests/test_intraday_families.py` (rules, no look-ahead,
+  charges, sizing), full suite passing. Impact on earlier results: none. All splits listed above are now used, so a new
+  holdout does not exist for these data; any revised rule needs forward paper data.
