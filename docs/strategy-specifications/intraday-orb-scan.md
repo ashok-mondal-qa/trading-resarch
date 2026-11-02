@@ -48,3 +48,8 @@ symbol is skipped).
 ## Changelog
 - v0.1 (2026-10-30): first version. Tests: `tests/test_intraday_scan.py`; full suite passed. No earlier
   results affected. No holdout used (forward data only).
+- v0.1 reporting addendum (2026-11-02, no rule change): the scan can size ideas for a real cash account
+  (`--capital`, `--risk-pct`, `--charges-inr`): qty from the stop distance capped by cash, and a charges
+  check (profit at target >= 4x round-trip charges). Grading stays in R and is unaffected. The owner trades
+  his own Rs 15,000 at 1% risk per trade; that is his decision, the project itself stays paper-only
+  (settings.yaml 0.5% unchanged). Also: MCP calls retried in rounds after the first run lost sessions.

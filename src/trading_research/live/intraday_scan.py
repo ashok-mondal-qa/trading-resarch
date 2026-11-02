@@ -6,7 +6,7 @@ writes at most two WATCHLIST ideas: buy above the opening-range high, stop below
 target 1.5R, exit by 15:10 IST. It never places orders. `score` grades a past day's ideas from that day's
 EOD bar, resolving every ambiguity against the idea.
 
-    python -m trading_research.live.intraday_scan scan --out-dir <dir> [--capital 17600]
+    python -m trading_research.live.intraday_scan scan --out-dir <dir> [--capital 15000 --risk-pct 1]
     python -m trading_research.live.intraday_scan score --day 2026-11-02 --out-dir <dir>
 """
 
@@ -172,10 +172,34 @@ def plan(q: dict, bars: list[dict], p: Params = Params()) -> tuple[dict | None, 
             "risk_per_share": round(risk, 2), "quote_time": q.get("latestTimestamp")}, "ok"
 
 
-def quantity(entry: float, stop: float, capital: float, p: Params = Params()) -> int:
+def quantity(entry: float, stop: float, capital: float, p: Params = Params(), risk_pct: float | None = None) -> int:
     """Shares for `risk_pct` of capital, never more than the cash covers (no leverage)."""
-    by_risk = math.floor(capital * p.risk_pct / 100 / (entry - stop))
+    by_risk = math.floor(capital * (p.risk_pct if risk_pct is None else risk_pct) / 100 / (entry - stop))
     return max(0, min(by_risk, math.floor(capital / entry)))
+
+
+def round_trip_charges(entry: float, exit_: float, qty: int, p: Params = Params()) -> float:
+    """Rupee charges for one buy and one sell order of `qty` shares (brokerage capped per order)."""
+    buy, sell = entry * qty, exit_ * qty
+    brokerage = min(p.brokerage_pct / 100 * buy, p.brokerage_cap_inr) + min(p.brokerage_pct / 100 * sell,
+                                                                            p.brokerage_cap_inr)
+    fees = (p.exchange_pct + p.sebi_pct) / 100 * (buy + sell)
+    return (brokerage + fees) * (1 + p.gst_pct / 100) + p.stt_sell_pct / 100 * sell + p.stamp_buy_pct / 100 * buy
+
+
+def money_plan(idea: dict, capital: float, risk_pct: float, charges_inr: float | None = None,
+               p: Params = Params(), min_reward_to_charges: float = 4.0) -> dict:
+    """Size one idea for a real cash account and check that charges leave room for profit.
+
+    The charges check passes only if the profit at target is at least `min_reward_to_charges` times the
+    round-trip charges (the owner's own broker estimate when given, else the placeholder schedule)."""
+    qty = quantity(idea["entry"], idea["stop"], capital, p, risk_pct)
+    charges = charges_inr if charges_inr is not None else round_trip_charges(idea["entry"], idea["target"], qty, p)
+    reward = (idea["target"] - idea["entry"]) * qty
+    return {"qty": qty, "capital": capital, "cash_needed": round(idea["entry"] * qty, 2),
+            "risk_inr": round((idea["entry"] - idea["stop"]) * qty, 2), "reward_inr": round(reward, 2),
+            "charges_inr": round(charges, 2),
+            "charges_ok": qty > 0 and reward >= min_reward_to_charges * charges}
 
 
 def quote_age_ok(quotes: list[dict], now: datetime, p: Params = Params()) -> tuple[bool, str]:
@@ -190,7 +214,7 @@ def quote_age_ok(quotes: list[dict], now: datetime, p: Params = Params()) -> tup
 
 
 def scan(now: datetime, transport: Transport = http_transport, p: Params = Params(),
-         capital: float | None = None) -> dict:
+         capital: float | None = None, risk_pct: float | None = None, charges_inr: float | None = None) -> dict:
     quotes = fetch_quotes(transport)
     fresh, why = quote_age_ok(quotes, now, p)
     result = {"experiment": EXPERIMENT, "version": VERSION, "run_at": now.astimezone(IST).isoformat(),
@@ -212,8 +236,7 @@ def scan(now: datetime, transport: Transport = http_transport, p: Params = Param
             result["rejected"].append({"symbol": q["symbol"], "reason": reason})
             continue
         if capital:
-            idea["qty"] = quantity(idea["entry"], idea["stop"], capital, p)
-            idea["capital"] = capital
+            idea.update(money_plan(idea, capital, p.risk_pct if risk_pct is None else risk_pct, charges_inr, p))
         result["ideas"].append(idea)
     result["status"] = "WATCHLIST" if result["ideas"] else "NO TRADE"
     return result
@@ -279,6 +302,16 @@ def render(result: dict) -> str:
         for i in result["ideas"]:
             lines.append(f"| {i['symbol']} | {i['ltp']} | {i['or_low']}-{i['or_high']} | {i['entry']} | {i['stop']} | "
                          f"{i['target']} | {i['risk_per_share']} | {i.get('qty', '-')} |")
+        sized = [i for i in result["ideas"] if "qty" in i]
+        if sized:
+            c = sized[0]["capital"]
+            lines += ["", f"Money plan for Rs {c:,.0f} (one open trade at a time, no margin):", "",
+                      "| Stock | Qty | Cash needed | Loss at stop | Profit at target | Charges (est.) | Charges check |",
+                      "|---|---|---|---|---|---|---|"]
+            for i in sized:
+                lines.append(f"| {i['symbol']} | {i['qty']} | {i['cash_needed']:,.0f} | {i['risk_inr']:,.0f} | "
+                             f"{i['reward_inr']:,.0f} | {i['charges_inr']:,.0f} | "
+                             f"{'OK' if i['charges_ok'] else 'SKIP: charges too high'} |")
         lines += ["", "Exit by 15:10 IST if neither level is hit. No entry if the price never trades above the buy level."]
     if result["rejected"]:
         lines += ["", "Screened out after history check: " +
@@ -292,6 +325,8 @@ def main(argv: list[str] | None = None) -> int:
     s = sub.add_parser("scan")
     s.add_argument("--out-dir", type=Path, required=True)
     s.add_argument("--capital", type=float)
+    s.add_argument("--risk-pct", type=float, help="percent of capital at risk per trade (default: settings 0.5)")
+    s.add_argument("--charges-inr", type=float, help="your broker's round-trip charges per trade, if known")
     g = sub.add_parser("score")
     g.add_argument("--day", type=date.fromisoformat, required=True)
     g.add_argument("--out-dir", type=Path, required=True)
@@ -299,7 +334,7 @@ def main(argv: list[str] | None = None) -> int:
     a.out_dir.mkdir(parents=True, exist_ok=True)
     if a.cmd == "scan":
         now = datetime.now(timezone.utc)
-        result = scan(now, capital=a.capital)
+        result = scan(now, capital=a.capital, risk_pct=a.risk_pct, charges_inr=a.charges_inr)
         stem = a.out_dir / now.astimezone(IST).date().isoformat()
         stem.with_suffix(".json").write_text(json.dumps(result, indent=2))
         stem.with_suffix(".md").write_text(render(result))

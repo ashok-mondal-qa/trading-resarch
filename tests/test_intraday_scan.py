@@ -131,3 +131,21 @@ def test_call_with_retries_survives_lost_sessions_and_timeouts(monkeypatch):
     errors[:] = [s.McpError("x")] * 3
     with pytest.raises(s.McpError):
         s._call_with_retries("u", "t", {}, None, rounds=3, pause_s=0)
+
+
+def test_money_plan_sizes_from_risk_caps_by_cash_and_checks_charges():
+    idea = {"entry": 2539.3, "stop": 2506.95, "target": 2587.85}
+    m = s.money_plan(idea, 15000, 1.0, charges_inr=40)
+    assert m["qty"] == 4 and m["risk_inr"] == pytest.approx(129.4) and m["cash_needed"] <= 15000
+    assert m["reward_inr"] == pytest.approx(194.2) and m["charges_ok"]          # 194 >= 4 x 40
+    assert not s.money_plan(idea, 15000, 0.5, charges_inr=40)["charges_ok"]     # 2 shares: 97 < 160
+    pricey = {"entry": 9845.0, "stop": 9745.0, "target": 9995.0}
+    assert s.money_plan(pricey, 15000, 1.0, charges_inr=40)["qty"] == 1          # 150/100 -> 1, cash allows 1
+    assert s.money_plan(pricey, 5000, 1.0)["qty"] == 0 and not s.money_plan(pricey, 5000, 1.0)["charges_ok"]
+
+
+def test_round_trip_charges_caps_brokerage_per_order():
+    small = s.round_trip_charges(100, 101, 10)
+    big = s.round_trip_charges(1000, 1010, 1000)
+    assert small < 5                                     # 0.03% of Rs 1,000 orders
+    assert big > 2 * 20 * 1.18                           # both orders hit the Rs 20 cap, plus STT and fees
