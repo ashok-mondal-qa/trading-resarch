@@ -135,3 +135,16 @@ strength. Index values are as published (indices need no corporate-action adjust
 - Rebuild: `bhavcopy --start 2005-07-01 --end 2011-06-30 --root data/pre2011 --pre2011` (~55 min), then
   `adjust.run(symbols, 2005-07-01, 2011-06-30, root=data/pre2011, workers=6)` for the list from
   `run_factors_pre2011 --symbols` (~1 h; run with a long timeout).
+
+## NIFTY intraday 1-minute bars (unofficial, 2026-11-02)
+NSE has no free intraday history. `data/nifty_intraday.py` reads the MIT-licensed GitHub repo
+`technovusin/nifty50-historical-data` (NIFTY 50 spot, 1-min, 2017-04-03..2026-11-02; commit and file SHA-256 in
+`data/manifests/nifty_1min_unofficial/manifest.json`) and, as a cross-check only, `sandeepkapri/Nifty50-Minute-Data`
+(2015-01..2024-03). The two agree within 1 point on ~97% of overlapping minutes. Every day used must pass
+`day_check`: ≥ 370 of 375 bars, no gap > 5 min after 12:00, and 1-min high/low within 0.05% of the official NSE
+daily index file; failing days are excluded, never repaired. Clone the repos into a scratch directory, then
+`python -m trading_research.data.nifty_intraday --src <clone> --commit <sha> --cross-csv <csv>`.
+NIFTY expiry days come from the F&O bhavcopy (`run_expiry_reversal.expiry_calendar`): a contract must trade on
+its expiry date and never after (long-dated contracts can carry stale dates). Note: `fo_bhavcopy.load_day` skips a
+day whose committed manifest says ok even if the parquet is missing, so load into a scratch root
+(`load_day(d, root=data/fo_session)`) in a fresh container.

@@ -1,6 +1,7 @@
 # NIFTY expiry-day failed breakout of the 12:00 range (research only) — spec v0.1
 
-Status: **PRE-REGISTERED** (2026-11-02, written before any backtest of this rule). Registry: EXP-0054 (base rule,
+Status: **REJECTED** (2026-11-02, report `reports/backtests/EXP-0054-0055-report.md`). Pre-registered before any
+backtest of this rule (df90702d). Registry: EXP-0054 (base rule,
 owner's description) and EXP-0055 (variant grid, best dev variant). Results go to
 `reports/backtests/EXP-0054-0055-report.md`.
 
@@ -76,5 +77,9 @@ options prices; no intraday option data, so option buying (theta and IV crush on
 tested; cost rates unverified; small samples per year.
 
 ## Changelog
+* v0.1.1 (2026-11-02, after the first holdout read): expiry calendar fix only. A contract must trade on its
+  expiry date and never after; the first version also counted three stale long-dated contract dates (e.g.
+  Thursday 2025-09-25 after the Tuesday switch). Dev and validation unchanged; holdout re-read (66 → 63
+  trades). No rule changed. Tests: tests/test_expiry_reversal.py. New holdout needed: none (rule rejected).
 * v0.1 (2026-11-02): first version, pre-registered before any run. Tests: unit tests for the signal and
   exits on synthetic days. Impact on earlier results: none (new data set). Holdout: one read, as above.
