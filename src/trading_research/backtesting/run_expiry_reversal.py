@@ -73,11 +73,13 @@ def gate1(bars: pd.DataFrame, days: list[pd.Timestamp], official: pd.DataFrame) 
     return out
 
 
-def trades_for(bars: pd.DataFrame, days: list[pd.Timestamp], p: er.Params, lots: dict) -> pd.DataFrame:
+def trades_for(bars: pd.DataFrame, days: list[pd.Timestamp], p: er.Params, lots: dict, sim=None,
+               ctx: dict | None = None) -> pd.DataFrame:
+    """`sim(day_bars, ctx_for_day)` replaces the base rule when given (used by run_expiry_ideas)."""
     by_day = {d: g for d, g in bars.groupby(bars.index.normalize()) if d in set(days)}
     rows = []
     for d in days:
-        t = er.simulate(by_day[d], p)
+        t = er.simulate(by_day[d], p) if sim is None else sim(by_day[d], (ctx or {}).get(d, {}))
         if not t or t.get("side") == "skip":
             continue
         lot = lots.get(d) or 75.0

@@ -1,6 +1,7 @@
 # NIFTY expiry-day intraday ideas (research only) — spec v0.1
 
-Status: **PRE-REGISTERED** (2026-11-02, written before any backtest of these rules). Registry: EXP-0056..0060.
+Status: **REJECTED, all five** (2026-11-02, report `reports/backtests/EXP-0056-0060-report.md`). Pre-registered before
+any backtest of these rules (e7172e30). Registry: EXP-0056..0060.
 Report: `reports/backtests/EXP-0056-0060-report.md`.
 
 **Why:** after EXP-0054/0055 (failed-breakout fade, rejected) Ashok asked whether any expiry-day strategy works.
