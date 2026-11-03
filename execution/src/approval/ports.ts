@@ -15,6 +15,8 @@ export interface Notifier {
   requestApproval(text: string, buttons: ApprovalButtons): Promise<number>;
   /** Replaces the buttons of an approval message with a final line (approved, rejected, expired). */
   closeApproval(messageId: number, text: string): Promise<void>;
+  /** Stops the button spinner in the Telegram client. Optional. */
+  answerCallback?(callbackQueryId: string, text: string): Promise<void>;
 }
 
 export interface ApprovalCallback {

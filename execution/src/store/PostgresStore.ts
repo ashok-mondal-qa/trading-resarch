@@ -39,6 +39,7 @@ export async function migrate(pool: pg.Pool, dir: string): Promise<string[]> {
 interface ApprovalRow {
   approval_id: string;
   trade_id: string;
+  kind: ApprovalRecord["kind"];
   intent_hash: string;
   nonce_hash: string;
   status: ApprovalStatus;
@@ -53,6 +54,7 @@ function toApproval(r: ApprovalRow): ApprovalRecord {
   return {
     approvalId: r.approval_id,
     tradeId: r.trade_id,
+    kind: r.kind,
     intentHash: r.intent_hash,
     nonceHash: r.nonce_hash,
     status: r.status,
@@ -122,8 +124,8 @@ export class PostgresStore implements Store {
 
   async insertApproval(a: ApprovalRecord): Promise<void> {
     await this.pool.query(
-      "INSERT INTO approvals (approval_id, trade_id, intent_hash, nonce_hash, status, expires_at, created_at) VALUES ($1, $2, $3, $4, $5, $6, $7)",
-      [a.approvalId, a.tradeId, a.intentHash, a.nonceHash, a.status, a.expiresAt, a.createdAt],
+      "INSERT INTO approvals (approval_id, trade_id, kind, intent_hash, nonce_hash, status, expires_at, created_at) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)",
+      [a.approvalId, a.tradeId, a.kind, a.intentHash, a.nonceHash, a.status, a.expiresAt, a.createdAt],
     );
   }
   async getApproval(id: string): Promise<ApprovalRecord | null> {

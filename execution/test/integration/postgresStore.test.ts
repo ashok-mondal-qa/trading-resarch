@@ -44,7 +44,7 @@ describe.skipIf(!url)("PostgreSQL", () => {
     const { store, pool } = await fresh();
     const { trade } = await import("../helpers/storeContract.js");
     await store.insertTrade(trade("t"));
-    await store.insertApproval({ approvalId: "a", tradeId: "t", intentHash: "a".repeat(64), nonceHash: "b".repeat(64), status: "PENDING", expiresAt: T0.toISOString(), createdAt: T0.toISOString() });
+    await store.insertApproval({ approvalId: "a", tradeId: "t", kind: "ENTRY", intentHash: "a".repeat(64), nonceHash: "b".repeat(64), status: "PENDING", expiresAt: T0.toISOString(), createdAt: T0.toISOString() });
     await store.decideApproval("a", "DENIED", "1", T0.toISOString());
     await expect(pool.query("UPDATE approvals SET status = 'APPROVED' WHERE approval_id = 'a'")).rejects.toThrow(/single use/);
   });

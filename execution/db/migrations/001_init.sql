@@ -28,6 +28,7 @@ CREATE INDEX IF NOT EXISTS trades_open_idx ON trades (mode, state);
 CREATE TABLE IF NOT EXISTS approvals (
   approval_id          text PRIMARY KEY,
   trade_id             text NOT NULL REFERENCES trades (trade_id),
+  kind                 text NOT NULL CHECK (kind IN ('ENTRY', 'EXIT')),
   intent_hash          char(64) NOT NULL,
   nonce_hash           char(64) NOT NULL,
   status               text NOT NULL CHECK (status IN ('PENDING', 'APPROVED', 'DENIED', 'EXPIRED')),
@@ -44,7 +45,7 @@ BEGIN
   IF OLD.status <> 'PENDING' AND NEW.status <> OLD.status THEN
     RAISE EXCEPTION 'approval % already decided (%), approvals are single use', OLD.approval_id, OLD.status;
   END IF;
-  IF NEW.intent_hash <> OLD.intent_hash OR NEW.nonce_hash <> OLD.nonce_hash OR NEW.trade_id <> OLD.trade_id THEN
+  IF NEW.intent_hash <> OLD.intent_hash OR NEW.nonce_hash <> OLD.nonce_hash OR NEW.trade_id <> OLD.trade_id OR NEW.kind <> OLD.kind THEN
     RAISE EXCEPTION 'approval % binding fields are immutable', OLD.approval_id;
   END IF;
   RETURN NEW;

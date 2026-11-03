@@ -2,9 +2,13 @@ import type { ExecutionMode, TradeRecord } from "../domain/types.js";
 
 export type ApprovalStatus = "PENDING" | "APPROVED" | "DENIED" | "EXPIRED";
 
+export type ApprovalKind = "ENTRY" | "EXIT";
+
 export interface ApprovalRecord {
   approvalId: string;
   tradeId: string;
+  /** ENTRY: open the approved trade. EXIT: flatten an open position (e.g. protection failed, square-off). */
+  kind: ApprovalKind;
   /** sha256 of the canonical order intent the human saw. Any change to the intent voids the approval. */
   intentHash: string;
   /** sha256 of the one-time nonce embedded in the Telegram button; the nonce itself is never stored. */

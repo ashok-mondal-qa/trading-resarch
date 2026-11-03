@@ -17,6 +17,7 @@ export function trade(id: string, over: Partial<TradeRecord> = {}): TradeRecord 
     confirmedPositionQuantity: 0,
     protectedQuantity: 0,
     ocoAttempts: 0,
+    flags: {},
     version: 1,
     createdAt: T0.toISOString(),
     updatedAt: T0.toISOString(),
@@ -53,6 +54,7 @@ export function storeContract(name: string, make: () => Promise<Store>) {
       await s.insertApproval({
         approvalId: "ap1",
         tradeId: "t2",
+        kind: "ENTRY",
         intentHash: "a".repeat(64),
         nonceHash: "b".repeat(64),
         status: "PENDING",

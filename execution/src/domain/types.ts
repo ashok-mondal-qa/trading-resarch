@@ -217,8 +217,17 @@ export interface TradeRecord {
   ocoId?: string;
   protectedQuantity: number;
   ocoAttempts: number;
+  /** When the current OCO request was sent; drives the confirmation timeout. */
+  ocoSubmittedAt?: string;
+  exitApprovalId?: string;
+  exitClientRef?: string;
+  exitOrderId?: string;
   exitPrice?: number;
+  /** Gross P&L from fills minus estimated (unverified) charges; undefined when exit fills are unknown. */
   realisedPnlInr?: number;
+  closeReason?: string;
+  /** One-shot alert flags so a stuck state does not spam Telegram every cycle. */
+  flags: { uncertainAlerted?: boolean; mismatchReported?: boolean; squareOffAsked?: boolean; protectionFailedAlerted?: boolean };
   lastError?: string;
   version: number;
   createdAt: string;
