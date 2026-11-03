@@ -1,7 +1,9 @@
 # 30-minute NIFTY Opening Range Breakout: variant grid, out-of-sample and walk-forward (research only) — spec v0.1
 
-Status: **PRE-REGISTERED** (written and committed before any 30-minute ORB number was computed). Registry: EXP-0071
-(main grid, selection, out-of-sample and walk-forward), EXP-0072 (volume-confirmed variants, 2026 data only).
+Status: **EXP-0071 REJECTED, EXP-0072 DATA INSUFFICIENT** (run 2026-11-03, report
+`reports/backtests/EXP-0071-0072-report.md`). Pre-registered in 2c426f8f before any 30-minute ORB number was computed;
+code and tests in 603e64b0 before the run. Registry: EXP-0071 (main grid, selection, out-of-sample and walk-forward),
+EXP-0072 (volume-confirmed variants, 2026 data only). Paper phase (EXP-0073) not started: no candidate passed.
 
 **Why:** Ashok asked (2026-11-03) for a serious validation of the 30-minute NIFTY Opening Range Breakout: standard,
 volume-confirmed, VWAP-confirmed, both, and ATR opening-range filters; 1R/1.5R/2R/3R targets; opposite-range vs
@@ -115,3 +117,11 @@ intraday volume before 2026; no news/event filter; gaps and halts can lose more 
 
 ## Changelog
 * v0.1 (2026-11-03): first version, pre-registered before any run.
+* v0.1 result (2026-11-03): one run, no parameter changed. 0 of 72 configurations has positive mean net R in dev,
+  validation or test; selected `V2|atr|2R|short` −0.20/−0.22/−0.22R; walk-forward 0 of 10 windows positive (−0.26R,
+  max drawdown −136R). Futures and ATM options never fit ₹300 at the ORB stop; NIFTYBEES does but loses ~0.3R a trade
+  to charges and spread. V2 (TWAP-proxy VWAP) never removed a trade (identical to V0). EXP-0072: 15–16 volume-
+  confirmed trades in 2026, negative. One post-hoc diagnostic was added after the run and is labelled as such (one
+  futures lot, breaking the ₹300 rule: ≈ 0R net). Tests: `tests/test_orb30.py` (12), full suite passing. Impact on
+  earlier results: none (agrees with EXP-0061/0064). New holdout needed for any revised rule: yes, forward data only;
+  every 2020–2026 split is now used for 30-minute ORB ideas.

@@ -223,6 +223,33 @@ def evaluate_cfg(trades: pd.DataFrame, full: bool = False) -> dict:
     return res
 
 
+def futures_lot_diagnostic(trades: pd.DataFrame, slip: float = 0.01 / 100) -> dict:
+    """POST-HOC (not pre-registered, not used for the verdict): the same trades on ONE NIFTY futures lot (65),
+    ignoring the Rs 300 rule, to show whether the gross edge survives costs at full-lot size. Groww F&O schedule
+    as found by web search 2026-11-03 (unverified): Rs 20/order, STT 0.02% sell, NSE 0.00173%, SEBI 0.0001%,
+    stamp 0.002% buy, GST 18% on brokerage + exchange + SEBI; spread + slippage 0.01% per side; spot stands in for
+    the futures price (basis ignored)."""
+    if trades.empty:
+        return {}
+    q = LOT_NOW
+    e, x, side = trades["entry"].to_numpy(), trades["exit"].to_numpy(), trades["side"].to_numpy()
+    buy, sell = np.where(side > 0, e, x) * q, np.where(side > 0, x, e) * q
+    exch = (buy + sell) * (0.0000173 + 0.000001)
+    charges = 40 + exch + 0.18 * (40 + exch) + 0.0002 * sell + 0.00002 * buy
+    slip_inr = slip * (e + x) * q
+    risk_inr = trades["stop_pts"].to_numpy() * q
+    net = (trades["gross_r"].to_numpy() * risk_inr - charges - slip_inr) / risk_inr
+    out = {"label": "POST-HOC diagnostic, one 65-unit futures lot, breaks the Rs 300 rule",
+           "median_risk_per_trade_inr": round(float(np.median(risk_inr)), 0),
+           "mean_cost_r": round(float(np.mean((charges + slip_inr) / risk_inr)), 3)}
+    d = pd.to_datetime(trades["date"])
+    for s, (a, b) in SPLITS.items():
+        m = ((d >= a) & (d <= b)).to_numpy()
+        out[s] = {"trades": int(m.sum()), "mean_net_r": round(float(net[m].mean()), 3) if m.any() else None,
+                  "mean_gross_r": round(float(trades["gross_r"].to_numpy()[m].mean()), 3) if m.any() else None}
+    return out
+
+
 def acceptance(sel: dict, wf: dict, feas: dict) -> dict:
     A, S = sel["A"], sel["A_stress"]
     g = lambda d, k="mean_net_r": d.get(k, -1) if d.get(k) is not None else -1  # noqa: E731
@@ -324,6 +351,8 @@ def main(argv: list[str] | None = None) -> int:
                       "eligible_configs": int(len(elig))},
         "selected": sel, "standard_orb_V0_range_2R_both": std, "walk_forward": wf, "verdict_EXP_0071": verdict,
         "EXP_0072_volume_2026": volume_diagnostic(days),
+        "posthoc_futures_lot": {orb.cfg_name(c): futures_lot_diagnostic(base[c]) for c in
+                                (sel_cfg, std_cfg, ("V0", "range", 3.0, "short"), ("V0", "range", 2.0, "short"))},
     }
     (REPORT_DIR / "EXP-0071-0072.json").write_text(json.dumps(result, indent=2, default=str) + "\n")
     print(json.dumps({"selected": sel_name, "verdict": verdict, "wf_oos": wf["oos"],

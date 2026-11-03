@@ -136,3 +136,12 @@ def test_money_adds_feasibility_columns():
     m = run.money(t)
     assert m["fut_lot_risk_now"].iloc[0] == pytest.approx(m["stop_pts"].iloc[0] * 65)
     assert m["planned_risk"].iloc[0] <= 300 + 1e-9 and m["qty"].iloc[0] > 0
+
+
+def test_posthoc_futures_lot_costs_are_small_in_r():
+    d = orb.build_day(session({555: 25000, 570: 25100, 584: 25000, 597: 25150, 700: 25600}, base=25000), CTX)
+    t = run.run_cfg([d], ("V0", "range", 2.0, "both"))
+    out = run.futures_lot_diagnostic(t)
+    assert out["median_risk_per_trade_inr"] == pytest.approx(t["stop_pts"].iloc[0] * 65, abs=1)
+    assert 0 < out["mean_cost_r"] < 0.2
+    assert out["test"]["trades"] == 0 and out["validation"]["trades"] == 1
