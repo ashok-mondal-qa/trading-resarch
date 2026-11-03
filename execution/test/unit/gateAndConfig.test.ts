@@ -145,3 +145,17 @@ describe("live gate", () => {
     expect((await checkLiveGate(cfg, await storeWith(20), { root, now: later })).failures.join()).toMatch(/days old/);
   });
 });
+
+describe("proposal intake parsing", async () => {
+  const { parseProposal } = await import("../../src/domain/parseProposal.js");
+  const { proposal } = await import("../helpers/fixtures.js");
+  it("accepts a well-formed proposal and rejects malformed ones", () => {
+    const p = JSON.parse(JSON.stringify(proposal()));
+    expect(parseProposal(p).instrument.tradingSymbol).toBe("TESTSTOCK");
+    expect(() => parseProposal({ ...p, direction: "UP" })).toThrow(/direction/);
+    expect(() => parseProposal({ ...p, stopLoss: "990" })).toThrow(/stopLoss/);
+    expect(() => parseProposal({ ...p, instrument: { ...p.instrument, tradingSymbol: "bad symbol;" } })).toThrow(/tradingSymbol/);
+    expect(() => parseProposal({ ...p, dataTimestamp: "yesterday" })).toThrow(/dataTimestamp/);
+    expect(() => parseProposal([])).toThrow(/object/);
+  });
+});

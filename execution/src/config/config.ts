@@ -63,8 +63,12 @@ export interface LiveGateConfig {
 
 export interface AppConfig {
   mode: ExecutionMode;
+  intake: { host: string; port: number; token?: Secret };
+  /** Dry runs only: keep state in memory instead of PostgreSQL. Refused in LIVE_APPROVAL. */
+  allowMemoryStore: boolean;
   killSwitch: boolean;
   databaseUrl?: string;
+  databasePassword?: Secret;
   approvalTtlSec: number;
   oco: { maxAttempts: number; confirmTimeoutSec: number; pollIntervalMs: number };
   reconcileIntervalMs: number;
@@ -163,8 +167,11 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): AppConfig {
 
   return {
     mode: modeRaw,
+    intake: { host: env.INTAKE_HOST ?? "127.0.0.1", port: num(env, "INTAKE_PORT", 8787), token: readSecret(env, "INTAKE_TOKEN") },
+    allowMemoryStore: bool(env, "ALLOW_MEMORY_STORE", false),
     killSwitch: bool(env, "KILL_SWITCH", false),
     databaseUrl: env.DATABASE_URL || undefined,
+    databasePassword: readSecret(env, "DATABASE_PASSWORD"),
     approvalTtlSec,
     oco: {
       maxAttempts: Math.max(1, num(env, "OCO_MAX_ATTEMPTS", 3)),

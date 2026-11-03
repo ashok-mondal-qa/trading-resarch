@@ -83,8 +83,13 @@ function toAudit(r: AuditRow): AuditEvent {
 export class PostgresStore implements Store {
   constructor(private readonly pool: pg.Pool) {}
 
-  static connect(url: string): PostgresStore {
-    return new PostgresStore(new pg.Pool({ connectionString: url, max: 5 }));
+  /** The password can come separately (DATABASE_PASSWORD / DATABASE_PASSWORD_FILE) so the URL holds no secret. */
+  static connect(url: string, password?: { reveal(): string }): PostgresStore {
+    return new PostgresStore(new pg.Pool({ connectionString: url, max: 5, ...(password ? { password: password.reveal() } : {}) }));
+  }
+
+  migrate(dir: string): Promise<string[]> {
+    return migrate(this.pool, dir);
   }
 
   async claimDailySlot(mode: ExecutionMode, tradingDay: string, tradeId: string): Promise<boolean> {

@@ -1,0 +1,55 @@
+# Local / VPS deployment: PostgreSQL + the engine. Secrets are files under ./secrets (git-ignored), mounted
+# as Docker secrets and read through *_FILE variables, so they never sit in environment listings or images.
+services:
+  db:
+    image: postgres:16.9-bookworm
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: execution
+      POSTGRES_USER: execution
+      POSTGRES_PASSWORD_FILE: /run/secrets/db_password
+    secrets: [db_password]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U execution -d execution"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  engine:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file: .env
+    environment:
+      DATABASE_URL: postgres://execution@db:5432/execution
+      DATABASE_PASSWORD_FILE: /run/secrets/db_password
+      INTAKE_HOST: 0.0.0.0
+      INTAKE_TOKEN_FILE: /run/secrets/intake_token
+      TELEGRAM_BOT_TOKEN_FILE: /run/secrets/telegram_bot_token
+      GROWW_API_KEY_FILE: /run/secrets/groww_api_key
+      GROWW_API_SECRET_FILE: /run/secrets/groww_api_secret
+      REGISTRY_PATH: /app/registry/registry.csv
+    secrets: [db_password, intake_token, telegram_bot_token, groww_api_key, groww_api_secret]
+    volumes:
+      - ../experiments:/app/registry:ro
+    ports:
+      - "127.0.0.1:8787:8787"   # intake reachable from this machine only
+
+secrets:
+  db_password:
+    file: ./secrets/db_password
+  intake_token:
+    file: ./secrets/intake_token
+  telegram_bot_token:
+    file: ./secrets/telegram_bot_token
+  groww_api_key:
+    file: ./secrets/groww_api_key
+  groww_api_secret:
+    file: ./secrets/groww_api_secret
+
+volumes:
+  pgdata:

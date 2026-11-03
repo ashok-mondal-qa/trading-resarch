@@ -46,7 +46,7 @@ export class ExecutionService {
   }
 
   private async halted(): Promise<boolean> {
-    return (await this.d.store.getKv(HALT_KEY)) !== null;
+    return !!(await this.d.store.getKv(HALT_KEY)); // null or "" = not halted
   }
 
   private async riskCheck(t: TradeRecord, p: TradeProposal) {

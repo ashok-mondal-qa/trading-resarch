@@ -5,6 +5,7 @@ import type { Notifier } from "../approval/ports.js";
 import type { Store } from "../store/Store.js";
 import type { Clock } from "../util/clock.js";
 
+/** Non-empty value = new entries blocked (safety incident or /halt). Cleared only by the server CLI. */
 export const HALT_KEY = "engine.halted";
 
 /** Persists state changes with optimistic concurrency and writes an audit event for each one. */
