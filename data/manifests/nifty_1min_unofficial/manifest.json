@@ -1,0 +1,104 @@
+{
+  "dataset": "nifty_1min_unofficial",
+  "provider": "technovusin (GitHub, MIT licence) - UNOFFICIAL",
+  "source_url": "https://github.com/technovusin/nifty50-historical-data",
+  "commit": "7f94ced8465c7b824d7c7b5f92f5a1151a8d04be",
+  "instrument": "NIFTY 50 spot index",
+  "exchange": "NSE",
+  "timeframe": "1min",
+  "first_bar_ist": "2017-04-03 09:15:00",
+  "last_bar_ist": "2026-11-02 15:29:00",
+  "rows": 886923,
+  "retrieved_at_utc": "2026-11-02T19:20:49+00:00",
+  "price_adjustment": "none (index)",
+  "files": [
+    {
+      "file": "1min/2017/NIFTY50_1min_2017.csv",
+      "sha256": "9dca1f48ea1726958241160992c40ac1f61aedfa463b4cba5d9167d4ed38a6b6"
+    },
+    {
+      "file": "1min/2018/NIFTY50_1min_2018.csv",
+      "sha256": "898cfbcd09422dbc3afb76c44685348e8229019151766eccfc33bcb5d38f92e2"
+    },
+    {
+      "file": "1min/2019/NIFTY50_1min_2019.csv",
+      "sha256": "796b90771e130151e8cdb6251d0e7895a9f65d30cac4799f950638d981e1ef6d"
+    },
+    {
+      "file": "1min/2020/NIFTY50_1min_2020.csv",
+      "sha256": "1b8832532e1a885d4afa5060f5041bdaffa27ea5c5f88cb7ea711ca886f94bde"
+    },
+    {
+      "file": "1min/2021/NIFTY50_1min_2021.csv",
+      "sha256": "87d45975071dc20b1ea6b298a4aa28386e3af9aa13980f18d5af5fae1938b156"
+    },
+    {
+      "file": "1min/2022/NIFTY50_1min_2022.csv",
+      "sha256": "930acb495657287f8873ddb37a9c8517ea9baa56aeb86a7d4712cee658045ee3"
+    },
+    {
+      "file": "1min/2023/NIFTY50_1min_2023.csv",
+      "sha256": "cc261ba326b3c61c5e54c58d4d6732263985d7f24e343111e916ca7625a0dde4"
+    },
+    {
+      "file": "1min/2024/NIFTY50_1min_2024.csv",
+      "sha256": "f0a82b04aeb8722c8fae0431daf8507feb70e4c7783c75010f9dfbbbee00951b"
+    },
+    {
+      "file": "1min/2025/NIFTY50_1min_2025.csv",
+      "sha256": "632eccf5137216d46ef5ad26ec975e56b0a8ceb4adfa804083d380cc3fe60b3d"
+    },
+    {
+      "file": "1min/2026/NIFTY50_1min_2026-01.csv",
+      "sha256": "c9cf474e8542e60358872580498c10e549883cec497bc7d8f9651533ee7b889d"
+    },
+    {
+      "file": "1min/2026/NIFTY50_1min_2026-02.csv",
+      "sha256": "cd4a0ce01b316aacee1cbdbe2fd2aa70c8ab1a159b624353715f912854f726e7"
+    },
+    {
+      "file": "1min/2026/NIFTY50_1min_2026-03.csv",
+      "sha256": "397a249f02116aad77a8e1ec76048434522d05a69cec4e8e2870b1cf99695815"
+    },
+    {
+      "file": "1min/2026/NIFTY50_1min_2026-04.csv",
+      "sha256": "38d61de4383494720f8200a1ddbc03a4e586dbce7fe9a6abb694f86df2349a6c"
+    },
+    {
+      "file": "1min/2026/NIFTY50_1min_2026-05.csv",
+      "sha256": "401687147b485b7b74c39cc63537ff226f093569f72772c23452869ab03fbfd0"
+    },
+    {
+      "file": "1min/2026/NIFTY50_1min_2026-06.csv",
+      "sha256": "54d6899167a713eafff168cb0b5ce5e85b0e4e2afdfdf82b139c0a38279c1ded"
+    },
+    {
+      "file": "1min/2026/NIFTY50_1min_2026-07.csv",
+      "sha256": "8aa29ad194a62075d00de80ffeb19c366b4f54f3aa7775c12cae1e12471a8217"
+    },
+    {
+      "file": "1min/2026/NIFTY50_1min_2026-08.csv",
+      "sha256": "156c91df4181ec6bd2430f35472131277d62c4d10fbc0a82aca78ebb872d3ac2"
+    },
+    {
+      "file": "1min/2026/NIFTY50_1min_2026-09.csv",
+      "sha256": "489c95b84e7f9fb7e90c80cd09e9410949c8f0eb5e48508c4fe7ccd0d15bd93a"
+    },
+    {
+      "file": "1min/2026/NIFTY50_1min_2026-10.csv",
+      "sha256": "86ddc06c9d448eb3867600a408386509d5628d25114a6d9faaef83018314cbf3"
+    },
+    {
+      "file": "1min/2026/NIFTY50_1min_2026-11.csv",
+      "sha256": "cae6630c752c8f45b868e432dd823c35148b37c9da8ccec81a847d5fcfd8f4f0"
+    }
+  ],
+  "limitations": "unofficial vendor data; some missing minutes; every used day is checked against the NSE daily index high/low (data/nifty_intraday.day_check)",
+  "cross_check": {
+    "source_url": "https://github.com/sandeepkapri/Nifty50-Minute-Data",
+    "sha256": "9b347479bb242e8cea8f85011a4d53e8938c1bfea1697fa25d8ef25d8888784d",
+    "first_bar_ist": "2015-01-09 09:15:00",
+    "last_bar_ist": "2024-03-27 12:59:00",
+    "rows": 852087
+  }
+}

@@ -1,0 +1,2064 @@
+{
+  "generated_at_utc": "2026-11-02T19:48:11+00:00",
+  "spec_version": "0.1",
+  "expiry_days_used": 397,
+  "rules": {
+    "EXP-0056": {
+      "rule": "orb",
+      "checks": {
+        "dev >= 60 trades": true,
+        "dev 1x mean R > 0, 95% interval above 0": false,
+        "dev 2x mean R > 0": false,
+        "dev_a 1x mean R > 0": true,
+        "dev_b 1x mean R > 0": true,
+        "validation 2x mean R > 0": false,
+        "holdout 1x mean R > 0": false,
+        "holdout 2x mean R > 0": false
+      },
+      "status": "REJECTED",
+      "dev": {
+        "trades": 192,
+        "gross_win_rate": 0.515625,
+        "reached_other_side_rate": 0.15104166666666666,
+        "gross_mean_r": 0.18239937114092944,
+        "gross_mean_pts": 11.369171406250095,
+        "median_risk_pts": 59.3131999999996,
+        "median_risk_inr_per_lot": 3876.3854999999694,
+        "exit_reasons": {
+          "time": 91,
+          "stop": 72,
+          "target": 29
+        },
+        "shorts": 97,
+        "longs": 95,
+        "1x": {
+          "win_rate": 0.5052083333333334,
+          "mean_r": 0.07104231027544734,
+          "mean_pts": 4.922707604989726,
+          "mean_inr_per_lot": 303.7582987480973,
+          "total_inr_per_lot": 58321.59335963468,
+          "profit_factor": 1.161175845856651,
+          "max_drawdown_inr_per_lot": -56614.46222213598,
+          "max_drawdown_r": -10.760129893504823,
+          "etf15k_mean_inr": -43.84697605586366,
+          "etf15k_total_inr": -8418.619402725823,
+          "etf15k_win_rate": 0.296875,
+          "ci95_mean_r": [
+            -0.05576293293666928,
+            0.19636759445119473
+          ]
+        },
+        "2x": {
+          "win_rate": 0.484375,
+          "mean_r": -0.040314750590034754,
+          "mean_pts": -1.5237561962706445,
+          "mean_inr_per_lot": -107.81069156631219,
+          "total_inr_per_lot": -20699.65278073194,
+          "profit_factor": 0.954919682677908,
+          "max_drawdown_inr_per_lot": -94311.83858594418,
+          "max_drawdown_r": -20.657101407045616,
+          "etf15k_mean_inr": -102.34087777193973,
+          "etf15k_total_inr": -19649.448532212427,
+          "etf15k_win_rate": 0.11979166666666667,
+          "ci95_mean_r": [
+            -0.16785482894439435,
+            0.08664159115644299
+          ]
+        }
+      },
+      "dev_a": {
+        "trades": 93,
+        "gross_win_rate": 0.5268817204301075,
+        "reached_other_side_rate": 0.12903225806451613,
+        "gross_mean_r": 0.17622078443353048,
+        "gross_mean_pts": 12.67420193548396,
+        "median_risk_pts": 53.40603999999985,
+        "median_risk_inr_per_lot": 4005.4529999999886,
+        "exit_reasons": {
+          "time": 51,
+          "stop": 30,
+          "target": 12
+        },
+        "shorts": 42,
+        "longs": 51,
+        "1x": {
+          "win_rate": 0.5161290322580645,
+          "mean_r": 0.06347311420907505,
+          "mean_pts": 7.065731819099437,
+          "mean_inr_per_lot": 529.9298864324578,
+          "total_inr_per_lot": 49283.47943821857,
+          "profit_factor": 1.3043922435010664,
+          "max_drawdown_inr_per_lot": -32887.053015220044,
+          "max_drawdown_r": -6.812365938209594,
+          "etf15k_mean_inr": -37.675548917961116,
+          "etf15k_total_inr": -3503.8260493703838,
+          "etf15k_win_rate": 0.26881720430107525,
+          "ci95_mean_r": [
+            -0.12005850318968647,
+            0.24039941115863
+          ]
+        },
+        "2x": {
+          "win_rate": 0.4838709677419355,
+          "mean_r": -0.0492745560153805,
+          "mean_pts": 1.4572617027149153,
+          "mean_inr_per_lot": 109.2946277036186,
+          "total_inr_per_lot": 10164.40037643653,
+          "profit_factor": 1.0559163621233174,
+          "max_drawdown_inr_per_lot": -38289.3825304405,
+          "max_drawdown_r": -7.9847563447960965,
+          "etf15k_mean_inr": -96.17245280210088,
+          "etf15k_total_inr": -8944.038110595382,
+          "etf15k_win_rate": 0.12903225806451613,
+          "ci95_mean_r": [
+            -0.23426503143442734,
+            0.12835736333450035
+          ]
+        }
+      },
+      "dev_b": {
+        "trades": 99,
+        "gross_win_rate": 0.5050505050505051,
+        "reached_other_side_rate": 0.1717171717171717,
+        "gross_mean_r": 0.18820349804787986,
+        "gross_mean_pts": 10.143233636363735,
+        "median_risk_pts": 70.8801900000035,
+        "median_risk_inr_per_lot": 3818.745999999919,
+        "exit_reasons": {
+          "stop": 42,
+          "time": 40,
+          "target": 17
+        },
+        "shorts": 55,
+        "longs": 44,
+        "1x": {
+          "win_rate": 0.494949494949495,
+          "mean_r": 0.07815276718628195,
+          "mean_pts": 2.909563646280603,
+          "mean_inr_per_lot": 91.29408001430414,
+          "total_inr_per_lot": 9038.11392141611,
+          "profit_factor": 1.0777373989940198,
+          "max_drawdown_inr_per_lot": -29632.547982925727,
+          "max_drawdown_r": -6.2065406674556165,
+          "etf15k_mean_inr": -49.64437730662059,
+          "etf15k_total_inr": -4914.793353355439,
+          "etf15k_win_rate": 0.32323232323232326,
+          "ci95_mean_r": [
+            -0.09545420526126465,
+            0.2540547515987855
+          ]
+        },
+        "2x": {
+          "win_rate": 0.48484848484848486,
+          "mean_r": -0.031897963675316,
+          "mean_pts": -4.324106343802533,
+          "mean_inr_per_lot": -311.75811269867137,
+          "total_inr_per_lot": -30864.053157168466,
+          "profit_factor": 0.8947171510669405,
+          "max_drawdown_inr_per_lot": -61450.02360752319,
+          "max_drawdown_r": -14.37305449508274,
+          "etf15k_mean_inr": -108.13545880421256,
+          "etf15k_total_inr": -10705.410421617044,
+          "etf15k_win_rate": 0.1111111111111111,
+          "ci95_mean_r": [
+            -0.2019075093781014,
+            0.1432501274241917
+          ]
+        }
+      },
+      "validation": {
+        "trades": 98,
+        "gross_win_rate": 0.35714285714285715,
+        "reached_other_side_rate": 0.15306122448979592,
+        "gross_mean_r": -0.04275134149191428,
+        "gross_mean_pts": -2.1988597959183127,
+        "median_risk_pts": 70.47119999999995,
+        "median_risk_inr_per_lot": 2770.0147500000185,
+        "exit_reasons": {
+          "stop": 48,
+          "time": 35,
+          "target": 15
+        },
+        "shorts": 52,
+        "longs": 46,
+        "1x": {
+          "win_rate": 0.35714285714285715,
+          "mean_r": -0.1675135227300627,
+          "mean_pts": -11.036760499014472,
+          "mean_inr_per_lot": -545.7201623017859,
+          "total_inr_per_lot": -53480.57590557502,
+          "profit_factor": 0.7417505700315772,
+          "max_drawdown_inr_per_lot": -61574.72723377916,
+          "max_drawdown_r": -19.235193417245608,
+          "etf15k_mean_inr": -60.61328787074851,
+          "etf15k_total_inr": -5940.102211333354,
+          "etf15k_win_rate": 0.23469387755102042,
+          "ci95_mean_r": [
+            -0.34732888062210326,
+            0.04596602554394862
+          ]
+        },
+        "2x": {
+          "win_rate": 0.35714285714285715,
+          "mean_r": -0.29227570396821123,
+          "mean_pts": -19.87466120211063,
+          "mean_inr_per_lot": -901.3405082770448,
+          "total_inr_per_lot": -88331.36981115039,
+          "profit_factor": 0.5894369132796966,
+          "max_drawdown_inr_per_lot": -88722.43728879893,
+          "max_drawdown_r": -28.830804840797743,
+          "etf15k_mean_inr": -119.09903340434808,
+          "etf15k_total_inr": -11671.705273626112,
+          "etf15k_win_rate": 0.02040816326530612,
+          "ci95_mean_r": [
+            -0.4724173587732347,
+            -0.07609841664533096
+          ]
+        }
+      },
+      "holdout": {
+        "trades": 93,
+        "gross_win_rate": 0.5161290322580645,
+        "reached_other_side_rate": 0.07526881720430108,
+        "gross_mean_r": 0.03836192159371027,
+        "gross_mean_pts": 0.2786655913981229,
+        "median_risk_pts": 101.43505000000005,
+        "median_risk_inr_per_lot": 7089.419999999791,
+        "exit_reasons": {
+          "time": 56,
+          "stop": 30,
+          "target": 7
+        },
+        "shorts": 49,
+        "longs": 44,
+        "1x": {
+          "win_rate": 0.4731182795698925,
+          "mean_r": -0.05399586122105947,
+          "mean_pts": -8.873287531139741,
+          "mean_inr_per_lot": -772.2142980707647,
+          "total_inr_per_lot": -71815.92972058112,
+          "profit_factor": 0.8150175696609866,
+          "max_drawdown_inr_per_lot": -118034.92048983942,
+          "max_drawdown_r": -12.301205444173108,
+          "etf15k_mean_inr": -58.09409198127913,
+          "etf15k_total_inr": -5402.750554258959,
+          "etf15k_win_rate": 0.17204301075268819,
+          "ci95_mean_r": [
+            -0.2131253395614806,
+            0.10385710274560288
+          ]
+        },
+        "2x": {
+          "win_rate": 0.44086021505376344,
+          "mean_r": -0.1463536440358292,
+          "mean_pts": -18.025240653677614,
+          "mean_inr_per_lot": -1392.540597216821,
+          "total_inr_per_lot": -129506.27554116436,
+          "profit_factor": 0.6596098059999426,
+          "max_drawdown_inr_per_lot": -168611.06283985107,
+          "max_drawdown_r": -19.73079453990064,
+          "etf15k_mean_inr": -116.58106300928651,
+          "etf15k_total_inr": -10842.038859863645,
+          "etf15k_win_rate": 0.06451612903225806,
+          "ci95_mean_r": [
+            -0.300403620754683,
+            0.008962460396657693
+          ]
+        }
+      },
+      "all": {
+        "trades": 383,
+        "gross_win_rate": 0.4751958224543081,
+        "reached_other_side_rate": 0.13315926892950392,
+        "gross_mean_r": 0.08981385509416685,
+        "gross_mean_pts": 5.204460966057569,
+        "median_risk_pts": 72.55243999999948,
+        "median_risk_inr_per_lot": 4046.260500000062,
+        "exit_reasons": {
+          "time": 182,
+          "stop": 150,
+          "target": 51
+        },
+        "shorts": 198,
+        "longs": 185,
+        "1x": {
+          "win_rate": 0.4595300261096606,
+          "mean_r": -0.020359834851746195,
+          "mean_pts": -2.510857465121116,
+          "mean_inr_per_lot": -174.86922262799334,
+          "total_inr_per_lot": -66974.91226652145,
+          "profit_factor": 0.9337400154951013,
+          "max_drawdown_inr_per_lot": -186828.1722128585,
+          "max_drawdown_r": -25.733731245618237,
+          "etf15k_mean_inr": -51.59653307654865,
+          "etf15k_total_inr": -19761.472168318134,
+          "etf15k_win_rate": 0.2506527415143603,
+          "ci95_mean_r": [
+            -0.10895421595405427,
+            0.07346891130607022
+          ]
+        },
+        "2x": {
+          "win_rate": 0.4412532637075718,
+          "mean_r": -0.13053352479765923,
+          "mean_pts": -10.2261758962998,
+          "mean_inr_per_lot": -622.8127888591298,
+          "total_inr_per_lot": -238537.29813304672,
+          "profit_factor": 0.7576131455572969,
+          "max_drawdown_inr_per_lot": -319480.88578589086,
+          "max_drawdown_r": -57.197021985868254,
+          "etf15k_mean_inr": -110.0866649235044,
+          "etf15k_total_inr": -42163.19266570218,
+          "etf15k_win_rate": 0.08093994778067885,
+          "ci95_mean_r": [
+            -0.21946300892896609,
+            -0.03708890222003796
+          ]
+        }
+      },
+      "by_year": {
+        "2019": {
+          "trades": 43,
+          "win_rate_1x": 0.5116279069767442,
+          "mean_r_1x": 0.11215192801562614,
+          "mean_r_2x": -0.020577034075232533,
+          "inr_per_lot_1x": 8880.70307456136,
+          "reached_other_side": 0.20930232558139536
+        },
+        "2020": {
+          "trades": 50,
+          "win_rate_1x": 0.52,
+          "mean_r_1x": 0.02160933433544109,
+          "mean_r_2x": -0.07395442488390777,
+          "inr_per_lot_1x": 40402.77636365722,
+          "reached_other_side": 0.06
+        },
+        "2021": {
+          "trades": 49,
+          "win_rate_1x": 0.46938775510204084,
+          "mean_r_1x": -0.019747481777831272,
+          "mean_r_2x": -0.13345912030920015,
+          "inr_per_lot_1x": -11635.809092502719,
+          "reached_other_side": 0.16326530612244897
+        },
+        "2022": {
+          "trades": 50,
+          "win_rate_1x": 0.52,
+          "mean_r_1x": 0.17409501117111287,
+          "mean_r_2x": 0.06763196982589058,
+          "inr_per_lot_1x": 20673.92301391883,
+          "reached_other_side": 0.18
+        },
+        "2023": {
+          "trades": 48,
+          "win_rate_1x": 0.3333333333333333,
+          "mean_r_1x": -0.3007410161847556,
+          "mean_r_2x": -0.43249761873233666,
+          "inr_per_lot_1x": -39528.22828503025,
+          "reached_other_side": 0.14583333333333334
+        },
+        "2024": {
+          "trades": 50,
+          "win_rate_1x": 0.38,
+          "mean_r_1x": -0.03961512901355754,
+          "mean_r_2x": -0.15766266579465069,
+          "inr_per_lot_1x": -13952.34762054476,
+          "reached_other_side": 0.16
+        },
+        "2025": {
+          "trades": 53,
+          "win_rate_1x": 0.4339622641509434,
+          "mean_r_1x": -0.11035115696944252,
+          "mean_r_2x": -0.2108693151516744,
+          "inr_per_lot_1x": -75370.07610388145,
+          "reached_other_side": 0.09433962264150944
+        },
+        "2026": {
+          "trades": 40,
+          "win_rate_1x": 0.525,
+          "mean_r_1x": 0.0206749056455481,
+          "mean_r_2x": -0.06087037980733443,
+          "inr_per_lot_1x": 3554.146383300358,
+          "reached_other_side": 0.05
+        }
+      },
+      "by_weekday": {
+        "Monday": {
+          "trades": 4,
+          "win_rate_1x": 0.25,
+          "mean_r_1x": -0.40886002952514033,
+          "mean_r_2x": -0.4592343797568562,
+          "inr_per_lot_1x": -32224.470441763187,
+          "reached_other_side": 0.0
+        },
+        "Thursday": {
+          "trades": 310,
+          "win_rate_1x": 0.45483870967741935,
+          "mean_r_1x": -0.023661643351725856,
+          "mean_r_2x": -0.13706435871539982,
+          "inr_per_lot_1x": -49571.745774450916,
+          "reached_other_side": 0.14516129032258066
+        },
+        "Tuesday": {
+          "trades": 54,
+          "win_rate_1x": 0.5,
+          "mean_r_1x": -0.0320258029454426,
+          "mean_r_2x": -0.1262451498302921,
+          "inr_per_lot_1x": -2568.3899856566713,
+          "reached_other_side": 0.07407407407407407
+        },
+        "Wednesday": {
+          "trades": 15,
+          "win_rate_1x": 0.4666666666666667,
+          "mean_r_1x": 0.19347507786471274,
+          "mean_r_2x": 0.07665245427557814,
+          "inr_per_lot_1x": 17389.693935349344,
+          "reached_other_side": 0.13333333333333333
+        }
+      }
+    },
+    "EXP-0057": {
+      "rule": "vwap_trend_twap",
+      "checks": {
+        "dev >= 60 trades": true,
+        "dev 1x mean R > 0, 95% interval above 0": false,
+        "dev 2x mean R > 0": false,
+        "dev_a 1x mean R > 0": false,
+        "dev_b 1x mean R > 0": false,
+        "validation 2x mean R > 0": false,
+        "holdout 1x mean R > 0": false,
+        "holdout 2x mean R > 0": false
+      },
+      "status": "REJECTED",
+      "dev": {
+        "trades": 163,
+        "gross_win_rate": 0.25766871165644173,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": 0.0036339911373513205,
+        "gross_mean_pts": 0.7009665030675157,
+        "median_risk_pts": 31.769000000000233,
+        "median_risk_inr_per_lot": 2227.0754999999554,
+        "exit_reasons": {
+          "signal": 119,
+          "time": 26,
+          "stop": 18
+        },
+        "shorts": 89,
+        "longs": 74,
+        "1x": {
+          "win_rate": 0.19631901840490798,
+          "mean_r": -0.20859801149980803,
+          "mean_pts": -5.714469176017086,
+          "mean_inr_per_lot": -339.30330633445044,
+          "total_inr_per_lot": -55306.438932515426,
+          "profit_factor": 0.6674279423281143,
+          "max_drawdown_inr_per_lot": -87243.81577811648,
+          "max_drawdown_r": -37.837528329592665,
+          "etf15k_mean_inr": -56.66055207687965,
+          "etf15k_total_inr": -9235.669988531383,
+          "etf15k_win_rate": 0.09815950920245399,
+          "ci95_mean_r": [
+            -0.36149220657611525,
+            -0.03287566365501359
+          ]
+        },
+        "2x": {
+          "win_rate": 0.17791411042944785,
+          "mean_r": -0.42083001413696736,
+          "mean_pts": -12.129904855101687,
+          "mean_inr_per_lot": -752.9589010124605,
+          "total_inr_per_lot": -122732.30086503107,
+          "profit_factor": 0.45777900544123995,
+          "max_drawdown_inr_per_lot": -135688.57546745692,
+          "max_drawdown_r": -69.0722669404657,
+          "etf15k_mean_inr": -115.14822046833683,
+          "etf15k_total_inr": -18769.159936338903,
+          "etf15k_win_rate": 0.024539877300613498,
+          "ci95_mean_r": [
+            -0.5744860336548664,
+            -0.24269074320401998
+          ]
+        }
+      },
+      "dev_a": {
+        "trades": 82,
+        "gross_win_rate": 0.2804878048780488,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": 0.06668190878163534,
+        "gross_mean_pts": 3.2149904878048092,
+        "median_risk_pts": 27.683390000000145,
+        "median_risk_inr_per_lot": 2076.254250000011,
+        "exit_reasons": {
+          "signal": 59,
+          "time": 13,
+          "stop": 10
+        },
+        "shorts": 46,
+        "longs": 36,
+        "1x": {
+          "win_rate": 0.2073170731707317,
+          "mean_r": -0.1582080882698674,
+          "mean_pts": -2.4094203202844033,
+          "mean_inr_per_lot": -180.7065240213304,
+          "total_inr_per_lot": -14817.934969749092,
+          "profit_factor": 0.8491941222530225,
+          "max_drawdown_inr_per_lot": -46023.96043512523,
+          "max_drawdown_r": -16.66350310558282,
+          "etf15k_mean_inr": -53.41471581325916,
+          "etf15k_total_inr": -4380.006696687251,
+          "etf15k_win_rate": 0.10975609756097561,
+          "ci95_mean_r": [
+            -0.41000317041680323,
+            0.11984671052864829
+          ]
+        },
+        "2x": {
+          "win_rate": 0.17073170731707318,
+          "mean_r": -0.3830980853213701,
+          "mean_pts": -8.033831128373615,
+          "mean_inr_per_lot": -602.5373346280214,
+          "total_inr_per_lot": -49408.06143949775,
+          "profit_factor": 0.6076826391345965,
+          "max_drawdown_inr_per_lot": -62019.133281473674,
+          "max_drawdown_r": -31.822287513729762,
+          "etf15k_mean_inr": -111.90396318243948,
+          "etf15k_total_inr": -9176.124980960038,
+          "etf15k_win_rate": 0.036585365853658534,
+          "ci95_mean_r": [
+            -0.6385105640636396,
+            -0.10078449372850744
+          ]
+        }
+      },
+      "dev_b": {
+        "trades": 81,
+        "gross_win_rate": 0.2345679012345679,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": -0.06019229586056582,
+        "gross_mean_pts": -1.8440948148146825,
+        "median_risk_pts": 38.35512000000017,
+        "median_risk_inr_per_lot": 2404.1955000000144,
+        "exit_reasons": {
+          "signal": 60,
+          "time": 13,
+          "stop": 8
+        },
+        "shorts": 43,
+        "longs": 38,
+        "1x": {
+          "win_rate": 0.18518518518518517,
+          "mean_r": -0.2596100325474022,
+          "mean_pts": -9.060321104042766,
+          "mean_inr_per_lot": -499.8580736143992,
+          "total_inr_per_lot": -40488.503962766335,
+          "profit_factor": 0.5076773699988312,
+          "max_drawdown_inr_per_lot": -44442.57374447648,
+          "max_drawdown_r": -23.733709277995438,
+          "etf15k_mean_inr": -59.94646039313741,
+          "etf15k_total_inr": -4855.66329184413,
+          "etf15k_win_rate": 0.08641975308641975,
+          "ci95_mean_r": [
+            -0.4226238286206339,
+            -0.08120238922279395
+          ]
+        },
+        "2x": {
+          "win_rate": 0.18518518518518517,
+          "mean_r": -0.45902776923423866,
+          "mean_pts": -16.276547393270846,
+          "mean_inr_per_lot": -905.2375237720162,
+          "total_inr_per_lot": -73324.2394255333,
+          "profit_factor": 0.3298256496812665,
+          "max_drawdown_inr_per_lot": -75201.83663921314,
+          "max_drawdown_r": -38.32911614008259,
+          "etf15k_mean_inr": -118.43253031331933,
+          "etf15k_total_inr": -9593.034955378866,
+          "etf15k_win_rate": 0.012345679012345678,
+          "ci95_mean_r": [
+            -0.6290006073471034,
+            -0.27676891639742013
+          ]
+        }
+      },
+      "validation": {
+        "trades": 76,
+        "gross_win_rate": 0.23684210526315788,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": -0.04167288287462428,
+        "gross_mean_pts": -2.62170223684198,
+        "median_risk_pts": 42.79579499999818,
+        "median_risk_inr_per_lot": 1969.6032500000001,
+        "exit_reasons": {
+          "signal": 56,
+          "time": 12,
+          "stop": 8
+        },
+        "shorts": 36,
+        "longs": 40,
+        "1x": {
+          "win_rate": 0.2236842105263158,
+          "mean_r": -0.2467592886220978,
+          "mean_pts": -11.410011146863843,
+          "mean_inr_per_lot": -393.64502976516604,
+          "total_inr_per_lot": -29917.02226215262,
+          "profit_factor": 0.5790760023351191,
+          "max_drawdown_inr_per_lot": -33717.27365798475,
+          "max_drawdown_r": -18.753705935279434,
+          "etf15k_mean_inr": -60.14050552241565,
+          "etf15k_total_inr": -4570.6784197035895,
+          "etf15k_win_rate": 0.07894736842105263,
+          "ci95_mean_r": [
+            -0.4768556765226334,
+            -0.007220758647706117
+          ]
+        },
+        "2x": {
+          "win_rate": 0.18421052631578946,
+          "mean_r": -0.4518456943695713,
+          "mean_pts": -20.19832005688571,
+          "mean_inr_per_lot": -752.6366878198123,
+          "total_inr_per_lot": -57200.38827430574,
+          "profit_factor": 0.4068493394238587,
+          "max_drawdown_inr_per_lot": -57398.33167560246,
+          "max_drawdown_r": -34.34027277208742,
+          "etf15k_mean_inr": -118.62648104691289,
+          "etf15k_total_inr": -9015.61255956538,
+          "etf15k_win_rate": 0.039473684210526314,
+          "ci95_mean_r": [
+            -0.6844141118808666,
+            -0.20728883759928796
+          ]
+        }
+      },
+      "holdout": {
+        "trades": 76,
+        "gross_win_rate": 0.34210526315789475,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": 0.07488307614315089,
+        "gross_mean_pts": 1.7160473684210669,
+        "median_risk_pts": 53.374039999998786,
+        "median_risk_inr_per_lot": 3583.036599999841,
+        "exit_reasons": {
+          "signal": 54,
+          "time": 13,
+          "stop": 9
+        },
+        "shorts": 36,
+        "longs": 40,
+        "1x": {
+          "win_rate": 0.2894736842105263,
+          "mean_r": -0.12079676705392325,
+          "mean_pts": -7.41289556559551,
+          "mean_inr_per_lot": -539.0214719479185,
+          "total_inr_per_lot": -40965.631868041804,
+          "profit_factor": 0.7135064090020794,
+          "max_drawdown_inr_per_lot": -52553.69740162096,
+          "max_drawdown_r": -13.623677053784348,
+          "etf15k_mean_inr": -57.290115139864014,
+          "etf15k_total_inr": -4354.048750629665,
+          "etf15k_win_rate": 0.09210526315789473,
+          "ci95_mean_r": [
+            -0.3071706189923365,
+            0.08948102379434013
+          ]
+        },
+        "2x": {
+          "win_rate": 0.27631578947368424,
+          "mean_r": -0.3164766102509973,
+          "mean_pts": -16.541838499612087,
+          "mean_inr_per_lot": -1164.550875474786,
+          "total_inr_per_lot": -88505.86653608373,
+          "profit_factor": 0.4897140723867346,
+          "max_drawdown_inr_per_lot": -96428.07581208857,
+          "max_drawdown_r": -26.051921300702954,
+          "etf15k_mean_inr": -115.77747727248033,
+          "etf15k_total_inr": -8799.088272708505,
+          "etf15k_win_rate": 0.0,
+          "ci95_mean_r": [
+            -0.5016881690331203,
+            -0.10993905038967443
+          ]
+        }
+      },
+      "all": {
+        "trades": 315,
+        "gross_win_rate": 0.273015873015873,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": 0.009893064266019965,
+        "gross_mean_pts": 0.1442151428571927,
+        "median_risk_pts": 38.35512000000017,
+        "median_risk_inr_per_lot": 2382.6750000000175,
+        "exit_reasons": {
+          "signal": 229,
+          "time": 51,
+          "stop": 35
+        },
+        "shorts": 161,
+        "longs": 154,
+        "1x": {
+          "win_rate": 0.2253968253968254,
+          "mean_r": -0.19662138446300417,
+          "mean_pts": -7.498410748691097,
+          "mean_inr_per_lot": -400.6002954371741,
+          "total_inr_per_lot": -126189.09306270984,
+          "profit_factor": 0.654039885297154,
+          "max_drawdown_inr_per_lot": -158630.27759204048,
+          "max_drawdown_r": -67.29854984500653,
+          "etf15k_mean_inr": -57.652054472586144,
+          "etf15k_total_inr": -18160.397158864635,
+          "etf15k_win_rate": 0.09206349206349207,
+          "ci95_mean_r": [
+            -0.3041820994050019,
+            -0.08357808736652196
+          ]
+        },
+        "2x": {
+          "win_rate": 0.20317460317460317,
+          "mean_r": -0.4031358331920282,
+          "mean_pts": -15.14103664023939,
+          "mean_inr_per_lot": -852.1858910330809,
+          "total_inr_per_lot": -268438.5556754205,
+          "profit_factor": 0.4516709955257536,
+          "max_drawdown_inr_per_lot": -281049.6275173966,
+          "max_drawdown_r": -127.39603197286637,
+          "etf15k_mean_inr": -116.13924053527866,
+          "etf15k_total_inr": -36583.86076861278,
+          "etf15k_win_rate": 0.022222222222222223,
+          "ci95_mean_r": [
+            -0.5113873071760782,
+            -0.2908924677897735
+          ]
+        }
+      },
+      "by_year": {
+        "2019": {
+          "trades": 39,
+          "win_rate_1x": 0.2564102564102564,
+          "mean_r_1x": -0.12176929164347595,
+          "mean_r_2x": -0.38761512070048565,
+          "inr_per_lot_1x": 8312.89084838643,
+          "reached_other_side": 0.0
+        },
+        "2020": {
+          "trades": 43,
+          "win_rate_1x": 0.16279069767441862,
+          "mean_r_1x": -0.19125722939612927,
+          "mean_r_2x": -0.3790012392798466,
+          "inr_per_lot_1x": -23130.82581813551,
+          "reached_other_side": 0.0
+        },
+        "2021": {
+          "trades": 43,
+          "win_rate_1x": 0.16279069767441862,
+          "mean_r_1x": -0.2668881221941077,
+          "mean_r_2x": -0.4929691380145506,
+          "inr_per_lot_1x": -25613.271863717713,
+          "reached_other_side": 0.0
+        },
+        "2022": {
+          "trades": 38,
+          "win_rate_1x": 0.21052631578947367,
+          "mean_r_1x": -0.2513742995261304,
+          "mean_r_2x": -0.42062043087756995,
+          "inr_per_lot_1x": -14875.232099048624,
+          "reached_other_side": 0.0
+        },
+        "2023": {
+          "trades": 38,
+          "win_rate_1x": 0.21052631578947367,
+          "mean_r_1x": -0.20582215830982092,
+          "mean_r_2x": -0.43112462727032796,
+          "inr_per_lot_1x": -10511.607040156268,
+          "reached_other_side": 0.0
+        },
+        "2024": {
+          "trades": 38,
+          "win_rate_1x": 0.23684210526315788,
+          "mean_r_1x": -0.2876964189343747,
+          "mean_r_2x": -0.47256676146881477,
+          "inr_per_lot_1x": -19405.415221996358,
+          "reached_other_side": 0.0
+        },
+        "2025": {
+          "trades": 43,
+          "win_rate_1x": 0.23255813953488372,
+          "mean_r_1x": -0.09103779706398236,
+          "mean_r_2x": -0.2969286063882945,
+          "inr_per_lot_1x": -22105.896993395592,
+          "reached_other_side": 0.0
+        },
+        "2026": {
+          "trades": 33,
+          "win_rate_1x": 0.36363636363636365,
+          "mean_r_1x": -0.15957360673778562,
+          "mean_r_2x": -0.34194825164785264,
+          "inr_per_lot_1x": -18859.734874646212,
+          "reached_other_side": 0.0
+        }
+      },
+      "by_weekday": {
+        "Monday": {
+          "trades": 4,
+          "win_rate_1x": 0.5,
+          "mean_r_1x": -0.32618903184665493,
+          "mean_r_2x": -0.4323895416916543,
+          "inr_per_lot_1x": -5775.453645760694,
+          "reached_other_side": 0.0
+        },
+        "Thursday": {
+          "trades": 255,
+          "win_rate_1x": 0.20392156862745098,
+          "mean_r_1x": -0.22432425793247235,
+          "mean_r_2x": -0.4312134058881127,
+          "inr_per_lot_1x": -106250.23686350521,
+          "reached_other_side": 0.0
+        },
+        "Tuesday": {
+          "trades": 45,
+          "win_rate_1x": 0.3333333333333333,
+          "mean_r_1x": -0.08846336091747803,
+          "mean_r_2x": -0.2910842971117398,
+          "inr_per_lot_1x": -12893.274063103274,
+          "reached_other_side": 0.0
+        },
+        "Wednesday": {
+          "trades": 11,
+          "win_rate_1x": 0.18181818181818182,
+          "mean_r_1x": 0.050232457782478625,
+          "mean_r_2x": -0.20000158338411447,
+          "inr_per_lot_1x": -1270.1284903406665,
+          "reached_other_side": 0.0
+        }
+      }
+    },
+    "EXP-0058": {
+      "rule": "gap_fade",
+      "checks": {
+        "dev >= 60 trades": true,
+        "dev 1x mean R > 0, 95% interval above 0": false,
+        "dev 2x mean R > 0": false,
+        "dev_a 1x mean R > 0": false,
+        "dev_b 1x mean R > 0": false,
+        "validation 2x mean R > 0": false,
+        "holdout 1x mean R > 0": true,
+        "holdout 2x mean R > 0": false
+      },
+      "status": "REJECTED",
+      "dev": {
+        "trades": 110,
+        "gross_win_rate": 0.32727272727272727,
+        "reached_other_side_rate": 0.3,
+        "gross_mean_r": 0.1512199182195355,
+        "gross_mean_pts": 5.294925181818243,
+        "median_risk_pts": 25.345619999999144,
+        "median_risk_inr_per_lot": 1512.3360000000048,
+        "exit_reasons": {
+          "stop": 74,
+          "target": 33,
+          "time": 3
+        },
+        "shorts": 76,
+        "longs": 34,
+        "1x": {
+          "win_rate": 0.32727272727272727,
+          "mean_r": -0.2529366905008523,
+          "mean_pts": -1.2426800037656922,
+          "mean_inr_per_lot": -85.9594828522197,
+          "total_inr_per_lot": -9455.543113744166,
+          "profit_factor": 0.9393460570576128,
+          "max_drawdown_inr_per_lot": -37462.53868400642,
+          "max_drawdown_r": -39.56486905308568,
+          "etf15k_mean_inr": -53.84127042173401,
+          "etf15k_total_inr": -5922.539746390741,
+          "etf15k_win_rate": 0.15454545454545454,
+          "ci95_mean_r": [
+            -0.6382298830902298,
+            0.18800008973206828
+          ]
+        },
+        "2x": {
+          "win_rate": 0.3181818181818182,
+          "mean_r": -0.6570932992212404,
+          "mean_pts": -7.780285189349627,
+          "mean_inr_per_lot": -494.7499929771712,
+          "total_inr_per_lot": -54422.49922748883,
+          "profit_factor": 0.6876938009928264,
+          "max_drawdown_inr_per_lot": -65627.1310696532,
+          "max_drawdown_r": -75.8919844529057,
+          "etf15k_mean_inr": -112.33031028807999,
+          "etf15k_total_inr": -12356.334131688798,
+          "etf15k_win_rate": 0.05454545454545454,
+          "ci95_mean_r": [
+            -1.0618074297196198,
+            -0.21319397737206344
+          ]
+        }
+      },
+      "dev_a": {
+        "trades": 46,
+        "gross_win_rate": 0.32608695652173914,
+        "reached_other_side_rate": 0.32608695652173914,
+        "gross_mean_r": 0.21169590798437396,
+        "gross_mean_pts": 0.8550856521740412,
+        "median_risk_pts": 21.87520500000028,
+        "median_risk_inr_per_lot": 1640.6403750000209,
+        "exit_reasons": {
+          "stop": 31,
+          "target": 15
+        },
+        "shorts": 30,
+        "longs": 16,
+        "1x": {
+          "win_rate": 0.32608695652173914,
+          "mean_r": -0.1817901149441217,
+          "mean_pts": -4.69511526363673,
+          "mean_inr_per_lot": -352.1336447727546,
+          "total_inr_per_lot": -16198.147659546714,
+          "profit_factor": 0.7495058529580729,
+          "max_drawdown_inr_per_lot": -37462.53868400642,
+          "max_drawdown_r": -24.96471844174073,
+          "etf15k_mean_inr": -58.65129474381418,
+          "etf15k_total_inr": -2697.959558215452,
+          "etf15k_win_rate": 0.13043478260869565,
+          "ci95_mean_r": [
+            -0.8213429376540013,
+            0.5982140385390737
+          ]
+        },
+        "2x": {
+          "win_rate": 0.30434782608695654,
+          "mean_r": -0.5752761378726173,
+          "mean_pts": -10.245316179447501,
+          "mean_inr_per_lot": -768.398713458563,
+          "total_inr_per_lot": -35346.34081909389,
+          "profit_factor": 0.5456529230294503,
+          "max_drawdown_inr_per_lot": -46696.61636801314,
+          "max_drawdown_r": -36.062495658398674,
+          "etf15k_mean_inr": -117.13799471355556,
+          "etf15k_total_inr": -5388.347756823556,
+          "etf15k_win_rate": 0.06521739130434782,
+          "ci95_mean_r": [
+            -1.2396779959514685,
+            0.19088937413737136
+          ]
+        }
+      },
+      "dev_b": {
+        "trades": 64,
+        "gross_win_rate": 0.328125,
+        "reached_other_side_rate": 0.28125,
+        "gross_mean_r": 0.10775280057605785,
+        "gross_mean_pts": 8.486059843750013,
+        "median_risk_pts": 27.364504999998644,
+        "median_risk_inr_per_lot": 1454.007250000086,
+        "exit_reasons": {
+          "stop": 43,
+          "target": 18,
+          "time": 3
+        },
+        "shorts": 46,
+        "longs": 18,
+        "1x": {
+          "win_rate": 0.328125,
+          "mean_r": -0.3040732916822526,
+          "mean_pts": 1.238757839266615,
+          "mean_inr_per_lot": 105.35319602816486,
+          "total_inr_per_lot": 6742.604545802551,
+          "profit_factor": 1.0569753945374827,
+          "max_drawdown_inr_per_lot": -19188.692279623505,
+          "max_drawdown_r": -27.90250338764274,
+          "etf15k_mean_inr": -50.384065440238885,
+          "etf15k_total_inr": -3224.5801881752886,
+          "etf15k_win_rate": 0.171875,
+          "ci95_mean_r": [
+            -0.7662064408053845,
+            0.21238065828857602
+          ]
+        },
+        "2x": {
+          "win_rate": 0.328125,
+          "mean_r": -0.7158993839405632,
+          "mean_pts": -6.008544165216781,
+          "mean_inr_per_lot": -298.0649751311712,
+          "total_inr_per_lot": -19076.158408394956,
+          "profit_factor": 0.7742052253551247,
+          "max_drawdown_inr_per_lot": -34096.45839719547,
+          "max_drawdown_r": -49.341698154465014,
+          "etf15k_mean_inr": -108.87478710726941,
+          "etf15k_total_inr": -6967.986374865242,
+          "etf15k_win_rate": 0.046875,
+          "ci95_mean_r": [
+            -1.2171985846557993,
+            -0.16265528659876616
+          ]
+        }
+      },
+      "validation": {
+        "trades": 40,
+        "gross_win_rate": 0.325,
+        "reached_other_side_rate": 0.25,
+        "gross_mean_r": 0.10575282106002437,
+        "gross_mean_pts": 2.0389007499999936,
+        "median_risk_pts": 28.388754999998127,
+        "median_risk_inr_per_lot": 1088.987249999991,
+        "exit_reasons": {
+          "stop": 27,
+          "target": 10,
+          "time": 3
+        },
+        "shorts": 26,
+        "longs": 14,
+        "1x": {
+          "win_rate": 0.325,
+          "mean_r": -0.37037259608685247,
+          "mean_pts": -6.899032069744751,
+          "mean_inr_per_lot": -42.24827073885611,
+          "total_inr_per_lot": -1689.9308295542442,
+          "profit_factor": 0.7203945513561025,
+          "max_drawdown_inr_per_lot": -13809.198714208474,
+          "max_drawdown_r": -22.06758370875108,
+          "etf15k_mean_inr": -56.41324693866541,
+          "etf15k_total_inr": -2256.5298775466163,
+          "etf15k_win_rate": 0.1,
+          "ci95_mean_r": [
+            -1.0388807202289192,
+            0.3577904615929964
+          ]
+        },
+        "2x": {
+          "win_rate": 0.3,
+          "mean_r": -0.8464980132337292,
+          "mean_pts": -15.836964889489494,
+          "mean_inr_per_lot": -399.7106539777145,
+          "total_inr_per_lot": -15988.42615910858,
+          "profit_factor": 0.4864723573391299,
+          "max_drawdown_inr_per_lot": -22713.051662823505,
+          "max_drawdown_r": -38.320153883766125,
+          "etf15k_mean_inr": -114.90103563480598,
+          "etf15k_total_inr": -4596.041425392239,
+          "etf15k_win_rate": 0.025,
+          "ci95_mean_r": [
+            -1.5904650660457986,
+            -0.08762913394235196
+          ]
+        }
+      },
+      "holdout": {
+        "trades": 28,
+        "gross_win_rate": 0.4642857142857143,
+        "reached_other_side_rate": 0.2857142857142857,
+        "gross_mean_r": 0.47413889532796544,
+        "gross_mean_pts": 12.621653214285939,
+        "median_risk_pts": 60.32486499999868,
+        "median_risk_inr_per_lot": 3939.8381749998953,
+        "exit_reasons": {
+          "stop": 13,
+          "target": 8,
+          "time": 7
+        },
+        "shorts": 13,
+        "longs": 15,
+        "1x": {
+          "win_rate": 0.4642857142857143,
+          "mean_r": 0.23515706891954902,
+          "mean_pts": 3.5877432719168465,
+          "mean_inr_per_lot": 187.29723715628114,
+          "total_inr_per_lot": 5244.322640375872,
+          "profit_factor": 1.0912908437658826,
+          "max_drawdown_inr_per_lot": -52350.6816402656,
+          "max_drawdown_r": -12.178505950942093,
+          "etf15k_mean_inr": -49.863930633682784,
+          "etf15k_total_inr": -1396.190057743118,
+          "etf15k_win_rate": 0.25,
+          "ci95_mean_r": [
+            -0.6564522614914307,
+            1.4490129276019732
+          ]
+        },
+        "2x": {
+          "win_rate": 0.42857142857142855,
+          "mean_r": -0.003824757488867625,
+          "mean_pts": -5.446166670452252,
+          "mean_inr_per_lot": -430.51198104459735,
+          "total_inr_per_lot": -12054.335469248726,
+          "profit_factor": 0.8769086159983935,
+          "max_drawdown_inr_per_lot": -60095.24823053148,
+          "max_drawdown_r": -16.441313466839752,
+          "etf15k_mean_inr": -108.35490532680762,
+          "etf15k_total_inr": -3033.9373491506135,
+          "etf15k_win_rate": 0.07142857142857142,
+          "ci95_mean_r": [
+            -0.9445207482062001,
+            1.2232533627961393
+          ]
+        }
+      },
+      "all": {
+        "trades": 178,
+        "gross_win_rate": 0.34831460674157305,
+        "reached_other_side_rate": 0.28651685393258425,
+        "gross_mean_r": 0.19179883660524108,
+        "gross_mean_pts": 5.715753314606813,
+        "median_risk_pts": 27.911690000000817,
+        "median_risk_inr_per_lot": 1527.9819999999518,
+        "exit_reasons": {
+          "stop": 114,
+          "target": 51,
+          "time": 13
+        },
+        "shorts": 115,
+        "longs": 63,
+        "1x": {
+          "win_rate": 0.34831460674157305,
+          "mean_r": -0.20254798802708135,
+          "mean_pts": -1.7539284920805873,
+          "mean_inr_per_lot": -33.15253540967719,
+          "total_inr_per_lot": -5901.151302922541,
+          "profit_factor": 0.9280821570684811,
+          "max_drawdown_inr_per_lot": -55706.741549923725,
+          "max_drawdown_r": -58.471310729124255,
+          "etf15k_mean_inr": -53.793593717306045,
+          "etf15k_total_inr": -9575.259681680476,
+          "etf15k_win_rate": 0.15730337078651685,
+          "ci95_mean_r": [
+            -0.5278734721025151,
+            0.15592149268871391
+          ]
+        },
+        "2x": {
+          "win_rate": 0.33146067415730335,
+          "mean_r": -0.5968948126594039,
+          "mean_pts": -9.223610298767987,
+          "mean_inr_per_lot": -463.28798233621427,
+          "total_inr_per_lot": -82465.26085584614,
+          "profit_factor": 0.6850439696232163,
+          "max_drawdown_inr_per_lot": -121440.70729984825,
+          "max_drawdown_r": -123.09037205339393,
+          "etf15k_mean_inr": -112.28265677658231,
+          "etf15k_total_inr": -19986.31290623165,
+          "etf15k_win_rate": 0.05056179775280899,
+          "ci95_mean_r": [
+            -0.9373302202483652,
+            -0.2343007874390942
+          ]
+        }
+      },
+      "by_year": {
+        "2019": {
+          "trades": 14,
+          "win_rate_1x": 0.5,
+          "mean_r_1x": 0.46582455773924963,
+          "mean_r_2x": 0.0017514614149817254,
+          "inr_per_lot_1x": 9160.97779385302,
+          "reached_other_side": 0.5
+        },
+        "2020": {
+          "trades": 32,
+          "win_rate_1x": 0.25,
+          "mean_r_1x": -0.4651215342430967,
+          "mean_r_2x": -0.8277257125609421,
+          "inr_per_lot_1x": -25359.12545339974,
+          "reached_other_side": 0.25
+        },
+        "2021": {
+          "trades": 27,
+          "win_rate_1x": 0.2962962962962963,
+          "mean_r_1x": -0.3159290337461131,
+          "mean_r_2x": -0.7930984125721023,
+          "inr_per_lot_1x": 8809.7470047841,
+          "reached_other_side": 0.25925925925925924
+        },
+        "2022": {
+          "trades": 37,
+          "win_rate_1x": 0.35135135135135137,
+          "mean_r_1x": -0.2954218042302463,
+          "mean_r_2x": -0.6595649576418722,
+          "inr_per_lot_1x": -2067.1424589815524,
+          "reached_other_side": 0.2972972972972973
+        },
+        "2023": {
+          "trades": 17,
+          "win_rate_1x": 0.23529411764705882,
+          "mean_r_1x": -0.9216972498012671,
+          "mean_r_2x": -1.5143340207355442,
+          "inr_per_lot_1x": -1723.0847283384765,
+          "reached_other_side": 0.23529411764705882
+        },
+        "2024": {
+          "trades": 23,
+          "win_rate_1x": 0.391304347826087,
+          "mean_r_1x": 0.03712823491945401,
+          "mean_r_2x": -0.3528800946454312,
+          "inr_per_lot_1x": 33.15389878423582,
+          "reached_other_side": 0.2608695652173913
+        },
+        "2025": {
+          "trades": 15,
+          "win_rate_1x": 0.4,
+          "mean_r_1x": -0.38274290520685383,
+          "mean_r_2x": -0.7089535526444232,
+          "inr_per_lot_1x": -4433.301375193655,
+          "reached_other_side": 0.2
+        },
+        "2026": {
+          "trades": 13,
+          "win_rate_1x": 0.5384615384615384,
+          "mean_r_1x": 0.948118577526937,
+          "mean_r_2x": 0.8097853907675426,
+          "inr_per_lot_1x": 9677.624015569525,
+          "reached_other_side": 0.38461538461538464
+        }
+      },
+      "by_weekday": {
+        "Monday": {
+          "trades": 4,
+          "win_rate_1x": 0.25,
+          "mean_r_1x": 1.3053005434907823,
+          "mean_r_2x": 1.0614048173828559,
+          "inr_per_lot_1x": -6847.808407633438,
+          "reached_other_side": 0.0
+        },
+        "Thursday": {
+          "trades": 153,
+          "win_rate_1x": 0.3464052287581699,
+          "mean_r_1x": -0.23867598870046297,
+          "mean_r_2x": -0.6489454758568144,
+          "inr_per_lot_1x": 4180.303230017686,
+          "reached_other_side": 0.29411764705882354
+        },
+        "Tuesday": {
+          "trades": 13,
+          "win_rate_1x": 0.46153846153846156,
+          "mean_r_1x": 0.020504220786040615,
+          "mean_r_2x": -0.2610752397608009,
+          "inr_per_lot_1x": 4561.093254716593,
+          "reached_other_side": 0.38461538461538464
+        },
+        "Wednesday": {
+          "trades": 8,
+          "win_rate_1x": 0.25,
+          "mean_r_1x": -0.6279840802289139,
+          "mean_r_2x": -0.9762824999902876,
+          "inr_per_lot_1x": -7794.739380023379,
+          "reached_other_side": 0.125
+        }
+      }
+    },
+    "EXP-0059": {
+      "rule": "gap_follow",
+      "checks": {
+        "dev >= 60 trades": true,
+        "dev 1x mean R > 0, 95% interval above 0": false,
+        "dev 2x mean R > 0": false,
+        "dev_a 1x mean R > 0": false,
+        "dev_b 1x mean R > 0": false,
+        "validation 2x mean R > 0": false,
+        "holdout 1x mean R > 0": false,
+        "holdout 2x mean R > 0": false
+      },
+      "status": "REJECTED",
+      "dev": {
+        "trades": 109,
+        "gross_win_rate": 0.1926605504587156,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": -0.029345824144958857,
+        "gross_mean_pts": 4.892001834862824,
+        "median_risk_pts": 16.571760000000722,
+        "median_risk_inr_per_lot": 1051.3335000000097,
+        "exit_reasons": {
+          "stop": 87,
+          "time": 22
+        },
+        "shorts": 34,
+        "longs": 75,
+        "1x": {
+          "win_rate": 0.1834862385321101,
+          "mean_r": -0.8044830035722509,
+          "mean_pts": -1.6607129864251233,
+          "mean_inr_per_lot": -147.35393171726741,
+          "total_inr_per_lot": -16061.578557182147,
+          "profit_factor": 0.9296444200758003,
+          "max_drawdown_inr_per_lot": -52095.141900403,
+          "max_drawdown_r": -87.68864738937533,
+          "etf15k_mean_inr": -52.11553195207205,
+          "etf15k_total_inr": -5680.592982775853,
+          "etf15k_win_rate": 0.14678899082568808,
+          "ci95_mean_r": [
+            -1.443038539012134,
+            -0.17724543533967158
+          ]
+        },
+        "2x": {
+          "win_rate": 0.1834862385321101,
+          "mean_r": -1.5796201829995433,
+          "mean_pts": -8.213427807713071,
+          "mean_inr_per_lot": -556.5362464620824,
+          "total_inr_per_lot": -60662.45086436698,
+          "profit_factor": 0.7167894400779633,
+          "max_drawdown_inr_per_lot": -72417.2584561939,
+          "max_drawdown_r": -172.17859994695024,
+          "etf15k_mean_inr": -110.60541132552135,
+          "etf15k_total_inr": -12055.989834481827,
+          "etf15k_win_rate": 0.10091743119266056,
+          "ci95_mean_r": [
+            -2.6116598313399106,
+            -0.7168840765157276
+          ]
+        }
+      },
+      "dev_a": {
+        "trades": 45,
+        "gross_win_rate": 0.24444444444444444,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": 0.1396285763510971,
+        "gross_mean_pts": 10.088286444444567,
+        "median_risk_pts": 16.571760000000722,
+        "median_risk_inr_per_lot": 1242.8820000000542,
+        "exit_reasons": {
+          "stop": 34,
+          "time": 11
+        },
+        "shorts": 16,
+        "longs": 29,
+        "1x": {
+          "win_rate": 0.24444444444444444,
+          "mean_r": -0.41638592351192866,
+          "mean_pts": 4.520995609126238,
+          "mean_inr_per_lot": 339.07467068446806,
+          "total_inr_per_lot": 15258.360180801063,
+          "profit_factor": 1.2039822389577044,
+          "max_drawdown_inr_per_lot": -27338.71817230668,
+          "max_drawdown_r": -21.014629530765582,
+          "etf15k_mean_inr": -43.87047349461422,
+          "etf15k_total_inr": -1974.17130725764,
+          "etf15k_win_rate": 0.17777777777777778,
+          "ci95_mean_r": [
+            -1.3374607992603758,
+            0.4650223030780543
+          ]
+        },
+        "2x": {
+          "win_rate": 0.24444444444444444,
+          "mean_r": -0.9724004233749546,
+          "mean_pts": -1.0462952261920886,
+          "mean_inr_per_lot": -78.47214196440649,
+          "total_inr_per_lot": -3531.2463883982923,
+          "profit_factor": 0.9603627153178305,
+          "max_drawdown_inr_per_lot": -33252.72484461353,
+          "max_drawdown_r": -43.75801905187296,
+          "etf15k_mean_inr": -102.36436378006674,
+          "etf15k_total_inr": -4606.396370103003,
+          "etf15k_win_rate": 0.13333333333333333,
+          "ci95_mean_r": [
+            -2.217855433632006,
+            0.10544708602040025
+          ]
+        }
+      },
+      "dev_b": {
+        "trades": 64,
+        "gross_win_rate": 0.15625,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": -0.14815594949374813,
+        "gross_mean_pts": 1.238364218750661,
+        "median_risk_pts": 16.721334999998362,
+        "median_risk_inr_per_lot": 914.6129999999175,
+        "exit_reasons": {
+          "stop": 53,
+          "time": 11
+        },
+        "shorts": 18,
+        "longs": 46,
+        "1x": {
+          "win_rate": 0.140625,
+          "mean_r": -1.0773637629896649,
+          "mean_pts": -6.007226842672177,
+          "mean_inr_per_lot": -489.3740427809876,
+          "total_inr_per_lot": -31319.938737983208,
+          "profit_factor": 0.7559793168645468,
+          "max_drawdown_inr_per_lot": -40619.15472904174,
+          "max_drawdown_r": -68.95128083133855,
+          "etf15k_mean_inr": -57.91283867997208,
+          "etf15k_total_inr": -3706.4216755182133,
+          "etf15k_win_rate": 0.125,
+          "ci95_mean_r": [
+            -2.0375581904581312,
+            -0.23119182817004325
+          ]
+        },
+        "2x": {
+          "win_rate": 0.140625,
+          "mean_r": -2.0065715764855816,
+          "mean_pts": -13.252817904095014,
+          "mean_inr_per_lot": -892.6750699370109,
+          "total_inr_per_lot": -57131.2044759687,
+          "profit_factor": 0.5701651526833028,
+          "max_drawdown_inr_per_lot": -57131.204475968676,
+          "max_drawdown_r": -128.4205808950772,
+          "etf15k_mean_inr": -116.3998978809191,
+          "etf15k_total_inr": -7449.593464378822,
+          "etf15k_win_rate": 0.078125,
+          "ci95_mean_r": [
+            -3.6743679498856356,
+            -0.8321244189344363
+          ]
+        }
+      },
+      "validation": {
+        "trades": 40,
+        "gross_win_rate": 0.15,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": 0.5213188847138035,
+        "gross_mean_pts": -7.687830999999642,
+        "median_risk_pts": 31.60413999999946,
+        "median_risk_inr_per_lot": 1389.3635000000359,
+        "exit_reasons": {
+          "stop": 33,
+          "time": 7
+        },
+        "shorts": 14,
+        "longs": 26,
+        "1x": {
+          "win_rate": 0.15,
+          "mean_r": 0.06908426792875251,
+          "mean_pts": -16.62239510095425,
+          "mean_inr_per_lot": -688.9197482394829,
+          "total_inr_per_lot": -27556.789929579318,
+          "profit_factor": 0.5302144493064753,
+          "max_drawdown_inr_per_lot": -27556.789929579325,
+          "max_drawdown_r": -19.148714748855326,
+          "etf15k_mean_inr": -63.48126523777817,
+          "etf15k_total_inr": -2539.2506095111266,
+          "etf15k_win_rate": 0.1,
+          "ci95_mean_r": [
+            -1.175962325558405,
+            1.8343519507693555
+          ]
+        },
+        "2x": {
+          "win_rate": 0.15,
+          "mean_r": -0.3831503488562989,
+          "mean_pts": -25.55695920190886,
+          "mean_inr_per_lot": -1046.2444652289782,
+          "total_inr_per_lot": -41849.778609159126,
+          "profit_factor": 0.4062638515642361,
+          "max_drawdown_inr_per_lot": -41849.77860915914,
+          "max_drawdown_r": -25.981915811796075,
+          "etf15k_mean_inr": -121.96561560784971,
+          "etf15k_total_inr": -4878.6246243139885,
+          "etf15k_win_rate": 0.025,
+          "ci95_mean_r": [
+            -1.6316180433669456,
+            1.3177883696109156
+          ]
+        }
+      },
+      "holdout": {
+        "trades": 30,
+        "gross_win_rate": 0.1,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": -0.1311567371441475,
+        "gross_mean_pts": -15.812473666666241,
+        "median_risk_pts": 22.27331999999842,
+        "median_risk_inr_per_lot": 1459.0413749999243,
+        "exit_reasons": {
+          "stop": 27,
+          "time": 3
+        },
+        "shorts": 15,
+        "longs": 15,
+        "1x": {
+          "win_rate": 0.1,
+          "mean_r": -0.5895442059112921,
+          "mean_pts": -24.836612242800864,
+          "mean_inr_per_lot": -1693.5972045004992,
+          "total_inr_per_lot": -50807.91613501497,
+          "profit_factor": 0.4004784025251155,
+          "max_drawdown_inr_per_lot": -66066.49545782301,
+          "max_drawdown_r": -24.235954892163303,
+          "etf15k_mean_inr": -68.58128669543349,
+          "etf15k_total_inr": -2057.438600863005,
+          "etf15k_win_rate": 0.06666666666666667,
+          "ci95_mean_r": [
+            -1.4879488519767445,
+            0.9661947740273144
+          ]
+        },
+        "2x": {
+          "win_rate": 0.1,
+          "mean_r": -1.0479316746784366,
+          "mean_pts": -33.86075081893549,
+          "mean_inr_per_lot": -2308.7154773343623,
+          "total_inr_per_lot": -69261.46432003086,
+          "profit_factor": 0.3163904593516164,
+          "max_drawdown_inr_per_lot": -81032.91481564657,
+          "max_drawdown_r": -33.95449460456144,
+          "etf15k_mean_inr": -127.06315609615996,
+          "etf15k_total_inr": -3811.894682884799,
+          "etf15k_win_rate": 0.03333333333333333,
+          "ci95_mean_r": [
+            -1.997217213928981,
+            0.5410748145863128
+          ]
+        }
+      },
+      "all": {
+        "trades": 179,
+        "gross_win_rate": 0.16759776536312848,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": 0.07664446057221898,
+        "gross_mean_pts": -1.389157821228632,
+        "median_risk_pts": 21.35900000000038,
+        "median_risk_inr_per_lot": 1242.8820000000542,
+        "exit_reasons": {
+          "stop": 147,
+          "time": 32
+        },
+        "shorts": 63,
+        "longs": 116,
+        "1x": {
+          "win_rate": 0.16201117318435754,
+          "mean_r": -0.5732491779305252,
+          "mean_pts": -8.888334563366115,
+          "mean_inr_per_lot": -527.5211431384159,
+          "total_inr_per_lot": -94426.28462177645,
+          "profit_factor": 0.6958515348479238,
+          "max_drawdown_inr_per_lot": -136419.21129674686,
+          "max_drawdown_r": -109.16123156438853,
+          "etf15k_mean_inr": -57.414984319273664,
+          "etf15k_total_inr": -10277.282193149986,
+          "etf15k_win_rate": 0.12290502793296089,
+          "ci95_mean_r": [
+            -1.1249776387168453,
+            0.022524033052924063
+          ]
+        },
+        "2x": {
+          "win_rate": 0.16201117318435754,
+          "mean_r": -1.2231428164332694,
+          "mean_pts": -16.387511305503597,
+          "mean_inr_per_lot": -959.6295742656813,
+          "total_inr_per_lot": -171773.69379355694,
+          "profit_factor": 0.5394211367228432,
+          "max_drawdown_inr_per_lot": -195299.9518809995,
+          "max_drawdown_r": -221.45910850576362,
+          "etf15k_mean_inr": -115.90228570771292,
+          "etf15k_total_inr": -20746.509141680614,
+          "etf15k_win_rate": 0.07262569832402235,
+          "ci95_mean_r": [
+            -1.9872834369522154,
+            -0.5294597692405525
+          ]
+        }
+      },
+      "by_year": {
+        "2019": {
+          "trades": 14,
+          "win_rate_1x": 0.0,
+          "mean_r_1x": -1.5010449664832557,
+          "mean_r_2x": -2.0020899329665114,
+          "inr_per_lot_1x": -27338.71817230668,
+          "reached_other_side": 0.0
+        },
+        "2020": {
+          "trades": 31,
+          "win_rate_1x": 0.3548387096774194,
+          "mean_r_1x": 0.0734600958944771,
+          "mean_r_2x": -0.5073793545271547,
+          "inr_per_lot_1x": 42597.07835310773,
+          "reached_other_side": 0.0
+        },
+        "2021": {
+          "trades": 27,
+          "win_rate_1x": 0.14814814814814814,
+          "mean_r_1x": -1.234325421872793,
+          "mean_r_2x": -2.4581238606458107,
+          "inr_per_lot_1x": -31352.548568311715,
+          "reached_other_side": 0.0
+        },
+        "2022": {
+          "trades": 37,
+          "win_rate_1x": 0.13513513513513514,
+          "mean_r_1x": -0.9628241740749498,
+          "mean_r_2x": -1.6770604502064956,
+          "inr_per_lot_1x": 32.609830328507314,
+          "reached_other_side": 0.0
+        },
+        "2023": {
+          "trades": 17,
+          "win_rate_1x": 0.23529411764705882,
+          "mean_r_1x": 0.010433484071854397,
+          "mean_r_2x": -0.3666452035600767,
+          "inr_per_lot_1x": -9837.404039276953,
+          "reached_other_side": 0.0
+        },
+        "2024": {
+          "trades": 23,
+          "win_rate_1x": 0.08695652173913043,
+          "mean_r_1x": 0.11243484730124219,
+          "mean_r_2x": -0.3953498040752456,
+          "inr_per_lot_1x": -17719.38589030236,
+          "reached_other_side": 0.0
+        },
+        "2025": {
+          "trades": 15,
+          "win_rate_1x": 0.13333333333333333,
+          "mean_r_1x": -0.7919042246380504,
+          "mean_r_2x": -1.21598077062509,
+          "inr_per_lot_1x": -29016.060185742434,
+          "reached_other_side": 0.0
+        },
+        "2026": {
+          "trades": 15,
+          "win_rate_1x": 0.06666666666666667,
+          "mean_r_1x": -0.38718418718453396,
+          "mean_r_2x": -0.8798825787317833,
+          "inr_per_lot_1x": -21791.855949272544,
+          "reached_other_side": 0.0
+        }
+      },
+      "by_weekday": {
+        "Monday": {
+          "trades": 4,
+          "win_rate_1x": 0.0,
+          "mean_r_1x": -1.1015436604109081,
+          "mean_r_2x": -1.203087320821816,
+          "inr_per_lot_1x": -28490.60222659324,
+          "reached_other_side": 0.0
+        },
+        "Thursday": {
+          "trades": 152,
+          "win_rate_1x": 0.17105263157894737,
+          "mean_r_1x": -0.6546387830599242,
+          "mean_r_2x": -1.3351647407494436,
+          "inr_per_lot_1x": -54362.01967996868,
+          "reached_other_side": 0.0
+        },
+        "Tuesday": {
+          "trades": 15,
+          "win_rate_1x": 0.13333333333333333,
+          "mean_r_1x": 0.08355350368682196,
+          "mean_r_2x": -0.4777570250091589,
+          "inr_per_lot_1x": -2573.7057532534745,
+          "reached_other_side": 0.0
+        },
+        "Wednesday": {
+          "trades": 8,
+          "win_rate_1x": 0.125,
+          "mean_r_1x": 0.005795532735720865,
+          "mean_r_2x": -0.5023523611518941,
+          "inr_per_lot_1x": -8999.95696196106,
+          "reached_other_side": 0.0
+        }
+      }
+    },
+    "EXP-0060": {
+      "rule": "late_trend",
+      "checks": {
+        "dev >= 60 trades": true,
+        "dev 1x mean R > 0, 95% interval above 0": false,
+        "dev 2x mean R > 0": false,
+        "dev_a 1x mean R > 0": false,
+        "dev_b 1x mean R > 0": false,
+        "validation 2x mean R > 0": false,
+        "holdout 1x mean R > 0": true,
+        "holdout 2x mean R > 0": true
+      },
+      "status": "REJECTED",
+      "dev": {
+        "trades": 117,
+        "gross_win_rate": 0.4017094017094017,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": 0.12416400502740013,
+        "gross_mean_pts": 4.024825854701175,
+        "median_risk_pts": 33.61424999999872,
+        "median_risk_inr_per_lot": 2159.7749999998996,
+        "exit_reasons": {
+          "time": 63,
+          "stop": 54
+        },
+        "shorts": 67,
+        "longs": 50,
+        "1x": {
+          "win_rate": 0.37606837606837606,
+          "mean_r": -0.06407993817776465,
+          "mean_pts": -2.3563253657780487,
+          "mean_inr_per_lot": -118.77530566420201,
+          "total_inr_per_lot": -13896.710762711635,
+          "profit_factor": 0.8872346535774511,
+          "max_drawdown_inr_per_lot": -39818.68412290451,
+          "max_drawdown_r": -19.060578592600635,
+          "etf15k_mean_inr": -53.83289375275418,
+          "etf15k_total_inr": -6298.4485690722395,
+          "etf15k_win_rate": 0.1452991452991453,
+          "ci95_mean_r": [
+            -0.3231149711140561,
+            0.22269976191672078
+          ]
+        },
+        "2x": {
+          "win_rate": 0.3247863247863248,
+          "mean_r": -0.2523238813829293,
+          "mean_pts": -8.737476586257275,
+          "mean_inr_per_lot": -525.809505559195,
+          "total_inr_per_lot": -61519.71215042582,
+          "profit_factor": 0.6505734253450248,
+          "max_drawdown_inr_per_lot": -77019.15262081099,
+          "max_drawdown_r": -36.213328495120635,
+          "etf15k_mean_inr": -112.32193769403575,
+          "etf15k_total_inr": -13141.666710202184,
+          "etf15k_win_rate": 0.05982905982905983,
+          "ci95_mean_r": [
+            -0.5118365276940021,
+            0.03455216932605093
+          ]
+        }
+      },
+      "dev_a": {
+        "trades": 60,
+        "gross_win_rate": 0.38333333333333336,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": 0.1955857796317689,
+        "gross_mean_pts": 5.972072916667033,
+        "median_risk_pts": 28.172749999999724,
+        "median_risk_inr_per_lot": 2112.9562499999793,
+        "exit_reasons": {
+          "time": 31,
+          "stop": 29
+        },
+        "shorts": 31,
+        "longs": 29,
+        "1x": {
+          "win_rate": 0.35,
+          "mean_r": -0.005526499107127645,
+          "mean_pts": 0.4195489076694383,
+          "mean_inr_per_lot": 31.466168075207744,
+          "total_inr_per_lot": 1887.9700845124646,
+          "profit_factor": 1.023712865672401,
+          "max_drawdown_inr_per_lot": -32182.125253114027,
+          "max_drawdown_r": -17.206731017464076,
+          "etf15k_mean_inr": -51.155879472232094,
+          "etf15k_total_inr": -3069.3527683339257,
+          "etf15k_win_rate": 0.16666666666666666,
+          "ci95_mean_r": [
+            -0.4170960045587682,
+            0.4661528768161853
+          ]
+        },
+        "2x": {
+          "win_rate": 0.2833333333333333,
+          "mean_r": -0.20663877784602416,
+          "mean_pts": -5.132975101328158,
+          "mean_inr_per_lot": -384.97313259961203,
+          "total_inr_per_lot": -23098.387955976723,
+          "profit_factor": 0.7615223638258375,
+          "max_drawdown_inr_per_lot": -40662.90988122877,
+          "max_drawdown_r": -21.566428311015834,
+          "etf15k_mean_inr": -109.64622568065536,
+          "etf15k_total_inr": -6578.773540839322,
+          "etf15k_win_rate": 0.1,
+          "ci95_mean_r": [
+            -0.6204327638724423,
+            0.26582828169739253
+          ]
+        }
+      },
+      "dev_b": {
+        "trades": 57,
+        "gross_win_rate": 0.42105263157894735,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": 0.048983189654380345,
+        "gross_mean_pts": 1.9750921052634287,
+        "median_risk_pts": 42.29212499999994,
+        "median_risk_inr_per_lot": 2195.76249999991,
+        "exit_reasons": {
+          "time": 32,
+          "stop": 25
+        },
+        "shorts": 36,
+        "longs": 21,
+        "1x": {
+          "win_rate": 0.40350877192982454,
+          "mean_r": -0.12571513719948776,
+          "mean_pts": -5.278298285196457,
+          "mean_inr_per_lot": -276.9242253898965,
+          "total_inr_per_lot": -15784.680847224101,
+          "profit_factor": 0.7824938578380202,
+          "max_drawdown_inr_per_lot": -26005.88681869761,
+          "max_drawdown_r": -12.254543416359816,
+          "etf15k_mean_inr": -56.65080352172481,
+          "etf15k_total_inr": -3229.095800738314,
+          "etf15k_win_rate": 0.12280701754385964,
+          "ci95_mean_r": [
+            -0.4207792818019038,
+            0.2086450090930695
+          ]
+        },
+        "2x": {
+          "win_rate": 0.3684210526315789,
+          "mean_r": -0.300413464053356,
+          "mean_pts": -12.531688675656346,
+          "mean_inr_per_lot": -674.0583192008614,
+          "total_inr_per_lot": -38421.3241944491,
+          "profit_factor": 0.5628938682989965,
+          "max_drawdown_inr_per_lot": -42640.78594461758,
+          "max_drawdown_r": -18.712350974593104,
+          "etf15k_mean_inr": -115.1384766554888,
+          "etf15k_total_inr": -6562.893169362862,
+          "etf15k_win_rate": 0.017543859649122806,
+          "ci95_mean_r": [
+            -0.595098494668371,
+            0.033403899517053005
+          ]
+        }
+      },
+      "validation": {
+        "trades": 54,
+        "gross_win_rate": 0.48148148148148145,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": 0.07228430391021189,
+        "gross_mean_pts": 3.51671527777816,
+        "median_risk_pts": 53.72024999999849,
+        "median_risk_inr_per_lot": 2238.0749999999352,
+        "exit_reasons": {
+          "time": 34,
+          "stop": 20
+        },
+        "shorts": 32,
+        "longs": 22,
+        "1x": {
+          "win_rate": 0.3888888888888889,
+          "mean_r": -0.09500056154272479,
+          "mean_pts": -5.375025725105642,
+          "mean_inr_per_lot": -238.7958044595073,
+          "total_inr_per_lot": -12894.973440813395,
+          "profit_factor": 0.7978289213033358,
+          "max_drawdown_inr_per_lot": -23862.691002622352,
+          "max_drawdown_r": -9.114716729068242,
+          "etf15k_mean_inr": -55.777436597415374,
+          "etf15k_total_inr": -3011.9815762604303,
+          "etf15k_win_rate": 0.1111111111111111,
+          "ci95_mean_r": [
+            -0.3765590513036717,
+            0.1794063775410079
+          ]
+        },
+        "2x": {
+          "win_rate": 0.35185185185185186,
+          "mean_r": -0.2622854269956615,
+          "mean_pts": -14.266766727989443,
+          "mean_inr_per_lot": -588.8967015116215,
+          "total_inr_per_lot": -31800.421881627557,
+          "profit_factor": 0.5571575262727739,
+          "max_drawdown_inr_per_lot": -33452.39702132908,
+          "max_drawdown_r": -14.642085139421471,
+          "etf15k_mean_inr": -114.26553459146362,
+          "etf15k_total_inr": -6170.3388679390355,
+          "etf15k_win_rate": 0.0,
+          "ci95_mean_r": [
+            -0.5423258861830499,
+            0.013470593605455314
+          ]
+        }
+      },
+      "holdout": {
+        "trades": 46,
+        "gross_win_rate": 0.5652173913043478,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": 0.3895563709734041,
+        "gross_mean_pts": 23.066907608696134,
+        "median_risk_pts": 59.803249999999025,
+        "median_risk_inr_per_lot": 4149.693437499836,
+        "exit_reasons": {
+          "time": 33,
+          "stop": 13
+        },
+        "shorts": 25,
+        "longs": 21,
+        "1x": {
+          "win_rate": 0.5217391304347826,
+          "mean_r": 0.23831107911803678,
+          "mean_pts": 13.967124732675297,
+          "mean_inr_per_lot": 879.4390384295399,
+          "total_inr_per_lot": 40454.195767758836,
+          "profit_factor": 1.586518832564458,
+          "max_drawdown_inr_per_lot": -20275.971831734372,
+          "max_drawdown_r": -4.464431342463231,
+          "etf15k_mean_inr": -43.88551905484911,
+          "etf15k_total_inr": -2018.7338765230593,
+          "etf15k_win_rate": 0.17391304347826086,
+          "ci95_mean_r": [
+            -0.03455436902408126,
+            0.5305136371098207
+          ]
+        },
+        "2x": {
+          "win_rate": 0.4782608695652174,
+          "mean_r": 0.08706578726266943,
+          "mean_pts": 4.8673418566544555,
+          "mean_inr_per_lot": 275.00193555469446,
+          "total_inr_per_lot": 12650.089035515944,
+          "profit_factor": 1.1710413970936548,
+          "max_drawdown_inr_per_lot": -27385.38288468578,
+          "max_drawdown_r": -6.164515455988869,
+          "etf15k_mean_inr": -102.37940202120035,
+          "etf15k_total_inr": -4709.452492975216,
+          "etf15k_win_rate": 0.021739130434782608,
+          "ci95_mean_r": [
+            -0.18569341882776552,
+            0.37874231010894466
+          ]
+        }
+      },
+      "all": {
+        "trades": 217,
+        "gross_win_rate": 0.45622119815668205,
+        "reached_other_side_rate": 0.0,
+        "gross_mean_r": 0.1675121385443956,
+        "gross_mean_pts": 7.934953917051061,
+        "median_risk_pts": 44.16675000000032,
+        "median_risk_inr_per_lot": 2223.3687500000087,
+        "exit_reasons": {
+          "time": 130,
+          "stop": 87
+        },
+        "shorts": 124,
+        "longs": 93,
+        "1x": {
+          "win_rate": 0.41013824884792627,
+          "mean_r": -0.007673149542285315,
+          "mean_pts": 0.3527478375637189,
+          "mean_inr_per_lot": 62.960882784487566,
+          "total_inr_per_lot": 13662.511564233802,
+          "profit_factor": 1.0153833741379124,
+          "max_drawdown_inr_per_lot": -56131.41725329805,
+          "max_drawdown_r": -24.128081516752307,
+          "etf15k_mean_inr": -52.208129132975714,
+          "etf15k_total_inr": -11329.16402185573,
+          "etf15k_win_rate": 0.14285714285714285,
+          "ci95_mean_r": [
+            -0.17847684125145863,
+            0.175571779622867
+          ]
+        },
+        "2x": {
+          "win_rate": 0.3640552995391705,
+          "mean_r": -0.18285843762896614,
+          "mean_pts": -7.229458241923621,
+          "mean_inr_per_lot": -371.751359431048,
+          "total_inr_per_lot": -80670.04499653741,
+          "profit_factor": 0.7374105376408109,
+          "max_drawdown_inr_per_lot": -128266.4568824372,
+          "max_drawdown_r": -54.72741226239393,
+          "etf15k_mean_inr": -110.69796346136607,
+          "etf15k_total_inr": -24021.458071116438,
+          "etf15k_win_rate": 0.03686635944700461,
+          "ci95_mean_r": [
+            -0.3549428024756103,
+            0.0029767200466334783
+          ]
+        }
+      },
+      "by_year": {
+        "2019": {
+          "trades": 25,
+          "win_rate_1x": 0.4,
+          "mean_r_1x": 0.34032508029230146,
+          "mean_r_2x": 0.14255103749576659,
+          "inr_per_lot_1x": 19032.15607376594,
+          "reached_other_side": 0.0
+        },
+        "2020": {
+          "trades": 35,
+          "win_rate_1x": 0.3142857142857143,
+          "mean_r_1x": -0.2525633415352912,
+          "mean_r_2x": -0.45606007451873165,
+          "inr_per_lot_1x": -17144.185989253474,
+          "reached_other_side": 0.0
+        },
+        "2021": {
+          "trades": 26,
+          "win_rate_1x": 0.5,
+          "mean_r_1x": 0.0874961695416325,
+          "mean_r_2x": -0.08759113348890527,
+          "inr_per_lot_1x": 4627.163241167965,
+          "reached_other_side": 0.0
+        },
+        "2022": {
+          "trades": 31,
+          "win_rate_1x": 0.3225806451612903,
+          "mean_r_1x": -0.3045375234984919,
+          "mean_r_2x": -0.47890961226870177,
+          "inr_per_lot_1x": -20411.844088392063,
+          "reached_other_side": 0.0
+        },
+        "2023": {
+          "trades": 26,
+          "win_rate_1x": 0.4230769230769231,
+          "mean_r_1x": -0.08757147574562871,
+          "mean_r_2x": -0.25517771697281094,
+          "inr_per_lot_1x": -5796.207138785883,
+          "reached_other_side": 0.0
+        },
+        "2024": {
+          "trades": 28,
+          "win_rate_1x": 0.35714285714285715,
+          "mean_r_1x": -0.10189899835431401,
+          "mean_r_2x": -0.26888544344545123,
+          "inr_per_lot_1x": -7098.766302027508,
+          "reached_other_side": 0.0
+        },
+        "2025": {
+          "trades": 23,
+          "win_rate_1x": 0.4782608695652174,
+          "mean_r_1x": 0.011685872991176608,
+          "mean_r_2x": -0.13979255231963036,
+          "inr_per_lot_1x": 308.3374732293123,
+          "reached_other_side": 0.0
+        },
+        "2026": {
+          "trades": 23,
+          "win_rate_1x": 0.5652173913043478,
+          "mean_r_1x": 0.46493628524489694,
+          "mean_r_2x": 0.31392412684496923,
+          "inr_per_lot_1x": 40145.85829452951,
+          "reached_other_side": 0.0
+        }
+      },
+      "by_weekday": {
+        "Monday": {
+          "trades": 3,
+          "win_rate_1x": 0.6666666666666666,
+          "mean_r_1x": 0.7204350469472831,
+          "mean_r_2x": 0.5678397423639776,
+          "inr_per_lot_1x": 7908.545418308689,
+          "reached_other_side": 0.0
+        },
+        "Thursday": {
+          "trades": 181,
+          "win_rate_1x": 0.39226519337016574,
+          "mean_r_1x": -0.04990390728532651,
+          "mean_r_2x": -0.22814443192227507,
+          "inr_per_lot_1x": -15623.054100564465,
+          "reached_other_side": 0.0
+        },
+        "Tuesday": {
+          "trades": 23,
+          "win_rate_1x": 0.5217391304347826,
+          "mean_r_1x": 0.30833740557529954,
+          "mean_r_2x": 0.15804301369107177,
+          "inr_per_lot_1x": 25449.8122152047,
+          "reached_other_side": 0.0
+        },
+        "Wednesday": {
+          "trades": 10,
+          "win_rate_1x": 0.4,
+          "mean_r_1x": -0.18855317011055509,
+          "mean_r_2x": -0.3724647329540448,
+          "inr_per_lot_1x": -4072.7919687151143,
+          "reached_other_side": 0.0
+        }
+      }
+    }
+  }
+}
