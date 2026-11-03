@@ -1,0 +1,6076 @@
+{
+  "generated_at_utc": "2026-11-03T03:26:43+00:00",
+  "spec_version": "0.1",
+  "risk_inr": 300.0,
+  "capital_inr_scenario_b": 15000.0,
+  "slippage_base": {
+    "stocks": 0.0002,
+    "indices": 0.0003
+  },
+  "stocks": {
+    "EXP-0073": {
+      "rule": "ema5",
+      "signals_all_instruments": 52096,
+      "A": {
+        "dev": {
+          "trades": 490,
+          "win_rate": 0.347,
+          "avg_win_inr": 404.7,
+          "avg_loss_inr": -275.4,
+          "profit_factor": 0.781,
+          "expectancy_inr": -39.5,
+          "mean_net_r": -0.131,
+          "mean_gross_r": 0.2,
+          "total_pnl_inr": -19336.0,
+          "max_drawdown_inr": -26573.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 30505.0,
+          "avg_charges_inr": 62.3,
+          "median_notional_inr": 41677.0,
+          "target_rate": 0.206,
+          "stop_rate": 0.582,
+          "long_share": 0.01,
+          "mean_net_r_ci95": [
+            -0.253,
+            -0.004
+          ]
+        },
+        "dev_a": {
+          "trades": 245,
+          "win_rate": 0.416,
+          "avg_win_inr": 408.5,
+          "avg_loss_inr": -272.1,
+          "profit_factor": 1.071,
+          "expectancy_inr": 11.3,
+          "mean_net_r": 0.04,
+          "mean_gross_r": 0.46,
+          "total_pnl_inr": 2760.0,
+          "max_drawdown_inr": -4373.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 15579.0,
+          "avg_charges_inr": 63.6,
+          "median_notional_inr": 47734.0,
+          "target_rate": 0.265,
+          "stop_rate": 0.506,
+          "long_share": 0.016,
+          "mean_net_r_ci95": [
+            -0.125,
+            0.211
+          ]
+        },
+        "dev_b": {
+          "trades": 245,
+          "win_rate": 0.278,
+          "avg_win_inr": 399.0,
+          "avg_loss_inr": -278.1,
+          "profit_factor": 0.551,
+          "expectancy_inr": -90.2,
+          "mean_net_r": -0.302,
+          "mean_gross_r": -0.06,
+          "total_pnl_inr": -22097.0,
+          "max_drawdown_inr": -22201.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 14926.0,
+          "avg_charges_inr": 60.9,
+          "median_notional_inr": 38328.0,
+          "target_rate": 0.147,
+          "stop_rate": 0.657,
+          "long_share": 0.004,
+          "mean_net_r_ci95": [
+            -0.422,
+            -0.174
+          ]
+        },
+        "validation": {
+          "trades": 243,
+          "win_rate": 0.399,
+          "avg_win_inr": 390.0,
+          "avg_loss_inr": -278.0,
+          "profit_factor": 0.932,
+          "expectancy_inr": -11.3,
+          "mean_net_r": -0.036,
+          "mean_gross_r": 0.315,
+          "total_pnl_inr": -2755.0,
+          "max_drawdown_inr": -5778.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 14848.0,
+          "avg_charges_inr": 61.1,
+          "median_notional_inr": 38898.0,
+          "target_rate": 0.206,
+          "stop_rate": 0.543,
+          "long_share": 0.012,
+          "mean_net_r_ci95": [
+            -0.139,
+            0.061
+          ]
+        },
+        "holdout": {
+          "trades": 244,
+          "win_rate": 0.332,
+          "avg_win_inr": 383.0,
+          "avg_loss_inr": -271.6,
+          "profit_factor": 0.701,
+          "expectancy_inr": -54.3,
+          "mean_net_r": -0.188,
+          "mean_gross_r": 0.054,
+          "total_pnl_inr": -13251.0,
+          "max_drawdown_inr": -14753.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 13584.0,
+          "avg_charges_inr": 55.7,
+          "median_notional_inr": 27190.0,
+          "target_rate": 0.143,
+          "stop_rate": 0.594,
+          "long_share": 0.037,
+          "mean_net_r_ci95": [
+            -0.368,
+            -0.021
+          ]
+        }
+      },
+      "A_stress": {
+        "dev": {
+          "trades": 490,
+          "win_rate": 0.322,
+          "avg_win_inr": 352.3,
+          "avg_loss_inr": -343.8,
+          "profit_factor": 0.488,
+          "expectancy_inr": -119.4,
+          "mean_net_r": -0.401,
+          "mean_gross_r": 0.2,
+          "total_pnl_inr": -58495.0,
+          "max_drawdown_inr": -58990.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 61009.0,
+          "avg_charges_inr": 124.5,
+          "median_notional_inr": 41677.0,
+          "target_rate": 0.206,
+          "stop_rate": 0.582,
+          "long_share": 0.01
+        },
+        "dev_a": {
+          "trades": 245,
+          "win_rate": 0.384,
+          "avg_win_inr": 356.2,
+          "avg_loss_inr": -337.7,
+          "profit_factor": 0.657,
+          "expectancy_inr": -71.5,
+          "mean_net_r": -0.239,
+          "mean_gross_r": 0.46,
+          "total_pnl_inr": -17517.0,
+          "max_drawdown_inr": -17992.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 31157.0,
+          "avg_charges_inr": 127.2,
+          "median_notional_inr": 47734.0,
+          "target_rate": 0.265,
+          "stop_rate": 0.506,
+          "long_share": 0.016
+        },
+        "dev_b": {
+          "trades": 245,
+          "win_rate": 0.261,
+          "avg_win_inr": 346.5,
+          "avg_loss_inr": -348.9,
+          "profit_factor": 0.351,
+          "expectancy_inr": -167.3,
+          "mean_net_r": -0.563,
+          "mean_gross_r": -0.06,
+          "total_pnl_inr": -40978.0,
+          "max_drawdown_inr": -40998.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 29852.0,
+          "avg_charges_inr": 121.8,
+          "median_notional_inr": 38328.0,
+          "target_rate": 0.147,
+          "stop_rate": 0.657,
+          "long_share": 0.004
+        },
+        "validation": {
+          "trades": 243,
+          "win_rate": 0.379,
+          "avg_win_inr": 332.2,
+          "avg_loss_inr": -345.8,
+          "profit_factor": 0.585,
+          "expectancy_inr": -89.1,
+          "mean_net_r": -0.3,
+          "mean_gross_r": 0.315,
+          "total_pnl_inr": -21657.0,
+          "max_drawdown_inr": -23113.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 29695.0,
+          "avg_charges_inr": 122.2,
+          "median_notional_inr": 38898.0,
+          "target_rate": 0.206,
+          "stop_rate": 0.543,
+          "long_share": 0.012
+        },
+        "holdout": {
+          "trades": 244,
+          "win_rate": 0.303,
+          "avg_win_inr": 349.5,
+          "avg_loss_inr": -327.2,
+          "profit_factor": 0.465,
+          "expectancy_inr": -122.0,
+          "mean_net_r": -0.42,
+          "mean_gross_r": 0.054,
+          "total_pnl_inr": -29756.0,
+          "max_drawdown_inr": -30756.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 27168.0,
+          "avg_charges_inr": 111.3,
+          "median_notional_inr": 27190.0,
+          "target_rate": 0.143,
+          "stop_rate": 0.594,
+          "long_share": 0.037
+        }
+      },
+      "B_15k": {
+        "dev": {
+          "trades": 487,
+          "win_rate": 0.331,
+          "avg_win_inr": 145.4,
+          "avg_loss_inr": -119.5,
+          "profit_factor": 0.601,
+          "expectancy_inr": -31.9,
+          "mean_net_r": -0.268,
+          "mean_gross_r": 0.195,
+          "total_pnl_inr": -15543.0,
+          "max_drawdown_inr": -15785.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 18973.0,
+          "avg_charges_inr": 39.0,
+          "median_notional_inr": 14749.0,
+          "target_rate": 0.205,
+          "stop_rate": 0.583,
+          "long_share": 0.01
+        },
+        "dev_a": {
+          "trades": 243,
+          "win_rate": 0.391,
+          "avg_win_inr": 132.0,
+          "avg_loss_inr": -111.6,
+          "profit_factor": 0.759,
+          "expectancy_inr": -16.4,
+          "mean_net_r": -0.153,
+          "mean_gross_r": 0.447,
+          "total_pnl_inr": -3986.0,
+          "max_drawdown_inr": -4155.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 9521.0,
+          "avg_charges_inr": 39.2,
+          "median_notional_inr": 14756.0,
+          "target_rate": 0.263,
+          "stop_rate": 0.51,
+          "long_share": 0.016
+        },
+        "dev_b": {
+          "trades": 244,
+          "win_rate": 0.27,
+          "avg_win_inr": 164.7,
+          "avg_loss_inr": -126.0,
+          "profit_factor": 0.485,
+          "expectancy_inr": -47.4,
+          "mean_net_r": -0.383,
+          "mean_gross_r": -0.056,
+          "total_pnl_inr": -11557.0,
+          "max_drawdown_inr": -11630.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 9452.0,
+          "avg_charges_inr": 38.7,
+          "median_notional_inr": 14734.0,
+          "target_rate": 0.148,
+          "stop_rate": 0.656,
+          "long_share": 0.004
+        },
+        "validation": {
+          "trades": 238,
+          "win_rate": 0.382,
+          "avg_win_inr": 150.2,
+          "avg_loss_inr": -126.7,
+          "profit_factor": 0.734,
+          "expectancy_inr": -20.8,
+          "mean_net_r": -0.177,
+          "mean_gross_r": 0.292,
+          "total_pnl_inr": -4956.0,
+          "max_drawdown_inr": -5863.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 9342.0,
+          "avg_charges_inr": 39.3,
+          "median_notional_inr": 14740.0,
+          "target_rate": 0.197,
+          "stop_rate": 0.546,
+          "long_share": 0.013
+        },
+        "holdout": {
+          "trades": 236,
+          "win_rate": 0.343,
+          "avg_win_inr": 204.2,
+          "avg_loss_inr": -158.1,
+          "profit_factor": 0.675,
+          "expectancy_inr": -33.8,
+          "mean_net_r": -0.217,
+          "mean_gross_r": 0.09,
+          "total_pnl_inr": -7967.0,
+          "max_drawdown_inr": -8670.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 9123.0,
+          "avg_charges_inr": 38.7,
+          "median_notional_inr": 14688.0,
+          "target_rate": 0.148,
+          "stop_rate": 0.581,
+          "long_share": 0.038
+        },
+        "skipped_qty0": 22
+      },
+      "slippage_sensitivity_A_mean_net_r": {
+        "0.00%": {
+          "dev": -0.063,
+          "validation": 0.034,
+          "holdout": -0.148
+        },
+        "base": {
+          "dev": -0.131,
+          "validation": -0.036,
+          "holdout": -0.188
+        },
+        "0.05%": {
+          "dev": -0.216,
+          "validation": -0.123,
+          "holdout": -0.239
+        },
+        "0.10%": {
+          "dev": -0.32,
+          "validation": -0.232,
+          "holdout": -0.307
+        }
+      },
+      "rolling_6m": {
+        "windows": [
+          {
+            "window": "2017-01-01..2017-06-30",
+            "trades": 123,
+            "mean_net_r": 0.025
+          },
+          {
+            "window": "2017-07-01..2017-12-31",
+            "trades": 122,
+            "mean_net_r": 0.055
+          },
+          {
+            "window": "2018-01-01..2018-06-30",
+            "trades": 124,
+            "mean_net_r": -0.28
+          },
+          {
+            "window": "2018-07-01..2018-12-31",
+            "trades": 121,
+            "mean_net_r": -0.325
+          },
+          {
+            "window": "2019-01-01..2019-06-30",
+            "trades": 121,
+            "mean_net_r": -0.043
+          },
+          {
+            "window": "2019-07-01..2019-12-31",
+            "trades": 122,
+            "mean_net_r": -0.03
+          },
+          {
+            "window": "2020-01-01..2020-06-30",
+            "trades": 117,
+            "mean_net_r": -0.216
+          },
+          {
+            "window": "2020-07-01..2020-12-31",
+            "trades": 127,
+            "mean_net_r": -0.162
+          }
+        ],
+        "windows_used": 8,
+        "windows_positive": 2,
+        "share_positive": 0.25
+      },
+      "raw_signals_no_width_check": {
+        "dev": {
+          "trades": 491,
+          "mean_gross_r": 0.189,
+          "median_stop_pct": 0.521
+        },
+        "validation": {
+          "trades": 244,
+          "mean_gross_r": 0.3,
+          "median_stop_pct": 0.567
+        },
+        "holdout": {
+          "trades": 248,
+          "mean_gross_r": 0.094,
+          "median_stop_pct": 0.845
+        }
+      },
+      "exit_reasons_A": {
+        "stop": 562,
+        "time": 229,
+        "target": 186
+      },
+      "by_year_A": {
+        "2017": {
+          "trades": 245,
+          "win_rate": 0.416,
+          "avg_win_inr": 408.5,
+          "avg_loss_inr": -272.1,
+          "profit_factor": 1.071,
+          "expectancy_inr": 11.3,
+          "mean_net_r": 0.04,
+          "mean_gross_r": 0.46,
+          "total_pnl_inr": 2760.0,
+          "max_drawdown_inr": -4373.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 15579.0,
+          "avg_charges_inr": 63.6,
+          "median_notional_inr": 47734.0,
+          "target_rate": 0.265,
+          "stop_rate": 0.506,
+          "long_share": 0.016
+        },
+        "2018": {
+          "trades": 245,
+          "win_rate": 0.278,
+          "avg_win_inr": 399.0,
+          "avg_loss_inr": -278.1,
+          "profit_factor": 0.551,
+          "expectancy_inr": -90.2,
+          "mean_net_r": -0.302,
+          "mean_gross_r": -0.06,
+          "total_pnl_inr": -22097.0,
+          "max_drawdown_inr": -22201.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 14926.0,
+          "avg_charges_inr": 60.9,
+          "median_notional_inr": 38328.0,
+          "target_rate": 0.147,
+          "stop_rate": 0.657,
+          "long_share": 0.004
+        },
+        "2019": {
+          "trades": 243,
+          "win_rate": 0.399,
+          "avg_win_inr": 390.0,
+          "avg_loss_inr": -278.0,
+          "profit_factor": 0.932,
+          "expectancy_inr": -11.3,
+          "mean_net_r": -0.036,
+          "mean_gross_r": 0.315,
+          "total_pnl_inr": -2755.0,
+          "max_drawdown_inr": -5778.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 14848.0,
+          "avg_charges_inr": 61.1,
+          "median_notional_inr": 38898.0,
+          "target_rate": 0.206,
+          "stop_rate": 0.543,
+          "long_share": 0.012
+        },
+        "2020": {
+          "trades": 244,
+          "win_rate": 0.332,
+          "avg_win_inr": 383.0,
+          "avg_loss_inr": -271.6,
+          "profit_factor": 0.701,
+          "expectancy_inr": -54.3,
+          "mean_net_r": -0.188,
+          "mean_gross_r": 0.054,
+          "total_pnl_inr": -13251.0,
+          "max_drawdown_inr": -14753.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 13584.0,
+          "avg_charges_inr": 55.7,
+          "median_notional_inr": 27190.0,
+          "target_rate": 0.143,
+          "stop_rate": 0.594,
+          "long_share": 0.037
+        }
+      },
+      "checks": {
+        "dev >= 100 trades": true,
+        "dev mean net R > 0": false,
+        "dev CI above 0": false,
+        "dev PF >= 1.15": false,
+        "dev halves > 0": false,
+        "dev stress > 0": false,
+        "validation > 0": false,
+        "validation stress > 0": false,
+        "holdout > 0": false,
+        ">= 60% of 6-month windows positive": false
+      },
+      "status": "REJECTED"
+    },
+    "EXP-0074": {
+      "rule": "st_flip",
+      "signals_all_instruments": 35218,
+      "A": {
+        "dev": {
+          "trades": 475,
+          "win_rate": 0.274,
+          "avg_win_inr": 184.3,
+          "avg_loss_inr": -171.4,
+          "profit_factor": 0.405,
+          "expectancy_inr": -74.1,
+          "mean_net_r": -0.25,
+          "mean_gross_r": -0.06,
+          "total_pnl_inr": -35180.0,
+          "max_drawdown_inr": -35180.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 24053.0,
+          "avg_charges_inr": 50.6,
+          "median_notional_inr": 20075.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.141,
+          "long_share": 0.474,
+          "mean_net_r_ci95": [
+            -0.31,
+            -0.187
+          ]
+        },
+        "dev_a": {
+          "trades": 238,
+          "win_rate": 0.282,
+          "avg_win_inr": 151.5,
+          "avg_loss_inr": -169.9,
+          "profit_factor": 0.349,
+          "expectancy_inr": -79.4,
+          "mean_net_r": -0.27,
+          "mean_gross_r": -0.077,
+          "total_pnl_inr": -18902.0,
+          "max_drawdown_inr": -18902.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 12397.0,
+          "avg_charges_inr": 52.1,
+          "median_notional_inr": 21360.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.126,
+          "long_share": 0.483,
+          "mean_net_r_ci95": [
+            -0.343,
+            -0.199
+          ]
+        },
+        "dev_b": {
+          "trades": 237,
+          "win_rate": 0.266,
+          "avg_win_inr": 219.2,
+          "avg_loss_inr": -172.9,
+          "profit_factor": 0.459,
+          "expectancy_inr": -68.7,
+          "mean_net_r": -0.229,
+          "mean_gross_r": -0.042,
+          "total_pnl_inr": -16279.0,
+          "max_drawdown_inr": -16566.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 11656.0,
+          "avg_charges_inr": 49.2,
+          "median_notional_inr": 18811.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.156,
+          "long_share": 0.464,
+          "mean_net_r_ci95": [
+            -0.322,
+            -0.125
+          ]
+        },
+        "validation": {
+          "trades": 241,
+          "win_rate": 0.373,
+          "avg_win_inr": 192.6,
+          "avg_loss_inr": -178.8,
+          "profit_factor": 0.642,
+          "expectancy_inr": -40.1,
+          "mean_net_r": -0.139,
+          "mean_gross_r": 0.079,
+          "total_pnl_inr": -9665.0,
+          "max_drawdown_inr": -9665.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 12229.0,
+          "avg_charges_inr": 50.7,
+          "median_notional_inr": 19769.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.141,
+          "long_share": 0.448,
+          "mean_net_r_ci95": [
+            -0.256,
+            -0.014
+          ]
+        },
+        "holdout": {
+          "trades": 237,
+          "win_rate": 0.338,
+          "avg_win_inr": 210.9,
+          "avg_loss_inr": -173.4,
+          "profit_factor": 0.62,
+          "expectancy_inr": -43.7,
+          "mean_net_r": -0.153,
+          "mean_gross_r": 0.041,
+          "total_pnl_inr": -10351.0,
+          "max_drawdown_inr": -11988.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 10848.0,
+          "avg_charges_inr": 45.8,
+          "median_notional_inr": 16168.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.173,
+          "long_share": 0.489,
+          "mean_net_r_ci95": [
+            -0.235,
+            -0.069
+          ]
+        }
+      },
+      "A_stress": {
+        "dev": {
+          "trades": 475,
+          "win_rate": 0.2,
+          "avg_win_inr": 184.2,
+          "avg_loss_inr": -212.6,
+          "profit_factor": 0.217,
+          "expectancy_inr": -133.2,
+          "mean_net_r": -0.452,
+          "mean_gross_r": -0.06,
+          "total_pnl_inr": -63271.0,
+          "max_drawdown_inr": -63271.0,
+          "max_losing_streak": 20,
+          "total_charges_inr": 48105.0,
+          "avg_charges_inr": 101.3,
+          "median_notional_inr": 20075.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.141,
+          "long_share": 0.474
+        },
+        "dev_a": {
+          "trades": 238,
+          "win_rate": 0.189,
+          "avg_win_inr": 151.3,
+          "avg_loss_inr": -208.6,
+          "profit_factor": 0.169,
+          "expectancy_inr": -140.5,
+          "mean_net_r": -0.478,
+          "mean_gross_r": -0.077,
+          "total_pnl_inr": -33448.0,
+          "max_drawdown_inr": -33448.0,
+          "max_losing_streak": 20,
+          "total_charges_inr": 24793.0,
+          "avg_charges_inr": 104.2,
+          "median_notional_inr": 21360.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.126,
+          "long_share": 0.483
+        },
+        "dev_b": {
+          "trades": 237,
+          "win_rate": 0.211,
+          "avg_win_inr": 213.8,
+          "avg_loss_inr": -216.6,
+          "profit_factor": 0.264,
+          "expectancy_inr": -125.8,
+          "mean_net_r": -0.425,
+          "mean_gross_r": -0.042,
+          "total_pnl_inr": -29824.0,
+          "max_drawdown_inr": -29839.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 23312.0,
+          "avg_charges_inr": 98.4,
+          "median_notional_inr": 18811.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.156,
+          "long_share": 0.464
+        },
+        "validation": {
+          "trades": 241,
+          "win_rate": 0.278,
+          "avg_win_inr": 191.3,
+          "avg_loss_inr": -211.2,
+          "profit_factor": 0.349,
+          "expectancy_inr": -99.3,
+          "mean_net_r": -0.343,
+          "mean_gross_r": 0.079,
+          "total_pnl_inr": -23933.0,
+          "max_drawdown_inr": -23933.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 24458.0,
+          "avg_charges_inr": 101.5,
+          "median_notional_inr": 19769.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.141,
+          "long_share": 0.448
+        },
+        "holdout": {
+          "trades": 237,
+          "win_rate": 0.262,
+          "avg_win_inr": 211.3,
+          "avg_loss_inr": -205.8,
+          "profit_factor": 0.364,
+          "expectancy_inr": -96.7,
+          "mean_net_r": -0.337,
+          "mean_gross_r": 0.041,
+          "total_pnl_inr": -22907.0,
+          "max_drawdown_inr": -23745.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 21695.0,
+          "avg_charges_inr": 91.5,
+          "median_notional_inr": 16168.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.173,
+          "long_share": 0.489
+        }
+      },
+      "B_15k": {
+        "dev": {
+          "trades": 474,
+          "win_rate": 0.249,
+          "avg_win_inr": 144.5,
+          "avg_loss_inr": -121.8,
+          "profit_factor": 0.393,
+          "expectancy_inr": -55.5,
+          "mean_net_r": -0.273,
+          "mean_gross_r": -0.072,
+          "total_pnl_inr": -26324.0,
+          "max_drawdown_inr": -26324.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 18382.0,
+          "avg_charges_inr": 38.8,
+          "median_notional_inr": 14717.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.141,
+          "long_share": 0.475
+        },
+        "dev_a": {
+          "trades": 238,
+          "win_rate": 0.248,
+          "avg_win_inr": 108.9,
+          "avg_loss_inr": -114.3,
+          "profit_factor": 0.314,
+          "expectancy_inr": -58.9,
+          "mean_net_r": -0.292,
+          "mean_gross_r": -0.077,
+          "total_pnl_inr": -14029.0,
+          "max_drawdown_inr": -14029.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 9233.0,
+          "avg_charges_inr": 38.8,
+          "median_notional_inr": 14744.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.126,
+          "long_share": 0.483
+        },
+        "dev_b": {
+          "trades": 236,
+          "win_rate": 0.25,
+          "avg_win_inr": 180.0,
+          "avg_loss_inr": -129.5,
+          "profit_factor": 0.463,
+          "expectancy_inr": -52.1,
+          "mean_net_r": -0.254,
+          "mean_gross_r": -0.066,
+          "total_pnl_inr": -12296.0,
+          "max_drawdown_inr": -12485.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 9149.0,
+          "avg_charges_inr": 38.8,
+          "median_notional_inr": 14705.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.157,
+          "long_share": 0.466
+        },
+        "validation": {
+          "trades": 238,
+          "win_rate": 0.37,
+          "avg_win_inr": 141.5,
+          "avg_loss_inr": -129.3,
+          "profit_factor": 0.642,
+          "expectancy_inr": -29.2,
+          "mean_net_r": -0.154,
+          "mean_gross_r": 0.08,
+          "total_pnl_inr": -6939.0,
+          "max_drawdown_inr": -6939.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 9180.0,
+          "avg_charges_inr": 38.6,
+          "median_notional_inr": 14604.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.143,
+          "long_share": 0.45
+        },
+        "holdout": {
+          "trades": 233,
+          "win_rate": 0.326,
+          "avg_win_inr": 173.4,
+          "avg_loss_inr": -140.8,
+          "profit_factor": 0.596,
+          "expectancy_inr": -38.3,
+          "mean_net_r": -0.158,
+          "mean_gross_r": 0.045,
+          "total_pnl_inr": -8926.0,
+          "max_drawdown_inr": -9916.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 8867.0,
+          "avg_charges_inr": 38.1,
+          "median_notional_inr": 14450.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.172,
+          "long_share": 0.485
+        },
+        "skipped_qty0": 38
+      },
+      "slippage_sensitivity_A_mean_net_r": {
+        "0.00%": {
+          "dev": -0.225,
+          "validation": -0.103,
+          "holdout": -0.131
+        },
+        "base": {
+          "dev": -0.25,
+          "validation": -0.139,
+          "holdout": -0.153
+        },
+        "0.05%": {
+          "dev": -0.284,
+          "validation": -0.178,
+          "holdout": -0.186
+        },
+        "0.10%": {
+          "dev": -0.333,
+          "validation": -0.233,
+          "holdout": -0.23
+        }
+      },
+      "rolling_6m": {
+        "windows": [
+          {
+            "window": "2017-01-01..2017-06-30",
+            "trades": 118,
+            "mean_net_r": -0.282
+          },
+          {
+            "window": "2017-07-01..2017-12-31",
+            "trades": 120,
+            "mean_net_r": -0.259
+          },
+          {
+            "window": "2018-01-01..2018-06-30",
+            "trades": 120,
+            "mean_net_r": -0.233
+          },
+          {
+            "window": "2018-07-01..2018-12-31",
+            "trades": 117,
+            "mean_net_r": -0.226
+          },
+          {
+            "window": "2019-01-01..2019-06-30",
+            "trades": 121,
+            "mean_net_r": -0.078
+          },
+          {
+            "window": "2019-07-01..2019-12-31",
+            "trades": 120,
+            "mean_net_r": -0.201
+          },
+          {
+            "window": "2020-01-01..2020-06-30",
+            "trades": 112,
+            "mean_net_r": -0.121
+          },
+          {
+            "window": "2020-07-01..2020-12-31",
+            "trades": 125,
+            "mean_net_r": -0.182
+          }
+        ],
+        "windows_used": 8,
+        "windows_positive": 0,
+        "share_positive": 0.0
+      },
+      "raw_signals_no_width_check": {
+        "dev": {
+          "trades": 491,
+          "mean_gross_r": -0.063,
+          "median_stop_pct": 1.202
+        },
+        "validation": {
+          "trades": 244,
+          "mean_gross_r": 0.092,
+          "median_stop_pct": 1.215
+        },
+        "holdout": {
+          "trades": 248,
+          "mean_gross_r": -0.025,
+          "median_stop_pct": 1.588
+        }
+      },
+      "exit_reasons_A": {
+        "flip": 531,
+        "time": 280,
+        "stop": 142
+      },
+      "by_year_A": {
+        "2017": {
+          "trades": 238,
+          "win_rate": 0.282,
+          "avg_win_inr": 151.5,
+          "avg_loss_inr": -169.9,
+          "profit_factor": 0.349,
+          "expectancy_inr": -79.4,
+          "mean_net_r": -0.27,
+          "mean_gross_r": -0.077,
+          "total_pnl_inr": -18902.0,
+          "max_drawdown_inr": -18902.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 12397.0,
+          "avg_charges_inr": 52.1,
+          "median_notional_inr": 21360.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.126,
+          "long_share": 0.483
+        },
+        "2018": {
+          "trades": 237,
+          "win_rate": 0.266,
+          "avg_win_inr": 219.2,
+          "avg_loss_inr": -172.9,
+          "profit_factor": 0.459,
+          "expectancy_inr": -68.7,
+          "mean_net_r": -0.229,
+          "mean_gross_r": -0.042,
+          "total_pnl_inr": -16279.0,
+          "max_drawdown_inr": -16566.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 11656.0,
+          "avg_charges_inr": 49.2,
+          "median_notional_inr": 18811.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.156,
+          "long_share": 0.464
+        },
+        "2019": {
+          "trades": 241,
+          "win_rate": 0.373,
+          "avg_win_inr": 192.6,
+          "avg_loss_inr": -178.8,
+          "profit_factor": 0.642,
+          "expectancy_inr": -40.1,
+          "mean_net_r": -0.139,
+          "mean_gross_r": 0.079,
+          "total_pnl_inr": -9665.0,
+          "max_drawdown_inr": -9665.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 12229.0,
+          "avg_charges_inr": 50.7,
+          "median_notional_inr": 19769.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.141,
+          "long_share": 0.448
+        },
+        "2020": {
+          "trades": 237,
+          "win_rate": 0.338,
+          "avg_win_inr": 210.9,
+          "avg_loss_inr": -173.4,
+          "profit_factor": 0.62,
+          "expectancy_inr": -43.7,
+          "mean_net_r": -0.153,
+          "mean_gross_r": 0.041,
+          "total_pnl_inr": -10351.0,
+          "max_drawdown_inr": -11988.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 10848.0,
+          "avg_charges_inr": 45.8,
+          "median_notional_inr": 16168.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.173,
+          "long_share": 0.489
+        }
+      },
+      "checks": {
+        "dev >= 100 trades": true,
+        "dev mean net R > 0": false,
+        "dev CI above 0": false,
+        "dev PF >= 1.15": false,
+        "dev halves > 0": false,
+        "dev stress > 0": false,
+        "validation > 0": false,
+        "validation stress > 0": false,
+        "holdout > 0": false,
+        ">= 60% of 6-month windows positive": false
+      },
+      "status": "REJECTED"
+    },
+    "EXP-0075": {
+      "rule": "st_2r",
+      "signals_all_instruments": 35218,
+      "A": {
+        "dev": {
+          "trades": 475,
+          "win_rate": 0.274,
+          "avg_win_inr": 167.7,
+          "avg_loss_inr": -171.4,
+          "profit_factor": 0.369,
+          "expectancy_inr": -78.6,
+          "mean_net_r": -0.267,
+          "mean_gross_r": -0.08,
+          "total_pnl_inr": -37332.0,
+          "max_drawdown_inr": -37332.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 24052.0,
+          "avg_charges_inr": 50.6,
+          "median_notional_inr": 20075.0,
+          "target_rate": 0.059,
+          "stop_rate": 0.141,
+          "long_share": 0.474,
+          "mean_net_r_ci95": [
+            -0.318,
+            -0.216
+          ]
+        },
+        "dev_a": {
+          "trades": 238,
+          "win_rate": 0.282,
+          "avg_win_inr": 153.8,
+          "avg_loss_inr": -169.9,
+          "profit_factor": 0.355,
+          "expectancy_inr": -78.8,
+          "mean_net_r": -0.268,
+          "mean_gross_r": -0.075,
+          "total_pnl_inr": -18749.0,
+          "max_drawdown_inr": -18749.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 12396.0,
+          "avg_charges_inr": 52.1,
+          "median_notional_inr": 21360.0,
+          "target_rate": 0.055,
+          "stop_rate": 0.126,
+          "long_share": 0.483,
+          "mean_net_r_ci95": [
+            -0.338,
+            -0.205
+          ]
+        },
+        "dev_b": {
+          "trades": 237,
+          "win_rate": 0.266,
+          "avg_win_inr": 182.6,
+          "avg_loss_inr": -172.9,
+          "profit_factor": 0.382,
+          "expectancy_inr": -78.4,
+          "mean_net_r": -0.265,
+          "mean_gross_r": -0.086,
+          "total_pnl_inr": -18583.0,
+          "max_drawdown_inr": -18616.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 11656.0,
+          "avg_charges_inr": 49.2,
+          "median_notional_inr": 18811.0,
+          "target_rate": 0.063,
+          "stop_rate": 0.156,
+          "long_share": 0.464,
+          "mean_net_r_ci95": [
+            -0.339,
+            -0.185
+          ]
+        },
+        "validation": {
+          "trades": 241,
+          "win_rate": 0.373,
+          "avg_win_inr": 187.4,
+          "avg_loss_inr": -178.8,
+          "profit_factor": 0.625,
+          "expectancy_inr": -42.0,
+          "mean_net_r": -0.146,
+          "mean_gross_r": 0.07,
+          "total_pnl_inr": -10129.0,
+          "max_drawdown_inr": -10204.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 12229.0,
+          "avg_charges_inr": 50.7,
+          "median_notional_inr": 19769.0,
+          "target_rate": 0.079,
+          "stop_rate": 0.141,
+          "long_share": 0.448,
+          "mean_net_r_ci95": [
+            -0.251,
+            -0.036
+          ]
+        },
+        "holdout": {
+          "trades": 237,
+          "win_rate": 0.338,
+          "avg_win_inr": 206.0,
+          "avg_loss_inr": -173.4,
+          "profit_factor": 0.605,
+          "expectancy_inr": -45.3,
+          "mean_net_r": -0.159,
+          "mean_gross_r": 0.034,
+          "total_pnl_inr": -10745.0,
+          "max_drawdown_inr": -12609.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 10848.0,
+          "avg_charges_inr": 45.8,
+          "median_notional_inr": 16168.0,
+          "target_rate": 0.105,
+          "stop_rate": 0.173,
+          "long_share": 0.489,
+          "mean_net_r_ci95": [
+            -0.244,
+            -0.075
+          ]
+        }
+      },
+      "A_stress": {
+        "dev": {
+          "trades": 475,
+          "win_rate": 0.2,
+          "avg_win_inr": 161.6,
+          "avg_loss_inr": -212.6,
+          "profit_factor": 0.19,
+          "expectancy_inr": -137.7,
+          "mean_net_r": -0.469,
+          "mean_gross_r": -0.08,
+          "total_pnl_inr": -65422.0,
+          "max_drawdown_inr": -65422.0,
+          "max_losing_streak": 20,
+          "total_charges_inr": 48103.0,
+          "avg_charges_inr": 101.3,
+          "median_notional_inr": 20075.0,
+          "target_rate": 0.059,
+          "stop_rate": 0.141,
+          "long_share": 0.474
+        },
+        "dev_a": {
+          "trades": 238,
+          "win_rate": 0.189,
+          "avg_win_inr": 154.7,
+          "avg_loss_inr": -208.6,
+          "profit_factor": 0.173,
+          "expectancy_inr": -139.9,
+          "mean_net_r": -0.476,
+          "mean_gross_r": -0.075,
+          "total_pnl_inr": -33295.0,
+          "max_drawdown_inr": -33295.0,
+          "max_losing_streak": 20,
+          "total_charges_inr": 24792.0,
+          "avg_charges_inr": 104.2,
+          "median_notional_inr": 21360.0,
+          "target_rate": 0.055,
+          "stop_rate": 0.126,
+          "long_share": 0.483
+        },
+        "dev_b": {
+          "trades": 237,
+          "win_rate": 0.211,
+          "avg_win_inr": 167.7,
+          "avg_loss_inr": -216.6,
+          "profit_factor": 0.207,
+          "expectancy_inr": -135.6,
+          "mean_net_r": -0.461,
+          "mean_gross_r": -0.086,
+          "total_pnl_inr": -32127.0,
+          "max_drawdown_inr": -32127.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 23311.0,
+          "avg_charges_inr": 98.4,
+          "median_notional_inr": 18811.0,
+          "target_rate": 0.063,
+          "stop_rate": 0.156,
+          "long_share": 0.464
+        },
+        "validation": {
+          "trades": 241,
+          "win_rate": 0.278,
+          "avg_win_inr": 184.4,
+          "avg_loss_inr": -211.2,
+          "profit_factor": 0.336,
+          "expectancy_inr": -101.2,
+          "mean_net_r": -0.349,
+          "mean_gross_r": 0.07,
+          "total_pnl_inr": -24397.0,
+          "max_drawdown_inr": -24397.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 24458.0,
+          "avg_charges_inr": 101.5,
+          "median_notional_inr": 19769.0,
+          "target_rate": 0.079,
+          "stop_rate": 0.141,
+          "long_share": 0.448
+        },
+        "holdout": {
+          "trades": 237,
+          "win_rate": 0.262,
+          "avg_win_inr": 205.0,
+          "avg_loss_inr": -205.8,
+          "profit_factor": 0.353,
+          "expectancy_inr": -98.3,
+          "mean_net_r": -0.343,
+          "mean_gross_r": 0.034,
+          "total_pnl_inr": -23301.0,
+          "max_drawdown_inr": -24074.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 21695.0,
+          "avg_charges_inr": 91.5,
+          "median_notional_inr": 16168.0,
+          "target_rate": 0.105,
+          "stop_rate": 0.173,
+          "long_share": 0.489
+        }
+      },
+      "B_15k": {
+        "dev": {
+          "trades": 474,
+          "win_rate": 0.249,
+          "avg_win_inr": 130.3,
+          "avg_loss_inr": -121.8,
+          "profit_factor": 0.355,
+          "expectancy_inr": -59.1,
+          "mean_net_r": -0.284,
+          "mean_gross_r": -0.085,
+          "total_pnl_inr": -27991.0,
+          "max_drawdown_inr": -27991.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 18381.0,
+          "avg_charges_inr": 38.8,
+          "median_notional_inr": 14717.0,
+          "target_rate": 0.057,
+          "stop_rate": 0.141,
+          "long_share": 0.475
+        },
+        "dev_a": {
+          "trades": 238,
+          "win_rate": 0.248,
+          "avg_win_inr": 109.3,
+          "avg_loss_inr": -114.3,
+          "profit_factor": 0.315,
+          "expectancy_inr": -58.8,
+          "mean_net_r": -0.29,
+          "mean_gross_r": -0.075,
+          "total_pnl_inr": -14004.0,
+          "max_drawdown_inr": -14004.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 9233.0,
+          "avg_charges_inr": 38.8,
+          "median_notional_inr": 14744.0,
+          "target_rate": 0.055,
+          "stop_rate": 0.126,
+          "long_share": 0.483
+        },
+        "dev_b": {
+          "trades": 236,
+          "win_rate": 0.25,
+          "avg_win_inr": 151.4,
+          "avg_loss_inr": -129.5,
+          "profit_factor": 0.39,
+          "expectancy_inr": -59.3,
+          "mean_net_r": -0.278,
+          "mean_gross_r": -0.095,
+          "total_pnl_inr": -13986.0,
+          "max_drawdown_inr": -13997.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 9148.0,
+          "avg_charges_inr": 38.8,
+          "median_notional_inr": 14705.0,
+          "target_rate": 0.059,
+          "stop_rate": 0.157,
+          "long_share": 0.466
+        },
+        "validation": {
+          "trades": 238,
+          "win_rate": 0.37,
+          "avg_win_inr": 138.5,
+          "avg_loss_inr": -129.3,
+          "profit_factor": 0.629,
+          "expectancy_inr": -30.3,
+          "mean_net_r": -0.161,
+          "mean_gross_r": 0.071,
+          "total_pnl_inr": -7200.0,
+          "max_drawdown_inr": -7200.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 9179.0,
+          "avg_charges_inr": 38.6,
+          "median_notional_inr": 14604.0,
+          "target_rate": 0.08,
+          "stop_rate": 0.143,
+          "long_share": 0.45
+        },
+        "holdout": {
+          "trades": 233,
+          "win_rate": 0.326,
+          "avg_win_inr": 165.2,
+          "avg_loss_inr": -140.8,
+          "profit_factor": 0.568,
+          "expectancy_inr": -41.0,
+          "mean_net_r": -0.165,
+          "mean_gross_r": 0.039,
+          "total_pnl_inr": -9550.0,
+          "max_drawdown_inr": -10600.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 8866.0,
+          "avg_charges_inr": 38.0,
+          "median_notional_inr": 14450.0,
+          "target_rate": 0.107,
+          "stop_rate": 0.172,
+          "long_share": 0.485
+        },
+        "skipped_qty0": 38
+      },
+      "slippage_sensitivity_A_mean_net_r": {
+        "0.00%": {
+          "dev": -0.242,
+          "validation": -0.111,
+          "holdout": -0.137
+        },
+        "base": {
+          "dev": -0.267,
+          "validation": -0.146,
+          "holdout": -0.159
+        },
+        "0.05%": {
+          "dev": -0.3,
+          "validation": -0.184,
+          "holdout": -0.192
+        },
+        "0.10%": {
+          "dev": -0.348,
+          "validation": -0.238,
+          "holdout": -0.237
+        }
+      },
+      "rolling_6m": {
+        "windows": [
+          {
+            "window": "2017-01-01..2017-06-30",
+            "trades": 118,
+            "mean_net_r": -0.29
+          },
+          {
+            "window": "2017-07-01..2017-12-31",
+            "trades": 120,
+            "mean_net_r": -0.247
+          },
+          {
+            "window": "2018-01-01..2018-06-30",
+            "trades": 120,
+            "mean_net_r": -0.259
+          },
+          {
+            "window": "2018-07-01..2018-12-31",
+            "trades": 117,
+            "mean_net_r": -0.271
+          },
+          {
+            "window": "2019-01-01..2019-06-30",
+            "trades": 121,
+            "mean_net_r": -0.091
+          },
+          {
+            "window": "2019-07-01..2019-12-31",
+            "trades": 120,
+            "mean_net_r": -0.202
+          },
+          {
+            "window": "2020-01-01..2020-06-30",
+            "trades": 112,
+            "mean_net_r": -0.125
+          },
+          {
+            "window": "2020-07-01..2020-12-31",
+            "trades": 125,
+            "mean_net_r": -0.19
+          }
+        ],
+        "windows_used": 8,
+        "windows_positive": 0,
+        "share_positive": 0.0
+      },
+      "raw_signals_no_width_check": {
+        "dev": {
+          "trades": 491,
+          "mean_gross_r": -0.077,
+          "median_stop_pct": 1.202
+        },
+        "validation": {
+          "trades": 244,
+          "mean_gross_r": 0.077,
+          "median_stop_pct": 1.215
+        },
+        "holdout": {
+          "trades": 248,
+          "mean_gross_r": -0.027,
+          "median_stop_pct": 1.588
+        }
+      },
+      "exit_reasons_A": {
+        "flip": 518,
+        "time": 221,
+        "stop": 142,
+        "target": 72
+      },
+      "by_year_A": {
+        "2017": {
+          "trades": 238,
+          "win_rate": 0.282,
+          "avg_win_inr": 153.8,
+          "avg_loss_inr": -169.9,
+          "profit_factor": 0.355,
+          "expectancy_inr": -78.8,
+          "mean_net_r": -0.268,
+          "mean_gross_r": -0.075,
+          "total_pnl_inr": -18749.0,
+          "max_drawdown_inr": -18749.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 12396.0,
+          "avg_charges_inr": 52.1,
+          "median_notional_inr": 21360.0,
+          "target_rate": 0.055,
+          "stop_rate": 0.126,
+          "long_share": 0.483
+        },
+        "2018": {
+          "trades": 237,
+          "win_rate": 0.266,
+          "avg_win_inr": 182.6,
+          "avg_loss_inr": -172.9,
+          "profit_factor": 0.382,
+          "expectancy_inr": -78.4,
+          "mean_net_r": -0.265,
+          "mean_gross_r": -0.086,
+          "total_pnl_inr": -18583.0,
+          "max_drawdown_inr": -18616.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 11656.0,
+          "avg_charges_inr": 49.2,
+          "median_notional_inr": 18811.0,
+          "target_rate": 0.063,
+          "stop_rate": 0.156,
+          "long_share": 0.464
+        },
+        "2019": {
+          "trades": 241,
+          "win_rate": 0.373,
+          "avg_win_inr": 187.4,
+          "avg_loss_inr": -178.8,
+          "profit_factor": 0.625,
+          "expectancy_inr": -42.0,
+          "mean_net_r": -0.146,
+          "mean_gross_r": 0.07,
+          "total_pnl_inr": -10129.0,
+          "max_drawdown_inr": -10204.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 12229.0,
+          "avg_charges_inr": 50.7,
+          "median_notional_inr": 19769.0,
+          "target_rate": 0.079,
+          "stop_rate": 0.141,
+          "long_share": 0.448
+        },
+        "2020": {
+          "trades": 237,
+          "win_rate": 0.338,
+          "avg_win_inr": 206.0,
+          "avg_loss_inr": -173.4,
+          "profit_factor": 0.605,
+          "expectancy_inr": -45.3,
+          "mean_net_r": -0.159,
+          "mean_gross_r": 0.034,
+          "total_pnl_inr": -10745.0,
+          "max_drawdown_inr": -12609.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 10848.0,
+          "avg_charges_inr": 45.8,
+          "median_notional_inr": 16168.0,
+          "target_rate": 0.105,
+          "stop_rate": 0.173,
+          "long_share": 0.489
+        }
+      },
+      "checks": {
+        "dev >= 100 trades": true,
+        "dev mean net R > 0": false,
+        "dev CI above 0": false,
+        "dev PF >= 1.15": false,
+        "dev halves > 0": false,
+        "dev stress > 0": false,
+        "validation > 0": false,
+        "validation stress > 0": false,
+        "holdout > 0": false,
+        ">= 60% of 6-month windows positive": false
+      },
+      "status": "REJECTED"
+    },
+    "EXP-0076": {
+      "rule": "ohol",
+      "signals_all_instruments": 11823,
+      "A": {
+        "dev": {
+          "trades": 477,
+          "win_rate": 0.317,
+          "avg_win_inr": 250.2,
+          "avg_loss_inr": -261.3,
+          "profit_factor": 0.443,
+          "expectancy_inr": -99.4,
+          "mean_net_r": -0.336,
+          "mean_gross_r": -0.119,
+          "total_pnl_inr": -47426.0,
+          "max_drawdown_inr": -47426.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 26866.0,
+          "avg_charges_inr": 56.3,
+          "median_notional_inr": 26634.0,
+          "target_rate": 0.174,
+          "stop_rate": 0.566,
+          "long_share": 0.6,
+          "mean_net_r_ci95": [
+            -0.404,
+            -0.267
+          ]
+        },
+        "dev_a": {
+          "trades": 237,
+          "win_rate": 0.346,
+          "avg_win_inr": 250.6,
+          "avg_loss_inr": -255.5,
+          "profit_factor": 0.519,
+          "expectancy_inr": -80.4,
+          "mean_net_r": -0.272,
+          "mean_gross_r": -0.024,
+          "total_pnl_inr": -19048.0,
+          "max_drawdown_inr": -19103.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 13882.0,
+          "avg_charges_inr": 58.6,
+          "median_notional_inr": 31098.0,
+          "target_rate": 0.203,
+          "stop_rate": 0.519,
+          "long_share": 0.549,
+          "mean_net_r_ci95": [
+            -0.359,
+            -0.189
+          ]
+        },
+        "dev_b": {
+          "trades": 240,
+          "win_rate": 0.287,
+          "avg_win_inr": 249.6,
+          "avg_loss_inr": -266.7,
+          "profit_factor": 0.378,
+          "expectancy_inr": -118.2,
+          "mean_net_r": -0.4,
+          "mean_gross_r": -0.213,
+          "total_pnl_inr": -28378.0,
+          "max_drawdown_inr": -28575.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 12985.0,
+          "avg_charges_inr": 54.1,
+          "median_notional_inr": 24160.0,
+          "target_rate": 0.146,
+          "stop_rate": 0.613,
+          "long_share": 0.65,
+          "mean_net_r_ci95": [
+            -0.493,
+            -0.301
+          ]
+        },
+        "validation": {
+          "trades": 241,
+          "win_rate": 0.365,
+          "avg_win_inr": 266.7,
+          "avg_loss_inr": -259.6,
+          "profit_factor": 0.591,
+          "expectancy_inr": -67.4,
+          "mean_net_r": -0.23,
+          "mean_gross_r": -0.01,
+          "total_pnl_inr": -16250.0,
+          "max_drawdown_inr": -16739.0,
+          "max_losing_streak": 7,
+          "total_charges_inr": 12983.0,
+          "avg_charges_inr": 53.9,
+          "median_notional_inr": 22766.0,
+          "target_rate": 0.191,
+          "stop_rate": 0.515,
+          "long_share": 0.498,
+          "mean_net_r_ci95": [
+            -0.341,
+            -0.093
+          ]
+        },
+        "holdout": {
+          "trades": 237,
+          "win_rate": 0.367,
+          "avg_win_inr": 289.4,
+          "avg_loss_inr": -254.1,
+          "profit_factor": 0.661,
+          "expectancy_inr": -54.6,
+          "mean_net_r": -0.186,
+          "mean_gross_r": 0.037,
+          "total_pnl_inr": -12932.0,
+          "max_drawdown_inr": -13298.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 12165.0,
+          "avg_charges_inr": 51.3,
+          "median_notional_inr": 19565.0,
+          "target_rate": 0.228,
+          "stop_rate": 0.511,
+          "long_share": 0.532,
+          "mean_net_r_ci95": [
+            -0.25,
+            -0.129
+          ]
+        }
+      },
+      "A_stress": {
+        "dev": {
+          "trades": 477,
+          "win_rate": 0.27,
+          "avg_win_inr": 213.7,
+          "avg_loss_inr": -311.2,
+          "profit_factor": 0.255,
+          "expectancy_inr": -169.2,
+          "mean_net_r": -0.574,
+          "mean_gross_r": -0.119,
+          "total_pnl_inr": -80725.0,
+          "max_drawdown_inr": -80725.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 53731.0,
+          "avg_charges_inr": 112.6,
+          "median_notional_inr": 26634.0,
+          "target_rate": 0.174,
+          "stop_rate": 0.566,
+          "long_share": 0.6
+        },
+        "dev_a": {
+          "trades": 237,
+          "win_rate": 0.295,
+          "avg_win_inr": 211.1,
+          "avg_loss_inr": -307.2,
+          "profit_factor": 0.288,
+          "expectancy_inr": -154.1,
+          "mean_net_r": -0.522,
+          "mean_gross_r": -0.024,
+          "total_pnl_inr": -36528.0,
+          "max_drawdown_inr": -36528.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 27763.0,
+          "avg_charges_inr": 117.1,
+          "median_notional_inr": 31098.0,
+          "target_rate": 0.203,
+          "stop_rate": 0.519,
+          "long_share": 0.549
+        },
+        "dev_b": {
+          "trades": 240,
+          "win_rate": 0.246,
+          "avg_win_inr": 216.8,
+          "avg_loss_inr": -314.9,
+          "profit_factor": 0.224,
+          "expectancy_inr": -184.2,
+          "mean_net_r": -0.625,
+          "mean_gross_r": -0.213,
+          "total_pnl_inr": -44197.0,
+          "max_drawdown_inr": -44348.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 25969.0,
+          "avg_charges_inr": 108.2,
+          "median_notional_inr": 24160.0,
+          "target_rate": 0.146,
+          "stop_rate": 0.613,
+          "long_share": 0.65
+        },
+        "validation": {
+          "trades": 241,
+          "win_rate": 0.332,
+          "avg_win_inr": 224.8,
+          "avg_loss_inr": -311.2,
+          "profit_factor": 0.359,
+          "expectancy_inr": -133.3,
+          "mean_net_r": -0.454,
+          "mean_gross_r": -0.01,
+          "total_pnl_inr": -32124.0,
+          "max_drawdown_inr": -32124.0,
+          "max_losing_streak": 9,
+          "total_charges_inr": 25965.0,
+          "avg_charges_inr": 107.7,
+          "median_notional_inr": 22766.0,
+          "target_rate": 0.191,
+          "stop_rate": 0.515,
+          "long_share": 0.498
+        },
+        "holdout": {
+          "trades": 237,
+          "win_rate": 0.342,
+          "avg_win_inr": 247.1,
+          "avg_loss_inr": -305.0,
+          "profit_factor": 0.421,
+          "expectancy_inr": -116.3,
+          "mean_net_r": -0.399,
+          "mean_gross_r": 0.037,
+          "total_pnl_inr": -27565.0,
+          "max_drawdown_inr": -27672.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 24330.0,
+          "avg_charges_inr": 102.7,
+          "median_notional_inr": 19565.0,
+          "target_rate": 0.228,
+          "stop_rate": 0.511,
+          "long_share": 0.532
+        }
+      },
+      "B_15k": {
+        "dev": {
+          "trades": 469,
+          "win_rate": 0.303,
+          "avg_win_inr": 130.9,
+          "avg_loss_inr": -153.3,
+          "profit_factor": 0.371,
+          "expectancy_inr": -67.3,
+          "mean_net_r": -0.398,
+          "mean_gross_r": -0.126,
+          "total_pnl_inr": -31548.0,
+          "max_drawdown_inr": -31548.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 18272.0,
+          "avg_charges_inr": 39.0,
+          "median_notional_inr": 14729.0,
+          "target_rate": 0.171,
+          "stop_rate": 0.567,
+          "long_share": 0.595
+        },
+        "dev_a": {
+          "trades": 233,
+          "win_rate": 0.326,
+          "avg_win_inr": 122.6,
+          "avg_loss_inr": -134.3,
+          "profit_factor": 0.442,
+          "expectancy_inr": -50.5,
+          "mean_net_r": -0.354,
+          "mean_gross_r": -0.038,
+          "total_pnl_inr": -11760.0,
+          "max_drawdown_inr": -11760.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 9124.0,
+          "avg_charges_inr": 39.2,
+          "median_notional_inr": 14762.0,
+          "target_rate": 0.197,
+          "stop_rate": 0.524,
+          "long_share": 0.545
+        },
+        "dev_b": {
+          "trades": 236,
+          "win_rate": 0.28,
+          "avg_win_inr": 140.4,
+          "avg_loss_inr": -170.9,
+          "profit_factor": 0.319,
+          "expectancy_inr": -83.8,
+          "mean_net_r": -0.441,
+          "mean_gross_r": -0.213,
+          "total_pnl_inr": -19788.0,
+          "max_drawdown_inr": -19998.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 9148.0,
+          "avg_charges_inr": 38.8,
+          "median_notional_inr": 14675.0,
+          "target_rate": 0.144,
+          "stop_rate": 0.61,
+          "long_share": 0.644
+        },
+        "validation": {
+          "trades": 238,
+          "win_rate": 0.349,
+          "avg_win_inr": 169.5,
+          "avg_loss_inr": -157.9,
+          "profit_factor": 0.575,
+          "expectancy_inr": -43.7,
+          "mean_net_r": -0.281,
+          "mean_gross_r": -0.017,
+          "total_pnl_inr": -10399.0,
+          "max_drawdown_inr": -10403.0,
+          "max_losing_streak": 9,
+          "total_charges_inr": 9231.0,
+          "avg_charges_inr": 38.8,
+          "median_notional_inr": 14671.0,
+          "target_rate": 0.189,
+          "stop_rate": 0.517,
+          "long_share": 0.492
+        },
+        "holdout": {
+          "trades": 226,
+          "win_rate": 0.367,
+          "avg_win_inr": 186.3,
+          "avg_loss_inr": -176.4,
+          "profit_factor": 0.613,
+          "expectancy_inr": -43.2,
+          "mean_net_r": -0.224,
+          "mean_gross_r": 0.036,
+          "total_pnl_inr": -9769.0,
+          "max_drawdown_inr": -9811.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 8744.0,
+          "avg_charges_inr": 38.7,
+          "median_notional_inr": 14673.0,
+          "target_rate": 0.226,
+          "stop_rate": 0.504,
+          "long_share": 0.535
+        },
+        "skipped_qty0": 50
+      },
+      "slippage_sensitivity_A_mean_net_r": {
+        "0.00%": {
+          "dev": -0.297,
+          "validation": -0.195,
+          "holdout": -0.151
+        },
+        "base": {
+          "dev": -0.336,
+          "validation": -0.23,
+          "holdout": -0.186
+        },
+        "0.05%": {
+          "dev": -0.383,
+          "validation": -0.277,
+          "holdout": -0.227
+        },
+        "0.10%": {
+          "dev": -0.444,
+          "validation": -0.338,
+          "holdout": -0.286
+        }
+      },
+      "rolling_6m": {
+        "windows": [
+          {
+            "window": "2017-01-01..2017-06-30",
+            "trades": 119,
+            "mean_net_r": -0.287
+          },
+          {
+            "window": "2017-07-01..2017-12-31",
+            "trades": 118,
+            "mean_net_r": -0.256
+          },
+          {
+            "window": "2018-01-01..2018-06-30",
+            "trades": 120,
+            "mean_net_r": -0.284
+          },
+          {
+            "window": "2018-07-01..2018-12-31",
+            "trades": 120,
+            "mean_net_r": -0.515
+          },
+          {
+            "window": "2019-01-01..2019-06-30",
+            "trades": 120,
+            "mean_net_r": -0.303
+          },
+          {
+            "window": "2019-07-01..2019-12-31",
+            "trades": 121,
+            "mean_net_r": -0.158
+          },
+          {
+            "window": "2020-01-01..2020-06-30",
+            "trades": 115,
+            "mean_net_r": -0.255
+          },
+          {
+            "window": "2020-07-01..2020-12-31",
+            "trades": 122,
+            "mean_net_r": -0.122
+          }
+        ],
+        "windows_used": 8,
+        "windows_positive": 0,
+        "share_positive": 0.0
+      },
+      "raw_signals_no_width_check": {
+        "dev": {
+          "trades": 491,
+          "mean_gross_r": -0.091,
+          "median_stop_pct": 0.993
+        },
+        "validation": {
+          "trades": 244,
+          "mean_gross_r": -0.018,
+          "median_stop_pct": 1.383
+        },
+        "holdout": {
+          "trades": 248,
+          "mean_gross_r": 0.143,
+          "median_stop_pct": 1.851
+        }
+      },
+      "exit_reasons_A": {
+        "stop": 515,
+        "time": 257,
+        "target": 183
+      },
+      "by_year_A": {
+        "2017": {
+          "trades": 237,
+          "win_rate": 0.346,
+          "avg_win_inr": 250.6,
+          "avg_loss_inr": -255.5,
+          "profit_factor": 0.519,
+          "expectancy_inr": -80.4,
+          "mean_net_r": -0.272,
+          "mean_gross_r": -0.024,
+          "total_pnl_inr": -19048.0,
+          "max_drawdown_inr": -19103.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 13882.0,
+          "avg_charges_inr": 58.6,
+          "median_notional_inr": 31098.0,
+          "target_rate": 0.203,
+          "stop_rate": 0.519,
+          "long_share": 0.549
+        },
+        "2018": {
+          "trades": 240,
+          "win_rate": 0.287,
+          "avg_win_inr": 249.6,
+          "avg_loss_inr": -266.7,
+          "profit_factor": 0.378,
+          "expectancy_inr": -118.2,
+          "mean_net_r": -0.4,
+          "mean_gross_r": -0.213,
+          "total_pnl_inr": -28378.0,
+          "max_drawdown_inr": -28575.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 12985.0,
+          "avg_charges_inr": 54.1,
+          "median_notional_inr": 24160.0,
+          "target_rate": 0.146,
+          "stop_rate": 0.613,
+          "long_share": 0.65
+        },
+        "2019": {
+          "trades": 241,
+          "win_rate": 0.365,
+          "avg_win_inr": 266.7,
+          "avg_loss_inr": -259.6,
+          "profit_factor": 0.591,
+          "expectancy_inr": -67.4,
+          "mean_net_r": -0.23,
+          "mean_gross_r": -0.01,
+          "total_pnl_inr": -16250.0,
+          "max_drawdown_inr": -16739.0,
+          "max_losing_streak": 7,
+          "total_charges_inr": 12983.0,
+          "avg_charges_inr": 53.9,
+          "median_notional_inr": 22766.0,
+          "target_rate": 0.191,
+          "stop_rate": 0.515,
+          "long_share": 0.498
+        },
+        "2020": {
+          "trades": 237,
+          "win_rate": 0.367,
+          "avg_win_inr": 289.4,
+          "avg_loss_inr": -254.1,
+          "profit_factor": 0.661,
+          "expectancy_inr": -54.6,
+          "mean_net_r": -0.186,
+          "mean_gross_r": 0.037,
+          "total_pnl_inr": -12932.0,
+          "max_drawdown_inr": -13298.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 12165.0,
+          "avg_charges_inr": 51.3,
+          "median_notional_inr": 19565.0,
+          "target_rate": 0.228,
+          "stop_rate": 0.511,
+          "long_share": 0.532
+        }
+      },
+      "checks": {
+        "dev >= 100 trades": true,
+        "dev mean net R > 0": false,
+        "dev CI above 0": false,
+        "dev PF >= 1.15": false,
+        "dev halves > 0": false,
+        "dev stress > 0": false,
+        "validation > 0": false,
+        "validation stress > 0": false,
+        "holdout > 0": false,
+        ">= 60% of 6-month windows positive": false
+      },
+      "status": "REJECTED"
+    },
+    "EXP-0077": {
+      "rule": "cpr",
+      "signals_all_instruments": 10903,
+      "A": {
+        "dev": {
+          "trades": 457,
+          "win_rate": 0.363,
+          "avg_win_inr": 233.3,
+          "avg_loss_inr": -244.6,
+          "profit_factor": 0.544,
+          "expectancy_inr": -71.0,
+          "mean_net_r": -0.239,
+          "mean_gross_r": 0.017,
+          "total_pnl_inr": -32463.0,
+          "max_drawdown_inr": -32587.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 26450.0,
+          "avg_charges_inr": 57.9,
+          "median_notional_inr": 28363.0,
+          "target_rate": 0.188,
+          "stop_rate": 0.468,
+          "long_share": 0.639,
+          "mean_net_r_ci95": [
+            -0.317,
+            -0.168
+          ]
+        },
+        "dev_a": {
+          "trades": 216,
+          "win_rate": 0.375,
+          "avg_win_inr": 219.9,
+          "avg_loss_inr": -241.2,
+          "profit_factor": 0.547,
+          "expectancy_inr": -68.3,
+          "mean_net_r": -0.229,
+          "mean_gross_r": 0.03,
+          "total_pnl_inr": -14747.0,
+          "max_drawdown_inr": -14871.0,
+          "max_losing_streak": 7,
+          "total_charges_inr": 12679.0,
+          "avg_charges_inr": 58.7,
+          "median_notional_inr": 31588.0,
+          "target_rate": 0.176,
+          "stop_rate": 0.444,
+          "long_share": 0.644,
+          "mean_net_r_ci95": [
+            -0.312,
+            -0.164
+          ]
+        },
+        "dev_b": {
+          "trades": 241,
+          "win_rate": 0.353,
+          "avg_win_inr": 246.0,
+          "avg_loss_inr": -247.6,
+          "profit_factor": 0.541,
+          "expectancy_inr": -73.5,
+          "mean_net_r": -0.249,
+          "mean_gross_r": 0.005,
+          "total_pnl_inr": -17715.0,
+          "max_drawdown_inr": -18416.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 13771.0,
+          "avg_charges_inr": 57.1,
+          "median_notional_inr": 26935.0,
+          "target_rate": 0.199,
+          "stop_rate": 0.49,
+          "long_share": 0.635,
+          "mean_net_r_ci95": [
+            -0.377,
+            -0.128
+          ]
+        },
+        "validation": {
+          "trades": 242,
+          "win_rate": 0.293,
+          "avg_win_inr": 264.1,
+          "avg_loss_inr": -238.8,
+          "profit_factor": 0.459,
+          "expectancy_inr": -91.3,
+          "mean_net_r": -0.316,
+          "mean_gross_r": -0.093,
+          "total_pnl_inr": -22084.0,
+          "max_drawdown_inr": -22831.0,
+          "max_losing_streak": 15,
+          "total_charges_inr": 13631.0,
+          "avg_charges_inr": 56.3,
+          "median_notional_inr": 25428.0,
+          "target_rate": 0.174,
+          "stop_rate": 0.512,
+          "long_share": 0.583,
+          "mean_net_r_ci95": [
+            -0.428,
+            -0.199
+          ]
+        },
+        "holdout": {
+          "trades": 231,
+          "win_rate": 0.346,
+          "avg_win_inr": 274.0,
+          "avg_loss_inr": -251.6,
+          "profit_factor": 0.577,
+          "expectancy_inr": -69.6,
+          "mean_net_r": -0.246,
+          "mean_gross_r": -0.041,
+          "total_pnl_inr": -16067.0,
+          "max_drawdown_inr": -16245.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 12282.0,
+          "avg_charges_inr": 53.2,
+          "median_notional_inr": 22818.0,
+          "target_rate": 0.177,
+          "stop_rate": 0.519,
+          "long_share": 0.645,
+          "mean_net_r_ci95": [
+            -0.363,
+            -0.131
+          ]
+        }
+      },
+      "A_stress": {
+        "dev": {
+          "trades": 457,
+          "win_rate": 0.309,
+          "avg_win_inr": 194.7,
+          "avg_loss_inr": -295.1,
+          "profit_factor": 0.294,
+          "expectancy_inr": -144.0,
+          "mean_net_r": -0.488,
+          "mean_gross_r": 0.017,
+          "total_pnl_inr": -65809.0,
+          "max_drawdown_inr": -65874.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 52899.0,
+          "avg_charges_inr": 115.8,
+          "median_notional_inr": 28363.0,
+          "target_rate": 0.188,
+          "stop_rate": 0.468,
+          "long_share": 0.639
+        },
+        "dev_a": {
+          "trades": 216,
+          "win_rate": 0.301,
+          "avg_win_inr": 190.2,
+          "avg_loss_inr": -286.1,
+          "profit_factor": 0.286,
+          "expectancy_inr": -142.7,
+          "mean_net_r": -0.481,
+          "mean_gross_r": 0.03,
+          "total_pnl_inr": -30831.0,
+          "max_drawdown_inr": -30896.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 25357.0,
+          "avg_charges_inr": 117.4,
+          "median_notional_inr": 31588.0,
+          "target_rate": 0.176,
+          "stop_rate": 0.444,
+          "long_share": 0.644
+        },
+        "dev_b": {
+          "trades": 241,
+          "win_rate": 0.315,
+          "avg_win_inr": 198.4,
+          "avg_loss_inr": -303.4,
+          "profit_factor": 0.301,
+          "expectancy_inr": -145.1,
+          "mean_net_r": -0.494,
+          "mean_gross_r": 0.005,
+          "total_pnl_inr": -34978.0,
+          "max_drawdown_inr": -35274.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 27542.0,
+          "avg_charges_inr": 114.3,
+          "median_notional_inr": 26935.0,
+          "target_rate": 0.199,
+          "stop_rate": 0.49,
+          "long_share": 0.635
+        },
+        "validation": {
+          "trades": 242,
+          "win_rate": 0.273,
+          "avg_win_inr": 207.8,
+          "avg_loss_inr": -300.1,
+          "profit_factor": 0.26,
+          "expectancy_inr": -161.6,
+          "mean_net_r": -0.556,
+          "mean_gross_r": -0.093,
+          "total_pnl_inr": -39106.0,
+          "max_drawdown_inr": -39106.0,
+          "max_losing_streak": 15,
+          "total_charges_inr": 27262.0,
+          "avg_charges_inr": 112.7,
+          "median_notional_inr": 25428.0,
+          "target_rate": 0.174,
+          "stop_rate": 0.512,
+          "long_share": 0.583
+        },
+        "holdout": {
+          "trades": 231,
+          "win_rate": 0.312,
+          "avg_win_inr": 238.4,
+          "avg_loss_inr": -303.8,
+          "profit_factor": 0.355,
+          "expectancy_inr": -134.8,
+          "mean_net_r": -0.472,
+          "mean_gross_r": -0.041,
+          "total_pnl_inr": -31140.0,
+          "max_drawdown_inr": -31270.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 24563.0,
+          "avg_charges_inr": 106.3,
+          "median_notional_inr": 22818.0,
+          "target_rate": 0.177,
+          "stop_rate": 0.519,
+          "long_share": 0.645
+        }
+      },
+      "B_15k": {
+        "dev": {
+          "trades": 448,
+          "win_rate": 0.337,
+          "avg_win_inr": 108.2,
+          "avg_loss_inr": -129.6,
+          "profit_factor": 0.424,
+          "expectancy_inr": -49.5,
+          "mean_net_r": -0.324,
+          "mean_gross_r": 0.003,
+          "total_pnl_inr": -22164.0,
+          "max_drawdown_inr": -22261.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 17369.0,
+          "avg_charges_inr": 38.8,
+          "median_notional_inr": 14676.0,
+          "target_rate": 0.183,
+          "stop_rate": 0.471,
+          "long_share": 0.641
+        },
+        "dev_a": {
+          "trades": 215,
+          "win_rate": 0.344,
+          "avg_win_inr": 103.2,
+          "avg_loss_inr": -121.2,
+          "profit_factor": 0.447,
+          "expectancy_inr": -44.0,
+          "mean_net_r": -0.308,
+          "mean_gross_r": 0.035,
+          "total_pnl_inr": -9453.0,
+          "max_drawdown_inr": -9550.0,
+          "max_losing_streak": 9,
+          "total_charges_inr": 8388.0,
+          "avg_charges_inr": 39.0,
+          "median_notional_inr": 14688.0,
+          "target_rate": 0.177,
+          "stop_rate": 0.442,
+          "long_share": 0.642
+        },
+        "dev_b": {
+          "trades": 233,
+          "win_rate": 0.33,
+          "avg_win_inr": 113.1,
+          "avg_loss_inr": -137.3,
+          "profit_factor": 0.406,
+          "expectancy_inr": -54.6,
+          "mean_net_r": -0.339,
+          "mean_gross_r": -0.025,
+          "total_pnl_inr": -12711.0,
+          "max_drawdown_inr": -13045.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 8981.0,
+          "avg_charges_inr": 38.5,
+          "median_notional_inr": 14668.0,
+          "target_rate": 0.189,
+          "stop_rate": 0.498,
+          "long_share": 0.639
+        },
+        "validation": {
+          "trades": 237,
+          "win_rate": 0.291,
+          "avg_win_inr": 137.7,
+          "avg_loss_inr": -135.8,
+          "profit_factor": 0.417,
+          "expectancy_inr": -56.2,
+          "mean_net_r": -0.377,
+          "mean_gross_r": -0.082,
+          "total_pnl_inr": -13310.0,
+          "max_drawdown_inr": -13548.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 9188.0,
+          "avg_charges_inr": 38.8,
+          "median_notional_inr": 14631.0,
+          "target_rate": 0.177,
+          "stop_rate": 0.506,
+          "long_share": 0.591
+        },
+        "holdout": {
+          "trades": 219,
+          "win_rate": 0.329,
+          "avg_win_inr": 198.2,
+          "avg_loss_inr": -148.1,
+          "profit_factor": 0.656,
+          "expectancy_inr": -34.2,
+          "mean_net_r": -0.28,
+          "mean_gross_r": -0.048,
+          "total_pnl_inr": -7493.0,
+          "max_drawdown_inr": -7915.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 8450.0,
+          "avg_charges_inr": 38.6,
+          "median_notional_inr": 14618.0,
+          "target_rate": 0.183,
+          "stop_rate": 0.521,
+          "long_share": 0.639
+        },
+        "skipped_qty0": 45
+      },
+      "slippage_sensitivity_A_mean_net_r": {
+        "0.00%": {
+          "dev": -0.191,
+          "validation": -0.273,
+          "holdout": -0.214
+        },
+        "base": {
+          "dev": -0.239,
+          "validation": -0.316,
+          "holdout": -0.246
+        },
+        "0.05%": {
+          "dev": -0.3,
+          "validation": -0.37,
+          "holdout": -0.286
+        },
+        "0.10%": {
+          "dev": -0.376,
+          "validation": -0.433,
+          "holdout": -0.345
+        }
+      },
+      "rolling_6m": {
+        "windows": [
+          {
+            "window": "2017-01-01..2017-06-30",
+            "trades": 97,
+            "mean_net_r": -0.333
+          },
+          {
+            "window": "2017-07-01..2017-12-31",
+            "trades": 119,
+            "mean_net_r": -0.145
+          },
+          {
+            "window": "2018-01-01..2018-06-30",
+            "trades": 123,
+            "mean_net_r": -0.185
+          },
+          {
+            "window": "2018-07-01..2018-12-31",
+            "trades": 118,
+            "mean_net_r": -0.315
+          },
+          {
+            "window": "2019-01-01..2019-06-30",
+            "trades": 120,
+            "mean_net_r": -0.333
+          },
+          {
+            "window": "2019-07-01..2019-12-31",
+            "trades": 122,
+            "mean_net_r": -0.299
+          },
+          {
+            "window": "2020-01-01..2020-06-30",
+            "trades": 111,
+            "mean_net_r": -0.181
+          },
+          {
+            "window": "2020-07-01..2020-12-31",
+            "trades": 120,
+            "mean_net_r": -0.306
+          }
+        ],
+        "windows_used": 8,
+        "windows_positive": 0,
+        "share_positive": 0.0
+      },
+      "raw_signals_no_width_check": {
+        "dev": {
+          "trades": 466,
+          "mean_gross_r": -0.036,
+          "median_stop_pct": 1.015
+        },
+        "validation": {
+          "trades": 244,
+          "mean_gross_r": -0.139,
+          "median_stop_pct": 1.221
+        },
+        "holdout": {
+          "trades": 245,
+          "mean_gross_r": -0.064,
+          "median_stop_pct": 1.745
+        }
+      },
+      "exit_reasons_A": {
+        "stop": 458,
+        "time": 303,
+        "target": 169
+      },
+      "by_year_A": {
+        "2017": {
+          "trades": 216,
+          "win_rate": 0.375,
+          "avg_win_inr": 219.9,
+          "avg_loss_inr": -241.2,
+          "profit_factor": 0.547,
+          "expectancy_inr": -68.3,
+          "mean_net_r": -0.229,
+          "mean_gross_r": 0.03,
+          "total_pnl_inr": -14747.0,
+          "max_drawdown_inr": -14871.0,
+          "max_losing_streak": 7,
+          "total_charges_inr": 12679.0,
+          "avg_charges_inr": 58.7,
+          "median_notional_inr": 31588.0,
+          "target_rate": 0.176,
+          "stop_rate": 0.444,
+          "long_share": 0.644
+        },
+        "2018": {
+          "trades": 241,
+          "win_rate": 0.353,
+          "avg_win_inr": 246.0,
+          "avg_loss_inr": -247.6,
+          "profit_factor": 0.541,
+          "expectancy_inr": -73.5,
+          "mean_net_r": -0.249,
+          "mean_gross_r": 0.005,
+          "total_pnl_inr": -17715.0,
+          "max_drawdown_inr": -18416.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 13771.0,
+          "avg_charges_inr": 57.1,
+          "median_notional_inr": 26935.0,
+          "target_rate": 0.199,
+          "stop_rate": 0.49,
+          "long_share": 0.635
+        },
+        "2019": {
+          "trades": 242,
+          "win_rate": 0.293,
+          "avg_win_inr": 264.1,
+          "avg_loss_inr": -238.8,
+          "profit_factor": 0.459,
+          "expectancy_inr": -91.3,
+          "mean_net_r": -0.316,
+          "mean_gross_r": -0.093,
+          "total_pnl_inr": -22084.0,
+          "max_drawdown_inr": -22831.0,
+          "max_losing_streak": 15,
+          "total_charges_inr": 13631.0,
+          "avg_charges_inr": 56.3,
+          "median_notional_inr": 25428.0,
+          "target_rate": 0.174,
+          "stop_rate": 0.512,
+          "long_share": 0.583
+        },
+        "2020": {
+          "trades": 231,
+          "win_rate": 0.346,
+          "avg_win_inr": 274.0,
+          "avg_loss_inr": -251.6,
+          "profit_factor": 0.577,
+          "expectancy_inr": -69.6,
+          "mean_net_r": -0.246,
+          "mean_gross_r": -0.041,
+          "total_pnl_inr": -16067.0,
+          "max_drawdown_inr": -16245.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 12282.0,
+          "avg_charges_inr": 53.2,
+          "median_notional_inr": 22818.0,
+          "target_rate": 0.177,
+          "stop_rate": 0.519,
+          "long_share": 0.645
+        }
+      },
+      "checks": {
+        "dev >= 100 trades": true,
+        "dev mean net R > 0": false,
+        "dev CI above 0": false,
+        "dev PF >= 1.15": false,
+        "dev halves > 0": false,
+        "dev stress > 0": false,
+        "validation > 0": false,
+        "validation stress > 0": false,
+        "holdout > 0": false,
+        ">= 60% of 6-month windows positive": false
+      },
+      "status": "REJECTED"
+    }
+  },
+  "indices": {
+    "EXP-0073": {
+      "rule": "ema5",
+      "signals_all_instruments": 3831,
+      "A": {
+        "dev": {
+          "trades": 1116,
+          "win_rate": 0.281,
+          "avg_win_inr": 309.9,
+          "avg_loss_inr": -286.3,
+          "profit_factor": 0.424,
+          "expectancy_inr": -118.6,
+          "mean_net_r": -0.396,
+          "mean_gross_r": 0.072,
+          "total_pnl_inr": -132344.0,
+          "max_drawdown_inr": -132535.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 86731.0,
+          "avg_charges_inr": 77.7,
+          "median_notional_inr": 91240.0,
+          "target_rate": 0.211,
+          "stop_rate": 0.668,
+          "long_share": 0.351,
+          "mean_net_r_ci95": [
+            -0.448,
+            -0.343
+          ]
+        },
+        "dev_a": {
+          "trades": 518,
+          "win_rate": 0.282,
+          "avg_win_inr": 277.4,
+          "avg_loss_inr": -284.6,
+          "profit_factor": 0.383,
+          "expectancy_inr": -126.2,
+          "mean_net_r": -0.421,
+          "mean_gross_r": 0.072,
+          "total_pnl_inr": -65369.0,
+          "max_drawdown_inr": -65369.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 41789.0,
+          "avg_charges_inr": 80.7,
+          "median_notional_inr": 99948.0,
+          "target_rate": 0.208,
+          "stop_rate": 0.658,
+          "long_share": 0.363,
+          "mean_net_r_ci95": [
+            -0.495,
+            -0.345
+          ]
+        },
+        "dev_b": {
+          "trades": 598,
+          "win_rate": 0.281,
+          "avg_win_inr": 338.1,
+          "avg_loss_inr": -287.9,
+          "profit_factor": 0.459,
+          "expectancy_inr": -112.0,
+          "mean_net_r": -0.374,
+          "mean_gross_r": 0.072,
+          "total_pnl_inr": -66975.0,
+          "max_drawdown_inr": -67167.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 44942.0,
+          "avg_charges_inr": 75.2,
+          "median_notional_inr": 81322.0,
+          "target_rate": 0.212,
+          "stop_rate": 0.676,
+          "long_share": 0.341,
+          "mean_net_r_ci95": [
+            -0.443,
+            -0.301
+          ]
+        },
+        "validation": {
+          "trades": 460,
+          "win_rate": 0.3,
+          "avg_win_inr": 274.8,
+          "avg_loss_inr": -275.7,
+          "profit_factor": 0.427,
+          "expectancy_inr": -110.5,
+          "mean_net_r": -0.369,
+          "mean_gross_r": 0.142,
+          "total_pnl_inr": -50840.0,
+          "max_drawdown_inr": -50853.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 35945.0,
+          "avg_charges_inr": 78.1,
+          "median_notional_inr": 91637.0,
+          "target_rate": 0.209,
+          "stop_rate": 0.607,
+          "long_share": 0.411,
+          "mean_net_r_ci95": [
+            -0.432,
+            -0.305
+          ]
+        },
+        "holdout": {
+          "trades": 630,
+          "win_rate": 0.281,
+          "avg_win_inr": 290.3,
+          "avg_loss_inr": -274.2,
+          "profit_factor": 0.414,
+          "expectancy_inr": -115.6,
+          "mean_net_r": -0.386,
+          "mean_gross_r": 0.127,
+          "total_pnl_inr": -72841.0,
+          "max_drawdown_inr": -74616.0,
+          "max_losing_streak": 20,
+          "total_charges_inr": 50347.0,
+          "avg_charges_inr": 79.9,
+          "median_notional_inr": 95448.0,
+          "target_rate": 0.216,
+          "stop_rate": 0.619,
+          "long_share": 0.432,
+          "mean_net_r_ci95": [
+            -0.45,
+            -0.322
+          ]
+        }
+      },
+      "A_stress": {
+        "dev": {
+          "trades": 1116,
+          "win_rate": 0.256,
+          "avg_win_inr": 205.9,
+          "avg_loss_inr": -404.9,
+          "profit_factor": 0.175,
+          "expectancy_inr": -248.4,
+          "mean_net_r": -0.829,
+          "mean_gross_r": 0.072,
+          "total_pnl_inr": -277188.0,
+          "max_drawdown_inr": -277188.0,
+          "max_losing_streak": 18,
+          "total_charges_inr": 173448.0,
+          "avg_charges_inr": 155.4,
+          "median_notional_inr": 91240.0,
+          "target_rate": 0.211,
+          "stop_rate": 0.668,
+          "long_share": 0.351
+        },
+        "dev_a": {
+          "trades": 518,
+          "win_rate": 0.247,
+          "avg_win_inr": 172.3,
+          "avg_loss_inr": -407.1,
+          "profit_factor": 0.139,
+          "expectancy_inr": -263.9,
+          "mean_net_r": -0.88,
+          "mean_gross_r": 0.072,
+          "total_pnl_inr": -136706.0,
+          "max_drawdown_inr": -136706.0,
+          "max_losing_streak": 18,
+          "total_charges_inr": 83571.0,
+          "avg_charges_inr": 161.3,
+          "median_notional_inr": 99948.0,
+          "target_rate": 0.208,
+          "stop_rate": 0.658,
+          "long_share": 0.363
+        },
+        "dev_b": {
+          "trades": 598,
+          "win_rate": 0.264,
+          "avg_win_inr": 233.2,
+          "avg_loss_inr": -403.0,
+          "profit_factor": 0.208,
+          "expectancy_inr": -234.9,
+          "mean_net_r": -0.784,
+          "mean_gross_r": 0.072,
+          "total_pnl_inr": -140481.0,
+          "max_drawdown_inr": -140481.0,
+          "max_losing_streak": 15,
+          "total_charges_inr": 89877.0,
+          "avg_charges_inr": 150.3,
+          "median_notional_inr": 81322.0,
+          "target_rate": 0.212,
+          "stop_rate": 0.676,
+          "long_share": 0.341
+        },
+        "validation": {
+          "trades": 460,
+          "win_rate": 0.265,
+          "avg_win_inr": 169.7,
+          "avg_loss_inr": -389.7,
+          "profit_factor": 0.157,
+          "expectancy_inr": -241.4,
+          "mean_net_r": -0.806,
+          "mean_gross_r": 0.142,
+          "total_pnl_inr": -111027.0,
+          "max_drawdown_inr": -111027.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 71885.0,
+          "avg_charges_inr": 156.3,
+          "median_notional_inr": 91637.0,
+          "target_rate": 0.209,
+          "stop_rate": 0.607,
+          "long_share": 0.411
+        },
+        "holdout": {
+          "trades": 630,
+          "win_rate": 0.259,
+          "avg_win_inr": 174.2,
+          "avg_loss_inr": -399.8,
+          "profit_factor": 0.152,
+          "expectancy_inr": -251.3,
+          "mean_net_r": -0.839,
+          "mean_gross_r": 0.127,
+          "total_pnl_inr": -158317.0,
+          "max_drawdown_inr": -158317.0,
+          "max_losing_streak": 22,
+          "total_charges_inr": 100687.0,
+          "avg_charges_inr": 159.8,
+          "median_notional_inr": 95448.0,
+          "target_rate": 0.216,
+          "stop_rate": 0.619,
+          "long_share": 0.432
+        }
+      },
+      "B_15k": {
+        "dev": {
+          "trades": 1116,
+          "win_rate": 0.234,
+          "avg_win_inr": 55.4,
+          "avg_loss_inr": -77.9,
+          "profit_factor": 0.217,
+          "expectancy_inr": -46.8,
+          "mean_net_r": -0.585,
+          "mean_gross_r": 0.072,
+          "total_pnl_inr": -52179.0,
+          "max_drawdown_inr": -52179.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 45083.0,
+          "avg_charges_inr": 40.4,
+          "median_notional_inr": 14916.0,
+          "target_rate": 0.211,
+          "stop_rate": 0.668,
+          "long_share": 0.351
+        },
+        "dev_a": {
+          "trades": 518,
+          "win_rate": 0.218,
+          "avg_win_inr": 33.5,
+          "avg_loss_inr": -69.0,
+          "profit_factor": 0.135,
+          "expectancy_inr": -46.6,
+          "mean_net_r": -0.622,
+          "mean_gross_r": 0.072,
+          "total_pnl_inr": -24163.0,
+          "max_drawdown_inr": -24163.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 20933.0,
+          "avg_charges_inr": 40.4,
+          "median_notional_inr": 14920.0,
+          "target_rate": 0.208,
+          "stop_rate": 0.658,
+          "long_share": 0.363
+        },
+        "dev_b": {
+          "trades": 598,
+          "win_rate": 0.247,
+          "avg_win_inr": 72.2,
+          "avg_loss_inr": -86.0,
+          "profit_factor": 0.276,
+          "expectancy_inr": -46.8,
+          "mean_net_r": -0.553,
+          "mean_gross_r": 0.072,
+          "total_pnl_inr": -28016.0,
+          "max_drawdown_inr": -28016.0,
+          "max_losing_streak": 15,
+          "total_charges_inr": 24150.0,
+          "avg_charges_inr": 40.4,
+          "median_notional_inr": 14912.0,
+          "target_rate": 0.212,
+          "stop_rate": 0.676,
+          "long_share": 0.341
+        },
+        "validation": {
+          "trades": 460,
+          "win_rate": 0.248,
+          "avg_win_inr": 35.2,
+          "avg_loss_inr": -72.3,
+          "profit_factor": 0.16,
+          "expectancy_inr": -45.7,
+          "mean_net_r": -0.576,
+          "mean_gross_r": 0.142,
+          "total_pnl_inr": -21021.0,
+          "max_drawdown_inr": -21021.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 18536.0,
+          "avg_charges_inr": 40.3,
+          "median_notional_inr": 14876.0,
+          "target_rate": 0.209,
+          "stop_rate": 0.607,
+          "long_share": 0.411
+        },
+        "holdout": {
+          "trades": 630,
+          "win_rate": 0.229,
+          "avg_win_inr": 32.2,
+          "avg_loss_inr": -69.4,
+          "profit_factor": 0.137,
+          "expectancy_inr": -46.2,
+          "mean_net_r": -0.598,
+          "mean_gross_r": 0.127,
+          "total_pnl_inr": -29119.0,
+          "max_drawdown_inr": -29119.0,
+          "max_losing_streak": 29,
+          "total_charges_inr": 25335.0,
+          "avg_charges_inr": 40.2,
+          "median_notional_inr": 14851.0,
+          "target_rate": 0.216,
+          "stop_rate": 0.619,
+          "long_share": 0.432
+        },
+        "skipped_qty0": 0
+      },
+      "slippage_sensitivity_A_mean_net_r": {
+        "0.00%": {
+          "dev": -0.241,
+          "validation": -0.199,
+          "holdout": -0.214
+        },
+        "base": {
+          "dev": -0.396,
+          "validation": -0.369,
+          "holdout": -0.386
+        },
+        "0.05%": {
+          "dev": -0.465,
+          "validation": -0.444,
+          "holdout": -0.462
+        },
+        "0.10%": {
+          "dev": -0.58,
+          "validation": -0.569,
+          "holdout": -0.587
+        }
+      },
+      "rolling_6m": {
+        "windows": [
+          {
+            "window": "2017-01-01..2017-06-30",
+            "trades": 108,
+            "mean_net_r": -0.459
+          },
+          {
+            "window": "2017-07-01..2017-12-31",
+            "trades": 113,
+            "mean_net_r": -0.549
+          },
+          {
+            "window": "2018-01-01..2018-06-30",
+            "trades": 118,
+            "mean_net_r": -0.317
+          },
+          {
+            "window": "2018-07-01..2018-12-31",
+            "trades": 117,
+            "mean_net_r": -0.328
+          },
+          {
+            "window": "2019-01-01..2019-06-30",
+            "trades": 115,
+            "mean_net_r": -0.481
+          },
+          {
+            "window": "2019-07-01..2019-12-31",
+            "trades": 118,
+            "mean_net_r": -0.415
+          },
+          {
+            "window": "2020-01-01..2020-06-30",
+            "trades": 117,
+            "mean_net_r": -0.27
+          },
+          {
+            "window": "2020-07-01..2020-12-31",
+            "trades": 123,
+            "mean_net_r": -0.411
+          },
+          {
+            "window": "2021-01-01..2021-06-30",
+            "trades": 121,
+            "mean_net_r": -0.298
+          },
+          {
+            "window": "2021-07-01..2021-12-31",
+            "trades": 119,
+            "mean_net_r": -0.473
+          },
+          {
+            "window": "2022-01-01..2022-06-30",
+            "trades": 120,
+            "mean_net_r": -0.41
+          },
+          {
+            "window": "2022-07-01..2022-12-31",
+            "trades": 116,
+            "mean_net_r": -0.421
+          },
+          {
+            "window": "2023-01-01..2023-06-30",
+            "trades": 116,
+            "mean_net_r": -0.318
+          },
+          {
+            "window": "2023-07-01..2023-12-31",
+            "trades": 108,
+            "mean_net_r": -0.321
+          },
+          {
+            "window": "2024-01-01..2024-06-30",
+            "trades": 108,
+            "mean_net_r": -0.285
+          },
+          {
+            "window": "2024-07-01..2024-12-31",
+            "trades": 119,
+            "mean_net_r": -0.402
+          },
+          {
+            "window": "2025-01-01..2025-06-30",
+            "trades": 120,
+            "mean_net_r": -0.33
+          },
+          {
+            "window": "2025-07-01..2025-12-31",
+            "trades": 113,
+            "mean_net_r": -0.515
+          },
+          {
+            "window": "2026-01-01..2026-06-30",
+            "trades": 108,
+            "mean_net_r": -0.352
+          },
+          {
+            "window": "2026-07-01..2026-10-31",
+            "trades": 62,
+            "mean_net_r": -0.465
+          }
+        ],
+        "windows_used": 20,
+        "windows_positive": 0,
+        "share_positive": 0.0
+      },
+      "raw_signals_no_width_check": {
+        "dev": {
+          "trades": 1164,
+          "mean_gross_r": 0.029,
+          "median_stop_pct": 0.172
+        },
+        "validation": {
+          "trades": 487,
+          "mean_gross_r": 0.113,
+          "median_stop_pct": 0.168
+        },
+        "holdout": {
+          "trades": 696,
+          "mean_gross_r": 0.113,
+          "median_stop_pct": 0.144
+        }
+      },
+      "exit_reasons_A": {
+        "stop": 1448,
+        "target": 476,
+        "time": 335
+      },
+      "futures_min_lot_risk_inr_median": 850.0,
+      "futures_share_within_300": 0.016,
+      "by_instrument_A": {
+        "BANKNIFTY": {
+          "trades": 1931,
+          "win_rate": 0.286,
+          "avg_win_inr": 315.0,
+          "avg_loss_inr": -284.1,
+          "profit_factor": 0.444,
+          "expectancy_inr": -112.8,
+          "mean_net_r": -0.377,
+          "mean_gross_r": 0.096,
+          "total_pnl_inr": -217903.0,
+          "max_drawdown_inr": -218878.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 149468.0,
+          "avg_charges_inr": 77.4,
+          "median_notional_inr": 88860.0,
+          "target_rate": 0.222,
+          "stop_rate": 0.657,
+          "long_share": 0.393
+        },
+        "NIFTY": {
+          "trades": 1900,
+          "win_rate": 0.28,
+          "avg_win_inr": 280.6,
+          "avg_loss_inr": -280.5,
+          "profit_factor": 0.389,
+          "expectancy_inr": -123.4,
+          "mean_net_r": -0.412,
+          "mean_gross_r": 0.075,
+          "total_pnl_inr": -234448.0,
+          "max_drawdown_inr": -235687.0,
+          "max_losing_streak": 20,
+          "total_charges_inr": 151283.0,
+          "avg_charges_inr": 79.6,
+          "median_notional_inr": 95818.0,
+          "target_rate": 0.197,
+          "stop_rate": 0.643,
+          "long_share": 0.474
+        }
+      },
+      "by_year_A": {
+        "2017": {
+          "trades": 221,
+          "win_rate": 0.235,
+          "avg_win_inr": 252.1,
+          "avg_loss_inr": -275.6,
+          "profit_factor": 0.281,
+          "expectancy_inr": -151.5,
+          "mean_net_r": -0.505,
+          "mean_gross_r": -0.096,
+          "total_pnl_inr": -33476.0,
+          "max_drawdown_inr": -34452.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 17936.0,
+          "avg_charges_inr": 81.2,
+          "median_notional_inr": 100105.0,
+          "target_rate": 0.145,
+          "stop_rate": 0.67,
+          "long_share": 0.33
+        },
+        "2018": {
+          "trades": 235,
+          "win_rate": 0.328,
+          "avg_win_inr": 286.2,
+          "avg_loss_inr": -283.2,
+          "profit_factor": 0.492,
+          "expectancy_inr": -96.6,
+          "mean_net_r": -0.322,
+          "mean_gross_r": 0.252,
+          "total_pnl_inr": -22707.0,
+          "max_drawdown_inr": -23610.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 18822.0,
+          "avg_charges_inr": 80.1,
+          "median_notional_inr": 97143.0,
+          "target_rate": 0.255,
+          "stop_rate": 0.613,
+          "long_share": 0.374
+        },
+        "2019": {
+          "trades": 233,
+          "win_rate": 0.266,
+          "avg_win_inr": 297.5,
+          "avg_loss_inr": -290.6,
+          "profit_factor": 0.371,
+          "expectancy_inr": -134.1,
+          "mean_net_r": -0.448,
+          "mean_gross_r": 0.039,
+          "total_pnl_inr": -31246.0,
+          "max_drawdown_inr": -31246.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 18660.0,
+          "avg_charges_inr": 80.1,
+          "median_notional_inr": 98003.0,
+          "target_rate": 0.223,
+          "stop_rate": 0.691,
+          "long_share": 0.378
+        },
+        "2020": {
+          "trades": 240,
+          "win_rate": 0.279,
+          "avg_win_inr": 376.9,
+          "avg_loss_inr": -288.5,
+          "profit_factor": 0.506,
+          "expectancy_inr": -102.7,
+          "mean_net_r": -0.343,
+          "mean_gross_r": 0.06,
+          "total_pnl_inr": -24651.0,
+          "max_drawdown_inr": -24651.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 17321.0,
+          "avg_charges_inr": 72.2,
+          "median_notional_inr": 71324.0,
+          "target_rate": 0.212,
+          "stop_rate": 0.679,
+          "long_share": 0.338
+        },
+        "2021": {
+          "trades": 240,
+          "win_rate": 0.283,
+          "avg_win_inr": 323.7,
+          "avg_loss_inr": -288.7,
+          "profit_factor": 0.443,
+          "expectancy_inr": -115.2,
+          "mean_net_r": -0.385,
+          "mean_gross_r": 0.071,
+          "total_pnl_inr": -27649.0,
+          "max_drawdown_inr": -28260.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 18332.0,
+          "avg_charges_inr": 76.4,
+          "median_notional_inr": 85813.0,
+          "target_rate": 0.204,
+          "stop_rate": 0.679,
+          "long_share": 0.338
+        },
+        "2022": {
+          "trades": 236,
+          "win_rate": 0.275,
+          "avg_win_inr": 274.9,
+          "avg_loss_inr": -276.4,
+          "profit_factor": 0.378,
+          "expectancy_inr": -124.5,
+          "mean_net_r": -0.416,
+          "mean_gross_r": -0.007,
+          "total_pnl_inr": -29387.0,
+          "max_drawdown_inr": -30282.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 17727.0,
+          "avg_charges_inr": 75.1,
+          "median_notional_inr": 80699.0,
+          "target_rate": 0.174,
+          "stop_rate": 0.64,
+          "long_share": 0.403
+        },
+        "2023": {
+          "trades": 224,
+          "win_rate": 0.326,
+          "avg_win_inr": 274.7,
+          "avg_loss_inr": -274.9,
+          "profit_factor": 0.483,
+          "expectancy_inr": -95.8,
+          "mean_net_r": -0.32,
+          "mean_gross_r": 0.298,
+          "total_pnl_inr": -21453.0,
+          "max_drawdown_inr": -21466.0,
+          "max_losing_streak": 9,
+          "total_charges_inr": 18218.0,
+          "avg_charges_inr": 81.3,
+          "median_notional_inr": 101655.0,
+          "target_rate": 0.246,
+          "stop_rate": 0.571,
+          "long_share": 0.42
+        },
+        "2024": {
+          "trades": 227,
+          "win_rate": 0.286,
+          "avg_win_inr": 306.7,
+          "avg_loss_inr": -268.4,
+          "profit_factor": 0.458,
+          "expectancy_inr": -103.7,
+          "mean_net_r": -0.346,
+          "mean_gross_r": 0.196,
+          "total_pnl_inr": -23551.0,
+          "max_drawdown_inr": -24088.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 17973.0,
+          "avg_charges_inr": 79.2,
+          "median_notional_inr": 91997.0,
+          "target_rate": 0.238,
+          "stop_rate": 0.599,
+          "long_share": 0.374
+        },
+        "2025": {
+          "trades": 233,
+          "win_rate": 0.275,
+          "avg_win_inr": 270.8,
+          "avg_loss_inr": -275.7,
+          "profit_factor": 0.372,
+          "expectancy_inr": -125.6,
+          "mean_net_r": -0.419,
+          "mean_gross_r": 0.084,
+          "total_pnl_inr": -29268.0,
+          "max_drawdown_inr": -30238.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 18705.0,
+          "avg_charges_inr": 80.3,
+          "median_notional_inr": 95827.0,
+          "target_rate": 0.202,
+          "stop_rate": 0.631,
+          "long_share": 0.433
+        },
+        "2026": {
+          "trades": 170,
+          "win_rate": 0.282,
+          "avg_win_inr": 294.2,
+          "avg_loss_inr": -279.9,
+          "profit_factor": 0.414,
+          "expectancy_inr": -117.8,
+          "mean_net_r": -0.393,
+          "mean_gross_r": 0.094,
+          "total_pnl_inr": -20022.0,
+          "max_drawdown_inr": -21260.0,
+          "max_losing_streak": 20,
+          "total_charges_inr": 13670.0,
+          "avg_charges_inr": 80.4,
+          "median_notional_inr": 101672.0,
+          "target_rate": 0.206,
+          "stop_rate": 0.629,
+          "long_share": 0.506
+        }
+      },
+      "checks": {
+        "dev >= 100 trades": true,
+        "dev mean net R > 0": false,
+        "dev CI above 0": false,
+        "dev PF >= 1.15": false,
+        "dev halves > 0": false,
+        "dev stress > 0": false,
+        "validation > 0": false,
+        "validation stress > 0": false,
+        "holdout > 0": false,
+        ">= 60% of 6-month windows positive": false
+      },
+      "status": "REJECTED"
+    },
+    "EXP-0074": {
+      "rule": "st_flip",
+      "signals_all_instruments": 3166,
+      "A": {
+        "dev": {
+          "trades": 987,
+          "win_rate": 0.277,
+          "avg_win_inr": 221.5,
+          "avg_loss_inr": -194.8,
+          "profit_factor": 0.435,
+          "expectancy_inr": -79.6,
+          "mean_net_r": -0.266,
+          "mean_gross_r": 0.083,
+          "total_pnl_inr": -78606.0,
+          "max_drawdown_inr": -78959.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 64556.0,
+          "avg_charges_inr": 65.4,
+          "median_notional_inr": 50694.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.16,
+          "long_share": 0.434,
+          "mean_net_r_ci95": [
+            -0.309,
+            -0.223
+          ]
+        },
+        "dev_a": {
+          "trades": 464,
+          "win_rate": 0.25,
+          "avg_win_inr": 244.9,
+          "avg_loss_inr": -198.8,
+          "profit_factor": 0.411,
+          "expectancy_inr": -87.9,
+          "mean_net_r": -0.293,
+          "mean_gross_r": 0.092,
+          "total_pnl_inr": -40788.0,
+          "max_drawdown_inr": -41535.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 32042.0,
+          "avg_charges_inr": 69.1,
+          "median_notional_inr": 61953.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.17,
+          "long_share": 0.427,
+          "mean_net_r_ci95": [
+            -0.35,
+            -0.232
+          ]
+        },
+        "dev_b": {
+          "trades": 523,
+          "win_rate": 0.3,
+          "avg_win_inr": 204.2,
+          "avg_loss_inr": -190.9,
+          "profit_factor": 0.459,
+          "expectancy_inr": -72.3,
+          "mean_net_r": -0.241,
+          "mean_gross_r": 0.075,
+          "total_pnl_inr": -37818.0,
+          "max_drawdown_inr": -37818.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 32514.0,
+          "avg_charges_inr": 62.2,
+          "median_notional_inr": 42558.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.151,
+          "long_share": 0.44,
+          "mean_net_r_ci95": [
+            -0.299,
+            -0.18
+          ]
+        },
+        "validation": {
+          "trades": 408,
+          "win_rate": 0.265,
+          "avg_win_inr": 216.1,
+          "avg_loss_inr": -185.4,
+          "profit_factor": 0.42,
+          "expectancy_inr": -79.1,
+          "mean_net_r": -0.264,
+          "mean_gross_r": 0.109,
+          "total_pnl_inr": -32270.0,
+          "max_drawdown_inr": -33520.0,
+          "max_losing_streak": 23,
+          "total_charges_inr": 27198.0,
+          "avg_charges_inr": 66.7,
+          "median_notional_inr": 53375.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.118,
+          "long_share": 0.431,
+          "mean_net_r_ci95": [
+            -0.33,
+            -0.199
+          ]
+        },
+        "holdout": {
+          "trades": 548,
+          "win_rate": 0.268,
+          "avg_win_inr": 169.6,
+          "avg_loss_inr": -183.5,
+          "profit_factor": 0.339,
+          "expectancy_inr": -88.7,
+          "mean_net_r": -0.297,
+          "mean_gross_r": 0.062,
+          "total_pnl_inr": -48630.0,
+          "max_drawdown_inr": -49239.0,
+          "max_losing_streak": 22,
+          "total_charges_inr": 36818.0,
+          "avg_charges_inr": 67.2,
+          "median_notional_inr": 55440.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.135,
+          "long_share": 0.48,
+          "mean_net_r_ci95": [
+            -0.346,
+            -0.243
+          ]
+        }
+      },
+      "A_stress": {
+        "dev": {
+          "trades": 987,
+          "win_rate": 0.184,
+          "avg_win_inr": 214.9,
+          "avg_loss_inr": -265.1,
+          "profit_factor": 0.183,
+          "expectancy_inr": -176.6,
+          "mean_net_r": -0.59,
+          "mean_gross_r": 0.083,
+          "total_pnl_inr": -174289.0,
+          "max_drawdown_inr": -174289.0,
+          "max_losing_streak": 22,
+          "total_charges_inr": 129106.0,
+          "avg_charges_inr": 130.8,
+          "median_notional_inr": 50694.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.16,
+          "long_share": 0.434
+        },
+        "dev_a": {
+          "trades": 464,
+          "win_rate": 0.175,
+          "avg_win_inr": 224.0,
+          "avg_loss_inr": -282.6,
+          "profit_factor": 0.168,
+          "expectancy_inr": -194.2,
+          "mean_net_r": -0.648,
+          "mean_gross_r": 0.092,
+          "total_pnl_inr": -90092.0,
+          "max_drawdown_inr": -90092.0,
+          "max_losing_streak": 22,
+          "total_charges_inr": 64080.0,
+          "avg_charges_inr": 138.1,
+          "median_notional_inr": 61953.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.17,
+          "long_share": 0.427
+        },
+        "dev_b": {
+          "trades": 523,
+          "win_rate": 0.193,
+          "avg_win_inr": 207.7,
+          "avg_loss_inr": -249.2,
+          "profit_factor": 0.199,
+          "expectancy_inr": -161.0,
+          "mean_net_r": -0.538,
+          "mean_gross_r": 0.075,
+          "total_pnl_inr": -84197.0,
+          "max_drawdown_inr": -84197.0,
+          "max_losing_streak": 20,
+          "total_charges_inr": 65025.0,
+          "avg_charges_inr": 124.3,
+          "median_notional_inr": 42558.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.151,
+          "long_share": 0.44
+        },
+        "validation": {
+          "trades": 408,
+          "win_rate": 0.172,
+          "avg_win_inr": 213.7,
+          "avg_loss_inr": -260.3,
+          "profit_factor": 0.17,
+          "expectancy_inr": -179.0,
+          "mean_net_r": -0.598,
+          "mean_gross_r": 0.109,
+          "total_pnl_inr": -73014.0,
+          "max_drawdown_inr": -73377.0,
+          "max_losing_streak": 24,
+          "total_charges_inr": 54393.0,
+          "avg_charges_inr": 133.3,
+          "median_notional_inr": 53375.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.118,
+          "long_share": 0.431
+        },
+        "holdout": {
+          "trades": 548,
+          "win_rate": 0.146,
+          "avg_win_inr": 175.1,
+          "avg_loss_inr": -252.4,
+          "profit_factor": 0.119,
+          "expectancy_inr": -190.0,
+          "mean_net_r": -0.635,
+          "mean_gross_r": 0.062,
+          "total_pnl_inr": -104108.0,
+          "max_drawdown_inr": -104108.0,
+          "max_losing_streak": 25,
+          "total_charges_inr": 73633.0,
+          "avg_charges_inr": 134.4,
+          "median_notional_inr": 55440.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.135,
+          "long_share": 0.48
+        }
+      },
+      "B_15k": {
+        "dev": {
+          "trades": 987,
+          "win_rate": 0.212,
+          "avg_win_inr": 84.1,
+          "avg_loss_inr": -76.4,
+          "profit_factor": 0.295,
+          "expectancy_inr": -42.5,
+          "mean_net_r": -0.399,
+          "mean_gross_r": 0.083,
+          "total_pnl_inr": -41904.0,
+          "max_drawdown_inr": -41904.0,
+          "max_losing_streak": 17,
+          "total_charges_inr": 39863.0,
+          "avg_charges_inr": 40.4,
+          "median_notional_inr": 14921.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.16,
+          "long_share": 0.434
+        },
+        "dev_a": {
+          "trades": 464,
+          "win_rate": 0.19,
+          "avg_win_inr": 63.4,
+          "avg_loss_inr": -68.9,
+          "profit_factor": 0.215,
+          "expectancy_inr": -43.8,
+          "mean_net_r": -0.457,
+          "mean_gross_r": 0.092,
+          "total_pnl_inr": -20338.0,
+          "max_drawdown_inr": -20338.0,
+          "max_losing_streak": 17,
+          "total_charges_inr": 18773.0,
+          "avg_charges_inr": 40.5,
+          "median_notional_inr": 14933.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.17,
+          "long_share": 0.427
+        },
+        "dev_b": {
+          "trades": 523,
+          "win_rate": 0.231,
+          "avg_win_inr": 99.1,
+          "avg_loss_inr": -83.5,
+          "profit_factor": 0.357,
+          "expectancy_inr": -41.2,
+          "mean_net_r": -0.348,
+          "mean_gross_r": 0.075,
+          "total_pnl_inr": -21566.0,
+          "max_drawdown_inr": -21566.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 21090.0,
+          "avg_charges_inr": 40.3,
+          "median_notional_inr": 14909.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.151,
+          "long_share": 0.44
+        },
+        "validation": {
+          "trades": 408,
+          "win_rate": 0.184,
+          "avg_win_inr": 71.0,
+          "avg_loss_inr": -69.7,
+          "profit_factor": 0.229,
+          "expectancy_inr": -43.9,
+          "mean_net_r": -0.416,
+          "mean_gross_r": 0.109,
+          "total_pnl_inr": -17894.0,
+          "max_drawdown_inr": -17956.0,
+          "max_losing_streak": 24,
+          "total_charges_inr": 16441.0,
+          "avg_charges_inr": 40.3,
+          "median_notional_inr": 14875.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.118,
+          "long_share": 0.431
+        },
+        "holdout": {
+          "trades": 548,
+          "win_rate": 0.168,
+          "avg_win_inr": 55.3,
+          "avg_loss_inr": -65.9,
+          "profit_factor": 0.169,
+          "expectancy_inr": -45.6,
+          "mean_net_r": -0.444,
+          "mean_gross_r": 0.062,
+          "total_pnl_inr": -24965.0,
+          "max_drawdown_inr": -24965.0,
+          "max_losing_streak": 28,
+          "total_charges_inr": 22053.0,
+          "avg_charges_inr": 40.2,
+          "median_notional_inr": 14854.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.135,
+          "long_share": 0.48
+        },
+        "skipped_qty0": 0
+      },
+      "slippage_sensitivity_A_mean_net_r": {
+        "0.00%": {
+          "dev": -0.164,
+          "validation": -0.152,
+          "holdout": -0.189
+        },
+        "base": {
+          "dev": -0.266,
+          "validation": -0.264,
+          "holdout": -0.297
+        },
+        "0.05%": {
+          "dev": -0.319,
+          "validation": -0.323,
+          "holdout": -0.353
+        },
+        "0.10%": {
+          "dev": -0.421,
+          "validation": -0.432,
+          "holdout": -0.459
+        }
+      },
+      "rolling_6m": {
+        "windows": [
+          {
+            "window": "2017-01-01..2017-06-30",
+            "trades": 91,
+            "mean_net_r": -0.396
+          },
+          {
+            "window": "2017-07-01..2017-12-31",
+            "trades": 105,
+            "mean_net_r": -0.414
+          },
+          {
+            "window": "2018-01-01..2018-06-30",
+            "trades": 104,
+            "mean_net_r": -0.207
+          },
+          {
+            "window": "2018-07-01..2018-12-31",
+            "trades": 100,
+            "mean_net_r": -0.223
+          },
+          {
+            "window": "2019-01-01..2019-06-30",
+            "trades": 101,
+            "mean_net_r": -0.269
+          },
+          {
+            "window": "2019-07-01..2019-12-31",
+            "trades": 96,
+            "mean_net_r": -0.307
+          },
+          {
+            "window": "2020-01-01..2020-06-30",
+            "trades": 95,
+            "mean_net_r": -0.206
+          },
+          {
+            "window": "2020-07-01..2020-12-31",
+            "trades": 106,
+            "mean_net_r": -0.301
+          },
+          {
+            "window": "2021-01-01..2021-06-30",
+            "trades": 111,
+            "mean_net_r": -0.117
+          },
+          {
+            "window": "2021-07-01..2021-12-31",
+            "trades": 115,
+            "mean_net_r": -0.282
+          },
+          {
+            "window": "2022-01-01..2022-06-30",
+            "trades": 100,
+            "mean_net_r": -0.228
+          },
+          {
+            "window": "2022-07-01..2022-12-31",
+            "trades": 109,
+            "mean_net_r": -0.224
+          },
+          {
+            "window": "2023-01-01..2023-06-30",
+            "trades": 103,
+            "mean_net_r": -0.405
+          },
+          {
+            "window": "2023-07-01..2023-12-31",
+            "trades": 96,
+            "mean_net_r": -0.196
+          },
+          {
+            "window": "2024-01-01..2024-06-30",
+            "trades": 91,
+            "mean_net_r": -0.272
+          },
+          {
+            "window": "2024-07-01..2024-12-31",
+            "trades": 103,
+            "mean_net_r": -0.352
+          },
+          {
+            "window": "2025-01-01..2025-06-30",
+            "trades": 104,
+            "mean_net_r": -0.303
+          },
+          {
+            "window": "2025-07-01..2025-12-31",
+            "trades": 101,
+            "mean_net_r": -0.395
+          },
+          {
+            "window": "2026-01-01..2026-06-30",
+            "trades": 94,
+            "mean_net_r": -0.137
+          },
+          {
+            "window": "2026-07-01..2026-10-31",
+            "trades": 55,
+            "mean_net_r": -0.314
+          }
+        ],
+        "windows_used": 20,
+        "windows_positive": 0,
+        "share_positive": 0.0
+      },
+      "raw_signals_no_width_check": {
+        "dev": {
+          "trades": 991,
+          "mean_gross_r": 0.08,
+          "median_stop_pct": 0.403
+        },
+        "validation": {
+          "trades": 408,
+          "mean_gross_r": 0.109,
+          "median_stop_pct": 0.377
+        },
+        "holdout": {
+          "trades": 549,
+          "mean_gross_r": 0.057,
+          "median_stop_pct": 0.36
+        }
+      },
+      "exit_reasons_A": {
+        "flip": 974,
+        "time": 720,
+        "stop": 286
+      },
+      "futures_min_lot_risk_inr_median": 1723.0,
+      "futures_share_within_300": 0.0,
+      "by_instrument_A": {
+        "BANKNIFTY": {
+          "trades": 1479,
+          "win_rate": 0.281,
+          "avg_win_inr": 211.1,
+          "avg_loss_inr": -186.0,
+          "profit_factor": 0.443,
+          "expectancy_inr": -74.6,
+          "mean_net_r": -0.249,
+          "mean_gross_r": 0.079,
+          "total_pnl_inr": -110272.0,
+          "max_drawdown_inr": -111010.0,
+          "max_losing_streak": 23,
+          "total_charges_inr": 93616.0,
+          "avg_charges_inr": 63.3,
+          "median_notional_inr": 45272.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.141,
+          "long_share": 0.457
+        },
+        "NIFTY": {
+          "trades": 1687,
+          "win_rate": 0.264,
+          "avg_win_inr": 210.3,
+          "avg_loss_inr": -187.8,
+          "profit_factor": 0.401,
+          "expectancy_inr": -82.8,
+          "mean_net_r": -0.276,
+          "mean_gross_r": 0.106,
+          "total_pnl_inr": -139672.0,
+          "max_drawdown_inr": -139871.0,
+          "max_losing_streak": 19,
+          "total_charges_inr": 114906.0,
+          "avg_charges_inr": 68.1,
+          "median_notional_inr": 58646.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.133,
+          "long_share": 0.426
+        }
+      },
+      "by_year_A": {
+        "2017": {
+          "trades": 196,
+          "win_rate": 0.168,
+          "avg_win_inr": 213.6,
+          "avg_loss_inr": -189.5,
+          "profit_factor": 0.228,
+          "expectancy_inr": -121.6,
+          "mean_net_r": -0.406,
+          "mean_gross_r": -0.062,
+          "total_pnl_inr": -23838.0,
+          "max_drawdown_inr": -23838.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 13797.0,
+          "avg_charges_inr": 70.4,
+          "median_notional_inr": 67106.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.173,
+          "long_share": 0.403
+        },
+        "2018": {
+          "trades": 204,
+          "win_rate": 0.309,
+          "avg_win_inr": 229.8,
+          "avg_loss_inr": -195.9,
+          "profit_factor": 0.524,
+          "expectancy_inr": -64.5,
+          "mean_net_r": -0.215,
+          "mean_gross_r": 0.187,
+          "total_pnl_inr": -13154.0,
+          "max_drawdown_inr": -13961.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 13819.0,
+          "avg_charges_inr": 67.7,
+          "median_notional_inr": 57216.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.137,
+          "long_share": 0.436
+        },
+        "2019": {
+          "trades": 197,
+          "win_rate": 0.244,
+          "avg_win_inr": 274.2,
+          "avg_loss_inr": -202.1,
+          "profit_factor": 0.437,
+          "expectancy_inr": -86.1,
+          "mean_net_r": -0.287,
+          "mean_gross_r": 0.07,
+          "total_pnl_inr": -16955.0,
+          "max_drawdown_inr": -17371.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 13048.0,
+          "avg_charges_inr": 66.2,
+          "median_notional_inr": 52128.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.203,
+          "long_share": 0.457
+        },
+        "2020": {
+          "trades": 201,
+          "win_rate": 0.303,
+          "avg_win_inr": 216.6,
+          "avg_loss_inr": -204.6,
+          "profit_factor": 0.461,
+          "expectancy_inr": -76.8,
+          "mean_net_r": -0.256,
+          "mean_gross_r": 0.021,
+          "total_pnl_inr": -15432.0,
+          "max_drawdown_inr": -15468.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 11965.0,
+          "avg_charges_inr": 59.5,
+          "median_notional_inr": 36699.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.179,
+          "long_share": 0.433
+        },
+        "2021": {
+          "trades": 226,
+          "win_rate": 0.327,
+          "avg_win_inr": 185.5,
+          "avg_loss_inr": -179.6,
+          "profit_factor": 0.503,
+          "expectancy_inr": -60.1,
+          "mean_net_r": -0.201,
+          "mean_gross_r": 0.152,
+          "total_pnl_inr": -13574.0,
+          "max_drawdown_inr": -14656.0,
+          "max_losing_streak": 9,
+          "total_charges_inr": 14367.0,
+          "avg_charges_inr": 63.6,
+          "median_notional_inr": 44565.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.115,
+          "long_share": 0.434
+        },
+        "2022": {
+          "trades": 209,
+          "win_rate": 0.297,
+          "avg_win_inr": 208.7,
+          "avg_loss_inr": -184.2,
+          "profit_factor": 0.478,
+          "expectancy_inr": -67.6,
+          "mean_net_r": -0.226,
+          "mean_gross_r": 0.132,
+          "total_pnl_inr": -14138.0,
+          "max_drawdown_inr": -14948.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 13523.0,
+          "avg_charges_inr": 64.7,
+          "median_notional_inr": 47678.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.129,
+          "long_share": 0.445
+        },
+        "2023": {
+          "trades": 199,
+          "win_rate": 0.231,
+          "avg_win_inr": 226.1,
+          "avg_loss_inr": -186.5,
+          "profit_factor": 0.365,
+          "expectancy_inr": -91.1,
+          "mean_net_r": -0.304,
+          "mean_gross_r": 0.085,
+          "total_pnl_inr": -18132.0,
+          "max_drawdown_inr": -19382.0,
+          "max_losing_streak": 23,
+          "total_charges_inr": 13675.0,
+          "avg_charges_inr": 68.7,
+          "median_notional_inr": 59612.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.106,
+          "long_share": 0.417
+        },
+        "2024": {
+          "trades": 194,
+          "win_rate": 0.247,
+          "avg_win_inr": 179.5,
+          "avg_loss_inr": -184.0,
+          "profit_factor": 0.321,
+          "expectancy_inr": -94.0,
+          "mean_net_r": -0.315,
+          "mean_gross_r": 0.019,
+          "total_pnl_inr": -18245.0,
+          "max_drawdown_inr": -18794.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 12784.0,
+          "avg_charges_inr": 65.9,
+          "median_notional_inr": 49025.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.144,
+          "long_share": 0.505
+        },
+        "2025": {
+          "trades": 205,
+          "win_rate": 0.229,
+          "avg_win_inr": 160.6,
+          "avg_loss_inr": -182.9,
+          "profit_factor": 0.261,
+          "expectancy_inr": -104.2,
+          "mean_net_r": -0.348,
+          "mean_gross_r": -0.007,
+          "total_pnl_inr": -21353.0,
+          "max_drawdown_inr": -21498.0,
+          "max_losing_streak": 22,
+          "total_charges_inr": 13954.0,
+          "avg_charges_inr": 68.1,
+          "median_notional_inr": 58733.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.146,
+          "long_share": 0.468
+        },
+        "2026": {
+          "trades": 149,
+          "win_rate": 0.349,
+          "avg_win_inr": 168.7,
+          "avg_loss_inr": -183.6,
+          "profit_factor": 0.493,
+          "expectancy_inr": -60.6,
+          "mean_net_r": -0.203,
+          "mean_gross_r": 0.212,
+          "total_pnl_inr": -9032.0,
+          "max_drawdown_inr": -9340.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 10081.0,
+          "avg_charges_inr": 67.7,
+          "median_notional_inr": 56945.0,
+          "target_rate": 0.0,
+          "stop_rate": 0.107,
+          "long_share": 0.463
+        }
+      },
+      "checks": {
+        "dev >= 100 trades": true,
+        "dev mean net R > 0": false,
+        "dev CI above 0": false,
+        "dev PF >= 1.15": false,
+        "dev halves > 0": false,
+        "dev stress > 0": false,
+        "validation > 0": false,
+        "validation stress > 0": false,
+        "holdout > 0": false,
+        ">= 60% of 6-month windows positive": false
+      },
+      "status": "REJECTED"
+    },
+    "EXP-0075": {
+      "rule": "st_2r",
+      "signals_all_instruments": 3166,
+      "A": {
+        "dev": {
+          "trades": 987,
+          "win_rate": 0.29,
+          "avg_win_inr": 200.2,
+          "avg_loss_inr": -196.8,
+          "profit_factor": 0.415,
+          "expectancy_inr": -81.7,
+          "mean_net_r": -0.273,
+          "mean_gross_r": 0.073,
+          "total_pnl_inr": -80655.0,
+          "max_drawdown_inr": -80655.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 64555.0,
+          "avg_charges_inr": 65.4,
+          "median_notional_inr": 50694.0,
+          "target_rate": 0.138,
+          "stop_rate": 0.16,
+          "long_share": 0.434,
+          "mean_net_r_ci95": [
+            -0.312,
+            -0.234
+          ]
+        },
+        "dev_a": {
+          "trades": 464,
+          "win_rate": 0.265,
+          "avg_win_inr": 196.1,
+          "avg_loss_inr": -201.0,
+          "profit_factor": 0.352,
+          "expectancy_inr": -95.8,
+          "mean_net_r": -0.32,
+          "mean_gross_r": 0.052,
+          "total_pnl_inr": -44432.0,
+          "max_drawdown_inr": -44453.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 32041.0,
+          "avg_charges_inr": 69.1,
+          "median_notional_inr": 61953.0,
+          "target_rate": 0.142,
+          "stop_rate": 0.17,
+          "long_share": 0.427,
+          "mean_net_r_ci95": [
+            -0.368,
+            -0.27
+          ]
+        },
+        "dev_b": {
+          "trades": 523,
+          "win_rate": 0.312,
+          "avg_win_inr": 203.4,
+          "avg_loss_inr": -192.7,
+          "profit_factor": 0.478,
+          "expectancy_inr": -69.3,
+          "mean_net_r": -0.231,
+          "mean_gross_r": 0.091,
+          "total_pnl_inr": -36223.0,
+          "max_drawdown_inr": -36223.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 32514.0,
+          "avg_charges_inr": 62.2,
+          "median_notional_inr": 42558.0,
+          "target_rate": 0.134,
+          "stop_rate": 0.151,
+          "long_share": 0.44,
+          "mean_net_r_ci95": [
+            -0.286,
+            -0.176
+          ]
+        },
+        "validation": {
+          "trades": 408,
+          "win_rate": 0.267,
+          "avg_win_inr": 182.7,
+          "avg_loss_inr": -185.6,
+          "profit_factor": 0.359,
+          "expectancy_inr": -87.2,
+          "mean_net_r": -0.291,
+          "mean_gross_r": 0.067,
+          "total_pnl_inr": -35579.0,
+          "max_drawdown_inr": -36014.0,
+          "max_losing_streak": 23,
+          "total_charges_inr": 27198.0,
+          "avg_charges_inr": 66.7,
+          "median_notional_inr": 53375.0,
+          "target_rate": 0.127,
+          "stop_rate": 0.118,
+          "long_share": 0.431,
+          "mean_net_r_ci95": [
+            -0.349,
+            -0.235
+          ]
+        },
+        "holdout": {
+          "trades": 548,
+          "win_rate": 0.276,
+          "avg_win_inr": 158.3,
+          "avg_loss_inr": -184.5,
+          "profit_factor": 0.326,
+          "expectancy_inr": -90.0,
+          "mean_net_r": -0.301,
+          "mean_gross_r": 0.055,
+          "total_pnl_inr": -49333.0,
+          "max_drawdown_inr": -50213.0,
+          "max_losing_streak": 22,
+          "total_charges_inr": 36818.0,
+          "avg_charges_inr": 67.2,
+          "median_notional_inr": 55440.0,
+          "target_rate": 0.093,
+          "stop_rate": 0.135,
+          "long_share": 0.48,
+          "mean_net_r_ci95": [
+            -0.349,
+            -0.251
+          ]
+        }
+      },
+      "A_stress": {
+        "dev": {
+          "trades": 987,
+          "win_rate": 0.216,
+          "avg_win_inr": 157.4,
+          "avg_loss_inr": -271.1,
+          "profit_factor": 0.16,
+          "expectancy_inr": -178.7,
+          "mean_net_r": -0.596,
+          "mean_gross_r": 0.073,
+          "total_pnl_inr": -176336.0,
+          "max_drawdown_inr": -176336.0,
+          "max_losing_streak": 15,
+          "total_charges_inr": 129104.0,
+          "avg_charges_inr": 130.8,
+          "median_notional_inr": 50694.0,
+          "target_rate": 0.138,
+          "stop_rate": 0.16,
+          "long_share": 0.434
+        },
+        "dev_a": {
+          "trades": 464,
+          "win_rate": 0.203,
+          "avg_win_inr": 134.8,
+          "avg_loss_inr": -287.6,
+          "profit_factor": 0.119,
+          "expectancy_inr": -202.0,
+          "mean_net_r": -0.674,
+          "mean_gross_r": 0.052,
+          "total_pnl_inr": -93735.0,
+          "max_drawdown_inr": -93735.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 64079.0,
+          "avg_charges_inr": 138.1,
+          "median_notional_inr": 61953.0,
+          "target_rate": 0.142,
+          "stop_rate": 0.17,
+          "long_share": 0.427
+        },
+        "dev_b": {
+          "trades": 523,
+          "win_rate": 0.228,
+          "avg_win_inr": 175.3,
+          "avg_loss_inr": -256.1,
+          "profit_factor": 0.202,
+          "expectancy_inr": -157.9,
+          "mean_net_r": -0.528,
+          "mean_gross_r": 0.091,
+          "total_pnl_inr": -82601.0,
+          "max_drawdown_inr": -82601.0,
+          "max_losing_streak": 15,
+          "total_charges_inr": 65025.0,
+          "avg_charges_inr": 124.3,
+          "median_notional_inr": 42558.0,
+          "target_rate": 0.134,
+          "stop_rate": 0.151,
+          "long_share": 0.44
+        },
+        "validation": {
+          "trades": 408,
+          "win_rate": 0.181,
+          "avg_win_inr": 151.5,
+          "avg_loss_inr": -262.1,
+          "profit_factor": 0.128,
+          "expectancy_inr": -187.1,
+          "mean_net_r": -0.625,
+          "mean_gross_r": 0.067,
+          "total_pnl_inr": -76323.0,
+          "max_drawdown_inr": -76323.0,
+          "max_losing_streak": 24,
+          "total_charges_inr": 54393.0,
+          "avg_charges_inr": 133.3,
+          "median_notional_inr": 53375.0,
+          "target_rate": 0.127,
+          "stop_rate": 0.118,
+          "long_share": 0.431
+        },
+        "holdout": {
+          "trades": 548,
+          "win_rate": 0.166,
+          "avg_win_inr": 136.1,
+          "avg_loss_inr": -256.4,
+          "profit_factor": 0.106,
+          "expectancy_inr": -191.3,
+          "mean_net_r": -0.639,
+          "mean_gross_r": 0.055,
+          "total_pnl_inr": -104810.0,
+          "max_drawdown_inr": -104865.0,
+          "max_losing_streak": 25,
+          "total_charges_inr": 73632.0,
+          "avg_charges_inr": 134.4,
+          "median_notional_inr": 55440.0,
+          "target_rate": 0.093,
+          "stop_rate": 0.135,
+          "long_share": 0.48
+        }
+      },
+      "B_15k": {
+        "dev": {
+          "trades": 987,
+          "win_rate": 0.238,
+          "avg_win_inr": 68.2,
+          "avg_loss_inr": -78.0,
+          "profit_factor": 0.273,
+          "expectancy_inr": -43.2,
+          "mean_net_r": -0.405,
+          "mean_gross_r": 0.073,
+          "total_pnl_inr": -42666.0,
+          "max_drawdown_inr": -42666.0,
+          "max_losing_streak": 15,
+          "total_charges_inr": 39861.0,
+          "avg_charges_inr": 40.4,
+          "median_notional_inr": 14921.0,
+          "target_rate": 0.138,
+          "stop_rate": 0.16,
+          "long_share": 0.434
+        },
+        "dev_a": {
+          "trades": 464,
+          "win_rate": 0.211,
+          "avg_win_inr": 42.2,
+          "avg_loss_inr": -69.8,
+          "profit_factor": 0.162,
+          "expectancy_inr": -46.1,
+          "mean_net_r": -0.477,
+          "mean_gross_r": 0.052,
+          "total_pnl_inr": -21407.0,
+          "max_drawdown_inr": -21407.0,
+          "max_losing_streak": 15,
+          "total_charges_inr": 18772.0,
+          "avg_charges_inr": 40.5,
+          "median_notional_inr": 14933.0,
+          "target_rate": 0.142,
+          "stop_rate": 0.17,
+          "long_share": 0.427
+        },
+        "dev_b": {
+          "trades": 523,
+          "win_rate": 0.262,
+          "avg_win_inr": 86.8,
+          "avg_loss_inr": -85.9,
+          "profit_factor": 0.359,
+          "expectancy_inr": -40.6,
+          "mean_net_r": -0.34,
+          "mean_gross_r": 0.091,
+          "total_pnl_inr": -21259.0,
+          "max_drawdown_inr": -21259.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 21089.0,
+          "avg_charges_inr": 40.3,
+          "median_notional_inr": 14909.0,
+          "target_rate": 0.134,
+          "stop_rate": 0.151,
+          "long_share": 0.44
+        },
+        "validation": {
+          "trades": 408,
+          "win_rate": 0.199,
+          "avg_win_inr": 54.6,
+          "avg_loss_inr": -70.7,
+          "profit_factor": 0.191,
+          "expectancy_inr": -45.8,
+          "mean_net_r": -0.436,
+          "mean_gross_r": 0.067,
+          "total_pnl_inr": -18705.0,
+          "max_drawdown_inr": -18705.0,
+          "max_losing_streak": 24,
+          "total_charges_inr": 16441.0,
+          "avg_charges_inr": 40.3,
+          "median_notional_inr": 14875.0,
+          "target_rate": 0.127,
+          "stop_rate": 0.118,
+          "long_share": 0.431
+        },
+        "holdout": {
+          "trades": 548,
+          "win_rate": 0.186,
+          "avg_win_inr": 46.2,
+          "avg_loss_inr": -66.9,
+          "profit_factor": 0.158,
+          "expectancy_inr": -45.9,
+          "mean_net_r": -0.447,
+          "mean_gross_r": 0.055,
+          "total_pnl_inr": -25130.0,
+          "max_drawdown_inr": -25133.0,
+          "max_losing_streak": 22,
+          "total_charges_inr": 22052.0,
+          "avg_charges_inr": 40.2,
+          "median_notional_inr": 14854.0,
+          "target_rate": 0.093,
+          "stop_rate": 0.135,
+          "long_share": 0.48
+        },
+        "skipped_qty0": 0
+      },
+      "slippage_sensitivity_A_mean_net_r": {
+        "0.00%": {
+          "dev": -0.172,
+          "validation": -0.184,
+          "holdout": -0.194
+        },
+        "base": {
+          "dev": -0.273,
+          "validation": -0.291,
+          "holdout": -0.301
+        },
+        "0.05%": {
+          "dev": -0.326,
+          "validation": -0.347,
+          "holdout": -0.357
+        },
+        "0.10%": {
+          "dev": -0.427,
+          "validation": -0.453,
+          "holdout": -0.462
+        }
+      },
+      "rolling_6m": {
+        "windows": [
+          {
+            "window": "2017-01-01..2017-06-30",
+            "trades": 91,
+            "mean_net_r": -0.398
+          },
+          {
+            "window": "2017-07-01..2017-12-31",
+            "trades": 105,
+            "mean_net_r": -0.416
+          },
+          {
+            "window": "2018-01-01..2018-06-30",
+            "trades": 104,
+            "mean_net_r": -0.214
+          },
+          {
+            "window": "2018-07-01..2018-12-31",
+            "trades": 100,
+            "mean_net_r": -0.291
+          },
+          {
+            "window": "2019-01-01..2019-06-30",
+            "trades": 101,
+            "mean_net_r": -0.319
+          },
+          {
+            "window": "2019-07-01..2019-12-31",
+            "trades": 96,
+            "mean_net_r": -0.269
+          },
+          {
+            "window": "2020-01-01..2020-06-30",
+            "trades": 95,
+            "mean_net_r": -0.218
+          },
+          {
+            "window": "2020-07-01..2020-12-31",
+            "trades": 106,
+            "mean_net_r": -0.283
+          },
+          {
+            "window": "2021-01-01..2021-06-30",
+            "trades": 111,
+            "mean_net_r": -0.125
+          },
+          {
+            "window": "2021-07-01..2021-12-31",
+            "trades": 115,
+            "mean_net_r": -0.266
+          },
+          {
+            "window": "2022-01-01..2022-06-30",
+            "trades": 100,
+            "mean_net_r": -0.261
+          },
+          {
+            "window": "2022-07-01..2022-12-31",
+            "trades": 109,
+            "mean_net_r": -0.219
+          },
+          {
+            "window": "2023-01-01..2023-06-30",
+            "trades": 103,
+            "mean_net_r": -0.428
+          },
+          {
+            "window": "2023-07-01..2023-12-31",
+            "trades": 96,
+            "mean_net_r": -0.258
+          },
+          {
+            "window": "2024-01-01..2024-06-30",
+            "trades": 91,
+            "mean_net_r": -0.276
+          },
+          {
+            "window": "2024-07-01..2024-12-31",
+            "trades": 103,
+            "mean_net_r": -0.366
+          },
+          {
+            "window": "2025-01-01..2025-06-30",
+            "trades": 104,
+            "mean_net_r": -0.288
+          },
+          {
+            "window": "2025-07-01..2025-12-31",
+            "trades": 101,
+            "mean_net_r": -0.405
+          },
+          {
+            "window": "2026-01-01..2026-06-30",
+            "trades": 94,
+            "mean_net_r": -0.163
+          },
+          {
+            "window": "2026-07-01..2026-10-31",
+            "trades": 55,
+            "mean_net_r": -0.289
+          }
+        ],
+        "windows_used": 20,
+        "windows_positive": 0,
+        "share_positive": 0.0
+      },
+      "raw_signals_no_width_check": {
+        "dev": {
+          "trades": 991,
+          "mean_gross_r": 0.072,
+          "median_stop_pct": 0.403
+        },
+        "validation": {
+          "trades": 408,
+          "mean_gross_r": 0.067,
+          "median_stop_pct": 0.377
+        },
+        "holdout": {
+          "trades": 549,
+          "mean_gross_r": 0.051,
+          "median_stop_pct": 0.36
+        }
+      },
+      "exit_reasons_A": {
+        "flip": 910,
+        "time": 543,
+        "stop": 286,
+        "target": 241
+      },
+      "futures_min_lot_risk_inr_median": 1723.0,
+      "futures_share_within_300": 0.0,
+      "by_instrument_A": {
+        "BANKNIFTY": {
+          "trades": 1479,
+          "win_rate": 0.291,
+          "avg_win_inr": 192.6,
+          "avg_loss_inr": -187.7,
+          "profit_factor": 0.422,
+          "expectancy_inr": -76.9,
+          "mean_net_r": -0.257,
+          "mean_gross_r": 0.068,
+          "total_pnl_inr": -113760.0,
+          "max_drawdown_inr": -114033.0,
+          "max_losing_streak": 23,
+          "total_charges_inr": 93615.0,
+          "avg_charges_inr": 63.3,
+          "median_notional_inr": 45272.0,
+          "target_rate": 0.117,
+          "stop_rate": 0.141,
+          "long_share": 0.457
+        },
+        "NIFTY": {
+          "trades": 1687,
+          "win_rate": 0.27,
+          "avg_win_inr": 185.0,
+          "avg_loss_inr": -188.6,
+          "profit_factor": 0.362,
+          "expectancy_inr": -87.9,
+          "mean_net_r": -0.293,
+          "mean_gross_r": 0.079,
+          "total_pnl_inr": -148221.0,
+          "max_drawdown_inr": -148590.0,
+          "max_losing_streak": 19,
+          "total_charges_inr": 114906.0,
+          "avg_charges_inr": 68.1,
+          "median_notional_inr": 58646.0,
+          "target_rate": 0.127,
+          "stop_rate": 0.133,
+          "long_share": 0.426
+        }
+      },
+      "by_year_A": {
+        "2017": {
+          "trades": 196,
+          "win_rate": 0.189,
+          "avg_win_inr": 181.0,
+          "avg_loss_inr": -192.8,
+          "profit_factor": 0.219,
+          "expectancy_inr": -122.2,
+          "mean_net_r": -0.408,
+          "mean_gross_r": -0.066,
+          "total_pnl_inr": -23951.0,
+          "max_drawdown_inr": -23951.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 13797.0,
+          "avg_charges_inr": 70.4,
+          "median_notional_inr": 67106.0,
+          "target_rate": 0.102,
+          "stop_rate": 0.173,
+          "long_share": 0.403
+        },
+        "2018": {
+          "trades": 204,
+          "win_rate": 0.319,
+          "avg_win_inr": 185.1,
+          "avg_loss_inr": -197.2,
+          "profit_factor": 0.439,
+          "expectancy_inr": -75.4,
+          "mean_net_r": -0.251,
+          "mean_gross_r": 0.134,
+          "total_pnl_inr": -15372.0,
+          "max_drawdown_inr": -15372.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 13818.0,
+          "avg_charges_inr": 67.7,
+          "median_notional_inr": 57216.0,
+          "target_rate": 0.137,
+          "stop_rate": 0.137,
+          "long_share": 0.436
+        },
+        "2019": {
+          "trades": 197,
+          "win_rate": 0.264,
+          "avg_win_inr": 235.0,
+          "avg_loss_inr": -204.2,
+          "profit_factor": 0.413,
+          "expectancy_inr": -88.2,
+          "mean_net_r": -0.295,
+          "mean_gross_r": 0.056,
+          "total_pnl_inr": -17383.0,
+          "max_drawdown_inr": -17660.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 13049.0,
+          "avg_charges_inr": 66.2,
+          "median_notional_inr": 52128.0,
+          "target_rate": 0.178,
+          "stop_rate": 0.203,
+          "long_share": 0.457
+        },
+        "2020": {
+          "trades": 201,
+          "win_rate": 0.313,
+          "avg_win_inr": 212.8,
+          "avg_loss_inr": -207.1,
+          "profit_factor": 0.469,
+          "expectancy_inr": -75.5,
+          "mean_net_r": -0.252,
+          "mean_gross_r": 0.029,
+          "total_pnl_inr": -15177.0,
+          "max_drawdown_inr": -15213.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 11965.0,
+          "avg_charges_inr": 59.5,
+          "median_notional_inr": 36699.0,
+          "target_rate": 0.119,
+          "stop_rate": 0.179,
+          "long_share": 0.433
+        },
+        "2021": {
+          "trades": 226,
+          "win_rate": 0.332,
+          "avg_win_inr": 185.1,
+          "avg_loss_inr": -180.1,
+          "profit_factor": 0.511,
+          "expectancy_inr": -58.9,
+          "mean_net_r": -0.197,
+          "mean_gross_r": 0.159,
+          "total_pnl_inr": -13305.0,
+          "max_drawdown_inr": -13651.0,
+          "max_losing_streak": 9,
+          "total_charges_inr": 14367.0,
+          "avg_charges_inr": 63.6,
+          "median_notional_inr": 44565.0,
+          "target_rate": 0.137,
+          "stop_rate": 0.115,
+          "long_share": 0.434
+        },
+        "2022": {
+          "trades": 209,
+          "win_rate": 0.297,
+          "avg_win_inr": 195.4,
+          "avg_loss_inr": -184.2,
+          "profit_factor": 0.447,
+          "expectancy_inr": -71.6,
+          "mean_net_r": -0.239,
+          "mean_gross_r": 0.113,
+          "total_pnl_inr": -14961.0,
+          "max_drawdown_inr": -16204.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 13523.0,
+          "avg_charges_inr": 64.7,
+          "median_notional_inr": 47678.0,
+          "target_rate": 0.139,
+          "stop_rate": 0.129,
+          "long_share": 0.445
+        },
+        "2023": {
+          "trades": 199,
+          "win_rate": 0.236,
+          "avg_win_inr": 166.0,
+          "avg_loss_inr": -187.0,
+          "profit_factor": 0.274,
+          "expectancy_inr": -103.6,
+          "mean_net_r": -0.346,
+          "mean_gross_r": 0.018,
+          "total_pnl_inr": -20618.0,
+          "max_drawdown_inr": -20817.0,
+          "max_losing_streak": 23,
+          "total_charges_inr": 13675.0,
+          "avg_charges_inr": 68.7,
+          "median_notional_inr": 59612.0,
+          "target_rate": 0.116,
+          "stop_rate": 0.106,
+          "long_share": 0.417
+        },
+        "2024": {
+          "trades": 194,
+          "win_rate": 0.253,
+          "avg_win_inr": 162.3,
+          "avg_loss_inr": -184.4,
+          "profit_factor": 0.297,
+          "expectancy_inr": -96.8,
+          "mean_net_r": -0.324,
+          "mean_gross_r": 0.007,
+          "total_pnl_inr": -18783.0,
+          "max_drawdown_inr": -19432.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 12784.0,
+          "avg_charges_inr": 65.9,
+          "median_notional_inr": 49025.0,
+          "target_rate": 0.077,
+          "stop_rate": 0.144,
+          "long_share": 0.505
+        },
+        "2025": {
+          "trades": 205,
+          "win_rate": 0.239,
+          "avg_win_inr": 153.7,
+          "avg_loss_inr": -184.2,
+          "profit_factor": 0.262,
+          "expectancy_inr": -103.4,
+          "mean_net_r": -0.346,
+          "mean_gross_r": -0.005,
+          "total_pnl_inr": -21204.0,
+          "max_drawdown_inr": -21360.0,
+          "max_losing_streak": 22,
+          "total_charges_inr": 13953.0,
+          "avg_charges_inr": 68.1,
+          "median_notional_inr": 58733.0,
+          "target_rate": 0.073,
+          "stop_rate": 0.146,
+          "long_share": 0.468
+        },
+        "2026": {
+          "trades": 149,
+          "win_rate": 0.356,
+          "avg_win_inr": 158.8,
+          "avg_loss_inr": -185.0,
+          "profit_factor": 0.474,
+          "expectancy_inr": -62.7,
+          "mean_net_r": -0.21,
+          "mean_gross_r": 0.201,
+          "total_pnl_inr": -9346.0,
+          "max_drawdown_inr": -9986.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 10081.0,
+          "avg_charges_inr": 67.7,
+          "median_notional_inr": 56945.0,
+          "target_rate": 0.141,
+          "stop_rate": 0.107,
+          "long_share": 0.463
+        }
+      },
+      "checks": {
+        "dev >= 100 trades": true,
+        "dev mean net R > 0": false,
+        "dev CI above 0": false,
+        "dev PF >= 1.15": false,
+        "dev halves > 0": false,
+        "dev stress > 0": false,
+        "validation > 0": false,
+        "validation stress > 0": false,
+        "holdout > 0": false,
+        ">= 60% of 6-month windows positive": false
+      },
+      "status": "REJECTED"
+    },
+    "EXP-0076": {
+      "rule": "ohol",
+      "signals_all_instruments": 1089,
+      "A": {
+        "dev": {
+          "trades": 507,
+          "win_rate": 0.361,
+          "avg_win_inr": 198.4,
+          "avg_loss_inr": -263.2,
+          "profit_factor": 0.426,
+          "expectancy_inr": -96.6,
+          "mean_net_r": -0.323,
+          "mean_gross_r": 0.089,
+          "total_pnl_inr": -48966.0,
+          "max_drawdown_inr": -49467.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 35419.0,
+          "avg_charges_inr": 69.9,
+          "median_notional_inr": 61660.0,
+          "target_rate": 0.25,
+          "stop_rate": 0.517,
+          "long_share": 0.268,
+          "mean_net_r_ci95": [
+            -0.383,
+            -0.264
+          ]
+        },
+        "dev_a": {
+          "trades": 257,
+          "win_rate": 0.374,
+          "avg_win_inr": 169.9,
+          "avg_loss_inr": -248.0,
+          "profit_factor": 0.408,
+          "expectancy_inr": -91.9,
+          "mean_net_r": -0.307,
+          "mean_gross_r": 0.144,
+          "total_pnl_inr": -23623.0,
+          "max_drawdown_inr": -23623.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 18687.0,
+          "avg_charges_inr": 72.7,
+          "median_notional_inr": 70053.0,
+          "target_rate": 0.233,
+          "stop_rate": 0.459,
+          "long_share": 0.257,
+          "mean_net_r_ci95": [
+            -0.373,
+            -0.239
+          ]
+        },
+        "dev_b": {
+          "trades": 250,
+          "win_rate": 0.348,
+          "avg_win_inr": 229.9,
+          "avg_loss_inr": -278.2,
+          "profit_factor": 0.441,
+          "expectancy_inr": -101.4,
+          "mean_net_r": -0.339,
+          "mean_gross_r": 0.032,
+          "total_pnl_inr": -25342.0,
+          "max_drawdown_inr": -26364.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 16732.0,
+          "avg_charges_inr": 66.9,
+          "median_notional_inr": 53156.0,
+          "target_rate": 0.268,
+          "stop_rate": 0.576,
+          "long_share": 0.28,
+          "mean_net_r_ci95": [
+            -0.434,
+            -0.239
+          ]
+        },
+        "validation": {
+          "trades": 155,
+          "win_rate": 0.297,
+          "avg_win_inr": 167.9,
+          "avg_loss_inr": -278.6,
+          "profit_factor": 0.254,
+          "expectancy_inr": -146.1,
+          "mean_net_r": -0.488,
+          "mean_gross_r": -0.17,
+          "total_pnl_inr": -22648.0,
+          "max_drawdown_inr": -23290.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 11227.0,
+          "avg_charges_inr": 72.4,
+          "median_notional_inr": 69466.0,
+          "target_rate": 0.181,
+          "stop_rate": 0.613,
+          "long_share": 0.374,
+          "mean_net_r_ci95": [
+            -0.606,
+            -0.355
+          ]
+        },
+        "holdout": {
+          "trades": 183,
+          "win_rate": 0.311,
+          "avg_win_inr": 174.0,
+          "avg_loss_inr": -240.5,
+          "profit_factor": 0.327,
+          "expectancy_inr": -111.4,
+          "mean_net_r": -0.372,
+          "mean_gross_r": 0.04,
+          "total_pnl_inr": -20385.0,
+          "max_drawdown_inr": -20518.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 13310.0,
+          "avg_charges_inr": 72.7,
+          "median_notional_inr": 70125.0,
+          "target_rate": 0.213,
+          "stop_rate": 0.47,
+          "long_share": 0.481,
+          "mean_net_r_ci95": [
+            -0.5,
+            -0.237
+          ]
+        }
+      },
+      "A_stress": {
+        "dev": {
+          "trades": 507,
+          "win_rate": 0.272,
+          "avg_win_inr": 131.3,
+          "avg_loss_inr": -331.4,
+          "profit_factor": 0.148,
+          "expectancy_inr": -205.5,
+          "mean_net_r": -0.686,
+          "mean_gross_r": 0.089,
+          "total_pnl_inr": -104165.0,
+          "max_drawdown_inr": -104280.0,
+          "max_losing_streak": 20,
+          "total_charges_inr": 70834.0,
+          "avg_charges_inr": 139.7,
+          "median_notional_inr": 61660.0,
+          "target_rate": 0.25,
+          "stop_rate": 0.517,
+          "long_share": 0.268
+        },
+        "dev_a": {
+          "trades": 257,
+          "win_rate": 0.237,
+          "avg_win_inr": 114.5,
+          "avg_loss_inr": -308.4,
+          "profit_factor": 0.116,
+          "expectancy_inr": -208.1,
+          "mean_net_r": -0.694,
+          "mean_gross_r": 0.144,
+          "total_pnl_inr": -53471.0,
+          "max_drawdown_inr": -53471.0,
+          "max_losing_streak": 20,
+          "total_charges_inr": 37372.0,
+          "avg_charges_inr": 145.4,
+          "median_notional_inr": 70053.0,
+          "target_rate": 0.233,
+          "stop_rate": 0.459,
+          "long_share": 0.257
+        },
+        "dev_b": {
+          "trades": 250,
+          "win_rate": 0.308,
+          "avg_win_inr": 144.6,
+          "avg_loss_inr": -357.4,
+          "profit_factor": 0.18,
+          "expectancy_inr": -202.8,
+          "mean_net_r": -0.677,
+          "mean_gross_r": 0.032,
+          "total_pnl_inr": -50694.0,
+          "max_drawdown_inr": -51150.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 33462.0,
+          "avg_charges_inr": 133.8,
+          "median_notional_inr": 53156.0,
+          "target_rate": 0.268,
+          "stop_rate": 0.576,
+          "long_share": 0.28
+        },
+        "validation": {
+          "trades": 155,
+          "win_rate": 0.206,
+          "avg_win_inr": 98.9,
+          "avg_loss_inr": -355.3,
+          "profit_factor": 0.072,
+          "expectancy_inr": -261.6,
+          "mean_net_r": -0.873,
+          "mean_gross_r": -0.17,
+          "total_pnl_inr": -40541.0,
+          "max_drawdown_inr": -40702.0,
+          "max_losing_streak": 18,
+          "total_charges_inr": 22453.0,
+          "avg_charges_inr": 144.9,
+          "median_notional_inr": 69466.0,
+          "target_rate": 0.181,
+          "stop_rate": 0.613,
+          "long_share": 0.374
+        },
+        "holdout": {
+          "trades": 183,
+          "win_rate": 0.202,
+          "avg_win_inr": 112.6,
+          "avg_loss_inr": -313.8,
+          "profit_factor": 0.091,
+          "expectancy_inr": -227.6,
+          "mean_net_r": -0.76,
+          "mean_gross_r": 0.04,
+          "total_pnl_inr": -41649.0,
+          "max_drawdown_inr": -41649.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 26619.0,
+          "avg_charges_inr": 145.5,
+          "median_notional_inr": 70125.0,
+          "target_rate": 0.213,
+          "stop_rate": 0.47,
+          "long_share": 0.481
+        }
+      },
+      "B_15k": {
+        "dev": {
+          "trades": 507,
+          "win_rate": 0.26,
+          "avg_win_inr": 49.8,
+          "avg_loss_inr": -87.4,
+          "profit_factor": 0.2,
+          "expectancy_inr": -51.7,
+          "mean_net_r": -0.491,
+          "mean_gross_r": 0.089,
+          "total_pnl_inr": -26215.0,
+          "max_drawdown_inr": -26284.0,
+          "max_losing_streak": 20,
+          "total_charges_inr": 20464.0,
+          "avg_charges_inr": 40.4,
+          "median_notional_inr": 14915.0,
+          "target_rate": 0.25,
+          "stop_rate": 0.517,
+          "long_share": 0.268
+        },
+        "dev_a": {
+          "trades": 257,
+          "win_rate": 0.241,
+          "avg_win_inr": 34.0,
+          "avg_loss_inr": -69.1,
+          "profit_factor": 0.157,
+          "expectancy_inr": -44.2,
+          "mean_net_r": -0.494,
+          "mean_gross_r": 0.144,
+          "total_pnl_inr": -11357.0,
+          "max_drawdown_inr": -11357.0,
+          "max_losing_streak": 20,
+          "total_charges_inr": 10389.0,
+          "avg_charges_inr": 40.4,
+          "median_notional_inr": 14919.0,
+          "target_rate": 0.233,
+          "stop_rate": 0.459,
+          "long_share": 0.257
+        },
+        "dev_b": {
+          "trades": 250,
+          "win_rate": 0.28,
+          "avg_win_inr": 63.7,
+          "avg_loss_inr": -107.3,
+          "profit_factor": 0.231,
+          "expectancy_inr": -59.4,
+          "mean_net_r": -0.487,
+          "mean_gross_r": 0.032,
+          "total_pnl_inr": -14859.0,
+          "max_drawdown_inr": -15083.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 10075.0,
+          "avg_charges_inr": 40.3,
+          "median_notional_inr": 14906.0,
+          "target_rate": 0.268,
+          "stop_rate": 0.576,
+          "long_share": 0.28
+        },
+        "validation": {
+          "trades": 155,
+          "win_rate": 0.206,
+          "avg_win_inr": 30.3,
+          "avg_loss_inr": -79.1,
+          "profit_factor": 0.1,
+          "expectancy_inr": -56.5,
+          "mean_net_r": -0.619,
+          "mean_gross_r": -0.17,
+          "total_pnl_inr": -8763.0,
+          "max_drawdown_inr": -8782.0,
+          "max_losing_streak": 18,
+          "total_charges_inr": 6244.0,
+          "avg_charges_inr": 40.3,
+          "median_notional_inr": 14869.0,
+          "target_rate": 0.181,
+          "stop_rate": 0.613,
+          "long_share": 0.374
+        },
+        "holdout": {
+          "trades": 183,
+          "win_rate": 0.191,
+          "avg_win_inr": 32.1,
+          "avg_loss_inr": -70.0,
+          "profit_factor": 0.108,
+          "expectancy_inr": -50.4,
+          "mean_net_r": -0.544,
+          "mean_gross_r": 0.04,
+          "total_pnl_inr": -9232.0,
+          "max_drawdown_inr": -9232.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 7362.0,
+          "avg_charges_inr": 40.2,
+          "median_notional_inr": 14849.0,
+          "target_rate": 0.213,
+          "stop_rate": 0.47,
+          "long_share": 0.481
+        },
+        "skipped_qty0": 0
+      },
+      "slippage_sensitivity_A_mean_net_r": {
+        "0.00%": {
+          "dev": -0.193,
+          "validation": -0.387,
+          "holdout": -0.239
+        },
+        "base": {
+          "dev": -0.323,
+          "validation": -0.488,
+          "holdout": -0.372
+        },
+        "0.05%": {
+          "dev": -0.386,
+          "validation": -0.537,
+          "holdout": -0.435
+        },
+        "0.10%": {
+          "dev": -0.498,
+          "validation": -0.624,
+          "holdout": -0.546
+        }
+      },
+      "rolling_6m": {
+        "windows": [
+          {
+            "window": "2017-01-01..2017-06-30",
+            "trades": 40,
+            "mean_net_r": -0.245
+          },
+          {
+            "window": "2017-07-01..2017-12-31",
+            "trades": 59,
+            "mean_net_r": -0.367
+          },
+          {
+            "window": "2018-01-01..2018-06-30",
+            "trades": 58,
+            "mean_net_r": -0.149
+          },
+          {
+            "window": "2018-07-01..2018-12-31",
+            "trades": 63,
+            "mean_net_r": -0.36
+          },
+          {
+            "window": "2019-01-01..2019-06-30",
+            "trades": 53,
+            "mean_net_r": -0.394
+          },
+          {
+            "window": "2019-07-01..2019-12-31",
+            "trades": 58,
+            "mean_net_r": -0.165
+          },
+          {
+            "window": "2020-01-01..2020-06-30",
+            "trades": 45,
+            "mean_net_r": -0.228
+          },
+          {
+            "window": "2020-07-01..2020-12-31",
+            "trades": 55,
+            "mean_net_r": -0.528
+          },
+          {
+            "window": "2021-01-01..2021-06-30",
+            "trades": 48,
+            "mean_net_r": -0.469
+          },
+          {
+            "window": "2021-07-01..2021-12-31",
+            "trades": 44,
+            "mean_net_r": -0.304
+          },
+          {
+            "window": "2022-01-01..2022-06-30",
+            "trades": 29,
+            "mean_net_r": -0.258
+          },
+          {
+            "window": "2022-07-01..2022-12-31",
+            "trades": 51,
+            "mean_net_r": -0.519
+          },
+          {
+            "window": "2023-01-01..2023-06-30",
+            "trades": 42,
+            "mean_net_r": -0.682
+          },
+          {
+            "window": "2023-07-01..2023-12-31",
+            "trades": 33,
+            "mean_net_r": -0.395
+          },
+          {
+            "window": "2024-01-01..2024-06-30",
+            "trades": 42,
+            "mean_net_r": -0.523
+          },
+          {
+            "window": "2024-07-01..2024-12-31",
+            "trades": 41,
+            "mean_net_r": -0.354
+          },
+          {
+            "window": "2025-01-01..2025-06-30",
+            "trades": 25,
+            "mean_net_r": -0.462
+          },
+          {
+            "window": "2025-07-01..2025-12-31",
+            "trades": 38,
+            "mean_net_r": -0.261
+          },
+          {
+            "window": "2026-01-01..2026-06-30",
+            "trades": 20,
+            "mean_net_r": -0.248
+          },
+          {
+            "window": "2026-07-01..2026-10-31",
+            "trades": 17,
+            "mean_net_r": -0.303
+          }
+        ],
+        "windows_used": 20,
+        "windows_positive": 0,
+        "share_positive": 0.0
+      },
+      "raw_signals_no_width_check": {
+        "dev": {
+          "trades": 544,
+          "mean_gross_r": 0.082,
+          "median_stop_pct": 0.293
+        },
+        "validation": {
+          "trades": 170,
+          "mean_gross_r": -0.134,
+          "median_stop_pct": 0.242
+        },
+        "holdout": {
+          "trades": 211,
+          "mean_gross_r": 0.09,
+          "median_stop_pct": 0.229
+        }
+      },
+      "exit_reasons_A": {
+        "stop": 449,
+        "time": 213,
+        "target": 199
+      },
+      "futures_min_lot_risk_inr_median": 1283.0,
+      "futures_share_within_300": 0.006,
+      "by_instrument_A": {
+        "BANKNIFTY": {
+          "trades": 575,
+          "win_rate": 0.285,
+          "avg_win_inr": 196.9,
+          "avg_loss_inr": -256.2,
+          "profit_factor": 0.307,
+          "expectancy_inr": -127.0,
+          "mean_net_r": -0.424,
+          "mean_gross_r": -0.121,
+          "total_pnl_inr": -72999.0,
+          "max_drawdown_inr": -72999.0,
+          "max_losing_streak": 15,
+          "total_charges_inr": 38749.0,
+          "avg_charges_inr": 67.4,
+          "median_notional_inr": 53133.0,
+          "target_rate": 0.17,
+          "stop_rate": 0.546,
+          "long_share": 0.369
+        },
+        "NIFTY": {
+          "trades": 514,
+          "win_rate": 0.377,
+          "avg_win_inr": 184.6,
+          "avg_loss_inr": -256.5,
+          "profit_factor": 0.436,
+          "expectancy_inr": -90.0,
+          "mean_net_r": -0.3,
+          "mean_gross_r": 0.155,
+          "total_pnl_inr": -46260.0,
+          "max_drawdown_inr": -47356.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 37258.0,
+          "avg_charges_inr": 72.5,
+          "median_notional_inr": 70265.0,
+          "target_rate": 0.267,
+          "stop_rate": 0.477,
+          "long_share": 0.272
+        }
+      },
+      "by_year_A": {
+        "2017": {
+          "trades": 99,
+          "win_rate": 0.354,
+          "avg_win_inr": 174.5,
+          "avg_loss_inr": -242.6,
+          "profit_factor": 0.393,
+          "expectancy_inr": -95.1,
+          "mean_net_r": -0.317,
+          "mean_gross_r": 0.119,
+          "total_pnl_inr": -9418.0,
+          "max_drawdown_inr": -9418.0,
+          "max_losing_streak": 7,
+          "total_charges_inr": 7193.0,
+          "avg_charges_inr": 72.7,
+          "median_notional_inr": 70303.0,
+          "target_rate": 0.232,
+          "stop_rate": 0.444,
+          "long_share": 0.253
+        },
+        "2018": {
+          "trades": 121,
+          "win_rate": 0.413,
+          "avg_win_inr": 168.5,
+          "avg_loss_inr": -250.7,
+          "profit_factor": 0.473,
+          "expectancy_inr": -77.5,
+          "mean_net_r": -0.259,
+          "mean_gross_r": 0.231,
+          "total_pnl_inr": -9376.0,
+          "max_drawdown_inr": -9816.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 8809.0,
+          "avg_charges_inr": 72.8,
+          "median_notional_inr": 71646.0,
+          "target_rate": 0.256,
+          "stop_rate": 0.438,
+          "long_share": 0.256
+        },
+        "2019": {
+          "trades": 111,
+          "win_rate": 0.387,
+          "avg_win_inr": 201.4,
+          "avg_loss_inr": -261.6,
+          "profit_factor": 0.487,
+          "expectancy_inr": -82.2,
+          "mean_net_r": -0.274,
+          "mean_gross_r": 0.166,
+          "total_pnl_inr": -9124.0,
+          "max_drawdown_inr": -9993.0,
+          "max_losing_streak": 9,
+          "total_charges_inr": 7817.0,
+          "avg_charges_inr": 70.4,
+          "median_notional_inr": 64980.0,
+          "target_rate": 0.27,
+          "stop_rate": 0.486,
+          "long_share": 0.252
+        },
+        "2020": {
+          "trades": 100,
+          "win_rate": 0.29,
+          "avg_win_inr": 271.5,
+          "avg_loss_inr": -276.4,
+          "profit_factor": 0.401,
+          "expectancy_inr": -117.5,
+          "mean_net_r": -0.393,
+          "mean_gross_r": -0.094,
+          "total_pnl_inr": -11754.0,
+          "max_drawdown_inr": -11996.0,
+          "max_losing_streak": 7,
+          "total_charges_inr": 6397.0,
+          "avg_charges_inr": 64.0,
+          "median_notional_inr": 47434.0,
+          "target_rate": 0.25,
+          "stop_rate": 0.62,
+          "long_share": 0.29
+        },
+        "2021": {
+          "trades": 92,
+          "win_rate": 0.337,
+          "avg_win_inr": 206.7,
+          "avg_loss_inr": -280.8,
+          "profit_factor": 0.374,
+          "expectancy_inr": -116.6,
+          "mean_net_r": -0.39,
+          "mean_gross_r": -0.017,
+          "total_pnl_inr": -10723.0,
+          "max_drawdown_inr": -11224.0,
+          "max_losing_streak": 7,
+          "total_charges_inr": 6326.0,
+          "avg_charges_inr": 68.8,
+          "median_notional_inr": 55866.0,
+          "target_rate": 0.25,
+          "stop_rate": 0.598,
+          "long_share": 0.337
+        },
+        "2022": {
+          "trades": 80,
+          "win_rate": 0.338,
+          "avg_win_inr": 172.3,
+          "avg_loss_inr": -279.4,
+          "profit_factor": 0.314,
+          "expectancy_inr": -127.0,
+          "mean_net_r": -0.424,
+          "mean_gross_r": -0.092,
+          "total_pnl_inr": -10157.0,
+          "max_drawdown_inr": -10379.0,
+          "max_losing_streak": 6,
+          "total_charges_inr": 5623.0,
+          "avg_charges_inr": 70.3,
+          "median_notional_inr": 57562.0,
+          "target_rate": 0.188,
+          "stop_rate": 0.588,
+          "long_share": 0.475
+        },
+        "2023": {
+          "trades": 75,
+          "win_rate": 0.253,
+          "avg_win_inr": 161.6,
+          "avg_loss_inr": -277.9,
+          "profit_factor": 0.197,
+          "expectancy_inr": -166.5,
+          "mean_net_r": -0.556,
+          "mean_gross_r": -0.253,
+          "total_pnl_inr": -12490.0,
+          "max_drawdown_inr": -12990.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 5605.0,
+          "avg_charges_inr": 74.7,
+          "median_notional_inr": 74939.0,
+          "target_rate": 0.173,
+          "stop_rate": 0.64,
+          "long_share": 0.267
+        },
+        "2024": {
+          "trades": 83,
+          "win_rate": 0.277,
+          "avg_win_inr": 185.4,
+          "avg_loss_inr": -253.1,
+          "profit_factor": 0.281,
+          "expectancy_inr": -131.6,
+          "mean_net_r": -0.439,
+          "mean_gross_r": -0.074,
+          "total_pnl_inr": -10922.0,
+          "max_drawdown_inr": -11036.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 6008.0,
+          "avg_charges_inr": 72.4,
+          "median_notional_inr": 71698.0,
+          "target_rate": 0.205,
+          "stop_rate": 0.53,
+          "long_share": 0.422
+        },
+        "2025": {
+          "trades": 63,
+          "win_rate": 0.317,
+          "avg_win_inr": 181.9,
+          "avg_loss_inr": -234.2,
+          "profit_factor": 0.361,
+          "expectancy_inr": -102.1,
+          "mean_net_r": -0.341,
+          "mean_gross_r": 0.094,
+          "total_pnl_inr": -6433.0,
+          "max_drawdown_inr": -6961.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 4619.0,
+          "avg_charges_inr": 73.3,
+          "median_notional_inr": 70263.0,
+          "target_rate": 0.222,
+          "stop_rate": 0.444,
+          "long_share": 0.587
+        },
+        "2026": {
+          "trades": 37,
+          "win_rate": 0.378,
+          "avg_win_inr": 144.0,
+          "avg_loss_inr": -219.4,
+          "profit_factor": 0.4,
+          "expectancy_inr": -81.9,
+          "mean_net_r": -0.273,
+          "mean_gross_r": 0.204,
+          "total_pnl_inr": -3030.0,
+          "max_drawdown_inr": -3418.0,
+          "max_losing_streak": 5,
+          "total_charges_inr": 2683.0,
+          "avg_charges_inr": 72.5,
+          "median_notional_inr": 66468.0,
+          "target_rate": 0.216,
+          "stop_rate": 0.378,
+          "long_share": 0.432
+        }
+      },
+      "checks": {
+        "dev >= 100 trades": true,
+        "dev mean net R > 0": false,
+        "dev CI above 0": false,
+        "dev PF >= 1.15": false,
+        "dev halves > 0": false,
+        "dev stress > 0": false,
+        "validation > 0": false,
+        "validation stress > 0": false,
+        "holdout > 0": false,
+        ">= 60% of 6-month windows positive": false
+      },
+      "status": "REJECTED"
+    },
+    "EXP-0077": {
+      "rule": "cpr",
+      "signals_all_instruments": 1080,
+      "A": {
+        "dev": {
+          "trades": 433,
+          "win_rate": 0.337,
+          "avg_win_inr": 162.0,
+          "avg_loss_inr": -237.8,
+          "profit_factor": 0.346,
+          "expectancy_inr": -103.0,
+          "mean_net_r": -0.344,
+          "mean_gross_r": -0.028,
+          "total_pnl_inr": -44600.0,
+          "max_drawdown_inr": -44765.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 28755.0,
+          "avg_charges_inr": 66.4,
+          "median_notional_inr": 50497.0,
+          "target_rate": 0.132,
+          "stop_rate": 0.46,
+          "long_share": 0.607,
+          "mean_net_r_ci95": [
+            -0.401,
+            -0.283
+          ]
+        },
+        "dev_a": {
+          "trades": 202,
+          "win_rate": 0.302,
+          "avg_win_inr": 155.3,
+          "avg_loss_inr": -235.8,
+          "profit_factor": 0.285,
+          "expectancy_inr": -117.7,
+          "mean_net_r": -0.393,
+          "mean_gross_r": -0.075,
+          "total_pnl_inr": -23768.0,
+          "max_drawdown_inr": -23959.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 14023.0,
+          "avg_charges_inr": 69.4,
+          "median_notional_inr": 56487.0,
+          "target_rate": 0.124,
+          "stop_rate": 0.485,
+          "long_share": 0.619,
+          "mean_net_r_ci95": [
+            -0.47,
+            -0.312
+          ]
+        },
+        "dev_b": {
+          "trades": 231,
+          "win_rate": 0.368,
+          "avg_win_inr": 166.7,
+          "avg_loss_inr": -239.7,
+          "profit_factor": 0.405,
+          "expectancy_inr": -90.2,
+          "mean_net_r": -0.301,
+          "mean_gross_r": 0.013,
+          "total_pnl_inr": -20832.0,
+          "max_drawdown_inr": -20832.0,
+          "max_losing_streak": 9,
+          "total_charges_inr": 14732.0,
+          "avg_charges_inr": 63.8,
+          "median_notional_inr": 43027.0,
+          "target_rate": 0.139,
+          "stop_rate": 0.437,
+          "long_share": 0.597,
+          "mean_net_r_ci95": [
+            -0.384,
+            -0.213
+          ]
+        },
+        "validation": {
+          "trades": 181,
+          "win_rate": 0.326,
+          "avg_win_inr": 169.9,
+          "avg_loss_inr": -224.5,
+          "profit_factor": 0.366,
+          "expectancy_inr": -95.9,
+          "mean_net_r": -0.321,
+          "mean_gross_r": 0.012,
+          "total_pnl_inr": -17365.0,
+          "max_drawdown_inr": -17413.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 11931.0,
+          "avg_charges_inr": 65.9,
+          "median_notional_inr": 48246.0,
+          "target_rate": 0.166,
+          "stop_rate": 0.414,
+          "long_share": 0.597,
+          "mean_net_r_ci95": [
+            -0.432,
+            -0.198
+          ]
+        },
+        "holdout": {
+          "trades": 241,
+          "win_rate": 0.332,
+          "avg_win_inr": 158.3,
+          "avg_loss_inr": -215.6,
+          "profit_factor": 0.365,
+          "expectancy_inr": -91.5,
+          "mean_net_r": -0.306,
+          "mean_gross_r": 0.046,
+          "total_pnl_inr": -22042.0,
+          "max_drawdown_inr": -22710.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 16256.0,
+          "avg_charges_inr": 67.5,
+          "median_notional_inr": 50333.0,
+          "target_rate": 0.133,
+          "stop_rate": 0.394,
+          "long_share": 0.515,
+          "mean_net_r_ci95": [
+            -0.392,
+            -0.204
+          ]
+        }
+      },
+      "A_stress": {
+        "dev": {
+          "trades": 433,
+          "win_rate": 0.226,
+          "avg_win_inr": 120.0,
+          "avg_loss_inr": -297.4,
+          "profit_factor": 0.118,
+          "expectancy_inr": -202.9,
+          "mean_net_r": -0.677,
+          "mean_gross_r": -0.028,
+          "total_pnl_inr": -87870.0,
+          "max_drawdown_inr": -87924.0,
+          "max_losing_streak": 24,
+          "total_charges_inr": 57507.0,
+          "avg_charges_inr": 132.8,
+          "median_notional_inr": 50497.0,
+          "target_rate": 0.132,
+          "stop_rate": 0.46,
+          "long_share": 0.607
+        },
+        "dev_a": {
+          "trades": 202,
+          "win_rate": 0.198,
+          "avg_win_inr": 107.3,
+          "avg_loss_inr": -307.3,
+          "profit_factor": 0.086,
+          "expectancy_inr": -225.2,
+          "mean_net_r": -0.751,
+          "mean_gross_r": -0.075,
+          "total_pnl_inr": -45489.0,
+          "max_drawdown_inr": -45543.0,
+          "max_losing_streak": 24,
+          "total_charges_inr": 28044.0,
+          "avg_charges_inr": 138.8,
+          "median_notional_inr": 56487.0,
+          "target_rate": 0.124,
+          "stop_rate": 0.485,
+          "long_share": 0.619
+        },
+        "dev_b": {
+          "trades": 231,
+          "win_rate": 0.251,
+          "avg_win_inr": 128.7,
+          "avg_loss_inr": -288.1,
+          "profit_factor": 0.15,
+          "expectancy_inr": -183.5,
+          "mean_net_r": -0.613,
+          "mean_gross_r": 0.013,
+          "total_pnl_inr": -42381.0,
+          "max_drawdown_inr": -42381.0,
+          "max_losing_streak": 18,
+          "total_charges_inr": 29463.0,
+          "avg_charges_inr": 127.5,
+          "median_notional_inr": 43027.0,
+          "target_rate": 0.139,
+          "stop_rate": 0.437,
+          "long_share": 0.597
+        },
+        "validation": {
+          "trades": 181,
+          "win_rate": 0.215,
+          "avg_win_inr": 132.0,
+          "avg_loss_inr": -284.2,
+          "profit_factor": 0.128,
+          "expectancy_inr": -194.5,
+          "mean_net_r": -0.65,
+          "mean_gross_r": 0.012,
+          "total_pnl_inr": -35204.0,
+          "max_drawdown_inr": -35204.0,
+          "max_losing_streak": 16,
+          "total_charges_inr": 23860.0,
+          "avg_charges_inr": 131.8,
+          "median_notional_inr": 48246.0,
+          "target_rate": 0.166,
+          "stop_rate": 0.414,
+          "long_share": 0.597
+        },
+        "holdout": {
+          "trades": 241,
+          "win_rate": 0.22,
+          "avg_win_inr": 108.9,
+          "avg_loss_inr": -279.2,
+          "profit_factor": 0.11,
+          "expectancy_inr": -193.8,
+          "mean_net_r": -0.648,
+          "mean_gross_r": 0.046,
+          "total_pnl_inr": -46715.0,
+          "max_drawdown_inr": -46715.0,
+          "max_losing_streak": 21,
+          "total_charges_inr": 32511.0,
+          "avg_charges_inr": 134.9,
+          "median_notional_inr": 50333.0,
+          "target_rate": 0.133,
+          "stop_rate": 0.394,
+          "long_share": 0.515
+        }
+      },
+      "B_15k": {
+        "dev": {
+          "trades": 433,
+          "win_rate": 0.268,
+          "avg_win_inr": 50.1,
+          "avg_loss_inr": -85.9,
+          "profit_factor": 0.213,
+          "expectancy_inr": -49.5,
+          "mean_net_r": -0.458,
+          "mean_gross_r": -0.028,
+          "total_pnl_inr": -21429.0,
+          "max_drawdown_inr": -21441.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 17490.0,
+          "avg_charges_inr": 40.4,
+          "median_notional_inr": 14918.0,
+          "target_rate": 0.132,
+          "stop_rate": 0.46,
+          "long_share": 0.607
+        },
+        "dev_a": {
+          "trades": 202,
+          "win_rate": 0.218,
+          "avg_win_inr": 35.9,
+          "avg_loss_inr": -74.5,
+          "profit_factor": 0.134,
+          "expectancy_inr": -50.4,
+          "mean_net_r": -0.516,
+          "mean_gross_r": -0.075,
+          "total_pnl_inr": -10186.0,
+          "max_drawdown_inr": -10198.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 8168.0,
+          "avg_charges_inr": 40.4,
+          "median_notional_inr": 14924.0,
+          "target_rate": 0.124,
+          "stop_rate": 0.485,
+          "long_share": 0.619
+        },
+        "dev_b": {
+          "trades": 231,
+          "win_rate": 0.312,
+          "avg_win_inr": 58.7,
+          "avg_loss_inr": -97.3,
+          "profit_factor": 0.273,
+          "expectancy_inr": -48.7,
+          "mean_net_r": -0.408,
+          "mean_gross_r": 0.013,
+          "total_pnl_inr": -11243.0,
+          "max_drawdown_inr": -11243.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 9321.0,
+          "avg_charges_inr": 40.4,
+          "median_notional_inr": 14914.0,
+          "target_rate": 0.139,
+          "stop_rate": 0.437,
+          "long_share": 0.597
+        },
+        "validation": {
+          "trades": 181,
+          "win_rate": 0.249,
+          "avg_win_inr": 50.3,
+          "avg_loss_inr": -82.4,
+          "profit_factor": 0.202,
+          "expectancy_inr": -49.4,
+          "mean_net_r": -0.439,
+          "mean_gross_r": 0.012,
+          "total_pnl_inr": -8935.0,
+          "max_drawdown_inr": -8935.0,
+          "max_losing_streak": 14,
+          "total_charges_inr": 7299.0,
+          "avg_charges_inr": 40.3,
+          "median_notional_inr": 14885.0,
+          "target_rate": 0.166,
+          "stop_rate": 0.414,
+          "long_share": 0.597
+        },
+        "holdout": {
+          "trades": 241,
+          "win_rate": 0.245,
+          "avg_win_inr": 45.8,
+          "avg_loss_inr": -72.0,
+          "profit_factor": 0.206,
+          "expectancy_inr": -43.1,
+          "mean_net_r": -0.435,
+          "mean_gross_r": 0.046,
+          "total_pnl_inr": -10393.0,
+          "max_drawdown_inr": -10481.0,
+          "max_losing_streak": 21,
+          "total_charges_inr": 9687.0,
+          "avg_charges_inr": 40.2,
+          "median_notional_inr": 14842.0,
+          "target_rate": 0.133,
+          "stop_rate": 0.394,
+          "long_share": 0.515
+        },
+        "skipped_qty0": 0
+      },
+      "slippage_sensitivity_A_mean_net_r": {
+        "0.00%": {
+          "dev": -0.252,
+          "validation": -0.224,
+          "holdout": -0.202
+        },
+        "base": {
+          "dev": -0.344,
+          "validation": -0.321,
+          "holdout": -0.306
+        },
+        "0.05%": {
+          "dev": -0.391,
+          "validation": -0.37,
+          "holdout": -0.358
+        },
+        "0.10%": {
+          "dev": -0.48,
+          "validation": -0.462,
+          "holdout": -0.456
+        }
+      },
+      "rolling_6m": {
+        "windows": [
+          {
+            "window": "2017-01-01..2017-06-30",
+            "trades": 40,
+            "mean_net_r": -0.492
+          },
+          {
+            "window": "2017-07-01..2017-12-31",
+            "trades": 43,
+            "mean_net_r": -0.191
+          },
+          {
+            "window": "2018-01-01..2018-06-30",
+            "trades": 48,
+            "mean_net_r": -0.449
+          },
+          {
+            "window": "2018-07-01..2018-12-31",
+            "trades": 40,
+            "mean_net_r": -0.391
+          },
+          {
+            "window": "2019-01-01..2019-06-30",
+            "trades": 47,
+            "mean_net_r": -0.397
+          },
+          {
+            "window": "2019-07-01..2019-12-31",
+            "trades": 43,
+            "mean_net_r": -0.182
+          },
+          {
+            "window": "2020-01-01..2020-06-30",
+            "trades": 39,
+            "mean_net_r": -0.355
+          },
+          {
+            "window": "2020-07-01..2020-12-31",
+            "trades": 54,
+            "mean_net_r": -0.365
+          },
+          {
+            "window": "2021-01-01..2021-06-30",
+            "trades": 45,
+            "mean_net_r": -0.273
+          },
+          {
+            "window": "2021-07-01..2021-12-31",
+            "trades": 50,
+            "mean_net_r": -0.318
+          },
+          {
+            "window": "2022-01-01..2022-06-30",
+            "trades": 50,
+            "mean_net_r": -0.294
+          },
+          {
+            "window": "2022-07-01..2022-12-31",
+            "trades": 43,
+            "mean_net_r": -0.139
+          },
+          {
+            "window": "2023-01-01..2023-06-30",
+            "trades": 46,
+            "mean_net_r": -0.428
+          },
+          {
+            "window": "2023-07-01..2023-12-31",
+            "trades": 42,
+            "mean_net_r": -0.42
+          },
+          {
+            "window": "2024-01-01..2024-06-30",
+            "trades": 39,
+            "mean_net_r": -0.305
+          },
+          {
+            "window": "2024-07-01..2024-12-31",
+            "trades": 48,
+            "mean_net_r": -0.487
+          },
+          {
+            "window": "2025-01-01..2025-06-30",
+            "trades": 45,
+            "mean_net_r": -0.17
+          },
+          {
+            "window": "2025-07-01..2025-12-31",
+            "trades": 48,
+            "mean_net_r": -0.337
+          },
+          {
+            "window": "2026-01-01..2026-06-30",
+            "trades": 37,
+            "mean_net_r": -0.134
+          },
+          {
+            "window": "2026-07-01..2026-10-31",
+            "trades": 24,
+            "mean_net_r": -0.403
+          }
+        ],
+        "windows_used": 20,
+        "windows_positive": 0,
+        "share_positive": 0.0
+      },
+      "raw_signals_no_width_check": {
+        "dev": {
+          "trades": 474,
+          "mean_gross_r": -0.069,
+          "median_stop_pct": 0.381
+        },
+        "validation": {
+          "trades": 198,
+          "mean_gross_r": -0.01,
+          "median_stop_pct": 0.405
+        },
+        "holdout": {
+          "trades": 271,
+          "mean_gross_r": 0.017,
+          "median_stop_pct": 0.353
+        }
+      },
+      "exit_reasons_A": {
+        "time": 376,
+        "stop": 374,
+        "target": 121
+      },
+      "futures_min_lot_risk_inr_median": 1830.0,
+      "futures_share_within_300": 0.005,
+      "by_instrument_A": {
+        "BANKNIFTY": {
+          "trades": 517,
+          "win_rate": 0.327,
+          "avg_win_inr": 172.1,
+          "avg_loss_inr": -228.5,
+          "profit_factor": 0.366,
+          "expectancy_inr": -97.5,
+          "mean_net_r": -0.326,
+          "mean_gross_r": -0.001,
+          "total_pnl_inr": -50420.0,
+          "max_drawdown_inr": -50508.0,
+          "max_losing_streak": 13,
+          "total_charges_inr": 33968.0,
+          "avg_charges_inr": 65.7,
+          "median_notional_inr": 48377.0,
+          "target_rate": 0.153,
+          "stop_rate": 0.422,
+          "long_share": 0.563
+        },
+        "NIFTY": {
+          "trades": 563,
+          "win_rate": 0.311,
+          "avg_win_inr": 152.3,
+          "avg_loss_inr": -229.9,
+          "profit_factor": 0.299,
+          "expectancy_inr": -111.1,
+          "mean_net_r": -0.371,
+          "mean_gross_r": -0.06,
+          "total_pnl_inr": -62556.0,
+          "max_drawdown_inr": -62721.0,
+          "max_losing_streak": 12,
+          "total_charges_inr": 37692.0,
+          "avg_charges_inr": 66.9,
+          "median_notional_inr": 49666.0,
+          "target_rate": 0.119,
+          "stop_rate": 0.455,
+          "long_share": 0.584
+        }
+      },
+      "by_year_A": {
+        "2017": {
+          "trades": 83,
+          "win_rate": 0.325,
+          "avg_win_inr": 151.2,
+          "avg_loss_inr": -222.0,
+          "profit_factor": 0.328,
+          "expectancy_inr": -100.6,
+          "mean_net_r": -0.336,
+          "mean_gross_r": 0.005,
+          "total_pnl_inr": -8352.0,
+          "max_drawdown_inr": -8431.0,
+          "max_losing_streak": 9,
+          "total_charges_inr": 5670.0,
+          "avg_charges_inr": 68.3,
+          "median_notional_inr": 54460.0,
+          "target_rate": 0.096,
+          "stop_rate": 0.422,
+          "long_share": 0.627
+        },
+        "2018": {
+          "trades": 88,
+          "win_rate": 0.261,
+          "avg_win_inr": 160.8,
+          "avg_loss_inr": -228.4,
+          "profit_factor": 0.249,
+          "expectancy_inr": -126.7,
+          "mean_net_r": -0.423,
+          "mean_gross_r": -0.116,
+          "total_pnl_inr": -11147.0,
+          "max_drawdown_inr": -11147.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 6121.0,
+          "avg_charges_inr": 69.6,
+          "median_notional_inr": 56575.0,
+          "target_rate": 0.136,
+          "stop_rate": 0.489,
+          "long_share": 0.625
+        },
+        "2019": {
+          "trades": 90,
+          "win_rate": 0.378,
+          "avg_win_inr": 182.6,
+          "avg_loss_inr": -252.5,
+          "profit_factor": 0.439,
+          "expectancy_inr": -88.1,
+          "mean_net_r": -0.294,
+          "mean_gross_r": 0.064,
+          "total_pnl_inr": -7931.0,
+          "max_drawdown_inr": -8150.0,
+          "max_losing_streak": 6,
+          "total_charges_inr": 6232.0,
+          "avg_charges_inr": 69.2,
+          "median_notional_inr": 56648.0,
+          "target_rate": 0.178,
+          "stop_rate": 0.478,
+          "long_share": 0.6
+        },
+        "2020": {
+          "trades": 93,
+          "win_rate": 0.344,
+          "avg_win_inr": 163.1,
+          "avg_loss_inr": -250.3,
+          "profit_factor": 0.342,
+          "expectancy_inr": -108.0,
+          "mean_net_r": -0.361,
+          "mean_gross_r": -0.08,
+          "total_pnl_inr": -10048.0,
+          "max_drawdown_inr": -10358.0,
+          "max_losing_streak": 6,
+          "total_charges_inr": 5724.0,
+          "avg_charges_inr": 61.5,
+          "median_notional_inr": 39124.0,
+          "target_rate": 0.14,
+          "stop_rate": 0.473,
+          "long_share": 0.581
+        },
+        "2021": {
+          "trades": 95,
+          "win_rate": 0.358,
+          "avg_win_inr": 155.8,
+          "avg_loss_inr": -225.3,
+          "profit_factor": 0.386,
+          "expectancy_inr": -88.9,
+          "mean_net_r": -0.297,
+          "mean_gross_r": 0.005,
+          "total_pnl_inr": -8444.0,
+          "max_drawdown_inr": -8444.0,
+          "max_losing_streak": 8,
+          "total_charges_inr": 6039.0,
+          "avg_charges_inr": 63.6,
+          "median_notional_inr": 41058.0,
+          "target_rate": 0.105,
+          "stop_rate": 0.411,
+          "long_share": 0.632
+        },
+        "2022": {
+          "trades": 93,
+          "win_rate": 0.376,
+          "avg_win_inr": 198.2,
+          "avg_loss_inr": -226.4,
+          "profit_factor": 0.528,
+          "expectancy_inr": -66.6,
+          "mean_net_r": -0.223,
+          "mean_gross_r": 0.113,
+          "total_pnl_inr": -6191.0,
+          "max_drawdown_inr": -6556.0,
+          "max_losing_streak": 9,
+          "total_charges_inr": 5793.0,
+          "avg_charges_inr": 62.3,
+          "median_notional_inr": 37379.0,
+          "target_rate": 0.215,
+          "stop_rate": 0.387,
+          "long_share": 0.581
+        },
+        "2023": {
+          "trades": 88,
+          "win_rate": 0.273,
+          "avg_win_inr": 128.6,
+          "avg_loss_inr": -222.8,
+          "profit_factor": 0.216,
+          "expectancy_inr": -127.0,
+          "mean_net_r": -0.424,
+          "mean_gross_r": -0.095,
+          "total_pnl_inr": -11175.0,
+          "max_drawdown_inr": -11477.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 6138.0,
+          "avg_charges_inr": 69.7,
+          "median_notional_inr": 58305.0,
+          "target_rate": 0.114,
+          "stop_rate": 0.443,
+          "long_share": 0.614
+        },
+        "2024": {
+          "trades": 87,
+          "win_rate": 0.276,
+          "avg_win_inr": 174.5,
+          "avg_loss_inr": -233.8,
+          "profit_factor": 0.284,
+          "expectancy_inr": -121.2,
+          "mean_net_r": -0.405,
+          "mean_gross_r": -0.102,
+          "total_pnl_inr": -10543.0,
+          "max_drawdown_inr": -11212.0,
+          "max_losing_streak": 10,
+          "total_charges_inr": 5943.0,
+          "avg_charges_inr": 68.3,
+          "median_notional_inr": 53162.0,
+          "target_rate": 0.149,
+          "stop_rate": 0.471,
+          "long_share": 0.563
+        },
+        "2025": {
+          "trades": 93,
+          "win_rate": 0.366,
+          "avg_win_inr": 155.8,
+          "avg_loss_inr": -210.5,
+          "profit_factor": 0.427,
+          "expectancy_inr": -76.5,
+          "mean_net_r": -0.256,
+          "mean_gross_r": 0.161,
+          "total_pnl_inr": -7118.0,
+          "max_drawdown_inr": -8193.0,
+          "max_losing_streak": 9,
+          "total_charges_inr": 6387.0,
+          "avg_charges_inr": 68.7,
+          "median_notional_inr": 57024.0,
+          "target_rate": 0.161,
+          "stop_rate": 0.366,
+          "long_share": 0.516
+        },
+        "2026": {
+          "trades": 61,
+          "win_rate": 0.361,
+          "avg_win_inr": 144.4,
+          "avg_loss_inr": -193.8,
+          "profit_factor": 0.42,
+          "expectancy_inr": -71.8,
+          "mean_net_r": -0.24,
+          "mean_gross_r": 0.083,
+          "total_pnl_inr": -4380.0,
+          "max_drawdown_inr": -4824.0,
+          "max_losing_streak": 11,
+          "total_charges_inr": 3926.0,
+          "avg_charges_inr": 64.4,
+          "median_notional_inr": 43690.0,
+          "target_rate": 0.066,
+          "stop_rate": 0.328,
+          "long_share": 0.443
+        }
+      },
+      "checks": {
+        "dev >= 100 trades": true,
+        "dev mean net R > 0": false,
+        "dev CI above 0": false,
+        "dev PF >= 1.15": false,
+        "dev halves > 0": false,
+        "dev stress > 0": false,
+        "validation > 0": false,
+        "validation stress > 0": false,
+        "holdout > 0": false,
+        ">= 60% of 6-month windows positive": false
+      },
+      "status": "REJECTED"
+    }
+  }
+}

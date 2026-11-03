@@ -75,6 +75,11 @@ Notes:
 | SR-0068 | 0068, 0069 | Market intraday momentum | Gao, Han, Li & Zhou 2018 (JFE) | 1 | search-verified | REJECTED (no effect on NIFTY even gross) |
 | SR-0070 | 0070 | 5-min ORB on stocks in play | Zarattini & Aziz 2023 (SSRN) | 2 | rules UNVERIFIED | REJECTED (negative gross in 3 of 4 years) |
 | SR-0071 | 0071–0072 | 30-min NIFTY ORB grid (VWAP, ATR OR filter, volume 2026) | owner request; Crabel 1990 (book, not read) | owner / 3 | UNVERIFIED | REJECTED / DATA INSUFFICIENT (0 of 72 configs net positive; walk-forward 0/10) |
+| SR-0073 | 0073 | Power of Stocks 5 EMA | Subhashish Pani (Power of Stocks) | 3 / 4 | search-verified (original video not found) | REJECTED (gross +0.05..+0.3R on stocks, net negative; indices −0.4R) |
+| SR-0074 | 0074, 0075 | Supertrend(10,3) on 5-min, flip exit / 2R | Olivier Seban; marketcalls; YouTube | 4 | search-verified | REJECTED (0 of 28 six-month windows positive) |
+| SR-0076 | 0076 | Open = High / Open = Low | broker education (Kotak, Bajaj, Angel One), no creator | 2 / 4 | search-verified | REJECTED (negative even before costs on stocks dev) |
+| SR-0077 | 0077 | Narrow CPR breakout | Frank Ochoa (book 2010); Indian YouTube | 3 / 4 | search-verified (book not read) | REJECTED (≈0 gross, −0.24..−0.34R net) |
+| SR-0078 | 0078 | 9:20 ATM short straddle | X/Twitter option sellers; AlgoTest | 4 | search-verified | DATA INSUFFICIENT (no intraday option prices; fails ₹300 and no-derivatives rules) |
 
 Bookkeeping issues found while backfilling (not fixed here, to avoid rewriting other open PRs):
 * **EXP-0052 and EXP-0053 are used twice** on two open branches: the 09:35 ORB scan forward test (PR #19) and the

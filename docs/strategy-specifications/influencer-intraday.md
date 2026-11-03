@@ -1,6 +1,7 @@
 # Popular Indian influencer intraday setups (research only) — spec v0.1
 
-Status: **pre-registered, not run** (2026-11-03). Registry: EXP-0073..0078. Source register rows SR-0073..SR-0078.
+Status: **EXP-0073..0077 REJECTED, EXP-0078 DATA INSUFFICIENT** (run 2026-11-03, report
+`reports/backtests/EXP-0073-0078-report.md`; pre-registered with code and tests in 878473cd before the run). Registry: EXP-0073..0078. Source register rows SR-0073..SR-0078.
 Code: `src/trading_research/strategies/influencer.py`, runner `src/trading_research/backtesting/run_influencer.py`,
 tests `tests/test_influencer.py`. Nothing here places orders.
 
@@ -111,3 +112,8 @@ fills assumed at the price; charges not checked on Groww's live page; gaps can l
 
 ## Changelog
 * v0.1 (2026-11-03): first version, pre-registered before any run of these rules. Tests run: `tests/test_influencer.py`.
+* v0.1 result (2026-11-03): one run, no rule or parameter changed. All 10 rule × universe tests negative after costs in
+  every split (net −0.04R to −0.49R per trade); rolling 6-month windows 2/8 positive (5 EMA stocks) and 0 elsewhere.
+  Only the 5 EMA is positive before costs in every split (stocks +0.05..+0.32R, indices +0.07..+0.14R); costs at ₹300
+  risk are 0.2–0.45R. No paper phase. Impact on earlier results: none. A new test of a 5 EMA variant (e.g. wider stops)
+  would be a new hypothesis and needs unseen (forward) data.
