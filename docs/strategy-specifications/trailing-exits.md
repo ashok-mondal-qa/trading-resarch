@@ -1,6 +1,7 @@
 # Trailing-stop exits vs fixed targets on the morning scan entries (research only) — spec v0.1
 
-Status: **pre-registered 2026-11-03, before any run.** Registry: EXP-0082. Code: `src/trading_research/strategies/trailing_exits.py`, runner
+Status: **EXP-0082 REJECTED** (run 2026-11-03, report `reports/backtests/EXP-0082-report.md`; pre-registered in
+commit 86624896 before the run). Registry: EXP-0082. Code: `src/trading_research/strategies/trailing_exits.py`, runner
 `src/trading_research/backtesting/run_trailing.py`, tests `tests/test_trailing_exits.py`. Nothing here places orders.
 
 ## Why (label: owner hypothesis)
@@ -91,3 +92,8 @@ markets can lose more than planned risk.
 ## Changelog
 - v0.1 (2026-11-03): first version, pre-registered before any run. Tests: `tests/test_trailing_exits.py`.
   No earlier results affected. No holdout used (none left for this universe).
+- Result (2026-11-03, no rule change): **REJECTED.** 410 trades (EXP-0081 entries; F2 exits match EXP-0081 on 100%
+  of trades). Mean net Rs/trade at Groww costs: F2 2R -59.7, best trailing/partial -60.1 (P1), all 12 exits -59 to
+  -64 with 95% intervals below zero; gross already -6 to -11. No trailing exit beats 2R (paired -4.2..+0.5 Rs, all
+  intervals span zero). Only 31% of trades reach +1R, 10% +2R, 3% +3R, 0% +5R. Walk-forward -63.8 Rs/trade.
+  Impact: none on the live rule (EXP-0080 continues with 2R). Tests: `tests/test_trailing_exits.py`, full suite.
