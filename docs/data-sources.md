@@ -148,3 +148,17 @@ NIFTY expiry days come from the F&O bhavcopy (`run_expiry_reversal.expiry_calend
 its expiry date and never after (long-dated contracts can carry stale dates). Note: `fo_bhavcopy.load_day` skips a
 day whose committed manifest says ok even if the parquet is missing, so load into a scratch root
 (`load_day(d, root=data/fo_session)`) in a fresh container.
+
+## NSE stock and BANK NIFTY 1-minute bars (unofficial, 2026-11-02)
+`data/minute_vendor.py` reads two more GitHub vendors and keeps only days that match official NSE files:
+* **Stocks:** `ShabbirHasan1/NSE-Data` (GPL-3.0), 126 large/mid caps (vendor's 2021 list, alphabetical to TATACHEM:
+  survivorship bias), 1-min with volume, 2017-01..2020-12, split/bonus adjusted. Gate 1: the scale factors
+  official/vendor for the day's high and low (NSE CM bhavcopy, EQ) must agree within 0.10%; real prices = vendor ×
+  factor. 98,308 of 121,087 stock-days pass. Vendor names map to the NSE symbol of the date via `symbolchange.csv`.
+* **BANK NIFTY:** `sandeepkapri/BankNifty-Data` (MIT) 1-min 2015-01..2026-04-22, `day_check` vs `ind_close_all`.
+* The Shabbir NIFTY 50 file (2017–2020) is used only as the market filter for stocks.
+Run: load the NSE bhavcopy 2016-11..2020-12 and index files into a scratch root (`data/s17`, ~10 min with 6
+threads), fetch `symbolchange.csv` there, then `python -m trading_research.data.minute_vendor --shabbir <clone>
+--banknifty <clone> --official-root data/s17` (~1.5 min). The Shabbir repo is ~2.7 GB: clone with
+`--filter=blob:none --no-checkout` and sparse-checkout `/NSE Minute Data/` only (never `git ls-tree -l` on it,
+which downloads every blob). Manifest: `data/manifests/intraday_minute_vendor/manifest.json`.
