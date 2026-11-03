@@ -1,0 +1,31 @@
+{
+  "name": "trading-desk-execution",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Approval-gated execution engine (PAPER by default; LIVE_APPROVAL behind a hard gate) for AI Trading Desk India",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.test.json",
+    "test": "vitest run",
+    "test:unit": "vitest run test/unit",
+    "test:integration": "vitest run test/integration",
+    "test:e2e": "vitest run test/e2e",
+    "safety:attest": "node dist/tools/attest.js",
+    "start": "node dist/main.js",
+    "groww:probe": "node dist/tools/probe.js",
+    "cli": "node dist/cli.js"
+  },
+  "dependencies": {
+    "pg": "8.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.0",
+    "@types/pg": "8.15.5",
+    "typescript": "5.9.3",
+    "vitest": "3.2.4"
+  }
+}
