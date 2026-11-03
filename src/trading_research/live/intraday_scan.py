@@ -43,6 +43,7 @@ class Params:
     min_risk_atr: float = 0.15          # entry - stop, in ATR14 units
     max_risk_atr: float = 0.5
     target_r: float = 2.0
+    compare_targets: tuple = (1.5, 2.0, 3.0)  # reported next to the graded 2R outcome; not used for the pick
     tick: float = 0.05
     entry_buffer_pct: float = 0.05      # buy-stop this % above the opening-range high
     max_ideas: int = 1                  # owner's brief: at most one opportunity a day
@@ -322,6 +323,19 @@ def grade(idea: dict, bar: dict, p: Params = Params(), cost_mult: float = 1.0) -
             "r": round(gross - cost_mult * cost_r(entry, exit_, risk, p), 3)}
 
 
+def compare_targets(idea: dict, bar: dict, p: Params = Params()) -> dict:
+    """The same entry and stop graded with each target in p.compare_targets (owner's 1:1.5 / 1:2 / 1:3 question).
+    Same EOD-bar rule as `grade`, so a far target that was touched on a day the stop was also touched counts as a
+    stop. The graded EXP-0080 record stays the registered 2R one."""
+    risk = idea["entry"] - idea["stop"]
+    out = {}
+    for m in p.compare_targets:
+        alt = {**idea, "target": round(idea["entry"] + m * risk, 2)}
+        g = grade(alt, bar, p)
+        out[f"{m:g}R"] = {k: g[k] for k in ("outcome", "gross_r", "r") if k in g} | {"target": alt["target"]}
+    return out
+
+
 def score(day: date, ideas: dict, transport: Transport = http_transport) -> dict:
     graded = []
     for idea in ideas.get("ideas", []):
@@ -335,6 +349,7 @@ def score(day: date, ideas: dict, transport: Transport = http_transport) -> dict
             continue
         g = grade(idea, bars[0])
         g["r_2x_costs"] = grade(idea, bars[0], cost_mult=2.0)["r"]
+        g["by_target"] = compare_targets(idea, bars[0])
         g["bar"] = {k: bars[0][k] for k in ("open", "high", "low", "close")}
         graded.append(g)
     return {"experiment": ideas.get("experiment", EXPERIMENT), "day": day.isoformat(), "graded": graded}

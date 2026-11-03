@@ -126,6 +126,14 @@ def test_score_reads_that_days_bar():
     assert "no EOD bar" in out["graded"][0]["outcome"]
 
 
+def test_score_reports_each_comparison_target():
+    ideas = {"ideas": [{"symbol": "AAA", "entry": 100.0, "stop": 98.0, "target": 104.0}]}
+    t = fake_transport([], {"AAA": [{"date": "2026-11-02", "open": 99, "high": 104.5, "low": 99.0, "close": 103}]})
+    by = s.score(date(2026, 11, 2), ideas, t)["graded"][0]["by_target"]
+    assert [by[k]["outcome"] for k in ("1.5R", "2R", "3R")] == ["target", "target", "time exit (close)"]
+    assert by["1.5R"]["target"] == 103.0 and by["3R"]["gross_r"] == pytest.approx(1.5)
+
+
 def test_call_with_retries_survives_lost_sessions_and_timeouts(monkeypatch):
     errors = [s.McpError("Session not found"), TimeoutError("read timed out")]
 
