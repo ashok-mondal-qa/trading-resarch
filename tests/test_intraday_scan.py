@@ -1,0 +1,196 @@
+import json
+from datetime import date, datetime, timezone
+
+import pytest
+
+from trading_research.live import intraday_scan as s
+
+P = s.Params()
+
+
+def quote(symbol="AAA", ltp=1000.0, o=990.0, h=1001.0, lo=985.0, pc=985.0, value=50.0, ts="2026-11-02 09:33:00",
+          series="EQ"):
+    return {"symbol": symbol, "series": series, "lastTradedPrice": ltp, "openPrice": o, "highPrice": h,
+            "lowPrice": lo, "preClosePrice": pc, "perChange": round((ltp / pc - 1) * 100, 2), "value": value,
+            "volume": 1000, "latestTimestamp": ts}
+
+
+def daily(n=20, close=985.0, rng=60.0):
+    """n synthetic daily bars, each with true range `rng`, ending at `close`."""
+    bars = [{"date": f"2026-10-{i + 1:02d}", "open": close, "high": close + rng / 2, "low": close - rng / 2,
+             "close": close} for i in range(n)]
+    bars[-1]["high"] = close + 5
+    return bars
+
+
+def test_quote_screen_applies_each_filter_and_ranks_by_value():
+    good = quote("GOOD", value=80)
+    also = quote("ALSO", value=20)
+    rejects = [quote("THIN", value=5), quote("CHEAP", ltp=50, o=49.5, h=50.1, lo=49, pc=49.2),
+               quote("FLAT", ltp=986, o=985, h=986.5, pc=985), quote("GAPPER", o=1012, ltp=1013, h=1013.5, pc=985),
+               quote("FADING", ltp=995, h=1005), quote("BELOWOPEN", ltp=995, o=998, h=999),
+               quote("NIFTYBEES"), quote("SMEX", series="SM")]
+    assert [q["symbol"] for q in s.quote_screen([also, good] + rejects)] == ["GOOD", "ALSO"]
+
+
+def test_plan_sets_opening_range_levels():
+    idea, why = s.plan(quote(), daily(), P)
+    assert why == "ok"
+    assert idea["entry"] == 1001.55          # 0.05% above 1001, rounded up to the tick
+    assert idea["stop"] == 984.95            # one tick under the opening-range low
+    assert idea["target"] == pytest.approx(1001.55 + 2 * (1001.55 - 984.95), abs=0.05)
+    assert idea["atr14"] == round((13 * 60 + 35) / 14, 2)   # last bar: high close+5, low close-30
+
+
+@pytest.mark.parametrize("q,bars,reason", [
+    (quote(pc=980), daily(), "history close"),
+    (quote(), daily(n=10), "fewer than 15"),
+    (quote(ltp=989, h=989.5), daily(), "not above"),
+    (quote(lo=900), daily(), "outside"),                       # range too wide for 0.5 ATR
+    (quote(lo=999.5, h=1001), daily(rng=200), "outside"),      # range too narrow for 0.15 ATR
+])
+def test_plan_rejects(q, bars, reason):
+    idea, why = s.plan(q, bars, P)
+    assert idea is None and reason in why
+
+
+def test_quantity_caps_by_risk_and_cash():
+    assert s.quantity(1180, 1166, 17600) == 6
+    assert s.quantity(9845, 9745, 17600) == 0             # 88 / 100 rounds down to 0
+    assert s.quantity(100, 99.9, 10000) == 100               # cash cap, not 500 by risk
+
+
+def test_grade_resolves_ambiguity_against_the_idea():
+    idea = {"symbol": "AAA", "entry": 100.0, "stop": 98.0, "target": 103.0}
+    bar = lambda h, lo, c: {"open": 99, "high": h, "low": lo, "close": c}
+    assert s.grade(idea, bar(99.9, 97, 98))["outcome"] == "not triggered"
+    assert s.grade(idea, bar(104, 97.5, 103))["outcome"] == "stop"          # both touched -> stop
+    won = s.grade(idea, bar(104, 98.5, 103))
+    assert won["outcome"] == "target" and won["gross_r"] == 1.5 and won["r"] < 1.5
+    timed = s.grade(idea, bar(101, 98.5, 101))
+    assert timed["outcome"] == "time exit (close)" and timed["gross_r"] == 0.5
+    assert s.grade(idea, bar(104, 98.5, 103), cost_mult=2)["r"] < won["r"]
+
+
+def fake_transport(stocks, history):
+    def transport(url, payload, session_id):
+        if payload.get("method") != "tools/call":
+            return 200, {"mcp-session-id": "x"}, json.dumps({"jsonrpc": "2.0", "id": 1, "result": {}})
+        name, args = payload["params"]["name"], payload["params"]["arguments"]
+        if name == "cm_get_equity_stocks":
+            hits = [q for q in stocks if q["symbol"].startswith(args["symbolFilter"])]
+            body = {"returned": len(hits), "stocks": hits}
+        else:
+            body = {"data": history.get(args["symbol"], [])}
+        text = json.dumps(body)
+        return 200, {}, json.dumps({"jsonrpc": "2.0", "id": 2, "result": {"content": [{"type": "text", "text": text}]}})
+    return transport
+
+
+NOW = datetime(2026, 11, 2, 4, 5, tzinfo=timezone.utc)      # 09:35 IST
+
+
+def test_scan_end_to_end_picks_one_and_sizes():
+    stocks = [quote(f"S{i}", value=100 - i) for i in range(4)]
+    t = fake_transport(stocks, {f"S{i}": daily() for i in range(4)})
+    r = s.scan(NOW, t, capital=100000)
+    assert [i["symbol"] for i in r["ideas"]] == ["S0"] and r["also_passing"] == []
+    assert r["status"] == "APPROACHING"                        # LTP 1000 within 0.25% of 1001.55
+    assert r["ideas"][0]["qty"] == 30                          # 500 / 16.6 risk
+    md = s.render(r)
+    for field in ("Date:", "Market regime", "Market breadth", "Selected instrument: S0", "Direction: long",
+                  "Strategy:", "Entry: buy above 1001.55", "Stop-loss: 984.95", "Target:", "Risk/reward: 1:2.0",
+                  "Quantity: 30", "Maximum planned monetary risk", "Estimated costs", "Setup confirmation",
+                  "Invalidation condition", "Reason for selection", "Data timestamp",
+                  "Strategy backtest reference: none", "Status: APPROACHING"):
+        assert field in md, field
+
+
+def test_scan_stale_quotes_give_data_insufficient():
+    t = fake_transport([quote(ts="2026-10-30 15:29:59")], {})
+    r = s.scan(NOW, t)
+    assert r["status"] == "DATA INSUFFICIENT" and r["ideas"] == []
+
+
+def test_scan_with_nothing_passing_is_no_trade():
+    t = fake_transport([quote(ltp=986, h=986.5)], {})
+    assert s.scan(NOW, t)["status"] == "NO TRADE"
+
+
+def test_score_reads_that_days_bar():
+    ideas = {"ideas": [{"symbol": "AAA", "entry": 100.0, "stop": 98.0, "target": 103.0}]}
+    t = fake_transport([], {"AAA": [{"date": "2026-11-02", "open": 99, "high": 103.5, "low": 98.5, "close": 103}]})
+    out = s.score(date(2026, 11, 2), ideas, t)
+    assert out["graded"][0]["outcome"] == "target" and out["graded"][0]["r_2x_costs"] < out["graded"][0]["r"]
+    out = s.score(date(2026, 11, 3), ideas, t)
+    assert "no EOD bar" in out["graded"][0]["outcome"]
+
+
+def test_call_with_retries_survives_lost_sessions_and_timeouts(monkeypatch):
+    errors = [s.McpError("Session not found"), TimeoutError("read timed out")]
+
+    def flaky(url, name, args, transport):
+        if errors:
+            raise errors.pop(0)
+        return "ok"
+    monkeypatch.setattr(s.nse_mcp, "call_tool", flaky)
+    assert s._call_with_retries("u", "t", {}, None, pause_s=0) == "ok"
+    errors[:] = [s.McpError("x")] * 3
+    with pytest.raises(s.McpError):
+        s._call_with_retries("u", "t", {}, None, rounds=3, pause_s=0)
+
+
+def test_money_plan_sizes_from_risk_caps_by_cash_and_checks_charges():
+    idea = {"entry": 2539.3, "stop": 2506.95, "target": 2587.85}
+    m = s.money_plan(idea, 15000, 1.0, charges_inr=40)
+    assert m["qty"] == 4 and m["risk_inr"] == pytest.approx(129.4) and m["cash_needed"] <= 15000
+    assert m["reward_inr"] == pytest.approx(194.2) and m["charges_ok"]          # 194 >= 4 x 40
+    assert not s.money_plan(idea, 15000, 0.5, charges_inr=40)["charges_ok"]     # 2 shares: 97 < 160
+    pricey = {"entry": 9845.0, "stop": 9745.0, "target": 9995.0}
+    assert s.money_plan(pricey, 15000, 1.0, charges_inr=40)["qty"] == 1          # 150/100 -> 1, cash allows 1
+    assert s.money_plan(pricey, 5000, 1.0)["qty"] == 0 and not s.money_plan(pricey, 5000, 1.0)["charges_ok"]
+
+
+def test_round_trip_charges_caps_brokerage_per_order():
+    small = s.round_trip_charges(100, 101, 10)
+    big = s.round_trip_charges(1000, 1010, 1000)
+    assert small < 5                                     # 0.03% of Rs 1,000 orders
+    assert big > 2 * 20 * 1.18                           # both orders hit the Rs 20 cap, plus STT and fees
+
+
+def test_list_all_keeps_one_pick_and_lists_the_rest_as_watch():
+    stocks = [quote(f"S{i}", value=100 - i) for i in range(4)]
+    t = fake_transport(stocks, {f"S{i}": daily() for i in range(4)})
+    r = s.scan(NOW, t, capital=15000, risk_pct=2, list_all=True)
+    assert [i["symbol"] for i in r["ideas"]] == ["S0"]
+    assert [i["symbol"] for i in r["also_passing"]] == ["S1", "S2", "S3"]
+    md = s.render(r)
+    assert "Also passing" in md and "| S3 |" in md
+
+
+def test_lead_pick_skips_ideas_that_fail_the_charges_check():
+    stocks = [quote("BIG", value=90), quote("SMALL", value=80)]
+    t = fake_transport(stocks, {"BIG": daily(), "SMALL": daily()})
+    # Rs 1,000 at 2% = Rs 20 risk -> 1 share, profit at target ~Rs 33 < 4 x Rs 40: both fail -> NO TRADE
+    assert s.scan(NOW, t, capital=1000, risk_pct=2, charges_inr=40)["status"] == "NO TRADE"
+    r = s.scan(NOW, t, capital=15000, risk_pct=2, charges_inr=40)
+    assert r["ideas"][0]["symbol"] == "BIG" and r["ideas"][0]["risk_inr"] <= 300
+
+
+@pytest.mark.parametrize("ltp,high,low,status", [
+    (995, 1001, 985, "WATCH"),
+    (999.5, 1001, 985, "APPROACHING"),
+    (1003, 1004, 985, "ACTIVATED"),
+    (1040, 1040, 985, "ACTIVATED (TARGET HIT)"),
+    (990, 1004, 984.9, "INVALIDATED"),
+])
+def test_level_status(ltp, high, low, status):
+    idea = {"entry": 1001.55, "stop": 984.95, "target": 1034.75}
+    q = {"lastTradedPrice": ltp, "highPrice": high, "lowPrice": low}
+    assert s.level_status(idea, q) == status
+
+
+def test_fixed_rupee_cap_limits_risk():
+    idea = {"entry": 125.1, "stop": 119.95, "target": 135.4}
+    assert s.money_plan(idea, 15000, 2.0)["qty"] == 58                       # Rs 300 / 5.15
+    assert s.money_plan(idea, 30000, 2.0, max_risk_inr=300)["qty"] == 58      # cap holds as capital grows

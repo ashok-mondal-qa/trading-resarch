@@ -50,3 +50,17 @@ uv venv .venv && uv pip install -e '.[dev]'
 ```
 Commit `reports/forward/` and the Binance manifests. Results are interim until the decision rule in the spec
 says otherwise; never change a signal status or send an alert from them.
+
+## Weekday morning opening-range scan (EXP-0079, paper only)
+A scheduled task fires weekdays at 09:35 IST into the project thread that owns it. Each run, in a fresh or
+resumed container:
+```
+uv venv .venv && uv pip install -e '.[dev]'
+# 1. grade the previous session's ideas, if any (its EOD bar must exist)
+.venv/bin/python -m trading_research.live.intraday_scan score --day <previous session> --out-dir /mnt/project-files/trading-reports/intraday
+# 2. today's scan (about 3 minutes; stale quotes -> DATA INSUFFICIENT, e.g. on holidays)
+.venv/bin/python -m trading_research.live.intraday_scan scan --out-dir /mnt/project-files/trading-reports/intraday --capital <owner's capital> --risk-pct 2 --max-risk-inr 300 --charges-inr 40 --list-all
+```
+Live label check during the day: `intraday_scan status --out-dir /mnt/project-files/trading-reports/intraday`.
+Ideas and grades live in the project's shared folder (`trading-reports/intraday/<date>.json|.md|.score.json`),
+not in git. The run posts a short message to the owner. It never places orders.
