@@ -61,11 +61,21 @@ export class OcoManager {
 
     // Submitted but no id yet (response lost): resolve by reference before anything else.
     if (!t.ocoId && t.ocoClientRef && t.state === "PROTECTION_PENDING") {
-      const found = await this.broker.findOcoByClientRef(t.ocoClientRef, seg).catch(() => null);
+      let found: OcoSnapshot | null = null;
+      let lookupFailed = false;
+      try {
+        found = await this.broker.findOcoByClientRef(t.ocoClientRef, seg);
+      } catch (e) {
+        lookupFailed = true;
+        await this.ops.audit(t.tradeId, "OCO_LOOKUP_ERROR", { error: (e as Error).message, ref: t.ocoClientRef });
+      }
       if (found) {
         t = await this.ops.patch(t, { ocoId: found.brokerOcoId }, "OCO_FOUND_BY_REF", { ocoId: found.brokerOcoId, ref: t.ocoClientRef });
       } else if (this.elapsedSec(t.ocoSubmittedAt) > this.policy.confirmTimeoutSec) {
-        return this.fail(t, "OCO not found by reference after timeout", position);
+        // A failing lookup cannot rule out a live OCO, so no replacement is sent (two OCOs could oversell).
+        return lookupFailed
+          ? this.fail(t, "cannot confirm whether the OCO exists (lookup failing)", position, false)
+          : this.fail(t, "OCO not found by reference after timeout", position);
       } else return t;
     }
 
