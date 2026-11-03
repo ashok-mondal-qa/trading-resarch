@@ -1,6 +1,7 @@
 # Intraday ideas from the research source library (research only) — spec v0.1
 
-Status: **pre-registered 2026-11-03, before any run.** Registry: EXP-0068..0070. Sources: see
+Status: **REJECTED, all three** (run 2026-11-03, report `reports/backtests/EXP-0068-0070-report.md`). Pre-registered
+before any run (e466eada). Registry: EXP-0068..0070. Sources: see
 `docs/research/source-register.md` (rows SR-0068..SR-0070). Research and paper only; nothing here places orders.
 
 **Why (owner, 2026-11-03):** Ashok set a standing "research source library" rule: research strategies from tiered
@@ -103,3 +104,7 @@ verified; gaps and halts can lose more than the planned ₹300.
 
 ## Changelog
 * v0.1 (2026-11-03): first version, pre-registered before any run.
+* v0.1 result (2026-11-03): one run, no parameter changed. EXP-0068 −0.23R per trade in every split and every year;
+  no intraday momentum on NIFTY even gross (r1 vs last-half-hour correlation 0.0006). EXP-0069 the same. EXP-0070
+  −0.30R, gross negative in 3 of 4 years. All REJECTED. Tests: `tests/test_sourced_intraday.py`, full suite passing.
+  Impact on earlier results: none. No new holdout exists for these data; a revised rule would need forward data.
