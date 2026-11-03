@@ -1,4 +1,4 @@
-"""Morning opening-range scan on live NSE quotes (EXP-0053 = v0.2, forward test; never places orders).
+"""Morning opening-range scan on live NSE quotes (EXP-0080 = v0.2, forward test; never places orders).
 
 Spec: docs/strategy-specifications/intraday-orb-scan.md. Runs once at about 09:35 IST. It reads the
 NSE `cm-market` MCP (quotes 1-3 minutes behind real time) and the `nse-bhavcopy` MCP (daily history), and
@@ -28,7 +28,7 @@ from trading_research.data import nse_mcp
 from trading_research.data.nse_mcp import BHAVCOPY_URL, CM_MARKET_URL, McpError, Transport, http_transport
 
 IST = timezone(timedelta(hours=5, minutes=30))
-EXPERIMENT = "EXP-0053"        # v0.1 (1.5R target, 2 ideas) was EXP-0052
+EXPERIMENT = "EXP-0080"        # v0.1 (1.5R target, 2 ideas) was EXP-0079
 VERSION = "0.2"
 
 

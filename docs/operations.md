@@ -51,7 +51,7 @@ uv venv .venv && uv pip install -e '.[dev]'
 Commit `reports/forward/` and the Binance manifests. Results are interim until the decision rule in the spec
 says otherwise; never change a signal status or send an alert from them.
 
-## Weekday morning opening-range scan (EXP-0052, paper only)
+## Weekday morning opening-range scan (EXP-0079, paper only)
 A scheduled task fires weekdays at 09:35 IST into the project thread that owns it. Each run, in a fresh or
 resumed container:
 ```
