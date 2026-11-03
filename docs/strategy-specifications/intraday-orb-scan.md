@@ -108,3 +108,11 @@ symbol is skipped).
   targets (same entry and stop, same EOD-bar rule) next to the registered 2R grade, for the owner's R:R
   question. Only the 2R grade counts for EXP-0080. Pre-registered EXP-0081, a historical replay of the v0.2
   rule comparing targets (section above). Tests: `tests/test_intraday_scan.py`.
+- EXP-0081 result (2026-11-03, no rule change): **REJECTED** for this universe. 98,425 checked stock-days, 595
+  picked days, 411 triggered trades. Every target loses after costs (mean net Rs per trade, 1x: 1R -40.4,
+  1.5R -37.5, 2R -36.2, 3R -35.6, no target -37.7; all 95% intervals below zero), and the gross result is
+  already slightly negative, so a bigger target does not fix it: 3R was reached on 3% of trades, 2R on 10%.
+  The target choice moves the result by only a few rupees a trade. Report:
+  `reports/backtests/EXP-0081-orb-scan-replay.json` (+ `-trades.csv`). Impact: none on the live rule; the
+  forward test EXP-0080 continues, and this is evidence against expecting it to pass.
+
