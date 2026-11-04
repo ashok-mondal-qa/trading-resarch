@@ -102,7 +102,7 @@ def test_scan_end_to_end_picks_one_and_sizes():
                   "Strategy:", "Entry: buy above 1001.55", "Stop-loss: 984.95", "Target:", "Risk/reward: 1:2.0",
                   "Quantity: 30", "Maximum planned monetary risk", "Estimated costs", "Setup confirmation",
                   "Invalidation condition", "Reason for selection", "Data timestamp",
-                  "Strategy backtest reference: none", "Status: APPROACHING"):
+                  "Strategy backtest reference: EXP-0081", "Status: APPROACHING"):
         assert field in md, field
 
 

@@ -392,8 +392,9 @@ def render(result: dict) -> str:
                   "- Reason for selection: most traded stock passing every rule"
                   + (" and the charges check" if "qty" in i else ""),
                   f"- Data timestamp: {i.get('quote_time')} IST (NSE, 1-3 min delayed)",
-                  f"- Strategy backtest reference: none. No intraday history exists here; {result['experiment']} "
-                  "is a forward test, graded each next morning",
+                  "- Strategy backtest reference: EXP-0081 replay of this rule on 126 NSE stocks, 2017-2020: REJECTED "
+                  "(about -Rs 36 a trade after costs at every target 1R-3R). "
+                  f"{result['experiment']} is a forward test, graded each next morning",
                   f"- Status: {i.get('status')}"]
     if result["ideas"]:
         if result.get("also_passing"):
